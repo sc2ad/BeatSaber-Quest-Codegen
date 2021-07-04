@@ -96,57 +96,57 @@ namespace System::Globalization {
   static_assert(sizeof(Bootstring) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::Bootstring*, "System.Globalization", "Bootstring");
-// Writing MetadataGetter for method: Bootstring::New_ctor
+// Writing MetadataGetter for method: System::Globalization::Bootstring::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Bootstring::*)(::Il2CppChar, int, int, int, int, int, int, int)>(&Bootstring::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::Bootstring::*)(::Il2CppChar, int, int, int, int, int, int, int)>(&System::Globalization::Bootstring::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Bootstring*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::Bootstring*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Bootstring::*)(::Il2CppChar, int, int, int, int, int, int, int)>(&Bootstring::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::Bootstring::*)(::Il2CppChar, int, int, int, int, int, int, int)>(&System::Globalization::Bootstring::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Bootstring*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::Bootstring*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Bootstring::Encode
+// Writing MetadataGetter for method: System::Globalization::Bootstring::Encode
 // Il2CppName: Encode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Bootstring::*)(::Il2CppString*, int)>(&Bootstring::Encode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::Bootstring::*)(::Il2CppString*, int)>(&System::Globalization::Bootstring::Encode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Bootstring*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::Bootstring*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Bootstring::EncodeDigit
+// Writing MetadataGetter for method: System::Globalization::Bootstring::EncodeDigit
 // Il2CppName: EncodeDigit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (Bootstring::*)(int)>(&Bootstring::EncodeDigit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (System::Globalization::Bootstring::*)(int)>(&System::Globalization::Bootstring::EncodeDigit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Bootstring*), "EncodeDigit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::Bootstring*), "EncodeDigit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Bootstring::DecodeDigit
+// Writing MetadataGetter for method: System::Globalization::Bootstring::DecodeDigit
 // Il2CppName: DecodeDigit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Bootstring::*)(::Il2CppChar)>(&Bootstring::DecodeDigit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::Bootstring::*)(::Il2CppChar)>(&System::Globalization::Bootstring::DecodeDigit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Bootstring*), "DecodeDigit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::Bootstring*), "DecodeDigit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
   }
 };
-// Writing MetadataGetter for method: Bootstring::Adapt
+// Writing MetadataGetter for method: System::Globalization::Bootstring::Adapt
 // Il2CppName: Adapt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Bootstring::*)(int, int, bool)>(&Bootstring::Adapt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::Bootstring::*)(int, int, bool)>(&System::Globalization::Bootstring::Adapt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Bootstring*), "Adapt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::Bootstring*), "Adapt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Bootstring::Decode
+// Writing MetadataGetter for method: System::Globalization::Bootstring::Decode
 // Il2CppName: Decode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Bootstring::*)(::Il2CppString*, int)>(&Bootstring::Decode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::Bootstring::*)(::Il2CppString*, int)>(&System::Globalization::Bootstring::Decode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Bootstring*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::Bootstring*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };

@@ -117,67 +117,67 @@ namespace Org::BouncyCastle::Asn1::TeleTrust {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves");
-// Writing MetadataGetter for method: TeleTrusTNamedCurves::ConfigureBasepoint
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves::ConfigureBasepoint
 // Il2CppName: ConfigureBasepoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECPoint* (*)(Org::BouncyCastle::Math::EC::ECCurve*, ::Il2CppString*)>(&TeleTrusTNamedCurves::ConfigureBasepoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECPoint* (*)(Org::BouncyCastle::Math::EC::ECCurve*, ::Il2CppString*)>(&Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves::ConfigureBasepoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TeleTrusTNamedCurves*), "ConfigureBasepoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECCurve*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves*), "ConfigureBasepoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECCurve*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TeleTrusTNamedCurves::ConfigureCurve
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves::ConfigureCurve
 // Il2CppName: ConfigureCurve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECCurve* (*)(Org::BouncyCastle::Math::EC::ECCurve*)>(&TeleTrusTNamedCurves::ConfigureCurve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECCurve* (*)(Org::BouncyCastle::Math::EC::ECCurve*)>(&Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves::ConfigureCurve)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TeleTrusTNamedCurves*), "ConfigureCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECCurve*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves*), "ConfigureCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECCurve*>()});
   }
 };
-// Writing MetadataGetter for method: TeleTrusTNamedCurves::FromHex
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves::FromHex
 // Il2CppName: FromHex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (*)(::Il2CppString*)>(&TeleTrusTNamedCurves::FromHex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (*)(::Il2CppString*)>(&Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves::FromHex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TeleTrusTNamedCurves*), "FromHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves*), "FromHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TeleTrusTNamedCurves::DefineCurve
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves::DefineCurve
 // Il2CppName: DefineCurve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, Org::BouncyCastle::Asn1::DerObjectIdentifier*, Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*)>(&TeleTrusTNamedCurves::DefineCurve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, Org::BouncyCastle::Asn1::DerObjectIdentifier*, Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*)>(&Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves::DefineCurve)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TeleTrusTNamedCurves*), "DefineCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves*), "DefineCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*>()});
   }
 };
-// Writing MetadataGetter for method: TeleTrusTNamedCurves::_cctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TeleTrusTNamedCurves::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TeleTrusTNamedCurves*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TeleTrusTNamedCurves::GetByName
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves::GetByName
 // Il2CppName: GetByName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(::Il2CppString*)>(&TeleTrusTNamedCurves::GetByName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(::Il2CppString*)>(&Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves::GetByName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TeleTrusTNamedCurves*), "GetByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves*), "GetByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TeleTrusTNamedCurves::GetByOid
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves::GetByOid
 // Il2CppName: GetByOid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&TeleTrusTNamedCurves::GetByOid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves::GetByOid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TeleTrusTNamedCurves*), "GetByOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves*), "GetByOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>()});
   }
 };
-// Writing MetadataGetter for method: TeleTrusTNamedCurves::GetOid
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves::GetOid
 // Il2CppName: GetOid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerObjectIdentifier* (*)(::Il2CppString*)>(&TeleTrusTNamedCurves::GetOid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerObjectIdentifier* (*)(::Il2CppString*)>(&Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves::GetOid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TeleTrusTNamedCurves*), "GetOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves*), "GetOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };

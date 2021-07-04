@@ -57,57 +57,57 @@ namespace System::Net::NetworkInformation {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::NetworkInterface*, "System.Net.NetworkInformation", "NetworkInterface");
-// Writing MetadataGetter for method: NetworkInterface::GetAllNetworkInterfaces
+// Writing MetadataGetter for method: System::Net::NetworkInformation::NetworkInterface::GetAllNetworkInterfaces
 // Il2CppName: GetAllNetworkInterfaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Net::NetworkInformation::NetworkInterface*>* (*)()>(&NetworkInterface::GetAllNetworkInterfaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Net::NetworkInformation::NetworkInterface*>* (*)()>(&System::Net::NetworkInformation::NetworkInterface::GetAllNetworkInterfaces)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetworkInterface*), "GetAllNetworkInterfaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::NetworkInterface*), "GetAllNetworkInterfaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetworkInterface::get_Name
+// Writing MetadataGetter for method: System::Net::NetworkInformation::NetworkInterface::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NetworkInterface::*)()>(&NetworkInterface::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::NetworkInformation::NetworkInterface::*)()>(&System::Net::NetworkInformation::NetworkInterface::get_Name)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetworkInterface*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::NetworkInterface*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetworkInterface::GetIPProperties
+// Writing MetadataGetter for method: System::Net::NetworkInformation::NetworkInterface::GetIPProperties
 // Il2CppName: GetIPProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::IPInterfaceProperties* (NetworkInterface::*)()>(&NetworkInterface::GetIPProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::IPInterfaceProperties* (System::Net::NetworkInformation::NetworkInterface::*)()>(&System::Net::NetworkInformation::NetworkInterface::GetIPProperties)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetworkInterface*), "GetIPProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::NetworkInterface*), "GetIPProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetworkInterface::get_OperationalStatus
+// Writing MetadataGetter for method: System::Net::NetworkInformation::NetworkInterface::get_OperationalStatus
 // Il2CppName: get_OperationalStatus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::OperationalStatus (NetworkInterface::*)()>(&NetworkInterface::get_OperationalStatus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::OperationalStatus (System::Net::NetworkInformation::NetworkInterface::*)()>(&System::Net::NetworkInformation::NetworkInterface::get_OperationalStatus)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetworkInterface*), "get_OperationalStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::NetworkInterface*), "get_OperationalStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetworkInterface::get_NetworkInterfaceType
+// Writing MetadataGetter for method: System::Net::NetworkInformation::NetworkInterface::get_NetworkInterfaceType
 // Il2CppName: get_NetworkInterfaceType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::NetworkInterfaceType (NetworkInterface::*)()>(&NetworkInterface::get_NetworkInterfaceType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::NetworkInterfaceType (System::Net::NetworkInformation::NetworkInterface::*)()>(&System::Net::NetworkInformation::NetworkInterface::get_NetworkInterfaceType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetworkInterface*), "get_NetworkInterfaceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::NetworkInterface*), "get_NetworkInterfaceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetworkInterface::New_ctor
+// Writing MetadataGetter for method: System::Net::NetworkInformation::NetworkInterface::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkInterface::*)()>(&NetworkInterface::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::NetworkInterface::*)()>(&System::Net::NetworkInformation::NetworkInterface::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetworkInterface*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::NetworkInterface*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkInterface::*)()>(&NetworkInterface::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::NetworkInterface::*)()>(&System::Net::NetworkInformation::NetworkInterface::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetworkInterface*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::NetworkInterface*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

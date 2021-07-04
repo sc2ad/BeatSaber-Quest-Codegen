@@ -75,57 +75,57 @@ namespace HMUI {
   static_assert(sizeof(InputFieldView::$BlinkingCaretCoroutine$d__43) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43*, "HMUI", "InputFieldView/<BlinkingCaretCoroutine>d__43");
-// Writing MetadataGetter for method: InputFieldView::$BlinkingCaretCoroutine$d__43::New_ctor
+// Writing MetadataGetter for method: HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputFieldView::$BlinkingCaretCoroutine$d__43::*)(int)>(&InputFieldView::$BlinkingCaretCoroutine$d__43::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43::*)(int)>(&HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputFieldView::$BlinkingCaretCoroutine$d__43*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputFieldView::$BlinkingCaretCoroutine$d__43::*)(int)>(&InputFieldView::$BlinkingCaretCoroutine$d__43::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43::*)(int)>(&HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputFieldView::$BlinkingCaretCoroutine$d__43*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: InputFieldView::$BlinkingCaretCoroutine$d__43::System_IDisposable_Dispose
+// Writing MetadataGetter for method: HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43::System_IDisposable_Dispose
 // Il2CppName: System.IDisposable.Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputFieldView::$BlinkingCaretCoroutine$d__43::*)()>(&InputFieldView::$BlinkingCaretCoroutine$d__43::System_IDisposable_Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43::*)()>(&HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43::System_IDisposable_Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputFieldView::$BlinkingCaretCoroutine$d__43*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InputFieldView::$BlinkingCaretCoroutine$d__43::MoveNext
+// Writing MetadataGetter for method: HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43::MoveNext
 // Il2CppName: MoveNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InputFieldView::$BlinkingCaretCoroutine$d__43::*)()>(&InputFieldView::$BlinkingCaretCoroutine$d__43::MoveNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43::*)()>(&HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43::MoveNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputFieldView::$BlinkingCaretCoroutine$d__43*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InputFieldView::$BlinkingCaretCoroutine$d__43::System_Collections_Generic_IEnumerator$System_Object$_get_Current
+// Writing MetadataGetter for method: HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43::System_Collections_Generic_IEnumerator$System_Object$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (InputFieldView::$BlinkingCaretCoroutine$d__43::*)()>(&InputFieldView::$BlinkingCaretCoroutine$d__43::System_Collections_Generic_IEnumerator$System_Object$_get_Current)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43::*)()>(&HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43::System_Collections_Generic_IEnumerator$System_Object$_get_Current)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputFieldView::$BlinkingCaretCoroutine$d__43*), "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43*), "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InputFieldView::$BlinkingCaretCoroutine$d__43::System_Collections_IEnumerator_Reset
+// Writing MetadataGetter for method: HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43::System_Collections_IEnumerator_Reset
 // Il2CppName: System.Collections.IEnumerator.Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputFieldView::$BlinkingCaretCoroutine$d__43::*)()>(&InputFieldView::$BlinkingCaretCoroutine$d__43::System_Collections_IEnumerator_Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43::*)()>(&HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43::System_Collections_IEnumerator_Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputFieldView::$BlinkingCaretCoroutine$d__43*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InputFieldView::$BlinkingCaretCoroutine$d__43::System_Collections_IEnumerator_get_Current
+// Writing MetadataGetter for method: HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43::System_Collections_IEnumerator_get_Current
 // Il2CppName: System.Collections.IEnumerator.get_Current
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (InputFieldView::$BlinkingCaretCoroutine$d__43::*)()>(&InputFieldView::$BlinkingCaretCoroutine$d__43::System_Collections_IEnumerator_get_Current)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43::*)()>(&HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43::System_Collections_IEnumerator_get_Current)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputFieldView::$BlinkingCaretCoroutine$d__43*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldView::$BlinkingCaretCoroutine$d__43*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

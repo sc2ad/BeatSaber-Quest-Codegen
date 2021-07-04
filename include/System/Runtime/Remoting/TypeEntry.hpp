@@ -58,49 +58,49 @@ namespace System::Runtime::Remoting {
   static_assert(sizeof(TypeEntry) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::TypeEntry*, "System.Runtime.Remoting", "TypeEntry");
-// Writing MetadataGetter for method: TypeEntry::get_AssemblyName
+// Writing MetadataGetter for method: System::Runtime::Remoting::TypeEntry::get_AssemblyName
 // Il2CppName: get_AssemblyName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TypeEntry::*)()>(&TypeEntry::get_AssemblyName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::TypeEntry::*)()>(&System::Runtime::Remoting::TypeEntry::get_AssemblyName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeEntry*), "get_AssemblyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::TypeEntry*), "get_AssemblyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TypeEntry::set_AssemblyName
+// Writing MetadataGetter for method: System::Runtime::Remoting::TypeEntry::set_AssemblyName
 // Il2CppName: set_AssemblyName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TypeEntry::*)(::Il2CppString*)>(&TypeEntry::set_AssemblyName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::TypeEntry::*)(::Il2CppString*)>(&System::Runtime::Remoting::TypeEntry::set_AssemblyName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeEntry*), "set_AssemblyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::TypeEntry*), "set_AssemblyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TypeEntry::get_TypeName
+// Writing MetadataGetter for method: System::Runtime::Remoting::TypeEntry::get_TypeName
 // Il2CppName: get_TypeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TypeEntry::*)()>(&TypeEntry::get_TypeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::TypeEntry::*)()>(&System::Runtime::Remoting::TypeEntry::get_TypeName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeEntry*), "get_TypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::TypeEntry*), "get_TypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TypeEntry::set_TypeName
+// Writing MetadataGetter for method: System::Runtime::Remoting::TypeEntry::set_TypeName
 // Il2CppName: set_TypeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TypeEntry::*)(::Il2CppString*)>(&TypeEntry::set_TypeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::TypeEntry::*)(::Il2CppString*)>(&System::Runtime::Remoting::TypeEntry::set_TypeName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeEntry*), "set_TypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::TypeEntry*), "set_TypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TypeEntry::New_ctor
+// Writing MetadataGetter for method: System::Runtime::Remoting::TypeEntry::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TypeEntry::*)()>(&TypeEntry::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::TypeEntry::*)()>(&System::Runtime::Remoting::TypeEntry::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeEntry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::TypeEntry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TypeEntry::*)()>(&TypeEntry::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::TypeEntry::*)()>(&System::Runtime::Remoting::TypeEntry::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeEntry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::TypeEntry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

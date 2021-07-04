@@ -80,33 +80,33 @@ namespace Mono::Net {
   static_assert(sizeof(CFProxySettings) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFProxySettings*, "Mono.Net", "CFProxySettings");
-// Writing MetadataGetter for method: CFProxySettings::_cctor
+// Writing MetadataGetter for method: Mono::Net::CFProxySettings::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CFProxySettings::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Mono::Net::CFProxySettings::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CFProxySettings*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFProxySettings*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CFProxySettings::New_ctor
+// Writing MetadataGetter for method: Mono::Net::CFProxySettings::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CFProxySettings::*)(Mono::Net::CFDictionary*)>(&CFProxySettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::CFProxySettings::*)(Mono::Net::CFDictionary*)>(&Mono::Net::CFProxySettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CFProxySettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::CFDictionary*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFProxySettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::CFDictionary*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CFProxySettings::*)(Mono::Net::CFDictionary*)>(&CFProxySettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::CFProxySettings::*)(Mono::Net::CFDictionary*)>(&Mono::Net::CFProxySettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CFProxySettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::CFDictionary*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFProxySettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::CFDictionary*>()});
   }
 };
-// Writing MetadataGetter for method: CFProxySettings::get_Dictionary
+// Writing MetadataGetter for method: Mono::Net::CFProxySettings::get_Dictionary
 // Il2CppName: get_Dictionary
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::CFDictionary* (CFProxySettings::*)()>(&CFProxySettings::get_Dictionary)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::CFDictionary* (Mono::Net::CFProxySettings::*)()>(&Mono::Net::CFProxySettings::get_Dictionary)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CFProxySettings*), "get_Dictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFProxySettings*), "get_Dictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

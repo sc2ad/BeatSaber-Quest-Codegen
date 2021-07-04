@@ -109,103 +109,103 @@ namespace System::Net {
   static_assert(sizeof(FileWebStream) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FileWebStream*, "System.Net", "FileWebStream");
-// Writing MetadataGetter for method: FileWebStream::New_ctor
+// Writing MetadataGetter for method: System::Net::FileWebStream::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebStream::*)(System::Net::FileWebRequest*, ::Il2CppString*, System::IO::FileMode, System::IO::FileAccess, System::IO::FileShare)>(&FileWebStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FileWebStream::*)(System::Net::FileWebRequest*, ::Il2CppString*, System::IO::FileMode, System::IO::FileAccess, System::IO::FileShare)>(&System::Net::FileWebStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FileWebStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::FileWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileMode>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileAccess>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileShare>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FileWebStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::FileWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileMode>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileAccess>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileShare>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebStream::*)(System::Net::FileWebRequest*, ::Il2CppString*, System::IO::FileMode, System::IO::FileAccess, System::IO::FileShare)>(&FileWebStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FileWebStream::*)(System::Net::FileWebRequest*, ::Il2CppString*, System::IO::FileMode, System::IO::FileAccess, System::IO::FileShare)>(&System::Net::FileWebStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FileWebStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::FileWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileMode>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileAccess>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileShare>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FileWebStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::FileWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileMode>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileAccess>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileShare>()});
   }
 };
-// Writing MetadataGetter for method: FileWebStream::New_ctor
+// Writing MetadataGetter for method: System::Net::FileWebStream::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebStream::*)(System::Net::FileWebRequest*, ::Il2CppString*, System::IO::FileMode, System::IO::FileAccess, System::IO::FileShare, int, bool)>(&FileWebStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FileWebStream::*)(System::Net::FileWebRequest*, ::Il2CppString*, System::IO::FileMode, System::IO::FileAccess, System::IO::FileShare, int, bool)>(&System::Net::FileWebStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FileWebStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::FileWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileMode>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileAccess>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileShare>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FileWebStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::FileWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileMode>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileAccess>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileShare>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebStream::*)(System::Net::FileWebRequest*, ::Il2CppString*, System::IO::FileMode, System::IO::FileAccess, System::IO::FileShare, int, bool)>(&FileWebStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FileWebStream::*)(System::Net::FileWebRequest*, ::Il2CppString*, System::IO::FileMode, System::IO::FileAccess, System::IO::FileShare, int, bool)>(&System::Net::FileWebStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FileWebStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::FileWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileMode>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileAccess>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileShare>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FileWebStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::FileWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileMode>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileAccess>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileShare>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: FileWebStream::System_Net_ICloseEx_CloseEx
+// Writing MetadataGetter for method: System::Net::FileWebStream::System_Net_ICloseEx_CloseEx
 // Il2CppName: System.Net.ICloseEx.CloseEx
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebStream::*)(System::Net::CloseExState)>(&FileWebStream::System_Net_ICloseEx_CloseEx)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FileWebStream::*)(System::Net::CloseExState)>(&System::Net::FileWebStream::System_Net_ICloseEx_CloseEx)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FileWebStream*), "System.Net.ICloseEx.CloseEx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::CloseExState>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FileWebStream*), "System.Net.ICloseEx.CloseEx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::CloseExState>()});
   }
 };
-// Writing MetadataGetter for method: FileWebStream::CheckError
+// Writing MetadataGetter for method: System::Net::FileWebStream::CheckError
 // Il2CppName: CheckError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebStream::*)()>(&FileWebStream::CheckError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FileWebStream::*)()>(&System::Net::FileWebStream::CheckError)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FileWebStream*), "CheckError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FileWebStream*), "CheckError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FileWebStream::Dispose
+// Writing MetadataGetter for method: System::Net::FileWebStream::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebStream::*)(bool)>(&FileWebStream::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FileWebStream::*)(bool)>(&System::Net::FileWebStream::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FileWebStream*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FileWebStream*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: FileWebStream::Read
+// Writing MetadataGetter for method: System::Net::FileWebStream::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (FileWebStream::*)(::Array<uint8_t>*, int, int)>(&FileWebStream::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::FileWebStream::*)(::Array<uint8_t>*, int, int)>(&System::Net::FileWebStream::Read)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FileWebStream*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FileWebStream*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: FileWebStream::Write
+// Writing MetadataGetter for method: System::Net::FileWebStream::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebStream::*)(::Array<uint8_t>*, int, int)>(&FileWebStream::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FileWebStream::*)(::Array<uint8_t>*, int, int)>(&System::Net::FileWebStream::Write)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FileWebStream*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FileWebStream*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: FileWebStream::BeginRead
+// Writing MetadataGetter for method: System::Net::FileWebStream::BeginRead
 // Il2CppName: BeginRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (FileWebStream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&FileWebStream::BeginRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::FileWebStream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::FileWebStream::BeginRead)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FileWebStream*), "BeginRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FileWebStream*), "BeginRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: FileWebStream::EndRead
+// Writing MetadataGetter for method: System::Net::FileWebStream::EndRead
 // Il2CppName: EndRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (FileWebStream::*)(System::IAsyncResult*)>(&FileWebStream::EndRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::FileWebStream::*)(System::IAsyncResult*)>(&System::Net::FileWebStream::EndRead)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FileWebStream*), "EndRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FileWebStream*), "EndRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };
-// Writing MetadataGetter for method: FileWebStream::BeginWrite
+// Writing MetadataGetter for method: System::Net::FileWebStream::BeginWrite
 // Il2CppName: BeginWrite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (FileWebStream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&FileWebStream::BeginWrite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::FileWebStream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::FileWebStream::BeginWrite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FileWebStream*), "BeginWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FileWebStream*), "BeginWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: FileWebStream::EndWrite
+// Writing MetadataGetter for method: System::Net::FileWebStream::EndWrite
 // Il2CppName: EndWrite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileWebStream::*)(System::IAsyncResult*)>(&FileWebStream::EndWrite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FileWebStream::*)(System::IAsyncResult*)>(&System::Net::FileWebStream::EndWrite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FileWebStream*), "EndWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FileWebStream*), "EndWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

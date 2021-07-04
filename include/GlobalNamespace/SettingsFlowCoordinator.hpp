@@ -180,105 +180,105 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsFlowCoordinator*, "", "SettingsFlowCoordinator");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsFlowCoordinator::FinishAction, "", "SettingsFlowCoordinator/FinishAction");
-// Writing MetadataGetter for method: SettingsFlowCoordinator::add_didFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::SettingsFlowCoordinator::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SettingsFlowCoordinator::*)(System::Action_2<GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction>*)>(&SettingsFlowCoordinator::add_didFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SettingsFlowCoordinator::*)(System::Action_2<GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction>*)>(&GlobalNamespace::SettingsFlowCoordinator::add_didFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SettingsFlowCoordinator*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SettingsFlowCoordinator*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction>*>()});
   }
 };
-// Writing MetadataGetter for method: SettingsFlowCoordinator::remove_didFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::SettingsFlowCoordinator::remove_didFinishEvent
 // Il2CppName: remove_didFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SettingsFlowCoordinator::*)(System::Action_2<GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction>*)>(&SettingsFlowCoordinator::remove_didFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SettingsFlowCoordinator::*)(System::Action_2<GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction>*)>(&GlobalNamespace::SettingsFlowCoordinator::remove_didFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SettingsFlowCoordinator*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SettingsFlowCoordinator*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction>*>()});
   }
 };
-// Writing MetadataGetter for method: SettingsFlowCoordinator::ShowSecretViewController
+// Writing MetadataGetter for method: GlobalNamespace::SettingsFlowCoordinator::ShowSecretViewController
 // Il2CppName: ShowSecretViewController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SettingsFlowCoordinator::*)(HMUI::ViewController*)>(&SettingsFlowCoordinator::ShowSecretViewController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SettingsFlowCoordinator::*)(HMUI::ViewController*)>(&GlobalNamespace::SettingsFlowCoordinator::ShowSecretViewController)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SettingsFlowCoordinator*), "ShowSecretViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SettingsFlowCoordinator*), "ShowSecretViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>()});
   }
 };
-// Writing MetadataGetter for method: SettingsFlowCoordinator::HandleDidSelectSettingsSubMenu
+// Writing MetadataGetter for method: GlobalNamespace::SettingsFlowCoordinator::HandleDidSelectSettingsSubMenu
 // Il2CppName: HandleDidSelectSettingsSubMenu
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SettingsFlowCoordinator::*)(GlobalNamespace::SettingsSubMenuInfo*, int)>(&SettingsFlowCoordinator::HandleDidSelectSettingsSubMenu)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SettingsFlowCoordinator::*)(GlobalNamespace::SettingsSubMenuInfo*, int)>(&GlobalNamespace::SettingsFlowCoordinator::HandleDidSelectSettingsSubMenu)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SettingsFlowCoordinator*), "HandleDidSelectSettingsSubMenu", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SettingsSubMenuInfo*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SettingsFlowCoordinator*), "HandleDidSelectSettingsSubMenu", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SettingsSubMenuInfo*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SettingsFlowCoordinator::ReplaceViewController
+// Writing MetadataGetter for method: GlobalNamespace::SettingsFlowCoordinator::ReplaceViewController
 // Il2CppName: ReplaceViewController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SettingsFlowCoordinator::*)(HMUI::ViewController*)>(&SettingsFlowCoordinator::ReplaceViewController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SettingsFlowCoordinator::*)(HMUI::ViewController*)>(&GlobalNamespace::SettingsFlowCoordinator::ReplaceViewController)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SettingsFlowCoordinator*), "ReplaceViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SettingsFlowCoordinator*), "ReplaceViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>()});
   }
 };
-// Writing MetadataGetter for method: SettingsFlowCoordinator::HandleSettingsNavigationControllerDidFinish
+// Writing MetadataGetter for method: GlobalNamespace::SettingsFlowCoordinator::HandleSettingsNavigationControllerDidFinish
 // Il2CppName: HandleSettingsNavigationControllerDidFinish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SettingsFlowCoordinator::*)(GlobalNamespace::SettingsNavigationController::FinishAction)>(&SettingsFlowCoordinator::HandleSettingsNavigationControllerDidFinish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SettingsFlowCoordinator::*)(GlobalNamespace::SettingsNavigationController::FinishAction)>(&GlobalNamespace::SettingsFlowCoordinator::HandleSettingsNavigationControllerDidFinish)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SettingsFlowCoordinator*), "HandleSettingsNavigationControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SettingsNavigationController::FinishAction>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SettingsFlowCoordinator*), "HandleSettingsNavigationControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SettingsNavigationController::FinishAction>()});
   }
 };
-// Writing MetadataGetter for method: SettingsFlowCoordinator::ApplySettings
+// Writing MetadataGetter for method: GlobalNamespace::SettingsFlowCoordinator::ApplySettings
 // Il2CppName: ApplySettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SettingsFlowCoordinator::*)()>(&SettingsFlowCoordinator::ApplySettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SettingsFlowCoordinator::*)()>(&GlobalNamespace::SettingsFlowCoordinator::ApplySettings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SettingsFlowCoordinator*), "ApplySettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SettingsFlowCoordinator*), "ApplySettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SettingsFlowCoordinator::CancelSettings
+// Writing MetadataGetter for method: GlobalNamespace::SettingsFlowCoordinator::CancelSettings
 // Il2CppName: CancelSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SettingsFlowCoordinator::*)()>(&SettingsFlowCoordinator::CancelSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SettingsFlowCoordinator::*)()>(&GlobalNamespace::SettingsFlowCoordinator::CancelSettings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SettingsFlowCoordinator*), "CancelSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SettingsFlowCoordinator*), "CancelSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SettingsFlowCoordinator::DidActivate
+// Writing MetadataGetter for method: GlobalNamespace::SettingsFlowCoordinator::DidActivate
 // Il2CppName: DidActivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SettingsFlowCoordinator::*)(bool, bool, bool)>(&SettingsFlowCoordinator::DidActivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SettingsFlowCoordinator::*)(bool, bool, bool)>(&GlobalNamespace::SettingsFlowCoordinator::DidActivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SettingsFlowCoordinator*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SettingsFlowCoordinator*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: SettingsFlowCoordinator::DidDeactivate
+// Writing MetadataGetter for method: GlobalNamespace::SettingsFlowCoordinator::DidDeactivate
 // Il2CppName: DidDeactivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SettingsFlowCoordinator::*)(bool, bool)>(&SettingsFlowCoordinator::DidDeactivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SettingsFlowCoordinator::*)(bool, bool)>(&GlobalNamespace::SettingsFlowCoordinator::DidDeactivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SettingsFlowCoordinator*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SettingsFlowCoordinator*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: SettingsFlowCoordinator::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::SettingsFlowCoordinator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SettingsFlowCoordinator::*)()>(&SettingsFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SettingsFlowCoordinator::*)()>(&GlobalNamespace::SettingsFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SettingsFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SettingsFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SettingsFlowCoordinator::*)()>(&SettingsFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SettingsFlowCoordinator::*)()>(&GlobalNamespace::SettingsFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SettingsFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SettingsFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SettingsFlowCoordinator::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::SettingsFlowCoordinator::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SettingsFlowCoordinator::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::SettingsFlowCoordinator::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SettingsFlowCoordinator*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SettingsFlowCoordinator*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

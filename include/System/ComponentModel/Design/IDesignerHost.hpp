@@ -35,11 +35,11 @@ namespace System::ComponentModel::Design {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Design::IDesignerHost*, "System.ComponentModel.Design", "IDesignerHost");
-// Writing MetadataGetter for method: IDesignerHost::get_RootComponent
+// Writing MetadataGetter for method: System::ComponentModel::Design::IDesignerHost::get_RootComponent
 // Il2CppName: get_RootComponent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ComponentModel::IComponent* (IDesignerHost::*)()>(&IDesignerHost::get_RootComponent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ComponentModel::IComponent* (System::ComponentModel::Design::IDesignerHost::*)()>(&System::ComponentModel::Design::IDesignerHost::get_RootComponent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IDesignerHost*), "get_RootComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::Design::IDesignerHost*), "get_RootComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

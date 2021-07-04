@@ -98,79 +98,79 @@ namespace System::Net::Http::Headers {
   static_assert(sizeof(ContentDispositionHeaderValue) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::ContentDispositionHeaderValue*, "System.Net.Http.Headers", "ContentDispositionHeaderValue");
-// Writing MetadataGetter for method: ContentDispositionHeaderValue::New_ctor
+// Writing MetadataGetter for method: System::Net::Http::Headers::ContentDispositionHeaderValue::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentDispositionHeaderValue::*)(System::Net::Http::Headers::ContentDispositionHeaderValue*)>(&ContentDispositionHeaderValue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::ContentDispositionHeaderValue::*)(System::Net::Http::Headers::ContentDispositionHeaderValue*)>(&System::Net::Http::Headers::ContentDispositionHeaderValue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContentDispositionHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::ContentDispositionHeaderValue*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ContentDispositionHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::ContentDispositionHeaderValue*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentDispositionHeaderValue::*)(System::Net::Http::Headers::ContentDispositionHeaderValue*)>(&ContentDispositionHeaderValue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::ContentDispositionHeaderValue::*)(System::Net::Http::Headers::ContentDispositionHeaderValue*)>(&System::Net::Http::Headers::ContentDispositionHeaderValue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContentDispositionHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::ContentDispositionHeaderValue*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ContentDispositionHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::ContentDispositionHeaderValue*>()});
   }
 };
-// Writing MetadataGetter for method: ContentDispositionHeaderValue::get_Parameters
+// Writing MetadataGetter for method: System::Net::Http::Headers::ContentDispositionHeaderValue::get_Parameters
 // Il2CppName: get_Parameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::ICollection_1<System::Net::Http::Headers::NameValueHeaderValue*>* (ContentDispositionHeaderValue::*)()>(&ContentDispositionHeaderValue::get_Parameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::ICollection_1<System::Net::Http::Headers::NameValueHeaderValue*>* (System::Net::Http::Headers::ContentDispositionHeaderValue::*)()>(&System::Net::Http::Headers::ContentDispositionHeaderValue::get_Parameters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContentDispositionHeaderValue*), "get_Parameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ContentDispositionHeaderValue*), "get_Parameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ContentDispositionHeaderValue::System_ICloneable_Clone
+// Writing MetadataGetter for method: System::Net::Http::Headers::ContentDispositionHeaderValue::System_ICloneable_Clone
 // Il2CppName: System.ICloneable.Clone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ContentDispositionHeaderValue::*)()>(&ContentDispositionHeaderValue::System_ICloneable_Clone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Net::Http::Headers::ContentDispositionHeaderValue::*)()>(&System::Net::Http::Headers::ContentDispositionHeaderValue::System_ICloneable_Clone)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContentDispositionHeaderValue*), "System.ICloneable.Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ContentDispositionHeaderValue*), "System.ICloneable.Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ContentDispositionHeaderValue::TryParse
+// Writing MetadataGetter for method: System::Net::Http::Headers::ContentDispositionHeaderValue::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Net::Http::Headers::ContentDispositionHeaderValue*&)>(&ContentDispositionHeaderValue::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Net::Http::Headers::ContentDispositionHeaderValue*&)>(&System::Net::Http::Headers::ContentDispositionHeaderValue::TryParse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContentDispositionHeaderValue*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::ContentDispositionHeaderValue*&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ContentDispositionHeaderValue*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::ContentDispositionHeaderValue*&>()});
   }
 };
-// Writing MetadataGetter for method: ContentDispositionHeaderValue::New_ctor
+// Writing MetadataGetter for method: System::Net::Http::Headers::ContentDispositionHeaderValue::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentDispositionHeaderValue::*)()>(&ContentDispositionHeaderValue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::ContentDispositionHeaderValue::*)()>(&System::Net::Http::Headers::ContentDispositionHeaderValue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContentDispositionHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ContentDispositionHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentDispositionHeaderValue::*)()>(&ContentDispositionHeaderValue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::ContentDispositionHeaderValue::*)()>(&System::Net::Http::Headers::ContentDispositionHeaderValue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContentDispositionHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ContentDispositionHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ContentDispositionHeaderValue::Equals
+// Writing MetadataGetter for method: System::Net::Http::Headers::ContentDispositionHeaderValue::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ContentDispositionHeaderValue::*)(::Il2CppObject*)>(&ContentDispositionHeaderValue::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::ContentDispositionHeaderValue::*)(::Il2CppObject*)>(&System::Net::Http::Headers::ContentDispositionHeaderValue::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContentDispositionHeaderValue*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ContentDispositionHeaderValue*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: ContentDispositionHeaderValue::GetHashCode
+// Writing MetadataGetter for method: System::Net::Http::Headers::ContentDispositionHeaderValue::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ContentDispositionHeaderValue::*)()>(&ContentDispositionHeaderValue::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Http::Headers::ContentDispositionHeaderValue::*)()>(&System::Net::Http::Headers::ContentDispositionHeaderValue::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContentDispositionHeaderValue*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ContentDispositionHeaderValue*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ContentDispositionHeaderValue::ToString
+// Writing MetadataGetter for method: System::Net::Http::Headers::ContentDispositionHeaderValue::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ContentDispositionHeaderValue::*)()>(&ContentDispositionHeaderValue::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::ContentDispositionHeaderValue::*)()>(&System::Net::Http::Headers::ContentDispositionHeaderValue::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContentDispositionHeaderValue*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ContentDispositionHeaderValue*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

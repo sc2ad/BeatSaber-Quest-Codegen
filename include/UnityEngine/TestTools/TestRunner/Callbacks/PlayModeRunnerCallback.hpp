@@ -85,65 +85,65 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   static_assert(sizeof(PlayModeRunnerCallback) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback*, "UnityEngine.TestTools.TestRunner.Callbacks", "PlayModeRunnerCallback");
-// Writing MetadataGetter for method: PlayModeRunnerCallback::RunFinished
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback::RunFinished
 // Il2CppName: RunFinished
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayModeRunnerCallback::*)(NUnit::Framework::Interfaces::ITestResult*)>(&PlayModeRunnerCallback::RunFinished)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback::*)(NUnit::Framework::Interfaces::ITestResult*)>(&UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback::RunFinished)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayModeRunnerCallback*), "RunFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback*), "RunFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestResult*>()});
   }
 };
-// Writing MetadataGetter for method: PlayModeRunnerCallback::TestFinished
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback::TestFinished
 // Il2CppName: TestFinished
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayModeRunnerCallback::*)(NUnit::Framework::Interfaces::ITestResult*)>(&PlayModeRunnerCallback::TestFinished)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback::*)(NUnit::Framework::Interfaces::ITestResult*)>(&UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback::TestFinished)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayModeRunnerCallback*), "TestFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback*), "TestFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestResult*>()});
   }
 };
-// Writing MetadataGetter for method: PlayModeRunnerCallback::OnGUI
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback::OnGUI
 // Il2CppName: OnGUI
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayModeRunnerCallback::*)()>(&PlayModeRunnerCallback::OnGUI)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback::*)()>(&UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback::OnGUI)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayModeRunnerCallback*), "OnGUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback*), "OnGUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayModeRunnerCallback::RunStarted
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback::RunStarted
 // Il2CppName: RunStarted
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayModeRunnerCallback::*)(NUnit::Framework::Interfaces::ITest*)>(&PlayModeRunnerCallback::RunStarted)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback::*)(NUnit::Framework::Interfaces::ITest*)>(&UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback::RunStarted)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayModeRunnerCallback*), "RunStarted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback*), "RunStarted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
   }
 };
-// Writing MetadataGetter for method: PlayModeRunnerCallback::TestStarted
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback::TestStarted
 // Il2CppName: TestStarted
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayModeRunnerCallback::*)(NUnit::Framework::Interfaces::ITest*)>(&PlayModeRunnerCallback::TestStarted)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback::*)(NUnit::Framework::Interfaces::ITest*)>(&UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback::TestStarted)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayModeRunnerCallback*), "TestStarted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback*), "TestStarted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
   }
 };
-// Writing MetadataGetter for method: PlayModeRunnerCallback::LogRecieved
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback::LogRecieved
 // Il2CppName: LogRecieved
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayModeRunnerCallback::*)(::Il2CppString*, ::Il2CppString*, UnityEngine::LogType)>(&PlayModeRunnerCallback::LogRecieved)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback::*)(::Il2CppString*, ::Il2CppString*, UnityEngine::LogType)>(&UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback::LogRecieved)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayModeRunnerCallback*), "LogRecieved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::LogType>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback*), "LogRecieved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::LogType>()});
   }
 };
-// Writing MetadataGetter for method: PlayModeRunnerCallback::New_ctor
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayModeRunnerCallback::*)()>(&PlayModeRunnerCallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback::*)()>(&UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayModeRunnerCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayModeRunnerCallback::*)()>(&PlayModeRunnerCallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback::*)()>(&UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayModeRunnerCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

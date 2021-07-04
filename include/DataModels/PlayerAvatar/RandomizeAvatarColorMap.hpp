@@ -53,33 +53,33 @@ namespace DataModels::PlayerAvatar {
   static_assert(sizeof(RandomizeAvatarColorMap) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(DataModels::PlayerAvatar::RandomizeAvatarColorMap*, "DataModels.PlayerAvatar", "RandomizeAvatarColorMap");
-// Writing MetadataGetter for method: RandomizeAvatarColorMap::get_totalIndices
+// Writing MetadataGetter for method: DataModels::PlayerAvatar::RandomizeAvatarColorMap::get_totalIndices
 // Il2CppName: get_totalIndices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RandomizeAvatarColorMap::*)()>(&RandomizeAvatarColorMap::get_totalIndices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DataModels::PlayerAvatar::RandomizeAvatarColorMap::*)()>(&DataModels::PlayerAvatar::RandomizeAvatarColorMap::get_totalIndices)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RandomizeAvatarColorMap*), "get_totalIndices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(DataModels::PlayerAvatar::RandomizeAvatarColorMap*), "get_totalIndices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RandomizeAvatarColorMap::get_colorIndices
+// Writing MetadataGetter for method: DataModels::PlayerAvatar::RandomizeAvatarColorMap::get_colorIndices
 // Il2CppName: get_colorIndices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (RandomizeAvatarColorMap::*)()>(&RandomizeAvatarColorMap::get_colorIndices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (DataModels::PlayerAvatar::RandomizeAvatarColorMap::*)()>(&DataModels::PlayerAvatar::RandomizeAvatarColorMap::get_colorIndices)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RandomizeAvatarColorMap*), "get_colorIndices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(DataModels::PlayerAvatar::RandomizeAvatarColorMap*), "get_colorIndices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RandomizeAvatarColorMap::New_ctor
+// Writing MetadataGetter for method: DataModels::PlayerAvatar::RandomizeAvatarColorMap::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomizeAvatarColorMap::*)(int, int, int, int, int, int, int, int)>(&RandomizeAvatarColorMap::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DataModels::PlayerAvatar::RandomizeAvatarColorMap::*)(int, int, int, int, int, int, int, int)>(&DataModels::PlayerAvatar::RandomizeAvatarColorMap::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RandomizeAvatarColorMap*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(DataModels::PlayerAvatar::RandomizeAvatarColorMap*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RandomizeAvatarColorMap::*)(int, int, int, int, int, int, int, int)>(&RandomizeAvatarColorMap::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DataModels::PlayerAvatar::RandomizeAvatarColorMap::*)(int, int, int, int, int, int, int, int)>(&DataModels::PlayerAvatar::RandomizeAvatarColorMap::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RandomizeAvatarColorMap*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(DataModels::PlayerAvatar::RandomizeAvatarColorMap*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };

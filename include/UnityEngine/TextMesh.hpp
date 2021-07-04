@@ -40,27 +40,27 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextMesh*, "UnityEngine", "TextMesh");
-// Writing MetadataGetter for method: TextMesh::set_text
+// Writing MetadataGetter for method: UnityEngine::TextMesh::set_text
 // Il2CppName: set_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMesh::*)(::Il2CppString*)>(&TextMesh::set_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextMesh::*)(::Il2CppString*)>(&UnityEngine::TextMesh::set_text)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextMesh*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextMesh*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TextMesh::get_alignment
+// Writing MetadataGetter for method: UnityEngine::TextMesh::get_alignment
 // Il2CppName: get_alignment
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextAlignment (TextMesh::*)()>(&TextMesh::get_alignment)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextAlignment (UnityEngine::TextMesh::*)()>(&UnityEngine::TextMesh::get_alignment)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextMesh*), "get_alignment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextMesh*), "get_alignment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextMesh::set_alignment
+// Writing MetadataGetter for method: UnityEngine::TextMesh::set_alignment
 // Il2CppName: set_alignment
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextMesh::*)(UnityEngine::TextAlignment)>(&TextMesh::set_alignment)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextMesh::*)(UnityEngine::TextAlignment)>(&UnityEngine::TextMesh::set_alignment)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextMesh*), "set_alignment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextAlignment>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextMesh*), "set_alignment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextAlignment>()});
   }
 };

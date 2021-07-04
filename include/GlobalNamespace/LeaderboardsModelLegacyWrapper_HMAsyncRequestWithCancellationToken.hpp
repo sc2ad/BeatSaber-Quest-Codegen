@@ -60,33 +60,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*, "", "LeaderboardsModelLegacyWrapper/HMAsyncRequestWithCancellationToken");
-// Writing MetadataGetter for method: LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken::get_cancellationTokenSource
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken::get_cancellationTokenSource
 // Il2CppName: get_cancellationTokenSource
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::CancellationTokenSource* (LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken::*)()>(&LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken::get_cancellationTokenSource)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::CancellationTokenSource* (GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken::*)()>(&GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken::get_cancellationTokenSource)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*), "get_cancellationTokenSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*), "get_cancellationTokenSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken::*)()>(&LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken::*)()>(&GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken::*)()>(&LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken::*)()>(&GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken::Cancel
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken::Cancel
 // Il2CppName: Cancel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken::*)()>(&LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken::Cancel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken::*)()>(&GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken::Cancel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*), "Cancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*), "Cancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

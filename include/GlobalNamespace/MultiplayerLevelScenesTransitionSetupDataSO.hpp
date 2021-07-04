@@ -194,153 +194,153 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLevelScenesTransitionSetupDataSO) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, "", "MultiplayerLevelScenesTransitionSetupDataSO");
-// Writing MetadataGetter for method: MultiplayerLevelScenesTransitionSetupDataSO::add_didFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelScenesTransitionSetupDataSO::*)(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>*)>(&MultiplayerLevelScenesTransitionSetupDataSO::add_didFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::*)(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>*)>(&GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::add_didFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelScenesTransitionSetupDataSO*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLevelScenesTransitionSetupDataSO::remove_didFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::remove_didFinishEvent
 // Il2CppName: remove_didFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelScenesTransitionSetupDataSO::*)(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>*)>(&MultiplayerLevelScenesTransitionSetupDataSO::remove_didFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::*)(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>*)>(&GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::remove_didFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelScenesTransitionSetupDataSO*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLevelScenesTransitionSetupDataSO::add_didDisconnectEvent
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::add_didDisconnectEvent
 // Il2CppName: add_didDisconnectEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelScenesTransitionSetupDataSO::*)(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::DisconnectedReason>*)>(&MultiplayerLevelScenesTransitionSetupDataSO::add_didDisconnectEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::*)(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::DisconnectedReason>*)>(&GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::add_didDisconnectEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelScenesTransitionSetupDataSO*), "add_didDisconnectEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::DisconnectedReason>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*), "add_didDisconnectEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::DisconnectedReason>*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLevelScenesTransitionSetupDataSO::remove_didDisconnectEvent
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::remove_didDisconnectEvent
 // Il2CppName: remove_didDisconnectEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelScenesTransitionSetupDataSO::*)(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::DisconnectedReason>*)>(&MultiplayerLevelScenesTransitionSetupDataSO::remove_didDisconnectEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::*)(System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::DisconnectedReason>*)>(&GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::remove_didDisconnectEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelScenesTransitionSetupDataSO*), "remove_didDisconnectEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::DisconnectedReason>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*), "remove_didDisconnectEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::DisconnectedReason>*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLevelScenesTransitionSetupDataSO::get_gameMode
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::get_gameMode
 // Il2CppName: get_gameMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MultiplayerLevelScenesTransitionSetupDataSO::*)()>(&MultiplayerLevelScenesTransitionSetupDataSO::get_gameMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::*)()>(&GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::get_gameMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelScenesTransitionSetupDataSO*), "get_gameMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*), "get_gameMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLevelScenesTransitionSetupDataSO::set_gameMode
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::set_gameMode
 // Il2CppName: set_gameMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelScenesTransitionSetupDataSO::*)(::Il2CppString*)>(&MultiplayerLevelScenesTransitionSetupDataSO::set_gameMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::*)(::Il2CppString*)>(&GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::set_gameMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelScenesTransitionSetupDataSO*), "set_gameMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*), "set_gameMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLevelScenesTransitionSetupDataSO::get_previewBeatmapLevel
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::get_previewBeatmapLevel
 // Il2CppName: get_previewBeatmapLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IPreviewBeatmapLevel* (MultiplayerLevelScenesTransitionSetupDataSO::*)()>(&MultiplayerLevelScenesTransitionSetupDataSO::get_previewBeatmapLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IPreviewBeatmapLevel* (GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::*)()>(&GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::get_previewBeatmapLevel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelScenesTransitionSetupDataSO*), "get_previewBeatmapLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*), "get_previewBeatmapLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLevelScenesTransitionSetupDataSO::set_previewBeatmapLevel
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::set_previewBeatmapLevel
 // Il2CppName: set_previewBeatmapLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelScenesTransitionSetupDataSO::*)(GlobalNamespace::IPreviewBeatmapLevel*)>(&MultiplayerLevelScenesTransitionSetupDataSO::set_previewBeatmapLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::*)(GlobalNamespace::IPreviewBeatmapLevel*)>(&GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::set_previewBeatmapLevel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelScenesTransitionSetupDataSO*), "set_previewBeatmapLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*), "set_previewBeatmapLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLevelScenesTransitionSetupDataSO::get_beatmapDifficulty
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::get_beatmapDifficulty
 // Il2CppName: get_beatmapDifficulty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapDifficulty (MultiplayerLevelScenesTransitionSetupDataSO::*)()>(&MultiplayerLevelScenesTransitionSetupDataSO::get_beatmapDifficulty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapDifficulty (GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::*)()>(&GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::get_beatmapDifficulty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelScenesTransitionSetupDataSO*), "get_beatmapDifficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*), "get_beatmapDifficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLevelScenesTransitionSetupDataSO::set_beatmapDifficulty
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::set_beatmapDifficulty
 // Il2CppName: set_beatmapDifficulty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelScenesTransitionSetupDataSO::*)(GlobalNamespace::BeatmapDifficulty)>(&MultiplayerLevelScenesTransitionSetupDataSO::set_beatmapDifficulty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::*)(GlobalNamespace::BeatmapDifficulty)>(&GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::set_beatmapDifficulty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelScenesTransitionSetupDataSO*), "set_beatmapDifficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*), "set_beatmapDifficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLevelScenesTransitionSetupDataSO::get_difficultyBeatmap
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::get_difficultyBeatmap
 // Il2CppName: get_difficultyBeatmap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IDifficultyBeatmap* (MultiplayerLevelScenesTransitionSetupDataSO::*)()>(&MultiplayerLevelScenesTransitionSetupDataSO::get_difficultyBeatmap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IDifficultyBeatmap* (GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::*)()>(&GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::get_difficultyBeatmap)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelScenesTransitionSetupDataSO*), "get_difficultyBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*), "get_difficultyBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLevelScenesTransitionSetupDataSO::set_difficultyBeatmap
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::set_difficultyBeatmap
 // Il2CppName: set_difficultyBeatmap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelScenesTransitionSetupDataSO::*)(GlobalNamespace::IDifficultyBeatmap*)>(&MultiplayerLevelScenesTransitionSetupDataSO::set_difficultyBeatmap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::*)(GlobalNamespace::IDifficultyBeatmap*)>(&GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::set_difficultyBeatmap)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelScenesTransitionSetupDataSO*), "set_difficultyBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*), "set_difficultyBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLevelScenesTransitionSetupDataSO::get_beatmapCharacteristic
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::get_beatmapCharacteristic
 // Il2CppName: get_beatmapCharacteristic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapCharacteristicSO* (MultiplayerLevelScenesTransitionSetupDataSO::*)()>(&MultiplayerLevelScenesTransitionSetupDataSO::get_beatmapCharacteristic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapCharacteristicSO* (GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::*)()>(&GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::get_beatmapCharacteristic)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelScenesTransitionSetupDataSO*), "get_beatmapCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*), "get_beatmapCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLevelScenesTransitionSetupDataSO::set_beatmapCharacteristic
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::set_beatmapCharacteristic
 // Il2CppName: set_beatmapCharacteristic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelScenesTransitionSetupDataSO::*)(GlobalNamespace::BeatmapCharacteristicSO*)>(&MultiplayerLevelScenesTransitionSetupDataSO::set_beatmapCharacteristic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::*)(GlobalNamespace::BeatmapCharacteristicSO*)>(&GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::set_beatmapCharacteristic)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelScenesTransitionSetupDataSO*), "set_beatmapCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*), "set_beatmapCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLevelScenesTransitionSetupDataSO::Init
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelScenesTransitionSetupDataSO::*)(::Il2CppString*, GlobalNamespace::IPreviewBeatmapLevel*, GlobalNamespace::BeatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::ColorScheme*, GlobalNamespace::GameplayModifiers*, GlobalNamespace::PlayerSpecificSettings*, GlobalNamespace::PracticeSettings*, bool)>(&MultiplayerLevelScenesTransitionSetupDataSO::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::*)(::Il2CppString*, GlobalNamespace::IPreviewBeatmapLevel*, GlobalNamespace::BeatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::ColorScheme*, GlobalNamespace::GameplayModifiers*, GlobalNamespace::PlayerSpecificSettings*, GlobalNamespace::PracticeSettings*, bool)>(&GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelScenesTransitionSetupDataSO*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorScheme*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettings*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PracticeSettings*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorScheme*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettings*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PracticeSettings*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLevelScenesTransitionSetupDataSO::Finish
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::Finish
 // Il2CppName: Finish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelScenesTransitionSetupDataSO::*)(GlobalNamespace::MultiplayerResultsData*)>(&MultiplayerLevelScenesTransitionSetupDataSO::Finish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::*)(GlobalNamespace::MultiplayerResultsData*)>(&GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::Finish)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelScenesTransitionSetupDataSO*), "Finish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerResultsData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*), "Finish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerResultsData*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLevelScenesTransitionSetupDataSO::FinishWithDisconnect
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::FinishWithDisconnect
 // Il2CppName: FinishWithDisconnect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelScenesTransitionSetupDataSO::*)(GlobalNamespace::DisconnectedReason)>(&MultiplayerLevelScenesTransitionSetupDataSO::FinishWithDisconnect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::*)(GlobalNamespace::DisconnectedReason)>(&GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::FinishWithDisconnect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelScenesTransitionSetupDataSO*), "FinishWithDisconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DisconnectedReason>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*), "FinishWithDisconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DisconnectedReason>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLevelScenesTransitionSetupDataSO::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelScenesTransitionSetupDataSO::*)()>(&MultiplayerLevelScenesTransitionSetupDataSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::*)()>(&GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelScenesTransitionSetupDataSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLevelScenesTransitionSetupDataSO::*)()>(&MultiplayerLevelScenesTransitionSetupDataSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::*)()>(&GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLevelScenesTransitionSetupDataSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

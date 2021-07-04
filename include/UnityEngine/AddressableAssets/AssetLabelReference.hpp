@@ -67,57 +67,57 @@ namespace UnityEngine::AddressableAssets {
   static_assert(sizeof(AssetLabelReference) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AssetLabelReference*, "UnityEngine.AddressableAssets", "AssetLabelReference");
-// Writing MetadataGetter for method: AssetLabelReference::get_labelString
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AssetLabelReference::get_labelString
 // Il2CppName: get_labelString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AssetLabelReference::*)()>(&AssetLabelReference::get_labelString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::AddressableAssets::AssetLabelReference::*)()>(&UnityEngine::AddressableAssets::AssetLabelReference::get_labelString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetLabelReference*), "get_labelString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AssetLabelReference*), "get_labelString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AssetLabelReference::set_labelString
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AssetLabelReference::set_labelString
 // Il2CppName: set_labelString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetLabelReference::*)(::Il2CppString*)>(&AssetLabelReference::set_labelString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::AssetLabelReference::*)(::Il2CppString*)>(&UnityEngine::AddressableAssets::AssetLabelReference::set_labelString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetLabelReference*), "set_labelString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AssetLabelReference*), "set_labelString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: AssetLabelReference::get_RuntimeKey
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AssetLabelReference::get_RuntimeKey
 // Il2CppName: get_RuntimeKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (AssetLabelReference::*)()>(&AssetLabelReference::get_RuntimeKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (UnityEngine::AddressableAssets::AssetLabelReference::*)()>(&UnityEngine::AddressableAssets::AssetLabelReference::get_RuntimeKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetLabelReference*), "get_RuntimeKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AssetLabelReference*), "get_RuntimeKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AssetLabelReference::RuntimeKeyIsValid
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AssetLabelReference::RuntimeKeyIsValid
 // Il2CppName: RuntimeKeyIsValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AssetLabelReference::*)()>(&AssetLabelReference::RuntimeKeyIsValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AddressableAssets::AssetLabelReference::*)()>(&UnityEngine::AddressableAssets::AssetLabelReference::RuntimeKeyIsValid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetLabelReference*), "RuntimeKeyIsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AssetLabelReference*), "RuntimeKeyIsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AssetLabelReference::GetHashCode
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AssetLabelReference::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AssetLabelReference::*)()>(&AssetLabelReference::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::AddressableAssets::AssetLabelReference::*)()>(&UnityEngine::AddressableAssets::AssetLabelReference::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetLabelReference*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AssetLabelReference*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AssetLabelReference::New_ctor
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AssetLabelReference::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetLabelReference::*)()>(&AssetLabelReference::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::AssetLabelReference::*)()>(&UnityEngine::AddressableAssets::AssetLabelReference::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetLabelReference*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AssetLabelReference*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetLabelReference::*)()>(&AssetLabelReference::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::AssetLabelReference::*)()>(&UnityEngine::AddressableAssets::AssetLabelReference::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetLabelReference*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AssetLabelReference*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

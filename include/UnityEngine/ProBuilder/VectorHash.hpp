@@ -50,35 +50,35 @@ namespace UnityEngine::ProBuilder {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::VectorHash*, "UnityEngine.ProBuilder", "VectorHash");
-// Writing MetadataGetter for method: VectorHash::HashFloat
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::VectorHash::HashFloat
 // Il2CppName: HashFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(float)>(&VectorHash::HashFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(float)>(&UnityEngine::ProBuilder::VectorHash::HashFloat)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VectorHash*), "HashFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::VectorHash*), "HashFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: VectorHash::GetHashCode
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::VectorHash::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Vector2)>(&VectorHash::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Vector2)>(&UnityEngine::ProBuilder::VectorHash::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VectorHash*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::VectorHash*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
   }
 };
-// Writing MetadataGetter for method: VectorHash::GetHashCode
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::VectorHash::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Vector3)>(&VectorHash::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Vector3)>(&UnityEngine::ProBuilder::VectorHash::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VectorHash*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::VectorHash*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: VectorHash::GetHashCode
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::VectorHash::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Vector4)>(&VectorHash::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Vector4)>(&UnityEngine::ProBuilder::VectorHash::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VectorHash*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::VectorHash*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
   }
 };

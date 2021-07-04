@@ -93,57 +93,57 @@ namespace GlobalNamespace {
   static_assert(sizeof(ConnectedPlayerManager::PlayerIdentityPacket) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket*, "", "ConnectedPlayerManager/PlayerIdentityPacket");
-// Writing MetadataGetter for method: ConnectedPlayerManager::PlayerIdentityPacket::get_pool
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket::get_pool
 // Il2CppName: get_pool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket*>* (*)()>(&ConnectedPlayerManager::PlayerIdentityPacket::get_pool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket*>* (*)()>(&GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket::get_pool)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::PlayerIdentityPacket*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ConnectedPlayerManager::PlayerIdentityPacket::Serialize
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket::Serialize
 // Il2CppName: Serialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectedPlayerManager::PlayerIdentityPacket::*)(LiteNetLib::Utils::NetDataWriter*)>(&ConnectedPlayerManager::PlayerIdentityPacket::Serialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket::*)(LiteNetLib::Utils::NetDataWriter*)>(&GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket::Serialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::PlayerIdentityPacket*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
   }
 };
-// Writing MetadataGetter for method: ConnectedPlayerManager::PlayerIdentityPacket::Deserialize
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket::Deserialize
 // Il2CppName: Deserialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectedPlayerManager::PlayerIdentityPacket::*)(LiteNetLib::Utils::NetDataReader*)>(&ConnectedPlayerManager::PlayerIdentityPacket::Deserialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket::*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket::Deserialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::PlayerIdentityPacket*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
   }
 };
-// Writing MetadataGetter for method: ConnectedPlayerManager::PlayerIdentityPacket::Release
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket::Release
 // Il2CppName: Release
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectedPlayerManager::PlayerIdentityPacket::*)()>(&ConnectedPlayerManager::PlayerIdentityPacket::Release)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket::*)()>(&GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket::Release)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::PlayerIdentityPacket*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ConnectedPlayerManager::PlayerIdentityPacket::Init
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket* (ConnectedPlayerManager::PlayerIdentityPacket::*)(GlobalNamespace::PlayerStateHash, GlobalNamespace::MultiplayerAvatarData)>(&ConnectedPlayerManager::PlayerIdentityPacket::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket* (GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket::*)(GlobalNamespace::PlayerStateHash, GlobalNamespace::MultiplayerAvatarData)>(&GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::PlayerIdentityPacket*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerStateHash>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerAvatarData>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerStateHash>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerAvatarData>()});
   }
 };
-// Writing MetadataGetter for method: ConnectedPlayerManager::PlayerIdentityPacket::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectedPlayerManager::PlayerIdentityPacket::*)()>(&ConnectedPlayerManager::PlayerIdentityPacket::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket::*)()>(&GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::PlayerIdentityPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectedPlayerManager::PlayerIdentityPacket::*)()>(&ConnectedPlayerManager::PlayerIdentityPacket::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket::*)()>(&GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::PlayerIdentityPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

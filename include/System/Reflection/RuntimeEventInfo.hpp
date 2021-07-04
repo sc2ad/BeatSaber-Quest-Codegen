@@ -84,65 +84,65 @@ namespace System::Reflection {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::RuntimeEventInfo*, "System.Reflection", "RuntimeEventInfo");
-// Writing MetadataGetter for method: RuntimeEventInfo::get_BindingFlags
+// Writing MetadataGetter for method: System::Reflection::RuntimeEventInfo::get_BindingFlags
 // Il2CppName: get_BindingFlags
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::BindingFlags (RuntimeEventInfo::*)()>(&RuntimeEventInfo::get_BindingFlags)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::BindingFlags (System::Reflection::RuntimeEventInfo::*)()>(&System::Reflection::RuntimeEventInfo::get_BindingFlags)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RuntimeEventInfo*), "get_BindingFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::RuntimeEventInfo*), "get_BindingFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RuntimeEventInfo::GetDeclaringTypeInternal
+// Writing MetadataGetter for method: System::Reflection::RuntimeEventInfo::GetDeclaringTypeInternal
 // Il2CppName: GetDeclaringTypeInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType* (RuntimeEventInfo::*)()>(&RuntimeEventInfo::GetDeclaringTypeInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType* (System::Reflection::RuntimeEventInfo::*)()>(&System::Reflection::RuntimeEventInfo::GetDeclaringTypeInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RuntimeEventInfo*), "GetDeclaringTypeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::RuntimeEventInfo*), "GetDeclaringTypeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RuntimeEventInfo::get_ReflectedTypeInternal
+// Writing MetadataGetter for method: System::Reflection::RuntimeEventInfo::get_ReflectedTypeInternal
 // Il2CppName: get_ReflectedTypeInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType* (RuntimeEventInfo::*)()>(&RuntimeEventInfo::get_ReflectedTypeInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType* (System::Reflection::RuntimeEventInfo::*)()>(&System::Reflection::RuntimeEventInfo::get_ReflectedTypeInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RuntimeEventInfo*), "get_ReflectedTypeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::RuntimeEventInfo*), "get_ReflectedTypeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RuntimeEventInfo::GetRuntimeModule
+// Writing MetadataGetter for method: System::Reflection::RuntimeEventInfo::GetRuntimeModule
 // Il2CppName: GetRuntimeModule
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::RuntimeModule* (RuntimeEventInfo::*)()>(&RuntimeEventInfo::GetRuntimeModule)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::RuntimeModule* (System::Reflection::RuntimeEventInfo::*)()>(&System::Reflection::RuntimeEventInfo::GetRuntimeModule)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RuntimeEventInfo*), "GetRuntimeModule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::RuntimeEventInfo*), "GetRuntimeModule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RuntimeEventInfo::GetObjectData
+// Writing MetadataGetter for method: System::Reflection::RuntimeEventInfo::GetObjectData
 // Il2CppName: GetObjectData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeEventInfo::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&RuntimeEventInfo::GetObjectData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::RuntimeEventInfo::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Reflection::RuntimeEventInfo::GetObjectData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RuntimeEventInfo*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::RuntimeEventInfo*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
   }
 };
-// Writing MetadataGetter for method: RuntimeEventInfo::get_Module
+// Writing MetadataGetter for method: System::Reflection::RuntimeEventInfo::get_Module
 // Il2CppName: get_Module
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Module* (RuntimeEventInfo::*)()>(&RuntimeEventInfo::get_Module)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Module* (System::Reflection::RuntimeEventInfo::*)()>(&System::Reflection::RuntimeEventInfo::get_Module)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RuntimeEventInfo*), "get_Module", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::RuntimeEventInfo*), "get_Module", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RuntimeEventInfo::New_ctor
+// Writing MetadataGetter for method: System::Reflection::RuntimeEventInfo::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeEventInfo::*)()>(&RuntimeEventInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::RuntimeEventInfo::*)()>(&System::Reflection::RuntimeEventInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RuntimeEventInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::RuntimeEventInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeEventInfo::*)()>(&RuntimeEventInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::RuntimeEventInfo::*)()>(&System::Reflection::RuntimeEventInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RuntimeEventInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::RuntimeEventInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

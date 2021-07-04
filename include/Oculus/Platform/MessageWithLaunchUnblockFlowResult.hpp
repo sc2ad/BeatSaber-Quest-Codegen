@@ -47,33 +47,33 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithLaunchUnblockFlowResult
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithLaunchUnblockFlowResult*, "Oculus.Platform", "MessageWithLaunchUnblockFlowResult");
-// Writing MetadataGetter for method: MessageWithLaunchUnblockFlowResult::GetDataFromMessage
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithLaunchUnblockFlowResult::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LaunchUnblockFlowResult* (MessageWithLaunchUnblockFlowResult::*)(System::IntPtr)>(&MessageWithLaunchUnblockFlowResult::GetDataFromMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LaunchUnblockFlowResult* (Oculus::Platform::MessageWithLaunchUnblockFlowResult::*)(System::IntPtr)>(&Oculus::Platform::MessageWithLaunchUnblockFlowResult::GetDataFromMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithLaunchUnblockFlowResult*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithLaunchUnblockFlowResult*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithLaunchUnblockFlowResult::New_ctor
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithLaunchUnblockFlowResult::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithLaunchUnblockFlowResult::*)(System::IntPtr)>(&MessageWithLaunchUnblockFlowResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithLaunchUnblockFlowResult::*)(System::IntPtr)>(&Oculus::Platform::MessageWithLaunchUnblockFlowResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithLaunchUnblockFlowResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithLaunchUnblockFlowResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithLaunchUnblockFlowResult::*)(System::IntPtr)>(&MessageWithLaunchUnblockFlowResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithLaunchUnblockFlowResult::*)(System::IntPtr)>(&Oculus::Platform::MessageWithLaunchUnblockFlowResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithLaunchUnblockFlowResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithLaunchUnblockFlowResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithLaunchUnblockFlowResult::GetLaunchUnblockFlowResult
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithLaunchUnblockFlowResult::GetLaunchUnblockFlowResult
 // Il2CppName: GetLaunchUnblockFlowResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LaunchUnblockFlowResult* (MessageWithLaunchUnblockFlowResult::*)()>(&MessageWithLaunchUnblockFlowResult::GetLaunchUnblockFlowResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LaunchUnblockFlowResult* (Oculus::Platform::MessageWithLaunchUnblockFlowResult::*)()>(&Oculus::Platform::MessageWithLaunchUnblockFlowResult::GetLaunchUnblockFlowResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithLaunchUnblockFlowResult*), "GetLaunchUnblockFlowResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithLaunchUnblockFlowResult*), "GetLaunchUnblockFlowResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

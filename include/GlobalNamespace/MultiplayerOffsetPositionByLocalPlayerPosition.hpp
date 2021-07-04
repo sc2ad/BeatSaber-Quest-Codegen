@@ -91,49 +91,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerOffsetPositionByLocalPlayerPosition) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*, "", "MultiplayerOffsetPositionByLocalPlayerPosition");
-// Writing MetadataGetter for method: MultiplayerOffsetPositionByLocalPlayerPosition::Awake
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOffsetPositionByLocalPlayerPosition::*)()>(&MultiplayerOffsetPositionByLocalPlayerPosition::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::*)()>(&GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerOffsetPositionByLocalPlayerPosition*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerOffsetPositionByLocalPlayerPosition::Update
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOffsetPositionByLocalPlayerPosition::*)()>(&MultiplayerOffsetPositionByLocalPlayerPosition::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::*)()>(&GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerOffsetPositionByLocalPlayerPosition*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerOffsetPositionByLocalPlayerPosition::SetEnabled
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::SetEnabled
 // Il2CppName: SetEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOffsetPositionByLocalPlayerPosition::*)(bool)>(&MultiplayerOffsetPositionByLocalPlayerPosition::SetEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::*)(bool)>(&GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::SetEnabled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerOffsetPositionByLocalPlayerPosition*), "SetEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*), "SetEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerOffsetPositionByLocalPlayerPosition::UpdatePositionAndRotationIfNeeded
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::UpdatePositionAndRotationIfNeeded
 // Il2CppName: UpdatePositionAndRotationIfNeeded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOffsetPositionByLocalPlayerPosition::*)()>(&MultiplayerOffsetPositionByLocalPlayerPosition::UpdatePositionAndRotationIfNeeded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::*)()>(&GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::UpdatePositionAndRotationIfNeeded)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerOffsetPositionByLocalPlayerPosition*), "UpdatePositionAndRotationIfNeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*), "UpdatePositionAndRotationIfNeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerOffsetPositionByLocalPlayerPosition::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOffsetPositionByLocalPlayerPosition::*)()>(&MultiplayerOffsetPositionByLocalPlayerPosition::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::*)()>(&GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerOffsetPositionByLocalPlayerPosition*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOffsetPositionByLocalPlayerPosition::*)()>(&MultiplayerOffsetPositionByLocalPlayerPosition::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::*)()>(&GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerOffsetPositionByLocalPlayerPosition*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

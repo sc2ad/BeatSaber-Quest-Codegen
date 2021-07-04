@@ -36,17 +36,17 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayRpcManager::EndLevelEarlyRpc*, "", "GameplayRpcManager/EndLevelEarlyRpc");
-// Writing MetadataGetter for method: GameplayRpcManager::EndLevelEarlyRpc::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::GameplayRpcManager::EndLevelEarlyRpc::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayRpcManager::EndLevelEarlyRpc::*)()>(&GameplayRpcManager::EndLevelEarlyRpc::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayRpcManager::EndLevelEarlyRpc::*)()>(&GlobalNamespace::GameplayRpcManager::EndLevelEarlyRpc::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplayRpcManager::EndLevelEarlyRpc*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayRpcManager::EndLevelEarlyRpc*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayRpcManager::EndLevelEarlyRpc::*)()>(&GameplayRpcManager::EndLevelEarlyRpc::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayRpcManager::EndLevelEarlyRpc::*)()>(&GlobalNamespace::GameplayRpcManager::EndLevelEarlyRpc::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplayRpcManager::EndLevelEarlyRpc*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayRpcManager::EndLevelEarlyRpc*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

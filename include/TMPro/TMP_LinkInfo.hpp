@@ -88,27 +88,27 @@ namespace TMPro {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_LinkInfo, "TMPro", "TMP_LinkInfo");
-// Writing MetadataGetter for method: TMP_LinkInfo::SetLinkID
+// Writing MetadataGetter for method: TMPro::TMP_LinkInfo::SetLinkID
 // Il2CppName: SetLinkID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_LinkInfo::*)(::Array<::Il2CppChar>*, int, int)>(&TMP_LinkInfo::SetLinkID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_LinkInfo::*)(::Array<::Il2CppChar>*, int, int)>(&TMPro::TMP_LinkInfo::SetLinkID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_LinkInfo), "SetLinkID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_LinkInfo), "SetLinkID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TMP_LinkInfo::GetLinkText
+// Writing MetadataGetter for method: TMPro::TMP_LinkInfo::GetLinkText
 // Il2CppName: GetLinkText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMP_LinkInfo::*)()>(&TMP_LinkInfo::GetLinkText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMPro::TMP_LinkInfo::*)()>(&TMPro::TMP_LinkInfo::GetLinkText)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_LinkInfo), "GetLinkText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_LinkInfo), "GetLinkText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_LinkInfo::GetLinkID
+// Writing MetadataGetter for method: TMPro::TMP_LinkInfo::GetLinkID
 // Il2CppName: GetLinkID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMP_LinkInfo::*)()>(&TMP_LinkInfo::GetLinkID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMPro::TMP_LinkInfo::*)()>(&TMPro::TMP_LinkInfo::GetLinkID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_LinkInfo), "GetLinkID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_LinkInfo), "GetLinkID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -98,33 +98,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(CoreGameHUDController) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CoreGameHUDController*, "", "CoreGameHUDController");
-// Writing MetadataGetter for method: CoreGameHUDController::set_alpha
+// Writing MetadataGetter for method: GlobalNamespace::CoreGameHUDController::set_alpha
 // Il2CppName: set_alpha
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CoreGameHUDController::*)(float)>(&CoreGameHUDController::set_alpha)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CoreGameHUDController::*)(float)>(&GlobalNamespace::CoreGameHUDController::set_alpha)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CoreGameHUDController*), "set_alpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CoreGameHUDController*), "set_alpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: CoreGameHUDController::Start
+// Writing MetadataGetter for method: GlobalNamespace::CoreGameHUDController::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CoreGameHUDController::*)()>(&CoreGameHUDController::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CoreGameHUDController::*)()>(&GlobalNamespace::CoreGameHUDController::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CoreGameHUDController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CoreGameHUDController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CoreGameHUDController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::CoreGameHUDController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CoreGameHUDController::*)()>(&CoreGameHUDController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CoreGameHUDController::*)()>(&GlobalNamespace::CoreGameHUDController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CoreGameHUDController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CoreGameHUDController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CoreGameHUDController::*)()>(&CoreGameHUDController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CoreGameHUDController::*)()>(&GlobalNamespace::CoreGameHUDController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CoreGameHUDController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CoreGameHUDController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

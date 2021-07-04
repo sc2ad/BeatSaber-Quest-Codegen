@@ -61,57 +61,57 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SceneLoadedCallbacksOrderDebug*, "", "SceneLoadedCallbacksOrderDebug");
-// Writing MetadataGetter for method: SceneLoadedCallbacksOrderDebug::Awake
+// Writing MetadataGetter for method: GlobalNamespace::SceneLoadedCallbacksOrderDebug::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneLoadedCallbacksOrderDebug::*)()>(&SceneLoadedCallbacksOrderDebug::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneLoadedCallbacksOrderDebug::*)()>(&GlobalNamespace::SceneLoadedCallbacksOrderDebug::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SceneLoadedCallbacksOrderDebug*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneLoadedCallbacksOrderDebug*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SceneLoadedCallbacksOrderDebug::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::SceneLoadedCallbacksOrderDebug::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneLoadedCallbacksOrderDebug::*)()>(&SceneLoadedCallbacksOrderDebug::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneLoadedCallbacksOrderDebug::*)()>(&GlobalNamespace::SceneLoadedCallbacksOrderDebug::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SceneLoadedCallbacksOrderDebug*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneLoadedCallbacksOrderDebug*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SceneLoadedCallbacksOrderDebug::OnSceneLoaded
+// Writing MetadataGetter for method: GlobalNamespace::SceneLoadedCallbacksOrderDebug::OnSceneLoaded
 // Il2CppName: OnSceneLoaded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneLoadedCallbacksOrderDebug::*)(UnityEngine::SceneManagement::Scene, UnityEngine::SceneManagement::LoadSceneMode)>(&SceneLoadedCallbacksOrderDebug::OnSceneLoaded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneLoadedCallbacksOrderDebug::*)(UnityEngine::SceneManagement::Scene, UnityEngine::SceneManagement::LoadSceneMode)>(&GlobalNamespace::SceneLoadedCallbacksOrderDebug::OnSceneLoaded)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SceneLoadedCallbacksOrderDebug*), "OnSceneLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::Scene>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneLoadedCallbacksOrderDebug*), "OnSceneLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::Scene>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>()});
   }
 };
-// Writing MetadataGetter for method: SceneLoadedCallbacksOrderDebug::Start
+// Writing MetadataGetter for method: GlobalNamespace::SceneLoadedCallbacksOrderDebug::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneLoadedCallbacksOrderDebug::*)()>(&SceneLoadedCallbacksOrderDebug::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneLoadedCallbacksOrderDebug::*)()>(&GlobalNamespace::SceneLoadedCallbacksOrderDebug::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SceneLoadedCallbacksOrderDebug*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneLoadedCallbacksOrderDebug*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SceneLoadedCallbacksOrderDebug::OnDisable
+// Writing MetadataGetter for method: GlobalNamespace::SceneLoadedCallbacksOrderDebug::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneLoadedCallbacksOrderDebug::*)()>(&SceneLoadedCallbacksOrderDebug::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneLoadedCallbacksOrderDebug::*)()>(&GlobalNamespace::SceneLoadedCallbacksOrderDebug::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SceneLoadedCallbacksOrderDebug*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneLoadedCallbacksOrderDebug*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SceneLoadedCallbacksOrderDebug::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::SceneLoadedCallbacksOrderDebug::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneLoadedCallbacksOrderDebug::*)()>(&SceneLoadedCallbacksOrderDebug::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneLoadedCallbacksOrderDebug::*)()>(&GlobalNamespace::SceneLoadedCallbacksOrderDebug::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SceneLoadedCallbacksOrderDebug*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneLoadedCallbacksOrderDebug*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneLoadedCallbacksOrderDebug::*)()>(&SceneLoadedCallbacksOrderDebug::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneLoadedCallbacksOrderDebug::*)()>(&GlobalNamespace::SceneLoadedCallbacksOrderDebug::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SceneLoadedCallbacksOrderDebug*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneLoadedCallbacksOrderDebug*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

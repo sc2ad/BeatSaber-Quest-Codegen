@@ -72,41 +72,41 @@ namespace System {
   static_assert(sizeof(ArraySpec) == 0x15);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::ArraySpec*, "System", "ArraySpec");
-// Writing MetadataGetter for method: ArraySpec::New_ctor
+// Writing MetadataGetter for method: System::ArraySpec::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArraySpec::*)(int, bool)>(&ArraySpec::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::ArraySpec::*)(int, bool)>(&System::ArraySpec::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArraySpec*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::ArraySpec*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArraySpec::*)(int, bool)>(&ArraySpec::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::ArraySpec::*)(int, bool)>(&System::ArraySpec::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArraySpec*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::ArraySpec*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ArraySpec::Resolve
+// Writing MetadataGetter for method: System::ArraySpec::Resolve
 // Il2CppName: Resolve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (ArraySpec::*)(System::Type*)>(&ArraySpec::Resolve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::ArraySpec::*)(System::Type*)>(&System::ArraySpec::Resolve)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArraySpec*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::ArraySpec*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: ArraySpec::Append
+// Writing MetadataGetter for method: System::ArraySpec::Append
 // Il2CppName: Append
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (ArraySpec::*)(System::Text::StringBuilder*)>(&ArraySpec::Append)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::ArraySpec::*)(System::Text::StringBuilder*)>(&System::ArraySpec::Append)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArraySpec*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::ArraySpec*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
   }
 };
-// Writing MetadataGetter for method: ArraySpec::ToString
+// Writing MetadataGetter for method: System::ArraySpec::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ArraySpec::*)()>(&ArraySpec::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::ArraySpec::*)()>(&System::ArraySpec::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArraySpec*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::ArraySpec*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

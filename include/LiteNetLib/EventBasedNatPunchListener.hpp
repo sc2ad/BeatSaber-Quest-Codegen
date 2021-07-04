@@ -87,65 +87,65 @@ namespace LiteNetLib {
   static_assert(sizeof(EventBasedNatPunchListener) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::EventBasedNatPunchListener*, "LiteNetLib", "EventBasedNatPunchListener");
-// Writing MetadataGetter for method: EventBasedNatPunchListener::add_NatIntroductionRequest
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNatPunchListener::add_NatIntroductionRequest
 // Il2CppName: add_NatIntroductionRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNatPunchListener::*)(LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest*)>(&EventBasedNatPunchListener::add_NatIntroductionRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNatPunchListener::*)(LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest*)>(&LiteNetLib::EventBasedNatPunchListener::add_NatIntroductionRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNatPunchListener*), "add_NatIntroductionRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNatPunchListener*), "add_NatIntroductionRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest*>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNatPunchListener::remove_NatIntroductionRequest
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNatPunchListener::remove_NatIntroductionRequest
 // Il2CppName: remove_NatIntroductionRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNatPunchListener::*)(LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest*)>(&EventBasedNatPunchListener::remove_NatIntroductionRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNatPunchListener::*)(LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest*)>(&LiteNetLib::EventBasedNatPunchListener::remove_NatIntroductionRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNatPunchListener*), "remove_NatIntroductionRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNatPunchListener*), "remove_NatIntroductionRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest*>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNatPunchListener::add_NatIntroductionSuccess
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNatPunchListener::add_NatIntroductionSuccess
 // Il2CppName: add_NatIntroductionSuccess
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNatPunchListener::*)(LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionSuccess*)>(&EventBasedNatPunchListener::add_NatIntroductionSuccess)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNatPunchListener::*)(LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionSuccess*)>(&LiteNetLib::EventBasedNatPunchListener::add_NatIntroductionSuccess)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNatPunchListener*), "add_NatIntroductionSuccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionSuccess*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNatPunchListener*), "add_NatIntroductionSuccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionSuccess*>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNatPunchListener::remove_NatIntroductionSuccess
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNatPunchListener::remove_NatIntroductionSuccess
 // Il2CppName: remove_NatIntroductionSuccess
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNatPunchListener::*)(LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionSuccess*)>(&EventBasedNatPunchListener::remove_NatIntroductionSuccess)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNatPunchListener::*)(LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionSuccess*)>(&LiteNetLib::EventBasedNatPunchListener::remove_NatIntroductionSuccess)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNatPunchListener*), "remove_NatIntroductionSuccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionSuccess*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNatPunchListener*), "remove_NatIntroductionSuccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionSuccess*>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNatPunchListener::LiteNetLib_INatPunchListener_OnNatIntroductionRequest
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNatPunchListener::LiteNetLib_INatPunchListener_OnNatIntroductionRequest
 // Il2CppName: LiteNetLib.INatPunchListener.OnNatIntroductionRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNatPunchListener::*)(System::Net::IPEndPoint*, System::Net::IPEndPoint*, ::Il2CppString*)>(&EventBasedNatPunchListener::LiteNetLib_INatPunchListener_OnNatIntroductionRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNatPunchListener::*)(System::Net::IPEndPoint*, System::Net::IPEndPoint*, ::Il2CppString*)>(&LiteNetLib::EventBasedNatPunchListener::LiteNetLib_INatPunchListener_OnNatIntroductionRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNatPunchListener*), "LiteNetLib.INatPunchListener.OnNatIntroductionRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNatPunchListener*), "LiteNetLib.INatPunchListener.OnNatIntroductionRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNatPunchListener::LiteNetLib_INatPunchListener_OnNatIntroductionSuccess
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNatPunchListener::LiteNetLib_INatPunchListener_OnNatIntroductionSuccess
 // Il2CppName: LiteNetLib.INatPunchListener.OnNatIntroductionSuccess
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNatPunchListener::*)(System::Net::IPEndPoint*, LiteNetLib::NatAddressType, ::Il2CppString*)>(&EventBasedNatPunchListener::LiteNetLib_INatPunchListener_OnNatIntroductionSuccess)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNatPunchListener::*)(System::Net::IPEndPoint*, LiteNetLib::NatAddressType, ::Il2CppString*)>(&LiteNetLib::EventBasedNatPunchListener::LiteNetLib_INatPunchListener_OnNatIntroductionSuccess)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNatPunchListener*), "LiteNetLib.INatPunchListener.OnNatIntroductionSuccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NatAddressType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNatPunchListener*), "LiteNetLib.INatPunchListener.OnNatIntroductionSuccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NatAddressType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNatPunchListener::New_ctor
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNatPunchListener::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNatPunchListener::*)()>(&EventBasedNatPunchListener::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNatPunchListener::*)()>(&LiteNetLib::EventBasedNatPunchListener::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNatPunchListener*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNatPunchListener*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNatPunchListener::*)()>(&EventBasedNatPunchListener::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNatPunchListener::*)()>(&LiteNetLib::EventBasedNatPunchListener::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNatPunchListener*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNatPunchListener*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -70,41 +70,41 @@ namespace NUnit::Framework {
   static_assert(sizeof(TestParameters) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::TestParameters*, "NUnit.Framework", "TestParameters");
-// Writing MetadataGetter for method: TestParameters::Add
+// Writing MetadataGetter for method: NUnit::Framework::TestParameters::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestParameters::*)(::Il2CppString*, ::Il2CppString*)>(&TestParameters::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::TestParameters::*)(::Il2CppString*, ::Il2CppString*)>(&NUnit::Framework::TestParameters::Add)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestParameters*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::TestParameters*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TestParameters::CreateModifiedInvariantCulture
+// Writing MetadataGetter for method: NUnit::Framework::TestParameters::CreateModifiedInvariantCulture
 // Il2CppName: CreateModifiedInvariantCulture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IFormatProvider* (*)()>(&TestParameters::CreateModifiedInvariantCulture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IFormatProvider* (*)()>(&NUnit::Framework::TestParameters::CreateModifiedInvariantCulture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestParameters*), "CreateModifiedInvariantCulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::TestParameters*), "CreateModifiedInvariantCulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TestParameters::_cctor
+// Writing MetadataGetter for method: NUnit::Framework::TestParameters::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TestParameters::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NUnit::Framework::TestParameters::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestParameters*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::TestParameters*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TestParameters::New_ctor
+// Writing MetadataGetter for method: NUnit::Framework::TestParameters::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestParameters::*)()>(&TestParameters::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::TestParameters::*)()>(&NUnit::Framework::TestParameters::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::TestParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestParameters::*)()>(&TestParameters::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::TestParameters::*)()>(&NUnit::Framework::TestParameters::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::TestParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

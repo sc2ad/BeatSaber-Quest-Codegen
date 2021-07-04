@@ -89,79 +89,79 @@ namespace System {
   static_assert(sizeof(CharEnumerator) == 0x1E);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::CharEnumerator*, "System", "CharEnumerator");
-// Writing MetadataGetter for method: CharEnumerator::New_ctor
+// Writing MetadataGetter for method: System::CharEnumerator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CharEnumerator::*)(::Il2CppString*)>(&CharEnumerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::CharEnumerator::*)(::Il2CppString*)>(&System::CharEnumerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CharEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::CharEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CharEnumerator::*)(::Il2CppString*)>(&CharEnumerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::CharEnumerator::*)(::Il2CppString*)>(&System::CharEnumerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CharEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::CharEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CharEnumerator::Clone
+// Writing MetadataGetter for method: System::CharEnumerator::Clone
 // Il2CppName: Clone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (CharEnumerator::*)()>(&CharEnumerator::Clone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::CharEnumerator::*)()>(&System::CharEnumerator::Clone)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CharEnumerator*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::CharEnumerator*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CharEnumerator::MoveNext
+// Writing MetadataGetter for method: System::CharEnumerator::MoveNext
 // Il2CppName: MoveNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CharEnumerator::*)()>(&CharEnumerator::MoveNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::CharEnumerator::*)()>(&System::CharEnumerator::MoveNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CharEnumerator*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::CharEnumerator*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CharEnumerator::Dispose
+// Writing MetadataGetter for method: System::CharEnumerator::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CharEnumerator::*)()>(&CharEnumerator::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::CharEnumerator::*)()>(&System::CharEnumerator::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CharEnumerator*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::CharEnumerator*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CharEnumerator::System_Collections_IEnumerator_get_Current
+// Writing MetadataGetter for method: System::CharEnumerator::System_Collections_IEnumerator_get_Current
 // Il2CppName: System.Collections.IEnumerator.get_Current
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (CharEnumerator::*)()>(&CharEnumerator::System_Collections_IEnumerator_get_Current)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::CharEnumerator::*)()>(&System::CharEnumerator::System_Collections_IEnumerator_get_Current)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CharEnumerator*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::CharEnumerator*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CharEnumerator::get_Current
+// Writing MetadataGetter for method: System::CharEnumerator::get_Current
 // Il2CppName: get_Current
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (CharEnumerator::*)()>(&CharEnumerator::get_Current)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (System::CharEnumerator::*)()>(&System::CharEnumerator::get_Current)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CharEnumerator*), "get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::CharEnumerator*), "get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CharEnumerator::Reset
+// Writing MetadataGetter for method: System::CharEnumerator::Reset
 // Il2CppName: Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CharEnumerator::*)()>(&CharEnumerator::Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::CharEnumerator::*)()>(&System::CharEnumerator::Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CharEnumerator*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::CharEnumerator*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CharEnumerator::New_ctor
+// Writing MetadataGetter for method: System::CharEnumerator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CharEnumerator::*)()>(&CharEnumerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::CharEnumerator::*)()>(&System::CharEnumerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CharEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::CharEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CharEnumerator::*)()>(&CharEnumerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::CharEnumerator::*)()>(&System::CharEnumerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CharEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::CharEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

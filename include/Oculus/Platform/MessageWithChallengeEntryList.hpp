@@ -47,33 +47,33 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithChallengeEntryList
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithChallengeEntryList*, "Oculus.Platform", "MessageWithChallengeEntryList");
-// Writing MetadataGetter for method: MessageWithChallengeEntryList::GetDataFromMessage
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithChallengeEntryList::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::ChallengeEntryList* (MessageWithChallengeEntryList::*)(System::IntPtr)>(&MessageWithChallengeEntryList::GetDataFromMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::ChallengeEntryList* (Oculus::Platform::MessageWithChallengeEntryList::*)(System::IntPtr)>(&Oculus::Platform::MessageWithChallengeEntryList::GetDataFromMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithChallengeEntryList*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithChallengeEntryList*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithChallengeEntryList::New_ctor
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithChallengeEntryList::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithChallengeEntryList::*)(System::IntPtr)>(&MessageWithChallengeEntryList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithChallengeEntryList::*)(System::IntPtr)>(&Oculus::Platform::MessageWithChallengeEntryList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithChallengeEntryList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithChallengeEntryList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithChallengeEntryList::*)(System::IntPtr)>(&MessageWithChallengeEntryList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithChallengeEntryList::*)(System::IntPtr)>(&Oculus::Platform::MessageWithChallengeEntryList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithChallengeEntryList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithChallengeEntryList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithChallengeEntryList::GetChallengeEntryList
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithChallengeEntryList::GetChallengeEntryList
 // Il2CppName: GetChallengeEntryList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::ChallengeEntryList* (MessageWithChallengeEntryList::*)()>(&MessageWithChallengeEntryList::GetChallengeEntryList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::ChallengeEntryList* (Oculus::Platform::MessageWithChallengeEntryList::*)()>(&Oculus::Platform::MessageWithChallengeEntryList::GetChallengeEntryList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithChallengeEntryList*), "GetChallengeEntryList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithChallengeEntryList*), "GetChallengeEntryList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

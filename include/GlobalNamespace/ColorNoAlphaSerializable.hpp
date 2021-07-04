@@ -95,65 +95,65 @@ namespace GlobalNamespace {
   static_assert(sizeof(ColorNoAlphaSerializable) == 0x10);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorNoAlphaSerializable, "", "ColorNoAlphaSerializable");
-// Writing MetadataGetter for method: ColorNoAlphaSerializable::ColorNoAlphaSerializable
+// Writing MetadataGetter for method: GlobalNamespace::ColorNoAlphaSerializable::ColorNoAlphaSerializable
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoAlphaSerializable::*)(UnityEngine::Color)>(&ColorNoAlphaSerializable::ColorNoAlphaSerializable<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorNoAlphaSerializable::*)(UnityEngine::Color)>(&GlobalNamespace::ColorNoAlphaSerializable::ColorNoAlphaSerializable<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorNoAlphaSerializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorNoAlphaSerializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoAlphaSerializable::*)(UnityEngine::Color)>(&ColorNoAlphaSerializable::ColorNoAlphaSerializable<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorNoAlphaSerializable::*)(UnityEngine::Color)>(&GlobalNamespace::ColorNoAlphaSerializable::ColorNoAlphaSerializable<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorNoAlphaSerializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorNoAlphaSerializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: ColorNoAlphaSerializable::Serialize
+// Writing MetadataGetter for method: GlobalNamespace::ColorNoAlphaSerializable::Serialize
 // Il2CppName: Serialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoAlphaSerializable::*)(LiteNetLib::Utils::NetDataWriter*)>(&ColorNoAlphaSerializable::Serialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorNoAlphaSerializable::*)(LiteNetLib::Utils::NetDataWriter*)>(&GlobalNamespace::ColorNoAlphaSerializable::Serialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorNoAlphaSerializable), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorNoAlphaSerializable), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
   }
 };
-// Writing MetadataGetter for method: ColorNoAlphaSerializable::Deserialize
+// Writing MetadataGetter for method: GlobalNamespace::ColorNoAlphaSerializable::Deserialize
 // Il2CppName: Deserialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorNoAlphaSerializable::*)(LiteNetLib::Utils::NetDataReader*)>(&ColorNoAlphaSerializable::Deserialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorNoAlphaSerializable::*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::ColorNoAlphaSerializable::Deserialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorNoAlphaSerializable), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorNoAlphaSerializable), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
   }
 };
-// Writing MetadataGetter for method: ColorNoAlphaSerializable::Equals
+// Writing MetadataGetter for method: GlobalNamespace::ColorNoAlphaSerializable::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ColorNoAlphaSerializable::*)(GlobalNamespace::ColorNoAlphaSerializable)>(&ColorNoAlphaSerializable::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ColorNoAlphaSerializable::*)(GlobalNamespace::ColorNoAlphaSerializable)>(&GlobalNamespace::ColorNoAlphaSerializable::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorNoAlphaSerializable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorNoAlphaSerializable>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorNoAlphaSerializable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorNoAlphaSerializable>()});
   }
 };
-// Writing MetadataGetter for method: ColorNoAlphaSerializable::Equals
+// Writing MetadataGetter for method: GlobalNamespace::ColorNoAlphaSerializable::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ColorNoAlphaSerializable::*)(::Il2CppObject*)>(&ColorNoAlphaSerializable::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ColorNoAlphaSerializable::*)(::Il2CppObject*)>(&GlobalNamespace::ColorNoAlphaSerializable::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorNoAlphaSerializable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorNoAlphaSerializable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: ColorNoAlphaSerializable::GetHashCode
+// Writing MetadataGetter for method: GlobalNamespace::ColorNoAlphaSerializable::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ColorNoAlphaSerializable::*)()>(&ColorNoAlphaSerializable::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::ColorNoAlphaSerializable::*)()>(&GlobalNamespace::ColorNoAlphaSerializable::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorNoAlphaSerializable), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorNoAlphaSerializable), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ColorNoAlphaSerializable::ToString
+// Writing MetadataGetter for method: GlobalNamespace::ColorNoAlphaSerializable::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ColorNoAlphaSerializable::*)()>(&ColorNoAlphaSerializable::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::ColorNoAlphaSerializable::*)()>(&GlobalNamespace::ColorNoAlphaSerializable::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorNoAlphaSerializable), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorNoAlphaSerializable), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

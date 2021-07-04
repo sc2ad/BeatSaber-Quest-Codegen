@@ -147,65 +147,65 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePass*, "", "BloomPrePass");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePass::Mode, "", "BloomPrePass/Mode");
-// Writing MetadataGetter for method: BloomPrePass::Awake
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePass::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePass::*)()>(&BloomPrePass::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePass::*)()>(&GlobalNamespace::BloomPrePass::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePass*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePass*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomPrePass::LazyInit
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePass::LazyInit
 // Il2CppName: LazyInit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePass::*)()>(&BloomPrePass::LazyInit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePass::*)()>(&GlobalNamespace::BloomPrePass::LazyInit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePass*), "LazyInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePass*), "LazyInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomPrePass::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePass::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePass::*)()>(&BloomPrePass::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePass::*)()>(&GlobalNamespace::BloomPrePass::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePass*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePass*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomPrePass::OnPreRender
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePass::OnPreRender
 // Il2CppName: OnPreRender
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePass::*)()>(&BloomPrePass::OnPreRender)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePass::*)()>(&GlobalNamespace::BloomPrePass::OnPreRender)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePass*), "OnPreRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePass*), "OnPreRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomPrePass::OnPostRender
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePass::OnPostRender
 // Il2CppName: OnPostRender
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePass::*)()>(&BloomPrePass::OnPostRender)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePass::*)()>(&GlobalNamespace::BloomPrePass::OnPostRender)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePass*), "OnPostRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePass*), "OnPostRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomPrePass::SetMode
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePass::SetMode
 // Il2CppName: SetMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePass::*)(GlobalNamespace::BloomPrePass::Mode)>(&BloomPrePass::SetMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePass::*)(GlobalNamespace::BloomPrePass::Mode)>(&GlobalNamespace::BloomPrePass::SetMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePass*), "SetMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BloomPrePass::Mode>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePass*), "SetMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BloomPrePass::Mode>()});
   }
 };
-// Writing MetadataGetter for method: BloomPrePass::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePass::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePass::*)()>(&BloomPrePass::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePass::*)()>(&GlobalNamespace::BloomPrePass::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePass*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePass*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePass::*)()>(&BloomPrePass::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePass::*)()>(&GlobalNamespace::BloomPrePass::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePass*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePass*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

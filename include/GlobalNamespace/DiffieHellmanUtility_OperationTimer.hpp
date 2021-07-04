@@ -64,33 +64,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(DiffieHellmanUtility::OperationTimer) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DiffieHellmanUtility::OperationTimer*, "", "DiffieHellmanUtility/OperationTimer");
-// Writing MetadataGetter for method: DiffieHellmanUtility::OperationTimer::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::OperationTimer::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DiffieHellmanUtility::OperationTimer::*)(::Il2CppString*)>(&DiffieHellmanUtility::OperationTimer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DiffieHellmanUtility::OperationTimer::*)(::Il2CppString*)>(&GlobalNamespace::DiffieHellmanUtility::OperationTimer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DiffieHellmanUtility::OperationTimer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility::OperationTimer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DiffieHellmanUtility::OperationTimer::*)(::Il2CppString*)>(&DiffieHellmanUtility::OperationTimer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DiffieHellmanUtility::OperationTimer::*)(::Il2CppString*)>(&GlobalNamespace::DiffieHellmanUtility::OperationTimer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DiffieHellmanUtility::OperationTimer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility::OperationTimer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: DiffieHellmanUtility::OperationTimer::Dispose
+// Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::OperationTimer::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DiffieHellmanUtility::OperationTimer::*)()>(&DiffieHellmanUtility::OperationTimer::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DiffieHellmanUtility::OperationTimer::*)()>(&GlobalNamespace::DiffieHellmanUtility::OperationTimer::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DiffieHellmanUtility::OperationTimer*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility::OperationTimer*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DiffieHellmanUtility::OperationTimer::Time
+// Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::OperationTimer::Time
 // Il2CppName: Time
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::DiffieHellmanUtility::OperationTimer* (*)(::Il2CppString*)>(&DiffieHellmanUtility::OperationTimer::Time)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::DiffieHellmanUtility::OperationTimer* (*)(::Il2CppString*)>(&GlobalNamespace::DiffieHellmanUtility::OperationTimer::Time)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DiffieHellmanUtility::OperationTimer*), "Time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility::OperationTimer*), "Time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };

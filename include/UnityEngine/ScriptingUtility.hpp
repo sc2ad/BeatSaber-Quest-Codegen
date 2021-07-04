@@ -29,11 +29,11 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ScriptingUtility*, "UnityEngine", "ScriptingUtility");
-// Writing MetadataGetter for method: ScriptingUtility::IsManagedCodeWorking
+// Writing MetadataGetter for method: UnityEngine::ScriptingUtility::IsManagedCodeWorking
 // Il2CppName: IsManagedCodeWorking
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&ScriptingUtility::IsManagedCodeWorking)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::ScriptingUtility::IsManagedCodeWorking)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScriptingUtility*), "IsManagedCodeWorking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ScriptingUtility*), "IsManagedCodeWorking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

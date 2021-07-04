@@ -219,73 +219,73 @@ namespace GlobalNamespace {
   static_assert(sizeof(SaberBurnMarkArea) == 0x138);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberBurnMarkArea*, "", "SaberBurnMarkArea");
-// Writing MetadataGetter for method: SaberBurnMarkArea::Start
+// Writing MetadataGetter for method: GlobalNamespace::SaberBurnMarkArea::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberBurnMarkArea::*)()>(&SaberBurnMarkArea::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberBurnMarkArea::*)()>(&GlobalNamespace::SaberBurnMarkArea::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberBurnMarkArea*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberBurnMarkArea*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SaberBurnMarkArea::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::SaberBurnMarkArea::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberBurnMarkArea::*)()>(&SaberBurnMarkArea::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberBurnMarkArea::*)()>(&GlobalNamespace::SaberBurnMarkArea::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberBurnMarkArea*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberBurnMarkArea*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SaberBurnMarkArea::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::SaberBurnMarkArea::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberBurnMarkArea::*)()>(&SaberBurnMarkArea::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberBurnMarkArea::*)()>(&GlobalNamespace::SaberBurnMarkArea::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberBurnMarkArea*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberBurnMarkArea*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SaberBurnMarkArea::OnDisable
+// Writing MetadataGetter for method: GlobalNamespace::SaberBurnMarkArea::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberBurnMarkArea::*)()>(&SaberBurnMarkArea::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberBurnMarkArea::*)()>(&GlobalNamespace::SaberBurnMarkArea::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberBurnMarkArea*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberBurnMarkArea*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SaberBurnMarkArea::GetBurnMarkPos
+// Writing MetadataGetter for method: GlobalNamespace::SaberBurnMarkArea::GetBurnMarkPos
 // Il2CppName: GetBurnMarkPos
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SaberBurnMarkArea::*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3&)>(&SaberBurnMarkArea::GetBurnMarkPos)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SaberBurnMarkArea::*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3&)>(&GlobalNamespace::SaberBurnMarkArea::GetBurnMarkPos)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberBurnMarkArea*), "GetBurnMarkPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberBurnMarkArea*), "GetBurnMarkPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: SaberBurnMarkArea::WorldToCameraBurnMarkPos
+// Writing MetadataGetter for method: GlobalNamespace::SaberBurnMarkArea::WorldToCameraBurnMarkPos
 // Il2CppName: WorldToCameraBurnMarkPos
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (SaberBurnMarkArea::*)(UnityEngine::Vector3)>(&SaberBurnMarkArea::WorldToCameraBurnMarkPos)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::SaberBurnMarkArea::*)(UnityEngine::Vector3)>(&GlobalNamespace::SaberBurnMarkArea::WorldToCameraBurnMarkPos)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberBurnMarkArea*), "WorldToCameraBurnMarkPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberBurnMarkArea*), "WorldToCameraBurnMarkPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: SaberBurnMarkArea::LateUpdate
+// Writing MetadataGetter for method: GlobalNamespace::SaberBurnMarkArea::LateUpdate
 // Il2CppName: LateUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberBurnMarkArea::*)()>(&SaberBurnMarkArea::LateUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberBurnMarkArea::*)()>(&GlobalNamespace::SaberBurnMarkArea::LateUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberBurnMarkArea*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberBurnMarkArea*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SaberBurnMarkArea::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::SaberBurnMarkArea::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberBurnMarkArea::*)()>(&SaberBurnMarkArea::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberBurnMarkArea::*)()>(&GlobalNamespace::SaberBurnMarkArea::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberBurnMarkArea*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberBurnMarkArea*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberBurnMarkArea::*)()>(&SaberBurnMarkArea::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberBurnMarkArea::*)()>(&GlobalNamespace::SaberBurnMarkArea::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberBurnMarkArea*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberBurnMarkArea*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

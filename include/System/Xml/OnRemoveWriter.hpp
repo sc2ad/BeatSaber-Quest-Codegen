@@ -54,41 +54,41 @@ namespace System::Xml {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::OnRemoveWriter*, "System.Xml", "OnRemoveWriter");
-// Writing MetadataGetter for method: OnRemoveWriter::New_ctor
+// Writing MetadataGetter for method: System::Xml::OnRemoveWriter::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnRemoveWriter::*)(::Il2CppObject*, System::IntPtr)>(&OnRemoveWriter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::OnRemoveWriter::*)(::Il2CppObject*, System::IntPtr)>(&System::Xml::OnRemoveWriter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OnRemoveWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::OnRemoveWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnRemoveWriter::*)(::Il2CppObject*, System::IntPtr)>(&OnRemoveWriter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::OnRemoveWriter::*)(::Il2CppObject*, System::IntPtr)>(&System::Xml::OnRemoveWriter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OnRemoveWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::OnRemoveWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: OnRemoveWriter::Invoke
+// Writing MetadataGetter for method: System::Xml::OnRemoveWriter::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnRemoveWriter::*)(System::Xml::XmlRawWriter*)>(&OnRemoveWriter::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::OnRemoveWriter::*)(System::Xml::XmlRawWriter*)>(&System::Xml::OnRemoveWriter::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OnRemoveWriter*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlRawWriter*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::OnRemoveWriter*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlRawWriter*>()});
   }
 };
-// Writing MetadataGetter for method: OnRemoveWriter::BeginInvoke
+// Writing MetadataGetter for method: System::Xml::OnRemoveWriter::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OnRemoveWriter::*)(System::Xml::XmlRawWriter*, System::AsyncCallback*, ::Il2CppObject*)>(&OnRemoveWriter::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Xml::OnRemoveWriter::*)(System::Xml::XmlRawWriter*, System::AsyncCallback*, ::Il2CppObject*)>(&System::Xml::OnRemoveWriter::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OnRemoveWriter*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlRawWriter*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::OnRemoveWriter*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlRawWriter*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: OnRemoveWriter::EndInvoke
+// Writing MetadataGetter for method: System::Xml::OnRemoveWriter::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnRemoveWriter::*)(System::IAsyncResult*)>(&OnRemoveWriter::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::OnRemoveWriter::*)(System::IAsyncResult*)>(&System::Xml::OnRemoveWriter::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OnRemoveWriter*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::OnRemoveWriter*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

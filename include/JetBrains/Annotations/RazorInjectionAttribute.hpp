@@ -60,49 +60,49 @@ namespace JetBrains::Annotations {
   static_assert(sizeof(RazorInjectionAttribute) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::RazorInjectionAttribute*, "JetBrains.Annotations", "RazorInjectionAttribute");
-// Writing MetadataGetter for method: RazorInjectionAttribute::New_ctor
+// Writing MetadataGetter for method: JetBrains::Annotations::RazorInjectionAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RazorInjectionAttribute::*)(::Il2CppString*, ::Il2CppString*)>(&RazorInjectionAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::RazorInjectionAttribute::*)(::Il2CppString*, ::Il2CppString*)>(&JetBrains::Annotations::RazorInjectionAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RazorInjectionAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::RazorInjectionAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RazorInjectionAttribute::*)(::Il2CppString*, ::Il2CppString*)>(&RazorInjectionAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::RazorInjectionAttribute::*)(::Il2CppString*, ::Il2CppString*)>(&JetBrains::Annotations::RazorInjectionAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RazorInjectionAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::RazorInjectionAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: RazorInjectionAttribute::get_Type
+// Writing MetadataGetter for method: JetBrains::Annotations::RazorInjectionAttribute::get_Type
 // Il2CppName: get_Type
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RazorInjectionAttribute::*)()>(&RazorInjectionAttribute::get_Type)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::RazorInjectionAttribute::*)()>(&JetBrains::Annotations::RazorInjectionAttribute::get_Type)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RazorInjectionAttribute*), "get_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::RazorInjectionAttribute*), "get_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RazorInjectionAttribute::set_Type
+// Writing MetadataGetter for method: JetBrains::Annotations::RazorInjectionAttribute::set_Type
 // Il2CppName: set_Type
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RazorInjectionAttribute::*)(::Il2CppString*)>(&RazorInjectionAttribute::set_Type)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::RazorInjectionAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::RazorInjectionAttribute::set_Type)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RazorInjectionAttribute*), "set_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::RazorInjectionAttribute*), "set_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: RazorInjectionAttribute::get_FieldName
+// Writing MetadataGetter for method: JetBrains::Annotations::RazorInjectionAttribute::get_FieldName
 // Il2CppName: get_FieldName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RazorInjectionAttribute::*)()>(&RazorInjectionAttribute::get_FieldName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::RazorInjectionAttribute::*)()>(&JetBrains::Annotations::RazorInjectionAttribute::get_FieldName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RazorInjectionAttribute*), "get_FieldName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::RazorInjectionAttribute*), "get_FieldName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RazorInjectionAttribute::set_FieldName
+// Writing MetadataGetter for method: JetBrains::Annotations::RazorInjectionAttribute::set_FieldName
 // Il2CppName: set_FieldName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RazorInjectionAttribute::*)(::Il2CppString*)>(&RazorInjectionAttribute::set_FieldName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::RazorInjectionAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::RazorInjectionAttribute::set_FieldName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RazorInjectionAttribute*), "set_FieldName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::RazorInjectionAttribute*), "set_FieldName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };

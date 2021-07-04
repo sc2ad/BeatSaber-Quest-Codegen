@@ -53,25 +53,25 @@ namespace UnityEngine::ProBuilder {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SelectionPickerRenderer::SelectionPickerRendererHDRP*, "UnityEngine.ProBuilder", "SelectionPickerRenderer/SelectionPickerRendererHDRP");
-// Writing MetadataGetter for method: SelectionPickerRenderer::SelectionPickerRendererHDRP::RenderLookupTexture
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPickerRenderer::SelectionPickerRendererHDRP::RenderLookupTexture
 // Il2CppName: RenderLookupTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (SelectionPickerRenderer::SelectionPickerRendererHDRP::*)(UnityEngine::Camera*, UnityEngine::Shader*, ::Il2CppString*, int, int)>(&SelectionPickerRenderer::SelectionPickerRendererHDRP::RenderLookupTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (UnityEngine::ProBuilder::SelectionPickerRenderer::SelectionPickerRendererHDRP::*)(UnityEngine::Camera*, UnityEngine::Shader*, ::Il2CppString*, int, int)>(&UnityEngine::ProBuilder::SelectionPickerRenderer::SelectionPickerRendererHDRP::RenderLookupTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectionPickerRenderer::SelectionPickerRendererHDRP*), "RenderLookupTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SelectionPickerRenderer::SelectionPickerRendererHDRP*), "RenderLookupTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SelectionPickerRenderer::SelectionPickerRendererHDRP::New_ctor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPickerRenderer::SelectionPickerRendererHDRP::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectionPickerRenderer::SelectionPickerRendererHDRP::*)()>(&SelectionPickerRenderer::SelectionPickerRendererHDRP::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::SelectionPickerRenderer::SelectionPickerRendererHDRP::*)()>(&UnityEngine::ProBuilder::SelectionPickerRenderer::SelectionPickerRendererHDRP::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectionPickerRenderer::SelectionPickerRendererHDRP*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SelectionPickerRenderer::SelectionPickerRendererHDRP*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectionPickerRenderer::SelectionPickerRendererHDRP::*)()>(&SelectionPickerRenderer::SelectionPickerRendererHDRP::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::SelectionPickerRenderer::SelectionPickerRendererHDRP::*)()>(&UnityEngine::ProBuilder::SelectionPickerRenderer::SelectionPickerRendererHDRP::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectionPickerRenderer::SelectionPickerRendererHDRP*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SelectionPickerRenderer::SelectionPickerRendererHDRP*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

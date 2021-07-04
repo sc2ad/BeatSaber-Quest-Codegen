@@ -295,105 +295,105 @@ namespace RootMotion::FinalIK {
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Recoil*, "RootMotion.FinalIK", "Recoil");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Recoil::Handedness, "RootMotion.FinalIK", "Recoil/Handedness");
-// Writing MetadataGetter for method: Recoil::get_isFinished
+// Writing MetadataGetter for method: RootMotion::FinalIK::Recoil::get_isFinished
 // Il2CppName: get_isFinished
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Recoil::*)()>(&Recoil::get_isFinished)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::Recoil::*)()>(&RootMotion::FinalIK::Recoil::get_isFinished)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Recoil*), "get_isFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Recoil*), "get_isFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Recoil::SetHandRotations
+// Writing MetadataGetter for method: RootMotion::FinalIK::Recoil::SetHandRotations
 // Il2CppName: SetHandRotations
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Recoil::*)(UnityEngine::Quaternion, UnityEngine::Quaternion)>(&Recoil::SetHandRotations)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Recoil::*)(UnityEngine::Quaternion, UnityEngine::Quaternion)>(&RootMotion::FinalIK::Recoil::SetHandRotations)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Recoil*), "SetHandRotations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Recoil*), "SetHandRotations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
   }
 };
-// Writing MetadataGetter for method: Recoil::Fire
+// Writing MetadataGetter for method: RootMotion::FinalIK::Recoil::Fire
 // Il2CppName: Fire
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Recoil::*)(float)>(&Recoil::Fire)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Recoil::*)(float)>(&RootMotion::FinalIK::Recoil::Fire)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Recoil*), "Fire", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Recoil*), "Fire", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Recoil::AfterFBBIK
+// Writing MetadataGetter for method: RootMotion::FinalIK::Recoil::AfterFBBIK
 // Il2CppName: AfterFBBIK
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Recoil::*)()>(&Recoil::AfterFBBIK)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Recoil::*)()>(&RootMotion::FinalIK::Recoil::AfterFBBIK)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Recoil*), "AfterFBBIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Recoil*), "AfterFBBIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Recoil::AfterAimIK
+// Writing MetadataGetter for method: RootMotion::FinalIK::Recoil::AfterAimIK
 // Il2CppName: AfterAimIK
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Recoil::*)()>(&Recoil::AfterAimIK)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Recoil::*)()>(&RootMotion::FinalIK::Recoil::AfterAimIK)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Recoil*), "AfterAimIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Recoil*), "AfterAimIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Recoil::get_primaryHandEffector
+// Writing MetadataGetter for method: RootMotion::FinalIK::Recoil::get_primaryHandEffector
 // Il2CppName: get_primaryHandEffector
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKEffector* (Recoil::*)()>(&Recoil::get_primaryHandEffector)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKEffector* (RootMotion::FinalIK::Recoil::*)()>(&RootMotion::FinalIK::Recoil::get_primaryHandEffector)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Recoil*), "get_primaryHandEffector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Recoil*), "get_primaryHandEffector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Recoil::get_secondaryHandEffector
+// Writing MetadataGetter for method: RootMotion::FinalIK::Recoil::get_secondaryHandEffector
 // Il2CppName: get_secondaryHandEffector
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKEffector* (Recoil::*)()>(&Recoil::get_secondaryHandEffector)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKEffector* (RootMotion::FinalIK::Recoil::*)()>(&RootMotion::FinalIK::Recoil::get_secondaryHandEffector)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Recoil*), "get_secondaryHandEffector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Recoil*), "get_secondaryHandEffector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Recoil::get_primaryHand
+// Writing MetadataGetter for method: RootMotion::FinalIK::Recoil::get_primaryHand
 // Il2CppName: get_primaryHand
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (Recoil::*)()>(&Recoil::get_primaryHand)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (RootMotion::FinalIK::Recoil::*)()>(&RootMotion::FinalIK::Recoil::get_primaryHand)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Recoil*), "get_primaryHand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Recoil*), "get_primaryHand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Recoil::get_secondaryHand
+// Writing MetadataGetter for method: RootMotion::FinalIK::Recoil::get_secondaryHand
 // Il2CppName: get_secondaryHand
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (Recoil::*)()>(&Recoil::get_secondaryHand)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (RootMotion::FinalIK::Recoil::*)()>(&RootMotion::FinalIK::Recoil::get_secondaryHand)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Recoil*), "get_secondaryHand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Recoil*), "get_secondaryHand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Recoil::OnModifyOffset
+// Writing MetadataGetter for method: RootMotion::FinalIK::Recoil::OnModifyOffset
 // Il2CppName: OnModifyOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Recoil::*)()>(&Recoil::OnModifyOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Recoil::*)()>(&RootMotion::FinalIK::Recoil::OnModifyOffset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Recoil*), "OnModifyOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Recoil*), "OnModifyOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Recoil::OnDestroy
+// Writing MetadataGetter for method: RootMotion::FinalIK::Recoil::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Recoil::*)()>(&Recoil::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Recoil::*)()>(&RootMotion::FinalIK::Recoil::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Recoil*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Recoil*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Recoil::New_ctor
+// Writing MetadataGetter for method: RootMotion::FinalIK::Recoil::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Recoil::*)()>(&Recoil::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Recoil::*)()>(&RootMotion::FinalIK::Recoil::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Recoil*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Recoil*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Recoil::*)()>(&Recoil::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Recoil::*)()>(&RootMotion::FinalIK::Recoil::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Recoil*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Recoil*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

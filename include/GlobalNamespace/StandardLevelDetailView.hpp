@@ -235,161 +235,161 @@ namespace GlobalNamespace {
   static_assert(sizeof(StandardLevelDetailView) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailView*, "", "StandardLevelDetailView");
-// Writing MetadataGetter for method: StandardLevelDetailView::add_didChangeDifficultyBeatmapEvent
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::add_didChangeDifficultyBeatmapEvent
 // Il2CppName: add_didChangeDifficultyBeatmapEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailView::*)(System::Action_2<GlobalNamespace::StandardLevelDetailView*, GlobalNamespace::IDifficultyBeatmap*>*)>(&StandardLevelDetailView::add_didChangeDifficultyBeatmapEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelDetailView::*)(System::Action_2<GlobalNamespace::StandardLevelDetailView*, GlobalNamespace::IDifficultyBeatmap*>*)>(&GlobalNamespace::StandardLevelDetailView::add_didChangeDifficultyBeatmapEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailView*), "add_didChangeDifficultyBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::StandardLevelDetailView*, GlobalNamespace::IDifficultyBeatmap*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailView*), "add_didChangeDifficultyBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::StandardLevelDetailView*, GlobalNamespace::IDifficultyBeatmap*>*>()});
   }
 };
-// Writing MetadataGetter for method: StandardLevelDetailView::remove_didChangeDifficultyBeatmapEvent
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::remove_didChangeDifficultyBeatmapEvent
 // Il2CppName: remove_didChangeDifficultyBeatmapEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailView::*)(System::Action_2<GlobalNamespace::StandardLevelDetailView*, GlobalNamespace::IDifficultyBeatmap*>*)>(&StandardLevelDetailView::remove_didChangeDifficultyBeatmapEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelDetailView::*)(System::Action_2<GlobalNamespace::StandardLevelDetailView*, GlobalNamespace::IDifficultyBeatmap*>*)>(&GlobalNamespace::StandardLevelDetailView::remove_didChangeDifficultyBeatmapEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailView*), "remove_didChangeDifficultyBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::StandardLevelDetailView*, GlobalNamespace::IDifficultyBeatmap*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailView*), "remove_didChangeDifficultyBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::StandardLevelDetailView*, GlobalNamespace::IDifficultyBeatmap*>*>()});
   }
 };
-// Writing MetadataGetter for method: StandardLevelDetailView::add_didFavoriteToggleChangeEvent
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::add_didFavoriteToggleChangeEvent
 // Il2CppName: add_didFavoriteToggleChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailView::*)(System::Action_2<GlobalNamespace::StandardLevelDetailView*, UnityEngine::UI::Toggle*>*)>(&StandardLevelDetailView::add_didFavoriteToggleChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelDetailView::*)(System::Action_2<GlobalNamespace::StandardLevelDetailView*, UnityEngine::UI::Toggle*>*)>(&GlobalNamespace::StandardLevelDetailView::add_didFavoriteToggleChangeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailView*), "add_didFavoriteToggleChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::StandardLevelDetailView*, UnityEngine::UI::Toggle*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailView*), "add_didFavoriteToggleChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::StandardLevelDetailView*, UnityEngine::UI::Toggle*>*>()});
   }
 };
-// Writing MetadataGetter for method: StandardLevelDetailView::remove_didFavoriteToggleChangeEvent
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::remove_didFavoriteToggleChangeEvent
 // Il2CppName: remove_didFavoriteToggleChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailView::*)(System::Action_2<GlobalNamespace::StandardLevelDetailView*, UnityEngine::UI::Toggle*>*)>(&StandardLevelDetailView::remove_didFavoriteToggleChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelDetailView::*)(System::Action_2<GlobalNamespace::StandardLevelDetailView*, UnityEngine::UI::Toggle*>*)>(&GlobalNamespace::StandardLevelDetailView::remove_didFavoriteToggleChangeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailView*), "remove_didFavoriteToggleChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::StandardLevelDetailView*, UnityEngine::UI::Toggle*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailView*), "remove_didFavoriteToggleChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::StandardLevelDetailView*, UnityEngine::UI::Toggle*>*>()});
   }
 };
-// Writing MetadataGetter for method: StandardLevelDetailView::get_selectedDifficultyBeatmap
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::get_selectedDifficultyBeatmap
 // Il2CppName: get_selectedDifficultyBeatmap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IDifficultyBeatmap* (StandardLevelDetailView::*)()>(&StandardLevelDetailView::get_selectedDifficultyBeatmap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IDifficultyBeatmap* (GlobalNamespace::StandardLevelDetailView::*)()>(&GlobalNamespace::StandardLevelDetailView::get_selectedDifficultyBeatmap)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailView*), "get_selectedDifficultyBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailView*), "get_selectedDifficultyBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandardLevelDetailView::get_actionButton
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::get_actionButton
 // Il2CppName: get_actionButton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Button* (StandardLevelDetailView::*)()>(&StandardLevelDetailView::get_actionButton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Button* (GlobalNamespace::StandardLevelDetailView::*)()>(&GlobalNamespace::StandardLevelDetailView::get_actionButton)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailView*), "get_actionButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailView*), "get_actionButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandardLevelDetailView::set_actionButtonText
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::set_actionButtonText
 // Il2CppName: set_actionButtonText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailView::*)(::Il2CppString*)>(&StandardLevelDetailView::set_actionButtonText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelDetailView::*)(::Il2CppString*)>(&GlobalNamespace::StandardLevelDetailView::set_actionButtonText)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailView*), "set_actionButtonText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailView*), "set_actionButtonText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: StandardLevelDetailView::get_practiceButton
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::get_practiceButton
 // Il2CppName: get_practiceButton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Button* (StandardLevelDetailView::*)()>(&StandardLevelDetailView::get_practiceButton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Button* (GlobalNamespace::StandardLevelDetailView::*)()>(&GlobalNamespace::StandardLevelDetailView::get_practiceButton)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailView*), "get_practiceButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailView*), "get_practiceButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandardLevelDetailView::set_hidePracticeButton
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::set_hidePracticeButton
 // Il2CppName: set_hidePracticeButton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailView::*)(bool)>(&StandardLevelDetailView::set_hidePracticeButton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelDetailView::*)(bool)>(&GlobalNamespace::StandardLevelDetailView::set_hidePracticeButton)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailView*), "set_hidePracticeButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailView*), "set_hidePracticeButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: StandardLevelDetailView::set_disableActionButton
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::set_disableActionButton
 // Il2CppName: set_disableActionButton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailView::*)(bool)>(&StandardLevelDetailView::set_disableActionButton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelDetailView::*)(bool)>(&GlobalNamespace::StandardLevelDetailView::set_disableActionButton)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailView*), "set_disableActionButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailView*), "set_disableActionButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: StandardLevelDetailView::SetContent
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::SetContent
 // Il2CppName: SetContent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailView::*)(GlobalNamespace::IBeatmapLevel*, GlobalNamespace::BeatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::PlayerData*, bool)>(&StandardLevelDetailView::SetContent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelDetailView::*)(GlobalNamespace::IBeatmapLevel*, GlobalNamespace::BeatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::PlayerData*, bool)>(&GlobalNamespace::StandardLevelDetailView::SetContent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailView*), "SetContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerData*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailView*), "SetContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerData*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: StandardLevelDetailView::Awake
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailView::*)()>(&StandardLevelDetailView::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelDetailView::*)()>(&GlobalNamespace::StandardLevelDetailView::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailView*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailView*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandardLevelDetailView::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailView::*)()>(&StandardLevelDetailView::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelDetailView::*)()>(&GlobalNamespace::StandardLevelDetailView::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailView*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailView*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandardLevelDetailView::HandleBeatmapDifficultySegmentedControlControllerDidSelectDifficulty
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::HandleBeatmapDifficultySegmentedControlControllerDidSelectDifficulty
 // Il2CppName: HandleBeatmapDifficultySegmentedControlControllerDidSelectDifficulty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailView::*)(GlobalNamespace::BeatmapDifficultySegmentedControlController*, GlobalNamespace::BeatmapDifficulty)>(&StandardLevelDetailView::HandleBeatmapDifficultySegmentedControlControllerDidSelectDifficulty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelDetailView::*)(GlobalNamespace::BeatmapDifficultySegmentedControlController*, GlobalNamespace::BeatmapDifficulty)>(&GlobalNamespace::StandardLevelDetailView::HandleBeatmapDifficultySegmentedControlControllerDidSelectDifficulty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailView*), "HandleBeatmapDifficultySegmentedControlControllerDidSelectDifficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficultySegmentedControlController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailView*), "HandleBeatmapDifficultySegmentedControlControllerDidSelectDifficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficultySegmentedControlController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>()});
   }
 };
-// Writing MetadataGetter for method: StandardLevelDetailView::HandleBeatmapCharacteristicSegmentedControlControllerDidSelectBeatmapCharacteristic
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::HandleBeatmapCharacteristicSegmentedControlControllerDidSelectBeatmapCharacteristic
 // Il2CppName: HandleBeatmapCharacteristicSegmentedControlControllerDidSelectBeatmapCharacteristic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailView::*)(GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, GlobalNamespace::BeatmapCharacteristicSO*)>(&StandardLevelDetailView::HandleBeatmapCharacteristicSegmentedControlControllerDidSelectBeatmapCharacteristic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelDetailView::*)(GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, GlobalNamespace::BeatmapCharacteristicSO*)>(&GlobalNamespace::StandardLevelDetailView::HandleBeatmapCharacteristicSegmentedControlControllerDidSelectBeatmapCharacteristic)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailView*), "HandleBeatmapCharacteristicSegmentedControlControllerDidSelectBeatmapCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSegmentedControlController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailView*), "HandleBeatmapCharacteristicSegmentedControlControllerDidSelectBeatmapCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSegmentedControlController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>()});
   }
 };
-// Writing MetadataGetter for method: StandardLevelDetailView::RefreshContent
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::RefreshContent
 // Il2CppName: RefreshContent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailView::*)()>(&StandardLevelDetailView::RefreshContent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelDetailView::*)()>(&GlobalNamespace::StandardLevelDetailView::RefreshContent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailView*), "RefreshContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailView*), "RefreshContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandardLevelDetailView::ClearContent
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::ClearContent
 // Il2CppName: ClearContent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailView::*)()>(&StandardLevelDetailView::ClearContent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelDetailView::*)()>(&GlobalNamespace::StandardLevelDetailView::ClearContent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailView*), "ClearContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailView*), "ClearContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandardLevelDetailView::$Awake$b__32_0
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::$Awake$b__32_0
 // Il2CppName: <Awake>b__32_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailView::*)(bool)>(&StandardLevelDetailView::$Awake$b__32_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelDetailView::*)(bool)>(&GlobalNamespace::StandardLevelDetailView::$Awake$b__32_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailView*), "<Awake>b__32_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailView*), "<Awake>b__32_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: StandardLevelDetailView::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailView::*)()>(&StandardLevelDetailView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelDetailView::*)()>(&GlobalNamespace::StandardLevelDetailView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailView::*)()>(&StandardLevelDetailView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelDetailView::*)()>(&GlobalNamespace::StandardLevelDetailView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

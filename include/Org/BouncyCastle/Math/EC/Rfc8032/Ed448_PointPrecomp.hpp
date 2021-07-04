@@ -47,17 +47,17 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
   static_assert(sizeof(Ed448::PointPrecomp) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointPrecomp*, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed448/PointPrecomp");
-// Writing MetadataGetter for method: Ed448::PointPrecomp::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointPrecomp::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Ed448::PointPrecomp::*)()>(&Ed448::PointPrecomp::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointPrecomp::*)()>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointPrecomp::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Ed448::PointPrecomp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointPrecomp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Ed448::PointPrecomp::*)()>(&Ed448::PointPrecomp::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointPrecomp::*)()>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointPrecomp::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Ed448::PointPrecomp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointPrecomp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -65,31 +65,31 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(GrounderFBBIK::SpineEffector) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderFBBIK::SpineEffector*, "RootMotion.FinalIK", "GrounderFBBIK/SpineEffector");
-// Writing MetadataGetter for method: GrounderFBBIK::SpineEffector::New_ctor
+// Writing MetadataGetter for method: RootMotion::FinalIK::GrounderFBBIK::SpineEffector::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GrounderFBBIK::SpineEffector::*)(RootMotion::FinalIK::FullBodyBipedEffector, float, float)>(&GrounderFBBIK::SpineEffector::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::GrounderFBBIK::SpineEffector::*)(RootMotion::FinalIK::FullBodyBipedEffector, float, float)>(&RootMotion::FinalIK::GrounderFBBIK::SpineEffector::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GrounderFBBIK::SpineEffector*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::GrounderFBBIK::SpineEffector*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GrounderFBBIK::SpineEffector::*)(RootMotion::FinalIK::FullBodyBipedEffector, float, float)>(&GrounderFBBIK::SpineEffector::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::GrounderFBBIK::SpineEffector::*)(RootMotion::FinalIK::FullBodyBipedEffector, float, float)>(&RootMotion::FinalIK::GrounderFBBIK::SpineEffector::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GrounderFBBIK::SpineEffector*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::GrounderFBBIK::SpineEffector*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: GrounderFBBIK::SpineEffector::New_ctor
+// Writing MetadataGetter for method: RootMotion::FinalIK::GrounderFBBIK::SpineEffector::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GrounderFBBIK::SpineEffector::*)()>(&GrounderFBBIK::SpineEffector::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::GrounderFBBIK::SpineEffector::*)()>(&RootMotion::FinalIK::GrounderFBBIK::SpineEffector::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GrounderFBBIK::SpineEffector*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::GrounderFBBIK::SpineEffector*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GrounderFBBIK::SpineEffector::*)()>(&GrounderFBBIK::SpineEffector::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::GrounderFBBIK::SpineEffector::*)()>(&RootMotion::FinalIK::GrounderFBBIK::SpineEffector::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GrounderFBBIK::SpineEffector*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::GrounderFBBIK::SpineEffector*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

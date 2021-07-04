@@ -93,41 +93,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(FlyingGameHUDRotation) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingGameHUDRotation*, "", "FlyingGameHUDRotation");
-// Writing MetadataGetter for method: FlyingGameHUDRotation::Start
+// Writing MetadataGetter for method: GlobalNamespace::FlyingGameHUDRotation::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingGameHUDRotation::*)()>(&FlyingGameHUDRotation::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingGameHUDRotation::*)()>(&GlobalNamespace::FlyingGameHUDRotation::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FlyingGameHUDRotation*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingGameHUDRotation*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FlyingGameHUDRotation::FixedUpdate
+// Writing MetadataGetter for method: GlobalNamespace::FlyingGameHUDRotation::FixedUpdate
 // Il2CppName: FixedUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingGameHUDRotation::*)()>(&FlyingGameHUDRotation::FixedUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingGameHUDRotation::*)()>(&GlobalNamespace::FlyingGameHUDRotation::FixedUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FlyingGameHUDRotation*), "FixedUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingGameHUDRotation*), "FixedUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FlyingGameHUDRotation::LateUpdate
+// Writing MetadataGetter for method: GlobalNamespace::FlyingGameHUDRotation::LateUpdate
 // Il2CppName: LateUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingGameHUDRotation::*)()>(&FlyingGameHUDRotation::LateUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingGameHUDRotation::*)()>(&GlobalNamespace::FlyingGameHUDRotation::LateUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FlyingGameHUDRotation*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingGameHUDRotation*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FlyingGameHUDRotation::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::FlyingGameHUDRotation::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingGameHUDRotation::*)()>(&FlyingGameHUDRotation::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingGameHUDRotation::*)()>(&GlobalNamespace::FlyingGameHUDRotation::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FlyingGameHUDRotation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingGameHUDRotation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingGameHUDRotation::*)()>(&FlyingGameHUDRotation::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingGameHUDRotation::*)()>(&GlobalNamespace::FlyingGameHUDRotation::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FlyingGameHUDRotation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingGameHUDRotation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

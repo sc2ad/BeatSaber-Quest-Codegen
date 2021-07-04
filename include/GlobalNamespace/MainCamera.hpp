@@ -90,81 +90,81 @@ namespace GlobalNamespace {
   static_assert(sizeof(MainCamera) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainCamera*, "", "MainCamera");
-// Writing MetadataGetter for method: MainCamera::get_camera
+// Writing MetadataGetter for method: GlobalNamespace::MainCamera::get_camera
 // Il2CppName: get_camera
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (MainCamera::*)()>(&MainCamera::get_camera)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (GlobalNamespace::MainCamera::*)()>(&GlobalNamespace::MainCamera::get_camera)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainCamera*), "get_camera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainCamera*), "get_camera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MainCamera::set_enableCamera
+// Writing MetadataGetter for method: GlobalNamespace::MainCamera::set_enableCamera
 // Il2CppName: set_enableCamera
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainCamera::*)(bool)>(&MainCamera::set_enableCamera)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainCamera::*)(bool)>(&GlobalNamespace::MainCamera::set_enableCamera)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainCamera*), "set_enableCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainCamera*), "set_enableCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MainCamera::get_position
+// Writing MetadataGetter for method: GlobalNamespace::MainCamera::get_position
 // Il2CppName: get_position
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (MainCamera::*)()>(&MainCamera::get_position)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::MainCamera::*)()>(&GlobalNamespace::MainCamera::get_position)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainCamera*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainCamera*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MainCamera::get_rotation
+// Writing MetadataGetter for method: GlobalNamespace::MainCamera::get_rotation
 // Il2CppName: get_rotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (MainCamera::*)()>(&MainCamera::get_rotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (GlobalNamespace::MainCamera::*)()>(&GlobalNamespace::MainCamera::get_rotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainCamera*), "get_rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainCamera*), "get_rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MainCamera::Awake
+// Writing MetadataGetter for method: GlobalNamespace::MainCamera::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainCamera::*)()>(&MainCamera::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainCamera::*)()>(&GlobalNamespace::MainCamera::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainCamera*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainCamera*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MainCamera::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::MainCamera::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainCamera::*)()>(&MainCamera::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainCamera::*)()>(&GlobalNamespace::MainCamera::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainCamera*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainCamera*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MainCamera::Update
+// Writing MetadataGetter for method: GlobalNamespace::MainCamera::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainCamera::*)()>(&MainCamera::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainCamera::*)()>(&GlobalNamespace::MainCamera::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainCamera*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainCamera*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MainCamera::OnDisable
+// Writing MetadataGetter for method: GlobalNamespace::MainCamera::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainCamera::*)()>(&MainCamera::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainCamera::*)()>(&GlobalNamespace::MainCamera::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainCamera*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainCamera*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MainCamera::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MainCamera::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainCamera::*)()>(&MainCamera::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainCamera::*)()>(&GlobalNamespace::MainCamera::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainCamera*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainCamera*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainCamera::*)()>(&MainCamera::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainCamera::*)()>(&GlobalNamespace::MainCamera::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainCamera*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainCamera*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

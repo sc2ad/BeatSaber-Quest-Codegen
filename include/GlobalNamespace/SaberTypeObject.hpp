@@ -52,25 +52,25 @@ namespace GlobalNamespace {
   static_assert(sizeof(SaberTypeObject) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberTypeObject*, "", "SaberTypeObject");
-// Writing MetadataGetter for method: SaberTypeObject::get_saberType
+// Writing MetadataGetter for method: GlobalNamespace::SaberTypeObject::get_saberType
 // Il2CppName: get_saberType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SaberType (SaberTypeObject::*)()>(&SaberTypeObject::get_saberType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SaberType (GlobalNamespace::SaberTypeObject::*)()>(&GlobalNamespace::SaberTypeObject::get_saberType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberTypeObject*), "get_saberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTypeObject*), "get_saberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SaberTypeObject::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::SaberTypeObject::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberTypeObject::*)()>(&SaberTypeObject::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberTypeObject::*)()>(&GlobalNamespace::SaberTypeObject::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberTypeObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTypeObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberTypeObject::*)()>(&SaberTypeObject::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberTypeObject::*)()>(&GlobalNamespace::SaberTypeObject::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberTypeObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTypeObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

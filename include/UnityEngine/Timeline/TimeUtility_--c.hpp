@@ -63,41 +63,41 @@ namespace UnityEngine::Timeline {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeUtility::$$c*, "UnityEngine.Timeline", "TimeUtility/<>c");
-// Writing MetadataGetter for method: TimeUtility::$$c::_cctor
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimeUtility::$$c::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TimeUtility::$$c::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Timeline::TimeUtility::$$c::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeUtility::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeUtility::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimeUtility::$$c::$ParseTimeCode$b__14_0
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimeUtility::$$c::$ParseTimeCode$b__14_0
 // Il2CppName: <ParseTimeCode>b__14_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimeUtility::$$c::*)(::Il2CppChar)>(&TimeUtility::$$c::$ParseTimeCode$b__14_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TimeUtility::$$c::*)(::Il2CppChar)>(&UnityEngine::Timeline::TimeUtility::$$c::$ParseTimeCode$b__14_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeUtility::$$c*), "<ParseTimeCode>b__14_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeUtility::$$c*), "<ParseTimeCode>b__14_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
   }
 };
-// Writing MetadataGetter for method: TimeUtility::$$c::$ParseTimeCode$b__14_1
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimeUtility::$$c::$ParseTimeCode$b__14_1
 // Il2CppName: <ParseTimeCode>b__14_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimeUtility::$$c::*)(::Il2CppChar)>(&TimeUtility::$$c::$ParseTimeCode$b__14_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TimeUtility::$$c::*)(::Il2CppChar)>(&UnityEngine::Timeline::TimeUtility::$$c::$ParseTimeCode$b__14_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeUtility::$$c*), "<ParseTimeCode>b__14_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeUtility::$$c*), "<ParseTimeCode>b__14_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
   }
 };
-// Writing MetadataGetter for method: TimeUtility::$$c::New_ctor
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimeUtility::$$c::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeUtility::$$c::*)()>(&TimeUtility::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimeUtility::$$c::*)()>(&UnityEngine::Timeline::TimeUtility::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeUtility::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeUtility::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeUtility::$$c::*)()>(&TimeUtility::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimeUtility::$$c::*)()>(&UnityEngine::Timeline::TimeUtility::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeUtility::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeUtility::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

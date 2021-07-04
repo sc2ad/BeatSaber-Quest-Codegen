@@ -55,27 +55,27 @@ namespace Mono::Globalization::Unicode {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::NormalizationTableUtil*, "Mono.Globalization.Unicode", "NormalizationTableUtil");
-// Writing MetadataGetter for method: NormalizationTableUtil::_cctor
+// Writing MetadataGetter for method: Mono::Globalization::Unicode::NormalizationTableUtil::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NormalizationTableUtil::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Mono::Globalization::Unicode::NormalizationTableUtil::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NormalizationTableUtil*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::NormalizationTableUtil*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NormalizationTableUtil::PropIdx
+// Writing MetadataGetter for method: Mono::Globalization::Unicode::NormalizationTableUtil::PropIdx
 // Il2CppName: PropIdx
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&NormalizationTableUtil::PropIdx)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&Mono::Globalization::Unicode::NormalizationTableUtil::PropIdx)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NormalizationTableUtil*), "PropIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::NormalizationTableUtil*), "PropIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: NormalizationTableUtil::MapIdx
+// Writing MetadataGetter for method: Mono::Globalization::Unicode::NormalizationTableUtil::MapIdx
 // Il2CppName: MapIdx
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&NormalizationTableUtil::MapIdx)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&Mono::Globalization::Unicode::NormalizationTableUtil::MapIdx)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NormalizationTableUtil*), "MapIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::NormalizationTableUtil*), "MapIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };

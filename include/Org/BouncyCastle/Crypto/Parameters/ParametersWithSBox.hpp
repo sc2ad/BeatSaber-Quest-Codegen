@@ -55,33 +55,33 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   static_assert(sizeof(ParametersWithSBox) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox*, "Org.BouncyCastle.Crypto.Parameters", "ParametersWithSBox");
-// Writing MetadataGetter for method: ParametersWithSBox::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParametersWithSBox::*)(Org::BouncyCastle::Crypto::ICipherParameters*, ::Array<uint8_t>*)>(&ParametersWithSBox::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox::*)(Org::BouncyCastle::Crypto::ICipherParameters*, ::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParametersWithSBox*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::ICipherParameters*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::ICipherParameters*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParametersWithSBox::*)(Org::BouncyCastle::Crypto::ICipherParameters*, ::Array<uint8_t>*)>(&ParametersWithSBox::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox::*)(Org::BouncyCastle::Crypto::ICipherParameters*, ::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParametersWithSBox*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::ICipherParameters*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::ICipherParameters*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: ParametersWithSBox::GetSBox
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox::GetSBox
 // Il2CppName: GetSBox
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (ParametersWithSBox::*)()>(&ParametersWithSBox::GetSBox)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox::*)()>(&Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox::GetSBox)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParametersWithSBox*), "GetSBox", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox*), "GetSBox", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ParametersWithSBox::get_Parameters
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox::get_Parameters
 // Il2CppName: get_Parameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::ICipherParameters* (ParametersWithSBox::*)()>(&ParametersWithSBox::get_Parameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::ICipherParameters* (Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox::*)()>(&Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox::get_Parameters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParametersWithSBox*), "get_Parameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox*), "get_Parameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

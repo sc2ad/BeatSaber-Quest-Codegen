@@ -52,41 +52,41 @@ namespace Valve::VR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperone::_ReloadInfo*, "Valve.VR", "IVRChaperone/_ReloadInfo");
-// Writing MetadataGetter for method: IVRChaperone::_ReloadInfo::New_ctor
+// Writing MetadataGetter for method: Valve::VR::IVRChaperone::_ReloadInfo::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRChaperone::_ReloadInfo::*)(::Il2CppObject*, System::IntPtr)>(&IVRChaperone::_ReloadInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRChaperone::_ReloadInfo::*)(::Il2CppObject*, System::IntPtr)>(&Valve::VR::IVRChaperone::_ReloadInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRChaperone::_ReloadInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRChaperone::_ReloadInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRChaperone::_ReloadInfo::*)(::Il2CppObject*, System::IntPtr)>(&IVRChaperone::_ReloadInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRChaperone::_ReloadInfo::*)(::Il2CppObject*, System::IntPtr)>(&Valve::VR::IVRChaperone::_ReloadInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRChaperone::_ReloadInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRChaperone::_ReloadInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: IVRChaperone::_ReloadInfo::Invoke
+// Writing MetadataGetter for method: Valve::VR::IVRChaperone::_ReloadInfo::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRChaperone::_ReloadInfo::*)()>(&IVRChaperone::_ReloadInfo::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRChaperone::_ReloadInfo::*)()>(&Valve::VR::IVRChaperone::_ReloadInfo::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRChaperone::_ReloadInfo*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRChaperone::_ReloadInfo*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IVRChaperone::_ReloadInfo::BeginInvoke
+// Writing MetadataGetter for method: Valve::VR::IVRChaperone::_ReloadInfo::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRChaperone::_ReloadInfo::*)(System::AsyncCallback*, ::Il2CppObject*)>(&IVRChaperone::_ReloadInfo::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRChaperone::_ReloadInfo::*)(System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRChaperone::_ReloadInfo::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRChaperone::_ReloadInfo*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRChaperone::_ReloadInfo*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IVRChaperone::_ReloadInfo::EndInvoke
+// Writing MetadataGetter for method: Valve::VR::IVRChaperone::_ReloadInfo::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRChaperone::_ReloadInfo::*)(System::IAsyncResult*)>(&IVRChaperone::_ReloadInfo::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRChaperone::_ReloadInfo::*)(System::IAsyncResult*)>(&Valve::VR::IVRChaperone::_ReloadInfo::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRChaperone::_ReloadInfo*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRChaperone::_ReloadInfo*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

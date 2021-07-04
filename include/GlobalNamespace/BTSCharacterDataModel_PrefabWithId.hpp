@@ -62,33 +62,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(BTSCharacterDataModel::PrefabWithId) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterDataModel::PrefabWithId*, "", "BTSCharacterDataModel/PrefabWithId");
-// Writing MetadataGetter for method: BTSCharacterDataModel::PrefabWithId::get_id
+// Writing MetadataGetter for method: GlobalNamespace::BTSCharacterDataModel::PrefabWithId::get_id
 // Il2CppName: get_id
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BTSCharacterDataModel::PrefabWithId::*)()>(&BTSCharacterDataModel::PrefabWithId::get_id)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::BTSCharacterDataModel::PrefabWithId::*)()>(&GlobalNamespace::BTSCharacterDataModel::PrefabWithId::get_id)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BTSCharacterDataModel::PrefabWithId*), "get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterDataModel::PrefabWithId*), "get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BTSCharacterDataModel::PrefabWithId::get_prefabAssetReference
+// Writing MetadataGetter for method: GlobalNamespace::BTSCharacterDataModel::PrefabWithId::get_prefabAssetReference
 // Il2CppName: get_prefabAssetReference
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AddressableAssets::AssetReference* (BTSCharacterDataModel::PrefabWithId::*)()>(&BTSCharacterDataModel::PrefabWithId::get_prefabAssetReference)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AddressableAssets::AssetReference* (GlobalNamespace::BTSCharacterDataModel::PrefabWithId::*)()>(&GlobalNamespace::BTSCharacterDataModel::PrefabWithId::get_prefabAssetReference)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BTSCharacterDataModel::PrefabWithId*), "get_prefabAssetReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterDataModel::PrefabWithId*), "get_prefabAssetReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BTSCharacterDataModel::PrefabWithId::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BTSCharacterDataModel::PrefabWithId::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterDataModel::PrefabWithId::*)()>(&BTSCharacterDataModel::PrefabWithId::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterDataModel::PrefabWithId::*)()>(&GlobalNamespace::BTSCharacterDataModel::PrefabWithId::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BTSCharacterDataModel::PrefabWithId*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterDataModel::PrefabWithId*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterDataModel::PrefabWithId::*)()>(&BTSCharacterDataModel::PrefabWithId::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterDataModel::PrefabWithId::*)()>(&GlobalNamespace::BTSCharacterDataModel::PrefabWithId::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BTSCharacterDataModel::PrefabWithId*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterDataModel::PrefabWithId*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -99,49 +99,49 @@ namespace System::Net::NetworkInformation {
   static_assert(sizeof(UnixNetworkInterface) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::UnixNetworkInterface*, "System.Net.NetworkInformation", "UnixNetworkInterface");
-// Writing MetadataGetter for method: UnixNetworkInterface::New_ctor
+// Writing MetadataGetter for method: System::Net::NetworkInformation::UnixNetworkInterface::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnixNetworkInterface::*)(::Il2CppString*)>(&UnixNetworkInterface::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::UnixNetworkInterface::*)(::Il2CppString*)>(&System::Net::NetworkInformation::UnixNetworkInterface::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnixNetworkInterface*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::UnixNetworkInterface*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnixNetworkInterface::*)(::Il2CppString*)>(&UnixNetworkInterface::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::UnixNetworkInterface::*)(::Il2CppString*)>(&System::Net::NetworkInformation::UnixNetworkInterface::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnixNetworkInterface*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::UnixNetworkInterface*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: UnixNetworkInterface::AddAddress
+// Writing MetadataGetter for method: System::Net::NetworkInformation::UnixNetworkInterface::AddAddress
 // Il2CppName: AddAddress
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnixNetworkInterface::*)(System::Net::IPAddress*)>(&UnixNetworkInterface::AddAddress)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::UnixNetworkInterface::*)(System::Net::IPAddress*)>(&System::Net::NetworkInformation::UnixNetworkInterface::AddAddress)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnixNetworkInterface*), "AddAddress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::UnixNetworkInterface*), "AddAddress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>()});
   }
 };
-// Writing MetadataGetter for method: UnixNetworkInterface::SetLinkLayerInfo
+// Writing MetadataGetter for method: System::Net::NetworkInformation::UnixNetworkInterface::SetLinkLayerInfo
 // Il2CppName: SetLinkLayerInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnixNetworkInterface::*)(int, ::Array<uint8_t>*, System::Net::NetworkInformation::NetworkInterfaceType)>(&UnixNetworkInterface::SetLinkLayerInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::UnixNetworkInterface::*)(int, ::Array<uint8_t>*, System::Net::NetworkInformation::NetworkInterfaceType)>(&System::Net::NetworkInformation::UnixNetworkInterface::SetLinkLayerInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnixNetworkInterface*), "SetLinkLayerInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::NetworkInterfaceType>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::UnixNetworkInterface*), "SetLinkLayerInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::NetworkInterfaceType>()});
   }
 };
-// Writing MetadataGetter for method: UnixNetworkInterface::get_Name
+// Writing MetadataGetter for method: System::Net::NetworkInformation::UnixNetworkInterface::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnixNetworkInterface::*)()>(&UnixNetworkInterface::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::NetworkInformation::UnixNetworkInterface::*)()>(&System::Net::NetworkInformation::UnixNetworkInterface::get_Name)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnixNetworkInterface*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::UnixNetworkInterface*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnixNetworkInterface::get_NetworkInterfaceType
+// Writing MetadataGetter for method: System::Net::NetworkInformation::UnixNetworkInterface::get_NetworkInterfaceType
 // Il2CppName: get_NetworkInterfaceType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::NetworkInterfaceType (UnixNetworkInterface::*)()>(&UnixNetworkInterface::get_NetworkInterfaceType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::NetworkInterfaceType (System::Net::NetworkInformation::UnixNetworkInterface::*)()>(&System::Net::NetworkInformation::UnixNetworkInterface::get_NetworkInterfaceType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnixNetworkInterface*), "get_NetworkInterfaceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::UnixNetworkInterface*), "get_NetworkInterfaceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

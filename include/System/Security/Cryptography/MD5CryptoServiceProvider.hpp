@@ -111,89 +111,89 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(MD5CryptoServiceProvider) == 0x4C);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::MD5CryptoServiceProvider*, "System.Security.Cryptography", "MD5CryptoServiceProvider");
-// Writing MetadataGetter for method: MD5CryptoServiceProvider::ProcessBlock
+// Writing MetadataGetter for method: System::Security::Cryptography::MD5CryptoServiceProvider::ProcessBlock
 // Il2CppName: ProcessBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MD5CryptoServiceProvider::*)(::Array<uint8_t>*, int)>(&MD5CryptoServiceProvider::ProcessBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::MD5CryptoServiceProvider::*)(::Array<uint8_t>*, int)>(&System::Security::Cryptography::MD5CryptoServiceProvider::ProcessBlock)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MD5CryptoServiceProvider*), "ProcessBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::MD5CryptoServiceProvider*), "ProcessBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: MD5CryptoServiceProvider::ProcessFinalBlock
+// Writing MetadataGetter for method: System::Security::Cryptography::MD5CryptoServiceProvider::ProcessFinalBlock
 // Il2CppName: ProcessFinalBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MD5CryptoServiceProvider::*)(::Array<uint8_t>*, int, int)>(&MD5CryptoServiceProvider::ProcessFinalBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::MD5CryptoServiceProvider::*)(::Array<uint8_t>*, int, int)>(&System::Security::Cryptography::MD5CryptoServiceProvider::ProcessFinalBlock)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MD5CryptoServiceProvider*), "ProcessFinalBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::MD5CryptoServiceProvider*), "ProcessFinalBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: MD5CryptoServiceProvider::AddLength
+// Writing MetadataGetter for method: System::Security::Cryptography::MD5CryptoServiceProvider::AddLength
 // Il2CppName: AddLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MD5CryptoServiceProvider::*)(uint64_t, ::Array<uint8_t>*, int)>(&MD5CryptoServiceProvider::AddLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::MD5CryptoServiceProvider::*)(uint64_t, ::Array<uint8_t>*, int)>(&System::Security::Cryptography::MD5CryptoServiceProvider::AddLength)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MD5CryptoServiceProvider*), "AddLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::MD5CryptoServiceProvider*), "AddLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: MD5CryptoServiceProvider::_cctor
+// Writing MetadataGetter for method: System::Security::Cryptography::MD5CryptoServiceProvider::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&MD5CryptoServiceProvider::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Security::Cryptography::MD5CryptoServiceProvider::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MD5CryptoServiceProvider*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::MD5CryptoServiceProvider*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MD5CryptoServiceProvider::New_ctor
+// Writing MetadataGetter for method: System::Security::Cryptography::MD5CryptoServiceProvider::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MD5CryptoServiceProvider::*)()>(&MD5CryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::MD5CryptoServiceProvider::*)()>(&System::Security::Cryptography::MD5CryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MD5CryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::MD5CryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MD5CryptoServiceProvider::*)()>(&MD5CryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::MD5CryptoServiceProvider::*)()>(&System::Security::Cryptography::MD5CryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MD5CryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::MD5CryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MD5CryptoServiceProvider::Finalize
+// Writing MetadataGetter for method: System::Security::Cryptography::MD5CryptoServiceProvider::Finalize
 // Il2CppName: Finalize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MD5CryptoServiceProvider::*)()>(&MD5CryptoServiceProvider::Finalize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::MD5CryptoServiceProvider::*)()>(&System::Security::Cryptography::MD5CryptoServiceProvider::Finalize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MD5CryptoServiceProvider*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::MD5CryptoServiceProvider*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MD5CryptoServiceProvider::Dispose
+// Writing MetadataGetter for method: System::Security::Cryptography::MD5CryptoServiceProvider::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MD5CryptoServiceProvider::*)(bool)>(&MD5CryptoServiceProvider::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::MD5CryptoServiceProvider::*)(bool)>(&System::Security::Cryptography::MD5CryptoServiceProvider::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MD5CryptoServiceProvider*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::MD5CryptoServiceProvider*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MD5CryptoServiceProvider::HashCore
+// Writing MetadataGetter for method: System::Security::Cryptography::MD5CryptoServiceProvider::HashCore
 // Il2CppName: HashCore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MD5CryptoServiceProvider::*)(::Array<uint8_t>*, int, int)>(&MD5CryptoServiceProvider::HashCore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::MD5CryptoServiceProvider::*)(::Array<uint8_t>*, int, int)>(&System::Security::Cryptography::MD5CryptoServiceProvider::HashCore)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MD5CryptoServiceProvider*), "HashCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::MD5CryptoServiceProvider*), "HashCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: MD5CryptoServiceProvider::HashFinal
+// Writing MetadataGetter for method: System::Security::Cryptography::MD5CryptoServiceProvider::HashFinal
 // Il2CppName: HashFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (MD5CryptoServiceProvider::*)()>(&MD5CryptoServiceProvider::HashFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Security::Cryptography::MD5CryptoServiceProvider::*)()>(&System::Security::Cryptography::MD5CryptoServiceProvider::HashFinal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MD5CryptoServiceProvider*), "HashFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::MD5CryptoServiceProvider*), "HashFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MD5CryptoServiceProvider::Initialize
+// Writing MetadataGetter for method: System::Security::Cryptography::MD5CryptoServiceProvider::Initialize
 // Il2CppName: Initialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MD5CryptoServiceProvider::*)()>(&MD5CryptoServiceProvider::Initialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::MD5CryptoServiceProvider::*)()>(&System::Security::Cryptography::MD5CryptoServiceProvider::Initialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MD5CryptoServiceProvider*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::MD5CryptoServiceProvider*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

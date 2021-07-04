@@ -57,41 +57,41 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired*, "OVR.OpenVR", "IVRCompositor/_GetVulkanDeviceExtensionsRequired");
-// Writing MetadataGetter for method: IVRCompositor::_GetVulkanDeviceExtensionsRequired::New_ctor
+// Writing MetadataGetter for method: OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRCompositor::_GetVulkanDeviceExtensionsRequired::*)(::Il2CppObject*, System::IntPtr)>(&IVRCompositor::_GetVulkanDeviceExtensionsRequired::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_GetVulkanDeviceExtensionsRequired*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRCompositor::_GetVulkanDeviceExtensionsRequired::*)(::Il2CppObject*, System::IntPtr)>(&IVRCompositor::_GetVulkanDeviceExtensionsRequired::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_GetVulkanDeviceExtensionsRequired*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: IVRCompositor::_GetVulkanDeviceExtensionsRequired::Invoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (IVRCompositor::_GetVulkanDeviceExtensionsRequired::*)(System::IntPtr, System::Text::StringBuilder*, uint)>(&IVRCompositor::_GetVulkanDeviceExtensionsRequired::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired::*)(System::IntPtr, System::Text::StringBuilder*, uint)>(&OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_GetVulkanDeviceExtensionsRequired*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: IVRCompositor::_GetVulkanDeviceExtensionsRequired::BeginInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRCompositor::_GetVulkanDeviceExtensionsRequired::*)(System::IntPtr, System::Text::StringBuilder*, uint, System::AsyncCallback*, ::Il2CppObject*)>(&IVRCompositor::_GetVulkanDeviceExtensionsRequired::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired::*)(System::IntPtr, System::Text::StringBuilder*, uint, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_GetVulkanDeviceExtensionsRequired*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IVRCompositor::_GetVulkanDeviceExtensionsRequired::EndInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (IVRCompositor::_GetVulkanDeviceExtensionsRequired::*)(System::IAsyncResult*)>(&IVRCompositor::_GetVulkanDeviceExtensionsRequired::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired::*)(System::IAsyncResult*)>(&OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_GetVulkanDeviceExtensionsRequired*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

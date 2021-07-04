@@ -106,73 +106,73 @@ namespace Zenject {
   static_assert(sizeof(MonoKernel) == 0x32);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::MonoKernel*, "Zenject", "MonoKernel");
-// Writing MetadataGetter for method: MonoKernel::get_IsDestroyed
+// Writing MetadataGetter for method: Zenject::MonoKernel::get_IsDestroyed
 // Il2CppName: get_IsDestroyed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MonoKernel::*)()>(&MonoKernel::get_IsDestroyed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::MonoKernel::*)()>(&Zenject::MonoKernel::get_IsDestroyed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoKernel*), "get_IsDestroyed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MonoKernel*), "get_IsDestroyed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MonoKernel::Start
+// Writing MetadataGetter for method: Zenject::MonoKernel::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoKernel::*)()>(&MonoKernel::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::MonoKernel::*)()>(&Zenject::MonoKernel::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoKernel*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MonoKernel*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MonoKernel::Initialize
+// Writing MetadataGetter for method: Zenject::MonoKernel::Initialize
 // Il2CppName: Initialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoKernel::*)()>(&MonoKernel::Initialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::MonoKernel::*)()>(&Zenject::MonoKernel::Initialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoKernel*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MonoKernel*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MonoKernel::Update
+// Writing MetadataGetter for method: Zenject::MonoKernel::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoKernel::*)()>(&MonoKernel::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::MonoKernel::*)()>(&Zenject::MonoKernel::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoKernel*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MonoKernel*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MonoKernel::FixedUpdate
+// Writing MetadataGetter for method: Zenject::MonoKernel::FixedUpdate
 // Il2CppName: FixedUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoKernel::*)()>(&MonoKernel::FixedUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::MonoKernel::*)()>(&Zenject::MonoKernel::FixedUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoKernel*), "FixedUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MonoKernel*), "FixedUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MonoKernel::LateUpdate
+// Writing MetadataGetter for method: Zenject::MonoKernel::LateUpdate
 // Il2CppName: LateUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoKernel::*)()>(&MonoKernel::LateUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::MonoKernel::*)()>(&Zenject::MonoKernel::LateUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoKernel*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MonoKernel*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MonoKernel::OnDestroy
+// Writing MetadataGetter for method: Zenject::MonoKernel::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoKernel::*)()>(&MonoKernel::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::MonoKernel::*)()>(&Zenject::MonoKernel::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoKernel*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MonoKernel*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MonoKernel::New_ctor
+// Writing MetadataGetter for method: Zenject::MonoKernel::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoKernel::*)()>(&MonoKernel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::MonoKernel::*)()>(&Zenject::MonoKernel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoKernel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MonoKernel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoKernel::*)()>(&MonoKernel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::MonoKernel::*)()>(&Zenject::MonoKernel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoKernel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MonoKernel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

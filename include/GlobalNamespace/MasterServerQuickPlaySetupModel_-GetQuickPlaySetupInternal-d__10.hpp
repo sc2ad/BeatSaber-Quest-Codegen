@@ -70,19 +70,19 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerQuickPlaySetupModel::$GetQuickPlaySetupInternal$d__10, "", "MasterServerQuickPlaySetupModel/<GetQuickPlaySetupInternal>d__10");
-// Writing MetadataGetter for method: MasterServerQuickPlaySetupModel::$GetQuickPlaySetupInternal$d__10::MoveNext
+// Writing MetadataGetter for method: GlobalNamespace::MasterServerQuickPlaySetupModel::$GetQuickPlaySetupInternal$d__10::MoveNext
 // Il2CppName: MoveNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServerQuickPlaySetupModel::$GetQuickPlaySetupInternal$d__10::*)()>(&MasterServerQuickPlaySetupModel::$GetQuickPlaySetupInternal$d__10::MoveNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerQuickPlaySetupModel::$GetQuickPlaySetupInternal$d__10::*)()>(&GlobalNamespace::MasterServerQuickPlaySetupModel::$GetQuickPlaySetupInternal$d__10::MoveNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServerQuickPlaySetupModel::$GetQuickPlaySetupInternal$d__10), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerQuickPlaySetupModel::$GetQuickPlaySetupInternal$d__10), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MasterServerQuickPlaySetupModel::$GetQuickPlaySetupInternal$d__10::SetStateMachine
+// Writing MetadataGetter for method: GlobalNamespace::MasterServerQuickPlaySetupModel::$GetQuickPlaySetupInternal$d__10::SetStateMachine
 // Il2CppName: SetStateMachine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServerQuickPlaySetupModel::$GetQuickPlaySetupInternal$d__10::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&MasterServerQuickPlaySetupModel::$GetQuickPlaySetupInternal$d__10::SetStateMachine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerQuickPlaySetupModel::$GetQuickPlaySetupInternal$d__10::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&GlobalNamespace::MasterServerQuickPlaySetupModel::$GetQuickPlaySetupInternal$d__10::SetStateMachine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServerQuickPlaySetupModel::$GetQuickPlaySetupInternal$d__10), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerQuickPlaySetupModel::$GetQuickPlaySetupInternal$d__10), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
   }
 };

@@ -84,83 +84,83 @@ namespace System::Runtime::Remoting::Lifetime {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Lifetime::LifetimeServices*, "System.Runtime.Remoting.Lifetime", "LifetimeServices");
-// Writing MetadataGetter for method: LifetimeServices::_cctor
+// Writing MetadataGetter for method: System::Runtime::Remoting::Lifetime::LifetimeServices::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&LifetimeServices::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Runtime::Remoting::Lifetime::LifetimeServices::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LifetimeServices*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::LifetimeServices*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LifetimeServices::get_LeaseManagerPollTime
+// Writing MetadataGetter for method: System::Runtime::Remoting::Lifetime::LifetimeServices::get_LeaseManagerPollTime
 // Il2CppName: get_LeaseManagerPollTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)()>(&LifetimeServices::get_LeaseManagerPollTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)()>(&System::Runtime::Remoting::Lifetime::LifetimeServices::get_LeaseManagerPollTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LifetimeServices*), "get_LeaseManagerPollTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::LifetimeServices*), "get_LeaseManagerPollTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LifetimeServices::set_LeaseManagerPollTime
+// Writing MetadataGetter for method: System::Runtime::Remoting::Lifetime::LifetimeServices::set_LeaseManagerPollTime
 // Il2CppName: set_LeaseManagerPollTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::TimeSpan)>(&LifetimeServices::set_LeaseManagerPollTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::TimeSpan)>(&System::Runtime::Remoting::Lifetime::LifetimeServices::set_LeaseManagerPollTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LifetimeServices*), "set_LeaseManagerPollTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::LifetimeServices*), "set_LeaseManagerPollTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
   }
 };
-// Writing MetadataGetter for method: LifetimeServices::get_LeaseTime
+// Writing MetadataGetter for method: System::Runtime::Remoting::Lifetime::LifetimeServices::get_LeaseTime
 // Il2CppName: get_LeaseTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)()>(&LifetimeServices::get_LeaseTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)()>(&System::Runtime::Remoting::Lifetime::LifetimeServices::get_LeaseTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LifetimeServices*), "get_LeaseTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::LifetimeServices*), "get_LeaseTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LifetimeServices::set_LeaseTime
+// Writing MetadataGetter for method: System::Runtime::Remoting::Lifetime::LifetimeServices::set_LeaseTime
 // Il2CppName: set_LeaseTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::TimeSpan)>(&LifetimeServices::set_LeaseTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::TimeSpan)>(&System::Runtime::Remoting::Lifetime::LifetimeServices::set_LeaseTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LifetimeServices*), "set_LeaseTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::LifetimeServices*), "set_LeaseTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
   }
 };
-// Writing MetadataGetter for method: LifetimeServices::get_RenewOnCallTime
+// Writing MetadataGetter for method: System::Runtime::Remoting::Lifetime::LifetimeServices::get_RenewOnCallTime
 // Il2CppName: get_RenewOnCallTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)()>(&LifetimeServices::get_RenewOnCallTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)()>(&System::Runtime::Remoting::Lifetime::LifetimeServices::get_RenewOnCallTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LifetimeServices*), "get_RenewOnCallTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::LifetimeServices*), "get_RenewOnCallTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LifetimeServices::set_RenewOnCallTime
+// Writing MetadataGetter for method: System::Runtime::Remoting::Lifetime::LifetimeServices::set_RenewOnCallTime
 // Il2CppName: set_RenewOnCallTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::TimeSpan)>(&LifetimeServices::set_RenewOnCallTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::TimeSpan)>(&System::Runtime::Remoting::Lifetime::LifetimeServices::set_RenewOnCallTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LifetimeServices*), "set_RenewOnCallTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::LifetimeServices*), "set_RenewOnCallTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
   }
 };
-// Writing MetadataGetter for method: LifetimeServices::get_SponsorshipTimeout
+// Writing MetadataGetter for method: System::Runtime::Remoting::Lifetime::LifetimeServices::get_SponsorshipTimeout
 // Il2CppName: get_SponsorshipTimeout
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)()>(&LifetimeServices::get_SponsorshipTimeout)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)()>(&System::Runtime::Remoting::Lifetime::LifetimeServices::get_SponsorshipTimeout)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LifetimeServices*), "get_SponsorshipTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::LifetimeServices*), "get_SponsorshipTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LifetimeServices::set_SponsorshipTimeout
+// Writing MetadataGetter for method: System::Runtime::Remoting::Lifetime::LifetimeServices::set_SponsorshipTimeout
 // Il2CppName: set_SponsorshipTimeout
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::TimeSpan)>(&LifetimeServices::set_SponsorshipTimeout)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::TimeSpan)>(&System::Runtime::Remoting::Lifetime::LifetimeServices::set_SponsorshipTimeout)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LifetimeServices*), "set_SponsorshipTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::LifetimeServices*), "set_SponsorshipTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
   }
 };
-// Writing MetadataGetter for method: LifetimeServices::TrackLifetime
+// Writing MetadataGetter for method: System::Runtime::Remoting::Lifetime::LifetimeServices::TrackLifetime
 // Il2CppName: TrackLifetime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::ServerIdentity*)>(&LifetimeServices::TrackLifetime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::ServerIdentity*)>(&System::Runtime::Remoting::Lifetime::LifetimeServices::TrackLifetime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LifetimeServices*), "TrackLifetime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ServerIdentity*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::LifetimeServices*), "TrackLifetime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ServerIdentity*>()});
   }
 };

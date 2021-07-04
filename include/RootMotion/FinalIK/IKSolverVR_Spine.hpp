@@ -509,209 +509,209 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKSolverVR::Spine) == 0x228);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::Spine*, "RootMotion.FinalIK", "IKSolverVR/Spine");
-// Writing MetadataGetter for method: IKSolverVR::Spine::get_pelvis
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::get_pelvis
 // Il2CppName: get_pelvis
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolverVR::VirtualBone* (IKSolverVR::Spine::*)()>(&IKSolverVR::Spine::get_pelvis)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolverVR::VirtualBone* (RootMotion::FinalIK::IKSolverVR::Spine::*)()>(&RootMotion::FinalIK::IKSolverVR::Spine::get_pelvis)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Spine*), "get_pelvis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "get_pelvis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IKSolverVR::Spine::get_firstSpineBone
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::get_firstSpineBone
 // Il2CppName: get_firstSpineBone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolverVR::VirtualBone* (IKSolverVR::Spine::*)()>(&IKSolverVR::Spine::get_firstSpineBone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolverVR::VirtualBone* (RootMotion::FinalIK::IKSolverVR::Spine::*)()>(&RootMotion::FinalIK::IKSolverVR::Spine::get_firstSpineBone)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Spine*), "get_firstSpineBone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "get_firstSpineBone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IKSolverVR::Spine::get_chest
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::get_chest
 // Il2CppName: get_chest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolverVR::VirtualBone* (IKSolverVR::Spine::*)()>(&IKSolverVR::Spine::get_chest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolverVR::VirtualBone* (RootMotion::FinalIK::IKSolverVR::Spine::*)()>(&RootMotion::FinalIK::IKSolverVR::Spine::get_chest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Spine*), "get_chest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "get_chest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IKSolverVR::Spine::get_neck
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::get_neck
 // Il2CppName: get_neck
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolverVR::VirtualBone* (IKSolverVR::Spine::*)()>(&IKSolverVR::Spine::get_neck)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolverVR::VirtualBone* (RootMotion::FinalIK::IKSolverVR::Spine::*)()>(&RootMotion::FinalIK::IKSolverVR::Spine::get_neck)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Spine*), "get_neck", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "get_neck", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IKSolverVR::Spine::get_head
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::get_head
 // Il2CppName: get_head
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolverVR::VirtualBone* (IKSolverVR::Spine::*)()>(&IKSolverVR::Spine::get_head)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolverVR::VirtualBone* (RootMotion::FinalIK::IKSolverVR::Spine::*)()>(&RootMotion::FinalIK::IKSolverVR::Spine::get_head)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Spine*), "get_head", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "get_head", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IKSolverVR::Spine::get_anchorRotation
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::get_anchorRotation
 // Il2CppName: get_anchorRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (IKSolverVR::Spine::*)()>(&IKSolverVR::Spine::get_anchorRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (RootMotion::FinalIK::IKSolverVR::Spine::*)()>(&RootMotion::FinalIK::IKSolverVR::Spine::get_anchorRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Spine*), "get_anchorRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "get_anchorRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IKSolverVR::Spine::set_anchorRotation
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::set_anchorRotation
 // Il2CppName: set_anchorRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverVR::Spine::*)(UnityEngine::Quaternion)>(&IKSolverVR::Spine::set_anchorRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)(UnityEngine::Quaternion)>(&RootMotion::FinalIK::IKSolverVR::Spine::set_anchorRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Spine*), "set_anchorRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "set_anchorRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
   }
 };
-// Writing MetadataGetter for method: IKSolverVR::Spine::get_anchorRelativeToHead
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::get_anchorRelativeToHead
 // Il2CppName: get_anchorRelativeToHead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (IKSolverVR::Spine::*)()>(&IKSolverVR::Spine::get_anchorRelativeToHead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (RootMotion::FinalIK::IKSolverVR::Spine::*)()>(&RootMotion::FinalIK::IKSolverVR::Spine::get_anchorRelativeToHead)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Spine*), "get_anchorRelativeToHead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "get_anchorRelativeToHead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IKSolverVR::Spine::set_anchorRelativeToHead
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::set_anchorRelativeToHead
 // Il2CppName: set_anchorRelativeToHead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverVR::Spine::*)(UnityEngine::Quaternion)>(&IKSolverVR::Spine::set_anchorRelativeToHead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)(UnityEngine::Quaternion)>(&RootMotion::FinalIK::IKSolverVR::Spine::set_anchorRelativeToHead)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Spine*), "set_anchorRelativeToHead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "set_anchorRelativeToHead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
   }
 };
-// Writing MetadataGetter for method: IKSolverVR::Spine::CalculateChestTargetRotation
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::CalculateChestTargetRotation
 // Il2CppName: CalculateChestTargetRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverVR::Spine::*)(RootMotion::FinalIK::IKSolverVR::VirtualBone*, ::Array<RootMotion::FinalIK::IKSolverVR::Arm*>*)>(&IKSolverVR::Spine::CalculateChestTargetRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)(RootMotion::FinalIK::IKSolverVR::VirtualBone*, ::Array<RootMotion::FinalIK::IKSolverVR::Arm*>*)>(&RootMotion::FinalIK::IKSolverVR::Spine::CalculateChestTargetRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Spine*), "CalculateChestTargetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverVR::VirtualBone*>(), ::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::Arm*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "CalculateChestTargetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverVR::VirtualBone*>(), ::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::Arm*>*>()});
   }
 };
-// Writing MetadataGetter for method: IKSolverVR::Spine::Solve
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::Solve
 // Il2CppName: Solve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverVR::Spine::*)(RootMotion::FinalIK::IKSolverVR::VirtualBone*, ::Array<RootMotion::FinalIK::IKSolverVR::Leg*>*, ::Array<RootMotion::FinalIK::IKSolverVR::Arm*>*)>(&IKSolverVR::Spine::Solve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)(RootMotion::FinalIK::IKSolverVR::VirtualBone*, ::Array<RootMotion::FinalIK::IKSolverVR::Leg*>*, ::Array<RootMotion::FinalIK::IKSolverVR::Arm*>*)>(&RootMotion::FinalIK::IKSolverVR::Spine::Solve)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Spine*), "Solve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverVR::VirtualBone*>(), ::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::Leg*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::Arm*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "Solve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverVR::VirtualBone*>(), ::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::Leg*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::Arm*>*>()});
   }
 };
-// Writing MetadataGetter for method: IKSolverVR::Spine::FABRIKPass
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::FABRIKPass
 // Il2CppName: FABRIKPass
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverVR::Spine::*)(UnityEngine::Vector3, UnityEngine::Vector3, float)>(&IKSolverVR::Spine::FABRIKPass)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)(UnityEngine::Vector3, UnityEngine::Vector3, float)>(&RootMotion::FinalIK::IKSolverVR::Spine::FABRIKPass)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Spine*), "FABRIKPass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "FABRIKPass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: IKSolverVR::Spine::SolvePelvis
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::SolvePelvis
 // Il2CppName: SolvePelvis
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverVR::Spine::*)()>(&IKSolverVR::Spine::SolvePelvis)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)()>(&RootMotion::FinalIK::IKSolverVR::Spine::SolvePelvis)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Spine*), "SolvePelvis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "SolvePelvis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IKSolverVR::Spine::AdjustChestByHands
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::AdjustChestByHands
 // Il2CppName: AdjustChestByHands
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverVR::Spine::*)(UnityEngine::Quaternion&, ::Array<RootMotion::FinalIK::IKSolverVR::Arm*>*)>(&IKSolverVR::Spine::AdjustChestByHands)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)(UnityEngine::Quaternion&, ::Array<RootMotion::FinalIK::IKSolverVR::Arm*>*)>(&RootMotion::FinalIK::IKSolverVR::Spine::AdjustChestByHands)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Spine*), "AdjustChestByHands", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>(), ::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::Arm*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "AdjustChestByHands", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>(), ::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::Arm*>*>()});
   }
 };
-// Writing MetadataGetter for method: IKSolverVR::Spine::InverseTranslateToHead
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::InverseTranslateToHead
 // Il2CppName: InverseTranslateToHead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverVR::Spine::*)(::Array<RootMotion::FinalIK::IKSolverVR::Leg*>*, bool, bool, UnityEngine::Vector3, float)>(&IKSolverVR::Spine::InverseTranslateToHead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)(::Array<RootMotion::FinalIK::IKSolverVR::Leg*>*, bool, bool, UnityEngine::Vector3, float)>(&RootMotion::FinalIK::IKSolverVR::Spine::InverseTranslateToHead)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Spine*), "InverseTranslateToHead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::Leg*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "InverseTranslateToHead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::Leg*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: IKSolverVR::Spine::TranslatePelvis
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::TranslatePelvis
 // Il2CppName: TranslatePelvis
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverVR::Spine::*)(::Array<RootMotion::FinalIK::IKSolverVR::Leg*>*, UnityEngine::Vector3, UnityEngine::Quaternion)>(&IKSolverVR::Spine::TranslatePelvis)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)(::Array<RootMotion::FinalIK::IKSolverVR::Leg*>*, UnityEngine::Vector3, UnityEngine::Quaternion)>(&RootMotion::FinalIK::IKSolverVR::Spine::TranslatePelvis)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Spine*), "TranslatePelvis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::Leg*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "TranslatePelvis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::Leg*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
   }
 };
-// Writing MetadataGetter for method: IKSolverVR::Spine::LimitPelvisPosition
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::LimitPelvisPosition
 // Il2CppName: LimitPelvisPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (IKSolverVR::Spine::*)(::Array<RootMotion::FinalIK::IKSolverVR::Leg*>*, UnityEngine::Vector3, bool, int)>(&IKSolverVR::Spine::LimitPelvisPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::IKSolverVR::Spine::*)(::Array<RootMotion::FinalIK::IKSolverVR::Leg*>*, UnityEngine::Vector3, bool, int)>(&RootMotion::FinalIK::IKSolverVR::Spine::LimitPelvisPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Spine*), "LimitPelvisPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::Leg*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "LimitPelvisPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::Leg*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: IKSolverVR::Spine::Bend
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::Bend
 // Il2CppName: Bend
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverVR::Spine::*)(::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*, int, int, UnityEngine::Quaternion, float, bool, float)>(&IKSolverVR::Spine::Bend)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)(::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*, int, int, UnityEngine::Quaternion, float, bool, float)>(&RootMotion::FinalIK::IKSolverVR::Spine::Bend)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Spine*), "Bend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "Bend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: IKSolverVR::Spine::Bend
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::Bend
 // Il2CppName: Bend
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverVR::Spine::*)(::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*, int, int, UnityEngine::Quaternion, UnityEngine::Quaternion, float, bool, float)>(&IKSolverVR::Spine::Bend)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)(::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*, int, int, UnityEngine::Quaternion, UnityEngine::Quaternion, float, bool, float)>(&RootMotion::FinalIK::IKSolverVR::Spine::Bend)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Spine*), "Bend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "Bend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: IKSolverVR::Spine::OnRead
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::OnRead
 // Il2CppName: OnRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverVR::Spine::*)(::Array<UnityEngine::Vector3>*, ::Array<UnityEngine::Quaternion>*, bool, bool, bool, bool, bool, int, int)>(&IKSolverVR::Spine::OnRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)(::Array<UnityEngine::Vector3>*, ::Array<UnityEngine::Quaternion>*, bool, bool, bool, bool, bool, int, int)>(&RootMotion::FinalIK::IKSolverVR::Spine::OnRead)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Spine*), "OnRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector3>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Quaternion>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "OnRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector3>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Quaternion>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: IKSolverVR::Spine::PreSolve
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::PreSolve
 // Il2CppName: PreSolve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverVR::Spine::*)()>(&IKSolverVR::Spine::PreSolve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)()>(&RootMotion::FinalIK::IKSolverVR::Spine::PreSolve)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Spine*), "PreSolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "PreSolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IKSolverVR::Spine::ApplyOffsets
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::ApplyOffsets
 // Il2CppName: ApplyOffsets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverVR::Spine::*)()>(&IKSolverVR::Spine::ApplyOffsets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)()>(&RootMotion::FinalIK::IKSolverVR::Spine::ApplyOffsets)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Spine*), "ApplyOffsets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "ApplyOffsets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IKSolverVR::Spine::Write
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverVR::Spine::*)(::Array<UnityEngine::Vector3>*&, ::Array<UnityEngine::Quaternion>*&)>(&IKSolverVR::Spine::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)(::Array<UnityEngine::Vector3>*&, ::Array<UnityEngine::Quaternion>*&)>(&RootMotion::FinalIK::IKSolverVR::Spine::Write)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Spine*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector3>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Quaternion>*&>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector3>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Quaternion>*&>()});
   }
 };
-// Writing MetadataGetter for method: IKSolverVR::Spine::ResetOffsets
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::ResetOffsets
 // Il2CppName: ResetOffsets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverVR::Spine::*)()>(&IKSolverVR::Spine::ResetOffsets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)()>(&RootMotion::FinalIK::IKSolverVR::Spine::ResetOffsets)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Spine*), "ResetOffsets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), "ResetOffsets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IKSolverVR::Spine::New_ctor
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Spine::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverVR::Spine::*)()>(&IKSolverVR::Spine::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)()>(&RootMotion::FinalIK::IKSolverVR::Spine::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Spine*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolverVR::Spine::*)()>(&IKSolverVR::Spine::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Spine::*)()>(&RootMotion::FinalIK::IKSolverVR::Spine::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolverVR::Spine*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Spine*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

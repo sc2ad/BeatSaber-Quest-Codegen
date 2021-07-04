@@ -45,17 +45,17 @@ namespace System::Reflection {
   static_assert(sizeof(AssemblyInformationalVersionAttribute) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyInformationalVersionAttribute*, "System.Reflection", "AssemblyInformationalVersionAttribute");
-// Writing MetadataGetter for method: AssemblyInformationalVersionAttribute::New_ctor
+// Writing MetadataGetter for method: System::Reflection::AssemblyInformationalVersionAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssemblyInformationalVersionAttribute::*)(::Il2CppString*)>(&AssemblyInformationalVersionAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::AssemblyInformationalVersionAttribute::*)(::Il2CppString*)>(&System::Reflection::AssemblyInformationalVersionAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssemblyInformationalVersionAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::AssemblyInformationalVersionAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssemblyInformationalVersionAttribute::*)(::Il2CppString*)>(&AssemblyInformationalVersionAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::AssemblyInformationalVersionAttribute::*)(::Il2CppString*)>(&System::Reflection::AssemblyInformationalVersionAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssemblyInformationalVersionAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::AssemblyInformationalVersionAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };

@@ -80,65 +80,65 @@ namespace Zenject {
   static_assert(sizeof(InjectAttributeBase) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectAttributeBase*, "Zenject", "InjectAttributeBase");
-// Writing MetadataGetter for method: InjectAttributeBase::get_Optional
+// Writing MetadataGetter for method: Zenject::InjectAttributeBase::get_Optional
 // Il2CppName: get_Optional
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InjectAttributeBase::*)()>(&InjectAttributeBase::get_Optional)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::InjectAttributeBase::*)()>(&Zenject::InjectAttributeBase::get_Optional)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectAttributeBase*), "get_Optional", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectAttributeBase*), "get_Optional", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InjectAttributeBase::set_Optional
+// Writing MetadataGetter for method: Zenject::InjectAttributeBase::set_Optional
 // Il2CppName: set_Optional
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectAttributeBase::*)(bool)>(&InjectAttributeBase::set_Optional)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::InjectAttributeBase::*)(bool)>(&Zenject::InjectAttributeBase::set_Optional)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectAttributeBase*), "set_Optional", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectAttributeBase*), "set_Optional", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: InjectAttributeBase::get_Id
+// Writing MetadataGetter for method: Zenject::InjectAttributeBase::get_Id
 // Il2CppName: get_Id
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (InjectAttributeBase::*)()>(&InjectAttributeBase::get_Id)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::InjectAttributeBase::*)()>(&Zenject::InjectAttributeBase::get_Id)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectAttributeBase*), "get_Id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectAttributeBase*), "get_Id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InjectAttributeBase::set_Id
+// Writing MetadataGetter for method: Zenject::InjectAttributeBase::set_Id
 // Il2CppName: set_Id
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectAttributeBase::*)(::Il2CppObject*)>(&InjectAttributeBase::set_Id)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::InjectAttributeBase::*)(::Il2CppObject*)>(&Zenject::InjectAttributeBase::set_Id)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectAttributeBase*), "set_Id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectAttributeBase*), "set_Id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: InjectAttributeBase::get_Source
+// Writing MetadataGetter for method: Zenject::InjectAttributeBase::get_Source
 // Il2CppName: get_Source
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectSources (InjectAttributeBase::*)()>(&InjectAttributeBase::get_Source)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectSources (Zenject::InjectAttributeBase::*)()>(&Zenject::InjectAttributeBase::get_Source)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectAttributeBase*), "get_Source", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectAttributeBase*), "get_Source", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InjectAttributeBase::set_Source
+// Writing MetadataGetter for method: Zenject::InjectAttributeBase::set_Source
 // Il2CppName: set_Source
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectAttributeBase::*)(Zenject::InjectSources)>(&InjectAttributeBase::set_Source)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::InjectAttributeBase::*)(Zenject::InjectSources)>(&Zenject::InjectAttributeBase::set_Source)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectAttributeBase*), "set_Source", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectSources>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectAttributeBase*), "set_Source", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectSources>()});
   }
 };
-// Writing MetadataGetter for method: InjectAttributeBase::New_ctor
+// Writing MetadataGetter for method: Zenject::InjectAttributeBase::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectAttributeBase::*)()>(&InjectAttributeBase::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::InjectAttributeBase::*)()>(&Zenject::InjectAttributeBase::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectAttributeBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectAttributeBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectAttributeBase::*)()>(&InjectAttributeBase::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::InjectAttributeBase::*)()>(&Zenject::InjectAttributeBase::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectAttributeBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectAttributeBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

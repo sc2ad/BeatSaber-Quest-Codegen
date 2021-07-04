@@ -78,65 +78,65 @@ namespace System::Configuration {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Configuration::IgnoreSection*, "System.Configuration", "IgnoreSection");
-// Writing MetadataGetter for method: IgnoreSection::New_ctor
+// Writing MetadataGetter for method: System::Configuration::IgnoreSection::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IgnoreSection::*)()>(&IgnoreSection::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Configuration::IgnoreSection::*)()>(&System::Configuration::IgnoreSection::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IgnoreSection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Configuration::IgnoreSection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IgnoreSection::*)()>(&IgnoreSection::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Configuration::IgnoreSection::*)()>(&System::Configuration::IgnoreSection::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IgnoreSection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Configuration::IgnoreSection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IgnoreSection::get_Properties
+// Writing MetadataGetter for method: System::Configuration::IgnoreSection::get_Properties
 // Il2CppName: get_Properties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Configuration::ConfigurationPropertyCollection* (IgnoreSection::*)()>(&IgnoreSection::get_Properties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Configuration::ConfigurationPropertyCollection* (System::Configuration::IgnoreSection::*)()>(&System::Configuration::IgnoreSection::get_Properties)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IgnoreSection*), "get_Properties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Configuration::IgnoreSection*), "get_Properties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IgnoreSection::DeserializeSection
+// Writing MetadataGetter for method: System::Configuration::IgnoreSection::DeserializeSection
 // Il2CppName: DeserializeSection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IgnoreSection::*)(System::Xml::XmlReader*)>(&IgnoreSection::DeserializeSection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Configuration::IgnoreSection::*)(System::Xml::XmlReader*)>(&System::Configuration::IgnoreSection::DeserializeSection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IgnoreSection*), "DeserializeSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlReader*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Configuration::IgnoreSection*), "DeserializeSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlReader*>()});
   }
 };
-// Writing MetadataGetter for method: IgnoreSection::IsModified
+// Writing MetadataGetter for method: System::Configuration::IgnoreSection::IsModified
 // Il2CppName: IsModified
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IgnoreSection::*)()>(&IgnoreSection::IsModified)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Configuration::IgnoreSection::*)()>(&System::Configuration::IgnoreSection::IsModified)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IgnoreSection*), "IsModified", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Configuration::IgnoreSection*), "IsModified", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IgnoreSection::Reset
+// Writing MetadataGetter for method: System::Configuration::IgnoreSection::Reset
 // Il2CppName: Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IgnoreSection::*)(System::Configuration::ConfigurationElement*)>(&IgnoreSection::Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Configuration::IgnoreSection::*)(System::Configuration::ConfigurationElement*)>(&System::Configuration::IgnoreSection::Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IgnoreSection*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Configuration::ConfigurationElement*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Configuration::IgnoreSection*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Configuration::ConfigurationElement*>()});
   }
 };
-// Writing MetadataGetter for method: IgnoreSection::ResetModified
+// Writing MetadataGetter for method: System::Configuration::IgnoreSection::ResetModified
 // Il2CppName: ResetModified
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IgnoreSection::*)()>(&IgnoreSection::ResetModified)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Configuration::IgnoreSection::*)()>(&System::Configuration::IgnoreSection::ResetModified)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IgnoreSection*), "ResetModified", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Configuration::IgnoreSection*), "ResetModified", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IgnoreSection::SerializeSection
+// Writing MetadataGetter for method: System::Configuration::IgnoreSection::SerializeSection
 // Il2CppName: SerializeSection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IgnoreSection::*)(System::Configuration::ConfigurationElement*, ::Il2CppString*, System::Configuration::ConfigurationSaveMode)>(&IgnoreSection::SerializeSection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Configuration::IgnoreSection::*)(System::Configuration::ConfigurationElement*, ::Il2CppString*, System::Configuration::ConfigurationSaveMode)>(&System::Configuration::IgnoreSection::SerializeSection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IgnoreSection*), "SerializeSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Configuration::ConfigurationElement*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Configuration::ConfigurationSaveMode>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Configuration::IgnoreSection*), "SerializeSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Configuration::ConfigurationElement*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Configuration::ConfigurationSaveMode>()});
   }
 };

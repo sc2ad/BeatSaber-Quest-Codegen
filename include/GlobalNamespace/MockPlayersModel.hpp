@@ -100,73 +100,73 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockPlayersModel) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayersModel*, "", "MockPlayersModel");
-// Writing MetadataGetter for method: MockPlayersModel::get_localPlayer
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayersModel::get_localPlayer
 // Il2CppName: get_localPlayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockPlayer* (MockPlayersModel::*)()>(&MockPlayersModel::get_localPlayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockPlayer* (GlobalNamespace::MockPlayersModel::*)()>(&GlobalNamespace::MockPlayersModel::get_localPlayer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayersModel*), "get_localPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayersModel*), "get_localPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayersModel::set_localPlayer
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayersModel::set_localPlayer
 // Il2CppName: set_localPlayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayersModel::*)(GlobalNamespace::MockPlayer*)>(&MockPlayersModel::set_localPlayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayersModel::*)(GlobalNamespace::MockPlayer*)>(&GlobalNamespace::MockPlayersModel::set_localPlayer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayersModel*), "set_localPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayer*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayersModel*), "set_localPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayer*>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayersModel::get_quickplayServer
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayersModel::get_quickplayServer
 // Il2CppName: get_quickplayServer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockServer* (MockPlayersModel::*)()>(&MockPlayersModel::get_quickplayServer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockServer* (GlobalNamespace::MockPlayersModel::*)()>(&GlobalNamespace::MockPlayersModel::get_quickplayServer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayersModel*), "get_quickplayServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayersModel*), "get_quickplayServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayersModel::set_quickplayServer
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayersModel::set_quickplayServer
 // Il2CppName: set_quickplayServer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayersModel::*)(GlobalNamespace::MockServer*)>(&MockPlayersModel::set_quickplayServer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayersModel::*)(GlobalNamespace::MockServer*)>(&GlobalNamespace::MockPlayersModel::set_quickplayServer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayersModel*), "set_quickplayServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockServer*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayersModel*), "set_quickplayServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockServer*>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayersModel::get_otherPlayers
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayersModel::get_otherPlayers
 // Il2CppName: get_otherPlayers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::MockPlayer*>* (MockPlayersModel::*)()>(&MockPlayersModel::get_otherPlayers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::MockPlayer*>* (GlobalNamespace::MockPlayersModel::*)()>(&GlobalNamespace::MockPlayersModel::get_otherPlayers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayersModel*), "get_otherPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayersModel*), "get_otherPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayersModel::set_otherPlayers
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayersModel::set_otherPlayers
 // Il2CppName: set_otherPlayers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayersModel::*)(System::Collections::Generic::List_1<GlobalNamespace::MockPlayer*>*)>(&MockPlayersModel::set_otherPlayers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayersModel::*)(System::Collections::Generic::List_1<GlobalNamespace::MockPlayer*>*)>(&GlobalNamespace::MockPlayersModel::set_otherPlayers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayersModel*), "set_otherPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::MockPlayer*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayersModel*), "set_otherPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::MockPlayer*>*>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayersModel::get_quickplayServers
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayersModel::get_quickplayServers
 // Il2CppName: get_quickplayServers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::MockServer*>* (MockPlayersModel::*)()>(&MockPlayersModel::get_quickplayServers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::MockServer*>* (GlobalNamespace::MockPlayersModel::*)()>(&GlobalNamespace::MockPlayersModel::get_quickplayServers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayersModel*), "get_quickplayServers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayersModel*), "get_quickplayServers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayersModel::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayersModel::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayersModel::*)(GlobalNamespace::MockPlayerSettings*, GlobalNamespace::MockServerSettings*, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MockPlayerSettings*>*)>(&MockPlayersModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayersModel::*)(GlobalNamespace::MockPlayerSettings*, GlobalNamespace::MockServerSettings*, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MockPlayerSettings*>*)>(&GlobalNamespace::MockPlayersModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayersModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayerSettings*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockServerSettings*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MockPlayerSettings*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayersModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayerSettings*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockServerSettings*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MockPlayerSettings*>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayersModel::*)(GlobalNamespace::MockPlayerSettings*, GlobalNamespace::MockServerSettings*, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MockPlayerSettings*>*)>(&MockPlayersModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayersModel::*)(GlobalNamespace::MockPlayerSettings*, GlobalNamespace::MockServerSettings*, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MockPlayerSettings*>*)>(&GlobalNamespace::MockPlayersModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayersModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayerSettings*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockServerSettings*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MockPlayerSettings*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayersModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayerSettings*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockServerSettings*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MockPlayerSettings*>*>()});
   }
 };

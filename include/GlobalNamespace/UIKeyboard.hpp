@@ -166,137 +166,137 @@ namespace GlobalNamespace {
   static_assert(sizeof(UIKeyboard) == 0x52);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UIKeyboard*, "", "UIKeyboard");
-// Writing MetadataGetter for method: UIKeyboard::add_textKeyWasPressedEvent
+// Writing MetadataGetter for method: GlobalNamespace::UIKeyboard::add_textKeyWasPressedEvent
 // Il2CppName: add_textKeyWasPressedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboard::*)(System::Action_1<::Il2CppChar>*)>(&UIKeyboard::add_textKeyWasPressedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UIKeyboard::*)(System::Action_1<::Il2CppChar>*)>(&GlobalNamespace::UIKeyboard::add_textKeyWasPressedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UIKeyboard*), "add_textKeyWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppChar>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UIKeyboard*), "add_textKeyWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppChar>*>()});
   }
 };
-// Writing MetadataGetter for method: UIKeyboard::remove_textKeyWasPressedEvent
+// Writing MetadataGetter for method: GlobalNamespace::UIKeyboard::remove_textKeyWasPressedEvent
 // Il2CppName: remove_textKeyWasPressedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboard::*)(System::Action_1<::Il2CppChar>*)>(&UIKeyboard::remove_textKeyWasPressedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UIKeyboard::*)(System::Action_1<::Il2CppChar>*)>(&GlobalNamespace::UIKeyboard::remove_textKeyWasPressedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UIKeyboard*), "remove_textKeyWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppChar>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UIKeyboard*), "remove_textKeyWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppChar>*>()});
   }
 };
-// Writing MetadataGetter for method: UIKeyboard::add_deleteButtonWasPressedEvent
+// Writing MetadataGetter for method: GlobalNamespace::UIKeyboard::add_deleteButtonWasPressedEvent
 // Il2CppName: add_deleteButtonWasPressedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboard::*)(System::Action*)>(&UIKeyboard::add_deleteButtonWasPressedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UIKeyboard::*)(System::Action*)>(&GlobalNamespace::UIKeyboard::add_deleteButtonWasPressedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UIKeyboard*), "add_deleteButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UIKeyboard*), "add_deleteButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: UIKeyboard::remove_deleteButtonWasPressedEvent
+// Writing MetadataGetter for method: GlobalNamespace::UIKeyboard::remove_deleteButtonWasPressedEvent
 // Il2CppName: remove_deleteButtonWasPressedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboard::*)(System::Action*)>(&UIKeyboard::remove_deleteButtonWasPressedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UIKeyboard::*)(System::Action*)>(&GlobalNamespace::UIKeyboard::remove_deleteButtonWasPressedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UIKeyboard*), "remove_deleteButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UIKeyboard*), "remove_deleteButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: UIKeyboard::add_okButtonWasPressedEvent
+// Writing MetadataGetter for method: GlobalNamespace::UIKeyboard::add_okButtonWasPressedEvent
 // Il2CppName: add_okButtonWasPressedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboard::*)(System::Action*)>(&UIKeyboard::add_okButtonWasPressedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UIKeyboard::*)(System::Action*)>(&GlobalNamespace::UIKeyboard::add_okButtonWasPressedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UIKeyboard*), "add_okButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UIKeyboard*), "add_okButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: UIKeyboard::remove_okButtonWasPressedEvent
+// Writing MetadataGetter for method: GlobalNamespace::UIKeyboard::remove_okButtonWasPressedEvent
 // Il2CppName: remove_okButtonWasPressedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboard::*)(System::Action*)>(&UIKeyboard::remove_okButtonWasPressedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UIKeyboard::*)(System::Action*)>(&GlobalNamespace::UIKeyboard::remove_okButtonWasPressedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UIKeyboard*), "remove_okButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UIKeyboard*), "remove_okButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: UIKeyboard::add_cancelButtonWasPressedEvent
+// Writing MetadataGetter for method: GlobalNamespace::UIKeyboard::add_cancelButtonWasPressedEvent
 // Il2CppName: add_cancelButtonWasPressedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboard::*)(System::Action*)>(&UIKeyboard::add_cancelButtonWasPressedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UIKeyboard::*)(System::Action*)>(&GlobalNamespace::UIKeyboard::add_cancelButtonWasPressedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UIKeyboard*), "add_cancelButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UIKeyboard*), "add_cancelButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: UIKeyboard::remove_cancelButtonWasPressedEvent
+// Writing MetadataGetter for method: GlobalNamespace::UIKeyboard::remove_cancelButtonWasPressedEvent
 // Il2CppName: remove_cancelButtonWasPressedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboard::*)(System::Action*)>(&UIKeyboard::remove_cancelButtonWasPressedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UIKeyboard::*)(System::Action*)>(&GlobalNamespace::UIKeyboard::remove_cancelButtonWasPressedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UIKeyboard*), "remove_cancelButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UIKeyboard*), "remove_cancelButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: UIKeyboard::set_enableOkButtonInteractivity
+// Writing MetadataGetter for method: GlobalNamespace::UIKeyboard::set_enableOkButtonInteractivity
 // Il2CppName: set_enableOkButtonInteractivity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboard::*)(bool)>(&UIKeyboard::set_enableOkButtonInteractivity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UIKeyboard::*)(bool)>(&GlobalNamespace::UIKeyboard::set_enableOkButtonInteractivity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UIKeyboard*), "set_enableOkButtonInteractivity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UIKeyboard*), "set_enableOkButtonInteractivity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: UIKeyboard::set_hideCancelButton
+// Writing MetadataGetter for method: GlobalNamespace::UIKeyboard::set_hideCancelButton
 // Il2CppName: set_hideCancelButton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboard::*)(bool)>(&UIKeyboard::set_hideCancelButton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UIKeyboard::*)(bool)>(&GlobalNamespace::UIKeyboard::set_hideCancelButton)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UIKeyboard*), "set_hideCancelButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UIKeyboard*), "set_hideCancelButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: UIKeyboard::Awake
+// Writing MetadataGetter for method: GlobalNamespace::UIKeyboard::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboard::*)()>(&UIKeyboard::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UIKeyboard::*)()>(&GlobalNamespace::UIKeyboard::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UIKeyboard*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UIKeyboard*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UIKeyboard::$Awake$b__21_0
+// Writing MetadataGetter for method: GlobalNamespace::UIKeyboard::$Awake$b__21_0
 // Il2CppName: <Awake>b__21_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboard::*)()>(&UIKeyboard::$Awake$b__21_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UIKeyboard::*)()>(&GlobalNamespace::UIKeyboard::$Awake$b__21_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UIKeyboard*), "<Awake>b__21_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UIKeyboard*), "<Awake>b__21_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UIKeyboard::$Awake$b__21_1
+// Writing MetadataGetter for method: GlobalNamespace::UIKeyboard::$Awake$b__21_1
 // Il2CppName: <Awake>b__21_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboard::*)()>(&UIKeyboard::$Awake$b__21_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UIKeyboard::*)()>(&GlobalNamespace::UIKeyboard::$Awake$b__21_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UIKeyboard*), "<Awake>b__21_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UIKeyboard*), "<Awake>b__21_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UIKeyboard::$Awake$b__21_2
+// Writing MetadataGetter for method: GlobalNamespace::UIKeyboard::$Awake$b__21_2
 // Il2CppName: <Awake>b__21_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboard::*)()>(&UIKeyboard::$Awake$b__21_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UIKeyboard::*)()>(&GlobalNamespace::UIKeyboard::$Awake$b__21_2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UIKeyboard*), "<Awake>b__21_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UIKeyboard*), "<Awake>b__21_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UIKeyboard::$Awake$b__21_3
+// Writing MetadataGetter for method: GlobalNamespace::UIKeyboard::$Awake$b__21_3
 // Il2CppName: <Awake>b__21_3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboard::*)()>(&UIKeyboard::$Awake$b__21_3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UIKeyboard::*)()>(&GlobalNamespace::UIKeyboard::$Awake$b__21_3)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UIKeyboard*), "<Awake>b__21_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UIKeyboard*), "<Awake>b__21_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UIKeyboard::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::UIKeyboard::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboard::*)()>(&UIKeyboard::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UIKeyboard::*)()>(&GlobalNamespace::UIKeyboard::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UIKeyboard*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UIKeyboard*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboard::*)()>(&UIKeyboard::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UIKeyboard::*)()>(&GlobalNamespace::UIKeyboard::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UIKeyboard*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UIKeyboard*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -51,33 +51,33 @@ namespace Org::BouncyCastle::Crypto::Signers {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer*, "Org.BouncyCastle.Crypto.Signers", "Ed448Signer/Buffer");
-// Writing MetadataGetter for method: Ed448Signer::Buffer::GenerateSignature
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer::GenerateSignature
 // Il2CppName: GenerateSignature
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Ed448Signer::Buffer::*)(Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters*, ::Array<uint8_t>*)>(&Ed448Signer::Buffer::GenerateSignature)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer::*)(Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters*, ::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer::GenerateSignature)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Ed448Signer::Buffer*), "GenerateSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer*), "GenerateSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: Ed448Signer::Buffer::Reset
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer::Reset
 // Il2CppName: Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Ed448Signer::Buffer::*)()>(&Ed448Signer::Buffer::Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer::*)()>(&Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer::Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Ed448Signer::Buffer*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Ed448Signer::Buffer::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Ed448Signer::Buffer::*)()>(&Ed448Signer::Buffer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer::*)()>(&Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Ed448Signer::Buffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Ed448Signer::Buffer::*)()>(&Ed448Signer::Buffer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer::*)()>(&Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Ed448Signer::Buffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

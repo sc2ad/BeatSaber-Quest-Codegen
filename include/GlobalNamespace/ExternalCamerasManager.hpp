@@ -84,41 +84,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(ExternalCamerasManager) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ExternalCamerasManager*, "", "ExternalCamerasManager");
-// Writing MetadataGetter for method: ExternalCamerasManager::Init
+// Writing MetadataGetter for method: GlobalNamespace::ExternalCamerasManager::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExternalCamerasManager::*)(GlobalNamespace::ExternalCamerasManager::InitData*)>(&ExternalCamerasManager::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ExternalCamerasManager::*)(GlobalNamespace::ExternalCamerasManager::InitData*)>(&GlobalNamespace::ExternalCamerasManager::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ExternalCamerasManager*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ExternalCamerasManager::InitData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExternalCamerasManager*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ExternalCamerasManager::InitData*>()});
   }
 };
-// Writing MetadataGetter for method: ExternalCamerasManager::InstantiateMixedRealityBackgroundCameraGameObject
+// Writing MetadataGetter for method: GlobalNamespace::ExternalCamerasManager::InstantiateMixedRealityBackgroundCameraGameObject
 // Il2CppName: InstantiateMixedRealityBackgroundCameraGameObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (ExternalCamerasManager::*)(UnityEngine::GameObject*)>(&ExternalCamerasManager::InstantiateMixedRealityBackgroundCameraGameObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (GlobalNamespace::ExternalCamerasManager::*)(UnityEngine::GameObject*)>(&GlobalNamespace::ExternalCamerasManager::InstantiateMixedRealityBackgroundCameraGameObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ExternalCamerasManager*), "InstantiateMixedRealityBackgroundCameraGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExternalCamerasManager*), "InstantiateMixedRealityBackgroundCameraGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
   }
 };
-// Writing MetadataGetter for method: ExternalCamerasManager::InstantiateMixedRealityForegroundCameraGameObject
+// Writing MetadataGetter for method: GlobalNamespace::ExternalCamerasManager::InstantiateMixedRealityForegroundCameraGameObject
 // Il2CppName: InstantiateMixedRealityForegroundCameraGameObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (ExternalCamerasManager::*)(UnityEngine::GameObject*)>(&ExternalCamerasManager::InstantiateMixedRealityForegroundCameraGameObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (GlobalNamespace::ExternalCamerasManager::*)(UnityEngine::GameObject*)>(&GlobalNamespace::ExternalCamerasManager::InstantiateMixedRealityForegroundCameraGameObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ExternalCamerasManager*), "InstantiateMixedRealityForegroundCameraGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExternalCamerasManager*), "InstantiateMixedRealityForegroundCameraGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
   }
 };
-// Writing MetadataGetter for method: ExternalCamerasManager::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::ExternalCamerasManager::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExternalCamerasManager::*)()>(&ExternalCamerasManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ExternalCamerasManager::*)()>(&GlobalNamespace::ExternalCamerasManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ExternalCamerasManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExternalCamerasManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExternalCamerasManager::*)()>(&ExternalCamerasManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ExternalCamerasManager::*)()>(&GlobalNamespace::ExternalCamerasManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ExternalCamerasManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExternalCamerasManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

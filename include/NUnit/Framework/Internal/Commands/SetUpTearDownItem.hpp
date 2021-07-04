@@ -82,57 +82,57 @@ namespace NUnit::Framework::Internal::Commands {
   static_assert(sizeof(SetUpTearDownItem) == 0x21);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::SetUpTearDownItem*, "NUnit.Framework.Internal.Commands", "SetUpTearDownItem");
-// Writing MetadataGetter for method: SetUpTearDownItem::New_ctor
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::SetUpTearDownItem::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SetUpTearDownItem::*)(System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>*, System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>*)>(&SetUpTearDownItem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Commands::SetUpTearDownItem::*)(System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>*, System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>*)>(&NUnit::Framework::Internal::Commands::SetUpTearDownItem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SetUpTearDownItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::SetUpTearDownItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SetUpTearDownItem::*)(System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>*, System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>*)>(&SetUpTearDownItem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Commands::SetUpTearDownItem::*)(System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>*, System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>*)>(&NUnit::Framework::Internal::Commands::SetUpTearDownItem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SetUpTearDownItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::SetUpTearDownItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>*>()});
   }
 };
-// Writing MetadataGetter for method: SetUpTearDownItem::get_HasMethods
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::SetUpTearDownItem::get_HasMethods
 // Il2CppName: get_HasMethods
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SetUpTearDownItem::*)()>(&SetUpTearDownItem::get_HasMethods)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Internal::Commands::SetUpTearDownItem::*)()>(&NUnit::Framework::Internal::Commands::SetUpTearDownItem::get_HasMethods)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SetUpTearDownItem*), "get_HasMethods", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::SetUpTearDownItem*), "get_HasMethods", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SetUpTearDownItem::RunSetUp
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::SetUpTearDownItem::RunSetUp
 // Il2CppName: RunSetUp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SetUpTearDownItem::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&SetUpTearDownItem::RunSetUp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Commands::SetUpTearDownItem::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&NUnit::Framework::Internal::Commands::SetUpTearDownItem::RunSetUp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SetUpTearDownItem*), "RunSetUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::SetUpTearDownItem*), "RunSetUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
   }
 };
-// Writing MetadataGetter for method: SetUpTearDownItem::RunTearDown
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::SetUpTearDownItem::RunTearDown
 // Il2CppName: RunTearDown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SetUpTearDownItem::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&SetUpTearDownItem::RunTearDown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Commands::SetUpTearDownItem::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&NUnit::Framework::Internal::Commands::SetUpTearDownItem::RunTearDown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SetUpTearDownItem*), "RunTearDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::SetUpTearDownItem*), "RunTearDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
   }
 };
-// Writing MetadataGetter for method: SetUpTearDownItem::RunSetUpOrTearDownMethod
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::SetUpTearDownItem::RunSetUpOrTearDownMethod
 // Il2CppName: RunSetUpOrTearDownMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SetUpTearDownItem::*)(NUnit::Framework::Internal::ITestExecutionContext*, System::Reflection::MethodInfo*)>(&SetUpTearDownItem::RunSetUpOrTearDownMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Commands::SetUpTearDownItem::*)(NUnit::Framework::Internal::ITestExecutionContext*, System::Reflection::MethodInfo*)>(&NUnit::Framework::Internal::Commands::SetUpTearDownItem::RunSetUpOrTearDownMethod)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SetUpTearDownItem*), "RunSetUpOrTearDownMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::SetUpTearDownItem*), "RunSetUpOrTearDownMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>()});
   }
 };
-// Writing MetadataGetter for method: SetUpTearDownItem::RunNonAsyncMethod
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::SetUpTearDownItem::RunNonAsyncMethod
 // Il2CppName: RunNonAsyncMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (SetUpTearDownItem::*)(System::Reflection::MethodInfo*, NUnit::Framework::Internal::ITestExecutionContext*)>(&SetUpTearDownItem::RunNonAsyncMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (NUnit::Framework::Internal::Commands::SetUpTearDownItem::*)(System::Reflection::MethodInfo*, NUnit::Framework::Internal::ITestExecutionContext*)>(&NUnit::Framework::Internal::Commands::SetUpTearDownItem::RunNonAsyncMethod)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SetUpTearDownItem*), "RunNonAsyncMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::SetUpTearDownItem*), "RunNonAsyncMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
   }
 };

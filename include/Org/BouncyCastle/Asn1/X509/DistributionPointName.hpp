@@ -84,57 +84,57 @@ namespace Org::BouncyCastle::Asn1::X509 {
   static_assert(sizeof(DistributionPointName) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::DistributionPointName*, "Org.BouncyCastle.Asn1.X509", "DistributionPointName");
-// Writing MetadataGetter for method: DistributionPointName::GetInstance
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::DistributionPointName::GetInstance
 // Il2CppName: GetInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::DistributionPointName* (*)(Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(&DistributionPointName::GetInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::DistributionPointName* (*)(Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(&Org::BouncyCastle::Asn1::X509::DistributionPointName::GetInstance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DistributionPointName*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1TaggedObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::DistributionPointName*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1TaggedObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: DistributionPointName::GetInstance
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::DistributionPointName::GetInstance
 // Il2CppName: GetInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::DistributionPointName* (*)(::Il2CppObject*)>(&DistributionPointName::GetInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::DistributionPointName* (*)(::Il2CppObject*)>(&Org::BouncyCastle::Asn1::X509::DistributionPointName::GetInstance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DistributionPointName*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::DistributionPointName*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: DistributionPointName::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::DistributionPointName::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DistributionPointName::*)(Org::BouncyCastle::Asn1::Asn1TaggedObject*)>(&DistributionPointName::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::X509::DistributionPointName::*)(Org::BouncyCastle::Asn1::Asn1TaggedObject*)>(&Org::BouncyCastle::Asn1::X509::DistributionPointName::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DistributionPointName*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1TaggedObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::DistributionPointName*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1TaggedObject*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DistributionPointName::*)(Org::BouncyCastle::Asn1::Asn1TaggedObject*)>(&DistributionPointName::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::X509::DistributionPointName::*)(Org::BouncyCastle::Asn1::Asn1TaggedObject*)>(&Org::BouncyCastle::Asn1::X509::DistributionPointName::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DistributionPointName*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1TaggedObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::DistributionPointName*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1TaggedObject*>()});
   }
 };
-// Writing MetadataGetter for method: DistributionPointName::appendObject
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::DistributionPointName::appendObject
 // Il2CppName: appendObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DistributionPointName::*)(System::Text::StringBuilder*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&DistributionPointName::appendObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::X509::DistributionPointName::*)(System::Text::StringBuilder*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&Org::BouncyCastle::Asn1::X509::DistributionPointName::appendObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DistributionPointName*), "appendObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::DistributionPointName*), "appendObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: DistributionPointName::ToAsn1Object
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::DistributionPointName::ToAsn1Object
 // Il2CppName: ToAsn1Object
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (DistributionPointName::*)()>(&DistributionPointName::ToAsn1Object)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Org::BouncyCastle::Asn1::X509::DistributionPointName::*)()>(&Org::BouncyCastle::Asn1::X509::DistributionPointName::ToAsn1Object)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DistributionPointName*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::DistributionPointName*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DistributionPointName::ToString
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::DistributionPointName::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DistributionPointName::*)()>(&DistributionPointName::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Asn1::X509::DistributionPointName::*)()>(&Org::BouncyCastle::Asn1::X509::DistributionPointName::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DistributionPointName*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::DistributionPointName*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

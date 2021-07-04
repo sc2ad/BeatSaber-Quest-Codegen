@@ -51,41 +51,41 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IOAsyncCallback*, "System", "IOAsyncCallback");
-// Writing MetadataGetter for method: IOAsyncCallback::New_ctor
+// Writing MetadataGetter for method: System::IOAsyncCallback::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IOAsyncCallback::*)(::Il2CppObject*, System::IntPtr)>(&IOAsyncCallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IOAsyncCallback::*)(::Il2CppObject*, System::IntPtr)>(&System::IOAsyncCallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IOAsyncCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IOAsyncCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IOAsyncCallback::*)(::Il2CppObject*, System::IntPtr)>(&IOAsyncCallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IOAsyncCallback::*)(::Il2CppObject*, System::IntPtr)>(&System::IOAsyncCallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IOAsyncCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IOAsyncCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: IOAsyncCallback::Invoke
+// Writing MetadataGetter for method: System::IOAsyncCallback::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IOAsyncCallback::*)(System::IOAsyncResult*)>(&IOAsyncCallback::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IOAsyncCallback::*)(System::IOAsyncResult*)>(&System::IOAsyncCallback::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IOAsyncCallback*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IOAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IOAsyncCallback*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IOAsyncResult*>()});
   }
 };
-// Writing MetadataGetter for method: IOAsyncCallback::BeginInvoke
+// Writing MetadataGetter for method: System::IOAsyncCallback::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IOAsyncCallback::*)(System::IOAsyncResult*, System::AsyncCallback*, ::Il2CppObject*)>(&IOAsyncCallback::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IOAsyncCallback::*)(System::IOAsyncResult*, System::AsyncCallback*, ::Il2CppObject*)>(&System::IOAsyncCallback::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IOAsyncCallback*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IOAsyncResult*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IOAsyncCallback*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IOAsyncResult*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IOAsyncCallback::EndInvoke
+// Writing MetadataGetter for method: System::IOAsyncCallback::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IOAsyncCallback::*)(System::IAsyncResult*)>(&IOAsyncCallback::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IOAsyncCallback::*)(System::IAsyncResult*)>(&System::IOAsyncCallback::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IOAsyncCallback*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IOAsyncCallback*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

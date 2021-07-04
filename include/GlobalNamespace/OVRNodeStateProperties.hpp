@@ -70,59 +70,59 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRNodeStateProperties*, "", "OVRNodeStateProperties");
-// Writing MetadataGetter for method: OVRNodeStateProperties::IsHmdPresent
+// Writing MetadataGetter for method: GlobalNamespace::OVRNodeStateProperties::IsHmdPresent
 // Il2CppName: IsHmdPresent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&OVRNodeStateProperties::IsHmdPresent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&GlobalNamespace::OVRNodeStateProperties::IsHmdPresent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRNodeStateProperties*), "IsHmdPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNodeStateProperties*), "IsHmdPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRNodeStateProperties::GetNodeStatePropertyVector3
+// Writing MetadataGetter for method: GlobalNamespace::OVRNodeStateProperties::GetNodeStatePropertyVector3
 // Il2CppName: GetNodeStatePropertyVector3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::XR::XRNode, GlobalNamespace::NodeStatePropertyType, GlobalNamespace::OVRPlugin::Node, GlobalNamespace::OVRPlugin::Step, UnityEngine::Vector3&)>(&OVRNodeStateProperties::GetNodeStatePropertyVector3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::XR::XRNode, GlobalNamespace::NodeStatePropertyType, GlobalNamespace::OVRPlugin::Node, GlobalNamespace::OVRPlugin::Step, UnityEngine::Vector3&)>(&GlobalNamespace::OVRNodeStateProperties::GetNodeStatePropertyVector3)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRNodeStateProperties*), "GetNodeStatePropertyVector3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NodeStatePropertyType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Node>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Step>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNodeStateProperties*), "GetNodeStatePropertyVector3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NodeStatePropertyType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Node>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Step>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: OVRNodeStateProperties::GetNodeStatePropertyQuaternion
+// Writing MetadataGetter for method: GlobalNamespace::OVRNodeStateProperties::GetNodeStatePropertyQuaternion
 // Il2CppName: GetNodeStatePropertyQuaternion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::XR::XRNode, GlobalNamespace::NodeStatePropertyType, GlobalNamespace::OVRPlugin::Node, GlobalNamespace::OVRPlugin::Step, UnityEngine::Quaternion&)>(&OVRNodeStateProperties::GetNodeStatePropertyQuaternion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::XR::XRNode, GlobalNamespace::NodeStatePropertyType, GlobalNamespace::OVRPlugin::Node, GlobalNamespace::OVRPlugin::Step, UnityEngine::Quaternion&)>(&GlobalNamespace::OVRNodeStateProperties::GetNodeStatePropertyQuaternion)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRNodeStateProperties*), "GetNodeStatePropertyQuaternion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NodeStatePropertyType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Node>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Step>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNodeStateProperties*), "GetNodeStatePropertyQuaternion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NodeStatePropertyType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Node>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Step>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
   }
 };
-// Writing MetadataGetter for method: OVRNodeStateProperties::ValidateProperty
+// Writing MetadataGetter for method: GlobalNamespace::OVRNodeStateProperties::ValidateProperty
 // Il2CppName: ValidateProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::XR::XRNode, UnityEngine::XR::XRNodeState&)>(&OVRNodeStateProperties::ValidateProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::XR::XRNode, UnityEngine::XR::XRNodeState&)>(&GlobalNamespace::OVRNodeStateProperties::ValidateProperty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRNodeStateProperties*), "ValidateProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNodeState&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNodeStateProperties*), "ValidateProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNodeState&>()});
   }
 };
-// Writing MetadataGetter for method: OVRNodeStateProperties::GetUnityXRNodeStateVector3
+// Writing MetadataGetter for method: GlobalNamespace::OVRNodeStateProperties::GetUnityXRNodeStateVector3
 // Il2CppName: GetUnityXRNodeStateVector3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::XR::XRNode, GlobalNamespace::NodeStatePropertyType, UnityEngine::Vector3&)>(&OVRNodeStateProperties::GetUnityXRNodeStateVector3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::XR::XRNode, GlobalNamespace::NodeStatePropertyType, UnityEngine::Vector3&)>(&GlobalNamespace::OVRNodeStateProperties::GetUnityXRNodeStateVector3)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRNodeStateProperties*), "GetUnityXRNodeStateVector3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NodeStatePropertyType>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNodeStateProperties*), "GetUnityXRNodeStateVector3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NodeStatePropertyType>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: OVRNodeStateProperties::GetUnityXRNodeStateQuaternion
+// Writing MetadataGetter for method: GlobalNamespace::OVRNodeStateProperties::GetUnityXRNodeStateQuaternion
 // Il2CppName: GetUnityXRNodeStateQuaternion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::XR::XRNode, GlobalNamespace::NodeStatePropertyType, UnityEngine::Quaternion&)>(&OVRNodeStateProperties::GetUnityXRNodeStateQuaternion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::XR::XRNode, GlobalNamespace::NodeStatePropertyType, UnityEngine::Quaternion&)>(&GlobalNamespace::OVRNodeStateProperties::GetUnityXRNodeStateQuaternion)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRNodeStateProperties*), "GetUnityXRNodeStateQuaternion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NodeStatePropertyType>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNodeStateProperties*), "GetUnityXRNodeStateQuaternion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NodeStatePropertyType>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
   }
 };
-// Writing MetadataGetter for method: OVRNodeStateProperties::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::OVRNodeStateProperties::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRNodeStateProperties::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRNodeStateProperties::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRNodeStateProperties*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNodeStateProperties*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

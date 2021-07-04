@@ -72,41 +72,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(JumpReceiver) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::JumpReceiver*, "", "JumpReceiver");
-// Writing MetadataGetter for method: JumpReceiver::get_jumpToDestinationValid
+// Writing MetadataGetter for method: GlobalNamespace::JumpReceiver::get_jumpToDestinationValid
 // Il2CppName: get_jumpToDestinationValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (JumpReceiver::*)()>(&JumpReceiver::get_jumpToDestinationValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::JumpReceiver::*)()>(&GlobalNamespace::JumpReceiver::get_jumpToDestinationValid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JumpReceiver*), "get_jumpToDestinationValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JumpReceiver*), "get_jumpToDestinationValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: JumpReceiver::set_jumpToDestinationValid
+// Writing MetadataGetter for method: GlobalNamespace::JumpReceiver::set_jumpToDestinationValid
 // Il2CppName: set_jumpToDestinationValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JumpReceiver::*)(bool)>(&JumpReceiver::set_jumpToDestinationValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::JumpReceiver::*)(bool)>(&GlobalNamespace::JumpReceiver::set_jumpToDestinationValid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JumpReceiver*), "set_jumpToDestinationValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JumpReceiver*), "set_jumpToDestinationValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: JumpReceiver::OnNotify
+// Writing MetadataGetter for method: GlobalNamespace::JumpReceiver::OnNotify
 // Il2CppName: OnNotify
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JumpReceiver::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::INotification*, ::Il2CppObject*)>(&JumpReceiver::OnNotify)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::JumpReceiver::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::INotification*, ::Il2CppObject*)>(&GlobalNamespace::JumpReceiver::OnNotify)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JumpReceiver*), "OnNotify", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::INotification*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JumpReceiver*), "OnNotify", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::INotification*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: JumpReceiver::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::JumpReceiver::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JumpReceiver::*)()>(&JumpReceiver::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::JumpReceiver::*)()>(&GlobalNamespace::JumpReceiver::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JumpReceiver*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JumpReceiver*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JumpReceiver::*)()>(&JumpReceiver::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::JumpReceiver::*)()>(&GlobalNamespace::JumpReceiver::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JumpReceiver*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JumpReceiver*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

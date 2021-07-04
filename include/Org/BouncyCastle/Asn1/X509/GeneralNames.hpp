@@ -81,65 +81,65 @@ namespace Org::BouncyCastle::Asn1::X509 {
   static_assert(sizeof(GeneralNames) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::GeneralNames*, "Org.BouncyCastle.Asn1.X509", "GeneralNames");
-// Writing MetadataGetter for method: GeneralNames::Copy
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::GeneralNames::Copy
 // Il2CppName: Copy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>* (*)(::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>*)>(&GeneralNames::Copy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>* (*)(::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>*)>(&Org::BouncyCastle::Asn1::X509::GeneralNames::Copy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneralNames*), "Copy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::GeneralNames*), "Copy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>*>()});
   }
 };
-// Writing MetadataGetter for method: GeneralNames::GetInstance
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::GeneralNames::GetInstance
 // Il2CppName: GetInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::GeneralNames* (*)(::Il2CppObject*)>(&GeneralNames::GetInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::GeneralNames* (*)(::Il2CppObject*)>(&Org::BouncyCastle::Asn1::X509::GeneralNames::GetInstance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneralNames*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::GeneralNames*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: GeneralNames::GetInstance
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::GeneralNames::GetInstance
 // Il2CppName: GetInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::GeneralNames* (*)(Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(&GeneralNames::GetInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::GeneralNames* (*)(Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(&Org::BouncyCastle::Asn1::X509::GeneralNames::GetInstance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneralNames*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1TaggedObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::GeneralNames*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1TaggedObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: GeneralNames::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::GeneralNames::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GeneralNames::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&GeneralNames::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::X509::GeneralNames::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&Org::BouncyCastle::Asn1::X509::GeneralNames::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneralNames*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::GeneralNames*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GeneralNames::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&GeneralNames::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::X509::GeneralNames::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&Org::BouncyCastle::Asn1::X509::GeneralNames::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneralNames*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::GeneralNames*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
   }
 };
-// Writing MetadataGetter for method: GeneralNames::GetNames
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::GeneralNames::GetNames
 // Il2CppName: GetNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>* (GeneralNames::*)()>(&GeneralNames::GetNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>* (Org::BouncyCastle::Asn1::X509::GeneralNames::*)()>(&Org::BouncyCastle::Asn1::X509::GeneralNames::GetNames)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneralNames*), "GetNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::GeneralNames*), "GetNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GeneralNames::ToAsn1Object
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::GeneralNames::ToAsn1Object
 // Il2CppName: ToAsn1Object
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (GeneralNames::*)()>(&GeneralNames::ToAsn1Object)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Org::BouncyCastle::Asn1::X509::GeneralNames::*)()>(&Org::BouncyCastle::Asn1::X509::GeneralNames::ToAsn1Object)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneralNames*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::GeneralNames*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GeneralNames::ToString
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::GeneralNames::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GeneralNames::*)()>(&GeneralNames::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Asn1::X509::GeneralNames::*)()>(&Org::BouncyCastle::Asn1::X509::GeneralNames::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneralNames*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::GeneralNames*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

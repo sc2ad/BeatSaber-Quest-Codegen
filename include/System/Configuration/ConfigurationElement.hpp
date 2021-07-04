@@ -39,35 +39,35 @@ namespace System::Configuration {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Configuration::ConfigurationElement*, "System.Configuration", "ConfigurationElement");
-// Writing MetadataGetter for method: ConfigurationElement::get_Properties
+// Writing MetadataGetter for method: System::Configuration::ConfigurationElement::get_Properties
 // Il2CppName: get_Properties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Configuration::ConfigurationPropertyCollection* (ConfigurationElement::*)()>(&ConfigurationElement::get_Properties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Configuration::ConfigurationPropertyCollection* (System::Configuration::ConfigurationElement::*)()>(&System::Configuration::ConfigurationElement::get_Properties)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConfigurationElement*), "get_Properties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Configuration::ConfigurationElement*), "get_Properties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ConfigurationElement::IsModified
+// Writing MetadataGetter for method: System::Configuration::ConfigurationElement::IsModified
 // Il2CppName: IsModified
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ConfigurationElement::*)()>(&ConfigurationElement::IsModified)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Configuration::ConfigurationElement::*)()>(&System::Configuration::ConfigurationElement::IsModified)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConfigurationElement*), "IsModified", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Configuration::ConfigurationElement*), "IsModified", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ConfigurationElement::Reset
+// Writing MetadataGetter for method: System::Configuration::ConfigurationElement::Reset
 // Il2CppName: Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigurationElement::*)(System::Configuration::ConfigurationElement*)>(&ConfigurationElement::Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Configuration::ConfigurationElement::*)(System::Configuration::ConfigurationElement*)>(&System::Configuration::ConfigurationElement::Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConfigurationElement*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Configuration::ConfigurationElement*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Configuration::ConfigurationElement*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Configuration::ConfigurationElement*>()});
   }
 };
-// Writing MetadataGetter for method: ConfigurationElement::ResetModified
+// Writing MetadataGetter for method: System::Configuration::ConfigurationElement::ResetModified
 // Il2CppName: ResetModified
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfigurationElement::*)()>(&ConfigurationElement::ResetModified)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Configuration::ConfigurationElement::*)()>(&System::Configuration::ConfigurationElement::ResetModified)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConfigurationElement*), "ResetModified", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Configuration::ConfigurationElement*), "ResetModified", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -85,99 +85,99 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IReadonlyBeatmapData*, "", "IReadonlyBeatmapData");
-// Writing MetadataGetter for method: IReadonlyBeatmapData::get_beatmapLinesData
+// Writing MetadataGetter for method: GlobalNamespace::IReadonlyBeatmapData::get_beatmapLinesData
 // Il2CppName: get_beatmapLinesData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IReadonlyBeatmapLineData*>* (IReadonlyBeatmapData::*)()>(&IReadonlyBeatmapData::get_beatmapLinesData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IReadonlyBeatmapLineData*>* (GlobalNamespace::IReadonlyBeatmapData::*)()>(&GlobalNamespace::IReadonlyBeatmapData::get_beatmapLinesData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IReadonlyBeatmapData*), "get_beatmapLinesData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IReadonlyBeatmapData*), "get_beatmapLinesData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IReadonlyBeatmapData::get_beatmapEventsData
+// Writing MetadataGetter for method: GlobalNamespace::IReadonlyBeatmapData::get_beatmapEventsData
 // Il2CppName: get_beatmapEventsData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::BeatmapEventData*>* (IReadonlyBeatmapData::*)()>(&IReadonlyBeatmapData::get_beatmapEventsData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::BeatmapEventData*>* (GlobalNamespace::IReadonlyBeatmapData::*)()>(&GlobalNamespace::IReadonlyBeatmapData::get_beatmapEventsData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IReadonlyBeatmapData*), "get_beatmapEventsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IReadonlyBeatmapData*), "get_beatmapEventsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IReadonlyBeatmapData::get_availableSpecialEventsPerKeywordDictionary
+// Writing MetadataGetter for method: GlobalNamespace::IReadonlyBeatmapData::get_availableSpecialEventsPerKeywordDictionary
 // Il2CppName: get_availableSpecialEventsPerKeywordDictionary
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyDictionary_2<::Il2CppString*, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>*>* (IReadonlyBeatmapData::*)()>(&IReadonlyBeatmapData::get_availableSpecialEventsPerKeywordDictionary)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyDictionary_2<::Il2CppString*, System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>*>* (GlobalNamespace::IReadonlyBeatmapData::*)()>(&GlobalNamespace::IReadonlyBeatmapData::get_availableSpecialEventsPerKeywordDictionary)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IReadonlyBeatmapData*), "get_availableSpecialEventsPerKeywordDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IReadonlyBeatmapData*), "get_availableSpecialEventsPerKeywordDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IReadonlyBeatmapData::get_numberOfLines
+// Writing MetadataGetter for method: GlobalNamespace::IReadonlyBeatmapData::get_numberOfLines
 // Il2CppName: get_numberOfLines
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IReadonlyBeatmapData::*)()>(&IReadonlyBeatmapData::get_numberOfLines)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::IReadonlyBeatmapData::*)()>(&GlobalNamespace::IReadonlyBeatmapData::get_numberOfLines)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IReadonlyBeatmapData*), "get_numberOfLines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IReadonlyBeatmapData*), "get_numberOfLines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IReadonlyBeatmapData::get_cuttableNotesType
+// Writing MetadataGetter for method: GlobalNamespace::IReadonlyBeatmapData::get_cuttableNotesType
 // Il2CppName: get_cuttableNotesType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IReadonlyBeatmapData::*)()>(&IReadonlyBeatmapData::get_cuttableNotesType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::IReadonlyBeatmapData::*)()>(&GlobalNamespace::IReadonlyBeatmapData::get_cuttableNotesType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IReadonlyBeatmapData*), "get_cuttableNotesType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IReadonlyBeatmapData*), "get_cuttableNotesType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IReadonlyBeatmapData::get_obstaclesCount
+// Writing MetadataGetter for method: GlobalNamespace::IReadonlyBeatmapData::get_obstaclesCount
 // Il2CppName: get_obstaclesCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IReadonlyBeatmapData::*)()>(&IReadonlyBeatmapData::get_obstaclesCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::IReadonlyBeatmapData::*)()>(&GlobalNamespace::IReadonlyBeatmapData::get_obstaclesCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IReadonlyBeatmapData*), "get_obstaclesCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IReadonlyBeatmapData*), "get_obstaclesCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IReadonlyBeatmapData::get_bombsCount
+// Writing MetadataGetter for method: GlobalNamespace::IReadonlyBeatmapData::get_bombsCount
 // Il2CppName: get_bombsCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IReadonlyBeatmapData::*)()>(&IReadonlyBeatmapData::get_bombsCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::IReadonlyBeatmapData::*)()>(&GlobalNamespace::IReadonlyBeatmapData::get_bombsCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IReadonlyBeatmapData*), "get_bombsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IReadonlyBeatmapData*), "get_bombsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IReadonlyBeatmapData::get_spawnRotationEventsCount
+// Writing MetadataGetter for method: GlobalNamespace::IReadonlyBeatmapData::get_spawnRotationEventsCount
 // Il2CppName: get_spawnRotationEventsCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IReadonlyBeatmapData::*)()>(&IReadonlyBeatmapData::get_spawnRotationEventsCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::IReadonlyBeatmapData::*)()>(&GlobalNamespace::IReadonlyBeatmapData::get_spawnRotationEventsCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IReadonlyBeatmapData*), "get_spawnRotationEventsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IReadonlyBeatmapData*), "get_spawnRotationEventsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IReadonlyBeatmapData::GetCopy
+// Writing MetadataGetter for method: GlobalNamespace::IReadonlyBeatmapData::GetCopy
 // Il2CppName: GetCopy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapData* (IReadonlyBeatmapData::*)()>(&IReadonlyBeatmapData::GetCopy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapData* (GlobalNamespace::IReadonlyBeatmapData::*)()>(&GlobalNamespace::IReadonlyBeatmapData::GetCopy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IReadonlyBeatmapData*), "GetCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IReadonlyBeatmapData*), "GetCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IReadonlyBeatmapData::GetCopyWithoutEvents
+// Writing MetadataGetter for method: GlobalNamespace::IReadonlyBeatmapData::GetCopyWithoutEvents
 // Il2CppName: GetCopyWithoutEvents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapData* (IReadonlyBeatmapData::*)()>(&IReadonlyBeatmapData::GetCopyWithoutEvents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapData* (GlobalNamespace::IReadonlyBeatmapData::*)()>(&GlobalNamespace::IReadonlyBeatmapData::GetCopyWithoutEvents)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IReadonlyBeatmapData*), "GetCopyWithoutEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IReadonlyBeatmapData*), "GetCopyWithoutEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IReadonlyBeatmapData::GetCopyWithoutBeatmapObjects
+// Writing MetadataGetter for method: GlobalNamespace::IReadonlyBeatmapData::GetCopyWithoutBeatmapObjects
 // Il2CppName: GetCopyWithoutBeatmapObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapData* (IReadonlyBeatmapData::*)()>(&IReadonlyBeatmapData::GetCopyWithoutBeatmapObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapData* (GlobalNamespace::IReadonlyBeatmapData::*)()>(&GlobalNamespace::IReadonlyBeatmapData::GetCopyWithoutBeatmapObjects)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IReadonlyBeatmapData*), "GetCopyWithoutBeatmapObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IReadonlyBeatmapData*), "GetCopyWithoutBeatmapObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IReadonlyBeatmapData::get_beatmapObjectsData
+// Writing MetadataGetter for method: GlobalNamespace::IReadonlyBeatmapData::get_beatmapObjectsData
 // Il2CppName: get_beatmapObjectsData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::BeatmapObjectData*>* (IReadonlyBeatmapData::*)()>(&IReadonlyBeatmapData::get_beatmapObjectsData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::BeatmapObjectData*>* (GlobalNamespace::IReadonlyBeatmapData::*)()>(&GlobalNamespace::IReadonlyBeatmapData::get_beatmapObjectsData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IReadonlyBeatmapData*), "get_beatmapObjectsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IReadonlyBeatmapData*), "get_beatmapObjectsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

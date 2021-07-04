@@ -58,25 +58,25 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::PlaymodeWorkItemFactory*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "PlaymodeWorkItemFactory");
-// Writing MetadataGetter for method: PlaymodeWorkItemFactory::Create
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::PlaymodeWorkItemFactory::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* (PlaymodeWorkItemFactory::*)(NUnit::Framework::Internal::TestMethod*, NUnit::Framework::Interfaces::ITestFilter*, NUnit::Framework::Interfaces::ITest*)>(&PlaymodeWorkItemFactory::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* (UnityEngine::TestRunner::NUnitExtensions::Runner::PlaymodeWorkItemFactory::*)(NUnit::Framework::Internal::TestMethod*, NUnit::Framework::Interfaces::ITestFilter*, NUnit::Framework::Interfaces::ITest*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::PlaymodeWorkItemFactory::Create)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlaymodeWorkItemFactory*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestMethod*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestFilter*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::PlaymodeWorkItemFactory*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestMethod*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestFilter*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
   }
 };
-// Writing MetadataGetter for method: PlaymodeWorkItemFactory::New_ctor
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::PlaymodeWorkItemFactory::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlaymodeWorkItemFactory::*)()>(&PlaymodeWorkItemFactory::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::PlaymodeWorkItemFactory::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::PlaymodeWorkItemFactory::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlaymodeWorkItemFactory*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::PlaymodeWorkItemFactory*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlaymodeWorkItemFactory::*)()>(&PlaymodeWorkItemFactory::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::PlaymodeWorkItemFactory::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::PlaymodeWorkItemFactory::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlaymodeWorkItemFactory*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::PlaymodeWorkItemFactory*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

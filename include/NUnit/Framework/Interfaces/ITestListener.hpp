@@ -38,27 +38,27 @@ namespace NUnit::Framework::Interfaces {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ITestListener*, "NUnit.Framework.Interfaces", "ITestListener");
-// Writing MetadataGetter for method: ITestListener::TestStarted
+// Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITestListener::TestStarted
 // Il2CppName: TestStarted
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ITestListener::*)(NUnit::Framework::Interfaces::ITest*)>(&ITestListener::TestStarted)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Interfaces::ITestListener::*)(NUnit::Framework::Interfaces::ITest*)>(&NUnit::Framework::Interfaces::ITestListener::TestStarted)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ITestListener*), "TestStarted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITestListener*), "TestStarted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
   }
 };
-// Writing MetadataGetter for method: ITestListener::TestFinished
+// Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITestListener::TestFinished
 // Il2CppName: TestFinished
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ITestListener::*)(NUnit::Framework::Interfaces::ITestResult*)>(&ITestListener::TestFinished)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Interfaces::ITestListener::*)(NUnit::Framework::Interfaces::ITestResult*)>(&NUnit::Framework::Interfaces::ITestListener::TestFinished)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ITestListener*), "TestFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITestListener*), "TestFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestResult*>()});
   }
 };
-// Writing MetadataGetter for method: ITestListener::TestOutput
+// Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITestListener::TestOutput
 // Il2CppName: TestOutput
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ITestListener::*)(NUnit::Framework::Interfaces::TestOutput*)>(&ITestListener::TestOutput)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Interfaces::ITestListener::*)(NUnit::Framework::Interfaces::TestOutput*)>(&NUnit::Framework::Interfaces::ITestListener::TestOutput)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ITestListener*), "TestOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::TestOutput*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITestListener*), "TestOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::TestOutput*>()});
   }
 };

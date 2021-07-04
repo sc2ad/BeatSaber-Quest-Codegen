@@ -105,81 +105,81 @@ namespace GlobalNamespace {
   static_assert(sizeof(CameraRenderCallbacksManager) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CameraRenderCallbacksManager*, "", "CameraRenderCallbacksManager");
-// Writing MetadataGetter for method: CameraRenderCallbacksManager::RegisterForCameraCallbacks
+// Writing MetadataGetter for method: GlobalNamespace::CameraRenderCallbacksManager::RegisterForCameraCallbacks
 // Il2CppName: RegisterForCameraCallbacks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Camera*, GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*)>(&CameraRenderCallbacksManager::RegisterForCameraCallbacks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Camera*, GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*)>(&GlobalNamespace::CameraRenderCallbacksManager::RegisterForCameraCallbacks)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CameraRenderCallbacksManager*), "RegisterForCameraCallbacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CameraRenderCallbacksManager*), "RegisterForCameraCallbacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*>()});
   }
 };
-// Writing MetadataGetter for method: CameraRenderCallbacksManager::UnregisterFromCameraCallbacks
+// Writing MetadataGetter for method: GlobalNamespace::CameraRenderCallbacksManager::UnregisterFromCameraCallbacks
 // Il2CppName: UnregisterFromCameraCallbacks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*)>(&CameraRenderCallbacksManager::UnregisterFromCameraCallbacks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*)>(&GlobalNamespace::CameraRenderCallbacksManager::UnregisterFromCameraCallbacks)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CameraRenderCallbacksManager*), "UnregisterFromCameraCallbacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CameraRenderCallbacksManager*), "UnregisterFromCameraCallbacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*>()});
   }
 };
-// Writing MetadataGetter for method: CameraRenderCallbacksManager::RegisterForCameraCallbacks
+// Writing MetadataGetter for method: GlobalNamespace::CameraRenderCallbacksManager::RegisterForCameraCallbacks
 // Il2CppName: RegisterForCameraCallbacks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CameraRenderCallbacksManager::*)(GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*)>(&CameraRenderCallbacksManager::RegisterForCameraCallbacks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CameraRenderCallbacksManager::*)(GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*)>(&GlobalNamespace::CameraRenderCallbacksManager::RegisterForCameraCallbacks)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CameraRenderCallbacksManager*), "RegisterForCameraCallbacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CameraRenderCallbacksManager*), "RegisterForCameraCallbacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*>()});
   }
 };
-// Writing MetadataGetter for method: CameraRenderCallbacksManager::UnregisterFromCameraCallbacksInternal
+// Writing MetadataGetter for method: GlobalNamespace::CameraRenderCallbacksManager::UnregisterFromCameraCallbacksInternal
 // Il2CppName: UnregisterFromCameraCallbacksInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CameraRenderCallbacksManager::*)(GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*)>(&CameraRenderCallbacksManager::UnregisterFromCameraCallbacksInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CameraRenderCallbacksManager::*)(GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*)>(&GlobalNamespace::CameraRenderCallbacksManager::UnregisterFromCameraCallbacksInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CameraRenderCallbacksManager*), "UnregisterFromCameraCallbacksInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CameraRenderCallbacksManager*), "UnregisterFromCameraCallbacksInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*>()});
   }
 };
-// Writing MetadataGetter for method: CameraRenderCallbacksManager::Awake
+// Writing MetadataGetter for method: GlobalNamespace::CameraRenderCallbacksManager::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CameraRenderCallbacksManager::*)()>(&CameraRenderCallbacksManager::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CameraRenderCallbacksManager::*)()>(&GlobalNamespace::CameraRenderCallbacksManager::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CameraRenderCallbacksManager*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CameraRenderCallbacksManager*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CameraRenderCallbacksManager::OnPreRender
+// Writing MetadataGetter for method: GlobalNamespace::CameraRenderCallbacksManager::OnPreRender
 // Il2CppName: OnPreRender
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CameraRenderCallbacksManager::*)()>(&CameraRenderCallbacksManager::OnPreRender)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CameraRenderCallbacksManager::*)()>(&GlobalNamespace::CameraRenderCallbacksManager::OnPreRender)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CameraRenderCallbacksManager*), "OnPreRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CameraRenderCallbacksManager*), "OnPreRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CameraRenderCallbacksManager::OnPostRender
+// Writing MetadataGetter for method: GlobalNamespace::CameraRenderCallbacksManager::OnPostRender
 // Il2CppName: OnPostRender
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CameraRenderCallbacksManager::*)()>(&CameraRenderCallbacksManager::OnPostRender)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CameraRenderCallbacksManager::*)()>(&GlobalNamespace::CameraRenderCallbacksManager::OnPostRender)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CameraRenderCallbacksManager*), "OnPostRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CameraRenderCallbacksManager*), "OnPostRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CameraRenderCallbacksManager::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::CameraRenderCallbacksManager::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CameraRenderCallbacksManager::*)()>(&CameraRenderCallbacksManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CameraRenderCallbacksManager::*)()>(&GlobalNamespace::CameraRenderCallbacksManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CameraRenderCallbacksManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CameraRenderCallbacksManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CameraRenderCallbacksManager::*)()>(&CameraRenderCallbacksManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CameraRenderCallbacksManager::*)()>(&GlobalNamespace::CameraRenderCallbacksManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CameraRenderCallbacksManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CameraRenderCallbacksManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CameraRenderCallbacksManager::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::CameraRenderCallbacksManager::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CameraRenderCallbacksManager::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::CameraRenderCallbacksManager::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CameraRenderCallbacksManager*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CameraRenderCallbacksManager*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

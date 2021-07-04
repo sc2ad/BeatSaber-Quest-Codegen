@@ -139,65 +139,65 @@ namespace GlobalNamespace {
   static_assert(sizeof(ParametricBoxFakeGlowController) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParametricBoxFakeGlowController*, "", "ParametricBoxFakeGlowController");
-// Writing MetadataGetter for method: ParametricBoxFakeGlowController::set_localPosition
+// Writing MetadataGetter for method: GlobalNamespace::ParametricBoxFakeGlowController::set_localPosition
 // Il2CppName: set_localPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParametricBoxFakeGlowController::*)(UnityEngine::Vector3)>(&ParametricBoxFakeGlowController::set_localPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ParametricBoxFakeGlowController::*)(UnityEngine::Vector3)>(&GlobalNamespace::ParametricBoxFakeGlowController::set_localPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParametricBoxFakeGlowController*), "set_localPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ParametricBoxFakeGlowController*), "set_localPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: ParametricBoxFakeGlowController::Awake
+// Writing MetadataGetter for method: GlobalNamespace::ParametricBoxFakeGlowController::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParametricBoxFakeGlowController::*)()>(&ParametricBoxFakeGlowController::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ParametricBoxFakeGlowController::*)()>(&GlobalNamespace::ParametricBoxFakeGlowController::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParametricBoxFakeGlowController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ParametricBoxFakeGlowController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ParametricBoxFakeGlowController::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::ParametricBoxFakeGlowController::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParametricBoxFakeGlowController::*)()>(&ParametricBoxFakeGlowController::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ParametricBoxFakeGlowController::*)()>(&GlobalNamespace::ParametricBoxFakeGlowController::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParametricBoxFakeGlowController*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ParametricBoxFakeGlowController*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ParametricBoxFakeGlowController::OnDisable
+// Writing MetadataGetter for method: GlobalNamespace::ParametricBoxFakeGlowController::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParametricBoxFakeGlowController::*)()>(&ParametricBoxFakeGlowController::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ParametricBoxFakeGlowController::*)()>(&GlobalNamespace::ParametricBoxFakeGlowController::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParametricBoxFakeGlowController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ParametricBoxFakeGlowController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ParametricBoxFakeGlowController::Refresh
+// Writing MetadataGetter for method: GlobalNamespace::ParametricBoxFakeGlowController::Refresh
 // Il2CppName: Refresh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParametricBoxFakeGlowController::*)()>(&ParametricBoxFakeGlowController::Refresh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ParametricBoxFakeGlowController::*)()>(&GlobalNamespace::ParametricBoxFakeGlowController::Refresh)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParametricBoxFakeGlowController*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ParametricBoxFakeGlowController*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ParametricBoxFakeGlowController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::ParametricBoxFakeGlowController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParametricBoxFakeGlowController::*)()>(&ParametricBoxFakeGlowController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ParametricBoxFakeGlowController::*)()>(&GlobalNamespace::ParametricBoxFakeGlowController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParametricBoxFakeGlowController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ParametricBoxFakeGlowController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParametricBoxFakeGlowController::*)()>(&ParametricBoxFakeGlowController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ParametricBoxFakeGlowController::*)()>(&GlobalNamespace::ParametricBoxFakeGlowController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParametricBoxFakeGlowController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ParametricBoxFakeGlowController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ParametricBoxFakeGlowController::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::ParametricBoxFakeGlowController::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ParametricBoxFakeGlowController::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::ParametricBoxFakeGlowController::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParametricBoxFakeGlowController*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ParametricBoxFakeGlowController*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

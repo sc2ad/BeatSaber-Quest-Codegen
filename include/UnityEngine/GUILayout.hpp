@@ -234,267 +234,267 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayout*, "UnityEngine", "GUILayout");
-// Writing MetadataGetter for method: GUILayout::Label
+// Writing MetadataGetter for method: UnityEngine::GUILayout::Label
 // Il2CppName: Label
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<UnityEngine::GUILayoutOption*>*)>(&GUILayout::Label)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::Label)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "Label", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "Label", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
   }
 };
-// Writing MetadataGetter for method: GUILayout::Label
+// Writing MetadataGetter for method: UnityEngine::GUILayout::Label
 // Il2CppName: Label
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&GUILayout::Label)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::Label)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "Label", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "Label", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
   }
 };
-// Writing MetadataGetter for method: GUILayout::DoLabel
+// Writing MetadataGetter for method: UnityEngine::GUILayout::DoLabel
 // Il2CppName: DoLabel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GUIContent*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&GUILayout::DoLabel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GUIContent*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::DoLabel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "DoLabel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "DoLabel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
   }
 };
-// Writing MetadataGetter for method: GUILayout::Box
+// Writing MetadataGetter for method: UnityEngine::GUILayout::Box
 // Il2CppName: Box
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture*, ::Array<UnityEngine::GUILayoutOption*>*)>(&GUILayout::Box)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture*, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::Box)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "Box", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "Box", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
   }
 };
-// Writing MetadataGetter for method: GUILayout::DoBox
+// Writing MetadataGetter for method: UnityEngine::GUILayout::DoBox
 // Il2CppName: DoBox
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GUIContent*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&GUILayout::DoBox)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GUIContent*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::DoBox)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "DoBox", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "DoBox", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
   }
 };
-// Writing MetadataGetter for method: GUILayout::Button
+// Writing MetadataGetter for method: UnityEngine::GUILayout::Button
 // Il2CppName: Button
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Array<UnityEngine::GUILayoutOption*>*)>(&GUILayout::Button)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::Button)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "Button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "Button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
   }
 };
-// Writing MetadataGetter for method: GUILayout::DoButton
+// Writing MetadataGetter for method: UnityEngine::GUILayout::DoButton
 // Il2CppName: DoButton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::GUIContent*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&GUILayout::DoButton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::GUIContent*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::DoButton)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "DoButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "DoButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
   }
 };
-// Writing MetadataGetter for method: GUILayout::TextField
+// Writing MetadataGetter for method: UnityEngine::GUILayout::TextField
 // Il2CppName: TextField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Array<UnityEngine::GUILayoutOption*>*)>(&GUILayout::TextField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::TextField)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "TextField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "TextField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
   }
 };
-// Writing MetadataGetter for method: GUILayout::TextArea
+// Writing MetadataGetter for method: UnityEngine::GUILayout::TextArea
 // Il2CppName: TextArea
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&GUILayout::TextArea)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::TextArea)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "TextArea", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "TextArea", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
   }
 };
-// Writing MetadataGetter for method: GUILayout::DoTextField
+// Writing MetadataGetter for method: UnityEngine::GUILayout::DoTextField
 // Il2CppName: DoTextField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int, bool, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&GUILayout::DoTextField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int, bool, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::DoTextField)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "DoTextField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "DoTextField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
   }
 };
-// Writing MetadataGetter for method: GUILayout::Toggle
+// Writing MetadataGetter for method: UnityEngine::GUILayout::Toggle
 // Il2CppName: Toggle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool, ::Il2CppString*, ::Array<UnityEngine::GUILayoutOption*>*)>(&GUILayout::Toggle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool, ::Il2CppString*, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::Toggle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "Toggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "Toggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
   }
 };
-// Writing MetadataGetter for method: GUILayout::DoToggle
+// Writing MetadataGetter for method: UnityEngine::GUILayout::DoToggle
 // Il2CppName: DoToggle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool, UnityEngine::GUIContent*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&GUILayout::DoToggle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool, UnityEngine::GUIContent*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::DoToggle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "DoToggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "DoToggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
   }
 };
-// Writing MetadataGetter for method: GUILayout::HorizontalSlider
+// Writing MetadataGetter for method: UnityEngine::GUILayout::HorizontalSlider
 // Il2CppName: HorizontalSlider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float, float, ::Array<UnityEngine::GUILayoutOption*>*)>(&GUILayout::HorizontalSlider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float, float, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::HorizontalSlider)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "HorizontalSlider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "HorizontalSlider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
   }
 };
-// Writing MetadataGetter for method: GUILayout::DoHorizontalSlider
+// Writing MetadataGetter for method: UnityEngine::GUILayout::DoHorizontalSlider
 // Il2CppName: DoHorizontalSlider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float, float, UnityEngine::GUIStyle*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&GUILayout::DoHorizontalSlider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float, float, UnityEngine::GUIStyle*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::DoHorizontalSlider)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "DoHorizontalSlider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "DoHorizontalSlider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
   }
 };
-// Writing MetadataGetter for method: GUILayout::Space
+// Writing MetadataGetter for method: UnityEngine::GUILayout::Space
 // Il2CppName: Space
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float)>(&GUILayout::Space)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float)>(&UnityEngine::GUILayout::Space)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "Space", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "Space", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: GUILayout::FlexibleSpace
+// Writing MetadataGetter for method: UnityEngine::GUILayout::FlexibleSpace
 // Il2CppName: FlexibleSpace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GUILayout::FlexibleSpace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::GUILayout::FlexibleSpace)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "FlexibleSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "FlexibleSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GUILayout::BeginHorizontal
+// Writing MetadataGetter for method: UnityEngine::GUILayout::BeginHorizontal
 // Il2CppName: BeginHorizontal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<UnityEngine::GUILayoutOption*>*)>(&GUILayout::BeginHorizontal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::BeginHorizontal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "BeginHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "BeginHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
   }
 };
-// Writing MetadataGetter for method: GUILayout::BeginHorizontal
+// Writing MetadataGetter for method: UnityEngine::GUILayout::BeginHorizontal
 // Il2CppName: BeginHorizontal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GUIContent*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&GUILayout::BeginHorizontal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GUIContent*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::BeginHorizontal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "BeginHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "BeginHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
   }
 };
-// Writing MetadataGetter for method: GUILayout::EndHorizontal
+// Writing MetadataGetter for method: UnityEngine::GUILayout::EndHorizontal
 // Il2CppName: EndHorizontal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GUILayout::EndHorizontal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::GUILayout::EndHorizontal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "EndHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "EndHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GUILayout::BeginVertical
+// Writing MetadataGetter for method: UnityEngine::GUILayout::BeginVertical
 // Il2CppName: BeginVertical
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<UnityEngine::GUILayoutOption*>*)>(&GUILayout::BeginVertical)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::BeginVertical)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "BeginVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "BeginVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
   }
 };
-// Writing MetadataGetter for method: GUILayout::BeginVertical
+// Writing MetadataGetter for method: UnityEngine::GUILayout::BeginVertical
 // Il2CppName: BeginVertical
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GUIContent*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&GUILayout::BeginVertical)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GUIContent*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::BeginVertical)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "BeginVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "BeginVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
   }
 };
-// Writing MetadataGetter for method: GUILayout::EndVertical
+// Writing MetadataGetter for method: UnityEngine::GUILayout::EndVertical
 // Il2CppName: EndVertical
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GUILayout::EndVertical)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::GUILayout::EndVertical)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "EndVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "EndVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GUILayout::BeginArea
+// Writing MetadataGetter for method: UnityEngine::GUILayout::BeginArea
 // Il2CppName: BeginArea
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect)>(&GUILayout::BeginArea)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect)>(&UnityEngine::GUILayout::BeginArea)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "BeginArea", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "BeginArea", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>()});
   }
 };
-// Writing MetadataGetter for method: GUILayout::BeginArea
+// Writing MetadataGetter for method: UnityEngine::GUILayout::BeginArea
 // Il2CppName: BeginArea
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::GUIContent*, UnityEngine::GUIStyle*)>(&GUILayout::BeginArea)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::GUIContent*, UnityEngine::GUIStyle*)>(&UnityEngine::GUILayout::BeginArea)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "BeginArea", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "BeginArea", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
   }
 };
-// Writing MetadataGetter for method: GUILayout::EndArea
+// Writing MetadataGetter for method: UnityEngine::GUILayout::EndArea
 // Il2CppName: EndArea
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GUILayout::EndArea)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::GUILayout::EndArea)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "EndArea", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "EndArea", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GUILayout::BeginScrollView
+// Writing MetadataGetter for method: UnityEngine::GUILayout::BeginScrollView
 // Il2CppName: BeginScrollView
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Vector2, ::Array<UnityEngine::GUILayoutOption*>*)>(&GUILayout::BeginScrollView)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Vector2, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::BeginScrollView)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "BeginScrollView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "BeginScrollView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
   }
 };
-// Writing MetadataGetter for method: GUILayout::BeginScrollView
+// Writing MetadataGetter for method: UnityEngine::GUILayout::BeginScrollView
 // Il2CppName: BeginScrollView
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Vector2, bool, bool, UnityEngine::GUIStyle*, UnityEngine::GUIStyle*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&GUILayout::BeginScrollView)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Vector2, bool, bool, UnityEngine::GUIStyle*, UnityEngine::GUIStyle*, UnityEngine::GUIStyle*, ::Array<UnityEngine::GUILayoutOption*>*)>(&UnityEngine::GUILayout::BeginScrollView)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "BeginScrollView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "BeginScrollView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GUILayoutOption*>*>()});
   }
 };
-// Writing MetadataGetter for method: GUILayout::EndScrollView
+// Writing MetadataGetter for method: UnityEngine::GUILayout::EndScrollView
 // Il2CppName: EndScrollView
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GUILayout::EndScrollView)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::GUILayout::EndScrollView)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "EndScrollView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "EndScrollView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GUILayout::EndScrollView
+// Writing MetadataGetter for method: UnityEngine::GUILayout::EndScrollView
 // Il2CppName: EndScrollView
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&GUILayout::EndScrollView)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&UnityEngine::GUILayout::EndScrollView)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "EndScrollView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "EndScrollView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: GUILayout::Width
+// Writing MetadataGetter for method: UnityEngine::GUILayout::Width
 // Il2CppName: Width
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUILayoutOption* (*)(float)>(&GUILayout::Width)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUILayoutOption* (*)(float)>(&UnityEngine::GUILayout::Width)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "Width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "Width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: GUILayout::Height
+// Writing MetadataGetter for method: UnityEngine::GUILayout::Height
 // Il2CppName: Height
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUILayoutOption* (*)(float)>(&GUILayout::Height)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUILayoutOption* (*)(float)>(&UnityEngine::GUILayout::Height)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "Height", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "Height", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: GUILayout::ExpandWidth
+// Writing MetadataGetter for method: UnityEngine::GUILayout::ExpandWidth
 // Il2CppName: ExpandWidth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUILayoutOption* (*)(bool)>(&GUILayout::ExpandWidth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUILayoutOption* (*)(bool)>(&UnityEngine::GUILayout::ExpandWidth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "ExpandWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "ExpandWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: GUILayout::ExpandHeight
+// Writing MetadataGetter for method: UnityEngine::GUILayout::ExpandHeight
 // Il2CppName: ExpandHeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUILayoutOption* (*)(bool)>(&GUILayout::ExpandHeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUILayoutOption* (*)(bool)>(&UnityEngine::GUILayout::ExpandHeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayout*), "ExpandHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayout*), "ExpandHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };

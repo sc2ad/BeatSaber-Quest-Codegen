@@ -59,41 +59,41 @@ namespace Valve::VR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetInt32TrackedDeviceProperty*, "Valve.VR", "IVRSystem/_GetInt32TrackedDeviceProperty");
-// Writing MetadataGetter for method: IVRSystem::_GetInt32TrackedDeviceProperty::New_ctor
+// Writing MetadataGetter for method: Valve::VR::IVRSystem::_GetInt32TrackedDeviceProperty::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSystem::_GetInt32TrackedDeviceProperty::*)(::Il2CppObject*, System::IntPtr)>(&IVRSystem::_GetInt32TrackedDeviceProperty::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRSystem::_GetInt32TrackedDeviceProperty::*)(::Il2CppObject*, System::IntPtr)>(&Valve::VR::IVRSystem::_GetInt32TrackedDeviceProperty::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_GetInt32TrackedDeviceProperty*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetInt32TrackedDeviceProperty*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSystem::_GetInt32TrackedDeviceProperty::*)(::Il2CppObject*, System::IntPtr)>(&IVRSystem::_GetInt32TrackedDeviceProperty::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRSystem::_GetInt32TrackedDeviceProperty::*)(::Il2CppObject*, System::IntPtr)>(&Valve::VR::IVRSystem::_GetInt32TrackedDeviceProperty::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_GetInt32TrackedDeviceProperty*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetInt32TrackedDeviceProperty*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: IVRSystem::_GetInt32TrackedDeviceProperty::Invoke
+// Writing MetadataGetter for method: Valve::VR::IVRSystem::_GetInt32TrackedDeviceProperty::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IVRSystem::_GetInt32TrackedDeviceProperty::*)(uint, Valve::VR::ETrackedDeviceProperty, Valve::VR::ETrackedPropertyError&)>(&IVRSystem::_GetInt32TrackedDeviceProperty::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Valve::VR::IVRSystem::_GetInt32TrackedDeviceProperty::*)(uint, Valve::VR::ETrackedDeviceProperty, Valve::VR::ETrackedPropertyError&)>(&Valve::VR::IVRSystem::_GetInt32TrackedDeviceProperty::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_GetInt32TrackedDeviceProperty*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackedDeviceProperty>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackedPropertyError&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetInt32TrackedDeviceProperty*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackedDeviceProperty>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackedPropertyError&>()});
   }
 };
-// Writing MetadataGetter for method: IVRSystem::_GetInt32TrackedDeviceProperty::BeginInvoke
+// Writing MetadataGetter for method: Valve::VR::IVRSystem::_GetInt32TrackedDeviceProperty::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRSystem::_GetInt32TrackedDeviceProperty::*)(uint, Valve::VR::ETrackedDeviceProperty, Valve::VR::ETrackedPropertyError&, System::AsyncCallback*, ::Il2CppObject*)>(&IVRSystem::_GetInt32TrackedDeviceProperty::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRSystem::_GetInt32TrackedDeviceProperty::*)(uint, Valve::VR::ETrackedDeviceProperty, Valve::VR::ETrackedPropertyError&, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRSystem::_GetInt32TrackedDeviceProperty::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_GetInt32TrackedDeviceProperty*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackedDeviceProperty>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackedPropertyError&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetInt32TrackedDeviceProperty*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackedDeviceProperty>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackedPropertyError&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IVRSystem::_GetInt32TrackedDeviceProperty::EndInvoke
+// Writing MetadataGetter for method: Valve::VR::IVRSystem::_GetInt32TrackedDeviceProperty::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IVRSystem::_GetInt32TrackedDeviceProperty::*)(Valve::VR::ETrackedPropertyError&, System::IAsyncResult*)>(&IVRSystem::_GetInt32TrackedDeviceProperty::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Valve::VR::IVRSystem::_GetInt32TrackedDeviceProperty::*)(Valve::VR::ETrackedPropertyError&, System::IAsyncResult*)>(&Valve::VR::IVRSystem::_GetInt32TrackedDeviceProperty::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_GetInt32TrackedDeviceProperty*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackedPropertyError&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetInt32TrackedDeviceProperty*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackedPropertyError&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

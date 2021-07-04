@@ -99,49 +99,49 @@ namespace UnityEngine::Timeline {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AudioTrack*, "UnityEngine.Timeline", "AudioTrack");
-// Writing MetadataGetter for method: AudioTrack::CreateClip
+// Writing MetadataGetter for method: UnityEngine::Timeline::AudioTrack::CreateClip
 // Il2CppName: CreateClip
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip* (AudioTrack::*)(UnityEngine::AudioClip*)>(&AudioTrack::CreateClip)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip* (UnityEngine::Timeline::AudioTrack::*)(UnityEngine::AudioClip*)>(&UnityEngine::Timeline::AudioTrack::CreateClip)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioTrack*), "CreateClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AudioTrack*), "CreateClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip*>()});
   }
 };
-// Writing MetadataGetter for method: AudioTrack::OnValidate
+// Writing MetadataGetter for method: UnityEngine::Timeline::AudioTrack::OnValidate
 // Il2CppName: OnValidate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioTrack::*)()>(&AudioTrack::OnValidate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::AudioTrack::*)()>(&UnityEngine::Timeline::AudioTrack::OnValidate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioTrack*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AudioTrack*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AudioTrack::CompileClips
+// Writing MetadataGetter for method: UnityEngine::Timeline::AudioTrack::CompileClips
 // Il2CppName: CompileClips
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (AudioTrack::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, System::Collections::Generic::IList_1<UnityEngine::Timeline::TimelineClip*>*, UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*)>(&AudioTrack::CompileClips)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (UnityEngine::Timeline::AudioTrack::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, System::Collections::Generic::IList_1<UnityEngine::Timeline::TimelineClip*>*, UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*)>(&UnityEngine::Timeline::AudioTrack::CompileClips)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioTrack*), "CompileClips", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::Timeline::TimelineClip*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AudioTrack*), "CompileClips", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::Timeline::TimelineClip*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*>()});
   }
 };
-// Writing MetadataGetter for method: AudioTrack::get_outputs
+// Writing MetadataGetter for method: UnityEngine::Timeline::AudioTrack::get_outputs
 // Il2CppName: get_outputs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* (AudioTrack::*)()>(&AudioTrack::get_outputs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* (UnityEngine::Timeline::AudioTrack::*)()>(&UnityEngine::Timeline::AudioTrack::get_outputs)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioTrack*), "get_outputs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AudioTrack*), "get_outputs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AudioTrack::New_ctor
+// Writing MetadataGetter for method: UnityEngine::Timeline::AudioTrack::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioTrack::*)()>(&AudioTrack::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::AudioTrack::*)()>(&UnityEngine::Timeline::AudioTrack::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioTrack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AudioTrack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioTrack::*)()>(&AudioTrack::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::AudioTrack::*)()>(&UnityEngine::Timeline::AudioTrack::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioTrack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AudioTrack*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -63,65 +63,65 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusAnalyticsModel*, "", "OculusAnalyticsModel");
-// Writing MetadataGetter for method: OculusAnalyticsModel::get_supportsOpenDataPrivacyPage
+// Writing MetadataGetter for method: GlobalNamespace::OculusAnalyticsModel::get_supportsOpenDataPrivacyPage
 // Il2CppName: get_supportsOpenDataPrivacyPage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusAnalyticsModel::*)()>(&OculusAnalyticsModel::get_supportsOpenDataPrivacyPage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OculusAnalyticsModel::*)()>(&GlobalNamespace::OculusAnalyticsModel::get_supportsOpenDataPrivacyPage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusAnalyticsModel*), "get_supportsOpenDataPrivacyPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusAnalyticsModel*), "get_supportsOpenDataPrivacyPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OculusAnalyticsModel::OpenDataPrivacyPage
+// Writing MetadataGetter for method: GlobalNamespace::OculusAnalyticsModel::OpenDataPrivacyPage
 // Il2CppName: OpenDataPrivacyPage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusAnalyticsModel::*)()>(&OculusAnalyticsModel::OpenDataPrivacyPage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusAnalyticsModel::*)()>(&GlobalNamespace::OculusAnalyticsModel::OpenDataPrivacyPage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusAnalyticsModel*), "OpenDataPrivacyPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusAnalyticsModel*), "OpenDataPrivacyPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OculusAnalyticsModel::LogEvent
+// Writing MetadataGetter for method: GlobalNamespace::OculusAnalyticsModel::LogEvent
 // Il2CppName: LogEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusAnalyticsModel::*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&OculusAnalyticsModel::LogEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusAnalyticsModel::*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&GlobalNamespace::OculusAnalyticsModel::LogEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusAnalyticsModel*), "LogEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusAnalyticsModel*), "LogEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: OculusAnalyticsModel::LogClick
+// Writing MetadataGetter for method: GlobalNamespace::OculusAnalyticsModel::LogClick
 // Il2CppName: LogClick
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusAnalyticsModel::*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&OculusAnalyticsModel::LogClick)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusAnalyticsModel::*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&GlobalNamespace::OculusAnalyticsModel::LogClick)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusAnalyticsModel*), "LogClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusAnalyticsModel*), "LogClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: OculusAnalyticsModel::LogImpression
+// Writing MetadataGetter for method: GlobalNamespace::OculusAnalyticsModel::LogImpression
 // Il2CppName: LogImpression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusAnalyticsModel::*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&OculusAnalyticsModel::LogImpression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusAnalyticsModel::*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&GlobalNamespace::OculusAnalyticsModel::LogImpression)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusAnalyticsModel*), "LogImpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusAnalyticsModel*), "LogImpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: OculusAnalyticsModel::LogExposure
+// Writing MetadataGetter for method: GlobalNamespace::OculusAnalyticsModel::LogExposure
 // Il2CppName: LogExposure
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusAnalyticsModel::*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&OculusAnalyticsModel::LogExposure)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusAnalyticsModel::*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&GlobalNamespace::OculusAnalyticsModel::LogExposure)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusAnalyticsModel*), "LogExposure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusAnalyticsModel*), "LogExposure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: OculusAnalyticsModel::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::OculusAnalyticsModel::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusAnalyticsModel::*)()>(&OculusAnalyticsModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusAnalyticsModel::*)()>(&GlobalNamespace::OculusAnalyticsModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusAnalyticsModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusAnalyticsModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusAnalyticsModel::*)()>(&OculusAnalyticsModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusAnalyticsModel::*)()>(&GlobalNamespace::OculusAnalyticsModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusAnalyticsModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusAnalyticsModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

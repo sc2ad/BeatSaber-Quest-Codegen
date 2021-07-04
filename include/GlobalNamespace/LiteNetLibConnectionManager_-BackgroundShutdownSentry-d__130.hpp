@@ -73,19 +73,19 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::$BackgroundShutdownSentry$d__130, "", "LiteNetLibConnectionManager/<BackgroundShutdownSentry>d__130");
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::$BackgroundShutdownSentry$d__130::MoveNext
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::$BackgroundShutdownSentry$d__130::MoveNext
 // Il2CppName: MoveNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::$BackgroundShutdownSentry$d__130::*)()>(&LiteNetLibConnectionManager::$BackgroundShutdownSentry$d__130::MoveNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::$BackgroundShutdownSentry$d__130::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::$BackgroundShutdownSentry$d__130::MoveNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager::$BackgroundShutdownSentry$d__130), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager::$BackgroundShutdownSentry$d__130), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::$BackgroundShutdownSentry$d__130::SetStateMachine
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::$BackgroundShutdownSentry$d__130::SetStateMachine
 // Il2CppName: SetStateMachine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::$BackgroundShutdownSentry$d__130::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&LiteNetLibConnectionManager::$BackgroundShutdownSentry$d__130::SetStateMachine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::$BackgroundShutdownSentry$d__130::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&GlobalNamespace::LiteNetLibConnectionManager::$BackgroundShutdownSentry$d__130::SetStateMachine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager::$BackgroundShutdownSentry$d__130), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager::$BackgroundShutdownSentry$d__130), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
   }
 };

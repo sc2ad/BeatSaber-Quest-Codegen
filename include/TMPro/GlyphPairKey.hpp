@@ -72,31 +72,31 @@ namespace TMPro {
   static_assert(sizeof(GlyphPairKey) == 0x10);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::GlyphPairKey, "TMPro", "GlyphPairKey");
-// Writing MetadataGetter for method: GlyphPairKey::GlyphPairKey
+// Writing MetadataGetter for method: TMPro::GlyphPairKey::GlyphPairKey
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlyphPairKey::*)(uint, uint)>(&GlyphPairKey::GlyphPairKey<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::GlyphPairKey::*)(uint, uint)>(&TMPro::GlyphPairKey::GlyphPairKey<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlyphPairKey), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::GlyphPairKey), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlyphPairKey::*)(uint, uint)>(&GlyphPairKey::GlyphPairKey<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::GlyphPairKey::*)(uint, uint)>(&TMPro::GlyphPairKey::GlyphPairKey<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlyphPairKey), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::GlyphPairKey), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: GlyphPairKey::GlyphPairKey
+// Writing MetadataGetter for method: TMPro::GlyphPairKey::GlyphPairKey
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlyphPairKey::*)(TMPro::TMP_GlyphPairAdjustmentRecord*)>(&GlyphPairKey::GlyphPairKey<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::GlyphPairKey::*)(TMPro::TMP_GlyphPairAdjustmentRecord*)>(&TMPro::GlyphPairKey::GlyphPairKey<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlyphPairKey), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_GlyphPairAdjustmentRecord*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::GlyphPairKey), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_GlyphPairAdjustmentRecord*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlyphPairKey::*)(TMPro::TMP_GlyphPairAdjustmentRecord*)>(&GlyphPairKey::GlyphPairKey<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::GlyphPairKey::*)(TMPro::TMP_GlyphPairAdjustmentRecord*)>(&TMPro::GlyphPairKey::GlyphPairKey<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlyphPairKey), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_GlyphPairAdjustmentRecord*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::GlyphPairKey), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_GlyphPairAdjustmentRecord*>()});
   }
 };

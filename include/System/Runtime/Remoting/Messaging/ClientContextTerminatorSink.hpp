@@ -67,33 +67,33 @@ namespace System::Runtime::Remoting::Messaging {
   static_assert(sizeof(ClientContextTerminatorSink) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ClientContextTerminatorSink*, "System.Runtime.Remoting.Messaging", "ClientContextTerminatorSink");
-// Writing MetadataGetter for method: ClientContextTerminatorSink::New_ctor
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ClientContextTerminatorSink::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientContextTerminatorSink::*)(System::Runtime::Remoting::Contexts::Context*)>(&ClientContextTerminatorSink::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::ClientContextTerminatorSink::*)(System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::Messaging::ClientContextTerminatorSink::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ClientContextTerminatorSink*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ClientContextTerminatorSink*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientContextTerminatorSink::*)(System::Runtime::Remoting::Contexts::Context*)>(&ClientContextTerminatorSink::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::ClientContextTerminatorSink::*)(System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::Messaging::ClientContextTerminatorSink::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ClientContextTerminatorSink*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ClientContextTerminatorSink*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>()});
   }
 };
-// Writing MetadataGetter for method: ClientContextTerminatorSink::SyncProcessMessage
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ClientContextTerminatorSink::SyncProcessMessage
 // Il2CppName: SyncProcessMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (ClientContextTerminatorSink::*)(System::Runtime::Remoting::Messaging::IMessage*)>(&ClientContextTerminatorSink::SyncProcessMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (System::Runtime::Remoting::Messaging::ClientContextTerminatorSink::*)(System::Runtime::Remoting::Messaging::IMessage*)>(&System::Runtime::Remoting::Messaging::ClientContextTerminatorSink::SyncProcessMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ClientContextTerminatorSink*), "SyncProcessMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ClientContextTerminatorSink*), "SyncProcessMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>()});
   }
 };
-// Writing MetadataGetter for method: ClientContextTerminatorSink::AsyncProcessMessage
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ClientContextTerminatorSink::AsyncProcessMessage
 // Il2CppName: AsyncProcessMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageCtrl* (ClientContextTerminatorSink::*)(System::Runtime::Remoting::Messaging::IMessage*, System::Runtime::Remoting::Messaging::IMessageSink*)>(&ClientContextTerminatorSink::AsyncProcessMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageCtrl* (System::Runtime::Remoting::Messaging::ClientContextTerminatorSink::*)(System::Runtime::Remoting::Messaging::IMessage*, System::Runtime::Remoting::Messaging::IMessageSink*)>(&System::Runtime::Remoting::Messaging::ClientContextTerminatorSink::AsyncProcessMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ClientContextTerminatorSink*), "AsyncProcessMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessageSink*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ClientContextTerminatorSink*), "AsyncProcessMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessageSink*>()});
   }
 };

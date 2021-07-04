@@ -188,193 +188,193 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionNodesManager) == 0x59);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodesManager*, "", "MissionNodesManager");
-// Writing MetadataGetter for method: MissionNodesManager::get_rootMissionNode
+// Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::get_rootMissionNode
 // Il2CppName: get_rootMissionNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionNode* (MissionNodesManager::*)()>(&MissionNodesManager::get_rootMissionNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionNode* (GlobalNamespace::MissionNodesManager::*)()>(&GlobalNamespace::MissionNodesManager::get_rootMissionNode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodesManager*), "get_rootMissionNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "get_rootMissionNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionNodesManager::get_finalMissionNode
+// Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::get_finalMissionNode
 // Il2CppName: get_finalMissionNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionNode* (MissionNodesManager::*)()>(&MissionNodesManager::get_finalMissionNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionNode* (GlobalNamespace::MissionNodesManager::*)()>(&GlobalNamespace::MissionNodesManager::get_finalMissionNode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodesManager*), "get_finalMissionNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "get_finalMissionNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionNodesManager::get_missionStagesManager
+// Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::get_missionStagesManager
 // Il2CppName: get_missionStagesManager
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionStagesManager* (MissionNodesManager::*)()>(&MissionNodesManager::get_missionStagesManager)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionStagesManager* (GlobalNamespace::MissionNodesManager::*)()>(&GlobalNamespace::MissionNodesManager::get_missionStagesManager)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodesManager*), "get_missionStagesManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "get_missionStagesManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionNodesManager::get_missionProgressModel
+// Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::get_missionProgressModel
 // Il2CppName: get_missionProgressModel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::CampaignProgressModel* (MissionNodesManager::*)()>(&MissionNodesManager::get_missionProgressModel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::CampaignProgressModel* (GlobalNamespace::MissionNodesManager::*)()>(&GlobalNamespace::MissionNodesManager::get_missionProgressModel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodesManager*), "get_missionProgressModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "get_missionProgressModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionNodesManager::get_allMissionNodes
+// Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::get_allMissionNodes
 // Il2CppName: get_allMissionNodes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::MissionNode*>* (MissionNodesManager::*)()>(&MissionNodesManager::get_allMissionNodes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::MissionNode*>* (GlobalNamespace::MissionNodesManager::*)()>(&GlobalNamespace::MissionNodesManager::get_allMissionNodes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodesManager*), "get_allMissionNodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "get_allMissionNodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionNodesManager::get_IsInitialized
+// Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::get_IsInitialized
 // Il2CppName: get_IsInitialized
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MissionNodesManager::*)()>(&MissionNodesManager::get_IsInitialized)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MissionNodesManager::*)()>(&GlobalNamespace::MissionNodesManager::get_IsInitialized)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodesManager*), "get_IsInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "get_IsInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionNodesManager::Awake
+// Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodesManager::*)()>(&MissionNodesManager::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodesManager::*)()>(&GlobalNamespace::MissionNodesManager::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodesManager*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionNodesManager::SetupNodeMap
+// Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::SetupNodeMap
 // Il2CppName: SetupNodeMap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodesManager::*)()>(&MissionNodesManager::SetupNodeMap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodesManager::*)()>(&GlobalNamespace::MissionNodesManager::SetupNodeMap)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodesManager*), "SetupNodeMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "SetupNodeMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionNodesManager::MissionWasCleared
+// Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::MissionWasCleared
 // Il2CppName: MissionWasCleared
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MissionNodesManager::*)(GlobalNamespace::MissionNode*)>(&MissionNodesManager::MissionWasCleared)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MissionNodesManager::*)(GlobalNamespace::MissionNode*)>(&GlobalNamespace::MissionNodesManager::MissionWasCleared)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodesManager*), "MissionWasCleared", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "MissionWasCleared", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>()});
   }
 };
-// Writing MetadataGetter for method: MissionNodesManager::GetMissionNodeWithModelClearedStateInconsistency
+// Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::GetMissionNodeWithModelClearedStateInconsistency
 // Il2CppName: GetMissionNodeWithModelClearedStateInconsistency
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionNode* (MissionNodesManager::*)()>(&MissionNodesManager::GetMissionNodeWithModelClearedStateInconsistency)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionNode* (GlobalNamespace::MissionNodesManager::*)()>(&GlobalNamespace::MissionNodesManager::GetMissionNodeWithModelClearedStateInconsistency)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodesManager*), "GetMissionNodeWithModelClearedStateInconsistency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "GetMissionNodeWithModelClearedStateInconsistency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionNodesManager::DidFirstLockedMissionStageChange
+// Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::DidFirstLockedMissionStageChange
 // Il2CppName: DidFirstLockedMissionStageChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MissionNodesManager::*)()>(&MissionNodesManager::DidFirstLockedMissionStageChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MissionNodesManager::*)()>(&GlobalNamespace::MissionNodesManager::DidFirstLockedMissionStageChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodesManager*), "DidFirstLockedMissionStageChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "DidFirstLockedMissionStageChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionNodesManager::UpdateStageLockText
+// Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::UpdateStageLockText
 // Il2CppName: UpdateStageLockText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodesManager::*)()>(&MissionNodesManager::UpdateStageLockText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodesManager::*)()>(&GlobalNamespace::MissionNodesManager::UpdateStageLockText)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodesManager*), "UpdateStageLockText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "UpdateStageLockText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionNodesManager::GetTopMostNotClearedMissionNode
+// Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::GetTopMostNotClearedMissionNode
 // Il2CppName: GetTopMostNotClearedMissionNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionNode* (MissionNodesManager::*)()>(&MissionNodesManager::GetTopMostNotClearedMissionNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionNode* (GlobalNamespace::MissionNodesManager::*)()>(&GlobalNamespace::MissionNodesManager::GetTopMostNotClearedMissionNode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodesManager*), "GetTopMostNotClearedMissionNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "GetTopMostNotClearedMissionNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionNodesManager::GetAllMissionNodes
+// Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::GetAllMissionNodes
 // Il2CppName: GetAllMissionNodes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodesManager::*)()>(&MissionNodesManager::GetAllMissionNodes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodesManager::*)()>(&GlobalNamespace::MissionNodesManager::GetAllMissionNodes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodesManager*), "GetAllMissionNodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "GetAllMissionNodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionNodesManager::GetAllMissionNodes
+// Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::GetAllMissionNodes
 // Il2CppName: GetAllMissionNodes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>* (MissionNodesManager::*)(GlobalNamespace::MissionNode*, System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>*)>(&MissionNodesManager::GetAllMissionNodes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>* (GlobalNamespace::MissionNodesManager::*)(GlobalNamespace::MissionNode*, System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>*)>(&GlobalNamespace::MissionNodesManager::GetAllMissionNodes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodesManager*), "GetAllMissionNodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "GetAllMissionNodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>*>()});
   }
 };
-// Writing MetadataGetter for method: MissionNodesManager::GetNewEnabledConnection
+// Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::GetNewEnabledConnection
 // Il2CppName: GetNewEnabledConnection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::MissionNodeConnection*>* (MissionNodesManager::*)()>(&MissionNodesManager::GetNewEnabledConnection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::MissionNodeConnection*>* (GlobalNamespace::MissionNodesManager::*)()>(&GlobalNamespace::MissionNodesManager::GetNewEnabledConnection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodesManager*), "GetNewEnabledConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "GetNewEnabledConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionNodesManager::ResetAllNodes
+// Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::ResetAllNodes
 // Il2CppName: ResetAllNodes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodesManager::*)()>(&MissionNodesManager::ResetAllNodes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodesManager::*)()>(&GlobalNamespace::MissionNodesManager::ResetAllNodes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodesManager*), "ResetAllNodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "ResetAllNodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionNodesManager::SetupStages
+// Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::SetupStages
 // Il2CppName: SetupStages
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodesManager::*)()>(&MissionNodesManager::SetupStages)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodesManager::*)()>(&GlobalNamespace::MissionNodesManager::SetupStages)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodesManager*), "SetupStages", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "SetupStages", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionNodesManager::RegisterAllNodes
+// Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::RegisterAllNodes
 // Il2CppName: RegisterAllNodes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodesManager::*)()>(&MissionNodesManager::RegisterAllNodes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodesManager::*)()>(&GlobalNamespace::MissionNodesManager::RegisterAllNodes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodesManager*), "RegisterAllNodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "RegisterAllNodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionNodesManager::SetupNodeTree
+// Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::SetupNodeTree
 // Il2CppName: SetupNodeTree
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodesManager::*)(GlobalNamespace::MissionNodeVisualController*, bool)>(&MissionNodesManager::SetupNodeTree)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodesManager::*)(GlobalNamespace::MissionNodeVisualController*, bool)>(&GlobalNamespace::MissionNodesManager::SetupNodeTree)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodesManager*), "SetupNodeTree", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNodeVisualController*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "SetupNodeTree", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNodeVisualController*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MissionNodesManager::IsNodeInteractable
+// Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::IsNodeInteractable
 // Il2CppName: IsNodeInteractable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MissionNodesManager::*)(GlobalNamespace::MissionNodeVisualController*, bool)>(&MissionNodesManager::IsNodeInteractable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MissionNodesManager::*)(GlobalNamespace::MissionNodeVisualController*, bool)>(&GlobalNamespace::MissionNodesManager::IsNodeInteractable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodesManager*), "IsNodeInteractable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNodeVisualController*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "IsNodeInteractable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNodeVisualController*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MissionNodesManager::SetupNodeConnections
+// Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::SetupNodeConnections
 // Il2CppName: SetupNodeConnections
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodesManager::*)()>(&MissionNodesManager::SetupNodeConnections)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodesManager::*)()>(&GlobalNamespace::MissionNodesManager::SetupNodeConnections)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodesManager*), "SetupNodeConnections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "SetupNodeConnections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionNodesManager::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodesManager::*)()>(&MissionNodesManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodesManager::*)()>(&GlobalNamespace::MissionNodesManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodesManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodesManager::*)()>(&MissionNodesManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodesManager::*)()>(&GlobalNamespace::MissionNodesManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodesManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

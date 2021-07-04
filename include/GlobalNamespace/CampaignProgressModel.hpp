@@ -120,105 +120,105 @@ namespace GlobalNamespace {
   static_assert(sizeof(CampaignProgressModel) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CampaignProgressModel*, "", "CampaignProgressModel");
-// Writing MetadataGetter for method: CampaignProgressModel::get_numberOfClearedMissions
+// Writing MetadataGetter for method: GlobalNamespace::CampaignProgressModel::get_numberOfClearedMissions
 // Il2CppName: get_numberOfClearedMissions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CampaignProgressModel::*)()>(&CampaignProgressModel::get_numberOfClearedMissions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::CampaignProgressModel::*)()>(&GlobalNamespace::CampaignProgressModel::get_numberOfClearedMissions)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CampaignProgressModel*), "get_numberOfClearedMissions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CampaignProgressModel*), "get_numberOfClearedMissions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CampaignProgressModel::Awake
+// Writing MetadataGetter for method: GlobalNamespace::CampaignProgressModel::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignProgressModel::*)()>(&CampaignProgressModel::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CampaignProgressModel::*)()>(&GlobalNamespace::CampaignProgressModel::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CampaignProgressModel*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CampaignProgressModel*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CampaignProgressModel::IsMissionRegistered
+// Writing MetadataGetter for method: GlobalNamespace::CampaignProgressModel::IsMissionRegistered
 // Il2CppName: IsMissionRegistered
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CampaignProgressModel::*)(::Il2CppString*)>(&CampaignProgressModel::IsMissionRegistered)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::CampaignProgressModel::*)(::Il2CppString*)>(&GlobalNamespace::CampaignProgressModel::IsMissionRegistered)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CampaignProgressModel*), "IsMissionRegistered", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CampaignProgressModel*), "IsMissionRegistered", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CampaignProgressModel::RegisterMissionId
+// Writing MetadataGetter for method: GlobalNamespace::CampaignProgressModel::RegisterMissionId
 // Il2CppName: RegisterMissionId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignProgressModel::*)(::Il2CppString*)>(&CampaignProgressModel::RegisterMissionId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CampaignProgressModel::*)(::Il2CppString*)>(&GlobalNamespace::CampaignProgressModel::RegisterMissionId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CampaignProgressModel*), "RegisterMissionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CampaignProgressModel*), "RegisterMissionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CampaignProgressModel::IsMissionCleared
+// Writing MetadataGetter for method: GlobalNamespace::CampaignProgressModel::IsMissionCleared
 // Il2CppName: IsMissionCleared
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CampaignProgressModel::*)(::Il2CppString*)>(&CampaignProgressModel::IsMissionCleared)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::CampaignProgressModel::*)(::Il2CppString*)>(&GlobalNamespace::CampaignProgressModel::IsMissionCleared)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CampaignProgressModel*), "IsMissionCleared", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CampaignProgressModel*), "IsMissionCleared", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CampaignProgressModel::IsMissionFinal
+// Writing MetadataGetter for method: GlobalNamespace::CampaignProgressModel::IsMissionFinal
 // Il2CppName: IsMissionFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CampaignProgressModel::*)(::Il2CppString*)>(&CampaignProgressModel::IsMissionFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::CampaignProgressModel::*)(::Il2CppString*)>(&GlobalNamespace::CampaignProgressModel::IsMissionFinal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CampaignProgressModel*), "IsMissionFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CampaignProgressModel*), "IsMissionFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CampaignProgressModel::SetFinalMissionId
+// Writing MetadataGetter for method: GlobalNamespace::CampaignProgressModel::SetFinalMissionId
 // Il2CppName: SetFinalMissionId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignProgressModel::*)(::Il2CppString*)>(&CampaignProgressModel::SetFinalMissionId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CampaignProgressModel::*)(::Il2CppString*)>(&GlobalNamespace::CampaignProgressModel::SetFinalMissionId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CampaignProgressModel*), "SetFinalMissionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CampaignProgressModel*), "SetFinalMissionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CampaignProgressModel::WillFinishGameAfterThisMission
+// Writing MetadataGetter for method: GlobalNamespace::CampaignProgressModel::WillFinishGameAfterThisMission
 // Il2CppName: WillFinishGameAfterThisMission
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CampaignProgressModel::*)(::Il2CppString*)>(&CampaignProgressModel::WillFinishGameAfterThisMission)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::CampaignProgressModel::*)(::Il2CppString*)>(&GlobalNamespace::CampaignProgressModel::WillFinishGameAfterThisMission)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CampaignProgressModel*), "WillFinishGameAfterThisMission", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CampaignProgressModel*), "WillFinishGameAfterThisMission", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CampaignProgressModel::SetMissionCleared
+// Writing MetadataGetter for method: GlobalNamespace::CampaignProgressModel::SetMissionCleared
 // Il2CppName: SetMissionCleared
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignProgressModel::*)(::Il2CppString*)>(&CampaignProgressModel::SetMissionCleared)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CampaignProgressModel::*)(::Il2CppString*)>(&GlobalNamespace::CampaignProgressModel::SetMissionCleared)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CampaignProgressModel*), "SetMissionCleared", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CampaignProgressModel*), "SetMissionCleared", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CampaignProgressModel::__SetMissionCleared
+// Writing MetadataGetter for method: GlobalNamespace::CampaignProgressModel::__SetMissionCleared
 // Il2CppName: __SetMissionCleared
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignProgressModel::*)(::Il2CppString*, bool)>(&CampaignProgressModel::__SetMissionCleared)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CampaignProgressModel::*)(::Il2CppString*, bool)>(&GlobalNamespace::CampaignProgressModel::__SetMissionCleared)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CampaignProgressModel*), "__SetMissionCleared", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CampaignProgressModel*), "__SetMissionCleared", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: CampaignProgressModel::UpdateNumberOfClearedMissions
+// Writing MetadataGetter for method: GlobalNamespace::CampaignProgressModel::UpdateNumberOfClearedMissions
 // Il2CppName: UpdateNumberOfClearedMissions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CampaignProgressModel::*)()>(&CampaignProgressModel::UpdateNumberOfClearedMissions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::CampaignProgressModel::*)()>(&GlobalNamespace::CampaignProgressModel::UpdateNumberOfClearedMissions)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CampaignProgressModel*), "UpdateNumberOfClearedMissions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CampaignProgressModel*), "UpdateNumberOfClearedMissions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CampaignProgressModel::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::CampaignProgressModel::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignProgressModel::*)()>(&CampaignProgressModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CampaignProgressModel::*)()>(&GlobalNamespace::CampaignProgressModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CampaignProgressModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CampaignProgressModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CampaignProgressModel::*)()>(&CampaignProgressModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CampaignProgressModel::*)()>(&GlobalNamespace::CampaignProgressModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CampaignProgressModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CampaignProgressModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

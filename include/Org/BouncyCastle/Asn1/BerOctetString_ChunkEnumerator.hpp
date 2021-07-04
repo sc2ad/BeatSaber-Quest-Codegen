@@ -81,41 +81,41 @@ namespace Org::BouncyCastle::Asn1 {
   static_assert(sizeof(BerOctetString::ChunkEnumerator) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator*, "Org.BouncyCastle.Asn1", "BerOctetString/ChunkEnumerator");
-// Writing MetadataGetter for method: BerOctetString::ChunkEnumerator::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BerOctetString::ChunkEnumerator::*)(::Array<uint8_t>*, int)>(&BerOctetString::ChunkEnumerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator::*)(::Array<uint8_t>*, int)>(&Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BerOctetString::ChunkEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BerOctetString::ChunkEnumerator::*)(::Array<uint8_t>*, int)>(&BerOctetString::ChunkEnumerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator::*)(::Array<uint8_t>*, int)>(&Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BerOctetString::ChunkEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: BerOctetString::ChunkEnumerator::get_Current
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator::get_Current
 // Il2CppName: get_Current
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (BerOctetString::ChunkEnumerator::*)()>(&BerOctetString::ChunkEnumerator::get_Current)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator::*)()>(&Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator::get_Current)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BerOctetString::ChunkEnumerator*), "get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator*), "get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BerOctetString::ChunkEnumerator::MoveNext
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator::MoveNext
 // Il2CppName: MoveNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BerOctetString::ChunkEnumerator::*)()>(&BerOctetString::ChunkEnumerator::MoveNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator::*)()>(&Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator::MoveNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BerOctetString::ChunkEnumerator*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BerOctetString::ChunkEnumerator::Reset
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator::Reset
 // Il2CppName: Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BerOctetString::ChunkEnumerator::*)()>(&BerOctetString::ChunkEnumerator::Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator::*)()>(&Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator::Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BerOctetString::ChunkEnumerator*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

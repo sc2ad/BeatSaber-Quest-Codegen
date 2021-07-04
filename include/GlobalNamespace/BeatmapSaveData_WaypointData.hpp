@@ -82,57 +82,57 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapSaveData::WaypointData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData::WaypointData*, "", "BeatmapSaveData/WaypointData");
-// Writing MetadataGetter for method: BeatmapSaveData::WaypointData::get_time
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapSaveData::WaypointData::get_time
 // Il2CppName: get_time
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BeatmapSaveData::WaypointData::*)()>(&BeatmapSaveData::WaypointData::get_time)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapSaveData::WaypointData::*)()>(&GlobalNamespace::BeatmapSaveData::WaypointData::get_time)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapSaveData::WaypointData*), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapSaveData::WaypointData*), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapSaveData::WaypointData::get_lineIndex
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapSaveData::WaypointData::get_lineIndex
 // Il2CppName: get_lineIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BeatmapSaveData::WaypointData::*)()>(&BeatmapSaveData::WaypointData::get_lineIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::BeatmapSaveData::WaypointData::*)()>(&GlobalNamespace::BeatmapSaveData::WaypointData::get_lineIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapSaveData::WaypointData*), "get_lineIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapSaveData::WaypointData*), "get_lineIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapSaveData::WaypointData::get_lineLayer
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapSaveData::WaypointData::get_lineLayer
 // Il2CppName: get_lineLayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteLineLayer (BeatmapSaveData::WaypointData::*)()>(&BeatmapSaveData::WaypointData::get_lineLayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteLineLayer (GlobalNamespace::BeatmapSaveData::WaypointData::*)()>(&GlobalNamespace::BeatmapSaveData::WaypointData::get_lineLayer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapSaveData::WaypointData*), "get_lineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapSaveData::WaypointData*), "get_lineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapSaveData::WaypointData::get_offsetDirection
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapSaveData::WaypointData::get_offsetDirection
 // Il2CppName: get_offsetDirection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OffsetDirection (BeatmapSaveData::WaypointData::*)()>(&BeatmapSaveData::WaypointData::get_offsetDirection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OffsetDirection (GlobalNamespace::BeatmapSaveData::WaypointData::*)()>(&GlobalNamespace::BeatmapSaveData::WaypointData::get_offsetDirection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapSaveData::WaypointData*), "get_offsetDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapSaveData::WaypointData*), "get_offsetDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapSaveData::WaypointData::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapSaveData::WaypointData::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapSaveData::WaypointData::*)(float, int, GlobalNamespace::NoteLineLayer, GlobalNamespace::OffsetDirection)>(&BeatmapSaveData::WaypointData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapSaveData::WaypointData::*)(float, int, GlobalNamespace::NoteLineLayer, GlobalNamespace::OffsetDirection)>(&GlobalNamespace::BeatmapSaveData::WaypointData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapSaveData::WaypointData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OffsetDirection>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapSaveData::WaypointData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OffsetDirection>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapSaveData::WaypointData::*)(float, int, GlobalNamespace::NoteLineLayer, GlobalNamespace::OffsetDirection)>(&BeatmapSaveData::WaypointData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapSaveData::WaypointData::*)(float, int, GlobalNamespace::NoteLineLayer, GlobalNamespace::OffsetDirection)>(&GlobalNamespace::BeatmapSaveData::WaypointData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapSaveData::WaypointData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OffsetDirection>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapSaveData::WaypointData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OffsetDirection>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapSaveData::WaypointData::MoveTime
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapSaveData::WaypointData::MoveTime
 // Il2CppName: MoveTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapSaveData::WaypointData::*)(float)>(&BeatmapSaveData::WaypointData::MoveTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapSaveData::WaypointData::*)(float)>(&GlobalNamespace::BeatmapSaveData::WaypointData::MoveTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapSaveData::WaypointData*), "MoveTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapSaveData::WaypointData*), "MoveTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };

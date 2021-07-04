@@ -61,47 +61,47 @@ namespace JetBrains::Annotations {
   static_assert(sizeof(MustUseReturnValueAttribute) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::MustUseReturnValueAttribute*, "JetBrains.Annotations", "MustUseReturnValueAttribute");
-// Writing MetadataGetter for method: MustUseReturnValueAttribute::New_ctor
+// Writing MetadataGetter for method: JetBrains::Annotations::MustUseReturnValueAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MustUseReturnValueAttribute::*)(::Il2CppString*)>(&MustUseReturnValueAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::MustUseReturnValueAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::MustUseReturnValueAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MustUseReturnValueAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MustUseReturnValueAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MustUseReturnValueAttribute::*)(::Il2CppString*)>(&MustUseReturnValueAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::MustUseReturnValueAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::MustUseReturnValueAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MustUseReturnValueAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MustUseReturnValueAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: MustUseReturnValueAttribute::get_Justification
+// Writing MetadataGetter for method: JetBrains::Annotations::MustUseReturnValueAttribute::get_Justification
 // Il2CppName: get_Justification
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MustUseReturnValueAttribute::*)()>(&MustUseReturnValueAttribute::get_Justification)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::MustUseReturnValueAttribute::*)()>(&JetBrains::Annotations::MustUseReturnValueAttribute::get_Justification)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MustUseReturnValueAttribute*), "get_Justification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MustUseReturnValueAttribute*), "get_Justification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MustUseReturnValueAttribute::set_Justification
+// Writing MetadataGetter for method: JetBrains::Annotations::MustUseReturnValueAttribute::set_Justification
 // Il2CppName: set_Justification
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MustUseReturnValueAttribute::*)(::Il2CppString*)>(&MustUseReturnValueAttribute::set_Justification)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::MustUseReturnValueAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::MustUseReturnValueAttribute::set_Justification)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MustUseReturnValueAttribute*), "set_Justification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MustUseReturnValueAttribute*), "set_Justification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: MustUseReturnValueAttribute::New_ctor
+// Writing MetadataGetter for method: JetBrains::Annotations::MustUseReturnValueAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MustUseReturnValueAttribute::*)()>(&MustUseReturnValueAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::MustUseReturnValueAttribute::*)()>(&JetBrains::Annotations::MustUseReturnValueAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MustUseReturnValueAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MustUseReturnValueAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MustUseReturnValueAttribute::*)()>(&MustUseReturnValueAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::MustUseReturnValueAttribute::*)()>(&JetBrains::Annotations::MustUseReturnValueAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MustUseReturnValueAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MustUseReturnValueAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

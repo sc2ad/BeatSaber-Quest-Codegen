@@ -72,65 +72,65 @@ namespace GlobalNamespace {
   static_assert(sizeof(FakeMirrorSettings) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FakeMirrorSettings*, "", "FakeMirrorSettings");
-// Writing MetadataGetter for method: FakeMirrorSettings::get_fakeMirrorTransparency
+// Writing MetadataGetter for method: GlobalNamespace::FakeMirrorSettings::get_fakeMirrorTransparency
 // Il2CppName: get_fakeMirrorTransparency
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (FakeMirrorSettings::*)()>(&FakeMirrorSettings::get_fakeMirrorTransparency)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::FakeMirrorSettings::*)()>(&GlobalNamespace::FakeMirrorSettings::get_fakeMirrorTransparency)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FakeMirrorSettings*), "get_fakeMirrorTransparency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FakeMirrorSettings*), "get_fakeMirrorTransparency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FakeMirrorSettings::set_fakeMirrorTransparency
+// Writing MetadataGetter for method: GlobalNamespace::FakeMirrorSettings::set_fakeMirrorTransparency
 // Il2CppName: set_fakeMirrorTransparency
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FakeMirrorSettings::*)(float)>(&FakeMirrorSettings::set_fakeMirrorTransparency)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FakeMirrorSettings::*)(float)>(&GlobalNamespace::FakeMirrorSettings::set_fakeMirrorTransparency)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FakeMirrorSettings*), "set_fakeMirrorTransparency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FakeMirrorSettings*), "set_fakeMirrorTransparency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: FakeMirrorSettings::Start
+// Writing MetadataGetter for method: GlobalNamespace::FakeMirrorSettings::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FakeMirrorSettings::*)()>(&FakeMirrorSettings::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FakeMirrorSettings::*)()>(&GlobalNamespace::FakeMirrorSettings::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FakeMirrorSettings*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FakeMirrorSettings*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FakeMirrorSettings::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::FakeMirrorSettings::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FakeMirrorSettings::*)()>(&FakeMirrorSettings::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FakeMirrorSettings::*)()>(&GlobalNamespace::FakeMirrorSettings::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FakeMirrorSettings*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FakeMirrorSettings*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FakeMirrorSettings::OnValidate
+// Writing MetadataGetter for method: GlobalNamespace::FakeMirrorSettings::OnValidate
 // Il2CppName: OnValidate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FakeMirrorSettings::*)()>(&FakeMirrorSettings::OnValidate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FakeMirrorSettings::*)()>(&GlobalNamespace::FakeMirrorSettings::OnValidate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FakeMirrorSettings*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FakeMirrorSettings*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FakeMirrorSettings::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::FakeMirrorSettings::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FakeMirrorSettings::*)()>(&FakeMirrorSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FakeMirrorSettings::*)()>(&GlobalNamespace::FakeMirrorSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FakeMirrorSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FakeMirrorSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FakeMirrorSettings::*)()>(&FakeMirrorSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FakeMirrorSettings::*)()>(&GlobalNamespace::FakeMirrorSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FakeMirrorSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FakeMirrorSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FakeMirrorSettings::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::FakeMirrorSettings::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&FakeMirrorSettings::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::FakeMirrorSettings::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FakeMirrorSettings*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FakeMirrorSettings*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

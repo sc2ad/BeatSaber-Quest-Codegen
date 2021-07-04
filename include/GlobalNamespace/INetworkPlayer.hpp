@@ -128,259 +128,259 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INetworkPlayer*, "", "INetworkPlayer");
-// Writing MetadataGetter for method: INetworkPlayer::get_userId
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::get_userId
 // Il2CppName: get_userId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (INetworkPlayer::*)()>(&INetworkPlayer::get_userId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::get_userId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetworkPlayer*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: INetworkPlayer::get_userName
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::get_userName
 // Il2CppName: get_userName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (INetworkPlayer::*)()>(&INetworkPlayer::get_userName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::get_userName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetworkPlayer*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: INetworkPlayer::get_isMe
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::get_isMe
 // Il2CppName: get_isMe
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (INetworkPlayer::*)()>(&INetworkPlayer::get_isMe)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::get_isMe)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetworkPlayer*), "get_isMe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "get_isMe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: INetworkPlayer::get_currentPartySize
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::get_currentPartySize
 // Il2CppName: get_currentPartySize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (INetworkPlayer::*)()>(&INetworkPlayer::get_currentPartySize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::get_currentPartySize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetworkPlayer*), "get_currentPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "get_currentPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: INetworkPlayer::get_maxPartySize
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::get_maxPartySize
 // Il2CppName: get_maxPartySize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (INetworkPlayer::*)()>(&INetworkPlayer::get_maxPartySize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::get_maxPartySize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetworkPlayer*), "get_maxPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "get_maxPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: INetworkPlayer::get_isMyPartyOwner
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::get_isMyPartyOwner
 // Il2CppName: get_isMyPartyOwner
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (INetworkPlayer::*)()>(&INetworkPlayer::get_isMyPartyOwner)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::get_isMyPartyOwner)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetworkPlayer*), "get_isMyPartyOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "get_isMyPartyOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: INetworkPlayer::get_isOpenParty
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::get_isOpenParty
 // Il2CppName: get_isOpenParty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (INetworkPlayer::*)()>(&INetworkPlayer::get_isOpenParty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::get_isOpenParty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetworkPlayer*), "get_isOpenParty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "get_isOpenParty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: INetworkPlayer::get_isConnected
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::get_isConnected
 // Il2CppName: get_isConnected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (INetworkPlayer::*)()>(&INetworkPlayer::get_isConnected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::get_isConnected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetworkPlayer*), "get_isConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "get_isConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: INetworkPlayer::get_isPlayer
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::get_isPlayer
 // Il2CppName: get_isPlayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (INetworkPlayer::*)()>(&INetworkPlayer::get_isPlayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::get_isPlayer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetworkPlayer*), "get_isPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "get_isPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: INetworkPlayer::get_isDedicatedServer
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::get_isDedicatedServer
 // Il2CppName: get_isDedicatedServer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (INetworkPlayer::*)()>(&INetworkPlayer::get_isDedicatedServer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::get_isDedicatedServer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetworkPlayer*), "get_isDedicatedServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "get_isDedicatedServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: INetworkPlayer::get_isSpectating
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::get_isSpectating
 // Il2CppName: get_isSpectating
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (INetworkPlayer::*)()>(&INetworkPlayer::get_isSpectating)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::get_isSpectating)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetworkPlayer*), "get_isSpectating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "get_isSpectating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: INetworkPlayer::get_difficulties
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::get_difficulties
 // Il2CppName: get_difficulties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapDifficultyMask (INetworkPlayer::*)()>(&INetworkPlayer::get_difficulties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapDifficultyMask (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::get_difficulties)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetworkPlayer*), "get_difficulties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "get_difficulties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: INetworkPlayer::get_modifiers
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::get_modifiers
 // Il2CppName: get_modifiers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifierMask (INetworkPlayer::*)()>(&INetworkPlayer::get_modifiers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifierMask (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::get_modifiers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetworkPlayer*), "get_modifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "get_modifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: INetworkPlayer::get_songPacks
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::get_songPacks
 // Il2CppName: get_songPacks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SongPackMask (INetworkPlayer::*)()>(&INetworkPlayer::get_songPacks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SongPackMask (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::get_songPacks)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetworkPlayer*), "get_songPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "get_songPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: INetworkPlayer::get_canJoin
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::get_canJoin
 // Il2CppName: get_canJoin
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (INetworkPlayer::*)()>(&INetworkPlayer::get_canJoin)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::get_canJoin)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetworkPlayer*), "get_canJoin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "get_canJoin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: INetworkPlayer::Join
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::Join
 // Il2CppName: Join
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (INetworkPlayer::*)()>(&INetworkPlayer::Join)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::Join)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetworkPlayer*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: INetworkPlayer::get_requiresPassword
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::get_requiresPassword
 // Il2CppName: get_requiresPassword
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (INetworkPlayer::*)()>(&INetworkPlayer::get_requiresPassword)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::get_requiresPassword)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetworkPlayer*), "get_requiresPassword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "get_requiresPassword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: INetworkPlayer::Join
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::Join
 // Il2CppName: Join
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (INetworkPlayer::*)(::Il2CppString*)>(&INetworkPlayer::Join)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::INetworkPlayer::*)(::Il2CppString*)>(&GlobalNamespace::INetworkPlayer::Join)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetworkPlayer*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: INetworkPlayer::get_isWaitingOnJoin
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::get_isWaitingOnJoin
 // Il2CppName: get_isWaitingOnJoin
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (INetworkPlayer::*)()>(&INetworkPlayer::get_isWaitingOnJoin)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::get_isWaitingOnJoin)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetworkPlayer*), "get_isWaitingOnJoin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "get_isWaitingOnJoin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: INetworkPlayer::get_canInvite
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::get_canInvite
 // Il2CppName: get_canInvite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (INetworkPlayer::*)()>(&INetworkPlayer::get_canInvite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::get_canInvite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetworkPlayer*), "get_canInvite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "get_canInvite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: INetworkPlayer::Invite
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::Invite
 // Il2CppName: Invite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (INetworkPlayer::*)()>(&INetworkPlayer::Invite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::Invite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetworkPlayer*), "Invite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "Invite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: INetworkPlayer::get_isWaitingOnInvite
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::get_isWaitingOnInvite
 // Il2CppName: get_isWaitingOnInvite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (INetworkPlayer::*)()>(&INetworkPlayer::get_isWaitingOnInvite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::get_isWaitingOnInvite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetworkPlayer*), "get_isWaitingOnInvite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "get_isWaitingOnInvite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: INetworkPlayer::get_canKick
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::get_canKick
 // Il2CppName: get_canKick
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (INetworkPlayer::*)()>(&INetworkPlayer::get_canKick)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::get_canKick)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetworkPlayer*), "get_canKick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "get_canKick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: INetworkPlayer::Kick
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::Kick
 // Il2CppName: Kick
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (INetworkPlayer::*)()>(&INetworkPlayer::Kick)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::Kick)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetworkPlayer*), "Kick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "Kick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: INetworkPlayer::get_canLeave
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::get_canLeave
 // Il2CppName: get_canLeave
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (INetworkPlayer::*)()>(&INetworkPlayer::get_canLeave)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::get_canLeave)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetworkPlayer*), "get_canLeave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "get_canLeave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: INetworkPlayer::Leave
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::Leave
 // Il2CppName: Leave
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (INetworkPlayer::*)()>(&INetworkPlayer::Leave)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::Leave)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetworkPlayer*), "Leave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "Leave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: INetworkPlayer::get_canBlock
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::get_canBlock
 // Il2CppName: get_canBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (INetworkPlayer::*)()>(&INetworkPlayer::get_canBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::get_canBlock)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetworkPlayer*), "get_canBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "get_canBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: INetworkPlayer::Block
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::Block
 // Il2CppName: Block
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (INetworkPlayer::*)()>(&INetworkPlayer::Block)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::Block)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetworkPlayer*), "Block", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "Block", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: INetworkPlayer::get_canUnblock
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::get_canUnblock
 // Il2CppName: get_canUnblock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (INetworkPlayer::*)()>(&INetworkPlayer::get_canUnblock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::get_canUnblock)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetworkPlayer*), "get_canUnblock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "get_canUnblock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: INetworkPlayer::Unblock
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::Unblock
 // Il2CppName: Unblock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (INetworkPlayer::*)()>(&INetworkPlayer::Unblock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::INetworkPlayer::*)()>(&GlobalNamespace::INetworkPlayer::Unblock)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetworkPlayer*), "Unblock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "Unblock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: INetworkPlayer::SendJoinResponse
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::SendJoinResponse
 // Il2CppName: SendJoinResponse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (INetworkPlayer::*)(bool)>(&INetworkPlayer::SendJoinResponse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::INetworkPlayer::*)(bool)>(&GlobalNamespace::INetworkPlayer::SendJoinResponse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetworkPlayer*), "SendJoinResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "SendJoinResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: INetworkPlayer::SendInviteResponse
+// Writing MetadataGetter for method: GlobalNamespace::INetworkPlayer::SendInviteResponse
 // Il2CppName: SendInviteResponse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (INetworkPlayer::*)(bool)>(&INetworkPlayer::SendInviteResponse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::INetworkPlayer::*)(bool)>(&GlobalNamespace::INetworkPlayer::SendInviteResponse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetworkPlayer*), "SendInviteResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INetworkPlayer*), "SendInviteResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };

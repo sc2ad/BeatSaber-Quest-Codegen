@@ -95,57 +95,57 @@ namespace GlobalNamespace {
   static_assert(sizeof(VFXController) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VFXController*, "", "VFXController");
-// Writing MetadataGetter for method: VFXController::get_animation
+// Writing MetadataGetter for method: GlobalNamespace::VFXController::get_animation
 // Il2CppName: get_animation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animation* (VFXController::*)()>(&VFXController::get_animation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animation* (GlobalNamespace::VFXController::*)()>(&GlobalNamespace::VFXController::get_animation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VFXController*), "get_animation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VFXController*), "get_animation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VFXController::get_particleSystems
+// Writing MetadataGetter for method: GlobalNamespace::VFXController::get_particleSystems
 // Il2CppName: get_particleSystems
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::ParticleSystem*>* (VFXController::*)()>(&VFXController::get_particleSystems)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::ParticleSystem*>* (GlobalNamespace::VFXController::*)()>(&GlobalNamespace::VFXController::get_particleSystems)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VFXController*), "get_particleSystems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VFXController*), "get_particleSystems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VFXController::Awake
+// Writing MetadataGetter for method: GlobalNamespace::VFXController::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VFXController::*)()>(&VFXController::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VFXController::*)()>(&GlobalNamespace::VFXController::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VFXController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VFXController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VFXController::Play
+// Writing MetadataGetter for method: GlobalNamespace::VFXController::Play
 // Il2CppName: Play
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VFXController::*)()>(&VFXController::Play)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VFXController::*)()>(&GlobalNamespace::VFXController::Play)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VFXController*), "Play", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VFXController*), "Play", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VFXController::MainCoroutine
+// Writing MetadataGetter for method: GlobalNamespace::VFXController::MainCoroutine
 // Il2CppName: MainCoroutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (VFXController::*)(bool, float)>(&VFXController::MainCoroutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::VFXController::*)(bool, float)>(&GlobalNamespace::VFXController::MainCoroutine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VFXController*), "MainCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VFXController*), "MainCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: VFXController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::VFXController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VFXController::*)()>(&VFXController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VFXController::*)()>(&GlobalNamespace::VFXController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VFXController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VFXController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VFXController::*)()>(&VFXController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VFXController::*)()>(&GlobalNamespace::VFXController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VFXController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VFXController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -336,49 +336,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerResultsPyramidViewAvatar) == 0x1C8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsPyramidViewAvatar*, "", "MultiplayerResultsPyramidViewAvatar");
-// Writing MetadataGetter for method: MultiplayerResultsPyramidViewAvatar::get_badgeDirector
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsPyramidViewAvatar::get_badgeDirector
 // Il2CppName: get_badgeDirector
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableDirector* (MultiplayerResultsPyramidViewAvatar::*)()>(&MultiplayerResultsPyramidViewAvatar::get_badgeDirector)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableDirector* (GlobalNamespace::MultiplayerResultsPyramidViewAvatar::*)()>(&GlobalNamespace::MultiplayerResultsPyramidViewAvatar::get_badgeDirector)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerResultsPyramidViewAvatar*), "get_badgeDirector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsPyramidViewAvatar*), "get_badgeDirector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerResultsPyramidViewAvatar::Awake
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsPyramidViewAvatar::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerResultsPyramidViewAvatar::*)()>(&MultiplayerResultsPyramidViewAvatar::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerResultsPyramidViewAvatar::*)()>(&GlobalNamespace::MultiplayerResultsPyramidViewAvatar::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerResultsPyramidViewAvatar*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsPyramidViewAvatar*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerResultsPyramidViewAvatar::Setup
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsPyramidViewAvatar::Setup
 // Il2CppName: Setup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerResultsPyramidViewAvatar::*)(GlobalNamespace::MultiplayerPlayerResultsData*, int, int)>(&MultiplayerResultsPyramidViewAvatar::Setup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerResultsPyramidViewAvatar::*)(GlobalNamespace::MultiplayerPlayerResultsData*, int, int)>(&GlobalNamespace::MultiplayerResultsPyramidViewAvatar::Setup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerResultsPyramidViewAvatar*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerPlayerResultsData*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsPyramidViewAvatar*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerPlayerResultsData*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerResultsPyramidViewAvatar::SetupBadgeTimeline
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsPyramidViewAvatar::SetupBadgeTimeline
 // Il2CppName: SetupBadgeTimeline
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerResultsPyramidViewAvatar::*)(UnityEngine::Transform*, UnityEngine::Transform*)>(&MultiplayerResultsPyramidViewAvatar::SetupBadgeTimeline)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerResultsPyramidViewAvatar::*)(UnityEngine::Transform*, UnityEngine::Transform*)>(&GlobalNamespace::MultiplayerResultsPyramidViewAvatar::SetupBadgeTimeline)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerResultsPyramidViewAvatar*), "SetupBadgeTimeline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsPyramidViewAvatar*), "SetupBadgeTimeline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerResultsPyramidViewAvatar::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsPyramidViewAvatar::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerResultsPyramidViewAvatar::*)()>(&MultiplayerResultsPyramidViewAvatar::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerResultsPyramidViewAvatar::*)()>(&GlobalNamespace::MultiplayerResultsPyramidViewAvatar::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerResultsPyramidViewAvatar*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsPyramidViewAvatar*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerResultsPyramidViewAvatar::*)()>(&MultiplayerResultsPyramidViewAvatar::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerResultsPyramidViewAvatar::*)()>(&GlobalNamespace::MultiplayerResultsPyramidViewAvatar::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerResultsPyramidViewAvatar*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsPyramidViewAvatar*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

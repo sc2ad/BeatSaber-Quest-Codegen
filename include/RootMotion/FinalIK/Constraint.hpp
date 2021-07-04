@@ -58,33 +58,33 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(Constraint) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Constraint*, "RootMotion.FinalIK", "Constraint");
-// Writing MetadataGetter for method: Constraint::get_isValid
+// Writing MetadataGetter for method: RootMotion::FinalIK::Constraint::get_isValid
 // Il2CppName: get_isValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Constraint::*)()>(&Constraint::get_isValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::Constraint::*)()>(&RootMotion::FinalIK::Constraint::get_isValid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Constraint*), "get_isValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Constraint*), "get_isValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Constraint::UpdateConstraint
+// Writing MetadataGetter for method: RootMotion::FinalIK::Constraint::UpdateConstraint
 // Il2CppName: UpdateConstraint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Constraint::*)()>(&Constraint::UpdateConstraint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Constraint::*)()>(&RootMotion::FinalIK::Constraint::UpdateConstraint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Constraint*), "UpdateConstraint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Constraint*), "UpdateConstraint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Constraint::New_ctor
+// Writing MetadataGetter for method: RootMotion::FinalIK::Constraint::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Constraint::*)()>(&Constraint::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Constraint::*)()>(&RootMotion::FinalIK::Constraint::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Constraint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Constraint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Constraint::*)()>(&Constraint::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Constraint::*)()>(&RootMotion::FinalIK::Constraint::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Constraint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Constraint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

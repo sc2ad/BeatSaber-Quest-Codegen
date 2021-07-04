@@ -72,41 +72,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(AvatarHeadOffset) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarHeadOffset*, "", "AvatarHeadOffset");
-// Writing MetadataGetter for method: AvatarHeadOffset::Start
+// Writing MetadataGetter for method: GlobalNamespace::AvatarHeadOffset::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarHeadOffset::*)()>(&AvatarHeadOffset::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarHeadOffset::*)()>(&GlobalNamespace::AvatarHeadOffset::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarHeadOffset*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarHeadOffset*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AvatarHeadOffset::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::AvatarHeadOffset::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarHeadOffset::*)()>(&AvatarHeadOffset::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarHeadOffset::*)()>(&GlobalNamespace::AvatarHeadOffset::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarHeadOffset*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarHeadOffset*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AvatarHeadOffset::HandleMultiplayerAvatarPoseControllerDidUpdatePose
+// Writing MetadataGetter for method: GlobalNamespace::AvatarHeadOffset::HandleMultiplayerAvatarPoseControllerDidUpdatePose
 // Il2CppName: HandleMultiplayerAvatarPoseControllerDidUpdatePose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarHeadOffset::*)(UnityEngine::Vector3)>(&AvatarHeadOffset::HandleMultiplayerAvatarPoseControllerDidUpdatePose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarHeadOffset::*)(UnityEngine::Vector3)>(&GlobalNamespace::AvatarHeadOffset::HandleMultiplayerAvatarPoseControllerDidUpdatePose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarHeadOffset*), "HandleMultiplayerAvatarPoseControllerDidUpdatePose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarHeadOffset*), "HandleMultiplayerAvatarPoseControllerDidUpdatePose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: AvatarHeadOffset::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::AvatarHeadOffset::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarHeadOffset::*)()>(&AvatarHeadOffset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarHeadOffset::*)()>(&GlobalNamespace::AvatarHeadOffset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarHeadOffset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarHeadOffset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarHeadOffset::*)()>(&AvatarHeadOffset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarHeadOffset::*)()>(&GlobalNamespace::AvatarHeadOffset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarHeadOffset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarHeadOffset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

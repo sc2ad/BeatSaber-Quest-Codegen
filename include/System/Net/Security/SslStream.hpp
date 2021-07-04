@@ -188,201 +188,201 @@ namespace System::Net::Security {
   static_assert(sizeof(SslStream) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::SslStream*, "System.Net.Security", "SslStream");
-// Writing MetadataGetter for method: SslStream::get_Impl
+// Writing MetadataGetter for method: System::Net::Security::SslStream::get_Impl
 // Il2CppName: get_Impl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::IMonoSslStream* (SslStream::*)()>(&SslStream::get_Impl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::IMonoSslStream* (System::Net::Security::SslStream::*)()>(&System::Net::Security::SslStream::get_Impl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SslStream*), "get_Impl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::SslStream*), "get_Impl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SslStream::New_ctor
+// Writing MetadataGetter for method: System::Net::Security::SslStream::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SslStream::*)(System::IO::Stream*, bool, Mono::Security::Interface::MonoTlsProvider*, Mono::Security::Interface::MonoTlsSettings*)>(&SslStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Security::SslStream::*)(System::IO::Stream*, bool, Mono::Security::Interface::MonoTlsProvider*, Mono::Security::Interface::MonoTlsSettings*)>(&System::Net::Security::SslStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SslStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsProvider*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsSettings*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::SslStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsProvider*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsSettings*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SslStream::*)(System::IO::Stream*, bool, Mono::Security::Interface::MonoTlsProvider*, Mono::Security::Interface::MonoTlsSettings*)>(&SslStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Security::SslStream::*)(System::IO::Stream*, bool, Mono::Security::Interface::MonoTlsProvider*, Mono::Security::Interface::MonoTlsSettings*)>(&System::Net::Security::SslStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SslStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsProvider*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsSettings*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::SslStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsProvider*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsSettings*>()});
   }
 };
-// Writing MetadataGetter for method: SslStream::CreateMonoSslStream
+// Writing MetadataGetter for method: System::Net::Security::SslStream::CreateMonoSslStream
 // Il2CppName: CreateMonoSslStream
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::IMonoSslStream* (*)(System::IO::Stream*, bool, Mono::Security::Interface::MonoTlsProvider*, Mono::Security::Interface::MonoTlsSettings*)>(&SslStream::CreateMonoSslStream)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::IMonoSslStream* (*)(System::IO::Stream*, bool, Mono::Security::Interface::MonoTlsProvider*, Mono::Security::Interface::MonoTlsSettings*)>(&System::Net::Security::SslStream::CreateMonoSslStream)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SslStream*), "CreateMonoSslStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsProvider*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsSettings*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::SslStream*), "CreateMonoSslStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsProvider*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsSettings*>()});
   }
 };
-// Writing MetadataGetter for method: SslStream::AuthenticateAsServer
+// Writing MetadataGetter for method: System::Net::Security::SslStream::AuthenticateAsServer
 // Il2CppName: AuthenticateAsServer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SslStream::*)(System::Security::Cryptography::X509Certificates::X509Certificate*, bool, System::Security::Authentication::SslProtocols, bool)>(&SslStream::AuthenticateAsServer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Security::SslStream::*)(System::Security::Cryptography::X509Certificates::X509Certificate*, bool, System::Security::Authentication::SslProtocols, bool)>(&System::Net::Security::SslStream::AuthenticateAsServer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SslStream*), "AuthenticateAsServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Authentication::SslProtocols>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::SslStream*), "AuthenticateAsServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Authentication::SslProtocols>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: SslStream::CheckDisposed
+// Writing MetadataGetter for method: System::Net::Security::SslStream::CheckDisposed
 // Il2CppName: CheckDisposed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SslStream::*)()>(&SslStream::CheckDisposed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Security::SslStream::*)()>(&System::Net::Security::SslStream::CheckDisposed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SslStream*), "CheckDisposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::SslStream*), "CheckDisposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SslStream::get_IsAuthenticated
+// Writing MetadataGetter for method: System::Net::Security::SslStream::get_IsAuthenticated
 // Il2CppName: get_IsAuthenticated
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SslStream::*)()>(&SslStream::get_IsAuthenticated)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Security::SslStream::*)()>(&System::Net::Security::SslStream::get_IsAuthenticated)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SslStream*), "get_IsAuthenticated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::SslStream*), "get_IsAuthenticated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SslStream::get_CanSeek
+// Writing MetadataGetter for method: System::Net::Security::SslStream::get_CanSeek
 // Il2CppName: get_CanSeek
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SslStream::*)()>(&SslStream::get_CanSeek)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Security::SslStream::*)()>(&System::Net::Security::SslStream::get_CanSeek)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SslStream*), "get_CanSeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::SslStream*), "get_CanSeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SslStream::get_CanRead
+// Writing MetadataGetter for method: System::Net::Security::SslStream::get_CanRead
 // Il2CppName: get_CanRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SslStream::*)()>(&SslStream::get_CanRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Security::SslStream::*)()>(&System::Net::Security::SslStream::get_CanRead)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SslStream*), "get_CanRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::SslStream*), "get_CanRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SslStream::get_CanWrite
+// Writing MetadataGetter for method: System::Net::Security::SslStream::get_CanWrite
 // Il2CppName: get_CanWrite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SslStream::*)()>(&SslStream::get_CanWrite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Security::SslStream::*)()>(&System::Net::Security::SslStream::get_CanWrite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SslStream*), "get_CanWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::SslStream*), "get_CanWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SslStream::get_ReadTimeout
+// Writing MetadataGetter for method: System::Net::Security::SslStream::get_ReadTimeout
 // Il2CppName: get_ReadTimeout
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SslStream::*)()>(&SslStream::get_ReadTimeout)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Security::SslStream::*)()>(&System::Net::Security::SslStream::get_ReadTimeout)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SslStream*), "get_ReadTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::SslStream*), "get_ReadTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SslStream::get_WriteTimeout
+// Writing MetadataGetter for method: System::Net::Security::SslStream::get_WriteTimeout
 // Il2CppName: get_WriteTimeout
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SslStream::*)()>(&SslStream::get_WriteTimeout)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Security::SslStream::*)()>(&System::Net::Security::SslStream::get_WriteTimeout)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SslStream*), "get_WriteTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::SslStream*), "get_WriteTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SslStream::get_Length
+// Writing MetadataGetter for method: System::Net::Security::SslStream::get_Length
 // Il2CppName: get_Length
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (SslStream::*)()>(&SslStream::get_Length)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Net::Security::SslStream::*)()>(&System::Net::Security::SslStream::get_Length)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SslStream*), "get_Length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::SslStream*), "get_Length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SslStream::get_Position
+// Writing MetadataGetter for method: System::Net::Security::SslStream::get_Position
 // Il2CppName: get_Position
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (SslStream::*)()>(&SslStream::get_Position)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Net::Security::SslStream::*)()>(&System::Net::Security::SslStream::get_Position)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SslStream*), "get_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::SslStream*), "get_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SslStream::set_Position
+// Writing MetadataGetter for method: System::Net::Security::SslStream::set_Position
 // Il2CppName: set_Position
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SslStream::*)(int64_t)>(&SslStream::set_Position)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Security::SslStream::*)(int64_t)>(&System::Net::Security::SslStream::set_Position)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SslStream*), "set_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::SslStream*), "set_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
   }
 };
-// Writing MetadataGetter for method: SslStream::SetLength
+// Writing MetadataGetter for method: System::Net::Security::SslStream::SetLength
 // Il2CppName: SetLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SslStream::*)(int64_t)>(&SslStream::SetLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Security::SslStream::*)(int64_t)>(&System::Net::Security::SslStream::SetLength)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SslStream*), "SetLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::SslStream*), "SetLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
   }
 };
-// Writing MetadataGetter for method: SslStream::Seek
+// Writing MetadataGetter for method: System::Net::Security::SslStream::Seek
 // Il2CppName: Seek
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (SslStream::*)(int64_t, System::IO::SeekOrigin)>(&SslStream::Seek)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Net::Security::SslStream::*)(int64_t, System::IO::SeekOrigin)>(&System::Net::Security::SslStream::Seek)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SslStream*), "Seek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IO::SeekOrigin>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::SslStream*), "Seek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IO::SeekOrigin>()});
   }
 };
-// Writing MetadataGetter for method: SslStream::Flush
+// Writing MetadataGetter for method: System::Net::Security::SslStream::Flush
 // Il2CppName: Flush
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SslStream::*)()>(&SslStream::Flush)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Security::SslStream::*)()>(&System::Net::Security::SslStream::Flush)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SslStream*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::SslStream*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SslStream::Dispose
+// Writing MetadataGetter for method: System::Net::Security::SslStream::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SslStream::*)(bool)>(&SslStream::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Security::SslStream::*)(bool)>(&System::Net::Security::SslStream::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SslStream*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::SslStream*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: SslStream::Read
+// Writing MetadataGetter for method: System::Net::Security::SslStream::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SslStream::*)(::Array<uint8_t>*, int, int)>(&SslStream::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Security::SslStream::*)(::Array<uint8_t>*, int, int)>(&System::Net::Security::SslStream::Read)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SslStream*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::SslStream*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SslStream::Write
+// Writing MetadataGetter for method: System::Net::Security::SslStream::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SslStream::*)(::Array<uint8_t>*, int, int)>(&SslStream::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Security::SslStream::*)(::Array<uint8_t>*, int, int)>(&System::Net::Security::SslStream::Write)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SslStream*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::SslStream*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SslStream::BeginRead
+// Writing MetadataGetter for method: System::Net::Security::SslStream::BeginRead
 // Il2CppName: BeginRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (SslStream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&SslStream::BeginRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::Security::SslStream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Security::SslStream::BeginRead)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SslStream*), "BeginRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::SslStream*), "BeginRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: SslStream::EndRead
+// Writing MetadataGetter for method: System::Net::Security::SslStream::EndRead
 // Il2CppName: EndRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SslStream::*)(System::IAsyncResult*)>(&SslStream::EndRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Security::SslStream::*)(System::IAsyncResult*)>(&System::Net::Security::SslStream::EndRead)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SslStream*), "EndRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::SslStream*), "EndRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };
-// Writing MetadataGetter for method: SslStream::BeginWrite
+// Writing MetadataGetter for method: System::Net::Security::SslStream::BeginWrite
 // Il2CppName: BeginWrite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (SslStream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&SslStream::BeginWrite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::Security::SslStream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Security::SslStream::BeginWrite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SslStream*), "BeginWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::SslStream*), "BeginWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: SslStream::EndWrite
+// Writing MetadataGetter for method: System::Net::Security::SslStream::EndWrite
 // Il2CppName: EndWrite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SslStream::*)(System::IAsyncResult*)>(&SslStream::EndWrite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Security::SslStream::*)(System::IAsyncResult*)>(&System::Net::Security::SslStream::EndWrite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SslStream*), "EndWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::SslStream*), "EndWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

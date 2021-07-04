@@ -58,41 +58,41 @@ namespace System::Runtime::Remoting::Lifetime {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate*, "System.Runtime.Remoting.Lifetime", "Lease/RenewalDelegate");
-// Writing MetadataGetter for method: Lease::RenewalDelegate::New_ctor
+// Writing MetadataGetter for method: System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Lease::RenewalDelegate::*)(::Il2CppObject*, System::IntPtr)>(&Lease::RenewalDelegate::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate::*)(::Il2CppObject*, System::IntPtr)>(&System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Lease::RenewalDelegate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Lease::RenewalDelegate::*)(::Il2CppObject*, System::IntPtr)>(&Lease::RenewalDelegate::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate::*)(::Il2CppObject*, System::IntPtr)>(&System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Lease::RenewalDelegate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: Lease::RenewalDelegate::Invoke
+// Writing MetadataGetter for method: System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (Lease::RenewalDelegate::*)(System::Runtime::Remoting::Lifetime::ILease*)>(&Lease::RenewalDelegate::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate::*)(System::Runtime::Remoting::Lifetime::ILease*)>(&System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Lease::RenewalDelegate*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Lifetime::ILease*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Lifetime::ILease*>()});
   }
 };
-// Writing MetadataGetter for method: Lease::RenewalDelegate::BeginInvoke
+// Writing MetadataGetter for method: System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Lease::RenewalDelegate::*)(System::Runtime::Remoting::Lifetime::ILease*, System::AsyncCallback*, ::Il2CppObject*)>(&Lease::RenewalDelegate::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate::*)(System::Runtime::Remoting::Lifetime::ILease*, System::AsyncCallback*, ::Il2CppObject*)>(&System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Lease::RenewalDelegate*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Lifetime::ILease*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Lifetime::ILease*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Lease::RenewalDelegate::EndInvoke
+// Writing MetadataGetter for method: System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (Lease::RenewalDelegate::*)(System::IAsyncResult*)>(&Lease::RenewalDelegate::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate::*)(System::IAsyncResult*)>(&System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Lease::RenewalDelegate*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

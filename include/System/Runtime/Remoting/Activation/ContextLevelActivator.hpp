@@ -62,33 +62,33 @@ namespace System::Runtime::Remoting::Activation {
   static_assert(sizeof(ContextLevelActivator) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Activation::ContextLevelActivator*, "System.Runtime.Remoting.Activation", "ContextLevelActivator");
-// Writing MetadataGetter for method: ContextLevelActivator::New_ctor
+// Writing MetadataGetter for method: System::Runtime::Remoting::Activation::ContextLevelActivator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContextLevelActivator::*)(System::Runtime::Remoting::Activation::IActivator*)>(&ContextLevelActivator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Activation::ContextLevelActivator::*)(System::Runtime::Remoting::Activation::IActivator*)>(&System::Runtime::Remoting::Activation::ContextLevelActivator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContextLevelActivator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Activation::IActivator*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::ContextLevelActivator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Activation::IActivator*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContextLevelActivator::*)(System::Runtime::Remoting::Activation::IActivator*)>(&ContextLevelActivator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Activation::ContextLevelActivator::*)(System::Runtime::Remoting::Activation::IActivator*)>(&System::Runtime::Remoting::Activation::ContextLevelActivator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContextLevelActivator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Activation::IActivator*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::ContextLevelActivator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Activation::IActivator*>()});
   }
 };
-// Writing MetadataGetter for method: ContextLevelActivator::get_NextActivator
+// Writing MetadataGetter for method: System::Runtime::Remoting::Activation::ContextLevelActivator::get_NextActivator
 // Il2CppName: get_NextActivator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Activation::IActivator* (ContextLevelActivator::*)()>(&ContextLevelActivator::get_NextActivator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Activation::IActivator* (System::Runtime::Remoting::Activation::ContextLevelActivator::*)()>(&System::Runtime::Remoting::Activation::ContextLevelActivator::get_NextActivator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContextLevelActivator*), "get_NextActivator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::ContextLevelActivator*), "get_NextActivator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ContextLevelActivator::Activate
+// Writing MetadataGetter for method: System::Runtime::Remoting::Activation::ContextLevelActivator::Activate
 // Il2CppName: Activate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Activation::IConstructionReturnMessage* (ContextLevelActivator::*)(System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&ContextLevelActivator::Activate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Activation::IConstructionReturnMessage* (System::Runtime::Remoting::Activation::ContextLevelActivator::*)(System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&System::Runtime::Remoting::Activation::ContextLevelActivator::Activate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContextLevelActivator*), "Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Activation::IConstructionCallMessage*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::ContextLevelActivator*), "Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Activation::IConstructionCallMessage*>()});
   }
 };

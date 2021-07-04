@@ -73,115 +73,115 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IGameEnergyCounter*, "", "IGameEnergyCounter");
-// Writing MetadataGetter for method: IGameEnergyCounter::add_didInitEvent
+// Writing MetadataGetter for method: GlobalNamespace::IGameEnergyCounter::add_didInitEvent
 // Il2CppName: add_didInitEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameEnergyCounter::*)(System::Action*)>(&IGameEnergyCounter::add_didInitEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameEnergyCounter::*)(System::Action*)>(&GlobalNamespace::IGameEnergyCounter::add_didInitEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameEnergyCounter*), "add_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameEnergyCounter*), "add_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: IGameEnergyCounter::remove_didInitEvent
+// Writing MetadataGetter for method: GlobalNamespace::IGameEnergyCounter::remove_didInitEvent
 // Il2CppName: remove_didInitEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameEnergyCounter::*)(System::Action*)>(&IGameEnergyCounter::remove_didInitEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameEnergyCounter::*)(System::Action*)>(&GlobalNamespace::IGameEnergyCounter::remove_didInitEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameEnergyCounter*), "remove_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameEnergyCounter*), "remove_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: IGameEnergyCounter::add_gameEnergyDidReach0Event
+// Writing MetadataGetter for method: GlobalNamespace::IGameEnergyCounter::add_gameEnergyDidReach0Event
 // Il2CppName: add_gameEnergyDidReach0Event
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameEnergyCounter::*)(System::Action*)>(&IGameEnergyCounter::add_gameEnergyDidReach0Event)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameEnergyCounter::*)(System::Action*)>(&GlobalNamespace::IGameEnergyCounter::add_gameEnergyDidReach0Event)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameEnergyCounter*), "add_gameEnergyDidReach0Event", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameEnergyCounter*), "add_gameEnergyDidReach0Event", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: IGameEnergyCounter::remove_gameEnergyDidReach0Event
+// Writing MetadataGetter for method: GlobalNamespace::IGameEnergyCounter::remove_gameEnergyDidReach0Event
 // Il2CppName: remove_gameEnergyDidReach0Event
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameEnergyCounter::*)(System::Action*)>(&IGameEnergyCounter::remove_gameEnergyDidReach0Event)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameEnergyCounter::*)(System::Action*)>(&GlobalNamespace::IGameEnergyCounter::remove_gameEnergyDidReach0Event)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameEnergyCounter*), "remove_gameEnergyDidReach0Event", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameEnergyCounter*), "remove_gameEnergyDidReach0Event", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: IGameEnergyCounter::add_gameEnergyDidChangeEvent
+// Writing MetadataGetter for method: GlobalNamespace::IGameEnergyCounter::add_gameEnergyDidChangeEvent
 // Il2CppName: add_gameEnergyDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameEnergyCounter::*)(System::Action_1<float>*)>(&IGameEnergyCounter::add_gameEnergyDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameEnergyCounter::*)(System::Action_1<float>*)>(&GlobalNamespace::IGameEnergyCounter::add_gameEnergyDidChangeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameEnergyCounter*), "add_gameEnergyDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameEnergyCounter*), "add_gameEnergyDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
   }
 };
-// Writing MetadataGetter for method: IGameEnergyCounter::remove_gameEnergyDidChangeEvent
+// Writing MetadataGetter for method: GlobalNamespace::IGameEnergyCounter::remove_gameEnergyDidChangeEvent
 // Il2CppName: remove_gameEnergyDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameEnergyCounter::*)(System::Action_1<float>*)>(&IGameEnergyCounter::remove_gameEnergyDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameEnergyCounter::*)(System::Action_1<float>*)>(&GlobalNamespace::IGameEnergyCounter::remove_gameEnergyDidChangeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameEnergyCounter*), "remove_gameEnergyDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameEnergyCounter*), "remove_gameEnergyDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
   }
 };
-// Writing MetadataGetter for method: IGameEnergyCounter::get_isInitialized
+// Writing MetadataGetter for method: GlobalNamespace::IGameEnergyCounter::get_isInitialized
 // Il2CppName: get_isInitialized
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IGameEnergyCounter::*)()>(&IGameEnergyCounter::get_isInitialized)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::IGameEnergyCounter::*)()>(&GlobalNamespace::IGameEnergyCounter::get_isInitialized)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameEnergyCounter*), "get_isInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameEnergyCounter*), "get_isInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IGameEnergyCounter::get_energy
+// Writing MetadataGetter for method: GlobalNamespace::IGameEnergyCounter::get_energy
 // Il2CppName: get_energy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (IGameEnergyCounter::*)()>(&IGameEnergyCounter::get_energy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::IGameEnergyCounter::*)()>(&GlobalNamespace::IGameEnergyCounter::get_energy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameEnergyCounter*), "get_energy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameEnergyCounter*), "get_energy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IGameEnergyCounter::get_batteryEnergy
+// Writing MetadataGetter for method: GlobalNamespace::IGameEnergyCounter::get_batteryEnergy
 // Il2CppName: get_batteryEnergy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IGameEnergyCounter::*)()>(&IGameEnergyCounter::get_batteryEnergy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::IGameEnergyCounter::*)()>(&GlobalNamespace::IGameEnergyCounter::get_batteryEnergy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameEnergyCounter*), "get_batteryEnergy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameEnergyCounter*), "get_batteryEnergy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IGameEnergyCounter::get_batteryLives
+// Writing MetadataGetter for method: GlobalNamespace::IGameEnergyCounter::get_batteryLives
 // Il2CppName: get_batteryLives
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IGameEnergyCounter::*)()>(&IGameEnergyCounter::get_batteryLives)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::IGameEnergyCounter::*)()>(&GlobalNamespace::IGameEnergyCounter::get_batteryLives)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameEnergyCounter*), "get_batteryLives", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameEnergyCounter*), "get_batteryLives", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IGameEnergyCounter::get_energyType
+// Writing MetadataGetter for method: GlobalNamespace::IGameEnergyCounter::get_energyType
 // Il2CppName: get_energyType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers::EnergyType (IGameEnergyCounter::*)()>(&IGameEnergyCounter::get_energyType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers::EnergyType (GlobalNamespace::IGameEnergyCounter::*)()>(&GlobalNamespace::IGameEnergyCounter::get_energyType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameEnergyCounter*), "get_energyType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameEnergyCounter*), "get_energyType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IGameEnergyCounter::get_noFail
+// Writing MetadataGetter for method: GlobalNamespace::IGameEnergyCounter::get_noFail
 // Il2CppName: get_noFail
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IGameEnergyCounter::*)()>(&IGameEnergyCounter::get_noFail)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::IGameEnergyCounter::*)()>(&GlobalNamespace::IGameEnergyCounter::get_noFail)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameEnergyCounter*), "get_noFail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameEnergyCounter*), "get_noFail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IGameEnergyCounter::get_instaFail
+// Writing MetadataGetter for method: GlobalNamespace::IGameEnergyCounter::get_instaFail
 // Il2CppName: get_instaFail
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IGameEnergyCounter::*)()>(&IGameEnergyCounter::get_instaFail)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::IGameEnergyCounter::*)()>(&GlobalNamespace::IGameEnergyCounter::get_instaFail)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameEnergyCounter*), "get_instaFail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameEnergyCounter*), "get_instaFail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IGameEnergyCounter::get_failOnSaberClash
+// Writing MetadataGetter for method: GlobalNamespace::IGameEnergyCounter::get_failOnSaberClash
 // Il2CppName: get_failOnSaberClash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IGameEnergyCounter::*)()>(&IGameEnergyCounter::get_failOnSaberClash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::IGameEnergyCounter::*)()>(&GlobalNamespace::IGameEnergyCounter::get_failOnSaberClash)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameEnergyCounter*), "get_failOnSaberClash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameEnergyCounter*), "get_failOnSaberClash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -57,41 +57,41 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRChaperoneSetup::_ReloadFromDisk*, "OVR.OpenVR", "IVRChaperoneSetup/_ReloadFromDisk");
-// Writing MetadataGetter for method: IVRChaperoneSetup::_ReloadFromDisk::New_ctor
+// Writing MetadataGetter for method: OVR::OpenVR::IVRChaperoneSetup::_ReloadFromDisk::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRChaperoneSetup::_ReloadFromDisk::*)(::Il2CppObject*, System::IntPtr)>(&IVRChaperoneSetup::_ReloadFromDisk::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRChaperoneSetup::_ReloadFromDisk::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVRChaperoneSetup::_ReloadFromDisk::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRChaperoneSetup::_ReloadFromDisk*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRChaperoneSetup::_ReloadFromDisk*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRChaperoneSetup::_ReloadFromDisk::*)(::Il2CppObject*, System::IntPtr)>(&IVRChaperoneSetup::_ReloadFromDisk::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRChaperoneSetup::_ReloadFromDisk::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVRChaperoneSetup::_ReloadFromDisk::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRChaperoneSetup::_ReloadFromDisk*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRChaperoneSetup::_ReloadFromDisk*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: IVRChaperoneSetup::_ReloadFromDisk::Invoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRChaperoneSetup::_ReloadFromDisk::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRChaperoneSetup::_ReloadFromDisk::*)(OVR::OpenVR::EChaperoneConfigFile)>(&IVRChaperoneSetup::_ReloadFromDisk::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRChaperoneSetup::_ReloadFromDisk::*)(OVR::OpenVR::EChaperoneConfigFile)>(&OVR::OpenVR::IVRChaperoneSetup::_ReloadFromDisk::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRChaperoneSetup::_ReloadFromDisk*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EChaperoneConfigFile>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRChaperoneSetup::_ReloadFromDisk*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EChaperoneConfigFile>()});
   }
 };
-// Writing MetadataGetter for method: IVRChaperoneSetup::_ReloadFromDisk::BeginInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRChaperoneSetup::_ReloadFromDisk::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRChaperoneSetup::_ReloadFromDisk::*)(OVR::OpenVR::EChaperoneConfigFile, System::AsyncCallback*, ::Il2CppObject*)>(&IVRChaperoneSetup::_ReloadFromDisk::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRChaperoneSetup::_ReloadFromDisk::*)(OVR::OpenVR::EChaperoneConfigFile, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRChaperoneSetup::_ReloadFromDisk::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRChaperoneSetup::_ReloadFromDisk*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EChaperoneConfigFile>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRChaperoneSetup::_ReloadFromDisk*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EChaperoneConfigFile>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IVRChaperoneSetup::_ReloadFromDisk::EndInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRChaperoneSetup::_ReloadFromDisk::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRChaperoneSetup::_ReloadFromDisk::*)(System::IAsyncResult*)>(&IVRChaperoneSetup::_ReloadFromDisk::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRChaperoneSetup::_ReloadFromDisk::*)(System::IAsyncResult*)>(&OVR::OpenVR::IVRChaperoneSetup::_ReloadFromDisk::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRChaperoneSetup::_ReloadFromDisk*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRChaperoneSetup::_ReloadFromDisk*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

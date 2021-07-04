@@ -102,33 +102,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(OnWillRenderObjectTrigger) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OnWillRenderObjectTrigger*, "", "OnWillRenderObjectTrigger");
-// Writing MetadataGetter for method: OnWillRenderObjectTrigger::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::OnWillRenderObjectTrigger::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnWillRenderObjectTrigger::*)()>(&OnWillRenderObjectTrigger::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OnWillRenderObjectTrigger::*)()>(&GlobalNamespace::OnWillRenderObjectTrigger::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OnWillRenderObjectTrigger*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OnWillRenderObjectTrigger*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OnWillRenderObjectTrigger::OnDisable
+// Writing MetadataGetter for method: GlobalNamespace::OnWillRenderObjectTrigger::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnWillRenderObjectTrigger::*)()>(&OnWillRenderObjectTrigger::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OnWillRenderObjectTrigger::*)()>(&GlobalNamespace::OnWillRenderObjectTrigger::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OnWillRenderObjectTrigger*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OnWillRenderObjectTrigger*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OnWillRenderObjectTrigger::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::OnWillRenderObjectTrigger::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnWillRenderObjectTrigger::*)()>(&OnWillRenderObjectTrigger::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OnWillRenderObjectTrigger::*)()>(&GlobalNamespace::OnWillRenderObjectTrigger::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OnWillRenderObjectTrigger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OnWillRenderObjectTrigger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnWillRenderObjectTrigger::*)()>(&OnWillRenderObjectTrigger::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OnWillRenderObjectTrigger::*)()>(&GlobalNamespace::OnWillRenderObjectTrigger::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OnWillRenderObjectTrigger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OnWillRenderObjectTrigger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

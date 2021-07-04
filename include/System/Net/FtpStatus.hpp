@@ -53,33 +53,33 @@ namespace System::Net {
   static_assert(sizeof(FtpStatus) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpStatus*, "System.Net", "FtpStatus");
-// Writing MetadataGetter for method: FtpStatus::New_ctor
+// Writing MetadataGetter for method: System::Net::FtpStatus::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpStatus::*)(System::Net::FtpStatusCode, ::Il2CppString*)>(&FtpStatus::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FtpStatus::*)(System::Net::FtpStatusCode, ::Il2CppString*)>(&System::Net::FtpStatus::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FtpStatus*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::FtpStatusCode>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FtpStatus*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::FtpStatusCode>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FtpStatus::*)(System::Net::FtpStatusCode, ::Il2CppString*)>(&FtpStatus::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FtpStatus::*)(System::Net::FtpStatusCode, ::Il2CppString*)>(&System::Net::FtpStatus::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FtpStatus*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::FtpStatusCode>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FtpStatus*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::FtpStatusCode>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: FtpStatus::get_StatusCode
+// Writing MetadataGetter for method: System::Net::FtpStatus::get_StatusCode
 // Il2CppName: get_StatusCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::FtpStatusCode (FtpStatus::*)()>(&FtpStatus::get_StatusCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::FtpStatusCode (System::Net::FtpStatus::*)()>(&System::Net::FtpStatus::get_StatusCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FtpStatus*), "get_StatusCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FtpStatus*), "get_StatusCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FtpStatus::get_StatusDescription
+// Writing MetadataGetter for method: System::Net::FtpStatus::get_StatusDescription
 // Il2CppName: get_StatusDescription
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (FtpStatus::*)()>(&FtpStatus::get_StatusDescription)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::FtpStatus::*)()>(&System::Net::FtpStatus::get_StatusDescription)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FtpStatus*), "get_StatusDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FtpStatus*), "get_StatusDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

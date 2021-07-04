@@ -62,57 +62,57 @@ namespace Oculus::Platform {
   static_assert(sizeof(CallbackRunner) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CallbackRunner*, "Oculus.Platform", "CallbackRunner");
-// Writing MetadataGetter for method: CallbackRunner::ovr_UnityResetTestPlatform
+// Writing MetadataGetter for method: Oculus::Platform::CallbackRunner::ovr_UnityResetTestPlatform
 // Il2CppName: ovr_UnityResetTestPlatform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CallbackRunner::ovr_UnityResetTestPlatform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Oculus::Platform::CallbackRunner::ovr_UnityResetTestPlatform)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CallbackRunner*), "ovr_UnityResetTestPlatform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CallbackRunner*), "ovr_UnityResetTestPlatform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CallbackRunner::Awake
+// Writing MetadataGetter for method: Oculus::Platform::CallbackRunner::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CallbackRunner::*)()>(&CallbackRunner::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::CallbackRunner::*)()>(&Oculus::Platform::CallbackRunner::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CallbackRunner*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CallbackRunner*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CallbackRunner::Update
+// Writing MetadataGetter for method: Oculus::Platform::CallbackRunner::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CallbackRunner::*)()>(&CallbackRunner::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::CallbackRunner::*)()>(&Oculus::Platform::CallbackRunner::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CallbackRunner*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CallbackRunner*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CallbackRunner::OnDestroy
+// Writing MetadataGetter for method: Oculus::Platform::CallbackRunner::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CallbackRunner::*)()>(&CallbackRunner::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::CallbackRunner::*)()>(&Oculus::Platform::CallbackRunner::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CallbackRunner*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CallbackRunner*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CallbackRunner::OnApplicationQuit
+// Writing MetadataGetter for method: Oculus::Platform::CallbackRunner::OnApplicationQuit
 // Il2CppName: OnApplicationQuit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CallbackRunner::*)()>(&CallbackRunner::OnApplicationQuit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::CallbackRunner::*)()>(&Oculus::Platform::CallbackRunner::OnApplicationQuit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CallbackRunner*), "OnApplicationQuit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CallbackRunner*), "OnApplicationQuit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CallbackRunner::New_ctor
+// Writing MetadataGetter for method: Oculus::Platform::CallbackRunner::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CallbackRunner::*)()>(&CallbackRunner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::CallbackRunner::*)()>(&Oculus::Platform::CallbackRunner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CallbackRunner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CallbackRunner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CallbackRunner::*)()>(&CallbackRunner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::CallbackRunner::*)()>(&Oculus::Platform::CallbackRunner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CallbackRunner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CallbackRunner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

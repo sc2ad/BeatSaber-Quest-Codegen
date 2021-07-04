@@ -31,17 +31,17 @@ namespace NUnit::Framework::Constraints {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::GreaterThanOrEqualConstraint*, "NUnit.Framework.Constraints", "GreaterThanOrEqualConstraint");
-// Writing MetadataGetter for method: GreaterThanOrEqualConstraint::New_ctor
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::GreaterThanOrEqualConstraint::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GreaterThanOrEqualConstraint::*)(::Il2CppObject*)>(&GreaterThanOrEqualConstraint::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::GreaterThanOrEqualConstraint::*)(::Il2CppObject*)>(&NUnit::Framework::Constraints::GreaterThanOrEqualConstraint::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GreaterThanOrEqualConstraint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::GreaterThanOrEqualConstraint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GreaterThanOrEqualConstraint::*)(::Il2CppObject*)>(&GreaterThanOrEqualConstraint::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::GreaterThanOrEqualConstraint::*)(::Il2CppObject*)>(&NUnit::Framework::Constraints::GreaterThanOrEqualConstraint::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GreaterThanOrEqualConstraint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::GreaterThanOrEqualConstraint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };

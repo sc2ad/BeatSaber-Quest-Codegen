@@ -136,158 +136,158 @@ namespace UnityEngine::Playables {
   static_assert(sizeof(PlayableGraph) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableGraph, "UnityEngine.Playables", "PlayableGraph");
-// Writing MetadataGetter for method: PlayableGraph::GetRootPlayable
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::GetRootPlayable
 // Il2CppName: GetRootPlayable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (PlayableGraph::*)(int)>(&PlayableGraph::GetRootPlayable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (UnityEngine::Playables::PlayableGraph::*)(int)>(&UnityEngine::Playables::PlayableGraph::GetRootPlayable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableGraph), "GetRootPlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "GetRootPlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: PlayableGraph::Connect
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::Connect
 // Il2CppName: Connect
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: PlayableGraph::IsValid
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::IsValid
 // Il2CppName: IsValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayableGraph::*)()>(&PlayableGraph::IsValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Playables::PlayableGraph::*)()>(&UnityEngine::Playables::PlayableGraph::IsValid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableGraph), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableGraph::IsPlaying
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::IsPlaying
 // Il2CppName: IsPlaying
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayableGraph::*)()>(&PlayableGraph::IsPlaying)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Playables::PlayableGraph::*)()>(&UnityEngine::Playables::PlayableGraph::IsPlaying)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableGraph), "IsPlaying", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "IsPlaying", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableGraph::GetResolver
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::GetResolver
 // Il2CppName: GetResolver
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::IExposedPropertyTable* (PlayableGraph::*)()>(&PlayableGraph::GetResolver)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::IExposedPropertyTable* (UnityEngine::Playables::PlayableGraph::*)()>(&UnityEngine::Playables::PlayableGraph::GetResolver)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableGraph), "GetResolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "GetResolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableGraph::GetPlayableCount
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::GetPlayableCount
 // Il2CppName: GetPlayableCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PlayableGraph::*)()>(&PlayableGraph::GetPlayableCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Playables::PlayableGraph::*)()>(&UnityEngine::Playables::PlayableGraph::GetPlayableCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableGraph), "GetPlayableCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "GetPlayableCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableGraph::GetRootPlayableCount
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::GetRootPlayableCount
 // Il2CppName: GetRootPlayableCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PlayableGraph::*)()>(&PlayableGraph::GetRootPlayableCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Playables::PlayableGraph::*)()>(&UnityEngine::Playables::PlayableGraph::GetRootPlayableCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableGraph), "GetRootPlayableCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "GetRootPlayableCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableGraph::CreatePlayableHandle
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::CreatePlayableHandle
 // Il2CppName: CreatePlayableHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (PlayableGraph::*)()>(&PlayableGraph::CreatePlayableHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (UnityEngine::Playables::PlayableGraph::*)()>(&UnityEngine::Playables::PlayableGraph::CreatePlayableHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableGraph), "CreatePlayableHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "CreatePlayableHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableGraph::CreateScriptOutputInternal
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::CreateScriptOutputInternal
 // Il2CppName: CreateScriptOutputInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayableGraph::*)(::Il2CppString*, UnityEngine::Playables::PlayableOutputHandle&)>(&PlayableGraph::CreateScriptOutputInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Playables::PlayableGraph::*)(::Il2CppString*, UnityEngine::Playables::PlayableOutputHandle&)>(&UnityEngine::Playables::PlayableGraph::CreateScriptOutputInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableGraph), "CreateScriptOutputInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "CreateScriptOutputInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>()});
   }
 };
-// Writing MetadataGetter for method: PlayableGraph::GetRootPlayableInternal
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::GetRootPlayableInternal
 // Il2CppName: GetRootPlayableInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (PlayableGraph::*)(int)>(&PlayableGraph::GetRootPlayableInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (UnityEngine::Playables::PlayableGraph::*)(int)>(&UnityEngine::Playables::PlayableGraph::GetRootPlayableInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableGraph), "GetRootPlayableInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "GetRootPlayableInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: PlayableGraph::ConnectInternal
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::ConnectInternal
 // Il2CppName: ConnectInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayableGraph::*)(UnityEngine::Playables::PlayableHandle, int, UnityEngine::Playables::PlayableHandle, int)>(&PlayableGraph::ConnectInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Playables::PlayableGraph::*)(UnityEngine::Playables::PlayableHandle, int, UnityEngine::Playables::PlayableHandle, int)>(&UnityEngine::Playables::PlayableGraph::ConnectInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableGraph), "ConnectInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "ConnectInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: PlayableGraph::IsValid_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::IsValid_Injected
 // Il2CppName: IsValid_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&)>(&PlayableGraph::IsValid_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&)>(&UnityEngine::Playables::PlayableGraph::IsValid_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableGraph), "IsValid_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "IsValid_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>()});
   }
 };
-// Writing MetadataGetter for method: PlayableGraph::IsPlaying_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::IsPlaying_Injected
 // Il2CppName: IsPlaying_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&)>(&PlayableGraph::IsPlaying_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&)>(&UnityEngine::Playables::PlayableGraph::IsPlaying_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableGraph), "IsPlaying_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "IsPlaying_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>()});
   }
 };
-// Writing MetadataGetter for method: PlayableGraph::GetResolver_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::GetResolver_Injected
 // Il2CppName: GetResolver_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::IExposedPropertyTable* (*)(UnityEngine::Playables::PlayableGraph&)>(&PlayableGraph::GetResolver_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::IExposedPropertyTable* (*)(UnityEngine::Playables::PlayableGraph&)>(&UnityEngine::Playables::PlayableGraph::GetResolver_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableGraph), "GetResolver_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "GetResolver_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>()});
   }
 };
-// Writing MetadataGetter for method: PlayableGraph::GetPlayableCount_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::GetPlayableCount_Injected
 // Il2CppName: GetPlayableCount_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Playables::PlayableGraph&)>(&PlayableGraph::GetPlayableCount_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Playables::PlayableGraph&)>(&UnityEngine::Playables::PlayableGraph::GetPlayableCount_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableGraph), "GetPlayableCount_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "GetPlayableCount_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>()});
   }
 };
-// Writing MetadataGetter for method: PlayableGraph::GetRootPlayableCount_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::GetRootPlayableCount_Injected
 // Il2CppName: GetRootPlayableCount_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Playables::PlayableGraph&)>(&PlayableGraph::GetRootPlayableCount_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Playables::PlayableGraph&)>(&UnityEngine::Playables::PlayableGraph::GetRootPlayableCount_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableGraph), "GetRootPlayableCount_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "GetRootPlayableCount_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>()});
   }
 };
-// Writing MetadataGetter for method: PlayableGraph::CreatePlayableHandle_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::CreatePlayableHandle_Injected
 // Il2CppName: CreatePlayableHandle_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableGraph&, UnityEngine::Playables::PlayableHandle&)>(&PlayableGraph::CreatePlayableHandle_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableGraph&, UnityEngine::Playables::PlayableHandle&)>(&UnityEngine::Playables::PlayableGraph::CreatePlayableHandle_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableGraph), "CreatePlayableHandle_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "CreatePlayableHandle_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
   }
 };
-// Writing MetadataGetter for method: PlayableGraph::CreateScriptOutputInternal_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::CreateScriptOutputInternal_Injected
 // Il2CppName: CreateScriptOutputInternal_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&, ::Il2CppString*, UnityEngine::Playables::PlayableOutputHandle&)>(&PlayableGraph::CreateScriptOutputInternal_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&, ::Il2CppString*, UnityEngine::Playables::PlayableOutputHandle&)>(&UnityEngine::Playables::PlayableGraph::CreateScriptOutputInternal_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableGraph), "CreateScriptOutputInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "CreateScriptOutputInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>()});
   }
 };
-// Writing MetadataGetter for method: PlayableGraph::GetRootPlayableInternal_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::GetRootPlayableInternal_Injected
 // Il2CppName: GetRootPlayableInternal_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableGraph&, int, UnityEngine::Playables::PlayableHandle&)>(&PlayableGraph::GetRootPlayableInternal_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableGraph&, int, UnityEngine::Playables::PlayableHandle&)>(&UnityEngine::Playables::PlayableGraph::GetRootPlayableInternal_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableGraph), "GetRootPlayableInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "GetRootPlayableInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
   }
 };
-// Writing MetadataGetter for method: PlayableGraph::ConnectInternal_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::ConnectInternal_Injected
 // Il2CppName: ConnectInternal_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&, UnityEngine::Playables::PlayableHandle&, int, UnityEngine::Playables::PlayableHandle&, int)>(&PlayableGraph::ConnectInternal_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&, UnityEngine::Playables::PlayableHandle&, int, UnityEngine::Playables::PlayableHandle&, int)>(&UnityEngine::Playables::PlayableGraph::ConnectInternal_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableGraph), "ConnectInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableGraph), "ConnectInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };

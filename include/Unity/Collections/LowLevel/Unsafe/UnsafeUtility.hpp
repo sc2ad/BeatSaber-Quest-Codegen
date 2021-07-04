@@ -116,69 +116,69 @@ namespace Unity::Collections::LowLevel::Unsafe {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::LowLevel::Unsafe::UnsafeUtility*, "Unity.Collections.LowLevel.Unsafe", "UnsafeUtility");
-// Writing MetadataGetter for method: UnsafeUtility::IsBlittable
+// Writing MetadataGetter for method: Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsBlittable
 // Il2CppName: IsBlittable
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: UnsafeUtility::Free
+// Writing MetadataGetter for method: Unity::Collections::LowLevel::Unsafe::UnsafeUtility::Free
 // Il2CppName: Free
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, Unity::Collections::Allocator)>(&UnsafeUtility::Free)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, Unity::Collections::Allocator)>(&Unity::Collections::LowLevel::Unsafe::UnsafeUtility::Free)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnsafeUtility*), "Free", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<void*>(), ::il2cpp_utils::ExtractIndependentType<Unity::Collections::Allocator>()});
+    return ::il2cpp_utils::FindMethod(classof(Unity::Collections::LowLevel::Unsafe::UnsafeUtility*), "Free", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<void*>(), ::il2cpp_utils::ExtractIndependentType<Unity::Collections::Allocator>()});
   }
 };
-// Writing MetadataGetter for method: UnsafeUtility::IsBlittable
+// Writing MetadataGetter for method: Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsBlittable
 // Il2CppName: IsBlittable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&UnsafeUtility::IsBlittable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsBlittable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnsafeUtility*), "IsBlittable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(Unity::Collections::LowLevel::Unsafe::UnsafeUtility*), "IsBlittable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: UnsafeUtility::IsBlittableValueType
+// Writing MetadataGetter for method: Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsBlittableValueType
 // Il2CppName: IsBlittableValueType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&UnsafeUtility::IsBlittableValueType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsBlittableValueType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnsafeUtility*), "IsBlittableValueType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(Unity::Collections::LowLevel::Unsafe::UnsafeUtility*), "IsBlittableValueType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: UnsafeUtility::GetReasonForTypeNonBlittableImpl
+// Writing MetadataGetter for method: Unity::Collections::LowLevel::Unsafe::UnsafeUtility::GetReasonForTypeNonBlittableImpl
 // Il2CppName: GetReasonForTypeNonBlittableImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Type*, ::Il2CppString*)>(&UnsafeUtility::GetReasonForTypeNonBlittableImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Type*, ::Il2CppString*)>(&Unity::Collections::LowLevel::Unsafe::UnsafeUtility::GetReasonForTypeNonBlittableImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnsafeUtility*), "GetReasonForTypeNonBlittableImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Unity::Collections::LowLevel::Unsafe::UnsafeUtility*), "GetReasonForTypeNonBlittableImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: UnsafeUtility::IsArrayBlittable
+// Writing MetadataGetter for method: Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsArrayBlittable
 // Il2CppName: IsArrayBlittable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Array*)>(&UnsafeUtility::IsArrayBlittable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Array*)>(&Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsArrayBlittable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnsafeUtility*), "IsArrayBlittable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>()});
+    return ::il2cpp_utils::FindMethod(classof(Unity::Collections::LowLevel::Unsafe::UnsafeUtility*), "IsArrayBlittable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>()});
   }
 };
-// Writing MetadataGetter for method: UnsafeUtility::IsGenericListBlittable
+// Writing MetadataGetter for method: Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsGenericListBlittable
 // Il2CppName: IsGenericListBlittable
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: UnsafeUtility::GetReasonForArrayNonBlittable
+// Writing MetadataGetter for method: Unity::Collections::LowLevel::Unsafe::UnsafeUtility::GetReasonForArrayNonBlittable
 // Il2CppName: GetReasonForArrayNonBlittable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Array*)>(&UnsafeUtility::GetReasonForArrayNonBlittable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Array*)>(&Unity::Collections::LowLevel::Unsafe::UnsafeUtility::GetReasonForArrayNonBlittable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnsafeUtility*), "GetReasonForArrayNonBlittable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>()});
+    return ::il2cpp_utils::FindMethod(classof(Unity::Collections::LowLevel::Unsafe::UnsafeUtility*), "GetReasonForArrayNonBlittable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>()});
   }
 };
-// Writing MetadataGetter for method: UnsafeUtility::GetReasonForGenericListNonBlittable
+// Writing MetadataGetter for method: Unity::Collections::LowLevel::Unsafe::UnsafeUtility::GetReasonForGenericListNonBlittable
 // Il2CppName: GetReasonForGenericListNonBlittable
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: UnsafeUtility::ReadArrayElement
+// Writing MetadataGetter for method: Unity::Collections::LowLevel::Unsafe::UnsafeUtility::ReadArrayElement
 // Il2CppName: ReadArrayElement
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: UnsafeUtility::WriteArrayElement
+// Writing MetadataGetter for method: Unity::Collections::LowLevel::Unsafe::UnsafeUtility::WriteArrayElement
 // Il2CppName: WriteArrayElement
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: UnsafeUtility::SizeOf
+// Writing MetadataGetter for method: Unity::Collections::LowLevel::Unsafe::UnsafeUtility::SizeOf
 // Il2CppName: SizeOf
 // Cannot write MetadataGetter for generic methods!

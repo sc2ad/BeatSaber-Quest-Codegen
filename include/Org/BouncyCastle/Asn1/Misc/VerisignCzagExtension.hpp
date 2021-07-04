@@ -36,25 +36,25 @@ namespace Org::BouncyCastle::Asn1::Misc {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension*, "Org.BouncyCastle.Asn1.Misc", "VerisignCzagExtension");
-// Writing MetadataGetter for method: VerisignCzagExtension::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VerisignCzagExtension::*)(Org::BouncyCastle::Asn1::DerIA5String*)>(&VerisignCzagExtension::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension::*)(Org::BouncyCastle::Asn1::DerIA5String*)>(&Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VerisignCzagExtension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerIA5String*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerIA5String*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VerisignCzagExtension::*)(Org::BouncyCastle::Asn1::DerIA5String*)>(&VerisignCzagExtension::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension::*)(Org::BouncyCastle::Asn1::DerIA5String*)>(&Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VerisignCzagExtension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerIA5String*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerIA5String*>()});
   }
 };
-// Writing MetadataGetter for method: VerisignCzagExtension::ToString
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (VerisignCzagExtension::*)()>(&VerisignCzagExtension::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension::*)()>(&Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VerisignCzagExtension*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

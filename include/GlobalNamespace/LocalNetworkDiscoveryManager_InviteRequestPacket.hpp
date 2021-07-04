@@ -86,33 +86,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(LocalNetworkDiscoveryManager::InviteRequestPacket) == 0x2D);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestPacket*, "", "LocalNetworkDiscoveryManager/InviteRequestPacket");
-// Writing MetadataGetter for method: LocalNetworkDiscoveryManager::InviteRequestPacket::Serialize
+// Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestPacket::Serialize
 // Il2CppName: Serialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::InviteRequestPacket::*)(LiteNetLib::Utils::NetDataWriter*)>(&LocalNetworkDiscoveryManager::InviteRequestPacket::Serialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestPacket::*)(LiteNetLib::Utils::NetDataWriter*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestPacket::Serialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager::InviteRequestPacket*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestPacket*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
   }
 };
-// Writing MetadataGetter for method: LocalNetworkDiscoveryManager::InviteRequestPacket::Deserialize
+// Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestPacket::Deserialize
 // Il2CppName: Deserialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::InviteRequestPacket::*)(LiteNetLib::Utils::NetDataReader*)>(&LocalNetworkDiscoveryManager::InviteRequestPacket::Deserialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestPacket::*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestPacket::Deserialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager::InviteRequestPacket*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestPacket*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
   }
 };
-// Writing MetadataGetter for method: LocalNetworkDiscoveryManager::InviteRequestPacket::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestPacket::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::InviteRequestPacket::*)()>(&LocalNetworkDiscoveryManager::InviteRequestPacket::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestPacket::*)()>(&GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestPacket::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager::InviteRequestPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalNetworkDiscoveryManager::InviteRequestPacket::*)()>(&LocalNetworkDiscoveryManager::InviteRequestPacket::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestPacket::*)()>(&GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestPacket::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LocalNetworkDiscoveryManager::InviteRequestPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

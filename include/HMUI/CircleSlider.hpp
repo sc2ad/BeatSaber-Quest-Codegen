@@ -217,209 +217,209 @@ namespace HMUI {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::CircleSlider*, "HMUI", "CircleSlider");
-// Writing MetadataGetter for method: CircleSlider::get_handleRect
+// Writing MetadataGetter for method: HMUI::CircleSlider::get_handleRect
 // Il2CppName: get_handleRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (CircleSlider::*)()>(&CircleSlider::get_handleRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (HMUI::CircleSlider::*)()>(&HMUI::CircleSlider::get_handleRect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleSlider*), "get_handleRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleSlider*), "get_handleRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CircleSlider::set_handleRect
+// Writing MetadataGetter for method: HMUI::CircleSlider::set_handleRect
 // Il2CppName: set_handleRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CircleSlider::*)(UnityEngine::RectTransform*)>(&CircleSlider::set_handleRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CircleSlider::*)(UnityEngine::RectTransform*)>(&HMUI::CircleSlider::set_handleRect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleSlider*), "set_handleRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleSlider*), "set_handleRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
   }
 };
-// Writing MetadataGetter for method: CircleSlider::set_handleColor
+// Writing MetadataGetter for method: HMUI::CircleSlider::set_handleColor
 // Il2CppName: set_handleColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CircleSlider::*)(UnityEngine::Color)>(&CircleSlider::set_handleColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CircleSlider::*)(UnityEngine::Color)>(&HMUI::CircleSlider::set_handleColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleSlider*), "set_handleColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleSlider*), "set_handleColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: CircleSlider::get_normalizedValue
+// Writing MetadataGetter for method: HMUI::CircleSlider::get_normalizedValue
 // Il2CppName: get_normalizedValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (CircleSlider::*)()>(&CircleSlider::get_normalizedValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::CircleSlider::*)()>(&HMUI::CircleSlider::get_normalizedValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleSlider*), "get_normalizedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleSlider*), "get_normalizedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CircleSlider::set_normalizedValue
+// Writing MetadataGetter for method: HMUI::CircleSlider::set_normalizedValue
 // Il2CppName: set_normalizedValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CircleSlider::*)(float)>(&CircleSlider::set_normalizedValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CircleSlider::*)(float)>(&HMUI::CircleSlider::set_normalizedValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleSlider*), "set_normalizedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleSlider*), "set_normalizedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: CircleSlider::add_normalizedValueDidChangeEvent
+// Writing MetadataGetter for method: HMUI::CircleSlider::add_normalizedValueDidChangeEvent
 // Il2CppName: add_normalizedValueDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CircleSlider::*)(System::Action_2<HMUI::CircleSlider*, float>*)>(&CircleSlider::add_normalizedValueDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CircleSlider::*)(System::Action_2<HMUI::CircleSlider*, float>*)>(&HMUI::CircleSlider::add_normalizedValueDidChangeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleSlider*), "add_normalizedValueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<HMUI::CircleSlider*, float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleSlider*), "add_normalizedValueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<HMUI::CircleSlider*, float>*>()});
   }
 };
-// Writing MetadataGetter for method: CircleSlider::remove_normalizedValueDidChangeEvent
+// Writing MetadataGetter for method: HMUI::CircleSlider::remove_normalizedValueDidChangeEvent
 // Il2CppName: remove_normalizedValueDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CircleSlider::*)(System::Action_2<HMUI::CircleSlider*, float>*)>(&CircleSlider::remove_normalizedValueDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CircleSlider::*)(System::Action_2<HMUI::CircleSlider*, float>*)>(&HMUI::CircleSlider::remove_normalizedValueDidChangeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleSlider*), "remove_normalizedValueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<HMUI::CircleSlider*, float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleSlider*), "remove_normalizedValueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<HMUI::CircleSlider*, float>*>()});
   }
 };
-// Writing MetadataGetter for method: CircleSlider::Rebuild
+// Writing MetadataGetter for method: HMUI::CircleSlider::Rebuild
 // Il2CppName: Rebuild
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CircleSlider::*)(UnityEngine::UI::CanvasUpdate)>(&CircleSlider::Rebuild)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CircleSlider::*)(UnityEngine::UI::CanvasUpdate)>(&HMUI::CircleSlider::Rebuild)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleSlider*), "Rebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::CanvasUpdate>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleSlider*), "Rebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::CanvasUpdate>()});
   }
 };
-// Writing MetadataGetter for method: CircleSlider::LayoutComplete
+// Writing MetadataGetter for method: HMUI::CircleSlider::LayoutComplete
 // Il2CppName: LayoutComplete
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CircleSlider::*)()>(&CircleSlider::LayoutComplete)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CircleSlider::*)()>(&HMUI::CircleSlider::LayoutComplete)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleSlider*), "LayoutComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleSlider*), "LayoutComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CircleSlider::GraphicUpdateComplete
+// Writing MetadataGetter for method: HMUI::CircleSlider::GraphicUpdateComplete
 // Il2CppName: GraphicUpdateComplete
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CircleSlider::*)()>(&CircleSlider::GraphicUpdateComplete)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CircleSlider::*)()>(&HMUI::CircleSlider::GraphicUpdateComplete)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleSlider*), "GraphicUpdateComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleSlider*), "GraphicUpdateComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CircleSlider::UpdateCachedReferences
+// Writing MetadataGetter for method: HMUI::CircleSlider::UpdateCachedReferences
 // Il2CppName: UpdateCachedReferences
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CircleSlider::*)()>(&CircleSlider::UpdateCachedReferences)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CircleSlider::*)()>(&HMUI::CircleSlider::UpdateCachedReferences)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleSlider*), "UpdateCachedReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleSlider*), "UpdateCachedReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CircleSlider::SetNormalizedValue
+// Writing MetadataGetter for method: HMUI::CircleSlider::SetNormalizedValue
 // Il2CppName: SetNormalizedValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CircleSlider::*)(float)>(&CircleSlider::SetNormalizedValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CircleSlider::*)(float)>(&HMUI::CircleSlider::SetNormalizedValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleSlider*), "SetNormalizedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleSlider*), "SetNormalizedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: CircleSlider::SetNormalizedValue
+// Writing MetadataGetter for method: HMUI::CircleSlider::SetNormalizedValue
 // Il2CppName: SetNormalizedValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CircleSlider::*)(float, bool)>(&CircleSlider::SetNormalizedValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CircleSlider::*)(float, bool)>(&HMUI::CircleSlider::SetNormalizedValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleSlider*), "SetNormalizedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleSlider*), "SetNormalizedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: CircleSlider::UpdateVisuals
+// Writing MetadataGetter for method: HMUI::CircleSlider::UpdateVisuals
 // Il2CppName: UpdateVisuals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CircleSlider::*)()>(&CircleSlider::UpdateVisuals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CircleSlider::*)()>(&HMUI::CircleSlider::UpdateVisuals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleSlider*), "UpdateVisuals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleSlider*), "UpdateVisuals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CircleSlider::UpdateDrag
+// Writing MetadataGetter for method: HMUI::CircleSlider::UpdateDrag
 // Il2CppName: UpdateDrag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CircleSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&CircleSlider::UpdateDrag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CircleSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&HMUI::CircleSlider::UpdateDrag)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleSlider*), "UpdateDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleSlider*), "UpdateDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: CircleSlider::MayDrag
+// Writing MetadataGetter for method: HMUI::CircleSlider::MayDrag
 // Il2CppName: MayDrag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CircleSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&CircleSlider::MayDrag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI::CircleSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&HMUI::CircleSlider::MayDrag)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleSlider*), "MayDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleSlider*), "MayDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: CircleSlider::OnBeginDrag
+// Writing MetadataGetter for method: HMUI::CircleSlider::OnBeginDrag
 // Il2CppName: OnBeginDrag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CircleSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&CircleSlider::OnBeginDrag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CircleSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&HMUI::CircleSlider::OnBeginDrag)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleSlider*), "OnBeginDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleSlider*), "OnBeginDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: CircleSlider::OnDrag
+// Writing MetadataGetter for method: HMUI::CircleSlider::OnDrag
 // Il2CppName: OnDrag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CircleSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&CircleSlider::OnDrag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CircleSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&HMUI::CircleSlider::OnDrag)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleSlider*), "OnDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleSlider*), "OnDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: CircleSlider::OnInitializePotentialDrag
+// Writing MetadataGetter for method: HMUI::CircleSlider::OnInitializePotentialDrag
 // Il2CppName: OnInitializePotentialDrag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CircleSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&CircleSlider::OnInitializePotentialDrag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CircleSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&HMUI::CircleSlider::OnInitializePotentialDrag)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleSlider*), "OnInitializePotentialDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleSlider*), "OnInitializePotentialDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: CircleSlider::UnityEngine_UI_ICanvasElement_get_transform
+// Writing MetadataGetter for method: HMUI::CircleSlider::UnityEngine_UI_ICanvasElement_get_transform
 // Il2CppName: UnityEngine.UI.ICanvasElement.get_transform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (CircleSlider::*)()>(&CircleSlider::UnityEngine_UI_ICanvasElement_get_transform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (HMUI::CircleSlider::*)()>(&HMUI::CircleSlider::UnityEngine_UI_ICanvasElement_get_transform)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleSlider*), "UnityEngine.UI.ICanvasElement.get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleSlider*), "UnityEngine.UI.ICanvasElement.get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CircleSlider::OnEnable
+// Writing MetadataGetter for method: HMUI::CircleSlider::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CircleSlider::*)()>(&CircleSlider::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CircleSlider::*)()>(&HMUI::CircleSlider::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleSlider*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleSlider*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CircleSlider::OnDisable
+// Writing MetadataGetter for method: HMUI::CircleSlider::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CircleSlider::*)()>(&CircleSlider::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CircleSlider::*)()>(&HMUI::CircleSlider::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleSlider*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleSlider*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CircleSlider::OnRectTransformDimensionsChange
+// Writing MetadataGetter for method: HMUI::CircleSlider::OnRectTransformDimensionsChange
 // Il2CppName: OnRectTransformDimensionsChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CircleSlider::*)()>(&CircleSlider::OnRectTransformDimensionsChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CircleSlider::*)()>(&HMUI::CircleSlider::OnRectTransformDimensionsChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleSlider*), "OnRectTransformDimensionsChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleSlider*), "OnRectTransformDimensionsChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CircleSlider::OnPointerDown
+// Writing MetadataGetter for method: HMUI::CircleSlider::OnPointerDown
 // Il2CppName: OnPointerDown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CircleSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&CircleSlider::OnPointerDown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CircleSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&HMUI::CircleSlider::OnPointerDown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleSlider*), "OnPointerDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleSlider*), "OnPointerDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: CircleSlider::New_ctor
+// Writing MetadataGetter for method: HMUI::CircleSlider::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CircleSlider::*)()>(&CircleSlider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CircleSlider::*)()>(&HMUI::CircleSlider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleSlider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleSlider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CircleSlider::*)()>(&CircleSlider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CircleSlider::*)()>(&HMUI::CircleSlider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleSlider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleSlider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

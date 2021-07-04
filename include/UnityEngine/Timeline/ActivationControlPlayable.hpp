@@ -199,65 +199,65 @@ namespace UnityEngine::Timeline {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ActivationControlPlayable*, "UnityEngine.Timeline", "ActivationControlPlayable");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ActivationControlPlayable::PostPlaybackState, "UnityEngine.Timeline", "ActivationControlPlayable/PostPlaybackState");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ActivationControlPlayable::InitialState, "UnityEngine.Timeline", "ActivationControlPlayable/InitialState");
-// Writing MetadataGetter for method: ActivationControlPlayable::Create
+// Writing MetadataGetter for method: UnityEngine::Timeline::ActivationControlPlayable::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::ActivationControlPlayable*> (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, UnityEngine::Timeline::ActivationControlPlayable::PostPlaybackState)>(&ActivationControlPlayable::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::ActivationControlPlayable*> (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, UnityEngine::Timeline::ActivationControlPlayable::PostPlaybackState)>(&UnityEngine::Timeline::ActivationControlPlayable::Create)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ActivationControlPlayable*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::ActivationControlPlayable::PostPlaybackState>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ActivationControlPlayable*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::ActivationControlPlayable::PostPlaybackState>()});
   }
 };
-// Writing MetadataGetter for method: ActivationControlPlayable::OnBehaviourPlay
+// Writing MetadataGetter for method: UnityEngine::Timeline::ActivationControlPlayable::OnBehaviourPlay
 // Il2CppName: OnBehaviourPlay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActivationControlPlayable::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&ActivationControlPlayable::OnBehaviourPlay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ActivationControlPlayable::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&UnityEngine::Timeline::ActivationControlPlayable::OnBehaviourPlay)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ActivationControlPlayable*), "OnBehaviourPlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ActivationControlPlayable*), "OnBehaviourPlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
   }
 };
-// Writing MetadataGetter for method: ActivationControlPlayable::OnBehaviourPause
+// Writing MetadataGetter for method: UnityEngine::Timeline::ActivationControlPlayable::OnBehaviourPause
 // Il2CppName: OnBehaviourPause
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActivationControlPlayable::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&ActivationControlPlayable::OnBehaviourPause)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ActivationControlPlayable::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&UnityEngine::Timeline::ActivationControlPlayable::OnBehaviourPause)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ActivationControlPlayable*), "OnBehaviourPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ActivationControlPlayable*), "OnBehaviourPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
   }
 };
-// Writing MetadataGetter for method: ActivationControlPlayable::ProcessFrame
+// Writing MetadataGetter for method: UnityEngine::Timeline::ActivationControlPlayable::ProcessFrame
 // Il2CppName: ProcessFrame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActivationControlPlayable::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData, ::Il2CppObject*)>(&ActivationControlPlayable::ProcessFrame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ActivationControlPlayable::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData, ::Il2CppObject*)>(&UnityEngine::Timeline::ActivationControlPlayable::ProcessFrame)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ActivationControlPlayable*), "ProcessFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ActivationControlPlayable*), "ProcessFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: ActivationControlPlayable::OnGraphStart
+// Writing MetadataGetter for method: UnityEngine::Timeline::ActivationControlPlayable::OnGraphStart
 // Il2CppName: OnGraphStart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActivationControlPlayable::*)(UnityEngine::Playables::Playable)>(&ActivationControlPlayable::OnGraphStart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ActivationControlPlayable::*)(UnityEngine::Playables::Playable)>(&UnityEngine::Timeline::ActivationControlPlayable::OnGraphStart)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ActivationControlPlayable*), "OnGraphStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ActivationControlPlayable*), "OnGraphStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
   }
 };
-// Writing MetadataGetter for method: ActivationControlPlayable::OnPlayableDestroy
+// Writing MetadataGetter for method: UnityEngine::Timeline::ActivationControlPlayable::OnPlayableDestroy
 // Il2CppName: OnPlayableDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActivationControlPlayable::*)(UnityEngine::Playables::Playable)>(&ActivationControlPlayable::OnPlayableDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ActivationControlPlayable::*)(UnityEngine::Playables::Playable)>(&UnityEngine::Timeline::ActivationControlPlayable::OnPlayableDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ActivationControlPlayable*), "OnPlayableDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ActivationControlPlayable*), "OnPlayableDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
   }
 };
-// Writing MetadataGetter for method: ActivationControlPlayable::New_ctor
+// Writing MetadataGetter for method: UnityEngine::Timeline::ActivationControlPlayable::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActivationControlPlayable::*)()>(&ActivationControlPlayable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ActivationControlPlayable::*)()>(&UnityEngine::Timeline::ActivationControlPlayable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ActivationControlPlayable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ActivationControlPlayable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActivationControlPlayable::*)()>(&ActivationControlPlayable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ActivationControlPlayable::*)()>(&UnityEngine::Timeline::ActivationControlPlayable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ActivationControlPlayable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ActivationControlPlayable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

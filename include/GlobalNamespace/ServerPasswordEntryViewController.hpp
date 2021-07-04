@@ -111,73 +111,73 @@ namespace GlobalNamespace {
   static_assert(sizeof(ServerPasswordEntryViewController) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ServerPasswordEntryViewController*, "", "ServerPasswordEntryViewController");
-// Writing MetadataGetter for method: ServerPasswordEntryViewController::add_didFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::ServerPasswordEntryViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerPasswordEntryViewController::*)(System::Action_2<GlobalNamespace::INetworkPlayer*, ::Il2CppString*>*)>(&ServerPasswordEntryViewController::add_didFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPasswordEntryViewController::*)(System::Action_2<GlobalNamespace::INetworkPlayer*, ::Il2CppString*>*)>(&GlobalNamespace::ServerPasswordEntryViewController::add_didFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerPasswordEntryViewController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::INetworkPlayer*, ::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPasswordEntryViewController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::INetworkPlayer*, ::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: ServerPasswordEntryViewController::remove_didFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::ServerPasswordEntryViewController::remove_didFinishEvent
 // Il2CppName: remove_didFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerPasswordEntryViewController::*)(System::Action_2<GlobalNamespace::INetworkPlayer*, ::Il2CppString*>*)>(&ServerPasswordEntryViewController::remove_didFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPasswordEntryViewController::*)(System::Action_2<GlobalNamespace::INetworkPlayer*, ::Il2CppString*>*)>(&GlobalNamespace::ServerPasswordEntryViewController::remove_didFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerPasswordEntryViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::INetworkPlayer*, ::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPasswordEntryViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::INetworkPlayer*, ::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: ServerPasswordEntryViewController::Setup
+// Writing MetadataGetter for method: GlobalNamespace::ServerPasswordEntryViewController::Setup
 // Il2CppName: Setup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerPasswordEntryViewController::*)(GlobalNamespace::INetworkPlayer*)>(&ServerPasswordEntryViewController::Setup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPasswordEntryViewController::*)(GlobalNamespace::INetworkPlayer*)>(&GlobalNamespace::ServerPasswordEntryViewController::Setup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerPasswordEntryViewController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::INetworkPlayer*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPasswordEntryViewController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::INetworkPlayer*>()});
   }
 };
-// Writing MetadataGetter for method: ServerPasswordEntryViewController::HandleJoinClicked
+// Writing MetadataGetter for method: GlobalNamespace::ServerPasswordEntryViewController::HandleJoinClicked
 // Il2CppName: HandleJoinClicked
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerPasswordEntryViewController::*)()>(&ServerPasswordEntryViewController::HandleJoinClicked)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPasswordEntryViewController::*)()>(&GlobalNamespace::ServerPasswordEntryViewController::HandleJoinClicked)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerPasswordEntryViewController*), "HandleJoinClicked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPasswordEntryViewController*), "HandleJoinClicked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ServerPasswordEntryViewController::HandleUIKeyboardOkButtonWasPressed
+// Writing MetadataGetter for method: GlobalNamespace::ServerPasswordEntryViewController::HandleUIKeyboardOkButtonWasPressed
 // Il2CppName: HandleUIKeyboardOkButtonWasPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerPasswordEntryViewController::*)()>(&ServerPasswordEntryViewController::HandleUIKeyboardOkButtonWasPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPasswordEntryViewController::*)()>(&GlobalNamespace::ServerPasswordEntryViewController::HandleUIKeyboardOkButtonWasPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerPasswordEntryViewController*), "HandleUIKeyboardOkButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPasswordEntryViewController*), "HandleUIKeyboardOkButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ServerPasswordEntryViewController::DidActivate
+// Writing MetadataGetter for method: GlobalNamespace::ServerPasswordEntryViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerPasswordEntryViewController::*)(bool, bool, bool)>(&ServerPasswordEntryViewController::DidActivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPasswordEntryViewController::*)(bool, bool, bool)>(&GlobalNamespace::ServerPasswordEntryViewController::DidActivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerPasswordEntryViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPasswordEntryViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ServerPasswordEntryViewController::DidDeactivate
+// Writing MetadataGetter for method: GlobalNamespace::ServerPasswordEntryViewController::DidDeactivate
 // Il2CppName: DidDeactivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerPasswordEntryViewController::*)(bool, bool)>(&ServerPasswordEntryViewController::DidDeactivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPasswordEntryViewController::*)(bool, bool)>(&GlobalNamespace::ServerPasswordEntryViewController::DidDeactivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerPasswordEntryViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPasswordEntryViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ServerPasswordEntryViewController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::ServerPasswordEntryViewController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerPasswordEntryViewController::*)()>(&ServerPasswordEntryViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPasswordEntryViewController::*)()>(&GlobalNamespace::ServerPasswordEntryViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerPasswordEntryViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPasswordEntryViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerPasswordEntryViewController::*)()>(&ServerPasswordEntryViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPasswordEntryViewController::*)()>(&GlobalNamespace::ServerPasswordEntryViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerPasswordEntryViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPasswordEntryViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

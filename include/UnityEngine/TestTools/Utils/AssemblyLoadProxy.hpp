@@ -47,25 +47,25 @@ namespace UnityEngine::TestTools::Utils {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::AssemblyLoadProxy*, "UnityEngine.TestTools.Utils", "AssemblyLoadProxy");
-// Writing MetadataGetter for method: AssemblyLoadProxy::Load
+// Writing MetadataGetter for method: UnityEngine::TestTools::Utils::AssemblyLoadProxy::Load
 // Il2CppName: Load
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestTools::Utils::IAssemblyWrapper* (AssemblyLoadProxy::*)(::Il2CppString*)>(&AssemblyLoadProxy::Load)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestTools::Utils::IAssemblyWrapper* (UnityEngine::TestTools::Utils::AssemblyLoadProxy::*)(::Il2CppString*)>(&UnityEngine::TestTools::Utils::AssemblyLoadProxy::Load)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssemblyLoadProxy*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Utils::AssemblyLoadProxy*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: AssemblyLoadProxy::New_ctor
+// Writing MetadataGetter for method: UnityEngine::TestTools::Utils::AssemblyLoadProxy::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssemblyLoadProxy::*)()>(&AssemblyLoadProxy::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Utils::AssemblyLoadProxy::*)()>(&UnityEngine::TestTools::Utils::AssemblyLoadProxy::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssemblyLoadProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Utils::AssemblyLoadProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssemblyLoadProxy::*)()>(&AssemblyLoadProxy::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Utils::AssemblyLoadProxy::*)()>(&UnityEngine::TestTools::Utils::AssemblyLoadProxy::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssemblyLoadProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Utils::AssemblyLoadProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

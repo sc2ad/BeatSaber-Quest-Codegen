@@ -36,19 +36,19 @@ namespace System::Net {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebExceptionMapping*, "System.Net", "WebExceptionMapping");
-// Writing MetadataGetter for method: WebExceptionMapping::GetWebStatusString
+// Writing MetadataGetter for method: System::Net::WebExceptionMapping::GetWebStatusString
 // Il2CppName: GetWebStatusString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Net::WebExceptionStatus)>(&WebExceptionMapping::GetWebStatusString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Net::WebExceptionStatus)>(&System::Net::WebExceptionMapping::GetWebStatusString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebExceptionMapping*), "GetWebStatusString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::WebExceptionStatus>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebExceptionMapping*), "GetWebStatusString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::WebExceptionStatus>()});
   }
 };
-// Writing MetadataGetter for method: WebExceptionMapping::_cctor
+// Writing MetadataGetter for method: System::Net::WebExceptionMapping::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&WebExceptionMapping::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Net::WebExceptionMapping::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebExceptionMapping*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebExceptionMapping*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

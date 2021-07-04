@@ -64,25 +64,25 @@ namespace System::Text::RegularExpressions {
   static_assert(sizeof(MatchSparse) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::MatchSparse*, "System.Text.RegularExpressions", "MatchSparse");
-// Writing MetadataGetter for method: MatchSparse::New_ctor
+// Writing MetadataGetter for method: System::Text::RegularExpressions::MatchSparse::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchSparse::*)(System::Text::RegularExpressions::Regex*, System::Collections::Hashtable*, int, ::Il2CppString*, int, int, int)>(&MatchSparse::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::MatchSparse::*)(System::Text::RegularExpressions::Regex*, System::Collections::Hashtable*, int, ::Il2CppString*, int, int, int)>(&System::Text::RegularExpressions::MatchSparse::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MatchSparse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::Regex*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Hashtable*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::MatchSparse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::Regex*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Hashtable*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchSparse::*)(System::Text::RegularExpressions::Regex*, System::Collections::Hashtable*, int, ::Il2CppString*, int, int, int)>(&MatchSparse::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::MatchSparse::*)(System::Text::RegularExpressions::Regex*, System::Collections::Hashtable*, int, ::Il2CppString*, int, int, int)>(&System::Text::RegularExpressions::MatchSparse::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MatchSparse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::Regex*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Hashtable*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::MatchSparse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::Regex*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Hashtable*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: MatchSparse::get_Groups
+// Writing MetadataGetter for method: System::Text::RegularExpressions::MatchSparse::get_Groups
 // Il2CppName: get_Groups
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::GroupCollection* (MatchSparse::*)()>(&MatchSparse::get_Groups)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::GroupCollection* (System::Text::RegularExpressions::MatchSparse::*)()>(&System::Text::RegularExpressions::MatchSparse::get_Groups)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MatchSparse*), "get_Groups", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::MatchSparse*), "get_Groups", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

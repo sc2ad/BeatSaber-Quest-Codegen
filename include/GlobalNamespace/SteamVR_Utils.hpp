@@ -101,139 +101,139 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Utils*, "", "SteamVR_Utils");
-// Writing MetadataGetter for method: SteamVR_Utils::Slerp
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::Slerp
 // Il2CppName: Slerp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Quaternion, UnityEngine::Quaternion, float)>(&SteamVR_Utils::Slerp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Quaternion, UnityEngine::Quaternion, float)>(&GlobalNamespace::SteamVR_Utils::Slerp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "Slerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils*), "Slerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: SteamVR_Utils::Lerp
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::Lerp
 // Il2CppName: Lerp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Vector3, UnityEngine::Vector3, float)>(&SteamVR_Utils::Lerp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Vector3, UnityEngine::Vector3, float)>(&GlobalNamespace::SteamVR_Utils::Lerp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "Lerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils*), "Lerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: SteamVR_Utils::Lerp
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::Lerp
 // Il2CppName: Lerp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float, float)>(&SteamVR_Utils::Lerp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float, float)>(&GlobalNamespace::SteamVR_Utils::Lerp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "Lerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils*), "Lerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: SteamVR_Utils::Lerp
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::Lerp
 // Il2CppName: Lerp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, double, double)>(&SteamVR_Utils::Lerp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, double, double)>(&GlobalNamespace::SteamVR_Utils::Lerp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "Lerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils*), "Lerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: SteamVR_Utils::InverseLerp
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::InverseLerp
 // Il2CppName: InverseLerp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3)>(&SteamVR_Utils::InverseLerp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3)>(&GlobalNamespace::SteamVR_Utils::InverseLerp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "InverseLerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils*), "InverseLerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: SteamVR_Utils::InverseLerp
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::InverseLerp
 // Il2CppName: InverseLerp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float, float)>(&SteamVR_Utils::InverseLerp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float, float)>(&GlobalNamespace::SteamVR_Utils::InverseLerp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "InverseLerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils*), "InverseLerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: SteamVR_Utils::InverseLerp
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::InverseLerp
 // Il2CppName: InverseLerp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, double, double)>(&SteamVR_Utils::InverseLerp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, double, double)>(&GlobalNamespace::SteamVR_Utils::InverseLerp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "InverseLerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils*), "InverseLerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: SteamVR_Utils::Saturate
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::Saturate
 // Il2CppName: Saturate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&SteamVR_Utils::Saturate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&GlobalNamespace::SteamVR_Utils::Saturate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "Saturate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils*), "Saturate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: SteamVR_Utils::Saturate
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::Saturate
 // Il2CppName: Saturate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Vector2)>(&SteamVR_Utils::Saturate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Vector2)>(&GlobalNamespace::SteamVR_Utils::Saturate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "Saturate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils*), "Saturate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
   }
 };
-// Writing MetadataGetter for method: SteamVR_Utils::Abs
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::Abs
 // Il2CppName: Abs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&SteamVR_Utils::Abs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&GlobalNamespace::SteamVR_Utils::Abs)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "Abs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils*), "Abs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: SteamVR_Utils::Abs
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::Abs
 // Il2CppName: Abs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Vector2)>(&SteamVR_Utils::Abs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Vector2)>(&GlobalNamespace::SteamVR_Utils::Abs)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "Abs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils*), "Abs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
   }
 };
-// Writing MetadataGetter for method: SteamVR_Utils::_copysign
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::_copysign
 // Il2CppName: _copysign
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float)>(&SteamVR_Utils::_copysign)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float)>(&GlobalNamespace::SteamVR_Utils::_copysign)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "_copysign", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils*), "_copysign", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: SteamVR_Utils::GetRotation
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::GetRotation
 // Il2CppName: GetRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Matrix4x4)>(&SteamVR_Utils::GetRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Matrix4x4)>(&GlobalNamespace::SteamVR_Utils::GetRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "GetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils*), "GetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
   }
 };
-// Writing MetadataGetter for method: SteamVR_Utils::GetPosition
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::GetPosition
 // Il2CppName: GetPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Matrix4x4)>(&SteamVR_Utils::GetPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Matrix4x4)>(&GlobalNamespace::SteamVR_Utils::GetPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "GetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils*), "GetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
   }
 };
-// Writing MetadataGetter for method: SteamVR_Utils::GetScale
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::GetScale
 // Il2CppName: GetScale
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Matrix4x4)>(&SteamVR_Utils::GetScale)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Matrix4x4)>(&GlobalNamespace::SteamVR_Utils::GetScale)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "GetScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils*), "GetScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
   }
 };
-// Writing MetadataGetter for method: SteamVR_Utils::CallSystemFn
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::CallSystemFn
 // Il2CppName: CallSystemFn
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(GlobalNamespace::SteamVR_Utils::SystemFn*, ::Array<::Il2CppObject*>*)>(&SteamVR_Utils::CallSystemFn)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(GlobalNamespace::SteamVR_Utils::SystemFn*, ::Array<::Il2CppObject*>*)>(&GlobalNamespace::SteamVR_Utils::CallSystemFn)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "CallSystemFn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SteamVR_Utils::SystemFn*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils*), "CallSystemFn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SteamVR_Utils::SystemFn*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
   }
 };
-// Writing MetadataGetter for method: SteamVR_Utils::TakeStereoScreenshot
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::TakeStereoScreenshot
 // Il2CppName: TakeStereoScreenshot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint, UnityEngine::GameObject*, int, float, ::Il2CppString*&, ::Il2CppString*&)>(&SteamVR_Utils::TakeStereoScreenshot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint, UnityEngine::GameObject*, int, float, ::Il2CppString*&, ::Il2CppString*&)>(&GlobalNamespace::SteamVR_Utils::TakeStereoScreenshot)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_Utils*), "TakeStereoScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils*), "TakeStereoScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
   }
 };

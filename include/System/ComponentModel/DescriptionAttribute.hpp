@@ -77,71 +77,71 @@ namespace System::ComponentModel {
   static_assert(sizeof(DescriptionAttribute) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::DescriptionAttribute*, "System.ComponentModel", "DescriptionAttribute");
-// Writing MetadataGetter for method: DescriptionAttribute::New_ctor
+// Writing MetadataGetter for method: System::ComponentModel::DescriptionAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DescriptionAttribute::*)(::Il2CppString*)>(&DescriptionAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::ComponentModel::DescriptionAttribute::*)(::Il2CppString*)>(&System::ComponentModel::DescriptionAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DescriptionAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::DescriptionAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DescriptionAttribute::*)(::Il2CppString*)>(&DescriptionAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::ComponentModel::DescriptionAttribute::*)(::Il2CppString*)>(&System::ComponentModel::DescriptionAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DescriptionAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::DescriptionAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: DescriptionAttribute::get_Description
+// Writing MetadataGetter for method: System::ComponentModel::DescriptionAttribute::get_Description
 // Il2CppName: get_Description
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DescriptionAttribute::*)()>(&DescriptionAttribute::get_Description)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::ComponentModel::DescriptionAttribute::*)()>(&System::ComponentModel::DescriptionAttribute::get_Description)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DescriptionAttribute*), "get_Description", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::DescriptionAttribute*), "get_Description", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DescriptionAttribute::get_DescriptionValue
+// Writing MetadataGetter for method: System::ComponentModel::DescriptionAttribute::get_DescriptionValue
 // Il2CppName: get_DescriptionValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DescriptionAttribute::*)()>(&DescriptionAttribute::get_DescriptionValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::ComponentModel::DescriptionAttribute::*)()>(&System::ComponentModel::DescriptionAttribute::get_DescriptionValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DescriptionAttribute*), "get_DescriptionValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::DescriptionAttribute*), "get_DescriptionValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DescriptionAttribute::_cctor
+// Writing MetadataGetter for method: System::ComponentModel::DescriptionAttribute::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&DescriptionAttribute::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::ComponentModel::DescriptionAttribute::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DescriptionAttribute*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::DescriptionAttribute*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DescriptionAttribute::New_ctor
+// Writing MetadataGetter for method: System::ComponentModel::DescriptionAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DescriptionAttribute::*)()>(&DescriptionAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::ComponentModel::DescriptionAttribute::*)()>(&System::ComponentModel::DescriptionAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DescriptionAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::DescriptionAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DescriptionAttribute::*)()>(&DescriptionAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::ComponentModel::DescriptionAttribute::*)()>(&System::ComponentModel::DescriptionAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DescriptionAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::DescriptionAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DescriptionAttribute::Equals
+// Writing MetadataGetter for method: System::ComponentModel::DescriptionAttribute::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DescriptionAttribute::*)(::Il2CppObject*)>(&DescriptionAttribute::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::ComponentModel::DescriptionAttribute::*)(::Il2CppObject*)>(&System::ComponentModel::DescriptionAttribute::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DescriptionAttribute*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::DescriptionAttribute*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: DescriptionAttribute::GetHashCode
+// Writing MetadataGetter for method: System::ComponentModel::DescriptionAttribute::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DescriptionAttribute::*)()>(&DescriptionAttribute::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::ComponentModel::DescriptionAttribute::*)()>(&System::ComponentModel::DescriptionAttribute::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DescriptionAttribute*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::DescriptionAttribute*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

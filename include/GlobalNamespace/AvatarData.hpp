@@ -253,295 +253,295 @@ namespace GlobalNamespace {
   static_assert(sizeof(AvatarData) == 0xD0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarData*, "", "AvatarData");
-// Writing MetadataGetter for method: AvatarData::get_headTopId
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_headTopId
 // Il2CppName: get_headTopId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AvatarData::*)()>(&AvatarData::get_headTopId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_headTopId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "get_headTopId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "get_headTopId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AvatarData::set_headTopId
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::set_headTopId
 // Il2CppName: set_headTopId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarData::*)(::Il2CppString*)>(&AvatarData::set_headTopId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::Il2CppString*)>(&GlobalNamespace::AvatarData::set_headTopId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "set_headTopId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "set_headTopId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: AvatarData::get_glassesId
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_glassesId
 // Il2CppName: get_glassesId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AvatarData::*)()>(&AvatarData::get_glassesId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_glassesId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "get_glassesId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "get_glassesId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AvatarData::set_glassesId
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::set_glassesId
 // Il2CppName: set_glassesId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarData::*)(::Il2CppString*)>(&AvatarData::set_glassesId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::Il2CppString*)>(&GlobalNamespace::AvatarData::set_glassesId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "set_glassesId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "set_glassesId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: AvatarData::get_facialHairId
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_facialHairId
 // Il2CppName: get_facialHairId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AvatarData::*)()>(&AvatarData::get_facialHairId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_facialHairId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "get_facialHairId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "get_facialHairId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AvatarData::set_facialHairId
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::set_facialHairId
 // Il2CppName: set_facialHairId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarData::*)(::Il2CppString*)>(&AvatarData::set_facialHairId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::Il2CppString*)>(&GlobalNamespace::AvatarData::set_facialHairId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "set_facialHairId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "set_facialHairId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: AvatarData::get_handsId
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_handsId
 // Il2CppName: get_handsId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AvatarData::*)()>(&AvatarData::get_handsId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_handsId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "get_handsId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "get_handsId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AvatarData::set_handsId
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::set_handsId
 // Il2CppName: set_handsId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarData::*)(::Il2CppString*)>(&AvatarData::set_handsId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::Il2CppString*)>(&GlobalNamespace::AvatarData::set_handsId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "set_handsId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "set_handsId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: AvatarData::get_clothesId
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_clothesId
 // Il2CppName: get_clothesId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AvatarData::*)()>(&AvatarData::get_clothesId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_clothesId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "get_clothesId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "get_clothesId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AvatarData::set_clothesId
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::set_clothesId
 // Il2CppName: set_clothesId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarData::*)(::Il2CppString*)>(&AvatarData::set_clothesId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::Il2CppString*)>(&GlobalNamespace::AvatarData::set_clothesId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "set_clothesId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "set_clothesId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: AvatarData::get_eyesId
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_eyesId
 // Il2CppName: get_eyesId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AvatarData::*)()>(&AvatarData::get_eyesId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_eyesId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "get_eyesId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "get_eyesId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AvatarData::set_eyesId
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::set_eyesId
 // Il2CppName: set_eyesId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarData::*)(::Il2CppString*)>(&AvatarData::set_eyesId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::Il2CppString*)>(&GlobalNamespace::AvatarData::set_eyesId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "set_eyesId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "set_eyesId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: AvatarData::get_mouthId
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_mouthId
 // Il2CppName: get_mouthId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AvatarData::*)()>(&AvatarData::get_mouthId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_mouthId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "get_mouthId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "get_mouthId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AvatarData::set_mouthId
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::set_mouthId
 // Il2CppName: set_mouthId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarData::*)(::Il2CppString*)>(&AvatarData::set_mouthId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::Il2CppString*)>(&GlobalNamespace::AvatarData::set_mouthId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "set_mouthId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "set_mouthId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: AvatarData::get_headTopPrimaryColor
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_headTopPrimaryColor
 // Il2CppName: get_headTopPrimaryColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (AvatarData::*)()>(&AvatarData::get_headTopPrimaryColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_headTopPrimaryColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "get_headTopPrimaryColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "get_headTopPrimaryColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AvatarData::set_headTopPrimaryColor
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::set_headTopPrimaryColor
 // Il2CppName: set_headTopPrimaryColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarData::*)(UnityEngine::Color)>(&AvatarData::set_headTopPrimaryColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(UnityEngine::Color)>(&GlobalNamespace::AvatarData::set_headTopPrimaryColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "set_headTopPrimaryColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "set_headTopPrimaryColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: AvatarData::get_headTopSecondaryColor
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_headTopSecondaryColor
 // Il2CppName: get_headTopSecondaryColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (AvatarData::*)()>(&AvatarData::get_headTopSecondaryColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_headTopSecondaryColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "get_headTopSecondaryColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "get_headTopSecondaryColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AvatarData::set_headTopSecondaryColor
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::set_headTopSecondaryColor
 // Il2CppName: set_headTopSecondaryColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarData::*)(UnityEngine::Color)>(&AvatarData::set_headTopSecondaryColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(UnityEngine::Color)>(&GlobalNamespace::AvatarData::set_headTopSecondaryColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "set_headTopSecondaryColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "set_headTopSecondaryColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: AvatarData::get_glassesColor
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_glassesColor
 // Il2CppName: get_glassesColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (AvatarData::*)()>(&AvatarData::get_glassesColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_glassesColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "get_glassesColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "get_glassesColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AvatarData::set_glassesColor
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::set_glassesColor
 // Il2CppName: set_glassesColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarData::*)(UnityEngine::Color)>(&AvatarData::set_glassesColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(UnityEngine::Color)>(&GlobalNamespace::AvatarData::set_glassesColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "set_glassesColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "set_glassesColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: AvatarData::get_facialHairColor
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_facialHairColor
 // Il2CppName: get_facialHairColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (AvatarData::*)()>(&AvatarData::get_facialHairColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_facialHairColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "get_facialHairColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "get_facialHairColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AvatarData::set_facialHairColor
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::set_facialHairColor
 // Il2CppName: set_facialHairColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarData::*)(UnityEngine::Color)>(&AvatarData::set_facialHairColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(UnityEngine::Color)>(&GlobalNamespace::AvatarData::set_facialHairColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "set_facialHairColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "set_facialHairColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: AvatarData::get_handsColor
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_handsColor
 // Il2CppName: get_handsColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (AvatarData::*)()>(&AvatarData::get_handsColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_handsColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "get_handsColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "get_handsColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AvatarData::set_handsColor
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::set_handsColor
 // Il2CppName: set_handsColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarData::*)(UnityEngine::Color)>(&AvatarData::set_handsColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(UnityEngine::Color)>(&GlobalNamespace::AvatarData::set_handsColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "set_handsColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "set_handsColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: AvatarData::get_clothesPrimaryColor
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_clothesPrimaryColor
 // Il2CppName: get_clothesPrimaryColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (AvatarData::*)()>(&AvatarData::get_clothesPrimaryColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_clothesPrimaryColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "get_clothesPrimaryColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "get_clothesPrimaryColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AvatarData::set_clothesPrimaryColor
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::set_clothesPrimaryColor
 // Il2CppName: set_clothesPrimaryColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarData::*)(UnityEngine::Color)>(&AvatarData::set_clothesPrimaryColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(UnityEngine::Color)>(&GlobalNamespace::AvatarData::set_clothesPrimaryColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "set_clothesPrimaryColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "set_clothesPrimaryColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: AvatarData::get_clothesSecondaryColor
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_clothesSecondaryColor
 // Il2CppName: get_clothesSecondaryColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (AvatarData::*)()>(&AvatarData::get_clothesSecondaryColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_clothesSecondaryColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "get_clothesSecondaryColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "get_clothesSecondaryColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AvatarData::set_clothesSecondaryColor
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::set_clothesSecondaryColor
 // Il2CppName: set_clothesSecondaryColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarData::*)(UnityEngine::Color)>(&AvatarData::set_clothesSecondaryColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(UnityEngine::Color)>(&GlobalNamespace::AvatarData::set_clothesSecondaryColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "set_clothesSecondaryColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "set_clothesSecondaryColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: AvatarData::get_clothesDetailColor
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_clothesDetailColor
 // Il2CppName: get_clothesDetailColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (AvatarData::*)()>(&AvatarData::get_clothesDetailColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_clothesDetailColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "get_clothesDetailColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "get_clothesDetailColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AvatarData::set_clothesDetailColor
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::set_clothesDetailColor
 // Il2CppName: set_clothesDetailColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarData::*)(UnityEngine::Color)>(&AvatarData::set_clothesDetailColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(UnityEngine::Color)>(&GlobalNamespace::AvatarData::set_clothesDetailColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "set_clothesDetailColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "set_clothesDetailColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: AvatarData::get_skinColorId
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::get_skinColorId
 // Il2CppName: get_skinColorId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AvatarData::*)()>(&AvatarData::get_skinColorId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::get_skinColorId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "get_skinColorId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "get_skinColorId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AvatarData::set_skinColorId
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::set_skinColorId
 // Il2CppName: set_skinColorId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarData::*)(::Il2CppString*)>(&AvatarData::set_skinColorId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::Il2CppString*)>(&GlobalNamespace::AvatarData::set_skinColorId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "set_skinColorId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "set_skinColorId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: AvatarData::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarData::*)(::Il2CppString*, UnityEngine::Color, UnityEngine::Color, ::Il2CppString*, UnityEngine::Color, ::Il2CppString*, UnityEngine::Color, ::Il2CppString*, UnityEngine::Color, ::Il2CppString*, UnityEngine::Color, UnityEngine::Color, UnityEngine::Color, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&AvatarData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::Il2CppString*, UnityEngine::Color, UnityEngine::Color, ::Il2CppString*, UnityEngine::Color, ::Il2CppString*, UnityEngine::Color, ::Il2CppString*, UnityEngine::Color, ::Il2CppString*, UnityEngine::Color, UnityEngine::Color, UnityEngine::Color, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::AvatarData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarData::*)(::Il2CppString*, UnityEngine::Color, UnityEngine::Color, ::Il2CppString*, UnityEngine::Color, ::Il2CppString*, UnityEngine::Color, ::Il2CppString*, UnityEngine::Color, ::Il2CppString*, UnityEngine::Color, UnityEngine::Color, UnityEngine::Color, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&AvatarData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)(::Il2CppString*, UnityEngine::Color, UnityEngine::Color, ::Il2CppString*, UnityEngine::Color, ::Il2CppString*, UnityEngine::Color, ::Il2CppString*, UnityEngine::Color, ::Il2CppString*, UnityEngine::Color, UnityEngine::Color, UnityEngine::Color, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::AvatarData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: AvatarData::Clone
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::Clone
 // Il2CppName: Clone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AvatarData* (AvatarData::*)()>(&AvatarData::Clone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AvatarData* (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::Clone)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AvatarData::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::AvatarData::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarData::*)()>(&AvatarData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarData::*)()>(&AvatarData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarData::*)()>(&GlobalNamespace::AvatarData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

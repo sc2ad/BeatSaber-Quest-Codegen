@@ -98,73 +98,73 @@ namespace UnityEngine::Animations {
   static_assert(sizeof(AnimationRemoveScalePlayable) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationRemoveScalePlayable, "UnityEngine.Animations", "AnimationRemoveScalePlayable");
-// Writing MetadataGetter for method: AnimationRemoveScalePlayable::Create
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationRemoveScalePlayable::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animations::AnimationRemoveScalePlayable (*)(UnityEngine::Playables::PlayableGraph, int)>(&AnimationRemoveScalePlayable::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animations::AnimationRemoveScalePlayable (*)(UnityEngine::Playables::PlayableGraph, int)>(&UnityEngine::Animations::AnimationRemoveScalePlayable::Create)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationRemoveScalePlayable), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationRemoveScalePlayable), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: AnimationRemoveScalePlayable::CreateHandle
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationRemoveScalePlayable::CreateHandle
 // Il2CppName: CreateHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (*)(UnityEngine::Playables::PlayableGraph, int)>(&AnimationRemoveScalePlayable::CreateHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (*)(UnityEngine::Playables::PlayableGraph, int)>(&UnityEngine::Animations::AnimationRemoveScalePlayable::CreateHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationRemoveScalePlayable), "CreateHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationRemoveScalePlayable), "CreateHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: AnimationRemoveScalePlayable::AnimationRemoveScalePlayable
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationRemoveScalePlayable::AnimationRemoveScalePlayable
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationRemoveScalePlayable::*)(UnityEngine::Playables::PlayableHandle)>(&AnimationRemoveScalePlayable::AnimationRemoveScalePlayable<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animations::AnimationRemoveScalePlayable::*)(UnityEngine::Playables::PlayableHandle)>(&UnityEngine::Animations::AnimationRemoveScalePlayable::AnimationRemoveScalePlayable<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationRemoveScalePlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationRemoveScalePlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationRemoveScalePlayable::*)(UnityEngine::Playables::PlayableHandle)>(&AnimationRemoveScalePlayable::AnimationRemoveScalePlayable<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animations::AnimationRemoveScalePlayable::*)(UnityEngine::Playables::PlayableHandle)>(&UnityEngine::Animations::AnimationRemoveScalePlayable::AnimationRemoveScalePlayable<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationRemoveScalePlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationRemoveScalePlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
   }
 };
-// Writing MetadataGetter for method: AnimationRemoveScalePlayable::GetHandle
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationRemoveScalePlayable::GetHandle
 // Il2CppName: GetHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (AnimationRemoveScalePlayable::*)()>(&AnimationRemoveScalePlayable::GetHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (UnityEngine::Animations::AnimationRemoveScalePlayable::*)()>(&UnityEngine::Animations::AnimationRemoveScalePlayable::GetHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationRemoveScalePlayable), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationRemoveScalePlayable), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AnimationRemoveScalePlayable::Equals
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationRemoveScalePlayable::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationRemoveScalePlayable::*)(UnityEngine::Animations::AnimationRemoveScalePlayable)>(&AnimationRemoveScalePlayable::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animations::AnimationRemoveScalePlayable::*)(UnityEngine::Animations::AnimationRemoveScalePlayable)>(&UnityEngine::Animations::AnimationRemoveScalePlayable::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationRemoveScalePlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimationRemoveScalePlayable>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationRemoveScalePlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimationRemoveScalePlayable>()});
   }
 };
-// Writing MetadataGetter for method: AnimationRemoveScalePlayable::CreateHandleInternal
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationRemoveScalePlayable::CreateHandleInternal
 // Il2CppName: CreateHandleInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Playables::PlayableHandle&)>(&AnimationRemoveScalePlayable::CreateHandleInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Playables::PlayableHandle&)>(&UnityEngine::Animations::AnimationRemoveScalePlayable::CreateHandleInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationRemoveScalePlayable), "CreateHandleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationRemoveScalePlayable), "CreateHandleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
   }
 };
-// Writing MetadataGetter for method: AnimationRemoveScalePlayable::_cctor
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationRemoveScalePlayable::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AnimationRemoveScalePlayable::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Animations::AnimationRemoveScalePlayable::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationRemoveScalePlayable), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationRemoveScalePlayable), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AnimationRemoveScalePlayable::CreateHandleInternal_Injected
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationRemoveScalePlayable::CreateHandleInternal_Injected
 // Il2CppName: CreateHandleInternal_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&, UnityEngine::Playables::PlayableHandle&)>(&AnimationRemoveScalePlayable::CreateHandleInternal_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&, UnityEngine::Playables::PlayableHandle&)>(&UnityEngine::Animations::AnimationRemoveScalePlayable::CreateHandleInternal_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationRemoveScalePlayable), "CreateHandleInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationRemoveScalePlayable), "CreateHandleInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
   }
 };

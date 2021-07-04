@@ -104,73 +104,73 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionNodeSelectionManager) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodeSelectionManager*, "", "MissionNodeSelectionManager");
-// Writing MetadataGetter for method: MissionNodeSelectionManager::add_didSelectMissionNodeEvent
+// Writing MetadataGetter for method: GlobalNamespace::MissionNodeSelectionManager::add_didSelectMissionNodeEvent
 // Il2CppName: add_didSelectMissionNodeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodeSelectionManager::*)(System::Action_1<GlobalNamespace::MissionNodeVisualController*>*)>(&MissionNodeSelectionManager::add_didSelectMissionNodeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeSelectionManager::*)(System::Action_1<GlobalNamespace::MissionNodeVisualController*>*)>(&GlobalNamespace::MissionNodeSelectionManager::add_didSelectMissionNodeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodeSelectionManager*), "add_didSelectMissionNodeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MissionNodeVisualController*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeSelectionManager*), "add_didSelectMissionNodeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MissionNodeVisualController*>*>()});
   }
 };
-// Writing MetadataGetter for method: MissionNodeSelectionManager::remove_didSelectMissionNodeEvent
+// Writing MetadataGetter for method: GlobalNamespace::MissionNodeSelectionManager::remove_didSelectMissionNodeEvent
 // Il2CppName: remove_didSelectMissionNodeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodeSelectionManager::*)(System::Action_1<GlobalNamespace::MissionNodeVisualController*>*)>(&MissionNodeSelectionManager::remove_didSelectMissionNodeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeSelectionManager::*)(System::Action_1<GlobalNamespace::MissionNodeVisualController*>*)>(&GlobalNamespace::MissionNodeSelectionManager::remove_didSelectMissionNodeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodeSelectionManager*), "remove_didSelectMissionNodeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MissionNodeVisualController*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeSelectionManager*), "remove_didSelectMissionNodeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MissionNodeVisualController*>*>()});
   }
 };
-// Writing MetadataGetter for method: MissionNodeSelectionManager::DeselectSelectedNode
+// Writing MetadataGetter for method: GlobalNamespace::MissionNodeSelectionManager::DeselectSelectedNode
 // Il2CppName: DeselectSelectedNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodeSelectionManager::*)()>(&MissionNodeSelectionManager::DeselectSelectedNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeSelectionManager::*)()>(&GlobalNamespace::MissionNodeSelectionManager::DeselectSelectedNode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodeSelectionManager*), "DeselectSelectedNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeSelectionManager*), "DeselectSelectedNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionNodeSelectionManager::Start
+// Writing MetadataGetter for method: GlobalNamespace::MissionNodeSelectionManager::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodeSelectionManager::*)()>(&MissionNodeSelectionManager::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeSelectionManager::*)()>(&GlobalNamespace::MissionNodeSelectionManager::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodeSelectionManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeSelectionManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionNodeSelectionManager::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::MissionNodeSelectionManager::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodeSelectionManager::*)()>(&MissionNodeSelectionManager::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeSelectionManager::*)()>(&GlobalNamespace::MissionNodeSelectionManager::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodeSelectionManager*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeSelectionManager*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionNodeSelectionManager::HandleNodeWasSelect
+// Writing MetadataGetter for method: GlobalNamespace::MissionNodeSelectionManager::HandleNodeWasSelect
 // Il2CppName: HandleNodeWasSelect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodeSelectionManager::*)(GlobalNamespace::MissionNodeVisualController*)>(&MissionNodeSelectionManager::HandleNodeWasSelect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeSelectionManager::*)(GlobalNamespace::MissionNodeVisualController*)>(&GlobalNamespace::MissionNodeSelectionManager::HandleNodeWasSelect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodeSelectionManager*), "HandleNodeWasSelect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNodeVisualController*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeSelectionManager*), "HandleNodeWasSelect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNodeVisualController*>()});
   }
 };
-// Writing MetadataGetter for method: MissionNodeSelectionManager::HandleNodeWasDisplayed
+// Writing MetadataGetter for method: GlobalNamespace::MissionNodeSelectionManager::HandleNodeWasDisplayed
 // Il2CppName: HandleNodeWasDisplayed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodeSelectionManager::*)(GlobalNamespace::MissionNodeVisualController*)>(&MissionNodeSelectionManager::HandleNodeWasDisplayed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeSelectionManager::*)(GlobalNamespace::MissionNodeVisualController*)>(&GlobalNamespace::MissionNodeSelectionManager::HandleNodeWasDisplayed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodeSelectionManager*), "HandleNodeWasDisplayed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNodeVisualController*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeSelectionManager*), "HandleNodeWasDisplayed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNodeVisualController*>()});
   }
 };
-// Writing MetadataGetter for method: MissionNodeSelectionManager::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MissionNodeSelectionManager::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodeSelectionManager::*)()>(&MissionNodeSelectionManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeSelectionManager::*)()>(&GlobalNamespace::MissionNodeSelectionManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodeSelectionManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeSelectionManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNodeSelectionManager::*)()>(&MissionNodeSelectionManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeSelectionManager::*)()>(&GlobalNamespace::MissionNodeSelectionManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNodeSelectionManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeSelectionManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -163,113 +163,113 @@ namespace GlobalNamespace {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager*, "", "MultiplayerConnectedPlayerBeatmapObjectManager");
-// Writing MetadataGetter for method: MultiplayerConnectedPlayerBeatmapObjectManager::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerBeatmapObjectManager::*)(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData*, GlobalNamespace::IConnectedPlayerNoteEventManager*, GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::Pool*, GlobalNamespace::MultiplayerConnectedPlayerBombNoteController::Pool*, GlobalNamespace::MultiplayerConnectedPlayerObstacleController::Pool*)>(&MultiplayerConnectedPlayerBeatmapObjectManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::*)(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData*, GlobalNamespace::IConnectedPlayerNoteEventManager*, GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::Pool*, GlobalNamespace::MultiplayerConnectedPlayerBombNoteController::Pool*, GlobalNamespace::MultiplayerConnectedPlayerObstacleController::Pool*)>(&GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerBeatmapObjectManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayerNoteEventManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::Pool*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerConnectedPlayerBombNoteController::Pool*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerConnectedPlayerObstacleController::Pool*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayerNoteEventManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::Pool*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerConnectedPlayerBombNoteController::Pool*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerConnectedPlayerObstacleController::Pool*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerBeatmapObjectManager::*)(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData*, GlobalNamespace::IConnectedPlayerNoteEventManager*, GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::Pool*, GlobalNamespace::MultiplayerConnectedPlayerBombNoteController::Pool*, GlobalNamespace::MultiplayerConnectedPlayerObstacleController::Pool*)>(&MultiplayerConnectedPlayerBeatmapObjectManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::*)(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData*, GlobalNamespace::IConnectedPlayerNoteEventManager*, GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::Pool*, GlobalNamespace::MultiplayerConnectedPlayerBombNoteController::Pool*, GlobalNamespace::MultiplayerConnectedPlayerObstacleController::Pool*)>(&GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerBeatmapObjectManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayerNoteEventManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::Pool*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerConnectedPlayerBombNoteController::Pool*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerConnectedPlayerObstacleController::Pool*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayerNoteEventManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::Pool*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerConnectedPlayerBombNoteController::Pool*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerConnectedPlayerObstacleController::Pool*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerConnectedPlayerBeatmapObjectManager::Dispose
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerBeatmapObjectManager::*)()>(&MultiplayerConnectedPlayerBeatmapObjectManager::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::*)()>(&GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerBeatmapObjectManager*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerConnectedPlayerBeatmapObjectManager::HandleMultiplayerNoteEventManagerNoteWasCut
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::HandleMultiplayerNoteEventManagerNoteWasCut
 // Il2CppName: HandleMultiplayerNoteEventManagerNoteWasCut
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerBeatmapObjectManager::*)(GlobalNamespace::NoteCutInfoNetSerializable*)>(&MultiplayerConnectedPlayerBeatmapObjectManager::HandleMultiplayerNoteEventManagerNoteWasCut)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::*)(GlobalNamespace::NoteCutInfoNetSerializable*)>(&GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::HandleMultiplayerNoteEventManagerNoteWasCut)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerBeatmapObjectManager*), "HandleMultiplayerNoteEventManagerNoteWasCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfoNetSerializable*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager*), "HandleMultiplayerNoteEventManagerNoteWasCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfoNetSerializable*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerConnectedPlayerBeatmapObjectManager::AreNotesSame
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::AreNotesSame
 // Il2CppName: AreNotesSame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::NoteController*, GlobalNamespace::NoteCutInfoNetSerializable*)>(&MultiplayerConnectedPlayerBeatmapObjectManager::AreNotesSame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::NoteController*, GlobalNamespace::NoteCutInfoNetSerializable*)>(&GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::AreNotesSame)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerBeatmapObjectManager*), "AreNotesSame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfoNetSerializable*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager*), "AreNotesSame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfoNetSerializable*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerConnectedPlayerBeatmapObjectManager::get_activeObstacleControllers
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::get_activeObstacleControllers
 // Il2CppName: get_activeObstacleControllers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* (MultiplayerConnectedPlayerBeatmapObjectManager::*)()>(&MultiplayerConnectedPlayerBeatmapObjectManager::get_activeObstacleControllers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* (GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::*)()>(&GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::get_activeObstacleControllers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerBeatmapObjectManager*), "get_activeObstacleControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager*), "get_activeObstacleControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerConnectedPlayerBeatmapObjectManager::SpawnObstacleInternal
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::SpawnObstacleInternal
 // Il2CppName: SpawnObstacleInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ObstacleController* (MultiplayerConnectedPlayerBeatmapObjectManager::*)(GlobalNamespace::ObstacleData*, GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData, float)>(&MultiplayerConnectedPlayerBeatmapObjectManager::SpawnObstacleInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ObstacleController* (GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::*)(GlobalNamespace::ObstacleData*, GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData, float)>(&GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::SpawnObstacleInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerBeatmapObjectManager*), "SpawnObstacleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager*), "SpawnObstacleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerConnectedPlayerBeatmapObjectManager::SpawnBombNoteInternal
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::SpawnBombNoteInternal
 // Il2CppName: SpawnBombNoteInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteController* (MultiplayerConnectedPlayerBeatmapObjectManager::*)(GlobalNamespace::NoteData*, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData, float)>(&MultiplayerConnectedPlayerBeatmapObjectManager::SpawnBombNoteInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteController* (GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::*)(GlobalNamespace::NoteData*, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData, float)>(&GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::SpawnBombNoteInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerBeatmapObjectManager*), "SpawnBombNoteInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager*), "SpawnBombNoteInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerConnectedPlayerBeatmapObjectManager::SpawnBasicNoteInternal
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::SpawnBasicNoteInternal
 // Il2CppName: SpawnBasicNoteInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteController* (MultiplayerConnectedPlayerBeatmapObjectManager::*)(GlobalNamespace::NoteData*, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData, float, float)>(&MultiplayerConnectedPlayerBeatmapObjectManager::SpawnBasicNoteInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteController* (GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::*)(GlobalNamespace::NoteData*, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData, float, float)>(&GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::SpawnBasicNoteInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerBeatmapObjectManager*), "SpawnBasicNoteInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager*), "SpawnBasicNoteInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerConnectedPlayerBeatmapObjectManager::DespawnInternal
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::DespawnInternal
 // Il2CppName: DespawnInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerBeatmapObjectManager::*)(GlobalNamespace::NoteController*)>(&MultiplayerConnectedPlayerBeatmapObjectManager::DespawnInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::*)(GlobalNamespace::NoteController*)>(&GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::DespawnInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerBeatmapObjectManager*), "DespawnInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager*), "DespawnInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerConnectedPlayerBeatmapObjectManager::DespawnInternal
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::DespawnInternal
 // Il2CppName: DespawnInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerBeatmapObjectManager::*)(GlobalNamespace::ObstacleController*)>(&MultiplayerConnectedPlayerBeatmapObjectManager::DespawnInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::*)(GlobalNamespace::ObstacleController*)>(&GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::DespawnInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerBeatmapObjectManager*), "DespawnInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleController*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager*), "DespawnInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleController*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerConnectedPlayerBeatmapObjectManager::DissolveAllObjects
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::DissolveAllObjects
 // Il2CppName: DissolveAllObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerBeatmapObjectManager::*)()>(&MultiplayerConnectedPlayerBeatmapObjectManager::DissolveAllObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::*)()>(&GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::DissolveAllObjects)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerBeatmapObjectManager*), "DissolveAllObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager*), "DissolveAllObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerConnectedPlayerBeatmapObjectManager::HideAllBeatmapObjects
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::HideAllBeatmapObjects
 // Il2CppName: HideAllBeatmapObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerBeatmapObjectManager::*)(bool)>(&MultiplayerConnectedPlayerBeatmapObjectManager::HideAllBeatmapObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::*)(bool)>(&GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::HideAllBeatmapObjects)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerBeatmapObjectManager*), "HideAllBeatmapObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager*), "HideAllBeatmapObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerConnectedPlayerBeatmapObjectManager::PauseAllBeatmapObjects
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::PauseAllBeatmapObjects
 // Il2CppName: PauseAllBeatmapObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerBeatmapObjectManager::*)(bool)>(&MultiplayerConnectedPlayerBeatmapObjectManager::PauseAllBeatmapObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::*)(bool)>(&GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::PauseAllBeatmapObjects)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerBeatmapObjectManager*), "PauseAllBeatmapObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager*), "PauseAllBeatmapObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };

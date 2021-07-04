@@ -75,49 +75,49 @@ namespace System::Text {
   static_assert(sizeof(UTF7Encoding::DecoderUTF7FallbackBuffer) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer*, "System.Text", "UTF7Encoding/DecoderUTF7FallbackBuffer");
-// Writing MetadataGetter for method: UTF7Encoding::DecoderUTF7FallbackBuffer::New_ctor
+// Writing MetadataGetter for method: System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UTF7Encoding::DecoderUTF7FallbackBuffer::*)(System::Text::UTF7Encoding::DecoderUTF7Fallback*)>(&UTF7Encoding::DecoderUTF7FallbackBuffer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer::*)(System::Text::UTF7Encoding::DecoderUTF7Fallback*)>(&System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UTF7Encoding::DecoderUTF7FallbackBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::UTF7Encoding::DecoderUTF7Fallback*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::UTF7Encoding::DecoderUTF7Fallback*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UTF7Encoding::DecoderUTF7FallbackBuffer::*)(System::Text::UTF7Encoding::DecoderUTF7Fallback*)>(&UTF7Encoding::DecoderUTF7FallbackBuffer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer::*)(System::Text::UTF7Encoding::DecoderUTF7Fallback*)>(&System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UTF7Encoding::DecoderUTF7FallbackBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::UTF7Encoding::DecoderUTF7Fallback*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::UTF7Encoding::DecoderUTF7Fallback*>()});
   }
 };
-// Writing MetadataGetter for method: UTF7Encoding::DecoderUTF7FallbackBuffer::Fallback
+// Writing MetadataGetter for method: System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer::Fallback
 // Il2CppName: Fallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UTF7Encoding::DecoderUTF7FallbackBuffer::*)(::Array<uint8_t>*, int)>(&UTF7Encoding::DecoderUTF7FallbackBuffer::Fallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer::*)(::Array<uint8_t>*, int)>(&System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer::Fallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UTF7Encoding::DecoderUTF7FallbackBuffer*), "Fallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer*), "Fallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: UTF7Encoding::DecoderUTF7FallbackBuffer::GetNextChar
+// Writing MetadataGetter for method: System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer::GetNextChar
 // Il2CppName: GetNextChar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (UTF7Encoding::DecoderUTF7FallbackBuffer::*)()>(&UTF7Encoding::DecoderUTF7FallbackBuffer::GetNextChar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer::*)()>(&System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer::GetNextChar)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UTF7Encoding::DecoderUTF7FallbackBuffer*), "GetNextChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer*), "GetNextChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UTF7Encoding::DecoderUTF7FallbackBuffer::Reset
+// Writing MetadataGetter for method: System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer::Reset
 // Il2CppName: Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UTF7Encoding::DecoderUTF7FallbackBuffer::*)()>(&UTF7Encoding::DecoderUTF7FallbackBuffer::Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer::*)()>(&System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer::Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UTF7Encoding::DecoderUTF7FallbackBuffer*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UTF7Encoding::DecoderUTF7FallbackBuffer::InternalFallback
+// Writing MetadataGetter for method: System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer::InternalFallback
 // Il2CppName: InternalFallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UTF7Encoding::DecoderUTF7FallbackBuffer::*)(::Array<uint8_t>*, uint8_t*)>(&UTF7Encoding::DecoderUTF7FallbackBuffer::InternalFallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer::*)(::Array<uint8_t>*, uint8_t*)>(&System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer::InternalFallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UTF7Encoding::DecoderUTF7FallbackBuffer*), "InternalFallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::UTF7Encoding::DecoderUTF7FallbackBuffer*), "InternalFallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>()});
   }
 };

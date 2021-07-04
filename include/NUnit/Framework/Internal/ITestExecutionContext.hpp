@@ -59,59 +59,59 @@ namespace NUnit::Framework::Internal {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::ITestExecutionContext*, "NUnit.Framework.Internal", "ITestExecutionContext");
-// Writing MetadataGetter for method: ITestExecutionContext::get_CurrentResult
+// Writing MetadataGetter for method: NUnit::Framework::Internal::ITestExecutionContext::get_CurrentResult
 // Il2CppName: get_CurrentResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (ITestExecutionContext::*)()>(&ITestExecutionContext::get_CurrentResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (NUnit::Framework::Internal::ITestExecutionContext::*)()>(&NUnit::Framework::Internal::ITestExecutionContext::get_CurrentResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ITestExecutionContext*), "get_CurrentResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ITestExecutionContext*), "get_CurrentResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ITestExecutionContext::set_CurrentResult
+// Writing MetadataGetter for method: NUnit::Framework::Internal::ITestExecutionContext::set_CurrentResult
 // Il2CppName: set_CurrentResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ITestExecutionContext::*)(NUnit::Framework::Internal::TestResult*)>(&ITestExecutionContext::set_CurrentResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::ITestExecutionContext::*)(NUnit::Framework::Internal::TestResult*)>(&NUnit::Framework::Internal::ITestExecutionContext::set_CurrentResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ITestExecutionContext*), "set_CurrentResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ITestExecutionContext*), "set_CurrentResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestResult*>()});
   }
 };
-// Writing MetadataGetter for method: ITestExecutionContext::get_OutWriter
+// Writing MetadataGetter for method: NUnit::Framework::Internal::ITestExecutionContext::get_OutWriter
 // Il2CppName: get_OutWriter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::TextWriter* (ITestExecutionContext::*)()>(&ITestExecutionContext::get_OutWriter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::TextWriter* (NUnit::Framework::Internal::ITestExecutionContext::*)()>(&NUnit::Framework::Internal::ITestExecutionContext::get_OutWriter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ITestExecutionContext*), "get_OutWriter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ITestExecutionContext*), "get_OutWriter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ITestExecutionContext::get_TestObject
+// Writing MetadataGetter for method: NUnit::Framework::Internal::ITestExecutionContext::get_TestObject
 // Il2CppName: get_TestObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ITestExecutionContext::*)()>(&ITestExecutionContext::get_TestObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (NUnit::Framework::Internal::ITestExecutionContext::*)()>(&NUnit::Framework::Internal::ITestExecutionContext::get_TestObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ITestExecutionContext*), "get_TestObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ITestExecutionContext*), "get_TestObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ITestExecutionContext::set_TestObject
+// Writing MetadataGetter for method: NUnit::Framework::Internal::ITestExecutionContext::set_TestObject
 // Il2CppName: set_TestObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ITestExecutionContext::*)(::Il2CppObject*)>(&ITestExecutionContext::set_TestObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::ITestExecutionContext::*)(::Il2CppObject*)>(&NUnit::Framework::Internal::ITestExecutionContext::set_TestObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ITestExecutionContext*), "set_TestObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ITestExecutionContext*), "set_TestObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: ITestExecutionContext::get_CurrentValueFormatter
+// Writing MetadataGetter for method: NUnit::Framework::Internal::ITestExecutionContext::get_CurrentValueFormatter
 // Il2CppName: get_CurrentValueFormatter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ValueFormatter* (ITestExecutionContext::*)()>(&ITestExecutionContext::get_CurrentValueFormatter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ValueFormatter* (NUnit::Framework::Internal::ITestExecutionContext::*)()>(&NUnit::Framework::Internal::ITestExecutionContext::get_CurrentValueFormatter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ITestExecutionContext*), "get_CurrentValueFormatter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ITestExecutionContext*), "get_CurrentValueFormatter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ITestExecutionContext::IncrementAssertCount
+// Writing MetadataGetter for method: NUnit::Framework::Internal::ITestExecutionContext::IncrementAssertCount
 // Il2CppName: IncrementAssertCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ITestExecutionContext::*)()>(&ITestExecutionContext::IncrementAssertCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::ITestExecutionContext::*)()>(&NUnit::Framework::Internal::ITestExecutionContext::IncrementAssertCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ITestExecutionContext*), "IncrementAssertCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ITestExecutionContext*), "IncrementAssertCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

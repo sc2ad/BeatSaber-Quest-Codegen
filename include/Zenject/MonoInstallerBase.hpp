@@ -77,57 +77,57 @@ namespace Zenject {
   static_assert(sizeof(MonoInstallerBase) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::MonoInstallerBase*, "Zenject", "MonoInstallerBase");
-// Writing MetadataGetter for method: MonoInstallerBase::get_Container
+// Writing MetadataGetter for method: Zenject::MonoInstallerBase::get_Container
 // Il2CppName: get_Container
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (MonoInstallerBase::*)()>(&MonoInstallerBase::get_Container)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (Zenject::MonoInstallerBase::*)()>(&Zenject::MonoInstallerBase::get_Container)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoInstallerBase*), "get_Container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MonoInstallerBase*), "get_Container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MonoInstallerBase::set_Container
+// Writing MetadataGetter for method: Zenject::MonoInstallerBase::set_Container
 // Il2CppName: set_Container
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoInstallerBase::*)(Zenject::DiContainer*)>(&MonoInstallerBase::set_Container)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::MonoInstallerBase::*)(Zenject::DiContainer*)>(&Zenject::MonoInstallerBase::set_Container)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoInstallerBase*), "set_Container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MonoInstallerBase*), "set_Container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
   }
 };
-// Writing MetadataGetter for method: MonoInstallerBase::get_IsEnabled
+// Writing MetadataGetter for method: Zenject::MonoInstallerBase::get_IsEnabled
 // Il2CppName: get_IsEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MonoInstallerBase::*)()>(&MonoInstallerBase::get_IsEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::MonoInstallerBase::*)()>(&Zenject::MonoInstallerBase::get_IsEnabled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoInstallerBase*), "get_IsEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MonoInstallerBase*), "get_IsEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MonoInstallerBase::Start
+// Writing MetadataGetter for method: Zenject::MonoInstallerBase::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoInstallerBase::*)()>(&MonoInstallerBase::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::MonoInstallerBase::*)()>(&Zenject::MonoInstallerBase::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoInstallerBase*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MonoInstallerBase*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MonoInstallerBase::InstallBindings
+// Writing MetadataGetter for method: Zenject::MonoInstallerBase::InstallBindings
 // Il2CppName: InstallBindings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoInstallerBase::*)()>(&MonoInstallerBase::InstallBindings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::MonoInstallerBase::*)()>(&Zenject::MonoInstallerBase::InstallBindings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoInstallerBase*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MonoInstallerBase*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MonoInstallerBase::New_ctor
+// Writing MetadataGetter for method: Zenject::MonoInstallerBase::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoInstallerBase::*)()>(&MonoInstallerBase::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::MonoInstallerBase::*)()>(&Zenject::MonoInstallerBase::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoInstallerBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MonoInstallerBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoInstallerBase::*)()>(&MonoInstallerBase::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::MonoInstallerBase::*)()>(&Zenject::MonoInstallerBase::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoInstallerBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MonoInstallerBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -273,65 +273,65 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(AimController) == 0xB8);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimController*, "RootMotion.FinalIK", "AimController");
-// Writing MetadataGetter for method: AimController::Start
+// Writing MetadataGetter for method: RootMotion::FinalIK::AimController::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AimController::*)()>(&AimController::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::AimController::*)()>(&RootMotion::FinalIK::AimController::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AimController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::AimController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AimController::LateUpdate
+// Writing MetadataGetter for method: RootMotion::FinalIK::AimController::LateUpdate
 // Il2CppName: LateUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AimController::*)()>(&AimController::LateUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::AimController::*)()>(&RootMotion::FinalIK::AimController::LateUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AimController*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::AimController*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AimController::get_pivot
+// Writing MetadataGetter for method: RootMotion::FinalIK::AimController::get_pivot
 // Il2CppName: get_pivot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (AimController::*)()>(&AimController::get_pivot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::AimController::*)()>(&RootMotion::FinalIK::AimController::get_pivot)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AimController*), "get_pivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::AimController*), "get_pivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AimController::ApplyMinDistance
+// Writing MetadataGetter for method: RootMotion::FinalIK::AimController::ApplyMinDistance
 // Il2CppName: ApplyMinDistance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AimController::*)()>(&AimController::ApplyMinDistance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::AimController::*)()>(&RootMotion::FinalIK::AimController::ApplyMinDistance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AimController*), "ApplyMinDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::AimController*), "ApplyMinDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AimController::RootRotation
+// Writing MetadataGetter for method: RootMotion::FinalIK::AimController::RootRotation
 // Il2CppName: RootRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AimController::*)()>(&AimController::RootRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::AimController::*)()>(&RootMotion::FinalIK::AimController::RootRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AimController*), "RootRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::AimController*), "RootRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AimController::TurnToTarget
+// Writing MetadataGetter for method: RootMotion::FinalIK::AimController::TurnToTarget
 // Il2CppName: TurnToTarget
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (AimController::*)()>(&AimController::TurnToTarget)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (RootMotion::FinalIK::AimController::*)()>(&RootMotion::FinalIK::AimController::TurnToTarget)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AimController*), "TurnToTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::AimController*), "TurnToTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AimController::New_ctor
+// Writing MetadataGetter for method: RootMotion::FinalIK::AimController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AimController::*)()>(&AimController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::AimController::*)()>(&RootMotion::FinalIK::AimController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AimController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::AimController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AimController::*)()>(&AimController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::AimController::*)()>(&RootMotion::FinalIK::AimController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AimController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::AimController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

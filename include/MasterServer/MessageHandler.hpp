@@ -1174,550 +1174,550 @@ DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::MessageOrigin, "MasterServe
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::HandshakeMessageType, "MasterServer", "MessageHandler/HandshakeMessageType");
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::UserMessageType, "MasterServer", "MessageHandler/UserMessageType");
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::DedicatedServerMessageType, "MasterServer", "MessageHandler/DedicatedServerMessageType");
-// Writing MetadataGetter for method: MessageHandler::get_encryptionLayer
+// Writing MetadataGetter for method: MasterServer::MessageHandler::get_encryptionLayer
 // Il2CppName: get_encryptionLayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketEncryptionLayer* (MessageHandler::*)()>(&MessageHandler::get_encryptionLayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketEncryptionLayer* (MasterServer::MessageHandler::*)()>(&MasterServer::MessageHandler::get_encryptionLayer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "get_encryptionLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "get_encryptionLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::get_timeProvider
+// Writing MetadataGetter for method: MasterServer::MessageHandler::get_timeProvider
 // Il2CppName: get_timeProvider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ITimeProvider* (MessageHandler::*)()>(&MessageHandler::get_timeProvider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ITimeProvider* (MasterServer::MessageHandler::*)()>(&MasterServer::MessageHandler::get_timeProvider)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "get_timeProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "get_timeProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::New_ctor
+// Writing MetadataGetter for method: MasterServer::MessageHandler::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(GlobalNamespace::IUnconnectedSenderReceiver*, MasterServer::ITimeProvider*, MasterServer::IAnalyticsManager*)>(&MessageHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(GlobalNamespace::IUnconnectedSenderReceiver*, MasterServer::ITimeProvider*, MasterServer::IAnalyticsManager*)>(&MasterServer::MessageHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IUnconnectedSenderReceiver*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::ITimeProvider*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IAnalyticsManager*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IUnconnectedSenderReceiver*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::ITimeProvider*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IAnalyticsManager*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(GlobalNamespace::IUnconnectedSenderReceiver*, MasterServer::ITimeProvider*, MasterServer::IAnalyticsManager*)>(&MessageHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(GlobalNamespace::IUnconnectedSenderReceiver*, MasterServer::ITimeProvider*, MasterServer::IAnalyticsManager*)>(&MasterServer::MessageHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IUnconnectedSenderReceiver*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::ITimeProvider*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IAnalyticsManager*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IUnconnectedSenderReceiver*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::ITimeProvider*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IAnalyticsManager*>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::RegisterHandshakeMessageHandlers
+// Writing MetadataGetter for method: MasterServer::MessageHandler::RegisterHandshakeMessageHandlers
 // Il2CppName: RegisterHandshakeMessageHandlers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)()>(&MessageHandler::RegisterHandshakeMessageHandlers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)()>(&MasterServer::MessageHandler::RegisterHandshakeMessageHandlers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "RegisterHandshakeMessageHandlers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "RegisterHandshakeMessageHandlers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::ShouldHandleHandshakeMessage
+// Writing MetadataGetter for method: MasterServer::MessageHandler::ShouldHandleHandshakeMessage
 // Il2CppName: ShouldHandleHandshakeMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MessageHandler::*)(MasterServer::IHandshakeMessage*, MasterServer::MessageHandler::MessageOrigin)>(&MessageHandler::ShouldHandleHandshakeMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::MessageHandler::*)(MasterServer::IHandshakeMessage*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::ShouldHandleHandshakeMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "ShouldHandleHandshakeMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::IHandshakeMessage*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "ShouldHandleHandshakeMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::IHandshakeMessage*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::HandleClientHelloRequest
+// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleClientHelloRequest
 // Il2CppName: HandleClientHelloRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(MasterServer::ClientHelloRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MessageHandler::HandleClientHelloRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::ClientHelloRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleClientHelloRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "HandleClientHelloRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::ClientHelloRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleClientHelloRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::ClientHelloRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::HandleHelloVerifyRequest
+// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleHelloVerifyRequest
 // Il2CppName: HandleHelloVerifyRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(MasterServer::HelloVerifyRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MessageHandler::HandleHelloVerifyRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::HelloVerifyRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleHelloVerifyRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "HandleHelloVerifyRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::HelloVerifyRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleHelloVerifyRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::HelloVerifyRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::HandleClientHelloWithCookieRequest
+// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleClientHelloWithCookieRequest
 // Il2CppName: HandleClientHelloWithCookieRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(MasterServer::ClientHelloWithCookieRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MessageHandler::HandleClientHelloWithCookieRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::ClientHelloWithCookieRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleClientHelloWithCookieRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "HandleClientHelloWithCookieRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::ClientHelloWithCookieRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleClientHelloWithCookieRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::ClientHelloWithCookieRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::RegisterUserMessageHandlers
+// Writing MetadataGetter for method: MasterServer::MessageHandler::RegisterUserMessageHandlers
 // Il2CppName: RegisterUserMessageHandlers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)()>(&MessageHandler::RegisterUserMessageHandlers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)()>(&MasterServer::MessageHandler::RegisterUserMessageHandlers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "RegisterUserMessageHandlers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "RegisterUserMessageHandlers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::ShouldHandleUserMessage
+// Writing MetadataGetter for method: MasterServer::MessageHandler::ShouldHandleUserMessage
 // Il2CppName: ShouldHandleUserMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MessageHandler::*)(MasterServer::IUserMessage*, MasterServer::MessageHandler::MessageOrigin)>(&MessageHandler::ShouldHandleUserMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::MessageHandler::*)(MasterServer::IUserMessage*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::ShouldHandleUserMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "ShouldHandleUserMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::IUserMessage*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "ShouldHandleUserMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::IUserMessage*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::HandleUserServerStatusUpdateRequest
+// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleUserServerStatusUpdateRequest
 // Il2CppName: HandleUserServerStatusUpdateRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(MasterServer::UserServerStatusUpdateRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MessageHandler::HandleUserServerStatusUpdateRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::UserServerStatusUpdateRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleUserServerStatusUpdateRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "HandleUserServerStatusUpdateRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::UserServerStatusUpdateRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleUserServerStatusUpdateRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::UserServerStatusUpdateRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::HandleUserServerHeartbeatRequest
+// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleUserServerHeartbeatRequest
 // Il2CppName: HandleUserServerHeartbeatRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(MasterServer::UserServerHeartbeatRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MessageHandler::HandleUserServerHeartbeatRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::UserServerHeartbeatRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleUserServerHeartbeatRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "HandleUserServerHeartbeatRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::UserServerHeartbeatRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleUserServerHeartbeatRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::UserServerHeartbeatRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::HandleUserServerHeartbeatResponse
+// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleUserServerHeartbeatResponse
 // Il2CppName: HandleUserServerHeartbeatResponse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(MasterServer::UserServerHeartbeatResponse*, MasterServer::MessageHandler::MessageOrigin)>(&MessageHandler::HandleUserServerHeartbeatResponse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::UserServerHeartbeatResponse*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleUserServerHeartbeatResponse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "HandleUserServerHeartbeatResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::UserServerHeartbeatResponse*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleUserServerHeartbeatResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::UserServerHeartbeatResponse*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::HandleUserServerRemoveRequest
+// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleUserServerRemoveRequest
 // Il2CppName: HandleUserServerRemoveRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(MasterServer::UserServerRemoveRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MessageHandler::HandleUserServerRemoveRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::UserServerRemoveRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleUserServerRemoveRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "HandleUserServerRemoveRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::UserServerRemoveRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleUserServerRemoveRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::UserServerRemoveRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::HandleConnectToUserServerRequest
+// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleConnectToUserServerRequest
 // Il2CppName: HandleConnectToUserServerRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(MasterServer::ConnectToUserServerRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MessageHandler::HandleConnectToUserServerRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::ConnectToUserServerRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleConnectToUserServerRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "HandleConnectToUserServerRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::ConnectToUserServerRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleConnectToUserServerRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::ConnectToUserServerRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::HandleConnectToMatchmakingServerRequest
+// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleConnectToMatchmakingServerRequest
 // Il2CppName: HandleConnectToMatchmakingServerRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(MasterServer::ConnectToMatchmakingServerRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MessageHandler::HandleConnectToMatchmakingServerRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::ConnectToMatchmakingServerRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleConnectToMatchmakingServerRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "HandleConnectToMatchmakingServerRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::ConnectToMatchmakingServerRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleConnectToMatchmakingServerRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::ConnectToMatchmakingServerRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::HandlePrepareForConnectionRequest
+// Writing MetadataGetter for method: MasterServer::MessageHandler::HandlePrepareForConnectionRequest
 // Il2CppName: HandlePrepareForConnectionRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(MasterServer::PrepareForConnectionRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MessageHandler::HandlePrepareForConnectionRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::PrepareForConnectionRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandlePrepareForConnectionRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "HandlePrepareForConnectionRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::PrepareForConnectionRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandlePrepareForConnectionRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::PrepareForConnectionRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::HandleGetPublicUserServersRequest
+// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleGetPublicUserServersRequest
 // Il2CppName: HandleGetPublicUserServersRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(MasterServer::GetPublicUserServersRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MessageHandler::HandleGetPublicUserServersRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::GetPublicUserServersRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleGetPublicUserServersRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "HandleGetPublicUserServersRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::GetPublicUserServersRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleGetPublicUserServersRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::GetPublicUserServersRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::HandleSessionKeepaliveMessage
+// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleSessionKeepaliveMessage
 // Il2CppName: HandleSessionKeepaliveMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(MasterServer::SessionKeepaliveMessage*, MasterServer::MessageHandler::MessageOrigin)>(&MessageHandler::HandleSessionKeepaliveMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::SessionKeepaliveMessage*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleSessionKeepaliveMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "HandleSessionKeepaliveMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::SessionKeepaliveMessage*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleSessionKeepaliveMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::SessionKeepaliveMessage*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::RegisterDedicatedServerHandlers
+// Writing MetadataGetter for method: MasterServer::MessageHandler::RegisterDedicatedServerHandlers
 // Il2CppName: RegisterDedicatedServerHandlers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)()>(&MessageHandler::RegisterDedicatedServerHandlers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)()>(&MasterServer::MessageHandler::RegisterDedicatedServerHandlers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "RegisterDedicatedServerHandlers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "RegisterDedicatedServerHandlers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::ShouldHandleDedicatedServerMessage
+// Writing MetadataGetter for method: MasterServer::MessageHandler::ShouldHandleDedicatedServerMessage
 // Il2CppName: ShouldHandleDedicatedServerMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MessageHandler::*)(MasterServer::IDedicatedServerMessage*, MasterServer::MessageHandler::MessageOrigin)>(&MessageHandler::ShouldHandleDedicatedServerMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::MessageHandler::*)(MasterServer::IDedicatedServerMessage*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::ShouldHandleDedicatedServerMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "ShouldHandleDedicatedServerMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::IDedicatedServerMessage*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "ShouldHandleDedicatedServerMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::IDedicatedServerMessage*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::HandleGetAvailableRelayServerRequest
+// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleGetAvailableRelayServerRequest
 // Il2CppName: HandleGetAvailableRelayServerRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(MasterServer::CreateRelayServerRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MessageHandler::HandleGetAvailableRelayServerRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::CreateRelayServerRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleGetAvailableRelayServerRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "HandleGetAvailableRelayServerRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::CreateRelayServerRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleGetAvailableRelayServerRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::CreateRelayServerRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::HandleGetAvailableMatchmakingServerRequest
+// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleGetAvailableMatchmakingServerRequest
 // Il2CppName: HandleGetAvailableMatchmakingServerRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(MasterServer::CreateMatchmakingServerRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MessageHandler::HandleGetAvailableMatchmakingServerRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::CreateMatchmakingServerRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleGetAvailableMatchmakingServerRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "HandleGetAvailableMatchmakingServerRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::CreateMatchmakingServerRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleGetAvailableMatchmakingServerRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::CreateMatchmakingServerRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::HandleDedicatedServerNoLongerAvailableRequest
+// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleDedicatedServerNoLongerAvailableRequest
 // Il2CppName: HandleDedicatedServerNoLongerAvailableRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(MasterServer::DedicatedServerNoLongerOccupiedRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MessageHandler::HandleDedicatedServerNoLongerAvailableRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::DedicatedServerNoLongerOccupiedRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleDedicatedServerNoLongerAvailableRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "HandleDedicatedServerNoLongerAvailableRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::DedicatedServerNoLongerOccupiedRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleDedicatedServerNoLongerAvailableRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::DedicatedServerNoLongerOccupiedRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::HandleDedicatedServerHeartbeatRequest
+// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleDedicatedServerHeartbeatRequest
 // Il2CppName: HandleDedicatedServerHeartbeatRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(MasterServer::DedicatedServerHeartbeatRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MessageHandler::HandleDedicatedServerHeartbeatRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::DedicatedServerHeartbeatRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleDedicatedServerHeartbeatRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "HandleDedicatedServerHeartbeatRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::DedicatedServerHeartbeatRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleDedicatedServerHeartbeatRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::DedicatedServerHeartbeatRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::HandleDedicatedServerHeartbeatResponse
+// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleDedicatedServerHeartbeatResponse
 // Il2CppName: HandleDedicatedServerHeartbeatResponse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(MasterServer::DedicatedServerHeartbeatResponse*, MasterServer::MessageHandler::MessageOrigin)>(&MessageHandler::HandleDedicatedServerHeartbeatResponse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::DedicatedServerHeartbeatResponse*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleDedicatedServerHeartbeatResponse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "HandleDedicatedServerHeartbeatResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::DedicatedServerHeartbeatResponse*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleDedicatedServerHeartbeatResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::DedicatedServerHeartbeatResponse*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::HandleRelayServerStatusUpdateRequest
+// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleRelayServerStatusUpdateRequest
 // Il2CppName: HandleRelayServerStatusUpdateRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(MasterServer::RelayServerStatusUpdateRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MessageHandler::HandleRelayServerStatusUpdateRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::RelayServerStatusUpdateRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleRelayServerStatusUpdateRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "HandleRelayServerStatusUpdateRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::RelayServerStatusUpdateRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleRelayServerStatusUpdateRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::RelayServerStatusUpdateRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::HandleMatchmakingServerStatusUpdateRequest
+// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleMatchmakingServerStatusUpdateRequest
 // Il2CppName: HandleMatchmakingServerStatusUpdateRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(MasterServer::MatchmakingServerStatusUpdateRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MessageHandler::HandleMatchmakingServerStatusUpdateRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::MatchmakingServerStatusUpdateRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleMatchmakingServerStatusUpdateRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "HandleMatchmakingServerStatusUpdateRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::MatchmakingServerStatusUpdateRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleMatchmakingServerStatusUpdateRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::MatchmakingServerStatusUpdateRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::HandleDedicatedServerShutDownRequest
+// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleDedicatedServerShutDownRequest
 // Il2CppName: HandleDedicatedServerShutDownRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(MasterServer::DedicatedServerShutDownRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MessageHandler::HandleDedicatedServerShutDownRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::DedicatedServerShutDownRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleDedicatedServerShutDownRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "HandleDedicatedServerShutDownRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::DedicatedServerShutDownRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleDedicatedServerShutDownRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::DedicatedServerShutDownRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::HandleDedicatedServerPrepareForConnectionRequest
+// Writing MetadataGetter for method: MasterServer::MessageHandler::HandleDedicatedServerPrepareForConnectionRequest
 // Il2CppName: HandleDedicatedServerPrepareForConnectionRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(MasterServer::DedicatedServerPrepareForConnectionRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MessageHandler::HandleDedicatedServerPrepareForConnectionRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::DedicatedServerPrepareForConnectionRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::HandleDedicatedServerPrepareForConnectionRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "HandleDedicatedServerPrepareForConnectionRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::DedicatedServerPrepareForConnectionRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "HandleDedicatedServerPrepareForConnectionRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::DedicatedServerPrepareForConnectionRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::ObtainVersioned
+// Writing MetadataGetter for method: MasterServer::MessageHandler::ObtainVersioned
 // Il2CppName: ObtainVersioned
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: MessageHandler::DefaultAcknowledgeHandler
+// Writing MetadataGetter for method: MasterServer::MessageHandler::DefaultAcknowledgeHandler
 // Il2CppName: DefaultAcknowledgeHandler
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: MessageHandler::DefaultResponseHandler
+// Writing MetadataGetter for method: MasterServer::MessageHandler::DefaultResponseHandler
 // Il2CppName: DefaultResponseHandler
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: MessageHandler::DefaultMultipartMessageHandler
+// Writing MetadataGetter for method: MasterServer::MessageHandler::DefaultMultipartMessageHandler
 // Il2CppName: DefaultMultipartMessageHandler
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: MessageHandler::CustomResponseHandler
+// Writing MetadataGetter for method: MasterServer::MessageHandler::CustomResponseHandler
 // Il2CppName: CustomResponseHandler
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: MessageHandler::CustomUnreliableResponseHandler
+// Writing MetadataGetter for method: MasterServer::MessageHandler::CustomUnreliableResponseHandler
 // Il2CppName: CustomUnreliableResponseHandler
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: MessageHandler::IsUnhandledMessage
+// Writing MetadataGetter for method: MasterServer::MessageHandler::IsUnhandledMessage
 // Il2CppName: IsUnhandledMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MessageHandler::*)(MasterServer::IMasterServerReliableRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MessageHandler::IsUnhandledMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::MessageHandler::*)(MasterServer::IMasterServerReliableRequest*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::IsUnhandledMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "IsUnhandledMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "IsUnhandledMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::CompleteSend
+// Writing MetadataGetter for method: MasterServer::MessageHandler::CompleteSend
 // Il2CppName: CompleteSend
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(MasterServer::IMasterServerResponse*, System::Net::IPEndPoint*)>(&MessageHandler::CompleteSend)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(MasterServer::IMasterServerResponse*, System::Net::IPEndPoint*)>(&MasterServer::MessageHandler::CompleteSend)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "CompleteSend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerResponse*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "CompleteSend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerResponse*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::CompleteRequest
+// Writing MetadataGetter for method: MasterServer::MessageHandler::CompleteRequest
 // Il2CppName: CompleteRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MessageHandler::*)(MasterServer::IMasterServerReliableResponse*, System::Net::IPEndPoint*)>(&MessageHandler::CompleteRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::MessageHandler::*)(MasterServer::IMasterServerReliableResponse*, System::Net::IPEndPoint*)>(&MasterServer::MessageHandler::CompleteRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "CompleteRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableResponse*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "CompleteRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableResponse*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::ShouldHandleMessage
+// Writing MetadataGetter for method: MasterServer::MessageHandler::ShouldHandleMessage
 // Il2CppName: ShouldHandleMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MessageHandler::*)(MasterServer::IMasterServerMessage*, MasterServer::MessageHandler::MessageOrigin)>(&MessageHandler::ShouldHandleMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::MessageHandler::*)(MasterServer::IMasterServerMessage*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::MessageHandler::ShouldHandleMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "ShouldHandleMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerMessage*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "ShouldHandleMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerMessage*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::MessageHandler::MessageOrigin>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::GetAndSendResponse
+// Writing MetadataGetter for method: MasterServer::MessageHandler::GetAndSendResponse
 // Il2CppName: GetAndSendResponse
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: MessageHandler::GetAndSendResponseAsync
+// Writing MetadataGetter for method: MasterServer::MessageHandler::GetAndSendResponseAsync
 // Il2CppName: GetAndSendResponseAsync
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: MessageHandler::GetAndSendUnreilableResponse
+// Writing MetadataGetter for method: MasterServer::MessageHandler::GetAndSendUnreilableResponse
 // Il2CppName: GetAndSendUnreilableResponse
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: MessageHandler::SendUnreliableMessage
+// Writing MetadataGetter for method: MasterServer::MessageHandler::SendUnreliableMessage
 // Il2CppName: SendUnreliableMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(uint, System::Net::IPEndPoint*, MasterServer::IMasterServerUnreliableMessage*)>(&MessageHandler::SendUnreliableMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(uint, System::Net::IPEndPoint*, MasterServer::IMasterServerUnreliableMessage*)>(&MasterServer::MessageHandler::SendUnreliableMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "SendUnreliableMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerUnreliableMessage*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "SendUnreliableMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerUnreliableMessage*>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::SendUnreliableResponse
+// Writing MetadataGetter for method: MasterServer::MessageHandler::SendUnreliableResponse
 // Il2CppName: SendUnreliableResponse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, MasterServer::IMasterServerResponse*)>(&MessageHandler::SendUnreliableResponse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, MasterServer::IMasterServerResponse*)>(&MasterServer::MessageHandler::SendUnreliableResponse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "SendUnreliableResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerResponse*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "SendUnreliableResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerResponse*>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::SendUnreliableResponse
+// Writing MetadataGetter for method: MasterServer::MessageHandler::SendUnreliableResponse
 // Il2CppName: SendUnreliableResponse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(uint, System::Net::IPEndPoint*, uint, MasterServer::IMasterServerResponse*)>(&MessageHandler::SendUnreliableResponse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(uint, System::Net::IPEndPoint*, uint, MasterServer::IMasterServerResponse*)>(&MasterServer::MessageHandler::SendUnreliableResponse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "SendUnreliableResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerResponse*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "SendUnreliableResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerResponse*>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::SendReliableRequest
+// Writing MetadataGetter for method: MasterServer::MessageHandler::SendReliableRequest
 // Il2CppName: SendReliableRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken)>(&MessageHandler::SendReliableRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken)>(&MasterServer::MessageHandler::SendReliableRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "SendReliableRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "SendReliableRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::SendReliableRequestAsync
+// Writing MetadataGetter for method: MasterServer::MessageHandler::SendReliableRequestAsync
 // Il2CppName: SendReliableRequestAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MessageHandler::*)(uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Func_5<uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task*>*, System::Threading::CancellationToken)>(&MessageHandler::SendReliableRequestAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MasterServer::MessageHandler::*)(uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Func_5<uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task*>*, System::Threading::CancellationToken)>(&MasterServer::MessageHandler::SendReliableRequestAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "SendReliableRequestAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_5<uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "SendReliableRequestAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_5<uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::SendReliableResponse
+// Writing MetadataGetter for method: MasterServer::MessageHandler::SendReliableResponse
 // Il2CppName: SendReliableResponse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, MasterServer::IMasterServerReliableResponse*, System::Threading::CancellationToken)>(&MessageHandler::SendReliableResponse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, MasterServer::IMasterServerReliableResponse*, System::Threading::CancellationToken)>(&MasterServer::MessageHandler::SendReliableResponse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "SendReliableResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableResponse*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "SendReliableResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableResponse*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::SendReliableResponse
+// Writing MetadataGetter for method: MasterServer::MessageHandler::SendReliableResponse
 // Il2CppName: SendReliableResponse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(uint, System::Net::IPEndPoint*, uint, MasterServer::IMasterServerReliableResponse*, System::Threading::CancellationToken)>(&MessageHandler::SendReliableResponse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(uint, System::Net::IPEndPoint*, uint, MasterServer::IMasterServerReliableResponse*, System::Threading::CancellationToken)>(&MasterServer::MessageHandler::SendReliableResponse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "SendReliableResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableResponse*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "SendReliableResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableResponse*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::SendReliableResponseAsync
+// Writing MetadataGetter for method: MasterServer::MessageHandler::SendReliableResponseAsync
 // Il2CppName: SendReliableResponseAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MessageHandler::*)(uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, MasterServer::IMasterServerReliableResponse*, System::Threading::CancellationToken)>(&MessageHandler::SendReliableResponseAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MasterServer::MessageHandler::*)(uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, MasterServer::IMasterServerReliableResponse*, System::Threading::CancellationToken)>(&MasterServer::MessageHandler::SendReliableResponseAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "SendReliableResponseAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableResponse*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "SendReliableResponseAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableRequest*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableResponse*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::SendReliableRequestAndAwaitResponseAsync
+// Writing MetadataGetter for method: MasterServer::MessageHandler::SendReliableRequestAndAwaitResponseAsync
 // Il2CppName: SendReliableRequestAndAwaitResponseAsync
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: MessageHandler::SendReliableResponseAndAwaitResponseAsync
+// Writing MetadataGetter for method: MasterServer::MessageHandler::SendReliableResponseAndAwaitResponseAsync
 // Il2CppName: SendReliableResponseAndAwaitResponseAsync
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: MessageHandler::SendReliableResponseAndAwaitResponseAsync
+// Writing MetadataGetter for method: MasterServer::MessageHandler::SendReliableResponseAndAwaitResponseAsync
 // Il2CppName: SendReliableResponseAndAwaitResponseAsync
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: MessageHandler::SendMessage
+// Writing MetadataGetter for method: MasterServer::MessageHandler::SendMessage
 // Il2CppName: SendMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(uint, System::Net::IPEndPoint*, MasterServer::IMasterServerMessage*)>(&MessageHandler::SendMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(uint, System::Net::IPEndPoint*, MasterServer::IMasterServerMessage*)>(&MasterServer::MessageHandler::SendMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "SendMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerMessage*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "SendMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerMessage*>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::SendMessageWithRetry
+// Writing MetadataGetter for method: MasterServer::MessageHandler::SendMessageWithRetry
 // Il2CppName: SendMessageWithRetry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken)>(&MessageHandler::SendMessageWithRetry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken)>(&MasterServer::MessageHandler::SendMessageWithRetry)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "SendMessageWithRetry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "SendMessageWithRetry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::SendMessageWithRetryAsync
+// Writing MetadataGetter for method: MasterServer::MessageHandler::SendMessageWithRetryAsync
 // Il2CppName: SendMessageWithRetryAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MessageHandler::*)(uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Func_5<uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task*>*, System::Threading::CancellationToken)>(&MessageHandler::SendMessageWithRetryAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MasterServer::MessageHandler::*)(uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Func_5<uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task*>*, System::Threading::CancellationToken)>(&MasterServer::MessageHandler::SendMessageWithRetryAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "SendMessageWithRetryAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_5<uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "SendMessageWithRetryAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_5<uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::SendMultipartMessageWithRetryAsync
+// Writing MetadataGetter for method: MasterServer::MessageHandler::SendMultipartMessageWithRetryAsync
 // Il2CppName: SendMultipartMessageWithRetryAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MessageHandler::*)(uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, LiteNetLib::Utils::NetDataWriter*, System::Func_5<uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task*>*, System::Threading::CancellationToken)>(&MessageHandler::SendMultipartMessageWithRetryAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MasterServer::MessageHandler::*)(uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, LiteNetLib::Utils::NetDataWriter*, System::Func_5<uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task*>*, System::Threading::CancellationToken)>(&MasterServer::MessageHandler::SendMultipartMessageWithRetryAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "SendMultipartMessageWithRetryAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableRequest*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_5<uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "SendMultipartMessageWithRetryAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableRequest*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_5<uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::SendMessageWithRetryAsyncInternal
+// Writing MetadataGetter for method: MasterServer::MessageHandler::SendMessageWithRetryAsyncInternal
 // Il2CppName: SendMessageWithRetryAsyncInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MessageHandler::*)(uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Func_5<uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task*>*, System::Threading::CancellationToken)>(&MessageHandler::SendMessageWithRetryAsyncInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MasterServer::MessageHandler::*)(uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Func_5<uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task*>*, System::Threading::CancellationToken)>(&MasterServer::MessageHandler::SendMessageWithRetryAsyncInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "SendMessageWithRetryAsyncInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_5<uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "SendMessageWithRetryAsyncInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerReliableRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_5<uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::SendMessageWithRetryAwaitResponseAsync
+// Writing MetadataGetter for method: MasterServer::MessageHandler::SendMessageWithRetryAwaitResponseAsync
 // Il2CppName: SendMessageWithRetryAwaitResponseAsync
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: MessageHandler::WrapOnSendFailedAwaitResponse
+// Writing MetadataGetter for method: MasterServer::MessageHandler::WrapOnSendFailedAwaitResponse
 // Il2CppName: WrapOnSendFailedAwaitResponse
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: MessageHandler::AwaitResponseAsync
+// Writing MetadataGetter for method: MasterServer::MessageHandler::AwaitResponseAsync
 // Il2CppName: AwaitResponseAsync
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: MessageHandler::WaitForRetry
+// Writing MetadataGetter for method: MasterServer::MessageHandler::WaitForRetry
 // Il2CppName: WaitForRetry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MessageHandler::*)(int, System::Threading::CancellationToken)>(&MessageHandler::WaitForRetry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MasterServer::MessageHandler::*)(int, System::Threading::CancellationToken)>(&MasterServer::MessageHandler::WaitForRetry)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "WaitForRetry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "WaitForRetry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::Write
+// Writing MetadataGetter for method: MasterServer::MessageHandler::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::Utils::NetDataWriter* (MessageHandler::*)(uint, LiteNetLib::Utils::INetSerializable*)>(&MessageHandler::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::Utils::NetDataWriter* (MasterServer::MessageHandler::*)(uint, LiteNetLib::Utils::INetSerializable*)>(&MasterServer::MessageHandler::Write)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::INetSerializable*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::INetSerializable*>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::PollUpdate
+// Writing MetadataGetter for method: MasterServer::MessageHandler::PollUpdate
 // Il2CppName: PollUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)()>(&MessageHandler::PollUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)()>(&MasterServer::MessageHandler::PollUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "PollUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "PollUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::ReceiveMessage
+// Writing MetadataGetter for method: MasterServer::MessageHandler::ReceiveMessage
 // Il2CppName: ReceiveMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataReader*)>(&MessageHandler::ReceiveMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataReader*)>(&MasterServer::MessageHandler::ReceiveMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "ReceiveMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "ReceiveMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::ShouldHandleMessageFromEndPoint
+// Writing MetadataGetter for method: MasterServer::MessageHandler::ShouldHandleMessageFromEndPoint
 // Il2CppName: ShouldHandleMessageFromEndPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MessageHandler::*)(System::Net::IPEndPoint*)>(&MessageHandler::ShouldHandleMessageFromEndPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::MessageHandler::*)(System::Net::IPEndPoint*)>(&MasterServer::MessageHandler::ShouldHandleMessageFromEndPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "ShouldHandleMessageFromEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "ShouldHandleMessageFromEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::ReceivedMessageException
+// Writing MetadataGetter for method: MasterServer::MessageHandler::ReceivedMessageException
 // Il2CppName: ReceivedMessageException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(System::Net::IPEndPoint*, System::Exception*)>(&MessageHandler::ReceivedMessageException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(System::Net::IPEndPoint*, System::Exception*)>(&MasterServer::MessageHandler::ReceivedMessageException)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "ReceivedMessageException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "ReceivedMessageException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::BeginSession
+// Writing MetadataGetter for method: MasterServer::MessageHandler::BeginSession
 // Il2CppName: BeginSession
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(System::Net::IPEndPoint*)>(&MessageHandler::BeginSession)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(System::Net::IPEndPoint*)>(&MasterServer::MessageHandler::BeginSession)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "BeginSession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "BeginSession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::BeginSession
+// Writing MetadataGetter for method: MasterServer::MessageHandler::BeginSession
 // Il2CppName: BeginSession
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)(System::Net::IPEndPoint*, uint)>(&MessageHandler::BeginSession)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)(System::Net::IPEndPoint*, uint)>(&MasterServer::MessageHandler::BeginSession)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "BeginSession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "BeginSession", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::GetNextRequestId
+// Writing MetadataGetter for method: MasterServer::MessageHandler::GetNextRequestId
 // Il2CppName: GetNextRequestId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (MessageHandler::*)(System::Net::IPEndPoint*)>(&MessageHandler::GetNextRequestId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (MasterServer::MessageHandler::*)(System::Net::IPEndPoint*)>(&MasterServer::MessageHandler::GetNextRequestId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "GetNextRequestId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "GetNextRequestId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::GetConnectionState
+// Writing MetadataGetter for method: MasterServer::MessageHandler::GetConnectionState
 // Il2CppName: GetConnectionState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::MessageHandler::ConnectionState* (MessageHandler::*)(System::Net::IPEndPoint*)>(&MessageHandler::GetConnectionState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::MessageHandler::ConnectionState* (MasterServer::MessageHandler::*)(System::Net::IPEndPoint*)>(&MasterServer::MessageHandler::GetConnectionState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "GetConnectionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "GetConnectionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::IsValidSessionStartRequestId
+// Writing MetadataGetter for method: MasterServer::MessageHandler::IsValidSessionStartRequestId
 // Il2CppName: IsValidSessionStartRequestId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MessageHandler::*)(System::Net::IPEndPoint*, uint)>(&MessageHandler::IsValidSessionStartRequestId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::MessageHandler::*)(System::Net::IPEndPoint*, uint)>(&MasterServer::MessageHandler::IsValidSessionStartRequestId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "IsValidSessionStartRequestId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "IsValidSessionStartRequestId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::IsConnectionStateEncrypted
+// Writing MetadataGetter for method: MasterServer::MessageHandler::IsConnectionStateEncrypted
 // Il2CppName: IsConnectionStateEncrypted
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MessageHandler::*)(System::Net::IPEndPoint*)>(&MessageHandler::IsConnectionStateEncrypted)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::MessageHandler::*)(System::Net::IPEndPoint*)>(&MasterServer::MessageHandler::IsConnectionStateEncrypted)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "IsConnectionStateEncrypted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "IsConnectionStateEncrypted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::GetSerializer
+// Writing MetadataGetter for method: MasterServer::MessageHandler::GetSerializer
 // Il2CppName: GetSerializer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::INetworkPacketSerializer_1<MasterServer::MessageHandler::MessageOrigin>* (MessageHandler::*)(uint, uint)>(&MessageHandler::GetSerializer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::INetworkPacketSerializer_1<MasterServer::MessageHandler::MessageOrigin>* (MasterServer::MessageHandler::*)(uint, uint)>(&MasterServer::MessageHandler::GetSerializer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "GetSerializer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "GetSerializer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::Dispose
+// Writing MetadataGetter for method: MasterServer::MessageHandler::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageHandler::*)()>(&MessageHandler::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::*)()>(&MasterServer::MessageHandler::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MessageHandler::CreateHandshakeHeader
+// Writing MetadataGetter for method: MasterServer::MessageHandler::CreateHandshakeHeader
 // Il2CppName: CreateHandshakeHeader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*)>(&MessageHandler::CreateHandshakeHeader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*)>(&MasterServer::MessageHandler::CreateHandshakeHeader)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageHandler*), "CreateHandshakeHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "CreateHandshakeHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };

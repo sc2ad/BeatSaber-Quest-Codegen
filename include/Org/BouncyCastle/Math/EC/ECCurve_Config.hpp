@@ -77,33 +77,33 @@ namespace Org::BouncyCastle::Math::EC {
   static_assert(sizeof(ECCurve::Config) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECCurve::Config*, "Org.BouncyCastle.Math.EC", "ECCurve/Config");
-// Writing MetadataGetter for method: ECCurve::Config::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECCurve::Config::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ECCurve::Config::*)(Org::BouncyCastle::Math::EC::ECCurve*, int, Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*, Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*)>(&ECCurve::Config::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::ECCurve::Config::*)(Org::BouncyCastle::Math::EC::ECCurve*, int, Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*, Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*)>(&Org::BouncyCastle::Math::EC::ECCurve::Config::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECCurve::Config*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECCurve*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECCurve::Config*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECCurve*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ECCurve::Config::*)(Org::BouncyCastle::Math::EC::ECCurve*, int, Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*, Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*)>(&ECCurve::Config::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::ECCurve::Config::*)(Org::BouncyCastle::Math::EC::ECCurve*, int, Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*, Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*)>(&Org::BouncyCastle::Math::EC::ECCurve::Config::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECCurve::Config*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECCurve*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECCurve::Config*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECCurve*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*>()});
   }
 };
-// Writing MetadataGetter for method: ECCurve::Config::SetEndomorphism
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECCurve::Config::SetEndomorphism
 // Il2CppName: SetEndomorphism
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECCurve::Config* (ECCurve::Config::*)(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*)>(&ECCurve::Config::SetEndomorphism)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECCurve::Config* (Org::BouncyCastle::Math::EC::ECCurve::Config::*)(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*)>(&Org::BouncyCastle::Math::EC::ECCurve::Config::SetEndomorphism)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECCurve::Config*), "SetEndomorphism", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECCurve::Config*), "SetEndomorphism", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*>()});
   }
 };
-// Writing MetadataGetter for method: ECCurve::Config::Create
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECCurve::Config::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECCurve* (ECCurve::Config::*)()>(&ECCurve::Config::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECCurve* (Org::BouncyCastle::Math::EC::ECCurve::Config::*)()>(&Org::BouncyCastle::Math::EC::ECCurve::Config::Create)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECCurve::Config*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECCurve::Config*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -55,33 +55,33 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Filters {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Filters::CategoryFilterExtended*, "UnityEngine.TestRunner.NUnitExtensions.Filters", "CategoryFilterExtended");
-// Writing MetadataGetter for method: CategoryFilterExtended::New_ctor
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Filters::CategoryFilterExtended::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CategoryFilterExtended::*)(::Il2CppString*)>(&CategoryFilterExtended::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Filters::CategoryFilterExtended::*)(::Il2CppString*)>(&UnityEngine::TestRunner::NUnitExtensions::Filters::CategoryFilterExtended::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CategoryFilterExtended*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Filters::CategoryFilterExtended*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CategoryFilterExtended::*)(::Il2CppString*)>(&CategoryFilterExtended::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Filters::CategoryFilterExtended::*)(::Il2CppString*)>(&UnityEngine::TestRunner::NUnitExtensions::Filters::CategoryFilterExtended::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CategoryFilterExtended*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Filters::CategoryFilterExtended*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CategoryFilterExtended::Match
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Filters::CategoryFilterExtended::Match
 // Il2CppName: Match
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CategoryFilterExtended::*)(NUnit::Framework::Interfaces::ITest*)>(&CategoryFilterExtended::Match)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestRunner::NUnitExtensions::Filters::CategoryFilterExtended::*)(NUnit::Framework::Interfaces::ITest*)>(&UnityEngine::TestRunner::NUnitExtensions::Filters::CategoryFilterExtended::Match)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CategoryFilterExtended*), "Match", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Filters::CategoryFilterExtended*), "Match", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
   }
 };
-// Writing MetadataGetter for method: CategoryFilterExtended::_cctor
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Filters::CategoryFilterExtended::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CategoryFilterExtended::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::TestRunner::NUnitExtensions::Filters::CategoryFilterExtended::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CategoryFilterExtended*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Filters::CategoryFilterExtended*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

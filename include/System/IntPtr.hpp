@@ -146,195 +146,195 @@ namespace System {
   bool operator !=(const System::IntPtr& value1, const System::IntPtr& value2);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IntPtr, "System", "IntPtr");
-// Writing MetadataGetter for method: IntPtr::IntPtr
+// Writing MetadataGetter for method: System::IntPtr::IntPtr
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntPtr::*)(int)>(&IntPtr::IntPtr<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IntPtr::*)(int)>(&System::IntPtr::IntPtr<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntPtr), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IntPtr), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntPtr::*)(int)>(&IntPtr::IntPtr<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IntPtr::*)(int)>(&System::IntPtr::IntPtr<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntPtr), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IntPtr), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: IntPtr::IntPtr
+// Writing MetadataGetter for method: System::IntPtr::IntPtr
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntPtr::*)(int64_t)>(&IntPtr::IntPtr<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IntPtr::*)(int64_t)>(&System::IntPtr::IntPtr<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntPtr), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IntPtr), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntPtr::*)(int64_t)>(&IntPtr::IntPtr<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IntPtr::*)(int64_t)>(&System::IntPtr::IntPtr<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntPtr), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IntPtr), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
   }
 };
-// Writing MetadataGetter for method: IntPtr::IntPtr
+// Writing MetadataGetter for method: System::IntPtr::IntPtr
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntPtr::*)(void*)>(&IntPtr::IntPtr<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IntPtr::*)(void*)>(&System::IntPtr::IntPtr<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntPtr), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<void*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IntPtr), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<void*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntPtr::*)(void*)>(&IntPtr::IntPtr<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IntPtr::*)(void*)>(&System::IntPtr::IntPtr<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntPtr), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<void*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IntPtr), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<void*>()});
   }
 };
-// Writing MetadataGetter for method: IntPtr::IntPtr
+// Writing MetadataGetter for method: System::IntPtr::IntPtr
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntPtr::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&IntPtr::IntPtr<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IntPtr::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::IntPtr::IntPtr<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntPtr), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IntPtr), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntPtr::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&IntPtr::IntPtr<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IntPtr::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::IntPtr::IntPtr<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntPtr), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IntPtr), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
   }
 };
-// Writing MetadataGetter for method: IntPtr::get_Size
+// Writing MetadataGetter for method: System::IntPtr::get_Size
 // Il2CppName: get_Size
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&IntPtr::get_Size)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&System::IntPtr::get_Size)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntPtr), "get_Size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IntPtr), "get_Size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IntPtr::System_Runtime_Serialization_ISerializable_GetObjectData
+// Writing MetadataGetter for method: System::IntPtr::System_Runtime_Serialization_ISerializable_GetObjectData
 // Il2CppName: System.Runtime.Serialization.ISerializable.GetObjectData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntPtr::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&IntPtr::System_Runtime_Serialization_ISerializable_GetObjectData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IntPtr::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::IntPtr::System_Runtime_Serialization_ISerializable_GetObjectData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntPtr), "System.Runtime.Serialization.ISerializable.GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IntPtr), "System.Runtime.Serialization.ISerializable.GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
   }
 };
-// Writing MetadataGetter for method: IntPtr::ToInt64
+// Writing MetadataGetter for method: System::IntPtr::ToInt64
 // Il2CppName: ToInt64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (IntPtr::*)()>(&IntPtr::ToInt64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::IntPtr::*)()>(&System::IntPtr::ToInt64)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntPtr), "ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IntPtr), "ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IntPtr::ToPointer
+// Writing MetadataGetter for method: System::IntPtr::ToPointer
 // Il2CppName: ToPointer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (IntPtr::*)()>(&IntPtr::ToPointer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (System::IntPtr::*)()>(&System::IntPtr::ToPointer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntPtr), "ToPointer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IntPtr), "ToPointer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IntPtr::ToString
+// Writing MetadataGetter for method: System::IntPtr::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IntPtr::*)(::Il2CppString*)>(&IntPtr::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IntPtr::*)(::Il2CppString*)>(&System::IntPtr::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntPtr), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IntPtr), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: IntPtr::IntPtr
+// Writing MetadataGetter for method: System::IntPtr::IntPtr
 // Il2CppName: op_Explicit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(int&)>(&IntPtr::IntPtr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(int&)>(&System::IntPtr::IntPtr)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntPtr), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IntPtr), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: IntPtr::IntPtr
+// Writing MetadataGetter for method: System::IntPtr::IntPtr
 // Il2CppName: op_Explicit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(int64_t&)>(&IntPtr::IntPtr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(int64_t&)>(&System::IntPtr::IntPtr)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntPtr), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IntPtr), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t&>()});
   }
 };
-// Writing MetadataGetter for method: IntPtr::IntPtr
+// Writing MetadataGetter for method: System::IntPtr::IntPtr
 // Il2CppName: op_Explicit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(void*)>(&IntPtr::IntPtr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(void*)>(&System::IntPtr::IntPtr)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntPtr), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<void*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IntPtr), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<void*>()});
   }
 };
-// Writing MetadataGetter for method: IntPtr::operator int
+// Writing MetadataGetter for method: System::IntPtr::operator int
 // Il2CppName: op_Explicit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&IntPtr::operator int)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&System::IntPtr::operator int)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntPtr), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IntPtr), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IntPtr::operator int64_t
+// Writing MetadataGetter for method: System::IntPtr::operator int64_t
 // Il2CppName: op_Explicit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)()>(&IntPtr::operator int64_t)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)()>(&System::IntPtr::operator int64_t)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntPtr), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IntPtr), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IntPtr::operator void*
+// Writing MetadataGetter for method: System::IntPtr::operator void*
 // Il2CppName: op_Explicit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)()>(&IntPtr::operator void*)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)()>(&System::IntPtr::operator void*)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntPtr), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IntPtr), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IntPtr::IsNull
+// Writing MetadataGetter for method: System::IntPtr::IsNull
 // Il2CppName: IsNull
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IntPtr::*)()>(&IntPtr::IsNull)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::IntPtr::*)()>(&System::IntPtr::IsNull)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntPtr), "IsNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IntPtr), "IsNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IntPtr::Equals
+// Writing MetadataGetter for method: System::IntPtr::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IntPtr::*)(::Il2CppObject*)>(&IntPtr::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::IntPtr::*)(::Il2CppObject*)>(&System::IntPtr::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntPtr), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IntPtr), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IntPtr::GetHashCode
+// Writing MetadataGetter for method: System::IntPtr::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IntPtr::*)()>(&IntPtr::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IntPtr::*)()>(&System::IntPtr::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntPtr), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IntPtr), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IntPtr::ToString
+// Writing MetadataGetter for method: System::IntPtr::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IntPtr::*)()>(&IntPtr::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IntPtr::*)()>(&System::IntPtr::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntPtr), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IntPtr), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IntPtr::operator ==
+// Writing MetadataGetter for method: System::IntPtr::operator ==
 // Il2CppName: op_Equality
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const System::IntPtr&, const System::IntPtr&)>(&IntPtr::operator ==)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const System::IntPtr&, const System::IntPtr&)>(&System::IntPtr::operator ==)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntPtr), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::IntPtr&>(), ::il2cpp_utils::ExtractIndependentType<const System::IntPtr&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IntPtr), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::IntPtr&>(), ::il2cpp_utils::ExtractIndependentType<const System::IntPtr&>()});
   }
 };
-// Writing MetadataGetter for method: IntPtr::operator !=
+// Writing MetadataGetter for method: System::IntPtr::operator !=
 // Il2CppName: op_Inequality
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const System::IntPtr&, const System::IntPtr&)>(&IntPtr::operator !=)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const System::IntPtr&, const System::IntPtr&)>(&System::IntPtr::operator !=)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntPtr), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::IntPtr&>(), ::il2cpp_utils::ExtractIndependentType<const System::IntPtr&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IntPtr), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::IntPtr&>(), ::il2cpp_utils::ExtractIndependentType<const System::IntPtr&>()});
   }
 };

@@ -201,219 +201,219 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Boolean, "System", "Boolean");
-// Writing MetadataGetter for method: bool::ToString
+// Writing MetadataGetter for method: System::Boolean::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (bool::*)(System::IFormatProvider*)>(&bool::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Boolean::*)(System::IFormatProvider*)>(&System::Boolean::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(bool), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Boolean), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
   }
 };
-// Writing MetadataGetter for method: bool::Equals
+// Writing MetadataGetter for method: System::Boolean::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (bool::*)(bool)>(&bool::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Boolean::*)(bool)>(&System::Boolean::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(bool), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Boolean), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: bool::CompareTo
+// Writing MetadataGetter for method: System::Boolean::CompareTo
 // Il2CppName: CompareTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (bool::*)(::Il2CppObject*)>(&bool::CompareTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Boolean::*)(::Il2CppObject*)>(&System::Boolean::CompareTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(bool), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Boolean), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: bool::CompareTo
+// Writing MetadataGetter for method: System::Boolean::CompareTo
 // Il2CppName: CompareTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (bool::*)(bool)>(&bool::CompareTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Boolean::*)(bool)>(&System::Boolean::CompareTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(bool), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Boolean), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: bool::Parse
+// Writing MetadataGetter for method: System::Boolean::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&bool::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&System::Boolean::Parse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(bool), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Boolean), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: bool::TryParse
+// Writing MetadataGetter for method: System::Boolean::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, bool&)>(&bool::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, bool&)>(&System::Boolean::TryParse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(bool), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Boolean), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
   }
 };
-// Writing MetadataGetter for method: bool::TrimWhiteSpaceAndNull
+// Writing MetadataGetter for method: System::Boolean::TrimWhiteSpaceAndNull
 // Il2CppName: TrimWhiteSpaceAndNull
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&bool::TrimWhiteSpaceAndNull)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Boolean::TrimWhiteSpaceAndNull)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(bool), "TrimWhiteSpaceAndNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Boolean), "TrimWhiteSpaceAndNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: bool::GetTypeCode
+// Writing MetadataGetter for method: System::Boolean::GetTypeCode
 // Il2CppName: GetTypeCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeCode (bool::*)()>(&bool::GetTypeCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeCode (System::Boolean::*)()>(&System::Boolean::GetTypeCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(bool), "GetTypeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Boolean), "GetTypeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: bool::System_IConvertible_ToBoolean
+// Writing MetadataGetter for method: System::Boolean::System_IConvertible_ToBoolean
 // Il2CppName: System.IConvertible.ToBoolean
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (bool::*)(System::IFormatProvider*)>(&bool::System_IConvertible_ToBoolean)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Boolean::*)(System::IFormatProvider*)>(&System::Boolean::System_IConvertible_ToBoolean)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(bool), "System.IConvertible.ToBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Boolean), "System.IConvertible.ToBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
   }
 };
-// Writing MetadataGetter for method: bool::System_IConvertible_ToChar
+// Writing MetadataGetter for method: System::Boolean::System_IConvertible_ToChar
 // Il2CppName: System.IConvertible.ToChar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (bool::*)(System::IFormatProvider*)>(&bool::System_IConvertible_ToChar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (System::Boolean::*)(System::IFormatProvider*)>(&System::Boolean::System_IConvertible_ToChar)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(bool), "System.IConvertible.ToChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Boolean), "System.IConvertible.ToChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
   }
 };
-// Writing MetadataGetter for method: bool::System_IConvertible_ToSByte
+// Writing MetadataGetter for method: System::Boolean::System_IConvertible_ToSByte
 // Il2CppName: System.IConvertible.ToSByte
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (bool::*)(System::IFormatProvider*)>(&bool::System_IConvertible_ToSByte)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (System::Boolean::*)(System::IFormatProvider*)>(&System::Boolean::System_IConvertible_ToSByte)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(bool), "System.IConvertible.ToSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Boolean), "System.IConvertible.ToSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
   }
 };
-// Writing MetadataGetter for method: bool::System_IConvertible_ToByte
+// Writing MetadataGetter for method: System::Boolean::System_IConvertible_ToByte
 // Il2CppName: System.IConvertible.ToByte
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (bool::*)(System::IFormatProvider*)>(&bool::System_IConvertible_ToByte)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (System::Boolean::*)(System::IFormatProvider*)>(&System::Boolean::System_IConvertible_ToByte)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(bool), "System.IConvertible.ToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Boolean), "System.IConvertible.ToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
   }
 };
-// Writing MetadataGetter for method: bool::System_IConvertible_ToInt16
+// Writing MetadataGetter for method: System::Boolean::System_IConvertible_ToInt16
 // Il2CppName: System.IConvertible.ToInt16
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (bool::*)(System::IFormatProvider*)>(&bool::System_IConvertible_ToInt16)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (System::Boolean::*)(System::IFormatProvider*)>(&System::Boolean::System_IConvertible_ToInt16)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(bool), "System.IConvertible.ToInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Boolean), "System.IConvertible.ToInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
   }
 };
-// Writing MetadataGetter for method: bool::System_IConvertible_ToUInt16
+// Writing MetadataGetter for method: System::Boolean::System_IConvertible_ToUInt16
 // Il2CppName: System.IConvertible.ToUInt16
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (bool::*)(System::IFormatProvider*)>(&bool::System_IConvertible_ToUInt16)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (System::Boolean::*)(System::IFormatProvider*)>(&System::Boolean::System_IConvertible_ToUInt16)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(bool), "System.IConvertible.ToUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Boolean), "System.IConvertible.ToUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
   }
 };
-// Writing MetadataGetter for method: bool::System_IConvertible_ToInt32
+// Writing MetadataGetter for method: System::Boolean::System_IConvertible_ToInt32
 // Il2CppName: System.IConvertible.ToInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (bool::*)(System::IFormatProvider*)>(&bool::System_IConvertible_ToInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Boolean::*)(System::IFormatProvider*)>(&System::Boolean::System_IConvertible_ToInt32)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(bool), "System.IConvertible.ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Boolean), "System.IConvertible.ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
   }
 };
-// Writing MetadataGetter for method: bool::System_IConvertible_ToUInt32
+// Writing MetadataGetter for method: System::Boolean::System_IConvertible_ToUInt32
 // Il2CppName: System.IConvertible.ToUInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (bool::*)(System::IFormatProvider*)>(&bool::System_IConvertible_ToUInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (System::Boolean::*)(System::IFormatProvider*)>(&System::Boolean::System_IConvertible_ToUInt32)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(bool), "System.IConvertible.ToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Boolean), "System.IConvertible.ToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
   }
 };
-// Writing MetadataGetter for method: bool::System_IConvertible_ToInt64
+// Writing MetadataGetter for method: System::Boolean::System_IConvertible_ToInt64
 // Il2CppName: System.IConvertible.ToInt64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (bool::*)(System::IFormatProvider*)>(&bool::System_IConvertible_ToInt64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Boolean::*)(System::IFormatProvider*)>(&System::Boolean::System_IConvertible_ToInt64)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(bool), "System.IConvertible.ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Boolean), "System.IConvertible.ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
   }
 };
-// Writing MetadataGetter for method: bool::System_IConvertible_ToUInt64
+// Writing MetadataGetter for method: System::Boolean::System_IConvertible_ToUInt64
 // Il2CppName: System.IConvertible.ToUInt64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (bool::*)(System::IFormatProvider*)>(&bool::System_IConvertible_ToUInt64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (System::Boolean::*)(System::IFormatProvider*)>(&System::Boolean::System_IConvertible_ToUInt64)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(bool), "System.IConvertible.ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Boolean), "System.IConvertible.ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
   }
 };
-// Writing MetadataGetter for method: bool::System_IConvertible_ToSingle
+// Writing MetadataGetter for method: System::Boolean::System_IConvertible_ToSingle
 // Il2CppName: System.IConvertible.ToSingle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (bool::*)(System::IFormatProvider*)>(&bool::System_IConvertible_ToSingle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (System::Boolean::*)(System::IFormatProvider*)>(&System::Boolean::System_IConvertible_ToSingle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(bool), "System.IConvertible.ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Boolean), "System.IConvertible.ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
   }
 };
-// Writing MetadataGetter for method: bool::System_IConvertible_ToDouble
+// Writing MetadataGetter for method: System::Boolean::System_IConvertible_ToDouble
 // Il2CppName: System.IConvertible.ToDouble
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (bool::*)(System::IFormatProvider*)>(&bool::System_IConvertible_ToDouble)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (System::Boolean::*)(System::IFormatProvider*)>(&System::Boolean::System_IConvertible_ToDouble)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(bool), "System.IConvertible.ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Boolean), "System.IConvertible.ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
   }
 };
-// Writing MetadataGetter for method: bool::System_IConvertible_ToDecimal
+// Writing MetadataGetter for method: System::Boolean::System_IConvertible_ToDecimal
 // Il2CppName: System.IConvertible.ToDecimal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (bool::*)(System::IFormatProvider*)>(&bool::System_IConvertible_ToDecimal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (System::Boolean::*)(System::IFormatProvider*)>(&System::Boolean::System_IConvertible_ToDecimal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(bool), "System.IConvertible.ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Boolean), "System.IConvertible.ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
   }
 };
-// Writing MetadataGetter for method: bool::System_IConvertible_ToDateTime
+// Writing MetadataGetter for method: System::Boolean::System_IConvertible_ToDateTime
 // Il2CppName: System.IConvertible.ToDateTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (bool::*)(System::IFormatProvider*)>(&bool::System_IConvertible_ToDateTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (System::Boolean::*)(System::IFormatProvider*)>(&System::Boolean::System_IConvertible_ToDateTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(bool), "System.IConvertible.ToDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Boolean), "System.IConvertible.ToDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
   }
 };
-// Writing MetadataGetter for method: bool::System_IConvertible_ToType
+// Writing MetadataGetter for method: System::Boolean::System_IConvertible_ToType
 // Il2CppName: System.IConvertible.ToType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (bool::*)(System::Type*, System::IFormatProvider*)>(&bool::System_IConvertible_ToType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Boolean::*)(System::Type*, System::IFormatProvider*)>(&System::Boolean::System_IConvertible_ToType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(bool), "System.IConvertible.ToType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Boolean), "System.IConvertible.ToType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
   }
 };
-// Writing MetadataGetter for method: bool::_cctor
+// Writing MetadataGetter for method: System::Boolean::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&bool::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Boolean::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(bool), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Boolean), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: bool::GetHashCode
+// Writing MetadataGetter for method: System::Boolean::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (bool::*)()>(&bool::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Boolean::*)()>(&System::Boolean::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(bool), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Boolean), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: bool::ToString
+// Writing MetadataGetter for method: System::Boolean::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (bool::*)()>(&bool::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Boolean::*)()>(&System::Boolean::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(bool), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Boolean), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: bool::Equals
+// Writing MetadataGetter for method: System::Boolean::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (bool::*)(::Il2CppObject*)>(&bool::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Boolean::*)(::Il2CppObject*)>(&System::Boolean::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(bool), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Boolean), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };

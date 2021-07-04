@@ -77,33 +77,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(UnityLightWithId) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnityLightWithId*, "", "UnityLightWithId");
-// Writing MetadataGetter for method: UnityLightWithId::get_color
+// Writing MetadataGetter for method: GlobalNamespace::UnityLightWithId::get_color
 // Il2CppName: get_color
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (UnityLightWithId::*)()>(&UnityLightWithId::get_color)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::UnityLightWithId::*)()>(&GlobalNamespace::UnityLightWithId::get_color)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityLightWithId*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UnityLightWithId*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityLightWithId::ColorWasSet
+// Writing MetadataGetter for method: GlobalNamespace::UnityLightWithId::ColorWasSet
 // Il2CppName: ColorWasSet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityLightWithId::*)(UnityEngine::Color)>(&UnityLightWithId::ColorWasSet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UnityLightWithId::*)(UnityEngine::Color)>(&GlobalNamespace::UnityLightWithId::ColorWasSet)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityLightWithId*), "ColorWasSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UnityLightWithId*), "ColorWasSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: UnityLightWithId::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::UnityLightWithId::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityLightWithId::*)()>(&UnityLightWithId::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UnityLightWithId::*)()>(&GlobalNamespace::UnityLightWithId::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityLightWithId*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UnityLightWithId*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityLightWithId::*)()>(&UnityLightWithId::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UnityLightWithId::*)()>(&GlobalNamespace::UnityLightWithId::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityLightWithId*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UnityLightWithId*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

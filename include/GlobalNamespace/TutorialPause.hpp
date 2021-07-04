@@ -130,89 +130,89 @@ namespace GlobalNamespace {
   static_assert(sizeof(TutorialPause) == 0x41);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialPause*, "", "TutorialPause");
-// Writing MetadataGetter for method: TutorialPause::add_didPauseEvent
+// Writing MetadataGetter for method: GlobalNamespace::TutorialPause::add_didPauseEvent
 // Il2CppName: add_didPauseEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialPause::*)(System::Action*)>(&TutorialPause::add_didPauseEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialPause::*)(System::Action*)>(&GlobalNamespace::TutorialPause::add_didPauseEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialPause*), "add_didPauseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialPause*), "add_didPauseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: TutorialPause::remove_didPauseEvent
+// Writing MetadataGetter for method: GlobalNamespace::TutorialPause::remove_didPauseEvent
 // Il2CppName: remove_didPauseEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialPause::*)(System::Action*)>(&TutorialPause::remove_didPauseEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialPause::*)(System::Action*)>(&GlobalNamespace::TutorialPause::remove_didPauseEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialPause*), "remove_didPauseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialPause*), "remove_didPauseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: TutorialPause::add_willResumeEvent
+// Writing MetadataGetter for method: GlobalNamespace::TutorialPause::add_willResumeEvent
 // Il2CppName: add_willResumeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialPause::*)(System::Action*)>(&TutorialPause::add_willResumeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialPause::*)(System::Action*)>(&GlobalNamespace::TutorialPause::add_willResumeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialPause*), "add_willResumeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialPause*), "add_willResumeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: TutorialPause::remove_willResumeEvent
+// Writing MetadataGetter for method: GlobalNamespace::TutorialPause::remove_willResumeEvent
 // Il2CppName: remove_willResumeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialPause::*)(System::Action*)>(&TutorialPause::remove_willResumeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialPause::*)(System::Action*)>(&GlobalNamespace::TutorialPause::remove_willResumeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialPause*), "remove_willResumeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialPause*), "remove_willResumeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: TutorialPause::add_didResumeEvent
+// Writing MetadataGetter for method: GlobalNamespace::TutorialPause::add_didResumeEvent
 // Il2CppName: add_didResumeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialPause::*)(System::Action*)>(&TutorialPause::add_didResumeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialPause::*)(System::Action*)>(&GlobalNamespace::TutorialPause::add_didResumeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialPause*), "add_didResumeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialPause*), "add_didResumeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: TutorialPause::remove_didResumeEvent
+// Writing MetadataGetter for method: GlobalNamespace::TutorialPause::remove_didResumeEvent
 // Il2CppName: remove_didResumeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialPause::*)(System::Action*)>(&TutorialPause::remove_didResumeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialPause::*)(System::Action*)>(&GlobalNamespace::TutorialPause::remove_didResumeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialPause*), "remove_didResumeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialPause*), "remove_didResumeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: TutorialPause::Pause
+// Writing MetadataGetter for method: GlobalNamespace::TutorialPause::Pause
 // Il2CppName: Pause
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialPause::*)()>(&TutorialPause::Pause)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialPause::*)()>(&GlobalNamespace::TutorialPause::Pause)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialPause*), "Pause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialPause*), "Pause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TutorialPause::WillResume
+// Writing MetadataGetter for method: GlobalNamespace::TutorialPause::WillResume
 // Il2CppName: WillResume
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialPause::*)()>(&TutorialPause::WillResume)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialPause::*)()>(&GlobalNamespace::TutorialPause::WillResume)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialPause*), "WillResume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialPause*), "WillResume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TutorialPause::Resume
+// Writing MetadataGetter for method: GlobalNamespace::TutorialPause::Resume
 // Il2CppName: Resume
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialPause::*)()>(&TutorialPause::Resume)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialPause::*)()>(&GlobalNamespace::TutorialPause::Resume)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialPause*), "Resume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialPause*), "Resume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TutorialPause::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::TutorialPause::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialPause::*)()>(&TutorialPause::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialPause::*)()>(&GlobalNamespace::TutorialPause::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialPause*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialPause*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialPause::*)()>(&TutorialPause::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialPause::*)()>(&GlobalNamespace::TutorialPause::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialPause*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialPause*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -193,137 +193,137 @@ namespace Org::BouncyCastle::Crypto::Signers {
   static_assert(sizeof(PssSigner) == 0x69);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::PssSigner*, "Org.BouncyCastle.Crypto.Signers", "PssSigner");
-// Writing MetadataGetter for method: PssSigner::CreateRawSigner
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::PssSigner::CreateRawSigner
 // Il2CppName: CreateRawSigner
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Signers::PssSigner* (*)(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, Org::BouncyCastle::Crypto::IDigest*)>(&PssSigner::CreateRawSigner)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Signers::PssSigner* (*)(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, Org::BouncyCastle::Crypto::IDigest*)>(&Org::BouncyCastle::Crypto::Signers::PssSigner::CreateRawSigner)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PssSigner*), "CreateRawSigner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::PssSigner*), "CreateRawSigner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>()});
   }
 };
-// Writing MetadataGetter for method: PssSigner::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::PssSigner::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PssSigner::*)(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, Org::BouncyCastle::Crypto::IDigest*)>(&PssSigner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::PssSigner::*)(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, Org::BouncyCastle::Crypto::IDigest*)>(&Org::BouncyCastle::Crypto::Signers::PssSigner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PssSigner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::PssSigner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PssSigner::*)(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, Org::BouncyCastle::Crypto::IDigest*)>(&PssSigner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::PssSigner::*)(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, Org::BouncyCastle::Crypto::IDigest*)>(&Org::BouncyCastle::Crypto::Signers::PssSigner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PssSigner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::PssSigner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>()});
   }
 };
-// Writing MetadataGetter for method: PssSigner::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::PssSigner::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PssSigner::*)(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, Org::BouncyCastle::Crypto::IDigest*, int)>(&PssSigner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::PssSigner::*)(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, Org::BouncyCastle::Crypto::IDigest*, int)>(&Org::BouncyCastle::Crypto::Signers::PssSigner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PssSigner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::PssSigner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PssSigner::*)(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, Org::BouncyCastle::Crypto::IDigest*, int)>(&PssSigner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::PssSigner::*)(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, Org::BouncyCastle::Crypto::IDigest*, int)>(&Org::BouncyCastle::Crypto::Signers::PssSigner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PssSigner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::PssSigner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: PssSigner::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::PssSigner::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PssSigner::*)(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, Org::BouncyCastle::Crypto::IDigest*, int, uint8_t)>(&PssSigner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::PssSigner::*)(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, Org::BouncyCastle::Crypto::IDigest*, int, uint8_t)>(&Org::BouncyCastle::Crypto::Signers::PssSigner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PssSigner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::PssSigner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PssSigner::*)(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, Org::BouncyCastle::Crypto::IDigest*, int, uint8_t)>(&PssSigner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::PssSigner::*)(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, Org::BouncyCastle::Crypto::IDigest*, int, uint8_t)>(&Org::BouncyCastle::Crypto::Signers::PssSigner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PssSigner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::PssSigner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
   }
 };
-// Writing MetadataGetter for method: PssSigner::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::PssSigner::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PssSigner::*)(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, Org::BouncyCastle::Crypto::IDigest*, Org::BouncyCastle::Crypto::IDigest*, int, uint8_t)>(&PssSigner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::PssSigner::*)(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, Org::BouncyCastle::Crypto::IDigest*, Org::BouncyCastle::Crypto::IDigest*, int, uint8_t)>(&Org::BouncyCastle::Crypto::Signers::PssSigner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PssSigner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::PssSigner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PssSigner::*)(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, Org::BouncyCastle::Crypto::IDigest*, Org::BouncyCastle::Crypto::IDigest*, int, uint8_t)>(&PssSigner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::PssSigner::*)(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, Org::BouncyCastle::Crypto::IDigest*, Org::BouncyCastle::Crypto::IDigest*, int, uint8_t)>(&Org::BouncyCastle::Crypto::Signers::PssSigner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PssSigner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::PssSigner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
   }
 };
-// Writing MetadataGetter for method: PssSigner::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::PssSigner::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PssSigner::*)(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, Org::BouncyCastle::Crypto::IDigest*, Org::BouncyCastle::Crypto::IDigest*, Org::BouncyCastle::Crypto::IDigest*, int, ::Array<uint8_t>*, uint8_t)>(&PssSigner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::PssSigner::*)(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, Org::BouncyCastle::Crypto::IDigest*, Org::BouncyCastle::Crypto::IDigest*, Org::BouncyCastle::Crypto::IDigest*, int, ::Array<uint8_t>*, uint8_t)>(&Org::BouncyCastle::Crypto::Signers::PssSigner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PssSigner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::PssSigner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PssSigner::*)(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, Org::BouncyCastle::Crypto::IDigest*, Org::BouncyCastle::Crypto::IDigest*, Org::BouncyCastle::Crypto::IDigest*, int, ::Array<uint8_t>*, uint8_t)>(&PssSigner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::PssSigner::*)(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*, Org::BouncyCastle::Crypto::IDigest*, Org::BouncyCastle::Crypto::IDigest*, Org::BouncyCastle::Crypto::IDigest*, int, ::Array<uint8_t>*, uint8_t)>(&Org::BouncyCastle::Crypto::Signers::PssSigner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PssSigner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::PssSigner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
   }
 };
-// Writing MetadataGetter for method: PssSigner::Init
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::PssSigner::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PssSigner::*)(bool, Org::BouncyCastle::Crypto::ICipherParameters*)>(&PssSigner::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::PssSigner::*)(bool, Org::BouncyCastle::Crypto::ICipherParameters*)>(&Org::BouncyCastle::Crypto::Signers::PssSigner::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PssSigner*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::ICipherParameters*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::PssSigner*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::ICipherParameters*>()});
   }
 };
-// Writing MetadataGetter for method: PssSigner::ClearBlock
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::PssSigner::ClearBlock
 // Il2CppName: ClearBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PssSigner::*)(::Array<uint8_t>*)>(&PssSigner::ClearBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::PssSigner::*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Signers::PssSigner::ClearBlock)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PssSigner*), "ClearBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::PssSigner*), "ClearBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: PssSigner::BlockUpdate
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::PssSigner::BlockUpdate
 // Il2CppName: BlockUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PssSigner::*)(::Array<uint8_t>*, int, int)>(&PssSigner::BlockUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::PssSigner::*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Crypto::Signers::PssSigner::BlockUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PssSigner*), "BlockUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::PssSigner*), "BlockUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: PssSigner::Reset
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::PssSigner::Reset
 // Il2CppName: Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PssSigner::*)()>(&PssSigner::Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::PssSigner::*)()>(&Org::BouncyCastle::Crypto::Signers::PssSigner::Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PssSigner*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::PssSigner*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PssSigner::GenerateSignature
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::PssSigner::GenerateSignature
 // Il2CppName: GenerateSignature
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (PssSigner::*)()>(&PssSigner::GenerateSignature)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Signers::PssSigner::*)()>(&Org::BouncyCastle::Crypto::Signers::PssSigner::GenerateSignature)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PssSigner*), "GenerateSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::PssSigner*), "GenerateSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PssSigner::ItoOSP
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::PssSigner::ItoOSP
 // Il2CppName: ItoOSP
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PssSigner::*)(int, ::Array<uint8_t>*)>(&PssSigner::ItoOSP)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::PssSigner::*)(int, ::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Signers::PssSigner::ItoOSP)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PssSigner*), "ItoOSP", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::PssSigner*), "ItoOSP", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: PssSigner::MaskGeneratorFunction1
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::PssSigner::MaskGeneratorFunction1
 // Il2CppName: MaskGeneratorFunction1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (PssSigner::*)(::Array<uint8_t>*, int, int, int)>(&PssSigner::MaskGeneratorFunction1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Signers::PssSigner::*)(::Array<uint8_t>*, int, int, int)>(&Org::BouncyCastle::Crypto::Signers::PssSigner::MaskGeneratorFunction1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PssSigner*), "MaskGeneratorFunction1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::PssSigner*), "MaskGeneratorFunction1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };

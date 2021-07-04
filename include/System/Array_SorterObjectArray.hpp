@@ -89,89 +89,89 @@ namespace System {
   static_assert(sizeof(Array::SorterObjectArray) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Array::SorterObjectArray, "System", "Array/SorterObjectArray");
-// Writing MetadataGetter for method: Array::SorterObjectArray::SorterObjectArray
+// Writing MetadataGetter for method: System::Array::SorterObjectArray::SorterObjectArray
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Array::SorterObjectArray::*)(::Array<::Il2CppObject*>*, ::Array<::Il2CppObject*>*, System::Collections::IComparer*)>(&Array::SorterObjectArray::SorterObjectArray<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::SorterObjectArray::*)(::Array<::Il2CppObject*>*, ::Array<::Il2CppObject*>*, System::Collections::IComparer*)>(&System::Array::SorterObjectArray::SorterObjectArray<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Array::SorterObjectArray), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IComparer*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Array::SorterObjectArray), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IComparer*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Array::SorterObjectArray::*)(::Array<::Il2CppObject*>*, ::Array<::Il2CppObject*>*, System::Collections::IComparer*)>(&Array::SorterObjectArray::SorterObjectArray<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::SorterObjectArray::*)(::Array<::Il2CppObject*>*, ::Array<::Il2CppObject*>*, System::Collections::IComparer*)>(&System::Array::SorterObjectArray::SorterObjectArray<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Array::SorterObjectArray), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IComparer*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Array::SorterObjectArray), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IComparer*>()});
   }
 };
-// Writing MetadataGetter for method: Array::SorterObjectArray::SwapIfGreaterWithItems
+// Writing MetadataGetter for method: System::Array::SorterObjectArray::SwapIfGreaterWithItems
 // Il2CppName: SwapIfGreaterWithItems
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Array::SorterObjectArray::*)(int, int)>(&Array::SorterObjectArray::SwapIfGreaterWithItems)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::SorterObjectArray::*)(int, int)>(&System::Array::SorterObjectArray::SwapIfGreaterWithItems)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Array::SorterObjectArray), "SwapIfGreaterWithItems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Array::SorterObjectArray), "SwapIfGreaterWithItems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Array::SorterObjectArray::Swap
+// Writing MetadataGetter for method: System::Array::SorterObjectArray::Swap
 // Il2CppName: Swap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Array::SorterObjectArray::*)(int, int)>(&Array::SorterObjectArray::Swap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::SorterObjectArray::*)(int, int)>(&System::Array::SorterObjectArray::Swap)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Array::SorterObjectArray), "Swap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Array::SorterObjectArray), "Swap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Array::SorterObjectArray::Sort
+// Writing MetadataGetter for method: System::Array::SorterObjectArray::Sort
 // Il2CppName: Sort
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Array::SorterObjectArray::*)(int, int)>(&Array::SorterObjectArray::Sort)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::SorterObjectArray::*)(int, int)>(&System::Array::SorterObjectArray::Sort)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Array::SorterObjectArray), "Sort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Array::SorterObjectArray), "Sort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Array::SorterObjectArray::IntrospectiveSort
+// Writing MetadataGetter for method: System::Array::SorterObjectArray::IntrospectiveSort
 // Il2CppName: IntrospectiveSort
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Array::SorterObjectArray::*)(int, int)>(&Array::SorterObjectArray::IntrospectiveSort)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::SorterObjectArray::*)(int, int)>(&System::Array::SorterObjectArray::IntrospectiveSort)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Array::SorterObjectArray), "IntrospectiveSort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Array::SorterObjectArray), "IntrospectiveSort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Array::SorterObjectArray::IntroSort
+// Writing MetadataGetter for method: System::Array::SorterObjectArray::IntroSort
 // Il2CppName: IntroSort
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Array::SorterObjectArray::*)(int, int, int)>(&Array::SorterObjectArray::IntroSort)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::SorterObjectArray::*)(int, int, int)>(&System::Array::SorterObjectArray::IntroSort)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Array::SorterObjectArray), "IntroSort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Array::SorterObjectArray), "IntroSort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Array::SorterObjectArray::PickPivotAndPartition
+// Writing MetadataGetter for method: System::Array::SorterObjectArray::PickPivotAndPartition
 // Il2CppName: PickPivotAndPartition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Array::SorterObjectArray::*)(int, int)>(&Array::SorterObjectArray::PickPivotAndPartition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Array::SorterObjectArray::*)(int, int)>(&System::Array::SorterObjectArray::PickPivotAndPartition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Array::SorterObjectArray), "PickPivotAndPartition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Array::SorterObjectArray), "PickPivotAndPartition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Array::SorterObjectArray::Heapsort
+// Writing MetadataGetter for method: System::Array::SorterObjectArray::Heapsort
 // Il2CppName: Heapsort
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Array::SorterObjectArray::*)(int, int)>(&Array::SorterObjectArray::Heapsort)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::SorterObjectArray::*)(int, int)>(&System::Array::SorterObjectArray::Heapsort)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Array::SorterObjectArray), "Heapsort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Array::SorterObjectArray), "Heapsort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Array::SorterObjectArray::DownHeap
+// Writing MetadataGetter for method: System::Array::SorterObjectArray::DownHeap
 // Il2CppName: DownHeap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Array::SorterObjectArray::*)(int, int, int)>(&Array::SorterObjectArray::DownHeap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::SorterObjectArray::*)(int, int, int)>(&System::Array::SorterObjectArray::DownHeap)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Array::SorterObjectArray), "DownHeap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Array::SorterObjectArray), "DownHeap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Array::SorterObjectArray::InsertionSort
+// Writing MetadataGetter for method: System::Array::SorterObjectArray::InsertionSort
 // Il2CppName: InsertionSort
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Array::SorterObjectArray::*)(int, int)>(&Array::SorterObjectArray::InsertionSort)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::SorterObjectArray::*)(int, int)>(&System::Array::SorterObjectArray::InsertionSort)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Array::SorterObjectArray), "InsertionSort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Array::SorterObjectArray), "InsertionSort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };

@@ -101,131 +101,131 @@ namespace Org::BouncyCastle::Utilities {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Platform*, "Org.BouncyCastle.Utilities", "Platform");
-// Writing MetadataGetter for method: Platform::GetNewLine
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Platform::GetNewLine
 // Il2CppName: GetNewLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Platform::GetNewLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Org::BouncyCastle::Utilities::Platform::GetNewLine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Platform*), "GetNewLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Platform*), "GetNewLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Platform::EqualsIgnoreCase
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Platform::EqualsIgnoreCase
 // Il2CppName: EqualsIgnoreCase
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*)>(&Platform::EqualsIgnoreCase)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*)>(&Org::BouncyCastle::Utilities::Platform::EqualsIgnoreCase)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Platform*), "EqualsIgnoreCase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Platform*), "EqualsIgnoreCase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Platform::GetEnvironmentVariable
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Platform::GetEnvironmentVariable
 // Il2CppName: GetEnvironmentVariable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&Platform::GetEnvironmentVariable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&Org::BouncyCastle::Utilities::Platform::GetEnvironmentVariable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Platform*), "GetEnvironmentVariable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Platform*), "GetEnvironmentVariable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Platform::CreateNotImplementedException
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Platform::CreateNotImplementedException
 // Il2CppName: CreateNotImplementedException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppString*)>(&Platform::CreateNotImplementedException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppString*)>(&Org::BouncyCastle::Utilities::Platform::CreateNotImplementedException)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Platform*), "CreateNotImplementedException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Platform*), "CreateNotImplementedException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Platform::CreateArrayList
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Platform::CreateArrayList
 // Il2CppName: CreateArrayList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (*)()>(&Platform::CreateArrayList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (*)()>(&Org::BouncyCastle::Utilities::Platform::CreateArrayList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Platform*), "CreateArrayList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Platform*), "CreateArrayList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Platform::CreateArrayList
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Platform::CreateArrayList
 // Il2CppName: CreateArrayList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (*)(int)>(&Platform::CreateArrayList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (*)(int)>(&Org::BouncyCastle::Utilities::Platform::CreateArrayList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Platform*), "CreateArrayList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Platform*), "CreateArrayList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Platform::CreateArrayList
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Platform::CreateArrayList
 // Il2CppName: CreateArrayList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (*)(System::Collections::ICollection*)>(&Platform::CreateArrayList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (*)(System::Collections::ICollection*)>(&Org::BouncyCastle::Utilities::Platform::CreateArrayList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Platform*), "CreateArrayList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::ICollection*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Platform*), "CreateArrayList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::ICollection*>()});
   }
 };
-// Writing MetadataGetter for method: Platform::CreateHashtable
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Platform::CreateHashtable
 // Il2CppName: CreateHashtable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionary* (*)()>(&Platform::CreateHashtable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionary* (*)()>(&Org::BouncyCastle::Utilities::Platform::CreateHashtable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Platform*), "CreateHashtable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Platform*), "CreateHashtable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Platform::CreateHashtable
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Platform::CreateHashtable
 // Il2CppName: CreateHashtable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionary* (*)(int)>(&Platform::CreateHashtable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionary* (*)(int)>(&Org::BouncyCastle::Utilities::Platform::CreateHashtable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Platform*), "CreateHashtable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Platform*), "CreateHashtable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Platform::ToUpperInvariant
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Platform::ToUpperInvariant
 // Il2CppName: ToUpperInvariant
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&Platform::ToUpperInvariant)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&Org::BouncyCastle::Utilities::Platform::ToUpperInvariant)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Platform*), "ToUpperInvariant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Platform*), "ToUpperInvariant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Platform::Dispose
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Platform::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IO::Stream*)>(&Platform::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IO::Stream*)>(&Org::BouncyCastle::Utilities::Platform::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Platform*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Platform*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
   }
 };
-// Writing MetadataGetter for method: Platform::IndexOf
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Platform::IndexOf
 // Il2CppName: IndexOf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, ::Il2CppString*)>(&Platform::IndexOf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, ::Il2CppString*)>(&Org::BouncyCastle::Utilities::Platform::IndexOf)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Platform*), "IndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Platform*), "IndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Platform::StartsWith
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Platform::StartsWith
 // Il2CppName: StartsWith
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*)>(&Platform::StartsWith)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*)>(&Org::BouncyCastle::Utilities::Platform::StartsWith)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Platform*), "StartsWith", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Platform*), "StartsWith", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Platform::EndsWith
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Platform::EndsWith
 // Il2CppName: EndsWith
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*)>(&Platform::EndsWith)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*)>(&Org::BouncyCastle::Utilities::Platform::EndsWith)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Platform*), "EndsWith", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Platform*), "EndsWith", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Platform::GetTypeName
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Platform::GetTypeName
 // Il2CppName: GetTypeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppObject*)>(&Platform::GetTypeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppObject*)>(&Org::BouncyCastle::Utilities::Platform::GetTypeName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Platform*), "GetTypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Platform*), "GetTypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Platform::_cctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Platform::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Platform::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::Utilities::Platform::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Platform*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Platform*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

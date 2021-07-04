@@ -444,89 +444,89 @@ namespace GlobalNamespace {
   static_assert(sizeof(MainSettingsModelSO) == 0x154);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsModelSO*, "", "MainSettingsModelSO");
-// Writing MetadataGetter for method: MainSettingsModelSO::get_createScreenshotDuringTheGame
+// Writing MetadataGetter for method: GlobalNamespace::MainSettingsModelSO::get_createScreenshotDuringTheGame
 // Il2CppName: get_createScreenshotDuringTheGame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MainSettingsModelSO::*)()>(&MainSettingsModelSO::get_createScreenshotDuringTheGame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MainSettingsModelSO::*)()>(&GlobalNamespace::MainSettingsModelSO::get_createScreenshotDuringTheGame)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), "get_createScreenshotDuringTheGame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsModelSO*), "get_createScreenshotDuringTheGame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MainSettingsModelSO::set_createScreenshotDuringTheGame
+// Writing MetadataGetter for method: GlobalNamespace::MainSettingsModelSO::set_createScreenshotDuringTheGame
 // Il2CppName: set_createScreenshotDuringTheGame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsModelSO::*)(bool)>(&MainSettingsModelSO::set_createScreenshotDuringTheGame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainSettingsModelSO::*)(bool)>(&GlobalNamespace::MainSettingsModelSO::set_createScreenshotDuringTheGame)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), "set_createScreenshotDuringTheGame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsModelSO*), "set_createScreenshotDuringTheGame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MainSettingsModelSO::get_playingForTheFirstTime
+// Writing MetadataGetter for method: GlobalNamespace::MainSettingsModelSO::get_playingForTheFirstTime
 // Il2CppName: get_playingForTheFirstTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MainSettingsModelSO::*)()>(&MainSettingsModelSO::get_playingForTheFirstTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MainSettingsModelSO::*)()>(&GlobalNamespace::MainSettingsModelSO::get_playingForTheFirstTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), "get_playingForTheFirstTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsModelSO*), "get_playingForTheFirstTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MainSettingsModelSO::set_playingForTheFirstTime
+// Writing MetadataGetter for method: GlobalNamespace::MainSettingsModelSO::set_playingForTheFirstTime
 // Il2CppName: set_playingForTheFirstTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsModelSO::*)(bool)>(&MainSettingsModelSO::set_playingForTheFirstTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainSettingsModelSO::*)(bool)>(&GlobalNamespace::MainSettingsModelSO::set_playingForTheFirstTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), "set_playingForTheFirstTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsModelSO*), "set_playingForTheFirstTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MainSettingsModelSO::Save
+// Writing MetadataGetter for method: GlobalNamespace::MainSettingsModelSO::Save
 // Il2CppName: Save
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsModelSO::*)()>(&MainSettingsModelSO::Save)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainSettingsModelSO::*)()>(&GlobalNamespace::MainSettingsModelSO::Save)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), "Save", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsModelSO*), "Save", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MainSettingsModelSO::Load
+// Writing MetadataGetter for method: GlobalNamespace::MainSettingsModelSO::Load
 // Il2CppName: Load
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsModelSO::*)(bool)>(&MainSettingsModelSO::Load)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainSettingsModelSO::*)(bool)>(&GlobalNamespace::MainSettingsModelSO::Load)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsModelSO*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MainSettingsModelSO::__DeleteSettingsFiles
+// Writing MetadataGetter for method: GlobalNamespace::MainSettingsModelSO::__DeleteSettingsFiles
 // Il2CppName: __DeleteSettingsFiles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsModelSO::*)()>(&MainSettingsModelSO::__DeleteSettingsFiles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainSettingsModelSO::*)()>(&GlobalNamespace::MainSettingsModelSO::__DeleteSettingsFiles)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), "__DeleteSettingsFiles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsModelSO*), "__DeleteSettingsFiles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MainSettingsModelSO::OnDisable
+// Writing MetadataGetter for method: GlobalNamespace::MainSettingsModelSO::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsModelSO::*)()>(&MainSettingsModelSO::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainSettingsModelSO::*)()>(&GlobalNamespace::MainSettingsModelSO::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsModelSO*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MainSettingsModelSO::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::MainSettingsModelSO::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsModelSO::*)()>(&MainSettingsModelSO::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainSettingsModelSO::*)()>(&GlobalNamespace::MainSettingsModelSO::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsModelSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MainSettingsModelSO::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MainSettingsModelSO::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsModelSO::*)()>(&MainSettingsModelSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainSettingsModelSO::*)()>(&GlobalNamespace::MainSettingsModelSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsModelSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsModelSO::*)()>(&MainSettingsModelSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainSettingsModelSO::*)()>(&GlobalNamespace::MainSettingsModelSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainSettingsModelSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsModelSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

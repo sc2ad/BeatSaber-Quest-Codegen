@@ -94,57 +94,57 @@ namespace GlobalNamespace {
   static_assert(sizeof(BakedLightDataLoader) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BakedLightDataLoader*, "", "BakedLightDataLoader");
-// Writing MetadataGetter for method: BakedLightDataLoader::get_lightmapData
+// Writing MetadataGetter for method: GlobalNamespace::BakedLightDataLoader::get_lightmapData
 // Il2CppName: get_lightmapData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LightmapDataSO* (BakedLightDataLoader::*)()>(&BakedLightDataLoader::get_lightmapData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LightmapDataSO* (GlobalNamespace::BakedLightDataLoader::*)()>(&GlobalNamespace::BakedLightDataLoader::get_lightmapData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BakedLightDataLoader*), "get_lightmapData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BakedLightDataLoader*), "get_lightmapData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BakedLightDataLoader::set_lightmapData
+// Writing MetadataGetter for method: GlobalNamespace::BakedLightDataLoader::set_lightmapData
 // Il2CppName: set_lightmapData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakedLightDataLoader::*)(GlobalNamespace::LightmapDataSO*)>(&BakedLightDataLoader::set_lightmapData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BakedLightDataLoader::*)(GlobalNamespace::LightmapDataSO*)>(&GlobalNamespace::BakedLightDataLoader::set_lightmapData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BakedLightDataLoader*), "set_lightmapData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LightmapDataSO*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BakedLightDataLoader*), "set_lightmapData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LightmapDataSO*>()});
   }
 };
-// Writing MetadataGetter for method: BakedLightDataLoader::Start
+// Writing MetadataGetter for method: GlobalNamespace::BakedLightDataLoader::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakedLightDataLoader::*)()>(&BakedLightDataLoader::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BakedLightDataLoader::*)()>(&GlobalNamespace::BakedLightDataLoader::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BakedLightDataLoader*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BakedLightDataLoader*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BakedLightDataLoader::SetTextureDataToShaders
+// Writing MetadataGetter for method: GlobalNamespace::BakedLightDataLoader::SetTextureDataToShaders
 // Il2CppName: SetTextureDataToShaders
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakedLightDataLoader::*)()>(&BakedLightDataLoader::SetTextureDataToShaders)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BakedLightDataLoader::*)()>(&GlobalNamespace::BakedLightDataLoader::SetTextureDataToShaders)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BakedLightDataLoader*), "SetTextureDataToShaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BakedLightDataLoader*), "SetTextureDataToShaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BakedLightDataLoader::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BakedLightDataLoader::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakedLightDataLoader::*)()>(&BakedLightDataLoader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BakedLightDataLoader::*)()>(&GlobalNamespace::BakedLightDataLoader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BakedLightDataLoader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BakedLightDataLoader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BakedLightDataLoader::*)()>(&BakedLightDataLoader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BakedLightDataLoader::*)()>(&GlobalNamespace::BakedLightDataLoader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BakedLightDataLoader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BakedLightDataLoader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BakedLightDataLoader::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::BakedLightDataLoader::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&BakedLightDataLoader::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::BakedLightDataLoader::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BakedLightDataLoader*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BakedLightDataLoader*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

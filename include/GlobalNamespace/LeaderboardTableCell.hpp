@@ -116,65 +116,65 @@ namespace GlobalNamespace {
   static_assert(sizeof(LeaderboardTableCell) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardTableCell*, "", "LeaderboardTableCell");
-// Writing MetadataGetter for method: LeaderboardTableCell::set_rank
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardTableCell::set_rank
 // Il2CppName: set_rank
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardTableCell::*)(int)>(&LeaderboardTableCell::set_rank)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardTableCell::*)(int)>(&GlobalNamespace::LeaderboardTableCell::set_rank)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardTableCell*), "set_rank", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardTableCell*), "set_rank", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LeaderboardTableCell::set_playerName
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardTableCell::set_playerName
 // Il2CppName: set_playerName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardTableCell::*)(::Il2CppString*)>(&LeaderboardTableCell::set_playerName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardTableCell::*)(::Il2CppString*)>(&GlobalNamespace::LeaderboardTableCell::set_playerName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardTableCell*), "set_playerName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardTableCell*), "set_playerName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: LeaderboardTableCell::set_score
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardTableCell::set_score
 // Il2CppName: set_score
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardTableCell::*)(int)>(&LeaderboardTableCell::set_score)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardTableCell::*)(int)>(&GlobalNamespace::LeaderboardTableCell::set_score)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardTableCell*), "set_score", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardTableCell*), "set_score", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LeaderboardTableCell::set_showSeparator
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardTableCell::set_showSeparator
 // Il2CppName: set_showSeparator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardTableCell::*)(bool)>(&LeaderboardTableCell::set_showSeparator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardTableCell::*)(bool)>(&GlobalNamespace::LeaderboardTableCell::set_showSeparator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardTableCell*), "set_showSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardTableCell*), "set_showSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: LeaderboardTableCell::set_showFullCombo
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardTableCell::set_showFullCombo
 // Il2CppName: set_showFullCombo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardTableCell::*)(bool)>(&LeaderboardTableCell::set_showFullCombo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardTableCell::*)(bool)>(&GlobalNamespace::LeaderboardTableCell::set_showFullCombo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardTableCell*), "set_showFullCombo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardTableCell*), "set_showFullCombo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: LeaderboardTableCell::set_specialScore
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardTableCell::set_specialScore
 // Il2CppName: set_specialScore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardTableCell::*)(bool)>(&LeaderboardTableCell::set_specialScore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardTableCell::*)(bool)>(&GlobalNamespace::LeaderboardTableCell::set_specialScore)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardTableCell*), "set_specialScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardTableCell*), "set_specialScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: LeaderboardTableCell::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardTableCell::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardTableCell::*)()>(&LeaderboardTableCell::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardTableCell::*)()>(&GlobalNamespace::LeaderboardTableCell::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardTableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardTableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardTableCell::*)()>(&LeaderboardTableCell::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardTableCell::*)()>(&GlobalNamespace::LeaderboardTableCell::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardTableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardTableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

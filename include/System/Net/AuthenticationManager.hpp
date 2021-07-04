@@ -64,43 +64,43 @@ namespace System::Net {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::AuthenticationManager*, "System.Net", "AuthenticationManager");
-// Writing MetadataGetter for method: AuthenticationManager::EnsureModules
+// Writing MetadataGetter for method: System::Net::AuthenticationManager::EnsureModules
 // Il2CppName: EnsureModules
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AuthenticationManager::EnsureModules)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Net::AuthenticationManager::EnsureModules)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticationManager*), "EnsureModules", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::AuthenticationManager*), "EnsureModules", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AuthenticationManager::Authenticate
+// Writing MetadataGetter for method: System::Net::AuthenticationManager::Authenticate
 // Il2CppName: Authenticate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Authorization* (*)(::Il2CppString*, System::Net::WebRequest*, System::Net::ICredentials*)>(&AuthenticationManager::Authenticate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Authorization* (*)(::Il2CppString*, System::Net::WebRequest*, System::Net::ICredentials*)>(&System::Net::AuthenticationManager::Authenticate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticationManager*), "Authenticate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::WebRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::ICredentials*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::AuthenticationManager*), "Authenticate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::WebRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::ICredentials*>()});
   }
 };
-// Writing MetadataGetter for method: AuthenticationManager::DoAuthenticate
+// Writing MetadataGetter for method: System::Net::AuthenticationManager::DoAuthenticate
 // Il2CppName: DoAuthenticate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Authorization* (*)(::Il2CppString*, System::Net::WebRequest*, System::Net::ICredentials*)>(&AuthenticationManager::DoAuthenticate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Authorization* (*)(::Il2CppString*, System::Net::WebRequest*, System::Net::ICredentials*)>(&System::Net::AuthenticationManager::DoAuthenticate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticationManager*), "DoAuthenticate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::WebRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::ICredentials*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::AuthenticationManager*), "DoAuthenticate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::WebRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::ICredentials*>()});
   }
 };
-// Writing MetadataGetter for method: AuthenticationManager::PreAuthenticate
+// Writing MetadataGetter for method: System::Net::AuthenticationManager::PreAuthenticate
 // Il2CppName: PreAuthenticate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Authorization* (*)(System::Net::WebRequest*, System::Net::ICredentials*)>(&AuthenticationManager::PreAuthenticate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Authorization* (*)(System::Net::WebRequest*, System::Net::ICredentials*)>(&System::Net::AuthenticationManager::PreAuthenticate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticationManager*), "PreAuthenticate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::WebRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::ICredentials*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::AuthenticationManager*), "PreAuthenticate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::WebRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::ICredentials*>()});
   }
 };
-// Writing MetadataGetter for method: AuthenticationManager::_cctor
+// Writing MetadataGetter for method: System::Net::AuthenticationManager::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AuthenticationManager::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Net::AuthenticationManager::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticationManager*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::AuthenticationManager*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

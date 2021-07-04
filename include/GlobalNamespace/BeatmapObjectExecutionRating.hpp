@@ -113,49 +113,49 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectExecutionRating*, "", "BeatmapObjectExecutionRating");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType, "", "BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType");
-// Writing MetadataGetter for method: BeatmapObjectExecutionRating::get_beatmapObjectRatingType
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectExecutionRating::get_beatmapObjectRatingType
 // Il2CppName: get_beatmapObjectRatingType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType (BeatmapObjectExecutionRating::*)()>(&BeatmapObjectExecutionRating::get_beatmapObjectRatingType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType (GlobalNamespace::BeatmapObjectExecutionRating::*)()>(&GlobalNamespace::BeatmapObjectExecutionRating::get_beatmapObjectRatingType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRating*), "get_beatmapObjectRatingType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectExecutionRating*), "get_beatmapObjectRatingType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectExecutionRating::set_beatmapObjectRatingType
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectExecutionRating::set_beatmapObjectRatingType
 // Il2CppName: set_beatmapObjectRatingType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRating::*)(GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType)>(&BeatmapObjectExecutionRating::set_beatmapObjectRatingType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectExecutionRating::*)(GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType)>(&GlobalNamespace::BeatmapObjectExecutionRating::set_beatmapObjectRatingType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRating*), "set_beatmapObjectRatingType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectExecutionRating*), "set_beatmapObjectRatingType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectExecutionRating::get_time
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectExecutionRating::get_time
 // Il2CppName: get_time
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BeatmapObjectExecutionRating::*)()>(&BeatmapObjectExecutionRating::get_time)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectExecutionRating::*)()>(&GlobalNamespace::BeatmapObjectExecutionRating::get_time)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRating*), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectExecutionRating*), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectExecutionRating::set_time
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectExecutionRating::set_time
 // Il2CppName: set_time
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRating::*)(float)>(&BeatmapObjectExecutionRating::set_time)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectExecutionRating::*)(float)>(&GlobalNamespace::BeatmapObjectExecutionRating::set_time)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRating*), "set_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectExecutionRating*), "set_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectExecutionRating::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectExecutionRating::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRating::*)()>(&BeatmapObjectExecutionRating::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectExecutionRating::*)()>(&GlobalNamespace::BeatmapObjectExecutionRating::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRating*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectExecutionRating*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectExecutionRating::*)()>(&BeatmapObjectExecutionRating::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectExecutionRating::*)()>(&GlobalNamespace::BeatmapObjectExecutionRating::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectExecutionRating*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectExecutionRating*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

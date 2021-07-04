@@ -91,25 +91,25 @@ namespace System::Reflection {
   static_assert(sizeof(ExceptionHandlingClause) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ExceptionHandlingClause*, "System.Reflection", "ExceptionHandlingClause");
-// Writing MetadataGetter for method: ExceptionHandlingClause::New_ctor
+// Writing MetadataGetter for method: System::Reflection::ExceptionHandlingClause::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExceptionHandlingClause::*)()>(&ExceptionHandlingClause::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::ExceptionHandlingClause::*)()>(&System::Reflection::ExceptionHandlingClause::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ExceptionHandlingClause*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::ExceptionHandlingClause*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExceptionHandlingClause::*)()>(&ExceptionHandlingClause::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::ExceptionHandlingClause::*)()>(&System::Reflection::ExceptionHandlingClause::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ExceptionHandlingClause*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::ExceptionHandlingClause*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ExceptionHandlingClause::ToString
+// Writing MetadataGetter for method: System::Reflection::ExceptionHandlingClause::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ExceptionHandlingClause::*)()>(&ExceptionHandlingClause::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Reflection::ExceptionHandlingClause::*)()>(&System::Reflection::ExceptionHandlingClause::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ExceptionHandlingClause*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::ExceptionHandlingClause*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -74,57 +74,57 @@ namespace GlobalNamespace {
   static_assert(sizeof(CrashManagerSO) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CrashManagerSO*, "", "CrashManagerSO");
-// Writing MetadataGetter for method: CrashManagerSO::get_logString
+// Writing MetadataGetter for method: GlobalNamespace::CrashManagerSO::get_logString
 // Il2CppName: get_logString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CrashManagerSO::*)()>(&CrashManagerSO::get_logString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::CrashManagerSO::*)()>(&GlobalNamespace::CrashManagerSO::get_logString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CrashManagerSO*), "get_logString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CrashManagerSO*), "get_logString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CrashManagerSO::get_stackTrace
+// Writing MetadataGetter for method: GlobalNamespace::CrashManagerSO::get_stackTrace
 // Il2CppName: get_stackTrace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CrashManagerSO::*)()>(&CrashManagerSO::get_stackTrace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::CrashManagerSO::*)()>(&GlobalNamespace::CrashManagerSO::get_stackTrace)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CrashManagerSO*), "get_stackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CrashManagerSO*), "get_stackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CrashManagerSO::StartCatchingExceptions
+// Writing MetadataGetter for method: GlobalNamespace::CrashManagerSO::StartCatchingExceptions
 // Il2CppName: StartCatchingExceptions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrashManagerSO::*)()>(&CrashManagerSO::StartCatchingExceptions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CrashManagerSO::*)()>(&GlobalNamespace::CrashManagerSO::StartCatchingExceptions)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CrashManagerSO*), "StartCatchingExceptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CrashManagerSO*), "StartCatchingExceptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CrashManagerSO::OnDisable
+// Writing MetadataGetter for method: GlobalNamespace::CrashManagerSO::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrashManagerSO::*)()>(&CrashManagerSO::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CrashManagerSO::*)()>(&GlobalNamespace::CrashManagerSO::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CrashManagerSO*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CrashManagerSO*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CrashManagerSO::HandleLog
+// Writing MetadataGetter for method: GlobalNamespace::CrashManagerSO::HandleLog
 // Il2CppName: HandleLog
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrashManagerSO::*)(::Il2CppString*, ::Il2CppString*, UnityEngine::LogType)>(&CrashManagerSO::HandleLog)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CrashManagerSO::*)(::Il2CppString*, ::Il2CppString*, UnityEngine::LogType)>(&GlobalNamespace::CrashManagerSO::HandleLog)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CrashManagerSO*), "HandleLog", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::LogType>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CrashManagerSO*), "HandleLog", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::LogType>()});
   }
 };
-// Writing MetadataGetter for method: CrashManagerSO::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::CrashManagerSO::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrashManagerSO::*)()>(&CrashManagerSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CrashManagerSO::*)()>(&GlobalNamespace::CrashManagerSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CrashManagerSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CrashManagerSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CrashManagerSO::*)()>(&CrashManagerSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CrashManagerSO::*)()>(&GlobalNamespace::CrashManagerSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CrashManagerSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CrashManagerSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

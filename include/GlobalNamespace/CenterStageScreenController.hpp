@@ -180,121 +180,121 @@ namespace GlobalNamespace {
   static_assert(sizeof(CenterStageScreenController) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CenterStageScreenController*, "", "CenterStageScreenController");
-// Writing MetadataGetter for method: CenterStageScreenController::get_countdownShown
+// Writing MetadataGetter for method: GlobalNamespace::CenterStageScreenController::get_countdownShown
 // Il2CppName: get_countdownShown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CenterStageScreenController::*)()>(&CenterStageScreenController::get_countdownShown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::CenterStageScreenController::*)()>(&GlobalNamespace::CenterStageScreenController::get_countdownShown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CenterStageScreenController*), "get_countdownShown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CenterStageScreenController*), "get_countdownShown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CenterStageScreenController::set_countdownShown
+// Writing MetadataGetter for method: GlobalNamespace::CenterStageScreenController::set_countdownShown
 // Il2CppName: set_countdownShown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CenterStageScreenController::*)(bool)>(&CenterStageScreenController::set_countdownShown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CenterStageScreenController::*)(bool)>(&GlobalNamespace::CenterStageScreenController::set_countdownShown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CenterStageScreenController*), "set_countdownShown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CenterStageScreenController*), "set_countdownShown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: CenterStageScreenController::Setup
+// Writing MetadataGetter for method: GlobalNamespace::CenterStageScreenController::Setup
 // Il2CppName: Setup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CenterStageScreenController::*)(bool)>(&CenterStageScreenController::Setup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CenterStageScreenController::*)(bool)>(&GlobalNamespace::CenterStageScreenController::Setup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CenterStageScreenController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CenterStageScreenController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: CenterStageScreenController::Show
+// Writing MetadataGetter for method: GlobalNamespace::CenterStageScreenController::Show
 // Il2CppName: Show
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CenterStageScreenController::*)()>(&CenterStageScreenController::Show)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CenterStageScreenController::*)()>(&GlobalNamespace::CenterStageScreenController::Show)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CenterStageScreenController*), "Show", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CenterStageScreenController*), "Show", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CenterStageScreenController::Hide
+// Writing MetadataGetter for method: GlobalNamespace::CenterStageScreenController::Hide
 // Il2CppName: Hide
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CenterStageScreenController::*)()>(&CenterStageScreenController::Hide)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CenterStageScreenController::*)()>(&GlobalNamespace::CenterStageScreenController::Hide)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CenterStageScreenController*), "Hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CenterStageScreenController*), "Hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CenterStageScreenController::ShowCountdown
+// Writing MetadataGetter for method: GlobalNamespace::CenterStageScreenController::ShowCountdown
 // Il2CppName: ShowCountdown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CenterStageScreenController::*)(float)>(&CenterStageScreenController::ShowCountdown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CenterStageScreenController::*)(float)>(&GlobalNamespace::CenterStageScreenController::ShowCountdown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CenterStageScreenController*), "ShowCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CenterStageScreenController*), "ShowCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: CenterStageScreenController::HideCountdown
+// Writing MetadataGetter for method: GlobalNamespace::CenterStageScreenController::HideCountdown
 // Il2CppName: HideCountdown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CenterStageScreenController::*)(bool)>(&CenterStageScreenController::HideCountdown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CenterStageScreenController::*)(bool)>(&GlobalNamespace::CenterStageScreenController::HideCountdown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CenterStageScreenController*), "HideCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CenterStageScreenController*), "HideCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: CenterStageScreenController::SetCountdownEndTime
+// Writing MetadataGetter for method: GlobalNamespace::CenterStageScreenController::SetCountdownEndTime
 // Il2CppName: SetCountdownEndTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CenterStageScreenController::*)(float)>(&CenterStageScreenController::SetCountdownEndTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CenterStageScreenController::*)(float)>(&GlobalNamespace::CenterStageScreenController::SetCountdownEndTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CenterStageScreenController*), "SetCountdownEndTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CenterStageScreenController*), "SetCountdownEndTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: CenterStageScreenController::ShowCountdownColorPreset
+// Writing MetadataGetter for method: GlobalNamespace::CenterStageScreenController::ShowCountdownColorPreset
 // Il2CppName: ShowCountdownColorPreset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CenterStageScreenController::*)(bool)>(&CenterStageScreenController::ShowCountdownColorPreset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CenterStageScreenController::*)(bool)>(&GlobalNamespace::CenterStageScreenController::ShowCountdownColorPreset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CenterStageScreenController*), "ShowCountdownColorPreset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CenterStageScreenController*), "ShowCountdownColorPreset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: CenterStageScreenController::ShowLobbyColorPreset
+// Writing MetadataGetter for method: GlobalNamespace::CenterStageScreenController::ShowLobbyColorPreset
 // Il2CppName: ShowLobbyColorPreset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CenterStageScreenController::*)(bool)>(&CenterStageScreenController::ShowLobbyColorPreset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CenterStageScreenController::*)(bool)>(&GlobalNamespace::CenterStageScreenController::ShowLobbyColorPreset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CenterStageScreenController*), "ShowLobbyColorPreset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CenterStageScreenController*), "ShowLobbyColorPreset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: CenterStageScreenController::SetHostDataManual
+// Writing MetadataGetter for method: GlobalNamespace::CenterStageScreenController::SetHostDataManual
 // Il2CppName: SetHostDataManual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CenterStageScreenController::*)(GlobalNamespace::IPreviewBeatmapLevel*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty)>(&CenterStageScreenController::SetHostDataManual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CenterStageScreenController::*)(GlobalNamespace::IPreviewBeatmapLevel*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty)>(&GlobalNamespace::CenterStageScreenController::SetHostDataManual)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CenterStageScreenController*), "SetHostDataManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CenterStageScreenController*), "SetHostDataManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>()});
   }
 };
-// Writing MetadataGetter for method: CenterStageScreenController::SetNextGameData
+// Writing MetadataGetter for method: GlobalNamespace::CenterStageScreenController::SetNextGameData
 // Il2CppName: SetNextGameData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CenterStageScreenController::*)(GlobalNamespace::ILobbyPlayerDataModel*)>(&CenterStageScreenController::SetNextGameData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CenterStageScreenController::*)(GlobalNamespace::ILobbyPlayerDataModel*)>(&GlobalNamespace::CenterStageScreenController::SetNextGameData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CenterStageScreenController*), "SetNextGameData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ILobbyPlayerDataModel*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CenterStageScreenController*), "SetNextGameData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ILobbyPlayerDataModel*>()});
   }
 };
-// Writing MetadataGetter for method: CenterStageScreenController::HandleLobbyPlayersDataModelDidChange
+// Writing MetadataGetter for method: GlobalNamespace::CenterStageScreenController::HandleLobbyPlayersDataModelDidChange
 // Il2CppName: HandleLobbyPlayersDataModelDidChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CenterStageScreenController::*)(::Il2CppString*)>(&CenterStageScreenController::HandleLobbyPlayersDataModelDidChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CenterStageScreenController::*)(::Il2CppString*)>(&GlobalNamespace::CenterStageScreenController::HandleLobbyPlayersDataModelDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CenterStageScreenController*), "HandleLobbyPlayersDataModelDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CenterStageScreenController*), "HandleLobbyPlayersDataModelDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CenterStageScreenController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::CenterStageScreenController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CenterStageScreenController::*)()>(&CenterStageScreenController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CenterStageScreenController::*)()>(&GlobalNamespace::CenterStageScreenController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CenterStageScreenController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CenterStageScreenController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CenterStageScreenController::*)()>(&CenterStageScreenController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CenterStageScreenController::*)()>(&GlobalNamespace::CenterStageScreenController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CenterStageScreenController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CenterStageScreenController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

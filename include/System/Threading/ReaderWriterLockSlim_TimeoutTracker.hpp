@@ -59,33 +59,33 @@ namespace System::Threading {
   static_assert(sizeof(ReaderWriterLockSlim::TimeoutTracker) == 0x8);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ReaderWriterLockSlim::TimeoutTracker, "System.Threading", "ReaderWriterLockSlim/TimeoutTracker");
-// Writing MetadataGetter for method: ReaderWriterLockSlim::TimeoutTracker::TimeoutTracker
+// Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::TimeoutTracker::TimeoutTracker
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::TimeoutTracker::*)(int)>(&ReaderWriterLockSlim::TimeoutTracker::TimeoutTracker<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ReaderWriterLockSlim::TimeoutTracker::*)(int)>(&System::Threading::ReaderWriterLockSlim::TimeoutTracker::TimeoutTracker<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim::TimeoutTracker), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim::TimeoutTracker), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReaderWriterLockSlim::TimeoutTracker::*)(int)>(&ReaderWriterLockSlim::TimeoutTracker::TimeoutTracker<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ReaderWriterLockSlim::TimeoutTracker::*)(int)>(&System::Threading::ReaderWriterLockSlim::TimeoutTracker::TimeoutTracker<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim::TimeoutTracker), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim::TimeoutTracker), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ReaderWriterLockSlim::TimeoutTracker::get_RemainingMilliseconds
+// Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::TimeoutTracker::get_RemainingMilliseconds
 // Il2CppName: get_RemainingMilliseconds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ReaderWriterLockSlim::TimeoutTracker::*)()>(&ReaderWriterLockSlim::TimeoutTracker::get_RemainingMilliseconds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Threading::ReaderWriterLockSlim::TimeoutTracker::*)()>(&System::Threading::ReaderWriterLockSlim::TimeoutTracker::get_RemainingMilliseconds)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim::TimeoutTracker), "get_RemainingMilliseconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim::TimeoutTracker), "get_RemainingMilliseconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ReaderWriterLockSlim::TimeoutTracker::get_IsExpired
+// Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::TimeoutTracker::get_IsExpired
 // Il2CppName: get_IsExpired
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReaderWriterLockSlim::TimeoutTracker::*)()>(&ReaderWriterLockSlim::TimeoutTracker::get_IsExpired)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ReaderWriterLockSlim::TimeoutTracker::*)()>(&System::Threading::ReaderWriterLockSlim::TimeoutTracker::get_IsExpired)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReaderWriterLockSlim::TimeoutTracker), "get_IsExpired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ReaderWriterLockSlim::TimeoutTracker), "get_IsExpired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

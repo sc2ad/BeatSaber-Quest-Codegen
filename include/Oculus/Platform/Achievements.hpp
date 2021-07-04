@@ -63,75 +63,75 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Achievements*, "Oculus.Platform", "Achievements");
-// Writing MetadataGetter for method: Achievements::AddCount
+// Writing MetadataGetter for method: Oculus::Platform::Achievements::AddCount
 // Il2CppName: AddCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementUpdate*>* (*)(::Il2CppString*, uint64_t)>(&Achievements::AddCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementUpdate*>* (*)(::Il2CppString*, uint64_t)>(&Oculus::Platform::Achievements::AddCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Achievements*), "AddCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Achievements*), "AddCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: Achievements::AddFields
+// Writing MetadataGetter for method: Oculus::Platform::Achievements::AddFields
 // Il2CppName: AddFields
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementUpdate*>* (*)(::Il2CppString*, ::Il2CppString*)>(&Achievements::AddFields)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementUpdate*>* (*)(::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::Achievements::AddFields)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Achievements*), "AddFields", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Achievements*), "AddFields", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Achievements::GetAllDefinitions
+// Writing MetadataGetter for method: Oculus::Platform::Achievements::GetAllDefinitions
 // Il2CppName: GetAllDefinitions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementDefinitionList*>* (*)()>(&Achievements::GetAllDefinitions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementDefinitionList*>* (*)()>(&Oculus::Platform::Achievements::GetAllDefinitions)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Achievements*), "GetAllDefinitions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Achievements*), "GetAllDefinitions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Achievements::GetAllProgress
+// Writing MetadataGetter for method: Oculus::Platform::Achievements::GetAllProgress
 // Il2CppName: GetAllProgress
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementProgressList*>* (*)()>(&Achievements::GetAllProgress)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementProgressList*>* (*)()>(&Oculus::Platform::Achievements::GetAllProgress)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Achievements*), "GetAllProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Achievements*), "GetAllProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Achievements::GetDefinitionsByName
+// Writing MetadataGetter for method: Oculus::Platform::Achievements::GetDefinitionsByName
 // Il2CppName: GetDefinitionsByName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementDefinitionList*>* (*)(::Array<::Il2CppString*>*)>(&Achievements::GetDefinitionsByName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementDefinitionList*>* (*)(::Array<::Il2CppString*>*)>(&Oculus::Platform::Achievements::GetDefinitionsByName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Achievements*), "GetDefinitionsByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Achievements*), "GetDefinitionsByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: Achievements::GetProgressByName
+// Writing MetadataGetter for method: Oculus::Platform::Achievements::GetProgressByName
 // Il2CppName: GetProgressByName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementProgressList*>* (*)(::Array<::Il2CppString*>*)>(&Achievements::GetProgressByName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementProgressList*>* (*)(::Array<::Il2CppString*>*)>(&Oculus::Platform::Achievements::GetProgressByName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Achievements*), "GetProgressByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Achievements*), "GetProgressByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: Achievements::Unlock
+// Writing MetadataGetter for method: Oculus::Platform::Achievements::Unlock
 // Il2CppName: Unlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementUpdate*>* (*)(::Il2CppString*)>(&Achievements::Unlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementUpdate*>* (*)(::Il2CppString*)>(&Oculus::Platform::Achievements::Unlock)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Achievements*), "Unlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Achievements*), "Unlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Achievements::GetNextAchievementDefinitionListPage
+// Writing MetadataGetter for method: Oculus::Platform::Achievements::GetNextAchievementDefinitionListPage
 // Il2CppName: GetNextAchievementDefinitionListPage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementDefinitionList*>* (*)(Oculus::Platform::Models::AchievementDefinitionList*)>(&Achievements::GetNextAchievementDefinitionListPage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementDefinitionList*>* (*)(Oculus::Platform::Models::AchievementDefinitionList*)>(&Oculus::Platform::Achievements::GetNextAchievementDefinitionListPage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Achievements*), "GetNextAchievementDefinitionListPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Models::AchievementDefinitionList*>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Achievements*), "GetNextAchievementDefinitionListPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Models::AchievementDefinitionList*>()});
   }
 };
-// Writing MetadataGetter for method: Achievements::GetNextAchievementProgressListPage
+// Writing MetadataGetter for method: Oculus::Platform::Achievements::GetNextAchievementProgressListPage
 // Il2CppName: GetNextAchievementProgressListPage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementProgressList*>* (*)(Oculus::Platform::Models::AchievementProgressList*)>(&Achievements::GetNextAchievementProgressListPage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementProgressList*>* (*)(Oculus::Platform::Models::AchievementProgressList*)>(&Oculus::Platform::Achievements::GetNextAchievementProgressListPage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Achievements*), "GetNextAchievementProgressListPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Models::AchievementProgressList*>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Achievements*), "GetNextAchievementProgressListPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Models::AchievementProgressList*>()});
   }
 };

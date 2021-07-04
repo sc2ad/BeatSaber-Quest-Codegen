@@ -79,51 +79,51 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TypedReference, "System", "TypedReference");
-// Writing MetadataGetter for method: TypedReference::MakeTypedReference
+// Writing MetadataGetter for method: System::TypedReference::MakeTypedReference
 // Il2CppName: MakeTypedReference
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypedReference (*)(::Il2CppObject*, ::Array<System::Reflection::FieldInfo*>*)>(&TypedReference::MakeTypedReference)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypedReference (*)(::Il2CppObject*, ::Array<System::Reflection::FieldInfo*>*)>(&System::TypedReference::MakeTypedReference)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypedReference), "MakeTypedReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::FieldInfo*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TypedReference), "MakeTypedReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::FieldInfo*>*>()});
   }
 };
-// Writing MetadataGetter for method: TypedReference::MakeTypedReferenceInternal
+// Writing MetadataGetter for method: System::TypedReference::MakeTypedReferenceInternal
 // Il2CppName: MakeTypedReferenceInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypedReference (*)(::Il2CppObject*, ::Array<System::Reflection::FieldInfo*>*)>(&TypedReference::MakeTypedReferenceInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypedReference (*)(::Il2CppObject*, ::Array<System::Reflection::FieldInfo*>*)>(&System::TypedReference::MakeTypedReferenceInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypedReference), "MakeTypedReferenceInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::FieldInfo*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TypedReference), "MakeTypedReferenceInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::FieldInfo*>*>()});
   }
 };
-// Writing MetadataGetter for method: TypedReference::get_IsNull
+// Writing MetadataGetter for method: System::TypedReference::get_IsNull
 // Il2CppName: get_IsNull
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TypedReference::*)()>(&TypedReference::get_IsNull)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::TypedReference::*)()>(&System::TypedReference::get_IsNull)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypedReference), "get_IsNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::TypedReference), "get_IsNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TypedReference::SetTypedReference
+// Writing MetadataGetter for method: System::TypedReference::SetTypedReference
 // Il2CppName: SetTypedReference
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::TypedReference, ::Il2CppObject*)>(&TypedReference::SetTypedReference)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::TypedReference, ::Il2CppObject*)>(&System::TypedReference::SetTypedReference)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypedReference), "SetTypedReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TypedReference>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TypedReference), "SetTypedReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TypedReference>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: TypedReference::GetHashCode
+// Writing MetadataGetter for method: System::TypedReference::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TypedReference::*)()>(&TypedReference::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::TypedReference::*)()>(&System::TypedReference::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypedReference), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::TypedReference), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TypedReference::Equals
+// Writing MetadataGetter for method: System::TypedReference::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TypedReference::*)(::Il2CppObject*)>(&TypedReference::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::TypedReference::*)(::Il2CppObject*)>(&System::TypedReference::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypedReference), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TypedReference), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };

@@ -261,105 +261,105 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionResultsViewController) == 0x128);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionResultsViewController*, "", "MissionResultsViewController");
-// Writing MetadataGetter for method: MissionResultsViewController::add_continueButtonPressedEvent
+// Writing MetadataGetter for method: GlobalNamespace::MissionResultsViewController::add_continueButtonPressedEvent
 // Il2CppName: add_continueButtonPressedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionResultsViewController::*)(System::Action_1<GlobalNamespace::MissionResultsViewController*>*)>(&MissionResultsViewController::add_continueButtonPressedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionResultsViewController::*)(System::Action_1<GlobalNamespace::MissionResultsViewController*>*)>(&GlobalNamespace::MissionResultsViewController::add_continueButtonPressedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionResultsViewController*), "add_continueButtonPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MissionResultsViewController*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionResultsViewController*), "add_continueButtonPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MissionResultsViewController*>*>()});
   }
 };
-// Writing MetadataGetter for method: MissionResultsViewController::remove_continueButtonPressedEvent
+// Writing MetadataGetter for method: GlobalNamespace::MissionResultsViewController::remove_continueButtonPressedEvent
 // Il2CppName: remove_continueButtonPressedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionResultsViewController::*)(System::Action_1<GlobalNamespace::MissionResultsViewController*>*)>(&MissionResultsViewController::remove_continueButtonPressedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionResultsViewController::*)(System::Action_1<GlobalNamespace::MissionResultsViewController*>*)>(&GlobalNamespace::MissionResultsViewController::remove_continueButtonPressedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionResultsViewController*), "remove_continueButtonPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MissionResultsViewController*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionResultsViewController*), "remove_continueButtonPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MissionResultsViewController*>*>()});
   }
 };
-// Writing MetadataGetter for method: MissionResultsViewController::add_retryButtonPressedEvent
+// Writing MetadataGetter for method: GlobalNamespace::MissionResultsViewController::add_retryButtonPressedEvent
 // Il2CppName: add_retryButtonPressedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionResultsViewController::*)(System::Action_1<GlobalNamespace::MissionResultsViewController*>*)>(&MissionResultsViewController::add_retryButtonPressedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionResultsViewController::*)(System::Action_1<GlobalNamespace::MissionResultsViewController*>*)>(&GlobalNamespace::MissionResultsViewController::add_retryButtonPressedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionResultsViewController*), "add_retryButtonPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MissionResultsViewController*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionResultsViewController*), "add_retryButtonPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MissionResultsViewController*>*>()});
   }
 };
-// Writing MetadataGetter for method: MissionResultsViewController::remove_retryButtonPressedEvent
+// Writing MetadataGetter for method: GlobalNamespace::MissionResultsViewController::remove_retryButtonPressedEvent
 // Il2CppName: remove_retryButtonPressedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionResultsViewController::*)(System::Action_1<GlobalNamespace::MissionResultsViewController*>*)>(&MissionResultsViewController::remove_retryButtonPressedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionResultsViewController::*)(System::Action_1<GlobalNamespace::MissionResultsViewController*>*)>(&GlobalNamespace::MissionResultsViewController::remove_retryButtonPressedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionResultsViewController*), "remove_retryButtonPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MissionResultsViewController*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionResultsViewController*), "remove_retryButtonPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MissionResultsViewController*>*>()});
   }
 };
-// Writing MetadataGetter for method: MissionResultsViewController::Init
+// Writing MetadataGetter for method: GlobalNamespace::MissionResultsViewController::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionResultsViewController::*)(GlobalNamespace::MissionNode*, GlobalNamespace::MissionCompletionResults*)>(&MissionResultsViewController::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionResultsViewController::*)(GlobalNamespace::MissionNode*, GlobalNamespace::MissionCompletionResults*)>(&GlobalNamespace::MissionResultsViewController::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionResultsViewController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionCompletionResults*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionResultsViewController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionCompletionResults*>()});
   }
 };
-// Writing MetadataGetter for method: MissionResultsViewController::StartFireworksAfterDelay
+// Writing MetadataGetter for method: GlobalNamespace::MissionResultsViewController::StartFireworksAfterDelay
 // Il2CppName: StartFireworksAfterDelay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (MissionResultsViewController::*)(float)>(&MissionResultsViewController::StartFireworksAfterDelay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::MissionResultsViewController::*)(float)>(&GlobalNamespace::MissionResultsViewController::StartFireworksAfterDelay)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionResultsViewController*), "StartFireworksAfterDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionResultsViewController*), "StartFireworksAfterDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: MissionResultsViewController::SetDataToUI
+// Writing MetadataGetter for method: GlobalNamespace::MissionResultsViewController::SetDataToUI
 // Il2CppName: SetDataToUI
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionResultsViewController::*)()>(&MissionResultsViewController::SetDataToUI)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionResultsViewController::*)()>(&GlobalNamespace::MissionResultsViewController::SetDataToUI)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionResultsViewController*), "SetDataToUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionResultsViewController*), "SetDataToUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionResultsViewController::ContinueButtonPressed
+// Writing MetadataGetter for method: GlobalNamespace::MissionResultsViewController::ContinueButtonPressed
 // Il2CppName: ContinueButtonPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionResultsViewController::*)()>(&MissionResultsViewController::ContinueButtonPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionResultsViewController::*)()>(&GlobalNamespace::MissionResultsViewController::ContinueButtonPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionResultsViewController*), "ContinueButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionResultsViewController*), "ContinueButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionResultsViewController::RetryButtonPressed
+// Writing MetadataGetter for method: GlobalNamespace::MissionResultsViewController::RetryButtonPressed
 // Il2CppName: RetryButtonPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionResultsViewController::*)()>(&MissionResultsViewController::RetryButtonPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionResultsViewController::*)()>(&GlobalNamespace::MissionResultsViewController::RetryButtonPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionResultsViewController*), "RetryButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionResultsViewController*), "RetryButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionResultsViewController::DidActivate
+// Writing MetadataGetter for method: GlobalNamespace::MissionResultsViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionResultsViewController::*)(bool, bool, bool)>(&MissionResultsViewController::DidActivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionResultsViewController::*)(bool, bool, bool)>(&GlobalNamespace::MissionResultsViewController::DidActivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionResultsViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionResultsViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MissionResultsViewController::DidDeactivate
+// Writing MetadataGetter for method: GlobalNamespace::MissionResultsViewController::DidDeactivate
 // Il2CppName: DidDeactivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionResultsViewController::*)(bool, bool)>(&MissionResultsViewController::DidDeactivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionResultsViewController::*)(bool, bool)>(&GlobalNamespace::MissionResultsViewController::DidDeactivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionResultsViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionResultsViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MissionResultsViewController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MissionResultsViewController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionResultsViewController::*)()>(&MissionResultsViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionResultsViewController::*)()>(&GlobalNamespace::MissionResultsViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionResultsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionResultsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionResultsViewController::*)()>(&MissionResultsViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionResultsViewController::*)()>(&GlobalNamespace::MissionResultsViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionResultsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionResultsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

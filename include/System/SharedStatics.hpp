@@ -58,41 +58,41 @@ namespace System {
   static_assert(sizeof(SharedStatics) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::SharedStatics*, "System", "SharedStatics");
-// Writing MetadataGetter for method: SharedStatics::GetSharedStringMaker
+// Writing MetadataGetter for method: System::SharedStatics::GetSharedStringMaker
 // Il2CppName: GetSharedStringMaker
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Util::Tokenizer::StringMaker* (*)()>(&SharedStatics::GetSharedStringMaker)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Util::Tokenizer::StringMaker* (*)()>(&System::SharedStatics::GetSharedStringMaker)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SharedStatics*), "GetSharedStringMaker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::SharedStatics*), "GetSharedStringMaker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SharedStatics::ReleaseSharedStringMaker
+// Writing MetadataGetter for method: System::SharedStatics::ReleaseSharedStringMaker
 // Il2CppName: ReleaseSharedStringMaker
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Security::Util::Tokenizer::StringMaker*&)>(&SharedStatics::ReleaseSharedStringMaker)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Security::Util::Tokenizer::StringMaker*&)>(&System::SharedStatics::ReleaseSharedStringMaker)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SharedStatics*), "ReleaseSharedStringMaker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Util::Tokenizer::StringMaker*&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::SharedStatics*), "ReleaseSharedStringMaker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Util::Tokenizer::StringMaker*&>()});
   }
 };
-// Writing MetadataGetter for method: SharedStatics::_cctor
+// Writing MetadataGetter for method: System::SharedStatics::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SharedStatics::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::SharedStatics::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SharedStatics*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::SharedStatics*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SharedStatics::New_ctor
+// Writing MetadataGetter for method: System::SharedStatics::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SharedStatics::*)()>(&SharedStatics::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::SharedStatics::*)()>(&System::SharedStatics::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SharedStatics*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::SharedStatics*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SharedStatics::*)()>(&SharedStatics::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::SharedStatics::*)()>(&System::SharedStatics::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SharedStatics*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::SharedStatics*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

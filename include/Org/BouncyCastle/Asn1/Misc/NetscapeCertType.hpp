@@ -36,25 +36,25 @@ namespace Org::BouncyCastle::Asn1::Misc {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Misc::NetscapeCertType*, "Org.BouncyCastle.Asn1.Misc", "NetscapeCertType");
-// Writing MetadataGetter for method: NetscapeCertType::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Misc::NetscapeCertType::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetscapeCertType::*)(Org::BouncyCastle::Asn1::DerBitString*)>(&NetscapeCertType::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::Misc::NetscapeCertType::*)(Org::BouncyCastle::Asn1::DerBitString*)>(&Org::BouncyCastle::Asn1::Misc::NetscapeCertType::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetscapeCertType*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerBitString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Misc::NetscapeCertType*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerBitString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetscapeCertType::*)(Org::BouncyCastle::Asn1::DerBitString*)>(&NetscapeCertType::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::Misc::NetscapeCertType::*)(Org::BouncyCastle::Asn1::DerBitString*)>(&Org::BouncyCastle::Asn1::Misc::NetscapeCertType::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetscapeCertType*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerBitString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Misc::NetscapeCertType*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerBitString*>()});
   }
 };
-// Writing MetadataGetter for method: NetscapeCertType::ToString
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Misc::NetscapeCertType::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NetscapeCertType::*)()>(&NetscapeCertType::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Asn1::Misc::NetscapeCertType::*)()>(&Org::BouncyCastle::Asn1::Misc::NetscapeCertType::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetscapeCertType*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Misc::NetscapeCertType*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

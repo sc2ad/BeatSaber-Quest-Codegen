@@ -161,97 +161,97 @@ namespace HMUI {
   static_assert(sizeof(SegmentedControl) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SegmentedControl*, "HMUI", "SegmentedControl");
-// Writing MetadataGetter for method: SegmentedControl::add_didSelectCellEvent
+// Writing MetadataGetter for method: HMUI::SegmentedControl::add_didSelectCellEvent
 // Il2CppName: add_didSelectCellEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SegmentedControl::*)(System::Action_2<HMUI::SegmentedControl*, int>*)>(&SegmentedControl::add_didSelectCellEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SegmentedControl::*)(System::Action_2<HMUI::SegmentedControl*, int>*)>(&HMUI::SegmentedControl::add_didSelectCellEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SegmentedControl*), "add_didSelectCellEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<HMUI::SegmentedControl*, int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SegmentedControl*), "add_didSelectCellEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<HMUI::SegmentedControl*, int>*>()});
   }
 };
-// Writing MetadataGetter for method: SegmentedControl::remove_didSelectCellEvent
+// Writing MetadataGetter for method: HMUI::SegmentedControl::remove_didSelectCellEvent
 // Il2CppName: remove_didSelectCellEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SegmentedControl::*)(System::Action_2<HMUI::SegmentedControl*, int>*)>(&SegmentedControl::remove_didSelectCellEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SegmentedControl::*)(System::Action_2<HMUI::SegmentedControl*, int>*)>(&HMUI::SegmentedControl::remove_didSelectCellEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SegmentedControl*), "remove_didSelectCellEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<HMUI::SegmentedControl*, int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SegmentedControl*), "remove_didSelectCellEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<HMUI::SegmentedControl*, int>*>()});
   }
 };
-// Writing MetadataGetter for method: SegmentedControl::get_dataSource
+// Writing MetadataGetter for method: HMUI::SegmentedControl::get_dataSource
 // Il2CppName: get_dataSource
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::SegmentedControl::IDataSource* (SegmentedControl::*)()>(&SegmentedControl::get_dataSource)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::SegmentedControl::IDataSource* (HMUI::SegmentedControl::*)()>(&HMUI::SegmentedControl::get_dataSource)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SegmentedControl*), "get_dataSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SegmentedControl*), "get_dataSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SegmentedControl::set_dataSource
+// Writing MetadataGetter for method: HMUI::SegmentedControl::set_dataSource
 // Il2CppName: set_dataSource
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SegmentedControl::*)(HMUI::SegmentedControl::IDataSource*)>(&SegmentedControl::set_dataSource)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SegmentedControl::*)(HMUI::SegmentedControl::IDataSource*)>(&HMUI::SegmentedControl::set_dataSource)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SegmentedControl*), "set_dataSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SegmentedControl::IDataSource*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SegmentedControl*), "set_dataSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SegmentedControl::IDataSource*>()});
   }
 };
-// Writing MetadataGetter for method: SegmentedControl::get_selectedCellNumber
+// Writing MetadataGetter for method: HMUI::SegmentedControl::get_selectedCellNumber
 // Il2CppName: get_selectedCellNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SegmentedControl::*)()>(&SegmentedControl::get_selectedCellNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HMUI::SegmentedControl::*)()>(&HMUI::SegmentedControl::get_selectedCellNumber)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SegmentedControl*), "get_selectedCellNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SegmentedControl*), "get_selectedCellNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SegmentedControl::CreateCells
+// Writing MetadataGetter for method: HMUI::SegmentedControl::CreateCells
 // Il2CppName: CreateCells
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SegmentedControl::*)()>(&SegmentedControl::CreateCells)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SegmentedControl::*)()>(&HMUI::SegmentedControl::CreateCells)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SegmentedControl*), "CreateCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SegmentedControl*), "CreateCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SegmentedControl::HandleCellSelectionDidChange
+// Writing MetadataGetter for method: HMUI::SegmentedControl::HandleCellSelectionDidChange
 // Il2CppName: HandleCellSelectionDidChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SegmentedControl::*)(HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType, ::Il2CppObject*)>(&SegmentedControl::HandleCellSelectionDidChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SegmentedControl::*)(HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType, ::Il2CppObject*)>(&HMUI::SegmentedControl::HandleCellSelectionDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SegmentedControl*), "HandleCellSelectionDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SegmentedControl*), "HandleCellSelectionDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: SegmentedControl::SetCallbackForCell
+// Writing MetadataGetter for method: HMUI::SegmentedControl::SetCallbackForCell
 // Il2CppName: SetCallbackForCell
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SegmentedControl::*)(int, System::Action_1<int>*)>(&SegmentedControl::SetCallbackForCell)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SegmentedControl::*)(int, System::Action_1<int>*)>(&HMUI::SegmentedControl::SetCallbackForCell)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SegmentedControl*), "SetCallbackForCell", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SegmentedControl*), "SetCallbackForCell", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
   }
 };
-// Writing MetadataGetter for method: SegmentedControl::ReloadData
+// Writing MetadataGetter for method: HMUI::SegmentedControl::ReloadData
 // Il2CppName: ReloadData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SegmentedControl::*)()>(&SegmentedControl::ReloadData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SegmentedControl::*)()>(&HMUI::SegmentedControl::ReloadData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SegmentedControl*), "ReloadData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SegmentedControl*), "ReloadData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SegmentedControl::SelectCellWithNumber
+// Writing MetadataGetter for method: HMUI::SegmentedControl::SelectCellWithNumber
 // Il2CppName: SelectCellWithNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SegmentedControl::*)(int)>(&SegmentedControl::SelectCellWithNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SegmentedControl::*)(int)>(&HMUI::SegmentedControl::SelectCellWithNumber)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SegmentedControl*), "SelectCellWithNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SegmentedControl*), "SelectCellWithNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SegmentedControl::New_ctor
+// Writing MetadataGetter for method: HMUI::SegmentedControl::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SegmentedControl::*)()>(&SegmentedControl::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SegmentedControl::*)()>(&HMUI::SegmentedControl::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SegmentedControl*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SegmentedControl*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SegmentedControl::*)()>(&SegmentedControl::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SegmentedControl::*)()>(&HMUI::SegmentedControl::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SegmentedControl*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SegmentedControl*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -102,49 +102,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(CommandBufferGrabPass) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CommandBufferGrabPass*, "", "CommandBufferGrabPass");
-// Writing MetadataGetter for method: CommandBufferGrabPass::CreateCommandBuffer
+// Writing MetadataGetter for method: GlobalNamespace::CommandBufferGrabPass::CreateCommandBuffer
 // Il2CppName: CreateCommandBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::CommandBuffer* (CommandBufferGrabPass::*)(UnityEngine::Camera*)>(&CommandBufferGrabPass::CreateCommandBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::CommandBuffer* (GlobalNamespace::CommandBufferGrabPass::*)(UnityEngine::Camera*)>(&GlobalNamespace::CommandBufferGrabPass::CreateCommandBuffer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CommandBufferGrabPass*), "CreateCommandBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferGrabPass*), "CreateCommandBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
   }
 };
-// Writing MetadataGetter for method: CommandBufferGrabPass::CamerasDict
+// Writing MetadataGetter for method: GlobalNamespace::CommandBufferGrabPass::CamerasDict
 // Il2CppName: CamerasDict
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CommandBufferOwners*>* (CommandBufferGrabPass::*)()>(&CommandBufferGrabPass::CamerasDict)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CommandBufferOwners*>* (GlobalNamespace::CommandBufferGrabPass::*)()>(&GlobalNamespace::CommandBufferGrabPass::CamerasDict)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CommandBufferGrabPass*), "CamerasDict", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferGrabPass*), "CamerasDict", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CommandBufferGrabPass::CommandBufferCameraEvent
+// Writing MetadataGetter for method: GlobalNamespace::CommandBufferGrabPass::CommandBufferCameraEvent
 // Il2CppName: CommandBufferCameraEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::CameraEvent (CommandBufferGrabPass::*)()>(&CommandBufferGrabPass::CommandBufferCameraEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::CameraEvent (GlobalNamespace::CommandBufferGrabPass::*)()>(&GlobalNamespace::CommandBufferGrabPass::CommandBufferCameraEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CommandBufferGrabPass*), "CommandBufferCameraEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferGrabPass*), "CommandBufferCameraEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CommandBufferGrabPass::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::CommandBufferGrabPass::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CommandBufferGrabPass::*)()>(&CommandBufferGrabPass::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CommandBufferGrabPass::*)()>(&GlobalNamespace::CommandBufferGrabPass::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CommandBufferGrabPass*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferGrabPass*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CommandBufferGrabPass::*)()>(&CommandBufferGrabPass::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CommandBufferGrabPass::*)()>(&GlobalNamespace::CommandBufferGrabPass::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CommandBufferGrabPass*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferGrabPass*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CommandBufferGrabPass::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::CommandBufferGrabPass::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CommandBufferGrabPass::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::CommandBufferGrabPass::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CommandBufferGrabPass*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferGrabPass*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

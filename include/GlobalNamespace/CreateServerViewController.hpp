@@ -127,81 +127,81 @@ namespace GlobalNamespace {
   static_assert(sizeof(CreateServerViewController) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreateServerViewController*, "", "CreateServerViewController");
-// Writing MetadataGetter for method: CreateServerViewController::add_didFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::CreateServerViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateServerViewController::*)(System::Action_2<bool, GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*>*)>(&CreateServerViewController::add_didFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CreateServerViewController::*)(System::Action_2<bool, GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*>*)>(&GlobalNamespace::CreateServerViewController::add_didFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CreateServerViewController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<bool, GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreateServerViewController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<bool, GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*>*>()});
   }
 };
-// Writing MetadataGetter for method: CreateServerViewController::remove_didFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::CreateServerViewController::remove_didFinishEvent
 // Il2CppName: remove_didFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateServerViewController::*)(System::Action_2<bool, GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*>*)>(&CreateServerViewController::remove_didFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CreateServerViewController::*)(System::Action_2<bool, GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*>*)>(&GlobalNamespace::CreateServerViewController::remove_didFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CreateServerViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<bool, GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreateServerViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<bool, GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*>*>()});
   }
 };
-// Writing MetadataGetter for method: CreateServerViewController::get_multiplayerModeSettings
+// Writing MetadataGetter for method: GlobalNamespace::CreateServerViewController::get_multiplayerModeSettings
 // Il2CppName: get_multiplayerModeSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerModeSettings* (CreateServerViewController::*)()>(&CreateServerViewController::get_multiplayerModeSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerModeSettings* (GlobalNamespace::CreateServerViewController::*)()>(&GlobalNamespace::CreateServerViewController::get_multiplayerModeSettings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CreateServerViewController*), "get_multiplayerModeSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreateServerViewController*), "get_multiplayerModeSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CreateServerViewController::Setup
+// Writing MetadataGetter for method: GlobalNamespace::CreateServerViewController::Setup
 // Il2CppName: Setup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateServerViewController::*)(GlobalNamespace::MultiplayerModeSettings*)>(&CreateServerViewController::Setup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CreateServerViewController::*)(GlobalNamespace::MultiplayerModeSettings*)>(&GlobalNamespace::CreateServerViewController::Setup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CreateServerViewController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerModeSettings*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreateServerViewController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerModeSettings*>()});
   }
 };
-// Writing MetadataGetter for method: CreateServerViewController::CreatePartyConfig
+// Writing MetadataGetter for method: GlobalNamespace::CreateServerViewController::CreatePartyConfig
 // Il2CppName: CreatePartyConfig
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig* (CreateServerViewController::*)()>(&CreateServerViewController::CreatePartyConfig)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig* (GlobalNamespace::CreateServerViewController::*)()>(&GlobalNamespace::CreateServerViewController::CreatePartyConfig)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CreateServerViewController*), "CreatePartyConfig", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreateServerViewController*), "CreatePartyConfig", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CreateServerViewController::$DidActivate$b__11_0
+// Writing MetadataGetter for method: GlobalNamespace::CreateServerViewController::$DidActivate$b__11_0
 // Il2CppName: <DidActivate>b__11_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateServerViewController::*)()>(&CreateServerViewController::$DidActivate$b__11_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CreateServerViewController::*)()>(&GlobalNamespace::CreateServerViewController::$DidActivate$b__11_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CreateServerViewController*), "<DidActivate>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreateServerViewController*), "<DidActivate>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CreateServerViewController::$DidActivate$b__11_1
+// Writing MetadataGetter for method: GlobalNamespace::CreateServerViewController::$DidActivate$b__11_1
 // Il2CppName: <DidActivate>b__11_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateServerViewController::*)()>(&CreateServerViewController::$DidActivate$b__11_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CreateServerViewController::*)()>(&GlobalNamespace::CreateServerViewController::$DidActivate$b__11_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CreateServerViewController*), "<DidActivate>b__11_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreateServerViewController*), "<DidActivate>b__11_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CreateServerViewController::DidActivate
+// Writing MetadataGetter for method: GlobalNamespace::CreateServerViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateServerViewController::*)(bool, bool, bool)>(&CreateServerViewController::DidActivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CreateServerViewController::*)(bool, bool, bool)>(&GlobalNamespace::CreateServerViewController::DidActivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CreateServerViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreateServerViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: CreateServerViewController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::CreateServerViewController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateServerViewController::*)()>(&CreateServerViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CreateServerViewController::*)()>(&GlobalNamespace::CreateServerViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CreateServerViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreateServerViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateServerViewController::*)()>(&CreateServerViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CreateServerViewController::*)()>(&GlobalNamespace::CreateServerViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CreateServerViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreateServerViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -83,49 +83,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(RollingAverage) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RollingAverage*, "", "RollingAverage");
-// Writing MetadataGetter for method: RollingAverage::get_currentAverage
+// Writing MetadataGetter for method: GlobalNamespace::RollingAverage::get_currentAverage
 // Il2CppName: get_currentAverage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RollingAverage::*)()>(&RollingAverage::get_currentAverage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::RollingAverage::*)()>(&GlobalNamespace::RollingAverage::get_currentAverage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RollingAverage*), "get_currentAverage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RollingAverage*), "get_currentAverage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RollingAverage::get_hasValue
+// Writing MetadataGetter for method: GlobalNamespace::RollingAverage::get_hasValue
 // Il2CppName: get_hasValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RollingAverage::*)()>(&RollingAverage::get_hasValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::RollingAverage::*)()>(&GlobalNamespace::RollingAverage::get_hasValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RollingAverage*), "get_hasValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RollingAverage*), "get_hasValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RollingAverage::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::RollingAverage::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RollingAverage::*)(int)>(&RollingAverage::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RollingAverage::*)(int)>(&GlobalNamespace::RollingAverage::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RollingAverage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RollingAverage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RollingAverage::*)(int)>(&RollingAverage::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RollingAverage::*)(int)>(&GlobalNamespace::RollingAverage::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RollingAverage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RollingAverage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: RollingAverage::Update
+// Writing MetadataGetter for method: GlobalNamespace::RollingAverage::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RollingAverage::*)(float)>(&RollingAverage::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RollingAverage::*)(float)>(&GlobalNamespace::RollingAverage::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RollingAverage*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RollingAverage*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: RollingAverage::Reset
+// Writing MetadataGetter for method: GlobalNamespace::RollingAverage::Reset
 // Il2CppName: Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RollingAverage::*)()>(&RollingAverage::Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RollingAverage::*)()>(&GlobalNamespace::RollingAverage::Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RollingAverage*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RollingAverage*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

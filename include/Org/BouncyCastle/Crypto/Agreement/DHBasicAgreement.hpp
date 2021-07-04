@@ -79,41 +79,41 @@ namespace Org::BouncyCastle::Crypto::Agreement {
   static_assert(sizeof(DHBasicAgreement) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*, "Org.BouncyCastle.Crypto.Agreement", "DHBasicAgreement");
-// Writing MetadataGetter for method: DHBasicAgreement::Init
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DHBasicAgreement::*)(Org::BouncyCastle::Crypto::ICipherParameters*)>(&DHBasicAgreement::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement::*)(Org::BouncyCastle::Crypto::ICipherParameters*)>(&Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DHBasicAgreement*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::ICipherParameters*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::ICipherParameters*>()});
   }
 };
-// Writing MetadataGetter for method: DHBasicAgreement::GetFieldSize
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement::GetFieldSize
 // Il2CppName: GetFieldSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DHBasicAgreement::*)()>(&DHBasicAgreement::GetFieldSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement::*)()>(&Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement::GetFieldSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DHBasicAgreement*), "GetFieldSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*), "GetFieldSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DHBasicAgreement::CalculateAgreement
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement::CalculateAgreement
 // Il2CppName: CalculateAgreement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (DHBasicAgreement::*)(Org::BouncyCastle::Crypto::ICipherParameters*)>(&DHBasicAgreement::CalculateAgreement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement::*)(Org::BouncyCastle::Crypto::ICipherParameters*)>(&Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement::CalculateAgreement)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DHBasicAgreement*), "CalculateAgreement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::ICipherParameters*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*), "CalculateAgreement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::ICipherParameters*>()});
   }
 };
-// Writing MetadataGetter for method: DHBasicAgreement::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DHBasicAgreement::*)()>(&DHBasicAgreement::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement::*)()>(&Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DHBasicAgreement*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DHBasicAgreement::*)()>(&DHBasicAgreement::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement::*)()>(&Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DHBasicAgreement*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

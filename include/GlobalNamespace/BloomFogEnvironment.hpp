@@ -71,33 +71,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomFogEnvironment) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFogEnvironment*, "", "BloomFogEnvironment");
-// Writing MetadataGetter for method: BloomFogEnvironment::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::BloomFogEnvironment::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomFogEnvironment::*)()>(&BloomFogEnvironment::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomFogEnvironment::*)()>(&GlobalNamespace::BloomFogEnvironment::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomFogEnvironment*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogEnvironment*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomFogEnvironment::OnValidate
+// Writing MetadataGetter for method: GlobalNamespace::BloomFogEnvironment::OnValidate
 // Il2CppName: OnValidate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomFogEnvironment::*)()>(&BloomFogEnvironment::OnValidate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomFogEnvironment::*)()>(&GlobalNamespace::BloomFogEnvironment::OnValidate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomFogEnvironment*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogEnvironment*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomFogEnvironment::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BloomFogEnvironment::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomFogEnvironment::*)()>(&BloomFogEnvironment::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomFogEnvironment::*)()>(&GlobalNamespace::BloomFogEnvironment::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomFogEnvironment*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogEnvironment*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomFogEnvironment::*)()>(&BloomFogEnvironment::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomFogEnvironment::*)()>(&GlobalNamespace::BloomFogEnvironment::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomFogEnvironment*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogEnvironment*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

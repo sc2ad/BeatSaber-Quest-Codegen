@@ -78,25 +78,25 @@ namespace GlobalNamespace {
   static_assert(sizeof(OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0*, "", "OculusBeatmapDataAssetFileModel/<>c__DisplayClass15_0");
-// Writing MetadataGetter for method: OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0::$ReloadAssetDetailsForAllLevelsAsync$b__0
+// Writing MetadataGetter for method: GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0::$ReloadAssetDetailsForAllLevelsAsync$b__0
 // Il2CppName: <ReloadAssetDetailsForAllLevelsAsync>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0::*)(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetDetailsList*>*)>(&OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0::$ReloadAssetDetailsForAllLevelsAsync$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0::*)(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetDetailsList*>*)>(&GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0::$ReloadAssetDetailsForAllLevelsAsync$b__0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0*), "<ReloadAssetDetailsForAllLevelsAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Message_1<Oculus::Platform::Models::AssetDetailsList*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0*), "<ReloadAssetDetailsForAllLevelsAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Message_1<Oculus::Platform::Models::AssetDetailsList*>*>()});
   }
 };
-// Writing MetadataGetter for method: OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0::*)()>(&OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0::*)()>(&GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0::*)()>(&OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0::*)()>(&GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass15_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

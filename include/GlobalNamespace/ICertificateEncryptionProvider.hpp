@@ -32,11 +32,11 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ICertificateEncryptionProvider*, "", "ICertificateEncryptionProvider");
-// Writing MetadataGetter for method: ICertificateEncryptionProvider::SignData
+// Writing MetadataGetter for method: GlobalNamespace::ICertificateEncryptionProvider::SignData
 // Il2CppName: SignData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (ICertificateEncryptionProvider::*)(::Array<uint8_t>*, int, int)>(&ICertificateEncryptionProvider::SignData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (GlobalNamespace::ICertificateEncryptionProvider::*)(::Array<uint8_t>*, int, int)>(&GlobalNamespace::ICertificateEncryptionProvider::SignData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ICertificateEncryptionProvider*), "SignData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ICertificateEncryptionProvider*), "SignData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };

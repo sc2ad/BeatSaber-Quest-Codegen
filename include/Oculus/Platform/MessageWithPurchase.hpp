@@ -47,33 +47,33 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithPurchase
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithPurchase*, "Oculus.Platform", "MessageWithPurchase");
-// Writing MetadataGetter for method: MessageWithPurchase::GetDataFromMessage
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithPurchase::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::Purchase* (MessageWithPurchase::*)(System::IntPtr)>(&MessageWithPurchase::GetDataFromMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::Purchase* (Oculus::Platform::MessageWithPurchase::*)(System::IntPtr)>(&Oculus::Platform::MessageWithPurchase::GetDataFromMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithPurchase*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithPurchase*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithPurchase::New_ctor
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithPurchase::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithPurchase::*)(System::IntPtr)>(&MessageWithPurchase::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithPurchase::*)(System::IntPtr)>(&Oculus::Platform::MessageWithPurchase::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithPurchase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithPurchase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithPurchase::*)(System::IntPtr)>(&MessageWithPurchase::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithPurchase::*)(System::IntPtr)>(&Oculus::Platform::MessageWithPurchase::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithPurchase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithPurchase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithPurchase::GetPurchase
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithPurchase::GetPurchase
 // Il2CppName: GetPurchase
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::Purchase* (MessageWithPurchase::*)()>(&MessageWithPurchase::GetPurchase)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::Purchase* (Oculus::Platform::MessageWithPurchase::*)()>(&Oculus::Platform::MessageWithPurchase::GetPurchase)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithPurchase*), "GetPurchase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithPurchase*), "GetPurchase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

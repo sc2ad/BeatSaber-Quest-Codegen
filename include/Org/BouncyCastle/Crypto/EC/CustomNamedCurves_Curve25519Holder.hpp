@@ -55,33 +55,33 @@ namespace Org::BouncyCastle::Crypto::EC {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::EC::CustomNamedCurves::Curve25519Holder*, "Org.BouncyCastle.Crypto.EC", "CustomNamedCurves/Curve25519Holder");
-// Writing MetadataGetter for method: CustomNamedCurves::Curve25519Holder::_cctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::Curve25519Holder::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CustomNamedCurves::Curve25519Holder::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::Crypto::EC::CustomNamedCurves::Curve25519Holder::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomNamedCurves::Curve25519Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::EC::CustomNamedCurves::Curve25519Holder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CustomNamedCurves::Curve25519Holder::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::Curve25519Holder::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomNamedCurves::Curve25519Holder::*)()>(&CustomNamedCurves::Curve25519Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::EC::CustomNamedCurves::Curve25519Holder::*)()>(&Org::BouncyCastle::Crypto::EC::CustomNamedCurves::Curve25519Holder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomNamedCurves::Curve25519Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::EC::CustomNamedCurves::Curve25519Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomNamedCurves::Curve25519Holder::*)()>(&CustomNamedCurves::Curve25519Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::EC::CustomNamedCurves::Curve25519Holder::*)()>(&Org::BouncyCastle::Crypto::EC::CustomNamedCurves::Curve25519Holder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomNamedCurves::Curve25519Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::EC::CustomNamedCurves::Curve25519Holder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CustomNamedCurves::Curve25519Holder::CreateParameters
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::Curve25519Holder::CreateParameters
 // Il2CppName: CreateParameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (CustomNamedCurves::Curve25519Holder::*)()>(&CustomNamedCurves::Curve25519Holder::CreateParameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (Org::BouncyCastle::Crypto::EC::CustomNamedCurves::Curve25519Holder::*)()>(&Org::BouncyCastle::Crypto::EC::CustomNamedCurves::Curve25519Holder::CreateParameters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomNamedCurves::Curve25519Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::EC::CustomNamedCurves::Curve25519Holder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

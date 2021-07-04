@@ -88,25 +88,25 @@ namespace GlobalNamespace {
   static_assert(sizeof(DateConditionalSpriteSwitcher) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DateConditionalSpriteSwitcher*, "", "DateConditionalSpriteSwitcher");
-// Writing MetadataGetter for method: DateConditionalSpriteSwitcher::Awake
+// Writing MetadataGetter for method: GlobalNamespace::DateConditionalSpriteSwitcher::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DateConditionalSpriteSwitcher::*)()>(&DateConditionalSpriteSwitcher::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DateConditionalSpriteSwitcher::*)()>(&GlobalNamespace::DateConditionalSpriteSwitcher::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DateConditionalSpriteSwitcher*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DateConditionalSpriteSwitcher*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DateConditionalSpriteSwitcher::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::DateConditionalSpriteSwitcher::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DateConditionalSpriteSwitcher::*)()>(&DateConditionalSpriteSwitcher::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DateConditionalSpriteSwitcher::*)()>(&GlobalNamespace::DateConditionalSpriteSwitcher::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DateConditionalSpriteSwitcher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DateConditionalSpriteSwitcher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DateConditionalSpriteSwitcher::*)()>(&DateConditionalSpriteSwitcher::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DateConditionalSpriteSwitcher::*)()>(&GlobalNamespace::DateConditionalSpriteSwitcher::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DateConditionalSpriteSwitcher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DateConditionalSpriteSwitcher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

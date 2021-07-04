@@ -75,123 +75,123 @@ namespace System::Security::Cryptography {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::Utils*, "System.Security.Cryptography", "Utils");
-// Writing MetadataGetter for method: Utils::get_StaticRandomNumberGenerator
+// Writing MetadataGetter for method: System::Security::Cryptography::Utils::get_StaticRandomNumberGenerator
 // Il2CppName: get_StaticRandomNumberGenerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RNGCryptoServiceProvider* (*)()>(&Utils::get_StaticRandomNumberGenerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RNGCryptoServiceProvider* (*)()>(&System::Security::Cryptography::Utils::get_StaticRandomNumberGenerator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Utils*), "get_StaticRandomNumberGenerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::Utils*), "get_StaticRandomNumberGenerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Utils::GenerateRandom
+// Writing MetadataGetter for method: System::Security::Cryptography::Utils::GenerateRandom
 // Il2CppName: GenerateRandom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(int)>(&Utils::GenerateRandom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(int)>(&System::Security::Cryptography::Utils::GenerateRandom)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Utils*), "GenerateRandom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::Utils*), "GenerateRandom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Utils::HasAlgorithm
+// Writing MetadataGetter for method: System::Security::Cryptography::Utils::HasAlgorithm
 // Il2CppName: HasAlgorithm
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, int)>(&Utils::HasAlgorithm)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, int)>(&System::Security::Cryptography::Utils::HasAlgorithm)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Utils*), "HasAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::Utils*), "HasAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Utils::DiscardWhiteSpaces
+// Writing MetadataGetter for method: System::Security::Cryptography::Utils::DiscardWhiteSpaces
 // Il2CppName: DiscardWhiteSpaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&Utils::DiscardWhiteSpaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Security::Cryptography::Utils::DiscardWhiteSpaces)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Utils*), "DiscardWhiteSpaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::Utils*), "DiscardWhiteSpaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Utils::DiscardWhiteSpaces
+// Writing MetadataGetter for method: System::Security::Cryptography::Utils::DiscardWhiteSpaces
 // Il2CppName: DiscardWhiteSpaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int, int)>(&Utils::DiscardWhiteSpaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int, int)>(&System::Security::Cryptography::Utils::DiscardWhiteSpaces)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Utils*), "DiscardWhiteSpaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::Utils*), "DiscardWhiteSpaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Utils::ConvertByteArrayToInt
+// Writing MetadataGetter for method: System::Security::Cryptography::Utils::ConvertByteArrayToInt
 // Il2CppName: ConvertByteArrayToInt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint8_t>*)>(&Utils::ConvertByteArrayToInt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint8_t>*)>(&System::Security::Cryptography::Utils::ConvertByteArrayToInt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Utils*), "ConvertByteArrayToInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::Utils*), "ConvertByteArrayToInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: Utils::ConvertIntToByteArray
+// Writing MetadataGetter for method: System::Security::Cryptography::Utils::ConvertIntToByteArray
 // Il2CppName: ConvertIntToByteArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(int)>(&Utils::ConvertIntToByteArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(int)>(&System::Security::Cryptography::Utils::ConvertIntToByteArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Utils*), "ConvertIntToByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::Utils*), "ConvertIntToByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Utils::FixupKeyParity
+// Writing MetadataGetter for method: System::Security::Cryptography::Utils::FixupKeyParity
 // Il2CppName: FixupKeyParity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*)>(&Utils::FixupKeyParity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*)>(&System::Security::Cryptography::Utils::FixupKeyParity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Utils*), "FixupKeyParity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::Utils*), "FixupKeyParity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: Utils::DWORDFromLittleEndian
+// Writing MetadataGetter for method: System::Security::Cryptography::Utils::DWORDFromLittleEndian
 // Il2CppName: DWORDFromLittleEndian
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint*, int, uint8_t*)>(&Utils::DWORDFromLittleEndian)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint*, int, uint8_t*)>(&System::Security::Cryptography::Utils::DWORDFromLittleEndian)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Utils*), "DWORDFromLittleEndian", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::Utils*), "DWORDFromLittleEndian", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>()});
   }
 };
-// Writing MetadataGetter for method: Utils::DWORDToLittleEndian
+// Writing MetadataGetter for method: System::Security::Cryptography::Utils::DWORDToLittleEndian
 // Il2CppName: DWORDToLittleEndian
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, ::Array<uint>*, int)>(&Utils::DWORDToLittleEndian)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, ::Array<uint>*, int)>(&System::Security::Cryptography::Utils::DWORDToLittleEndian)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Utils*), "DWORDToLittleEndian", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::Utils*), "DWORDToLittleEndian", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Utils::DWORDFromBigEndian
+// Writing MetadataGetter for method: System::Security::Cryptography::Utils::DWORDFromBigEndian
 // Il2CppName: DWORDFromBigEndian
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint*, int, uint8_t*)>(&Utils::DWORDFromBigEndian)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint*, int, uint8_t*)>(&System::Security::Cryptography::Utils::DWORDFromBigEndian)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Utils*), "DWORDFromBigEndian", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::Utils*), "DWORDFromBigEndian", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>()});
   }
 };
-// Writing MetadataGetter for method: Utils::DWORDToBigEndian
+// Writing MetadataGetter for method: System::Security::Cryptography::Utils::DWORDToBigEndian
 // Il2CppName: DWORDToBigEndian
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, ::Array<uint>*, int)>(&Utils::DWORDToBigEndian)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, ::Array<uint>*, int)>(&System::Security::Cryptography::Utils::DWORDToBigEndian)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Utils*), "DWORDToBigEndian", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::Utils*), "DWORDToBigEndian", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Utils::QuadWordFromBigEndian
+// Writing MetadataGetter for method: System::Security::Cryptography::Utils::QuadWordFromBigEndian
 // Il2CppName: QuadWordFromBigEndian
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t*, int, uint8_t*)>(&Utils::QuadWordFromBigEndian)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t*, int, uint8_t*)>(&System::Security::Cryptography::Utils::QuadWordFromBigEndian)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Utils*), "QuadWordFromBigEndian", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::Utils*), "QuadWordFromBigEndian", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>()});
   }
 };
-// Writing MetadataGetter for method: Utils::QuadWordToBigEndian
+// Writing MetadataGetter for method: System::Security::Cryptography::Utils::QuadWordToBigEndian
 // Il2CppName: QuadWordToBigEndian
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, ::Array<uint64_t>*, int)>(&Utils::QuadWordToBigEndian)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, ::Array<uint64_t>*, int)>(&System::Security::Cryptography::Utils::QuadWordToBigEndian)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Utils*), "QuadWordToBigEndian", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::Utils*), "QuadWordToBigEndian", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Utils::_ProduceLegacyHmacValues
+// Writing MetadataGetter for method: System::Security::Cryptography::Utils::_ProduceLegacyHmacValues
 // Il2CppName: _ProduceLegacyHmacValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Utils::_ProduceLegacyHmacValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Security::Cryptography::Utils::_ProduceLegacyHmacValues)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Utils*), "_ProduceLegacyHmacValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::Utils*), "_ProduceLegacyHmacValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

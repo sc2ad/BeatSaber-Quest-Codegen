@@ -78,33 +78,33 @@ namespace Org::BouncyCastle::Crypto::Generators {
   static_assert(sizeof(BaseKdfBytesGenerator) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator*, "Org.BouncyCastle.Crypto.Generators", "BaseKdfBytesGenerator");
-// Writing MetadataGetter for method: BaseKdfBytesGenerator::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseKdfBytesGenerator::*)(int, Org::BouncyCastle::Crypto::IDigest*)>(&BaseKdfBytesGenerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator::*)(int, Org::BouncyCastle::Crypto::IDigest*)>(&Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseKdfBytesGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseKdfBytesGenerator::*)(int, Org::BouncyCastle::Crypto::IDigest*)>(&BaseKdfBytesGenerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator::*)(int, Org::BouncyCastle::Crypto::IDigest*)>(&Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseKdfBytesGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>()});
   }
 };
-// Writing MetadataGetter for method: BaseKdfBytesGenerator::Init
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseKdfBytesGenerator::*)(Org::BouncyCastle::Crypto::IDerivationParameters*)>(&BaseKdfBytesGenerator::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator::*)(Org::BouncyCastle::Crypto::IDerivationParameters*)>(&Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseKdfBytesGenerator*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDerivationParameters*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDerivationParameters*>()});
   }
 };
-// Writing MetadataGetter for method: BaseKdfBytesGenerator::GenerateBytes
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator::GenerateBytes
 // Il2CppName: GenerateBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BaseKdfBytesGenerator::*)(::Array<uint8_t>*, int, int)>(&BaseKdfBytesGenerator::GenerateBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator::*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator::GenerateBytes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseKdfBytesGenerator*), "GenerateBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator*), "GenerateBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };

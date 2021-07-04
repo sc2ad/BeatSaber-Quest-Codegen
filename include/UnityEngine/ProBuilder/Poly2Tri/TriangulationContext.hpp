@@ -149,129 +149,129 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   static_assert(sizeof(TriangulationContext) == 0x3D);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationContext");
-// Writing MetadataGetter for method: TriangulationContext::get_DebugContext
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::get_DebugContext
 // Il2CppName: get_DebugContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* (TriangulationContext::*)()>(&TriangulationContext::get_DebugContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* (UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)()>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::get_DebugContext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TriangulationContext*), "get_DebugContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*), "get_DebugContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TriangulationContext::get_TriangulationMode
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::get_TriangulationMode
 // Il2CppName: get_TriangulationMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::TriangulationMode (TriangulationContext::*)()>(&TriangulationContext::get_TriangulationMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::TriangulationMode (UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)()>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::get_TriangulationMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TriangulationContext*), "get_TriangulationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*), "get_TriangulationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TriangulationContext::set_TriangulationMode
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::set_TriangulationMode
 // Il2CppName: set_TriangulationMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TriangulationContext::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationMode)>(&TriangulationContext::set_TriangulationMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationMode)>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::set_TriangulationMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TriangulationContext*), "set_TriangulationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationMode>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*), "set_TriangulationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationMode>()});
   }
 };
-// Writing MetadataGetter for method: TriangulationContext::get_Triangulatable
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::get_Triangulatable
 // Il2CppName: get_Triangulatable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::Triangulatable* (TriangulationContext::*)()>(&TriangulationContext::get_Triangulatable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::Triangulatable* (UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)()>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::get_Triangulatable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TriangulationContext*), "get_Triangulatable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*), "get_Triangulatable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TriangulationContext::set_Triangulatable
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::set_Triangulatable
 // Il2CppName: set_Triangulatable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TriangulationContext::*)(UnityEngine::ProBuilder::Poly2Tri::Triangulatable*)>(&TriangulationContext::set_Triangulatable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)(UnityEngine::ProBuilder::Poly2Tri::Triangulatable*)>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::set_Triangulatable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TriangulationContext*), "set_Triangulatable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::Triangulatable*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*), "set_Triangulatable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::Triangulatable*>()});
   }
 };
-// Writing MetadataGetter for method: TriangulationContext::get_StepCount
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::get_StepCount
 // Il2CppName: get_StepCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TriangulationContext::*)()>(&TriangulationContext::get_StepCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)()>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::get_StepCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TriangulationContext*), "get_StepCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*), "get_StepCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TriangulationContext::set_StepCount
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::set_StepCount
 // Il2CppName: set_StepCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TriangulationContext::*)(int)>(&TriangulationContext::set_StepCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)(int)>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::set_StepCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TriangulationContext*), "set_StepCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*), "set_StepCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TriangulationContext::Done
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::Done
 // Il2CppName: Done
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TriangulationContext::*)()>(&TriangulationContext::Done)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)()>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::Done)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TriangulationContext*), "Done", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*), "Done", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TriangulationContext::PrepareTriangulation
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::PrepareTriangulation
 // Il2CppName: PrepareTriangulation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TriangulationContext::*)(UnityEngine::ProBuilder::Poly2Tri::Triangulatable*)>(&TriangulationContext::PrepareTriangulation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)(UnityEngine::ProBuilder::Poly2Tri::Triangulatable*)>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::PrepareTriangulation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TriangulationContext*), "PrepareTriangulation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::Triangulatable*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*), "PrepareTriangulation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::Triangulatable*>()});
   }
 };
-// Writing MetadataGetter for method: TriangulationContext::NewConstraint
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::NewConstraint
 // Il2CppName: NewConstraint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint* (TriangulationContext::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&TriangulationContext::NewConstraint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint* (UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::NewConstraint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TriangulationContext*), "NewConstraint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*), "NewConstraint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>()});
   }
 };
-// Writing MetadataGetter for method: TriangulationContext::Update
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TriangulationContext::*)(::Il2CppString*)>(&TriangulationContext::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)(::Il2CppString*)>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TriangulationContext*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TriangulationContext::Clear
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::Clear
 // Il2CppName: Clear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TriangulationContext::*)()>(&TriangulationContext::Clear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)()>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::Clear)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TriangulationContext*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TriangulationContext::get_IsDebugEnabled
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::get_IsDebugEnabled
 // Il2CppName: get_IsDebugEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TriangulationContext::*)()>(&TriangulationContext::get_IsDebugEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)()>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::get_IsDebugEnabled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TriangulationContext*), "get_IsDebugEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*), "get_IsDebugEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TriangulationContext::get_DTDebugContext
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::get_DTDebugContext
 // Il2CppName: get_DTDebugContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext* (TriangulationContext::*)()>(&TriangulationContext::get_DTDebugContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext* (UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)()>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::get_DTDebugContext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TriangulationContext*), "get_DTDebugContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*), "get_DTDebugContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TriangulationContext::New_ctor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TriangulationContext::*)()>(&TriangulationContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)()>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TriangulationContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TriangulationContext::*)()>(&TriangulationContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::*)()>(&UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TriangulationContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

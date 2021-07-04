@@ -117,49 +117,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(ResultsTableView) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsTableView*, "", "ResultsTableView");
-// Writing MetadataGetter for method: ResultsTableView::CellSize
+// Writing MetadataGetter for method: GlobalNamespace::ResultsTableView::CellSize
 // Il2CppName: CellSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (ResultsTableView::*)()>(&ResultsTableView::CellSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ResultsTableView::*)()>(&GlobalNamespace::ResultsTableView::CellSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResultsTableView*), "CellSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsTableView*), "CellSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ResultsTableView::NumberOfCells
+// Writing MetadataGetter for method: GlobalNamespace::ResultsTableView::NumberOfCells
 // Il2CppName: NumberOfCells
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ResultsTableView::*)()>(&ResultsTableView::NumberOfCells)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::ResultsTableView::*)()>(&GlobalNamespace::ResultsTableView::NumberOfCells)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResultsTableView*), "NumberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsTableView*), "NumberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ResultsTableView::CellForIdx
+// Writing MetadataGetter for method: GlobalNamespace::ResultsTableView::CellForIdx
 // Il2CppName: CellForIdx
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (ResultsTableView::*)(HMUI::TableView*, int)>(&ResultsTableView::CellForIdx)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (GlobalNamespace::ResultsTableView::*)(HMUI::TableView*, int)>(&GlobalNamespace::ResultsTableView::CellForIdx)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResultsTableView*), "CellForIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsTableView*), "CellForIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ResultsTableView::SetData
+// Writing MetadataGetter for method: GlobalNamespace::ResultsTableView::SetData
 // Il2CppName: SetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultsTableView::*)(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*)>(&ResultsTableView::SetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultsTableView::*)(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*)>(&GlobalNamespace::ResultsTableView::SetData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResultsTableView*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsTableView*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*>()});
   }
 };
-// Writing MetadataGetter for method: ResultsTableView::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::ResultsTableView::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultsTableView::*)()>(&ResultsTableView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultsTableView::*)()>(&GlobalNamespace::ResultsTableView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResultsTableView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsTableView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultsTableView::*)()>(&ResultsTableView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultsTableView::*)()>(&GlobalNamespace::ResultsTableView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResultsTableView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsTableView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

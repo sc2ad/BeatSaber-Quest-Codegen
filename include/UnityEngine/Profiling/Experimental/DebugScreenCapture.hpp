@@ -71,35 +71,35 @@ namespace UnityEngine::Profiling::Experimental {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Profiling::Experimental::DebugScreenCapture, "UnityEngine.Profiling.Experimental", "DebugScreenCapture");
-// Writing MetadataGetter for method: DebugScreenCapture::set_rawImageDataReference
+// Writing MetadataGetter for method: UnityEngine::Profiling::Experimental::DebugScreenCapture::set_rawImageDataReference
 // Il2CppName: set_rawImageDataReference
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DebugScreenCapture::*)(Unity::Collections::NativeArray_1<uint8_t>)>(&DebugScreenCapture::set_rawImageDataReference)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Profiling::Experimental::DebugScreenCapture::*)(Unity::Collections::NativeArray_1<uint8_t>)>(&UnityEngine::Profiling::Experimental::DebugScreenCapture::set_rawImageDataReference)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DebugScreenCapture), "set_rawImageDataReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Unity::Collections::NativeArray_1<uint8_t>>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Profiling::Experimental::DebugScreenCapture), "set_rawImageDataReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Unity::Collections::NativeArray_1<uint8_t>>()});
   }
 };
-// Writing MetadataGetter for method: DebugScreenCapture::set_imageFormat
+// Writing MetadataGetter for method: UnityEngine::Profiling::Experimental::DebugScreenCapture::set_imageFormat
 // Il2CppName: set_imageFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DebugScreenCapture::*)(UnityEngine::TextureFormat)>(&DebugScreenCapture::set_imageFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Profiling::Experimental::DebugScreenCapture::*)(UnityEngine::TextureFormat)>(&UnityEngine::Profiling::Experimental::DebugScreenCapture::set_imageFormat)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DebugScreenCapture), "set_imageFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextureFormat>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Profiling::Experimental::DebugScreenCapture), "set_imageFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextureFormat>()});
   }
 };
-// Writing MetadataGetter for method: DebugScreenCapture::set_width
+// Writing MetadataGetter for method: UnityEngine::Profiling::Experimental::DebugScreenCapture::set_width
 // Il2CppName: set_width
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DebugScreenCapture::*)(int)>(&DebugScreenCapture::set_width)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Profiling::Experimental::DebugScreenCapture::*)(int)>(&UnityEngine::Profiling::Experimental::DebugScreenCapture::set_width)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DebugScreenCapture), "set_width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Profiling::Experimental::DebugScreenCapture), "set_width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: DebugScreenCapture::set_height
+// Writing MetadataGetter for method: UnityEngine::Profiling::Experimental::DebugScreenCapture::set_height
 // Il2CppName: set_height
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DebugScreenCapture::*)(int)>(&DebugScreenCapture::set_height)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Profiling::Experimental::DebugScreenCapture::*)(int)>(&UnityEngine::Profiling::Experimental::DebugScreenCapture::set_height)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DebugScreenCapture), "set_height", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Profiling::Experimental::DebugScreenCapture), "set_height", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };

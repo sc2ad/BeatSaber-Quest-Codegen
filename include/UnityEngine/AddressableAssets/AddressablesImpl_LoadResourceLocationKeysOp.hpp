@@ -108,49 +108,49 @@ namespace UnityEngine::AddressableAssets {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp*, "UnityEngine.AddressableAssets", "AddressablesImpl/LoadResourceLocationKeysOp");
-// Writing MetadataGetter for method: AddressablesImpl::LoadResourceLocationKeysOp::Init
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::LoadResourceLocationKeysOp::*)(UnityEngine::AddressableAssets::AddressablesImpl*, System::Type*, System::Collections::IEnumerable*, UnityEngine::AddressableAssets::Addressables::MergeMode)>(&AddressablesImpl::LoadResourceLocationKeysOp::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp::*)(UnityEngine::AddressableAssets::AddressablesImpl*, System::Type*, System::Collections::IEnumerable*, UnityEngine::AddressableAssets::Addressables::MergeMode)>(&UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::LoadResourceLocationKeysOp*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::AddressablesImpl*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::Addressables::MergeMode>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::AddressablesImpl*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::Addressables::MergeMode>()});
   }
 };
-// Writing MetadataGetter for method: AddressablesImpl::LoadResourceLocationKeysOp::get_DebugName
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp::get_DebugName
 // Il2CppName: get_DebugName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AddressablesImpl::LoadResourceLocationKeysOp::*)()>(&AddressablesImpl::LoadResourceLocationKeysOp::get_DebugName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp::*)()>(&UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp::get_DebugName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::LoadResourceLocationKeysOp*), "get_DebugName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp*), "get_DebugName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AddressablesImpl::LoadResourceLocationKeysOp::Execute
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp::Execute
 // Il2CppName: Execute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::LoadResourceLocationKeysOp::*)()>(&AddressablesImpl::LoadResourceLocationKeysOp::Execute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp::*)()>(&UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp::Execute)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::LoadResourceLocationKeysOp*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AddressablesImpl::LoadResourceLocationKeysOp::InvokeWaitForCompletion
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp::InvokeWaitForCompletion
 // Il2CppName: InvokeWaitForCompletion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AddressablesImpl::LoadResourceLocationKeysOp::*)()>(&AddressablesImpl::LoadResourceLocationKeysOp::InvokeWaitForCompletion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp::*)()>(&UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp::InvokeWaitForCompletion)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::LoadResourceLocationKeysOp*), "InvokeWaitForCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp*), "InvokeWaitForCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AddressablesImpl::LoadResourceLocationKeysOp::New_ctor
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::LoadResourceLocationKeysOp::*)()>(&AddressablesImpl::LoadResourceLocationKeysOp::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp::*)()>(&UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::LoadResourceLocationKeysOp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::LoadResourceLocationKeysOp::*)()>(&AddressablesImpl::LoadResourceLocationKeysOp::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp::*)()>(&UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::LoadResourceLocationKeysOp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

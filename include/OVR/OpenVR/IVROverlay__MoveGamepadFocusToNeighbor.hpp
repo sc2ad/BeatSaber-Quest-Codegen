@@ -59,41 +59,41 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_MoveGamepadFocusToNeighbor*, "OVR.OpenVR", "IVROverlay/_MoveGamepadFocusToNeighbor");
-// Writing MetadataGetter for method: IVROverlay::_MoveGamepadFocusToNeighbor::New_ctor
+// Writing MetadataGetter for method: OVR::OpenVR::IVROverlay::_MoveGamepadFocusToNeighbor::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVROverlay::_MoveGamepadFocusToNeighbor::*)(::Il2CppObject*, System::IntPtr)>(&IVROverlay::_MoveGamepadFocusToNeighbor::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVROverlay::_MoveGamepadFocusToNeighbor::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVROverlay::_MoveGamepadFocusToNeighbor::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVROverlay::_MoveGamepadFocusToNeighbor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVROverlay::_MoveGamepadFocusToNeighbor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVROverlay::_MoveGamepadFocusToNeighbor::*)(::Il2CppObject*, System::IntPtr)>(&IVROverlay::_MoveGamepadFocusToNeighbor::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVROverlay::_MoveGamepadFocusToNeighbor::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVROverlay::_MoveGamepadFocusToNeighbor::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVROverlay::_MoveGamepadFocusToNeighbor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVROverlay::_MoveGamepadFocusToNeighbor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: IVROverlay::_MoveGamepadFocusToNeighbor::Invoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVROverlay::_MoveGamepadFocusToNeighbor::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (IVROverlay::_MoveGamepadFocusToNeighbor::*)(OVR::OpenVR::EOverlayDirection, uint64_t)>(&IVROverlay::_MoveGamepadFocusToNeighbor::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::IVROverlay::_MoveGamepadFocusToNeighbor::*)(OVR::OpenVR::EOverlayDirection, uint64_t)>(&OVR::OpenVR::IVROverlay::_MoveGamepadFocusToNeighbor::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVROverlay::_MoveGamepadFocusToNeighbor*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EOverlayDirection>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVROverlay::_MoveGamepadFocusToNeighbor*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EOverlayDirection>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: IVROverlay::_MoveGamepadFocusToNeighbor::BeginInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVROverlay::_MoveGamepadFocusToNeighbor::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVROverlay::_MoveGamepadFocusToNeighbor::*)(OVR::OpenVR::EOverlayDirection, uint64_t, System::AsyncCallback*, ::Il2CppObject*)>(&IVROverlay::_MoveGamepadFocusToNeighbor::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVROverlay::_MoveGamepadFocusToNeighbor::*)(OVR::OpenVR::EOverlayDirection, uint64_t, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVROverlay::_MoveGamepadFocusToNeighbor::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVROverlay::_MoveGamepadFocusToNeighbor*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EOverlayDirection>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVROverlay::_MoveGamepadFocusToNeighbor*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EOverlayDirection>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IVROverlay::_MoveGamepadFocusToNeighbor::EndInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVROverlay::_MoveGamepadFocusToNeighbor::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (IVROverlay::_MoveGamepadFocusToNeighbor::*)(System::IAsyncResult*)>(&IVROverlay::_MoveGamepadFocusToNeighbor::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::IVROverlay::_MoveGamepadFocusToNeighbor::*)(System::IAsyncResult*)>(&OVR::OpenVR::IVROverlay::_MoveGamepadFocusToNeighbor::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVROverlay::_MoveGamepadFocusToNeighbor*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVROverlay::_MoveGamepadFocusToNeighbor*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

@@ -102,57 +102,57 @@ namespace HMUI {
   static_assert(sizeof(ButtonStaticAnimations) == 0x41);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ButtonStaticAnimations*, "HMUI", "ButtonStaticAnimations");
-// Writing MetadataGetter for method: ButtonStaticAnimations::Awake
+// Writing MetadataGetter for method: HMUI::ButtonStaticAnimations::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ButtonStaticAnimations::*)()>(&ButtonStaticAnimations::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ButtonStaticAnimations::*)()>(&HMUI::ButtonStaticAnimations::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ButtonStaticAnimations*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ButtonStaticAnimations*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ButtonStaticAnimations::Start
+// Writing MetadataGetter for method: HMUI::ButtonStaticAnimations::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ButtonStaticAnimations::*)()>(&ButtonStaticAnimations::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ButtonStaticAnimations::*)()>(&HMUI::ButtonStaticAnimations::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ButtonStaticAnimations*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ButtonStaticAnimations*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ButtonStaticAnimations::OnEnable
+// Writing MetadataGetter for method: HMUI::ButtonStaticAnimations::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ButtonStaticAnimations::*)()>(&ButtonStaticAnimations::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ButtonStaticAnimations::*)()>(&HMUI::ButtonStaticAnimations::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ButtonStaticAnimations*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ButtonStaticAnimations*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ButtonStaticAnimations::OnDestroy
+// Writing MetadataGetter for method: HMUI::ButtonStaticAnimations::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ButtonStaticAnimations::*)()>(&ButtonStaticAnimations::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ButtonStaticAnimations::*)()>(&HMUI::ButtonStaticAnimations::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ButtonStaticAnimations*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ButtonStaticAnimations*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ButtonStaticAnimations::HandleButtonSelectionStateDidChange
+// Writing MetadataGetter for method: HMUI::ButtonStaticAnimations::HandleButtonSelectionStateDidChange
 // Il2CppName: HandleButtonSelectionStateDidChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ButtonStaticAnimations::*)(HMUI::NoTransitionsButton::SelectionState)>(&ButtonStaticAnimations::HandleButtonSelectionStateDidChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ButtonStaticAnimations::*)(HMUI::NoTransitionsButton::SelectionState)>(&HMUI::ButtonStaticAnimations::HandleButtonSelectionStateDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ButtonStaticAnimations*), "HandleButtonSelectionStateDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::NoTransitionsButton::SelectionState>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ButtonStaticAnimations*), "HandleButtonSelectionStateDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::NoTransitionsButton::SelectionState>()});
   }
 };
-// Writing MetadataGetter for method: ButtonStaticAnimations::New_ctor
+// Writing MetadataGetter for method: HMUI::ButtonStaticAnimations::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ButtonStaticAnimations::*)()>(&ButtonStaticAnimations::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ButtonStaticAnimations::*)()>(&HMUI::ButtonStaticAnimations::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ButtonStaticAnimations*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ButtonStaticAnimations*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ButtonStaticAnimations::*)()>(&ButtonStaticAnimations::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ButtonStaticAnimations::*)()>(&HMUI::ButtonStaticAnimations::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ButtonStaticAnimations*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ButtonStaticAnimations*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

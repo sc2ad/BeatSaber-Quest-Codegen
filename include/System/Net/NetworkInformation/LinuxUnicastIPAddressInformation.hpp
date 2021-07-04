@@ -55,25 +55,25 @@ namespace System::Net::NetworkInformation {
   static_assert(sizeof(LinuxUnicastIPAddressInformation) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::LinuxUnicastIPAddressInformation*, "System.Net.NetworkInformation", "LinuxUnicastIPAddressInformation");
-// Writing MetadataGetter for method: LinuxUnicastIPAddressInformation::New_ctor
+// Writing MetadataGetter for method: System::Net::NetworkInformation::LinuxUnicastIPAddressInformation::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LinuxUnicastIPAddressInformation::*)(System::Net::IPAddress*)>(&LinuxUnicastIPAddressInformation::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::LinuxUnicastIPAddressInformation::*)(System::Net::IPAddress*)>(&System::Net::NetworkInformation::LinuxUnicastIPAddressInformation::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LinuxUnicastIPAddressInformation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::LinuxUnicastIPAddressInformation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LinuxUnicastIPAddressInformation::*)(System::Net::IPAddress*)>(&LinuxUnicastIPAddressInformation::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::LinuxUnicastIPAddressInformation::*)(System::Net::IPAddress*)>(&System::Net::NetworkInformation::LinuxUnicastIPAddressInformation::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LinuxUnicastIPAddressInformation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::LinuxUnicastIPAddressInformation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>()});
   }
 };
-// Writing MetadataGetter for method: LinuxUnicastIPAddressInformation::get_Address
+// Writing MetadataGetter for method: System::Net::NetworkInformation::LinuxUnicastIPAddressInformation::get_Address
 // Il2CppName: get_Address
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPAddress* (LinuxUnicastIPAddressInformation::*)()>(&LinuxUnicastIPAddressInformation::get_Address)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPAddress* (System::Net::NetworkInformation::LinuxUnicastIPAddressInformation::*)()>(&System::Net::NetworkInformation::LinuxUnicastIPAddressInformation::get_Address)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LinuxUnicastIPAddressInformation*), "get_Address", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::LinuxUnicastIPAddressInformation*), "get_Address", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

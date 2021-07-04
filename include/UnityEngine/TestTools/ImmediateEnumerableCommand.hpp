@@ -51,25 +51,25 @@ namespace UnityEngine::TestTools {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::ImmediateEnumerableCommand*, "UnityEngine.TestTools", "ImmediateEnumerableCommand");
-// Writing MetadataGetter for method: ImmediateEnumerableCommand::New_ctor
+// Writing MetadataGetter for method: UnityEngine::TestTools::ImmediateEnumerableCommand::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ImmediateEnumerableCommand::*)(NUnit::Framework::Internal::Commands::TestCommand*)>(&ImmediateEnumerableCommand::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::ImmediateEnumerableCommand::*)(NUnit::Framework::Internal::Commands::TestCommand*)>(&UnityEngine::TestTools::ImmediateEnumerableCommand::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ImmediateEnumerableCommand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Commands::TestCommand*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::ImmediateEnumerableCommand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Commands::TestCommand*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ImmediateEnumerableCommand::*)(NUnit::Framework::Internal::Commands::TestCommand*)>(&ImmediateEnumerableCommand::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::ImmediateEnumerableCommand::*)(NUnit::Framework::Internal::Commands::TestCommand*)>(&UnityEngine::TestTools::ImmediateEnumerableCommand::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ImmediateEnumerableCommand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Commands::TestCommand*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::ImmediateEnumerableCommand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Commands::TestCommand*>()});
   }
 };
-// Writing MetadataGetter for method: ImmediateEnumerableCommand::Execute
+// Writing MetadataGetter for method: UnityEngine::TestTools::ImmediateEnumerableCommand::Execute
 // Il2CppName: Execute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (ImmediateEnumerableCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&ImmediateEnumerableCommand::Execute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (UnityEngine::TestTools::ImmediateEnumerableCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&UnityEngine::TestTools::ImmediateEnumerableCommand::Execute)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ImmediateEnumerableCommand*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::ImmediateEnumerableCommand*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
   }
 };

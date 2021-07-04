@@ -89,81 +89,81 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(SHA1Internal) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SHA1Internal*, "System.Security.Cryptography", "SHA1Internal");
-// Writing MetadataGetter for method: SHA1Internal::HashCore
+// Writing MetadataGetter for method: System::Security::Cryptography::SHA1Internal::HashCore
 // Il2CppName: HashCore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SHA1Internal::*)(::Array<uint8_t>*, int, int)>(&SHA1Internal::HashCore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SHA1Internal::*)(::Array<uint8_t>*, int, int)>(&System::Security::Cryptography::SHA1Internal::HashCore)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SHA1Internal*), "HashCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA1Internal*), "HashCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SHA1Internal::HashFinal
+// Writing MetadataGetter for method: System::Security::Cryptography::SHA1Internal::HashFinal
 // Il2CppName: HashFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (SHA1Internal::*)()>(&SHA1Internal::HashFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Security::Cryptography::SHA1Internal::*)()>(&System::Security::Cryptography::SHA1Internal::HashFinal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SHA1Internal*), "HashFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA1Internal*), "HashFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SHA1Internal::Initialize
+// Writing MetadataGetter for method: System::Security::Cryptography::SHA1Internal::Initialize
 // Il2CppName: Initialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SHA1Internal::*)()>(&SHA1Internal::Initialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SHA1Internal::*)()>(&System::Security::Cryptography::SHA1Internal::Initialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SHA1Internal*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA1Internal*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SHA1Internal::ProcessBlock
+// Writing MetadataGetter for method: System::Security::Cryptography::SHA1Internal::ProcessBlock
 // Il2CppName: ProcessBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SHA1Internal::*)(::Array<uint8_t>*, uint)>(&SHA1Internal::ProcessBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SHA1Internal::*)(::Array<uint8_t>*, uint)>(&System::Security::Cryptography::SHA1Internal::ProcessBlock)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SHA1Internal*), "ProcessBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA1Internal*), "ProcessBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: SHA1Internal::InitialiseBuff
+// Writing MetadataGetter for method: System::Security::Cryptography::SHA1Internal::InitialiseBuff
 // Il2CppName: InitialiseBuff
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*, ::Array<uint8_t>*, uint)>(&SHA1Internal::InitialiseBuff)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*, ::Array<uint8_t>*, uint)>(&System::Security::Cryptography::SHA1Internal::InitialiseBuff)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SHA1Internal*), "InitialiseBuff", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA1Internal*), "InitialiseBuff", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: SHA1Internal::FillBuff
+// Writing MetadataGetter for method: System::Security::Cryptography::SHA1Internal::FillBuff
 // Il2CppName: FillBuff
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*)>(&SHA1Internal::FillBuff)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*)>(&System::Security::Cryptography::SHA1Internal::FillBuff)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SHA1Internal*), "FillBuff", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA1Internal*), "FillBuff", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>()});
   }
 };
-// Writing MetadataGetter for method: SHA1Internal::ProcessFinalBlock
+// Writing MetadataGetter for method: System::Security::Cryptography::SHA1Internal::ProcessFinalBlock
 // Il2CppName: ProcessFinalBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SHA1Internal::*)(::Array<uint8_t>*, int, int)>(&SHA1Internal::ProcessFinalBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SHA1Internal::*)(::Array<uint8_t>*, int, int)>(&System::Security::Cryptography::SHA1Internal::ProcessFinalBlock)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SHA1Internal*), "ProcessFinalBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA1Internal*), "ProcessFinalBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SHA1Internal::AddLength
+// Writing MetadataGetter for method: System::Security::Cryptography::SHA1Internal::AddLength
 // Il2CppName: AddLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SHA1Internal::*)(uint64_t, ::Array<uint8_t>*, int)>(&SHA1Internal::AddLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SHA1Internal::*)(uint64_t, ::Array<uint8_t>*, int)>(&System::Security::Cryptography::SHA1Internal::AddLength)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SHA1Internal*), "AddLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA1Internal*), "AddLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SHA1Internal::New_ctor
+// Writing MetadataGetter for method: System::Security::Cryptography::SHA1Internal::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SHA1Internal::*)()>(&SHA1Internal::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SHA1Internal::*)()>(&System::Security::Cryptography::SHA1Internal::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SHA1Internal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA1Internal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SHA1Internal::*)()>(&SHA1Internal::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SHA1Internal::*)()>(&System::Security::Cryptography::SHA1Internal::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SHA1Internal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA1Internal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

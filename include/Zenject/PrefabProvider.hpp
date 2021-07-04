@@ -58,25 +58,25 @@ namespace Zenject {
   static_assert(sizeof(PrefabProvider) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PrefabProvider*, "Zenject", "PrefabProvider");
-// Writing MetadataGetter for method: PrefabProvider::New_ctor
+// Writing MetadataGetter for method: Zenject::PrefabProvider::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrefabProvider::*)(UnityEngine::Object*)>(&PrefabProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::PrefabProvider::*)(UnityEngine::Object*)>(&Zenject::PrefabProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrefabProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::PrefabProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrefabProvider::*)(UnityEngine::Object*)>(&PrefabProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::PrefabProvider::*)(UnityEngine::Object*)>(&Zenject::PrefabProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrefabProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::PrefabProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
   }
 };
-// Writing MetadataGetter for method: PrefabProvider::GetPrefab
+// Writing MetadataGetter for method: Zenject::PrefabProvider::GetPrefab
 // Il2CppName: GetPrefab
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (PrefabProvider::*)()>(&PrefabProvider::GetPrefab)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (Zenject::PrefabProvider::*)()>(&Zenject::PrefabProvider::GetPrefab)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrefabProvider*), "GetPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::PrefabProvider*), "GetPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

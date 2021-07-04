@@ -104,97 +104,97 @@ namespace System::Net::NetworkInformation {
   static_assert(sizeof(GatewayIPAddressInformationCollection) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::GatewayIPAddressInformationCollection*, "System.Net.NetworkInformation", "GatewayIPAddressInformationCollection");
-// Writing MetadataGetter for method: GatewayIPAddressInformationCollection::CopyTo
+// Writing MetadataGetter for method: System::Net::NetworkInformation::GatewayIPAddressInformationCollection::CopyTo
 // Il2CppName: CopyTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GatewayIPAddressInformationCollection::*)(::Array<System::Net::NetworkInformation::GatewayIPAddressInformation*>*, int)>(&GatewayIPAddressInformationCollection::CopyTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)(::Array<System::Net::NetworkInformation::GatewayIPAddressInformation*>*, int)>(&System::Net::NetworkInformation::GatewayIPAddressInformationCollection::CopyTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GatewayIPAddressInformationCollection*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Net::NetworkInformation::GatewayIPAddressInformation*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::GatewayIPAddressInformationCollection*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Net::NetworkInformation::GatewayIPAddressInformation*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: GatewayIPAddressInformationCollection::get_Count
+// Writing MetadataGetter for method: System::Net::NetworkInformation::GatewayIPAddressInformationCollection::get_Count
 // Il2CppName: get_Count
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GatewayIPAddressInformationCollection::*)()>(&GatewayIPAddressInformationCollection::get_Count)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)()>(&System::Net::NetworkInformation::GatewayIPAddressInformationCollection::get_Count)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GatewayIPAddressInformationCollection*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::GatewayIPAddressInformationCollection*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GatewayIPAddressInformationCollection::get_IsReadOnly
+// Writing MetadataGetter for method: System::Net::NetworkInformation::GatewayIPAddressInformationCollection::get_IsReadOnly
 // Il2CppName: get_IsReadOnly
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GatewayIPAddressInformationCollection::*)()>(&GatewayIPAddressInformationCollection::get_IsReadOnly)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)()>(&System::Net::NetworkInformation::GatewayIPAddressInformationCollection::get_IsReadOnly)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GatewayIPAddressInformationCollection*), "get_IsReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::GatewayIPAddressInformationCollection*), "get_IsReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GatewayIPAddressInformationCollection::Add
+// Writing MetadataGetter for method: System::Net::NetworkInformation::GatewayIPAddressInformationCollection::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GatewayIPAddressInformationCollection::*)(System::Net::NetworkInformation::GatewayIPAddressInformation*)>(&GatewayIPAddressInformationCollection::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)(System::Net::NetworkInformation::GatewayIPAddressInformation*)>(&System::Net::NetworkInformation::GatewayIPAddressInformationCollection::Add)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GatewayIPAddressInformationCollection*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::GatewayIPAddressInformation*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::GatewayIPAddressInformationCollection*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::GatewayIPAddressInformation*>()});
   }
 };
-// Writing MetadataGetter for method: GatewayIPAddressInformationCollection::InternalAdd
+// Writing MetadataGetter for method: System::Net::NetworkInformation::GatewayIPAddressInformationCollection::InternalAdd
 // Il2CppName: InternalAdd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GatewayIPAddressInformationCollection::*)(System::Net::NetworkInformation::GatewayIPAddressInformation*)>(&GatewayIPAddressInformationCollection::InternalAdd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)(System::Net::NetworkInformation::GatewayIPAddressInformation*)>(&System::Net::NetworkInformation::GatewayIPAddressInformationCollection::InternalAdd)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GatewayIPAddressInformationCollection*), "InternalAdd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::GatewayIPAddressInformation*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::GatewayIPAddressInformationCollection*), "InternalAdd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::GatewayIPAddressInformation*>()});
   }
 };
-// Writing MetadataGetter for method: GatewayIPAddressInformationCollection::Contains
+// Writing MetadataGetter for method: System::Net::NetworkInformation::GatewayIPAddressInformationCollection::Contains
 // Il2CppName: Contains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GatewayIPAddressInformationCollection::*)(System::Net::NetworkInformation::GatewayIPAddressInformation*)>(&GatewayIPAddressInformationCollection::Contains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)(System::Net::NetworkInformation::GatewayIPAddressInformation*)>(&System::Net::NetworkInformation::GatewayIPAddressInformationCollection::Contains)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GatewayIPAddressInformationCollection*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::GatewayIPAddressInformation*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::GatewayIPAddressInformationCollection*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::GatewayIPAddressInformation*>()});
   }
 };
-// Writing MetadataGetter for method: GatewayIPAddressInformationCollection::GetEnumerator
+// Writing MetadataGetter for method: System::Net::NetworkInformation::GatewayIPAddressInformationCollection::GetEnumerator
 // Il2CppName: GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<System::Net::NetworkInformation::GatewayIPAddressInformation*>* (GatewayIPAddressInformationCollection::*)()>(&GatewayIPAddressInformationCollection::GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<System::Net::NetworkInformation::GatewayIPAddressInformation*>* (System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)()>(&System::Net::NetworkInformation::GatewayIPAddressInformationCollection::GetEnumerator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GatewayIPAddressInformationCollection*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::GatewayIPAddressInformationCollection*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GatewayIPAddressInformationCollection::System_Collections_IEnumerable_GetEnumerator
+// Writing MetadataGetter for method: System::Net::NetworkInformation::GatewayIPAddressInformationCollection::System_Collections_IEnumerable_GetEnumerator
 // Il2CppName: System.Collections.IEnumerable.GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GatewayIPAddressInformationCollection::*)()>(&GatewayIPAddressInformationCollection::System_Collections_IEnumerable_GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)()>(&System::Net::NetworkInformation::GatewayIPAddressInformationCollection::System_Collections_IEnumerable_GetEnumerator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GatewayIPAddressInformationCollection*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::GatewayIPAddressInformationCollection*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GatewayIPAddressInformationCollection::Remove
+// Writing MetadataGetter for method: System::Net::NetworkInformation::GatewayIPAddressInformationCollection::Remove
 // Il2CppName: Remove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GatewayIPAddressInformationCollection::*)(System::Net::NetworkInformation::GatewayIPAddressInformation*)>(&GatewayIPAddressInformationCollection::Remove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)(System::Net::NetworkInformation::GatewayIPAddressInformation*)>(&System::Net::NetworkInformation::GatewayIPAddressInformationCollection::Remove)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GatewayIPAddressInformationCollection*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::GatewayIPAddressInformation*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::GatewayIPAddressInformationCollection*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::GatewayIPAddressInformation*>()});
   }
 };
-// Writing MetadataGetter for method: GatewayIPAddressInformationCollection::Clear
+// Writing MetadataGetter for method: System::Net::NetworkInformation::GatewayIPAddressInformationCollection::Clear
 // Il2CppName: Clear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GatewayIPAddressInformationCollection::*)()>(&GatewayIPAddressInformationCollection::Clear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)()>(&System::Net::NetworkInformation::GatewayIPAddressInformationCollection::Clear)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GatewayIPAddressInformationCollection*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::GatewayIPAddressInformationCollection*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GatewayIPAddressInformationCollection::New_ctor
+// Writing MetadataGetter for method: System::Net::NetworkInformation::GatewayIPAddressInformationCollection::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GatewayIPAddressInformationCollection::*)()>(&GatewayIPAddressInformationCollection::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)()>(&System::Net::NetworkInformation::GatewayIPAddressInformationCollection::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GatewayIPAddressInformationCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::GatewayIPAddressInformationCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GatewayIPAddressInformationCollection::*)()>(&GatewayIPAddressInformationCollection::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::GatewayIPAddressInformationCollection::*)()>(&System::Net::NetworkInformation::GatewayIPAddressInformationCollection::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GatewayIPAddressInformationCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::GatewayIPAddressInformationCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

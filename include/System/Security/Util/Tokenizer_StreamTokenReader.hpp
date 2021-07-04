@@ -64,33 +64,33 @@ namespace System::Security::Util {
   static_assert(sizeof(Tokenizer::StreamTokenReader) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Tokenizer::StreamTokenReader*, "System.Security.Util", "Tokenizer/StreamTokenReader");
-// Writing MetadataGetter for method: Tokenizer::StreamTokenReader::New_ctor
+// Writing MetadataGetter for method: System::Security::Util::Tokenizer::StreamTokenReader::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tokenizer::StreamTokenReader::*)(System::IO::StreamReader*)>(&Tokenizer::StreamTokenReader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Util::Tokenizer::StreamTokenReader::*)(System::IO::StreamReader*)>(&System::Security::Util::Tokenizer::StreamTokenReader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tokenizer::StreamTokenReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::StreamReader*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Tokenizer::StreamTokenReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::StreamReader*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tokenizer::StreamTokenReader::*)(System::IO::StreamReader*)>(&Tokenizer::StreamTokenReader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Util::Tokenizer::StreamTokenReader::*)(System::IO::StreamReader*)>(&System::Security::Util::Tokenizer::StreamTokenReader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tokenizer::StreamTokenReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::StreamReader*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Tokenizer::StreamTokenReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::StreamReader*>()});
   }
 };
-// Writing MetadataGetter for method: Tokenizer::StreamTokenReader::Read
+// Writing MetadataGetter for method: System::Security::Util::Tokenizer::StreamTokenReader::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Tokenizer::StreamTokenReader::*)()>(&Tokenizer::StreamTokenReader::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Util::Tokenizer::StreamTokenReader::*)()>(&System::Security::Util::Tokenizer::StreamTokenReader::Read)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tokenizer::StreamTokenReader*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Tokenizer::StreamTokenReader*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Tokenizer::StreamTokenReader::get_NumCharEncountered
+// Writing MetadataGetter for method: System::Security::Util::Tokenizer::StreamTokenReader::get_NumCharEncountered
 // Il2CppName: get_NumCharEncountered
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Tokenizer::StreamTokenReader::*)()>(&Tokenizer::StreamTokenReader::get_NumCharEncountered)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Util::Tokenizer::StreamTokenReader::*)()>(&System::Security::Util::Tokenizer::StreamTokenReader::get_NumCharEncountered)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tokenizer::StreamTokenReader*), "get_NumCharEncountered", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Tokenizer::StreamTokenReader*), "get_NumCharEncountered", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

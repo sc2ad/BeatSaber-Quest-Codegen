@@ -47,33 +47,33 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithCloudStorageConflictMetadata
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithCloudStorageConflictMetadata*, "Oculus.Platform", "MessageWithCloudStorageConflictMetadata");
-// Writing MetadataGetter for method: MessageWithCloudStorageConflictMetadata::GetDataFromMessage
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithCloudStorageConflictMetadata::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CloudStorageConflictMetadata* (MessageWithCloudStorageConflictMetadata::*)(System::IntPtr)>(&MessageWithCloudStorageConflictMetadata::GetDataFromMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CloudStorageConflictMetadata* (Oculus::Platform::MessageWithCloudStorageConflictMetadata::*)(System::IntPtr)>(&Oculus::Platform::MessageWithCloudStorageConflictMetadata::GetDataFromMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithCloudStorageConflictMetadata*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithCloudStorageConflictMetadata*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithCloudStorageConflictMetadata::New_ctor
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithCloudStorageConflictMetadata::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithCloudStorageConflictMetadata::*)(System::IntPtr)>(&MessageWithCloudStorageConflictMetadata::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithCloudStorageConflictMetadata::*)(System::IntPtr)>(&Oculus::Platform::MessageWithCloudStorageConflictMetadata::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithCloudStorageConflictMetadata*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithCloudStorageConflictMetadata*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithCloudStorageConflictMetadata::*)(System::IntPtr)>(&MessageWithCloudStorageConflictMetadata::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithCloudStorageConflictMetadata::*)(System::IntPtr)>(&Oculus::Platform::MessageWithCloudStorageConflictMetadata::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithCloudStorageConflictMetadata*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithCloudStorageConflictMetadata*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithCloudStorageConflictMetadata::GetCloudStorageConflictMetadata
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithCloudStorageConflictMetadata::GetCloudStorageConflictMetadata
 // Il2CppName: GetCloudStorageConflictMetadata
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CloudStorageConflictMetadata* (MessageWithCloudStorageConflictMetadata::*)()>(&MessageWithCloudStorageConflictMetadata::GetCloudStorageConflictMetadata)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CloudStorageConflictMetadata* (Oculus::Platform::MessageWithCloudStorageConflictMetadata::*)()>(&Oculus::Platform::MessageWithCloudStorageConflictMetadata::GetCloudStorageConflictMetadata)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithCloudStorageConflictMetadata*), "GetCloudStorageConflictMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithCloudStorageConflictMetadata*), "GetCloudStorageConflictMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

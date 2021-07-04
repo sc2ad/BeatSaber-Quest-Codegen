@@ -111,87 +111,87 @@ namespace NUnit::Framework::Internal::Filters {
   static_assert(sizeof(CompositeFilter) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Filters::CompositeFilter*, "NUnit.Framework.Internal.Filters", "CompositeFilter");
-// Writing MetadataGetter for method: CompositeFilter::New_ctor
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::CompositeFilter::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeFilter::*)(::Array<NUnit::Framework::Interfaces::ITestFilter*>*)>(&CompositeFilter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Filters::CompositeFilter::*)(::Array<NUnit::Framework::Interfaces::ITestFilter*>*)>(&NUnit::Framework::Internal::Filters::CompositeFilter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CompositeFilter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<NUnit::Framework::Interfaces::ITestFilter*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::CompositeFilter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<NUnit::Framework::Interfaces::ITestFilter*>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeFilter::*)(::Array<NUnit::Framework::Interfaces::ITestFilter*>*)>(&CompositeFilter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Filters::CompositeFilter::*)(::Array<NUnit::Framework::Interfaces::ITestFilter*>*)>(&NUnit::Framework::Internal::Filters::CompositeFilter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CompositeFilter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<NUnit::Framework::Interfaces::ITestFilter*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::CompositeFilter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<NUnit::Framework::Interfaces::ITestFilter*>*>()});
   }
 };
-// Writing MetadataGetter for method: CompositeFilter::get_Filters
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::CompositeFilter::get_Filters
 // Il2CppName: get_Filters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>* (CompositeFilter::*)()>(&CompositeFilter::get_Filters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>* (NUnit::Framework::Internal::Filters::CompositeFilter::*)()>(&NUnit::Framework::Internal::Filters::CompositeFilter::get_Filters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CompositeFilter*), "get_Filters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::CompositeFilter*), "get_Filters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CompositeFilter::set_Filters
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::CompositeFilter::set_Filters
 // Il2CppName: set_Filters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeFilter::*)(System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>*)>(&CompositeFilter::set_Filters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Filters::CompositeFilter::*)(System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>*)>(&NUnit::Framework::Internal::Filters::CompositeFilter::set_Filters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CompositeFilter*), "set_Filters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::CompositeFilter*), "set_Filters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>*>()});
   }
 };
-// Writing MetadataGetter for method: CompositeFilter::get_ElementName
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::CompositeFilter::get_ElementName
 // Il2CppName: get_ElementName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CompositeFilter::*)()>(&CompositeFilter::get_ElementName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::Filters::CompositeFilter::*)()>(&NUnit::Framework::Internal::Filters::CompositeFilter::get_ElementName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CompositeFilter*), "get_ElementName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::CompositeFilter*), "get_ElementName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CompositeFilter::New_ctor
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::CompositeFilter::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeFilter::*)()>(&CompositeFilter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Filters::CompositeFilter::*)()>(&NUnit::Framework::Internal::Filters::CompositeFilter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CompositeFilter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::CompositeFilter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompositeFilter::*)()>(&CompositeFilter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Filters::CompositeFilter::*)()>(&NUnit::Framework::Internal::Filters::CompositeFilter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CompositeFilter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::CompositeFilter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CompositeFilter::Pass
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::CompositeFilter::Pass
 // Il2CppName: Pass
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CompositeFilter::*)(NUnit::Framework::Interfaces::ITest*)>(&CompositeFilter::Pass)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Internal::Filters::CompositeFilter::*)(NUnit::Framework::Interfaces::ITest*)>(&NUnit::Framework::Internal::Filters::CompositeFilter::Pass)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CompositeFilter*), "Pass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::CompositeFilter*), "Pass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
   }
 };
-// Writing MetadataGetter for method: CompositeFilter::Match
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::CompositeFilter::Match
 // Il2CppName: Match
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CompositeFilter::*)(NUnit::Framework::Interfaces::ITest*)>(&CompositeFilter::Match)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Internal::Filters::CompositeFilter::*)(NUnit::Framework::Interfaces::ITest*)>(&NUnit::Framework::Internal::Filters::CompositeFilter::Match)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CompositeFilter*), "Match", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::CompositeFilter*), "Match", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
   }
 };
-// Writing MetadataGetter for method: CompositeFilter::IsExplicitMatch
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::CompositeFilter::IsExplicitMatch
 // Il2CppName: IsExplicitMatch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CompositeFilter::*)(NUnit::Framework::Interfaces::ITest*)>(&CompositeFilter::IsExplicitMatch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Internal::Filters::CompositeFilter::*)(NUnit::Framework::Interfaces::ITest*)>(&NUnit::Framework::Internal::Filters::CompositeFilter::IsExplicitMatch)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CompositeFilter*), "IsExplicitMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::CompositeFilter*), "IsExplicitMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
   }
 };
-// Writing MetadataGetter for method: CompositeFilter::AddToXml
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::CompositeFilter::AddToXml
 // Il2CppName: AddToXml
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::TNode* (CompositeFilter::*)(NUnit::Framework::Interfaces::TNode*, bool)>(&CompositeFilter::AddToXml)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::TNode* (NUnit::Framework::Internal::Filters::CompositeFilter::*)(NUnit::Framework::Interfaces::TNode*, bool)>(&NUnit::Framework::Internal::Filters::CompositeFilter::AddToXml)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CompositeFilter*), "AddToXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::TNode*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Filters::CompositeFilter*), "AddToXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::TNode*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };

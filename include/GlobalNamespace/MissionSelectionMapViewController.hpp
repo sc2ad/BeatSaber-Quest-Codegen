@@ -146,81 +146,81 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionSelectionMapViewController) == 0xA8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionSelectionMapViewController*, "", "MissionSelectionMapViewController");
-// Writing MetadataGetter for method: MissionSelectionMapViewController::add_didSelectMissionLevelEvent
+// Writing MetadataGetter for method: GlobalNamespace::MissionSelectionMapViewController::add_didSelectMissionLevelEvent
 // Il2CppName: add_didSelectMissionLevelEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionSelectionMapViewController::*)(System::Action_2<GlobalNamespace::MissionSelectionMapViewController*, GlobalNamespace::MissionNode*>*)>(&MissionSelectionMapViewController::add_didSelectMissionLevelEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionSelectionMapViewController::*)(System::Action_2<GlobalNamespace::MissionSelectionMapViewController*, GlobalNamespace::MissionNode*>*)>(&GlobalNamespace::MissionSelectionMapViewController::add_didSelectMissionLevelEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionSelectionMapViewController*), "add_didSelectMissionLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::MissionSelectionMapViewController*, GlobalNamespace::MissionNode*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionSelectionMapViewController*), "add_didSelectMissionLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::MissionSelectionMapViewController*, GlobalNamespace::MissionNode*>*>()});
   }
 };
-// Writing MetadataGetter for method: MissionSelectionMapViewController::remove_didSelectMissionLevelEvent
+// Writing MetadataGetter for method: GlobalNamespace::MissionSelectionMapViewController::remove_didSelectMissionLevelEvent
 // Il2CppName: remove_didSelectMissionLevelEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionSelectionMapViewController::*)(System::Action_2<GlobalNamespace::MissionSelectionMapViewController*, GlobalNamespace::MissionNode*>*)>(&MissionSelectionMapViewController::remove_didSelectMissionLevelEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionSelectionMapViewController::*)(System::Action_2<GlobalNamespace::MissionSelectionMapViewController*, GlobalNamespace::MissionNode*>*)>(&GlobalNamespace::MissionSelectionMapViewController::remove_didSelectMissionLevelEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionSelectionMapViewController*), "remove_didSelectMissionLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::MissionSelectionMapViewController*, GlobalNamespace::MissionNode*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionSelectionMapViewController*), "remove_didSelectMissionLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::MissionSelectionMapViewController*, GlobalNamespace::MissionNode*>*>()});
   }
 };
-// Writing MetadataGetter for method: MissionSelectionMapViewController::get_animatedUpdateIsRequired
+// Writing MetadataGetter for method: GlobalNamespace::MissionSelectionMapViewController::get_animatedUpdateIsRequired
 // Il2CppName: get_animatedUpdateIsRequired
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MissionSelectionMapViewController::*)()>(&MissionSelectionMapViewController::get_animatedUpdateIsRequired)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MissionSelectionMapViewController::*)()>(&GlobalNamespace::MissionSelectionMapViewController::get_animatedUpdateIsRequired)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionSelectionMapViewController*), "get_animatedUpdateIsRequired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionSelectionMapViewController*), "get_animatedUpdateIsRequired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionSelectionMapViewController::HandleMissionNodeSelectionManagerDidSelectMissionNode
+// Writing MetadataGetter for method: GlobalNamespace::MissionSelectionMapViewController::HandleMissionNodeSelectionManagerDidSelectMissionNode
 // Il2CppName: HandleMissionNodeSelectionManagerDidSelectMissionNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionSelectionMapViewController::*)(GlobalNamespace::MissionNodeVisualController*)>(&MissionSelectionMapViewController::HandleMissionNodeSelectionManagerDidSelectMissionNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionSelectionMapViewController::*)(GlobalNamespace::MissionNodeVisualController*)>(&GlobalNamespace::MissionSelectionMapViewController::HandleMissionNodeSelectionManagerDidSelectMissionNode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionSelectionMapViewController*), "HandleMissionNodeSelectionManagerDidSelectMissionNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNodeVisualController*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionSelectionMapViewController*), "HandleMissionNodeSelectionManagerDidSelectMissionNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNodeVisualController*>()});
   }
 };
-// Writing MetadataGetter for method: MissionSelectionMapViewController::ShowMissionClearedAnimation
+// Writing MetadataGetter for method: GlobalNamespace::MissionSelectionMapViewController::ShowMissionClearedAnimation
 // Il2CppName: ShowMissionClearedAnimation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionSelectionMapViewController::*)(System::Action*)>(&MissionSelectionMapViewController::ShowMissionClearedAnimation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionSelectionMapViewController::*)(System::Action*)>(&GlobalNamespace::MissionSelectionMapViewController::ShowMissionClearedAnimation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionSelectionMapViewController*), "ShowMissionClearedAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionSelectionMapViewController*), "ShowMissionClearedAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: MissionSelectionMapViewController::DeselectSelectedNode
+// Writing MetadataGetter for method: GlobalNamespace::MissionSelectionMapViewController::DeselectSelectedNode
 // Il2CppName: DeselectSelectedNode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionSelectionMapViewController::*)()>(&MissionSelectionMapViewController::DeselectSelectedNode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionSelectionMapViewController::*)()>(&GlobalNamespace::MissionSelectionMapViewController::DeselectSelectedNode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionSelectionMapViewController*), "DeselectSelectedNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionSelectionMapViewController*), "DeselectSelectedNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionSelectionMapViewController::DidActivate
+// Writing MetadataGetter for method: GlobalNamespace::MissionSelectionMapViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionSelectionMapViewController::*)(bool, bool, bool)>(&MissionSelectionMapViewController::DidActivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionSelectionMapViewController::*)(bool, bool, bool)>(&GlobalNamespace::MissionSelectionMapViewController::DidActivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionSelectionMapViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionSelectionMapViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MissionSelectionMapViewController::DidDeactivate
+// Writing MetadataGetter for method: GlobalNamespace::MissionSelectionMapViewController::DidDeactivate
 // Il2CppName: DidDeactivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionSelectionMapViewController::*)(bool, bool)>(&MissionSelectionMapViewController::DidDeactivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionSelectionMapViewController::*)(bool, bool)>(&GlobalNamespace::MissionSelectionMapViewController::DidDeactivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionSelectionMapViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionSelectionMapViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MissionSelectionMapViewController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MissionSelectionMapViewController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionSelectionMapViewController::*)()>(&MissionSelectionMapViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionSelectionMapViewController::*)()>(&GlobalNamespace::MissionSelectionMapViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionSelectionMapViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionSelectionMapViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionSelectionMapViewController::*)()>(&MissionSelectionMapViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionSelectionMapViewController::*)()>(&GlobalNamespace::MissionSelectionMapViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionSelectionMapViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionSelectionMapViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

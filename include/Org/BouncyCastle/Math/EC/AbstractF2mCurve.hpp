@@ -97,81 +97,81 @@ namespace Org::BouncyCastle::Math::EC {
   static_assert(sizeof(AbstractF2mCurve) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::AbstractF2mCurve*, "Org.BouncyCastle.Math.EC", "AbstractF2mCurve");
-// Writing MetadataGetter for method: AbstractF2mCurve::BuildField
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::AbstractF2mCurve::BuildField
 // Il2CppName: BuildField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::Field::IFiniteField* (*)(int, int, int, int)>(&AbstractF2mCurve::BuildField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::Field::IFiniteField* (*)(int, int, int, int)>(&Org::BouncyCastle::Math::EC::AbstractF2mCurve::BuildField)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AbstractF2mCurve*), "BuildField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::AbstractF2mCurve*), "BuildField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: AbstractF2mCurve::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::AbstractF2mCurve::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AbstractF2mCurve::*)(int, int, int, int)>(&AbstractF2mCurve::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::AbstractF2mCurve::*)(int, int, int, int)>(&Org::BouncyCastle::Math::EC::AbstractF2mCurve::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AbstractF2mCurve*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::AbstractF2mCurve*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AbstractF2mCurve::*)(int, int, int, int)>(&AbstractF2mCurve::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::AbstractF2mCurve::*)(int, int, int, int)>(&Org::BouncyCastle::Math::EC::AbstractF2mCurve::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AbstractF2mCurve*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::AbstractF2mCurve*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: AbstractF2mCurve::SolveQuadraticEquation
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::AbstractF2mCurve::SolveQuadraticEquation
 // Il2CppName: SolveQuadraticEquation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (AbstractF2mCurve::*)(Org::BouncyCastle::Math::EC::ECFieldElement*)>(&AbstractF2mCurve::SolveQuadraticEquation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (Org::BouncyCastle::Math::EC::AbstractF2mCurve::*)(Org::BouncyCastle::Math::EC::ECFieldElement*)>(&Org::BouncyCastle::Math::EC::AbstractF2mCurve::SolveQuadraticEquation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AbstractF2mCurve*), "SolveQuadraticEquation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECFieldElement*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::AbstractF2mCurve*), "SolveQuadraticEquation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECFieldElement*>()});
   }
 };
-// Writing MetadataGetter for method: AbstractF2mCurve::GetSi
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::AbstractF2mCurve::GetSi
 // Il2CppName: GetSi
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Math::BigInteger*>* (AbstractF2mCurve::*)()>(&AbstractF2mCurve::GetSi)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Math::BigInteger*>* (Org::BouncyCastle::Math::EC::AbstractF2mCurve::*)()>(&Org::BouncyCastle::Math::EC::AbstractF2mCurve::GetSi)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AbstractF2mCurve*), "GetSi", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::AbstractF2mCurve*), "GetSi", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AbstractF2mCurve::get_IsKoblitz
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::AbstractF2mCurve::get_IsKoblitz
 // Il2CppName: get_IsKoblitz
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AbstractF2mCurve::*)()>(&AbstractF2mCurve::get_IsKoblitz)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Math::EC::AbstractF2mCurve::*)()>(&Org::BouncyCastle::Math::EC::AbstractF2mCurve::get_IsKoblitz)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AbstractF2mCurve*), "get_IsKoblitz", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::AbstractF2mCurve*), "get_IsKoblitz", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AbstractF2mCurve::ImplRandomFieldElementMult
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::AbstractF2mCurve::ImplRandomFieldElementMult
 // Il2CppName: ImplRandomFieldElementMult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (*)(Org::BouncyCastle::Security::SecureRandom*, int)>(&AbstractF2mCurve::ImplRandomFieldElementMult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (*)(Org::BouncyCastle::Security::SecureRandom*, int)>(&Org::BouncyCastle::Math::EC::AbstractF2mCurve::ImplRandomFieldElementMult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AbstractF2mCurve*), "ImplRandomFieldElementMult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Security::SecureRandom*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::AbstractF2mCurve*), "ImplRandomFieldElementMult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Security::SecureRandom*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: AbstractF2mCurve::CreatePoint
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::AbstractF2mCurve::CreatePoint
 // Il2CppName: CreatePoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (AbstractF2mCurve::*)(Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, bool)>(&AbstractF2mCurve::CreatePoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::AbstractF2mCurve::*)(Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, bool)>(&Org::BouncyCastle::Math::EC::AbstractF2mCurve::CreatePoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AbstractF2mCurve*), "CreatePoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::AbstractF2mCurve*), "CreatePoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AbstractF2mCurve::RandomFieldElementMult
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::AbstractF2mCurve::RandomFieldElementMult
 // Il2CppName: RandomFieldElementMult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (AbstractF2mCurve::*)(Org::BouncyCastle::Security::SecureRandom*)>(&AbstractF2mCurve::RandomFieldElementMult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (Org::BouncyCastle::Math::EC::AbstractF2mCurve::*)(Org::BouncyCastle::Security::SecureRandom*)>(&Org::BouncyCastle::Math::EC::AbstractF2mCurve::RandomFieldElementMult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AbstractF2mCurve*), "RandomFieldElementMult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Security::SecureRandom*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::AbstractF2mCurve*), "RandomFieldElementMult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Security::SecureRandom*>()});
   }
 };
-// Writing MetadataGetter for method: AbstractF2mCurve::DecompressPoint
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::AbstractF2mCurve::DecompressPoint
 // Il2CppName: DecompressPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (AbstractF2mCurve::*)(int, Org::BouncyCastle::Math::BigInteger*)>(&AbstractF2mCurve::DecompressPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::AbstractF2mCurve::*)(int, Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::AbstractF2mCurve::DecompressPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AbstractF2mCurve*), "DecompressPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::AbstractF2mCurve*), "DecompressPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
   }
 };

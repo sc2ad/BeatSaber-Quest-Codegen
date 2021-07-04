@@ -148,89 +148,89 @@ namespace HMUI {
   static_assert(sizeof(SimpleTextDropdown) == 0x69);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SimpleTextDropdown*, "HMUI", "SimpleTextDropdown");
-// Writing MetadataGetter for method: SimpleTextDropdown::LazyInit
+// Writing MetadataGetter for method: HMUI::SimpleTextDropdown::LazyInit
 // Il2CppName: LazyInit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleTextDropdown::*)()>(&SimpleTextDropdown::LazyInit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SimpleTextDropdown::*)()>(&HMUI::SimpleTextDropdown::LazyInit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleTextDropdown*), "LazyInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SimpleTextDropdown*), "LazyInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SimpleTextDropdown::SetTexts
+// Writing MetadataGetter for method: HMUI::SimpleTextDropdown::SetTexts
 // Il2CppName: SetTexts
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleTextDropdown::*)(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*)>(&SimpleTextDropdown::SetTexts)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SimpleTextDropdown::*)(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*)>(&HMUI::SimpleTextDropdown::SetTexts)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleTextDropdown*), "SetTexts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SimpleTextDropdown*), "SetTexts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: SimpleTextDropdown::CellSize
+// Writing MetadataGetter for method: HMUI::SimpleTextDropdown::CellSize
 // Il2CppName: CellSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SimpleTextDropdown::*)()>(&SimpleTextDropdown::CellSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::SimpleTextDropdown::*)()>(&HMUI::SimpleTextDropdown::CellSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleTextDropdown*), "CellSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SimpleTextDropdown*), "CellSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SimpleTextDropdown::NumberOfCells
+// Writing MetadataGetter for method: HMUI::SimpleTextDropdown::NumberOfCells
 // Il2CppName: NumberOfCells
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SimpleTextDropdown::*)()>(&SimpleTextDropdown::NumberOfCells)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HMUI::SimpleTextDropdown::*)()>(&HMUI::SimpleTextDropdown::NumberOfCells)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleTextDropdown*), "NumberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SimpleTextDropdown*), "NumberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SimpleTextDropdown::CellForIdx
+// Writing MetadataGetter for method: HMUI::SimpleTextDropdown::CellForIdx
 // Il2CppName: CellForIdx
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (SimpleTextDropdown::*)(HMUI::TableView*, int)>(&SimpleTextDropdown::CellForIdx)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (HMUI::SimpleTextDropdown::*)(HMUI::TableView*, int)>(&HMUI::SimpleTextDropdown::CellForIdx)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleTextDropdown*), "CellForIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SimpleTextDropdown*), "CellForIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SimpleTextDropdown::HandleDidSelectCellWithIdx
+// Writing MetadataGetter for method: HMUI::SimpleTextDropdown::HandleDidSelectCellWithIdx
 // Il2CppName: HandleDidSelectCellWithIdx
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleTextDropdown::*)(HMUI::DropdownWithTableView*, int)>(&SimpleTextDropdown::HandleDidSelectCellWithIdx)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SimpleTextDropdown::*)(HMUI::DropdownWithTableView*, int)>(&HMUI::SimpleTextDropdown::HandleDidSelectCellWithIdx)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleTextDropdown*), "HandleDidSelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::DropdownWithTableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SimpleTextDropdown*), "HandleDidSelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::DropdownWithTableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SimpleTextDropdown::OnDestroy
+// Writing MetadataGetter for method: HMUI::SimpleTextDropdown::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleTextDropdown::*)()>(&SimpleTextDropdown::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SimpleTextDropdown::*)()>(&HMUI::SimpleTextDropdown::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleTextDropdown*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SimpleTextDropdown*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SimpleTextDropdown::Init
+// Writing MetadataGetter for method: HMUI::SimpleTextDropdown::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleTextDropdown::*)(HMUI::TableView::IDataSource*)>(&SimpleTextDropdown::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SimpleTextDropdown::*)(HMUI::TableView::IDataSource*)>(&HMUI::SimpleTextDropdown::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleTextDropdown*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableView::IDataSource*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SimpleTextDropdown*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableView::IDataSource*>()});
   }
 };
-// Writing MetadataGetter for method: SimpleTextDropdown::SelectCellWithIdx
+// Writing MetadataGetter for method: HMUI::SimpleTextDropdown::SelectCellWithIdx
 // Il2CppName: SelectCellWithIdx
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleTextDropdown::*)(int)>(&SimpleTextDropdown::SelectCellWithIdx)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SimpleTextDropdown::*)(int)>(&HMUI::SimpleTextDropdown::SelectCellWithIdx)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleTextDropdown*), "SelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SimpleTextDropdown*), "SelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SimpleTextDropdown::New_ctor
+// Writing MetadataGetter for method: HMUI::SimpleTextDropdown::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleTextDropdown::*)()>(&SimpleTextDropdown::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SimpleTextDropdown::*)()>(&HMUI::SimpleTextDropdown::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleTextDropdown*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SimpleTextDropdown*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleTextDropdown::*)()>(&SimpleTextDropdown::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SimpleTextDropdown::*)()>(&HMUI::SimpleTextDropdown::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleTextDropdown*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SimpleTextDropdown*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

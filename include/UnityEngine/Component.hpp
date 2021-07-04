@@ -226,171 +226,171 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Component*, "UnityEngine", "Component");
-// Writing MetadataGetter for method: Component::get_transform
+// Writing MetadataGetter for method: UnityEngine::Component::get_transform
 // Il2CppName: get_transform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (Component::*)()>(&Component::get_transform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (UnityEngine::Component::*)()>(&UnityEngine::Component::get_transform)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Component*), "get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Component*), "get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Component::get_gameObject
+// Writing MetadataGetter for method: UnityEngine::Component::get_gameObject
 // Il2CppName: get_gameObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Component::*)()>(&Component::get_gameObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (UnityEngine::Component::*)()>(&UnityEngine::Component::get_gameObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Component*), "get_gameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Component*), "get_gameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Component::GetComponent
+// Writing MetadataGetter for method: UnityEngine::Component::GetComponent
 // Il2CppName: GetComponent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (Component::*)(System::Type*)>(&Component::GetComponent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (UnityEngine::Component::*)(System::Type*)>(&UnityEngine::Component::GetComponent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Component*), "GetComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Component*), "GetComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: Component::GetComponentFastPath
+// Writing MetadataGetter for method: UnityEngine::Component::GetComponentFastPath
 // Il2CppName: GetComponentFastPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Component::*)(System::Type*, System::IntPtr)>(&Component::GetComponentFastPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Component::*)(System::Type*, System::IntPtr)>(&UnityEngine::Component::GetComponentFastPath)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Component*), "GetComponentFastPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Component*), "GetComponentFastPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: Component::GetComponent
+// Writing MetadataGetter for method: UnityEngine::Component::GetComponent
 // Il2CppName: GetComponent
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Component::TryGetComponent
+// Writing MetadataGetter for method: UnityEngine::Component::TryGetComponent
 // Il2CppName: TryGetComponent
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Component::GetComponentInChildren
+// Writing MetadataGetter for method: UnityEngine::Component::GetComponentInChildren
 // Il2CppName: GetComponentInChildren
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (Component::*)(System::Type*, bool)>(&Component::GetComponentInChildren)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (UnityEngine::Component::*)(System::Type*, bool)>(&UnityEngine::Component::GetComponentInChildren)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Component*), "GetComponentInChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Component*), "GetComponentInChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Component::GetComponentInChildren
+// Writing MetadataGetter for method: UnityEngine::Component::GetComponentInChildren
 // Il2CppName: GetComponentInChildren
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Component::GetComponentInChildren
+// Writing MetadataGetter for method: UnityEngine::Component::GetComponentInChildren
 // Il2CppName: GetComponentInChildren
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Component::GetComponentsInChildren
+// Writing MetadataGetter for method: UnityEngine::Component::GetComponentsInChildren
 // Il2CppName: GetComponentsInChildren
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Component*>* (Component::*)(System::Type*, bool)>(&Component::GetComponentsInChildren)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Component*>* (UnityEngine::Component::*)(System::Type*, bool)>(&UnityEngine::Component::GetComponentsInChildren)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Component*), "GetComponentsInChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Component*), "GetComponentsInChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Component::GetComponentsInChildren
+// Writing MetadataGetter for method: UnityEngine::Component::GetComponentsInChildren
 // Il2CppName: GetComponentsInChildren
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Component::GetComponentsInChildren
+// Writing MetadataGetter for method: UnityEngine::Component::GetComponentsInChildren
 // Il2CppName: GetComponentsInChildren
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Component::GetComponentsInChildren
+// Writing MetadataGetter for method: UnityEngine::Component::GetComponentsInChildren
 // Il2CppName: GetComponentsInChildren
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Component::GetComponentsInChildren
+// Writing MetadataGetter for method: UnityEngine::Component::GetComponentsInChildren
 // Il2CppName: GetComponentsInChildren
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Component::GetComponentInParent
+// Writing MetadataGetter for method: UnityEngine::Component::GetComponentInParent
 // Il2CppName: GetComponentInParent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (Component::*)(System::Type*)>(&Component::GetComponentInParent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (UnityEngine::Component::*)(System::Type*)>(&UnityEngine::Component::GetComponentInParent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Component*), "GetComponentInParent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Component*), "GetComponentInParent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: Component::GetComponentInParent
+// Writing MetadataGetter for method: UnityEngine::Component::GetComponentInParent
 // Il2CppName: GetComponentInParent
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Component::GetComponentsInParent
+// Writing MetadataGetter for method: UnityEngine::Component::GetComponentsInParent
 // Il2CppName: GetComponentsInParent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Component*>* (Component::*)(System::Type*, bool)>(&Component::GetComponentsInParent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Component*>* (UnityEngine::Component::*)(System::Type*, bool)>(&UnityEngine::Component::GetComponentsInParent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Component*), "GetComponentsInParent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Component*), "GetComponentsInParent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Component::GetComponentsInParent
+// Writing MetadataGetter for method: UnityEngine::Component::GetComponentsInParent
 // Il2CppName: GetComponentsInParent
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Component::GetComponentsInParent
+// Writing MetadataGetter for method: UnityEngine::Component::GetComponentsInParent
 // Il2CppName: GetComponentsInParent
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Component::GetComponentsInParent
+// Writing MetadataGetter for method: UnityEngine::Component::GetComponentsInParent
 // Il2CppName: GetComponentsInParent
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Component::GetComponents
+// Writing MetadataGetter for method: UnityEngine::Component::GetComponents
 // Il2CppName: GetComponents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Component*>* (Component::*)(System::Type*)>(&Component::GetComponents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Component*>* (UnityEngine::Component::*)(System::Type*)>(&UnityEngine::Component::GetComponents)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Component*), "GetComponents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Component*), "GetComponents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: Component::GetComponentsForListInternal
+// Writing MetadataGetter for method: UnityEngine::Component::GetComponentsForListInternal
 // Il2CppName: GetComponentsForListInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Component::*)(System::Type*, ::Il2CppObject*)>(&Component::GetComponentsForListInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Component::*)(System::Type*, ::Il2CppObject*)>(&UnityEngine::Component::GetComponentsForListInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Component*), "GetComponentsForListInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Component*), "GetComponentsForListInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Component::GetComponents
+// Writing MetadataGetter for method: UnityEngine::Component::GetComponents
 // Il2CppName: GetComponents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Component::*)(System::Type*, System::Collections::Generic::List_1<UnityEngine::Component*>*)>(&Component::GetComponents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Component::*)(System::Type*, System::Collections::Generic::List_1<UnityEngine::Component*>*)>(&UnityEngine::Component::GetComponents)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Component*), "GetComponents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Component*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Component*), "GetComponents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Component*>*>()});
   }
 };
-// Writing MetadataGetter for method: Component::GetComponents
+// Writing MetadataGetter for method: UnityEngine::Component::GetComponents
 // Il2CppName: GetComponents
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Component::get_tag
+// Writing MetadataGetter for method: UnityEngine::Component::get_tag
 // Il2CppName: get_tag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Component::*)()>(&Component::get_tag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Component::*)()>(&UnityEngine::Component::get_tag)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Component*), "get_tag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Component*), "get_tag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Component::set_tag
+// Writing MetadataGetter for method: UnityEngine::Component::set_tag
 // Il2CppName: set_tag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Component::*)(::Il2CppString*)>(&Component::set_tag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Component::*)(::Il2CppString*)>(&UnityEngine::Component::set_tag)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Component*), "set_tag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Component*), "set_tag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Component::GetComponents
+// Writing MetadataGetter for method: UnityEngine::Component::GetComponents
 // Il2CppName: GetComponents
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Component::CompareTag
+// Writing MetadataGetter for method: UnityEngine::Component::CompareTag
 // Il2CppName: CompareTag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Component::*)(::Il2CppString*)>(&Component::CompareTag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Component::*)(::Il2CppString*)>(&UnityEngine::Component::CompareTag)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Component*), "CompareTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Component*), "CompareTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Component::New_ctor
+// Writing MetadataGetter for method: UnityEngine::Component::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Component::*)()>(&Component::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Component::*)()>(&UnityEngine::Component::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Component*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Component*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Component::*)()>(&Component::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Component::*)()>(&UnityEngine::Component::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Component*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Component*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -277,113 +277,113 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameServerPlayerTableCell) == 0x100);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerPlayerTableCell*, "", "GameServerPlayerTableCell");
-// Writing MetadataGetter for method: GameServerPlayerTableCell::add_kickPlayerEvent
+// Writing MetadataGetter for method: GlobalNamespace::GameServerPlayerTableCell::add_kickPlayerEvent
 // Il2CppName: add_kickPlayerEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServerPlayerTableCell::*)(System::Action_1<int>*)>(&GameServerPlayerTableCell::add_kickPlayerEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServerPlayerTableCell::*)(System::Action_1<int>*)>(&GlobalNamespace::GameServerPlayerTableCell::add_kickPlayerEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameServerPlayerTableCell*), "add_kickPlayerEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerPlayerTableCell*), "add_kickPlayerEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
   }
 };
-// Writing MetadataGetter for method: GameServerPlayerTableCell::remove_kickPlayerEvent
+// Writing MetadataGetter for method: GlobalNamespace::GameServerPlayerTableCell::remove_kickPlayerEvent
 // Il2CppName: remove_kickPlayerEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServerPlayerTableCell::*)(System::Action_1<int>*)>(&GameServerPlayerTableCell::remove_kickPlayerEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServerPlayerTableCell::*)(System::Action_1<int>*)>(&GlobalNamespace::GameServerPlayerTableCell::remove_kickPlayerEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameServerPlayerTableCell*), "remove_kickPlayerEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerPlayerTableCell*), "remove_kickPlayerEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
   }
 };
-// Writing MetadataGetter for method: GameServerPlayerTableCell::add_useBeatmapEvent
+// Writing MetadataGetter for method: GlobalNamespace::GameServerPlayerTableCell::add_useBeatmapEvent
 // Il2CppName: add_useBeatmapEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServerPlayerTableCell::*)(System::Action_1<int>*)>(&GameServerPlayerTableCell::add_useBeatmapEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServerPlayerTableCell::*)(System::Action_1<int>*)>(&GlobalNamespace::GameServerPlayerTableCell::add_useBeatmapEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameServerPlayerTableCell*), "add_useBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerPlayerTableCell*), "add_useBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
   }
 };
-// Writing MetadataGetter for method: GameServerPlayerTableCell::remove_useBeatmapEvent
+// Writing MetadataGetter for method: GlobalNamespace::GameServerPlayerTableCell::remove_useBeatmapEvent
 // Il2CppName: remove_useBeatmapEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServerPlayerTableCell::*)(System::Action_1<int>*)>(&GameServerPlayerTableCell::remove_useBeatmapEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServerPlayerTableCell::*)(System::Action_1<int>*)>(&GlobalNamespace::GameServerPlayerTableCell::remove_useBeatmapEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameServerPlayerTableCell*), "remove_useBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerPlayerTableCell*), "remove_useBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
   }
 };
-// Writing MetadataGetter for method: GameServerPlayerTableCell::add_useModifiersEvent
+// Writing MetadataGetter for method: GlobalNamespace::GameServerPlayerTableCell::add_useModifiersEvent
 // Il2CppName: add_useModifiersEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServerPlayerTableCell::*)(System::Action_1<int>*)>(&GameServerPlayerTableCell::add_useModifiersEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServerPlayerTableCell::*)(System::Action_1<int>*)>(&GlobalNamespace::GameServerPlayerTableCell::add_useModifiersEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameServerPlayerTableCell*), "add_useModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerPlayerTableCell*), "add_useModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
   }
 };
-// Writing MetadataGetter for method: GameServerPlayerTableCell::remove_useModifiersEvent
+// Writing MetadataGetter for method: GlobalNamespace::GameServerPlayerTableCell::remove_useModifiersEvent
 // Il2CppName: remove_useModifiersEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServerPlayerTableCell::*)(System::Action_1<int>*)>(&GameServerPlayerTableCell::remove_useModifiersEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServerPlayerTableCell::*)(System::Action_1<int>*)>(&GlobalNamespace::GameServerPlayerTableCell::remove_useModifiersEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameServerPlayerTableCell*), "remove_useModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerPlayerTableCell*), "remove_useModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
   }
 };
-// Writing MetadataGetter for method: GameServerPlayerTableCell::SetData
+// Writing MetadataGetter for method: GlobalNamespace::GameServerPlayerTableCell::SetData
 // Il2CppName: SetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServerPlayerTableCell::*)(GlobalNamespace::IConnectedPlayer*, GlobalNamespace::ILobbyPlayerDataModel*, bool, System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>*)>(&GameServerPlayerTableCell::SetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServerPlayerTableCell::*)(GlobalNamespace::IConnectedPlayer*, GlobalNamespace::ILobbyPlayerDataModel*, bool, System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>*)>(&GlobalNamespace::GameServerPlayerTableCell::SetData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameServerPlayerTableCell*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ILobbyPlayerDataModel*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerPlayerTableCell*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ILobbyPlayerDataModel*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>*>()});
   }
 };
-// Writing MetadataGetter for method: GameServerPlayerTableCell::Awake
+// Writing MetadataGetter for method: GlobalNamespace::GameServerPlayerTableCell::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServerPlayerTableCell::*)()>(&GameServerPlayerTableCell::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServerPlayerTableCell::*)()>(&GlobalNamespace::GameServerPlayerTableCell::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameServerPlayerTableCell*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerPlayerTableCell*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GameServerPlayerTableCell::HandleKickPlayerButtonPressed
+// Writing MetadataGetter for method: GlobalNamespace::GameServerPlayerTableCell::HandleKickPlayerButtonPressed
 // Il2CppName: HandleKickPlayerButtonPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServerPlayerTableCell::*)()>(&GameServerPlayerTableCell::HandleKickPlayerButtonPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServerPlayerTableCell::*)()>(&GlobalNamespace::GameServerPlayerTableCell::HandleKickPlayerButtonPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameServerPlayerTableCell*), "HandleKickPlayerButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerPlayerTableCell*), "HandleKickPlayerButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GameServerPlayerTableCell::HandleUseBeatmapButtonPressed
+// Writing MetadataGetter for method: GlobalNamespace::GameServerPlayerTableCell::HandleUseBeatmapButtonPressed
 // Il2CppName: HandleUseBeatmapButtonPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServerPlayerTableCell::*)()>(&GameServerPlayerTableCell::HandleUseBeatmapButtonPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServerPlayerTableCell::*)()>(&GlobalNamespace::GameServerPlayerTableCell::HandleUseBeatmapButtonPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameServerPlayerTableCell*), "HandleUseBeatmapButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerPlayerTableCell*), "HandleUseBeatmapButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GameServerPlayerTableCell::HandleUseModifiersButtonPressed
+// Writing MetadataGetter for method: GlobalNamespace::GameServerPlayerTableCell::HandleUseModifiersButtonPressed
 // Il2CppName: HandleUseModifiersButtonPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServerPlayerTableCell::*)()>(&GameServerPlayerTableCell::HandleUseModifiersButtonPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServerPlayerTableCell::*)()>(&GlobalNamespace::GameServerPlayerTableCell::HandleUseModifiersButtonPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameServerPlayerTableCell*), "HandleUseModifiersButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerPlayerTableCell*), "HandleUseModifiersButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GameServerPlayerTableCell::SetBeatmapUseButtonEnabledAsync
+// Writing MetadataGetter for method: GlobalNamespace::GameServerPlayerTableCell::SetBeatmapUseButtonEnabledAsync
 // Il2CppName: SetBeatmapUseButtonEnabledAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServerPlayerTableCell::*)(System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>*)>(&GameServerPlayerTableCell::SetBeatmapUseButtonEnabledAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServerPlayerTableCell::*)(System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>*)>(&GlobalNamespace::GameServerPlayerTableCell::SetBeatmapUseButtonEnabledAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameServerPlayerTableCell*), "SetBeatmapUseButtonEnabledAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerPlayerTableCell*), "SetBeatmapUseButtonEnabledAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>*>()});
   }
 };
-// Writing MetadataGetter for method: GameServerPlayerTableCell::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::GameServerPlayerTableCell::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServerPlayerTableCell::*)()>(&GameServerPlayerTableCell::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServerPlayerTableCell::*)()>(&GlobalNamespace::GameServerPlayerTableCell::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameServerPlayerTableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerPlayerTableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServerPlayerTableCell::*)()>(&GameServerPlayerTableCell::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServerPlayerTableCell::*)()>(&GlobalNamespace::GameServerPlayerTableCell::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameServerPlayerTableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerPlayerTableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

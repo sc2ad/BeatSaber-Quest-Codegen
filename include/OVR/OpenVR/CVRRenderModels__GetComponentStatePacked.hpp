@@ -61,41 +61,41 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRRenderModels::_GetComponentStatePacked*, "OVR.OpenVR", "CVRRenderModels/_GetComponentStatePacked");
-// Writing MetadataGetter for method: CVRRenderModels::_GetComponentStatePacked::New_ctor
+// Writing MetadataGetter for method: OVR::OpenVR::CVRRenderModels::_GetComponentStatePacked::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRRenderModels::_GetComponentStatePacked::*)(::Il2CppObject*, System::IntPtr)>(&CVRRenderModels::_GetComponentStatePacked::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRRenderModels::_GetComponentStatePacked::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::CVRRenderModels::_GetComponentStatePacked::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRRenderModels::_GetComponentStatePacked*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRRenderModels::_GetComponentStatePacked*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRRenderModels::_GetComponentStatePacked::*)(::Il2CppObject*, System::IntPtr)>(&CVRRenderModels::_GetComponentStatePacked::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRRenderModels::_GetComponentStatePacked::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::CVRRenderModels::_GetComponentStatePacked::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRRenderModels::_GetComponentStatePacked*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRRenderModels::_GetComponentStatePacked*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: CVRRenderModels::_GetComponentStatePacked::Invoke
+// Writing MetadataGetter for method: OVR::OpenVR::CVRRenderModels::_GetComponentStatePacked::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRRenderModels::_GetComponentStatePacked::*)(::Il2CppString*, ::Il2CppString*, OVR::OpenVR::VRControllerState_t_Packed&, OVR::OpenVR::RenderModel_ControllerMode_State_t&, OVR::OpenVR::RenderModel_ComponentState_t&)>(&CVRRenderModels::_GetComponentStatePacked::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRRenderModels::_GetComponentStatePacked::*)(::Il2CppString*, ::Il2CppString*, OVR::OpenVR::VRControllerState_t_Packed&, OVR::OpenVR::RenderModel_ControllerMode_State_t&, OVR::OpenVR::RenderModel_ComponentState_t&)>(&OVR::OpenVR::CVRRenderModels::_GetComponentStatePacked::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRRenderModels::_GetComponentStatePacked*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VRControllerState_t_Packed&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::RenderModel_ControllerMode_State_t&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::RenderModel_ComponentState_t&>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRRenderModels::_GetComponentStatePacked*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VRControllerState_t_Packed&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::RenderModel_ControllerMode_State_t&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::RenderModel_ComponentState_t&>()});
   }
 };
-// Writing MetadataGetter for method: CVRRenderModels::_GetComponentStatePacked::BeginInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::CVRRenderModels::_GetComponentStatePacked::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (CVRRenderModels::_GetComponentStatePacked::*)(::Il2CppString*, ::Il2CppString*, OVR::OpenVR::VRControllerState_t_Packed&, OVR::OpenVR::RenderModel_ControllerMode_State_t&, OVR::OpenVR::RenderModel_ComponentState_t&, System::AsyncCallback*, ::Il2CppObject*)>(&CVRRenderModels::_GetComponentStatePacked::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::CVRRenderModels::_GetComponentStatePacked::*)(::Il2CppString*, ::Il2CppString*, OVR::OpenVR::VRControllerState_t_Packed&, OVR::OpenVR::RenderModel_ControllerMode_State_t&, OVR::OpenVR::RenderModel_ComponentState_t&, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::CVRRenderModels::_GetComponentStatePacked::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRRenderModels::_GetComponentStatePacked*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VRControllerState_t_Packed&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::RenderModel_ControllerMode_State_t&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::RenderModel_ComponentState_t&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRRenderModels::_GetComponentStatePacked*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VRControllerState_t_Packed&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::RenderModel_ControllerMode_State_t&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::RenderModel_ComponentState_t&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: CVRRenderModels::_GetComponentStatePacked::EndInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::CVRRenderModels::_GetComponentStatePacked::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRRenderModels::_GetComponentStatePacked::*)(OVR::OpenVR::VRControllerState_t_Packed&, OVR::OpenVR::RenderModel_ControllerMode_State_t&, OVR::OpenVR::RenderModel_ComponentState_t&, System::IAsyncResult*)>(&CVRRenderModels::_GetComponentStatePacked::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRRenderModels::_GetComponentStatePacked::*)(OVR::OpenVR::VRControllerState_t_Packed&, OVR::OpenVR::RenderModel_ControllerMode_State_t&, OVR::OpenVR::RenderModel_ComponentState_t&, System::IAsyncResult*)>(&OVR::OpenVR::CVRRenderModels::_GetComponentStatePacked::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRRenderModels::_GetComponentStatePacked*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VRControllerState_t_Packed&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::RenderModel_ControllerMode_State_t&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::RenderModel_ComponentState_t&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRRenderModels::_GetComponentStatePacked*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VRControllerState_t_Packed&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::RenderModel_ControllerMode_State_t&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::RenderModel_ComponentState_t&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

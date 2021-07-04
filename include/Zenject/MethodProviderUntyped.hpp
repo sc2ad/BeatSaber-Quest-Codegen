@@ -87,49 +87,49 @@ namespace Zenject {
   static_assert(sizeof(MethodProviderUntyped) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::MethodProviderUntyped*, "Zenject", "MethodProviderUntyped");
-// Writing MetadataGetter for method: MethodProviderUntyped::New_ctor
+// Writing MetadataGetter for method: Zenject::MethodProviderUntyped::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MethodProviderUntyped::*)(System::Func_2<Zenject::InjectContext*, ::Il2CppObject*>*, Zenject::DiContainer*)>(&MethodProviderUntyped::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::MethodProviderUntyped::*)(System::Func_2<Zenject::InjectContext*, ::Il2CppObject*>*, Zenject::DiContainer*)>(&Zenject::MethodProviderUntyped::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MethodProviderUntyped*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<Zenject::InjectContext*, ::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MethodProviderUntyped*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<Zenject::InjectContext*, ::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MethodProviderUntyped::*)(System::Func_2<Zenject::InjectContext*, ::Il2CppObject*>*, Zenject::DiContainer*)>(&MethodProviderUntyped::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::MethodProviderUntyped::*)(System::Func_2<Zenject::InjectContext*, ::Il2CppObject*>*, Zenject::DiContainer*)>(&Zenject::MethodProviderUntyped::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MethodProviderUntyped*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<Zenject::InjectContext*, ::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MethodProviderUntyped*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<Zenject::InjectContext*, ::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
   }
 };
-// Writing MetadataGetter for method: MethodProviderUntyped::get_IsCached
+// Writing MetadataGetter for method: Zenject::MethodProviderUntyped::get_IsCached
 // Il2CppName: get_IsCached
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MethodProviderUntyped::*)()>(&MethodProviderUntyped::get_IsCached)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::MethodProviderUntyped::*)()>(&Zenject::MethodProviderUntyped::get_IsCached)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MethodProviderUntyped*), "get_IsCached", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MethodProviderUntyped*), "get_IsCached", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MethodProviderUntyped::get_TypeVariesBasedOnMemberType
+// Writing MetadataGetter for method: Zenject::MethodProviderUntyped::get_TypeVariesBasedOnMemberType
 // Il2CppName: get_TypeVariesBasedOnMemberType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MethodProviderUntyped::*)()>(&MethodProviderUntyped::get_TypeVariesBasedOnMemberType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::MethodProviderUntyped::*)()>(&Zenject::MethodProviderUntyped::get_TypeVariesBasedOnMemberType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MethodProviderUntyped*), "get_TypeVariesBasedOnMemberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MethodProviderUntyped*), "get_TypeVariesBasedOnMemberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MethodProviderUntyped::GetInstanceType
+// Writing MetadataGetter for method: Zenject::MethodProviderUntyped::GetInstanceType
 // Il2CppName: GetInstanceType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (MethodProviderUntyped::*)(Zenject::InjectContext*)>(&MethodProviderUntyped::GetInstanceType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Zenject::MethodProviderUntyped::*)(Zenject::InjectContext*)>(&Zenject::MethodProviderUntyped::GetInstanceType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MethodProviderUntyped*), "GetInstanceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MethodProviderUntyped*), "GetInstanceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
   }
 };
-// Writing MetadataGetter for method: MethodProviderUntyped::GetAllInstancesWithInjectSplit
+// Writing MetadataGetter for method: Zenject::MethodProviderUntyped::GetAllInstancesWithInjectSplit
 // Il2CppName: GetAllInstancesWithInjectSplit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MethodProviderUntyped::*)(Zenject::InjectContext*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, System::Action*&, System::Collections::Generic::List_1<::Il2CppObject*>*)>(&MethodProviderUntyped::GetAllInstancesWithInjectSplit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::MethodProviderUntyped::*)(Zenject::InjectContext*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, System::Action*&, System::Collections::Generic::List_1<::Il2CppObject*>*)>(&Zenject::MethodProviderUntyped::GetAllInstancesWithInjectSplit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MethodProviderUntyped*), "GetAllInstancesWithInjectSplit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*&>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppObject*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MethodProviderUntyped*), "GetAllInstancesWithInjectSplit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*&>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppObject*>*>()});
   }
 };

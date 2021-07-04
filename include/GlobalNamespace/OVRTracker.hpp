@@ -67,89 +67,89 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRTracker*, "", "OVRTracker");
-// Writing MetadataGetter for method: OVRTracker::get_isPresent
+// Writing MetadataGetter for method: GlobalNamespace::OVRTracker::get_isPresent
 // Il2CppName: get_isPresent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRTracker::*)()>(&OVRTracker::get_isPresent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRTracker::*)()>(&GlobalNamespace::OVRTracker::get_isPresent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRTracker*), "get_isPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRTracker*), "get_isPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRTracker::get_isPositionTracked
+// Writing MetadataGetter for method: GlobalNamespace::OVRTracker::get_isPositionTracked
 // Il2CppName: get_isPositionTracked
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRTracker::*)()>(&OVRTracker::get_isPositionTracked)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRTracker::*)()>(&GlobalNamespace::OVRTracker::get_isPositionTracked)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRTracker*), "get_isPositionTracked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRTracker*), "get_isPositionTracked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRTracker::get_isEnabled
+// Writing MetadataGetter for method: GlobalNamespace::OVRTracker::get_isEnabled
 // Il2CppName: get_isEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRTracker::*)()>(&OVRTracker::get_isEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRTracker::*)()>(&GlobalNamespace::OVRTracker::get_isEnabled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRTracker*), "get_isEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRTracker*), "get_isEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRTracker::set_isEnabled
+// Writing MetadataGetter for method: GlobalNamespace::OVRTracker::set_isEnabled
 // Il2CppName: set_isEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRTracker::*)(bool)>(&OVRTracker::set_isEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRTracker::*)(bool)>(&GlobalNamespace::OVRTracker::set_isEnabled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRTracker*), "set_isEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRTracker*), "set_isEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: OVRTracker::get_count
+// Writing MetadataGetter for method: GlobalNamespace::OVRTracker::get_count
 // Il2CppName: get_count
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OVRTracker::*)()>(&OVRTracker::get_count)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::OVRTracker::*)()>(&GlobalNamespace::OVRTracker::get_count)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRTracker*), "get_count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRTracker*), "get_count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRTracker::GetFrustum
+// Writing MetadataGetter for method: GlobalNamespace::OVRTracker::GetFrustum
 // Il2CppName: GetFrustum
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRTracker::Frustum (OVRTracker::*)(int)>(&OVRTracker::GetFrustum)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRTracker::Frustum (GlobalNamespace::OVRTracker::*)(int)>(&GlobalNamespace::OVRTracker::GetFrustum)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRTracker*), "GetFrustum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRTracker*), "GetFrustum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: OVRTracker::GetPose
+// Writing MetadataGetter for method: GlobalNamespace::OVRTracker::GetPose
 // Il2CppName: GetPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPose (OVRTracker::*)(int)>(&OVRTracker::GetPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPose (GlobalNamespace::OVRTracker::*)(int)>(&GlobalNamespace::OVRTracker::GetPose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRTracker*), "GetPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRTracker*), "GetPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: OVRTracker::GetPoseValid
+// Writing MetadataGetter for method: GlobalNamespace::OVRTracker::GetPoseValid
 // Il2CppName: GetPoseValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRTracker::*)(int)>(&OVRTracker::GetPoseValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRTracker::*)(int)>(&GlobalNamespace::OVRTracker::GetPoseValid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRTracker*), "GetPoseValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRTracker*), "GetPoseValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: OVRTracker::GetPresent
+// Writing MetadataGetter for method: GlobalNamespace::OVRTracker::GetPresent
 // Il2CppName: GetPresent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRTracker::*)(int)>(&OVRTracker::GetPresent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRTracker::*)(int)>(&GlobalNamespace::OVRTracker::GetPresent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRTracker*), "GetPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRTracker*), "GetPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: OVRTracker::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::OVRTracker::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRTracker::*)()>(&OVRTracker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRTracker::*)()>(&GlobalNamespace::OVRTracker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRTracker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRTracker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRTracker::*)()>(&OVRTracker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRTracker::*)()>(&GlobalNamespace::OVRTracker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRTracker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRTracker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

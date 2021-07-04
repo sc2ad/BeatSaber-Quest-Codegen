@@ -51,33 +51,33 @@ namespace JetBrains::Annotations {
   static_assert(sizeof(AspTypePropertyAttribute) == 0x11);
 }
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspTypePropertyAttribute*, "JetBrains.Annotations", "AspTypePropertyAttribute");
-// Writing MetadataGetter for method: AspTypePropertyAttribute::get_CreateConstructorReferences
+// Writing MetadataGetter for method: JetBrains::Annotations::AspTypePropertyAttribute::get_CreateConstructorReferences
 // Il2CppName: get_CreateConstructorReferences
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AspTypePropertyAttribute::*)()>(&AspTypePropertyAttribute::get_CreateConstructorReferences)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (JetBrains::Annotations::AspTypePropertyAttribute::*)()>(&JetBrains::Annotations::AspTypePropertyAttribute::get_CreateConstructorReferences)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AspTypePropertyAttribute*), "get_CreateConstructorReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspTypePropertyAttribute*), "get_CreateConstructorReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AspTypePropertyAttribute::set_CreateConstructorReferences
+// Writing MetadataGetter for method: JetBrains::Annotations::AspTypePropertyAttribute::set_CreateConstructorReferences
 // Il2CppName: set_CreateConstructorReferences
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspTypePropertyAttribute::*)(bool)>(&AspTypePropertyAttribute::set_CreateConstructorReferences)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::AspTypePropertyAttribute::*)(bool)>(&JetBrains::Annotations::AspTypePropertyAttribute::set_CreateConstructorReferences)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AspTypePropertyAttribute*), "set_CreateConstructorReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspTypePropertyAttribute*), "set_CreateConstructorReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AspTypePropertyAttribute::New_ctor
+// Writing MetadataGetter for method: JetBrains::Annotations::AspTypePropertyAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspTypePropertyAttribute::*)(bool)>(&AspTypePropertyAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::AspTypePropertyAttribute::*)(bool)>(&JetBrains::Annotations::AspTypePropertyAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AspTypePropertyAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspTypePropertyAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspTypePropertyAttribute::*)(bool)>(&AspTypePropertyAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::AspTypePropertyAttribute::*)(bool)>(&JetBrains::Annotations::AspTypePropertyAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AspTypePropertyAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspTypePropertyAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };

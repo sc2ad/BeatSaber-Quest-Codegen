@@ -57,33 +57,33 @@ namespace System::IO {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::StringResultHandler*, "System.IO", "StringResultHandler");
-// Writing MetadataGetter for method: StringResultHandler::New_ctor
+// Writing MetadataGetter for method: System::IO::StringResultHandler::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StringResultHandler::*)(bool, bool)>(&StringResultHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::StringResultHandler::*)(bool, bool)>(&System::IO::StringResultHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StringResultHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::StringResultHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StringResultHandler::*)(bool, bool)>(&StringResultHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::StringResultHandler::*)(bool, bool)>(&System::IO::StringResultHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StringResultHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::StringResultHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: StringResultHandler::CreateObject
+// Writing MetadataGetter for method: System::IO::StringResultHandler::CreateObject
 // Il2CppName: CreateObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StringResultHandler::*)(System::IO::SearchResult*)>(&StringResultHandler::CreateObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::StringResultHandler::*)(System::IO::SearchResult*)>(&System::IO::StringResultHandler::CreateObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StringResultHandler*), "CreateObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::SearchResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::StringResultHandler*), "CreateObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::SearchResult*>()});
   }
 };
-// Writing MetadataGetter for method: StringResultHandler::IsResultIncluded
+// Writing MetadataGetter for method: System::IO::StringResultHandler::IsResultIncluded
 // Il2CppName: IsResultIncluded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (StringResultHandler::*)(System::IO::SearchResult*)>(&StringResultHandler::IsResultIncluded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::IO::StringResultHandler::*)(System::IO::SearchResult*)>(&System::IO::StringResultHandler::IsResultIncluded)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StringResultHandler*), "IsResultIncluded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::SearchResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::StringResultHandler*), "IsResultIncluded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::SearchResult*>()});
   }
 };

@@ -61,49 +61,49 @@ namespace System::Text {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::EncoderExceptionFallback*, "System.Text", "EncoderExceptionFallback");
-// Writing MetadataGetter for method: EncoderExceptionFallback::New_ctor
+// Writing MetadataGetter for method: System::Text::EncoderExceptionFallback::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EncoderExceptionFallback::*)()>(&EncoderExceptionFallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::EncoderExceptionFallback::*)()>(&System::Text::EncoderExceptionFallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EncoderExceptionFallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::EncoderExceptionFallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EncoderExceptionFallback::*)()>(&EncoderExceptionFallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::EncoderExceptionFallback::*)()>(&System::Text::EncoderExceptionFallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EncoderExceptionFallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::EncoderExceptionFallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EncoderExceptionFallback::CreateFallbackBuffer
+// Writing MetadataGetter for method: System::Text::EncoderExceptionFallback::CreateFallbackBuffer
 // Il2CppName: CreateFallbackBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::EncoderFallbackBuffer* (EncoderExceptionFallback::*)()>(&EncoderExceptionFallback::CreateFallbackBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::EncoderFallbackBuffer* (System::Text::EncoderExceptionFallback::*)()>(&System::Text::EncoderExceptionFallback::CreateFallbackBuffer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EncoderExceptionFallback*), "CreateFallbackBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::EncoderExceptionFallback*), "CreateFallbackBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EncoderExceptionFallback::get_MaxCharCount
+// Writing MetadataGetter for method: System::Text::EncoderExceptionFallback::get_MaxCharCount
 // Il2CppName: get_MaxCharCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (EncoderExceptionFallback::*)()>(&EncoderExceptionFallback::get_MaxCharCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::EncoderExceptionFallback::*)()>(&System::Text::EncoderExceptionFallback::get_MaxCharCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EncoderExceptionFallback*), "get_MaxCharCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::EncoderExceptionFallback*), "get_MaxCharCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EncoderExceptionFallback::Equals
+// Writing MetadataGetter for method: System::Text::EncoderExceptionFallback::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EncoderExceptionFallback::*)(::Il2CppObject*)>(&EncoderExceptionFallback::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::EncoderExceptionFallback::*)(::Il2CppObject*)>(&System::Text::EncoderExceptionFallback::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EncoderExceptionFallback*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::EncoderExceptionFallback*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: EncoderExceptionFallback::GetHashCode
+// Writing MetadataGetter for method: System::Text::EncoderExceptionFallback::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (EncoderExceptionFallback::*)()>(&EncoderExceptionFallback::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::EncoderExceptionFallback::*)()>(&System::Text::EncoderExceptionFallback::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EncoderExceptionFallback*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::EncoderExceptionFallback*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

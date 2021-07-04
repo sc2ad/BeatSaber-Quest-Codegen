@@ -60,14 +60,14 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RpcPool*, "", "RpcPool");
-// Writing MetadataGetter for method: RpcPool::Obtain
+// Writing MetadataGetter for method: GlobalNamespace::RpcPool::Obtain
 // Il2CppName: Obtain
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: RpcPool::Release
+// Writing MetadataGetter for method: GlobalNamespace::RpcPool::Release
 // Il2CppName: Release
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::IRemoteProcedureCall*)>(&RpcPool::Release)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::IRemoteProcedureCall*)>(&GlobalNamespace::RpcPool::Release)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RpcPool*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IRemoteProcedureCall*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RpcPool*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IRemoteProcedureCall*>()});
   }
 };

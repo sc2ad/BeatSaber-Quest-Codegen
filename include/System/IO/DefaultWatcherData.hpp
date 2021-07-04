@@ -103,17 +103,17 @@ namespace System::IO {
   static_assert(sizeof(DefaultWatcherData) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::DefaultWatcherData*, "System.IO", "DefaultWatcherData");
-// Writing MetadataGetter for method: DefaultWatcherData::New_ctor
+// Writing MetadataGetter for method: System::IO::DefaultWatcherData::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultWatcherData::*)()>(&DefaultWatcherData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::DefaultWatcherData::*)()>(&System::IO::DefaultWatcherData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultWatcherData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::DefaultWatcherData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultWatcherData::*)()>(&DefaultWatcherData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::DefaultWatcherData::*)()>(&System::IO::DefaultWatcherData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultWatcherData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::DefaultWatcherData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

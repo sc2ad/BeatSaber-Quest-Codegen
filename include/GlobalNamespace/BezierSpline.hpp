@@ -88,73 +88,73 @@ namespace GlobalNamespace {
   static_assert(sizeof(BezierSpline) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierSpline*, "", "BezierSpline");
-// Writing MetadataGetter for method: BezierSpline::get_segments
+// Writing MetadataGetter for method: GlobalNamespace::BezierSpline::get_segments
 // Il2CppName: get_segments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::BezierCurve>* (BezierSpline::*)()>(&BezierSpline::get_segments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::BezierCurve>* (GlobalNamespace::BezierSpline::*)()>(&GlobalNamespace::BezierSpline::get_segments)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BezierSpline*), "get_segments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSpline*), "get_segments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BezierSpline::AddPoint
+// Writing MetadataGetter for method: GlobalNamespace::BezierSpline::AddPoint
 // Il2CppName: AddPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BezierSpline::*)(float, UnityEngine::Vector2)>(&BezierSpline::AddPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BezierSpline::*)(float, UnityEngine::Vector2)>(&GlobalNamespace::BezierSpline::AddPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BezierSpline*), "AddPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSpline*), "AddPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
   }
 };
-// Writing MetadataGetter for method: BezierSpline::SortSourceData
+// Writing MetadataGetter for method: GlobalNamespace::BezierSpline::SortSourceData
 // Il2CppName: SortSourceData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BezierSpline::*)()>(&BezierSpline::SortSourceData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BezierSpline::*)()>(&GlobalNamespace::BezierSpline::SortSourceData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BezierSpline*), "SortSourceData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSpline*), "SortSourceData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BezierSpline::AddArtificialStartAndFinishPoint
+// Writing MetadataGetter for method: GlobalNamespace::BezierSpline::AddArtificialStartAndFinishPoint
 // Il2CppName: AddArtificialStartAndFinishPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BezierSpline::*)()>(&BezierSpline::AddArtificialStartAndFinishPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BezierSpline::*)()>(&GlobalNamespace::BezierSpline::AddArtificialStartAndFinishPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BezierSpline*), "AddArtificialStartAndFinishPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSpline*), "AddArtificialStartAndFinishPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BezierSpline::ComputeControlPoints
+// Writing MetadataGetter for method: GlobalNamespace::BezierSpline::ComputeControlPoints
 // Il2CppName: ComputeControlPoints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BezierSpline::*)()>(&BezierSpline::ComputeControlPoints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BezierSpline::*)()>(&GlobalNamespace::BezierSpline::ComputeControlPoints)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BezierSpline*), "ComputeControlPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSpline*), "ComputeControlPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BezierSpline::Clear
+// Writing MetadataGetter for method: GlobalNamespace::BezierSpline::Clear
 // Il2CppName: Clear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BezierSpline::*)()>(&BezierSpline::Clear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BezierSpline::*)()>(&GlobalNamespace::BezierSpline::Clear)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BezierSpline*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSpline*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BezierSpline::ComputeControlPoints
+// Writing MetadataGetter for method: GlobalNamespace::BezierSpline::ComputeControlPoints
 // Il2CppName: ComputeControlPoints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BezierSpline::ComputeControlPointsResults (BezierSpline::*)(System::Collections::Generic::List_1<float>*)>(&BezierSpline::ComputeControlPoints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BezierSpline::ComputeControlPointsResults (GlobalNamespace::BezierSpline::*)(System::Collections::Generic::List_1<float>*)>(&GlobalNamespace::BezierSpline::ComputeControlPoints)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BezierSpline*), "ComputeControlPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSpline*), "ComputeControlPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<float>*>()});
   }
 };
-// Writing MetadataGetter for method: BezierSpline::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BezierSpline::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BezierSpline::*)()>(&BezierSpline::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BezierSpline::*)()>(&GlobalNamespace::BezierSpline::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BezierSpline*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSpline*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BezierSpline::*)()>(&BezierSpline::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BezierSpline::*)()>(&GlobalNamespace::BezierSpline::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BezierSpline*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSpline*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

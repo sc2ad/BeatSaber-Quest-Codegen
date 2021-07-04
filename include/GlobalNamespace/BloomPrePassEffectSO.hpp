@@ -98,65 +98,65 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomPrePassEffectSO) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassEffectSO*, "", "BloomPrePassEffectSO");
-// Writing MetadataGetter for method: BloomPrePassEffectSO::get_textureEffect
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassEffectSO::get_textureEffect
 // Il2CppName: get_textureEffect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::TextureEffectSO* (BloomPrePassEffectSO::*)()>(&BloomPrePassEffectSO::get_textureEffect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::TextureEffectSO* (GlobalNamespace::BloomPrePassEffectSO::*)()>(&GlobalNamespace::BloomPrePassEffectSO::get_textureEffect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassEffectSO*), "get_textureEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassEffectSO*), "get_textureEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomPrePassEffectSO::get_textureWidth
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassEffectSO::get_textureWidth
 // Il2CppName: get_textureWidth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BloomPrePassEffectSO::*)()>(&BloomPrePassEffectSO::get_textureWidth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::BloomPrePassEffectSO::*)()>(&GlobalNamespace::BloomPrePassEffectSO::get_textureWidth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassEffectSO*), "get_textureWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassEffectSO*), "get_textureWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomPrePassEffectSO::get_textureHeight
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassEffectSO::get_textureHeight
 // Il2CppName: get_textureHeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BloomPrePassEffectSO::*)()>(&BloomPrePassEffectSO::get_textureHeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::BloomPrePassEffectSO::*)()>(&GlobalNamespace::BloomPrePassEffectSO::get_textureHeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassEffectSO*), "get_textureHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassEffectSO*), "get_textureHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomPrePassEffectSO::get_fov
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassEffectSO::get_fov
 // Il2CppName: get_fov
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (BloomPrePassEffectSO::*)()>(&BloomPrePassEffectSO::get_fov)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (GlobalNamespace::BloomPrePassEffectSO::*)()>(&GlobalNamespace::BloomPrePassEffectSO::get_fov)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassEffectSO*), "get_fov", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassEffectSO*), "get_fov", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomPrePassEffectSO::get_linesWidth
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassEffectSO::get_linesWidth
 // Il2CppName: get_linesWidth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BloomPrePassEffectSO::*)()>(&BloomPrePassEffectSO::get_linesWidth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BloomPrePassEffectSO::*)()>(&GlobalNamespace::BloomPrePassEffectSO::get_linesWidth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassEffectSO*), "get_linesWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassEffectSO*), "get_linesWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomPrePassEffectSO::get_toneMapping
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassEffectSO::get_toneMapping
 // Il2CppName: get_toneMapping
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ToneMapping (BloomPrePassEffectSO::*)()>(&BloomPrePassEffectSO::get_toneMapping)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ToneMapping (GlobalNamespace::BloomPrePassEffectSO::*)()>(&GlobalNamespace::BloomPrePassEffectSO::get_toneMapping)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassEffectSO*), "get_toneMapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassEffectSO*), "get_toneMapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomPrePassEffectSO::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassEffectSO::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassEffectSO::*)()>(&BloomPrePassEffectSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePassEffectSO::*)()>(&GlobalNamespace::BloomPrePassEffectSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassEffectSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassEffectSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassEffectSO::*)()>(&BloomPrePassEffectSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePassEffectSO::*)()>(&GlobalNamespace::BloomPrePassEffectSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassEffectSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassEffectSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

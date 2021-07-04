@@ -149,65 +149,65 @@ namespace GlobalNamespace {
   static_assert(sizeof(FlyingScoreEffect) == 0xBD);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingScoreEffect*, "", "FlyingScoreEffect");
-// Writing MetadataGetter for method: FlyingScoreEffect::InitAndPresent
+// Writing MetadataGetter for method: GlobalNamespace::FlyingScoreEffect::InitAndPresent
 // Il2CppName: InitAndPresent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingScoreEffect::*)(GlobalNamespace::NoteCutInfo&, int, float, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Color)>(&FlyingScoreEffect::InitAndPresent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingScoreEffect::*)(GlobalNamespace::NoteCutInfo&, int, float, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Color)>(&GlobalNamespace::FlyingScoreEffect::InitAndPresent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FlyingScoreEffect*), "InitAndPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingScoreEffect*), "InitAndPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: FlyingScoreEffect::HandleSaberSwingRatingCounterDidChange
+// Writing MetadataGetter for method: GlobalNamespace::FlyingScoreEffect::HandleSaberSwingRatingCounterDidChange
 // Il2CppName: HandleSaberSwingRatingCounterDidChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingScoreEffect::*)(GlobalNamespace::ISaberSwingRatingCounter*, float)>(&FlyingScoreEffect::HandleSaberSwingRatingCounterDidChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingScoreEffect::*)(GlobalNamespace::ISaberSwingRatingCounter*, float)>(&GlobalNamespace::FlyingScoreEffect::HandleSaberSwingRatingCounterDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FlyingScoreEffect*), "HandleSaberSwingRatingCounterDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ISaberSwingRatingCounter*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingScoreEffect*), "HandleSaberSwingRatingCounterDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ISaberSwingRatingCounter*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: FlyingScoreEffect::GetScoreText
+// Writing MetadataGetter for method: GlobalNamespace::FlyingScoreEffect::GetScoreText
 // Il2CppName: GetScoreText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (FlyingScoreEffect::*)(int)>(&FlyingScoreEffect::GetScoreText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::FlyingScoreEffect::*)(int)>(&GlobalNamespace::FlyingScoreEffect::GetScoreText)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FlyingScoreEffect*), "GetScoreText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingScoreEffect*), "GetScoreText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: FlyingScoreEffect::HandleSaberSwingRatingCounterDidFinish
+// Writing MetadataGetter for method: GlobalNamespace::FlyingScoreEffect::HandleSaberSwingRatingCounterDidFinish
 // Il2CppName: HandleSaberSwingRatingCounterDidFinish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingScoreEffect::*)(GlobalNamespace::ISaberSwingRatingCounter*)>(&FlyingScoreEffect::HandleSaberSwingRatingCounterDidFinish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingScoreEffect::*)(GlobalNamespace::ISaberSwingRatingCounter*)>(&GlobalNamespace::FlyingScoreEffect::HandleSaberSwingRatingCounterDidFinish)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FlyingScoreEffect*), "HandleSaberSwingRatingCounterDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ISaberSwingRatingCounter*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingScoreEffect*), "HandleSaberSwingRatingCounterDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ISaberSwingRatingCounter*>()});
   }
 };
-// Writing MetadataGetter for method: FlyingScoreEffect::UnregisterCallbacksIfNeeded
+// Writing MetadataGetter for method: GlobalNamespace::FlyingScoreEffect::UnregisterCallbacksIfNeeded
 // Il2CppName: UnregisterCallbacksIfNeeded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingScoreEffect::*)()>(&FlyingScoreEffect::UnregisterCallbacksIfNeeded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingScoreEffect::*)()>(&GlobalNamespace::FlyingScoreEffect::UnregisterCallbacksIfNeeded)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FlyingScoreEffect*), "UnregisterCallbacksIfNeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingScoreEffect*), "UnregisterCallbacksIfNeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FlyingScoreEffect::ManualUpdate
+// Writing MetadataGetter for method: GlobalNamespace::FlyingScoreEffect::ManualUpdate
 // Il2CppName: ManualUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingScoreEffect::*)(float)>(&FlyingScoreEffect::ManualUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingScoreEffect::*)(float)>(&GlobalNamespace::FlyingScoreEffect::ManualUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FlyingScoreEffect*), "ManualUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingScoreEffect*), "ManualUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: FlyingScoreEffect::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::FlyingScoreEffect::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingScoreEffect::*)()>(&FlyingScoreEffect::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingScoreEffect::*)()>(&GlobalNamespace::FlyingScoreEffect::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FlyingScoreEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingScoreEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingScoreEffect::*)()>(&FlyingScoreEffect::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingScoreEffect::*)()>(&GlobalNamespace::FlyingScoreEffect::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FlyingScoreEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingScoreEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

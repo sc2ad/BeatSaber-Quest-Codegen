@@ -57,25 +57,25 @@ namespace System::Threading::Tasks {
   static_assert(sizeof(ContinuationTaskFromTask) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::ContinuationTaskFromTask*, "System.Threading.Tasks", "ContinuationTaskFromTask");
-// Writing MetadataGetter for method: ContinuationTaskFromTask::New_ctor
+// Writing MetadataGetter for method: System::Threading::Tasks::ContinuationTaskFromTask::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContinuationTaskFromTask::*)(System::Threading::Tasks::Task*, System::Delegate*, ::Il2CppObject*, System::Threading::Tasks::TaskCreationOptions, System::Threading::Tasks::InternalTaskOptions, System::Threading::StackCrawlMark&)>(&ContinuationTaskFromTask::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::ContinuationTaskFromTask::*)(System::Threading::Tasks::Task*, System::Delegate*, ::Il2CppObject*, System::Threading::Tasks::TaskCreationOptions, System::Threading::Tasks::InternalTaskOptions, System::Threading::StackCrawlMark&)>(&System::Threading::Tasks::ContinuationTaskFromTask::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContinuationTaskFromTask*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<System::Delegate*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::TaskCreationOptions>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::InternalTaskOptions>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::StackCrawlMark&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::ContinuationTaskFromTask*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<System::Delegate*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::TaskCreationOptions>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::InternalTaskOptions>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::StackCrawlMark&>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContinuationTaskFromTask::*)(System::Threading::Tasks::Task*, System::Delegate*, ::Il2CppObject*, System::Threading::Tasks::TaskCreationOptions, System::Threading::Tasks::InternalTaskOptions, System::Threading::StackCrawlMark&)>(&ContinuationTaskFromTask::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::ContinuationTaskFromTask::*)(System::Threading::Tasks::Task*, System::Delegate*, ::Il2CppObject*, System::Threading::Tasks::TaskCreationOptions, System::Threading::Tasks::InternalTaskOptions, System::Threading::StackCrawlMark&)>(&System::Threading::Tasks::ContinuationTaskFromTask::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContinuationTaskFromTask*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<System::Delegate*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::TaskCreationOptions>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::InternalTaskOptions>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::StackCrawlMark&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::ContinuationTaskFromTask*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<System::Delegate*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::TaskCreationOptions>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::InternalTaskOptions>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::StackCrawlMark&>()});
   }
 };
-// Writing MetadataGetter for method: ContinuationTaskFromTask::InnerInvoke
+// Writing MetadataGetter for method: System::Threading::Tasks::ContinuationTaskFromTask::InnerInvoke
 // Il2CppName: InnerInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContinuationTaskFromTask::*)()>(&ContinuationTaskFromTask::InnerInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::ContinuationTaskFromTask::*)()>(&System::Threading::Tasks::ContinuationTaskFromTask::InnerInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContinuationTaskFromTask*), "InnerInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::ContinuationTaskFromTask*), "InnerInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

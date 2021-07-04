@@ -178,89 +178,89 @@ namespace MasterServer {
   static_assert(sizeof(UserServerStatusUpdateRequest) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserServerStatusUpdateRequest*, "MasterServer", "UserServerStatusUpdateRequest");
-// Writing MetadataGetter for method: UserServerStatusUpdateRequest::get_pool
+// Writing MetadataGetter for method: MasterServer::UserServerStatusUpdateRequest::get_pool
 // Il2CppName: get_pool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::UserServerStatusUpdateRequest*>* (*)()>(&UserServerStatusUpdateRequest::get_pool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::UserServerStatusUpdateRequest*>* (*)()>(&MasterServer::UserServerStatusUpdateRequest::get_pool)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserServerStatusUpdateRequest*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserServerStatusUpdateRequest*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UserServerStatusUpdateRequest::get_userId
+// Writing MetadataGetter for method: MasterServer::UserServerStatusUpdateRequest::get_userId
 // Il2CppName: get_userId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UserServerStatusUpdateRequest::*)()>(&UserServerStatusUpdateRequest::get_userId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MasterServer::UserServerStatusUpdateRequest::*)()>(&MasterServer::UserServerStatusUpdateRequest::get_userId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserServerStatusUpdateRequest*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserServerStatusUpdateRequest*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UserServerStatusUpdateRequest::set_userId
+// Writing MetadataGetter for method: MasterServer::UserServerStatusUpdateRequest::set_userId
 // Il2CppName: set_userId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserServerStatusUpdateRequest::*)(::Il2CppString*)>(&UserServerStatusUpdateRequest::set_userId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::UserServerStatusUpdateRequest::*)(::Il2CppString*)>(&MasterServer::UserServerStatusUpdateRequest::set_userId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserServerStatusUpdateRequest*), "set_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserServerStatusUpdateRequest*), "set_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: UserServerStatusUpdateRequest::get_userName
+// Writing MetadataGetter for method: MasterServer::UserServerStatusUpdateRequest::get_userName
 // Il2CppName: get_userName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UserServerStatusUpdateRequest::*)()>(&UserServerStatusUpdateRequest::get_userName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MasterServer::UserServerStatusUpdateRequest::*)()>(&MasterServer::UserServerStatusUpdateRequest::get_userName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserServerStatusUpdateRequest*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserServerStatusUpdateRequest*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UserServerStatusUpdateRequest::set_userName
+// Writing MetadataGetter for method: MasterServer::UserServerStatusUpdateRequest::set_userName
 // Il2CppName: set_userName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserServerStatusUpdateRequest::*)(::Il2CppString*)>(&UserServerStatusUpdateRequest::set_userName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::UserServerStatusUpdateRequest::*)(::Il2CppString*)>(&MasterServer::UserServerStatusUpdateRequest::set_userName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserServerStatusUpdateRequest*), "set_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserServerStatusUpdateRequest*), "set_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: UserServerStatusUpdateRequest::Init
+// Writing MetadataGetter for method: MasterServer::UserServerStatusUpdateRequest::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::UserServerStatusUpdateRequest* (UserServerStatusUpdateRequest::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Array<uint8_t>*, ::Array<uint8_t>*, int, int, GlobalNamespace::DiscoveryPolicy, GlobalNamespace::InvitePolicy, GlobalNamespace::GameplayServerConfiguration)>(&UserServerStatusUpdateRequest::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::UserServerStatusUpdateRequest* (MasterServer::UserServerStatusUpdateRequest::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Array<uint8_t>*, ::Array<uint8_t>*, int, int, GlobalNamespace::DiscoveryPolicy, GlobalNamespace::InvitePolicy, GlobalNamespace::GameplayServerConfiguration)>(&MasterServer::UserServerStatusUpdateRequest::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserServerStatusUpdateRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DiscoveryPolicy>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::InvitePolicy>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserServerStatusUpdateRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DiscoveryPolicy>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::InvitePolicy>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>()});
   }
 };
-// Writing MetadataGetter for method: UserServerStatusUpdateRequest::Serialize
+// Writing MetadataGetter for method: MasterServer::UserServerStatusUpdateRequest::Serialize
 // Il2CppName: Serialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserServerStatusUpdateRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&UserServerStatusUpdateRequest::Serialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::UserServerStatusUpdateRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&MasterServer::UserServerStatusUpdateRequest::Serialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserServerStatusUpdateRequest*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserServerStatusUpdateRequest*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
   }
 };
-// Writing MetadataGetter for method: UserServerStatusUpdateRequest::Deserialize
+// Writing MetadataGetter for method: MasterServer::UserServerStatusUpdateRequest::Deserialize
 // Il2CppName: Deserialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserServerStatusUpdateRequest::*)(LiteNetLib::Utils::NetDataReader*)>(&UserServerStatusUpdateRequest::Deserialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::UserServerStatusUpdateRequest::*)(LiteNetLib::Utils::NetDataReader*)>(&MasterServer::UserServerStatusUpdateRequest::Deserialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserServerStatusUpdateRequest*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserServerStatusUpdateRequest*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
   }
 };
-// Writing MetadataGetter for method: UserServerStatusUpdateRequest::Release
+// Writing MetadataGetter for method: MasterServer::UserServerStatusUpdateRequest::Release
 // Il2CppName: Release
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserServerStatusUpdateRequest::*)()>(&UserServerStatusUpdateRequest::Release)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::UserServerStatusUpdateRequest::*)()>(&MasterServer::UserServerStatusUpdateRequest::Release)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserServerStatusUpdateRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserServerStatusUpdateRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UserServerStatusUpdateRequest::New_ctor
+// Writing MetadataGetter for method: MasterServer::UserServerStatusUpdateRequest::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserServerStatusUpdateRequest::*)()>(&UserServerStatusUpdateRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::UserServerStatusUpdateRequest::*)()>(&MasterServer::UserServerStatusUpdateRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserServerStatusUpdateRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserServerStatusUpdateRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserServerStatusUpdateRequest::*)()>(&UserServerStatusUpdateRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::UserServerStatusUpdateRequest::*)()>(&MasterServer::UserServerStatusUpdateRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserServerStatusUpdateRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserServerStatusUpdateRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

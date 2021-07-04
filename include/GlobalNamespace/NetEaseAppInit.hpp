@@ -91,49 +91,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(NetEaseAppInit) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseAppInit*, "", "NetEaseAppInit");
-// Writing MetadataGetter for method: NetEaseAppInit::AppStartAndMultiSceneEditorSetup
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseAppInit::AppStartAndMultiSceneEditorSetup
 // Il2CppName: AppStartAndMultiSceneEditorSetup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseAppInit::*)()>(&NetEaseAppInit::AppStartAndMultiSceneEditorSetup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetEaseAppInit::*)()>(&GlobalNamespace::NetEaseAppInit::AppStartAndMultiSceneEditorSetup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseAppInit*), "AppStartAndMultiSceneEditorSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseAppInit*), "AppStartAndMultiSceneEditorSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetEaseAppInit::RepeatableSetup
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseAppInit::RepeatableSetup
 // Il2CppName: RepeatableSetup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseAppInit::*)()>(&NetEaseAppInit::RepeatableSetup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetEaseAppInit::*)()>(&GlobalNamespace::NetEaseAppInit::RepeatableSetup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseAppInit*), "RepeatableSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseAppInit*), "RepeatableSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetEaseAppInit::TransitionToNextScene
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseAppInit::TransitionToNextScene
 // Il2CppName: TransitionToNextScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseAppInit::*)()>(&NetEaseAppInit::TransitionToNextScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetEaseAppInit::*)()>(&GlobalNamespace::NetEaseAppInit::TransitionToNextScene)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseAppInit*), "TransitionToNextScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseAppInit*), "TransitionToNextScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetEaseAppInit::InstallBindings
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseAppInit::InstallBindings
 // Il2CppName: InstallBindings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseAppInit::*)()>(&NetEaseAppInit::InstallBindings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetEaseAppInit::*)()>(&GlobalNamespace::NetEaseAppInit::InstallBindings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseAppInit*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseAppInit*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetEaseAppInit::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseAppInit::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseAppInit::*)()>(&NetEaseAppInit::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetEaseAppInit::*)()>(&GlobalNamespace::NetEaseAppInit::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseAppInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseAppInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseAppInit::*)()>(&NetEaseAppInit::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetEaseAppInit::*)()>(&GlobalNamespace::NetEaseAppInit::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseAppInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseAppInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

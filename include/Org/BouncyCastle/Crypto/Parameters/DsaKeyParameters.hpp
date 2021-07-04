@@ -66,49 +66,49 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   static_assert(sizeof(DsaKeyParameters) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "DsaKeyParameters");
-// Writing MetadataGetter for method: DsaKeyParameters::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DsaKeyParameters::*)(bool, Org::BouncyCastle::Crypto::Parameters::DsaParameters*)>(&DsaKeyParameters::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters::*)(bool, Org::BouncyCastle::Crypto::Parameters::DsaParameters*)>(&Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DsaKeyParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Parameters::DsaParameters*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Parameters::DsaParameters*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DsaKeyParameters::*)(bool, Org::BouncyCastle::Crypto::Parameters::DsaParameters*)>(&DsaKeyParameters::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters::*)(bool, Org::BouncyCastle::Crypto::Parameters::DsaParameters*)>(&Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DsaKeyParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Parameters::DsaParameters*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Parameters::DsaParameters*>()});
   }
 };
-// Writing MetadataGetter for method: DsaKeyParameters::get_Parameters
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters::get_Parameters
 // Il2CppName: get_Parameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::DsaParameters* (DsaKeyParameters::*)()>(&DsaKeyParameters::get_Parameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::DsaParameters* (Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters::get_Parameters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DsaKeyParameters*), "get_Parameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters*), "get_Parameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DsaKeyParameters::Equals
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DsaKeyParameters::*)(Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters*)>(&DsaKeyParameters::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters::*)(Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters*)>(&Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DsaKeyParameters*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters*>()});
   }
 };
-// Writing MetadataGetter for method: DsaKeyParameters::Equals
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DsaKeyParameters::*)(::Il2CppObject*)>(&DsaKeyParameters::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters::*)(::Il2CppObject*)>(&Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DsaKeyParameters*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: DsaKeyParameters::GetHashCode
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DsaKeyParameters::*)()>(&DsaKeyParameters::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DsaKeyParameters*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

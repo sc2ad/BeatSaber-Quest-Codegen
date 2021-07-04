@@ -137,49 +137,49 @@ namespace UnityEngine {
   static_assert(sizeof(GUIScrollGroup) == 0xC0);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIScrollGroup*, "UnityEngine", "GUIScrollGroup");
-// Writing MetadataGetter for method: GUIScrollGroup::New_ctor
+// Writing MetadataGetter for method: UnityEngine::GUIScrollGroup::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GUIScrollGroup::*)()>(&GUIScrollGroup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIScrollGroup::*)()>(&UnityEngine::GUIScrollGroup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIScrollGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIScrollGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GUIScrollGroup::*)()>(&GUIScrollGroup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIScrollGroup::*)()>(&UnityEngine::GUIScrollGroup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIScrollGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIScrollGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GUIScrollGroup::CalcWidth
+// Writing MetadataGetter for method: UnityEngine::GUIScrollGroup::CalcWidth
 // Il2CppName: CalcWidth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GUIScrollGroup::*)()>(&GUIScrollGroup::CalcWidth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIScrollGroup::*)()>(&UnityEngine::GUIScrollGroup::CalcWidth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIScrollGroup*), "CalcWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIScrollGroup*), "CalcWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GUIScrollGroup::SetHorizontal
+// Writing MetadataGetter for method: UnityEngine::GUIScrollGroup::SetHorizontal
 // Il2CppName: SetHorizontal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GUIScrollGroup::*)(float, float)>(&GUIScrollGroup::SetHorizontal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIScrollGroup::*)(float, float)>(&UnityEngine::GUIScrollGroup::SetHorizontal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIScrollGroup*), "SetHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIScrollGroup*), "SetHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: GUIScrollGroup::CalcHeight
+// Writing MetadataGetter for method: UnityEngine::GUIScrollGroup::CalcHeight
 // Il2CppName: CalcHeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GUIScrollGroup::*)()>(&GUIScrollGroup::CalcHeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIScrollGroup::*)()>(&UnityEngine::GUIScrollGroup::CalcHeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIScrollGroup*), "CalcHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIScrollGroup*), "CalcHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GUIScrollGroup::SetVertical
+// Writing MetadataGetter for method: UnityEngine::GUIScrollGroup::SetVertical
 // Il2CppName: SetVertical
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GUIScrollGroup::*)(float, float)>(&GUIScrollGroup::SetVertical)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIScrollGroup::*)(float, float)>(&UnityEngine::GUIScrollGroup::SetVertical)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIScrollGroup*), "SetVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIScrollGroup*), "SetVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };

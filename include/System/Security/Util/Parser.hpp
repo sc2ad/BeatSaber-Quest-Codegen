@@ -78,63 +78,63 @@ namespace System::Security::Util {
   static_assert(sizeof(Parser) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Parser*, "System.Security.Util", "Parser");
-// Writing MetadataGetter for method: Parser::GetTopElement
+// Writing MetadataGetter for method: System::Security::Util::Parser::GetTopElement
 // Il2CppName: GetTopElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::SecurityElement* (Parser::*)()>(&Parser::GetTopElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::SecurityElement* (System::Security::Util::Parser::*)()>(&System::Security::Util::Parser::GetTopElement)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Parser*), "GetTopElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Parser*), "GetTopElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Parser::GetRequiredSizes
+// Writing MetadataGetter for method: System::Security::Util::Parser::GetRequiredSizes
 // Il2CppName: GetRequiredSizes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Parser::*)(System::Security::Util::TokenizerStream*, int&)>(&Parser::GetRequiredSizes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Util::Parser::*)(System::Security::Util::TokenizerStream*, int&)>(&System::Security::Util::Parser::GetRequiredSizes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Parser*), "GetRequiredSizes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Util::TokenizerStream*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Parser*), "GetRequiredSizes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Util::TokenizerStream*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: Parser::DetermineFormat
+// Writing MetadataGetter for method: System::Security::Util::Parser::DetermineFormat
 // Il2CppName: DetermineFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Parser::*)(System::Security::Util::TokenizerStream*)>(&Parser::DetermineFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Util::Parser::*)(System::Security::Util::TokenizerStream*)>(&System::Security::Util::Parser::DetermineFormat)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Parser*), "DetermineFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Util::TokenizerStream*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Parser*), "DetermineFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Util::TokenizerStream*>()});
   }
 };
-// Writing MetadataGetter for method: Parser::ParseContents
+// Writing MetadataGetter for method: System::Security::Util::Parser::ParseContents
 // Il2CppName: ParseContents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Parser::*)()>(&Parser::ParseContents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Util::Parser::*)()>(&System::Security::Util::Parser::ParseContents)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Parser*), "ParseContents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Parser*), "ParseContents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Parser::New_ctor
+// Writing MetadataGetter for method: System::Security::Util::Parser::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Parser::*)(System::Security::Util::Tokenizer*)>(&Parser::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Util::Parser::*)(System::Security::Util::Tokenizer*)>(&System::Security::Util::Parser::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Parser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Util::Tokenizer*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Parser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Util::Tokenizer*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Parser::*)(System::Security::Util::Tokenizer*)>(&Parser::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Util::Parser::*)(System::Security::Util::Tokenizer*)>(&System::Security::Util::Parser::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Parser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Util::Tokenizer*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Parser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Util::Tokenizer*>()});
   }
 };
-// Writing MetadataGetter for method: Parser::New_ctor
+// Writing MetadataGetter for method: System::Security::Util::Parser::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Parser::*)(::Il2CppString*)>(&Parser::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Util::Parser::*)(::Il2CppString*)>(&System::Security::Util::Parser::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Parser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Parser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Parser::*)(::Il2CppString*)>(&Parser::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Util::Parser::*)(::Il2CppString*)>(&System::Security::Util::Parser::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Parser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Parser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };

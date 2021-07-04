@@ -83,73 +83,73 @@ namespace OVRSimpleJSON {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode::LinqEnumerator*, "OVRSimpleJSON", "JSONNode/LinqEnumerator");
-// Writing MetadataGetter for method: JSONNode::LinqEnumerator::New_ctor
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONNode::LinqEnumerator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JSONNode::LinqEnumerator::*)(OVRSimpleJSON::JSONNode*)>(&JSONNode::LinqEnumerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONNode::LinqEnumerator::*)(OVRSimpleJSON::JSONNode*)>(&OVRSimpleJSON::JSONNode::LinqEnumerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONNode::LinqEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONNode*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONNode::LinqEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONNode*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JSONNode::LinqEnumerator::*)(OVRSimpleJSON::JSONNode*)>(&JSONNode::LinqEnumerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONNode::LinqEnumerator::*)(OVRSimpleJSON::JSONNode*)>(&OVRSimpleJSON::JSONNode::LinqEnumerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONNode::LinqEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONNode*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONNode::LinqEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONNode*>()});
   }
 };
-// Writing MetadataGetter for method: JSONNode::LinqEnumerator::get_Current
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONNode::LinqEnumerator::get_Current
 // Il2CppName: get_Current
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, OVRSimpleJSON::JSONNode*> (JSONNode::LinqEnumerator::*)()>(&JSONNode::LinqEnumerator::get_Current)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, OVRSimpleJSON::JSONNode*> (OVRSimpleJSON::JSONNode::LinqEnumerator::*)()>(&OVRSimpleJSON::JSONNode::LinqEnumerator::get_Current)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONNode::LinqEnumerator*), "get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONNode::LinqEnumerator*), "get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: JSONNode::LinqEnumerator::System_Collections_IEnumerator_get_Current
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONNode::LinqEnumerator::System_Collections_IEnumerator_get_Current
 // Il2CppName: System.Collections.IEnumerator.get_Current
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (JSONNode::LinqEnumerator::*)()>(&JSONNode::LinqEnumerator::System_Collections_IEnumerator_get_Current)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (OVRSimpleJSON::JSONNode::LinqEnumerator::*)()>(&OVRSimpleJSON::JSONNode::LinqEnumerator::System_Collections_IEnumerator_get_Current)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONNode::LinqEnumerator*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONNode::LinqEnumerator*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: JSONNode::LinqEnumerator::MoveNext
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONNode::LinqEnumerator::MoveNext
 // Il2CppName: MoveNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (JSONNode::LinqEnumerator::*)()>(&JSONNode::LinqEnumerator::MoveNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRSimpleJSON::JSONNode::LinqEnumerator::*)()>(&OVRSimpleJSON::JSONNode::LinqEnumerator::MoveNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONNode::LinqEnumerator*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONNode::LinqEnumerator*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: JSONNode::LinqEnumerator::Dispose
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONNode::LinqEnumerator::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JSONNode::LinqEnumerator::*)()>(&JSONNode::LinqEnumerator::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONNode::LinqEnumerator::*)()>(&OVRSimpleJSON::JSONNode::LinqEnumerator::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONNode::LinqEnumerator*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONNode::LinqEnumerator*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: JSONNode::LinqEnumerator::GetEnumerator
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONNode::LinqEnumerator::GetEnumerator
 // Il2CppName: GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>>* (JSONNode::LinqEnumerator::*)()>(&JSONNode::LinqEnumerator::GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>>* (OVRSimpleJSON::JSONNode::LinqEnumerator::*)()>(&OVRSimpleJSON::JSONNode::LinqEnumerator::GetEnumerator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONNode::LinqEnumerator*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONNode::LinqEnumerator*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: JSONNode::LinqEnumerator::Reset
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONNode::LinqEnumerator::Reset
 // Il2CppName: Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JSONNode::LinqEnumerator::*)()>(&JSONNode::LinqEnumerator::Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONNode::LinqEnumerator::*)()>(&OVRSimpleJSON::JSONNode::LinqEnumerator::Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONNode::LinqEnumerator*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONNode::LinqEnumerator*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: JSONNode::LinqEnumerator::System_Collections_IEnumerable_GetEnumerator
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONNode::LinqEnumerator::System_Collections_IEnumerable_GetEnumerator
 // Il2CppName: System.Collections.IEnumerable.GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (JSONNode::LinqEnumerator::*)()>(&JSONNode::LinqEnumerator::System_Collections_IEnumerable_GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (OVRSimpleJSON::JSONNode::LinqEnumerator::*)()>(&OVRSimpleJSON::JSONNode::LinqEnumerator::System_Collections_IEnumerable_GetEnumerator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONNode::LinqEnumerator*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONNode::LinqEnumerator*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

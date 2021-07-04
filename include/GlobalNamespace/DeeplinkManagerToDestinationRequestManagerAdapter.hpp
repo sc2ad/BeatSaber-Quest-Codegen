@@ -108,73 +108,73 @@ namespace GlobalNamespace {
   static_assert(sizeof(DeeplinkManagerToDestinationRequestManagerAdapter) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter*, "", "DeeplinkManagerToDestinationRequestManagerAdapter");
-// Writing MetadataGetter for method: DeeplinkManagerToDestinationRequestManagerAdapter::add_didSendMenuDestinationRequestEvent
+// Writing MetadataGetter for method: GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::add_didSendMenuDestinationRequestEvent
 // Il2CppName: add_didSendMenuDestinationRequestEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeeplinkManagerToDestinationRequestManagerAdapter::*)(System::Action_1<GlobalNamespace::MenuDestination*>*)>(&DeeplinkManagerToDestinationRequestManagerAdapter::add_didSendMenuDestinationRequestEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)(System::Action_1<GlobalNamespace::MenuDestination*>*)>(&GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::add_didSendMenuDestinationRequestEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeeplinkManagerToDestinationRequestManagerAdapter*), "add_didSendMenuDestinationRequestEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MenuDestination*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter*), "add_didSendMenuDestinationRequestEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MenuDestination*>*>()});
   }
 };
-// Writing MetadataGetter for method: DeeplinkManagerToDestinationRequestManagerAdapter::remove_didSendMenuDestinationRequestEvent
+// Writing MetadataGetter for method: GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::remove_didSendMenuDestinationRequestEvent
 // Il2CppName: remove_didSendMenuDestinationRequestEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeeplinkManagerToDestinationRequestManagerAdapter::*)(System::Action_1<GlobalNamespace::MenuDestination*>*)>(&DeeplinkManagerToDestinationRequestManagerAdapter::remove_didSendMenuDestinationRequestEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)(System::Action_1<GlobalNamespace::MenuDestination*>*)>(&GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::remove_didSendMenuDestinationRequestEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeeplinkManagerToDestinationRequestManagerAdapter*), "remove_didSendMenuDestinationRequestEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MenuDestination*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter*), "remove_didSendMenuDestinationRequestEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MenuDestination*>*>()});
   }
 };
-// Writing MetadataGetter for method: DeeplinkManagerToDestinationRequestManagerAdapter::get_currentMenuDestinationRequest
+// Writing MetadataGetter for method: GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::get_currentMenuDestinationRequest
 // Il2CppName: get_currentMenuDestinationRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MenuDestination* (DeeplinkManagerToDestinationRequestManagerAdapter::*)()>(&DeeplinkManagerToDestinationRequestManagerAdapter::get_currentMenuDestinationRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MenuDestination* (GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)()>(&GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::get_currentMenuDestinationRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeeplinkManagerToDestinationRequestManagerAdapter*), "get_currentMenuDestinationRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter*), "get_currentMenuDestinationRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DeeplinkManagerToDestinationRequestManagerAdapter::set_currentMenuDestinationRequest
+// Writing MetadataGetter for method: GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::set_currentMenuDestinationRequest
 // Il2CppName: set_currentMenuDestinationRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeeplinkManagerToDestinationRequestManagerAdapter::*)(GlobalNamespace::MenuDestination*)>(&DeeplinkManagerToDestinationRequestManagerAdapter::set_currentMenuDestinationRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)(GlobalNamespace::MenuDestination*)>(&GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::set_currentMenuDestinationRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeeplinkManagerToDestinationRequestManagerAdapter*), "set_currentMenuDestinationRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MenuDestination*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter*), "set_currentMenuDestinationRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MenuDestination*>()});
   }
 };
-// Writing MetadataGetter for method: DeeplinkManagerToDestinationRequestManagerAdapter::Init
+// Writing MetadataGetter for method: GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeeplinkManagerToDestinationRequestManagerAdapter::*)(GlobalNamespace::IDeeplinkManager*)>(&DeeplinkManagerToDestinationRequestManagerAdapter::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)(GlobalNamespace::IDeeplinkManager*)>(&GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeeplinkManagerToDestinationRequestManagerAdapter*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDeeplinkManager*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDeeplinkManager*>()});
   }
 };
-// Writing MetadataGetter for method: DeeplinkManagerToDestinationRequestManagerAdapter::Clear
+// Writing MetadataGetter for method: GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::Clear
 // Il2CppName: Clear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeeplinkManagerToDestinationRequestManagerAdapter::*)()>(&DeeplinkManagerToDestinationRequestManagerAdapter::Clear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)()>(&GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::Clear)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeeplinkManagerToDestinationRequestManagerAdapter*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DeeplinkManagerToDestinationRequestManagerAdapter::HandleDeeplinkManagerDidReceiveDeeplink
+// Writing MetadataGetter for method: GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::HandleDeeplinkManagerDidReceiveDeeplink
 // Il2CppName: HandleDeeplinkManagerDidReceiveDeeplink
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeeplinkManagerToDestinationRequestManagerAdapter::*)(GlobalNamespace::Deeplink*)>(&DeeplinkManagerToDestinationRequestManagerAdapter::HandleDeeplinkManagerDidReceiveDeeplink)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)(GlobalNamespace::Deeplink*)>(&GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::HandleDeeplinkManagerDidReceiveDeeplink)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeeplinkManagerToDestinationRequestManagerAdapter*), "HandleDeeplinkManagerDidReceiveDeeplink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Deeplink*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter*), "HandleDeeplinkManagerDidReceiveDeeplink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Deeplink*>()});
   }
 };
-// Writing MetadataGetter for method: DeeplinkManagerToDestinationRequestManagerAdapter::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeeplinkManagerToDestinationRequestManagerAdapter::*)()>(&DeeplinkManagerToDestinationRequestManagerAdapter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)()>(&GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeeplinkManagerToDestinationRequestManagerAdapter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeeplinkManagerToDestinationRequestManagerAdapter::*)()>(&DeeplinkManagerToDestinationRequestManagerAdapter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::*)()>(&GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeeplinkManagerToDestinationRequestManagerAdapter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdapter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

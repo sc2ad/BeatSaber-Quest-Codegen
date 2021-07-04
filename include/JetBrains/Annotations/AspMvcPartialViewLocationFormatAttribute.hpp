@@ -51,33 +51,33 @@ namespace JetBrains::Annotations {
   static_assert(sizeof(AspMvcPartialViewLocationFormatAttribute) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute*, "JetBrains.Annotations", "AspMvcPartialViewLocationFormatAttribute");
-// Writing MetadataGetter for method: AspMvcPartialViewLocationFormatAttribute::New_ctor
+// Writing MetadataGetter for method: JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspMvcPartialViewLocationFormatAttribute::*)(::Il2CppString*)>(&AspMvcPartialViewLocationFormatAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AspMvcPartialViewLocationFormatAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspMvcPartialViewLocationFormatAttribute::*)(::Il2CppString*)>(&AspMvcPartialViewLocationFormatAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AspMvcPartialViewLocationFormatAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: AspMvcPartialViewLocationFormatAttribute::get_Format
+// Writing MetadataGetter for method: JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute::get_Format
 // Il2CppName: get_Format
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AspMvcPartialViewLocationFormatAttribute::*)()>(&AspMvcPartialViewLocationFormatAttribute::get_Format)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute::*)()>(&JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute::get_Format)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AspMvcPartialViewLocationFormatAttribute*), "get_Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute*), "get_Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AspMvcPartialViewLocationFormatAttribute::set_Format
+// Writing MetadataGetter for method: JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute::set_Format
 // Il2CppName: set_Format
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspMvcPartialViewLocationFormatAttribute::*)(::Il2CppString*)>(&AspMvcPartialViewLocationFormatAttribute::set_Format)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute::set_Format)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AspMvcPartialViewLocationFormatAttribute*), "set_Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute*), "set_Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };

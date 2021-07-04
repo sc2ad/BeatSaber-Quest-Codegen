@@ -96,81 +96,81 @@ namespace UnityEngine::Audio {
   static_assert(sizeof(AudioPlayableOutput) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioPlayableOutput, "UnityEngine.Audio", "AudioPlayableOutput");
-// Writing MetadataGetter for method: AudioPlayableOutput::Create
+// Writing MetadataGetter for method: UnityEngine::Audio::AudioPlayableOutput::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Audio::AudioPlayableOutput (*)(UnityEngine::Playables::PlayableGraph, ::Il2CppString*, UnityEngine::AudioSource*)>(&AudioPlayableOutput::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Audio::AudioPlayableOutput (*)(UnityEngine::Playables::PlayableGraph, ::Il2CppString*, UnityEngine::AudioSource*)>(&UnityEngine::Audio::AudioPlayableOutput::Create)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioPlayableOutput), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioSource*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioPlayableOutput), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioSource*>()});
   }
 };
-// Writing MetadataGetter for method: AudioPlayableOutput::AudioPlayableOutput
+// Writing MetadataGetter for method: UnityEngine::Audio::AudioPlayableOutput::AudioPlayableOutput
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioPlayableOutput::*)(UnityEngine::Playables::PlayableOutputHandle)>(&AudioPlayableOutput::AudioPlayableOutput<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Audio::AudioPlayableOutput::*)(UnityEngine::Playables::PlayableOutputHandle)>(&UnityEngine::Audio::AudioPlayableOutput::AudioPlayableOutput<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioPlayableOutput), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioPlayableOutput), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioPlayableOutput::*)(UnityEngine::Playables::PlayableOutputHandle)>(&AudioPlayableOutput::AudioPlayableOutput<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Audio::AudioPlayableOutput::*)(UnityEngine::Playables::PlayableOutputHandle)>(&UnityEngine::Audio::AudioPlayableOutput::AudioPlayableOutput<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioPlayableOutput), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioPlayableOutput), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle>()});
   }
 };
-// Writing MetadataGetter for method: AudioPlayableOutput::get_Null
+// Writing MetadataGetter for method: UnityEngine::Audio::AudioPlayableOutput::get_Null
 // Il2CppName: get_Null
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Audio::AudioPlayableOutput (*)()>(&AudioPlayableOutput::get_Null)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Audio::AudioPlayableOutput (*)()>(&UnityEngine::Audio::AudioPlayableOutput::get_Null)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioPlayableOutput), "get_Null", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioPlayableOutput), "get_Null", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AudioPlayableOutput::GetHandle
+// Writing MetadataGetter for method: UnityEngine::Audio::AudioPlayableOutput::GetHandle
 // Il2CppName: GetHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableOutputHandle (AudioPlayableOutput::*)()>(&AudioPlayableOutput::GetHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableOutputHandle (UnityEngine::Audio::AudioPlayableOutput::*)()>(&UnityEngine::Audio::AudioPlayableOutput::GetHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioPlayableOutput), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioPlayableOutput), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AudioPlayableOutput::AudioPlayableOutput
+// Writing MetadataGetter for method: UnityEngine::Audio::AudioPlayableOutput::AudioPlayableOutput
 // Il2CppName: op_Explicit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Audio::AudioPlayableOutput (*)(UnityEngine::Playables::PlayableOutput&)>(&AudioPlayableOutput::AudioPlayableOutput)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Audio::AudioPlayableOutput (*)(UnityEngine::Playables::PlayableOutput&)>(&UnityEngine::Audio::AudioPlayableOutput::AudioPlayableOutput)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioPlayableOutput), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutput&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioPlayableOutput), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutput&>()});
   }
 };
-// Writing MetadataGetter for method: AudioPlayableOutput::SetTarget
+// Writing MetadataGetter for method: UnityEngine::Audio::AudioPlayableOutput::SetTarget
 // Il2CppName: SetTarget
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioPlayableOutput::*)(UnityEngine::AudioSource*)>(&AudioPlayableOutput::SetTarget)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Audio::AudioPlayableOutput::*)(UnityEngine::AudioSource*)>(&UnityEngine::Audio::AudioPlayableOutput::SetTarget)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioPlayableOutput), "SetTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioSource*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioPlayableOutput), "SetTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioSource*>()});
   }
 };
-// Writing MetadataGetter for method: AudioPlayableOutput::SetEvaluateOnSeek
+// Writing MetadataGetter for method: UnityEngine::Audio::AudioPlayableOutput::SetEvaluateOnSeek
 // Il2CppName: SetEvaluateOnSeek
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioPlayableOutput::*)(bool)>(&AudioPlayableOutput::SetEvaluateOnSeek)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Audio::AudioPlayableOutput::*)(bool)>(&UnityEngine::Audio::AudioPlayableOutput::SetEvaluateOnSeek)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioPlayableOutput), "SetEvaluateOnSeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioPlayableOutput), "SetEvaluateOnSeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AudioPlayableOutput::InternalSetTarget
+// Writing MetadataGetter for method: UnityEngine::Audio::AudioPlayableOutput::InternalSetTarget
 // Il2CppName: InternalSetTarget
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableOutputHandle&, UnityEngine::AudioSource*)>(&AudioPlayableOutput::InternalSetTarget)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableOutputHandle&, UnityEngine::AudioSource*)>(&UnityEngine::Audio::AudioPlayableOutput::InternalSetTarget)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioPlayableOutput), "InternalSetTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioSource*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioPlayableOutput), "InternalSetTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioSource*>()});
   }
 };
-// Writing MetadataGetter for method: AudioPlayableOutput::InternalSetEvaluateOnSeek
+// Writing MetadataGetter for method: UnityEngine::Audio::AudioPlayableOutput::InternalSetEvaluateOnSeek
 // Il2CppName: InternalSetEvaluateOnSeek
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableOutputHandle&, bool)>(&AudioPlayableOutput::InternalSetEvaluateOnSeek)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableOutputHandle&, bool)>(&UnityEngine::Audio::AudioPlayableOutput::InternalSetEvaluateOnSeek)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioPlayableOutput), "InternalSetEvaluateOnSeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioPlayableOutput), "InternalSetEvaluateOnSeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };

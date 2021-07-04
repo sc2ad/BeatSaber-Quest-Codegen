@@ -47,33 +47,33 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithPartyUpdateNotification
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithPartyUpdateNotification*, "Oculus.Platform", "MessageWithPartyUpdateNotification");
-// Writing MetadataGetter for method: MessageWithPartyUpdateNotification::GetDataFromMessage
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithPartyUpdateNotification::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::PartyUpdateNotification* (MessageWithPartyUpdateNotification::*)(System::IntPtr)>(&MessageWithPartyUpdateNotification::GetDataFromMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::PartyUpdateNotification* (Oculus::Platform::MessageWithPartyUpdateNotification::*)(System::IntPtr)>(&Oculus::Platform::MessageWithPartyUpdateNotification::GetDataFromMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithPartyUpdateNotification*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithPartyUpdateNotification*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithPartyUpdateNotification::New_ctor
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithPartyUpdateNotification::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithPartyUpdateNotification::*)(System::IntPtr)>(&MessageWithPartyUpdateNotification::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithPartyUpdateNotification::*)(System::IntPtr)>(&Oculus::Platform::MessageWithPartyUpdateNotification::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithPartyUpdateNotification*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithPartyUpdateNotification*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithPartyUpdateNotification::*)(System::IntPtr)>(&MessageWithPartyUpdateNotification::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithPartyUpdateNotification::*)(System::IntPtr)>(&Oculus::Platform::MessageWithPartyUpdateNotification::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithPartyUpdateNotification*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithPartyUpdateNotification*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithPartyUpdateNotification::GetPartyUpdateNotification
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithPartyUpdateNotification::GetPartyUpdateNotification
 // Il2CppName: GetPartyUpdateNotification
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::PartyUpdateNotification* (MessageWithPartyUpdateNotification::*)()>(&MessageWithPartyUpdateNotification::GetPartyUpdateNotification)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::PartyUpdateNotification* (Oculus::Platform::MessageWithPartyUpdateNotification::*)()>(&Oculus::Platform::MessageWithPartyUpdateNotification::GetPartyUpdateNotification)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithPartyUpdateNotification*), "GetPartyUpdateNotification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithPartyUpdateNotification*), "GetPartyUpdateNotification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

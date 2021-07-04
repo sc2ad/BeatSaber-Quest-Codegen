@@ -202,97 +202,97 @@ namespace Mono::Globalization::Unicode {
   static_assert(sizeof(SortKeyBuffer) == 0x83);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SortKeyBuffer*, "Mono.Globalization.Unicode", "SortKeyBuffer");
-// Writing MetadataGetter for method: SortKeyBuffer::New_ctor
+// Writing MetadataGetter for method: Mono::Globalization::Unicode::SortKeyBuffer::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SortKeyBuffer::*)(int)>(&SortKeyBuffer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SortKeyBuffer::*)(int)>(&Mono::Globalization::Unicode::SortKeyBuffer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SortKeyBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SortKeyBuffer::*)(int)>(&SortKeyBuffer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SortKeyBuffer::*)(int)>(&Mono::Globalization::Unicode::SortKeyBuffer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SortKeyBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SortKeyBuffer::Reset
+// Writing MetadataGetter for method: Mono::Globalization::Unicode::SortKeyBuffer::Reset
 // Il2CppName: Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SortKeyBuffer::*)()>(&SortKeyBuffer::Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SortKeyBuffer::*)()>(&Mono::Globalization::Unicode::SortKeyBuffer::Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SortKeyBuffer*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SortKeyBuffer::Initialize
+// Writing MetadataGetter for method: Mono::Globalization::Unicode::SortKeyBuffer::Initialize
 // Il2CppName: Initialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SortKeyBuffer::*)(System::Globalization::CompareOptions, int, ::Il2CppString*, bool)>(&SortKeyBuffer::Initialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SortKeyBuffer::*)(System::Globalization::CompareOptions, int, ::Il2CppString*, bool)>(&Mono::Globalization::Unicode::SortKeyBuffer::Initialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SortKeyBuffer*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: SortKeyBuffer::AppendCJKExtension
+// Writing MetadataGetter for method: Mono::Globalization::Unicode::SortKeyBuffer::AppendCJKExtension
 // Il2CppName: AppendCJKExtension
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SortKeyBuffer::*)(uint8_t, uint8_t)>(&SortKeyBuffer::AppendCJKExtension)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SortKeyBuffer::*)(uint8_t, uint8_t)>(&Mono::Globalization::Unicode::SortKeyBuffer::AppendCJKExtension)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SortKeyBuffer*), "AppendCJKExtension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), "AppendCJKExtension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
   }
 };
-// Writing MetadataGetter for method: SortKeyBuffer::AppendKana
+// Writing MetadataGetter for method: Mono::Globalization::Unicode::SortKeyBuffer::AppendKana
 // Il2CppName: AppendKana
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SortKeyBuffer::*)(uint8_t, uint8_t, uint8_t, uint8_t, bool, uint8_t, bool, bool)>(&SortKeyBuffer::AppendKana)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SortKeyBuffer::*)(uint8_t, uint8_t, uint8_t, uint8_t, bool, uint8_t, bool, bool)>(&Mono::Globalization::Unicode::SortKeyBuffer::AppendKana)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SortKeyBuffer*), "AppendKana", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), "AppendKana", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: SortKeyBuffer::AppendNormal
+// Writing MetadataGetter for method: Mono::Globalization::Unicode::SortKeyBuffer::AppendNormal
 // Il2CppName: AppendNormal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SortKeyBuffer::*)(uint8_t, uint8_t, uint8_t, uint8_t)>(&SortKeyBuffer::AppendNormal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SortKeyBuffer::*)(uint8_t, uint8_t, uint8_t, uint8_t)>(&Mono::Globalization::Unicode::SortKeyBuffer::AppendNormal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SortKeyBuffer*), "AppendNormal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), "AppendNormal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
   }
 };
-// Writing MetadataGetter for method: SortKeyBuffer::AppendLevel5
+// Writing MetadataGetter for method: Mono::Globalization::Unicode::SortKeyBuffer::AppendLevel5
 // Il2CppName: AppendLevel5
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SortKeyBuffer::*)(uint8_t, uint8_t)>(&SortKeyBuffer::AppendLevel5)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SortKeyBuffer::*)(uint8_t, uint8_t)>(&Mono::Globalization::Unicode::SortKeyBuffer::AppendLevel5)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SortKeyBuffer*), "AppendLevel5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), "AppendLevel5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
   }
 };
-// Writing MetadataGetter for method: SortKeyBuffer::AppendBufferPrimitive
+// Writing MetadataGetter for method: Mono::Globalization::Unicode::SortKeyBuffer::AppendBufferPrimitive
 // Il2CppName: AppendBufferPrimitive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SortKeyBuffer::*)(uint8_t, ::Array<uint8_t>*&, int&)>(&SortKeyBuffer::AppendBufferPrimitive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SortKeyBuffer::*)(uint8_t, ::Array<uint8_t>*&, int&)>(&Mono::Globalization::Unicode::SortKeyBuffer::AppendBufferPrimitive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SortKeyBuffer*), "AppendBufferPrimitive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), "AppendBufferPrimitive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: SortKeyBuffer::GetResultAndReset
+// Writing MetadataGetter for method: Mono::Globalization::Unicode::SortKeyBuffer::GetResultAndReset
 // Il2CppName: GetResultAndReset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::SortKey* (SortKeyBuffer::*)()>(&SortKeyBuffer::GetResultAndReset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::SortKey* (Mono::Globalization::Unicode::SortKeyBuffer::*)()>(&Mono::Globalization::Unicode::SortKeyBuffer::GetResultAndReset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SortKeyBuffer*), "GetResultAndReset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), "GetResultAndReset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SortKeyBuffer::GetOptimizedLength
+// Writing MetadataGetter for method: Mono::Globalization::Unicode::SortKeyBuffer::GetOptimizedLength
 // Il2CppName: GetOptimizedLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SortKeyBuffer::*)(::Array<uint8_t>*, int, uint8_t)>(&SortKeyBuffer::GetOptimizedLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SortKeyBuffer::*)(::Array<uint8_t>*, int, uint8_t)>(&Mono::Globalization::Unicode::SortKeyBuffer::GetOptimizedLength)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SortKeyBuffer*), "GetOptimizedLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), "GetOptimizedLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
   }
 };
-// Writing MetadataGetter for method: SortKeyBuffer::GetResult
+// Writing MetadataGetter for method: Mono::Globalization::Unicode::SortKeyBuffer::GetResult
 // Il2CppName: GetResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::SortKey* (SortKeyBuffer::*)()>(&SortKeyBuffer::GetResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::SortKey* (Mono::Globalization::Unicode::SortKeyBuffer::*)()>(&Mono::Globalization::Unicode::SortKeyBuffer::GetResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SortKeyBuffer*), "GetResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), "GetResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

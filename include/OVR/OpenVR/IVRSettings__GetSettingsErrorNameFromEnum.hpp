@@ -57,41 +57,41 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSettings::_GetSettingsErrorNameFromEnum*, "OVR.OpenVR", "IVRSettings/_GetSettingsErrorNameFromEnum");
-// Writing MetadataGetter for method: IVRSettings::_GetSettingsErrorNameFromEnum::New_ctor
+// Writing MetadataGetter for method: OVR::OpenVR::IVRSettings::_GetSettingsErrorNameFromEnum::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSettings::_GetSettingsErrorNameFromEnum::*)(::Il2CppObject*, System::IntPtr)>(&IVRSettings::_GetSettingsErrorNameFromEnum::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRSettings::_GetSettingsErrorNameFromEnum::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVRSettings::_GetSettingsErrorNameFromEnum::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSettings::_GetSettingsErrorNameFromEnum*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSettings::_GetSettingsErrorNameFromEnum*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSettings::_GetSettingsErrorNameFromEnum::*)(::Il2CppObject*, System::IntPtr)>(&IVRSettings::_GetSettingsErrorNameFromEnum::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRSettings::_GetSettingsErrorNameFromEnum::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVRSettings::_GetSettingsErrorNameFromEnum::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSettings::_GetSettingsErrorNameFromEnum*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSettings::_GetSettingsErrorNameFromEnum*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: IVRSettings::_GetSettingsErrorNameFromEnum::Invoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRSettings::_GetSettingsErrorNameFromEnum::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (IVRSettings::_GetSettingsErrorNameFromEnum::*)(OVR::OpenVR::EVRSettingsError)>(&IVRSettings::_GetSettingsErrorNameFromEnum::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (OVR::OpenVR::IVRSettings::_GetSettingsErrorNameFromEnum::*)(OVR::OpenVR::EVRSettingsError)>(&OVR::OpenVR::IVRSettings::_GetSettingsErrorNameFromEnum::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSettings::_GetSettingsErrorNameFromEnum*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSettingsError>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSettings::_GetSettingsErrorNameFromEnum*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSettingsError>()});
   }
 };
-// Writing MetadataGetter for method: IVRSettings::_GetSettingsErrorNameFromEnum::BeginInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRSettings::_GetSettingsErrorNameFromEnum::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRSettings::_GetSettingsErrorNameFromEnum::*)(OVR::OpenVR::EVRSettingsError, System::AsyncCallback*, ::Il2CppObject*)>(&IVRSettings::_GetSettingsErrorNameFromEnum::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRSettings::_GetSettingsErrorNameFromEnum::*)(OVR::OpenVR::EVRSettingsError, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRSettings::_GetSettingsErrorNameFromEnum::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSettings::_GetSettingsErrorNameFromEnum*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSettingsError>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSettings::_GetSettingsErrorNameFromEnum*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSettingsError>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IVRSettings::_GetSettingsErrorNameFromEnum::EndInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRSettings::_GetSettingsErrorNameFromEnum::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (IVRSettings::_GetSettingsErrorNameFromEnum::*)(System::IAsyncResult*)>(&IVRSettings::_GetSettingsErrorNameFromEnum::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (OVR::OpenVR::IVRSettings::_GetSettingsErrorNameFromEnum::*)(System::IAsyncResult*)>(&OVR::OpenVR::IVRSettings::_GetSettingsErrorNameFromEnum::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSettings::_GetSettingsErrorNameFromEnum*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSettings::_GetSettingsErrorNameFromEnum*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

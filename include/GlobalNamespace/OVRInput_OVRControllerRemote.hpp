@@ -61,57 +61,57 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerRemote*, "", "OVRInput/OVRControllerRemote");
-// Writing MetadataGetter for method: OVRInput::OVRControllerRemote::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerRemote::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerRemote::*)()>(&OVRInput::OVRControllerRemote::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRInput::OVRControllerRemote::*)()>(&GlobalNamespace::OVRInput::OVRControllerRemote::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerRemote*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerRemote*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerRemote::*)()>(&OVRInput::OVRControllerRemote::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRInput::OVRControllerRemote::*)()>(&GlobalNamespace::OVRInput::OVRControllerRemote::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerRemote*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerRemote*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRInput::OVRControllerRemote::ConfigureButtonMap
+// Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerRemote::ConfigureButtonMap
 // Il2CppName: ConfigureButtonMap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerRemote::*)()>(&OVRInput::OVRControllerRemote::ConfigureButtonMap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRInput::OVRControllerRemote::*)()>(&GlobalNamespace::OVRInput::OVRControllerRemote::ConfigureButtonMap)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerRemote*), "ConfigureButtonMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerRemote*), "ConfigureButtonMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRInput::OVRControllerRemote::ConfigureTouchMap
+// Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerRemote::ConfigureTouchMap
 // Il2CppName: ConfigureTouchMap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerRemote::*)()>(&OVRInput::OVRControllerRemote::ConfigureTouchMap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRInput::OVRControllerRemote::*)()>(&GlobalNamespace::OVRInput::OVRControllerRemote::ConfigureTouchMap)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerRemote*), "ConfigureTouchMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerRemote*), "ConfigureTouchMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRInput::OVRControllerRemote::ConfigureNearTouchMap
+// Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerRemote::ConfigureNearTouchMap
 // Il2CppName: ConfigureNearTouchMap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerRemote::*)()>(&OVRInput::OVRControllerRemote::ConfigureNearTouchMap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRInput::OVRControllerRemote::*)()>(&GlobalNamespace::OVRInput::OVRControllerRemote::ConfigureNearTouchMap)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerRemote*), "ConfigureNearTouchMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerRemote*), "ConfigureNearTouchMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRInput::OVRControllerRemote::ConfigureAxis1DMap
+// Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerRemote::ConfigureAxis1DMap
 // Il2CppName: ConfigureAxis1DMap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerRemote::*)()>(&OVRInput::OVRControllerRemote::ConfigureAxis1DMap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRInput::OVRControllerRemote::*)()>(&GlobalNamespace::OVRInput::OVRControllerRemote::ConfigureAxis1DMap)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerRemote*), "ConfigureAxis1DMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerRemote*), "ConfigureAxis1DMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRInput::OVRControllerRemote::ConfigureAxis2DMap
+// Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerRemote::ConfigureAxis2DMap
 // Il2CppName: ConfigureAxis2DMap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerRemote::*)()>(&OVRInput::OVRControllerRemote::ConfigureAxis2DMap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRInput::OVRControllerRemote::*)()>(&GlobalNamespace::OVRInput::OVRControllerRemote::ConfigureAxis2DMap)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerRemote*), "ConfigureAxis2DMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerRemote*), "ConfigureAxis2DMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

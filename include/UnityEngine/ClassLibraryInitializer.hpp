@@ -22,11 +22,11 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ClassLibraryInitializer*, "UnityEngine", "ClassLibraryInitializer");
-// Writing MetadataGetter for method: ClassLibraryInitializer::Init
+// Writing MetadataGetter for method: UnityEngine::ClassLibraryInitializer::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ClassLibraryInitializer::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::ClassLibraryInitializer::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ClassLibraryInitializer*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ClassLibraryInitializer*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

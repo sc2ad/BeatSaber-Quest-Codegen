@@ -59,12 +59,12 @@ namespace System::Runtime::CompilerServices {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::JitHelpers*, "System.Runtime.CompilerServices", "JitHelpers");
-// Writing MetadataGetter for method: JitHelpers::UnsafeCast
+// Writing MetadataGetter for method: System::Runtime::CompilerServices::JitHelpers::UnsafeCast
 // Il2CppName: UnsafeCast
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: JitHelpers::UnsafeEnumCast
+// Writing MetadataGetter for method: System::Runtime::CompilerServices::JitHelpers::UnsafeEnumCast
 // Il2CppName: UnsafeEnumCast
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: JitHelpers::UnsafeEnumCastLong
+// Writing MetadataGetter for method: System::Runtime::CompilerServices::JitHelpers::UnsafeEnumCastLong
 // Il2CppName: UnsafeEnumCastLong
 // Cannot write MetadataGetter for generic methods!

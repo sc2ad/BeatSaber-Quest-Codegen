@@ -43,33 +43,33 @@ namespace NUnit::Framework::Constraints {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::NUnitComparer*, "NUnit.Framework.Constraints", "NUnitComparer");
-// Writing MetadataGetter for method: NUnitComparer::get_Default
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitComparer::get_Default
 // Il2CppName: get_Default
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::NUnitComparer* (*)()>(&NUnitComparer::get_Default)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::NUnitComparer* (*)()>(&NUnit::Framework::Constraints::NUnitComparer::get_Default)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnitComparer*), "get_Default", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitComparer*), "get_Default", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NUnitComparer::Compare
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitComparer::Compare
 // Il2CppName: Compare
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NUnitComparer::*)(::Il2CppObject*, ::Il2CppObject*)>(&NUnitComparer::Compare)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NUnit::Framework::Constraints::NUnitComparer::*)(::Il2CppObject*, ::Il2CppObject*)>(&NUnit::Framework::Constraints::NUnitComparer::Compare)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnitComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: NUnitComparer::New_ctor
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitComparer::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnitComparer::*)()>(&NUnitComparer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::NUnitComparer::*)()>(&NUnit::Framework::Constraints::NUnitComparer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnitComparer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitComparer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnitComparer::*)()>(&NUnitComparer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::NUnitComparer::*)()>(&NUnit::Framework::Constraints::NUnitComparer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnitComparer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitComparer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

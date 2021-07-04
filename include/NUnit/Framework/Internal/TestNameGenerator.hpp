@@ -98,55 +98,55 @@ namespace NUnit::Framework::Internal {
   static_assert(sizeof(TestNameGenerator) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestNameGenerator*, "NUnit.Framework.Internal", "TestNameGenerator");
-// Writing MetadataGetter for method: TestNameGenerator::New_ctor
+// Writing MetadataGetter for method: NUnit::Framework::Internal::TestNameGenerator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestNameGenerator::*)(::Il2CppString*)>(&TestNameGenerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestNameGenerator::*)(::Il2CppString*)>(&NUnit::Framework::Internal::TestNameGenerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestNameGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestNameGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestNameGenerator::*)(::Il2CppString*)>(&TestNameGenerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestNameGenerator::*)(::Il2CppString*)>(&NUnit::Framework::Internal::TestNameGenerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestNameGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestNameGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TestNameGenerator::GetDisplayName
+// Writing MetadataGetter for method: NUnit::Framework::Internal::TestNameGenerator::GetDisplayName
 // Il2CppName: GetDisplayName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TestNameGenerator::*)(NUnit::Framework::Internal::TestMethod*, ::Array<::Il2CppObject*>*)>(&TestNameGenerator::GetDisplayName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::TestNameGenerator::*)(NUnit::Framework::Internal::TestMethod*, ::Array<::Il2CppObject*>*)>(&NUnit::Framework::Internal::TestNameGenerator::GetDisplayName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestNameGenerator*), "GetDisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestMethod*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestNameGenerator*), "GetDisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestMethod*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
   }
 };
-// Writing MetadataGetter for method: TestNameGenerator::BuildFragmentList
+// Writing MetadataGetter for method: NUnit::Framework::Internal::TestNameGenerator::BuildFragmentList
 // Il2CppName: BuildFragmentList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<NUnit::Framework::Internal::TestNameGenerator::NameFragment*>* (*)(::Il2CppString*)>(&TestNameGenerator::BuildFragmentList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<NUnit::Framework::Internal::TestNameGenerator::NameFragment*>* (*)(::Il2CppString*)>(&NUnit::Framework::Internal::TestNameGenerator::BuildFragmentList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestNameGenerator*), "BuildFragmentList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestNameGenerator*), "BuildFragmentList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TestNameGenerator::_cctor
+// Writing MetadataGetter for method: NUnit::Framework::Internal::TestNameGenerator::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TestNameGenerator::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NUnit::Framework::Internal::TestNameGenerator::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestNameGenerator*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestNameGenerator*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TestNameGenerator::New_ctor
+// Writing MetadataGetter for method: NUnit::Framework::Internal::TestNameGenerator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestNameGenerator::*)()>(&TestNameGenerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestNameGenerator::*)()>(&NUnit::Framework::Internal::TestNameGenerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestNameGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestNameGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestNameGenerator::*)()>(&TestNameGenerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestNameGenerator::*)()>(&NUnit::Framework::Internal::TestNameGenerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestNameGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestNameGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

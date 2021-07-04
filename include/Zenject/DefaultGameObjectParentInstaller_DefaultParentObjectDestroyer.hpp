@@ -59,25 +59,25 @@ namespace Zenject {
   static_assert(sizeof(DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer*, "Zenject", "DefaultGameObjectParentInstaller/DefaultParentObjectDestroyer");
-// Writing MetadataGetter for method: DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::New_ctor
+// Writing MetadataGetter for method: Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::*)(UnityEngine::GameObject*)>(&DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::*)(UnityEngine::GameObject*)>(&Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::*)(UnityEngine::GameObject*)>(&DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::*)(UnityEngine::GameObject*)>(&Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::Dispose
+// Writing MetadataGetter for method: Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::*)()>(&DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::*)()>(&Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

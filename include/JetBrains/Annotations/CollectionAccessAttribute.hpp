@@ -53,33 +53,33 @@ namespace JetBrains::Annotations {
   static_assert(sizeof(CollectionAccessAttribute) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::CollectionAccessAttribute*, "JetBrains.Annotations", "CollectionAccessAttribute");
-// Writing MetadataGetter for method: CollectionAccessAttribute::New_ctor
+// Writing MetadataGetter for method: JetBrains::Annotations::CollectionAccessAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionAccessAttribute::*)(JetBrains::Annotations::CollectionAccessType)>(&CollectionAccessAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::CollectionAccessAttribute::*)(JetBrains::Annotations::CollectionAccessType)>(&JetBrains::Annotations::CollectionAccessAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CollectionAccessAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<JetBrains::Annotations::CollectionAccessType>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::CollectionAccessAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<JetBrains::Annotations::CollectionAccessType>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionAccessAttribute::*)(JetBrains::Annotations::CollectionAccessType)>(&CollectionAccessAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::CollectionAccessAttribute::*)(JetBrains::Annotations::CollectionAccessType)>(&JetBrains::Annotations::CollectionAccessAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CollectionAccessAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<JetBrains::Annotations::CollectionAccessType>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::CollectionAccessAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<JetBrains::Annotations::CollectionAccessType>()});
   }
 };
-// Writing MetadataGetter for method: CollectionAccessAttribute::get_CollectionAccessType
+// Writing MetadataGetter for method: JetBrains::Annotations::CollectionAccessAttribute::get_CollectionAccessType
 // Il2CppName: get_CollectionAccessType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<JetBrains::Annotations::CollectionAccessType (CollectionAccessAttribute::*)()>(&CollectionAccessAttribute::get_CollectionAccessType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<JetBrains::Annotations::CollectionAccessType (JetBrains::Annotations::CollectionAccessAttribute::*)()>(&JetBrains::Annotations::CollectionAccessAttribute::get_CollectionAccessType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CollectionAccessAttribute*), "get_CollectionAccessType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::CollectionAccessAttribute*), "get_CollectionAccessType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CollectionAccessAttribute::set_CollectionAccessType
+// Writing MetadataGetter for method: JetBrains::Annotations::CollectionAccessAttribute::set_CollectionAccessType
 // Il2CppName: set_CollectionAccessType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionAccessAttribute::*)(JetBrains::Annotations::CollectionAccessType)>(&CollectionAccessAttribute::set_CollectionAccessType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::CollectionAccessAttribute::*)(JetBrains::Annotations::CollectionAccessType)>(&JetBrains::Annotations::CollectionAccessAttribute::set_CollectionAccessType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CollectionAccessAttribute*), "set_CollectionAccessType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<JetBrains::Annotations::CollectionAccessType>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::CollectionAccessAttribute*), "set_CollectionAccessType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<JetBrains::Annotations::CollectionAccessType>()});
   }
 };

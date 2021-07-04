@@ -49,17 +49,17 @@ namespace GlobalNamespace {
   static_assert(sizeof(KawaseBlurRendererSO::BloomKernel) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::KawaseBlurRendererSO::BloomKernel*, "", "KawaseBlurRendererSO/BloomKernel");
-// Writing MetadataGetter for method: KawaseBlurRendererSO::BloomKernel::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::KawaseBlurRendererSO::BloomKernel::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KawaseBlurRendererSO::BloomKernel::*)()>(&KawaseBlurRendererSO::BloomKernel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::KawaseBlurRendererSO::BloomKernel::*)()>(&GlobalNamespace::KawaseBlurRendererSO::BloomKernel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(KawaseBlurRendererSO::BloomKernel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBlurRendererSO::BloomKernel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KawaseBlurRendererSO::BloomKernel::*)()>(&KawaseBlurRendererSO::BloomKernel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::KawaseBlurRendererSO::BloomKernel::*)()>(&GlobalNamespace::KawaseBlurRendererSO::BloomKernel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(KawaseBlurRendererSO::BloomKernel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBlurRendererSO::BloomKernel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

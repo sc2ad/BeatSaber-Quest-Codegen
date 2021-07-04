@@ -206,121 +206,121 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRRaycaster*, "", "OVRRaycaster");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRRaycaster::RaycastHit, "", "OVRRaycaster/RaycastHit");
-// Writing MetadataGetter for method: OVRRaycaster::Raycast
+// Writing MetadataGetter for method: GlobalNamespace::OVRRaycaster::Raycast
 // Il2CppName: Raycast
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRRaycaster::*)(UnityEngine::EventSystems::PointerEventData*, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>*, UnityEngine::Ray, bool)>(&OVRRaycaster::Raycast)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRRaycaster::*)(UnityEngine::EventSystems::PointerEventData*, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>*, UnityEngine::Ray, bool)>(&GlobalNamespace::OVRRaycaster::Raycast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRRaycaster*), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRRaycaster*), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: OVRRaycaster::RaycastPointer
+// Writing MetadataGetter for method: GlobalNamespace::OVRRaycaster::RaycastPointer
 // Il2CppName: RaycastPointer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRRaycaster::*)(UnityEngine::EventSystems::PointerEventData*, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>*)>(&OVRRaycaster::RaycastPointer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRRaycaster::*)(UnityEngine::EventSystems::PointerEventData*, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>*)>(&GlobalNamespace::OVRRaycaster::RaycastPointer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRRaycaster*), "RaycastPointer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRRaycaster*), "RaycastPointer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>*>()});
   }
 };
-// Writing MetadataGetter for method: OVRRaycaster::GraphicRaycast
+// Writing MetadataGetter for method: GlobalNamespace::OVRRaycaster::GraphicRaycast
 // Il2CppName: GraphicRaycast
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRRaycaster::*)(UnityEngine::Canvas*, UnityEngine::Ray, System::Collections::Generic::List_1<GlobalNamespace::OVRRaycaster::RaycastHit>*)>(&OVRRaycaster::GraphicRaycast)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRRaycaster::*)(UnityEngine::Canvas*, UnityEngine::Ray, System::Collections::Generic::List_1<GlobalNamespace::OVRRaycaster::RaycastHit>*)>(&GlobalNamespace::OVRRaycaster::GraphicRaycast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRRaycaster*), "GraphicRaycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Canvas*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::OVRRaycaster::RaycastHit>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRRaycaster*), "GraphicRaycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Canvas*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::OVRRaycaster::RaycastHit>*>()});
   }
 };
-// Writing MetadataGetter for method: OVRRaycaster::GetScreenPosition
+// Writing MetadataGetter for method: GlobalNamespace::OVRRaycaster::GetScreenPosition
 // Il2CppName: GetScreenPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (OVRRaycaster::*)(UnityEngine::EventSystems::RaycastResult)>(&OVRRaycaster::GetScreenPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (GlobalNamespace::OVRRaycaster::*)(UnityEngine::EventSystems::RaycastResult)>(&GlobalNamespace::OVRRaycaster::GetScreenPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRRaycaster*), "GetScreenPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::RaycastResult>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRRaycaster*), "GetScreenPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::RaycastResult>()});
   }
 };
-// Writing MetadataGetter for method: OVRRaycaster::RayIntersectsRectTransform
+// Writing MetadataGetter for method: GlobalNamespace::OVRRaycaster::RayIntersectsRectTransform
 // Il2CppName: RayIntersectsRectTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::RectTransform*, UnityEngine::Ray, UnityEngine::Vector3&)>(&OVRRaycaster::RayIntersectsRectTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::RectTransform*, UnityEngine::Ray, UnityEngine::Vector3&)>(&GlobalNamespace::OVRRaycaster::RayIntersectsRectTransform)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRRaycaster*), "RayIntersectsRectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRRaycaster*), "RayIntersectsRectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: OVRRaycaster::IsFocussed
+// Writing MetadataGetter for method: GlobalNamespace::OVRRaycaster::IsFocussed
 // Il2CppName: IsFocussed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRRaycaster::*)()>(&OVRRaycaster::IsFocussed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRRaycaster::*)()>(&GlobalNamespace::OVRRaycaster::IsFocussed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRRaycaster*), "IsFocussed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRRaycaster*), "IsFocussed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRRaycaster::OnPointerEnter
+// Writing MetadataGetter for method: GlobalNamespace::OVRRaycaster::OnPointerEnter
 // Il2CppName: OnPointerEnter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRRaycaster::*)(UnityEngine::EventSystems::PointerEventData*)>(&OVRRaycaster::OnPointerEnter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRRaycaster::*)(UnityEngine::EventSystems::PointerEventData*)>(&GlobalNamespace::OVRRaycaster::OnPointerEnter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRRaycaster*), "OnPointerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRRaycaster*), "OnPointerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: OVRRaycaster::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::OVRRaycaster::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRRaycaster::*)()>(&OVRRaycaster::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRRaycaster::*)()>(&GlobalNamespace::OVRRaycaster::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRRaycaster*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRRaycaster*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRRaycaster::*)()>(&OVRRaycaster::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRRaycaster::*)()>(&GlobalNamespace::OVRRaycaster::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRRaycaster*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRRaycaster*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRRaycaster::get_canvas
+// Writing MetadataGetter for method: GlobalNamespace::OVRRaycaster::get_canvas
 // Il2CppName: get_canvas
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Canvas* (OVRRaycaster::*)()>(&OVRRaycaster::get_canvas)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Canvas* (GlobalNamespace::OVRRaycaster::*)()>(&GlobalNamespace::OVRRaycaster::get_canvas)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRRaycaster*), "get_canvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRRaycaster*), "get_canvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRRaycaster::get_eventCamera
+// Writing MetadataGetter for method: GlobalNamespace::OVRRaycaster::get_eventCamera
 // Il2CppName: get_eventCamera
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (OVRRaycaster::*)()>(&OVRRaycaster::get_eventCamera)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (GlobalNamespace::OVRRaycaster::*)()>(&GlobalNamespace::OVRRaycaster::get_eventCamera)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRRaycaster*), "get_eventCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRRaycaster*), "get_eventCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRRaycaster::get_sortOrderPriority
+// Writing MetadataGetter for method: GlobalNamespace::OVRRaycaster::get_sortOrderPriority
 // Il2CppName: get_sortOrderPriority
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OVRRaycaster::*)()>(&OVRRaycaster::get_sortOrderPriority)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::OVRRaycaster::*)()>(&GlobalNamespace::OVRRaycaster::get_sortOrderPriority)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRRaycaster*), "get_sortOrderPriority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRRaycaster*), "get_sortOrderPriority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRRaycaster::Start
+// Writing MetadataGetter for method: GlobalNamespace::OVRRaycaster::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRRaycaster::*)()>(&OVRRaycaster::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRRaycaster::*)()>(&GlobalNamespace::OVRRaycaster::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRRaycaster*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRRaycaster*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRRaycaster::Raycast
+// Writing MetadataGetter for method: GlobalNamespace::OVRRaycaster::Raycast
 // Il2CppName: Raycast
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRRaycaster::*)(UnityEngine::EventSystems::PointerEventData*, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>*)>(&OVRRaycaster::Raycast)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRRaycaster::*)(UnityEngine::EventSystems::PointerEventData*, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>*)>(&GlobalNamespace::OVRRaycaster::Raycast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRRaycaster*), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRRaycaster*), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>*>()});
   }
 };
-// Writing MetadataGetter for method: OVRRaycaster::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::OVRRaycaster::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRRaycaster::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRRaycaster::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRRaycaster*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRRaycaster*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

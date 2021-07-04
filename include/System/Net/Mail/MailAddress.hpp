@@ -114,101 +114,101 @@ namespace System::Net::Mail {
   static_assert(sizeof(MailAddress) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Mail::MailAddress*, "System.Net.Mail", "MailAddress");
-// Writing MetadataGetter for method: MailAddress::New_ctor
+// Writing MetadataGetter for method: System::Net::Mail::MailAddress::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MailAddress::*)(::Il2CppString*)>(&MailAddress::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Mail::MailAddress::*)(::Il2CppString*)>(&System::Net::Mail::MailAddress::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MailAddress*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Mail::MailAddress*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MailAddress::*)(::Il2CppString*)>(&MailAddress::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Mail::MailAddress::*)(::Il2CppString*)>(&System::Net::Mail::MailAddress::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MailAddress*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Mail::MailAddress*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: MailAddress::New_ctor
+// Writing MetadataGetter for method: System::Net::Mail::MailAddress::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MailAddress::*)(::Il2CppString*, ::Il2CppString*)>(&MailAddress::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Mail::MailAddress::*)(::Il2CppString*, ::Il2CppString*)>(&System::Net::Mail::MailAddress::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MailAddress*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Mail::MailAddress*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MailAddress::*)(::Il2CppString*, ::Il2CppString*)>(&MailAddress::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Mail::MailAddress::*)(::Il2CppString*, ::Il2CppString*)>(&System::Net::Mail::MailAddress::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MailAddress*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Mail::MailAddress*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: MailAddress::New_ctor
+// Writing MetadataGetter for method: System::Net::Mail::MailAddress::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MailAddress::*)(::Il2CppString*, ::Il2CppString*, System::Text::Encoding*)>(&MailAddress::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Mail::MailAddress::*)(::Il2CppString*, ::Il2CppString*, System::Text::Encoding*)>(&System::Net::Mail::MailAddress::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MailAddress*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Mail::MailAddress*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MailAddress::*)(::Il2CppString*, ::Il2CppString*, System::Text::Encoding*)>(&MailAddress::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Mail::MailAddress::*)(::Il2CppString*, ::Il2CppString*, System::Text::Encoding*)>(&System::Net::Mail::MailAddress::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MailAddress*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Mail::MailAddress*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
   }
 };
-// Writing MetadataGetter for method: MailAddress::ParseAddress
+// Writing MetadataGetter for method: System::Net::Mail::MailAddress::ParseAddress
 // Il2CppName: ParseAddress
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MailAddress::*)(::Il2CppString*)>(&MailAddress::ParseAddress)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Mail::MailAddress::*)(::Il2CppString*)>(&System::Net::Mail::MailAddress::ParseAddress)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MailAddress*), "ParseAddress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Mail::MailAddress*), "ParseAddress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: MailAddress::get_Address
+// Writing MetadataGetter for method: System::Net::Mail::MailAddress::get_Address
 // Il2CppName: get_Address
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MailAddress::*)()>(&MailAddress::get_Address)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Mail::MailAddress::*)()>(&System::Net::Mail::MailAddress::get_Address)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MailAddress*), "get_Address", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Mail::MailAddress*), "get_Address", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MailAddress::get_DisplayName
+// Writing MetadataGetter for method: System::Net::Mail::MailAddress::get_DisplayName
 // Il2CppName: get_DisplayName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MailAddress::*)()>(&MailAddress::get_DisplayName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Mail::MailAddress::*)()>(&System::Net::Mail::MailAddress::get_DisplayName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MailAddress*), "get_DisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Mail::MailAddress*), "get_DisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MailAddress::CreateFormatException
+// Writing MetadataGetter for method: System::Net::Mail::MailAddress::CreateFormatException
 // Il2CppName: CreateFormatException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::FormatException* (*)()>(&MailAddress::CreateFormatException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::FormatException* (*)()>(&System::Net::Mail::MailAddress::CreateFormatException)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MailAddress*), "CreateFormatException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Mail::MailAddress*), "CreateFormatException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MailAddress::Equals
+// Writing MetadataGetter for method: System::Net::Mail::MailAddress::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MailAddress::*)(::Il2CppObject*)>(&MailAddress::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Mail::MailAddress::*)(::Il2CppObject*)>(&System::Net::Mail::MailAddress::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MailAddress*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Mail::MailAddress*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: MailAddress::GetHashCode
+// Writing MetadataGetter for method: System::Net::Mail::MailAddress::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MailAddress::*)()>(&MailAddress::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Mail::MailAddress::*)()>(&System::Net::Mail::MailAddress::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MailAddress*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Mail::MailAddress*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MailAddress::ToString
+// Writing MetadataGetter for method: System::Net::Mail::MailAddress::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MailAddress::*)()>(&MailAddress::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Mail::MailAddress::*)()>(&System::Net::Mail::MailAddress::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MailAddress*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Mail::MailAddress*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

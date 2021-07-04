@@ -86,115 +86,115 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::AssetFile*, "Oculus.Platform", "AssetFile");
-// Writing MetadataGetter for method: AssetFile::Delete
+// Writing MetadataGetter for method: Oculus::Platform::AssetFile::Delete
 // Il2CppName: Delete
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDeleteResult*>* (*)(uint64_t)>(&AssetFile::Delete)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDeleteResult*>* (*)(uint64_t)>(&Oculus::Platform::AssetFile::Delete)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetFile*), "Delete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AssetFile*), "Delete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: AssetFile::DeleteById
+// Writing MetadataGetter for method: Oculus::Platform::AssetFile::DeleteById
 // Il2CppName: DeleteById
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDeleteResult*>* (*)(uint64_t)>(&AssetFile::DeleteById)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDeleteResult*>* (*)(uint64_t)>(&Oculus::Platform::AssetFile::DeleteById)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetFile*), "DeleteById", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AssetFile*), "DeleteById", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: AssetFile::DeleteByName
+// Writing MetadataGetter for method: Oculus::Platform::AssetFile::DeleteByName
 // Il2CppName: DeleteByName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDeleteResult*>* (*)(::Il2CppString*)>(&AssetFile::DeleteByName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDeleteResult*>* (*)(::Il2CppString*)>(&Oculus::Platform::AssetFile::DeleteByName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetFile*), "DeleteByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AssetFile*), "DeleteByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: AssetFile::Download
+// Writing MetadataGetter for method: Oculus::Platform::AssetFile::Download
 // Il2CppName: Download
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDownloadResult*>* (*)(uint64_t)>(&AssetFile::Download)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDownloadResult*>* (*)(uint64_t)>(&Oculus::Platform::AssetFile::Download)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetFile*), "Download", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AssetFile*), "Download", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: AssetFile::DownloadById
+// Writing MetadataGetter for method: Oculus::Platform::AssetFile::DownloadById
 // Il2CppName: DownloadById
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDownloadResult*>* (*)(uint64_t)>(&AssetFile::DownloadById)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDownloadResult*>* (*)(uint64_t)>(&Oculus::Platform::AssetFile::DownloadById)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetFile*), "DownloadById", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AssetFile*), "DownloadById", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: AssetFile::DownloadByName
+// Writing MetadataGetter for method: Oculus::Platform::AssetFile::DownloadByName
 // Il2CppName: DownloadByName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDownloadResult*>* (*)(::Il2CppString*)>(&AssetFile::DownloadByName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDownloadResult*>* (*)(::Il2CppString*)>(&Oculus::Platform::AssetFile::DownloadByName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetFile*), "DownloadByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AssetFile*), "DownloadByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: AssetFile::DownloadCancel
+// Writing MetadataGetter for method: Oculus::Platform::AssetFile::DownloadCancel
 // Il2CppName: DownloadCancel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDownloadCancelResult*>* (*)(uint64_t)>(&AssetFile::DownloadCancel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDownloadCancelResult*>* (*)(uint64_t)>(&Oculus::Platform::AssetFile::DownloadCancel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetFile*), "DownloadCancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AssetFile*), "DownloadCancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: AssetFile::DownloadCancelById
+// Writing MetadataGetter for method: Oculus::Platform::AssetFile::DownloadCancelById
 // Il2CppName: DownloadCancelById
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDownloadCancelResult*>* (*)(uint64_t)>(&AssetFile::DownloadCancelById)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDownloadCancelResult*>* (*)(uint64_t)>(&Oculus::Platform::AssetFile::DownloadCancelById)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetFile*), "DownloadCancelById", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AssetFile*), "DownloadCancelById", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: AssetFile::DownloadCancelByName
+// Writing MetadataGetter for method: Oculus::Platform::AssetFile::DownloadCancelByName
 // Il2CppName: DownloadCancelByName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDownloadCancelResult*>* (*)(::Il2CppString*)>(&AssetFile::DownloadCancelByName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDownloadCancelResult*>* (*)(::Il2CppString*)>(&Oculus::Platform::AssetFile::DownloadCancelByName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetFile*), "DownloadCancelByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AssetFile*), "DownloadCancelByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: AssetFile::GetList
+// Writing MetadataGetter for method: Oculus::Platform::AssetFile::GetList
 // Il2CppName: GetList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AssetDetailsList*>* (*)()>(&AssetFile::GetList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AssetDetailsList*>* (*)()>(&Oculus::Platform::AssetFile::GetList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetFile*), "GetList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AssetFile*), "GetList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AssetFile::Status
+// Writing MetadataGetter for method: Oculus::Platform::AssetFile::Status
 // Il2CppName: Status
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AssetDetails*>* (*)(uint64_t)>(&AssetFile::Status)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AssetDetails*>* (*)(uint64_t)>(&Oculus::Platform::AssetFile::Status)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetFile*), "Status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AssetFile*), "Status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: AssetFile::StatusById
+// Writing MetadataGetter for method: Oculus::Platform::AssetFile::StatusById
 // Il2CppName: StatusById
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AssetDetails*>* (*)(uint64_t)>(&AssetFile::StatusById)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AssetDetails*>* (*)(uint64_t)>(&Oculus::Platform::AssetFile::StatusById)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetFile*), "StatusById", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AssetFile*), "StatusById", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: AssetFile::StatusByName
+// Writing MetadataGetter for method: Oculus::Platform::AssetFile::StatusByName
 // Il2CppName: StatusByName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AssetDetails*>* (*)(::Il2CppString*)>(&AssetFile::StatusByName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AssetDetails*>* (*)(::Il2CppString*)>(&Oculus::Platform::AssetFile::StatusByName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetFile*), "StatusByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AssetFile*), "StatusByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: AssetFile::SetDownloadUpdateNotificationCallback
+// Writing MetadataGetter for method: Oculus::Platform::AssetFile::SetDownloadUpdateNotificationCallback
 // Il2CppName: SetDownloadUpdateNotificationCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDownloadUpdate*>::Callback*)>(&AssetFile::SetDownloadUpdateNotificationCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDownloadUpdate*>::Callback*)>(&Oculus::Platform::AssetFile::SetDownloadUpdateNotificationCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetFile*), "SetDownloadUpdateNotificationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDownloadUpdate*>::Callback*>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AssetFile*), "SetDownloadUpdateNotificationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<Oculus::Platform::Models::AssetFileDownloadUpdate*>::Callback*>()});
   }
 };

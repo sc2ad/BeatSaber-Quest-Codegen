@@ -84,65 +84,65 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(InfiniteRuntimeClip) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::InfiniteRuntimeClip*, "UnityEngine.Timeline", "InfiniteRuntimeClip");
-// Writing MetadataGetter for method: InfiniteRuntimeClip::New_ctor
+// Writing MetadataGetter for method: UnityEngine::Timeline::InfiniteRuntimeClip::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InfiniteRuntimeClip::*)(UnityEngine::Playables::Playable)>(&InfiniteRuntimeClip::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::InfiniteRuntimeClip::*)(UnityEngine::Playables::Playable)>(&UnityEngine::Timeline::InfiniteRuntimeClip::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InfiniteRuntimeClip*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::InfiniteRuntimeClip*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InfiniteRuntimeClip::*)(UnityEngine::Playables::Playable)>(&InfiniteRuntimeClip::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::InfiniteRuntimeClip::*)(UnityEngine::Playables::Playable)>(&UnityEngine::Timeline::InfiniteRuntimeClip::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InfiniteRuntimeClip*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::InfiniteRuntimeClip*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
   }
 };
-// Writing MetadataGetter for method: InfiniteRuntimeClip::_cctor
+// Writing MetadataGetter for method: UnityEngine::Timeline::InfiniteRuntimeClip::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&InfiniteRuntimeClip::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Timeline::InfiniteRuntimeClip::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InfiniteRuntimeClip*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::InfiniteRuntimeClip*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InfiniteRuntimeClip::get_intervalStart
+// Writing MetadataGetter for method: UnityEngine::Timeline::InfiniteRuntimeClip::get_intervalStart
 // Il2CppName: get_intervalStart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (InfiniteRuntimeClip::*)()>(&InfiniteRuntimeClip::get_intervalStart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (UnityEngine::Timeline::InfiniteRuntimeClip::*)()>(&UnityEngine::Timeline::InfiniteRuntimeClip::get_intervalStart)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InfiniteRuntimeClip*), "get_intervalStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::InfiniteRuntimeClip*), "get_intervalStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InfiniteRuntimeClip::get_intervalEnd
+// Writing MetadataGetter for method: UnityEngine::Timeline::InfiniteRuntimeClip::get_intervalEnd
 // Il2CppName: get_intervalEnd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (InfiniteRuntimeClip::*)()>(&InfiniteRuntimeClip::get_intervalEnd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (UnityEngine::Timeline::InfiniteRuntimeClip::*)()>(&UnityEngine::Timeline::InfiniteRuntimeClip::get_intervalEnd)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InfiniteRuntimeClip*), "get_intervalEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::InfiniteRuntimeClip*), "get_intervalEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InfiniteRuntimeClip::set_enable
+// Writing MetadataGetter for method: UnityEngine::Timeline::InfiniteRuntimeClip::set_enable
 // Il2CppName: set_enable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InfiniteRuntimeClip::*)(bool)>(&InfiniteRuntimeClip::set_enable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::InfiniteRuntimeClip::*)(bool)>(&UnityEngine::Timeline::InfiniteRuntimeClip::set_enable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InfiniteRuntimeClip*), "set_enable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::InfiniteRuntimeClip*), "set_enable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: InfiniteRuntimeClip::EvaluateAt
+// Writing MetadataGetter for method: UnityEngine::Timeline::InfiniteRuntimeClip::EvaluateAt
 // Il2CppName: EvaluateAt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InfiniteRuntimeClip::*)(double, UnityEngine::Playables::FrameData)>(&InfiniteRuntimeClip::EvaluateAt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::InfiniteRuntimeClip::*)(double, UnityEngine::Playables::FrameData)>(&UnityEngine::Timeline::InfiniteRuntimeClip::EvaluateAt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InfiniteRuntimeClip*), "EvaluateAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::InfiniteRuntimeClip*), "EvaluateAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
   }
 };
-// Writing MetadataGetter for method: InfiniteRuntimeClip::DisableAt
+// Writing MetadataGetter for method: UnityEngine::Timeline::InfiniteRuntimeClip::DisableAt
 // Il2CppName: DisableAt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InfiniteRuntimeClip::*)(double, double, UnityEngine::Playables::FrameData)>(&InfiniteRuntimeClip::DisableAt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::InfiniteRuntimeClip::*)(double, double, UnityEngine::Playables::FrameData)>(&UnityEngine::Timeline::InfiniteRuntimeClip::DisableAt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InfiniteRuntimeClip*), "DisableAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::InfiniteRuntimeClip*), "DisableAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
   }
 };

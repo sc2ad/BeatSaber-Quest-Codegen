@@ -44,35 +44,35 @@ namespace NUnit::Framework {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Is*, "NUnit.Framework", "Is");
-// Writing MetadataGetter for method: Is::get_True
+// Writing MetadataGetter for method: NUnit::Framework::Is::get_True
 // Il2CppName: get_True
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::TrueConstraint* (*)()>(&Is::get_True)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::TrueConstraint* (*)()>(&NUnit::Framework::Is::get_True)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Is*), "get_True", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Is*), "get_True", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Is::EqualTo
+// Writing MetadataGetter for method: NUnit::Framework::Is::EqualTo
 // Il2CppName: EqualTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::EqualConstraint* (*)(::Il2CppObject*)>(&Is::EqualTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::EqualConstraint* (*)(::Il2CppObject*)>(&NUnit::Framework::Is::EqualTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Is*), "EqualTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Is*), "EqualTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Is::GreaterThanOrEqualTo
+// Writing MetadataGetter for method: NUnit::Framework::Is::GreaterThanOrEqualTo
 // Il2CppName: GreaterThanOrEqualTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::GreaterThanOrEqualConstraint* (*)(::Il2CppObject*)>(&Is::GreaterThanOrEqualTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::GreaterThanOrEqualConstraint* (*)(::Il2CppObject*)>(&NUnit::Framework::Is::GreaterThanOrEqualTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Is*), "GreaterThanOrEqualTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Is*), "GreaterThanOrEqualTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Is::LessThanOrEqualTo
+// Writing MetadataGetter for method: NUnit::Framework::Is::LessThanOrEqualTo
 // Il2CppName: LessThanOrEqualTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::LessThanOrEqualConstraint* (*)(::Il2CppObject*)>(&Is::LessThanOrEqualTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::LessThanOrEqualConstraint* (*)(::Il2CppObject*)>(&NUnit::Framework::Is::LessThanOrEqualTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Is*), "LessThanOrEqualTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Is*), "LessThanOrEqualTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };

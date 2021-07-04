@@ -134,49 +134,49 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedRealityCaptureTest*, "", "OVRMixedRealityCaptureTest");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedRealityCaptureTest::CameraMode, "", "OVRMixedRealityCaptureTest/CameraMode");
-// Writing MetadataGetter for method: OVRMixedRealityCaptureTest::Start
+// Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureTest::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMixedRealityCaptureTest::*)()>(&OVRMixedRealityCaptureTest::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureTest::*)()>(&GlobalNamespace::OVRMixedRealityCaptureTest::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRMixedRealityCaptureTest*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureTest*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRMixedRealityCaptureTest::Initialize
+// Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureTest::Initialize
 // Il2CppName: Initialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMixedRealityCaptureTest::*)()>(&OVRMixedRealityCaptureTest::Initialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureTest::*)()>(&GlobalNamespace::OVRMixedRealityCaptureTest::Initialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRMixedRealityCaptureTest*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureTest*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRMixedRealityCaptureTest::UpdateDefaultExternalCamera
+// Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureTest::UpdateDefaultExternalCamera
 // Il2CppName: UpdateDefaultExternalCamera
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMixedRealityCaptureTest::*)()>(&OVRMixedRealityCaptureTest::UpdateDefaultExternalCamera)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureTest::*)()>(&GlobalNamespace::OVRMixedRealityCaptureTest::UpdateDefaultExternalCamera)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRMixedRealityCaptureTest*), "UpdateDefaultExternalCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureTest*), "UpdateDefaultExternalCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRMixedRealityCaptureTest::Update
+// Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureTest::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMixedRealityCaptureTest::*)()>(&OVRMixedRealityCaptureTest::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureTest::*)()>(&GlobalNamespace::OVRMixedRealityCaptureTest::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRMixedRealityCaptureTest*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureTest*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRMixedRealityCaptureTest::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureTest::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMixedRealityCaptureTest::*)()>(&OVRMixedRealityCaptureTest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureTest::*)()>(&GlobalNamespace::OVRMixedRealityCaptureTest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRMixedRealityCaptureTest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureTest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMixedRealityCaptureTest::*)()>(&OVRMixedRealityCaptureTest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureTest::*)()>(&GlobalNamespace::OVRMixedRealityCaptureTest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRMixedRealityCaptureTest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureTest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

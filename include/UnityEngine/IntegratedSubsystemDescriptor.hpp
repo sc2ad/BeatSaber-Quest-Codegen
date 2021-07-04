@@ -56,25 +56,25 @@ namespace UnityEngine {
   static_assert(sizeof(IntegratedSubsystemDescriptor) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::IntegratedSubsystemDescriptor*, "UnityEngine", "IntegratedSubsystemDescriptor");
-// Writing MetadataGetter for method: IntegratedSubsystemDescriptor::UnityEngine_ISubsystemDescriptorImpl_set_ptr
+// Writing MetadataGetter for method: UnityEngine::IntegratedSubsystemDescriptor::UnityEngine_ISubsystemDescriptorImpl_set_ptr
 // Il2CppName: UnityEngine.ISubsystemDescriptorImpl.set_ptr
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntegratedSubsystemDescriptor::*)(System::IntPtr)>(&IntegratedSubsystemDescriptor::UnityEngine_ISubsystemDescriptorImpl_set_ptr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::IntegratedSubsystemDescriptor::*)(System::IntPtr)>(&UnityEngine::IntegratedSubsystemDescriptor::UnityEngine_ISubsystemDescriptorImpl_set_ptr)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntegratedSubsystemDescriptor*), "UnityEngine.ISubsystemDescriptorImpl.set_ptr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::IntegratedSubsystemDescriptor*), "UnityEngine.ISubsystemDescriptorImpl.set_ptr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: IntegratedSubsystemDescriptor::New_ctor
+// Writing MetadataGetter for method: UnityEngine::IntegratedSubsystemDescriptor::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntegratedSubsystemDescriptor::*)()>(&IntegratedSubsystemDescriptor::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::IntegratedSubsystemDescriptor::*)()>(&UnityEngine::IntegratedSubsystemDescriptor::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntegratedSubsystemDescriptor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::IntegratedSubsystemDescriptor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntegratedSubsystemDescriptor::*)()>(&IntegratedSubsystemDescriptor::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::IntegratedSubsystemDescriptor::*)()>(&UnityEngine::IntegratedSubsystemDescriptor::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntegratedSubsystemDescriptor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::IntegratedSubsystemDescriptor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -242,239 +242,239 @@ namespace Mono::Security::Interface {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::MonoTlsSettings*, "Mono.Security.Interface", "MonoTlsSettings");
-// Writing MetadataGetter for method: MonoTlsSettings::get_RemoteCertificateValidationCallback
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::get_RemoteCertificateValidationCallback
 // Il2CppName: get_RemoteCertificateValidationCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoRemoteCertificateValidationCallback* (MonoTlsSettings::*)()>(&MonoTlsSettings::get_RemoteCertificateValidationCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoRemoteCertificateValidationCallback* (Mono::Security::Interface::MonoTlsSettings::*)()>(&Mono::Security::Interface::MonoTlsSettings::get_RemoteCertificateValidationCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsSettings*), "get_RemoteCertificateValidationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "get_RemoteCertificateValidationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MonoTlsSettings::set_RemoteCertificateValidationCallback
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::set_RemoteCertificateValidationCallback
 // Il2CppName: set_RemoteCertificateValidationCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoTlsSettings::*)(Mono::Security::Interface::MonoRemoteCertificateValidationCallback*)>(&MonoTlsSettings::set_RemoteCertificateValidationCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsSettings::*)(Mono::Security::Interface::MonoRemoteCertificateValidationCallback*)>(&Mono::Security::Interface::MonoTlsSettings::set_RemoteCertificateValidationCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsSettings*), "set_RemoteCertificateValidationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoRemoteCertificateValidationCallback*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "set_RemoteCertificateValidationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoRemoteCertificateValidationCallback*>()});
   }
 };
-// Writing MetadataGetter for method: MonoTlsSettings::get_ClientCertificateSelectionCallback
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::get_ClientCertificateSelectionCallback
 // Il2CppName: get_ClientCertificateSelectionCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoLocalCertificateSelectionCallback* (MonoTlsSettings::*)()>(&MonoTlsSettings::get_ClientCertificateSelectionCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoLocalCertificateSelectionCallback* (Mono::Security::Interface::MonoTlsSettings::*)()>(&Mono::Security::Interface::MonoTlsSettings::get_ClientCertificateSelectionCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsSettings*), "get_ClientCertificateSelectionCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "get_ClientCertificateSelectionCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MonoTlsSettings::set_ClientCertificateSelectionCallback
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::set_ClientCertificateSelectionCallback
 // Il2CppName: set_ClientCertificateSelectionCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoTlsSettings::*)(Mono::Security::Interface::MonoLocalCertificateSelectionCallback*)>(&MonoTlsSettings::set_ClientCertificateSelectionCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsSettings::*)(Mono::Security::Interface::MonoLocalCertificateSelectionCallback*)>(&Mono::Security::Interface::MonoTlsSettings::set_ClientCertificateSelectionCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsSettings*), "set_ClientCertificateSelectionCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoLocalCertificateSelectionCallback*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "set_ClientCertificateSelectionCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoLocalCertificateSelectionCallback*>()});
   }
 };
-// Writing MetadataGetter for method: MonoTlsSettings::get_UseServicePointManagerCallback
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::get_UseServicePointManagerCallback
 // Il2CppName: get_UseServicePointManagerCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<bool> (MonoTlsSettings::*)()>(&MonoTlsSettings::get_UseServicePointManagerCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<bool> (Mono::Security::Interface::MonoTlsSettings::*)()>(&Mono::Security::Interface::MonoTlsSettings::get_UseServicePointManagerCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsSettings*), "get_UseServicePointManagerCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "get_UseServicePointManagerCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MonoTlsSettings::set_UseServicePointManagerCallback
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::set_UseServicePointManagerCallback
 // Il2CppName: set_UseServicePointManagerCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoTlsSettings::*)(System::Nullable_1<bool>)>(&MonoTlsSettings::set_UseServicePointManagerCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsSettings::*)(System::Nullable_1<bool>)>(&Mono::Security::Interface::MonoTlsSettings::set_UseServicePointManagerCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsSettings*), "set_UseServicePointManagerCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "set_UseServicePointManagerCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>()});
   }
 };
-// Writing MetadataGetter for method: MonoTlsSettings::get_CallbackNeedsCertificateChain
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::get_CallbackNeedsCertificateChain
 // Il2CppName: get_CallbackNeedsCertificateChain
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MonoTlsSettings::*)()>(&MonoTlsSettings::get_CallbackNeedsCertificateChain)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::Interface::MonoTlsSettings::*)()>(&Mono::Security::Interface::MonoTlsSettings::get_CallbackNeedsCertificateChain)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsSettings*), "get_CallbackNeedsCertificateChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "get_CallbackNeedsCertificateChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MonoTlsSettings::get_CertificateValidationTime
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::get_CertificateValidationTime
 // Il2CppName: get_CertificateValidationTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::DateTime> (MonoTlsSettings::*)()>(&MonoTlsSettings::get_CertificateValidationTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::DateTime> (Mono::Security::Interface::MonoTlsSettings::*)()>(&Mono::Security::Interface::MonoTlsSettings::get_CertificateValidationTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsSettings*), "get_CertificateValidationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "get_CertificateValidationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MonoTlsSettings::set_CertificateValidationTime
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::set_CertificateValidationTime
 // Il2CppName: set_CertificateValidationTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoTlsSettings::*)(System::Nullable_1<System::DateTime>)>(&MonoTlsSettings::set_CertificateValidationTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsSettings::*)(System::Nullable_1<System::DateTime>)>(&Mono::Security::Interface::MonoTlsSettings::set_CertificateValidationTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsSettings*), "set_CertificateValidationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<System::DateTime>>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "set_CertificateValidationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<System::DateTime>>()});
   }
 };
-// Writing MetadataGetter for method: MonoTlsSettings::get_TrustAnchors
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::get_TrustAnchors
 // Il2CppName: get_TrustAnchors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509CertificateCollection* (MonoTlsSettings::*)()>(&MonoTlsSettings::get_TrustAnchors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509CertificateCollection* (Mono::Security::Interface::MonoTlsSettings::*)()>(&Mono::Security::Interface::MonoTlsSettings::get_TrustAnchors)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsSettings*), "get_TrustAnchors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "get_TrustAnchors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MonoTlsSettings::set_TrustAnchors
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::set_TrustAnchors
 // Il2CppName: set_TrustAnchors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoTlsSettings::*)(System::Security::Cryptography::X509Certificates::X509CertificateCollection*)>(&MonoTlsSettings::set_TrustAnchors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsSettings::*)(System::Security::Cryptography::X509Certificates::X509CertificateCollection*)>(&Mono::Security::Interface::MonoTlsSettings::set_TrustAnchors)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsSettings*), "set_TrustAnchors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "set_TrustAnchors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>()});
   }
 };
-// Writing MetadataGetter for method: MonoTlsSettings::get_UserSettings
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::get_UserSettings
 // Il2CppName: get_UserSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (MonoTlsSettings::*)()>(&MonoTlsSettings::get_UserSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Mono::Security::Interface::MonoTlsSettings::*)()>(&Mono::Security::Interface::MonoTlsSettings::get_UserSettings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsSettings*), "get_UserSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "get_UserSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MonoTlsSettings::set_UserSettings
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::set_UserSettings
 // Il2CppName: set_UserSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoTlsSettings::*)(::Il2CppObject*)>(&MonoTlsSettings::set_UserSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsSettings::*)(::Il2CppObject*)>(&Mono::Security::Interface::MonoTlsSettings::set_UserSettings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsSettings*), "set_UserSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "set_UserSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: MonoTlsSettings::get_CertificateSearchPaths
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::get_CertificateSearchPaths
 // Il2CppName: get_CertificateSearchPaths
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (MonoTlsSettings::*)()>(&MonoTlsSettings::get_CertificateSearchPaths)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (Mono::Security::Interface::MonoTlsSettings::*)()>(&Mono::Security::Interface::MonoTlsSettings::get_CertificateSearchPaths)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsSettings*), "get_CertificateSearchPaths", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "get_CertificateSearchPaths", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MonoTlsSettings::set_CertificateSearchPaths
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::set_CertificateSearchPaths
 // Il2CppName: set_CertificateSearchPaths
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoTlsSettings::*)(::Array<::Il2CppString*>*)>(&MonoTlsSettings::set_CertificateSearchPaths)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsSettings::*)(::Array<::Il2CppString*>*)>(&Mono::Security::Interface::MonoTlsSettings::set_CertificateSearchPaths)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsSettings*), "set_CertificateSearchPaths", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "set_CertificateSearchPaths", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: MonoTlsSettings::get_SendCloseNotify
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::get_SendCloseNotify
 // Il2CppName: get_SendCloseNotify
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MonoTlsSettings::*)()>(&MonoTlsSettings::get_SendCloseNotify)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::Interface::MonoTlsSettings::*)()>(&Mono::Security::Interface::MonoTlsSettings::get_SendCloseNotify)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsSettings*), "get_SendCloseNotify", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "get_SendCloseNotify", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MonoTlsSettings::set_SendCloseNotify
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::set_SendCloseNotify
 // Il2CppName: set_SendCloseNotify
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoTlsSettings::*)(bool)>(&MonoTlsSettings::set_SendCloseNotify)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsSettings::*)(bool)>(&Mono::Security::Interface::MonoTlsSettings::set_SendCloseNotify)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsSettings*), "set_SendCloseNotify", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "set_SendCloseNotify", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MonoTlsSettings::get_EnabledProtocols
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::get_EnabledProtocols
 // Il2CppName: get_EnabledProtocols
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<Mono::Security::Interface::TlsProtocols> (MonoTlsSettings::*)()>(&MonoTlsSettings::get_EnabledProtocols)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<Mono::Security::Interface::TlsProtocols> (Mono::Security::Interface::MonoTlsSettings::*)()>(&Mono::Security::Interface::MonoTlsSettings::get_EnabledProtocols)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsSettings*), "get_EnabledProtocols", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "get_EnabledProtocols", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MonoTlsSettings::set_EnabledProtocols
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::set_EnabledProtocols
 // Il2CppName: set_EnabledProtocols
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoTlsSettings::*)(System::Nullable_1<Mono::Security::Interface::TlsProtocols>)>(&MonoTlsSettings::set_EnabledProtocols)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsSettings::*)(System::Nullable_1<Mono::Security::Interface::TlsProtocols>)>(&Mono::Security::Interface::MonoTlsSettings::set_EnabledProtocols)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsSettings*), "set_EnabledProtocols", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<Mono::Security::Interface::TlsProtocols>>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "set_EnabledProtocols", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<Mono::Security::Interface::TlsProtocols>>()});
   }
 };
-// Writing MetadataGetter for method: MonoTlsSettings::get_EnabledCiphers
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::get_EnabledCiphers
 // Il2CppName: get_EnabledCiphers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Mono::Security::Interface::CipherSuiteCode>* (MonoTlsSettings::*)()>(&MonoTlsSettings::get_EnabledCiphers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Mono::Security::Interface::CipherSuiteCode>* (Mono::Security::Interface::MonoTlsSettings::*)()>(&Mono::Security::Interface::MonoTlsSettings::get_EnabledCiphers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsSettings*), "get_EnabledCiphers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "get_EnabledCiphers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MonoTlsSettings::set_EnabledCiphers
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::set_EnabledCiphers
 // Il2CppName: set_EnabledCiphers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoTlsSettings::*)(::Array<Mono::Security::Interface::CipherSuiteCode>*)>(&MonoTlsSettings::set_EnabledCiphers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsSettings::*)(::Array<Mono::Security::Interface::CipherSuiteCode>*)>(&Mono::Security::Interface::MonoTlsSettings::set_EnabledCiphers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsSettings*), "set_EnabledCiphers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Mono::Security::Interface::CipherSuiteCode>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "set_EnabledCiphers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Mono::Security::Interface::CipherSuiteCode>*>()});
   }
 };
-// Writing MetadataGetter for method: MonoTlsSettings::get_DefaultSettings
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::get_DefaultSettings
 // Il2CppName: get_DefaultSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsSettings* (*)()>(&MonoTlsSettings::get_DefaultSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsSettings* (*)()>(&Mono::Security::Interface::MonoTlsSettings::get_DefaultSettings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsSettings*), "get_DefaultSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "get_DefaultSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MonoTlsSettings::CopyDefaultSettings
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::CopyDefaultSettings
 // Il2CppName: CopyDefaultSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsSettings* (*)()>(&MonoTlsSettings::CopyDefaultSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsSettings* (*)()>(&Mono::Security::Interface::MonoTlsSettings::CopyDefaultSettings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsSettings*), "CopyDefaultSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "CopyDefaultSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MonoTlsSettings::get_CertificateValidator
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::get_CertificateValidator
 // Il2CppName: get_CertificateValidator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::ICertificateValidator* (MonoTlsSettings::*)()>(&MonoTlsSettings::get_CertificateValidator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::ICertificateValidator* (Mono::Security::Interface::MonoTlsSettings::*)()>(&Mono::Security::Interface::MonoTlsSettings::get_CertificateValidator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsSettings*), "get_CertificateValidator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "get_CertificateValidator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MonoTlsSettings::CloneWithValidator
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::CloneWithValidator
 // Il2CppName: CloneWithValidator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsSettings* (MonoTlsSettings::*)(Mono::Security::Interface::ICertificateValidator*)>(&MonoTlsSettings::CloneWithValidator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsSettings* (Mono::Security::Interface::MonoTlsSettings::*)(Mono::Security::Interface::ICertificateValidator*)>(&Mono::Security::Interface::MonoTlsSettings::CloneWithValidator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsSettings*), "CloneWithValidator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::ICertificateValidator*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "CloneWithValidator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::ICertificateValidator*>()});
   }
 };
-// Writing MetadataGetter for method: MonoTlsSettings::Clone
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::Clone
 // Il2CppName: Clone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsSettings* (MonoTlsSettings::*)()>(&MonoTlsSettings::Clone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsSettings* (Mono::Security::Interface::MonoTlsSettings::*)()>(&Mono::Security::Interface::MonoTlsSettings::Clone)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsSettings*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MonoTlsSettings::New_ctor
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoTlsSettings::*)(Mono::Security::Interface::MonoTlsSettings*)>(&MonoTlsSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsSettings::*)(Mono::Security::Interface::MonoTlsSettings*)>(&Mono::Security::Interface::MonoTlsSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsSettings*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsSettings*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoTlsSettings::*)(Mono::Security::Interface::MonoTlsSettings*)>(&MonoTlsSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsSettings::*)(Mono::Security::Interface::MonoTlsSettings*)>(&Mono::Security::Interface::MonoTlsSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsSettings*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsSettings*>()});
   }
 };
-// Writing MetadataGetter for method: MonoTlsSettings::New_ctor
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoTlsSettings::*)()>(&MonoTlsSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsSettings::*)()>(&Mono::Security::Interface::MonoTlsSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoTlsSettings::*)()>(&MonoTlsSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsSettings::*)()>(&Mono::Security::Interface::MonoTlsSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

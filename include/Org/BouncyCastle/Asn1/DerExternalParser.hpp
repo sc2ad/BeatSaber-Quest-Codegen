@@ -57,25 +57,25 @@ namespace Org::BouncyCastle::Asn1 {
   static_assert(sizeof(DerExternalParser) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerExternalParser*, "Org.BouncyCastle.Asn1", "DerExternalParser");
-// Writing MetadataGetter for method: DerExternalParser::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerExternalParser::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerExternalParser::*)(Org::BouncyCastle::Asn1::Asn1StreamParser*)>(&DerExternalParser::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::DerExternalParser::*)(Org::BouncyCastle::Asn1::Asn1StreamParser*)>(&Org::BouncyCastle::Asn1::DerExternalParser::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerExternalParser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1StreamParser*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerExternalParser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1StreamParser*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerExternalParser::*)(Org::BouncyCastle::Asn1::Asn1StreamParser*)>(&DerExternalParser::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::DerExternalParser::*)(Org::BouncyCastle::Asn1::Asn1StreamParser*)>(&Org::BouncyCastle::Asn1::DerExternalParser::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerExternalParser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1StreamParser*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerExternalParser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1StreamParser*>()});
   }
 };
-// Writing MetadataGetter for method: DerExternalParser::ToAsn1Object
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerExternalParser::ToAsn1Object
 // Il2CppName: ToAsn1Object
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (DerExternalParser::*)()>(&DerExternalParser::ToAsn1Object)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Org::BouncyCastle::Asn1::DerExternalParser::*)()>(&Org::BouncyCastle::Asn1::DerExternalParser::ToAsn1Object)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerExternalParser*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerExternalParser*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

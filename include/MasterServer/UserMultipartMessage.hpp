@@ -57,33 +57,33 @@ namespace MasterServer {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMultipartMessage*, "MasterServer", "UserMultipartMessage");
-// Writing MetadataGetter for method: UserMultipartMessage::get_pool
+// Writing MetadataGetter for method: MasterServer::UserMultipartMessage::get_pool
 // Il2CppName: get_pool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::UserMultipartMessage*>* (*)()>(&UserMultipartMessage::get_pool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::UserMultipartMessage*>* (*)()>(&MasterServer::UserMultipartMessage::get_pool)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserMultipartMessage*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserMultipartMessage*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UserMultipartMessage::Release
+// Writing MetadataGetter for method: MasterServer::UserMultipartMessage::Release
 // Il2CppName: Release
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserMultipartMessage::*)()>(&UserMultipartMessage::Release)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::UserMultipartMessage::*)()>(&MasterServer::UserMultipartMessage::Release)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserMultipartMessage*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserMultipartMessage*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UserMultipartMessage::New_ctor
+// Writing MetadataGetter for method: MasterServer::UserMultipartMessage::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserMultipartMessage::*)()>(&UserMultipartMessage::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::UserMultipartMessage::*)()>(&MasterServer::UserMultipartMessage::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserMultipartMessage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserMultipartMessage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserMultipartMessage::*)()>(&UserMultipartMessage::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::UserMultipartMessage::*)()>(&MasterServer::UserMultipartMessage::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserMultipartMessage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserMultipartMessage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

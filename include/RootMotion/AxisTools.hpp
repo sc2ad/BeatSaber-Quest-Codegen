@@ -68,73 +68,73 @@ namespace RootMotion {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::AxisTools*, "RootMotion", "AxisTools");
-// Writing MetadataGetter for method: AxisTools::ToVector3
+// Writing MetadataGetter for method: RootMotion::AxisTools::ToVector3
 // Il2CppName: ToVector3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(RootMotion::Axis)>(&AxisTools::ToVector3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(RootMotion::Axis)>(&RootMotion::AxisTools::ToVector3)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AxisTools*), "ToVector3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::Axis>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::AxisTools*), "ToVector3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::Axis>()});
   }
 };
-// Writing MetadataGetter for method: AxisTools::ToAxis
+// Writing MetadataGetter for method: RootMotion::AxisTools::ToAxis
 // Il2CppName: ToAxis
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::Axis (*)(UnityEngine::Vector3)>(&AxisTools::ToAxis)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::Axis (*)(UnityEngine::Vector3)>(&RootMotion::AxisTools::ToAxis)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AxisTools*), "ToAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::AxisTools*), "ToAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: AxisTools::GetAxisToPoint
+// Writing MetadataGetter for method: RootMotion::AxisTools::GetAxisToPoint
 // Il2CppName: GetAxisToPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::Axis (*)(UnityEngine::Transform*, UnityEngine::Vector3)>(&AxisTools::GetAxisToPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::Axis (*)(UnityEngine::Transform*, UnityEngine::Vector3)>(&RootMotion::AxisTools::GetAxisToPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AxisTools*), "GetAxisToPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::AxisTools*), "GetAxisToPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: AxisTools::GetAxisToDirection
+// Writing MetadataGetter for method: RootMotion::AxisTools::GetAxisToDirection
 // Il2CppName: GetAxisToDirection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::Axis (*)(UnityEngine::Transform*, UnityEngine::Vector3)>(&AxisTools::GetAxisToDirection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::Axis (*)(UnityEngine::Transform*, UnityEngine::Vector3)>(&RootMotion::AxisTools::GetAxisToDirection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AxisTools*), "GetAxisToDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::AxisTools*), "GetAxisToDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: AxisTools::GetAxisVectorToPoint
+// Writing MetadataGetter for method: RootMotion::AxisTools::GetAxisVectorToPoint
 // Il2CppName: GetAxisVectorToPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Transform*, UnityEngine::Vector3)>(&AxisTools::GetAxisVectorToPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Transform*, UnityEngine::Vector3)>(&RootMotion::AxisTools::GetAxisVectorToPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AxisTools*), "GetAxisVectorToPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::AxisTools*), "GetAxisVectorToPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: AxisTools::GetAxisVectorToDirection
+// Writing MetadataGetter for method: RootMotion::AxisTools::GetAxisVectorToDirection
 // Il2CppName: GetAxisVectorToDirection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Transform*, UnityEngine::Vector3)>(&AxisTools::GetAxisVectorToDirection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Transform*, UnityEngine::Vector3)>(&RootMotion::AxisTools::GetAxisVectorToDirection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AxisTools*), "GetAxisVectorToDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::AxisTools*), "GetAxisVectorToDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: AxisTools::GetAxisVectorToDirection
+// Writing MetadataGetter for method: RootMotion::AxisTools::GetAxisVectorToDirection
 // Il2CppName: GetAxisVectorToDirection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Quaternion, UnityEngine::Vector3)>(&AxisTools::GetAxisVectorToDirection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Quaternion, UnityEngine::Vector3)>(&RootMotion::AxisTools::GetAxisVectorToDirection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AxisTools*), "GetAxisVectorToDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::AxisTools*), "GetAxisVectorToDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: AxisTools::New_ctor
+// Writing MetadataGetter for method: RootMotion::AxisTools::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AxisTools::*)()>(&AxisTools::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::AxisTools::*)()>(&RootMotion::AxisTools::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AxisTools*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::AxisTools*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AxisTools::*)()>(&AxisTools::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::AxisTools::*)()>(&RootMotion::AxisTools::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AxisTools*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::AxisTools*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

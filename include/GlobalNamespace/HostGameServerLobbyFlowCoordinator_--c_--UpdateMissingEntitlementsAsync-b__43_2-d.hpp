@@ -83,19 +83,19 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d, "", "HostGameServerLobbyFlowCoordinator/<>c/<<UpdateMissingEntitlementsAsync>b__43_2>d");
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d::MoveNext
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d::MoveNext
 // Il2CppName: MoveNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d::*)()>(&HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d::MoveNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d::*)()>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d::MoveNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d::SetStateMachine
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d::SetStateMachine
 // Il2CppName: SetStateMachine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d::SetStateMachine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d::SetStateMachine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c::$$UpdateMissingEntitlementsAsync$b__43_2$d), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
   }
 };

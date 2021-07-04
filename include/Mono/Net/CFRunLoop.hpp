@@ -70,97 +70,97 @@ namespace Mono::Net {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFRunLoop*, "Mono.Net", "CFRunLoop");
-// Writing MetadataGetter for method: CFRunLoop::CFRunLoopAddSource
+// Writing MetadataGetter for method: Mono::Net::CFRunLoop::CFRunLoopAddSource
 // Il2CppName: CFRunLoopAddSource
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, System::IntPtr)>(&CFRunLoop::CFRunLoopAddSource)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, System::IntPtr)>(&Mono::Net::CFRunLoop::CFRunLoopAddSource)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CFRunLoop*), "CFRunLoopAddSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFRunLoop*), "CFRunLoopAddSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: CFRunLoop::CFRunLoopRemoveSource
+// Writing MetadataGetter for method: Mono::Net::CFRunLoop::CFRunLoopRemoveSource
 // Il2CppName: CFRunLoopRemoveSource
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, System::IntPtr)>(&CFRunLoop::CFRunLoopRemoveSource)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::IntPtr, System::IntPtr)>(&Mono::Net::CFRunLoop::CFRunLoopRemoveSource)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CFRunLoop*), "CFRunLoopRemoveSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFRunLoop*), "CFRunLoopRemoveSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: CFRunLoop::CFRunLoopRunInMode
+// Writing MetadataGetter for method: Mono::Net::CFRunLoop::CFRunLoopRunInMode
 // Il2CppName: CFRunLoopRunInMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, double, bool)>(&CFRunLoop::CFRunLoopRunInMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, double, bool)>(&Mono::Net::CFRunLoop::CFRunLoopRunInMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CFRunLoop*), "CFRunLoopRunInMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFRunLoop*), "CFRunLoopRunInMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: CFRunLoop::CFRunLoopGetCurrent
+// Writing MetadataGetter for method: Mono::Net::CFRunLoop::CFRunLoopGetCurrent
 // Il2CppName: CFRunLoopGetCurrent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&CFRunLoop::CFRunLoopGetCurrent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&Mono::Net::CFRunLoop::CFRunLoopGetCurrent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CFRunLoop*), "CFRunLoopGetCurrent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFRunLoop*), "CFRunLoopGetCurrent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CFRunLoop::CFRunLoopStop
+// Writing MetadataGetter for method: Mono::Net::CFRunLoop::CFRunLoopStop
 // Il2CppName: CFRunLoopStop
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&CFRunLoop::CFRunLoopStop)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Mono::Net::CFRunLoop::CFRunLoopStop)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CFRunLoop*), "CFRunLoopStop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFRunLoop*), "CFRunLoopStop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: CFRunLoop::get_CurrentRunLoop
+// Writing MetadataGetter for method: Mono::Net::CFRunLoop::get_CurrentRunLoop
 // Il2CppName: get_CurrentRunLoop
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::CFRunLoop* (*)()>(&CFRunLoop::get_CurrentRunLoop)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::CFRunLoop* (*)()>(&Mono::Net::CFRunLoop::get_CurrentRunLoop)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CFRunLoop*), "get_CurrentRunLoop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFRunLoop*), "get_CurrentRunLoop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CFRunLoop::AddSource
+// Writing MetadataGetter for method: Mono::Net::CFRunLoop::AddSource
 // Il2CppName: AddSource
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CFRunLoop::*)(System::IntPtr, Mono::Net::CFString*)>(&CFRunLoop::AddSource)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::CFRunLoop::*)(System::IntPtr, Mono::Net::CFString*)>(&Mono::Net::CFRunLoop::AddSource)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CFRunLoop*), "AddSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Mono::Net::CFString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFRunLoop*), "AddSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Mono::Net::CFString*>()});
   }
 };
-// Writing MetadataGetter for method: CFRunLoop::RemoveSource
+// Writing MetadataGetter for method: Mono::Net::CFRunLoop::RemoveSource
 // Il2CppName: RemoveSource
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CFRunLoop::*)(System::IntPtr, Mono::Net::CFString*)>(&CFRunLoop::RemoveSource)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::CFRunLoop::*)(System::IntPtr, Mono::Net::CFString*)>(&Mono::Net::CFRunLoop::RemoveSource)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CFRunLoop*), "RemoveSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Mono::Net::CFString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFRunLoop*), "RemoveSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Mono::Net::CFString*>()});
   }
 };
-// Writing MetadataGetter for method: CFRunLoop::RunInMode
+// Writing MetadataGetter for method: Mono::Net::CFRunLoop::RunInMode
 // Il2CppName: RunInMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CFRunLoop::*)(Mono::Net::CFString*, double, bool)>(&CFRunLoop::RunInMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Net::CFRunLoop::*)(Mono::Net::CFString*, double, bool)>(&Mono::Net::CFRunLoop::RunInMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CFRunLoop*), "RunInMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::CFString*>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFRunLoop*), "RunInMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::CFString*>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: CFRunLoop::Stop
+// Writing MetadataGetter for method: Mono::Net::CFRunLoop::Stop
 // Il2CppName: Stop
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CFRunLoop::*)()>(&CFRunLoop::Stop)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::CFRunLoop::*)()>(&Mono::Net::CFRunLoop::Stop)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CFRunLoop*), "Stop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFRunLoop*), "Stop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CFRunLoop::New_ctor
+// Writing MetadataGetter for method: Mono::Net::CFRunLoop::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CFRunLoop::*)(System::IntPtr, bool)>(&CFRunLoop::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::CFRunLoop::*)(System::IntPtr, bool)>(&Mono::Net::CFRunLoop::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CFRunLoop*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFRunLoop*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CFRunLoop::*)(System::IntPtr, bool)>(&CFRunLoop::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::CFRunLoop::*)(System::IntPtr, bool)>(&Mono::Net::CFRunLoop::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CFRunLoop*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFRunLoop*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };

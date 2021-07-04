@@ -143,129 +143,129 @@ namespace GlobalNamespace {
   static_assert(sizeof(NetEaseManager) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseManager*, "", "NetEaseManager");
-// Writing MetadataGetter for method: NetEaseManager::get_supportsLeaderboards
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseManager::get_supportsLeaderboards
 // Il2CppName: get_supportsLeaderboards
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetEaseManager::*)()>(&NetEaseManager::get_supportsLeaderboards)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::NetEaseManager::*)()>(&GlobalNamespace::NetEaseManager::get_supportsLeaderboards)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseManager*), "get_supportsLeaderboards", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseManager*), "get_supportsLeaderboards", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetEaseManager::get_userName
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseManager::get_userName
 // Il2CppName: get_userName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NetEaseManager::*)()>(&NetEaseManager::get_userName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::NetEaseManager::*)()>(&GlobalNamespace::NetEaseManager::get_userName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseManager*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseManager*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetEaseManager::Awake
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseManager::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseManager::*)()>(&NetEaseManager::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetEaseManager::*)()>(&GlobalNamespace::NetEaseManager::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseManager*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseManager*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetEaseManager::Update
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseManager::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseManager::*)()>(&NetEaseManager::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetEaseManager::*)()>(&GlobalNamespace::NetEaseManager::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetEaseManager::InitAsync
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseManager::InitAsync
 // Il2CppName: InitAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<NetEase::Docker::InitializeData>* (NetEaseManager::*)()>(&NetEaseManager::InitAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<NetEase::Docker::InitializeData>* (GlobalNamespace::NetEaseManager::*)()>(&GlobalNamespace::NetEaseManager::InitAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseManager*), "InitAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseManager*), "InitAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetEaseManager::HandleDidInitialize
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseManager::HandleDidInitialize
 // Il2CppName: HandleDidInitialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseManager::*)(NetEase::Docker::InitializeData)>(&NetEaseManager::HandleDidInitialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetEaseManager::*)(NetEase::Docker::InitializeData)>(&GlobalNamespace::NetEaseManager::HandleDidInitialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseManager*), "HandleDidInitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NetEase::Docker::InitializeData>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseManager*), "HandleDidInitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NetEase::Docker::InitializeData>()});
   }
 };
-// Writing MetadataGetter for method: NetEaseManager::LoginAsync
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseManager::LoginAsync
 // Il2CppName: LoginAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<NetEase::Docker::LoginData>* (NetEaseManager::*)()>(&NetEaseManager::LoginAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<NetEase::Docker::LoginData>* (GlobalNamespace::NetEaseManager::*)()>(&GlobalNamespace::NetEaseManager::LoginAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseManager*), "LoginAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseManager*), "LoginAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetEaseManager::HandleDidLogin
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseManager::HandleDidLogin
 // Il2CppName: HandleDidLogin
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseManager::*)(NetEase::Docker::LoginData)>(&NetEaseManager::HandleDidLogin)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetEaseManager::*)(NetEase::Docker::LoginData)>(&GlobalNamespace::NetEaseManager::HandleDidLogin)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseManager*), "HandleDidLogin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NetEase::Docker::LoginData>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseManager*), "HandleDidLogin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NetEase::Docker::LoginData>()});
   }
 };
-// Writing MetadataGetter for method: NetEaseManager::LogoutAsync
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseManager::LogoutAsync
 // Il2CppName: LogoutAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<NetEase::Docker::LogoutData>* (NetEaseManager::*)()>(&NetEaseManager::LogoutAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<NetEase::Docker::LogoutData>* (GlobalNamespace::NetEaseManager::*)()>(&GlobalNamespace::NetEaseManager::LogoutAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseManager*), "LogoutAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseManager*), "LogoutAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetEaseManager::HandleDidLogout
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseManager::HandleDidLogout
 // Il2CppName: HandleDidLogout
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseManager::*)(NetEase::Docker::LogoutData)>(&NetEaseManager::HandleDidLogout)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetEaseManager::*)(NetEase::Docker::LogoutData)>(&GlobalNamespace::NetEaseManager::HandleDidLogout)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseManager*), "HandleDidLogout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NetEase::Docker::LogoutData>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseManager*), "HandleDidLogout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NetEase::Docker::LogoutData>()});
   }
 };
-// Writing MetadataGetter for method: NetEaseManager::RequestHighscoreDataAsync
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseManager::RequestHighscoreDataAsync
 // Il2CppName: RequestHighscoreDataAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<NetEase::Docker::ReceivedHighscoreData>* (NetEaseManager::*)(::Il2CppString*)>(&NetEaseManager::RequestHighscoreDataAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<NetEase::Docker::ReceivedHighscoreData>* (GlobalNamespace::NetEaseManager::*)(::Il2CppString*)>(&GlobalNamespace::NetEaseManager::RequestHighscoreDataAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseManager*), "RequestHighscoreDataAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseManager*), "RequestHighscoreDataAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: NetEaseManager::HandleDidReceiveHighscore
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseManager::HandleDidReceiveHighscore
 // Il2CppName: HandleDidReceiveHighscore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseManager::*)(NetEase::Docker::ReceivedHighscoreData)>(&NetEaseManager::HandleDidReceiveHighscore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetEaseManager::*)(NetEase::Docker::ReceivedHighscoreData)>(&GlobalNamespace::NetEaseManager::HandleDidReceiveHighscore)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseManager*), "HandleDidReceiveHighscore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NetEase::Docker::ReceivedHighscoreData>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseManager*), "HandleDidReceiveHighscore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NetEase::Docker::ReceivedHighscoreData>()});
   }
 };
-// Writing MetadataGetter for method: NetEaseManager::UploadHighscore
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseManager::UploadHighscore
 // Il2CppName: UploadHighscore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseManager::*)(::Il2CppString*, int)>(&NetEaseManager::UploadHighscore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetEaseManager::*)(::Il2CppString*, int)>(&GlobalNamespace::NetEaseManager::UploadHighscore)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseManager*), "UploadHighscore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseManager*), "UploadHighscore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: NetEaseManager::Log
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseManager::Log
 // Il2CppName: Log
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&NetEaseManager::Log)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&GlobalNamespace::NetEaseManager::Log)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseManager*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseManager*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: NetEaseManager::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseManager::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseManager::*)()>(&NetEaseManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetEaseManager::*)()>(&GlobalNamespace::NetEaseManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseManager::*)()>(&NetEaseManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetEaseManager::*)()>(&GlobalNamespace::NetEaseManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

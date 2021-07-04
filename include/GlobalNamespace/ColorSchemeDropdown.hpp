@@ -156,97 +156,97 @@ namespace GlobalNamespace {
   static_assert(sizeof(ColorSchemeDropdown) == 0x79);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeDropdown*, "", "ColorSchemeDropdown");
-// Writing MetadataGetter for method: ColorSchemeDropdown::LazyInit
+// Writing MetadataGetter for method: GlobalNamespace::ColorSchemeDropdown::LazyInit
 // Il2CppName: LazyInit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeDropdown::*)()>(&ColorSchemeDropdown::LazyInit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorSchemeDropdown::*)()>(&GlobalNamespace::ColorSchemeDropdown::LazyInit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorSchemeDropdown*), "LazyInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeDropdown*), "LazyInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ColorSchemeDropdown::SetData
+// Writing MetadataGetter for method: GlobalNamespace::ColorSchemeDropdown::SetData
 // Il2CppName: SetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeDropdown::*)(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::ColorScheme*>*)>(&ColorSchemeDropdown::SetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorSchemeDropdown::*)(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::ColorScheme*>*)>(&GlobalNamespace::ColorSchemeDropdown::SetData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorSchemeDropdown*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::ColorScheme*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeDropdown*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::ColorScheme*>*>()});
   }
 };
-// Writing MetadataGetter for method: ColorSchemeDropdown::CellSize
+// Writing MetadataGetter for method: GlobalNamespace::ColorSchemeDropdown::CellSize
 // Il2CppName: CellSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (ColorSchemeDropdown::*)()>(&ColorSchemeDropdown::CellSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ColorSchemeDropdown::*)()>(&GlobalNamespace::ColorSchemeDropdown::CellSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorSchemeDropdown*), "CellSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeDropdown*), "CellSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ColorSchemeDropdown::NumberOfCells
+// Writing MetadataGetter for method: GlobalNamespace::ColorSchemeDropdown::NumberOfCells
 // Il2CppName: NumberOfCells
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ColorSchemeDropdown::*)()>(&ColorSchemeDropdown::NumberOfCells)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::ColorSchemeDropdown::*)()>(&GlobalNamespace::ColorSchemeDropdown::NumberOfCells)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorSchemeDropdown*), "NumberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeDropdown*), "NumberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ColorSchemeDropdown::CellForIdx
+// Writing MetadataGetter for method: GlobalNamespace::ColorSchemeDropdown::CellForIdx
 // Il2CppName: CellForIdx
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (ColorSchemeDropdown::*)(HMUI::TableView*, int)>(&ColorSchemeDropdown::CellForIdx)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (GlobalNamespace::ColorSchemeDropdown::*)(HMUI::TableView*, int)>(&GlobalNamespace::ColorSchemeDropdown::CellForIdx)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorSchemeDropdown*), "CellForIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeDropdown*), "CellForIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ColorSchemeDropdown::HandleDidSelectCellWithIdx
+// Writing MetadataGetter for method: GlobalNamespace::ColorSchemeDropdown::HandleDidSelectCellWithIdx
 // Il2CppName: HandleDidSelectCellWithIdx
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeDropdown::*)(HMUI::DropdownWithTableView*, int)>(&ColorSchemeDropdown::HandleDidSelectCellWithIdx)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorSchemeDropdown::*)(HMUI::DropdownWithTableView*, int)>(&GlobalNamespace::ColorSchemeDropdown::HandleDidSelectCellWithIdx)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorSchemeDropdown*), "HandleDidSelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::DropdownWithTableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeDropdown*), "HandleDidSelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::DropdownWithTableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ColorSchemeDropdown::RefreshUI
+// Writing MetadataGetter for method: GlobalNamespace::ColorSchemeDropdown::RefreshUI
 // Il2CppName: RefreshUI
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeDropdown::*)(GlobalNamespace::ColorScheme*)>(&ColorSchemeDropdown::RefreshUI)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorSchemeDropdown::*)(GlobalNamespace::ColorScheme*)>(&GlobalNamespace::ColorSchemeDropdown::RefreshUI)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorSchemeDropdown*), "RefreshUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorScheme*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeDropdown*), "RefreshUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorScheme*>()});
   }
 };
-// Writing MetadataGetter for method: ColorSchemeDropdown::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::ColorSchemeDropdown::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeDropdown::*)()>(&ColorSchemeDropdown::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorSchemeDropdown::*)()>(&GlobalNamespace::ColorSchemeDropdown::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorSchemeDropdown*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeDropdown*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ColorSchemeDropdown::Init
+// Writing MetadataGetter for method: GlobalNamespace::ColorSchemeDropdown::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeDropdown::*)(HMUI::TableView::IDataSource*)>(&ColorSchemeDropdown::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorSchemeDropdown::*)(HMUI::TableView::IDataSource*)>(&GlobalNamespace::ColorSchemeDropdown::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorSchemeDropdown*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableView::IDataSource*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeDropdown*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableView::IDataSource*>()});
   }
 };
-// Writing MetadataGetter for method: ColorSchemeDropdown::SelectCellWithIdx
+// Writing MetadataGetter for method: GlobalNamespace::ColorSchemeDropdown::SelectCellWithIdx
 // Il2CppName: SelectCellWithIdx
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeDropdown::*)(int)>(&ColorSchemeDropdown::SelectCellWithIdx)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorSchemeDropdown::*)(int)>(&GlobalNamespace::ColorSchemeDropdown::SelectCellWithIdx)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorSchemeDropdown*), "SelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeDropdown*), "SelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ColorSchemeDropdown::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::ColorSchemeDropdown::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeDropdown::*)()>(&ColorSchemeDropdown::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorSchemeDropdown::*)()>(&GlobalNamespace::ColorSchemeDropdown::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorSchemeDropdown*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeDropdown*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorSchemeDropdown::*)()>(&ColorSchemeDropdown::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorSchemeDropdown::*)()>(&GlobalNamespace::ColorSchemeDropdown::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorSchemeDropdown*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeDropdown*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -56,41 +56,41 @@ namespace HMUI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::AnimatedSwitchView::GetColorDelegate*, "HMUI", "AnimatedSwitchView/GetColorDelegate");
-// Writing MetadataGetter for method: AnimatedSwitchView::GetColorDelegate::New_ctor
+// Writing MetadataGetter for method: HMUI::AnimatedSwitchView::GetColorDelegate::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimatedSwitchView::GetColorDelegate::*)(::Il2CppObject*, System::IntPtr)>(&AnimatedSwitchView::GetColorDelegate::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::AnimatedSwitchView::GetColorDelegate::*)(::Il2CppObject*, System::IntPtr)>(&HMUI::AnimatedSwitchView::GetColorDelegate::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimatedSwitchView::GetColorDelegate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView::GetColorDelegate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimatedSwitchView::GetColorDelegate::*)(::Il2CppObject*, System::IntPtr)>(&AnimatedSwitchView::GetColorDelegate::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::AnimatedSwitchView::GetColorDelegate::*)(::Il2CppObject*, System::IntPtr)>(&HMUI::AnimatedSwitchView::GetColorDelegate::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimatedSwitchView::GetColorDelegate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView::GetColorDelegate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: AnimatedSwitchView::GetColorDelegate::Invoke
+// Writing MetadataGetter for method: HMUI::AnimatedSwitchView::GetColorDelegate::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (AnimatedSwitchView::GetColorDelegate::*)(HMUI::AnimatedSwitchView::ColorBlock*)>(&AnimatedSwitchView::GetColorDelegate::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (HMUI::AnimatedSwitchView::GetColorDelegate::*)(HMUI::AnimatedSwitchView::ColorBlock*)>(&HMUI::AnimatedSwitchView::GetColorDelegate::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimatedSwitchView::GetColorDelegate*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::AnimatedSwitchView::ColorBlock*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView::GetColorDelegate*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::AnimatedSwitchView::ColorBlock*>()});
   }
 };
-// Writing MetadataGetter for method: AnimatedSwitchView::GetColorDelegate::BeginInvoke
+// Writing MetadataGetter for method: HMUI::AnimatedSwitchView::GetColorDelegate::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (AnimatedSwitchView::GetColorDelegate::*)(HMUI::AnimatedSwitchView::ColorBlock*, System::AsyncCallback*, ::Il2CppObject*)>(&AnimatedSwitchView::GetColorDelegate::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (HMUI::AnimatedSwitchView::GetColorDelegate::*)(HMUI::AnimatedSwitchView::ColorBlock*, System::AsyncCallback*, ::Il2CppObject*)>(&HMUI::AnimatedSwitchView::GetColorDelegate::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimatedSwitchView::GetColorDelegate*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::AnimatedSwitchView::ColorBlock*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView::GetColorDelegate*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::AnimatedSwitchView::ColorBlock*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: AnimatedSwitchView::GetColorDelegate::EndInvoke
+// Writing MetadataGetter for method: HMUI::AnimatedSwitchView::GetColorDelegate::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (AnimatedSwitchView::GetColorDelegate::*)(System::IAsyncResult*)>(&AnimatedSwitchView::GetColorDelegate::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (HMUI::AnimatedSwitchView::GetColorDelegate::*)(System::IAsyncResult*)>(&HMUI::AnimatedSwitchView::GetColorDelegate::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimatedSwitchView::GetColorDelegate*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView::GetColorDelegate*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

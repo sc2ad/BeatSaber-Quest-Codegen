@@ -57,33 +57,33 @@ namespace UnityEngine::EventSystems {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::ExecuteEvents::$$c*, "UnityEngine.EventSystems", "ExecuteEvents/<>c");
-// Writing MetadataGetter for method: ExecuteEvents::$$c::_cctor
+// Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::$$c::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ExecuteEvents::$$c::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::EventSystems::ExecuteEvents::$$c::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::ExecuteEvents::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ExecuteEvents::$$c::$_cctor$b__79_0
+// Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::$$c::$_cctor$b__79_0
 // Il2CppName: <.cctor>b__79_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExecuteEvents::$$c::*)(System::Collections::Generic::List_1<UnityEngine::EventSystems::IEventSystemHandler*>*)>(&ExecuteEvents::$$c::$_cctor$b__79_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::ExecuteEvents::$$c::*)(System::Collections::Generic::List_1<UnityEngine::EventSystems::IEventSystemHandler*>*)>(&UnityEngine::EventSystems::ExecuteEvents::$$c::$_cctor$b__79_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents::$$c*), "<.cctor>b__79_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::EventSystems::IEventSystemHandler*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::ExecuteEvents::$$c*), "<.cctor>b__79_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::EventSystems::IEventSystemHandler*>*>()});
   }
 };
-// Writing MetadataGetter for method: ExecuteEvents::$$c::New_ctor
+// Writing MetadataGetter for method: UnityEngine::EventSystems::ExecuteEvents::$$c::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExecuteEvents::$$c::*)()>(&ExecuteEvents::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::ExecuteEvents::$$c::*)()>(&UnityEngine::EventSystems::ExecuteEvents::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::ExecuteEvents::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExecuteEvents::$$c::*)()>(&ExecuteEvents::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::ExecuteEvents::$$c::*)()>(&UnityEngine::EventSystems::ExecuteEvents::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ExecuteEvents::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::ExecuteEvents::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

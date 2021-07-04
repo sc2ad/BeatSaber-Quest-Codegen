@@ -105,57 +105,57 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteJumpStartScaleUp) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteJumpStartScaleUp*, "", "NoteJumpStartScaleUp");
-// Writing MetadataGetter for method: NoteJumpStartScaleUp::Awake
+// Writing MetadataGetter for method: GlobalNamespace::NoteJumpStartScaleUp::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteJumpStartScaleUp::*)()>(&NoteJumpStartScaleUp::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteJumpStartScaleUp::*)()>(&GlobalNamespace::NoteJumpStartScaleUp::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteJumpStartScaleUp*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJumpStartScaleUp*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NoteJumpStartScaleUp::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::NoteJumpStartScaleUp::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteJumpStartScaleUp::*)()>(&NoteJumpStartScaleUp::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteJumpStartScaleUp::*)()>(&GlobalNamespace::NoteJumpStartScaleUp::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteJumpStartScaleUp*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJumpStartScaleUp*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NoteJumpStartScaleUp::UpdateScale
+// Writing MetadataGetter for method: GlobalNamespace::NoteJumpStartScaleUp::UpdateScale
 // Il2CppName: UpdateScale
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteJumpStartScaleUp::*)(float)>(&NoteJumpStartScaleUp::UpdateScale)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteJumpStartScaleUp::*)(float)>(&GlobalNamespace::NoteJumpStartScaleUp::UpdateScale)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteJumpStartScaleUp*), "UpdateScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJumpStartScaleUp*), "UpdateScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: NoteJumpStartScaleUp::HandleNoteJumpDidUpdateProgress
+// Writing MetadataGetter for method: GlobalNamespace::NoteJumpStartScaleUp::HandleNoteJumpDidUpdateProgress
 // Il2CppName: HandleNoteJumpDidUpdateProgress
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteJumpStartScaleUp::*)(float)>(&NoteJumpStartScaleUp::HandleNoteJumpDidUpdateProgress)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteJumpStartScaleUp::*)(float)>(&GlobalNamespace::NoteJumpStartScaleUp::HandleNoteJumpDidUpdateProgress)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteJumpStartScaleUp*), "HandleNoteJumpDidUpdateProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJumpStartScaleUp*), "HandleNoteJumpDidUpdateProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: NoteJumpStartScaleUp::HandleNoteControllerDidInit
+// Writing MetadataGetter for method: GlobalNamespace::NoteJumpStartScaleUp::HandleNoteControllerDidInit
 // Il2CppName: HandleNoteControllerDidInit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteJumpStartScaleUp::*)(GlobalNamespace::NoteControllerBase*)>(&NoteJumpStartScaleUp::HandleNoteControllerDidInit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteJumpStartScaleUp::*)(GlobalNamespace::NoteControllerBase*)>(&GlobalNamespace::NoteJumpStartScaleUp::HandleNoteControllerDidInit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteJumpStartScaleUp*), "HandleNoteControllerDidInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteControllerBase*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJumpStartScaleUp*), "HandleNoteControllerDidInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteControllerBase*>()});
   }
 };
-// Writing MetadataGetter for method: NoteJumpStartScaleUp::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::NoteJumpStartScaleUp::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteJumpStartScaleUp::*)()>(&NoteJumpStartScaleUp::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteJumpStartScaleUp::*)()>(&GlobalNamespace::NoteJumpStartScaleUp::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteJumpStartScaleUp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJumpStartScaleUp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteJumpStartScaleUp::*)()>(&NoteJumpStartScaleUp::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteJumpStartScaleUp::*)()>(&GlobalNamespace::NoteJumpStartScaleUp::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteJumpStartScaleUp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJumpStartScaleUp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

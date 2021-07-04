@@ -93,113 +93,113 @@ namespace OVR::OpenVR {
   static_assert(sizeof(CVRSettings) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRSettings*, "OVR.OpenVR", "CVRSettings");
-// Writing MetadataGetter for method: CVRSettings::New_ctor
+// Writing MetadataGetter for method: OVR::OpenVR::CVRSettings::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSettings::*)(System::IntPtr)>(&CVRSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRSettings::*)(System::IntPtr)>(&OVR::OpenVR::CVRSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSettings::*)(System::IntPtr)>(&CVRSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRSettings::*)(System::IntPtr)>(&OVR::OpenVR::CVRSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: CVRSettings::GetSettingsErrorNameFromEnum
+// Writing MetadataGetter for method: OVR::OpenVR::CVRSettings::GetSettingsErrorNameFromEnum
 // Il2CppName: GetSettingsErrorNameFromEnum
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CVRSettings::*)(OVR::OpenVR::EVRSettingsError)>(&CVRSettings::GetSettingsErrorNameFromEnum)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OVR::OpenVR::CVRSettings::*)(OVR::OpenVR::EVRSettingsError)>(&OVR::OpenVR::CVRSettings::GetSettingsErrorNameFromEnum)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRSettings*), "GetSettingsErrorNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSettingsError>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSettings*), "GetSettingsErrorNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSettingsError>()});
   }
 };
-// Writing MetadataGetter for method: CVRSettings::Sync
+// Writing MetadataGetter for method: OVR::OpenVR::CVRSettings::Sync
 // Il2CppName: Sync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRSettings::*)(bool, OVR::OpenVR::EVRSettingsError&)>(&CVRSettings::Sync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRSettings::*)(bool, OVR::OpenVR::EVRSettingsError&)>(&OVR::OpenVR::CVRSettings::Sync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRSettings*), "Sync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSettingsError&>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSettings*), "Sync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSettingsError&>()});
   }
 };
-// Writing MetadataGetter for method: CVRSettings::SetBool
+// Writing MetadataGetter for method: OVR::OpenVR::CVRSettings::SetBool
 // Il2CppName: SetBool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSettings::*)(::Il2CppString*, ::Il2CppString*, bool, OVR::OpenVR::EVRSettingsError&)>(&CVRSettings::SetBool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRSettings::*)(::Il2CppString*, ::Il2CppString*, bool, OVR::OpenVR::EVRSettingsError&)>(&OVR::OpenVR::CVRSettings::SetBool)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRSettings*), "SetBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSettingsError&>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSettings*), "SetBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSettingsError&>()});
   }
 };
-// Writing MetadataGetter for method: CVRSettings::SetInt32
+// Writing MetadataGetter for method: OVR::OpenVR::CVRSettings::SetInt32
 // Il2CppName: SetInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSettings::*)(::Il2CppString*, ::Il2CppString*, int, OVR::OpenVR::EVRSettingsError&)>(&CVRSettings::SetInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRSettings::*)(::Il2CppString*, ::Il2CppString*, int, OVR::OpenVR::EVRSettingsError&)>(&OVR::OpenVR::CVRSettings::SetInt32)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRSettings*), "SetInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSettingsError&>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSettings*), "SetInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSettingsError&>()});
   }
 };
-// Writing MetadataGetter for method: CVRSettings::SetFloat
+// Writing MetadataGetter for method: OVR::OpenVR::CVRSettings::SetFloat
 // Il2CppName: SetFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSettings::*)(::Il2CppString*, ::Il2CppString*, float, OVR::OpenVR::EVRSettingsError&)>(&CVRSettings::SetFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRSettings::*)(::Il2CppString*, ::Il2CppString*, float, OVR::OpenVR::EVRSettingsError&)>(&OVR::OpenVR::CVRSettings::SetFloat)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRSettings*), "SetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSettingsError&>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSettings*), "SetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSettingsError&>()});
   }
 };
-// Writing MetadataGetter for method: CVRSettings::SetString
+// Writing MetadataGetter for method: OVR::OpenVR::CVRSettings::SetString
 // Il2CppName: SetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSettings::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, OVR::OpenVR::EVRSettingsError&)>(&CVRSettings::SetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRSettings::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, OVR::OpenVR::EVRSettingsError&)>(&OVR::OpenVR::CVRSettings::SetString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRSettings*), "SetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSettingsError&>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSettings*), "SetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSettingsError&>()});
   }
 };
-// Writing MetadataGetter for method: CVRSettings::GetBool
+// Writing MetadataGetter for method: OVR::OpenVR::CVRSettings::GetBool
 // Il2CppName: GetBool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRSettings::*)(::Il2CppString*, ::Il2CppString*, OVR::OpenVR::EVRSettingsError&)>(&CVRSettings::GetBool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRSettings::*)(::Il2CppString*, ::Il2CppString*, OVR::OpenVR::EVRSettingsError&)>(&OVR::OpenVR::CVRSettings::GetBool)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRSettings*), "GetBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSettingsError&>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSettings*), "GetBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSettingsError&>()});
   }
 };
-// Writing MetadataGetter for method: CVRSettings::GetInt32
+// Writing MetadataGetter for method: OVR::OpenVR::CVRSettings::GetInt32
 // Il2CppName: GetInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CVRSettings::*)(::Il2CppString*, ::Il2CppString*, OVR::OpenVR::EVRSettingsError&)>(&CVRSettings::GetInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OVR::OpenVR::CVRSettings::*)(::Il2CppString*, ::Il2CppString*, OVR::OpenVR::EVRSettingsError&)>(&OVR::OpenVR::CVRSettings::GetInt32)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRSettings*), "GetInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSettingsError&>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSettings*), "GetInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSettingsError&>()});
   }
 };
-// Writing MetadataGetter for method: CVRSettings::GetFloat
+// Writing MetadataGetter for method: OVR::OpenVR::CVRSettings::GetFloat
 // Il2CppName: GetFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (CVRSettings::*)(::Il2CppString*, ::Il2CppString*, OVR::OpenVR::EVRSettingsError&)>(&CVRSettings::GetFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVR::OpenVR::CVRSettings::*)(::Il2CppString*, ::Il2CppString*, OVR::OpenVR::EVRSettingsError&)>(&OVR::OpenVR::CVRSettings::GetFloat)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRSettings*), "GetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSettingsError&>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSettings*), "GetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSettingsError&>()});
   }
 };
-// Writing MetadataGetter for method: CVRSettings::GetString
+// Writing MetadataGetter for method: OVR::OpenVR::CVRSettings::GetString
 // Il2CppName: GetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSettings::*)(::Il2CppString*, ::Il2CppString*, System::Text::StringBuilder*, uint, OVR::OpenVR::EVRSettingsError&)>(&CVRSettings::GetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRSettings::*)(::Il2CppString*, ::Il2CppString*, System::Text::StringBuilder*, uint, OVR::OpenVR::EVRSettingsError&)>(&OVR::OpenVR::CVRSettings::GetString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRSettings*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSettingsError&>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSettings*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSettingsError&>()});
   }
 };
-// Writing MetadataGetter for method: CVRSettings::RemoveSection
+// Writing MetadataGetter for method: OVR::OpenVR::CVRSettings::RemoveSection
 // Il2CppName: RemoveSection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSettings::*)(::Il2CppString*, OVR::OpenVR::EVRSettingsError&)>(&CVRSettings::RemoveSection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRSettings::*)(::Il2CppString*, OVR::OpenVR::EVRSettingsError&)>(&OVR::OpenVR::CVRSettings::RemoveSection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRSettings*), "RemoveSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSettingsError&>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSettings*), "RemoveSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSettingsError&>()});
   }
 };
-// Writing MetadataGetter for method: CVRSettings::RemoveKeyInSection
+// Writing MetadataGetter for method: OVR::OpenVR::CVRSettings::RemoveKeyInSection
 // Il2CppName: RemoveKeyInSection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSettings::*)(::Il2CppString*, ::Il2CppString*, OVR::OpenVR::EVRSettingsError&)>(&CVRSettings::RemoveKeyInSection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRSettings::*)(::Il2CppString*, ::Il2CppString*, OVR::OpenVR::EVRSettingsError&)>(&OVR::OpenVR::CVRSettings::RemoveKeyInSection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRSettings*), "RemoveKeyInSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSettingsError&>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSettings*), "RemoveKeyInSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSettingsError&>()});
   }
 };

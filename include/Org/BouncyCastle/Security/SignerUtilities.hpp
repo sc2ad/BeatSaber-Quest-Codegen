@@ -53,27 +53,27 @@ namespace Org::BouncyCastle::Security {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::SignerUtilities*, "Org.BouncyCastle.Security", "SignerUtilities");
-// Writing MetadataGetter for method: SignerUtilities::_cctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Security::SignerUtilities::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SignerUtilities::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::Security::SignerUtilities::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignerUtilities*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::SignerUtilities*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SignerUtilities::GetSigner
+// Writing MetadataGetter for method: Org::BouncyCastle::Security::SignerUtilities::GetSigner
 // Il2CppName: GetSigner
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::ISigner* (*)(::Il2CppString*)>(&SignerUtilities::GetSigner)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::ISigner* (*)(::Il2CppString*)>(&Org::BouncyCastle::Security::SignerUtilities::GetSigner)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignerUtilities*), "GetSigner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::SignerUtilities*), "GetSigner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: SignerUtilities::GetEncodingName
+// Writing MetadataGetter for method: Org::BouncyCastle::Security::SignerUtilities::GetEncodingName
 // Il2CppName: GetEncodingName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&SignerUtilities::GetEncodingName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&Org::BouncyCastle::Security::SignerUtilities::GetEncodingName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignerUtilities*), "GetEncodingName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::SignerUtilities*), "GetEncodingName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>()});
   }
 };

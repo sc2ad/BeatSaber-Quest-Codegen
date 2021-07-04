@@ -106,123 +106,123 @@ namespace UnityEngine::SceneManagement {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SceneManagement::Scene, "UnityEngine.SceneManagement", "Scene");
-// Writing MetadataGetter for method: Scene::IsValidInternal
+// Writing MetadataGetter for method: UnityEngine::SceneManagement::Scene::IsValidInternal
 // Il2CppName: IsValidInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&Scene::IsValidInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&UnityEngine::SceneManagement::Scene::IsValidInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scene), "IsValidInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::Scene), "IsValidInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Scene::GetNameInternal
+// Writing MetadataGetter for method: UnityEngine::SceneManagement::Scene::GetNameInternal
 // Il2CppName: GetNameInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&Scene::GetNameInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&UnityEngine::SceneManagement::Scene::GetNameInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scene), "GetNameInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::Scene), "GetNameInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Scene::GetIsLoadedInternal
+// Writing MetadataGetter for method: UnityEngine::SceneManagement::Scene::GetIsLoadedInternal
 // Il2CppName: GetIsLoadedInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&Scene::GetIsLoadedInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&UnityEngine::SceneManagement::Scene::GetIsLoadedInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scene), "GetIsLoadedInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::Scene), "GetIsLoadedInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Scene::GetRootCountInternal
+// Writing MetadataGetter for method: UnityEngine::SceneManagement::Scene::GetRootCountInternal
 // Il2CppName: GetRootCountInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&Scene::GetRootCountInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&UnityEngine::SceneManagement::Scene::GetRootCountInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scene), "GetRootCountInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::Scene), "GetRootCountInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Scene::GetRootGameObjectsInternal
+// Writing MetadataGetter for method: UnityEngine::SceneManagement::Scene::GetRootGameObjectsInternal
 // Il2CppName: GetRootGameObjectsInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Il2CppObject*)>(&Scene::GetRootGameObjectsInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Il2CppObject*)>(&UnityEngine::SceneManagement::Scene::GetRootGameObjectsInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scene), "GetRootGameObjectsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::Scene), "GetRootGameObjectsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Scene::get_handle
+// Writing MetadataGetter for method: UnityEngine::SceneManagement::Scene::get_handle
 // Il2CppName: get_handle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Scene::*)()>(&Scene::get_handle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::SceneManagement::Scene::*)()>(&UnityEngine::SceneManagement::Scene::get_handle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scene), "get_handle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::Scene), "get_handle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scene::IsValid
+// Writing MetadataGetter for method: UnityEngine::SceneManagement::Scene::IsValid
 // Il2CppName: IsValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Scene::*)()>(&Scene::IsValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::SceneManagement::Scene::*)()>(&UnityEngine::SceneManagement::Scene::IsValid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scene), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::Scene), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scene::get_name
+// Writing MetadataGetter for method: UnityEngine::SceneManagement::Scene::get_name
 // Il2CppName: get_name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Scene::*)()>(&Scene::get_name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::SceneManagement::Scene::*)()>(&UnityEngine::SceneManagement::Scene::get_name)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scene), "get_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::Scene), "get_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scene::get_isLoaded
+// Writing MetadataGetter for method: UnityEngine::SceneManagement::Scene::get_isLoaded
 // Il2CppName: get_isLoaded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Scene::*)()>(&Scene::get_isLoaded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::SceneManagement::Scene::*)()>(&UnityEngine::SceneManagement::Scene::get_isLoaded)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scene), "get_isLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::Scene), "get_isLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scene::get_rootCount
+// Writing MetadataGetter for method: UnityEngine::SceneManagement::Scene::get_rootCount
 // Il2CppName: get_rootCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Scene::*)()>(&Scene::get_rootCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::SceneManagement::Scene::*)()>(&UnityEngine::SceneManagement::Scene::get_rootCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scene), "get_rootCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::Scene), "get_rootCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scene::GetRootGameObjects
+// Writing MetadataGetter for method: UnityEngine::SceneManagement::Scene::GetRootGameObjects
 // Il2CppName: GetRootGameObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::GameObject*>* (Scene::*)()>(&Scene::GetRootGameObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::GameObject*>* (UnityEngine::SceneManagement::Scene::*)()>(&UnityEngine::SceneManagement::Scene::GetRootGameObjects)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scene), "GetRootGameObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::Scene), "GetRootGameObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scene::GetRootGameObjects
+// Writing MetadataGetter for method: UnityEngine::SceneManagement::Scene::GetRootGameObjects
 // Il2CppName: GetRootGameObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scene::*)(System::Collections::Generic::List_1<UnityEngine::GameObject*>*)>(&Scene::GetRootGameObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::SceneManagement::Scene::*)(System::Collections::Generic::List_1<UnityEngine::GameObject*>*)>(&UnityEngine::SceneManagement::Scene::GetRootGameObjects)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scene), "GetRootGameObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::GameObject*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::Scene), "GetRootGameObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::GameObject*>*>()});
   }
 };
-// Writing MetadataGetter for method: Scene::GetHashCode
+// Writing MetadataGetter for method: UnityEngine::SceneManagement::Scene::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Scene::*)()>(&Scene::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::SceneManagement::Scene::*)()>(&UnityEngine::SceneManagement::Scene::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scene), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::Scene), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scene::Equals
+// Writing MetadataGetter for method: UnityEngine::SceneManagement::Scene::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Scene::*)(::Il2CppObject*)>(&Scene::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::SceneManagement::Scene::*)(::Il2CppObject*)>(&UnityEngine::SceneManagement::Scene::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scene), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::Scene), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Scene::operator ==
+// Writing MetadataGetter for method: UnityEngine::SceneManagement::Scene::operator ==
 // Il2CppName: op_Equality
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const UnityEngine::SceneManagement::Scene&, const UnityEngine::SceneManagement::Scene&)>(&Scene::operator ==)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const UnityEngine::SceneManagement::Scene&, const UnityEngine::SceneManagement::Scene&)>(&UnityEngine::SceneManagement::Scene::operator ==)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scene), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::SceneManagement::Scene&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::SceneManagement::Scene&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::Scene), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::SceneManagement::Scene&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::SceneManagement::Scene&>()});
   }
 };

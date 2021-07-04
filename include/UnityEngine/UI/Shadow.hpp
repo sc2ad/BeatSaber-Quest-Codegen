@@ -118,89 +118,89 @@ namespace UnityEngine::UI {
   static_assert(sizeof(Shadow) == 0x39);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Shadow*, "UnityEngine.UI", "Shadow");
-// Writing MetadataGetter for method: Shadow::get_effectColor
+// Writing MetadataGetter for method: UnityEngine::UI::Shadow::get_effectColor
 // Il2CppName: get_effectColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (Shadow::*)()>(&Shadow::get_effectColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (UnityEngine::UI::Shadow::*)()>(&UnityEngine::UI::Shadow::get_effectColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shadow*), "get_effectColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Shadow*), "get_effectColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Shadow::set_effectColor
+// Writing MetadataGetter for method: UnityEngine::UI::Shadow::set_effectColor
 // Il2CppName: set_effectColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Shadow::*)(UnityEngine::Color)>(&Shadow::set_effectColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Shadow::*)(UnityEngine::Color)>(&UnityEngine::UI::Shadow::set_effectColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shadow*), "set_effectColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Shadow*), "set_effectColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: Shadow::get_effectDistance
+// Writing MetadataGetter for method: UnityEngine::UI::Shadow::get_effectDistance
 // Il2CppName: get_effectDistance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (Shadow::*)()>(&Shadow::get_effectDistance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::UI::Shadow::*)()>(&UnityEngine::UI::Shadow::get_effectDistance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shadow*), "get_effectDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Shadow*), "get_effectDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Shadow::set_effectDistance
+// Writing MetadataGetter for method: UnityEngine::UI::Shadow::set_effectDistance
 // Il2CppName: set_effectDistance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Shadow::*)(UnityEngine::Vector2)>(&Shadow::set_effectDistance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Shadow::*)(UnityEngine::Vector2)>(&UnityEngine::UI::Shadow::set_effectDistance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shadow*), "set_effectDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Shadow*), "set_effectDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
   }
 };
-// Writing MetadataGetter for method: Shadow::get_useGraphicAlpha
+// Writing MetadataGetter for method: UnityEngine::UI::Shadow::get_useGraphicAlpha
 // Il2CppName: get_useGraphicAlpha
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Shadow::*)()>(&Shadow::get_useGraphicAlpha)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::Shadow::*)()>(&UnityEngine::UI::Shadow::get_useGraphicAlpha)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shadow*), "get_useGraphicAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Shadow*), "get_useGraphicAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Shadow::set_useGraphicAlpha
+// Writing MetadataGetter for method: UnityEngine::UI::Shadow::set_useGraphicAlpha
 // Il2CppName: set_useGraphicAlpha
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Shadow::*)(bool)>(&Shadow::set_useGraphicAlpha)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Shadow::*)(bool)>(&UnityEngine::UI::Shadow::set_useGraphicAlpha)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shadow*), "set_useGraphicAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Shadow*), "set_useGraphicAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Shadow::ApplyShadowZeroAlloc
+// Writing MetadataGetter for method: UnityEngine::UI::Shadow::ApplyShadowZeroAlloc
 // Il2CppName: ApplyShadowZeroAlloc
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Shadow::*)(System::Collections::Generic::List_1<UnityEngine::UIVertex>*, UnityEngine::Color32, int, int, float, float)>(&Shadow::ApplyShadowZeroAlloc)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Shadow::*)(System::Collections::Generic::List_1<UnityEngine::UIVertex>*, UnityEngine::Color32, int, int, float, float)>(&UnityEngine::UI::Shadow::ApplyShadowZeroAlloc)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shadow*), "ApplyShadowZeroAlloc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::UIVertex>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Shadow*), "ApplyShadowZeroAlloc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::UIVertex>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Shadow::ApplyShadow
+// Writing MetadataGetter for method: UnityEngine::UI::Shadow::ApplyShadow
 // Il2CppName: ApplyShadow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Shadow::*)(System::Collections::Generic::List_1<UnityEngine::UIVertex>*, UnityEngine::Color32, int, int, float, float)>(&Shadow::ApplyShadow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Shadow::*)(System::Collections::Generic::List_1<UnityEngine::UIVertex>*, UnityEngine::Color32, int, int, float, float)>(&UnityEngine::UI::Shadow::ApplyShadow)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shadow*), "ApplyShadow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::UIVertex>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Shadow*), "ApplyShadow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::UIVertex>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Shadow::New_ctor
+// Writing MetadataGetter for method: UnityEngine::UI::Shadow::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Shadow::*)()>(&Shadow::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Shadow::*)()>(&UnityEngine::UI::Shadow::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shadow*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Shadow*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Shadow::*)()>(&Shadow::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Shadow::*)()>(&UnityEngine::UI::Shadow::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shadow*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Shadow*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Shadow::ModifyMesh
+// Writing MetadataGetter for method: UnityEngine::UI::Shadow::ModifyMesh
 // Il2CppName: ModifyMesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Shadow::*)(UnityEngine::UI::VertexHelper*)>(&Shadow::ModifyMesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Shadow::*)(UnityEngine::UI::VertexHelper*)>(&UnityEngine::UI::Shadow::ModifyMesh)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shadow*), "ModifyMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Shadow*), "ModifyMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>()});
   }
 };

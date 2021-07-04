@@ -62,81 +62,81 @@ namespace System::IO {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::TextWriter::$$c*, "System.IO", "TextWriter/<>c");
-// Writing MetadataGetter for method: TextWriter::$$c::_cctor
+// Writing MetadataGetter for method: System::IO::TextWriter::$$c::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TextWriter::$$c::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::IO::TextWriter::$$c::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextWriter::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextWriter::$$c::$_cctor$b__73_0
+// Writing MetadataGetter for method: System::IO::TextWriter::$$c::$_cctor$b__73_0
 // Il2CppName: <.cctor>b__73_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextWriter::$$c::*)(::Il2CppObject*)>(&TextWriter::$$c::$_cctor$b__73_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::$$c::*)(::Il2CppObject*)>(&System::IO::TextWriter::$$c::$_cctor$b__73_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextWriter::$$c*), "<.cctor>b__73_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter::$$c*), "<.cctor>b__73_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: TextWriter::$$c::$_cctor$b__73_1
+// Writing MetadataGetter for method: System::IO::TextWriter::$$c::$_cctor$b__73_1
 // Il2CppName: <.cctor>b__73_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextWriter::$$c::*)(::Il2CppObject*)>(&TextWriter::$$c::$_cctor$b__73_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::$$c::*)(::Il2CppObject*)>(&System::IO::TextWriter::$$c::$_cctor$b__73_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextWriter::$$c*), "<.cctor>b__73_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter::$$c*), "<.cctor>b__73_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: TextWriter::$$c::$_cctor$b__73_2
+// Writing MetadataGetter for method: System::IO::TextWriter::$$c::$_cctor$b__73_2
 // Il2CppName: <.cctor>b__73_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextWriter::$$c::*)(::Il2CppObject*)>(&TextWriter::$$c::$_cctor$b__73_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::$$c::*)(::Il2CppObject*)>(&System::IO::TextWriter::$$c::$_cctor$b__73_2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextWriter::$$c*), "<.cctor>b__73_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter::$$c*), "<.cctor>b__73_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: TextWriter::$$c::$_cctor$b__73_3
+// Writing MetadataGetter for method: System::IO::TextWriter::$$c::$_cctor$b__73_3
 // Il2CppName: <.cctor>b__73_3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextWriter::$$c::*)(::Il2CppObject*)>(&TextWriter::$$c::$_cctor$b__73_3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::$$c::*)(::Il2CppObject*)>(&System::IO::TextWriter::$$c::$_cctor$b__73_3)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextWriter::$$c*), "<.cctor>b__73_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter::$$c*), "<.cctor>b__73_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: TextWriter::$$c::$_cctor$b__73_4
+// Writing MetadataGetter for method: System::IO::TextWriter::$$c::$_cctor$b__73_4
 // Il2CppName: <.cctor>b__73_4
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextWriter::$$c::*)(::Il2CppObject*)>(&TextWriter::$$c::$_cctor$b__73_4)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::$$c::*)(::Il2CppObject*)>(&System::IO::TextWriter::$$c::$_cctor$b__73_4)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextWriter::$$c*), "<.cctor>b__73_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter::$$c*), "<.cctor>b__73_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: TextWriter::$$c::$_cctor$b__73_5
+// Writing MetadataGetter for method: System::IO::TextWriter::$$c::$_cctor$b__73_5
 // Il2CppName: <.cctor>b__73_5
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextWriter::$$c::*)(::Il2CppObject*)>(&TextWriter::$$c::$_cctor$b__73_5)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::$$c::*)(::Il2CppObject*)>(&System::IO::TextWriter::$$c::$_cctor$b__73_5)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextWriter::$$c*), "<.cctor>b__73_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter::$$c*), "<.cctor>b__73_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: TextWriter::$$c::$_cctor$b__73_6
+// Writing MetadataGetter for method: System::IO::TextWriter::$$c::$_cctor$b__73_6
 // Il2CppName: <.cctor>b__73_6
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextWriter::$$c::*)(::Il2CppObject*)>(&TextWriter::$$c::$_cctor$b__73_6)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::$$c::*)(::Il2CppObject*)>(&System::IO::TextWriter::$$c::$_cctor$b__73_6)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextWriter::$$c*), "<.cctor>b__73_6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter::$$c*), "<.cctor>b__73_6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: TextWriter::$$c::New_ctor
+// Writing MetadataGetter for method: System::IO::TextWriter::$$c::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextWriter::$$c::*)()>(&TextWriter::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::$$c::*)()>(&System::IO::TextWriter::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextWriter::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextWriter::$$c::*)()>(&TextWriter::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::$$c::*)()>(&System::IO::TextWriter::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextWriter::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

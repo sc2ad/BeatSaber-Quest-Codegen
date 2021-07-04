@@ -110,73 +110,73 @@ namespace GlobalNamespace {
   static_assert(sizeof(ComboUIController) == 0x35);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ComboUIController*, "", "ComboUIController");
-// Writing MetadataGetter for method: ComboUIController::Start
+// Writing MetadataGetter for method: GlobalNamespace::ComboUIController::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ComboUIController::*)()>(&ComboUIController::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ComboUIController::*)()>(&GlobalNamespace::ComboUIController::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ComboUIController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ComboUIController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ComboUIController::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::ComboUIController::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ComboUIController::*)()>(&ComboUIController::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ComboUIController::*)()>(&GlobalNamespace::ComboUIController::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ComboUIController*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ComboUIController*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ComboUIController::OnDisable
+// Writing MetadataGetter for method: GlobalNamespace::ComboUIController::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ComboUIController::*)()>(&ComboUIController::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ComboUIController::*)()>(&GlobalNamespace::ComboUIController::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ComboUIController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ComboUIController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ComboUIController::RegisterForEvents
+// Writing MetadataGetter for method: GlobalNamespace::ComboUIController::RegisterForEvents
 // Il2CppName: RegisterForEvents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ComboUIController::*)()>(&ComboUIController::RegisterForEvents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ComboUIController::*)()>(&GlobalNamespace::ComboUIController::RegisterForEvents)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ComboUIController*), "RegisterForEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ComboUIController*), "RegisterForEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ComboUIController::UnregisterFromEvents
+// Writing MetadataGetter for method: GlobalNamespace::ComboUIController::UnregisterFromEvents
 // Il2CppName: UnregisterFromEvents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ComboUIController::*)()>(&ComboUIController::UnregisterFromEvents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ComboUIController::*)()>(&GlobalNamespace::ComboUIController::UnregisterFromEvents)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ComboUIController*), "UnregisterFromEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ComboUIController*), "UnregisterFromEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ComboUIController::HandleComboDidChange
+// Writing MetadataGetter for method: GlobalNamespace::ComboUIController::HandleComboDidChange
 // Il2CppName: HandleComboDidChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ComboUIController::*)(int)>(&ComboUIController::HandleComboDidChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ComboUIController::*)(int)>(&GlobalNamespace::ComboUIController::HandleComboDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ComboUIController*), "HandleComboDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ComboUIController*), "HandleComboDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ComboUIController::HandleComboBreakingEventHappened
+// Writing MetadataGetter for method: GlobalNamespace::ComboUIController::HandleComboBreakingEventHappened
 // Il2CppName: HandleComboBreakingEventHappened
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ComboUIController::*)()>(&ComboUIController::HandleComboBreakingEventHappened)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ComboUIController::*)()>(&GlobalNamespace::ComboUIController::HandleComboBreakingEventHappened)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ComboUIController*), "HandleComboBreakingEventHappened", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ComboUIController*), "HandleComboBreakingEventHappened", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ComboUIController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::ComboUIController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ComboUIController::*)()>(&ComboUIController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ComboUIController::*)()>(&GlobalNamespace::ComboUIController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ComboUIController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ComboUIController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ComboUIController::*)()>(&ComboUIController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ComboUIController::*)()>(&GlobalNamespace::ComboUIController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ComboUIController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ComboUIController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

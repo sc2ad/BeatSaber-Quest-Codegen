@@ -41,25 +41,25 @@ namespace System::Net::NetworkInformation {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties*, "System.Net.NetworkInformation", "UnixNoLibCIPGlobalProperties");
-// Writing MetadataGetter for method: UnixNoLibCIPGlobalProperties::get_DomainName
+// Writing MetadataGetter for method: System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties::get_DomainName
 // Il2CppName: get_DomainName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnixNoLibCIPGlobalProperties::*)()>(&UnixNoLibCIPGlobalProperties::get_DomainName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties::*)()>(&System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties::get_DomainName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnixNoLibCIPGlobalProperties*), "get_DomainName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties*), "get_DomainName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnixNoLibCIPGlobalProperties::New_ctor
+// Writing MetadataGetter for method: System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnixNoLibCIPGlobalProperties::*)()>(&UnixNoLibCIPGlobalProperties::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties::*)()>(&System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnixNoLibCIPGlobalProperties*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnixNoLibCIPGlobalProperties::*)()>(&UnixNoLibCIPGlobalProperties::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties::*)()>(&System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnixNoLibCIPGlobalProperties*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

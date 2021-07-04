@@ -263,281 +263,281 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRControllerTest::$$c*, "", "OVRControllerTest/<>c");
-// Writing MetadataGetter for method: OVRControllerTest::$$c::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRControllerTest::$$c::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRControllerTest::$$c::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::$Start$b__4_0
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_0
 // Il2CppName: <Start>b__4_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::$Start$b__4_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), "<Start>b__4_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<Start>b__4_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::$Start$b__4_1
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_1
 // Il2CppName: <Start>b__4_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::$Start$b__4_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), "<Start>b__4_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<Start>b__4_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::$Start$b__4_2
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_2
 // Il2CppName: <Start>b__4_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::$Start$b__4_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), "<Start>b__4_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<Start>b__4_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::$Start$b__4_3
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_3
 // Il2CppName: <Start>b__4_3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::$Start$b__4_3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_3)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), "<Start>b__4_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<Start>b__4_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::$Start$b__4_4
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_4
 // Il2CppName: <Start>b__4_4
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::$Start$b__4_4)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_4)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), "<Start>b__4_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<Start>b__4_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::$Start$b__4_5
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_5
 // Il2CppName: <Start>b__4_5
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::$Start$b__4_5)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_5)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), "<Start>b__4_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<Start>b__4_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::$Start$b__4_6
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_6
 // Il2CppName: <Start>b__4_6
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::$Start$b__4_6)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_6)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), "<Start>b__4_6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<Start>b__4_6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::$Start$b__4_7
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_7
 // Il2CppName: <Start>b__4_7
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::$Start$b__4_7)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_7)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), "<Start>b__4_7", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<Start>b__4_7", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::$Start$b__4_8
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_8
 // Il2CppName: <Start>b__4_8
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::$Start$b__4_8)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_8)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), "<Start>b__4_8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<Start>b__4_8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::$Start$b__4_9
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_9
 // Il2CppName: <Start>b__4_9
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::$Start$b__4_9)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_9)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), "<Start>b__4_9", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<Start>b__4_9", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::$Start$b__4_10
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_10
 // Il2CppName: <Start>b__4_10
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::$Start$b__4_10)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_10)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), "<Start>b__4_10", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<Start>b__4_10", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::$Start$b__4_11
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_11
 // Il2CppName: <Start>b__4_11
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::$Start$b__4_11)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_11)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), "<Start>b__4_11", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<Start>b__4_11", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::$Start$b__4_12
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_12
 // Il2CppName: <Start>b__4_12
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::$Start$b__4_12)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_12)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), "<Start>b__4_12", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<Start>b__4_12", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::$Start$b__4_13
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_13
 // Il2CppName: <Start>b__4_13
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::$Start$b__4_13)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_13)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), "<Start>b__4_13", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<Start>b__4_13", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::$Start$b__4_14
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_14
 // Il2CppName: <Start>b__4_14
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::$Start$b__4_14)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_14)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), "<Start>b__4_14", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<Start>b__4_14", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::$Start$b__4_15
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_15
 // Il2CppName: <Start>b__4_15
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::$Start$b__4_15)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_15)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), "<Start>b__4_15", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<Start>b__4_15", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::$Start$b__4_16
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_16
 // Il2CppName: <Start>b__4_16
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::$Start$b__4_16)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_16)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), "<Start>b__4_16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<Start>b__4_16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::$Start$b__4_17
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_17
 // Il2CppName: <Start>b__4_17
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::$Start$b__4_17)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_17)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), "<Start>b__4_17", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<Start>b__4_17", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::$Start$b__4_18
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_18
 // Il2CppName: <Start>b__4_18
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::$Start$b__4_18)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_18)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), "<Start>b__4_18", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<Start>b__4_18", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::$Start$b__4_19
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_19
 // Il2CppName: <Start>b__4_19
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::$Start$b__4_19)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_19)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), "<Start>b__4_19", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<Start>b__4_19", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::$Start$b__4_20
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_20
 // Il2CppName: <Start>b__4_20
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::$Start$b__4_20)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_20)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), "<Start>b__4_20", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<Start>b__4_20", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::$Start$b__4_21
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_21
 // Il2CppName: <Start>b__4_21
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::$Start$b__4_21)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_21)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), "<Start>b__4_21", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<Start>b__4_21", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::$Start$b__4_22
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_22
 // Il2CppName: <Start>b__4_22
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::$Start$b__4_22)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_22)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), "<Start>b__4_22", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<Start>b__4_22", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::$Start$b__4_23
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_23
 // Il2CppName: <Start>b__4_23
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::$Start$b__4_23)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_23)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), "<Start>b__4_23", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<Start>b__4_23", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::$Start$b__4_24
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_24
 // Il2CppName: <Start>b__4_24
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::$Start$b__4_24)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_24)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), "<Start>b__4_24", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<Start>b__4_24", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::$Start$b__4_25
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_25
 // Il2CppName: <Start>b__4_25
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::$Start$b__4_25)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_25)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), "<Start>b__4_25", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<Start>b__4_25", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::$Start$b__4_26
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_26
 // Il2CppName: <Start>b__4_26
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::$Start$b__4_26)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_26)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), "<Start>b__4_26", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<Start>b__4_26", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::$Start$b__4_27
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_27
 // Il2CppName: <Start>b__4_27
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::$Start$b__4_27)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_27)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), "<Start>b__4_27", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<Start>b__4_27", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::$Start$b__4_28
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_28
 // Il2CppName: <Start>b__4_28
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::$Start$b__4_28)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_28)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), "<Start>b__4_28", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<Start>b__4_28", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::$Start$b__4_29
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_29
 // Il2CppName: <Start>b__4_29
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::$Start$b__4_29)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_29)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), "<Start>b__4_29", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<Start>b__4_29", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::$Start$b__4_30
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_30
 // Il2CppName: <Start>b__4_30
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::$Start$b__4_30)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::$Start$b__4_30)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), "<Start>b__4_30", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<Start>b__4_30", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::$_cctor$b__9_0
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::$_cctor$b__9_0
 // Il2CppName: <.cctor>b__9_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::$_cctor$b__9_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::$_cctor$b__9_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), "<.cctor>b__9_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), "<.cctor>b__9_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRControllerTest::$$c::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::$$c::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRControllerTest::$$c::*)()>(&OVRControllerTest::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRControllerTest::$$c::*)()>(&GlobalNamespace::OVRControllerTest::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRControllerTest::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRControllerTest::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

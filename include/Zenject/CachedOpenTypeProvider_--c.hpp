@@ -61,33 +61,33 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::CachedOpenTypeProvider::$$c*, "Zenject", "CachedOpenTypeProvider/<>c");
-// Writing MetadataGetter for method: CachedOpenTypeProvider::$$c::_cctor
+// Writing MetadataGetter for method: Zenject::CachedOpenTypeProvider::$$c::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CachedOpenTypeProvider::$$c::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Zenject::CachedOpenTypeProvider::$$c::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CachedOpenTypeProvider::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::CachedOpenTypeProvider::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CachedOpenTypeProvider::$$c::$get_NumInstances$b__8_0
+// Writing MetadataGetter for method: Zenject::CachedOpenTypeProvider::$$c::$get_NumInstances$b__8_0
 // Il2CppName: <get_NumInstances>b__8_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CachedOpenTypeProvider::$$c::*)(Zenject::CachedProvider*)>(&CachedOpenTypeProvider::$$c::$get_NumInstances$b__8_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenject::CachedOpenTypeProvider::$$c::*)(Zenject::CachedProvider*)>(&Zenject::CachedOpenTypeProvider::$$c::$get_NumInstances$b__8_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CachedOpenTypeProvider::$$c*), "<get_NumInstances>b__8_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::CachedProvider*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::CachedOpenTypeProvider::$$c*), "<get_NumInstances>b__8_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::CachedProvider*>()});
   }
 };
-// Writing MetadataGetter for method: CachedOpenTypeProvider::$$c::New_ctor
+// Writing MetadataGetter for method: Zenject::CachedOpenTypeProvider::$$c::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CachedOpenTypeProvider::$$c::*)()>(&CachedOpenTypeProvider::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::CachedOpenTypeProvider::$$c::*)()>(&Zenject::CachedOpenTypeProvider::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CachedOpenTypeProvider::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::CachedOpenTypeProvider::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CachedOpenTypeProvider::$$c::*)()>(&CachedOpenTypeProvider::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::CachedOpenTypeProvider::$$c::*)()>(&Zenject::CachedOpenTypeProvider::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CachedOpenTypeProvider::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::CachedOpenTypeProvider::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

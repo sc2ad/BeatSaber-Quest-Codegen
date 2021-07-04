@@ -33,11 +33,11 @@ namespace System::Net {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebRequest::WebProxyWrapper*, "System.Net", "WebRequest/WebProxyWrapper");
-// Writing MetadataGetter for method: WebRequest::WebProxyWrapper::get_WebProxy
+// Writing MetadataGetter for method: System::Net::WebRequest::WebProxyWrapper::get_WebProxy
 // Il2CppName: get_WebProxy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebProxy* (WebRequest::WebProxyWrapper::*)()>(&WebRequest::WebProxyWrapper::get_WebProxy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebProxy* (System::Net::WebRequest::WebProxyWrapper::*)()>(&System::Net::WebRequest::WebProxyWrapper::get_WebProxy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebRequest::WebProxyWrapper*), "get_WebProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebRequest::WebProxyWrapper*), "get_WebProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

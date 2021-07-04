@@ -30,11 +30,11 @@ namespace NUnit::Compatibility {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Compatibility::TypeExtensions*, "NUnit.Compatibility", "TypeExtensions");
-// Writing MetadataGetter for method: TypeExtensions::GetTypeInfo
+// Writing MetadataGetter for method: NUnit::Compatibility::TypeExtensions::GetTypeInfo
 // Il2CppName: GetTypeInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*)>(&TypeExtensions::GetTypeInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*)>(&NUnit::Compatibility::TypeExtensions::GetTypeInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeExtensions*), "GetTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Compatibility::TypeExtensions*), "GetTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };

@@ -51,9 +51,9 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ScriptableObjectInstallerUtil*, "Zenject", "ScriptableObjectInstallerUtil");
-// Writing MetadataGetter for method: ScriptableObjectInstallerUtil::GetDefaultResourcePath
+// Writing MetadataGetter for method: Zenject::ScriptableObjectInstallerUtil::GetDefaultResourcePath
 // Il2CppName: GetDefaultResourcePath
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ScriptableObjectInstallerUtil::CreateInstaller
+// Writing MetadataGetter for method: Zenject::ScriptableObjectInstallerUtil::CreateInstaller
 // Il2CppName: CreateInstaller
 // Cannot write MetadataGetter for generic methods!

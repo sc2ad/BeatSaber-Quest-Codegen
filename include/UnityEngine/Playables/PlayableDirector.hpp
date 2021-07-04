@@ -155,195 +155,195 @@ namespace UnityEngine::Playables {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableDirector*, "UnityEngine.Playables", "PlayableDirector");
-// Writing MetadataGetter for method: PlayableDirector::get_extrapolationMode
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::get_extrapolationMode
 // Il2CppName: get_extrapolationMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::DirectorWrapMode (PlayableDirector::*)()>(&PlayableDirector::get_extrapolationMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::DirectorWrapMode (UnityEngine::Playables::PlayableDirector::*)()>(&UnityEngine::Playables::PlayableDirector::get_extrapolationMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableDirector*), "get_extrapolationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableDirector*), "get_extrapolationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableDirector::get_playableAsset
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::get_playableAsset
 // Il2CppName: get_playableAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableAsset* (PlayableDirector::*)()>(&PlayableDirector::get_playableAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableAsset* (UnityEngine::Playables::PlayableDirector::*)()>(&UnityEngine::Playables::PlayableDirector::get_playableAsset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableDirector*), "get_playableAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableDirector*), "get_playableAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableDirector::get_playableGraph
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::get_playableGraph
 // Il2CppName: get_playableGraph
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableGraph (PlayableDirector::*)()>(&PlayableDirector::get_playableGraph)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableGraph (UnityEngine::Playables::PlayableDirector::*)()>(&UnityEngine::Playables::PlayableDirector::get_playableGraph)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableDirector*), "get_playableGraph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableDirector*), "get_playableGraph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableDirector::SetGenericBinding
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::SetGenericBinding
 // Il2CppName: SetGenericBinding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableDirector::*)(UnityEngine::Object*, UnityEngine::Object*)>(&PlayableDirector::SetGenericBinding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableDirector::*)(UnityEngine::Object*, UnityEngine::Object*)>(&UnityEngine::Playables::PlayableDirector::SetGenericBinding)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableDirector*), "SetGenericBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableDirector*), "SetGenericBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
   }
 };
-// Writing MetadataGetter for method: PlayableDirector::set_time
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::set_time
 // Il2CppName: set_time
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableDirector::*)(double)>(&PlayableDirector::set_time)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableDirector::*)(double)>(&UnityEngine::Playables::PlayableDirector::set_time)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableDirector*), "set_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableDirector*), "set_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: PlayableDirector::get_time
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::get_time
 // Il2CppName: get_time
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (PlayableDirector::*)()>(&PlayableDirector::get_time)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Playables::PlayableDirector::*)()>(&UnityEngine::Playables::PlayableDirector::get_time)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableDirector*), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableDirector*), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableDirector::get_duration
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::get_duration
 // Il2CppName: get_duration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (PlayableDirector::*)()>(&PlayableDirector::get_duration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Playables::PlayableDirector::*)()>(&UnityEngine::Playables::PlayableDirector::get_duration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableDirector*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableDirector*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableDirector::Evaluate
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::Evaluate
 // Il2CppName: Evaluate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableDirector::*)()>(&PlayableDirector::Evaluate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableDirector::*)()>(&UnityEngine::Playables::PlayableDirector::Evaluate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableDirector*), "Evaluate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableDirector*), "Evaluate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableDirector::Play
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::Play
 // Il2CppName: Play
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableDirector::*)()>(&PlayableDirector::Play)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableDirector::*)()>(&UnityEngine::Playables::PlayableDirector::Play)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableDirector*), "Play", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableDirector*), "Play", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableDirector::Stop
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::Stop
 // Il2CppName: Stop
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableDirector::*)()>(&PlayableDirector::Stop)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableDirector::*)()>(&UnityEngine::Playables::PlayableDirector::Stop)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableDirector*), "Stop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableDirector*), "Stop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableDirector::Pause
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::Pause
 // Il2CppName: Pause
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableDirector::*)()>(&PlayableDirector::Pause)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableDirector::*)()>(&UnityEngine::Playables::PlayableDirector::Pause)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableDirector*), "Pause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableDirector*), "Pause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableDirector::SetReferenceValue
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::SetReferenceValue
 // Il2CppName: SetReferenceValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableDirector::*)(UnityEngine::PropertyName, UnityEngine::Object*)>(&PlayableDirector::SetReferenceValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableDirector::*)(UnityEngine::PropertyName, UnityEngine::Object*)>(&UnityEngine::Playables::PlayableDirector::SetReferenceValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableDirector*), "SetReferenceValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PropertyName>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableDirector*), "SetReferenceValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PropertyName>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
   }
 };
-// Writing MetadataGetter for method: PlayableDirector::GetReferenceValue
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::GetReferenceValue
 // Il2CppName: GetReferenceValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (PlayableDirector::*)(UnityEngine::PropertyName, bool&)>(&PlayableDirector::GetReferenceValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (UnityEngine::Playables::PlayableDirector::*)(UnityEngine::PropertyName, bool&)>(&UnityEngine::Playables::PlayableDirector::GetReferenceValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableDirector*), "GetReferenceValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PropertyName>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableDirector*), "GetReferenceValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PropertyName>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
   }
 };
-// Writing MetadataGetter for method: PlayableDirector::GetGenericBinding
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::GetGenericBinding
 // Il2CppName: GetGenericBinding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (PlayableDirector::*)(UnityEngine::Object*)>(&PlayableDirector::GetGenericBinding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (UnityEngine::Playables::PlayableDirector::*)(UnityEngine::Object*)>(&UnityEngine::Playables::PlayableDirector::GetGenericBinding)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableDirector*), "GetGenericBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableDirector*), "GetGenericBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
   }
 };
-// Writing MetadataGetter for method: PlayableDirector::GetWrapMode
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::GetWrapMode
 // Il2CppName: GetWrapMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::DirectorWrapMode (PlayableDirector::*)()>(&PlayableDirector::GetWrapMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::DirectorWrapMode (UnityEngine::Playables::PlayableDirector::*)()>(&UnityEngine::Playables::PlayableDirector::GetWrapMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableDirector*), "GetWrapMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableDirector*), "GetWrapMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableDirector::GetGraphHandle
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::GetGraphHandle
 // Il2CppName: GetGraphHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableGraph (PlayableDirector::*)()>(&PlayableDirector::GetGraphHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableGraph (UnityEngine::Playables::PlayableDirector::*)()>(&UnityEngine::Playables::PlayableDirector::GetGraphHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableDirector*), "GetGraphHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableDirector*), "GetGraphHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableDirector::Internal_SetGenericBinding
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::Internal_SetGenericBinding
 // Il2CppName: Internal_SetGenericBinding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableDirector::*)(UnityEngine::Object*, UnityEngine::Object*)>(&PlayableDirector::Internal_SetGenericBinding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableDirector::*)(UnityEngine::Object*, UnityEngine::Object*)>(&UnityEngine::Playables::PlayableDirector::Internal_SetGenericBinding)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableDirector*), "Internal_SetGenericBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableDirector*), "Internal_SetGenericBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
   }
 };
-// Writing MetadataGetter for method: PlayableDirector::Internal_GetPlayableAsset
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::Internal_GetPlayableAsset
 // Il2CppName: Internal_GetPlayableAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ScriptableObject* (PlayableDirector::*)()>(&PlayableDirector::Internal_GetPlayableAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ScriptableObject* (UnityEngine::Playables::PlayableDirector::*)()>(&UnityEngine::Playables::PlayableDirector::Internal_GetPlayableAsset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableDirector*), "Internal_GetPlayableAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableDirector*), "Internal_GetPlayableAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableDirector::SendOnPlayableDirectorPlay
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::SendOnPlayableDirectorPlay
 // Il2CppName: SendOnPlayableDirectorPlay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableDirector::*)()>(&PlayableDirector::SendOnPlayableDirectorPlay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableDirector::*)()>(&UnityEngine::Playables::PlayableDirector::SendOnPlayableDirectorPlay)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableDirector*), "SendOnPlayableDirectorPlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableDirector*), "SendOnPlayableDirectorPlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableDirector::SendOnPlayableDirectorPause
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::SendOnPlayableDirectorPause
 // Il2CppName: SendOnPlayableDirectorPause
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableDirector::*)()>(&PlayableDirector::SendOnPlayableDirectorPause)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableDirector::*)()>(&UnityEngine::Playables::PlayableDirector::SendOnPlayableDirectorPause)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableDirector*), "SendOnPlayableDirectorPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableDirector*), "SendOnPlayableDirectorPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableDirector::SendOnPlayableDirectorStop
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::SendOnPlayableDirectorStop
 // Il2CppName: SendOnPlayableDirectorStop
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableDirector::*)()>(&PlayableDirector::SendOnPlayableDirectorStop)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableDirector::*)()>(&UnityEngine::Playables::PlayableDirector::SendOnPlayableDirectorStop)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableDirector*), "SendOnPlayableDirectorStop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableDirector*), "SendOnPlayableDirectorStop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableDirector::SetReferenceValue_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::SetReferenceValue_Injected
 // Il2CppName: SetReferenceValue_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableDirector::*)(UnityEngine::PropertyName&, UnityEngine::Object*)>(&PlayableDirector::SetReferenceValue_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableDirector::*)(UnityEngine::PropertyName&, UnityEngine::Object*)>(&UnityEngine::Playables::PlayableDirector::SetReferenceValue_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableDirector*), "SetReferenceValue_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PropertyName&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableDirector*), "SetReferenceValue_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PropertyName&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
   }
 };
-// Writing MetadataGetter for method: PlayableDirector::GetReferenceValue_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::GetReferenceValue_Injected
 // Il2CppName: GetReferenceValue_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (PlayableDirector::*)(UnityEngine::PropertyName&, bool&)>(&PlayableDirector::GetReferenceValue_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (UnityEngine::Playables::PlayableDirector::*)(UnityEngine::PropertyName&, bool&)>(&UnityEngine::Playables::PlayableDirector::GetReferenceValue_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableDirector*), "GetReferenceValue_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PropertyName&>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableDirector*), "GetReferenceValue_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PropertyName&>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
   }
 };
-// Writing MetadataGetter for method: PlayableDirector::GetGraphHandle_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableDirector::GetGraphHandle_Injected
 // Il2CppName: GetGraphHandle_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableDirector::*)(UnityEngine::Playables::PlayableGraph&)>(&PlayableDirector::GetGraphHandle_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableDirector::*)(UnityEngine::Playables::PlayableGraph&)>(&UnityEngine::Playables::PlayableDirector::GetGraphHandle_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableDirector*), "GetGraphHandle_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableDirector*), "GetGraphHandle_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>()});
   }
 };

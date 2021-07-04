@@ -24,11 +24,11 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer::IOVRMeshRendererDataProvider*, "", "OVRMeshRenderer/IOVRMeshRendererDataProvider");
-// Writing MetadataGetter for method: OVRMeshRenderer::IOVRMeshRendererDataProvider::GetMeshRendererData
+// Writing MetadataGetter for method: GlobalNamespace::OVRMeshRenderer::IOVRMeshRendererDataProvider::GetMeshRendererData
 // Il2CppName: GetMeshRendererData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRMeshRenderer::MeshRendererData (OVRMeshRenderer::IOVRMeshRendererDataProvider::*)()>(&OVRMeshRenderer::IOVRMeshRendererDataProvider::GetMeshRendererData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRMeshRenderer::MeshRendererData (GlobalNamespace::OVRMeshRenderer::IOVRMeshRendererDataProvider::*)()>(&GlobalNamespace::OVRMeshRenderer::IOVRMeshRendererDataProvider::GetMeshRendererData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer::IOVRMeshRendererDataProvider*), "GetMeshRendererData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMeshRenderer::IOVRMeshRendererDataProvider*), "GetMeshRendererData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

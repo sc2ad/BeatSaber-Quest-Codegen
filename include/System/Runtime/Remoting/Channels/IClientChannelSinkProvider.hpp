@@ -22,11 +22,11 @@ namespace System::Runtime::Remoting::Channels {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::IClientChannelSinkProvider*, "System.Runtime.Remoting.Channels", "IClientChannelSinkProvider");
-// Writing MetadataGetter for method: IClientChannelSinkProvider::set_Next
+// Writing MetadataGetter for method: System::Runtime::Remoting::Channels::IClientChannelSinkProvider::set_Next
 // Il2CppName: set_Next
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IClientChannelSinkProvider::*)(System::Runtime::Remoting::Channels::IClientChannelSinkProvider*)>(&IClientChannelSinkProvider::set_Next)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Channels::IClientChannelSinkProvider::*)(System::Runtime::Remoting::Channels::IClientChannelSinkProvider*)>(&System::Runtime::Remoting::Channels::IClientChannelSinkProvider::set_Next)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IClientChannelSinkProvider*), "set_Next", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Channels::IClientChannelSinkProvider*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::IClientChannelSinkProvider*), "set_Next", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Channels::IClientChannelSinkProvider*>()});
   }
 };

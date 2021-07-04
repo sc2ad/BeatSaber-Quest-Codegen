@@ -105,92 +105,92 @@ namespace UnityEngine::Networking {
   static_assert(sizeof(DownloadHandler) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandler*, "UnityEngine.Networking", "DownloadHandler");
-// Writing MetadataGetter for method: DownloadHandler::Release
+// Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandler::Release
 // Il2CppName: Release
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DownloadHandler::*)()>(&DownloadHandler::Release)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::DownloadHandler::*)()>(&UnityEngine::Networking::DownloadHandler::Release)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandler*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandler*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DownloadHandler::Dispose
+// Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandler::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DownloadHandler::*)()>(&DownloadHandler::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::DownloadHandler::*)()>(&UnityEngine::Networking::DownloadHandler::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandler*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandler*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DownloadHandler::get_text
+// Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandler::get_text
 // Il2CppName: get_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DownloadHandler::*)()>(&DownloadHandler::get_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Networking::DownloadHandler::*)()>(&UnityEngine::Networking::DownloadHandler::get_text)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandler*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandler*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DownloadHandler::GetData
+// Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandler::GetData
 // Il2CppName: GetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (DownloadHandler::*)()>(&DownloadHandler::GetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (UnityEngine::Networking::DownloadHandler::*)()>(&UnityEngine::Networking::DownloadHandler::GetData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandler*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandler*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DownloadHandler::GetText
+// Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandler::GetText
 // Il2CppName: GetText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DownloadHandler::*)()>(&DownloadHandler::GetText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Networking::DownloadHandler::*)()>(&UnityEngine::Networking::DownloadHandler::GetText)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandler*), "GetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandler*), "GetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DownloadHandler::GetTextEncoder
+// Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandler::GetTextEncoder
 // Il2CppName: GetTextEncoder
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (DownloadHandler::*)()>(&DownloadHandler::GetTextEncoder)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (UnityEngine::Networking::DownloadHandler::*)()>(&UnityEngine::Networking::DownloadHandler::GetTextEncoder)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandler*), "GetTextEncoder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandler*), "GetTextEncoder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DownloadHandler::GetContentType
+// Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandler::GetContentType
 // Il2CppName: GetContentType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DownloadHandler::*)()>(&DownloadHandler::GetContentType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Networking::DownloadHandler::*)()>(&UnityEngine::Networking::DownloadHandler::GetContentType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandler*), "GetContentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandler*), "GetContentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DownloadHandler::GetCheckedDownloader
+// Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandler::GetCheckedDownloader
 // Il2CppName: GetCheckedDownloader
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: DownloadHandler::InternalGetByteArray
+// Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandler::InternalGetByteArray
 // Il2CppName: InternalGetByteArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(UnityEngine::Networking::DownloadHandler*)>(&DownloadHandler::InternalGetByteArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(UnityEngine::Networking::DownloadHandler*)>(&UnityEngine::Networking::DownloadHandler::InternalGetByteArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandler*), "InternalGetByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::DownloadHandler*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandler*), "InternalGetByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::DownloadHandler*>()});
   }
 };
-// Writing MetadataGetter for method: DownloadHandler::New_ctor
+// Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandler::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DownloadHandler::*)()>(&DownloadHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::DownloadHandler::*)()>(&UnityEngine::Networking::DownloadHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DownloadHandler::*)()>(&DownloadHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::DownloadHandler::*)()>(&UnityEngine::Networking::DownloadHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DownloadHandler::Finalize
+// Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandler::Finalize
 // Il2CppName: Finalize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DownloadHandler::*)()>(&DownloadHandler::Finalize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::DownloadHandler::*)()>(&UnityEngine::Networking::DownloadHandler::Finalize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadHandler*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandler*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

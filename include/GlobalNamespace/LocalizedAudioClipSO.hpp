@@ -68,25 +68,25 @@ namespace GlobalNamespace {
   static_assert(sizeof(LocalizedAudioClipSO) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizedAudioClipSO*, "", "LocalizedAudioClipSO");
-// Writing MetadataGetter for method: LocalizedAudioClipSO::get_localizedAudioClip
+// Writing MetadataGetter for method: GlobalNamespace::LocalizedAudioClipSO::get_localizedAudioClip
 // Il2CppName: get_localizedAudioClip
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioClip* (LocalizedAudioClipSO::*)()>(&LocalizedAudioClipSO::get_localizedAudioClip)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioClip* (GlobalNamespace::LocalizedAudioClipSO::*)()>(&GlobalNamespace::LocalizedAudioClipSO::get_localizedAudioClip)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LocalizedAudioClipSO*), "get_localizedAudioClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalizedAudioClipSO*), "get_localizedAudioClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LocalizedAudioClipSO::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::LocalizedAudioClipSO::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalizedAudioClipSO::*)()>(&LocalizedAudioClipSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalizedAudioClipSO::*)()>(&GlobalNamespace::LocalizedAudioClipSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LocalizedAudioClipSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalizedAudioClipSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalizedAudioClipSO::*)()>(&LocalizedAudioClipSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalizedAudioClipSO::*)()>(&GlobalNamespace::LocalizedAudioClipSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LocalizedAudioClipSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalizedAudioClipSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

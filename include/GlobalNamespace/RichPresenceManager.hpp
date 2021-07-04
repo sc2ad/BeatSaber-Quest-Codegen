@@ -217,81 +217,81 @@ namespace GlobalNamespace {
   static_assert(sizeof(RichPresenceManager) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RichPresenceManager*, "", "RichPresenceManager");
-// Writing MetadataGetter for method: RichPresenceManager::Awake
+// Writing MetadataGetter for method: GlobalNamespace::RichPresenceManager::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceManager::*)()>(&RichPresenceManager::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RichPresenceManager::*)()>(&GlobalNamespace::RichPresenceManager::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RichPresenceManager*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RichPresenceManager*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RichPresenceManager::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::RichPresenceManager::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceManager::*)()>(&RichPresenceManager::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RichPresenceManager::*)()>(&GlobalNamespace::RichPresenceManager::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RichPresenceManager*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RichPresenceManager*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RichPresenceManager::HandleLobbyGameStateDidChange
+// Writing MetadataGetter for method: GlobalNamespace::RichPresenceManager::HandleLobbyGameStateDidChange
 // Il2CppName: HandleLobbyGameStateDidChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceManager::*)(GlobalNamespace::MultiplayerGameState)>(&RichPresenceManager::HandleLobbyGameStateDidChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RichPresenceManager::*)(GlobalNamespace::MultiplayerGameState)>(&GlobalNamespace::RichPresenceManager::HandleLobbyGameStateDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RichPresenceManager*), "HandleLobbyGameStateDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerGameState>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RichPresenceManager*), "HandleLobbyGameStateDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerGameState>()});
   }
 };
-// Writing MetadataGetter for method: RichPresenceManager::SetMenuPresence
+// Writing MetadataGetter for method: GlobalNamespace::RichPresenceManager::SetMenuPresence
 // Il2CppName: SetMenuPresence
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceManager::*)()>(&RichPresenceManager::SetMenuPresence)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RichPresenceManager::*)()>(&GlobalNamespace::RichPresenceManager::SetMenuPresence)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RichPresenceManager*), "SetMenuPresence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RichPresenceManager*), "SetMenuPresence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RichPresenceManager::HandleGameScenesManagerTransitionDidFinish
+// Writing MetadataGetter for method: GlobalNamespace::RichPresenceManager::HandleGameScenesManagerTransitionDidFinish
 // Il2CppName: HandleGameScenesManagerTransitionDidFinish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceManager::*)(GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*)>(&RichPresenceManager::HandleGameScenesManagerTransitionDidFinish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RichPresenceManager::*)(GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*)>(&GlobalNamespace::RichPresenceManager::HandleGameScenesManagerTransitionDidFinish)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RichPresenceManager*), "HandleGameScenesManagerTransitionDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ScenesTransitionSetupDataSO*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RichPresenceManager*), "HandleGameScenesManagerTransitionDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ScenesTransitionSetupDataSO*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
   }
 };
-// Writing MetadataGetter for method: RichPresenceManager::HandlePlayerDataDidChangeShareMultiplayerLobbyCodeInRichPresence
+// Writing MetadataGetter for method: GlobalNamespace::RichPresenceManager::HandlePlayerDataDidChangeShareMultiplayerLobbyCodeInRichPresence
 // Il2CppName: HandlePlayerDataDidChangeShareMultiplayerLobbyCodeInRichPresence
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceManager::*)()>(&RichPresenceManager::HandlePlayerDataDidChangeShareMultiplayerLobbyCodeInRichPresence)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RichPresenceManager::*)()>(&GlobalNamespace::RichPresenceManager::HandlePlayerDataDidChangeShareMultiplayerLobbyCodeInRichPresence)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RichPresenceManager*), "HandlePlayerDataDidChangeShareMultiplayerLobbyCodeInRichPresence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RichPresenceManager*), "HandlePlayerDataDidChangeShareMultiplayerLobbyCodeInRichPresence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RichPresenceManager::SetPresence
+// Writing MetadataGetter for method: GlobalNamespace::RichPresenceManager::SetPresence
 // Il2CppName: SetPresence
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceManager::*)(GlobalNamespace::IRichPresenceData*)>(&RichPresenceManager::SetPresence)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RichPresenceManager::*)(GlobalNamespace::IRichPresenceData*)>(&GlobalNamespace::RichPresenceManager::SetPresence)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RichPresenceManager*), "SetPresence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IRichPresenceData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RichPresenceManager*), "SetPresence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IRichPresenceData*>()});
   }
 };
-// Writing MetadataGetter for method: RichPresenceManager::Clear
+// Writing MetadataGetter for method: GlobalNamespace::RichPresenceManager::Clear
 // Il2CppName: Clear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceManager::*)()>(&RichPresenceManager::Clear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RichPresenceManager::*)()>(&GlobalNamespace::RichPresenceManager::Clear)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RichPresenceManager*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RichPresenceManager*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RichPresenceManager::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::RichPresenceManager::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceManager::*)()>(&RichPresenceManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RichPresenceManager::*)()>(&GlobalNamespace::RichPresenceManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RichPresenceManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RichPresenceManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RichPresenceManager::*)()>(&RichPresenceManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RichPresenceManager::*)()>(&GlobalNamespace::RichPresenceManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RichPresenceManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RichPresenceManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

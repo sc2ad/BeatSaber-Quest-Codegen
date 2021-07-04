@@ -79,65 +79,65 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionObjectiveResult) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveResult*, "", "MissionObjectiveResult");
-// Writing MetadataGetter for method: MissionObjectiveResult::get_missionObjective
+// Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveResult::get_missionObjective
 // Il2CppName: get_missionObjective
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionObjective* (MissionObjectiveResult::*)()>(&MissionObjectiveResult::get_missionObjective)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionObjective* (GlobalNamespace::MissionObjectiveResult::*)()>(&GlobalNamespace::MissionObjectiveResult::get_missionObjective)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveResult*), "get_missionObjective", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveResult*), "get_missionObjective", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionObjectiveResult::set_missionObjective
+// Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveResult::set_missionObjective
 // Il2CppName: set_missionObjective
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveResult::*)(GlobalNamespace::MissionObjective*)>(&MissionObjectiveResult::set_missionObjective)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveResult::*)(GlobalNamespace::MissionObjective*)>(&GlobalNamespace::MissionObjectiveResult::set_missionObjective)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveResult*), "set_missionObjective", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionObjective*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveResult*), "set_missionObjective", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionObjective*>()});
   }
 };
-// Writing MetadataGetter for method: MissionObjectiveResult::get_cleared
+// Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveResult::get_cleared
 // Il2CppName: get_cleared
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MissionObjectiveResult::*)()>(&MissionObjectiveResult::get_cleared)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MissionObjectiveResult::*)()>(&GlobalNamespace::MissionObjectiveResult::get_cleared)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveResult*), "get_cleared", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveResult*), "get_cleared", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionObjectiveResult::set_cleared
+// Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveResult::set_cleared
 // Il2CppName: set_cleared
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveResult::*)(bool)>(&MissionObjectiveResult::set_cleared)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveResult::*)(bool)>(&GlobalNamespace::MissionObjectiveResult::set_cleared)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveResult*), "set_cleared", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveResult*), "set_cleared", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MissionObjectiveResult::get_value
+// Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveResult::get_value
 // Il2CppName: get_value
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MissionObjectiveResult::*)()>(&MissionObjectiveResult::get_value)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MissionObjectiveResult::*)()>(&GlobalNamespace::MissionObjectiveResult::get_value)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveResult*), "get_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveResult*), "get_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionObjectiveResult::set_value
+// Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveResult::set_value
 // Il2CppName: set_value
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveResult::*)(int)>(&MissionObjectiveResult::set_value)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveResult::*)(int)>(&GlobalNamespace::MissionObjectiveResult::set_value)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveResult*), "set_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveResult*), "set_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: MissionObjectiveResult::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveResult::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveResult::*)(GlobalNamespace::MissionObjective*, bool, int)>(&MissionObjectiveResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveResult::*)(GlobalNamespace::MissionObjective*, bool, int)>(&GlobalNamespace::MissionObjectiveResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionObjective*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionObjective*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectiveResult::*)(GlobalNamespace::MissionObjective*, bool, int)>(&MissionObjectiveResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveResult::*)(GlobalNamespace::MissionObjective*, bool, int)>(&GlobalNamespace::MissionObjectiveResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionObjectiveResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionObjective*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionObjective*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };

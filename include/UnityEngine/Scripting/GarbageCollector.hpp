@@ -89,27 +89,27 @@ namespace UnityEngine::Scripting {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::GarbageCollector*, "UnityEngine.Scripting", "GarbageCollector");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::GarbageCollector::Mode, "UnityEngine.Scripting", "GarbageCollector/Mode");
-// Writing MetadataGetter for method: GarbageCollector::set_GCMode
+// Writing MetadataGetter for method: UnityEngine::Scripting::GarbageCollector::set_GCMode
 // Il2CppName: set_GCMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Scripting::GarbageCollector::Mode)>(&GarbageCollector::set_GCMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Scripting::GarbageCollector::Mode)>(&UnityEngine::Scripting::GarbageCollector::set_GCMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GarbageCollector*), "set_GCMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Scripting::GarbageCollector::Mode>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Scripting::GarbageCollector*), "set_GCMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Scripting::GarbageCollector::Mode>()});
   }
 };
-// Writing MetadataGetter for method: GarbageCollector::SetMode
+// Writing MetadataGetter for method: UnityEngine::Scripting::GarbageCollector::SetMode
 // Il2CppName: SetMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Scripting::GarbageCollector::Mode)>(&GarbageCollector::SetMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Scripting::GarbageCollector::Mode)>(&UnityEngine::Scripting::GarbageCollector::SetMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GarbageCollector*), "SetMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Scripting::GarbageCollector::Mode>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Scripting::GarbageCollector*), "SetMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Scripting::GarbageCollector::Mode>()});
   }
 };
-// Writing MetadataGetter for method: GarbageCollector::GetMode
+// Writing MetadataGetter for method: UnityEngine::Scripting::GarbageCollector::GetMode
 // Il2CppName: GetMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Scripting::GarbageCollector::Mode (*)()>(&GarbageCollector::GetMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Scripting::GarbageCollector::Mode (*)()>(&UnityEngine::Scripting::GarbageCollector::GetMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GarbageCollector*), "GetMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Scripting::GarbageCollector*), "GetMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

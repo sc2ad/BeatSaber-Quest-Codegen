@@ -97,103 +97,103 @@ namespace System::Net::Http::Headers {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::RangeConditionHeaderValue*, "System.Net.Http.Headers", "RangeConditionHeaderValue");
-// Writing MetadataGetter for method: RangeConditionHeaderValue::New_ctor
+// Writing MetadataGetter for method: System::Net::Http::Headers::RangeConditionHeaderValue::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RangeConditionHeaderValue::*)(System::DateTimeOffset)>(&RangeConditionHeaderValue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::RangeConditionHeaderValue::*)(System::DateTimeOffset)>(&System::Net::Http::Headers::RangeConditionHeaderValue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RangeConditionHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTimeOffset>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::RangeConditionHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTimeOffset>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RangeConditionHeaderValue::*)(System::DateTimeOffset)>(&RangeConditionHeaderValue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::RangeConditionHeaderValue::*)(System::DateTimeOffset)>(&System::Net::Http::Headers::RangeConditionHeaderValue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RangeConditionHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTimeOffset>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::RangeConditionHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTimeOffset>()});
   }
 };
-// Writing MetadataGetter for method: RangeConditionHeaderValue::New_ctor
+// Writing MetadataGetter for method: System::Net::Http::Headers::RangeConditionHeaderValue::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RangeConditionHeaderValue::*)(System::Net::Http::Headers::EntityTagHeaderValue*)>(&RangeConditionHeaderValue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::RangeConditionHeaderValue::*)(System::Net::Http::Headers::EntityTagHeaderValue*)>(&System::Net::Http::Headers::RangeConditionHeaderValue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RangeConditionHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::EntityTagHeaderValue*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::RangeConditionHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::EntityTagHeaderValue*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RangeConditionHeaderValue::*)(System::Net::Http::Headers::EntityTagHeaderValue*)>(&RangeConditionHeaderValue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::RangeConditionHeaderValue::*)(System::Net::Http::Headers::EntityTagHeaderValue*)>(&System::Net::Http::Headers::RangeConditionHeaderValue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RangeConditionHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::EntityTagHeaderValue*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::RangeConditionHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::EntityTagHeaderValue*>()});
   }
 };
-// Writing MetadataGetter for method: RangeConditionHeaderValue::get_Date
+// Writing MetadataGetter for method: System::Net::Http::Headers::RangeConditionHeaderValue::get_Date
 // Il2CppName: get_Date
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::DateTimeOffset> (RangeConditionHeaderValue::*)()>(&RangeConditionHeaderValue::get_Date)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::DateTimeOffset> (System::Net::Http::Headers::RangeConditionHeaderValue::*)()>(&System::Net::Http::Headers::RangeConditionHeaderValue::get_Date)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RangeConditionHeaderValue*), "get_Date", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::RangeConditionHeaderValue*), "get_Date", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RangeConditionHeaderValue::set_Date
+// Writing MetadataGetter for method: System::Net::Http::Headers::RangeConditionHeaderValue::set_Date
 // Il2CppName: set_Date
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RangeConditionHeaderValue::*)(System::Nullable_1<System::DateTimeOffset>)>(&RangeConditionHeaderValue::set_Date)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::RangeConditionHeaderValue::*)(System::Nullable_1<System::DateTimeOffset>)>(&System::Net::Http::Headers::RangeConditionHeaderValue::set_Date)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RangeConditionHeaderValue*), "set_Date", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<System::DateTimeOffset>>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::RangeConditionHeaderValue*), "set_Date", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<System::DateTimeOffset>>()});
   }
 };
-// Writing MetadataGetter for method: RangeConditionHeaderValue::get_EntityTag
+// Writing MetadataGetter for method: System::Net::Http::Headers::RangeConditionHeaderValue::get_EntityTag
 // Il2CppName: get_EntityTag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Http::Headers::EntityTagHeaderValue* (RangeConditionHeaderValue::*)()>(&RangeConditionHeaderValue::get_EntityTag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Http::Headers::EntityTagHeaderValue* (System::Net::Http::Headers::RangeConditionHeaderValue::*)()>(&System::Net::Http::Headers::RangeConditionHeaderValue::get_EntityTag)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RangeConditionHeaderValue*), "get_EntityTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::RangeConditionHeaderValue*), "get_EntityTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RangeConditionHeaderValue::set_EntityTag
+// Writing MetadataGetter for method: System::Net::Http::Headers::RangeConditionHeaderValue::set_EntityTag
 // Il2CppName: set_EntityTag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RangeConditionHeaderValue::*)(System::Net::Http::Headers::EntityTagHeaderValue*)>(&RangeConditionHeaderValue::set_EntityTag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::RangeConditionHeaderValue::*)(System::Net::Http::Headers::EntityTagHeaderValue*)>(&System::Net::Http::Headers::RangeConditionHeaderValue::set_EntityTag)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RangeConditionHeaderValue*), "set_EntityTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::EntityTagHeaderValue*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::RangeConditionHeaderValue*), "set_EntityTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::EntityTagHeaderValue*>()});
   }
 };
-// Writing MetadataGetter for method: RangeConditionHeaderValue::System_ICloneable_Clone
+// Writing MetadataGetter for method: System::Net::Http::Headers::RangeConditionHeaderValue::System_ICloneable_Clone
 // Il2CppName: System.ICloneable.Clone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (RangeConditionHeaderValue::*)()>(&RangeConditionHeaderValue::System_ICloneable_Clone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Net::Http::Headers::RangeConditionHeaderValue::*)()>(&System::Net::Http::Headers::RangeConditionHeaderValue::System_ICloneable_Clone)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RangeConditionHeaderValue*), "System.ICloneable.Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::RangeConditionHeaderValue*), "System.ICloneable.Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RangeConditionHeaderValue::TryParse
+// Writing MetadataGetter for method: System::Net::Http::Headers::RangeConditionHeaderValue::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Net::Http::Headers::RangeConditionHeaderValue*&)>(&RangeConditionHeaderValue::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Net::Http::Headers::RangeConditionHeaderValue*&)>(&System::Net::Http::Headers::RangeConditionHeaderValue::TryParse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RangeConditionHeaderValue*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::RangeConditionHeaderValue*&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::RangeConditionHeaderValue*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::RangeConditionHeaderValue*&>()});
   }
 };
-// Writing MetadataGetter for method: RangeConditionHeaderValue::Equals
+// Writing MetadataGetter for method: System::Net::Http::Headers::RangeConditionHeaderValue::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RangeConditionHeaderValue::*)(::Il2CppObject*)>(&RangeConditionHeaderValue::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::RangeConditionHeaderValue::*)(::Il2CppObject*)>(&System::Net::Http::Headers::RangeConditionHeaderValue::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RangeConditionHeaderValue*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::RangeConditionHeaderValue*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: RangeConditionHeaderValue::GetHashCode
+// Writing MetadataGetter for method: System::Net::Http::Headers::RangeConditionHeaderValue::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RangeConditionHeaderValue::*)()>(&RangeConditionHeaderValue::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Http::Headers::RangeConditionHeaderValue::*)()>(&System::Net::Http::Headers::RangeConditionHeaderValue::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RangeConditionHeaderValue*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::RangeConditionHeaderValue*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RangeConditionHeaderValue::ToString
+// Writing MetadataGetter for method: System::Net::Http::Headers::RangeConditionHeaderValue::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RangeConditionHeaderValue::*)()>(&RangeConditionHeaderValue::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::RangeConditionHeaderValue::*)()>(&System::Net::Http::Headers::RangeConditionHeaderValue::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RangeConditionHeaderValue*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::RangeConditionHeaderValue*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

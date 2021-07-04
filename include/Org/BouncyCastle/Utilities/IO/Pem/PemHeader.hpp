@@ -62,57 +62,57 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
   static_assert(sizeof(PemHeader) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::Pem::PemHeader*, "Org.BouncyCastle.Utilities.IO.Pem", "PemHeader");
-// Writing MetadataGetter for method: PemHeader::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::Pem::PemHeader::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PemHeader::*)(::Il2CppString*, ::Il2CppString*)>(&PemHeader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Utilities::IO::Pem::PemHeader::*)(::Il2CppString*, ::Il2CppString*)>(&Org::BouncyCastle::Utilities::IO::Pem::PemHeader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PemHeader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Pem::PemHeader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PemHeader::*)(::Il2CppString*, ::Il2CppString*)>(&PemHeader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Utilities::IO::Pem::PemHeader::*)(::Il2CppString*, ::Il2CppString*)>(&Org::BouncyCastle::Utilities::IO::Pem::PemHeader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PemHeader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Pem::PemHeader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: PemHeader::get_Name
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::Pem::PemHeader::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PemHeader::*)()>(&PemHeader::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Utilities::IO::Pem::PemHeader::*)()>(&Org::BouncyCastle::Utilities::IO::Pem::PemHeader::get_Name)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PemHeader*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Pem::PemHeader*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PemHeader::get_Value
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::Pem::PemHeader::get_Value
 // Il2CppName: get_Value
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PemHeader::*)()>(&PemHeader::get_Value)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Utilities::IO::Pem::PemHeader::*)()>(&Org::BouncyCastle::Utilities::IO::Pem::PemHeader::get_Value)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PemHeader*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Pem::PemHeader*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PemHeader::GetHashCode
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::Pem::PemHeader::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PemHeader::*)(::Il2CppString*)>(&PemHeader::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Utilities::IO::Pem::PemHeader::*)(::Il2CppString*)>(&Org::BouncyCastle::Utilities::IO::Pem::PemHeader::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PemHeader*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Pem::PemHeader*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: PemHeader::GetHashCode
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::Pem::PemHeader::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PemHeader::*)()>(&PemHeader::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Utilities::IO::Pem::PemHeader::*)()>(&Org::BouncyCastle::Utilities::IO::Pem::PemHeader::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PemHeader*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Pem::PemHeader*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PemHeader::Equals
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::Pem::PemHeader::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PemHeader::*)(::Il2CppObject*)>(&PemHeader::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Utilities::IO::Pem::PemHeader::*)(::Il2CppObject*)>(&Org::BouncyCastle::Utilities::IO::Pem::PemHeader::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PemHeader*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Pem::PemHeader*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };

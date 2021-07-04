@@ -25,19 +25,19 @@ namespace Mono::Net::Security {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::NoReflectionHelper*, "Mono.Net.Security", "NoReflectionHelper");
-// Writing MetadataGetter for method: NoReflectionHelper::GetInternalValidator
+// Writing MetadataGetter for method: Mono::Net::Security::NoReflectionHelper::GetInternalValidator
 // Il2CppName: GetInternalValidator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*, ::Il2CppObject*)>(&NoReflectionHelper::GetInternalValidator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*, ::Il2CppObject*)>(&Mono::Net::Security::NoReflectionHelper::GetInternalValidator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoReflectionHelper*), "GetInternalValidator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::NoReflectionHelper*), "GetInternalValidator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: NoReflectionHelper::GetProvider
+// Writing MetadataGetter for method: Mono::Net::Security::NoReflectionHelper::GetProvider
 // Il2CppName: GetProvider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)()>(&NoReflectionHelper::GetProvider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)()>(&Mono::Net::Security::NoReflectionHelper::GetProvider)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoReflectionHelper*), "GetProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::NoReflectionHelper*), "GetProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

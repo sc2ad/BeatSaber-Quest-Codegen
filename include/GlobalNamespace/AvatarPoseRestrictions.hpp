@@ -128,41 +128,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(AvatarPoseRestrictions) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPoseRestrictions*, "", "AvatarPoseRestrictions");
-// Writing MetadataGetter for method: AvatarPoseRestrictions::Start
+// Writing MetadataGetter for method: GlobalNamespace::AvatarPoseRestrictions::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarPoseRestrictions::*)()>(&AvatarPoseRestrictions::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarPoseRestrictions::*)()>(&GlobalNamespace::AvatarPoseRestrictions::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarPoseRestrictions*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPoseRestrictions*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AvatarPoseRestrictions::HandleAvatarPoseControllerPositionsWillBeSet
+// Writing MetadataGetter for method: GlobalNamespace::AvatarPoseRestrictions::HandleAvatarPoseControllerPositionsWillBeSet
 // Il2CppName: HandleAvatarPoseControllerPositionsWillBeSet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarPoseRestrictions::*)(UnityEngine::Quaternion, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3&, UnityEngine::Vector3&, UnityEngine::Vector3&)>(&AvatarPoseRestrictions::HandleAvatarPoseControllerPositionsWillBeSet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarPoseRestrictions::*)(UnityEngine::Quaternion, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3&, UnityEngine::Vector3&, UnityEngine::Vector3&)>(&GlobalNamespace::AvatarPoseRestrictions::HandleAvatarPoseControllerPositionsWillBeSet)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarPoseRestrictions*), "HandleAvatarPoseControllerPositionsWillBeSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPoseRestrictions*), "HandleAvatarPoseControllerPositionsWillBeSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: AvatarPoseRestrictions::LimitHandPositionRelativeToHead
+// Writing MetadataGetter for method: GlobalNamespace::AvatarPoseRestrictions::LimitHandPositionRelativeToHead
 // Il2CppName: LimitHandPositionRelativeToHead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (AvatarPoseRestrictions::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&AvatarPoseRestrictions::LimitHandPositionRelativeToHead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::AvatarPoseRestrictions::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&GlobalNamespace::AvatarPoseRestrictions::LimitHandPositionRelativeToHead)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarPoseRestrictions*), "LimitHandPositionRelativeToHead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPoseRestrictions*), "LimitHandPositionRelativeToHead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: AvatarPoseRestrictions::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::AvatarPoseRestrictions::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarPoseRestrictions::*)()>(&AvatarPoseRestrictions::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarPoseRestrictions::*)()>(&GlobalNamespace::AvatarPoseRestrictions::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarPoseRestrictions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPoseRestrictions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarPoseRestrictions::*)()>(&AvatarPoseRestrictions::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarPoseRestrictions::*)()>(&GlobalNamespace::AvatarPoseRestrictions::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarPoseRestrictions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPoseRestrictions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -218,291 +218,291 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Application*, "UnityEngine", "Application");
-// Writing MetadataGetter for method: Application::Quit
+// Writing MetadataGetter for method: UnityEngine::Application::Quit
 // Il2CppName: Quit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&Application::Quit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&UnityEngine::Application::Quit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "Quit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "Quit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Application::Quit
+// Writing MetadataGetter for method: UnityEngine::Application::Quit
 // Il2CppName: Quit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Application::Quit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Application::Quit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "Quit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "Quit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Application::CanStreamedLevelBeLoaded
+// Writing MetadataGetter for method: UnityEngine::Application::CanStreamedLevelBeLoaded
 // Il2CppName: CanStreamedLevelBeLoaded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&Application::CanStreamedLevelBeLoaded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&UnityEngine::Application::CanStreamedLevelBeLoaded)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "CanStreamedLevelBeLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "CanStreamedLevelBeLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Application::CanStreamedLevelBeLoaded
+// Writing MetadataGetter for method: UnityEngine::Application::CanStreamedLevelBeLoaded
 // Il2CppName: CanStreamedLevelBeLoaded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Application::CanStreamedLevelBeLoaded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&UnityEngine::Application::CanStreamedLevelBeLoaded)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "CanStreamedLevelBeLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "CanStreamedLevelBeLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Application::get_isPlaying
+// Writing MetadataGetter for method: UnityEngine::Application::get_isPlaying
 // Il2CppName: get_isPlaying
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Application::get_isPlaying)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::Application::get_isPlaying)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "get_isPlaying", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "get_isPlaying", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Application::set_runInBackground
+// Writing MetadataGetter for method: UnityEngine::Application::set_runInBackground
 // Il2CppName: set_runInBackground
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&Application::set_runInBackground)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&UnityEngine::Application::set_runInBackground)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "set_runInBackground", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "set_runInBackground", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Application::get_dataPath
+// Writing MetadataGetter for method: UnityEngine::Application::get_dataPath
 // Il2CppName: get_dataPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Application::get_dataPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::Application::get_dataPath)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "get_dataPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "get_dataPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Application::get_streamingAssetsPath
+// Writing MetadataGetter for method: UnityEngine::Application::get_streamingAssetsPath
 // Il2CppName: get_streamingAssetsPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Application::get_streamingAssetsPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::Application::get_streamingAssetsPath)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "get_streamingAssetsPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "get_streamingAssetsPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Application::get_persistentDataPath
+// Writing MetadataGetter for method: UnityEngine::Application::get_persistentDataPath
 // Il2CppName: get_persistentDataPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Application::get_persistentDataPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::Application::get_persistentDataPath)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "get_persistentDataPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "get_persistentDataPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Application::get_unityVersion
+// Writing MetadataGetter for method: UnityEngine::Application::get_unityVersion
 // Il2CppName: get_unityVersion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Application::get_unityVersion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::Application::get_unityVersion)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "get_unityVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "get_unityVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Application::get_version
+// Writing MetadataGetter for method: UnityEngine::Application::get_version
 // Il2CppName: get_version
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Application::get_version)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::Application::get_version)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "get_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "get_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Application::get_identifier
+// Writing MetadataGetter for method: UnityEngine::Application::get_identifier
 // Il2CppName: get_identifier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Application::get_identifier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::Application::get_identifier)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "get_identifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "get_identifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Application::get_productName
+// Writing MetadataGetter for method: UnityEngine::Application::get_productName
 // Il2CppName: get_productName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Application::get_productName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::Application::get_productName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "get_productName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "get_productName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Application::get_companyName
+// Writing MetadataGetter for method: UnityEngine::Application::get_companyName
 // Il2CppName: get_companyName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Application::get_companyName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::Application::get_companyName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "get_companyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "get_companyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Application::OpenURL
+// Writing MetadataGetter for method: UnityEngine::Application::OpenURL
 // Il2CppName: OpenURL
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Application::OpenURL)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&UnityEngine::Application::OpenURL)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "OpenURL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "OpenURL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Application::set_targetFrameRate
+// Writing MetadataGetter for method: UnityEngine::Application::set_targetFrameRate
 // Il2CppName: set_targetFrameRate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&Application::set_targetFrameRate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&UnityEngine::Application::set_targetFrameRate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "set_targetFrameRate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "set_targetFrameRate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Application::SetLogCallbackDefined
+// Writing MetadataGetter for method: UnityEngine::Application::SetLogCallbackDefined
 // Il2CppName: SetLogCallbackDefined
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&Application::SetLogCallbackDefined)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&UnityEngine::Application::SetLogCallbackDefined)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "SetLogCallbackDefined", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "SetLogCallbackDefined", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Application::set_backgroundLoadingPriority
+// Writing MetadataGetter for method: UnityEngine::Application::set_backgroundLoadingPriority
 // Il2CppName: set_backgroundLoadingPriority
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ThreadPriority)>(&Application::set_backgroundLoadingPriority)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ThreadPriority)>(&UnityEngine::Application::set_backgroundLoadingPriority)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "set_backgroundLoadingPriority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ThreadPriority>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "set_backgroundLoadingPriority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ThreadPriority>()});
   }
 };
-// Writing MetadataGetter for method: Application::get_platform
+// Writing MetadataGetter for method: UnityEngine::Application::get_platform
 // Il2CppName: get_platform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RuntimePlatform (*)()>(&Application::get_platform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RuntimePlatform (*)()>(&UnityEngine::Application::get_platform)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "get_platform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "get_platform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Application::get_isMobilePlatform
+// Writing MetadataGetter for method: UnityEngine::Application::get_isMobilePlatform
 // Il2CppName: get_isMobilePlatform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Application::get_isMobilePlatform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::Application::get_isMobilePlatform)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "get_isMobilePlatform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "get_isMobilePlatform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Application::get_systemLanguage
+// Writing MetadataGetter for method: UnityEngine::Application::get_systemLanguage
 // Il2CppName: get_systemLanguage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::SystemLanguage (*)()>(&Application::get_systemLanguage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::SystemLanguage (*)()>(&UnityEngine::Application::get_systemLanguage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "get_systemLanguage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "get_systemLanguage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Application::get_internetReachability
+// Writing MetadataGetter for method: UnityEngine::Application::get_internetReachability
 // Il2CppName: get_internetReachability
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::NetworkReachability (*)()>(&Application::get_internetReachability)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::NetworkReachability (*)()>(&UnityEngine::Application::get_internetReachability)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "get_internetReachability", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "get_internetReachability", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Application::CallLowMemory
+// Writing MetadataGetter for method: UnityEngine::Application::CallLowMemory
 // Il2CppName: CallLowMemory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Application::CallLowMemory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Application::CallLowMemory)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "CallLowMemory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "CallLowMemory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Application::add_logMessageReceived
+// Writing MetadataGetter for method: UnityEngine::Application::add_logMessageReceived
 // Il2CppName: add_logMessageReceived
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Application::LogCallback*)>(&Application::add_logMessageReceived)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Application::LogCallback*)>(&UnityEngine::Application::add_logMessageReceived)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "add_logMessageReceived", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Application::LogCallback*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "add_logMessageReceived", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Application::LogCallback*>()});
   }
 };
-// Writing MetadataGetter for method: Application::remove_logMessageReceived
+// Writing MetadataGetter for method: UnityEngine::Application::remove_logMessageReceived
 // Il2CppName: remove_logMessageReceived
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Application::LogCallback*)>(&Application::remove_logMessageReceived)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Application::LogCallback*)>(&UnityEngine::Application::remove_logMessageReceived)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "remove_logMessageReceived", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Application::LogCallback*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "remove_logMessageReceived", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Application::LogCallback*>()});
   }
 };
-// Writing MetadataGetter for method: Application::add_logMessageReceivedThreaded
+// Writing MetadataGetter for method: UnityEngine::Application::add_logMessageReceivedThreaded
 // Il2CppName: add_logMessageReceivedThreaded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Application::LogCallback*)>(&Application::add_logMessageReceivedThreaded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Application::LogCallback*)>(&UnityEngine::Application::add_logMessageReceivedThreaded)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "add_logMessageReceivedThreaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Application::LogCallback*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "add_logMessageReceivedThreaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Application::LogCallback*>()});
   }
 };
-// Writing MetadataGetter for method: Application::remove_logMessageReceivedThreaded
+// Writing MetadataGetter for method: UnityEngine::Application::remove_logMessageReceivedThreaded
 // Il2CppName: remove_logMessageReceivedThreaded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Application::LogCallback*)>(&Application::remove_logMessageReceivedThreaded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Application::LogCallback*)>(&UnityEngine::Application::remove_logMessageReceivedThreaded)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "remove_logMessageReceivedThreaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Application::LogCallback*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "remove_logMessageReceivedThreaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Application::LogCallback*>()});
   }
 };
-// Writing MetadataGetter for method: Application::CallLogCallback
+// Writing MetadataGetter for method: UnityEngine::Application::CallLogCallback
 // Il2CppName: CallLogCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*, UnityEngine::LogType, bool)>(&Application::CallLogCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*, UnityEngine::LogType, bool)>(&UnityEngine::Application::CallLogCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "CallLogCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::LogType>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "CallLogCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::LogType>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Application::add_onBeforeRender
+// Writing MetadataGetter for method: UnityEngine::Application::add_onBeforeRender
 // Il2CppName: add_onBeforeRender
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Events::UnityAction*)>(&Application::add_onBeforeRender)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Events::UnityAction*)>(&UnityEngine::Application::add_onBeforeRender)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "add_onBeforeRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "add_onBeforeRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction*>()});
   }
 };
-// Writing MetadataGetter for method: Application::remove_onBeforeRender
+// Writing MetadataGetter for method: UnityEngine::Application::remove_onBeforeRender
 // Il2CppName: remove_onBeforeRender
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Events::UnityAction*)>(&Application::remove_onBeforeRender)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Events::UnityAction*)>(&UnityEngine::Application::remove_onBeforeRender)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "remove_onBeforeRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "remove_onBeforeRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction*>()});
   }
 };
-// Writing MetadataGetter for method: Application::Internal_ApplicationWantsToQuit
+// Writing MetadataGetter for method: UnityEngine::Application::Internal_ApplicationWantsToQuit
 // Il2CppName: Internal_ApplicationWantsToQuit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Application::Internal_ApplicationWantsToQuit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::Application::Internal_ApplicationWantsToQuit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "Internal_ApplicationWantsToQuit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "Internal_ApplicationWantsToQuit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Application::Internal_ApplicationQuit
+// Writing MetadataGetter for method: UnityEngine::Application::Internal_ApplicationQuit
 // Il2CppName: Internal_ApplicationQuit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Application::Internal_ApplicationQuit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Application::Internal_ApplicationQuit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "Internal_ApplicationQuit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "Internal_ApplicationQuit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Application::InvokeOnBeforeRender
+// Writing MetadataGetter for method: UnityEngine::Application::InvokeOnBeforeRender
 // Il2CppName: InvokeOnBeforeRender
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Application::InvokeOnBeforeRender)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Application::InvokeOnBeforeRender)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "InvokeOnBeforeRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "InvokeOnBeforeRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Application::InvokeFocusChanged
+// Writing MetadataGetter for method: UnityEngine::Application::InvokeFocusChanged
 // Il2CppName: InvokeFocusChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&Application::InvokeFocusChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&UnityEngine::Application::InvokeFocusChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "InvokeFocusChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "InvokeFocusChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Application::InvokeDeepLinkActivated
+// Writing MetadataGetter for method: UnityEngine::Application::InvokeDeepLinkActivated
 // Il2CppName: InvokeDeepLinkActivated
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Application::InvokeDeepLinkActivated)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&UnityEngine::Application::InvokeDeepLinkActivated)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "InvokeDeepLinkActivated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "InvokeDeepLinkActivated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Application::get_isEditor
+// Writing MetadataGetter for method: UnityEngine::Application::get_isEditor
 // Il2CppName: get_isEditor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Application::get_isEditor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::Application::get_isEditor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Application*), "get_isEditor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Application*), "get_isEditor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

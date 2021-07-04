@@ -86,11 +86,11 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorStateInfo, "UnityEngine", "AnimatorStateInfo");
-// Writing MetadataGetter for method: AnimatorStateInfo::get_normalizedTime
+// Writing MetadataGetter for method: UnityEngine::AnimatorStateInfo::get_normalizedTime
 // Il2CppName: get_normalizedTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AnimatorStateInfo::*)()>(&AnimatorStateInfo::get_normalizedTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::AnimatorStateInfo::*)()>(&UnityEngine::AnimatorStateInfo::get_normalizedTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimatorStateInfo), "get_normalizedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimatorStateInfo), "get_normalizedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -153,153 +153,153 @@ namespace HMUI {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::RangeValuesTextSlider*, "HMUI", "RangeValuesTextSlider");
-// Writing MetadataGetter for method: RangeValuesTextSlider::get_minValue
+// Writing MetadataGetter for method: HMUI::RangeValuesTextSlider::get_minValue
 // Il2CppName: get_minValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RangeValuesTextSlider::*)()>(&RangeValuesTextSlider::get_minValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::RangeValuesTextSlider::*)()>(&HMUI::RangeValuesTextSlider::get_minValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RangeValuesTextSlider*), "get_minValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::RangeValuesTextSlider*), "get_minValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RangeValuesTextSlider::set_minValue
+// Writing MetadataGetter for method: HMUI::RangeValuesTextSlider::set_minValue
 // Il2CppName: set_minValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RangeValuesTextSlider::*)(float)>(&RangeValuesTextSlider::set_minValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::RangeValuesTextSlider::*)(float)>(&HMUI::RangeValuesTextSlider::set_minValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RangeValuesTextSlider*), "set_minValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::RangeValuesTextSlider*), "set_minValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: RangeValuesTextSlider::get_maxValue
+// Writing MetadataGetter for method: HMUI::RangeValuesTextSlider::get_maxValue
 // Il2CppName: get_maxValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RangeValuesTextSlider::*)()>(&RangeValuesTextSlider::get_maxValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::RangeValuesTextSlider::*)()>(&HMUI::RangeValuesTextSlider::get_maxValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RangeValuesTextSlider*), "get_maxValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::RangeValuesTextSlider*), "get_maxValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RangeValuesTextSlider::set_maxValue
+// Writing MetadataGetter for method: HMUI::RangeValuesTextSlider::set_maxValue
 // Il2CppName: set_maxValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RangeValuesTextSlider::*)(float)>(&RangeValuesTextSlider::set_maxValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::RangeValuesTextSlider::*)(float)>(&HMUI::RangeValuesTextSlider::set_maxValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RangeValuesTextSlider*), "set_maxValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::RangeValuesTextSlider*), "set_maxValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: RangeValuesTextSlider::set_value
+// Writing MetadataGetter for method: HMUI::RangeValuesTextSlider::set_value
 // Il2CppName: set_value
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RangeValuesTextSlider::*)(float)>(&RangeValuesTextSlider::set_value)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::RangeValuesTextSlider::*)(float)>(&HMUI::RangeValuesTextSlider::set_value)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RangeValuesTextSlider*), "set_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::RangeValuesTextSlider*), "set_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: RangeValuesTextSlider::get_value
+// Writing MetadataGetter for method: HMUI::RangeValuesTextSlider::get_value
 // Il2CppName: get_value
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RangeValuesTextSlider::*)()>(&RangeValuesTextSlider::get_value)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::RangeValuesTextSlider::*)()>(&HMUI::RangeValuesTextSlider::get_value)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RangeValuesTextSlider*), "get_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::RangeValuesTextSlider*), "get_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RangeValuesTextSlider::add_valueDidChangeEvent
+// Writing MetadataGetter for method: HMUI::RangeValuesTextSlider::add_valueDidChangeEvent
 // Il2CppName: add_valueDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RangeValuesTextSlider::*)(System::Action_2<HMUI::RangeValuesTextSlider*, float>*)>(&RangeValuesTextSlider::add_valueDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::RangeValuesTextSlider::*)(System::Action_2<HMUI::RangeValuesTextSlider*, float>*)>(&HMUI::RangeValuesTextSlider::add_valueDidChangeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RangeValuesTextSlider*), "add_valueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<HMUI::RangeValuesTextSlider*, float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::RangeValuesTextSlider*), "add_valueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<HMUI::RangeValuesTextSlider*, float>*>()});
   }
 };
-// Writing MetadataGetter for method: RangeValuesTextSlider::remove_valueDidChangeEvent
+// Writing MetadataGetter for method: HMUI::RangeValuesTextSlider::remove_valueDidChangeEvent
 // Il2CppName: remove_valueDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RangeValuesTextSlider::*)(System::Action_2<HMUI::RangeValuesTextSlider*, float>*)>(&RangeValuesTextSlider::remove_valueDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::RangeValuesTextSlider::*)(System::Action_2<HMUI::RangeValuesTextSlider*, float>*)>(&HMUI::RangeValuesTextSlider::remove_valueDidChangeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RangeValuesTextSlider*), "remove_valueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<HMUI::RangeValuesTextSlider*, float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::RangeValuesTextSlider*), "remove_valueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<HMUI::RangeValuesTextSlider*, float>*>()});
   }
 };
-// Writing MetadataGetter for method: RangeValuesTextSlider::HandleNormalizedValueDidChange
+// Writing MetadataGetter for method: HMUI::RangeValuesTextSlider::HandleNormalizedValueDidChange
 // Il2CppName: HandleNormalizedValueDidChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RangeValuesTextSlider::*)(HMUI::TextSlider*, float)>(&RangeValuesTextSlider::HandleNormalizedValueDidChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::RangeValuesTextSlider::*)(HMUI::TextSlider*, float)>(&HMUI::RangeValuesTextSlider::HandleNormalizedValueDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RangeValuesTextSlider*), "HandleNormalizedValueDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TextSlider*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::RangeValuesTextSlider*), "HandleNormalizedValueDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TextSlider*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: RangeValuesTextSlider::ConvertFromNormalizedValue
+// Writing MetadataGetter for method: HMUI::RangeValuesTextSlider::ConvertFromNormalizedValue
 // Il2CppName: ConvertFromNormalizedValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RangeValuesTextSlider::*)(float)>(&RangeValuesTextSlider::ConvertFromNormalizedValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::RangeValuesTextSlider::*)(float)>(&HMUI::RangeValuesTextSlider::ConvertFromNormalizedValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RangeValuesTextSlider*), "ConvertFromNormalizedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::RangeValuesTextSlider*), "ConvertFromNormalizedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: RangeValuesTextSlider::NormalizeValue
+// Writing MetadataGetter for method: HMUI::RangeValuesTextSlider::NormalizeValue
 // Il2CppName: NormalizeValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RangeValuesTextSlider::*)(float)>(&RangeValuesTextSlider::NormalizeValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::RangeValuesTextSlider::*)(float)>(&HMUI::RangeValuesTextSlider::NormalizeValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RangeValuesTextSlider*), "NormalizeValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::RangeValuesTextSlider*), "NormalizeValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: RangeValuesTextSlider::TextForValue
+// Writing MetadataGetter for method: HMUI::RangeValuesTextSlider::TextForValue
 // Il2CppName: TextForValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RangeValuesTextSlider::*)(float)>(&RangeValuesTextSlider::TextForValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HMUI::RangeValuesTextSlider::*)(float)>(&HMUI::RangeValuesTextSlider::TextForValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RangeValuesTextSlider*), "TextForValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::RangeValuesTextSlider*), "TextForValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: RangeValuesTextSlider::$Awake$b__17_0
+// Writing MetadataGetter for method: HMUI::RangeValuesTextSlider::$Awake$b__17_0
 // Il2CppName: <Awake>b__17_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RangeValuesTextSlider::*)()>(&RangeValuesTextSlider::$Awake$b__17_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::RangeValuesTextSlider::*)()>(&HMUI::RangeValuesTextSlider::$Awake$b__17_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RangeValuesTextSlider*), "<Awake>b__17_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::RangeValuesTextSlider*), "<Awake>b__17_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RangeValuesTextSlider::$Awake$b__17_1
+// Writing MetadataGetter for method: HMUI::RangeValuesTextSlider::$Awake$b__17_1
 // Il2CppName: <Awake>b__17_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RangeValuesTextSlider::*)()>(&RangeValuesTextSlider::$Awake$b__17_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::RangeValuesTextSlider::*)()>(&HMUI::RangeValuesTextSlider::$Awake$b__17_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RangeValuesTextSlider*), "<Awake>b__17_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::RangeValuesTextSlider*), "<Awake>b__17_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RangeValuesTextSlider::Awake
+// Writing MetadataGetter for method: HMUI::RangeValuesTextSlider::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RangeValuesTextSlider::*)()>(&RangeValuesTextSlider::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::RangeValuesTextSlider::*)()>(&HMUI::RangeValuesTextSlider::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RangeValuesTextSlider*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::RangeValuesTextSlider*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RangeValuesTextSlider::OnDestroy
+// Writing MetadataGetter for method: HMUI::RangeValuesTextSlider::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RangeValuesTextSlider::*)()>(&RangeValuesTextSlider::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::RangeValuesTextSlider::*)()>(&HMUI::RangeValuesTextSlider::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RangeValuesTextSlider*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::RangeValuesTextSlider*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RangeValuesTextSlider::TextForNormalizedValue
+// Writing MetadataGetter for method: HMUI::RangeValuesTextSlider::TextForNormalizedValue
 // Il2CppName: TextForNormalizedValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RangeValuesTextSlider::*)(float)>(&RangeValuesTextSlider::TextForNormalizedValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HMUI::RangeValuesTextSlider::*)(float)>(&HMUI::RangeValuesTextSlider::TextForNormalizedValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RangeValuesTextSlider*), "TextForNormalizedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::RangeValuesTextSlider*), "TextForNormalizedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: RangeValuesTextSlider::New_ctor
+// Writing MetadataGetter for method: HMUI::RangeValuesTextSlider::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RangeValuesTextSlider::*)()>(&RangeValuesTextSlider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::RangeValuesTextSlider::*)()>(&HMUI::RangeValuesTextSlider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RangeValuesTextSlider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::RangeValuesTextSlider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RangeValuesTextSlider::*)()>(&RangeValuesTextSlider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::RangeValuesTextSlider::*)()>(&HMUI::RangeValuesTextSlider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RangeValuesTextSlider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::RangeValuesTextSlider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

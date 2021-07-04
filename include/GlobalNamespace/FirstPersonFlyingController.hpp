@@ -145,57 +145,57 @@ namespace GlobalNamespace {
   static_assert(sizeof(FirstPersonFlyingController) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FirstPersonFlyingController*, "", "FirstPersonFlyingController");
-// Writing MetadataGetter for method: FirstPersonFlyingController::Awake
+// Writing MetadataGetter for method: GlobalNamespace::FirstPersonFlyingController::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FirstPersonFlyingController::*)()>(&FirstPersonFlyingController::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FirstPersonFlyingController::*)()>(&GlobalNamespace::FirstPersonFlyingController::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FirstPersonFlyingController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FirstPersonFlyingController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FirstPersonFlyingController::Start
+// Writing MetadataGetter for method: GlobalNamespace::FirstPersonFlyingController::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FirstPersonFlyingController::*)()>(&FirstPersonFlyingController::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FirstPersonFlyingController::*)()>(&GlobalNamespace::FirstPersonFlyingController::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FirstPersonFlyingController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FirstPersonFlyingController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FirstPersonFlyingController::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::FirstPersonFlyingController::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FirstPersonFlyingController::*)()>(&FirstPersonFlyingController::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FirstPersonFlyingController::*)()>(&GlobalNamespace::FirstPersonFlyingController::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FirstPersonFlyingController*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FirstPersonFlyingController*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FirstPersonFlyingController::OnDisable
+// Writing MetadataGetter for method: GlobalNamespace::FirstPersonFlyingController::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FirstPersonFlyingController::*)()>(&FirstPersonFlyingController::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FirstPersonFlyingController::*)()>(&GlobalNamespace::FirstPersonFlyingController::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FirstPersonFlyingController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FirstPersonFlyingController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FirstPersonFlyingController::Update
+// Writing MetadataGetter for method: GlobalNamespace::FirstPersonFlyingController::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FirstPersonFlyingController::*)()>(&FirstPersonFlyingController::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FirstPersonFlyingController::*)()>(&GlobalNamespace::FirstPersonFlyingController::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FirstPersonFlyingController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FirstPersonFlyingController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FirstPersonFlyingController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::FirstPersonFlyingController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FirstPersonFlyingController::*)()>(&FirstPersonFlyingController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FirstPersonFlyingController::*)()>(&GlobalNamespace::FirstPersonFlyingController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FirstPersonFlyingController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FirstPersonFlyingController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FirstPersonFlyingController::*)()>(&FirstPersonFlyingController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FirstPersonFlyingController::*)()>(&GlobalNamespace::FirstPersonFlyingController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FirstPersonFlyingController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FirstPersonFlyingController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

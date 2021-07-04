@@ -60,33 +60,33 @@ namespace Mono::Security::Interface {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::ValidationResult*, "Mono.Security.Interface", "ValidationResult");
-// Writing MetadataGetter for method: ValidationResult::New_ctor
+// Writing MetadataGetter for method: Mono::Security::Interface::ValidationResult::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ValidationResult::*)(bool, bool, int, System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors>)>(&ValidationResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::ValidationResult::*)(bool, bool, int, System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors>)>(&Mono::Security::Interface::ValidationResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ValidationResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors>>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::ValidationResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors>>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ValidationResult::*)(bool, bool, int, System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors>)>(&ValidationResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::ValidationResult::*)(bool, bool, int, System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors>)>(&Mono::Security::Interface::ValidationResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ValidationResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors>>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::ValidationResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors>>()});
   }
 };
-// Writing MetadataGetter for method: ValidationResult::get_Trusted
+// Writing MetadataGetter for method: Mono::Security::Interface::ValidationResult::get_Trusted
 // Il2CppName: get_Trusted
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ValidationResult::*)()>(&ValidationResult::get_Trusted)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::Interface::ValidationResult::*)()>(&Mono::Security::Interface::ValidationResult::get_Trusted)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ValidationResult*), "get_Trusted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::ValidationResult*), "get_Trusted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ValidationResult::get_UserDenied
+// Writing MetadataGetter for method: Mono::Security::Interface::ValidationResult::get_UserDenied
 // Il2CppName: get_UserDenied
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ValidationResult::*)()>(&ValidationResult::get_UserDenied)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::Interface::ValidationResult::*)()>(&Mono::Security::Interface::ValidationResult::get_UserDenied)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ValidationResult*), "get_UserDenied", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::ValidationResult*), "get_UserDenied", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

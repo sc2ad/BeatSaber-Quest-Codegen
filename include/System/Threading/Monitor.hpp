@@ -74,147 +74,147 @@ namespace System::Threading {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Monitor*, "System.Threading", "Monitor");
-// Writing MetadataGetter for method: Monitor::Enter
+// Writing MetadataGetter for method: System::Threading::Monitor::Enter
 // Il2CppName: Enter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&Monitor::Enter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&System::Threading::Monitor::Enter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Monitor*), "Enter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Monitor*), "Enter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Monitor::Enter
+// Writing MetadataGetter for method: System::Threading::Monitor::Enter
 // Il2CppName: Enter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, bool&)>(&Monitor::Enter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, bool&)>(&System::Threading::Monitor::Enter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Monitor*), "Enter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Monitor*), "Enter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
   }
 };
-// Writing MetadataGetter for method: Monitor::ThrowLockTakenException
+// Writing MetadataGetter for method: System::Threading::Monitor::ThrowLockTakenException
 // Il2CppName: ThrowLockTakenException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Monitor::ThrowLockTakenException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Threading::Monitor::ThrowLockTakenException)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Monitor*), "ThrowLockTakenException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Monitor*), "ThrowLockTakenException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Monitor::Exit
+// Writing MetadataGetter for method: System::Threading::Monitor::Exit
 // Il2CppName: Exit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&Monitor::Exit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&System::Threading::Monitor::Exit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Monitor*), "Exit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Monitor*), "Exit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Monitor::Wait
+// Writing MetadataGetter for method: System::Threading::Monitor::Wait
 // Il2CppName: Wait
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*, int, bool)>(&Monitor::Wait)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*, int, bool)>(&System::Threading::Monitor::Wait)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Monitor*), "Wait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Monitor*), "Wait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Monitor::Wait
+// Writing MetadataGetter for method: System::Threading::Monitor::Wait
 // Il2CppName: Wait
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*, int)>(&Monitor::Wait)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*, int)>(&System::Threading::Monitor::Wait)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Monitor*), "Wait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Monitor*), "Wait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Monitor::Pulse
+// Writing MetadataGetter for method: System::Threading::Monitor::Pulse
 // Il2CppName: Pulse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&Monitor::Pulse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&System::Threading::Monitor::Pulse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Monitor*), "Pulse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Monitor*), "Pulse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Monitor::PulseAll
+// Writing MetadataGetter for method: System::Threading::Monitor::PulseAll
 // Il2CppName: PulseAll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&Monitor::PulseAll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&System::Threading::Monitor::PulseAll)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Monitor*), "PulseAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Monitor*), "PulseAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Monitor::Monitor_test_synchronised
+// Writing MetadataGetter for method: System::Threading::Monitor::Monitor_test_synchronised
 // Il2CppName: Monitor_test_synchronised
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*)>(&Monitor::Monitor_test_synchronised)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*)>(&System::Threading::Monitor::Monitor_test_synchronised)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Monitor*), "Monitor_test_synchronised", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Monitor*), "Monitor_test_synchronised", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Monitor::Monitor_pulse
+// Writing MetadataGetter for method: System::Threading::Monitor::Monitor_pulse
 // Il2CppName: Monitor_pulse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&Monitor::Monitor_pulse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&System::Threading::Monitor::Monitor_pulse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Monitor*), "Monitor_pulse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Monitor*), "Monitor_pulse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Monitor::ObjPulse
+// Writing MetadataGetter for method: System::Threading::Monitor::ObjPulse
 // Il2CppName: ObjPulse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&Monitor::ObjPulse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&System::Threading::Monitor::ObjPulse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Monitor*), "ObjPulse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Monitor*), "ObjPulse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Monitor::Monitor_pulse_all
+// Writing MetadataGetter for method: System::Threading::Monitor::Monitor_pulse_all
 // Il2CppName: Monitor_pulse_all
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&Monitor::Monitor_pulse_all)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&System::Threading::Monitor::Monitor_pulse_all)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Monitor*), "Monitor_pulse_all", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Monitor*), "Monitor_pulse_all", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Monitor::ObjPulseAll
+// Writing MetadataGetter for method: System::Threading::Monitor::ObjPulseAll
 // Il2CppName: ObjPulseAll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&Monitor::ObjPulseAll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&System::Threading::Monitor::ObjPulseAll)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Monitor*), "ObjPulseAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Monitor*), "ObjPulseAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Monitor::Monitor_wait
+// Writing MetadataGetter for method: System::Threading::Monitor::Monitor_wait
 // Il2CppName: Monitor_wait
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*, int)>(&Monitor::Monitor_wait)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*, int)>(&System::Threading::Monitor::Monitor_wait)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Monitor*), "Monitor_wait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Monitor*), "Monitor_wait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Monitor::ObjWait
+// Writing MetadataGetter for method: System::Threading::Monitor::ObjWait
 // Il2CppName: ObjWait
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool, int, ::Il2CppObject*)>(&Monitor::ObjWait)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool, int, ::Il2CppObject*)>(&System::Threading::Monitor::ObjWait)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Monitor*), "ObjWait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Monitor*), "ObjWait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Monitor::try_enter_with_atomic_var
+// Writing MetadataGetter for method: System::Threading::Monitor::try_enter_with_atomic_var
 // Il2CppName: try_enter_with_atomic_var
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, int, bool&)>(&Monitor::try_enter_with_atomic_var)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, int, bool&)>(&System::Threading::Monitor::try_enter_with_atomic_var)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Monitor*), "try_enter_with_atomic_var", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Monitor*), "try_enter_with_atomic_var", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
   }
 };
-// Writing MetadataGetter for method: Monitor::ReliableEnterTimeout
+// Writing MetadataGetter for method: System::Threading::Monitor::ReliableEnterTimeout
 // Il2CppName: ReliableEnterTimeout
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, int, bool&)>(&Monitor::ReliableEnterTimeout)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, int, bool&)>(&System::Threading::Monitor::ReliableEnterTimeout)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Monitor*), "ReliableEnterTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Monitor*), "ReliableEnterTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
   }
 };
-// Writing MetadataGetter for method: Monitor::ReliableEnter
+// Writing MetadataGetter for method: System::Threading::Monitor::ReliableEnter
 // Il2CppName: ReliableEnter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, bool&)>(&Monitor::ReliableEnter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, bool&)>(&System::Threading::Monitor::ReliableEnter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Monitor*), "ReliableEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Monitor*), "ReliableEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
   }
 };

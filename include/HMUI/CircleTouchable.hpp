@@ -90,57 +90,57 @@ namespace HMUI {
   static_assert(sizeof(CircleTouchable) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::CircleTouchable*, "HMUI", "CircleTouchable");
-// Writing MetadataGetter for method: CircleTouchable::UpdateCachedReferences
+// Writing MetadataGetter for method: HMUI::CircleTouchable::UpdateCachedReferences
 // Il2CppName: UpdateCachedReferences
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CircleTouchable::*)()>(&CircleTouchable::UpdateCachedReferences)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CircleTouchable::*)()>(&HMUI::CircleTouchable::UpdateCachedReferences)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleTouchable*), "UpdateCachedReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleTouchable*), "UpdateCachedReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CircleTouchable::OnDrawGizmosSelected
+// Writing MetadataGetter for method: HMUI::CircleTouchable::OnDrawGizmosSelected
 // Il2CppName: OnDrawGizmosSelected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CircleTouchable::*)()>(&CircleTouchable::OnDrawGizmosSelected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CircleTouchable::*)()>(&HMUI::CircleTouchable::OnDrawGizmosSelected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleTouchable*), "OnDrawGizmosSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleTouchable*), "OnDrawGizmosSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CircleTouchable::DrawGizmoCircle
+// Writing MetadataGetter for method: HMUI::CircleTouchable::DrawGizmoCircle
 // Il2CppName: DrawGizmoCircle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CircleTouchable::*)(UnityEngine::Vector3, float, int)>(&CircleTouchable::DrawGizmoCircle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CircleTouchable::*)(UnityEngine::Vector3, float, int)>(&HMUI::CircleTouchable::DrawGizmoCircle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleTouchable*), "DrawGizmoCircle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleTouchable*), "DrawGizmoCircle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: CircleTouchable::OnEnable
+// Writing MetadataGetter for method: HMUI::CircleTouchable::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CircleTouchable::*)()>(&CircleTouchable::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CircleTouchable::*)()>(&HMUI::CircleTouchable::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleTouchable*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleTouchable*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CircleTouchable::Raycast
+// Writing MetadataGetter for method: HMUI::CircleTouchable::Raycast
 // Il2CppName: Raycast
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CircleTouchable::*)(UnityEngine::Vector2, UnityEngine::Camera*)>(&CircleTouchable::Raycast)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI::CircleTouchable::*)(UnityEngine::Vector2, UnityEngine::Camera*)>(&HMUI::CircleTouchable::Raycast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleTouchable*), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleTouchable*), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
   }
 };
-// Writing MetadataGetter for method: CircleTouchable::New_ctor
+// Writing MetadataGetter for method: HMUI::CircleTouchable::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CircleTouchable::*)()>(&CircleTouchable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CircleTouchable::*)()>(&HMUI::CircleTouchable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleTouchable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleTouchable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CircleTouchable::*)()>(&CircleTouchable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CircleTouchable::*)()>(&HMUI::CircleTouchable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CircleTouchable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleTouchable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

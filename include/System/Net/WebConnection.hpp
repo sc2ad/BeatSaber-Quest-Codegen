@@ -392,297 +392,297 @@ namespace System::Net {
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnection*, "System.Net", "WebConnection");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnection::NtlmAuthState, "System.Net", "WebConnection/NtlmAuthState");
-// Writing MetadataGetter for method: WebConnection::New_ctor
+// Writing MetadataGetter for method: System::Net::WebConnection::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebConnection::*)(System::Net::IWebConnectionState*, System::Net::ServicePoint*)>(&WebConnection::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnection::*)(System::Net::IWebConnectionState*, System::Net::ServicePoint*)>(&System::Net::WebConnection::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IWebConnectionState*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::ServicePoint*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IWebConnectionState*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::ServicePoint*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebConnection::*)(System::Net::IWebConnectionState*, System::Net::ServicePoint*)>(&WebConnection::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnection::*)(System::Net::IWebConnectionState*, System::Net::ServicePoint*)>(&System::Net::WebConnection::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IWebConnectionState*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::ServicePoint*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IWebConnectionState*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::ServicePoint*>()});
   }
 };
-// Writing MetadataGetter for method: WebConnection::CanReuse
+// Writing MetadataGetter for method: System::Net::WebConnection::CanReuse
 // Il2CppName: CanReuse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WebConnection::*)()>(&WebConnection::CanReuse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebConnection::*)()>(&System::Net::WebConnection::CanReuse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "CanReuse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "CanReuse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WebConnection::Connect
+// Writing MetadataGetter for method: System::Net::WebConnection::Connect
 // Il2CppName: Connect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebConnection::*)(System::Net::HttpWebRequest*)>(&WebConnection::Connect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnection::*)(System::Net::HttpWebRequest*)>(&System::Net::WebConnection::Connect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>()});
   }
 };
-// Writing MetadataGetter for method: WebConnection::CreateTunnel
+// Writing MetadataGetter for method: System::Net::WebConnection::CreateTunnel
 // Il2CppName: CreateTunnel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WebConnection::*)(System::Net::HttpWebRequest*, System::Uri*, System::IO::Stream*, ::Array<uint8_t>*&)>(&WebConnection::CreateTunnel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebConnection::*)(System::Net::HttpWebRequest*, System::Uri*, System::IO::Stream*, ::Array<uint8_t>*&)>(&System::Net::WebConnection::CreateTunnel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "CreateTunnel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "CreateTunnel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>()});
   }
 };
-// Writing MetadataGetter for method: WebConnection::ReadHeaders
+// Writing MetadataGetter for method: System::Net::WebConnection::ReadHeaders
 // Il2CppName: ReadHeaders
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebHeaderCollection* (WebConnection::*)(System::IO::Stream*, ::Array<uint8_t>*&, int&)>(&WebConnection::ReadHeaders)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebHeaderCollection* (System::Net::WebConnection::*)(System::IO::Stream*, ::Array<uint8_t>*&, int&)>(&System::Net::WebConnection::ReadHeaders)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "ReadHeaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "ReadHeaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: WebConnection::FlushContents
+// Writing MetadataGetter for method: System::Net::WebConnection::FlushContents
 // Il2CppName: FlushContents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebConnection::*)(System::IO::Stream*, int)>(&WebConnection::FlushContents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnection::*)(System::IO::Stream*, int)>(&System::Net::WebConnection::FlushContents)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "FlushContents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "FlushContents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: WebConnection::CreateStream
+// Writing MetadataGetter for method: System::Net::WebConnection::CreateStream
 // Il2CppName: CreateStream
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WebConnection::*)(System::Net::HttpWebRequest*)>(&WebConnection::CreateStream)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebConnection::*)(System::Net::HttpWebRequest*)>(&System::Net::WebConnection::CreateStream)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "CreateStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "CreateStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>()});
   }
 };
-// Writing MetadataGetter for method: WebConnection::HandleError
+// Writing MetadataGetter for method: System::Net::WebConnection::HandleError
 // Il2CppName: HandleError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebConnection::*)(System::Net::WebExceptionStatus, System::Exception*, ::Il2CppString*)>(&WebConnection::HandleError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnection::*)(System::Net::WebExceptionStatus, System::Exception*, ::Il2CppString*)>(&System::Net::WebConnection::HandleError)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "HandleError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::WebExceptionStatus>(), ::il2cpp_utils::ExtractIndependentType<System::Exception*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "HandleError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::WebExceptionStatus>(), ::il2cpp_utils::ExtractIndependentType<System::Exception*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: WebConnection::ReadDone
+// Writing MetadataGetter for method: System::Net::WebConnection::ReadDone
 // Il2CppName: ReadDone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebConnection::*)(System::IAsyncResult*)>(&WebConnection::ReadDone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnection::*)(System::IAsyncResult*)>(&System::Net::WebConnection::ReadDone)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "ReadDone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "ReadDone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };
-// Writing MetadataGetter for method: WebConnection::ExpectContent
+// Writing MetadataGetter for method: System::Net::WebConnection::ExpectContent
 // Il2CppName: ExpectContent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, ::Il2CppString*)>(&WebConnection::ExpectContent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, ::Il2CppString*)>(&System::Net::WebConnection::ExpectContent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "ExpectContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "ExpectContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: WebConnection::InitRead
+// Writing MetadataGetter for method: System::Net::WebConnection::InitRead
 // Il2CppName: InitRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebConnection::*)()>(&WebConnection::InitRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnection::*)()>(&System::Net::WebConnection::InitRead)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "InitRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "InitRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WebConnection::GetResponse
+// Writing MetadataGetter for method: System::Net::WebConnection::GetResponse
 // Il2CppName: GetResponse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::WebConnectionData*, System::Net::ServicePoint*, ::Array<uint8_t>*, int)>(&WebConnection::GetResponse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::WebConnectionData*, System::Net::ServicePoint*, ::Array<uint8_t>*, int)>(&System::Net::WebConnection::GetResponse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "GetResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::WebConnectionData*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::ServicePoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "GetResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::WebConnectionData*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::ServicePoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: WebConnection::InitConnection
+// Writing MetadataGetter for method: System::Net::WebConnection::InitConnection
 // Il2CppName: InitConnection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebConnection::*)(System::Net::HttpWebRequest*)>(&WebConnection::InitConnection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnection::*)(System::Net::HttpWebRequest*)>(&System::Net::WebConnection::InitConnection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "InitConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "InitConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>()});
   }
 };
-// Writing MetadataGetter for method: WebConnection::SendRequest
+// Writing MetadataGetter for method: System::Net::WebConnection::SendRequest
 // Il2CppName: SendRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::EventHandler* (WebConnection::*)(System::Net::HttpWebRequest*)>(&WebConnection::SendRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::EventHandler* (System::Net::WebConnection::*)(System::Net::HttpWebRequest*)>(&System::Net::WebConnection::SendRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "SendRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "SendRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>()});
   }
 };
-// Writing MetadataGetter for method: WebConnection::SendNext
+// Writing MetadataGetter for method: System::Net::WebConnection::SendNext
 // Il2CppName: SendNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebConnection::*)()>(&WebConnection::SendNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnection::*)()>(&System::Net::WebConnection::SendNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "SendNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "SendNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WebConnection::NextRead
+// Writing MetadataGetter for method: System::Net::WebConnection::NextRead
 // Il2CppName: NextRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebConnection::*)()>(&WebConnection::NextRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnection::*)()>(&System::Net::WebConnection::NextRead)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "NextRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "NextRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WebConnection::ReadLine
+// Writing MetadataGetter for method: System::Net::WebConnection::ReadLine
 // Il2CppName: ReadLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<uint8_t>*, int&, int, ::Il2CppString*&)>(&WebConnection::ReadLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<uint8_t>*, int&, int, ::Il2CppString*&)>(&System::Net::WebConnection::ReadLine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "ReadLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "ReadLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
   }
 };
-// Writing MetadataGetter for method: WebConnection::BeginRead
+// Writing MetadataGetter for method: System::Net::WebConnection::BeginRead
 // Il2CppName: BeginRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (WebConnection::*)(System::Net::HttpWebRequest*, ::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&WebConnection::BeginRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::WebConnection::*)(System::Net::HttpWebRequest*, ::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::WebConnection::BeginRead)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "BeginRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "BeginRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: WebConnection::EndRead
+// Writing MetadataGetter for method: System::Net::WebConnection::EndRead
 // Il2CppName: EndRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (WebConnection::*)(System::Net::HttpWebRequest*, System::IAsyncResult*)>(&WebConnection::EndRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::WebConnection::*)(System::Net::HttpWebRequest*, System::IAsyncResult*)>(&System::Net::WebConnection::EndRead)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "EndRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "EndRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };
-// Writing MetadataGetter for method: WebConnection::EnsureRead
+// Writing MetadataGetter for method: System::Net::WebConnection::EnsureRead
 // Il2CppName: EnsureRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (WebConnection::*)(::Array<uint8_t>*, int, int)>(&WebConnection::EnsureRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::WebConnection::*)(::Array<uint8_t>*, int, int)>(&System::Net::WebConnection::EnsureRead)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "EnsureRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "EnsureRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: WebConnection::CompleteChunkedRead
+// Writing MetadataGetter for method: System::Net::WebConnection::CompleteChunkedRead
 // Il2CppName: CompleteChunkedRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WebConnection::*)()>(&WebConnection::CompleteChunkedRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebConnection::*)()>(&System::Net::WebConnection::CompleteChunkedRead)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "CompleteChunkedRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "CompleteChunkedRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WebConnection::BeginWrite
+// Writing MetadataGetter for method: System::Net::WebConnection::BeginWrite
 // Il2CppName: BeginWrite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (WebConnection::*)(System::Net::HttpWebRequest*, ::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&WebConnection::BeginWrite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::WebConnection::*)(System::Net::HttpWebRequest*, ::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::WebConnection::BeginWrite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "BeginWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "BeginWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: WebConnection::EndWrite
+// Writing MetadataGetter for method: System::Net::WebConnection::EndWrite
 // Il2CppName: EndWrite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WebConnection::*)(System::Net::HttpWebRequest*, bool, System::IAsyncResult*)>(&WebConnection::EndWrite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebConnection::*)(System::Net::HttpWebRequest*, bool, System::IAsyncResult*)>(&System::Net::WebConnection::EndWrite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "EndWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "EndWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };
-// Writing MetadataGetter for method: WebConnection::Read
+// Writing MetadataGetter for method: System::Net::WebConnection::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (WebConnection::*)(System::Net::HttpWebRequest*, ::Array<uint8_t>*, int, int)>(&WebConnection::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::WebConnection::*)(System::Net::HttpWebRequest*, ::Array<uint8_t>*, int, int)>(&System::Net::WebConnection::Read)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: WebConnection::Write
+// Writing MetadataGetter for method: System::Net::WebConnection::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WebConnection::*)(System::Net::HttpWebRequest*, ::Array<uint8_t>*, int, int, ::Il2CppString*&)>(&WebConnection::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebConnection::*)(System::Net::HttpWebRequest*, ::Array<uint8_t>*, int, int, ::Il2CppString*&)>(&System::Net::WebConnection::Write)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
   }
 };
-// Writing MetadataGetter for method: WebConnection::Close
+// Writing MetadataGetter for method: System::Net::WebConnection::Close
 // Il2CppName: Close
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebConnection::*)(bool)>(&WebConnection::Close)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnection::*)(bool)>(&System::Net::WebConnection::Close)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: WebConnection::Abort
+// Writing MetadataGetter for method: System::Net::WebConnection::Abort
 // Il2CppName: Abort
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebConnection::*)(::Il2CppObject*, System::EventArgs*)>(&WebConnection::Abort)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnection::*)(::Il2CppObject*, System::EventArgs*)>(&System::Net::WebConnection::Abort)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "Abort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::EventArgs*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "Abort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::EventArgs*>()});
   }
 };
-// Writing MetadataGetter for method: WebConnection::ResetNtlm
+// Writing MetadataGetter for method: System::Net::WebConnection::ResetNtlm
 // Il2CppName: ResetNtlm
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebConnection::*)()>(&WebConnection::ResetNtlm)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnection::*)()>(&System::Net::WebConnection::ResetNtlm)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "ResetNtlm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "ResetNtlm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WebConnection::set_PriorityRequest
+// Writing MetadataGetter for method: System::Net::WebConnection::set_PriorityRequest
 // Il2CppName: set_PriorityRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebConnection::*)(System::Net::HttpWebRequest*)>(&WebConnection::set_PriorityRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnection::*)(System::Net::HttpWebRequest*)>(&System::Net::WebConnection::set_PriorityRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "set_PriorityRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "set_PriorityRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>()});
   }
 };
-// Writing MetadataGetter for method: WebConnection::get_NtlmAuthenticated
+// Writing MetadataGetter for method: System::Net::WebConnection::get_NtlmAuthenticated
 // Il2CppName: get_NtlmAuthenticated
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WebConnection::*)()>(&WebConnection::get_NtlmAuthenticated)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebConnection::*)()>(&System::Net::WebConnection::get_NtlmAuthenticated)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "get_NtlmAuthenticated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "get_NtlmAuthenticated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WebConnection::set_NtlmAuthenticated
+// Writing MetadataGetter for method: System::Net::WebConnection::set_NtlmAuthenticated
 // Il2CppName: set_NtlmAuthenticated
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebConnection::*)(bool)>(&WebConnection::set_NtlmAuthenticated)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnection::*)(bool)>(&System::Net::WebConnection::set_NtlmAuthenticated)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "set_NtlmAuthenticated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "set_NtlmAuthenticated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: WebConnection::get_NtlmCredential
+// Writing MetadataGetter for method: System::Net::WebConnection::get_NtlmCredential
 // Il2CppName: get_NtlmCredential
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkCredential* (WebConnection::*)()>(&WebConnection::get_NtlmCredential)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkCredential* (System::Net::WebConnection::*)()>(&System::Net::WebConnection::get_NtlmCredential)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "get_NtlmCredential", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "get_NtlmCredential", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WebConnection::set_NtlmCredential
+// Writing MetadataGetter for method: System::Net::WebConnection::set_NtlmCredential
 // Il2CppName: set_NtlmCredential
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebConnection::*)(System::Net::NetworkCredential*)>(&WebConnection::set_NtlmCredential)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnection::*)(System::Net::NetworkCredential*)>(&System::Net::WebConnection::set_NtlmCredential)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "set_NtlmCredential", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkCredential*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "set_NtlmCredential", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkCredential*>()});
   }
 };
-// Writing MetadataGetter for method: WebConnection::get_UnsafeAuthenticatedConnectionSharing
+// Writing MetadataGetter for method: System::Net::WebConnection::get_UnsafeAuthenticatedConnectionSharing
 // Il2CppName: get_UnsafeAuthenticatedConnectionSharing
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WebConnection::*)()>(&WebConnection::get_UnsafeAuthenticatedConnectionSharing)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebConnection::*)()>(&System::Net::WebConnection::get_UnsafeAuthenticatedConnectionSharing)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "get_UnsafeAuthenticatedConnectionSharing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "get_UnsafeAuthenticatedConnectionSharing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WebConnection::set_UnsafeAuthenticatedConnectionSharing
+// Writing MetadataGetter for method: System::Net::WebConnection::set_UnsafeAuthenticatedConnectionSharing
 // Il2CppName: set_UnsafeAuthenticatedConnectionSharing
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebConnection::*)(bool)>(&WebConnection::set_UnsafeAuthenticatedConnectionSharing)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnection::*)(bool)>(&System::Net::WebConnection::set_UnsafeAuthenticatedConnectionSharing)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "set_UnsafeAuthenticatedConnectionSharing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "set_UnsafeAuthenticatedConnectionSharing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: WebConnection::$SendRequest$b__41_0
+// Writing MetadataGetter for method: System::Net::WebConnection::$SendRequest$b__41_0
 // Il2CppName: <SendRequest>b__41_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebConnection::*)(::Il2CppObject*)>(&WebConnection::$SendRequest$b__41_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnection::*)(::Il2CppObject*)>(&System::Net::WebConnection::$SendRequest$b__41_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection*), "<SendRequest>b__41_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection*), "<SendRequest>b__41_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };

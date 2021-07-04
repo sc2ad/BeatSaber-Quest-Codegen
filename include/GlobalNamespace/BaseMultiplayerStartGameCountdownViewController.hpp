@@ -130,81 +130,81 @@ namespace GlobalNamespace {
   static_assert(sizeof(BaseMultiplayerStartGameCountdownViewController) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*, "", "BaseMultiplayerStartGameCountdownViewController");
-// Writing MetadataGetter for method: BaseMultiplayerStartGameCountdownViewController::add_playerActiveStateChangedEvent
+// Writing MetadataGetter for method: GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::add_playerActiveStateChangedEvent
 // Il2CppName: add_playerActiveStateChangedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMultiplayerStartGameCountdownViewController::*)(System::Action_1<bool>*)>(&BaseMultiplayerStartGameCountdownViewController::add_playerActiveStateChangedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::*)(System::Action_1<bool>*)>(&GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::add_playerActiveStateChangedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseMultiplayerStartGameCountdownViewController*), "add_playerActiveStateChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*), "add_playerActiveStateChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
   }
 };
-// Writing MetadataGetter for method: BaseMultiplayerStartGameCountdownViewController::remove_playerActiveStateChangedEvent
+// Writing MetadataGetter for method: GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::remove_playerActiveStateChangedEvent
 // Il2CppName: remove_playerActiveStateChangedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMultiplayerStartGameCountdownViewController::*)(System::Action_1<bool>*)>(&BaseMultiplayerStartGameCountdownViewController::remove_playerActiveStateChangedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::*)(System::Action_1<bool>*)>(&GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::remove_playerActiveStateChangedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseMultiplayerStartGameCountdownViewController*), "remove_playerActiveStateChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*), "remove_playerActiveStateChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
   }
 };
-// Writing MetadataGetter for method: BaseMultiplayerStartGameCountdownViewController::SetLevelGameplaySetupData
+// Writing MetadataGetter for method: GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::SetLevelGameplaySetupData
 // Il2CppName: SetLevelGameplaySetupData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMultiplayerStartGameCountdownViewController::*)(GlobalNamespace::ILevelGameplaySetupData*)>(&BaseMultiplayerStartGameCountdownViewController::SetLevelGameplaySetupData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::*)(GlobalNamespace::ILevelGameplaySetupData*)>(&GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::SetLevelGameplaySetupData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseMultiplayerStartGameCountdownViewController*), "SetLevelGameplaySetupData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ILevelGameplaySetupData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*), "SetLevelGameplaySetupData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ILevelGameplaySetupData*>()});
   }
 };
-// Writing MetadataGetter for method: BaseMultiplayerStartGameCountdownViewController::SetLobbyPlayerData
+// Writing MetadataGetter for method: GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::SetLobbyPlayerData
 // Il2CppName: SetLobbyPlayerData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMultiplayerStartGameCountdownViewController::*)(GlobalNamespace::ILobbyPlayerDataModel*)>(&BaseMultiplayerStartGameCountdownViewController::SetLobbyPlayerData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::*)(GlobalNamespace::ILobbyPlayerDataModel*)>(&GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::SetLobbyPlayerData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseMultiplayerStartGameCountdownViewController*), "SetLobbyPlayerData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ILobbyPlayerDataModel*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*), "SetLobbyPlayerData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ILobbyPlayerDataModel*>()});
   }
 };
-// Writing MetadataGetter for method: BaseMultiplayerStartGameCountdownViewController::$DidActivate$b__9_0
+// Writing MetadataGetter for method: GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::$DidActivate$b__9_0
 // Il2CppName: <DidActivate>b__9_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMultiplayerStartGameCountdownViewController::*)(bool)>(&BaseMultiplayerStartGameCountdownViewController::$DidActivate$b__9_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::*)(bool)>(&GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::$DidActivate$b__9_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseMultiplayerStartGameCountdownViewController*), "<DidActivate>b__9_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*), "<DidActivate>b__9_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: BaseMultiplayerStartGameCountdownViewController::DidActivate
+// Writing MetadataGetter for method: GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMultiplayerStartGameCountdownViewController::*)(bool, bool, bool)>(&BaseMultiplayerStartGameCountdownViewController::DidActivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::*)(bool, bool, bool)>(&GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::DidActivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseMultiplayerStartGameCountdownViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: BaseMultiplayerStartGameCountdownViewController::DidDeactivate
+// Writing MetadataGetter for method: GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::DidDeactivate
 // Il2CppName: DidDeactivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMultiplayerStartGameCountdownViewController::*)(bool, bool)>(&BaseMultiplayerStartGameCountdownViewController::DidDeactivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::*)(bool, bool)>(&GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::DidDeactivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseMultiplayerStartGameCountdownViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: BaseMultiplayerStartGameCountdownViewController::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMultiplayerStartGameCountdownViewController::*)()>(&BaseMultiplayerStartGameCountdownViewController::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::*)()>(&GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseMultiplayerStartGameCountdownViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BaseMultiplayerStartGameCountdownViewController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMultiplayerStartGameCountdownViewController::*)()>(&BaseMultiplayerStartGameCountdownViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::*)()>(&GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseMultiplayerStartGameCountdownViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMultiplayerStartGameCountdownViewController::*)()>(&BaseMultiplayerStartGameCountdownViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::*)()>(&GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseMultiplayerStartGameCountdownViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

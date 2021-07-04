@@ -124,89 +124,89 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionNode) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNode*, "", "MissionNode");
-// Writing MetadataGetter for method: MissionNode::get_missionData
+// Writing MetadataGetter for method: GlobalNamespace::MissionNode::get_missionData
 // Il2CppName: get_missionData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionDataSO* (MissionNode::*)()>(&MissionNode::get_missionData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionDataSO* (GlobalNamespace::MissionNode::*)()>(&GlobalNamespace::MissionNode::get_missionData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNode*), "get_missionData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNode*), "get_missionData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionNode::get_childNodes
+// Writing MetadataGetter for method: GlobalNamespace::MissionNode::get_childNodes
 // Il2CppName: get_childNodes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::MissionNode*>* (MissionNode::*)()>(&MissionNode::get_childNodes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::MissionNode*>* (GlobalNamespace::MissionNode::*)()>(&GlobalNamespace::MissionNode::get_childNodes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNode*), "get_childNodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNode*), "get_childNodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionNode::get_missionNodeVisualController
+// Writing MetadataGetter for method: GlobalNamespace::MissionNode::get_missionNodeVisualController
 // Il2CppName: get_missionNodeVisualController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionNodeVisualController* (MissionNode::*)()>(&MissionNode::get_missionNodeVisualController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionNodeVisualController* (GlobalNamespace::MissionNode::*)()>(&GlobalNamespace::MissionNode::get_missionNodeVisualController)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNode*), "get_missionNodeVisualController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNode*), "get_missionNodeVisualController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionNode::get_letterPartName
+// Writing MetadataGetter for method: GlobalNamespace::MissionNode::get_letterPartName
 // Il2CppName: get_letterPartName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MissionNode::*)()>(&MissionNode::get_letterPartName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MissionNode::*)()>(&GlobalNamespace::MissionNode::get_letterPartName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNode*), "get_letterPartName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNode*), "get_letterPartName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionNode::get_numberPartName
+// Writing MetadataGetter for method: GlobalNamespace::MissionNode::get_numberPartName
 // Il2CppName: get_numberPartName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MissionNode::*)()>(&MissionNode::get_numberPartName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MissionNode::*)()>(&GlobalNamespace::MissionNode::get_numberPartName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNode*), "get_numberPartName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNode*), "get_numberPartName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionNode::get_missionId
+// Writing MetadataGetter for method: GlobalNamespace::MissionNode::get_missionId
 // Il2CppName: get_missionId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MissionNode::*)()>(&MissionNode::get_missionId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MissionNode::*)()>(&GlobalNamespace::MissionNode::get_missionId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNode*), "get_missionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNode*), "get_missionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionNode::get_formattedMissionNodeName
+// Writing MetadataGetter for method: GlobalNamespace::MissionNode::get_formattedMissionNodeName
 // Il2CppName: get_formattedMissionNodeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MissionNode::*)()>(&MissionNode::get_formattedMissionNodeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MissionNode::*)()>(&GlobalNamespace::MissionNode::get_formattedMissionNodeName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNode*), "get_formattedMissionNodeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNode*), "get_formattedMissionNodeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionNode::get_position
+// Writing MetadataGetter for method: GlobalNamespace::MissionNode::get_position
 // Il2CppName: get_position
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (MissionNode::*)()>(&MissionNode::get_position)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (GlobalNamespace::MissionNode::*)()>(&GlobalNamespace::MissionNode::get_position)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNode*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNode*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionNode::get_radius
+// Writing MetadataGetter for method: GlobalNamespace::MissionNode::get_radius
 // Il2CppName: get_radius
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (MissionNode::*)()>(&MissionNode::get_radius)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MissionNode::*)()>(&GlobalNamespace::MissionNode::get_radius)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNode*), "get_radius", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNode*), "get_radius", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionNode::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MissionNode::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNode::*)()>(&MissionNode::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNode::*)()>(&GlobalNamespace::MissionNode::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionNode::*)()>(&MissionNode::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNode::*)()>(&GlobalNamespace::MissionNode::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

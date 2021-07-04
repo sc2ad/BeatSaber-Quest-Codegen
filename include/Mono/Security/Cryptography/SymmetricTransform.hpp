@@ -189,185 +189,185 @@ namespace Mono::Security::Cryptography {
   static_assert(sizeof(SymmetricTransform) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::SymmetricTransform*, "Mono.Security.Cryptography", "SymmetricTransform");
-// Writing MetadataGetter for method: SymmetricTransform::New_ctor
+// Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricTransform::*)(System::Security::Cryptography::SymmetricAlgorithm*, bool, ::Array<uint8_t>*)>(&SymmetricTransform::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)(System::Security::Cryptography::SymmetricAlgorithm*, bool, ::Array<uint8_t>*)>(&Mono::Security::Cryptography::SymmetricTransform::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::SymmetricAlgorithm*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::SymmetricAlgorithm*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricTransform::*)(System::Security::Cryptography::SymmetricAlgorithm*, bool, ::Array<uint8_t>*)>(&SymmetricTransform::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)(System::Security::Cryptography::SymmetricAlgorithm*, bool, ::Array<uint8_t>*)>(&Mono::Security::Cryptography::SymmetricTransform::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::SymmetricAlgorithm*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::SymmetricAlgorithm*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: SymmetricTransform::System_IDisposable_Dispose
+// Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::System_IDisposable_Dispose
 // Il2CppName: System.IDisposable.Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricTransform::*)()>(&SymmetricTransform::System_IDisposable_Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)()>(&Mono::Security::Cryptography::SymmetricTransform::System_IDisposable_Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SymmetricTransform::Dispose
+// Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricTransform::*)(bool)>(&SymmetricTransform::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)(bool)>(&Mono::Security::Cryptography::SymmetricTransform::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: SymmetricTransform::get_CanTransformMultipleBlocks
+// Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::get_CanTransformMultipleBlocks
 // Il2CppName: get_CanTransformMultipleBlocks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SymmetricTransform::*)()>(&SymmetricTransform::get_CanTransformMultipleBlocks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::Cryptography::SymmetricTransform::*)()>(&Mono::Security::Cryptography::SymmetricTransform::get_CanTransformMultipleBlocks)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "get_CanTransformMultipleBlocks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "get_CanTransformMultipleBlocks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SymmetricTransform::get_InputBlockSize
+// Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::get_InputBlockSize
 // Il2CppName: get_InputBlockSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SymmetricTransform::*)()>(&SymmetricTransform::get_InputBlockSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Security::Cryptography::SymmetricTransform::*)()>(&Mono::Security::Cryptography::SymmetricTransform::get_InputBlockSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "get_InputBlockSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "get_InputBlockSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SymmetricTransform::get_OutputBlockSize
+// Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::get_OutputBlockSize
 // Il2CppName: get_OutputBlockSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SymmetricTransform::*)()>(&SymmetricTransform::get_OutputBlockSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Security::Cryptography::SymmetricTransform::*)()>(&Mono::Security::Cryptography::SymmetricTransform::get_OutputBlockSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "get_OutputBlockSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "get_OutputBlockSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SymmetricTransform::Transform
+// Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::Transform
 // Il2CppName: Transform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricTransform::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&SymmetricTransform::Transform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&Mono::Security::Cryptography::SymmetricTransform::Transform)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "Transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "Transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: SymmetricTransform::ECB
+// Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::ECB
 // Il2CppName: ECB
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricTransform::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&SymmetricTransform::ECB)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&Mono::Security::Cryptography::SymmetricTransform::ECB)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "ECB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "ECB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: SymmetricTransform::CBC
+// Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::CBC
 // Il2CppName: CBC
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricTransform::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&SymmetricTransform::CBC)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&Mono::Security::Cryptography::SymmetricTransform::CBC)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "CBC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "CBC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: SymmetricTransform::CFB
+// Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::CFB
 // Il2CppName: CFB
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricTransform::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&SymmetricTransform::CFB)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&Mono::Security::Cryptography::SymmetricTransform::CFB)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "CFB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "CFB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: SymmetricTransform::OFB
+// Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::OFB
 // Il2CppName: OFB
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricTransform::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&SymmetricTransform::OFB)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&Mono::Security::Cryptography::SymmetricTransform::OFB)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "OFB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "OFB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: SymmetricTransform::CTS
+// Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::CTS
 // Il2CppName: CTS
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricTransform::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&SymmetricTransform::CTS)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&Mono::Security::Cryptography::SymmetricTransform::CTS)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "CTS", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "CTS", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: SymmetricTransform::CheckInput
+// Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::CheckInput
 // Il2CppName: CheckInput
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricTransform::*)(::Array<uint8_t>*, int, int)>(&SymmetricTransform::CheckInput)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)(::Array<uint8_t>*, int, int)>(&Mono::Security::Cryptography::SymmetricTransform::CheckInput)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "CheckInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "CheckInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SymmetricTransform::TransformBlock
+// Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::TransformBlock
 // Il2CppName: TransformBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SymmetricTransform::*)(::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&SymmetricTransform::TransformBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Security::Cryptography::SymmetricTransform::*)(::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&Mono::Security::Cryptography::SymmetricTransform::TransformBlock)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "TransformBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "TransformBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SymmetricTransform::get_KeepLastBlock
+// Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::get_KeepLastBlock
 // Il2CppName: get_KeepLastBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SymmetricTransform::*)()>(&SymmetricTransform::get_KeepLastBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::Cryptography::SymmetricTransform::*)()>(&Mono::Security::Cryptography::SymmetricTransform::get_KeepLastBlock)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "get_KeepLastBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "get_KeepLastBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SymmetricTransform::InternalTransformBlock
+// Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::InternalTransformBlock
 // Il2CppName: InternalTransformBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SymmetricTransform::*)(::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&SymmetricTransform::InternalTransformBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Security::Cryptography::SymmetricTransform::*)(::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&Mono::Security::Cryptography::SymmetricTransform::InternalTransformBlock)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "InternalTransformBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "InternalTransformBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SymmetricTransform::Random
+// Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::Random
 // Il2CppName: Random
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricTransform::*)(::Array<uint8_t>*, int, int)>(&SymmetricTransform::Random)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)(::Array<uint8_t>*, int, int)>(&Mono::Security::Cryptography::SymmetricTransform::Random)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "Random", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "Random", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SymmetricTransform::ThrowBadPaddingException
+// Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::ThrowBadPaddingException
 // Il2CppName: ThrowBadPaddingException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricTransform::*)(System::Security::Cryptography::PaddingMode, int, int)>(&SymmetricTransform::ThrowBadPaddingException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)(System::Security::Cryptography::PaddingMode, int, int)>(&Mono::Security::Cryptography::SymmetricTransform::ThrowBadPaddingException)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "ThrowBadPaddingException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::PaddingMode>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "ThrowBadPaddingException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::PaddingMode>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SymmetricTransform::FinalEncrypt
+// Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::FinalEncrypt
 // Il2CppName: FinalEncrypt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (SymmetricTransform::*)(::Array<uint8_t>*, int, int)>(&SymmetricTransform::FinalEncrypt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::Cryptography::SymmetricTransform::*)(::Array<uint8_t>*, int, int)>(&Mono::Security::Cryptography::SymmetricTransform::FinalEncrypt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "FinalEncrypt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "FinalEncrypt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SymmetricTransform::FinalDecrypt
+// Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::FinalDecrypt
 // Il2CppName: FinalDecrypt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (SymmetricTransform::*)(::Array<uint8_t>*, int, int)>(&SymmetricTransform::FinalDecrypt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::Cryptography::SymmetricTransform::*)(::Array<uint8_t>*, int, int)>(&Mono::Security::Cryptography::SymmetricTransform::FinalDecrypt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "FinalDecrypt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "FinalDecrypt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SymmetricTransform::TransformFinalBlock
+// Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::TransformFinalBlock
 // Il2CppName: TransformFinalBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (SymmetricTransform::*)(::Array<uint8_t>*, int, int)>(&SymmetricTransform::TransformFinalBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::Cryptography::SymmetricTransform::*)(::Array<uint8_t>*, int, int)>(&Mono::Security::Cryptography::SymmetricTransform::TransformFinalBlock)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "TransformFinalBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "TransformFinalBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SymmetricTransform::Finalize
+// Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::Finalize
 // Il2CppName: Finalize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricTransform::*)()>(&SymmetricTransform::Finalize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::SymmetricTransform::*)()>(&Mono::Security::Cryptography::SymmetricTransform::Finalize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricTransform*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::SymmetricTransform*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -89,57 +89,57 @@ namespace GlobalNamespace {
   static_assert(sizeof(BaseNoteVisuals) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseNoteVisuals*, "", "BaseNoteVisuals");
-// Writing MetadataGetter for method: BaseNoteVisuals::Awake
+// Writing MetadataGetter for method: GlobalNamespace::BaseNoteVisuals::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseNoteVisuals::*)()>(&BaseNoteVisuals::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseNoteVisuals::*)()>(&GlobalNamespace::BaseNoteVisuals::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseNoteVisuals*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseNoteVisuals*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BaseNoteVisuals::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::BaseNoteVisuals::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseNoteVisuals::*)()>(&BaseNoteVisuals::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseNoteVisuals::*)()>(&GlobalNamespace::BaseNoteVisuals::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseNoteVisuals*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseNoteVisuals*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BaseNoteVisuals::HandleNoteControllerDidInit
+// Writing MetadataGetter for method: GlobalNamespace::BaseNoteVisuals::HandleNoteControllerDidInit
 // Il2CppName: HandleNoteControllerDidInit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseNoteVisuals::*)(GlobalNamespace::NoteControllerBase*)>(&BaseNoteVisuals::HandleNoteControllerDidInit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseNoteVisuals::*)(GlobalNamespace::NoteControllerBase*)>(&GlobalNamespace::BaseNoteVisuals::HandleNoteControllerDidInit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseNoteVisuals*), "HandleNoteControllerDidInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteControllerBase*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseNoteVisuals*), "HandleNoteControllerDidInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteControllerBase*>()});
   }
 };
-// Writing MetadataGetter for method: BaseNoteVisuals::HandleNoteControllerNoteDidStartDissolving
+// Writing MetadataGetter for method: GlobalNamespace::BaseNoteVisuals::HandleNoteControllerNoteDidStartDissolving
 // Il2CppName: HandleNoteControllerNoteDidStartDissolving
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseNoteVisuals::*)(GlobalNamespace::NoteControllerBase*, float)>(&BaseNoteVisuals::HandleNoteControllerNoteDidStartDissolving)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseNoteVisuals::*)(GlobalNamespace::NoteControllerBase*, float)>(&GlobalNamespace::BaseNoteVisuals::HandleNoteControllerNoteDidStartDissolving)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseNoteVisuals*), "HandleNoteControllerNoteDidStartDissolving", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteControllerBase*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseNoteVisuals*), "HandleNoteControllerNoteDidStartDissolving", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteControllerBase*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: BaseNoteVisuals::AnimateCutout
+// Writing MetadataGetter for method: GlobalNamespace::BaseNoteVisuals::AnimateCutout
 // Il2CppName: AnimateCutout
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseNoteVisuals::*)(float, float, float)>(&BaseNoteVisuals::AnimateCutout)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseNoteVisuals::*)(float, float, float)>(&GlobalNamespace::BaseNoteVisuals::AnimateCutout)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseNoteVisuals*), "AnimateCutout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseNoteVisuals*), "AnimateCutout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: BaseNoteVisuals::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BaseNoteVisuals::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseNoteVisuals::*)()>(&BaseNoteVisuals::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseNoteVisuals::*)()>(&GlobalNamespace::BaseNoteVisuals::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseNoteVisuals*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseNoteVisuals*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseNoteVisuals::*)()>(&BaseNoteVisuals::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseNoteVisuals::*)()>(&GlobalNamespace::BaseNoteVisuals::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseNoteVisuals*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseNoteVisuals*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

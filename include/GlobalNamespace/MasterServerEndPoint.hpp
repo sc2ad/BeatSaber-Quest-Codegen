@@ -107,95 +107,95 @@ namespace GlobalNamespace {
   static_assert(sizeof(MasterServerEndPoint) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerEndPoint*, "", "MasterServerEndPoint");
-// Writing MetadataGetter for method: MasterServerEndPoint::get_endPoint
+// Writing MetadataGetter for method: GlobalNamespace::MasterServerEndPoint::get_endPoint
 // Il2CppName: get_endPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPEndPoint* (MasterServerEndPoint::*)()>(&MasterServerEndPoint::get_endPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPEndPoint* (GlobalNamespace::MasterServerEndPoint::*)()>(&GlobalNamespace::MasterServerEndPoint::get_endPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServerEndPoint*), "get_endPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerEndPoint*), "get_endPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MasterServerEndPoint::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MasterServerEndPoint::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServerEndPoint::*)(::Il2CppString*, int)>(&MasterServerEndPoint::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerEndPoint::*)(::Il2CppString*, int)>(&GlobalNamespace::MasterServerEndPoint::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServerEndPoint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerEndPoint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServerEndPoint::*)(::Il2CppString*, int)>(&MasterServerEndPoint::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerEndPoint::*)(::Il2CppString*, int)>(&GlobalNamespace::MasterServerEndPoint::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServerEndPoint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerEndPoint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: MasterServerEndPoint::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MasterServerEndPoint::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServerEndPoint::*)(System::Net::IPEndPoint*)>(&MasterServerEndPoint::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerEndPoint::*)(System::Net::IPEndPoint*)>(&GlobalNamespace::MasterServerEndPoint::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServerEndPoint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerEndPoint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServerEndPoint::*)(System::Net::IPEndPoint*)>(&MasterServerEndPoint::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerEndPoint::*)(System::Net::IPEndPoint*)>(&GlobalNamespace::MasterServerEndPoint::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServerEndPoint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerEndPoint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
   }
 };
-// Writing MetadataGetter for method: MasterServerEndPoint::GetEndPointAsync
+// Writing MetadataGetter for method: GlobalNamespace::MasterServerEndPoint::GetEndPointAsync
 // Il2CppName: GetEndPointAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<System::Net::IPEndPoint*>* (MasterServerEndPoint::*)()>(&MasterServerEndPoint::GetEndPointAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<System::Net::IPEndPoint*>* (GlobalNamespace::MasterServerEndPoint::*)()>(&GlobalNamespace::MasterServerEndPoint::GetEndPointAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServerEndPoint*), "GetEndPointAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerEndPoint*), "GetEndPointAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MasterServerEndPoint::GetEndPoint
+// Writing MetadataGetter for method: GlobalNamespace::MasterServerEndPoint::GetEndPoint
 // Il2CppName: GetEndPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPEndPoint* (MasterServerEndPoint::*)()>(&MasterServerEndPoint::GetEndPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPEndPoint* (GlobalNamespace::MasterServerEndPoint::*)()>(&GlobalNamespace::MasterServerEndPoint::GetEndPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServerEndPoint*), "GetEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerEndPoint*), "GetEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MasterServerEndPoint::GetEndPointInternal
+// Writing MetadataGetter for method: GlobalNamespace::MasterServerEndPoint::GetEndPointInternal
 // Il2CppName: GetEndPointInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPEndPoint* (MasterServerEndPoint::*)()>(&MasterServerEndPoint::GetEndPointInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPEndPoint* (GlobalNamespace::MasterServerEndPoint::*)()>(&GlobalNamespace::MasterServerEndPoint::GetEndPointInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServerEndPoint*), "GetEndPointInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerEndPoint*), "GetEndPointInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MasterServerEndPoint::Equals
+// Writing MetadataGetter for method: GlobalNamespace::MasterServerEndPoint::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServerEndPoint::*)(GlobalNamespace::MasterServerEndPoint*)>(&MasterServerEndPoint::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MasterServerEndPoint::*)(GlobalNamespace::MasterServerEndPoint*)>(&GlobalNamespace::MasterServerEndPoint::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServerEndPoint*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MasterServerEndPoint*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerEndPoint*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MasterServerEndPoint*>()});
   }
 };
-// Writing MetadataGetter for method: MasterServerEndPoint::ToString
+// Writing MetadataGetter for method: GlobalNamespace::MasterServerEndPoint::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MasterServerEndPoint::*)()>(&MasterServerEndPoint::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MasterServerEndPoint::*)()>(&GlobalNamespace::MasterServerEndPoint::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServerEndPoint*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerEndPoint*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MasterServerEndPoint::Equals
+// Writing MetadataGetter for method: GlobalNamespace::MasterServerEndPoint::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServerEndPoint::*)(::Il2CppObject*)>(&MasterServerEndPoint::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MasterServerEndPoint::*)(::Il2CppObject*)>(&GlobalNamespace::MasterServerEndPoint::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServerEndPoint*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerEndPoint*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: MasterServerEndPoint::GetHashCode
+// Writing MetadataGetter for method: GlobalNamespace::MasterServerEndPoint::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MasterServerEndPoint::*)()>(&MasterServerEndPoint::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MasterServerEndPoint::*)()>(&GlobalNamespace::MasterServerEndPoint::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServerEndPoint*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerEndPoint*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

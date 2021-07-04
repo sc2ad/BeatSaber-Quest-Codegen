@@ -80,81 +80,81 @@ namespace Valve::VR {
   static_assert(sizeof(CVRChaperone) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRChaperone*, "Valve.VR", "CVRChaperone");
-// Writing MetadataGetter for method: CVRChaperone::New_ctor
+// Writing MetadataGetter for method: Valve::VR::CVRChaperone::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperone::*)(System::IntPtr)>(&CVRChaperone::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRChaperone::*)(System::IntPtr)>(&Valve::VR::CVRChaperone::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRChaperone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperone::*)(System::IntPtr)>(&CVRChaperone::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRChaperone::*)(System::IntPtr)>(&Valve::VR::CVRChaperone::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRChaperone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperone*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: CVRChaperone::GetCalibrationState
+// Writing MetadataGetter for method: Valve::VR::CVRChaperone::GetCalibrationState
 // Il2CppName: GetCalibrationState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::ChaperoneCalibrationState (CVRChaperone::*)()>(&CVRChaperone::GetCalibrationState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::ChaperoneCalibrationState (Valve::VR::CVRChaperone::*)()>(&Valve::VR::CVRChaperone::GetCalibrationState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRChaperone*), "GetCalibrationState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperone*), "GetCalibrationState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CVRChaperone::GetPlayAreaSize
+// Writing MetadataGetter for method: Valve::VR::CVRChaperone::GetPlayAreaSize
 // Il2CppName: GetPlayAreaSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperone::*)(float&, float&)>(&CVRChaperone::GetPlayAreaSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperone::*)(float&, float&)>(&Valve::VR::CVRChaperone::GetPlayAreaSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRChaperone*), "GetPlayAreaSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperone*), "GetPlayAreaSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
   }
 };
-// Writing MetadataGetter for method: CVRChaperone::GetPlayAreaRect
+// Writing MetadataGetter for method: Valve::VR::CVRChaperone::GetPlayAreaRect
 // Il2CppName: GetPlayAreaRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperone::*)(Valve::VR::HmdQuad_t&)>(&CVRChaperone::GetPlayAreaRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperone::*)(Valve::VR::HmdQuad_t&)>(&Valve::VR::CVRChaperone::GetPlayAreaRect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRChaperone*), "GetPlayAreaRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdQuad_t&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperone*), "GetPlayAreaRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdQuad_t&>()});
   }
 };
-// Writing MetadataGetter for method: CVRChaperone::ReloadInfo
+// Writing MetadataGetter for method: Valve::VR::CVRChaperone::ReloadInfo
 // Il2CppName: ReloadInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperone::*)()>(&CVRChaperone::ReloadInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRChaperone::*)()>(&Valve::VR::CVRChaperone::ReloadInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRChaperone*), "ReloadInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperone*), "ReloadInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CVRChaperone::SetSceneColor
+// Writing MetadataGetter for method: Valve::VR::CVRChaperone::SetSceneColor
 // Il2CppName: SetSceneColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperone::*)(Valve::VR::HmdColor_t)>(&CVRChaperone::SetSceneColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRChaperone::*)(Valve::VR::HmdColor_t)>(&Valve::VR::CVRChaperone::SetSceneColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRChaperone*), "SetSceneColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdColor_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperone*), "SetSceneColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdColor_t>()});
   }
 };
-// Writing MetadataGetter for method: CVRChaperone::GetBoundsColor
+// Writing MetadataGetter for method: Valve::VR::CVRChaperone::GetBoundsColor
 // Il2CppName: GetBoundsColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperone::*)(Valve::VR::HmdColor_t&, int, float, Valve::VR::HmdColor_t&)>(&CVRChaperone::GetBoundsColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRChaperone::*)(Valve::VR::HmdColor_t&, int, float, Valve::VR::HmdColor_t&)>(&Valve::VR::CVRChaperone::GetBoundsColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRChaperone*), "GetBoundsColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdColor_t&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdColor_t&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperone*), "GetBoundsColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdColor_t&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdColor_t&>()});
   }
 };
-// Writing MetadataGetter for method: CVRChaperone::AreBoundsVisible
+// Writing MetadataGetter for method: Valve::VR::CVRChaperone::AreBoundsVisible
 // Il2CppName: AreBoundsVisible
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperone::*)()>(&CVRChaperone::AreBoundsVisible)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperone::*)()>(&Valve::VR::CVRChaperone::AreBoundsVisible)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRChaperone*), "AreBoundsVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperone*), "AreBoundsVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CVRChaperone::ForceBoundsVisible
+// Writing MetadataGetter for method: Valve::VR::CVRChaperone::ForceBoundsVisible
 // Il2CppName: ForceBoundsVisible
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperone::*)(bool)>(&CVRChaperone::ForceBoundsVisible)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRChaperone::*)(bool)>(&Valve::VR::CVRChaperone::ForceBoundsVisible)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRChaperone*), "ForceBoundsVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperone*), "ForceBoundsVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };

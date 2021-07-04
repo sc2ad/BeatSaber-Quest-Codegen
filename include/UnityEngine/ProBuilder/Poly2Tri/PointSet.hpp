@@ -100,81 +100,81 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   static_assert(sizeof(PointSet) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::PointSet*, "UnityEngine.ProBuilder.Poly2Tri", "PointSet");
-// Writing MetadataGetter for method: PointSet::get_Points
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::PointSet::get_Points
 // Il2CppName: get_Points
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* (PointSet::*)()>(&PointSet::get_Points)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* (UnityEngine::ProBuilder::Poly2Tri::PointSet::*)()>(&UnityEngine::ProBuilder::Poly2Tri::PointSet::get_Points)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointSet*), "get_Points", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::PointSet*), "get_Points", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PointSet::set_Points
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::PointSet::set_Points
 // Il2CppName: set_Points
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointSet::*)(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*)>(&PointSet::set_Points)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::PointSet::*)(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*)>(&UnityEngine::ProBuilder::Poly2Tri::PointSet::set_Points)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointSet*), "set_Points", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::PointSet*), "set_Points", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*>()});
   }
 };
-// Writing MetadataGetter for method: PointSet::get_Triangles
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::PointSet::get_Triangles
 // Il2CppName: get_Triangles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* (PointSet::*)()>(&PointSet::get_Triangles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* (UnityEngine::ProBuilder::Poly2Tri::PointSet::*)()>(&UnityEngine::ProBuilder::Poly2Tri::PointSet::get_Triangles)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointSet*), "get_Triangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::PointSet*), "get_Triangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PointSet::set_Triangles
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::PointSet::set_Triangles
 // Il2CppName: set_Triangles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointSet::*)(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>*)>(&PointSet::set_Triangles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::PointSet::*)(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>*)>(&UnityEngine::ProBuilder::Poly2Tri::PointSet::set_Triangles)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointSet*), "set_Triangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::PointSet*), "set_Triangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>*>()});
   }
 };
-// Writing MetadataGetter for method: PointSet::New_ctor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::PointSet::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointSet::*)(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*)>(&PointSet::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::PointSet::*)(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*)>(&UnityEngine::ProBuilder::Poly2Tri::PointSet::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointSet*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::PointSet*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointSet::*)(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*)>(&PointSet::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::PointSet::*)(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*)>(&UnityEngine::ProBuilder::Poly2Tri::PointSet::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointSet*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::PointSet*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*>()});
   }
 };
-// Writing MetadataGetter for method: PointSet::get_TriangulationMode
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::PointSet::get_TriangulationMode
 // Il2CppName: get_TriangulationMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::TriangulationMode (PointSet::*)()>(&PointSet::get_TriangulationMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::TriangulationMode (UnityEngine::ProBuilder::Poly2Tri::PointSet::*)()>(&UnityEngine::ProBuilder::Poly2Tri::PointSet::get_TriangulationMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointSet*), "get_TriangulationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::PointSet*), "get_TriangulationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PointSet::AddTriangle
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::PointSet::AddTriangle
 // Il2CppName: AddTriangle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointSet::*)(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*)>(&PointSet::AddTriangle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::PointSet::*)(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*)>(&UnityEngine::ProBuilder::Poly2Tri::PointSet::AddTriangle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointSet*), "AddTriangle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::PointSet*), "AddTriangle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>()});
   }
 };
-// Writing MetadataGetter for method: PointSet::AddTriangles
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::PointSet::AddTriangles
 // Il2CppName: AddTriangles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointSet::*)(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>*)>(&PointSet::AddTriangles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::PointSet::*)(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>*)>(&UnityEngine::ProBuilder::Poly2Tri::PointSet::AddTriangles)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointSet*), "AddTriangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::PointSet*), "AddTriangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>*>()});
   }
 };
-// Writing MetadataGetter for method: PointSet::Prepare
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::PointSet::Prepare
 // Il2CppName: Prepare
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointSet::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*)>(&PointSet::Prepare)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::PointSet::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*)>(&UnityEngine::ProBuilder::Poly2Tri::PointSet::Prepare)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointSet*), "Prepare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::PointSet*), "Prepare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*>()});
   }
 };

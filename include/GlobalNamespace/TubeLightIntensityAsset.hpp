@@ -84,33 +84,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(TubeLightIntensityAsset) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TubeLightIntensityAsset*, "", "TubeLightIntensityAsset");
-// Writing MetadataGetter for method: TubeLightIntensityAsset::get_clipCaps
+// Writing MetadataGetter for method: GlobalNamespace::TubeLightIntensityAsset::get_clipCaps
 // Il2CppName: get_clipCaps
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::ClipCaps (TubeLightIntensityAsset::*)()>(&TubeLightIntensityAsset::get_clipCaps)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::ClipCaps (GlobalNamespace::TubeLightIntensityAsset::*)()>(&GlobalNamespace::TubeLightIntensityAsset::get_clipCaps)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TubeLightIntensityAsset*), "get_clipCaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeLightIntensityAsset*), "get_clipCaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TubeLightIntensityAsset::CreatePlayable
+// Writing MetadataGetter for method: GlobalNamespace::TubeLightIntensityAsset::CreatePlayable
 // Il2CppName: CreatePlayable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (TubeLightIntensityAsset::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*)>(&TubeLightIntensityAsset::CreatePlayable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (GlobalNamespace::TubeLightIntensityAsset::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*)>(&GlobalNamespace::TubeLightIntensityAsset::CreatePlayable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TubeLightIntensityAsset*), "CreatePlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeLightIntensityAsset*), "CreatePlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
   }
 };
-// Writing MetadataGetter for method: TubeLightIntensityAsset::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::TubeLightIntensityAsset::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TubeLightIntensityAsset::*)()>(&TubeLightIntensityAsset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TubeLightIntensityAsset::*)()>(&GlobalNamespace::TubeLightIntensityAsset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TubeLightIntensityAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeLightIntensityAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TubeLightIntensityAsset::*)()>(&TubeLightIntensityAsset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TubeLightIntensityAsset::*)()>(&GlobalNamespace::TubeLightIntensityAsset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TubeLightIntensityAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeLightIntensityAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

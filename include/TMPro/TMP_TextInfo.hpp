@@ -207,101 +207,101 @@ namespace TMPro {
   static_assert(sizeof(TMP_TextInfo) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextInfo*, "TMPro", "TMP_TextInfo");
-// Writing MetadataGetter for method: TMP_TextInfo::New_ctor
+// Writing MetadataGetter for method: TMPro::TMP_TextInfo::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_TextInfo::*)(TMPro::TMP_Text*)>(&TMP_TextInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_TextInfo::*)(TMPro::TMP_Text*)>(&TMPro::TMP_TextInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_TextInfo::*)(TMPro::TMP_Text*)>(&TMP_TextInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_TextInfo::*)(TMPro::TMP_Text*)>(&TMPro::TMP_TextInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextInfo::Clear
+// Writing MetadataGetter for method: TMPro::TMP_TextInfo::Clear
 // Il2CppName: Clear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_TextInfo::*)()>(&TMP_TextInfo::Clear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_TextInfo::*)()>(&TMPro::TMP_TextInfo::Clear)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextInfo*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextInfo*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_TextInfo::ClearMeshInfo
+// Writing MetadataGetter for method: TMPro::TMP_TextInfo::ClearMeshInfo
 // Il2CppName: ClearMeshInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_TextInfo::*)(bool)>(&TMP_TextInfo::ClearMeshInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_TextInfo::*)(bool)>(&TMPro::TMP_TextInfo::ClearMeshInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextInfo*), "ClearMeshInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextInfo*), "ClearMeshInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextInfo::ClearAllMeshInfo
+// Writing MetadataGetter for method: TMPro::TMP_TextInfo::ClearAllMeshInfo
 // Il2CppName: ClearAllMeshInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_TextInfo::*)()>(&TMP_TextInfo::ClearAllMeshInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_TextInfo::*)()>(&TMPro::TMP_TextInfo::ClearAllMeshInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextInfo*), "ClearAllMeshInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextInfo*), "ClearAllMeshInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_TextInfo::ResetVertexLayout
+// Writing MetadataGetter for method: TMPro::TMP_TextInfo::ResetVertexLayout
 // Il2CppName: ResetVertexLayout
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_TextInfo::*)(bool)>(&TMP_TextInfo::ResetVertexLayout)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_TextInfo::*)(bool)>(&TMPro::TMP_TextInfo::ResetVertexLayout)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextInfo*), "ResetVertexLayout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextInfo*), "ResetVertexLayout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextInfo::ClearUnusedVertices
+// Writing MetadataGetter for method: TMPro::TMP_TextInfo::ClearUnusedVertices
 // Il2CppName: ClearUnusedVertices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_TextInfo::*)(::Array<TMPro::MaterialReference>*)>(&TMP_TextInfo::ClearUnusedVertices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_TextInfo::*)(::Array<TMPro::MaterialReference>*)>(&TMPro::TMP_TextInfo::ClearUnusedVertices)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextInfo*), "ClearUnusedVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<TMPro::MaterialReference>*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextInfo*), "ClearUnusedVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<TMPro::MaterialReference>*>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextInfo::ClearLineInfo
+// Writing MetadataGetter for method: TMPro::TMP_TextInfo::ClearLineInfo
 // Il2CppName: ClearLineInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_TextInfo::*)()>(&TMP_TextInfo::ClearLineInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_TextInfo::*)()>(&TMPro::TMP_TextInfo::ClearLineInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextInfo*), "ClearLineInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextInfo*), "ClearLineInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_TextInfo::CopyMeshInfoVertexData
+// Writing MetadataGetter for method: TMPro::TMP_TextInfo::CopyMeshInfoVertexData
 // Il2CppName: CopyMeshInfoVertexData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<TMPro::TMP_MeshInfo>* (TMP_TextInfo::*)()>(&TMP_TextInfo::CopyMeshInfoVertexData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<TMPro::TMP_MeshInfo>* (TMPro::TMP_TextInfo::*)()>(&TMPro::TMP_TextInfo::CopyMeshInfoVertexData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextInfo*), "CopyMeshInfoVertexData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextInfo*), "CopyMeshInfoVertexData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_TextInfo::Resize
+// Writing MetadataGetter for method: TMPro::TMP_TextInfo::Resize
 // Il2CppName: Resize
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: TMP_TextInfo::Resize
+// Writing MetadataGetter for method: TMPro::TMP_TextInfo::Resize
 // Il2CppName: Resize
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: TMP_TextInfo::_cctor
+// Writing MetadataGetter for method: TMPro::TMP_TextInfo::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TMP_TextInfo::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TMPro::TMP_TextInfo::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextInfo*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextInfo*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_TextInfo::New_ctor
+// Writing MetadataGetter for method: TMPro::TMP_TextInfo::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_TextInfo::*)()>(&TMP_TextInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_TextInfo::*)()>(&TMPro::TMP_TextInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_TextInfo::*)()>(&TMP_TextInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_TextInfo::*)()>(&TMPro::TMP_TextInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

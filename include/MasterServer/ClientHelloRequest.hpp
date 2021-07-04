@@ -88,57 +88,57 @@ namespace MasterServer {
   static_assert(sizeof(ClientHelloRequest) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ClientHelloRequest*, "MasterServer", "ClientHelloRequest");
-// Writing MetadataGetter for method: ClientHelloRequest::get_pool
+// Writing MetadataGetter for method: MasterServer::ClientHelloRequest::get_pool
 // Il2CppName: get_pool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::ClientHelloRequest*>* (*)()>(&ClientHelloRequest::get_pool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::ClientHelloRequest*>* (*)()>(&MasterServer::ClientHelloRequest::get_pool)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ClientHelloRequest*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::ClientHelloRequest*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ClientHelloRequest::Init
+// Writing MetadataGetter for method: MasterServer::ClientHelloRequest::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ClientHelloRequest* (ClientHelloRequest::*)(::Array<uint8_t>*)>(&ClientHelloRequest::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ClientHelloRequest* (MasterServer::ClientHelloRequest::*)(::Array<uint8_t>*)>(&MasterServer::ClientHelloRequest::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ClientHelloRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::ClientHelloRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: ClientHelloRequest::Serialize
+// Writing MetadataGetter for method: MasterServer::ClientHelloRequest::Serialize
 // Il2CppName: Serialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientHelloRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&ClientHelloRequest::Serialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::ClientHelloRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&MasterServer::ClientHelloRequest::Serialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ClientHelloRequest*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::ClientHelloRequest*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
   }
 };
-// Writing MetadataGetter for method: ClientHelloRequest::Deserialize
+// Writing MetadataGetter for method: MasterServer::ClientHelloRequest::Deserialize
 // Il2CppName: Deserialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientHelloRequest::*)(LiteNetLib::Utils::NetDataReader*)>(&ClientHelloRequest::Deserialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::ClientHelloRequest::*)(LiteNetLib::Utils::NetDataReader*)>(&MasterServer::ClientHelloRequest::Deserialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ClientHelloRequest*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::ClientHelloRequest*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
   }
 };
-// Writing MetadataGetter for method: ClientHelloRequest::Release
+// Writing MetadataGetter for method: MasterServer::ClientHelloRequest::Release
 // Il2CppName: Release
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientHelloRequest::*)()>(&ClientHelloRequest::Release)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::ClientHelloRequest::*)()>(&MasterServer::ClientHelloRequest::Release)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ClientHelloRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::ClientHelloRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ClientHelloRequest::New_ctor
+// Writing MetadataGetter for method: MasterServer::ClientHelloRequest::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientHelloRequest::*)()>(&ClientHelloRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::ClientHelloRequest::*)()>(&MasterServer::ClientHelloRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ClientHelloRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::ClientHelloRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClientHelloRequest::*)()>(&ClientHelloRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::ClientHelloRequest::*)()>(&MasterServer::ClientHelloRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ClientHelloRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::ClientHelloRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

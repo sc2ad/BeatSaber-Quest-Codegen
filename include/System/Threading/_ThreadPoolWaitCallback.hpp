@@ -22,11 +22,11 @@ namespace System::Threading {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::_ThreadPoolWaitCallback*, "System.Threading", "_ThreadPoolWaitCallback");
-// Writing MetadataGetter for method: _ThreadPoolWaitCallback::PerformWaitCallback
+// Writing MetadataGetter for method: System::Threading::_ThreadPoolWaitCallback::PerformWaitCallback
 // Il2CppName: PerformWaitCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&_ThreadPoolWaitCallback::PerformWaitCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Threading::_ThreadPoolWaitCallback::PerformWaitCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(_ThreadPoolWaitCallback*), "PerformWaitCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::_ThreadPoolWaitCallback*), "PerformWaitCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

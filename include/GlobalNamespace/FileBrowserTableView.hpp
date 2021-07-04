@@ -142,105 +142,105 @@ namespace GlobalNamespace {
   static_assert(sizeof(FileBrowserTableView) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileBrowserTableView*, "", "FileBrowserTableView");
-// Writing MetadataGetter for method: FileBrowserTableView::add_didSelectRow
+// Writing MetadataGetter for method: GlobalNamespace::FileBrowserTableView::add_didSelectRow
 // Il2CppName: add_didSelectRow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileBrowserTableView::*)(System::Action_2<GlobalNamespace::FileBrowserTableView*, GlobalNamespace::FileBrowserItem*>*)>(&FileBrowserTableView::add_didSelectRow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FileBrowserTableView::*)(System::Action_2<GlobalNamespace::FileBrowserTableView*, GlobalNamespace::FileBrowserItem*>*)>(&GlobalNamespace::FileBrowserTableView::add_didSelectRow)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FileBrowserTableView*), "add_didSelectRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::FileBrowserTableView*, GlobalNamespace::FileBrowserItem*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserTableView*), "add_didSelectRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::FileBrowserTableView*, GlobalNamespace::FileBrowserItem*>*>()});
   }
 };
-// Writing MetadataGetter for method: FileBrowserTableView::remove_didSelectRow
+// Writing MetadataGetter for method: GlobalNamespace::FileBrowserTableView::remove_didSelectRow
 // Il2CppName: remove_didSelectRow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileBrowserTableView::*)(System::Action_2<GlobalNamespace::FileBrowserTableView*, GlobalNamespace::FileBrowserItem*>*)>(&FileBrowserTableView::remove_didSelectRow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FileBrowserTableView::*)(System::Action_2<GlobalNamespace::FileBrowserTableView*, GlobalNamespace::FileBrowserItem*>*)>(&GlobalNamespace::FileBrowserTableView::remove_didSelectRow)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FileBrowserTableView*), "remove_didSelectRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::FileBrowserTableView*, GlobalNamespace::FileBrowserItem*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserTableView*), "remove_didSelectRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::FileBrowserTableView*, GlobalNamespace::FileBrowserItem*>*>()});
   }
 };
-// Writing MetadataGetter for method: FileBrowserTableView::Init
+// Writing MetadataGetter for method: GlobalNamespace::FileBrowserTableView::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileBrowserTableView::*)(::Array<GlobalNamespace::FileBrowserItem*>*)>(&FileBrowserTableView::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FileBrowserTableView::*)(::Array<GlobalNamespace::FileBrowserItem*>*)>(&GlobalNamespace::FileBrowserTableView::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FileBrowserTableView*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::FileBrowserItem*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserTableView*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::FileBrowserItem*>*>()});
   }
 };
-// Writing MetadataGetter for method: FileBrowserTableView::SetItems
+// Writing MetadataGetter for method: GlobalNamespace::FileBrowserTableView::SetItems
 // Il2CppName: SetItems
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileBrowserTableView::*)(::Array<GlobalNamespace::FileBrowserItem*>*)>(&FileBrowserTableView::SetItems)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FileBrowserTableView::*)(::Array<GlobalNamespace::FileBrowserItem*>*)>(&GlobalNamespace::FileBrowserTableView::SetItems)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FileBrowserTableView*), "SetItems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::FileBrowserItem*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserTableView*), "SetItems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::FileBrowserItem*>*>()});
   }
 };
-// Writing MetadataGetter for method: FileBrowserTableView::SelectAndScrollRowToItemWithPath
+// Writing MetadataGetter for method: GlobalNamespace::FileBrowserTableView::SelectAndScrollRowToItemWithPath
 // Il2CppName: SelectAndScrollRowToItemWithPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FileBrowserTableView::*)(::Il2CppString*)>(&FileBrowserTableView::SelectAndScrollRowToItemWithPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::FileBrowserTableView::*)(::Il2CppString*)>(&GlobalNamespace::FileBrowserTableView::SelectAndScrollRowToItemWithPath)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FileBrowserTableView*), "SelectAndScrollRowToItemWithPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserTableView*), "SelectAndScrollRowToItemWithPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: FileBrowserTableView::CellSize
+// Writing MetadataGetter for method: GlobalNamespace::FileBrowserTableView::CellSize
 // Il2CppName: CellSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (FileBrowserTableView::*)()>(&FileBrowserTableView::CellSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::FileBrowserTableView::*)()>(&GlobalNamespace::FileBrowserTableView::CellSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FileBrowserTableView*), "CellSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserTableView*), "CellSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FileBrowserTableView::NumberOfCells
+// Writing MetadataGetter for method: GlobalNamespace::FileBrowserTableView::NumberOfCells
 // Il2CppName: NumberOfCells
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (FileBrowserTableView::*)()>(&FileBrowserTableView::NumberOfCells)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::FileBrowserTableView::*)()>(&GlobalNamespace::FileBrowserTableView::NumberOfCells)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FileBrowserTableView*), "NumberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserTableView*), "NumberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FileBrowserTableView::CellForIdx
+// Writing MetadataGetter for method: GlobalNamespace::FileBrowserTableView::CellForIdx
 // Il2CppName: CellForIdx
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (FileBrowserTableView::*)(HMUI::TableView*, int)>(&FileBrowserTableView::CellForIdx)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (GlobalNamespace::FileBrowserTableView::*)(HMUI::TableView*, int)>(&GlobalNamespace::FileBrowserTableView::CellForIdx)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FileBrowserTableView*), "CellForIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserTableView*), "CellForIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: FileBrowserTableView::HandleDidSelectRowEvent
+// Writing MetadataGetter for method: GlobalNamespace::FileBrowserTableView::HandleDidSelectRowEvent
 // Il2CppName: HandleDidSelectRowEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileBrowserTableView::*)(HMUI::TableView*, int)>(&FileBrowserTableView::HandleDidSelectRowEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FileBrowserTableView::*)(HMUI::TableView*, int)>(&GlobalNamespace::FileBrowserTableView::HandleDidSelectRowEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FileBrowserTableView*), "HandleDidSelectRowEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserTableView*), "HandleDidSelectRowEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: FileBrowserTableView::SelectAndScrollRow
+// Writing MetadataGetter for method: GlobalNamespace::FileBrowserTableView::SelectAndScrollRow
 // Il2CppName: SelectAndScrollRow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileBrowserTableView::*)(int)>(&FileBrowserTableView::SelectAndScrollRow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FileBrowserTableView::*)(int)>(&GlobalNamespace::FileBrowserTableView::SelectAndScrollRow)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FileBrowserTableView*), "SelectAndScrollRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserTableView*), "SelectAndScrollRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: FileBrowserTableView::ClearSelection
+// Writing MetadataGetter for method: GlobalNamespace::FileBrowserTableView::ClearSelection
 // Il2CppName: ClearSelection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileBrowserTableView::*)(bool, bool)>(&FileBrowserTableView::ClearSelection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FileBrowserTableView::*)(bool, bool)>(&GlobalNamespace::FileBrowserTableView::ClearSelection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FileBrowserTableView*), "ClearSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserTableView*), "ClearSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: FileBrowserTableView::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::FileBrowserTableView::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileBrowserTableView::*)()>(&FileBrowserTableView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FileBrowserTableView::*)()>(&GlobalNamespace::FileBrowserTableView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FileBrowserTableView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserTableView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FileBrowserTableView::*)()>(&FileBrowserTableView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FileBrowserTableView::*)()>(&GlobalNamespace::FileBrowserTableView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FileBrowserTableView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserTableView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

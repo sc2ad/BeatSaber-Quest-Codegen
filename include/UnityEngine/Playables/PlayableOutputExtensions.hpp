@@ -127,27 +127,27 @@ namespace UnityEngine::Playables {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableOutputExtensions*, "UnityEngine.Playables", "PlayableOutputExtensions");
-// Writing MetadataGetter for method: PlayableOutputExtensions::SetReferenceObject
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputExtensions::SetReferenceObject
 // Il2CppName: SetReferenceObject
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: PlayableOutputExtensions::SetUserData
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputExtensions::SetUserData
 // Il2CppName: SetUserData
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: PlayableOutputExtensions::GetSourcePlayable
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputExtensions::GetSourcePlayable
 // Il2CppName: GetSourcePlayable
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: PlayableOutputExtensions::SetSourcePlayable
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputExtensions::SetSourcePlayable
 // Il2CppName: SetSourcePlayable
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: PlayableOutputExtensions::GetSourceOutputPort
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputExtensions::GetSourceOutputPort
 // Il2CppName: GetSourceOutputPort
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: PlayableOutputExtensions::SetWeight
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputExtensions::SetWeight
 // Il2CppName: SetWeight
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: PlayableOutputExtensions::PushNotification
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputExtensions::PushNotification
 // Il2CppName: PushNotification
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: PlayableOutputExtensions::AddNotificationReceiver
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputExtensions::AddNotificationReceiver
 // Il2CppName: AddNotificationReceiver
 // Cannot write MetadataGetter for generic methods!

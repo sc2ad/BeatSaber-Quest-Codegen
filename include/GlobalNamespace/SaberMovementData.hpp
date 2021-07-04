@@ -139,113 +139,113 @@ namespace GlobalNamespace {
   static_assert(sizeof(SaberMovementData) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberMovementData*, "", "SaberMovementData");
-// Writing MetadataGetter for method: SaberMovementData::get_dataProcessors
+// Writing MetadataGetter for method: GlobalNamespace::SaberMovementData::get_dataProcessors
 // Il2CppName: get_dataProcessors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ISaberMovementDataProcessor*>* (SaberMovementData::*)()>(&SaberMovementData::get_dataProcessors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ISaberMovementDataProcessor*>* (GlobalNamespace::SaberMovementData::*)()>(&GlobalNamespace::SaberMovementData::get_dataProcessors)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberMovementData*), "get_dataProcessors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberMovementData*), "get_dataProcessors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SaberMovementData::get_bladeSpeed
+// Writing MetadataGetter for method: GlobalNamespace::SaberMovementData::get_bladeSpeed
 // Il2CppName: get_bladeSpeed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SaberMovementData::*)()>(&SaberMovementData::get_bladeSpeed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::SaberMovementData::*)()>(&GlobalNamespace::SaberMovementData::get_bladeSpeed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberMovementData*), "get_bladeSpeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberMovementData*), "get_bladeSpeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SaberMovementData::get_lastAddedData
+// Writing MetadataGetter for method: GlobalNamespace::SaberMovementData::get_lastAddedData
 // Il2CppName: get_lastAddedData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BladeMovementDataElement (SaberMovementData::*)()>(&SaberMovementData::get_lastAddedData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BladeMovementDataElement (GlobalNamespace::SaberMovementData::*)()>(&GlobalNamespace::SaberMovementData::get_lastAddedData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberMovementData*), "get_lastAddedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberMovementData*), "get_lastAddedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SaberMovementData::get_prevAddedData
+// Writing MetadataGetter for method: GlobalNamespace::SaberMovementData::get_prevAddedData
 // Il2CppName: get_prevAddedData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BladeMovementDataElement (SaberMovementData::*)()>(&SaberMovementData::get_prevAddedData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BladeMovementDataElement (GlobalNamespace::SaberMovementData::*)()>(&GlobalNamespace::SaberMovementData::get_prevAddedData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberMovementData*), "get_prevAddedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberMovementData*), "get_prevAddedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SaberMovementData::RequestLastDataProcessing
+// Writing MetadataGetter for method: GlobalNamespace::SaberMovementData::RequestLastDataProcessing
 // Il2CppName: RequestLastDataProcessing
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberMovementData::*)(GlobalNamespace::ISaberMovementDataProcessor*)>(&SaberMovementData::RequestLastDataProcessing)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberMovementData::*)(GlobalNamespace::ISaberMovementDataProcessor*)>(&GlobalNamespace::SaberMovementData::RequestLastDataProcessing)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberMovementData*), "RequestLastDataProcessing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ISaberMovementDataProcessor*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberMovementData*), "RequestLastDataProcessing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ISaberMovementDataProcessor*>()});
   }
 };
-// Writing MetadataGetter for method: SaberMovementData::AddNewData
+// Writing MetadataGetter for method: GlobalNamespace::SaberMovementData::AddNewData
 // Il2CppName: AddNewData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberMovementData::*)(UnityEngine::Vector3, UnityEngine::Vector3, float)>(&SaberMovementData::AddNewData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberMovementData::*)(UnityEngine::Vector3, UnityEngine::Vector3, float)>(&GlobalNamespace::SaberMovementData::AddNewData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberMovementData*), "AddNewData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberMovementData*), "AddNewData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: SaberMovementData::ComputeAdditionalData
+// Writing MetadataGetter for method: GlobalNamespace::SaberMovementData::ComputeAdditionalData
 // Il2CppName: ComputeAdditionalData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberMovementData::*)(UnityEngine::Vector3, UnityEngine::Vector3, int, UnityEngine::Vector3&, float&)>(&SaberMovementData::ComputeAdditionalData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberMovementData::*)(UnityEngine::Vector3, UnityEngine::Vector3, int, UnityEngine::Vector3&, float&)>(&GlobalNamespace::SaberMovementData::ComputeAdditionalData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberMovementData*), "ComputeAdditionalData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberMovementData*), "ComputeAdditionalData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
   }
 };
-// Writing MetadataGetter for method: SaberMovementData::ComputePlaneNormal
+// Writing MetadataGetter for method: GlobalNamespace::SaberMovementData::ComputePlaneNormal
 // Il2CppName: ComputePlaneNormal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (SaberMovementData::*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3)>(&SaberMovementData::ComputePlaneNormal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::SaberMovementData::*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3)>(&GlobalNamespace::SaberMovementData::ComputePlaneNormal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberMovementData*), "ComputePlaneNormal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberMovementData*), "ComputePlaneNormal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: SaberMovementData::ComputeCutPlaneNormal
+// Writing MetadataGetter for method: GlobalNamespace::SaberMovementData::ComputeCutPlaneNormal
 // Il2CppName: ComputeCutPlaneNormal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (SaberMovementData::*)()>(&SaberMovementData::ComputeCutPlaneNormal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::SaberMovementData::*)()>(&GlobalNamespace::SaberMovementData::ComputeCutPlaneNormal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberMovementData*), "ComputeCutPlaneNormal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberMovementData*), "ComputeCutPlaneNormal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SaberMovementData::ComputeSwingRating
+// Writing MetadataGetter for method: GlobalNamespace::SaberMovementData::ComputeSwingRating
 // Il2CppName: ComputeSwingRating
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SaberMovementData::*)(float)>(&SaberMovementData::ComputeSwingRating)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::SaberMovementData::*)(float)>(&GlobalNamespace::SaberMovementData::ComputeSwingRating)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberMovementData*), "ComputeSwingRating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberMovementData*), "ComputeSwingRating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: SaberMovementData::ComputeSwingRating
+// Writing MetadataGetter for method: GlobalNamespace::SaberMovementData::ComputeSwingRating
 // Il2CppName: ComputeSwingRating
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SaberMovementData::*)()>(&SaberMovementData::ComputeSwingRating)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::SaberMovementData::*)()>(&GlobalNamespace::SaberMovementData::ComputeSwingRating)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberMovementData*), "ComputeSwingRating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberMovementData*), "ComputeSwingRating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SaberMovementData::ComputeSwingRating
+// Writing MetadataGetter for method: GlobalNamespace::SaberMovementData::ComputeSwingRating
 // Il2CppName: ComputeSwingRating
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SaberMovementData::*)(bool, float)>(&SaberMovementData::ComputeSwingRating)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::SaberMovementData::*)(bool, float)>(&GlobalNamespace::SaberMovementData::ComputeSwingRating)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberMovementData*), "ComputeSwingRating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberMovementData*), "ComputeSwingRating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: SaberMovementData::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::SaberMovementData::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberMovementData::*)()>(&SaberMovementData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberMovementData::*)()>(&GlobalNamespace::SaberMovementData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberMovementData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberMovementData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberMovementData::*)()>(&SaberMovementData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberMovementData::*)()>(&GlobalNamespace::SaberMovementData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberMovementData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberMovementData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

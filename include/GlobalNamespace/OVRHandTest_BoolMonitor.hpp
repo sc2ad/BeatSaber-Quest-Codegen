@@ -95,33 +95,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRHandTest::BoolMonitor) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHandTest::BoolMonitor*, "", "OVRHandTest/BoolMonitor");
-// Writing MetadataGetter for method: OVRHandTest::BoolMonitor::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::OVRHandTest::BoolMonitor::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRHandTest::BoolMonitor::*)(::Il2CppString*, GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator*, float)>(&OVRHandTest::BoolMonitor::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRHandTest::BoolMonitor::*)(::Il2CppString*, GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator*, float)>(&GlobalNamespace::OVRHandTest::BoolMonitor::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRHandTest::BoolMonitor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHandTest::BoolMonitor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRHandTest::BoolMonitor::*)(::Il2CppString*, GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator*, float)>(&OVRHandTest::BoolMonitor::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRHandTest::BoolMonitor::*)(::Il2CppString*, GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator*, float)>(&GlobalNamespace::OVRHandTest::BoolMonitor::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRHandTest::BoolMonitor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHandTest::BoolMonitor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRHandTest::BoolMonitor::BoolGenerator*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: OVRHandTest::BoolMonitor::Update
+// Writing MetadataGetter for method: GlobalNamespace::OVRHandTest::BoolMonitor::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRHandTest::BoolMonitor::*)()>(&OVRHandTest::BoolMonitor::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRHandTest::BoolMonitor::*)()>(&GlobalNamespace::OVRHandTest::BoolMonitor::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRHandTest::BoolMonitor*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHandTest::BoolMonitor*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRHandTest::BoolMonitor::AppendToStringBuilder
+// Writing MetadataGetter for method: GlobalNamespace::OVRHandTest::BoolMonitor::AppendToStringBuilder
 // Il2CppName: AppendToStringBuilder
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRHandTest::BoolMonitor::*)(System::Text::StringBuilder*&)>(&OVRHandTest::BoolMonitor::AppendToStringBuilder)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRHandTest::BoolMonitor::*)(System::Text::StringBuilder*&)>(&GlobalNamespace::OVRHandTest::BoolMonitor::AppendToStringBuilder)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRHandTest::BoolMonitor*), "AppendToStringBuilder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHandTest::BoolMonitor*), "AppendToStringBuilder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*&>()});
   }
 };

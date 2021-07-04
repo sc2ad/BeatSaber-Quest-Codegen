@@ -106,105 +106,105 @@ namespace UnityEngine::AddressableAssets {
   static_assert(sizeof(AddressablesImpl::ResourceLocatorInfo) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*, "UnityEngine.AddressableAssets", "AddressablesImpl/ResourceLocatorInfo");
-// Writing MetadataGetter for method: AddressablesImpl::ResourceLocatorInfo::get_Locator
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::get_Locator
 // Il2CppName: get_Locator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* (AddressablesImpl::ResourceLocatorInfo::*)()>(&AddressablesImpl::ResourceLocatorInfo::get_Locator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* (UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::*)()>(&UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::get_Locator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::ResourceLocatorInfo*), "get_Locator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*), "get_Locator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AddressablesImpl::ResourceLocatorInfo::set_Locator
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::set_Locator
 // Il2CppName: set_Locator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::ResourceLocatorInfo::*)(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*)>(&AddressablesImpl::ResourceLocatorInfo::set_Locator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::*)(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*)>(&UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::set_Locator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::ResourceLocatorInfo*), "set_Locator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*), "set_Locator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>()});
   }
 };
-// Writing MetadataGetter for method: AddressablesImpl::ResourceLocatorInfo::get_LocalHash
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::get_LocalHash
 // Il2CppName: get_LocalHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AddressablesImpl::ResourceLocatorInfo::*)()>(&AddressablesImpl::ResourceLocatorInfo::get_LocalHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::*)()>(&UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::get_LocalHash)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::ResourceLocatorInfo*), "get_LocalHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*), "get_LocalHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AddressablesImpl::ResourceLocatorInfo::set_LocalHash
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::set_LocalHash
 // Il2CppName: set_LocalHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::ResourceLocatorInfo::*)(::Il2CppString*)>(&AddressablesImpl::ResourceLocatorInfo::set_LocalHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::*)(::Il2CppString*)>(&UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::set_LocalHash)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::ResourceLocatorInfo*), "set_LocalHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*), "set_LocalHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: AddressablesImpl::ResourceLocatorInfo::get_CatalogLocation
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::get_CatalogLocation
 // Il2CppName: get_CatalogLocation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* (AddressablesImpl::ResourceLocatorInfo::*)()>(&AddressablesImpl::ResourceLocatorInfo::get_CatalogLocation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* (UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::*)()>(&UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::get_CatalogLocation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::ResourceLocatorInfo*), "get_CatalogLocation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*), "get_CatalogLocation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AddressablesImpl::ResourceLocatorInfo::set_CatalogLocation
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::set_CatalogLocation
 // Il2CppName: set_CatalogLocation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::ResourceLocatorInfo::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&AddressablesImpl::ResourceLocatorInfo::set_CatalogLocation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::set_CatalogLocation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::ResourceLocatorInfo*), "set_CatalogLocation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*), "set_CatalogLocation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
   }
 };
-// Writing MetadataGetter for method: AddressablesImpl::ResourceLocatorInfo::get_ContentUpdateAvailable
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::get_ContentUpdateAvailable
 // Il2CppName: get_ContentUpdateAvailable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AddressablesImpl::ResourceLocatorInfo::*)()>(&AddressablesImpl::ResourceLocatorInfo::get_ContentUpdateAvailable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::*)()>(&UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::get_ContentUpdateAvailable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::ResourceLocatorInfo*), "get_ContentUpdateAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*), "get_ContentUpdateAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AddressablesImpl::ResourceLocatorInfo::set_ContentUpdateAvailable
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::set_ContentUpdateAvailable
 // Il2CppName: set_ContentUpdateAvailable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::ResourceLocatorInfo::*)(bool)>(&AddressablesImpl::ResourceLocatorInfo::set_ContentUpdateAvailable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::*)(bool)>(&UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::set_ContentUpdateAvailable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::ResourceLocatorInfo*), "set_ContentUpdateAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*), "set_ContentUpdateAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AddressablesImpl::ResourceLocatorInfo::New_ctor
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::ResourceLocatorInfo::*)(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*, ::Il2CppString*, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&AddressablesImpl::ResourceLocatorInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::*)(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*, ::Il2CppString*, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::ResourceLocatorInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::ResourceLocatorInfo::*)(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*, ::Il2CppString*, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&AddressablesImpl::ResourceLocatorInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::*)(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*, ::Il2CppString*, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::ResourceLocatorInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
   }
 };
-// Writing MetadataGetter for method: AddressablesImpl::ResourceLocatorInfo::get_HashLocation
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::get_HashLocation
 // Il2CppName: get_HashLocation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* (AddressablesImpl::ResourceLocatorInfo::*)()>(&AddressablesImpl::ResourceLocatorInfo::get_HashLocation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* (UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::*)()>(&UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::get_HashLocation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::ResourceLocatorInfo*), "get_HashLocation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*), "get_HashLocation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AddressablesImpl::ResourceLocatorInfo::get_CanUpdateContent
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::get_CanUpdateContent
 // Il2CppName: get_CanUpdateContent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AddressablesImpl::ResourceLocatorInfo::*)()>(&AddressablesImpl::ResourceLocatorInfo::get_CanUpdateContent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::*)()>(&UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::get_CanUpdateContent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::ResourceLocatorInfo*), "get_CanUpdateContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*), "get_CanUpdateContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AddressablesImpl::ResourceLocatorInfo::UpdateContent
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::UpdateContent
 // Il2CppName: UpdateContent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddressablesImpl::ResourceLocatorInfo::*)(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*, ::Il2CppString*, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&AddressablesImpl::ResourceLocatorInfo::UpdateContent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::*)(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*, ::Il2CppString*, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo::UpdateContent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AddressablesImpl::ResourceLocatorInfo*), "UpdateContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*), "UpdateContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
   }
 };

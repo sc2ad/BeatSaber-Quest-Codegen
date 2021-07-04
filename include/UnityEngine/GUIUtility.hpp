@@ -240,363 +240,363 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIUtility*, "UnityEngine", "GUIUtility");
-// Writing MetadataGetter for method: GUIUtility::get_pixelsPerPoint
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::get_pixelsPerPoint
 // Il2CppName: get_pixelsPerPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&GUIUtility::get_pixelsPerPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&UnityEngine::GUIUtility::get_pixelsPerPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "get_pixelsPerPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "get_pixelsPerPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::get_guiDepth
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::get_guiDepth
 // Il2CppName: get_guiDepth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&GUIUtility::get_guiDepth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&UnityEngine::GUIUtility::get_guiDepth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "get_guiDepth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "get_guiDepth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::set_mouseUsed
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::set_mouseUsed
 // Il2CppName: set_mouseUsed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&GUIUtility::set_mouseUsed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&UnityEngine::GUIUtility::set_mouseUsed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "set_mouseUsed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "set_mouseUsed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::set_textFieldInput
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::set_textFieldInput
 // Il2CppName: set_textFieldInput
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&GUIUtility::set_textFieldInput)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&UnityEngine::GUIUtility::set_textFieldInput)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "set_textFieldInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "set_textFieldInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::get_systemCopyBuffer
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::get_systemCopyBuffer
 // Il2CppName: get_systemCopyBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&GUIUtility::get_systemCopyBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::GUIUtility::get_systemCopyBuffer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "get_systemCopyBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "get_systemCopyBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::set_systemCopyBuffer
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::set_systemCopyBuffer
 // Il2CppName: set_systemCopyBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&GUIUtility::set_systemCopyBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&UnityEngine::GUIUtility::set_systemCopyBuffer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "set_systemCopyBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "set_systemCopyBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::GetControlID
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::GetControlID
 // Il2CppName: GetControlID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, UnityEngine::FocusType, UnityEngine::Rect)>(&GUIUtility::GetControlID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, UnityEngine::FocusType, UnityEngine::Rect)>(&UnityEngine::GUIUtility::GetControlID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "GetControlID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::FocusType>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "GetControlID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::FocusType>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>()});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::AlignRectToDevice
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::AlignRectToDevice
 // Il2CppName: AlignRectToDevice
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)(UnityEngine::Rect, int&, int&)>(&GUIUtility::AlignRectToDevice)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)(UnityEngine::Rect, int&, int&)>(&UnityEngine::GUIUtility::AlignRectToDevice)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "AlignRectToDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "AlignRectToDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::get_compositionString
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::get_compositionString
 // Il2CppName: get_compositionString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&GUIUtility::get_compositionString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::GUIUtility::get_compositionString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "get_compositionString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "get_compositionString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::set_compositionCursorPos
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::set_compositionCursorPos
 // Il2CppName: set_compositionCursorPos
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector2)>(&GUIUtility::set_compositionCursorPos)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector2)>(&UnityEngine::GUIUtility::set_compositionCursorPos)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "set_compositionCursorPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "set_compositionCursorPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::Internal_GetHotControl
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::Internal_GetHotControl
 // Il2CppName: Internal_GetHotControl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&GUIUtility::Internal_GetHotControl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&UnityEngine::GUIUtility::Internal_GetHotControl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "Internal_GetHotControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "Internal_GetHotControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::Internal_GetKeyboardControl
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::Internal_GetKeyboardControl
 // Il2CppName: Internal_GetKeyboardControl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&GUIUtility::Internal_GetKeyboardControl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&UnityEngine::GUIUtility::Internal_GetKeyboardControl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "Internal_GetKeyboardControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "Internal_GetKeyboardControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::Internal_SetHotControl
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::Internal_SetHotControl
 // Il2CppName: Internal_SetHotControl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&GUIUtility::Internal_SetHotControl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&UnityEngine::GUIUtility::Internal_SetHotControl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "Internal_SetHotControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "Internal_SetHotControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::Internal_SetKeyboardControl
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::Internal_SetKeyboardControl
 // Il2CppName: Internal_SetKeyboardControl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&GUIUtility::Internal_SetKeyboardControl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&UnityEngine::GUIUtility::Internal_SetKeyboardControl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "Internal_SetKeyboardControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "Internal_SetKeyboardControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::Internal_GetDefaultSkin
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::Internal_GetDefaultSkin
 // Il2CppName: Internal_GetDefaultSkin
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(int)>(&GUIUtility::Internal_GetDefaultSkin)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(int)>(&UnityEngine::GUIUtility::Internal_GetDefaultSkin)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "Internal_GetDefaultSkin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "Internal_GetDefaultSkin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::Internal_ExitGUI
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::Internal_ExitGUI
 // Il2CppName: Internal_ExitGUI
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GUIUtility::Internal_ExitGUI)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::GUIUtility::Internal_ExitGUI)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "Internal_ExitGUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "Internal_ExitGUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::MarkGUIChanged
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::MarkGUIChanged
 // Il2CppName: MarkGUIChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GUIUtility::MarkGUIChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::GUIUtility::MarkGUIChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "MarkGUIChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "MarkGUIChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::GetControlID
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::GetControlID
 // Il2CppName: GetControlID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::FocusType)>(&GUIUtility::GetControlID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::FocusType)>(&UnityEngine::GUIUtility::GetControlID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "GetControlID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::FocusType>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "GetControlID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::FocusType>()});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::GetControlID
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::GetControlID
 // Il2CppName: GetControlID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, UnityEngine::FocusType)>(&GUIUtility::GetControlID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, UnityEngine::FocusType)>(&UnityEngine::GUIUtility::GetControlID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "GetControlID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::FocusType>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "GetControlID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::FocusType>()});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::GetStateObject
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::GetStateObject
 // Il2CppName: GetStateObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, int)>(&GUIUtility::GetStateObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, int)>(&UnityEngine::GUIUtility::GetStateObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "GetStateObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "GetStateObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::set_guiIsExiting
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::set_guiIsExiting
 // Il2CppName: set_guiIsExiting
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&GUIUtility::set_guiIsExiting)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&UnityEngine::GUIUtility::set_guiIsExiting)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "set_guiIsExiting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "set_guiIsExiting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::get_hotControl
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::get_hotControl
 // Il2CppName: get_hotControl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&GUIUtility::get_hotControl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&UnityEngine::GUIUtility::get_hotControl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "get_hotControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "get_hotControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::set_hotControl
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::set_hotControl
 // Il2CppName: set_hotControl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&GUIUtility::set_hotControl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&UnityEngine::GUIUtility::set_hotControl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "set_hotControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "set_hotControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::TakeCapture
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::TakeCapture
 // Il2CppName: TakeCapture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GUIUtility::TakeCapture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::GUIUtility::TakeCapture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "TakeCapture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "TakeCapture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::RemoveCapture
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::RemoveCapture
 // Il2CppName: RemoveCapture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GUIUtility::RemoveCapture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::GUIUtility::RemoveCapture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "RemoveCapture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "RemoveCapture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::get_keyboardControl
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::get_keyboardControl
 // Il2CppName: get_keyboardControl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&GUIUtility::get_keyboardControl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&UnityEngine::GUIUtility::get_keyboardControl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "get_keyboardControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "get_keyboardControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::set_keyboardControl
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::set_keyboardControl
 // Il2CppName: set_keyboardControl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&GUIUtility::set_keyboardControl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&UnityEngine::GUIUtility::set_keyboardControl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "set_keyboardControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "set_keyboardControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::HasKeyFocus
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::HasKeyFocus
 // Il2CppName: HasKeyFocus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&GUIUtility::HasKeyFocus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&UnityEngine::GUIUtility::HasKeyFocus)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "HasKeyFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "HasKeyFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::GetDefaultSkin
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::GetDefaultSkin
 // Il2CppName: GetDefaultSkin
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUISkin* (*)()>(&GUIUtility::GetDefaultSkin)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUISkin* (*)()>(&UnityEngine::GUIUtility::GetDefaultSkin)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "GetDefaultSkin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "GetDefaultSkin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::ProcessEvent
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::ProcessEvent
 // Il2CppName: ProcessEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, System::IntPtr)>(&GUIUtility::ProcessEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, System::IntPtr)>(&UnityEngine::GUIUtility::ProcessEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "ProcessEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "ProcessEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::BeginGUI
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::BeginGUI
 // Il2CppName: BeginGUI
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, int, int)>(&GUIUtility::BeginGUI)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, int, int)>(&UnityEngine::GUIUtility::BeginGUI)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "BeginGUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "BeginGUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::EndGUI
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::EndGUI
 // Il2CppName: EndGUI
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&GUIUtility::EndGUI)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&UnityEngine::GUIUtility::EndGUI)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "EndGUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "EndGUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::EndGUIFromException
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::EndGUIFromException
 // Il2CppName: EndGUIFromException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Exception*)>(&GUIUtility::EndGUIFromException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Exception*)>(&UnityEngine::GUIUtility::EndGUIFromException)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "EndGUIFromException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "EndGUIFromException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::EndContainerGUIFromException
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::EndContainerGUIFromException
 // Il2CppName: EndContainerGUIFromException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Exception*)>(&GUIUtility::EndContainerGUIFromException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Exception*)>(&UnityEngine::GUIUtility::EndContainerGUIFromException)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "EndContainerGUIFromException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "EndContainerGUIFromException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::ResetGlobalState
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::ResetGlobalState
 // Il2CppName: ResetGlobalState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GUIUtility::ResetGlobalState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::GUIUtility::ResetGlobalState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "ResetGlobalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "ResetGlobalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::IsExitGUIException
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::IsExitGUIException
 // Il2CppName: IsExitGUIException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Exception*)>(&GUIUtility::IsExitGUIException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Exception*)>(&UnityEngine::GUIUtility::IsExitGUIException)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "IsExitGUIException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "IsExitGUIException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::ShouldRethrowException
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::ShouldRethrowException
 // Il2CppName: ShouldRethrowException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Exception*)>(&GUIUtility::ShouldRethrowException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Exception*)>(&UnityEngine::GUIUtility::ShouldRethrowException)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "ShouldRethrowException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "ShouldRethrowException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::CheckOnGUI
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::CheckOnGUI
 // Il2CppName: CheckOnGUI
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GUIUtility::CheckOnGUI)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::GUIUtility::CheckOnGUI)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "CheckOnGUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "CheckOnGUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::AlignRectToDevice
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::AlignRectToDevice
 // Il2CppName: AlignRectToDevice
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)(UnityEngine::Rect)>(&GUIUtility::AlignRectToDevice)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)(UnityEngine::Rect)>(&UnityEngine::GUIUtility::AlignRectToDevice)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "AlignRectToDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "AlignRectToDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>()});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::HitTest
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::HitTest
 // Il2CppName: HitTest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Rect, UnityEngine::Vector2, int)>(&GUIUtility::HitTest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Rect, UnityEngine::Vector2, int)>(&UnityEngine::GUIUtility::HitTest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "HitTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "HitTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::HitTest
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::HitTest
 // Il2CppName: HitTest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Rect, UnityEngine::Vector2, bool)>(&GUIUtility::HitTest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Rect, UnityEngine::Vector2, bool)>(&UnityEngine::GUIUtility::HitTest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "HitTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "HitTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::HitTest
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::HitTest
 // Il2CppName: HitTest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Rect, UnityEngine::Event*)>(&GUIUtility::HitTest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Rect, UnityEngine::Event*)>(&UnityEngine::GUIUtility::HitTest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "HitTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Event*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "HitTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Event*>()});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::GetControlID_Injected
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::GetControlID_Injected
 // Il2CppName: GetControlID_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, UnityEngine::FocusType, UnityEngine::Rect&)>(&GUIUtility::GetControlID_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, UnityEngine::FocusType, UnityEngine::Rect&)>(&UnityEngine::GUIUtility::GetControlID_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "GetControlID_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::FocusType>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "GetControlID_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::FocusType>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>()});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::AlignRectToDevice_Injected
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::AlignRectToDevice_Injected
 // Il2CppName: AlignRectToDevice_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect&, int&, int&, UnityEngine::Rect&)>(&GUIUtility::AlignRectToDevice_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect&, int&, int&, UnityEngine::Rect&)>(&UnityEngine::GUIUtility::AlignRectToDevice_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "AlignRectToDevice_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "AlignRectToDevice_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>()});
   }
 };
-// Writing MetadataGetter for method: GUIUtility::set_compositionCursorPos_Injected
+// Writing MetadataGetter for method: UnityEngine::GUIUtility::set_compositionCursorPos_Injected
 // Il2CppName: set_compositionCursorPos_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector2&)>(&GUIUtility::set_compositionCursorPos_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector2&)>(&UnityEngine::GUIUtility::set_compositionCursorPos_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIUtility*), "set_compositionCursorPos_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIUtility*), "set_compositionCursorPos_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
   }
 };

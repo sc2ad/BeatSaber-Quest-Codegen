@@ -46,35 +46,35 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMultiplayerLevelEndActionsPublisher*, "", "IMultiplayerLevelEndActionsPublisher");
-// Writing MetadataGetter for method: IMultiplayerLevelEndActionsPublisher::add_playerDidFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::IMultiplayerLevelEndActionsPublisher::add_playerDidFinishEvent
 // Il2CppName: add_playerDidFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerLevelEndActionsPublisher::*)(System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>*)>(&IMultiplayerLevelEndActionsPublisher::add_playerDidFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMultiplayerLevelEndActionsPublisher::*)(System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>*)>(&GlobalNamespace::IMultiplayerLevelEndActionsPublisher::add_playerDidFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IMultiplayerLevelEndActionsPublisher*), "add_playerDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMultiplayerLevelEndActionsPublisher*), "add_playerDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>*>()});
   }
 };
-// Writing MetadataGetter for method: IMultiplayerLevelEndActionsPublisher::remove_playerDidFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::IMultiplayerLevelEndActionsPublisher::remove_playerDidFinishEvent
 // Il2CppName: remove_playerDidFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerLevelEndActionsPublisher::*)(System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>*)>(&IMultiplayerLevelEndActionsPublisher::remove_playerDidFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMultiplayerLevelEndActionsPublisher::*)(System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>*)>(&GlobalNamespace::IMultiplayerLevelEndActionsPublisher::remove_playerDidFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IMultiplayerLevelEndActionsPublisher*), "remove_playerDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMultiplayerLevelEndActionsPublisher*), "remove_playerDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MultiplayerLevelCompletionResults*>*>()});
   }
 };
-// Writing MetadataGetter for method: IMultiplayerLevelEndActionsPublisher::add_playerNetworkDidFailedEvent
+// Writing MetadataGetter for method: GlobalNamespace::IMultiplayerLevelEndActionsPublisher::add_playerNetworkDidFailedEvent
 // Il2CppName: add_playerNetworkDidFailedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerLevelEndActionsPublisher::*)(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>*)>(&IMultiplayerLevelEndActionsPublisher::add_playerNetworkDidFailedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMultiplayerLevelEndActionsPublisher::*)(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>*)>(&GlobalNamespace::IMultiplayerLevelEndActionsPublisher::add_playerNetworkDidFailedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IMultiplayerLevelEndActionsPublisher*), "add_playerNetworkDidFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::PlayerNetworkFailReason>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMultiplayerLevelEndActionsPublisher*), "add_playerNetworkDidFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::PlayerNetworkFailReason>*>()});
   }
 };
-// Writing MetadataGetter for method: IMultiplayerLevelEndActionsPublisher::remove_playerNetworkDidFailedEvent
+// Writing MetadataGetter for method: GlobalNamespace::IMultiplayerLevelEndActionsPublisher::remove_playerNetworkDidFailedEvent
 // Il2CppName: remove_playerNetworkDidFailedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMultiplayerLevelEndActionsPublisher::*)(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>*)>(&IMultiplayerLevelEndActionsPublisher::remove_playerNetworkDidFailedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMultiplayerLevelEndActionsPublisher::*)(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>*)>(&GlobalNamespace::IMultiplayerLevelEndActionsPublisher::remove_playerNetworkDidFailedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IMultiplayerLevelEndActionsPublisher*), "remove_playerNetworkDidFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::PlayerNetworkFailReason>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMultiplayerLevelEndActionsPublisher*), "remove_playerNetworkDidFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::PlayerNetworkFailReason>*>()});
   }
 };

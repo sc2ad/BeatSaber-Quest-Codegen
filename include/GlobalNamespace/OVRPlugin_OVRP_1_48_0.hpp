@@ -38,19 +38,19 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_48_0*, "", "OVRPlugin/OVRP_1_48_0");
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_48_0::ovrp_SetExternalCameraProperties
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_48_0::ovrp_SetExternalCameraProperties
 // Il2CppName: ovrp_SetExternalCameraProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(::Il2CppString*, GlobalNamespace::OVRPlugin::CameraIntrinsics&, GlobalNamespace::OVRPlugin::CameraExtrinsics&)>(&OVRPlugin::OVRP_1_48_0::ovrp_SetExternalCameraProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(::Il2CppString*, GlobalNamespace::OVRPlugin::CameraIntrinsics&, GlobalNamespace::OVRPlugin::CameraExtrinsics&)>(&GlobalNamespace::OVRPlugin::OVRP_1_48_0::ovrp_SetExternalCameraProperties)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_48_0*), "ovrp_SetExternalCameraProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::CameraIntrinsics&>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::CameraExtrinsics&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_48_0*), "ovrp_SetExternalCameraProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::CameraIntrinsics&>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::CameraExtrinsics&>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_48_0::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_48_0::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRPlugin::OVRP_1_48_0::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_48_0::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_48_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_48_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

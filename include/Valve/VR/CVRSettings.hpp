@@ -93,113 +93,113 @@ namespace Valve::VR {
   static_assert(sizeof(CVRSettings) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRSettings*, "Valve.VR", "CVRSettings");
-// Writing MetadataGetter for method: CVRSettings::New_ctor
+// Writing MetadataGetter for method: Valve::VR::CVRSettings::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSettings::*)(System::IntPtr)>(&CVRSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRSettings::*)(System::IntPtr)>(&Valve::VR::CVRSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSettings::*)(System::IntPtr)>(&CVRSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRSettings::*)(System::IntPtr)>(&Valve::VR::CVRSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: CVRSettings::GetSettingsErrorNameFromEnum
+// Writing MetadataGetter for method: Valve::VR::CVRSettings::GetSettingsErrorNameFromEnum
 // Il2CppName: GetSettingsErrorNameFromEnum
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CVRSettings::*)(Valve::VR::EVRSettingsError)>(&CVRSettings::GetSettingsErrorNameFromEnum)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Valve::VR::CVRSettings::*)(Valve::VR::EVRSettingsError)>(&Valve::VR::CVRSettings::GetSettingsErrorNameFromEnum)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRSettings*), "GetSettingsErrorNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRSettingsError>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSettings*), "GetSettingsErrorNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRSettingsError>()});
   }
 };
-// Writing MetadataGetter for method: CVRSettings::Sync
+// Writing MetadataGetter for method: Valve::VR::CVRSettings::Sync
 // Il2CppName: Sync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRSettings::*)(bool, Valve::VR::EVRSettingsError&)>(&CVRSettings::Sync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRSettings::*)(bool, Valve::VR::EVRSettingsError&)>(&Valve::VR::CVRSettings::Sync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRSettings*), "Sync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRSettingsError&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSettings*), "Sync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRSettingsError&>()});
   }
 };
-// Writing MetadataGetter for method: CVRSettings::SetBool
+// Writing MetadataGetter for method: Valve::VR::CVRSettings::SetBool
 // Il2CppName: SetBool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSettings::*)(::Il2CppString*, ::Il2CppString*, bool, Valve::VR::EVRSettingsError&)>(&CVRSettings::SetBool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRSettings::*)(::Il2CppString*, ::Il2CppString*, bool, Valve::VR::EVRSettingsError&)>(&Valve::VR::CVRSettings::SetBool)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRSettings*), "SetBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRSettingsError&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSettings*), "SetBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRSettingsError&>()});
   }
 };
-// Writing MetadataGetter for method: CVRSettings::SetInt32
+// Writing MetadataGetter for method: Valve::VR::CVRSettings::SetInt32
 // Il2CppName: SetInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSettings::*)(::Il2CppString*, ::Il2CppString*, int, Valve::VR::EVRSettingsError&)>(&CVRSettings::SetInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRSettings::*)(::Il2CppString*, ::Il2CppString*, int, Valve::VR::EVRSettingsError&)>(&Valve::VR::CVRSettings::SetInt32)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRSettings*), "SetInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRSettingsError&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSettings*), "SetInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRSettingsError&>()});
   }
 };
-// Writing MetadataGetter for method: CVRSettings::SetFloat
+// Writing MetadataGetter for method: Valve::VR::CVRSettings::SetFloat
 // Il2CppName: SetFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSettings::*)(::Il2CppString*, ::Il2CppString*, float, Valve::VR::EVRSettingsError&)>(&CVRSettings::SetFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRSettings::*)(::Il2CppString*, ::Il2CppString*, float, Valve::VR::EVRSettingsError&)>(&Valve::VR::CVRSettings::SetFloat)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRSettings*), "SetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRSettingsError&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSettings*), "SetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRSettingsError&>()});
   }
 };
-// Writing MetadataGetter for method: CVRSettings::SetString
+// Writing MetadataGetter for method: Valve::VR::CVRSettings::SetString
 // Il2CppName: SetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSettings::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, Valve::VR::EVRSettingsError&)>(&CVRSettings::SetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRSettings::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, Valve::VR::EVRSettingsError&)>(&Valve::VR::CVRSettings::SetString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRSettings*), "SetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRSettingsError&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSettings*), "SetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRSettingsError&>()});
   }
 };
-// Writing MetadataGetter for method: CVRSettings::GetBool
+// Writing MetadataGetter for method: Valve::VR::CVRSettings::GetBool
 // Il2CppName: GetBool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRSettings::*)(::Il2CppString*, ::Il2CppString*, Valve::VR::EVRSettingsError&)>(&CVRSettings::GetBool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRSettings::*)(::Il2CppString*, ::Il2CppString*, Valve::VR::EVRSettingsError&)>(&Valve::VR::CVRSettings::GetBool)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRSettings*), "GetBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRSettingsError&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSettings*), "GetBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRSettingsError&>()});
   }
 };
-// Writing MetadataGetter for method: CVRSettings::GetInt32
+// Writing MetadataGetter for method: Valve::VR::CVRSettings::GetInt32
 // Il2CppName: GetInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CVRSettings::*)(::Il2CppString*, ::Il2CppString*, Valve::VR::EVRSettingsError&)>(&CVRSettings::GetInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Valve::VR::CVRSettings::*)(::Il2CppString*, ::Il2CppString*, Valve::VR::EVRSettingsError&)>(&Valve::VR::CVRSettings::GetInt32)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRSettings*), "GetInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRSettingsError&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSettings*), "GetInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRSettingsError&>()});
   }
 };
-// Writing MetadataGetter for method: CVRSettings::GetFloat
+// Writing MetadataGetter for method: Valve::VR::CVRSettings::GetFloat
 // Il2CppName: GetFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (CVRSettings::*)(::Il2CppString*, ::Il2CppString*, Valve::VR::EVRSettingsError&)>(&CVRSettings::GetFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Valve::VR::CVRSettings::*)(::Il2CppString*, ::Il2CppString*, Valve::VR::EVRSettingsError&)>(&Valve::VR::CVRSettings::GetFloat)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRSettings*), "GetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRSettingsError&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSettings*), "GetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRSettingsError&>()});
   }
 };
-// Writing MetadataGetter for method: CVRSettings::GetString
+// Writing MetadataGetter for method: Valve::VR::CVRSettings::GetString
 // Il2CppName: GetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSettings::*)(::Il2CppString*, ::Il2CppString*, System::Text::StringBuilder*, uint, Valve::VR::EVRSettingsError&)>(&CVRSettings::GetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRSettings::*)(::Il2CppString*, ::Il2CppString*, System::Text::StringBuilder*, uint, Valve::VR::EVRSettingsError&)>(&Valve::VR::CVRSettings::GetString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRSettings*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRSettingsError&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSettings*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRSettingsError&>()});
   }
 };
-// Writing MetadataGetter for method: CVRSettings::RemoveSection
+// Writing MetadataGetter for method: Valve::VR::CVRSettings::RemoveSection
 // Il2CppName: RemoveSection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSettings::*)(::Il2CppString*, Valve::VR::EVRSettingsError&)>(&CVRSettings::RemoveSection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRSettings::*)(::Il2CppString*, Valve::VR::EVRSettingsError&)>(&Valve::VR::CVRSettings::RemoveSection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRSettings*), "RemoveSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRSettingsError&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSettings*), "RemoveSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRSettingsError&>()});
   }
 };
-// Writing MetadataGetter for method: CVRSettings::RemoveKeyInSection
+// Writing MetadataGetter for method: Valve::VR::CVRSettings::RemoveKeyInSection
 // Il2CppName: RemoveKeyInSection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRSettings::*)(::Il2CppString*, ::Il2CppString*, Valve::VR::EVRSettingsError&)>(&CVRSettings::RemoveKeyInSection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRSettings::*)(::Il2CppString*, ::Il2CppString*, Valve::VR::EVRSettingsError&)>(&Valve::VR::CVRSettings::RemoveKeyInSection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRSettings*), "RemoveKeyInSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRSettingsError&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSettings*), "RemoveKeyInSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRSettingsError&>()});
   }
 };

@@ -35,17 +35,17 @@ namespace System::Runtime::ExceptionServices {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ExceptionServices::HandleProcessCorruptedStateExceptionsAttribute*, "System.Runtime.ExceptionServices", "HandleProcessCorruptedStateExceptionsAttribute");
-// Writing MetadataGetter for method: HandleProcessCorruptedStateExceptionsAttribute::New_ctor
+// Writing MetadataGetter for method: System::Runtime::ExceptionServices::HandleProcessCorruptedStateExceptionsAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HandleProcessCorruptedStateExceptionsAttribute::*)()>(&HandleProcessCorruptedStateExceptionsAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::ExceptionServices::HandleProcessCorruptedStateExceptionsAttribute::*)()>(&System::Runtime::ExceptionServices::HandleProcessCorruptedStateExceptionsAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HandleProcessCorruptedStateExceptionsAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::ExceptionServices::HandleProcessCorruptedStateExceptionsAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HandleProcessCorruptedStateExceptionsAttribute::*)()>(&HandleProcessCorruptedStateExceptionsAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::ExceptionServices::HandleProcessCorruptedStateExceptionsAttribute::*)()>(&System::Runtime::ExceptionServices::HandleProcessCorruptedStateExceptionsAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HandleProcessCorruptedStateExceptionsAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::ExceptionServices::HandleProcessCorruptedStateExceptionsAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

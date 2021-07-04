@@ -99,33 +99,33 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(BodyTilt) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::BodyTilt*, "RootMotion.FinalIK", "BodyTilt");
-// Writing MetadataGetter for method: BodyTilt::Start
+// Writing MetadataGetter for method: RootMotion::FinalIK::BodyTilt::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BodyTilt::*)()>(&BodyTilt::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BodyTilt::*)()>(&RootMotion::FinalIK::BodyTilt::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BodyTilt*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BodyTilt*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BodyTilt::OnModifyOffset
+// Writing MetadataGetter for method: RootMotion::FinalIK::BodyTilt::OnModifyOffset
 // Il2CppName: OnModifyOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BodyTilt::*)()>(&BodyTilt::OnModifyOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BodyTilt::*)()>(&RootMotion::FinalIK::BodyTilt::OnModifyOffset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BodyTilt*), "OnModifyOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BodyTilt*), "OnModifyOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BodyTilt::New_ctor
+// Writing MetadataGetter for method: RootMotion::FinalIK::BodyTilt::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BodyTilt::*)()>(&BodyTilt::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BodyTilt::*)()>(&RootMotion::FinalIK::BodyTilt::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BodyTilt*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BodyTilt*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BodyTilt::*)()>(&BodyTilt::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::BodyTilt::*)()>(&RootMotion::FinalIK::BodyTilt::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BodyTilt*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BodyTilt*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

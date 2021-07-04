@@ -57,33 +57,33 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c*, "", "OculusPlatformLeaderboardsHandler/<>c");
-// Writing MetadataGetter for method: OculusPlatformLeaderboardsHandler::$$c::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OculusPlatformLeaderboardsHandler::$$c::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusPlatformLeaderboardsHandler::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OculusPlatformLeaderboardsHandler::$$c::$_ctor$b__2_0
+// Writing MetadataGetter for method: GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c::$_ctor$b__2_0
 // Il2CppName: <.ctor>b__2_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusPlatformLeaderboardsHandler::$$c::*)(Oculus::Platform::Message_1<Oculus::Platform::Models::LeaderboardEntryList*>*)>(&OculusPlatformLeaderboardsHandler::$$c::$_ctor$b__2_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c::*)(Oculus::Platform::Message_1<Oculus::Platform::Models::LeaderboardEntryList*>*)>(&GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c::$_ctor$b__2_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusPlatformLeaderboardsHandler::$$c*), "<.ctor>b__2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Message_1<Oculus::Platform::Models::LeaderboardEntryList*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c*), "<.ctor>b__2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Message_1<Oculus::Platform::Models::LeaderboardEntryList*>*>()});
   }
 };
-// Writing MetadataGetter for method: OculusPlatformLeaderboardsHandler::$$c::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusPlatformLeaderboardsHandler::$$c::*)()>(&OculusPlatformLeaderboardsHandler::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c::*)()>(&GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusPlatformLeaderboardsHandler::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusPlatformLeaderboardsHandler::$$c::*)()>(&OculusPlatformLeaderboardsHandler::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c::*)()>(&GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusPlatformLeaderboardsHandler::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

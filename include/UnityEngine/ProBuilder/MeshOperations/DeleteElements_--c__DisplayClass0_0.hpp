@@ -71,49 +71,49 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static_assert(sizeof(DeleteElements::$$c__DisplayClass0_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass0_0*, "UnityEngine.ProBuilder.MeshOperations", "DeleteElements/<>c__DisplayClass0_0");
-// Writing MetadataGetter for method: DeleteElements::$$c__DisplayClass0_0::$DeleteVertices$b__0
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass0_0::$DeleteVertices$b__0
 // Il2CppName: <DeleteVertices>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DeleteElements::$$c__DisplayClass0_0::*)(System::Collections::Generic::KeyValuePair_2<int, int>)>(&DeleteElements::$$c__DisplayClass0_0::$DeleteVertices$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass0_0::*)(System::Collections::Generic::KeyValuePair_2<int, int>)>(&UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass0_0::$DeleteVertices$b__0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeleteElements::$$c__DisplayClass0_0*), "<DeleteVertices>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::KeyValuePair_2<int, int>>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass0_0*), "<DeleteVertices>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::KeyValuePair_2<int, int>>()});
   }
 };
-// Writing MetadataGetter for method: DeleteElements::$$c__DisplayClass0_0::$DeleteVertices$b__1
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass0_0::$DeleteVertices$b__1
 // Il2CppName: <DeleteVertices>b__1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::KeyValuePair_2<int, int> (DeleteElements::$$c__DisplayClass0_0::*)(System::Collections::Generic::KeyValuePair_2<int, int>)>(&DeleteElements::$$c__DisplayClass0_0::$DeleteVertices$b__1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::KeyValuePair_2<int, int> (UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass0_0::*)(System::Collections::Generic::KeyValuePair_2<int, int>)>(&UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass0_0::$DeleteVertices$b__1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeleteElements::$$c__DisplayClass0_0*), "<DeleteVertices>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::KeyValuePair_2<int, int>>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass0_0*), "<DeleteVertices>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::KeyValuePair_2<int, int>>()});
   }
 };
-// Writing MetadataGetter for method: DeleteElements::$$c__DisplayClass0_0::$DeleteVertices$b__2
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass0_0::$DeleteVertices$b__2
 // Il2CppName: <DeleteVertices>b__2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DeleteElements::$$c__DisplayClass0_0::*)(System::Collections::Generic::KeyValuePair_2<int, int>)>(&DeleteElements::$$c__DisplayClass0_0::$DeleteVertices$b__2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass0_0::*)(System::Collections::Generic::KeyValuePair_2<int, int>)>(&UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass0_0::$DeleteVertices$b__2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeleteElements::$$c__DisplayClass0_0*), "<DeleteVertices>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::KeyValuePair_2<int, int>>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass0_0*), "<DeleteVertices>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::KeyValuePair_2<int, int>>()});
   }
 };
-// Writing MetadataGetter for method: DeleteElements::$$c__DisplayClass0_0::$DeleteVertices$b__3
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass0_0::$DeleteVertices$b__3
 // Il2CppName: <DeleteVertices>b__3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::KeyValuePair_2<int, int> (DeleteElements::$$c__DisplayClass0_0::*)(System::Collections::Generic::KeyValuePair_2<int, int>)>(&DeleteElements::$$c__DisplayClass0_0::$DeleteVertices$b__3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::KeyValuePair_2<int, int> (UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass0_0::*)(System::Collections::Generic::KeyValuePair_2<int, int>)>(&UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass0_0::$DeleteVertices$b__3)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeleteElements::$$c__DisplayClass0_0*), "<DeleteVertices>b__3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::KeyValuePair_2<int, int>>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass0_0*), "<DeleteVertices>b__3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::KeyValuePair_2<int, int>>()});
   }
 };
-// Writing MetadataGetter for method: DeleteElements::$$c__DisplayClass0_0::New_ctor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass0_0::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeleteElements::$$c__DisplayClass0_0::*)()>(&DeleteElements::$$c__DisplayClass0_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass0_0::*)()>(&UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass0_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeleteElements::$$c__DisplayClass0_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass0_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeleteElements::$$c__DisplayClass0_0::*)()>(&DeleteElements::$$c__DisplayClass0_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass0_0::*)()>(&UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass0_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeleteElements::$$c__DisplayClass0_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass0_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

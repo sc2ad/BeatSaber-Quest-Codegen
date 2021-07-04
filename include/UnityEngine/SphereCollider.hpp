@@ -26,11 +26,11 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SphereCollider*, "UnityEngine", "SphereCollider");
-// Writing MetadataGetter for method: SphereCollider::get_radius
+// Writing MetadataGetter for method: UnityEngine::SphereCollider::get_radius
 // Il2CppName: get_radius
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SphereCollider::*)()>(&SphereCollider::get_radius)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::SphereCollider::*)()>(&UnityEngine::SphereCollider::get_radius)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SphereCollider*), "get_radius", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SphereCollider*), "get_radius", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

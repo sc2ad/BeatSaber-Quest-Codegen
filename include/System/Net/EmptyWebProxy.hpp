@@ -70,41 +70,41 @@ namespace System::Net {
   static_assert(sizeof(EmptyWebProxy) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::EmptyWebProxy*, "System.Net", "EmptyWebProxy");
-// Writing MetadataGetter for method: EmptyWebProxy::GetProxy
+// Writing MetadataGetter for method: System::Net::EmptyWebProxy::GetProxy
 // Il2CppName: GetProxy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (EmptyWebProxy::*)(System::Uri*)>(&EmptyWebProxy::GetProxy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (System::Net::EmptyWebProxy::*)(System::Uri*)>(&System::Net::EmptyWebProxy::GetProxy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EmptyWebProxy*), "GetProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::EmptyWebProxy*), "GetProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
   }
 };
-// Writing MetadataGetter for method: EmptyWebProxy::IsBypassed
+// Writing MetadataGetter for method: System::Net::EmptyWebProxy::IsBypassed
 // Il2CppName: IsBypassed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EmptyWebProxy::*)(System::Uri*)>(&EmptyWebProxy::IsBypassed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::EmptyWebProxy::*)(System::Uri*)>(&System::Net::EmptyWebProxy::IsBypassed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EmptyWebProxy*), "IsBypassed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::EmptyWebProxy*), "IsBypassed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
   }
 };
-// Writing MetadataGetter for method: EmptyWebProxy::get_Credentials
+// Writing MetadataGetter for method: System::Net::EmptyWebProxy::get_Credentials
 // Il2CppName: get_Credentials
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ICredentials* (EmptyWebProxy::*)()>(&EmptyWebProxy::get_Credentials)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ICredentials* (System::Net::EmptyWebProxy::*)()>(&System::Net::EmptyWebProxy::get_Credentials)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EmptyWebProxy*), "get_Credentials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::EmptyWebProxy*), "get_Credentials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EmptyWebProxy::New_ctor
+// Writing MetadataGetter for method: System::Net::EmptyWebProxy::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EmptyWebProxy::*)()>(&EmptyWebProxy::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::EmptyWebProxy::*)()>(&System::Net::EmptyWebProxy::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EmptyWebProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::EmptyWebProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EmptyWebProxy::*)()>(&EmptyWebProxy::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::EmptyWebProxy::*)()>(&System::Net::EmptyWebProxy::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EmptyWebProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::EmptyWebProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

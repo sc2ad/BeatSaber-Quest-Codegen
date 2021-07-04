@@ -64,25 +64,25 @@ namespace GlobalNamespace {
   static_assert(sizeof(PreviewBeatmapLevelCollectionSO) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PreviewBeatmapLevelCollectionSO*, "", "PreviewBeatmapLevelCollectionSO");
-// Writing MetadataGetter for method: PreviewBeatmapLevelCollectionSO::get_beatmapLevels
+// Writing MetadataGetter for method: GlobalNamespace::PreviewBeatmapLevelCollectionSO::get_beatmapLevels
 // Il2CppName: get_beatmapLevels
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::IPreviewBeatmapLevel*>* (PreviewBeatmapLevelCollectionSO::*)()>(&PreviewBeatmapLevelCollectionSO::get_beatmapLevels)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::IPreviewBeatmapLevel*>* (GlobalNamespace::PreviewBeatmapLevelCollectionSO::*)()>(&GlobalNamespace::PreviewBeatmapLevelCollectionSO::get_beatmapLevels)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PreviewBeatmapLevelCollectionSO*), "get_beatmapLevels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PreviewBeatmapLevelCollectionSO*), "get_beatmapLevels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PreviewBeatmapLevelCollectionSO::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::PreviewBeatmapLevelCollectionSO::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PreviewBeatmapLevelCollectionSO::*)()>(&PreviewBeatmapLevelCollectionSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PreviewBeatmapLevelCollectionSO::*)()>(&GlobalNamespace::PreviewBeatmapLevelCollectionSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PreviewBeatmapLevelCollectionSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PreviewBeatmapLevelCollectionSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PreviewBeatmapLevelCollectionSO::*)()>(&PreviewBeatmapLevelCollectionSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PreviewBeatmapLevelCollectionSO::*)()>(&GlobalNamespace::PreviewBeatmapLevelCollectionSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PreviewBeatmapLevelCollectionSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PreviewBeatmapLevelCollectionSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

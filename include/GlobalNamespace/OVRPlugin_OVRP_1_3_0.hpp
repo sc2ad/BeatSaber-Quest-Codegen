@@ -44,35 +44,35 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_3_0*, "", "OVRPlugin/OVRP_1_3_0");
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_3_0::ovrp_GetEyeOcclusionMeshEnabled
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_3_0::ovrp_GetEyeOcclusionMeshEnabled
 // Il2CppName: ovrp_GetEyeOcclusionMeshEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&OVRPlugin::OVRP_1_3_0::ovrp_GetEyeOcclusionMeshEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_3_0::ovrp_GetEyeOcclusionMeshEnabled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_3_0*), "ovrp_GetEyeOcclusionMeshEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_3_0*), "ovrp_GetEyeOcclusionMeshEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_3_0::ovrp_SetEyeOcclusionMeshEnabled
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_3_0::ovrp_SetEyeOcclusionMeshEnabled
 // Il2CppName: ovrp_SetEyeOcclusionMeshEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(GlobalNamespace::OVRPlugin::Bool)>(&OVRPlugin::OVRP_1_3_0::ovrp_SetEyeOcclusionMeshEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(GlobalNamespace::OVRPlugin::Bool)>(&GlobalNamespace::OVRPlugin::OVRP_1_3_0::ovrp_SetEyeOcclusionMeshEnabled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_3_0*), "ovrp_SetEyeOcclusionMeshEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_3_0*), "ovrp_SetEyeOcclusionMeshEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Bool>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_3_0::ovrp_GetSystemHeadphonesPresent
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_3_0::ovrp_GetSystemHeadphonesPresent
 // Il2CppName: ovrp_GetSystemHeadphonesPresent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&OVRPlugin::OVRP_1_3_0::ovrp_GetSystemHeadphonesPresent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_3_0::ovrp_GetSystemHeadphonesPresent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_3_0*), "ovrp_GetSystemHeadphonesPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_3_0*), "ovrp_GetSystemHeadphonesPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_3_0::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_3_0::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRPlugin::OVRP_1_3_0::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_3_0::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_3_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_3_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

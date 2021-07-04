@@ -99,49 +99,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionObjectivesGameUIController) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectivesGameUIController*, "", "MissionObjectivesGameUIController");
-// Writing MetadataGetter for method: MissionObjectivesGameUIController::Start
+// Writing MetadataGetter for method: GlobalNamespace::MissionObjectivesGameUIController::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectivesGameUIController::*)()>(&MissionObjectivesGameUIController::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectivesGameUIController::*)()>(&GlobalNamespace::MissionObjectivesGameUIController::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionObjectivesGameUIController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectivesGameUIController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionObjectivesGameUIController::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::MissionObjectivesGameUIController::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectivesGameUIController::*)()>(&MissionObjectivesGameUIController::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectivesGameUIController::*)()>(&GlobalNamespace::MissionObjectivesGameUIController::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionObjectivesGameUIController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectivesGameUIController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionObjectivesGameUIController::HandleMissionObjectiveCheckersManagerObjectivesListDidChange
+// Writing MetadataGetter for method: GlobalNamespace::MissionObjectivesGameUIController::HandleMissionObjectiveCheckersManagerObjectivesListDidChange
 // Il2CppName: HandleMissionObjectiveCheckersManagerObjectivesListDidChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectivesGameUIController::*)()>(&MissionObjectivesGameUIController::HandleMissionObjectiveCheckersManagerObjectivesListDidChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectivesGameUIController::*)()>(&GlobalNamespace::MissionObjectivesGameUIController::HandleMissionObjectiveCheckersManagerObjectivesListDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionObjectivesGameUIController*), "HandleMissionObjectiveCheckersManagerObjectivesListDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectivesGameUIController*), "HandleMissionObjectiveCheckersManagerObjectivesListDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionObjectivesGameUIController::CreateUIElements
+// Writing MetadataGetter for method: GlobalNamespace::MissionObjectivesGameUIController::CreateUIElements
 // Il2CppName: CreateUIElements
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectivesGameUIController::*)()>(&MissionObjectivesGameUIController::CreateUIElements)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectivesGameUIController::*)()>(&GlobalNamespace::MissionObjectivesGameUIController::CreateUIElements)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionObjectivesGameUIController*), "CreateUIElements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectivesGameUIController*), "CreateUIElements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionObjectivesGameUIController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MissionObjectivesGameUIController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectivesGameUIController::*)()>(&MissionObjectivesGameUIController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectivesGameUIController::*)()>(&GlobalNamespace::MissionObjectivesGameUIController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionObjectivesGameUIController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectivesGameUIController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionObjectivesGameUIController::*)()>(&MissionObjectivesGameUIController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectivesGameUIController::*)()>(&GlobalNamespace::MissionObjectivesGameUIController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionObjectivesGameUIController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectivesGameUIController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

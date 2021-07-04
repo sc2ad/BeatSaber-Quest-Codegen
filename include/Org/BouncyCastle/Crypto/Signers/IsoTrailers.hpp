@@ -47,35 +47,35 @@ namespace Org::BouncyCastle::Crypto::Signers {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::IsoTrailers*, "Org.BouncyCastle.Crypto.Signers", "IsoTrailers");
-// Writing MetadataGetter for method: IsoTrailers::CreateTrailerMap
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::IsoTrailers::CreateTrailerMap
 // Il2CppName: CreateTrailerMap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionary* (*)()>(&IsoTrailers::CreateTrailerMap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionary* (*)()>(&Org::BouncyCastle::Crypto::Signers::IsoTrailers::CreateTrailerMap)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IsoTrailers*), "CreateTrailerMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::IsoTrailers*), "CreateTrailerMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IsoTrailers::GetTrailer
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::IsoTrailers::GetTrailer
 // Il2CppName: GetTrailer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Org::BouncyCastle::Crypto::IDigest*)>(&IsoTrailers::GetTrailer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Org::BouncyCastle::Crypto::IDigest*)>(&Org::BouncyCastle::Crypto::Signers::IsoTrailers::GetTrailer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IsoTrailers*), "GetTrailer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::IsoTrailers*), "GetTrailer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>()});
   }
 };
-// Writing MetadataGetter for method: IsoTrailers::NoTrailerAvailable
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::IsoTrailers::NoTrailerAvailable
 // Il2CppName: NoTrailerAvailable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Org::BouncyCastle::Crypto::IDigest*)>(&IsoTrailers::NoTrailerAvailable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Org::BouncyCastle::Crypto::IDigest*)>(&Org::BouncyCastle::Crypto::Signers::IsoTrailers::NoTrailerAvailable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IsoTrailers*), "NoTrailerAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::IsoTrailers*), "NoTrailerAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>()});
   }
 };
-// Writing MetadataGetter for method: IsoTrailers::_cctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::IsoTrailers::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&IsoTrailers::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::Crypto::Signers::IsoTrailers::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IsoTrailers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::IsoTrailers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -64,19 +64,19 @@ namespace OnlineServices {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::PlatformOnlineServicesAvailabilityModel::$GetPlatformServicesAvailabilityInfo$d__4, "OnlineServices", "PlatformOnlineServicesAvailabilityModel/<GetPlatformServicesAvailabilityInfo>d__4");
-// Writing MetadataGetter for method: PlatformOnlineServicesAvailabilityModel::$GetPlatformServicesAvailabilityInfo$d__4::MoveNext
+// Writing MetadataGetter for method: OnlineServices::PlatformOnlineServicesAvailabilityModel::$GetPlatformServicesAvailabilityInfo$d__4::MoveNext
 // Il2CppName: MoveNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformOnlineServicesAvailabilityModel::$GetPlatformServicesAvailabilityInfo$d__4::*)()>(&PlatformOnlineServicesAvailabilityModel::$GetPlatformServicesAvailabilityInfo$d__4::MoveNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::PlatformOnlineServicesAvailabilityModel::$GetPlatformServicesAvailabilityInfo$d__4::*)()>(&OnlineServices::PlatformOnlineServicesAvailabilityModel::$GetPlatformServicesAvailabilityInfo$d__4::MoveNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformOnlineServicesAvailabilityModel::$GetPlatformServicesAvailabilityInfo$d__4), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::PlatformOnlineServicesAvailabilityModel::$GetPlatformServicesAvailabilityInfo$d__4), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlatformOnlineServicesAvailabilityModel::$GetPlatformServicesAvailabilityInfo$d__4::SetStateMachine
+// Writing MetadataGetter for method: OnlineServices::PlatformOnlineServicesAvailabilityModel::$GetPlatformServicesAvailabilityInfo$d__4::SetStateMachine
 // Il2CppName: SetStateMachine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformOnlineServicesAvailabilityModel::$GetPlatformServicesAvailabilityInfo$d__4::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&PlatformOnlineServicesAvailabilityModel::$GetPlatformServicesAvailabilityInfo$d__4::SetStateMachine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::PlatformOnlineServicesAvailabilityModel::$GetPlatformServicesAvailabilityInfo$d__4::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&OnlineServices::PlatformOnlineServicesAvailabilityModel::$GetPlatformServicesAvailabilityInfo$d__4::SetStateMachine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformOnlineServicesAvailabilityModel::$GetPlatformServicesAvailabilityInfo$d__4), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::PlatformOnlineServicesAvailabilityModel::$GetPlatformServicesAvailabilityInfo$d__4), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
   }
 };

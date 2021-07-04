@@ -256,121 +256,121 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer*, "", "OVRMeshRenderer");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer::ConfidenceBehavior, "", "OVRMeshRenderer/ConfidenceBehavior");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer::SystemGestureBehavior, "", "OVRMeshRenderer/SystemGestureBehavior");
-// Writing MetadataGetter for method: OVRMeshRenderer::get_IsInitialized
+// Writing MetadataGetter for method: GlobalNamespace::OVRMeshRenderer::get_IsInitialized
 // Il2CppName: get_IsInitialized
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRMeshRenderer::*)()>(&OVRMeshRenderer::get_IsInitialized)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRMeshRenderer::*)()>(&GlobalNamespace::OVRMeshRenderer::get_IsInitialized)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer*), "get_IsInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMeshRenderer*), "get_IsInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRMeshRenderer::set_IsInitialized
+// Writing MetadataGetter for method: GlobalNamespace::OVRMeshRenderer::set_IsInitialized
 // Il2CppName: set_IsInitialized
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMeshRenderer::*)(bool)>(&OVRMeshRenderer::set_IsInitialized)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMeshRenderer::*)(bool)>(&GlobalNamespace::OVRMeshRenderer::set_IsInitialized)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer*), "set_IsInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMeshRenderer*), "set_IsInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: OVRMeshRenderer::get_IsDataValid
+// Writing MetadataGetter for method: GlobalNamespace::OVRMeshRenderer::get_IsDataValid
 // Il2CppName: get_IsDataValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRMeshRenderer::*)()>(&OVRMeshRenderer::get_IsDataValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRMeshRenderer::*)()>(&GlobalNamespace::OVRMeshRenderer::get_IsDataValid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer*), "get_IsDataValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMeshRenderer*), "get_IsDataValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRMeshRenderer::set_IsDataValid
+// Writing MetadataGetter for method: GlobalNamespace::OVRMeshRenderer::set_IsDataValid
 // Il2CppName: set_IsDataValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMeshRenderer::*)(bool)>(&OVRMeshRenderer::set_IsDataValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMeshRenderer::*)(bool)>(&GlobalNamespace::OVRMeshRenderer::set_IsDataValid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer*), "set_IsDataValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMeshRenderer*), "set_IsDataValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: OVRMeshRenderer::get_IsDataHighConfidence
+// Writing MetadataGetter for method: GlobalNamespace::OVRMeshRenderer::get_IsDataHighConfidence
 // Il2CppName: get_IsDataHighConfidence
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRMeshRenderer::*)()>(&OVRMeshRenderer::get_IsDataHighConfidence)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRMeshRenderer::*)()>(&GlobalNamespace::OVRMeshRenderer::get_IsDataHighConfidence)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer*), "get_IsDataHighConfidence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMeshRenderer*), "get_IsDataHighConfidence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRMeshRenderer::set_IsDataHighConfidence
+// Writing MetadataGetter for method: GlobalNamespace::OVRMeshRenderer::set_IsDataHighConfidence
 // Il2CppName: set_IsDataHighConfidence
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMeshRenderer::*)(bool)>(&OVRMeshRenderer::set_IsDataHighConfidence)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMeshRenderer::*)(bool)>(&GlobalNamespace::OVRMeshRenderer::set_IsDataHighConfidence)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer*), "set_IsDataHighConfidence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMeshRenderer*), "set_IsDataHighConfidence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: OVRMeshRenderer::get_ShouldUseSystemGestureMaterial
+// Writing MetadataGetter for method: GlobalNamespace::OVRMeshRenderer::get_ShouldUseSystemGestureMaterial
 // Il2CppName: get_ShouldUseSystemGestureMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRMeshRenderer::*)()>(&OVRMeshRenderer::get_ShouldUseSystemGestureMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRMeshRenderer::*)()>(&GlobalNamespace::OVRMeshRenderer::get_ShouldUseSystemGestureMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer*), "get_ShouldUseSystemGestureMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMeshRenderer*), "get_ShouldUseSystemGestureMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRMeshRenderer::set_ShouldUseSystemGestureMaterial
+// Writing MetadataGetter for method: GlobalNamespace::OVRMeshRenderer::set_ShouldUseSystemGestureMaterial
 // Il2CppName: set_ShouldUseSystemGestureMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMeshRenderer::*)(bool)>(&OVRMeshRenderer::set_ShouldUseSystemGestureMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMeshRenderer::*)(bool)>(&GlobalNamespace::OVRMeshRenderer::set_ShouldUseSystemGestureMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer*), "set_ShouldUseSystemGestureMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMeshRenderer*), "set_ShouldUseSystemGestureMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: OVRMeshRenderer::Awake
+// Writing MetadataGetter for method: GlobalNamespace::OVRMeshRenderer::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMeshRenderer::*)()>(&OVRMeshRenderer::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMeshRenderer::*)()>(&GlobalNamespace::OVRMeshRenderer::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMeshRenderer*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRMeshRenderer::Start
+// Writing MetadataGetter for method: GlobalNamespace::OVRMeshRenderer::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMeshRenderer::*)()>(&OVRMeshRenderer::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMeshRenderer::*)()>(&GlobalNamespace::OVRMeshRenderer::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMeshRenderer*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRMeshRenderer::ShouldInitialize
+// Writing MetadataGetter for method: GlobalNamespace::OVRMeshRenderer::ShouldInitialize
 // Il2CppName: ShouldInitialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRMeshRenderer::*)()>(&OVRMeshRenderer::ShouldInitialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRMeshRenderer::*)()>(&GlobalNamespace::OVRMeshRenderer::ShouldInitialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer*), "ShouldInitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMeshRenderer*), "ShouldInitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRMeshRenderer::Initialize
+// Writing MetadataGetter for method: GlobalNamespace::OVRMeshRenderer::Initialize
 // Il2CppName: Initialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMeshRenderer::*)()>(&OVRMeshRenderer::Initialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMeshRenderer::*)()>(&GlobalNamespace::OVRMeshRenderer::Initialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMeshRenderer*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRMeshRenderer::Update
+// Writing MetadataGetter for method: GlobalNamespace::OVRMeshRenderer::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMeshRenderer::*)()>(&OVRMeshRenderer::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMeshRenderer::*)()>(&GlobalNamespace::OVRMeshRenderer::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMeshRenderer*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRMeshRenderer::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::OVRMeshRenderer::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMeshRenderer::*)()>(&OVRMeshRenderer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMeshRenderer::*)()>(&GlobalNamespace::OVRMeshRenderer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMeshRenderer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRMeshRenderer::*)()>(&OVRMeshRenderer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMeshRenderer::*)()>(&GlobalNamespace::OVRMeshRenderer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRMeshRenderer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMeshRenderer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -299,193 +299,193 @@ namespace GlobalNamespace {
   static_assert(sizeof(TubeBloomPrePassLight) == 0xA8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TubeBloomPrePassLight*, "", "TubeBloomPrePassLight");
-// Writing MetadataGetter for method: TubeBloomPrePassLight::add_didRefreshEvent
+// Writing MetadataGetter for method: GlobalNamespace::TubeBloomPrePassLight::add_didRefreshEvent
 // Il2CppName: add_didRefreshEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TubeBloomPrePassLight::*)(System::Action*)>(&TubeBloomPrePassLight::add_didRefreshEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TubeBloomPrePassLight::*)(System::Action*)>(&GlobalNamespace::TubeBloomPrePassLight::add_didRefreshEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TubeBloomPrePassLight*), "add_didRefreshEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeBloomPrePassLight*), "add_didRefreshEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: TubeBloomPrePassLight::remove_didRefreshEvent
+// Writing MetadataGetter for method: GlobalNamespace::TubeBloomPrePassLight::remove_didRefreshEvent
 // Il2CppName: remove_didRefreshEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TubeBloomPrePassLight::*)(System::Action*)>(&TubeBloomPrePassLight::remove_didRefreshEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TubeBloomPrePassLight::*)(System::Action*)>(&GlobalNamespace::TubeBloomPrePassLight::remove_didRefreshEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TubeBloomPrePassLight*), "remove_didRefreshEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeBloomPrePassLight*), "remove_didRefreshEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: TubeBloomPrePassLight::get_colorAlphaMultiplier
+// Writing MetadataGetter for method: GlobalNamespace::TubeBloomPrePassLight::get_colorAlphaMultiplier
 // Il2CppName: get_colorAlphaMultiplier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TubeBloomPrePassLight::*)()>(&TubeBloomPrePassLight::get_colorAlphaMultiplier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::TubeBloomPrePassLight::*)()>(&GlobalNamespace::TubeBloomPrePassLight::get_colorAlphaMultiplier)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TubeBloomPrePassLight*), "get_colorAlphaMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeBloomPrePassLight*), "get_colorAlphaMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TubeBloomPrePassLight::get_center
+// Writing MetadataGetter for method: GlobalNamespace::TubeBloomPrePassLight::get_center
 // Il2CppName: get_center
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TubeBloomPrePassLight::*)()>(&TubeBloomPrePassLight::get_center)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::TubeBloomPrePassLight::*)()>(&GlobalNamespace::TubeBloomPrePassLight::get_center)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TubeBloomPrePassLight*), "get_center", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeBloomPrePassLight*), "get_center", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TubeBloomPrePassLight::MarkDirty
+// Writing MetadataGetter for method: GlobalNamespace::TubeBloomPrePassLight::MarkDirty
 // Il2CppName: MarkDirty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TubeBloomPrePassLight::*)()>(&TubeBloomPrePassLight::MarkDirty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TubeBloomPrePassLight::*)()>(&GlobalNamespace::TubeBloomPrePassLight::MarkDirty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TubeBloomPrePassLight*), "MarkDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeBloomPrePassLight*), "MarkDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TubeBloomPrePassLight::get_length
+// Writing MetadataGetter for method: GlobalNamespace::TubeBloomPrePassLight::get_length
 // Il2CppName: get_length
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TubeBloomPrePassLight::*)()>(&TubeBloomPrePassLight::get_length)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::TubeBloomPrePassLight::*)()>(&GlobalNamespace::TubeBloomPrePassLight::get_length)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TubeBloomPrePassLight*), "get_length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeBloomPrePassLight*), "get_length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TubeBloomPrePassLight::set_length
+// Writing MetadataGetter for method: GlobalNamespace::TubeBloomPrePassLight::set_length
 // Il2CppName: set_length
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TubeBloomPrePassLight::*)(float)>(&TubeBloomPrePassLight::set_length)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TubeBloomPrePassLight::*)(float)>(&GlobalNamespace::TubeBloomPrePassLight::set_length)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TubeBloomPrePassLight*), "set_length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeBloomPrePassLight*), "set_length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: TubeBloomPrePassLight::get_width
+// Writing MetadataGetter for method: GlobalNamespace::TubeBloomPrePassLight::get_width
 // Il2CppName: get_width
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TubeBloomPrePassLight::*)()>(&TubeBloomPrePassLight::get_width)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::TubeBloomPrePassLight::*)()>(&GlobalNamespace::TubeBloomPrePassLight::get_width)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TubeBloomPrePassLight*), "get_width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeBloomPrePassLight*), "get_width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TubeBloomPrePassLight::set_width
+// Writing MetadataGetter for method: GlobalNamespace::TubeBloomPrePassLight::set_width
 // Il2CppName: set_width
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TubeBloomPrePassLight::*)(float)>(&TubeBloomPrePassLight::set_width)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TubeBloomPrePassLight::*)(float)>(&GlobalNamespace::TubeBloomPrePassLight::set_width)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TubeBloomPrePassLight*), "set_width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeBloomPrePassLight*), "set_width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: TubeBloomPrePassLight::get_lightWidthMultiplier
+// Writing MetadataGetter for method: GlobalNamespace::TubeBloomPrePassLight::get_lightWidthMultiplier
 // Il2CppName: get_lightWidthMultiplier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TubeBloomPrePassLight::*)()>(&TubeBloomPrePassLight::get_lightWidthMultiplier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::TubeBloomPrePassLight::*)()>(&GlobalNamespace::TubeBloomPrePassLight::get_lightWidthMultiplier)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TubeBloomPrePassLight*), "get_lightWidthMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeBloomPrePassLight*), "get_lightWidthMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TubeBloomPrePassLight::set_lightWidthMultiplier
+// Writing MetadataGetter for method: GlobalNamespace::TubeBloomPrePassLight::set_lightWidthMultiplier
 // Il2CppName: set_lightWidthMultiplier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TubeBloomPrePassLight::*)(float)>(&TubeBloomPrePassLight::set_lightWidthMultiplier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TubeBloomPrePassLight::*)(float)>(&GlobalNamespace::TubeBloomPrePassLight::set_lightWidthMultiplier)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TubeBloomPrePassLight*), "set_lightWidthMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeBloomPrePassLight*), "set_lightWidthMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: TubeBloomPrePassLight::get_bloomFogIntensityMultiplier
+// Writing MetadataGetter for method: GlobalNamespace::TubeBloomPrePassLight::get_bloomFogIntensityMultiplier
 // Il2CppName: get_bloomFogIntensityMultiplier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TubeBloomPrePassLight::*)()>(&TubeBloomPrePassLight::get_bloomFogIntensityMultiplier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::TubeBloomPrePassLight::*)()>(&GlobalNamespace::TubeBloomPrePassLight::get_bloomFogIntensityMultiplier)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TubeBloomPrePassLight*), "get_bloomFogIntensityMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeBloomPrePassLight*), "get_bloomFogIntensityMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TubeBloomPrePassLight::set_bloomFogIntensityMultiplier
+// Writing MetadataGetter for method: GlobalNamespace::TubeBloomPrePassLight::set_bloomFogIntensityMultiplier
 // Il2CppName: set_bloomFogIntensityMultiplier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TubeBloomPrePassLight::*)(float)>(&TubeBloomPrePassLight::set_bloomFogIntensityMultiplier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TubeBloomPrePassLight::*)(float)>(&GlobalNamespace::TubeBloomPrePassLight::set_bloomFogIntensityMultiplier)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TubeBloomPrePassLight*), "set_bloomFogIntensityMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeBloomPrePassLight*), "set_bloomFogIntensityMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: TubeBloomPrePassLight::set_color
+// Writing MetadataGetter for method: GlobalNamespace::TubeBloomPrePassLight::set_color
 // Il2CppName: set_color
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TubeBloomPrePassLight::*)(UnityEngine::Color)>(&TubeBloomPrePassLight::set_color)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TubeBloomPrePassLight::*)(UnityEngine::Color)>(&GlobalNamespace::TubeBloomPrePassLight::set_color)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TubeBloomPrePassLight*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeBloomPrePassLight*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: TubeBloomPrePassLight::get_color
+// Writing MetadataGetter for method: GlobalNamespace::TubeBloomPrePassLight::get_color
 // Il2CppName: get_color
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (TubeBloomPrePassLight::*)()>(&TubeBloomPrePassLight::get_color)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::TubeBloomPrePassLight::*)()>(&GlobalNamespace::TubeBloomPrePassLight::get_color)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TubeBloomPrePassLight*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeBloomPrePassLight*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TubeBloomPrePassLight::ClipPoints
+// Writing MetadataGetter for method: GlobalNamespace::TubeBloomPrePassLight::ClipPoints
 // Il2CppName: ClipPoints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TubeBloomPrePassLight::*)(UnityEngine::Vector4&, UnityEngine::Vector4&, UnityEngine::Vector3&, UnityEngine::Vector3&, bool, float)>(&TubeBloomPrePassLight::ClipPoints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TubeBloomPrePassLight::*)(UnityEngine::Vector4&, UnityEngine::Vector4&, UnityEngine::Vector3&, UnityEngine::Vector3&, bool, float)>(&GlobalNamespace::TubeBloomPrePassLight::ClipPoints)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TubeBloomPrePassLight*), "ClipPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeBloomPrePassLight*), "ClipPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: TubeBloomPrePassLight::OnDrawGizmos
+// Writing MetadataGetter for method: GlobalNamespace::TubeBloomPrePassLight::OnDrawGizmos
 // Il2CppName: OnDrawGizmos
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TubeBloomPrePassLight::*)()>(&TubeBloomPrePassLight::OnDrawGizmos)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TubeBloomPrePassLight::*)()>(&GlobalNamespace::TubeBloomPrePassLight::OnDrawGizmos)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TubeBloomPrePassLight*), "OnDrawGizmos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeBloomPrePassLight*), "OnDrawGizmos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TubeBloomPrePassLight::get_isDirty
+// Writing MetadataGetter for method: GlobalNamespace::TubeBloomPrePassLight::get_isDirty
 // Il2CppName: get_isDirty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TubeBloomPrePassLight::*)()>(&TubeBloomPrePassLight::get_isDirty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::TubeBloomPrePassLight::*)()>(&GlobalNamespace::TubeBloomPrePassLight::get_isDirty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TubeBloomPrePassLight*), "get_isDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeBloomPrePassLight*), "get_isDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TubeBloomPrePassLight::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::TubeBloomPrePassLight::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TubeBloomPrePassLight::*)()>(&TubeBloomPrePassLight::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TubeBloomPrePassLight::*)()>(&GlobalNamespace::TubeBloomPrePassLight::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TubeBloomPrePassLight*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeBloomPrePassLight*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TubeBloomPrePassLight::DidRegisterLight
+// Writing MetadataGetter for method: GlobalNamespace::TubeBloomPrePassLight::DidRegisterLight
 // Il2CppName: DidRegisterLight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TubeBloomPrePassLight::*)()>(&TubeBloomPrePassLight::DidRegisterLight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TubeBloomPrePassLight::*)()>(&GlobalNamespace::TubeBloomPrePassLight::DidRegisterLight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TubeBloomPrePassLight*), "DidRegisterLight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeBloomPrePassLight*), "DidRegisterLight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TubeBloomPrePassLight::Refresh
+// Writing MetadataGetter for method: GlobalNamespace::TubeBloomPrePassLight::Refresh
 // Il2CppName: Refresh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TubeBloomPrePassLight::*)()>(&TubeBloomPrePassLight::Refresh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TubeBloomPrePassLight::*)()>(&GlobalNamespace::TubeBloomPrePassLight::Refresh)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TubeBloomPrePassLight*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeBloomPrePassLight*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TubeBloomPrePassLight::FillMeshData
+// Writing MetadataGetter for method: GlobalNamespace::TubeBloomPrePassLight::FillMeshData
 // Il2CppName: FillMeshData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TubeBloomPrePassLight::*)(int, ::Array<UnityEngine::Vector3>*, ::Array<UnityEngine::Color>*, ::Array<UnityEngine::Vector4>*, UnityEngine::Matrix4x4, UnityEngine::Matrix4x4, float)>(&TubeBloomPrePassLight::FillMeshData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TubeBloomPrePassLight::*)(int, ::Array<UnityEngine::Vector3>*, ::Array<UnityEngine::Color>*, ::Array<UnityEngine::Vector4>*, UnityEngine::Matrix4x4, UnityEngine::Matrix4x4, float)>(&GlobalNamespace::TubeBloomPrePassLight::FillMeshData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TubeBloomPrePassLight*), "FillMeshData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector3>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Color>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector4>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeBloomPrePassLight*), "FillMeshData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector3>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Color>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector4>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: TubeBloomPrePassLight::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::TubeBloomPrePassLight::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TubeBloomPrePassLight::*)()>(&TubeBloomPrePassLight::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TubeBloomPrePassLight::*)()>(&GlobalNamespace::TubeBloomPrePassLight::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TubeBloomPrePassLight*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeBloomPrePassLight*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TubeBloomPrePassLight::*)()>(&TubeBloomPrePassLight::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TubeBloomPrePassLight::*)()>(&GlobalNamespace::TubeBloomPrePassLight::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TubeBloomPrePassLight*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TubeBloomPrePassLight*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -139,81 +139,81 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomPrePassBackgroundTextureGradient) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundTextureGradient*, "", "BloomPrePassBackgroundTextureGradient");
-// Writing MetadataGetter for method: BloomPrePassBackgroundTextureGradient::InitIfNeeded
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundTextureGradient::InitIfNeeded
 // Il2CppName: InitIfNeeded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassBackgroundTextureGradient::*)()>(&BloomPrePassBackgroundTextureGradient::InitIfNeeded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePassBackgroundTextureGradient::*)()>(&GlobalNamespace::BloomPrePassBackgroundTextureGradient::InitIfNeeded)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundTextureGradient*), "InitIfNeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassBackgroundTextureGradient*), "InitIfNeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomPrePassBackgroundTextureGradient::Start
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundTextureGradient::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassBackgroundTextureGradient::*)()>(&BloomPrePassBackgroundTextureGradient::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePassBackgroundTextureGradient::*)()>(&GlobalNamespace::BloomPrePassBackgroundTextureGradient::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundTextureGradient*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassBackgroundTextureGradient*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomPrePassBackgroundTextureGradient::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundTextureGradient::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassBackgroundTextureGradient::*)()>(&BloomPrePassBackgroundTextureGradient::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePassBackgroundTextureGradient::*)()>(&GlobalNamespace::BloomPrePassBackgroundTextureGradient::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundTextureGradient*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassBackgroundTextureGradient*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomPrePassBackgroundTextureGradient::UpdatePixels
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundTextureGradient::UpdatePixels
 // Il2CppName: UpdatePixels
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassBackgroundTextureGradient::*)(Unity::Collections::NativeArray_1<UnityEngine::Color32>, int)>(&BloomPrePassBackgroundTextureGradient::UpdatePixels)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePassBackgroundTextureGradient::*)(Unity::Collections::NativeArray_1<UnityEngine::Color32>, int)>(&GlobalNamespace::BloomPrePassBackgroundTextureGradient::UpdatePixels)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundTextureGradient*), "UpdatePixels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Unity::Collections::NativeArray_1<UnityEngine::Color32>>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassBackgroundTextureGradient*), "UpdatePixels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Unity::Collections::NativeArray_1<UnityEngine::Color32>>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: BloomPrePassBackgroundTextureGradient::UpdateGradientTexture
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundTextureGradient::UpdateGradientTexture
 // Il2CppName: UpdateGradientTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassBackgroundTextureGradient::*)()>(&BloomPrePassBackgroundTextureGradient::UpdateGradientTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePassBackgroundTextureGradient::*)()>(&GlobalNamespace::BloomPrePassBackgroundTextureGradient::UpdateGradientTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundTextureGradient*), "UpdateGradientTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassBackgroundTextureGradient*), "UpdateGradientTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomPrePassBackgroundTextureGradient::OnValidate
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundTextureGradient::OnValidate
 // Il2CppName: OnValidate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassBackgroundTextureGradient::*)()>(&BloomPrePassBackgroundTextureGradient::OnValidate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePassBackgroundTextureGradient::*)()>(&GlobalNamespace::BloomPrePassBackgroundTextureGradient::OnValidate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundTextureGradient*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassBackgroundTextureGradient*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomPrePassBackgroundTextureGradient::Render
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundTextureGradient::Render
 // Il2CppName: Render
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassBackgroundTextureGradient::*)(UnityEngine::RenderTexture*, UnityEngine::Matrix4x4, UnityEngine::Matrix4x4)>(&BloomPrePassBackgroundTextureGradient::Render)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePassBackgroundTextureGradient::*)(UnityEngine::RenderTexture*, UnityEngine::Matrix4x4, UnityEngine::Matrix4x4)>(&GlobalNamespace::BloomPrePassBackgroundTextureGradient::Render)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundTextureGradient*), "Render", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassBackgroundTextureGradient*), "Render", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
   }
 };
-// Writing MetadataGetter for method: BloomPrePassBackgroundTextureGradient::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundTextureGradient::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassBackgroundTextureGradient::*)()>(&BloomPrePassBackgroundTextureGradient::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePassBackgroundTextureGradient::*)()>(&GlobalNamespace::BloomPrePassBackgroundTextureGradient::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundTextureGradient*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassBackgroundTextureGradient*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassBackgroundTextureGradient::*)()>(&BloomPrePassBackgroundTextureGradient::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePassBackgroundTextureGradient::*)()>(&GlobalNamespace::BloomPrePassBackgroundTextureGradient::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundTextureGradient*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassBackgroundTextureGradient*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomPrePassBackgroundTextureGradient::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundTextureGradient::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&BloomPrePassBackgroundTextureGradient::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::BloomPrePassBackgroundTextureGradient::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundTextureGradient*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassBackgroundTextureGradient*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

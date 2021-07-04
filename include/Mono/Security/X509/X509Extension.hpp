@@ -103,103 +103,103 @@ namespace Mono::Security::X509 {
   static_assert(sizeof(X509Extension) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Extension*, "Mono.Security.X509", "X509Extension");
-// Writing MetadataGetter for method: X509Extension::New_ctor
+// Writing MetadataGetter for method: Mono::Security::X509::X509Extension::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509Extension::*)(Mono::Security::ASN1*)>(&X509Extension::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::X509Extension::*)(Mono::Security::ASN1*)>(&Mono::Security::X509::X509Extension::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509Extension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Extension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509Extension::*)(Mono::Security::ASN1*)>(&X509Extension::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::X509Extension::*)(Mono::Security::ASN1*)>(&Mono::Security::X509::X509Extension::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509Extension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Extension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>()});
   }
 };
-// Writing MetadataGetter for method: X509Extension::New_ctor
+// Writing MetadataGetter for method: Mono::Security::X509::X509Extension::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509Extension::*)(Mono::Security::X509::X509Extension*)>(&X509Extension::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::X509Extension::*)(Mono::Security::X509::X509Extension*)>(&Mono::Security::X509::X509Extension::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509Extension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::X509::X509Extension*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Extension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::X509::X509Extension*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509Extension::*)(Mono::Security::X509::X509Extension*)>(&X509Extension::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::X509Extension::*)(Mono::Security::X509::X509Extension*)>(&Mono::Security::X509::X509Extension::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509Extension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::X509::X509Extension*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Extension*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::X509::X509Extension*>()});
   }
 };
-// Writing MetadataGetter for method: X509Extension::Decode
+// Writing MetadataGetter for method: Mono::Security::X509::X509Extension::Decode
 // Il2CppName: Decode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509Extension::*)()>(&X509Extension::Decode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::X509Extension::*)()>(&Mono::Security::X509::X509Extension::Decode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509Extension*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Extension*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: X509Extension::Encode
+// Writing MetadataGetter for method: Mono::Security::X509::X509Extension::Encode
 // Il2CppName: Encode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509Extension::*)()>(&X509Extension::Encode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::X509Extension::*)()>(&Mono::Security::X509::X509Extension::Encode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509Extension*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Extension*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: X509Extension::get_Oid
+// Writing MetadataGetter for method: Mono::Security::X509::X509Extension::get_Oid
 // Il2CppName: get_Oid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (X509Extension::*)()>(&X509Extension::get_Oid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Security::X509::X509Extension::*)()>(&Mono::Security::X509::X509Extension::get_Oid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509Extension*), "get_Oid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Extension*), "get_Oid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: X509Extension::get_Critical
+// Writing MetadataGetter for method: Mono::Security::X509::X509Extension::get_Critical
 // Il2CppName: get_Critical
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (X509Extension::*)()>(&X509Extension::get_Critical)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::X509::X509Extension::*)()>(&Mono::Security::X509::X509Extension::get_Critical)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509Extension*), "get_Critical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Extension*), "get_Critical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: X509Extension::get_Value
+// Writing MetadataGetter for method: Mono::Security::X509::X509Extension::get_Value
 // Il2CppName: get_Value
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (X509Extension::*)()>(&X509Extension::get_Value)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (Mono::Security::X509::X509Extension::*)()>(&Mono::Security::X509::X509Extension::get_Value)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509Extension*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Extension*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: X509Extension::WriteLine
+// Writing MetadataGetter for method: Mono::Security::X509::X509Extension::WriteLine
 // Il2CppName: WriteLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509Extension::*)(System::Text::StringBuilder*, int, int)>(&X509Extension::WriteLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::X509Extension::*)(System::Text::StringBuilder*, int, int)>(&Mono::Security::X509::X509Extension::WriteLine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509Extension*), "WriteLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Extension*), "WriteLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: X509Extension::Equals
+// Writing MetadataGetter for method: Mono::Security::X509::X509Extension::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (X509Extension::*)(::Il2CppObject*)>(&X509Extension::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::X509::X509Extension::*)(::Il2CppObject*)>(&Mono::Security::X509::X509Extension::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509Extension*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Extension*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: X509Extension::GetHashCode
+// Writing MetadataGetter for method: Mono::Security::X509::X509Extension::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (X509Extension::*)()>(&X509Extension::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Security::X509::X509Extension::*)()>(&Mono::Security::X509::X509Extension::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509Extension*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Extension*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: X509Extension::ToString
+// Writing MetadataGetter for method: Mono::Security::X509::X509Extension::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (X509Extension::*)()>(&X509Extension::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Security::X509::X509Extension::*)()>(&Mono::Security::X509::X509Extension::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509Extension*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Extension*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

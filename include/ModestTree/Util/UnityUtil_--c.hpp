@@ -102,73 +102,73 @@ namespace ModestTree::Util {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::Util::UnityUtil::$$c*, "ModestTree.Util", "UnityUtil/<>c");
-// Writing MetadataGetter for method: UnityUtil::$$c::_cctor
+// Writing MetadataGetter for method: ModestTree::Util::UnityUtil::$$c::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityUtil::$$c::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ModestTree::Util::UnityUtil::$$c::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityUtil::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityUtil::$$c::$get_AllLoadedScenes$b__3_0
+// Writing MetadataGetter for method: ModestTree::Util::UnityUtil::$$c::$get_AllLoadedScenes$b__3_0
 // Il2CppName: <get_AllLoadedScenes>b__3_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityUtil::$$c::*)(UnityEngine::SceneManagement::Scene)>(&UnityUtil::$$c::$get_AllLoadedScenes$b__3_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ModestTree::Util::UnityUtil::$$c::*)(UnityEngine::SceneManagement::Scene)>(&ModestTree::Util::UnityUtil::$$c::$get_AllLoadedScenes$b__3_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityUtil::$$c*), "<get_AllLoadedScenes>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::Scene>()});
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil::$$c*), "<get_AllLoadedScenes>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::Scene>()});
   }
 };
-// Writing MetadataGetter for method: UnityUtil::$$c::$GetRootParentOrSelf$b__15_0
+// Writing MetadataGetter for method: ModestTree::Util::UnityUtil::$$c::$GetRootParentOrSelf$b__15_0
 // Il2CppName: <GetRootParentOrSelf>b__15_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (UnityUtil::$$c::*)(UnityEngine::Transform*)>(&UnityUtil::$$c::$GetRootParentOrSelf$b__15_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (ModestTree::Util::UnityUtil::$$c::*)(UnityEngine::Transform*)>(&ModestTree::Util::UnityUtil::$$c::$GetRootParentOrSelf$b__15_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityUtil::$$c*), "<GetRootParentOrSelf>b__15_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil::$$c*), "<GetRootParentOrSelf>b__15_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
   }
 };
-// Writing MetadataGetter for method: UnityUtil::$$c::$GetComponentsInChildrenTopDown$b__18_0
+// Writing MetadataGetter for method: ModestTree::Util::UnityUtil::$$c::$GetComponentsInChildrenTopDown$b__18_0
 // Il2CppName: <GetComponentsInChildrenTopDown>b__18_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityUtil::$$c::*)(UnityEngine::Component*)>(&UnityUtil::$$c::$GetComponentsInChildrenTopDown$b__18_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ModestTree::Util::UnityUtil::$$c::*)(UnityEngine::Component*)>(&ModestTree::Util::UnityUtil::$$c::$GetComponentsInChildrenTopDown$b__18_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityUtil::$$c*), "<GetComponentsInChildrenTopDown>b__18_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Component*>()});
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil::$$c*), "<GetComponentsInChildrenTopDown>b__18_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Component*>()});
   }
 };
-// Writing MetadataGetter for method: UnityUtil::$$c::$GetComponentsInChildrenBottomUp$b__19_0
+// Writing MetadataGetter for method: ModestTree::Util::UnityUtil::$$c::$GetComponentsInChildrenBottomUp$b__19_0
 // Il2CppName: <GetComponentsInChildrenBottomUp>b__19_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityUtil::$$c::*)(UnityEngine::Component*)>(&UnityUtil::$$c::$GetComponentsInChildrenBottomUp$b__19_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ModestTree::Util::UnityUtil::$$c::*)(UnityEngine::Component*)>(&ModestTree::Util::UnityUtil::$$c::$GetComponentsInChildrenBottomUp$b__19_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityUtil::$$c*), "<GetComponentsInChildrenBottomUp>b__19_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Component*>()});
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil::$$c*), "<GetComponentsInChildrenBottomUp>b__19_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Component*>()});
   }
 };
-// Writing MetadataGetter for method: UnityUtil::$$c::$GetAllGameObjects$b__22_0
+// Writing MetadataGetter for method: ModestTree::Util::UnityUtil::$$c::$GetAllGameObjects$b__22_0
 // Il2CppName: <GetAllGameObjects>b__22_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (UnityUtil::$$c::*)(UnityEngine::Transform*)>(&UnityUtil::$$c::$GetAllGameObjects$b__22_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (ModestTree::Util::UnityUtil::$$c::*)(UnityEngine::Transform*)>(&ModestTree::Util::UnityUtil::$$c::$GetAllGameObjects$b__22_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityUtil::$$c*), "<GetAllGameObjects>b__22_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil::$$c*), "<GetAllGameObjects>b__22_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
   }
 };
-// Writing MetadataGetter for method: UnityUtil::$$c::$GetAllRootGameObjects$b__23_0
+// Writing MetadataGetter for method: ModestTree::Util::UnityUtil::$$c::$GetAllRootGameObjects$b__23_0
 // Il2CppName: <GetAllRootGameObjects>b__23_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityUtil::$$c::*)(UnityEngine::GameObject*)>(&UnityUtil::$$c::$GetAllRootGameObjects$b__23_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ModestTree::Util::UnityUtil::$$c::*)(UnityEngine::GameObject*)>(&ModestTree::Util::UnityUtil::$$c::$GetAllRootGameObjects$b__23_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityUtil::$$c*), "<GetAllRootGameObjects>b__23_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil::$$c*), "<GetAllRootGameObjects>b__23_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
   }
 };
-// Writing MetadataGetter for method: UnityUtil::$$c::New_ctor
+// Writing MetadataGetter for method: ModestTree::Util::UnityUtil::$$c::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityUtil::$$c::*)()>(&UnityUtil::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ModestTree::Util::UnityUtil::$$c::*)()>(&ModestTree::Util::UnityUtil::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityUtil::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityUtil::$$c::*)()>(&UnityUtil::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ModestTree::Util::UnityUtil::$$c::*)()>(&ModestTree::Util::UnityUtil::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityUtil::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::Util::UnityUtil::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

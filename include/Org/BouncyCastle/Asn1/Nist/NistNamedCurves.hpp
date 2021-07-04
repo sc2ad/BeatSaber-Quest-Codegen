@@ -59,43 +59,43 @@ namespace Org::BouncyCastle::Asn1::Nist {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Nist::NistNamedCurves*, "Org.BouncyCastle.Asn1.Nist", "NistNamedCurves");
-// Writing MetadataGetter for method: NistNamedCurves::DefineCurveAlias
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Nist::NistNamedCurves::DefineCurveAlias
 // Il2CppName: DefineCurveAlias
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&NistNamedCurves::DefineCurveAlias)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&Org::BouncyCastle::Asn1::Nist::NistNamedCurves::DefineCurveAlias)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NistNamedCurves*), "DefineCurveAlias", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Nist::NistNamedCurves*), "DefineCurveAlias", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>()});
   }
 };
-// Writing MetadataGetter for method: NistNamedCurves::_cctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Nist::NistNamedCurves::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NistNamedCurves::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::Asn1::Nist::NistNamedCurves::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NistNamedCurves*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Nist::NistNamedCurves*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NistNamedCurves::GetByName
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Nist::NistNamedCurves::GetByName
 // Il2CppName: GetByName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(::Il2CppString*)>(&NistNamedCurves::GetByName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(::Il2CppString*)>(&Org::BouncyCastle::Asn1::Nist::NistNamedCurves::GetByName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NistNamedCurves*), "GetByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Nist::NistNamedCurves*), "GetByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: NistNamedCurves::GetByOid
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Nist::NistNamedCurves::GetByOid
 // Il2CppName: GetByOid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&NistNamedCurves::GetByOid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&Org::BouncyCastle::Asn1::Nist::NistNamedCurves::GetByOid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NistNamedCurves*), "GetByOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Nist::NistNamedCurves*), "GetByOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>()});
   }
 };
-// Writing MetadataGetter for method: NistNamedCurves::GetOid
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Nist::NistNamedCurves::GetOid
 // Il2CppName: GetOid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerObjectIdentifier* (*)(::Il2CppString*)>(&NistNamedCurves::GetOid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerObjectIdentifier* (*)(::Il2CppString*)>(&Org::BouncyCastle::Asn1::Nist::NistNamedCurves::GetOid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NistNamedCurves*), "GetOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Nist::NistNamedCurves*), "GetOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };

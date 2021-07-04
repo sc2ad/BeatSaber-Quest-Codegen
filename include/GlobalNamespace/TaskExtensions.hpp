@@ -63,9 +63,9 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TaskExtensions*, "", "TaskExtensions");
-// Writing MetadataGetter for method: TaskExtensions::WithCancellation
+// Writing MetadataGetter for method: GlobalNamespace::TaskExtensions::WithCancellation
 // Il2CppName: WithCancellation
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: TaskExtensions::WaitForTask
+// Writing MetadataGetter for method: GlobalNamespace::TaskExtensions::WaitForTask
 // Il2CppName: WaitForTask
 // Cannot write MetadataGetter for generic methods!

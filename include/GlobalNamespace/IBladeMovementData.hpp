@@ -34,27 +34,27 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBladeMovementData*, "", "IBladeMovementData");
-// Writing MetadataGetter for method: IBladeMovementData::get_bladeSpeed
+// Writing MetadataGetter for method: GlobalNamespace::IBladeMovementData::get_bladeSpeed
 // Il2CppName: get_bladeSpeed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (IBladeMovementData::*)()>(&IBladeMovementData::get_bladeSpeed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::IBladeMovementData::*)()>(&GlobalNamespace::IBladeMovementData::get_bladeSpeed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IBladeMovementData*), "get_bladeSpeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBladeMovementData*), "get_bladeSpeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IBladeMovementData::get_lastAddedData
+// Writing MetadataGetter for method: GlobalNamespace::IBladeMovementData::get_lastAddedData
 // Il2CppName: get_lastAddedData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BladeMovementDataElement (IBladeMovementData::*)()>(&IBladeMovementData::get_lastAddedData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BladeMovementDataElement (GlobalNamespace::IBladeMovementData::*)()>(&GlobalNamespace::IBladeMovementData::get_lastAddedData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IBladeMovementData*), "get_lastAddedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBladeMovementData*), "get_lastAddedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IBladeMovementData::get_prevAddedData
+// Writing MetadataGetter for method: GlobalNamespace::IBladeMovementData::get_prevAddedData
 // Il2CppName: get_prevAddedData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BladeMovementDataElement (IBladeMovementData::*)()>(&IBladeMovementData::get_prevAddedData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BladeMovementDataElement (GlobalNamespace::IBladeMovementData::*)()>(&GlobalNamespace::IBladeMovementData::get_prevAddedData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IBladeMovementData*), "get_prevAddedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBladeMovementData*), "get_prevAddedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

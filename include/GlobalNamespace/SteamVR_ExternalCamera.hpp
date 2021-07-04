@@ -302,89 +302,89 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_ExternalCamera*, "", "SteamVR_ExternalCamera");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_ExternalCamera::Config, "", "SteamVR_ExternalCamera/Config");
-// Writing MetadataGetter for method: SteamVR_ExternalCamera::ReadConfig
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_ExternalCamera::ReadConfig
 // Il2CppName: ReadConfig
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_ExternalCamera::*)()>(&SteamVR_ExternalCamera::ReadConfig)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_ExternalCamera::*)()>(&GlobalNamespace::SteamVR_ExternalCamera::ReadConfig)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_ExternalCamera*), "ReadConfig", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_ExternalCamera*), "ReadConfig", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SteamVR_ExternalCamera::OnChanged
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_ExternalCamera::OnChanged
 // Il2CppName: OnChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_ExternalCamera::*)(::Il2CppObject*, System::IO::FileSystemEventArgs*)>(&SteamVR_ExternalCamera::OnChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_ExternalCamera::*)(::Il2CppObject*, System::IO::FileSystemEventArgs*)>(&GlobalNamespace::SteamVR_ExternalCamera::OnChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_ExternalCamera*), "OnChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileSystemEventArgs*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_ExternalCamera*), "OnChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileSystemEventArgs*>()});
   }
 };
-// Writing MetadataGetter for method: SteamVR_ExternalCamera::AttachToCamera
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_ExternalCamera::AttachToCamera
 // Il2CppName: AttachToCamera
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_ExternalCamera::*)(GlobalNamespace::SteamVR_Camera*)>(&SteamVR_ExternalCamera::AttachToCamera)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_ExternalCamera::*)(GlobalNamespace::SteamVR_Camera*)>(&GlobalNamespace::SteamVR_ExternalCamera::AttachToCamera)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_ExternalCamera*), "AttachToCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SteamVR_Camera*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_ExternalCamera*), "AttachToCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SteamVR_Camera*>()});
   }
 };
-// Writing MetadataGetter for method: SteamVR_ExternalCamera::GetTargetDistance
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_ExternalCamera::GetTargetDistance
 // Il2CppName: GetTargetDistance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SteamVR_ExternalCamera::*)()>(&SteamVR_ExternalCamera::GetTargetDistance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::SteamVR_ExternalCamera::*)()>(&GlobalNamespace::SteamVR_ExternalCamera::GetTargetDistance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_ExternalCamera*), "GetTargetDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_ExternalCamera*), "GetTargetDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SteamVR_ExternalCamera::RenderNear
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_ExternalCamera::RenderNear
 // Il2CppName: RenderNear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_ExternalCamera::*)()>(&SteamVR_ExternalCamera::RenderNear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_ExternalCamera::*)()>(&GlobalNamespace::SteamVR_ExternalCamera::RenderNear)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_ExternalCamera*), "RenderNear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_ExternalCamera*), "RenderNear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SteamVR_ExternalCamera::RenderFar
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_ExternalCamera::RenderFar
 // Il2CppName: RenderFar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_ExternalCamera::*)()>(&SteamVR_ExternalCamera::RenderFar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_ExternalCamera::*)()>(&GlobalNamespace::SteamVR_ExternalCamera::RenderFar)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_ExternalCamera*), "RenderFar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_ExternalCamera*), "RenderFar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SteamVR_ExternalCamera::OnGUI
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_ExternalCamera::OnGUI
 // Il2CppName: OnGUI
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_ExternalCamera::*)()>(&SteamVR_ExternalCamera::OnGUI)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_ExternalCamera::*)()>(&GlobalNamespace::SteamVR_ExternalCamera::OnGUI)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_ExternalCamera*), "OnGUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_ExternalCamera*), "OnGUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SteamVR_ExternalCamera::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_ExternalCamera::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_ExternalCamera::*)()>(&SteamVR_ExternalCamera::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_ExternalCamera::*)()>(&GlobalNamespace::SteamVR_ExternalCamera::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_ExternalCamera*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_ExternalCamera*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SteamVR_ExternalCamera::OnDisable
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_ExternalCamera::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_ExternalCamera::*)()>(&SteamVR_ExternalCamera::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_ExternalCamera::*)()>(&GlobalNamespace::SteamVR_ExternalCamera::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_ExternalCamera*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_ExternalCamera*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SteamVR_ExternalCamera::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_ExternalCamera::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_ExternalCamera::*)()>(&SteamVR_ExternalCamera::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_ExternalCamera::*)()>(&GlobalNamespace::SteamVR_ExternalCamera::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_ExternalCamera*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_ExternalCamera*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_ExternalCamera::*)()>(&SteamVR_ExternalCamera::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_ExternalCamera::*)()>(&GlobalNamespace::SteamVR_ExternalCamera::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_ExternalCamera*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_ExternalCamera*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

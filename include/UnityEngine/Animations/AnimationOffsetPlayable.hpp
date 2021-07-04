@@ -105,73 +105,73 @@ namespace UnityEngine::Animations {
   static_assert(sizeof(AnimationOffsetPlayable) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationOffsetPlayable, "UnityEngine.Animations", "AnimationOffsetPlayable");
-// Writing MetadataGetter for method: AnimationOffsetPlayable::Create
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationOffsetPlayable::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animations::AnimationOffsetPlayable (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Vector3, UnityEngine::Quaternion, int)>(&AnimationOffsetPlayable::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animations::AnimationOffsetPlayable (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Vector3, UnityEngine::Quaternion, int)>(&UnityEngine::Animations::AnimationOffsetPlayable::Create)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationOffsetPlayable), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationOffsetPlayable), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: AnimationOffsetPlayable::CreateHandle
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationOffsetPlayable::CreateHandle
 // Il2CppName: CreateHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Vector3, UnityEngine::Quaternion, int)>(&AnimationOffsetPlayable::CreateHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Vector3, UnityEngine::Quaternion, int)>(&UnityEngine::Animations::AnimationOffsetPlayable::CreateHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationOffsetPlayable), "CreateHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationOffsetPlayable), "CreateHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: AnimationOffsetPlayable::AnimationOffsetPlayable
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationOffsetPlayable::AnimationOffsetPlayable
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationOffsetPlayable::*)(UnityEngine::Playables::PlayableHandle)>(&AnimationOffsetPlayable::AnimationOffsetPlayable<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animations::AnimationOffsetPlayable::*)(UnityEngine::Playables::PlayableHandle)>(&UnityEngine::Animations::AnimationOffsetPlayable::AnimationOffsetPlayable<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationOffsetPlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationOffsetPlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationOffsetPlayable::*)(UnityEngine::Playables::PlayableHandle)>(&AnimationOffsetPlayable::AnimationOffsetPlayable<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animations::AnimationOffsetPlayable::*)(UnityEngine::Playables::PlayableHandle)>(&UnityEngine::Animations::AnimationOffsetPlayable::AnimationOffsetPlayable<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationOffsetPlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationOffsetPlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
   }
 };
-// Writing MetadataGetter for method: AnimationOffsetPlayable::GetHandle
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationOffsetPlayable::GetHandle
 // Il2CppName: GetHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (AnimationOffsetPlayable::*)()>(&AnimationOffsetPlayable::GetHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (UnityEngine::Animations::AnimationOffsetPlayable::*)()>(&UnityEngine::Animations::AnimationOffsetPlayable::GetHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationOffsetPlayable), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationOffsetPlayable), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AnimationOffsetPlayable::Equals
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationOffsetPlayable::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationOffsetPlayable::*)(UnityEngine::Animations::AnimationOffsetPlayable)>(&AnimationOffsetPlayable::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animations::AnimationOffsetPlayable::*)(UnityEngine::Animations::AnimationOffsetPlayable)>(&UnityEngine::Animations::AnimationOffsetPlayable::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationOffsetPlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimationOffsetPlayable>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationOffsetPlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimationOffsetPlayable>()});
   }
 };
-// Writing MetadataGetter for method: AnimationOffsetPlayable::CreateHandleInternal
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationOffsetPlayable::CreateHandleInternal
 // Il2CppName: CreateHandleInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Playables::PlayableHandle&)>(&AnimationOffsetPlayable::CreateHandleInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Playables::PlayableHandle&)>(&UnityEngine::Animations::AnimationOffsetPlayable::CreateHandleInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationOffsetPlayable), "CreateHandleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationOffsetPlayable), "CreateHandleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
   }
 };
-// Writing MetadataGetter for method: AnimationOffsetPlayable::_cctor
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationOffsetPlayable::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AnimationOffsetPlayable::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Animations::AnimationOffsetPlayable::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationOffsetPlayable), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationOffsetPlayable), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AnimationOffsetPlayable::CreateHandleInternal_Injected
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationOffsetPlayable::CreateHandleInternal_Injected
 // Il2CppName: CreateHandleInternal_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&, UnityEngine::Vector3&, UnityEngine::Quaternion&, UnityEngine::Playables::PlayableHandle&)>(&AnimationOffsetPlayable::CreateHandleInternal_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&, UnityEngine::Vector3&, UnityEngine::Quaternion&, UnityEngine::Playables::PlayableHandle&)>(&UnityEngine::Animations::AnimationOffsetPlayable::CreateHandleInternal_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationOffsetPlayable), "CreateHandleInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationOffsetPlayable), "CreateHandleInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
   }
 };

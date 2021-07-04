@@ -47,25 +47,25 @@ namespace System::Runtime::CompilerServices {
   static_assert(sizeof(TypeForwardedFromAttribute) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::TypeForwardedFromAttribute*, "System.Runtime.CompilerServices", "TypeForwardedFromAttribute");
-// Writing MetadataGetter for method: TypeForwardedFromAttribute::New_ctor
+// Writing MetadataGetter for method: System::Runtime::CompilerServices::TypeForwardedFromAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TypeForwardedFromAttribute::*)(::Il2CppString*)>(&TypeForwardedFromAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::CompilerServices::TypeForwardedFromAttribute::*)(::Il2CppString*)>(&System::Runtime::CompilerServices::TypeForwardedFromAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeForwardedFromAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::TypeForwardedFromAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TypeForwardedFromAttribute::*)(::Il2CppString*)>(&TypeForwardedFromAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::CompilerServices::TypeForwardedFromAttribute::*)(::Il2CppString*)>(&System::Runtime::CompilerServices::TypeForwardedFromAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeForwardedFromAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::TypeForwardedFromAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TypeForwardedFromAttribute::get_AssemblyFullName
+// Writing MetadataGetter for method: System::Runtime::CompilerServices::TypeForwardedFromAttribute::get_AssemblyFullName
 // Il2CppName: get_AssemblyFullName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TypeForwardedFromAttribute::*)()>(&TypeForwardedFromAttribute::get_AssemblyFullName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::CompilerServices::TypeForwardedFromAttribute::*)()>(&System::Runtime::CompilerServices::TypeForwardedFromAttribute::get_AssemblyFullName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeForwardedFromAttribute*), "get_AssemblyFullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::TypeForwardedFromAttribute*), "get_AssemblyFullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

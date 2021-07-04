@@ -240,435 +240,435 @@ namespace Org::BouncyCastle::Math::EC {
   static_assert(sizeof(LongArray) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::LongArray*, "Org.BouncyCastle.Math.EC", "LongArray");
-// Writing MetadataGetter for method: LongArray::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LongArray::*)(int)>(&LongArray::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::LongArray::*)(int)>(&Org::BouncyCastle::Math::EC::LongArray::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LongArray::*)(int)>(&LongArray::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::LongArray::*)(int)>(&Org::BouncyCastle::Math::EC::LongArray::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LongArray::*)(::Array<int64_t>*)>(&LongArray::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::LongArray::*)(::Array<int64_t>*)>(&Org::BouncyCastle::Math::EC::LongArray::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LongArray::*)(::Array<int64_t>*)>(&LongArray::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::LongArray::*)(::Array<int64_t>*)>(&Org::BouncyCastle::Math::EC::LongArray::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LongArray::*)(::Array<int64_t>*, int, int)>(&LongArray::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::LongArray::*)(::Array<int64_t>*, int, int)>(&Org::BouncyCastle::Math::EC::LongArray::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LongArray::*)(::Array<int64_t>*, int, int)>(&LongArray::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::LongArray::*)(::Array<int64_t>*, int, int)>(&Org::BouncyCastle::Math::EC::LongArray::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LongArray::*)(Org::BouncyCastle::Math::BigInteger*)>(&LongArray::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::LongArray::*)(Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::LongArray::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LongArray::*)(Org::BouncyCastle::Math::BigInteger*)>(&LongArray::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::LongArray::*)(Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::LongArray::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::CopyTo
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::CopyTo
 // Il2CppName: CopyTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LongArray::*)(::Array<int64_t>*, int)>(&LongArray::CopyTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::LongArray::*)(::Array<int64_t>*, int)>(&Org::BouncyCastle::Math::EC::LongArray::CopyTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::IsOne
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::IsOne
 // Il2CppName: IsOne
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LongArray::*)()>(&LongArray::IsOne)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Math::EC::LongArray::*)()>(&Org::BouncyCastle::Math::EC::LongArray::IsOne)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "IsOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "IsOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LongArray::IsZero
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::IsZero
 // Il2CppName: IsZero
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LongArray::*)()>(&LongArray::IsZero)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Math::EC::LongArray::*)()>(&Org::BouncyCastle::Math::EC::LongArray::IsZero)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "IsZero", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "IsZero", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LongArray::GetUsedLength
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::GetUsedLength
 // Il2CppName: GetUsedLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LongArray::*)()>(&LongArray::GetUsedLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Math::EC::LongArray::*)()>(&Org::BouncyCastle::Math::EC::LongArray::GetUsedLength)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "GetUsedLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "GetUsedLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LongArray::GetUsedLengthFrom
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::GetUsedLengthFrom
 // Il2CppName: GetUsedLengthFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LongArray::*)(int)>(&LongArray::GetUsedLengthFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Math::EC::LongArray::*)(int)>(&Org::BouncyCastle::Math::EC::LongArray::GetUsedLengthFrom)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "GetUsedLengthFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "GetUsedLengthFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::Degree
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::Degree
 // Il2CppName: Degree
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LongArray::*)()>(&LongArray::Degree)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Math::EC::LongArray::*)()>(&Org::BouncyCastle::Math::EC::LongArray::Degree)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "Degree", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "Degree", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LongArray::DegreeFrom
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::DegreeFrom
 // Il2CppName: DegreeFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LongArray::*)(int)>(&LongArray::DegreeFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Math::EC::LongArray::*)(int)>(&Org::BouncyCastle::Math::EC::LongArray::DegreeFrom)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "DegreeFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "DegreeFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::BitLength
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::BitLength
 // Il2CppName: BitLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int64_t)>(&LongArray::BitLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int64_t)>(&Org::BouncyCastle::Math::EC::LongArray::BitLength)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "BitLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "BitLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::ResizedInts
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::ResizedInts
 // Il2CppName: ResizedInts
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int64_t>* (LongArray::*)(int)>(&LongArray::ResizedInts)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int64_t>* (Org::BouncyCastle::Math::EC::LongArray::*)(int)>(&Org::BouncyCastle::Math::EC::LongArray::ResizedInts)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "ResizedInts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "ResizedInts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::ToBigInteger
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::ToBigInteger
 // Il2CppName: ToBigInteger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (LongArray::*)()>(&LongArray::ToBigInteger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Math::EC::LongArray::*)()>(&Org::BouncyCastle::Math::EC::LongArray::ToBigInteger)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "ToBigInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "ToBigInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LongArray::ShiftUp
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::ShiftUp
 // Il2CppName: ShiftUp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::Array<int64_t>*, int, ::Array<int64_t>*, int, int, int)>(&LongArray::ShiftUp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::Array<int64_t>*, int, ::Array<int64_t>*, int, int, int)>(&Org::BouncyCastle::Math::EC::LongArray::ShiftUp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "ShiftUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "ShiftUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::AddOne
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::AddOne
 // Il2CppName: AddOne
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::LongArray* (LongArray::*)()>(&LongArray::AddOne)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::LongArray* (Org::BouncyCastle::Math::EC::LongArray::*)()>(&Org::BouncyCastle::Math::EC::LongArray::AddOne)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "AddOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "AddOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LongArray::AddShiftedByBitsSafe
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::AddShiftedByBitsSafe
 // Il2CppName: AddShiftedByBitsSafe
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LongArray::*)(Org::BouncyCastle::Math::EC::LongArray*, int, int)>(&LongArray::AddShiftedByBitsSafe)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::LongArray::*)(Org::BouncyCastle::Math::EC::LongArray*, int, int)>(&Org::BouncyCastle::Math::EC::LongArray::AddShiftedByBitsSafe)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "AddShiftedByBitsSafe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::LongArray*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "AddShiftedByBitsSafe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::LongArray*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::AddShiftedUp
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::AddShiftedUp
 // Il2CppName: AddShiftedUp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::Array<int64_t>*, int, ::Array<int64_t>*, int, int, int)>(&LongArray::AddShiftedUp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::Array<int64_t>*, int, ::Array<int64_t>*, int, int, int)>(&Org::BouncyCastle::Math::EC::LongArray::AddShiftedUp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "AddShiftedUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "AddShiftedUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::AddShiftedDown
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::AddShiftedDown
 // Il2CppName: AddShiftedDown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::Array<int64_t>*, int, ::Array<int64_t>*, int, int, int)>(&LongArray::AddShiftedDown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::Array<int64_t>*, int, ::Array<int64_t>*, int, int, int)>(&Org::BouncyCastle::Math::EC::LongArray::AddShiftedDown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "AddShiftedDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "AddShiftedDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::AddShiftedByWords
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::AddShiftedByWords
 // Il2CppName: AddShiftedByWords
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LongArray::*)(Org::BouncyCastle::Math::EC::LongArray*, int)>(&LongArray::AddShiftedByWords)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::LongArray::*)(Org::BouncyCastle::Math::EC::LongArray*, int)>(&Org::BouncyCastle::Math::EC::LongArray::AddShiftedByWords)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "AddShiftedByWords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::LongArray*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "AddShiftedByWords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::LongArray*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::Add
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<int64_t>*, int, ::Array<int64_t>*, int, int)>(&LongArray::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<int64_t>*, int, ::Array<int64_t>*, int, int)>(&Org::BouncyCastle::Math::EC::LongArray::Add)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::Add
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<int64_t>*, int, ::Array<int64_t>*, int, ::Array<int64_t>*, int, int)>(&LongArray::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<int64_t>*, int, ::Array<int64_t>*, int, ::Array<int64_t>*, int, int)>(&Org::BouncyCastle::Math::EC::LongArray::Add)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::AddBoth
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::AddBoth
 // Il2CppName: AddBoth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<int64_t>*, int, ::Array<int64_t>*, int, ::Array<int64_t>*, int, int)>(&LongArray::AddBoth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<int64_t>*, int, ::Array<int64_t>*, int, ::Array<int64_t>*, int, int)>(&Org::BouncyCastle::Math::EC::LongArray::AddBoth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "AddBoth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "AddBoth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::FlipWord
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::FlipWord
 // Il2CppName: FlipWord
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<int64_t>*, int, int, int64_t)>(&LongArray::FlipWord)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<int64_t>*, int, int, int64_t)>(&Org::BouncyCastle::Math::EC::LongArray::FlipWord)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "FlipWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "FlipWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::TestBitZero
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::TestBitZero
 // Il2CppName: TestBitZero
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LongArray::*)()>(&LongArray::TestBitZero)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Math::EC::LongArray::*)()>(&Org::BouncyCastle::Math::EC::LongArray::TestBitZero)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "TestBitZero", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "TestBitZero", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LongArray::TestBit
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::TestBit
 // Il2CppName: TestBit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<int64_t>*, int, int)>(&LongArray::TestBit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<int64_t>*, int, int)>(&Org::BouncyCastle::Math::EC::LongArray::TestBit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "TestBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "TestBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::FlipBit
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::FlipBit
 // Il2CppName: FlipBit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<int64_t>*, int, int)>(&LongArray::FlipBit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<int64_t>*, int, int)>(&Org::BouncyCastle::Math::EC::LongArray::FlipBit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "FlipBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "FlipBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::MultiplyWord
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::MultiplyWord
 // Il2CppName: MultiplyWord
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int64_t, ::Array<int64_t>*, int, ::Array<int64_t>*, int)>(&LongArray::MultiplyWord)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int64_t, ::Array<int64_t>*, int, ::Array<int64_t>*, int)>(&Org::BouncyCastle::Math::EC::LongArray::MultiplyWord)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "MultiplyWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "MultiplyWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::ModMultiply
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::ModMultiply
 // Il2CppName: ModMultiply
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::LongArray* (LongArray::*)(Org::BouncyCastle::Math::EC::LongArray*, int, ::Array<int>*)>(&LongArray::ModMultiply)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::LongArray* (Org::BouncyCastle::Math::EC::LongArray::*)(Org::BouncyCastle::Math::EC::LongArray*, int, ::Array<int>*)>(&Org::BouncyCastle::Math::EC::LongArray::ModMultiply)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "ModMultiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::LongArray*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "ModMultiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::LongArray*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::Multiply
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::Multiply
 // Il2CppName: Multiply
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::LongArray* (LongArray::*)(Org::BouncyCastle::Math::EC::LongArray*, int, ::Array<int>*)>(&LongArray::Multiply)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::LongArray* (Org::BouncyCastle::Math::EC::LongArray::*)(Org::BouncyCastle::Math::EC::LongArray*, int, ::Array<int>*)>(&Org::BouncyCastle::Math::EC::LongArray::Multiply)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "Multiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::LongArray*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "Multiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::LongArray*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::Reduce
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::Reduce
 // Il2CppName: Reduce
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LongArray::*)(int, ::Array<int>*)>(&LongArray::Reduce)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::LongArray::*)(int, ::Array<int>*)>(&Org::BouncyCastle::Math::EC::LongArray::Reduce)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "Reduce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "Reduce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::ReduceResult
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::ReduceResult
 // Il2CppName: ReduceResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::LongArray* (*)(::Array<int64_t>*, int, int, int, ::Array<int>*)>(&LongArray::ReduceResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::LongArray* (*)(::Array<int64_t>*, int, int, int, ::Array<int>*)>(&Org::BouncyCastle::Math::EC::LongArray::ReduceResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "ReduceResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "ReduceResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::ReduceInPlace
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::ReduceInPlace
 // Il2CppName: ReduceInPlace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<int64_t>*, int, int, int, ::Array<int>*)>(&LongArray::ReduceInPlace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<int64_t>*, int, int, int, ::Array<int>*)>(&Org::BouncyCastle::Math::EC::LongArray::ReduceInPlace)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "ReduceInPlace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "ReduceInPlace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::ReduceBitWise
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::ReduceBitWise
 // Il2CppName: ReduceBitWise
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<int64_t>*, int, int, int, ::Array<int>*)>(&LongArray::ReduceBitWise)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<int64_t>*, int, int, int, ::Array<int>*)>(&Org::BouncyCastle::Math::EC::LongArray::ReduceBitWise)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "ReduceBitWise", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "ReduceBitWise", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::ReduceBit
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::ReduceBit
 // Il2CppName: ReduceBit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<int64_t>*, int, int, int, ::Array<int>*)>(&LongArray::ReduceBit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<int64_t>*, int, int, int, ::Array<int>*)>(&Org::BouncyCastle::Math::EC::LongArray::ReduceBit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "ReduceBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "ReduceBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::ReduceWordWise
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::ReduceWordWise
 // Il2CppName: ReduceWordWise
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<int64_t>*, int, int, int, int, ::Array<int>*)>(&LongArray::ReduceWordWise)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<int64_t>*, int, int, int, int, ::Array<int>*)>(&Org::BouncyCastle::Math::EC::LongArray::ReduceWordWise)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "ReduceWordWise", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "ReduceWordWise", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::ReduceWord
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::ReduceWord
 // Il2CppName: ReduceWord
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<int64_t>*, int, int, int64_t, int, ::Array<int>*)>(&LongArray::ReduceWord)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<int64_t>*, int, int, int64_t, int, ::Array<int>*)>(&Org::BouncyCastle::Math::EC::LongArray::ReduceWord)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "ReduceWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "ReduceWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::ReduceVectorWise
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::ReduceVectorWise
 // Il2CppName: ReduceVectorWise
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<int64_t>*, int, int, int, int, ::Array<int>*)>(&LongArray::ReduceVectorWise)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<int64_t>*, int, int, int, int, ::Array<int>*)>(&Org::BouncyCastle::Math::EC::LongArray::ReduceVectorWise)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "ReduceVectorWise", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "ReduceVectorWise", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::FlipVector
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::FlipVector
 // Il2CppName: FlipVector
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<int64_t>*, int, ::Array<int64_t>*, int, int, int)>(&LongArray::FlipVector)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<int64_t>*, int, ::Array<int64_t>*, int, int, int)>(&Org::BouncyCastle::Math::EC::LongArray::FlipVector)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "FlipVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "FlipVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::ModSquare
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::ModSquare
 // Il2CppName: ModSquare
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::LongArray* (LongArray::*)(int, ::Array<int>*)>(&LongArray::ModSquare)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::LongArray* (Org::BouncyCastle::Math::EC::LongArray::*)(int, ::Array<int>*)>(&Org::BouncyCastle::Math::EC::LongArray::ModSquare)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "ModSquare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "ModSquare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::ModSquareN
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::ModSquareN
 // Il2CppName: ModSquareN
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::LongArray* (LongArray::*)(int, int, ::Array<int>*)>(&LongArray::ModSquareN)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::LongArray* (Org::BouncyCastle::Math::EC::LongArray::*)(int, int, ::Array<int>*)>(&Org::BouncyCastle::Math::EC::LongArray::ModSquareN)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "ModSquareN", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "ModSquareN", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::Square
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::Square
 // Il2CppName: Square
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::LongArray* (LongArray::*)(int, ::Array<int>*)>(&LongArray::Square)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::LongArray* (Org::BouncyCastle::Math::EC::LongArray::*)(int, ::Array<int>*)>(&Org::BouncyCastle::Math::EC::LongArray::Square)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "Square", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "Square", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::SquareInPlace
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::SquareInPlace
 // Il2CppName: SquareInPlace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<int64_t>*, int, int, ::Array<int>*)>(&LongArray::SquareInPlace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<int64_t>*, int, int, ::Array<int>*)>(&Org::BouncyCastle::Math::EC::LongArray::SquareInPlace)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "SquareInPlace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "SquareInPlace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::Interleave2_32to64
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::Interleave2_32to64
 // Il2CppName: Interleave2_32to64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int)>(&LongArray::Interleave2_32to64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int)>(&Org::BouncyCastle::Math::EC::LongArray::Interleave2_32to64)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "Interleave2_32to64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "Interleave2_32to64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::ModInverse
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::ModInverse
 // Il2CppName: ModInverse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::LongArray* (LongArray::*)(int, ::Array<int>*)>(&LongArray::ModInverse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::LongArray* (Org::BouncyCastle::Math::EC::LongArray::*)(int, ::Array<int>*)>(&Org::BouncyCastle::Math::EC::LongArray::ModInverse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "ModInverse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "ModInverse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::Equals
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LongArray::*)(Org::BouncyCastle::Math::EC::LongArray*)>(&LongArray::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Math::EC::LongArray::*)(Org::BouncyCastle::Math::EC::LongArray*)>(&Org::BouncyCastle::Math::EC::LongArray::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::LongArray*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::LongArray*>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::Copy
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::Copy
 // Il2CppName: Copy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::LongArray* (LongArray::*)()>(&LongArray::Copy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::LongArray* (Org::BouncyCastle::Math::EC::LongArray::*)()>(&Org::BouncyCastle::Math::EC::LongArray::Copy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "Copy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "Copy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LongArray::_cctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&LongArray::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::Math::EC::LongArray::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LongArray::Equals
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LongArray::*)(::Il2CppObject*)>(&LongArray::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Math::EC::LongArray::*)(::Il2CppObject*)>(&Org::BouncyCastle::Math::EC::LongArray::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: LongArray::GetHashCode
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LongArray::*)()>(&LongArray::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Math::EC::LongArray::*)()>(&Org::BouncyCastle::Math::EC::LongArray::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LongArray::ToString
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::LongArray::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LongArray::*)()>(&LongArray::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Math::EC::LongArray::*)()>(&Org::BouncyCastle::Math::EC::LongArray::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LongArray*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::LongArray*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

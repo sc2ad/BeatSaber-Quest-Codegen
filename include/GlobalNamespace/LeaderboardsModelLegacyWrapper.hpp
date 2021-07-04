@@ -87,49 +87,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(LeaderboardsModelLegacyWrapper) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardsModelLegacyWrapper*, "", "LeaderboardsModelLegacyWrapper");
-// Writing MetadataGetter for method: LeaderboardsModelLegacyWrapper::GetLeaderboardEntriesAsync
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardsModelLegacyWrapper::GetLeaderboardEntriesAsync
 // Il2CppName: GetLeaderboardEntriesAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardsModelLegacyWrapper::*)(OnlineServices::GetLeaderboardFilterData, GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*, GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler*)>(&LeaderboardsModelLegacyWrapper::GetLeaderboardEntriesAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardsModelLegacyWrapper::*)(OnlineServices::GetLeaderboardFilterData, GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*, GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler*)>(&GlobalNamespace::LeaderboardsModelLegacyWrapper::GetLeaderboardEntriesAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardsModelLegacyWrapper*), "GetLeaderboardEntriesAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OnlineServices::GetLeaderboardFilterData>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardsModelLegacyWrapper*), "GetLeaderboardEntriesAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OnlineServices::GetLeaderboardFilterData>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler*>()});
   }
 };
-// Writing MetadataGetter for method: LeaderboardsModelLegacyWrapper::SendLevelScoreResutlAsync
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardsModelLegacyWrapper::SendLevelScoreResutlAsync
 // Il2CppName: SendLevelScoreResutlAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardsModelLegacyWrapper::*)(OnlineServices::LevelScoreResultsData, GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*, GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler*)>(&LeaderboardsModelLegacyWrapper::SendLevelScoreResutlAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardsModelLegacyWrapper::*)(OnlineServices::LevelScoreResultsData, GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*, GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler*)>(&GlobalNamespace::LeaderboardsModelLegacyWrapper::SendLevelScoreResutlAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardsModelLegacyWrapper*), "SendLevelScoreResutlAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OnlineServices::LevelScoreResultsData>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardsModelLegacyWrapper*), "SendLevelScoreResutlAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OnlineServices::LevelScoreResultsData>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler*>()});
   }
 };
-// Writing MetadataGetter for method: LeaderboardsModelLegacyWrapper::GetScores
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardsModelLegacyWrapper::GetScores
 // Il2CppName: GetScores
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::HMAsyncRequest* (LeaderboardsModelLegacyWrapper::*)(GlobalNamespace::IDifficultyBeatmap*, int, int, GlobalNamespace::PlatformLeaderboardsModel::ScoresScope, ::Il2CppString*, GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler*)>(&LeaderboardsModelLegacyWrapper::GetScores)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::HMAsyncRequest* (GlobalNamespace::LeaderboardsModelLegacyWrapper::*)(GlobalNamespace::IDifficultyBeatmap*, int, int, GlobalNamespace::PlatformLeaderboardsModel::ScoresScope, ::Il2CppString*, GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler*)>(&GlobalNamespace::LeaderboardsModelLegacyWrapper::GetScores)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardsModelLegacyWrapper*), "GetScores", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformLeaderboardsModel::ScoresScope>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardsModelLegacyWrapper*), "GetScores", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformLeaderboardsModel::ScoresScope>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler*>()});
   }
 };
-// Writing MetadataGetter for method: LeaderboardsModelLegacyWrapper::UploadScore
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardsModelLegacyWrapper::UploadScore
 // Il2CppName: UploadScore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::HMAsyncRequest* (LeaderboardsModelLegacyWrapper::*)(GlobalNamespace::LeaderboardScoreUploader::ScoreData*, GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler*)>(&LeaderboardsModelLegacyWrapper::UploadScore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::HMAsyncRequest* (GlobalNamespace::LeaderboardsModelLegacyWrapper::*)(GlobalNamespace::LeaderboardScoreUploader::ScoreData*, GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler*)>(&GlobalNamespace::LeaderboardsModelLegacyWrapper::UploadScore)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardsModelLegacyWrapper*), "UploadScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LeaderboardScoreUploader::ScoreData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardsModelLegacyWrapper*), "UploadScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LeaderboardScoreUploader::ScoreData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler*>()});
   }
 };
-// Writing MetadataGetter for method: LeaderboardsModelLegacyWrapper::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardsModelLegacyWrapper::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardsModelLegacyWrapper::*)()>(&LeaderboardsModelLegacyWrapper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardsModelLegacyWrapper::*)()>(&GlobalNamespace::LeaderboardsModelLegacyWrapper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardsModelLegacyWrapper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardsModelLegacyWrapper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardsModelLegacyWrapper::*)()>(&LeaderboardsModelLegacyWrapper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardsModelLegacyWrapper::*)()>(&GlobalNamespace::LeaderboardsModelLegacyWrapper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardsModelLegacyWrapper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardsModelLegacyWrapper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

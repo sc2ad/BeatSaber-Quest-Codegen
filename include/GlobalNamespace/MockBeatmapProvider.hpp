@@ -61,41 +61,41 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockBeatmapProvider*, "", "MockBeatmapProvider");
-// Writing MetadataGetter for method: MockBeatmapProvider::VerifyBeatmapForConfiguration
+// Writing MetadataGetter for method: GlobalNamespace::MockBeatmapProvider::VerifyBeatmapForConfiguration
 // Il2CppName: VerifyBeatmapForConfiguration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockBeatmapProvider::*)(GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayServerConfiguration)>(&MockBeatmapProvider::VerifyBeatmapForConfiguration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockBeatmapProvider::*)(GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayServerConfiguration)>(&GlobalNamespace::MockBeatmapProvider::VerifyBeatmapForConfiguration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockBeatmapProvider*), "VerifyBeatmapForConfiguration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapIdentifierNetSerializable*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapProvider*), "VerifyBeatmapForConfiguration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapIdentifierNetSerializable*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>()});
   }
 };
-// Writing MetadataGetter for method: MockBeatmapProvider::SelectBeatmapFromSuggestionsConfigurationAndOwnedSongPacks
+// Writing MetadataGetter for method: GlobalNamespace::MockBeatmapProvider::SelectBeatmapFromSuggestionsConfigurationAndOwnedSongPacks
 // Il2CppName: SelectBeatmapFromSuggestionsConfigurationAndOwnedSongPacks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapIdentifierNetSerializable* (MockBeatmapProvider::*)(int, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>*, GlobalNamespace::GameplayServerConfiguration, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SongPackMask>*)>(&MockBeatmapProvider::SelectBeatmapFromSuggestionsConfigurationAndOwnedSongPacks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapIdentifierNetSerializable* (GlobalNamespace::MockBeatmapProvider::*)(int, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>*, GlobalNamespace::GameplayServerConfiguration, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SongPackMask>*)>(&GlobalNamespace::MockBeatmapProvider::SelectBeatmapFromSuggestionsConfigurationAndOwnedSongPacks)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockBeatmapProvider*), "SelectBeatmapFromSuggestionsConfigurationAndOwnedSongPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SongPackMask>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapProvider*), "SelectBeatmapFromSuggestionsConfigurationAndOwnedSongPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SongPackMask>*>()});
   }
 };
-// Writing MetadataGetter for method: MockBeatmapProvider::Dispose
+// Writing MetadataGetter for method: GlobalNamespace::MockBeatmapProvider::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockBeatmapProvider::*)()>(&MockBeatmapProvider::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockBeatmapProvider::*)()>(&GlobalNamespace::MockBeatmapProvider::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockBeatmapProvider*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapProvider*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockBeatmapProvider::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MockBeatmapProvider::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockBeatmapProvider::*)()>(&MockBeatmapProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockBeatmapProvider::*)()>(&GlobalNamespace::MockBeatmapProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockBeatmapProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockBeatmapProvider::*)()>(&MockBeatmapProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockBeatmapProvider::*)()>(&GlobalNamespace::MockBeatmapProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockBeatmapProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

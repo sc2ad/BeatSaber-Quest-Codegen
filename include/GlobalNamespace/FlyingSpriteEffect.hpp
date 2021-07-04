@@ -88,33 +88,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(FlyingSpriteEffect) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingSpriteEffect*, "", "FlyingSpriteEffect");
-// Writing MetadataGetter for method: FlyingSpriteEffect::InitAndPresent
+// Writing MetadataGetter for method: GlobalNamespace::FlyingSpriteEffect::InitAndPresent
 // Il2CppName: InitAndPresent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingSpriteEffect::*)(float, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Sprite*, UnityEngine::Material*, UnityEngine::Color, bool)>(&FlyingSpriteEffect::InitAndPresent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingSpriteEffect::*)(float, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Sprite*, UnityEngine::Material*, UnityEngine::Color, bool)>(&GlobalNamespace::FlyingSpriteEffect::InitAndPresent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FlyingSpriteEffect*), "InitAndPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingSpriteEffect*), "InitAndPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: FlyingSpriteEffect::ManualUpdate
+// Writing MetadataGetter for method: GlobalNamespace::FlyingSpriteEffect::ManualUpdate
 // Il2CppName: ManualUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingSpriteEffect::*)(float)>(&FlyingSpriteEffect::ManualUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingSpriteEffect::*)(float)>(&GlobalNamespace::FlyingSpriteEffect::ManualUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FlyingSpriteEffect*), "ManualUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingSpriteEffect*), "ManualUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: FlyingSpriteEffect::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::FlyingSpriteEffect::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingSpriteEffect::*)()>(&FlyingSpriteEffect::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingSpriteEffect::*)()>(&GlobalNamespace::FlyingSpriteEffect::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FlyingSpriteEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingSpriteEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingSpriteEffect::*)()>(&FlyingSpriteEffect::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingSpriteEffect::*)()>(&GlobalNamespace::FlyingSpriteEffect::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FlyingSpriteEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingSpriteEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

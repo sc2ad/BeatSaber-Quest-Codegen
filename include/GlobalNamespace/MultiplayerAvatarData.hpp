@@ -188,65 +188,65 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerAvatarData) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerAvatarData, "", "MultiplayerAvatarData");
-// Writing MetadataGetter for method: MultiplayerAvatarData::MultiplayerAvatarData
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerAvatarData::MultiplayerAvatarData
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerAvatarData::*)(::Il2CppString*, UnityEngine::Color32, UnityEngine::Color32, ::Il2CppString*, UnityEngine::Color32, ::Il2CppString*, UnityEngine::Color32, ::Il2CppString*, UnityEngine::Color32, ::Il2CppString*, UnityEngine::Color32, UnityEngine::Color32, UnityEngine::Color32, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&MultiplayerAvatarData::MultiplayerAvatarData<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerAvatarData::*)(::Il2CppString*, UnityEngine::Color32, UnityEngine::Color32, ::Il2CppString*, UnityEngine::Color32, ::Il2CppString*, UnityEngine::Color32, ::Il2CppString*, UnityEngine::Color32, ::Il2CppString*, UnityEngine::Color32, UnityEngine::Color32, UnityEngine::Color32, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::MultiplayerAvatarData::MultiplayerAvatarData<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerAvatarData), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerAvatarData), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerAvatarData::*)(::Il2CppString*, UnityEngine::Color32, UnityEngine::Color32, ::Il2CppString*, UnityEngine::Color32, ::Il2CppString*, UnityEngine::Color32, ::Il2CppString*, UnityEngine::Color32, ::Il2CppString*, UnityEngine::Color32, UnityEngine::Color32, UnityEngine::Color32, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&MultiplayerAvatarData::MultiplayerAvatarData<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerAvatarData::*)(::Il2CppString*, UnityEngine::Color32, UnityEngine::Color32, ::Il2CppString*, UnityEngine::Color32, ::Il2CppString*, UnityEngine::Color32, ::Il2CppString*, UnityEngine::Color32, ::Il2CppString*, UnityEngine::Color32, UnityEngine::Color32, UnityEngine::Color32, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::MultiplayerAvatarData::MultiplayerAvatarData<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerAvatarData), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerAvatarData), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerAvatarData::Serialize
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerAvatarData::Serialize
 // Il2CppName: Serialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerAvatarData::*)(LiteNetLib::Utils::NetDataWriter*)>(&MultiplayerAvatarData::Serialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerAvatarData::*)(LiteNetLib::Utils::NetDataWriter*)>(&GlobalNamespace::MultiplayerAvatarData::Serialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerAvatarData), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerAvatarData), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerAvatarData::CreateFromSerializedData
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerAvatarData::CreateFromSerializedData
 // Il2CppName: CreateFromSerializedData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerAvatarData (MultiplayerAvatarData::*)(LiteNetLib::Utils::NetDataReader*)>(&MultiplayerAvatarData::CreateFromSerializedData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerAvatarData (GlobalNamespace::MultiplayerAvatarData::*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::MultiplayerAvatarData::CreateFromSerializedData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerAvatarData), "CreateFromSerializedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerAvatarData), "CreateFromSerializedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerAvatarData::Deserialize
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerAvatarData::Deserialize
 // Il2CppName: Deserialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerAvatarData (*)(LiteNetLib::Utils::NetDataReader*)>(&MultiplayerAvatarData::Deserialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerAvatarData (*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::MultiplayerAvatarData::Deserialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerAvatarData), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerAvatarData), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerAvatarData::Equals
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerAvatarData::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MultiplayerAvatarData::*)(GlobalNamespace::MultiplayerAvatarData)>(&MultiplayerAvatarData::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerAvatarData::*)(GlobalNamespace::MultiplayerAvatarData)>(&GlobalNamespace::MultiplayerAvatarData::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerAvatarData), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerAvatarData>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerAvatarData), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerAvatarData>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerAvatarData::Equals
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerAvatarData::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MultiplayerAvatarData::*)(::Il2CppObject*)>(&MultiplayerAvatarData::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerAvatarData::*)(::Il2CppObject*)>(&GlobalNamespace::MultiplayerAvatarData::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerAvatarData), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerAvatarData), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerAvatarData::GetHashCode
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerAvatarData::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MultiplayerAvatarData::*)()>(&MultiplayerAvatarData::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MultiplayerAvatarData::*)()>(&GlobalNamespace::MultiplayerAvatarData::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerAvatarData), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerAvatarData), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

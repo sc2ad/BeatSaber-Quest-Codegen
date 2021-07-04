@@ -59,33 +59,33 @@ namespace UnityEngine {
   static_assert(sizeof(CreateAssetMenuAttribute) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CreateAssetMenuAttribute*, "UnityEngine", "CreateAssetMenuAttribute");
-// Writing MetadataGetter for method: CreateAssetMenuAttribute::set_menuName
+// Writing MetadataGetter for method: UnityEngine::CreateAssetMenuAttribute::set_menuName
 // Il2CppName: set_menuName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateAssetMenuAttribute::*)(::Il2CppString*)>(&CreateAssetMenuAttribute::set_menuName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CreateAssetMenuAttribute::*)(::Il2CppString*)>(&UnityEngine::CreateAssetMenuAttribute::set_menuName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CreateAssetMenuAttribute*), "set_menuName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CreateAssetMenuAttribute*), "set_menuName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CreateAssetMenuAttribute::set_fileName
+// Writing MetadataGetter for method: UnityEngine::CreateAssetMenuAttribute::set_fileName
 // Il2CppName: set_fileName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateAssetMenuAttribute::*)(::Il2CppString*)>(&CreateAssetMenuAttribute::set_fileName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CreateAssetMenuAttribute::*)(::Il2CppString*)>(&UnityEngine::CreateAssetMenuAttribute::set_fileName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CreateAssetMenuAttribute*), "set_fileName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CreateAssetMenuAttribute*), "set_fileName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CreateAssetMenuAttribute::New_ctor
+// Writing MetadataGetter for method: UnityEngine::CreateAssetMenuAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateAssetMenuAttribute::*)()>(&CreateAssetMenuAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CreateAssetMenuAttribute::*)()>(&UnityEngine::CreateAssetMenuAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CreateAssetMenuAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CreateAssetMenuAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateAssetMenuAttribute::*)()>(&CreateAssetMenuAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CreateAssetMenuAttribute::*)()>(&UnityEngine::CreateAssetMenuAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CreateAssetMenuAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CreateAssetMenuAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

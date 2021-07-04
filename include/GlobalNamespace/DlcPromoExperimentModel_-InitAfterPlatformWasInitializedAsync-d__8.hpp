@@ -78,19 +78,19 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DlcPromoExperimentModel::$InitAfterPlatformWasInitializedAsync$d__8, "", "DlcPromoExperimentModel/<InitAfterPlatformWasInitializedAsync>d__8");
-// Writing MetadataGetter for method: DlcPromoExperimentModel::$InitAfterPlatformWasInitializedAsync$d__8::MoveNext
+// Writing MetadataGetter for method: GlobalNamespace::DlcPromoExperimentModel::$InitAfterPlatformWasInitializedAsync$d__8::MoveNext
 // Il2CppName: MoveNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DlcPromoExperimentModel::$InitAfterPlatformWasInitializedAsync$d__8::*)()>(&DlcPromoExperimentModel::$InitAfterPlatformWasInitializedAsync$d__8::MoveNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoExperimentModel::$InitAfterPlatformWasInitializedAsync$d__8::*)()>(&GlobalNamespace::DlcPromoExperimentModel::$InitAfterPlatformWasInitializedAsync$d__8::MoveNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DlcPromoExperimentModel::$InitAfterPlatformWasInitializedAsync$d__8), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DlcPromoExperimentModel::$InitAfterPlatformWasInitializedAsync$d__8), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DlcPromoExperimentModel::$InitAfterPlatformWasInitializedAsync$d__8::SetStateMachine
+// Writing MetadataGetter for method: GlobalNamespace::DlcPromoExperimentModel::$InitAfterPlatformWasInitializedAsync$d__8::SetStateMachine
 // Il2CppName: SetStateMachine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DlcPromoExperimentModel::$InitAfterPlatformWasInitializedAsync$d__8::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&DlcPromoExperimentModel::$InitAfterPlatformWasInitializedAsync$d__8::SetStateMachine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoExperimentModel::$InitAfterPlatformWasInitializedAsync$d__8::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&GlobalNamespace::DlcPromoExperimentModel::$InitAfterPlatformWasInitializedAsync$d__8::SetStateMachine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DlcPromoExperimentModel::$InitAfterPlatformWasInitializedAsync$d__8), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DlcPromoExperimentModel::$InitAfterPlatformWasInitializedAsync$d__8), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
   }
 };

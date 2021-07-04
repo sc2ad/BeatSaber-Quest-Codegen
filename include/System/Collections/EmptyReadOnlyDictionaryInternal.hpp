@@ -82,89 +82,89 @@ namespace System::Collections {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::EmptyReadOnlyDictionaryInternal*, "System.Collections", "EmptyReadOnlyDictionaryInternal");
-// Writing MetadataGetter for method: EmptyReadOnlyDictionaryInternal::System_Collections_IEnumerable_GetEnumerator
+// Writing MetadataGetter for method: System::Collections::EmptyReadOnlyDictionaryInternal::System_Collections_IEnumerable_GetEnumerator
 // Il2CppName: System.Collections.IEnumerable.GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (EmptyReadOnlyDictionaryInternal::*)()>(&EmptyReadOnlyDictionaryInternal::System_Collections_IEnumerable_GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::Collections::EmptyReadOnlyDictionaryInternal::*)()>(&System::Collections::EmptyReadOnlyDictionaryInternal::System_Collections_IEnumerable_GetEnumerator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EmptyReadOnlyDictionaryInternal*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::EmptyReadOnlyDictionaryInternal*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EmptyReadOnlyDictionaryInternal::CopyTo
+// Writing MetadataGetter for method: System::Collections::EmptyReadOnlyDictionaryInternal::CopyTo
 // Il2CppName: CopyTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EmptyReadOnlyDictionaryInternal::*)(System::Array*, int)>(&EmptyReadOnlyDictionaryInternal::CopyTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::EmptyReadOnlyDictionaryInternal::*)(System::Array*, int)>(&System::Collections::EmptyReadOnlyDictionaryInternal::CopyTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EmptyReadOnlyDictionaryInternal*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::EmptyReadOnlyDictionaryInternal*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: EmptyReadOnlyDictionaryInternal::get_Count
+// Writing MetadataGetter for method: System::Collections::EmptyReadOnlyDictionaryInternal::get_Count
 // Il2CppName: get_Count
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (EmptyReadOnlyDictionaryInternal::*)()>(&EmptyReadOnlyDictionaryInternal::get_Count)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::EmptyReadOnlyDictionaryInternal::*)()>(&System::Collections::EmptyReadOnlyDictionaryInternal::get_Count)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EmptyReadOnlyDictionaryInternal*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::EmptyReadOnlyDictionaryInternal*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EmptyReadOnlyDictionaryInternal::get_Item
+// Writing MetadataGetter for method: System::Collections::EmptyReadOnlyDictionaryInternal::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (EmptyReadOnlyDictionaryInternal::*)(::Il2CppObject*)>(&EmptyReadOnlyDictionaryInternal::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Collections::EmptyReadOnlyDictionaryInternal::*)(::Il2CppObject*)>(&System::Collections::EmptyReadOnlyDictionaryInternal::get_Item)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EmptyReadOnlyDictionaryInternal*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::EmptyReadOnlyDictionaryInternal*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: EmptyReadOnlyDictionaryInternal::set_Item
+// Writing MetadataGetter for method: System::Collections::EmptyReadOnlyDictionaryInternal::set_Item
 // Il2CppName: set_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EmptyReadOnlyDictionaryInternal::*)(::Il2CppObject*, ::Il2CppObject*)>(&EmptyReadOnlyDictionaryInternal::set_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::EmptyReadOnlyDictionaryInternal::*)(::Il2CppObject*, ::Il2CppObject*)>(&System::Collections::EmptyReadOnlyDictionaryInternal::set_Item)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EmptyReadOnlyDictionaryInternal*), "set_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::EmptyReadOnlyDictionaryInternal*), "set_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: EmptyReadOnlyDictionaryInternal::get_Keys
+// Writing MetadataGetter for method: System::Collections::EmptyReadOnlyDictionaryInternal::get_Keys
 // Il2CppName: get_Keys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ICollection* (EmptyReadOnlyDictionaryInternal::*)()>(&EmptyReadOnlyDictionaryInternal::get_Keys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ICollection* (System::Collections::EmptyReadOnlyDictionaryInternal::*)()>(&System::Collections::EmptyReadOnlyDictionaryInternal::get_Keys)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EmptyReadOnlyDictionaryInternal*), "get_Keys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::EmptyReadOnlyDictionaryInternal*), "get_Keys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EmptyReadOnlyDictionaryInternal::Contains
+// Writing MetadataGetter for method: System::Collections::EmptyReadOnlyDictionaryInternal::Contains
 // Il2CppName: Contains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EmptyReadOnlyDictionaryInternal::*)(::Il2CppObject*)>(&EmptyReadOnlyDictionaryInternal::Contains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Collections::EmptyReadOnlyDictionaryInternal::*)(::Il2CppObject*)>(&System::Collections::EmptyReadOnlyDictionaryInternal::Contains)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EmptyReadOnlyDictionaryInternal*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::EmptyReadOnlyDictionaryInternal*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: EmptyReadOnlyDictionaryInternal::Add
+// Writing MetadataGetter for method: System::Collections::EmptyReadOnlyDictionaryInternal::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EmptyReadOnlyDictionaryInternal::*)(::Il2CppObject*, ::Il2CppObject*)>(&EmptyReadOnlyDictionaryInternal::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::EmptyReadOnlyDictionaryInternal::*)(::Il2CppObject*, ::Il2CppObject*)>(&System::Collections::EmptyReadOnlyDictionaryInternal::Add)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EmptyReadOnlyDictionaryInternal*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::EmptyReadOnlyDictionaryInternal*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: EmptyReadOnlyDictionaryInternal::GetEnumerator
+// Writing MetadataGetter for method: System::Collections::EmptyReadOnlyDictionaryInternal::GetEnumerator
 // Il2CppName: GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionaryEnumerator* (EmptyReadOnlyDictionaryInternal::*)()>(&EmptyReadOnlyDictionaryInternal::GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionaryEnumerator* (System::Collections::EmptyReadOnlyDictionaryInternal::*)()>(&System::Collections::EmptyReadOnlyDictionaryInternal::GetEnumerator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EmptyReadOnlyDictionaryInternal*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::EmptyReadOnlyDictionaryInternal*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EmptyReadOnlyDictionaryInternal::New_ctor
+// Writing MetadataGetter for method: System::Collections::EmptyReadOnlyDictionaryInternal::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EmptyReadOnlyDictionaryInternal::*)()>(&EmptyReadOnlyDictionaryInternal::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::EmptyReadOnlyDictionaryInternal::*)()>(&System::Collections::EmptyReadOnlyDictionaryInternal::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EmptyReadOnlyDictionaryInternal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::EmptyReadOnlyDictionaryInternal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EmptyReadOnlyDictionaryInternal::*)()>(&EmptyReadOnlyDictionaryInternal::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::EmptyReadOnlyDictionaryInternal::*)()>(&System::Collections::EmptyReadOnlyDictionaryInternal::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EmptyReadOnlyDictionaryInternal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::EmptyReadOnlyDictionaryInternal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

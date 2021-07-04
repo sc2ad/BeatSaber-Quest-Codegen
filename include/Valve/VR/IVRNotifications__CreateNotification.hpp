@@ -63,41 +63,41 @@ namespace Valve::VR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRNotifications::_CreateNotification*, "Valve.VR", "IVRNotifications/_CreateNotification");
-// Writing MetadataGetter for method: IVRNotifications::_CreateNotification::New_ctor
+// Writing MetadataGetter for method: Valve::VR::IVRNotifications::_CreateNotification::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRNotifications::_CreateNotification::*)(::Il2CppObject*, System::IntPtr)>(&IVRNotifications::_CreateNotification::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRNotifications::_CreateNotification::*)(::Il2CppObject*, System::IntPtr)>(&Valve::VR::IVRNotifications::_CreateNotification::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRNotifications::_CreateNotification*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRNotifications::_CreateNotification*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRNotifications::_CreateNotification::*)(::Il2CppObject*, System::IntPtr)>(&IVRNotifications::_CreateNotification::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRNotifications::_CreateNotification::*)(::Il2CppObject*, System::IntPtr)>(&Valve::VR::IVRNotifications::_CreateNotification::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRNotifications::_CreateNotification*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRNotifications::_CreateNotification*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: IVRNotifications::_CreateNotification::Invoke
+// Writing MetadataGetter for method: Valve::VR::IVRNotifications::_CreateNotification::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRNotificationError (IVRNotifications::_CreateNotification::*)(uint64_t, uint64_t, Valve::VR::EVRNotificationType, ::Il2CppString*, Valve::VR::EVRNotificationStyle, Valve::VR::NotificationBitmap_t&, uint&)>(&IVRNotifications::_CreateNotification::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRNotificationError (Valve::VR::IVRNotifications::_CreateNotification::*)(uint64_t, uint64_t, Valve::VR::EVRNotificationType, ::Il2CppString*, Valve::VR::EVRNotificationStyle, Valve::VR::NotificationBitmap_t&, uint&)>(&Valve::VR::IVRNotifications::_CreateNotification::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRNotifications::_CreateNotification*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRNotificationType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRNotificationStyle>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::NotificationBitmap_t&>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRNotifications::_CreateNotification*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRNotificationType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRNotificationStyle>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::NotificationBitmap_t&>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
   }
 };
-// Writing MetadataGetter for method: IVRNotifications::_CreateNotification::BeginInvoke
+// Writing MetadataGetter for method: Valve::VR::IVRNotifications::_CreateNotification::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRNotifications::_CreateNotification::*)(uint64_t, uint64_t, Valve::VR::EVRNotificationType, ::Il2CppString*, Valve::VR::EVRNotificationStyle, Valve::VR::NotificationBitmap_t&, uint&, System::AsyncCallback*, ::Il2CppObject*)>(&IVRNotifications::_CreateNotification::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRNotifications::_CreateNotification::*)(uint64_t, uint64_t, Valve::VR::EVRNotificationType, ::Il2CppString*, Valve::VR::EVRNotificationStyle, Valve::VR::NotificationBitmap_t&, uint&, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRNotifications::_CreateNotification::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRNotifications::_CreateNotification*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRNotificationType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRNotificationStyle>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::NotificationBitmap_t&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRNotifications::_CreateNotification*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRNotificationType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRNotificationStyle>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::NotificationBitmap_t&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IVRNotifications::_CreateNotification::EndInvoke
+// Writing MetadataGetter for method: Valve::VR::IVRNotifications::_CreateNotification::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRNotificationError (IVRNotifications::_CreateNotification::*)(Valve::VR::NotificationBitmap_t&, uint&, System::IAsyncResult*)>(&IVRNotifications::_CreateNotification::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRNotificationError (Valve::VR::IVRNotifications::_CreateNotification::*)(Valve::VR::NotificationBitmap_t&, uint&, System::IAsyncResult*)>(&Valve::VR::IVRNotifications::_CreateNotification::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRNotifications::_CreateNotification*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::NotificationBitmap_t&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRNotifications::_CreateNotification*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::NotificationBitmap_t&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

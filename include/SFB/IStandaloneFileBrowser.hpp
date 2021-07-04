@@ -51,51 +51,51 @@ namespace SFB {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(SFB::IStandaloneFileBrowser*, "SFB", "IStandaloneFileBrowser");
-// Writing MetadataGetter for method: IStandaloneFileBrowser::OpenFilePanel
+// Writing MetadataGetter for method: SFB::IStandaloneFileBrowser::OpenFilePanel
 // Il2CppName: OpenFilePanel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (IStandaloneFileBrowser::*)(::Il2CppString*, ::Il2CppString*, ::Array<SFB::ExtensionFilter>*, bool)>(&IStandaloneFileBrowser::OpenFilePanel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (SFB::IStandaloneFileBrowser::*)(::Il2CppString*, ::Il2CppString*, ::Array<SFB::ExtensionFilter>*, bool)>(&SFB::IStandaloneFileBrowser::OpenFilePanel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IStandaloneFileBrowser*), "OpenFilePanel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<SFB::ExtensionFilter>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(SFB::IStandaloneFileBrowser*), "OpenFilePanel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<SFB::ExtensionFilter>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: IStandaloneFileBrowser::OpenFolderPanel
+// Writing MetadataGetter for method: SFB::IStandaloneFileBrowser::OpenFolderPanel
 // Il2CppName: OpenFolderPanel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (IStandaloneFileBrowser::*)(::Il2CppString*, ::Il2CppString*, bool)>(&IStandaloneFileBrowser::OpenFolderPanel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (SFB::IStandaloneFileBrowser::*)(::Il2CppString*, ::Il2CppString*, bool)>(&SFB::IStandaloneFileBrowser::OpenFolderPanel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IStandaloneFileBrowser*), "OpenFolderPanel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(SFB::IStandaloneFileBrowser*), "OpenFolderPanel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: IStandaloneFileBrowser::SaveFilePanel
+// Writing MetadataGetter for method: SFB::IStandaloneFileBrowser::SaveFilePanel
 // Il2CppName: SaveFilePanel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IStandaloneFileBrowser::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Array<SFB::ExtensionFilter>*)>(&IStandaloneFileBrowser::SaveFilePanel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SFB::IStandaloneFileBrowser::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Array<SFB::ExtensionFilter>*)>(&SFB::IStandaloneFileBrowser::SaveFilePanel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IStandaloneFileBrowser*), "SaveFilePanel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<SFB::ExtensionFilter>*>()});
+    return ::il2cpp_utils::FindMethod(classof(SFB::IStandaloneFileBrowser*), "SaveFilePanel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<SFB::ExtensionFilter>*>()});
   }
 };
-// Writing MetadataGetter for method: IStandaloneFileBrowser::OpenFilePanelAsync
+// Writing MetadataGetter for method: SFB::IStandaloneFileBrowser::OpenFilePanelAsync
 // Il2CppName: OpenFilePanelAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IStandaloneFileBrowser::*)(::Il2CppString*, ::Il2CppString*, ::Array<SFB::ExtensionFilter>*, bool, System::Action_1<::Array<::Il2CppString*>*>*)>(&IStandaloneFileBrowser::OpenFilePanelAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SFB::IStandaloneFileBrowser::*)(::Il2CppString*, ::Il2CppString*, ::Array<SFB::ExtensionFilter>*, bool, System::Action_1<::Array<::Il2CppString*>*>*)>(&SFB::IStandaloneFileBrowser::OpenFilePanelAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IStandaloneFileBrowser*), "OpenFilePanelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<SFB::ExtensionFilter>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<::Array<::Il2CppString*>*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(SFB::IStandaloneFileBrowser*), "OpenFilePanelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<SFB::ExtensionFilter>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<::Array<::Il2CppString*>*>*>()});
   }
 };
-// Writing MetadataGetter for method: IStandaloneFileBrowser::OpenFolderPanelAsync
+// Writing MetadataGetter for method: SFB::IStandaloneFileBrowser::OpenFolderPanelAsync
 // Il2CppName: OpenFolderPanelAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IStandaloneFileBrowser::*)(::Il2CppString*, ::Il2CppString*, bool, System::Action_1<::Array<::Il2CppString*>*>*)>(&IStandaloneFileBrowser::OpenFolderPanelAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SFB::IStandaloneFileBrowser::*)(::Il2CppString*, ::Il2CppString*, bool, System::Action_1<::Array<::Il2CppString*>*>*)>(&SFB::IStandaloneFileBrowser::OpenFolderPanelAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IStandaloneFileBrowser*), "OpenFolderPanelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<::Array<::Il2CppString*>*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(SFB::IStandaloneFileBrowser*), "OpenFolderPanelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<::Array<::Il2CppString*>*>*>()});
   }
 };
-// Writing MetadataGetter for method: IStandaloneFileBrowser::SaveFilePanelAsync
+// Writing MetadataGetter for method: SFB::IStandaloneFileBrowser::SaveFilePanelAsync
 // Il2CppName: SaveFilePanelAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IStandaloneFileBrowser::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Array<SFB::ExtensionFilter>*, System::Action_1<::Il2CppString*>*)>(&IStandaloneFileBrowser::SaveFilePanelAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SFB::IStandaloneFileBrowser::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Array<SFB::ExtensionFilter>*, System::Action_1<::Il2CppString*>*)>(&SFB::IStandaloneFileBrowser::SaveFilePanelAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IStandaloneFileBrowser*), "SaveFilePanelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<SFB::ExtensionFilter>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(SFB::IStandaloneFileBrowser*), "SaveFilePanelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<SFB::ExtensionFilter>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
   }
 };

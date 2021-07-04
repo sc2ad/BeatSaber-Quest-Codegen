@@ -33,17 +33,17 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::UriParser::BuiltInUriParser*, "System", "UriParser/BuiltInUriParser");
-// Writing MetadataGetter for method: UriParser::BuiltInUriParser::New_ctor
+// Writing MetadataGetter for method: System::UriParser::BuiltInUriParser::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UriParser::BuiltInUriParser::*)(::Il2CppString*, int, System::UriSyntaxFlags)>(&UriParser::BuiltInUriParser::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UriParser::BuiltInUriParser::*)(::Il2CppString*, int, System::UriSyntaxFlags)>(&System::UriParser::BuiltInUriParser::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UriParser::BuiltInUriParser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::UriSyntaxFlags>()});
+    return ::il2cpp_utils::FindMethod(classof(System::UriParser::BuiltInUriParser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::UriSyntaxFlags>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UriParser::BuiltInUriParser::*)(::Il2CppString*, int, System::UriSyntaxFlags)>(&UriParser::BuiltInUriParser::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UriParser::BuiltInUriParser::*)(::Il2CppString*, int, System::UriSyntaxFlags)>(&System::UriParser::BuiltInUriParser::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UriParser::BuiltInUriParser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::UriSyntaxFlags>()});
+    return ::il2cpp_utils::FindMethod(classof(System::UriParser::BuiltInUriParser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::UriSyntaxFlags>()});
   }
 };

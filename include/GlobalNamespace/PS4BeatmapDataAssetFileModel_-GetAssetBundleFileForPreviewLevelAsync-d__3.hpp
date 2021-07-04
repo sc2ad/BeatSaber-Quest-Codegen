@@ -59,19 +59,19 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4BeatmapDataAssetFileModel::$GetAssetBundleFileForPreviewLevelAsync$d__3, "", "PS4BeatmapDataAssetFileModel/<GetAssetBundleFileForPreviewLevelAsync>d__3");
-// Writing MetadataGetter for method: PS4BeatmapDataAssetFileModel::$GetAssetBundleFileForPreviewLevelAsync$d__3::MoveNext
+// Writing MetadataGetter for method: GlobalNamespace::PS4BeatmapDataAssetFileModel::$GetAssetBundleFileForPreviewLevelAsync$d__3::MoveNext
 // Il2CppName: MoveNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PS4BeatmapDataAssetFileModel::$GetAssetBundleFileForPreviewLevelAsync$d__3::*)()>(&PS4BeatmapDataAssetFileModel::$GetAssetBundleFileForPreviewLevelAsync$d__3::MoveNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PS4BeatmapDataAssetFileModel::$GetAssetBundleFileForPreviewLevelAsync$d__3::*)()>(&GlobalNamespace::PS4BeatmapDataAssetFileModel::$GetAssetBundleFileForPreviewLevelAsync$d__3::MoveNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PS4BeatmapDataAssetFileModel::$GetAssetBundleFileForPreviewLevelAsync$d__3), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4BeatmapDataAssetFileModel::$GetAssetBundleFileForPreviewLevelAsync$d__3), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PS4BeatmapDataAssetFileModel::$GetAssetBundleFileForPreviewLevelAsync$d__3::SetStateMachine
+// Writing MetadataGetter for method: GlobalNamespace::PS4BeatmapDataAssetFileModel::$GetAssetBundleFileForPreviewLevelAsync$d__3::SetStateMachine
 // Il2CppName: SetStateMachine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PS4BeatmapDataAssetFileModel::$GetAssetBundleFileForPreviewLevelAsync$d__3::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&PS4BeatmapDataAssetFileModel::$GetAssetBundleFileForPreviewLevelAsync$d__3::SetStateMachine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PS4BeatmapDataAssetFileModel::$GetAssetBundleFileForPreviewLevelAsync$d__3::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&GlobalNamespace::PS4BeatmapDataAssetFileModel::$GetAssetBundleFileForPreviewLevelAsync$d__3::SetStateMachine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PS4BeatmapDataAssetFileModel::$GetAssetBundleFileForPreviewLevelAsync$d__3), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4BeatmapDataAssetFileModel::$GetAssetBundleFileForPreviewLevelAsync$d__3), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
   }
 };

@@ -45,17 +45,17 @@ namespace OnlineServices::API {
   static_assert(sizeof(HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto) == 0x11);
 }
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*, "OnlineServices.API", "HTTPAdminLeaderboardsHelper/LeaderboardsInfoDto");
-// Writing MetadataGetter for method: HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto::New_ctor
+// Writing MetadataGetter for method: OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto::*)()>(&HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto::*)()>(&OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto::*)()>(&HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto::*)()>(&OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

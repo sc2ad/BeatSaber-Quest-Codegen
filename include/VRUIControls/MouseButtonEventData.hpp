@@ -61,33 +61,33 @@ namespace VRUIControls {
   static_assert(sizeof(MouseButtonEventData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::MouseButtonEventData*, "VRUIControls", "MouseButtonEventData");
-// Writing MetadataGetter for method: MouseButtonEventData::PressedThisFrame
+// Writing MetadataGetter for method: VRUIControls::MouseButtonEventData::PressedThisFrame
 // Il2CppName: PressedThisFrame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MouseButtonEventData::*)()>(&MouseButtonEventData::PressedThisFrame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRUIControls::MouseButtonEventData::*)()>(&VRUIControls::MouseButtonEventData::PressedThisFrame)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MouseButtonEventData*), "PressedThisFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::MouseButtonEventData*), "PressedThisFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MouseButtonEventData::ReleasedThisFrame
+// Writing MetadataGetter for method: VRUIControls::MouseButtonEventData::ReleasedThisFrame
 // Il2CppName: ReleasedThisFrame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MouseButtonEventData::*)()>(&MouseButtonEventData::ReleasedThisFrame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRUIControls::MouseButtonEventData::*)()>(&VRUIControls::MouseButtonEventData::ReleasedThisFrame)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MouseButtonEventData*), "ReleasedThisFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::MouseButtonEventData*), "ReleasedThisFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MouseButtonEventData::New_ctor
+// Writing MetadataGetter for method: VRUIControls::MouseButtonEventData::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MouseButtonEventData::*)()>(&MouseButtonEventData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::MouseButtonEventData::*)()>(&VRUIControls::MouseButtonEventData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MouseButtonEventData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::MouseButtonEventData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MouseButtonEventData::*)()>(&MouseButtonEventData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::MouseButtonEventData::*)()>(&VRUIControls::MouseButtonEventData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MouseButtonEventData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::MouseButtonEventData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

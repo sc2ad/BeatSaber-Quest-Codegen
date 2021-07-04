@@ -150,97 +150,97 @@ namespace GlobalNamespace {
   static_assert(sizeof(NetEaseLeaderboardViewController) == 0x9A);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseLeaderboardViewController*, "", "NetEaseLeaderboardViewController");
-// Writing MetadataGetter for method: NetEaseLeaderboardViewController::HandleLoadingControlDidPressRefreshButton
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseLeaderboardViewController::HandleLoadingControlDidPressRefreshButton
 // Il2CppName: HandleLoadingControlDidPressRefreshButton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseLeaderboardViewController::*)()>(&NetEaseLeaderboardViewController::HandleLoadingControlDidPressRefreshButton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetEaseLeaderboardViewController::*)()>(&GlobalNamespace::NetEaseLeaderboardViewController::HandleLoadingControlDidPressRefreshButton)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseLeaderboardViewController*), "HandleLoadingControlDidPressRefreshButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseLeaderboardViewController*), "HandleLoadingControlDidPressRefreshButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetEaseLeaderboardViewController::Refresh
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseLeaderboardViewController::Refresh
 // Il2CppName: Refresh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseLeaderboardViewController::*)()>(&NetEaseLeaderboardViewController::Refresh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetEaseLeaderboardViewController::*)()>(&GlobalNamespace::NetEaseLeaderboardViewController::Refresh)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseLeaderboardViewController*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseLeaderboardViewController*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetEaseLeaderboardViewController::Refresh
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseLeaderboardViewController::Refresh
 // Il2CppName: Refresh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseLeaderboardViewController::*)(bool, bool)>(&NetEaseLeaderboardViewController::Refresh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetEaseLeaderboardViewController::*)(bool, bool)>(&GlobalNamespace::NetEaseLeaderboardViewController::Refresh)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseLeaderboardViewController*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseLeaderboardViewController*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: NetEaseLeaderboardViewController::RefreshDelayed
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseLeaderboardViewController::RefreshDelayed
 // Il2CppName: RefreshDelayed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (NetEaseLeaderboardViewController::*)(bool, bool)>(&NetEaseLeaderboardViewController::RefreshDelayed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::NetEaseLeaderboardViewController::*)(bool, bool)>(&GlobalNamespace::NetEaseLeaderboardViewController::RefreshDelayed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseLeaderboardViewController*), "RefreshDelayed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseLeaderboardViewController*), "RefreshDelayed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: NetEaseLeaderboardViewController::LoadScoresAsync
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseLeaderboardViewController::LoadScoresAsync
 // Il2CppName: LoadScoresAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseLeaderboardViewController::*)()>(&NetEaseLeaderboardViewController::LoadScoresAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetEaseLeaderboardViewController::*)()>(&GlobalNamespace::NetEaseLeaderboardViewController::LoadScoresAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseLeaderboardViewController*), "LoadScoresAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseLeaderboardViewController*), "LoadScoresAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetEaseLeaderboardViewController::ClearContent
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseLeaderboardViewController::ClearContent
 // Il2CppName: ClearContent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseLeaderboardViewController::*)()>(&NetEaseLeaderboardViewController::ClearContent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetEaseLeaderboardViewController::*)()>(&GlobalNamespace::NetEaseLeaderboardViewController::ClearContent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseLeaderboardViewController*), "ClearContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseLeaderboardViewController*), "ClearContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetEaseLeaderboardViewController::SetData
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseLeaderboardViewController::SetData
 // Il2CppName: SetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseLeaderboardViewController::*)(GlobalNamespace::IDifficultyBeatmap*)>(&NetEaseLeaderboardViewController::SetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetEaseLeaderboardViewController::*)(GlobalNamespace::IDifficultyBeatmap*)>(&GlobalNamespace::NetEaseLeaderboardViewController::SetData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseLeaderboardViewController*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseLeaderboardViewController*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
   }
 };
-// Writing MetadataGetter for method: NetEaseLeaderboardViewController::DidActivate
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseLeaderboardViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseLeaderboardViewController::*)(bool, bool, bool)>(&NetEaseLeaderboardViewController::DidActivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetEaseLeaderboardViewController::*)(bool, bool, bool)>(&GlobalNamespace::NetEaseLeaderboardViewController::DidActivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseLeaderboardViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseLeaderboardViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: NetEaseLeaderboardViewController::DidDeactivate
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseLeaderboardViewController::DidDeactivate
 // Il2CppName: DidDeactivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseLeaderboardViewController::*)(bool, bool)>(&NetEaseLeaderboardViewController::DidDeactivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetEaseLeaderboardViewController::*)(bool, bool)>(&GlobalNamespace::NetEaseLeaderboardViewController::DidDeactivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseLeaderboardViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseLeaderboardViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: NetEaseLeaderboardViewController::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseLeaderboardViewController::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseLeaderboardViewController::*)()>(&NetEaseLeaderboardViewController::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetEaseLeaderboardViewController::*)()>(&GlobalNamespace::NetEaseLeaderboardViewController::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseLeaderboardViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseLeaderboardViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetEaseLeaderboardViewController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseLeaderboardViewController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseLeaderboardViewController::*)()>(&NetEaseLeaderboardViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetEaseLeaderboardViewController::*)()>(&GlobalNamespace::NetEaseLeaderboardViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseLeaderboardViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseLeaderboardViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseLeaderboardViewController::*)()>(&NetEaseLeaderboardViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetEaseLeaderboardViewController::*)()>(&GlobalNamespace::NetEaseLeaderboardViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseLeaderboardViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseLeaderboardViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

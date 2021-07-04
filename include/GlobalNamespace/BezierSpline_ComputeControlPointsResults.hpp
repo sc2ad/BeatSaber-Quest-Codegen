@@ -50,17 +50,17 @@ namespace GlobalNamespace {
   static_assert(sizeof(BezierSpline::ComputeControlPointsResults) == 0x10);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierSpline::ComputeControlPointsResults, "", "BezierSpline/ComputeControlPointsResults");
-// Writing MetadataGetter for method: BezierSpline::ComputeControlPointsResults::ComputeControlPointsResults
+// Writing MetadataGetter for method: GlobalNamespace::BezierSpline::ComputeControlPointsResults::ComputeControlPointsResults
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BezierSpline::ComputeControlPointsResults::*)(::Array<float>*, ::Array<float>*)>(&BezierSpline::ComputeControlPointsResults::ComputeControlPointsResults<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BezierSpline::ComputeControlPointsResults::*)(::Array<float>*, ::Array<float>*)>(&GlobalNamespace::BezierSpline::ComputeControlPointsResults::ComputeControlPointsResults<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BezierSpline::ComputeControlPointsResults), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSpline::ComputeControlPointsResults), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BezierSpline::ComputeControlPointsResults::*)(::Array<float>*, ::Array<float>*)>(&BezierSpline::ComputeControlPointsResults::ComputeControlPointsResults<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BezierSpline::ComputeControlPointsResults::*)(::Array<float>*, ::Array<float>*)>(&GlobalNamespace::BezierSpline::ComputeControlPointsResults::ComputeControlPointsResults<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BezierSpline::ComputeControlPointsResults), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSpline::ComputeControlPointsResults), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>()});
   }
 };

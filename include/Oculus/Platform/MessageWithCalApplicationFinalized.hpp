@@ -47,33 +47,33 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithCalApplicationFinalized
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithCalApplicationFinalized*, "Oculus.Platform", "MessageWithCalApplicationFinalized");
-// Writing MetadataGetter for method: MessageWithCalApplicationFinalized::GetDataFromMessage
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithCalApplicationFinalized::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CalApplicationFinalized* (MessageWithCalApplicationFinalized::*)(System::IntPtr)>(&MessageWithCalApplicationFinalized::GetDataFromMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CalApplicationFinalized* (Oculus::Platform::MessageWithCalApplicationFinalized::*)(System::IntPtr)>(&Oculus::Platform::MessageWithCalApplicationFinalized::GetDataFromMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithCalApplicationFinalized*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithCalApplicationFinalized*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithCalApplicationFinalized::New_ctor
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithCalApplicationFinalized::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithCalApplicationFinalized::*)(System::IntPtr)>(&MessageWithCalApplicationFinalized::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithCalApplicationFinalized::*)(System::IntPtr)>(&Oculus::Platform::MessageWithCalApplicationFinalized::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithCalApplicationFinalized*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithCalApplicationFinalized*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithCalApplicationFinalized::*)(System::IntPtr)>(&MessageWithCalApplicationFinalized::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithCalApplicationFinalized::*)(System::IntPtr)>(&Oculus::Platform::MessageWithCalApplicationFinalized::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithCalApplicationFinalized*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithCalApplicationFinalized*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithCalApplicationFinalized::GetCalApplicationFinalized
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithCalApplicationFinalized::GetCalApplicationFinalized
 // Il2CppName: GetCalApplicationFinalized
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CalApplicationFinalized* (MessageWithCalApplicationFinalized::*)()>(&MessageWithCalApplicationFinalized::GetCalApplicationFinalized)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CalApplicationFinalized* (Oculus::Platform::MessageWithCalApplicationFinalized::*)()>(&Oculus::Platform::MessageWithCalApplicationFinalized::GetCalApplicationFinalized)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithCalApplicationFinalized*), "GetCalApplicationFinalized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithCalApplicationFinalized*), "GetCalApplicationFinalized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

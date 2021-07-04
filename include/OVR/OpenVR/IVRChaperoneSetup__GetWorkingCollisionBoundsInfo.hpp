@@ -54,41 +54,41 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo*, "OVR.OpenVR", "IVRChaperoneSetup/_GetWorkingCollisionBoundsInfo");
-// Writing MetadataGetter for method: IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo::New_ctor
+// Writing MetadataGetter for method: OVR::OpenVR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo::*)(::Il2CppObject*, System::IntPtr)>(&IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo::*)(::Il2CppObject*, System::IntPtr)>(&IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo::Invoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo::*)(::Array<OVR::OpenVR::HmdQuad_t>*&, uint&)>(&IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo::*)(::Array<OVR::OpenVR::HmdQuad_t>*&, uint&)>(&OVR::OpenVR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::HmdQuad_t>*&>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::HmdQuad_t>*&>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
   }
 };
-// Writing MetadataGetter for method: IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo::BeginInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo::*)(::Array<OVR::OpenVR::HmdQuad_t>*&, uint&, System::AsyncCallback*, ::Il2CppObject*)>(&IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo::*)(::Array<OVR::OpenVR::HmdQuad_t>*&, uint&, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::HmdQuad_t>*&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::HmdQuad_t>*&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo::EndInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo::*)(uint&, System::IAsyncResult*)>(&IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo::*)(uint&, System::IAsyncResult*)>(&OVR::OpenVR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

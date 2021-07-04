@@ -485,1089 +485,1089 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Shader*, "UnityEngine", "Shader");
-// Writing MetadataGetter for method: Shader::get_globalShaderHardwareTier
+// Writing MetadataGetter for method: UnityEngine::Shader::get_globalShaderHardwareTier
 // Il2CppName: get_globalShaderHardwareTier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::ShaderHardwareTier (*)()>(&Shader::get_globalShaderHardwareTier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::ShaderHardwareTier (*)()>(&UnityEngine::Shader::get_globalShaderHardwareTier)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "get_globalShaderHardwareTier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "get_globalShaderHardwareTier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Shader::set_globalShaderHardwareTier
+// Writing MetadataGetter for method: UnityEngine::Shader::set_globalShaderHardwareTier
 // Il2CppName: set_globalShaderHardwareTier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rendering::ShaderHardwareTier)>(&Shader::set_globalShaderHardwareTier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rendering::ShaderHardwareTier)>(&UnityEngine::Shader::set_globalShaderHardwareTier)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "set_globalShaderHardwareTier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::ShaderHardwareTier>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "set_globalShaderHardwareTier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::ShaderHardwareTier>()});
   }
 };
-// Writing MetadataGetter for method: Shader::Find
+// Writing MetadataGetter for method: UnityEngine::Shader::Find
 // Il2CppName: Find
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Shader* (*)(::Il2CppString*)>(&Shader::Find)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Shader* (*)(::Il2CppString*)>(&UnityEngine::Shader::Find)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "Find", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "Find", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::FindBuiltin
+// Writing MetadataGetter for method: UnityEngine::Shader::FindBuiltin
 // Il2CppName: FindBuiltin
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Shader* (*)(::Il2CppString*)>(&Shader::FindBuiltin)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Shader* (*)(::Il2CppString*)>(&UnityEngine::Shader::FindBuiltin)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "FindBuiltin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "FindBuiltin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::get_maximumLOD
+// Writing MetadataGetter for method: UnityEngine::Shader::get_maximumLOD
 // Il2CppName: get_maximumLOD
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Shader::*)()>(&Shader::get_maximumLOD)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Shader::*)()>(&UnityEngine::Shader::get_maximumLOD)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "get_maximumLOD", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "get_maximumLOD", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Shader::set_maximumLOD
+// Writing MetadataGetter for method: UnityEngine::Shader::set_maximumLOD
 // Il2CppName: set_maximumLOD
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Shader::*)(int)>(&Shader::set_maximumLOD)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Shader::*)(int)>(&UnityEngine::Shader::set_maximumLOD)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "set_maximumLOD", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "set_maximumLOD", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::get_globalMaximumLOD
+// Writing MetadataGetter for method: UnityEngine::Shader::get_globalMaximumLOD
 // Il2CppName: get_globalMaximumLOD
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&Shader::get_globalMaximumLOD)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&UnityEngine::Shader::get_globalMaximumLOD)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "get_globalMaximumLOD", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "get_globalMaximumLOD", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Shader::set_globalMaximumLOD
+// Writing MetadataGetter for method: UnityEngine::Shader::set_globalMaximumLOD
 // Il2CppName: set_globalMaximumLOD
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&Shader::set_globalMaximumLOD)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&UnityEngine::Shader::set_globalMaximumLOD)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "set_globalMaximumLOD", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "set_globalMaximumLOD", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::get_isSupported
+// Writing MetadataGetter for method: UnityEngine::Shader::get_isSupported
 // Il2CppName: get_isSupported
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Shader::*)()>(&Shader::get_isSupported)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Shader::*)()>(&UnityEngine::Shader::get_isSupported)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "get_isSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "get_isSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Shader::get_globalRenderPipeline
+// Writing MetadataGetter for method: UnityEngine::Shader::get_globalRenderPipeline
 // Il2CppName: get_globalRenderPipeline
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Shader::get_globalRenderPipeline)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::Shader::get_globalRenderPipeline)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "get_globalRenderPipeline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "get_globalRenderPipeline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Shader::set_globalRenderPipeline
+// Writing MetadataGetter for method: UnityEngine::Shader::set_globalRenderPipeline
 // Il2CppName: set_globalRenderPipeline
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Shader::set_globalRenderPipeline)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&UnityEngine::Shader::set_globalRenderPipeline)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "set_globalRenderPipeline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "set_globalRenderPipeline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::EnableKeyword
+// Writing MetadataGetter for method: UnityEngine::Shader::EnableKeyword
 // Il2CppName: EnableKeyword
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Shader::EnableKeyword)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&UnityEngine::Shader::EnableKeyword)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "EnableKeyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "EnableKeyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::DisableKeyword
+// Writing MetadataGetter for method: UnityEngine::Shader::DisableKeyword
 // Il2CppName: DisableKeyword
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Shader::DisableKeyword)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&UnityEngine::Shader::DisableKeyword)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "DisableKeyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "DisableKeyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::IsKeywordEnabled
+// Writing MetadataGetter for method: UnityEngine::Shader::IsKeywordEnabled
 // Il2CppName: IsKeywordEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Shader::IsKeywordEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&UnityEngine::Shader::IsKeywordEnabled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "IsKeywordEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "IsKeywordEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::get_renderQueue
+// Writing MetadataGetter for method: UnityEngine::Shader::get_renderQueue
 // Il2CppName: get_renderQueue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Shader::*)()>(&Shader::get_renderQueue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Shader::*)()>(&UnityEngine::Shader::get_renderQueue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "get_renderQueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "get_renderQueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Shader::get_disableBatching
+// Writing MetadataGetter for method: UnityEngine::Shader::get_disableBatching
 // Il2CppName: get_disableBatching
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::DisableBatchingType (Shader::*)()>(&Shader::get_disableBatching)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::DisableBatchingType (UnityEngine::Shader::*)()>(&UnityEngine::Shader::get_disableBatching)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "get_disableBatching", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "get_disableBatching", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Shader::WarmupAllShaders
+// Writing MetadataGetter for method: UnityEngine::Shader::WarmupAllShaders
 // Il2CppName: WarmupAllShaders
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Shader::WarmupAllShaders)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Shader::WarmupAllShaders)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "WarmupAllShaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "WarmupAllShaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Shader::TagToID
+// Writing MetadataGetter for method: UnityEngine::Shader::TagToID
 // Il2CppName: TagToID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&Shader::TagToID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&UnityEngine::Shader::TagToID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "TagToID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "TagToID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::IDToTag
+// Writing MetadataGetter for method: UnityEngine::Shader::IDToTag
 // Il2CppName: IDToTag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&Shader::IDToTag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&UnityEngine::Shader::IDToTag)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "IDToTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "IDToTag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::PropertyToID
+// Writing MetadataGetter for method: UnityEngine::Shader::PropertyToID
 // Il2CppName: PropertyToID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&Shader::PropertyToID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&UnityEngine::Shader::PropertyToID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "PropertyToID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "PropertyToID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetDependency
+// Writing MetadataGetter for method: UnityEngine::Shader::GetDependency
 // Il2CppName: GetDependency
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Shader* (Shader::*)(::Il2CppString*)>(&Shader::GetDependency)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Shader* (UnityEngine::Shader::*)(::Il2CppString*)>(&UnityEngine::Shader::GetDependency)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetDependency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetDependency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::get_passCount
+// Writing MetadataGetter for method: UnityEngine::Shader::get_passCount
 // Il2CppName: get_passCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Shader::*)()>(&Shader::get_passCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Shader::*)()>(&UnityEngine::Shader::get_passCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "get_passCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "get_passCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Shader::FindPassTagValue
+// Writing MetadataGetter for method: UnityEngine::Shader::FindPassTagValue
 // Il2CppName: FindPassTagValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::ShaderTagId (Shader::*)(int, UnityEngine::Rendering::ShaderTagId)>(&Shader::FindPassTagValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::ShaderTagId (UnityEngine::Shader::*)(int, UnityEngine::Rendering::ShaderTagId)>(&UnityEngine::Shader::FindPassTagValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "FindPassTagValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::ShaderTagId>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "FindPassTagValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::ShaderTagId>()});
   }
 };
-// Writing MetadataGetter for method: Shader::Internal_FindPassTagValue
+// Writing MetadataGetter for method: UnityEngine::Shader::Internal_FindPassTagValue
 // Il2CppName: Internal_FindPassTagValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Shader::*)(int, int)>(&Shader::Internal_FindPassTagValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Shader::*)(int, int)>(&UnityEngine::Shader::Internal_FindPassTagValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "Internal_FindPassTagValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "Internal_FindPassTagValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalFloatImpl
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalFloatImpl
 // Il2CppName: SetGlobalFloatImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, float)>(&Shader::SetGlobalFloatImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, float)>(&UnityEngine::Shader::SetGlobalFloatImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalFloatImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalFloatImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalVectorImpl
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalVectorImpl
 // Il2CppName: SetGlobalVectorImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Vector4)>(&Shader::SetGlobalVectorImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Vector4)>(&UnityEngine::Shader::SetGlobalVectorImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalVectorImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalVectorImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalMatrixImpl
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalMatrixImpl
 // Il2CppName: SetGlobalMatrixImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Matrix4x4)>(&Shader::SetGlobalMatrixImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Matrix4x4)>(&UnityEngine::Shader::SetGlobalMatrixImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalMatrixImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalMatrixImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalTextureImpl
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalTextureImpl
 // Il2CppName: SetGlobalTextureImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Texture*)>(&Shader::SetGlobalTextureImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Texture*)>(&UnityEngine::Shader::SetGlobalTextureImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalTextureImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalTextureImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalRenderTextureImpl
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalRenderTextureImpl
 // Il2CppName: SetGlobalRenderTextureImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::RenderTexture*, UnityEngine::Rendering::RenderTextureSubElement)>(&Shader::SetGlobalRenderTextureImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::RenderTexture*, UnityEngine::Rendering::RenderTextureSubElement)>(&UnityEngine::Shader::SetGlobalRenderTextureImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalRenderTextureImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTextureSubElement>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalRenderTextureImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTextureSubElement>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalBufferImpl
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalBufferImpl
 // Il2CppName: SetGlobalBufferImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::ComputeBuffer*)>(&Shader::SetGlobalBufferImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::ComputeBuffer*)>(&UnityEngine::Shader::SetGlobalBufferImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalBufferImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ComputeBuffer*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalBufferImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ComputeBuffer*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalConstantBufferImpl
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalConstantBufferImpl
 // Il2CppName: SetGlobalConstantBufferImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::ComputeBuffer*, int, int)>(&Shader::SetGlobalConstantBufferImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::ComputeBuffer*, int, int)>(&UnityEngine::Shader::SetGlobalConstantBufferImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalConstantBufferImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ComputeBuffer*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalConstantBufferImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ComputeBuffer*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalFloatImpl
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalFloatImpl
 // Il2CppName: GetGlobalFloatImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(int)>(&Shader::GetGlobalFloatImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(int)>(&UnityEngine::Shader::GetGlobalFloatImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalFloatImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalFloatImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalVectorImpl
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalVectorImpl
 // Il2CppName: GetGlobalVectorImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)(int)>(&Shader::GetGlobalVectorImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)(int)>(&UnityEngine::Shader::GetGlobalVectorImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalVectorImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalVectorImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalMatrixImpl
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalMatrixImpl
 // Il2CppName: GetGlobalMatrixImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (*)(int)>(&Shader::GetGlobalMatrixImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (*)(int)>(&UnityEngine::Shader::GetGlobalMatrixImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalMatrixImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalMatrixImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalTextureImpl
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalTextureImpl
 // Il2CppName: GetGlobalTextureImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture* (*)(int)>(&Shader::GetGlobalTextureImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture* (*)(int)>(&UnityEngine::Shader::GetGlobalTextureImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalTextureImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalTextureImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalFloatArrayImpl
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalFloatArrayImpl
 // Il2CppName: SetGlobalFloatArrayImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Array<float>*, int)>(&Shader::SetGlobalFloatArrayImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Array<float>*, int)>(&UnityEngine::Shader::SetGlobalFloatArrayImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalFloatArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalFloatArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalVectorArrayImpl
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalVectorArrayImpl
 // Il2CppName: SetGlobalVectorArrayImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Array<UnityEngine::Vector4>*, int)>(&Shader::SetGlobalVectorArrayImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Array<UnityEngine::Vector4>*, int)>(&UnityEngine::Shader::SetGlobalVectorArrayImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalVectorArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector4>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalVectorArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector4>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalMatrixArrayImpl
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalMatrixArrayImpl
 // Il2CppName: SetGlobalMatrixArrayImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Array<UnityEngine::Matrix4x4>*, int)>(&Shader::SetGlobalMatrixArrayImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Array<UnityEngine::Matrix4x4>*, int)>(&UnityEngine::Shader::SetGlobalMatrixArrayImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalMatrixArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Matrix4x4>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalMatrixArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Matrix4x4>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalFloatArrayImpl
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalFloatArrayImpl
 // Il2CppName: GetGlobalFloatArrayImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<float>* (*)(int)>(&Shader::GetGlobalFloatArrayImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<float>* (*)(int)>(&UnityEngine::Shader::GetGlobalFloatArrayImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalFloatArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalFloatArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalVectorArrayImpl
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalVectorArrayImpl
 // Il2CppName: GetGlobalVectorArrayImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector4>* (*)(int)>(&Shader::GetGlobalVectorArrayImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector4>* (*)(int)>(&UnityEngine::Shader::GetGlobalVectorArrayImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalVectorArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalVectorArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalMatrixArrayImpl
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalMatrixArrayImpl
 // Il2CppName: GetGlobalMatrixArrayImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Matrix4x4>* (*)(int)>(&Shader::GetGlobalMatrixArrayImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Matrix4x4>* (*)(int)>(&UnityEngine::Shader::GetGlobalMatrixArrayImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalMatrixArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalMatrixArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalFloatArrayCountImpl
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalFloatArrayCountImpl
 // Il2CppName: GetGlobalFloatArrayCountImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&Shader::GetGlobalFloatArrayCountImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&UnityEngine::Shader::GetGlobalFloatArrayCountImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalFloatArrayCountImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalFloatArrayCountImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalVectorArrayCountImpl
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalVectorArrayCountImpl
 // Il2CppName: GetGlobalVectorArrayCountImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&Shader::GetGlobalVectorArrayCountImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&UnityEngine::Shader::GetGlobalVectorArrayCountImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalVectorArrayCountImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalVectorArrayCountImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalMatrixArrayCountImpl
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalMatrixArrayCountImpl
 // Il2CppName: GetGlobalMatrixArrayCountImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&Shader::GetGlobalMatrixArrayCountImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&UnityEngine::Shader::GetGlobalMatrixArrayCountImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalMatrixArrayCountImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalMatrixArrayCountImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::ExtractGlobalFloatArrayImpl
+// Writing MetadataGetter for method: UnityEngine::Shader::ExtractGlobalFloatArrayImpl
 // Il2CppName: ExtractGlobalFloatArrayImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Array<float>*&)>(&Shader::ExtractGlobalFloatArrayImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Array<float>*&)>(&UnityEngine::Shader::ExtractGlobalFloatArrayImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "ExtractGlobalFloatArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "ExtractGlobalFloatArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*&>()});
   }
 };
-// Writing MetadataGetter for method: Shader::ExtractGlobalVectorArrayImpl
+// Writing MetadataGetter for method: UnityEngine::Shader::ExtractGlobalVectorArrayImpl
 // Il2CppName: ExtractGlobalVectorArrayImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Array<UnityEngine::Vector4>*&)>(&Shader::ExtractGlobalVectorArrayImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Array<UnityEngine::Vector4>*&)>(&UnityEngine::Shader::ExtractGlobalVectorArrayImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "ExtractGlobalVectorArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector4>*&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "ExtractGlobalVectorArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector4>*&>()});
   }
 };
-// Writing MetadataGetter for method: Shader::ExtractGlobalMatrixArrayImpl
+// Writing MetadataGetter for method: UnityEngine::Shader::ExtractGlobalMatrixArrayImpl
 // Il2CppName: ExtractGlobalMatrixArrayImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Array<UnityEngine::Matrix4x4>*&)>(&Shader::ExtractGlobalMatrixArrayImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Array<UnityEngine::Matrix4x4>*&)>(&UnityEngine::Shader::ExtractGlobalMatrixArrayImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "ExtractGlobalMatrixArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Matrix4x4>*&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "ExtractGlobalMatrixArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Matrix4x4>*&>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalFloatArray
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalFloatArray
 // Il2CppName: SetGlobalFloatArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Array<float>*, int)>(&Shader::SetGlobalFloatArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Array<float>*, int)>(&UnityEngine::Shader::SetGlobalFloatArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalVectorArray
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalVectorArray
 // Il2CppName: SetGlobalVectorArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Array<UnityEngine::Vector4>*, int)>(&Shader::SetGlobalVectorArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Array<UnityEngine::Vector4>*, int)>(&UnityEngine::Shader::SetGlobalVectorArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector4>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector4>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalMatrixArray
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalMatrixArray
 // Il2CppName: SetGlobalMatrixArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Array<UnityEngine::Matrix4x4>*, int)>(&Shader::SetGlobalMatrixArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Array<UnityEngine::Matrix4x4>*, int)>(&UnityEngine::Shader::SetGlobalMatrixArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Matrix4x4>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Matrix4x4>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::ExtractGlobalFloatArray
+// Writing MetadataGetter for method: UnityEngine::Shader::ExtractGlobalFloatArray
 // Il2CppName: ExtractGlobalFloatArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, System::Collections::Generic::List_1<float>*)>(&Shader::ExtractGlobalFloatArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, System::Collections::Generic::List_1<float>*)>(&UnityEngine::Shader::ExtractGlobalFloatArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "ExtractGlobalFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "ExtractGlobalFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<float>*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::ExtractGlobalVectorArray
+// Writing MetadataGetter for method: UnityEngine::Shader::ExtractGlobalVectorArray
 // Il2CppName: ExtractGlobalVectorArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, System::Collections::Generic::List_1<UnityEngine::Vector4>*)>(&Shader::ExtractGlobalVectorArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, System::Collections::Generic::List_1<UnityEngine::Vector4>*)>(&UnityEngine::Shader::ExtractGlobalVectorArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "ExtractGlobalVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Vector4>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "ExtractGlobalVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Vector4>*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::ExtractGlobalMatrixArray
+// Writing MetadataGetter for method: UnityEngine::Shader::ExtractGlobalMatrixArray
 // Il2CppName: ExtractGlobalMatrixArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*)>(&Shader::ExtractGlobalMatrixArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*)>(&UnityEngine::Shader::ExtractGlobalMatrixArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "ExtractGlobalMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "ExtractGlobalMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalFloat
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalFloat
 // Il2CppName: SetGlobalFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, float)>(&Shader::SetGlobalFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, float)>(&UnityEngine::Shader::SetGlobalFloat)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalFloat
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalFloat
 // Il2CppName: SetGlobalFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, float)>(&Shader::SetGlobalFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, float)>(&UnityEngine::Shader::SetGlobalFloat)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalInt
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalInt
 // Il2CppName: SetGlobalInt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, int)>(&Shader::SetGlobalInt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, int)>(&UnityEngine::Shader::SetGlobalInt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalInt
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalInt
 // Il2CppName: SetGlobalInt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, int)>(&Shader::SetGlobalInt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, int)>(&UnityEngine::Shader::SetGlobalInt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalVector
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalVector
 // Il2CppName: SetGlobalVector
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::Vector4)>(&Shader::SetGlobalVector)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::Vector4)>(&UnityEngine::Shader::SetGlobalVector)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalVector
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalVector
 // Il2CppName: SetGlobalVector
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Vector4)>(&Shader::SetGlobalVector)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Vector4)>(&UnityEngine::Shader::SetGlobalVector)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalColor
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalColor
 // Il2CppName: SetGlobalColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::Color)>(&Shader::SetGlobalColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::Color)>(&UnityEngine::Shader::SetGlobalColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalColor
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalColor
 // Il2CppName: SetGlobalColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Color)>(&Shader::SetGlobalColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Color)>(&UnityEngine::Shader::SetGlobalColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalMatrix
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalMatrix
 // Il2CppName: SetGlobalMatrix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::Matrix4x4)>(&Shader::SetGlobalMatrix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::Matrix4x4)>(&UnityEngine::Shader::SetGlobalMatrix)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalMatrix
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalMatrix
 // Il2CppName: SetGlobalMatrix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Matrix4x4)>(&Shader::SetGlobalMatrix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Matrix4x4)>(&UnityEngine::Shader::SetGlobalMatrix)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalTexture
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalTexture
 // Il2CppName: SetGlobalTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::Texture*)>(&Shader::SetGlobalTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::Texture*)>(&UnityEngine::Shader::SetGlobalTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalTexture
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalTexture
 // Il2CppName: SetGlobalTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Texture*)>(&Shader::SetGlobalTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Texture*)>(&UnityEngine::Shader::SetGlobalTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalTexture
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalTexture
 // Il2CppName: SetGlobalTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::RenderTexture*, UnityEngine::Rendering::RenderTextureSubElement)>(&Shader::SetGlobalTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::RenderTexture*, UnityEngine::Rendering::RenderTextureSubElement)>(&UnityEngine::Shader::SetGlobalTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTextureSubElement>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTextureSubElement>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalTexture
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalTexture
 // Il2CppName: SetGlobalTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::RenderTexture*, UnityEngine::Rendering::RenderTextureSubElement)>(&Shader::SetGlobalTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::RenderTexture*, UnityEngine::Rendering::RenderTextureSubElement)>(&UnityEngine::Shader::SetGlobalTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTextureSubElement>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTextureSubElement>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalBuffer
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalBuffer
 // Il2CppName: SetGlobalBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::ComputeBuffer*)>(&Shader::SetGlobalBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::ComputeBuffer*)>(&UnityEngine::Shader::SetGlobalBuffer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ComputeBuffer*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ComputeBuffer*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalBuffer
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalBuffer
 // Il2CppName: SetGlobalBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::ComputeBuffer*)>(&Shader::SetGlobalBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::ComputeBuffer*)>(&UnityEngine::Shader::SetGlobalBuffer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ComputeBuffer*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ComputeBuffer*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalConstantBuffer
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalConstantBuffer
 // Il2CppName: SetGlobalConstantBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::ComputeBuffer*, int, int)>(&Shader::SetGlobalConstantBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::ComputeBuffer*, int, int)>(&UnityEngine::Shader::SetGlobalConstantBuffer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalConstantBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ComputeBuffer*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalConstantBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ComputeBuffer*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalFloatArray
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalFloatArray
 // Il2CppName: SetGlobalFloatArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Collections::Generic::List_1<float>*)>(&Shader::SetGlobalFloatArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Collections::Generic::List_1<float>*)>(&UnityEngine::Shader::SetGlobalFloatArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<float>*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalFloatArray
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalFloatArray
 // Il2CppName: SetGlobalFloatArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, System::Collections::Generic::List_1<float>*)>(&Shader::SetGlobalFloatArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, System::Collections::Generic::List_1<float>*)>(&UnityEngine::Shader::SetGlobalFloatArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<float>*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalFloatArray
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalFloatArray
 // Il2CppName: SetGlobalFloatArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<float>*)>(&Shader::SetGlobalFloatArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<float>*)>(&UnityEngine::Shader::SetGlobalFloatArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalFloatArray
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalFloatArray
 // Il2CppName: SetGlobalFloatArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Array<float>*)>(&Shader::SetGlobalFloatArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Array<float>*)>(&UnityEngine::Shader::SetGlobalFloatArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalVectorArray
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalVectorArray
 // Il2CppName: SetGlobalVectorArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Collections::Generic::List_1<UnityEngine::Vector4>*)>(&Shader::SetGlobalVectorArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Collections::Generic::List_1<UnityEngine::Vector4>*)>(&UnityEngine::Shader::SetGlobalVectorArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Vector4>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Vector4>*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalVectorArray
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalVectorArray
 // Il2CppName: SetGlobalVectorArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, System::Collections::Generic::List_1<UnityEngine::Vector4>*)>(&Shader::SetGlobalVectorArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, System::Collections::Generic::List_1<UnityEngine::Vector4>*)>(&UnityEngine::Shader::SetGlobalVectorArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Vector4>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Vector4>*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalVectorArray
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalVectorArray
 // Il2CppName: SetGlobalVectorArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<UnityEngine::Vector4>*)>(&Shader::SetGlobalVectorArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<UnityEngine::Vector4>*)>(&UnityEngine::Shader::SetGlobalVectorArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector4>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector4>*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalVectorArray
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalVectorArray
 // Il2CppName: SetGlobalVectorArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Array<UnityEngine::Vector4>*)>(&Shader::SetGlobalVectorArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Array<UnityEngine::Vector4>*)>(&UnityEngine::Shader::SetGlobalVectorArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector4>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector4>*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalMatrixArray
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalMatrixArray
 // Il2CppName: SetGlobalMatrixArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*)>(&Shader::SetGlobalMatrixArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*)>(&UnityEngine::Shader::SetGlobalMatrixArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalMatrixArray
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalMatrixArray
 // Il2CppName: SetGlobalMatrixArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*)>(&Shader::SetGlobalMatrixArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*)>(&UnityEngine::Shader::SetGlobalMatrixArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalMatrixArray
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalMatrixArray
 // Il2CppName: SetGlobalMatrixArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<UnityEngine::Matrix4x4>*)>(&Shader::SetGlobalMatrixArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<UnityEngine::Matrix4x4>*)>(&UnityEngine::Shader::SetGlobalMatrixArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Matrix4x4>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Matrix4x4>*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalMatrixArray
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalMatrixArray
 // Il2CppName: SetGlobalMatrixArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Array<UnityEngine::Matrix4x4>*)>(&Shader::SetGlobalMatrixArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Array<UnityEngine::Matrix4x4>*)>(&UnityEngine::Shader::SetGlobalMatrixArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Matrix4x4>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Matrix4x4>*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalFloat
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalFloat
 // Il2CppName: GetGlobalFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::Il2CppString*)>(&Shader::GetGlobalFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::Il2CppString*)>(&UnityEngine::Shader::GetGlobalFloat)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalFloat
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalFloat
 // Il2CppName: GetGlobalFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(int)>(&Shader::GetGlobalFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(int)>(&UnityEngine::Shader::GetGlobalFloat)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalInt
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalInt
 // Il2CppName: GetGlobalInt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&Shader::GetGlobalInt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&UnityEngine::Shader::GetGlobalInt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalInt
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalInt
 // Il2CppName: GetGlobalInt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&Shader::GetGlobalInt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&UnityEngine::Shader::GetGlobalInt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalVector
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalVector
 // Il2CppName: GetGlobalVector
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)(::Il2CppString*)>(&Shader::GetGlobalVector)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)(::Il2CppString*)>(&UnityEngine::Shader::GetGlobalVector)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalVector
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalVector
 // Il2CppName: GetGlobalVector
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)(int)>(&Shader::GetGlobalVector)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)(int)>(&UnityEngine::Shader::GetGlobalVector)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalColor
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalColor
 // Il2CppName: GetGlobalColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(::Il2CppString*)>(&Shader::GetGlobalColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(::Il2CppString*)>(&UnityEngine::Shader::GetGlobalColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalColor
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalColor
 // Il2CppName: GetGlobalColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(int)>(&Shader::GetGlobalColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(int)>(&UnityEngine::Shader::GetGlobalColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalMatrix
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalMatrix
 // Il2CppName: GetGlobalMatrix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (*)(::Il2CppString*)>(&Shader::GetGlobalMatrix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (*)(::Il2CppString*)>(&UnityEngine::Shader::GetGlobalMatrix)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalMatrix
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalMatrix
 // Il2CppName: GetGlobalMatrix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (*)(int)>(&Shader::GetGlobalMatrix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (*)(int)>(&UnityEngine::Shader::GetGlobalMatrix)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalTexture
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalTexture
 // Il2CppName: GetGlobalTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture* (*)(::Il2CppString*)>(&Shader::GetGlobalTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture* (*)(::Il2CppString*)>(&UnityEngine::Shader::GetGlobalTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalTexture
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalTexture
 // Il2CppName: GetGlobalTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture* (*)(int)>(&Shader::GetGlobalTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture* (*)(int)>(&UnityEngine::Shader::GetGlobalTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalFloatArray
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalFloatArray
 // Il2CppName: GetGlobalFloatArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<float>* (*)(::Il2CppString*)>(&Shader::GetGlobalFloatArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<float>* (*)(::Il2CppString*)>(&UnityEngine::Shader::GetGlobalFloatArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalFloatArray
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalFloatArray
 // Il2CppName: GetGlobalFloatArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<float>* (*)(int)>(&Shader::GetGlobalFloatArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<float>* (*)(int)>(&UnityEngine::Shader::GetGlobalFloatArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalVectorArray
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalVectorArray
 // Il2CppName: GetGlobalVectorArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector4>* (*)(::Il2CppString*)>(&Shader::GetGlobalVectorArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector4>* (*)(::Il2CppString*)>(&UnityEngine::Shader::GetGlobalVectorArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalVectorArray
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalVectorArray
 // Il2CppName: GetGlobalVectorArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector4>* (*)(int)>(&Shader::GetGlobalVectorArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector4>* (*)(int)>(&UnityEngine::Shader::GetGlobalVectorArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalMatrixArray
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalMatrixArray
 // Il2CppName: GetGlobalMatrixArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Matrix4x4>* (*)(::Il2CppString*)>(&Shader::GetGlobalMatrixArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Matrix4x4>* (*)(::Il2CppString*)>(&UnityEngine::Shader::GetGlobalMatrixArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalMatrixArray
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalMatrixArray
 // Il2CppName: GetGlobalMatrixArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Matrix4x4>* (*)(int)>(&Shader::GetGlobalMatrixArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Matrix4x4>* (*)(int)>(&UnityEngine::Shader::GetGlobalMatrixArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalFloatArray
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalFloatArray
 // Il2CppName: GetGlobalFloatArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Collections::Generic::List_1<float>*)>(&Shader::GetGlobalFloatArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Collections::Generic::List_1<float>*)>(&UnityEngine::Shader::GetGlobalFloatArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<float>*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalFloatArray
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalFloatArray
 // Il2CppName: GetGlobalFloatArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, System::Collections::Generic::List_1<float>*)>(&Shader::GetGlobalFloatArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, System::Collections::Generic::List_1<float>*)>(&UnityEngine::Shader::GetGlobalFloatArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<float>*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalVectorArray
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalVectorArray
 // Il2CppName: GetGlobalVectorArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Collections::Generic::List_1<UnityEngine::Vector4>*)>(&Shader::GetGlobalVectorArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Collections::Generic::List_1<UnityEngine::Vector4>*)>(&UnityEngine::Shader::GetGlobalVectorArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Vector4>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Vector4>*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalVectorArray
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalVectorArray
 // Il2CppName: GetGlobalVectorArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, System::Collections::Generic::List_1<UnityEngine::Vector4>*)>(&Shader::GetGlobalVectorArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, System::Collections::Generic::List_1<UnityEngine::Vector4>*)>(&UnityEngine::Shader::GetGlobalVectorArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Vector4>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Vector4>*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalMatrixArray
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalMatrixArray
 // Il2CppName: GetGlobalMatrixArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*)>(&Shader::GetGlobalMatrixArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*)>(&UnityEngine::Shader::GetGlobalMatrixArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalMatrixArray
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalMatrixArray
 // Il2CppName: GetGlobalMatrixArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*)>(&Shader::GetGlobalMatrixArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*)>(&UnityEngine::Shader::GetGlobalMatrixArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetPropertyName
+// Writing MetadataGetter for method: UnityEngine::Shader::GetPropertyName
 // Il2CppName: GetPropertyName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::Shader*, int)>(&Shader::GetPropertyName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::Shader*, int)>(&UnityEngine::Shader::GetPropertyName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetPropertyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetPropertyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetPropertyNameId
+// Writing MetadataGetter for method: UnityEngine::Shader::GetPropertyNameId
 // Il2CppName: GetPropertyNameId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Shader*, int)>(&Shader::GetPropertyNameId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Shader*, int)>(&UnityEngine::Shader::GetPropertyNameId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetPropertyNameId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetPropertyNameId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetPropertyType
+// Writing MetadataGetter for method: UnityEngine::Shader::GetPropertyType
 // Il2CppName: GetPropertyType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::ShaderPropertyType (*)(UnityEngine::Shader*, int)>(&Shader::GetPropertyType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::ShaderPropertyType (*)(UnityEngine::Shader*, int)>(&UnityEngine::Shader::GetPropertyType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetPropertyType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetPropertyType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetPropertyDescription
+// Writing MetadataGetter for method: UnityEngine::Shader::GetPropertyDescription
 // Il2CppName: GetPropertyDescription
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::Shader*, int)>(&Shader::GetPropertyDescription)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::Shader*, int)>(&UnityEngine::Shader::GetPropertyDescription)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetPropertyDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetPropertyDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetPropertyFlags
+// Writing MetadataGetter for method: UnityEngine::Shader::GetPropertyFlags
 // Il2CppName: GetPropertyFlags
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::ShaderPropertyFlags (*)(UnityEngine::Shader*, int)>(&Shader::GetPropertyFlags)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::ShaderPropertyFlags (*)(UnityEngine::Shader*, int)>(&UnityEngine::Shader::GetPropertyFlags)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetPropertyFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetPropertyFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetPropertyAttributes
+// Writing MetadataGetter for method: UnityEngine::Shader::GetPropertyAttributes
 // Il2CppName: GetPropertyAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(UnityEngine::Shader*, int)>(&Shader::GetPropertyAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(UnityEngine::Shader*, int)>(&UnityEngine::Shader::GetPropertyAttributes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetPropertyAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetPropertyAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetPropertyDefaultValue
+// Writing MetadataGetter for method: UnityEngine::Shader::GetPropertyDefaultValue
 // Il2CppName: GetPropertyDefaultValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)(UnityEngine::Shader*, int)>(&Shader::GetPropertyDefaultValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)(UnityEngine::Shader*, int)>(&UnityEngine::Shader::GetPropertyDefaultValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetPropertyDefaultValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetPropertyDefaultValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetPropertyTextureDimension
+// Writing MetadataGetter for method: UnityEngine::Shader::GetPropertyTextureDimension
 // Il2CppName: GetPropertyTextureDimension
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::TextureDimension (*)(UnityEngine::Shader*, int)>(&Shader::GetPropertyTextureDimension)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::TextureDimension (*)(UnityEngine::Shader*, int)>(&UnityEngine::Shader::GetPropertyTextureDimension)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetPropertyTextureDimension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetPropertyTextureDimension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetPropertyTextureDefaultName
+// Writing MetadataGetter for method: UnityEngine::Shader::GetPropertyTextureDefaultName
 // Il2CppName: GetPropertyTextureDefaultName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::Shader*, int)>(&Shader::GetPropertyTextureDefaultName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::Shader*, int)>(&UnityEngine::Shader::GetPropertyTextureDefaultName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetPropertyTextureDefaultName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetPropertyTextureDefaultName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::CheckPropertyIndex
+// Writing MetadataGetter for method: UnityEngine::Shader::CheckPropertyIndex
 // Il2CppName: CheckPropertyIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Shader*, int)>(&Shader::CheckPropertyIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Shader*, int)>(&UnityEngine::Shader::CheckPropertyIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "CheckPropertyIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "CheckPropertyIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetPropertyCount
+// Writing MetadataGetter for method: UnityEngine::Shader::GetPropertyCount
 // Il2CppName: GetPropertyCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Shader::*)()>(&Shader::GetPropertyCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Shader::*)()>(&UnityEngine::Shader::GetPropertyCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetPropertyCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetPropertyCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Shader::FindPropertyIndex
+// Writing MetadataGetter for method: UnityEngine::Shader::FindPropertyIndex
 // Il2CppName: FindPropertyIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Shader::*)(::Il2CppString*)>(&Shader::FindPropertyIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Shader::*)(::Il2CppString*)>(&UnityEngine::Shader::FindPropertyIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "FindPropertyIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "FindPropertyIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetPropertyName
+// Writing MetadataGetter for method: UnityEngine::Shader::GetPropertyName
 // Il2CppName: GetPropertyName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Shader::*)(int)>(&Shader::GetPropertyName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Shader::*)(int)>(&UnityEngine::Shader::GetPropertyName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetPropertyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetPropertyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetPropertyNameId
+// Writing MetadataGetter for method: UnityEngine::Shader::GetPropertyNameId
 // Il2CppName: GetPropertyNameId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Shader::*)(int)>(&Shader::GetPropertyNameId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Shader::*)(int)>(&UnityEngine::Shader::GetPropertyNameId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetPropertyNameId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetPropertyNameId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetPropertyType
+// Writing MetadataGetter for method: UnityEngine::Shader::GetPropertyType
 // Il2CppName: GetPropertyType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::ShaderPropertyType (Shader::*)(int)>(&Shader::GetPropertyType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::ShaderPropertyType (UnityEngine::Shader::*)(int)>(&UnityEngine::Shader::GetPropertyType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetPropertyType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetPropertyType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetPropertyDescription
+// Writing MetadataGetter for method: UnityEngine::Shader::GetPropertyDescription
 // Il2CppName: GetPropertyDescription
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Shader::*)(int)>(&Shader::GetPropertyDescription)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Shader::*)(int)>(&UnityEngine::Shader::GetPropertyDescription)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetPropertyDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetPropertyDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetPropertyFlags
+// Writing MetadataGetter for method: UnityEngine::Shader::GetPropertyFlags
 // Il2CppName: GetPropertyFlags
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::ShaderPropertyFlags (Shader::*)(int)>(&Shader::GetPropertyFlags)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::ShaderPropertyFlags (UnityEngine::Shader::*)(int)>(&UnityEngine::Shader::GetPropertyFlags)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetPropertyFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetPropertyFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetPropertyAttributes
+// Writing MetadataGetter for method: UnityEngine::Shader::GetPropertyAttributes
 // Il2CppName: GetPropertyAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (Shader::*)(int)>(&Shader::GetPropertyAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (UnityEngine::Shader::*)(int)>(&UnityEngine::Shader::GetPropertyAttributes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetPropertyAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetPropertyAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetPropertyDefaultFloatValue
+// Writing MetadataGetter for method: UnityEngine::Shader::GetPropertyDefaultFloatValue
 // Il2CppName: GetPropertyDefaultFloatValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Shader::*)(int)>(&Shader::GetPropertyDefaultFloatValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Shader::*)(int)>(&UnityEngine::Shader::GetPropertyDefaultFloatValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetPropertyDefaultFloatValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetPropertyDefaultFloatValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetPropertyDefaultVectorValue
+// Writing MetadataGetter for method: UnityEngine::Shader::GetPropertyDefaultVectorValue
 // Il2CppName: GetPropertyDefaultVectorValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (Shader::*)(int)>(&Shader::GetPropertyDefaultVectorValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (UnityEngine::Shader::*)(int)>(&UnityEngine::Shader::GetPropertyDefaultVectorValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetPropertyDefaultVectorValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetPropertyDefaultVectorValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetPropertyRangeLimits
+// Writing MetadataGetter for method: UnityEngine::Shader::GetPropertyRangeLimits
 // Il2CppName: GetPropertyRangeLimits
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (Shader::*)(int)>(&Shader::GetPropertyRangeLimits)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::Shader::*)(int)>(&UnityEngine::Shader::GetPropertyRangeLimits)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetPropertyRangeLimits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetPropertyRangeLimits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetPropertyTextureDimension
+// Writing MetadataGetter for method: UnityEngine::Shader::GetPropertyTextureDimension
 // Il2CppName: GetPropertyTextureDimension
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::TextureDimension (Shader::*)(int)>(&Shader::GetPropertyTextureDimension)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::TextureDimension (UnityEngine::Shader::*)(int)>(&UnityEngine::Shader::GetPropertyTextureDimension)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetPropertyTextureDimension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetPropertyTextureDimension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetPropertyTextureDefaultName
+// Writing MetadataGetter for method: UnityEngine::Shader::GetPropertyTextureDefaultName
 // Il2CppName: GetPropertyTextureDefaultName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Shader::*)(int)>(&Shader::GetPropertyTextureDefaultName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Shader::*)(int)>(&UnityEngine::Shader::GetPropertyTextureDefaultName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetPropertyTextureDefaultName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetPropertyTextureDefaultName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalVectorImpl_Injected
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalVectorImpl_Injected
 // Il2CppName: SetGlobalVectorImpl_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Vector4&)>(&Shader::SetGlobalVectorImpl_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Vector4&)>(&UnityEngine::Shader::SetGlobalVectorImpl_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalVectorImpl_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalVectorImpl_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4&>()});
   }
 };
-// Writing MetadataGetter for method: Shader::SetGlobalMatrixImpl_Injected
+// Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalMatrixImpl_Injected
 // Il2CppName: SetGlobalMatrixImpl_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Matrix4x4&)>(&Shader::SetGlobalMatrixImpl_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Matrix4x4&)>(&UnityEngine::Shader::SetGlobalMatrixImpl_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "SetGlobalMatrixImpl_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "SetGlobalMatrixImpl_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4&>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalVectorImpl_Injected
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalVectorImpl_Injected
 // Il2CppName: GetGlobalVectorImpl_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Vector4&)>(&Shader::GetGlobalVectorImpl_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Vector4&)>(&UnityEngine::Shader::GetGlobalVectorImpl_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalVectorImpl_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalVectorImpl_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4&>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetGlobalMatrixImpl_Injected
+// Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalMatrixImpl_Injected
 // Il2CppName: GetGlobalMatrixImpl_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Matrix4x4&)>(&Shader::GetGlobalMatrixImpl_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Matrix4x4&)>(&UnityEngine::Shader::GetGlobalMatrixImpl_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetGlobalMatrixImpl_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalMatrixImpl_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4&>()});
   }
 };
-// Writing MetadataGetter for method: Shader::GetPropertyDefaultValue_Injected
+// Writing MetadataGetter for method: UnityEngine::Shader::GetPropertyDefaultValue_Injected
 // Il2CppName: GetPropertyDefaultValue_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Shader*, int, UnityEngine::Vector4&)>(&Shader::GetPropertyDefaultValue_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Shader*, int, UnityEngine::Vector4&)>(&UnityEngine::Shader::GetPropertyDefaultValue_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), "GetPropertyDefaultValue_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetPropertyDefaultValue_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4&>()});
   }
 };
-// Writing MetadataGetter for method: Shader::New_ctor
+// Writing MetadataGetter for method: UnityEngine::Shader::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Shader::*)()>(&Shader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Shader::*)()>(&UnityEngine::Shader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Shader::*)()>(&Shader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Shader::*)()>(&UnityEngine::Shader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Shader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

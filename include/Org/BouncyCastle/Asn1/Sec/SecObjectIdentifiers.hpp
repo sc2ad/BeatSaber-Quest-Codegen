@@ -165,11 +165,11 @@ namespace Org::BouncyCastle::Asn1::Sec {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Sec::SecObjectIdentifiers*, "Org.BouncyCastle.Asn1.Sec", "SecObjectIdentifiers");
-// Writing MetadataGetter for method: SecObjectIdentifiers::_cctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Sec::SecObjectIdentifiers::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SecObjectIdentifiers::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::Asn1::Sec::SecObjectIdentifiers::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecObjectIdentifiers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Sec::SecObjectIdentifiers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

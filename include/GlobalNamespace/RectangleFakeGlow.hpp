@@ -113,73 +113,73 @@ namespace GlobalNamespace {
   static_assert(sizeof(RectangleFakeGlow) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RectangleFakeGlow*, "", "RectangleFakeGlow");
-// Writing MetadataGetter for method: RectangleFakeGlow::set_color
+// Writing MetadataGetter for method: GlobalNamespace::RectangleFakeGlow::set_color
 // Il2CppName: set_color
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectangleFakeGlow::*)(UnityEngine::Color)>(&RectangleFakeGlow::set_color)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RectangleFakeGlow::*)(UnityEngine::Color)>(&GlobalNamespace::RectangleFakeGlow::set_color)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RectangleFakeGlow*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RectangleFakeGlow*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: RectangleFakeGlow::get_color
+// Writing MetadataGetter for method: GlobalNamespace::RectangleFakeGlow::get_color
 // Il2CppName: get_color
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (RectangleFakeGlow::*)()>(&RectangleFakeGlow::get_color)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::RectangleFakeGlow::*)()>(&GlobalNamespace::RectangleFakeGlow::get_color)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RectangleFakeGlow*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RectangleFakeGlow*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RectangleFakeGlow::Awake
+// Writing MetadataGetter for method: GlobalNamespace::RectangleFakeGlow::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectangleFakeGlow::*)()>(&RectangleFakeGlow::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RectangleFakeGlow::*)()>(&GlobalNamespace::RectangleFakeGlow::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RectangleFakeGlow*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RectangleFakeGlow*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RectangleFakeGlow::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::RectangleFakeGlow::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectangleFakeGlow::*)()>(&RectangleFakeGlow::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RectangleFakeGlow::*)()>(&GlobalNamespace::RectangleFakeGlow::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RectangleFakeGlow*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RectangleFakeGlow*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RectangleFakeGlow::OnDisable
+// Writing MetadataGetter for method: GlobalNamespace::RectangleFakeGlow::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectangleFakeGlow::*)()>(&RectangleFakeGlow::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RectangleFakeGlow::*)()>(&GlobalNamespace::RectangleFakeGlow::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RectangleFakeGlow*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RectangleFakeGlow*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RectangleFakeGlow::Refresh
+// Writing MetadataGetter for method: GlobalNamespace::RectangleFakeGlow::Refresh
 // Il2CppName: Refresh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectangleFakeGlow::*)()>(&RectangleFakeGlow::Refresh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RectangleFakeGlow::*)()>(&GlobalNamespace::RectangleFakeGlow::Refresh)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RectangleFakeGlow*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RectangleFakeGlow*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RectangleFakeGlow::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::RectangleFakeGlow::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectangleFakeGlow::*)()>(&RectangleFakeGlow::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RectangleFakeGlow::*)()>(&GlobalNamespace::RectangleFakeGlow::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RectangleFakeGlow*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RectangleFakeGlow*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RectangleFakeGlow::*)()>(&RectangleFakeGlow::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RectangleFakeGlow::*)()>(&GlobalNamespace::RectangleFakeGlow::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RectangleFakeGlow*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RectangleFakeGlow*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RectangleFakeGlow::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::RectangleFakeGlow::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&RectangleFakeGlow::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::RectangleFakeGlow::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RectangleFakeGlow*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RectangleFakeGlow*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

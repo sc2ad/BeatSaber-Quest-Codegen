@@ -75,59 +75,59 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IUnconnectedSenderReceiver*, "", "IUnconnectedSenderReceiver");
-// Writing MetadataGetter for method: IUnconnectedSenderReceiver::get_unconnectedPacketHeader
+// Writing MetadataGetter for method: GlobalNamespace::IUnconnectedSenderReceiver::get_unconnectedPacketHeader
 // Il2CppName: get_unconnectedPacketHeader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (IUnconnectedSenderReceiver::*)()>(&IUnconnectedSenderReceiver::get_unconnectedPacketHeader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (GlobalNamespace::IUnconnectedSenderReceiver::*)()>(&GlobalNamespace::IUnconnectedSenderReceiver::get_unconnectedPacketHeader)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IUnconnectedSenderReceiver*), "get_unconnectedPacketHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnconnectedSenderReceiver*), "get_unconnectedPacketHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IUnconnectedSenderReceiver::get_encryptionLayer
+// Writing MetadataGetter for method: GlobalNamespace::IUnconnectedSenderReceiver::get_encryptionLayer
 // Il2CppName: get_encryptionLayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketEncryptionLayer* (IUnconnectedSenderReceiver::*)()>(&IUnconnectedSenderReceiver::get_encryptionLayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketEncryptionLayer* (GlobalNamespace::IUnconnectedSenderReceiver::*)()>(&GlobalNamespace::IUnconnectedSenderReceiver::get_encryptionLayer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IUnconnectedSenderReceiver*), "get_encryptionLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnconnectedSenderReceiver*), "get_encryptionLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IUnconnectedSenderReceiver::get_port
+// Writing MetadataGetter for method: GlobalNamespace::IUnconnectedSenderReceiver::get_port
 // Il2CppName: get_port
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IUnconnectedSenderReceiver::*)()>(&IUnconnectedSenderReceiver::get_port)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::IUnconnectedSenderReceiver::*)()>(&GlobalNamespace::IUnconnectedSenderReceiver::get_port)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IUnconnectedSenderReceiver*), "get_port", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnconnectedSenderReceiver*), "get_port", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IUnconnectedSenderReceiver::add_onReceiveUnconnectedDataEvent
+// Writing MetadataGetter for method: GlobalNamespace::IUnconnectedSenderReceiver::add_onReceiveUnconnectedDataEvent
 // Il2CppName: add_onReceiveUnconnectedDataEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IUnconnectedSenderReceiver::*)(System::Action_2<System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataReader*>*)>(&IUnconnectedSenderReceiver::add_onReceiveUnconnectedDataEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IUnconnectedSenderReceiver::*)(System::Action_2<System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataReader*>*)>(&GlobalNamespace::IUnconnectedSenderReceiver::add_onReceiveUnconnectedDataEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IUnconnectedSenderReceiver*), "add_onReceiveUnconnectedDataEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataReader*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnconnectedSenderReceiver*), "add_onReceiveUnconnectedDataEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataReader*>*>()});
   }
 };
-// Writing MetadataGetter for method: IUnconnectedSenderReceiver::remove_onReceiveUnconnectedDataEvent
+// Writing MetadataGetter for method: GlobalNamespace::IUnconnectedSenderReceiver::remove_onReceiveUnconnectedDataEvent
 // Il2CppName: remove_onReceiveUnconnectedDataEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IUnconnectedSenderReceiver::*)(System::Action_2<System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataReader*>*)>(&IUnconnectedSenderReceiver::remove_onReceiveUnconnectedDataEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IUnconnectedSenderReceiver::*)(System::Action_2<System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataReader*>*)>(&GlobalNamespace::IUnconnectedSenderReceiver::remove_onReceiveUnconnectedDataEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IUnconnectedSenderReceiver*), "remove_onReceiveUnconnectedDataEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataReader*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnconnectedSenderReceiver*), "remove_onReceiveUnconnectedDataEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataReader*>*>()});
   }
 };
-// Writing MetadataGetter for method: IUnconnectedSenderReceiver::SendUnconnected
+// Writing MetadataGetter for method: GlobalNamespace::IUnconnectedSenderReceiver::SendUnconnected
 // Il2CppName: SendUnconnected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IUnconnectedSenderReceiver::*)(System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataWriter*)>(&IUnconnectedSenderReceiver::SendUnconnected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IUnconnectedSenderReceiver::*)(System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataWriter*)>(&GlobalNamespace::IUnconnectedSenderReceiver::SendUnconnected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IUnconnectedSenderReceiver*), "SendUnconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnconnectedSenderReceiver*), "SendUnconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
   }
 };
-// Writing MetadataGetter for method: IUnconnectedSenderReceiver::PollUpdate
+// Writing MetadataGetter for method: GlobalNamespace::IUnconnectedSenderReceiver::PollUpdate
 // Il2CppName: PollUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IUnconnectedSenderReceiver::*)()>(&IUnconnectedSenderReceiver::PollUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IUnconnectedSenderReceiver::*)()>(&GlobalNamespace::IUnconnectedSenderReceiver::PollUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IUnconnectedSenderReceiver*), "PollUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnconnectedSenderReceiver*), "PollUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

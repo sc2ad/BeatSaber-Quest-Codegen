@@ -159,135 +159,135 @@ namespace GlobalNamespace {
   GlobalNamespace::QuaternionSerializable operator-(const GlobalNamespace::QuaternionSerializable& a, const GlobalNamespace::QuaternionSerializable& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuaternionSerializable, "", "QuaternionSerializable");
-// Writing MetadataGetter for method: QuaternionSerializable::get_identity
+// Writing MetadataGetter for method: GlobalNamespace::QuaternionSerializable::get_identity
 // Il2CppName: get_identity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::QuaternionSerializable (*)()>(&QuaternionSerializable::get_identity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::QuaternionSerializable (*)()>(&GlobalNamespace::QuaternionSerializable::get_identity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), "get_identity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuaternionSerializable), "get_identity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: QuaternionSerializable::ToSmallest
+// Writing MetadataGetter for method: GlobalNamespace::QuaternionSerializable::ToSmallest
 // Il2CppName: ToSmallest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Quaternion, int&, int&, int&)>(&QuaternionSerializable::ToSmallest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Quaternion, int&, int&, int&)>(&GlobalNamespace::QuaternionSerializable::ToSmallest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), "ToSmallest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuaternionSerializable), "ToSmallest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: QuaternionSerializable::FromSmallest
+// Writing MetadataGetter for method: GlobalNamespace::QuaternionSerializable::FromSmallest
 // Il2CppName: FromSmallest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(int, int, int)>(&QuaternionSerializable::FromSmallest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(int, int, int)>(&GlobalNamespace::QuaternionSerializable::FromSmallest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), "FromSmallest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuaternionSerializable), "FromSmallest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: QuaternionSerializable::Serialize
+// Writing MetadataGetter for method: GlobalNamespace::QuaternionSerializable::Serialize
 // Il2CppName: Serialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuaternionSerializable::*)(LiteNetLib::Utils::NetDataWriter*)>(&QuaternionSerializable::Serialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuaternionSerializable::*)(LiteNetLib::Utils::NetDataWriter*)>(&GlobalNamespace::QuaternionSerializable::Serialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuaternionSerializable), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
   }
 };
-// Writing MetadataGetter for method: QuaternionSerializable::Deserialize
+// Writing MetadataGetter for method: GlobalNamespace::QuaternionSerializable::Deserialize
 // Il2CppName: Deserialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuaternionSerializable::*)(LiteNetLib::Utils::NetDataReader*)>(&QuaternionSerializable::Deserialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuaternionSerializable::*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::QuaternionSerializable::Deserialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuaternionSerializable), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
   }
 };
-// Writing MetadataGetter for method: QuaternionSerializable::Equals
+// Writing MetadataGetter for method: GlobalNamespace::QuaternionSerializable::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (QuaternionSerializable::*)(GlobalNamespace::QuaternionSerializable)>(&QuaternionSerializable::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::QuaternionSerializable::*)(GlobalNamespace::QuaternionSerializable)>(&GlobalNamespace::QuaternionSerializable::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::QuaternionSerializable>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuaternionSerializable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::QuaternionSerializable>()});
   }
 };
-// Writing MetadataGetter for method: QuaternionSerializable::Approximately
+// Writing MetadataGetter for method: GlobalNamespace::QuaternionSerializable::Approximately
 // Il2CppName: Approximately
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (QuaternionSerializable::*)(GlobalNamespace::QuaternionSerializable)>(&QuaternionSerializable::Approximately)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::QuaternionSerializable::*)(GlobalNamespace::QuaternionSerializable)>(&GlobalNamespace::QuaternionSerializable::Approximately)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), "Approximately", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::QuaternionSerializable>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuaternionSerializable), "Approximately", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::QuaternionSerializable>()});
   }
 };
-// Writing MetadataGetter for method: QuaternionSerializable::GetSize
+// Writing MetadataGetter for method: GlobalNamespace::QuaternionSerializable::GetSize
 // Il2CppName: GetSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (QuaternionSerializable::*)()>(&QuaternionSerializable::GetSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::QuaternionSerializable::*)()>(&GlobalNamespace::QuaternionSerializable::GetSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), "GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuaternionSerializable), "GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: QuaternionSerializable::QuaternionSerializable
+// Writing MetadataGetter for method: GlobalNamespace::QuaternionSerializable::QuaternionSerializable
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuaternionSerializable::*)(UnityEngine::Quaternion)>(&QuaternionSerializable::QuaternionSerializable<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuaternionSerializable::*)(UnityEngine::Quaternion)>(&GlobalNamespace::QuaternionSerializable::QuaternionSerializable<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuaternionSerializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuaternionSerializable::*)(UnityEngine::Quaternion)>(&QuaternionSerializable::QuaternionSerializable<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuaternionSerializable::*)(UnityEngine::Quaternion)>(&GlobalNamespace::QuaternionSerializable::QuaternionSerializable<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuaternionSerializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
   }
 };
-// Writing MetadataGetter for method: QuaternionSerializable::QuaternionSerializable
+// Writing MetadataGetter for method: GlobalNamespace::QuaternionSerializable::QuaternionSerializable
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuaternionSerializable::*)(LiteNetLib::Utils::NetDataReader*)>(&QuaternionSerializable::QuaternionSerializable<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuaternionSerializable::*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::QuaternionSerializable::QuaternionSerializable<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuaternionSerializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuaternionSerializable::*)(LiteNetLib::Utils::NetDataReader*)>(&QuaternionSerializable::QuaternionSerializable<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuaternionSerializable::*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::QuaternionSerializable::QuaternionSerializable<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuaternionSerializable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
   }
 };
-// Writing MetadataGetter for method: QuaternionSerializable::Equals
+// Writing MetadataGetter for method: GlobalNamespace::QuaternionSerializable::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (QuaternionSerializable::*)(::Il2CppObject*)>(&QuaternionSerializable::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::QuaternionSerializable::*)(::Il2CppObject*)>(&GlobalNamespace::QuaternionSerializable::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuaternionSerializable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: QuaternionSerializable::GetHashCode
+// Writing MetadataGetter for method: GlobalNamespace::QuaternionSerializable::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (QuaternionSerializable::*)()>(&QuaternionSerializable::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::QuaternionSerializable::*)()>(&GlobalNamespace::QuaternionSerializable::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuaternionSerializable), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: QuaternionSerializable::ToString
+// Writing MetadataGetter for method: GlobalNamespace::QuaternionSerializable::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (QuaternionSerializable::*)()>(&QuaternionSerializable::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::QuaternionSerializable::*)()>(&GlobalNamespace::QuaternionSerializable::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuaternionSerializable), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: QuaternionSerializable::operator+
+// Writing MetadataGetter for method: GlobalNamespace::QuaternionSerializable::operator+
 // Il2CppName: op_Addition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::QuaternionSerializable (*)(const GlobalNamespace::QuaternionSerializable&, const GlobalNamespace::QuaternionSerializable&)>(&QuaternionSerializable::operator+)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::QuaternionSerializable (*)(const GlobalNamespace::QuaternionSerializable&, const GlobalNamespace::QuaternionSerializable&)>(&GlobalNamespace::QuaternionSerializable::operator+)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), "op_Addition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::QuaternionSerializable&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::QuaternionSerializable&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuaternionSerializable), "op_Addition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::QuaternionSerializable&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::QuaternionSerializable&>()});
   }
 };
-// Writing MetadataGetter for method: QuaternionSerializable::operator-
+// Writing MetadataGetter for method: GlobalNamespace::QuaternionSerializable::operator-
 // Il2CppName: op_Subtraction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::QuaternionSerializable (*)(const GlobalNamespace::QuaternionSerializable&, const GlobalNamespace::QuaternionSerializable&)>(&QuaternionSerializable::operator-)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::QuaternionSerializable (*)(const GlobalNamespace::QuaternionSerializable&, const GlobalNamespace::QuaternionSerializable&)>(&GlobalNamespace::QuaternionSerializable::operator-)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(QuaternionSerializable), "op_Subtraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::QuaternionSerializable&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::QuaternionSerializable&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuaternionSerializable), "op_Subtraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::QuaternionSerializable&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::QuaternionSerializable&>()});
   }
 };

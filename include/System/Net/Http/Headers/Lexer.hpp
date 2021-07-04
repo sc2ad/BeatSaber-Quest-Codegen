@@ -132,177 +132,177 @@ namespace System::Net::Http::Headers {
   static_assert(sizeof(Lexer) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Lexer*, "System.Net.Http.Headers", "Lexer");
-// Writing MetadataGetter for method: Lexer::New_ctor
+// Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Lexer::*)(::Il2CppString*)>(&Lexer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::Lexer::*)(::Il2CppString*)>(&System::Net::Http::Headers::Lexer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Lexer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Lexer::*)(::Il2CppString*)>(&Lexer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::Lexer::*)(::Il2CppString*)>(&System::Net::Http::Headers::Lexer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Lexer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Lexer::get_Position
+// Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::get_Position
 // Il2CppName: get_Position
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Lexer::*)()>(&Lexer::get_Position)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Http::Headers::Lexer::*)()>(&System::Net::Http::Headers::Lexer::get_Position)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Lexer*), "get_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "get_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Lexer::set_Position
+// Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::set_Position
 // Il2CppName: set_Position
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Lexer::*)(int)>(&Lexer::set_Position)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::Lexer::*)(int)>(&System::Net::Http::Headers::Lexer::set_Position)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Lexer*), "set_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "set_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Lexer::GetStringValue
+// Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::GetStringValue
 // Il2CppName: GetStringValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Lexer::*)(System::Net::Http::Headers::Token)>(&Lexer::GetStringValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::Lexer::*)(System::Net::Http::Headers::Token)>(&System::Net::Http::Headers::Lexer::GetStringValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Lexer*), "GetStringValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "GetStringValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>()});
   }
 };
-// Writing MetadataGetter for method: Lexer::GetStringValue
+// Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::GetStringValue
 // Il2CppName: GetStringValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Lexer::*)(System::Net::Http::Headers::Token, System::Net::Http::Headers::Token)>(&Lexer::GetStringValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::Lexer::*)(System::Net::Http::Headers::Token, System::Net::Http::Headers::Token)>(&System::Net::Http::Headers::Lexer::GetStringValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Lexer*), "GetStringValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "GetStringValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>()});
   }
 };
-// Writing MetadataGetter for method: Lexer::GetQuotedStringValue
+// Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::GetQuotedStringValue
 // Il2CppName: GetQuotedStringValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Lexer::*)(System::Net::Http::Headers::Token)>(&Lexer::GetQuotedStringValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::Lexer::*)(System::Net::Http::Headers::Token)>(&System::Net::Http::Headers::Lexer::GetQuotedStringValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Lexer*), "GetQuotedStringValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "GetQuotedStringValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>()});
   }
 };
-// Writing MetadataGetter for method: Lexer::GetRemainingStringValue
+// Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::GetRemainingStringValue
 // Il2CppName: GetRemainingStringValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Lexer::*)(int)>(&Lexer::GetRemainingStringValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::Lexer::*)(int)>(&System::Net::Http::Headers::Lexer::GetRemainingStringValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Lexer*), "GetRemainingStringValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "GetRemainingStringValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Lexer::IsStarStringValue
+// Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::IsStarStringValue
 // Il2CppName: IsStarStringValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Lexer::*)(System::Net::Http::Headers::Token)>(&Lexer::IsStarStringValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::Lexer::*)(System::Net::Http::Headers::Token)>(&System::Net::Http::Headers::Lexer::IsStarStringValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Lexer*), "IsStarStringValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "IsStarStringValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>()});
   }
 };
-// Writing MetadataGetter for method: Lexer::TryGetNumericValue
+// Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::TryGetNumericValue
 // Il2CppName: TryGetNumericValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Lexer::*)(System::Net::Http::Headers::Token, int&)>(&Lexer::TryGetNumericValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::Lexer::*)(System::Net::Http::Headers::Token, int&)>(&System::Net::Http::Headers::Lexer::TryGetNumericValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Lexer*), "TryGetNumericValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "TryGetNumericValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: Lexer::TryGetNumericValue
+// Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::TryGetNumericValue
 // Il2CppName: TryGetNumericValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Lexer::*)(System::Net::Http::Headers::Token, int64_t&)>(&Lexer::TryGetNumericValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::Lexer::*)(System::Net::Http::Headers::Token, int64_t&)>(&System::Net::Http::Headers::Lexer::TryGetNumericValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Lexer*), "TryGetNumericValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "TryGetNumericValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>()});
   }
 };
-// Writing MetadataGetter for method: Lexer::TryGetTimeSpanValue
+// Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::TryGetTimeSpanValue
 // Il2CppName: TryGetTimeSpanValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::TimeSpan> (Lexer::*)(System::Net::Http::Headers::Token)>(&Lexer::TryGetTimeSpanValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::TimeSpan> (System::Net::Http::Headers::Lexer::*)(System::Net::Http::Headers::Token)>(&System::Net::Http::Headers::Lexer::TryGetTimeSpanValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Lexer*), "TryGetTimeSpanValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "TryGetTimeSpanValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>()});
   }
 };
-// Writing MetadataGetter for method: Lexer::TryGetDateValue
+// Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::TryGetDateValue
 // Il2CppName: TryGetDateValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Lexer::*)(System::Net::Http::Headers::Token, System::DateTimeOffset&)>(&Lexer::TryGetDateValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::Lexer::*)(System::Net::Http::Headers::Token, System::DateTimeOffset&)>(&System::Net::Http::Headers::Lexer::TryGetDateValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Lexer*), "TryGetDateValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>(), ::il2cpp_utils::ExtractIndependentType<System::DateTimeOffset&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "TryGetDateValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>(), ::il2cpp_utils::ExtractIndependentType<System::DateTimeOffset&>()});
   }
 };
-// Writing MetadataGetter for method: Lexer::TryGetDateValue
+// Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::TryGetDateValue
 // Il2CppName: TryGetDateValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::DateTimeOffset&)>(&Lexer::TryGetDateValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::DateTimeOffset&)>(&System::Net::Http::Headers::Lexer::TryGetDateValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Lexer*), "TryGetDateValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::DateTimeOffset&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "TryGetDateValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::DateTimeOffset&>()});
   }
 };
-// Writing MetadataGetter for method: Lexer::TryGetDoubleValue
+// Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::TryGetDoubleValue
 // Il2CppName: TryGetDoubleValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Lexer::*)(System::Net::Http::Headers::Token, double&)>(&Lexer::TryGetDoubleValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::Lexer::*)(System::Net::Http::Headers::Token, double&)>(&System::Net::Http::Headers::Lexer::TryGetDoubleValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Lexer*), "TryGetDoubleValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>(), ::il2cpp_utils::ExtractIndependentType<double&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "TryGetDoubleValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token>(), ::il2cpp_utils::ExtractIndependentType<double&>()});
   }
 };
-// Writing MetadataGetter for method: Lexer::IsValidToken
+// Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::IsValidToken
 // Il2CppName: IsValidToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Lexer::IsValidToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&System::Net::Http::Headers::Lexer::IsValidToken)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Lexer*), "IsValidToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "IsValidToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Lexer::IsValidCharacter
+// Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::IsValidCharacter
 // Il2CppName: IsValidCharacter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&Lexer::IsValidCharacter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&System::Net::Http::Headers::Lexer::IsValidCharacter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Lexer*), "IsValidCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "IsValidCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
   }
 };
-// Writing MetadataGetter for method: Lexer::EatChar
+// Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::EatChar
 // Il2CppName: EatChar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Lexer::*)()>(&Lexer::EatChar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::Lexer::*)()>(&System::Net::Http::Headers::Lexer::EatChar)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Lexer*), "EatChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "EatChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Lexer::PeekChar
+// Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::PeekChar
 // Il2CppName: PeekChar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Lexer::*)()>(&Lexer::PeekChar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Http::Headers::Lexer::*)()>(&System::Net::Http::Headers::Lexer::PeekChar)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Lexer*), "PeekChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "PeekChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Lexer::ScanCommentOptional
+// Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::ScanCommentOptional
 // Il2CppName: ScanCommentOptional
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Lexer::*)(::Il2CppString*&, System::Net::Http::Headers::Token&)>(&Lexer::ScanCommentOptional)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::Lexer::*)(::Il2CppString*&, System::Net::Http::Headers::Token&)>(&System::Net::Http::Headers::Lexer::ScanCommentOptional)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Lexer*), "ScanCommentOptional", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "ScanCommentOptional", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token&>()});
   }
 };
-// Writing MetadataGetter for method: Lexer::Scan
+// Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::Scan
 // Il2CppName: Scan
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Http::Headers::Token (Lexer::*)(bool)>(&Lexer::Scan)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Http::Headers::Token (System::Net::Http::Headers::Lexer::*)(bool)>(&System::Net::Http::Headers::Lexer::Scan)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Lexer*), "Scan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), "Scan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Lexer::_cctor
+// Writing MetadataGetter for method: System::Net::Http::Headers::Lexer::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Lexer::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Net::Http::Headers::Lexer::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Lexer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Lexer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

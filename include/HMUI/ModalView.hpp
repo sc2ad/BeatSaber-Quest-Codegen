@@ -186,105 +186,105 @@ namespace HMUI {
   static_assert(sizeof(ModalView) == 0x6C);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ModalView*, "HMUI", "ModalView");
-// Writing MetadataGetter for method: ModalView::add_blockerClickedEvent
+// Writing MetadataGetter for method: HMUI::ModalView::add_blockerClickedEvent
 // Il2CppName: add_blockerClickedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ModalView::*)(System::Action*)>(&ModalView::add_blockerClickedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ModalView::*)(System::Action*)>(&HMUI::ModalView::add_blockerClickedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModalView*), "add_blockerClickedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ModalView*), "add_blockerClickedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: ModalView::remove_blockerClickedEvent
+// Writing MetadataGetter for method: HMUI::ModalView::remove_blockerClickedEvent
 // Il2CppName: remove_blockerClickedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ModalView::*)(System::Action*)>(&ModalView::remove_blockerClickedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ModalView::*)(System::Action*)>(&HMUI::ModalView::remove_blockerClickedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModalView*), "remove_blockerClickedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ModalView*), "remove_blockerClickedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: ModalView::OnDisable
+// Writing MetadataGetter for method: HMUI::ModalView::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ModalView::*)()>(&ModalView::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ModalView::*)()>(&HMUI::ModalView::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModalView*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ModalView*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ModalView::OnDestroy
+// Writing MetadataGetter for method: HMUI::ModalView::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ModalView::*)()>(&ModalView::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ModalView::*)()>(&HMUI::ModalView::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModalView*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ModalView*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ModalView::SetupView
+// Writing MetadataGetter for method: HMUI::ModalView::SetupView
 // Il2CppName: SetupView
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ModalView::*)(UnityEngine::Transform*)>(&ModalView::SetupView)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ModalView::*)(UnityEngine::Transform*)>(&HMUI::ModalView::SetupView)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModalView*), "SetupView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ModalView*), "SetupView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
   }
 };
-// Writing MetadataGetter for method: ModalView::Hide
+// Writing MetadataGetter for method: HMUI::ModalView::Hide
 // Il2CppName: Hide
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ModalView::*)(bool, System::Action*)>(&ModalView::Hide)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ModalView::*)(bool, System::Action*)>(&HMUI::ModalView::Hide)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModalView*), "Hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ModalView*), "Hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: ModalView::Show
+// Writing MetadataGetter for method: HMUI::ModalView::Show
 // Il2CppName: Show
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ModalView::*)(bool, bool, System::Action*)>(&ModalView::Show)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ModalView::*)(bool, bool, System::Action*)>(&HMUI::ModalView::Show)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModalView*), "Show", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ModalView*), "Show", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: ModalView::CreateBlocker
+// Writing MetadataGetter for method: HMUI::ModalView::CreateBlocker
 // Il2CppName: CreateBlocker
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (ModalView::*)()>(&ModalView::CreateBlocker)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (HMUI::ModalView::*)()>(&HMUI::ModalView::CreateBlocker)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModalView*), "CreateBlocker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ModalView*), "CreateBlocker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ModalView::HandleBlockerButtonClicked
+// Writing MetadataGetter for method: HMUI::ModalView::HandleBlockerButtonClicked
 // Il2CppName: HandleBlockerButtonClicked
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ModalView::*)()>(&ModalView::HandleBlockerButtonClicked)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ModalView::*)()>(&HMUI::ModalView::HandleBlockerButtonClicked)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModalView*), "HandleBlockerButtonClicked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ModalView*), "HandleBlockerButtonClicked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ModalView::HandleParentViewControllerDidDeactivate
+// Writing MetadataGetter for method: HMUI::ModalView::HandleParentViewControllerDidDeactivate
 // Il2CppName: HandleParentViewControllerDidDeactivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ModalView::*)(bool, bool)>(&ModalView::HandleParentViewControllerDidDeactivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ModalView::*)(bool, bool)>(&HMUI::ModalView::HandleParentViewControllerDidDeactivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModalView*), "HandleParentViewControllerDidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ModalView*), "HandleParentViewControllerDidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ModalView::GetModalRootTransform
+// Writing MetadataGetter for method: HMUI::ModalView::GetModalRootTransform
 // Il2CppName: GetModalRootTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(UnityEngine::Transform*, UnityEngine::Canvas*&, HMUI::ViewController*&)>(&ModalView::GetModalRootTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(UnityEngine::Transform*, UnityEngine::Canvas*&, HMUI::ViewController*&)>(&HMUI::ModalView::GetModalRootTransform)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModalView*), "GetModalRootTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Canvas*&>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*&>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ModalView*), "GetModalRootTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Canvas*&>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*&>()});
   }
 };
-// Writing MetadataGetter for method: ModalView::New_ctor
+// Writing MetadataGetter for method: HMUI::ModalView::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ModalView::*)()>(&ModalView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ModalView::*)()>(&HMUI::ModalView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModalView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ModalView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ModalView::*)()>(&ModalView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ModalView::*)()>(&HMUI::ModalView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModalView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ModalView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

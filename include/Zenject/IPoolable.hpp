@@ -24,19 +24,19 @@ namespace Zenject {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IPoolable*, "Zenject", "IPoolable");
-// Writing MetadataGetter for method: IPoolable::OnDespawned
+// Writing MetadataGetter for method: Zenject::IPoolable::OnDespawned
 // Il2CppName: OnDespawned
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPoolable::*)()>(&IPoolable::OnDespawned)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::IPoolable::*)()>(&Zenject::IPoolable::OnDespawned)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IPoolable*), "OnDespawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::IPoolable*), "OnDespawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IPoolable::OnSpawned
+// Writing MetadataGetter for method: Zenject::IPoolable::OnSpawned
 // Il2CppName: OnSpawned
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPoolable::*)()>(&IPoolable::OnSpawned)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::IPoolable::*)()>(&Zenject::IPoolable::OnSpawned)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IPoolable*), "OnSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::IPoolable*), "OnSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -60,73 +60,73 @@ namespace System::Runtime::Remoting::Messaging {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CallContext*, "System.Runtime.Remoting.Messaging", "CallContext");
-// Writing MetadataGetter for method: CallContext::SetCurrentCallContext
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CallContext::SetCurrentCallContext
 // Il2CppName: SetCurrentCallContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Runtime::Remoting::Messaging::LogicalCallContext*)>(&CallContext::SetCurrentCallContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Runtime::Remoting::Messaging::LogicalCallContext*)>(&System::Runtime::Remoting::Messaging::CallContext::SetCurrentCallContext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CallContext*), "SetCurrentCallContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::LogicalCallContext*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CallContext*), "SetCurrentCallContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::LogicalCallContext*>()});
   }
 };
-// Writing MetadataGetter for method: CallContext::SetLogicalCallContext
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CallContext::SetLogicalCallContext
 // Il2CppName: SetLogicalCallContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::LogicalCallContext* (*)(System::Runtime::Remoting::Messaging::LogicalCallContext*)>(&CallContext::SetLogicalCallContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::LogicalCallContext* (*)(System::Runtime::Remoting::Messaging::LogicalCallContext*)>(&System::Runtime::Remoting::Messaging::CallContext::SetLogicalCallContext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CallContext*), "SetLogicalCallContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::LogicalCallContext*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CallContext*), "SetLogicalCallContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::LogicalCallContext*>()});
   }
 };
-// Writing MetadataGetter for method: CallContext::LogicalGetData
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CallContext::LogicalGetData
 // Il2CppName: LogicalGetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppString*)>(&CallContext::LogicalGetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppString*)>(&System::Runtime::Remoting::Messaging::CallContext::LogicalGetData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CallContext*), "LogicalGetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CallContext*), "LogicalGetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CallContext::IllogicalGetData
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CallContext::IllogicalGetData
 // Il2CppName: IllogicalGetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppString*)>(&CallContext::IllogicalGetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppString*)>(&System::Runtime::Remoting::Messaging::CallContext::IllogicalGetData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CallContext*), "IllogicalGetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CallContext*), "IllogicalGetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CallContext::GetData
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CallContext::GetData
 // Il2CppName: GetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppString*)>(&CallContext::GetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppString*)>(&System::Runtime::Remoting::Messaging::CallContext::GetData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CallContext*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CallContext*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CallContext::SetData
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CallContext::SetData
 // Il2CppName: SetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppObject*)>(&CallContext::SetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppObject*)>(&System::Runtime::Remoting::Messaging::CallContext::SetData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CallContext*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CallContext*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: CallContext::LogicalSetData
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CallContext::LogicalSetData
 // Il2CppName: LogicalSetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppObject*)>(&CallContext::LogicalSetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppObject*)>(&System::Runtime::Remoting::Messaging::CallContext::LogicalSetData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CallContext*), "LogicalSetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CallContext*), "LogicalSetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: CallContext::New_ctor
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CallContext::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CallContext::*)()>(&CallContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::CallContext::*)()>(&System::Runtime::Remoting::Messaging::CallContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CallContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CallContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CallContext::*)()>(&CallContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::CallContext::*)()>(&System::Runtime::Remoting::Messaging::CallContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CallContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CallContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

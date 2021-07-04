@@ -85,73 +85,73 @@ namespace System::IO {
   static_assert(sizeof(CStreamWriter) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::CStreamWriter*, "System.IO", "CStreamWriter");
-// Writing MetadataGetter for method: CStreamWriter::New_ctor
+// Writing MetadataGetter for method: System::IO::CStreamWriter::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CStreamWriter::*)(System::IO::Stream*, System::Text::Encoding*, bool)>(&CStreamWriter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::CStreamWriter::*)(System::IO::Stream*, System::Text::Encoding*, bool)>(&System::IO::CStreamWriter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CStreamWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::CStreamWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CStreamWriter::*)(System::IO::Stream*, System::Text::Encoding*, bool)>(&CStreamWriter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::CStreamWriter::*)(System::IO::Stream*, System::Text::Encoding*, bool)>(&System::IO::CStreamWriter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CStreamWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::CStreamWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: CStreamWriter::InternalWriteString
+// Writing MetadataGetter for method: System::IO::CStreamWriter::InternalWriteString
 // Il2CppName: InternalWriteString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CStreamWriter::*)(::Il2CppString*)>(&CStreamWriter::InternalWriteString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::CStreamWriter::*)(::Il2CppString*)>(&System::IO::CStreamWriter::InternalWriteString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CStreamWriter*), "InternalWriteString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::CStreamWriter*), "InternalWriteString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CStreamWriter::InternalWriteChar
+// Writing MetadataGetter for method: System::IO::CStreamWriter::InternalWriteChar
 // Il2CppName: InternalWriteChar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CStreamWriter::*)(::Il2CppChar)>(&CStreamWriter::InternalWriteChar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::CStreamWriter::*)(::Il2CppChar)>(&System::IO::CStreamWriter::InternalWriteChar)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CStreamWriter*), "InternalWriteChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::CStreamWriter*), "InternalWriteChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
   }
 };
-// Writing MetadataGetter for method: CStreamWriter::InternalWriteChars
+// Writing MetadataGetter for method: System::IO::CStreamWriter::InternalWriteChars
 // Il2CppName: InternalWriteChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CStreamWriter::*)(::Array<::Il2CppChar>*, int)>(&CStreamWriter::InternalWriteChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::CStreamWriter::*)(::Array<::Il2CppChar>*, int)>(&System::IO::CStreamWriter::InternalWriteChars)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CStreamWriter*), "InternalWriteChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::CStreamWriter*), "InternalWriteChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: CStreamWriter::Write
+// Writing MetadataGetter for method: System::IO::CStreamWriter::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CStreamWriter::*)(::Array<::Il2CppChar>*, int, int)>(&CStreamWriter::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::CStreamWriter::*)(::Array<::Il2CppChar>*, int, int)>(&System::IO::CStreamWriter::Write)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CStreamWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::CStreamWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: CStreamWriter::Write
+// Writing MetadataGetter for method: System::IO::CStreamWriter::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CStreamWriter::*)(::Il2CppChar)>(&CStreamWriter::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::CStreamWriter::*)(::Il2CppChar)>(&System::IO::CStreamWriter::Write)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CStreamWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::CStreamWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
   }
 };
-// Writing MetadataGetter for method: CStreamWriter::Write
+// Writing MetadataGetter for method: System::IO::CStreamWriter::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CStreamWriter::*)(::Array<::Il2CppChar>*)>(&CStreamWriter::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::CStreamWriter::*)(::Array<::Il2CppChar>*)>(&System::IO::CStreamWriter::Write)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CStreamWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::CStreamWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>()});
   }
 };
-// Writing MetadataGetter for method: CStreamWriter::Write
+// Writing MetadataGetter for method: System::IO::CStreamWriter::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CStreamWriter::*)(::Il2CppString*)>(&CStreamWriter::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::CStreamWriter::*)(::Il2CppString*)>(&System::IO::CStreamWriter::Write)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CStreamWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::CStreamWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };

@@ -83,73 +83,73 @@ namespace System::Threading::Tasks {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::ThreadPoolTaskScheduler*, "System.Threading.Tasks", "ThreadPoolTaskScheduler");
-// Writing MetadataGetter for method: ThreadPoolTaskScheduler::LongRunningThreadWork
+// Writing MetadataGetter for method: System::Threading::Tasks::ThreadPoolTaskScheduler::LongRunningThreadWork
 // Il2CppName: LongRunningThreadWork
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&ThreadPoolTaskScheduler::LongRunningThreadWork)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&System::Threading::Tasks::ThreadPoolTaskScheduler::LongRunningThreadWork)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ThreadPoolTaskScheduler*), "LongRunningThreadWork", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::ThreadPoolTaskScheduler*), "LongRunningThreadWork", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: ThreadPoolTaskScheduler::New_ctor
+// Writing MetadataGetter for method: System::Threading::Tasks::ThreadPoolTaskScheduler::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreadPoolTaskScheduler::*)()>(&ThreadPoolTaskScheduler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::ThreadPoolTaskScheduler::*)()>(&System::Threading::Tasks::ThreadPoolTaskScheduler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ThreadPoolTaskScheduler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::ThreadPoolTaskScheduler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreadPoolTaskScheduler::*)()>(&ThreadPoolTaskScheduler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::ThreadPoolTaskScheduler::*)()>(&System::Threading::Tasks::ThreadPoolTaskScheduler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ThreadPoolTaskScheduler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::ThreadPoolTaskScheduler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ThreadPoolTaskScheduler::QueueTask
+// Writing MetadataGetter for method: System::Threading::Tasks::ThreadPoolTaskScheduler::QueueTask
 // Il2CppName: QueueTask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreadPoolTaskScheduler::*)(System::Threading::Tasks::Task*)>(&ThreadPoolTaskScheduler::QueueTask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::ThreadPoolTaskScheduler::*)(System::Threading::Tasks::Task*)>(&System::Threading::Tasks::ThreadPoolTaskScheduler::QueueTask)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ThreadPoolTaskScheduler*), "QueueTask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::ThreadPoolTaskScheduler*), "QueueTask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>()});
   }
 };
-// Writing MetadataGetter for method: ThreadPoolTaskScheduler::TryExecuteTaskInline
+// Writing MetadataGetter for method: System::Threading::Tasks::ThreadPoolTaskScheduler::TryExecuteTaskInline
 // Il2CppName: TryExecuteTaskInline
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ThreadPoolTaskScheduler::*)(System::Threading::Tasks::Task*, bool)>(&ThreadPoolTaskScheduler::TryExecuteTaskInline)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::ThreadPoolTaskScheduler::*)(System::Threading::Tasks::Task*, bool)>(&System::Threading::Tasks::ThreadPoolTaskScheduler::TryExecuteTaskInline)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ThreadPoolTaskScheduler*), "TryExecuteTaskInline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::ThreadPoolTaskScheduler*), "TryExecuteTaskInline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ThreadPoolTaskScheduler::TryDequeue
+// Writing MetadataGetter for method: System::Threading::Tasks::ThreadPoolTaskScheduler::TryDequeue
 // Il2CppName: TryDequeue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ThreadPoolTaskScheduler::*)(System::Threading::Tasks::Task*)>(&ThreadPoolTaskScheduler::TryDequeue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::ThreadPoolTaskScheduler::*)(System::Threading::Tasks::Task*)>(&System::Threading::Tasks::ThreadPoolTaskScheduler::TryDequeue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ThreadPoolTaskScheduler*), "TryDequeue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::ThreadPoolTaskScheduler*), "TryDequeue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>()});
   }
 };
-// Writing MetadataGetter for method: ThreadPoolTaskScheduler::NotifyWorkItemProgress
+// Writing MetadataGetter for method: System::Threading::Tasks::ThreadPoolTaskScheduler::NotifyWorkItemProgress
 // Il2CppName: NotifyWorkItemProgress
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ThreadPoolTaskScheduler::*)()>(&ThreadPoolTaskScheduler::NotifyWorkItemProgress)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::ThreadPoolTaskScheduler::*)()>(&System::Threading::Tasks::ThreadPoolTaskScheduler::NotifyWorkItemProgress)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ThreadPoolTaskScheduler*), "NotifyWorkItemProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::ThreadPoolTaskScheduler*), "NotifyWorkItemProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ThreadPoolTaskScheduler::get_RequiresAtomicStartTransition
+// Writing MetadataGetter for method: System::Threading::Tasks::ThreadPoolTaskScheduler::get_RequiresAtomicStartTransition
 // Il2CppName: get_RequiresAtomicStartTransition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ThreadPoolTaskScheduler::*)()>(&ThreadPoolTaskScheduler::get_RequiresAtomicStartTransition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::ThreadPoolTaskScheduler::*)()>(&System::Threading::Tasks::ThreadPoolTaskScheduler::get_RequiresAtomicStartTransition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ThreadPoolTaskScheduler*), "get_RequiresAtomicStartTransition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::ThreadPoolTaskScheduler*), "get_RequiresAtomicStartTransition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ThreadPoolTaskScheduler::_cctor
+// Writing MetadataGetter for method: System::Threading::Tasks::ThreadPoolTaskScheduler::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ThreadPoolTaskScheduler::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Threading::Tasks::ThreadPoolTaskScheduler::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ThreadPoolTaskScheduler*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::ThreadPoolTaskScheduler*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

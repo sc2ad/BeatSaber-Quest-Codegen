@@ -197,57 +197,57 @@ namespace GlobalNamespace {
   static_assert(sizeof(ParticleSystemEventEffect) == 0xB4);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParticleSystemEventEffect*, "", "ParticleSystemEventEffect");
-// Writing MetadataGetter for method: ParticleSystemEventEffect::Start
+// Writing MetadataGetter for method: GlobalNamespace::ParticleSystemEventEffect::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystemEventEffect::*)()>(&ParticleSystemEventEffect::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ParticleSystemEventEffect::*)()>(&GlobalNamespace::ParticleSystemEventEffect::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParticleSystemEventEffect*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ParticleSystemEventEffect*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ParticleSystemEventEffect::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::ParticleSystemEventEffect::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystemEventEffect::*)()>(&ParticleSystemEventEffect::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ParticleSystemEventEffect::*)()>(&GlobalNamespace::ParticleSystemEventEffect::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParticleSystemEventEffect*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ParticleSystemEventEffect*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ParticleSystemEventEffect::Update
+// Writing MetadataGetter for method: GlobalNamespace::ParticleSystemEventEffect::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystemEventEffect::*)()>(&ParticleSystemEventEffect::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ParticleSystemEventEffect::*)()>(&GlobalNamespace::ParticleSystemEventEffect::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParticleSystemEventEffect*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ParticleSystemEventEffect*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ParticleSystemEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
+// Writing MetadataGetter for method: GlobalNamespace::ParticleSystemEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
 // Il2CppName: HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystemEventEffect::*)(GlobalNamespace::BeatmapEventData*)>(&ParticleSystemEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ParticleSystemEventEffect::*)(GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::ParticleSystemEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParticleSystemEventEffect*), "HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ParticleSystemEventEffect*), "HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
   }
 };
-// Writing MetadataGetter for method: ParticleSystemEventEffect::RefreshParticles
+// Writing MetadataGetter for method: GlobalNamespace::ParticleSystemEventEffect::RefreshParticles
 // Il2CppName: RefreshParticles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystemEventEffect::*)()>(&ParticleSystemEventEffect::RefreshParticles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ParticleSystemEventEffect::*)()>(&GlobalNamespace::ParticleSystemEventEffect::RefreshParticles)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParticleSystemEventEffect*), "RefreshParticles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ParticleSystemEventEffect*), "RefreshParticles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ParticleSystemEventEffect::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::ParticleSystemEventEffect::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystemEventEffect::*)()>(&ParticleSystemEventEffect::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ParticleSystemEventEffect::*)()>(&GlobalNamespace::ParticleSystemEventEffect::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParticleSystemEventEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ParticleSystemEventEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystemEventEffect::*)()>(&ParticleSystemEventEffect::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ParticleSystemEventEffect::*)()>(&GlobalNamespace::ParticleSystemEventEffect::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParticleSystemEventEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ParticleSystemEventEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

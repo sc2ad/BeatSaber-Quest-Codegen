@@ -57,41 +57,41 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass*, "OVR.OpenVR", "IVRSystem/_GetSortedTrackedDeviceIndicesOfClass");
-// Writing MetadataGetter for method: IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::New_ctor
+// Writing MetadataGetter for method: OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::*)(::Il2CppObject*, System::IntPtr)>(&IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_GetSortedTrackedDeviceIndicesOfClass*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::*)(::Il2CppObject*, System::IntPtr)>(&IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_GetSortedTrackedDeviceIndicesOfClass*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::Invoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::*)(OVR::OpenVR::ETrackedDeviceClass, ::Array<uint>*&, uint, uint)>(&IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::*)(OVR::OpenVR::ETrackedDeviceClass, ::Array<uint>*&, uint, uint)>(&OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_GetSortedTrackedDeviceIndicesOfClass*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedDeviceClass>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedDeviceClass>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::BeginInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::*)(OVR::OpenVR::ETrackedDeviceClass, ::Array<uint>*&, uint, uint, System::AsyncCallback*, ::Il2CppObject*)>(&IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::*)(OVR::OpenVR::ETrackedDeviceClass, ::Array<uint>*&, uint, uint, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_GetSortedTrackedDeviceIndicesOfClass*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedDeviceClass>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedDeviceClass>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::EndInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::*)(System::IAsyncResult*)>(&IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::*)(System::IAsyncResult*)>(&OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_GetSortedTrackedDeviceIndicesOfClass*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

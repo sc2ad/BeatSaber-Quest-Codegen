@@ -31,19 +31,19 @@ namespace NUnit::Framework::Interfaces {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IXmlNodeBuilder*, "NUnit.Framework.Interfaces", "IXmlNodeBuilder");
-// Writing MetadataGetter for method: IXmlNodeBuilder::ToXml
+// Writing MetadataGetter for method: NUnit::Framework::Interfaces::IXmlNodeBuilder::ToXml
 // Il2CppName: ToXml
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::TNode* (IXmlNodeBuilder::*)(bool)>(&IXmlNodeBuilder::ToXml)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::TNode* (NUnit::Framework::Interfaces::IXmlNodeBuilder::*)(bool)>(&NUnit::Framework::Interfaces::IXmlNodeBuilder::ToXml)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IXmlNodeBuilder*), "ToXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::IXmlNodeBuilder*), "ToXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: IXmlNodeBuilder::AddToXml
+// Writing MetadataGetter for method: NUnit::Framework::Interfaces::IXmlNodeBuilder::AddToXml
 // Il2CppName: AddToXml
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::TNode* (IXmlNodeBuilder::*)(NUnit::Framework::Interfaces::TNode*, bool)>(&IXmlNodeBuilder::AddToXml)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::TNode* (NUnit::Framework::Interfaces::IXmlNodeBuilder::*)(NUnit::Framework::Interfaces::TNode*, bool)>(&NUnit::Framework::Interfaces::IXmlNodeBuilder::AddToXml)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IXmlNodeBuilder*), "AddToXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::TNode*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::IXmlNodeBuilder*), "AddToXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::TNode*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };

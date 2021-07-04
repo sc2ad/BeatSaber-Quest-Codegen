@@ -52,41 +52,41 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor::_GetLastFrameRenderer*, "OVR.OpenVR", "IVRCompositor/_GetLastFrameRenderer");
-// Writing MetadataGetter for method: IVRCompositor::_GetLastFrameRenderer::New_ctor
+// Writing MetadataGetter for method: OVR::OpenVR::IVRCompositor::_GetLastFrameRenderer::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRCompositor::_GetLastFrameRenderer::*)(::Il2CppObject*, System::IntPtr)>(&IVRCompositor::_GetLastFrameRenderer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRCompositor::_GetLastFrameRenderer::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVRCompositor::_GetLastFrameRenderer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_GetLastFrameRenderer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRCompositor::_GetLastFrameRenderer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRCompositor::_GetLastFrameRenderer::*)(::Il2CppObject*, System::IntPtr)>(&IVRCompositor::_GetLastFrameRenderer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRCompositor::_GetLastFrameRenderer::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVRCompositor::_GetLastFrameRenderer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_GetLastFrameRenderer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRCompositor::_GetLastFrameRenderer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: IVRCompositor::_GetLastFrameRenderer::Invoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRCompositor::_GetLastFrameRenderer::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (IVRCompositor::_GetLastFrameRenderer::*)()>(&IVRCompositor::_GetLastFrameRenderer::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::IVRCompositor::_GetLastFrameRenderer::*)()>(&OVR::OpenVR::IVRCompositor::_GetLastFrameRenderer::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_GetLastFrameRenderer*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRCompositor::_GetLastFrameRenderer*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IVRCompositor::_GetLastFrameRenderer::BeginInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRCompositor::_GetLastFrameRenderer::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRCompositor::_GetLastFrameRenderer::*)(System::AsyncCallback*, ::Il2CppObject*)>(&IVRCompositor::_GetLastFrameRenderer::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRCompositor::_GetLastFrameRenderer::*)(System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRCompositor::_GetLastFrameRenderer::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_GetLastFrameRenderer*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRCompositor::_GetLastFrameRenderer*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IVRCompositor::_GetLastFrameRenderer::EndInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRCompositor::_GetLastFrameRenderer::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (IVRCompositor::_GetLastFrameRenderer::*)(System::IAsyncResult*)>(&IVRCompositor::_GetLastFrameRenderer::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::IVRCompositor::_GetLastFrameRenderer::*)(System::IAsyncResult*)>(&OVR::OpenVR::IVRCompositor::_GetLastFrameRenderer::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_GetLastFrameRenderer*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRCompositor::_GetLastFrameRenderer*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

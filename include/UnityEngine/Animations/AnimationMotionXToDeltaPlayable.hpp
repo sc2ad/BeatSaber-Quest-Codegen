@@ -102,89 +102,89 @@ namespace UnityEngine::Animations {
   static_assert(sizeof(AnimationMotionXToDeltaPlayable) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationMotionXToDeltaPlayable, "UnityEngine.Animations", "AnimationMotionXToDeltaPlayable");
-// Writing MetadataGetter for method: AnimationMotionXToDeltaPlayable::Create
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationMotionXToDeltaPlayable::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animations::AnimationMotionXToDeltaPlayable (*)(UnityEngine::Playables::PlayableGraph)>(&AnimationMotionXToDeltaPlayable::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animations::AnimationMotionXToDeltaPlayable (*)(UnityEngine::Playables::PlayableGraph)>(&UnityEngine::Animations::AnimationMotionXToDeltaPlayable::Create)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationMotionXToDeltaPlayable), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationMotionXToDeltaPlayable), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>()});
   }
 };
-// Writing MetadataGetter for method: AnimationMotionXToDeltaPlayable::CreateHandle
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationMotionXToDeltaPlayable::CreateHandle
 // Il2CppName: CreateHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (*)(UnityEngine::Playables::PlayableGraph)>(&AnimationMotionXToDeltaPlayable::CreateHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (*)(UnityEngine::Playables::PlayableGraph)>(&UnityEngine::Animations::AnimationMotionXToDeltaPlayable::CreateHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationMotionXToDeltaPlayable), "CreateHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationMotionXToDeltaPlayable), "CreateHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>()});
   }
 };
-// Writing MetadataGetter for method: AnimationMotionXToDeltaPlayable::AnimationMotionXToDeltaPlayable
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationMotionXToDeltaPlayable::AnimationMotionXToDeltaPlayable
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationMotionXToDeltaPlayable::*)(UnityEngine::Playables::PlayableHandle)>(&AnimationMotionXToDeltaPlayable::AnimationMotionXToDeltaPlayable<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animations::AnimationMotionXToDeltaPlayable::*)(UnityEngine::Playables::PlayableHandle)>(&UnityEngine::Animations::AnimationMotionXToDeltaPlayable::AnimationMotionXToDeltaPlayable<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationMotionXToDeltaPlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationMotionXToDeltaPlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationMotionXToDeltaPlayable::*)(UnityEngine::Playables::PlayableHandle)>(&AnimationMotionXToDeltaPlayable::AnimationMotionXToDeltaPlayable<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animations::AnimationMotionXToDeltaPlayable::*)(UnityEngine::Playables::PlayableHandle)>(&UnityEngine::Animations::AnimationMotionXToDeltaPlayable::AnimationMotionXToDeltaPlayable<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationMotionXToDeltaPlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationMotionXToDeltaPlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
   }
 };
-// Writing MetadataGetter for method: AnimationMotionXToDeltaPlayable::GetHandle
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationMotionXToDeltaPlayable::GetHandle
 // Il2CppName: GetHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (AnimationMotionXToDeltaPlayable::*)()>(&AnimationMotionXToDeltaPlayable::GetHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (UnityEngine::Animations::AnimationMotionXToDeltaPlayable::*)()>(&UnityEngine::Animations::AnimationMotionXToDeltaPlayable::GetHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationMotionXToDeltaPlayable), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationMotionXToDeltaPlayable), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AnimationMotionXToDeltaPlayable::Equals
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationMotionXToDeltaPlayable::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationMotionXToDeltaPlayable::*)(UnityEngine::Animations::AnimationMotionXToDeltaPlayable)>(&AnimationMotionXToDeltaPlayable::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animations::AnimationMotionXToDeltaPlayable::*)(UnityEngine::Animations::AnimationMotionXToDeltaPlayable)>(&UnityEngine::Animations::AnimationMotionXToDeltaPlayable::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationMotionXToDeltaPlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimationMotionXToDeltaPlayable>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationMotionXToDeltaPlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimationMotionXToDeltaPlayable>()});
   }
 };
-// Writing MetadataGetter for method: AnimationMotionXToDeltaPlayable::SetAbsoluteMotion
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationMotionXToDeltaPlayable::SetAbsoluteMotion
 // Il2CppName: SetAbsoluteMotion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationMotionXToDeltaPlayable::*)(bool)>(&AnimationMotionXToDeltaPlayable::SetAbsoluteMotion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animations::AnimationMotionXToDeltaPlayable::*)(bool)>(&UnityEngine::Animations::AnimationMotionXToDeltaPlayable::SetAbsoluteMotion)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationMotionXToDeltaPlayable), "SetAbsoluteMotion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationMotionXToDeltaPlayable), "SetAbsoluteMotion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AnimationMotionXToDeltaPlayable::CreateHandleInternal
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationMotionXToDeltaPlayable::CreateHandleInternal
 // Il2CppName: CreateHandleInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Playables::PlayableHandle&)>(&AnimationMotionXToDeltaPlayable::CreateHandleInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Playables::PlayableHandle&)>(&UnityEngine::Animations::AnimationMotionXToDeltaPlayable::CreateHandleInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationMotionXToDeltaPlayable), "CreateHandleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationMotionXToDeltaPlayable), "CreateHandleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
   }
 };
-// Writing MetadataGetter for method: AnimationMotionXToDeltaPlayable::SetAbsoluteMotionInternal
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationMotionXToDeltaPlayable::SetAbsoluteMotionInternal
 // Il2CppName: SetAbsoluteMotionInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, bool)>(&AnimationMotionXToDeltaPlayable::SetAbsoluteMotionInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, bool)>(&UnityEngine::Animations::AnimationMotionXToDeltaPlayable::SetAbsoluteMotionInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationMotionXToDeltaPlayable), "SetAbsoluteMotionInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationMotionXToDeltaPlayable), "SetAbsoluteMotionInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AnimationMotionXToDeltaPlayable::_cctor
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationMotionXToDeltaPlayable::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AnimationMotionXToDeltaPlayable::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Animations::AnimationMotionXToDeltaPlayable::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationMotionXToDeltaPlayable), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationMotionXToDeltaPlayable), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AnimationMotionXToDeltaPlayable::CreateHandleInternal_Injected
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationMotionXToDeltaPlayable::CreateHandleInternal_Injected
 // Il2CppName: CreateHandleInternal_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&, UnityEngine::Playables::PlayableHandle&)>(&AnimationMotionXToDeltaPlayable::CreateHandleInternal_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&, UnityEngine::Playables::PlayableHandle&)>(&UnityEngine::Animations::AnimationMotionXToDeltaPlayable::CreateHandleInternal_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationMotionXToDeltaPlayable), "CreateHandleInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationMotionXToDeltaPlayable), "CreateHandleInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
   }
 };

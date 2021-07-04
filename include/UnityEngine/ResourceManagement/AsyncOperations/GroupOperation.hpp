@@ -220,145 +220,145 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*, "UnityEngine.ResourceManagement.AsyncOperations", "GroupOperation");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::GroupOperationSettings, "UnityEngine.ResourceManagement.AsyncOperations", "GroupOperation/GroupOperationSettings");
-// Writing MetadataGetter for method: GroupOperation::UnityEngine_ResourceManagement_AsyncOperations_ICachable_get_Hash
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::UnityEngine_ResourceManagement_AsyncOperations_ICachable_get_Hash
 // Il2CppName: UnityEngine.ResourceManagement.AsyncOperations.ICachable.get_Hash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GroupOperation::*)()>(&GroupOperation::UnityEngine_ResourceManagement_AsyncOperations_ICachable_get_Hash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::UnityEngine_ResourceManagement_AsyncOperations_ICachable_get_Hash)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GroupOperation*), "UnityEngine.ResourceManagement.AsyncOperations.ICachable.get_Hash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*), "UnityEngine.ResourceManagement.AsyncOperations.ICachable.get_Hash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GroupOperation::UnityEngine_ResourceManagement_AsyncOperations_ICachable_set_Hash
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::UnityEngine_ResourceManagement_AsyncOperations_ICachable_set_Hash
 // Il2CppName: UnityEngine.ResourceManagement.AsyncOperations.ICachable.set_Hash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GroupOperation::*)(int)>(&GroupOperation::UnityEngine_ResourceManagement_AsyncOperations_ICachable_set_Hash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)(int)>(&UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::UnityEngine_ResourceManagement_AsyncOperations_ICachable_set_Hash)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GroupOperation*), "UnityEngine.ResourceManagement.AsyncOperations.ICachable.set_Hash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*), "UnityEngine.ResourceManagement.AsyncOperations.ICachable.set_Hash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: GroupOperation::GetDependentOps
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::GetDependentOps
 // Il2CppName: GetDependentOps
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* (GroupOperation::*)()>(&GroupOperation::GetDependentOps)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* (UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::GetDependentOps)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GroupOperation*), "GetDependentOps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*), "GetDependentOps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GroupOperation::DependenciesAreUnchanged
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::DependenciesAreUnchanged
 // Il2CppName: DependenciesAreUnchanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GroupOperation::*)(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)>(&GroupOperation::DependenciesAreUnchanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)>(&UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::DependenciesAreUnchanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GroupOperation*), "DependenciesAreUnchanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*), "DependenciesAreUnchanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>()});
   }
 };
-// Writing MetadataGetter for method: GroupOperation::CompleteIfDependenciesComplete
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::CompleteIfDependenciesComplete
 // Il2CppName: CompleteIfDependenciesComplete
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GroupOperation::*)()>(&GroupOperation::CompleteIfDependenciesComplete)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::CompleteIfDependenciesComplete)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GroupOperation*), "CompleteIfDependenciesComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*), "CompleteIfDependenciesComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GroupOperation::Init
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GroupOperation::*)(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*, bool, bool)>(&GroupOperation::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*, bool, bool)>(&UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GroupOperation*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: GroupOperation::Init
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GroupOperation::*)(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*, UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::GroupOperationSettings)>(&GroupOperation::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*, UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::GroupOperationSettings)>(&UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GroupOperation*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::GroupOperationSettings>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::GroupOperationSettings>()});
   }
 };
-// Writing MetadataGetter for method: GroupOperation::OnOperationCompleted
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::OnOperationCompleted
 // Il2CppName: OnOperationCompleted
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GroupOperation::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&GroupOperation::OnOperationCompleted)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::OnOperationCompleted)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GroupOperation*), "OnOperationCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*), "OnOperationCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>()});
   }
 };
-// Writing MetadataGetter for method: GroupOperation::New_ctor
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GroupOperation::*)()>(&GroupOperation::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GroupOperation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GroupOperation::*)()>(&GroupOperation::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GroupOperation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GroupOperation::InvokeWaitForCompletion
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::InvokeWaitForCompletion
 // Il2CppName: InvokeWaitForCompletion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GroupOperation::*)()>(&GroupOperation::InvokeWaitForCompletion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::InvokeWaitForCompletion)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GroupOperation*), "InvokeWaitForCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*), "InvokeWaitForCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GroupOperation::GetDependencies
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::GetDependencies
 // Il2CppName: GetDependencies
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GroupOperation::*)(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)>(&GroupOperation::GetDependencies)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)>(&UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::GetDependencies)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GroupOperation*), "GetDependencies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*), "GetDependencies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>()});
   }
 };
-// Writing MetadataGetter for method: GroupOperation::ReleaseDependencies
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::ReleaseDependencies
 // Il2CppName: ReleaseDependencies
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GroupOperation::*)()>(&GroupOperation::ReleaseDependencies)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::ReleaseDependencies)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GroupOperation*), "ReleaseDependencies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*), "ReleaseDependencies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GroupOperation::GetDownloadStatus
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::GetDownloadStatus
 // Il2CppName: GetDownloadStatus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus (GroupOperation::*)(System::Collections::Generic::HashSet_1<::Il2CppObject*>*)>(&GroupOperation::GetDownloadStatus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus (UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)(System::Collections::Generic::HashSet_1<::Il2CppObject*>*)>(&UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::GetDownloadStatus)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GroupOperation*), "GetDownloadStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<::Il2CppObject*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*), "GetDownloadStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<::Il2CppObject*>*>()});
   }
 };
-// Writing MetadataGetter for method: GroupOperation::get_DebugName
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::get_DebugName
 // Il2CppName: get_DebugName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GroupOperation::*)()>(&GroupOperation::get_DebugName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::get_DebugName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GroupOperation*), "get_DebugName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*), "get_DebugName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GroupOperation::Execute
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::Execute
 // Il2CppName: Execute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GroupOperation::*)()>(&GroupOperation::Execute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::Execute)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GroupOperation*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GroupOperation::Destroy
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::Destroy
 // Il2CppName: Destroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GroupOperation::*)()>(&GroupOperation::Destroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::Destroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GroupOperation*), "Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*), "Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GroupOperation::get_Progress
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::get_Progress
 // Il2CppName: get_Progress
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GroupOperation::*)()>(&GroupOperation::get_Progress)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::get_Progress)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GroupOperation*), "get_Progress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::GroupOperation*), "get_Progress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

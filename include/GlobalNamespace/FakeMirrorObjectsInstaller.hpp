@@ -98,33 +98,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(FakeMirrorObjectsInstaller) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FakeMirrorObjectsInstaller*, "", "FakeMirrorObjectsInstaller");
-// Writing MetadataGetter for method: FakeMirrorObjectsInstaller::get_mirroredGameNoteControllerPrefab
+// Writing MetadataGetter for method: GlobalNamespace::FakeMirrorObjectsInstaller::get_mirroredGameNoteControllerPrefab
 // Il2CppName: get_mirroredGameNoteControllerPrefab
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MirroredCubeNoteController* (FakeMirrorObjectsInstaller::*)()>(&FakeMirrorObjectsInstaller::get_mirroredGameNoteControllerPrefab)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MirroredCubeNoteController* (GlobalNamespace::FakeMirrorObjectsInstaller::*)()>(&GlobalNamespace::FakeMirrorObjectsInstaller::get_mirroredGameNoteControllerPrefab)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FakeMirrorObjectsInstaller*), "get_mirroredGameNoteControllerPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FakeMirrorObjectsInstaller*), "get_mirroredGameNoteControllerPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FakeMirrorObjectsInstaller::InstallBindings
+// Writing MetadataGetter for method: GlobalNamespace::FakeMirrorObjectsInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FakeMirrorObjectsInstaller::*)()>(&FakeMirrorObjectsInstaller::InstallBindings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FakeMirrorObjectsInstaller::*)()>(&GlobalNamespace::FakeMirrorObjectsInstaller::InstallBindings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FakeMirrorObjectsInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FakeMirrorObjectsInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FakeMirrorObjectsInstaller::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::FakeMirrorObjectsInstaller::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FakeMirrorObjectsInstaller::*)()>(&FakeMirrorObjectsInstaller::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FakeMirrorObjectsInstaller::*)()>(&GlobalNamespace::FakeMirrorObjectsInstaller::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FakeMirrorObjectsInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FakeMirrorObjectsInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FakeMirrorObjectsInstaller::*)()>(&FakeMirrorObjectsInstaller::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FakeMirrorObjectsInstaller::*)()>(&GlobalNamespace::FakeMirrorObjectsInstaller::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FakeMirrorObjectsInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FakeMirrorObjectsInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

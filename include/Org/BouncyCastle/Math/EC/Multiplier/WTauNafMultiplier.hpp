@@ -76,49 +76,49 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier*, "Org.BouncyCastle.Math.EC.Multiplier", "WTauNafMultiplier");
-// Writing MetadataGetter for method: WTauNafMultiplier::MultiplyWTnaf
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::MultiplyWTnaf
 // Il2CppName: MultiplyWTnaf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::AbstractF2mPoint* (WTauNafMultiplier::*)(Org::BouncyCastle::Math::EC::AbstractF2mPoint*, Org::BouncyCastle::Math::EC::Abc::ZTauElement*, int8_t, int8_t)>(&WTauNafMultiplier::MultiplyWTnaf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::AbstractF2mPoint* (Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::*)(Org::BouncyCastle::Math::EC::AbstractF2mPoint*, Org::BouncyCastle::Math::EC::Abc::ZTauElement*, int8_t, int8_t)>(&Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::MultiplyWTnaf)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WTauNafMultiplier*), "MultiplyWTnaf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Abc::ZTauElement*>(), ::il2cpp_utils::ExtractIndependentType<int8_t>(), ::il2cpp_utils::ExtractIndependentType<int8_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier*), "MultiplyWTnaf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Abc::ZTauElement*>(), ::il2cpp_utils::ExtractIndependentType<int8_t>(), ::il2cpp_utils::ExtractIndependentType<int8_t>()});
   }
 };
-// Writing MetadataGetter for method: WTauNafMultiplier::MultiplyFromWTnaf
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::MultiplyFromWTnaf
 // Il2CppName: MultiplyFromWTnaf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::AbstractF2mPoint* (*)(Org::BouncyCastle::Math::EC::AbstractF2mPoint*, ::Array<int8_t>*)>(&WTauNafMultiplier::MultiplyFromWTnaf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::AbstractF2mPoint* (*)(Org::BouncyCastle::Math::EC::AbstractF2mPoint*, ::Array<int8_t>*)>(&Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::MultiplyFromWTnaf)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WTauNafMultiplier*), "MultiplyFromWTnaf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier*), "MultiplyFromWTnaf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: WTauNafMultiplier::_cctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&WTauNafMultiplier::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WTauNafMultiplier*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WTauNafMultiplier::MultiplyPositive
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::MultiplyPositive
 // Il2CppName: MultiplyPositive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (WTauNafMultiplier::*)(Org::BouncyCastle::Math::EC::ECPoint*, Org::BouncyCastle::Math::BigInteger*)>(&WTauNafMultiplier::MultiplyPositive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::*)(Org::BouncyCastle::Math::EC::ECPoint*, Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::MultiplyPositive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WTauNafMultiplier*), "MultiplyPositive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier*), "MultiplyPositive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
   }
 };
-// Writing MetadataGetter for method: WTauNafMultiplier::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WTauNafMultiplier::*)()>(&WTauNafMultiplier::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::*)()>(&Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WTauNafMultiplier*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WTauNafMultiplier::*)()>(&WTauNafMultiplier::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::*)()>(&Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WTauNafMultiplier*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

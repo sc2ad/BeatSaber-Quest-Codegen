@@ -157,89 +157,89 @@ namespace GlobalNamespace {
   static_assert(sizeof(GamePause) == 0x59);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GamePause*, "", "GamePause");
-// Writing MetadataGetter for method: GamePause::add_didPauseEvent
+// Writing MetadataGetter for method: GlobalNamespace::GamePause::add_didPauseEvent
 // Il2CppName: add_didPauseEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GamePause::*)(System::Action*)>(&GamePause::add_didPauseEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GamePause::*)(System::Action*)>(&GlobalNamespace::GamePause::add_didPauseEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GamePause*), "add_didPauseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GamePause*), "add_didPauseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: GamePause::remove_didPauseEvent
+// Writing MetadataGetter for method: GlobalNamespace::GamePause::remove_didPauseEvent
 // Il2CppName: remove_didPauseEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GamePause::*)(System::Action*)>(&GamePause::remove_didPauseEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GamePause::*)(System::Action*)>(&GlobalNamespace::GamePause::remove_didPauseEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GamePause*), "remove_didPauseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GamePause*), "remove_didPauseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: GamePause::add_willResumeEvent
+// Writing MetadataGetter for method: GlobalNamespace::GamePause::add_willResumeEvent
 // Il2CppName: add_willResumeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GamePause::*)(System::Action*)>(&GamePause::add_willResumeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GamePause::*)(System::Action*)>(&GlobalNamespace::GamePause::add_willResumeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GamePause*), "add_willResumeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GamePause*), "add_willResumeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: GamePause::remove_willResumeEvent
+// Writing MetadataGetter for method: GlobalNamespace::GamePause::remove_willResumeEvent
 // Il2CppName: remove_willResumeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GamePause::*)(System::Action*)>(&GamePause::remove_willResumeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GamePause::*)(System::Action*)>(&GlobalNamespace::GamePause::remove_willResumeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GamePause*), "remove_willResumeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GamePause*), "remove_willResumeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: GamePause::add_didResumeEvent
+// Writing MetadataGetter for method: GlobalNamespace::GamePause::add_didResumeEvent
 // Il2CppName: add_didResumeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GamePause::*)(System::Action*)>(&GamePause::add_didResumeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GamePause::*)(System::Action*)>(&GlobalNamespace::GamePause::add_didResumeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GamePause*), "add_didResumeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GamePause*), "add_didResumeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: GamePause::remove_didResumeEvent
+// Writing MetadataGetter for method: GlobalNamespace::GamePause::remove_didResumeEvent
 // Il2CppName: remove_didResumeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GamePause::*)(System::Action*)>(&GamePause::remove_didResumeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GamePause::*)(System::Action*)>(&GlobalNamespace::GamePause::remove_didResumeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GamePause*), "remove_didResumeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GamePause*), "remove_didResumeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: GamePause::Pause
+// Writing MetadataGetter for method: GlobalNamespace::GamePause::Pause
 // Il2CppName: Pause
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GamePause::*)()>(&GamePause::Pause)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GamePause::*)()>(&GlobalNamespace::GamePause::Pause)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GamePause*), "Pause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GamePause*), "Pause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GamePause::WillResume
+// Writing MetadataGetter for method: GlobalNamespace::GamePause::WillResume
 // Il2CppName: WillResume
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GamePause::*)()>(&GamePause::WillResume)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GamePause::*)()>(&GlobalNamespace::GamePause::WillResume)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GamePause*), "WillResume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GamePause*), "WillResume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GamePause::Resume
+// Writing MetadataGetter for method: GlobalNamespace::GamePause::Resume
 // Il2CppName: Resume
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GamePause::*)()>(&GamePause::Resume)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GamePause::*)()>(&GlobalNamespace::GamePause::Resume)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GamePause*), "Resume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GamePause*), "Resume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GamePause::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::GamePause::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GamePause::*)()>(&GamePause::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GamePause::*)()>(&GlobalNamespace::GamePause::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GamePause*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GamePause*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GamePause::*)()>(&GamePause::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GamePause::*)()>(&GlobalNamespace::GamePause::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GamePause*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GamePause*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -74,41 +74,41 @@ namespace NUnit::Framework::Internal::Builders {
   static_assert(sizeof(NUnitTestCaseBuilder) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*, "NUnit.Framework.Internal.Builders", "NUnitTestCaseBuilder");
-// Writing MetadataGetter for method: NUnitTestCaseBuilder::BuildTestMethod
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::BuildTestMethod
 // Il2CppName: BuildTestMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestMethod* (NUnitTestCaseBuilder::*)(NUnit::Framework::Interfaces::IMethodInfo*, NUnit::Framework::Internal::Test*, NUnit::Framework::Internal::TestCaseParameters*)>(&NUnitTestCaseBuilder::BuildTestMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestMethod* (NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::*)(NUnit::Framework::Interfaces::IMethodInfo*, NUnit::Framework::Internal::Test*, NUnit::Framework::Internal::TestCaseParameters*)>(&NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::BuildTestMethod)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnitTestCaseBuilder*), "BuildTestMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::IMethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestCaseParameters*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*), "BuildTestMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::IMethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestCaseParameters*>()});
   }
 };
-// Writing MetadataGetter for method: NUnitTestCaseBuilder::CheckTestMethodSignature
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::CheckTestMethodSignature
 // Il2CppName: CheckTestMethodSignature
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(NUnit::Framework::Internal::TestMethod*, NUnit::Framework::Internal::TestCaseParameters*)>(&NUnitTestCaseBuilder::CheckTestMethodSignature)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(NUnit::Framework::Internal::TestMethod*, NUnit::Framework::Internal::TestCaseParameters*)>(&NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::CheckTestMethodSignature)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnitTestCaseBuilder*), "CheckTestMethodSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestMethod*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestCaseParameters*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*), "CheckTestMethodSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestMethod*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestCaseParameters*>()});
   }
 };
-// Writing MetadataGetter for method: NUnitTestCaseBuilder::MarkAsNotRunnable
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::MarkAsNotRunnable
 // Il2CppName: MarkAsNotRunnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(NUnit::Framework::Internal::TestMethod*, ::Il2CppString*)>(&NUnitTestCaseBuilder::MarkAsNotRunnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(NUnit::Framework::Internal::TestMethod*, ::Il2CppString*)>(&NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::MarkAsNotRunnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnitTestCaseBuilder*), "MarkAsNotRunnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestMethod*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*), "MarkAsNotRunnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestMethod*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: NUnitTestCaseBuilder::New_ctor
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnitTestCaseBuilder::*)()>(&NUnitTestCaseBuilder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::*)()>(&NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnitTestCaseBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnitTestCaseBuilder::*)()>(&NUnitTestCaseBuilder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::*)()>(&NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnitTestCaseBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -88,103 +88,103 @@ namespace System::Net::Http::Headers {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::RetryConditionHeaderValue*, "System.Net.Http.Headers", "RetryConditionHeaderValue");
-// Writing MetadataGetter for method: RetryConditionHeaderValue::New_ctor
+// Writing MetadataGetter for method: System::Net::Http::Headers::RetryConditionHeaderValue::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RetryConditionHeaderValue::*)(System::DateTimeOffset)>(&RetryConditionHeaderValue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::RetryConditionHeaderValue::*)(System::DateTimeOffset)>(&System::Net::Http::Headers::RetryConditionHeaderValue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RetryConditionHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTimeOffset>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::RetryConditionHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTimeOffset>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RetryConditionHeaderValue::*)(System::DateTimeOffset)>(&RetryConditionHeaderValue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::RetryConditionHeaderValue::*)(System::DateTimeOffset)>(&System::Net::Http::Headers::RetryConditionHeaderValue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RetryConditionHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTimeOffset>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::RetryConditionHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTimeOffset>()});
   }
 };
-// Writing MetadataGetter for method: RetryConditionHeaderValue::New_ctor
+// Writing MetadataGetter for method: System::Net::Http::Headers::RetryConditionHeaderValue::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RetryConditionHeaderValue::*)(System::TimeSpan)>(&RetryConditionHeaderValue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::RetryConditionHeaderValue::*)(System::TimeSpan)>(&System::Net::Http::Headers::RetryConditionHeaderValue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RetryConditionHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::RetryConditionHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RetryConditionHeaderValue::*)(System::TimeSpan)>(&RetryConditionHeaderValue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::RetryConditionHeaderValue::*)(System::TimeSpan)>(&System::Net::Http::Headers::RetryConditionHeaderValue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RetryConditionHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::RetryConditionHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
   }
 };
-// Writing MetadataGetter for method: RetryConditionHeaderValue::get_Date
+// Writing MetadataGetter for method: System::Net::Http::Headers::RetryConditionHeaderValue::get_Date
 // Il2CppName: get_Date
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::DateTimeOffset> (RetryConditionHeaderValue::*)()>(&RetryConditionHeaderValue::get_Date)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::DateTimeOffset> (System::Net::Http::Headers::RetryConditionHeaderValue::*)()>(&System::Net::Http::Headers::RetryConditionHeaderValue::get_Date)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RetryConditionHeaderValue*), "get_Date", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::RetryConditionHeaderValue*), "get_Date", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RetryConditionHeaderValue::set_Date
+// Writing MetadataGetter for method: System::Net::Http::Headers::RetryConditionHeaderValue::set_Date
 // Il2CppName: set_Date
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RetryConditionHeaderValue::*)(System::Nullable_1<System::DateTimeOffset>)>(&RetryConditionHeaderValue::set_Date)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::RetryConditionHeaderValue::*)(System::Nullable_1<System::DateTimeOffset>)>(&System::Net::Http::Headers::RetryConditionHeaderValue::set_Date)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RetryConditionHeaderValue*), "set_Date", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<System::DateTimeOffset>>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::RetryConditionHeaderValue*), "set_Date", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<System::DateTimeOffset>>()});
   }
 };
-// Writing MetadataGetter for method: RetryConditionHeaderValue::get_Delta
+// Writing MetadataGetter for method: System::Net::Http::Headers::RetryConditionHeaderValue::get_Delta
 // Il2CppName: get_Delta
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::TimeSpan> (RetryConditionHeaderValue::*)()>(&RetryConditionHeaderValue::get_Delta)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::TimeSpan> (System::Net::Http::Headers::RetryConditionHeaderValue::*)()>(&System::Net::Http::Headers::RetryConditionHeaderValue::get_Delta)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RetryConditionHeaderValue*), "get_Delta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::RetryConditionHeaderValue*), "get_Delta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RetryConditionHeaderValue::set_Delta
+// Writing MetadataGetter for method: System::Net::Http::Headers::RetryConditionHeaderValue::set_Delta
 // Il2CppName: set_Delta
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RetryConditionHeaderValue::*)(System::Nullable_1<System::TimeSpan>)>(&RetryConditionHeaderValue::set_Delta)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::RetryConditionHeaderValue::*)(System::Nullable_1<System::TimeSpan>)>(&System::Net::Http::Headers::RetryConditionHeaderValue::set_Delta)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RetryConditionHeaderValue*), "set_Delta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<System::TimeSpan>>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::RetryConditionHeaderValue*), "set_Delta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<System::TimeSpan>>()});
   }
 };
-// Writing MetadataGetter for method: RetryConditionHeaderValue::System_ICloneable_Clone
+// Writing MetadataGetter for method: System::Net::Http::Headers::RetryConditionHeaderValue::System_ICloneable_Clone
 // Il2CppName: System.ICloneable.Clone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (RetryConditionHeaderValue::*)()>(&RetryConditionHeaderValue::System_ICloneable_Clone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Net::Http::Headers::RetryConditionHeaderValue::*)()>(&System::Net::Http::Headers::RetryConditionHeaderValue::System_ICloneable_Clone)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RetryConditionHeaderValue*), "System.ICloneable.Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::RetryConditionHeaderValue*), "System.ICloneable.Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RetryConditionHeaderValue::TryParse
+// Writing MetadataGetter for method: System::Net::Http::Headers::RetryConditionHeaderValue::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Net::Http::Headers::RetryConditionHeaderValue*&)>(&RetryConditionHeaderValue::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Net::Http::Headers::RetryConditionHeaderValue*&)>(&System::Net::Http::Headers::RetryConditionHeaderValue::TryParse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RetryConditionHeaderValue*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::RetryConditionHeaderValue*&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::RetryConditionHeaderValue*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::RetryConditionHeaderValue*&>()});
   }
 };
-// Writing MetadataGetter for method: RetryConditionHeaderValue::Equals
+// Writing MetadataGetter for method: System::Net::Http::Headers::RetryConditionHeaderValue::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RetryConditionHeaderValue::*)(::Il2CppObject*)>(&RetryConditionHeaderValue::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::RetryConditionHeaderValue::*)(::Il2CppObject*)>(&System::Net::Http::Headers::RetryConditionHeaderValue::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RetryConditionHeaderValue*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::RetryConditionHeaderValue*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: RetryConditionHeaderValue::GetHashCode
+// Writing MetadataGetter for method: System::Net::Http::Headers::RetryConditionHeaderValue::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RetryConditionHeaderValue::*)()>(&RetryConditionHeaderValue::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Http::Headers::RetryConditionHeaderValue::*)()>(&System::Net::Http::Headers::RetryConditionHeaderValue::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RetryConditionHeaderValue*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::RetryConditionHeaderValue*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RetryConditionHeaderValue::ToString
+// Writing MetadataGetter for method: System::Net::Http::Headers::RetryConditionHeaderValue::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RetryConditionHeaderValue::*)()>(&RetryConditionHeaderValue::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::RetryConditionHeaderValue::*)()>(&System::Net::Http::Headers::RetryConditionHeaderValue::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RetryConditionHeaderValue*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::RetryConditionHeaderValue*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

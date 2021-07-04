@@ -47,17 +47,17 @@ namespace System::Runtime::InteropServices {
   static_assert(sizeof(InterfaceTypeAttribute) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::InterfaceTypeAttribute*, "System.Runtime.InteropServices", "InterfaceTypeAttribute");
-// Writing MetadataGetter for method: InterfaceTypeAttribute::New_ctor
+// Writing MetadataGetter for method: System::Runtime::InteropServices::InterfaceTypeAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InterfaceTypeAttribute::*)(System::Runtime::InteropServices::ComInterfaceType)>(&InterfaceTypeAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::InteropServices::InterfaceTypeAttribute::*)(System::Runtime::InteropServices::ComInterfaceType)>(&System::Runtime::InteropServices::InterfaceTypeAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InterfaceTypeAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::ComInterfaceType>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::InterfaceTypeAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::ComInterfaceType>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InterfaceTypeAttribute::*)(System::Runtime::InteropServices::ComInterfaceType)>(&InterfaceTypeAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::InteropServices::InterfaceTypeAttribute::*)(System::Runtime::InteropServices::ComInterfaceType)>(&System::Runtime::InteropServices::InterfaceTypeAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InterfaceTypeAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::ComInterfaceType>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::InterfaceTypeAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::ComInterfaceType>()});
   }
 };

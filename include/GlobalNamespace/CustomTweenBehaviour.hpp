@@ -198,49 +198,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(CustomTweenBehaviour) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomTweenBehaviour*, "", "CustomTweenBehaviour");
-// Writing MetadataGetter for method: CustomTweenBehaviour::OnGraphStart
+// Writing MetadataGetter for method: GlobalNamespace::CustomTweenBehaviour::OnGraphStart
 // Il2CppName: OnGraphStart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomTweenBehaviour::*)(UnityEngine::Playables::Playable)>(&CustomTweenBehaviour::OnGraphStart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CustomTweenBehaviour::*)(UnityEngine::Playables::Playable)>(&GlobalNamespace::CustomTweenBehaviour::OnGraphStart)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomTweenBehaviour*), "OnGraphStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomTweenBehaviour*), "OnGraphStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
   }
 };
-// Writing MetadataGetter for method: CustomTweenBehaviour::ProcessFrame
+// Writing MetadataGetter for method: GlobalNamespace::CustomTweenBehaviour::ProcessFrame
 // Il2CppName: ProcessFrame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomTweenBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData, ::Il2CppObject*)>(&CustomTweenBehaviour::ProcessFrame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CustomTweenBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData, ::Il2CppObject*)>(&GlobalNamespace::CustomTweenBehaviour::ProcessFrame)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomTweenBehaviour*), "ProcessFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomTweenBehaviour*), "ProcessFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: CustomTweenBehaviour::OnPlayableDestroy
+// Writing MetadataGetter for method: GlobalNamespace::CustomTweenBehaviour::OnPlayableDestroy
 // Il2CppName: OnPlayableDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomTweenBehaviour::*)(UnityEngine::Playables::Playable)>(&CustomTweenBehaviour::OnPlayableDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CustomTweenBehaviour::*)(UnityEngine::Playables::Playable)>(&GlobalNamespace::CustomTweenBehaviour::OnPlayableDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomTweenBehaviour*), "OnPlayableDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomTweenBehaviour*), "OnPlayableDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
   }
 };
-// Writing MetadataGetter for method: CustomTweenBehaviour::OnBehaviourPlay
+// Writing MetadataGetter for method: GlobalNamespace::CustomTweenBehaviour::OnBehaviourPlay
 // Il2CppName: OnBehaviourPlay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomTweenBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&CustomTweenBehaviour::OnBehaviourPlay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CustomTweenBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&GlobalNamespace::CustomTweenBehaviour::OnBehaviourPlay)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomTweenBehaviour*), "OnBehaviourPlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomTweenBehaviour*), "OnBehaviourPlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
   }
 };
-// Writing MetadataGetter for method: CustomTweenBehaviour::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::CustomTweenBehaviour::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomTweenBehaviour::*)()>(&CustomTweenBehaviour::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CustomTweenBehaviour::*)()>(&GlobalNamespace::CustomTweenBehaviour::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomTweenBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomTweenBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomTweenBehaviour::*)()>(&CustomTweenBehaviour::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CustomTweenBehaviour::*)()>(&GlobalNamespace::CustomTweenBehaviour::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomTweenBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomTweenBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -158,121 +158,121 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   static_assert(sizeof(UnityTestAssemblyRunner) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityTestAssemblyRunner");
-// Writing MetadataGetter for method: UnityTestAssemblyRunner::get_Context
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::get_Context
 // Il2CppName: get_Context
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* (UnityTestAssemblyRunner::*)()>(&UnityTestAssemblyRunner::get_Context)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::get_Context)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTestAssemblyRunner*), "get_Context", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner*), "get_Context", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityTestAssemblyRunner::set_Context
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::set_Context
 // Il2CppName: set_Context
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestAssemblyRunner::*)(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*)>(&UnityTestAssemblyRunner::set_Context)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::*)(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::set_Context)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTestAssemblyRunner*), "set_Context", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner*), "set_Context", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*>()});
   }
 };
-// Writing MetadataGetter for method: UnityTestAssemblyRunner::set_Settings
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::set_Settings
 // Il2CppName: set_Settings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestAssemblyRunner::*)(System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*)>(&UnityTestAssemblyRunner::set_Settings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::*)(System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::set_Settings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTestAssemblyRunner*), "set_Settings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner*), "set_Settings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*>()});
   }
 };
-// Writing MetadataGetter for method: UnityTestAssemblyRunner::get_LoadedTest
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::get_LoadedTest
 // Il2CppName: get_LoadedTest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITest* (UnityTestAssemblyRunner::*)()>(&UnityTestAssemblyRunner::get_LoadedTest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITest* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::get_LoadedTest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTestAssemblyRunner*), "get_LoadedTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner*), "get_LoadedTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityTestAssemblyRunner::set_LoadedTest
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::set_LoadedTest
 // Il2CppName: set_LoadedTest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestAssemblyRunner::*)(NUnit::Framework::Interfaces::ITest*)>(&UnityTestAssemblyRunner::set_LoadedTest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::*)(NUnit::Framework::Interfaces::ITest*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::set_LoadedTest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTestAssemblyRunner*), "set_LoadedTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner*), "set_LoadedTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
   }
 };
-// Writing MetadataGetter for method: UnityTestAssemblyRunner::get_Result
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::get_Result
 // Il2CppName: get_Result
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITestResult* (UnityTestAssemblyRunner::*)()>(&UnityTestAssemblyRunner::get_Result)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITestResult* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::get_Result)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTestAssemblyRunner*), "get_Result", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner*), "get_Result", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityTestAssemblyRunner::get_IsTestRunning
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::get_IsTestRunning
 // Il2CppName: get_IsTestRunning
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityTestAssemblyRunner::*)()>(&UnityTestAssemblyRunner::get_IsTestRunning)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::get_IsTestRunning)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTestAssemblyRunner*), "get_IsTestRunning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner*), "get_IsTestRunning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityTestAssemblyRunner::get_IsTestComplete
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::get_IsTestComplete
 // Il2CppName: get_IsTestComplete
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityTestAssemblyRunner::*)()>(&UnityTestAssemblyRunner::get_IsTestComplete)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::get_IsTestComplete)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTestAssemblyRunner*), "get_IsTestComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner*), "get_IsTestComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityTestAssemblyRunner::New_ctor
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestAssemblyRunner::*)(UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder*, UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*)>(&UnityTestAssemblyRunner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::*)(UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder*, UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTestAssemblyRunner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestAssemblyRunner::*)(UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder*, UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*)>(&UnityTestAssemblyRunner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::*)(UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder*, UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTestAssemblyRunner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*>()});
   }
 };
-// Writing MetadataGetter for method: UnityTestAssemblyRunner::Load
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::Load
 // Il2CppName: Load
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITest* (UnityTestAssemblyRunner::*)(::Array<System::Reflection::Assembly*>*, UnityEngine::TestTools::TestPlatform, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*)>(&UnityTestAssemblyRunner::Load)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITest* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::*)(::Array<System::Reflection::Assembly*>*, UnityEngine::TestTools::TestPlatform, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::Load)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTestAssemblyRunner*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::Assembly*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::TestPlatform>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::Assembly*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::TestPlatform>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*>()});
   }
 };
-// Writing MetadataGetter for method: UnityTestAssemblyRunner::Run
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::Run
 // Il2CppName: Run
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (UnityTestAssemblyRunner::*)(NUnit::Framework::Interfaces::ITestListener*, NUnit::Framework::Interfaces::ITestFilter*)>(&UnityTestAssemblyRunner::Run)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::*)(NUnit::Framework::Interfaces::ITestListener*, NUnit::Framework::Interfaces::ITestFilter*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::Run)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTestAssemblyRunner*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestListener*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestFilter*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestListener*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestFilter*>()});
   }
 };
-// Writing MetadataGetter for method: UnityTestAssemblyRunner::get_TopLevelWorkItem
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::get_TopLevelWorkItem
 // Il2CppName: get_TopLevelWorkItem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* (UnityTestAssemblyRunner::*)()>(&UnityTestAssemblyRunner::get_TopLevelWorkItem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::get_TopLevelWorkItem)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTestAssemblyRunner*), "get_TopLevelWorkItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner*), "get_TopLevelWorkItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityTestAssemblyRunner::set_TopLevelWorkItem
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::set_TopLevelWorkItem
 // Il2CppName: set_TopLevelWorkItem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestAssemblyRunner::*)(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*)>(&UnityTestAssemblyRunner::set_TopLevelWorkItem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::*)(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::set_TopLevelWorkItem)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTestAssemblyRunner*), "set_TopLevelWorkItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner*), "set_TopLevelWorkItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*>()});
   }
 };
-// Writing MetadataGetter for method: UnityTestAssemblyRunner::StopRun
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::StopRun
 // Il2CppName: StopRun
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestAssemblyRunner::*)()>(&UnityTestAssemblyRunner::StopRun)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::StopRun)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTestAssemblyRunner*), "StopRun", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner*), "StopRun", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

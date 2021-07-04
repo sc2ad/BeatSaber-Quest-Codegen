@@ -186,207 +186,207 @@ namespace System::IO::Compression {
   static_assert(sizeof(GZipStream) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::GZipStream*, "System.IO.Compression", "GZipStream");
-// Writing MetadataGetter for method: GZipStream::New_ctor
+// Writing MetadataGetter for method: System::IO::Compression::GZipStream::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GZipStream::*)(System::IO::Stream*, System::IO::Compression::CompressionMode)>(&GZipStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Compression::GZipStream::*)(System::IO::Stream*, System::IO::Compression::CompressionMode)>(&System::IO::Compression::GZipStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GZipStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Compression::CompressionMode>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::GZipStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Compression::CompressionMode>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GZipStream::*)(System::IO::Stream*, System::IO::Compression::CompressionMode)>(&GZipStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Compression::GZipStream::*)(System::IO::Stream*, System::IO::Compression::CompressionMode)>(&System::IO::Compression::GZipStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GZipStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Compression::CompressionMode>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::GZipStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Compression::CompressionMode>()});
   }
 };
-// Writing MetadataGetter for method: GZipStream::New_ctor
+// Writing MetadataGetter for method: System::IO::Compression::GZipStream::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GZipStream::*)(System::IO::Stream*, System::IO::Compression::CompressionMode, bool)>(&GZipStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Compression::GZipStream::*)(System::IO::Stream*, System::IO::Compression::CompressionMode, bool)>(&System::IO::Compression::GZipStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GZipStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Compression::CompressionMode>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::GZipStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Compression::CompressionMode>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GZipStream::*)(System::IO::Stream*, System::IO::Compression::CompressionMode, bool)>(&GZipStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Compression::GZipStream::*)(System::IO::Stream*, System::IO::Compression::CompressionMode, bool)>(&System::IO::Compression::GZipStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GZipStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Compression::CompressionMode>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::GZipStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Compression::CompressionMode>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: GZipStream::CheckDeflateStream
+// Writing MetadataGetter for method: System::IO::Compression::GZipStream::CheckDeflateStream
 // Il2CppName: CheckDeflateStream
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GZipStream::*)()>(&GZipStream::CheckDeflateStream)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Compression::GZipStream::*)()>(&System::IO::Compression::GZipStream::CheckDeflateStream)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GZipStream*), "CheckDeflateStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::GZipStream*), "CheckDeflateStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GZipStream::ThrowStreamClosedException
+// Writing MetadataGetter for method: System::IO::Compression::GZipStream::ThrowStreamClosedException
 // Il2CppName: ThrowStreamClosedException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GZipStream::ThrowStreamClosedException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::IO::Compression::GZipStream::ThrowStreamClosedException)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GZipStream*), "ThrowStreamClosedException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::GZipStream*), "ThrowStreamClosedException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GZipStream::get_CanRead
+// Writing MetadataGetter for method: System::IO::Compression::GZipStream::get_CanRead
 // Il2CppName: get_CanRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GZipStream::*)()>(&GZipStream::get_CanRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::IO::Compression::GZipStream::*)()>(&System::IO::Compression::GZipStream::get_CanRead)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GZipStream*), "get_CanRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::GZipStream*), "get_CanRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GZipStream::get_CanWrite
+// Writing MetadataGetter for method: System::IO::Compression::GZipStream::get_CanWrite
 // Il2CppName: get_CanWrite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GZipStream::*)()>(&GZipStream::get_CanWrite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::IO::Compression::GZipStream::*)()>(&System::IO::Compression::GZipStream::get_CanWrite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GZipStream*), "get_CanWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::GZipStream*), "get_CanWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GZipStream::get_CanSeek
+// Writing MetadataGetter for method: System::IO::Compression::GZipStream::get_CanSeek
 // Il2CppName: get_CanSeek
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GZipStream::*)()>(&GZipStream::get_CanSeek)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::IO::Compression::GZipStream::*)()>(&System::IO::Compression::GZipStream::get_CanSeek)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GZipStream*), "get_CanSeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::GZipStream*), "get_CanSeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GZipStream::get_Length
+// Writing MetadataGetter for method: System::IO::Compression::GZipStream::get_Length
 // Il2CppName: get_Length
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (GZipStream::*)()>(&GZipStream::get_Length)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::IO::Compression::GZipStream::*)()>(&System::IO::Compression::GZipStream::get_Length)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GZipStream*), "get_Length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::GZipStream*), "get_Length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GZipStream::get_Position
+// Writing MetadataGetter for method: System::IO::Compression::GZipStream::get_Position
 // Il2CppName: get_Position
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (GZipStream::*)()>(&GZipStream::get_Position)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::IO::Compression::GZipStream::*)()>(&System::IO::Compression::GZipStream::get_Position)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GZipStream*), "get_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::GZipStream*), "get_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GZipStream::set_Position
+// Writing MetadataGetter for method: System::IO::Compression::GZipStream::set_Position
 // Il2CppName: set_Position
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GZipStream::*)(int64_t)>(&GZipStream::set_Position)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Compression::GZipStream::*)(int64_t)>(&System::IO::Compression::GZipStream::set_Position)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GZipStream*), "set_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::GZipStream*), "set_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
   }
 };
-// Writing MetadataGetter for method: GZipStream::Flush
+// Writing MetadataGetter for method: System::IO::Compression::GZipStream::Flush
 // Il2CppName: Flush
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GZipStream::*)()>(&GZipStream::Flush)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Compression::GZipStream::*)()>(&System::IO::Compression::GZipStream::Flush)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GZipStream*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::GZipStream*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GZipStream::Seek
+// Writing MetadataGetter for method: System::IO::Compression::GZipStream::Seek
 // Il2CppName: Seek
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (GZipStream::*)(int64_t, System::IO::SeekOrigin)>(&GZipStream::Seek)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::IO::Compression::GZipStream::*)(int64_t, System::IO::SeekOrigin)>(&System::IO::Compression::GZipStream::Seek)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GZipStream*), "Seek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IO::SeekOrigin>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::GZipStream*), "Seek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::IO::SeekOrigin>()});
   }
 };
-// Writing MetadataGetter for method: GZipStream::SetLength
+// Writing MetadataGetter for method: System::IO::Compression::GZipStream::SetLength
 // Il2CppName: SetLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GZipStream::*)(int64_t)>(&GZipStream::SetLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Compression::GZipStream::*)(int64_t)>(&System::IO::Compression::GZipStream::SetLength)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GZipStream*), "SetLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::GZipStream*), "SetLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
   }
 };
-// Writing MetadataGetter for method: GZipStream::ReadByte
+// Writing MetadataGetter for method: System::IO::Compression::GZipStream::ReadByte
 // Il2CppName: ReadByte
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GZipStream::*)()>(&GZipStream::ReadByte)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::Compression::GZipStream::*)()>(&System::IO::Compression::GZipStream::ReadByte)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GZipStream*), "ReadByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::GZipStream*), "ReadByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GZipStream::BeginRead
+// Writing MetadataGetter for method: System::IO::Compression::GZipStream::BeginRead
 // Il2CppName: BeginRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (GZipStream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&GZipStream::BeginRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Compression::GZipStream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Compression::GZipStream::BeginRead)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GZipStream*), "BeginRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::GZipStream*), "BeginRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: GZipStream::EndRead
+// Writing MetadataGetter for method: System::IO::Compression::GZipStream::EndRead
 // Il2CppName: EndRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GZipStream::*)(System::IAsyncResult*)>(&GZipStream::EndRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::Compression::GZipStream::*)(System::IAsyncResult*)>(&System::IO::Compression::GZipStream::EndRead)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GZipStream*), "EndRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::GZipStream*), "EndRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };
-// Writing MetadataGetter for method: GZipStream::Read
+// Writing MetadataGetter for method: System::IO::Compression::GZipStream::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GZipStream::*)(::Array<uint8_t>*, int, int)>(&GZipStream::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::Compression::GZipStream::*)(::Array<uint8_t>*, int, int)>(&System::IO::Compression::GZipStream::Read)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GZipStream*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::GZipStream*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: GZipStream::BeginWrite
+// Writing MetadataGetter for method: System::IO::Compression::GZipStream::BeginWrite
 // Il2CppName: BeginWrite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (GZipStream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&GZipStream::BeginWrite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Compression::GZipStream::*)(::Array<uint8_t>*, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Compression::GZipStream::BeginWrite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GZipStream*), "BeginWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::GZipStream*), "BeginWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: GZipStream::EndWrite
+// Writing MetadataGetter for method: System::IO::Compression::GZipStream::EndWrite
 // Il2CppName: EndWrite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GZipStream::*)(System::IAsyncResult*)>(&GZipStream::EndWrite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Compression::GZipStream::*)(System::IAsyncResult*)>(&System::IO::Compression::GZipStream::EndWrite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GZipStream*), "EndWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::GZipStream*), "EndWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };
-// Writing MetadataGetter for method: GZipStream::Write
+// Writing MetadataGetter for method: System::IO::Compression::GZipStream::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GZipStream::*)(::Array<uint8_t>*, int, int)>(&GZipStream::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Compression::GZipStream::*)(::Array<uint8_t>*, int, int)>(&System::IO::Compression::GZipStream::Write)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GZipStream*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::GZipStream*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: GZipStream::Dispose
+// Writing MetadataGetter for method: System::IO::Compression::GZipStream::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GZipStream::*)(bool)>(&GZipStream::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Compression::GZipStream::*)(bool)>(&System::IO::Compression::GZipStream::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GZipStream*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::GZipStream*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: GZipStream::ReadAsync
+// Writing MetadataGetter for method: System::IO::Compression::GZipStream::ReadAsync
 // Il2CppName: ReadAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (GZipStream::*)(::Array<uint8_t>*, int, int, System::Threading::CancellationToken)>(&GZipStream::ReadAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (System::IO::Compression::GZipStream::*)(::Array<uint8_t>*, int, int, System::Threading::CancellationToken)>(&System::IO::Compression::GZipStream::ReadAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GZipStream*), "ReadAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::GZipStream*), "ReadAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: GZipStream::WriteAsync
+// Writing MetadataGetter for method: System::IO::Compression::GZipStream::WriteAsync
 // Il2CppName: WriteAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (GZipStream::*)(::Array<uint8_t>*, int, int, System::Threading::CancellationToken)>(&GZipStream::WriteAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::IO::Compression::GZipStream::*)(::Array<uint8_t>*, int, int, System::Threading::CancellationToken)>(&System::IO::Compression::GZipStream::WriteAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GZipStream*), "WriteAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::GZipStream*), "WriteAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: GZipStream::CopyToAsync
+// Writing MetadataGetter for method: System::IO::Compression::GZipStream::CopyToAsync
 // Il2CppName: CopyToAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (GZipStream::*)(System::IO::Stream*, int, System::Threading::CancellationToken)>(&GZipStream::CopyToAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::IO::Compression::GZipStream::*)(System::IO::Stream*, int, System::Threading::CancellationToken)>(&System::IO::Compression::GZipStream::CopyToAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GZipStream*), "CopyToAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::GZipStream*), "CopyToAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };

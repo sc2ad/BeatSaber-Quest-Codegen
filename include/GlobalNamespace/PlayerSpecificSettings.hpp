@@ -196,159 +196,159 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayerSpecificSettings) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSpecificSettings*, "", "PlayerSpecificSettings");
-// Writing MetadataGetter for method: PlayerSpecificSettings::get_leftHanded
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_leftHanded
 // Il2CppName: get_leftHanded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayerSpecificSettings::*)()>(&PlayerSpecificSettings::get_leftHanded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_leftHanded)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerSpecificSettings*), "get_leftHanded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_leftHanded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerSpecificSettings::get_playerHeight
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_playerHeight
 // Il2CppName: get_playerHeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (PlayerSpecificSettings::*)()>(&PlayerSpecificSettings::get_playerHeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_playerHeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerSpecificSettings*), "get_playerHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_playerHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerSpecificSettings::get_automaticPlayerHeight
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_automaticPlayerHeight
 // Il2CppName: get_automaticPlayerHeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayerSpecificSettings::*)()>(&PlayerSpecificSettings::get_automaticPlayerHeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_automaticPlayerHeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerSpecificSettings*), "get_automaticPlayerHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_automaticPlayerHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerSpecificSettings::get_sfxVolume
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_sfxVolume
 // Il2CppName: get_sfxVolume
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (PlayerSpecificSettings::*)()>(&PlayerSpecificSettings::get_sfxVolume)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_sfxVolume)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerSpecificSettings*), "get_sfxVolume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_sfxVolume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerSpecificSettings::get_reduceDebris
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_reduceDebris
 // Il2CppName: get_reduceDebris
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayerSpecificSettings::*)()>(&PlayerSpecificSettings::get_reduceDebris)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_reduceDebris)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerSpecificSettings*), "get_reduceDebris", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_reduceDebris", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerSpecificSettings::get_noTextsAndHuds
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_noTextsAndHuds
 // Il2CppName: get_noTextsAndHuds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayerSpecificSettings::*)()>(&PlayerSpecificSettings::get_noTextsAndHuds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_noTextsAndHuds)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerSpecificSettings*), "get_noTextsAndHuds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_noTextsAndHuds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerSpecificSettings::get_noFailEffects
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_noFailEffects
 // Il2CppName: get_noFailEffects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayerSpecificSettings::*)()>(&PlayerSpecificSettings::get_noFailEffects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_noFailEffects)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerSpecificSettings*), "get_noFailEffects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_noFailEffects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerSpecificSettings::get_advancedHud
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_advancedHud
 // Il2CppName: get_advancedHud
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayerSpecificSettings::*)()>(&PlayerSpecificSettings::get_advancedHud)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_advancedHud)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerSpecificSettings*), "get_advancedHud", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_advancedHud", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerSpecificSettings::get_autoRestart
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_autoRestart
 // Il2CppName: get_autoRestart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayerSpecificSettings::*)()>(&PlayerSpecificSettings::get_autoRestart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_autoRestart)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerSpecificSettings*), "get_autoRestart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_autoRestart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerSpecificSettings::get_saberTrailIntensity
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_saberTrailIntensity
 // Il2CppName: get_saberTrailIntensity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (PlayerSpecificSettings::*)()>(&PlayerSpecificSettings::get_saberTrailIntensity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_saberTrailIntensity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerSpecificSettings*), "get_saberTrailIntensity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_saberTrailIntensity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerSpecificSettings::get_noteJumpStartBeatOffset
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_noteJumpStartBeatOffset
 // Il2CppName: get_noteJumpStartBeatOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (PlayerSpecificSettings::*)()>(&PlayerSpecificSettings::get_noteJumpStartBeatOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_noteJumpStartBeatOffset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerSpecificSettings*), "get_noteJumpStartBeatOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_noteJumpStartBeatOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerSpecificSettings::get_hideNoteSpawnEffect
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_hideNoteSpawnEffect
 // Il2CppName: get_hideNoteSpawnEffect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayerSpecificSettings::*)()>(&PlayerSpecificSettings::get_hideNoteSpawnEffect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_hideNoteSpawnEffect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerSpecificSettings*), "get_hideNoteSpawnEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_hideNoteSpawnEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerSpecificSettings::get_adaptiveSfx
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_adaptiveSfx
 // Il2CppName: get_adaptiveSfx
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayerSpecificSettings::*)()>(&PlayerSpecificSettings::get_adaptiveSfx)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_adaptiveSfx)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerSpecificSettings*), "get_adaptiveSfx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_adaptiveSfx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerSpecificSettings::get_environmentEffectsFilterDefaultPreset
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_environmentEffectsFilterDefaultPreset
 // Il2CppName: get_environmentEffectsFilterDefaultPreset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentEffectsFilterPreset (PlayerSpecificSettings::*)()>(&PlayerSpecificSettings::get_environmentEffectsFilterDefaultPreset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentEffectsFilterPreset (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_environmentEffectsFilterDefaultPreset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerSpecificSettings*), "get_environmentEffectsFilterDefaultPreset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_environmentEffectsFilterDefaultPreset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerSpecificSettings::get_environmentEffectsFilterExpertPlusPreset
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_environmentEffectsFilterExpertPlusPreset
 // Il2CppName: get_environmentEffectsFilterExpertPlusPreset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentEffectsFilterPreset (PlayerSpecificSettings::*)()>(&PlayerSpecificSettings::get_environmentEffectsFilterExpertPlusPreset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentEffectsFilterPreset (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::get_environmentEffectsFilterExpertPlusPreset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerSpecificSettings*), "get_environmentEffectsFilterExpertPlusPreset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "get_environmentEffectsFilterExpertPlusPreset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerSpecificSettings::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSpecificSettings::*)(bool, float, bool, float, bool, bool, bool, bool, bool, float, float, bool, bool, GlobalNamespace::EnvironmentEffectsFilterPreset, GlobalNamespace::EnvironmentEffectsFilterPreset)>(&PlayerSpecificSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerSpecificSettings::*)(bool, float, bool, float, bool, bool, bool, bool, bool, float, float, bool, bool, GlobalNamespace::EnvironmentEffectsFilterPreset, GlobalNamespace::EnvironmentEffectsFilterPreset)>(&GlobalNamespace::PlayerSpecificSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerSpecificSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EnvironmentEffectsFilterPreset>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EnvironmentEffectsFilterPreset>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EnvironmentEffectsFilterPreset>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EnvironmentEffectsFilterPreset>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSpecificSettings::*)(bool, float, bool, float, bool, bool, bool, bool, bool, float, float, bool, bool, GlobalNamespace::EnvironmentEffectsFilterPreset, GlobalNamespace::EnvironmentEffectsFilterPreset)>(&PlayerSpecificSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerSpecificSettings::*)(bool, float, bool, float, bool, bool, bool, bool, bool, float, float, bool, bool, GlobalNamespace::EnvironmentEffectsFilterPreset, GlobalNamespace::EnvironmentEffectsFilterPreset)>(&GlobalNamespace::PlayerSpecificSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerSpecificSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EnvironmentEffectsFilterPreset>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EnvironmentEffectsFilterPreset>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EnvironmentEffectsFilterPreset>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EnvironmentEffectsFilterPreset>()});
   }
 };
-// Writing MetadataGetter for method: PlayerSpecificSettings::CopyWith
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::CopyWith
 // Il2CppName: CopyWith
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerSpecificSettings* (PlayerSpecificSettings::*)(System::Nullable_1<bool>, System::Nullable_1<float>, System::Nullable_1<bool>, System::Nullable_1<float>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<float>, System::Nullable_1<float>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<GlobalNamespace::EnvironmentEffectsFilterPreset>, System::Nullable_1<GlobalNamespace::EnvironmentEffectsFilterPreset>)>(&PlayerSpecificSettings::CopyWith)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerSpecificSettings* (GlobalNamespace::PlayerSpecificSettings::*)(System::Nullable_1<bool>, System::Nullable_1<float>, System::Nullable_1<bool>, System::Nullable_1<float>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<float>, System::Nullable_1<float>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<GlobalNamespace::EnvironmentEffectsFilterPreset>, System::Nullable_1<GlobalNamespace::EnvironmentEffectsFilterPreset>)>(&GlobalNamespace::PlayerSpecificSettings::CopyWith)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerSpecificSettings*), "CopyWith", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<float>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<float>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<float>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<float>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<GlobalNamespace::EnvironmentEffectsFilterPreset>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<GlobalNamespace::EnvironmentEffectsFilterPreset>>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "CopyWith", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<float>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<float>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<float>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<float>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<GlobalNamespace::EnvironmentEffectsFilterPreset>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<GlobalNamespace::EnvironmentEffectsFilterPreset>>()});
   }
 };
-// Writing MetadataGetter for method: PlayerSpecificSettings::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSpecificSettings::*)()>(&PlayerSpecificSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerSpecificSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSpecificSettings::*)()>(&PlayerSpecificSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerSpecificSettings::*)()>(&GlobalNamespace::PlayerSpecificSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerSpecificSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -67,41 +67,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(FullComboMissionObjectiveChecker) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FullComboMissionObjectiveChecker*, "", "FullComboMissionObjectiveChecker");
-// Writing MetadataGetter for method: FullComboMissionObjectiveChecker::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::FullComboMissionObjectiveChecker::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FullComboMissionObjectiveChecker::*)()>(&FullComboMissionObjectiveChecker::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FullComboMissionObjectiveChecker::*)()>(&GlobalNamespace::FullComboMissionObjectiveChecker::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FullComboMissionObjectiveChecker*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FullComboMissionObjectiveChecker*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FullComboMissionObjectiveChecker::HandleComboBreakingEventHappened
+// Writing MetadataGetter for method: GlobalNamespace::FullComboMissionObjectiveChecker::HandleComboBreakingEventHappened
 // Il2CppName: HandleComboBreakingEventHappened
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FullComboMissionObjectiveChecker::*)()>(&FullComboMissionObjectiveChecker::HandleComboBreakingEventHappened)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FullComboMissionObjectiveChecker::*)()>(&GlobalNamespace::FullComboMissionObjectiveChecker::HandleComboBreakingEventHappened)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FullComboMissionObjectiveChecker*), "HandleComboBreakingEventHappened", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FullComboMissionObjectiveChecker*), "HandleComboBreakingEventHappened", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FullComboMissionObjectiveChecker::Init
+// Writing MetadataGetter for method: GlobalNamespace::FullComboMissionObjectiveChecker::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FullComboMissionObjectiveChecker::*)()>(&FullComboMissionObjectiveChecker::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FullComboMissionObjectiveChecker::*)()>(&GlobalNamespace::FullComboMissionObjectiveChecker::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FullComboMissionObjectiveChecker*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FullComboMissionObjectiveChecker*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FullComboMissionObjectiveChecker::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::FullComboMissionObjectiveChecker::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FullComboMissionObjectiveChecker::*)()>(&FullComboMissionObjectiveChecker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FullComboMissionObjectiveChecker::*)()>(&GlobalNamespace::FullComboMissionObjectiveChecker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FullComboMissionObjectiveChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FullComboMissionObjectiveChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FullComboMissionObjectiveChecker::*)()>(&FullComboMissionObjectiveChecker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FullComboMissionObjectiveChecker::*)()>(&GlobalNamespace::FullComboMissionObjectiveChecker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FullComboMissionObjectiveChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FullComboMissionObjectiveChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

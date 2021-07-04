@@ -113,33 +113,33 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuEnvironmentManager*, "", "MenuEnvironmentManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType, "", "MenuEnvironmentManager/MenuEnvironmentType");
-// Writing MetadataGetter for method: MenuEnvironmentManager::Start
+// Writing MetadataGetter for method: GlobalNamespace::MenuEnvironmentManager::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuEnvironmentManager::*)()>(&MenuEnvironmentManager::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuEnvironmentManager::*)()>(&GlobalNamespace::MenuEnvironmentManager::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MenuEnvironmentManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuEnvironmentManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MenuEnvironmentManager::ShowEnvironmentType
+// Writing MetadataGetter for method: GlobalNamespace::MenuEnvironmentManager::ShowEnvironmentType
 // Il2CppName: ShowEnvironmentType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuEnvironmentManager::*)(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType)>(&MenuEnvironmentManager::ShowEnvironmentType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuEnvironmentManager::*)(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType)>(&GlobalNamespace::MenuEnvironmentManager::ShowEnvironmentType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MenuEnvironmentManager*), "ShowEnvironmentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuEnvironmentManager*), "ShowEnvironmentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType>()});
   }
 };
-// Writing MetadataGetter for method: MenuEnvironmentManager::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MenuEnvironmentManager::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuEnvironmentManager::*)()>(&MenuEnvironmentManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuEnvironmentManager::*)()>(&GlobalNamespace::MenuEnvironmentManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MenuEnvironmentManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuEnvironmentManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuEnvironmentManager::*)()>(&MenuEnvironmentManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuEnvironmentManager::*)()>(&GlobalNamespace::MenuEnvironmentManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MenuEnvironmentManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuEnvironmentManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

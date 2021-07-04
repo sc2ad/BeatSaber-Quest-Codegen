@@ -321,305 +321,305 @@ namespace GlobalNamespace {
   static_assert(sizeof(HostGameServerLobbyFlowCoordinator) == 0x1D0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HostGameServerLobbyFlowCoordinator*, "", "HostGameServerLobbyFlowCoordinator");
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::add_willFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::add_willFinishEvent
 // Il2CppName: add_willFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)(System::Action_1<GlobalNamespace::HostGameServerLobbyFlowCoordinator*>*)>(&HostGameServerLobbyFlowCoordinator::add_willFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)(System::Action_1<GlobalNamespace::HostGameServerLobbyFlowCoordinator*>*)>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::add_willFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "add_willFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::HostGameServerLobbyFlowCoordinator*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "add_willFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::HostGameServerLobbyFlowCoordinator*>*>()});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::remove_willFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::remove_willFinishEvent
 // Il2CppName: remove_willFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)(System::Action_1<GlobalNamespace::HostGameServerLobbyFlowCoordinator*>*)>(&HostGameServerLobbyFlowCoordinator::remove_willFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)(System::Action_1<GlobalNamespace::HostGameServerLobbyFlowCoordinator*>*)>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::remove_willFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "remove_willFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::HostGameServerLobbyFlowCoordinator*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "remove_willFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::HostGameServerLobbyFlowCoordinator*>*>()});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::add_didFinishedEvent
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::add_didFinishedEvent
 // Il2CppName: add_didFinishedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)(System::Action_1<GlobalNamespace::HostGameServerLobbyFlowCoordinator*>*)>(&HostGameServerLobbyFlowCoordinator::add_didFinishedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)(System::Action_1<GlobalNamespace::HostGameServerLobbyFlowCoordinator*>*)>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::add_didFinishedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "add_didFinishedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::HostGameServerLobbyFlowCoordinator*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "add_didFinishedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::HostGameServerLobbyFlowCoordinator*>*>()});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::remove_didFinishedEvent
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::remove_didFinishedEvent
 // Il2CppName: remove_didFinishedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)(System::Action_1<GlobalNamespace::HostGameServerLobbyFlowCoordinator*>*)>(&HostGameServerLobbyFlowCoordinator::remove_didFinishedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)(System::Action_1<GlobalNamespace::HostGameServerLobbyFlowCoordinator*>*)>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::remove_didFinishedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "remove_didFinishedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::HostGameServerLobbyFlowCoordinator*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "remove_didFinishedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::HostGameServerLobbyFlowCoordinator*>*>()});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::HandleLobbyPlayersDataModelDidChange
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleLobbyPlayersDataModelDidChange
 // Il2CppName: HandleLobbyPlayersDataModelDidChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)(::Il2CppString*)>(&HostGameServerLobbyFlowCoordinator::HandleLobbyPlayersDataModelDidChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)(::Il2CppString*)>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleLobbyPlayersDataModelDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "HandleLobbyPlayersDataModelDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "HandleLobbyPlayersDataModelDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::SetLobbyPlayerDataToViews
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::SetLobbyPlayerDataToViews
 // Il2CppName: SetLobbyPlayerDataToViews
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)(::Il2CppString*)>(&HostGameServerLobbyFlowCoordinator::SetLobbyPlayerDataToViews)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)(::Il2CppString*)>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::SetLobbyPlayerDataToViews)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "SetLobbyPlayerDataToViews", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "SetLobbyPlayerDataToViews", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::HandleMenuRpcManagerSetIsReadyOnCountdown
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleMenuRpcManagerSetIsReadyOnCountdown
 // Il2CppName: HandleMenuRpcManagerSetIsReadyOnCountdown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)(::Il2CppString*, bool)>(&HostGameServerLobbyFlowCoordinator::HandleMenuRpcManagerSetIsReadyOnCountdown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)(::Il2CppString*, bool)>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleMenuRpcManagerSetIsReadyOnCountdown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "HandleMenuRpcManagerSetIsReadyOnCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "HandleMenuRpcManagerSetIsReadyOnCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::HandleMenuRpcManagerSetIsInLobby
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleMenuRpcManagerSetIsInLobby
 // Il2CppName: HandleMenuRpcManagerSetIsInLobby
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)(::Il2CppString*, bool)>(&HostGameServerLobbyFlowCoordinator::HandleMenuRpcManagerSetIsInLobby)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)(::Il2CppString*, bool)>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleMenuRpcManagerSetIsInLobby)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "HandleMenuRpcManagerSetIsInLobby", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "HandleMenuRpcManagerSetIsInLobby", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::HandleLobbyStateDataModelPlayerConnected
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleLobbyStateDataModelPlayerConnected
 // Il2CppName: HandleLobbyStateDataModelPlayerConnected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)(GlobalNamespace::IConnectedPlayer*)>(&HostGameServerLobbyFlowCoordinator::HandleLobbyStateDataModelPlayerConnected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)(GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleLobbyStateDataModelPlayerConnected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "HandleLobbyStateDataModelPlayerConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "HandleLobbyStateDataModelPlayerConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::HandleLobbyStateDataModelPlayerDisconnected
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleLobbyStateDataModelPlayerDisconnected
 // Il2CppName: HandleLobbyStateDataModelPlayerDisconnected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)(GlobalNamespace::IConnectedPlayer*)>(&HostGameServerLobbyFlowCoordinator::HandleLobbyStateDataModelPlayerDisconnected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)(GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleLobbyStateDataModelPlayerDisconnected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "HandleLobbyStateDataModelPlayerDisconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "HandleLobbyStateDataModelPlayerDisconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::HandleServerPlayerListControllerSelectSuggestedBeatmap
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleServerPlayerListControllerSelectSuggestedBeatmap
 // Il2CppName: HandleServerPlayerListControllerSelectSuggestedBeatmap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)(::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty)>(&HostGameServerLobbyFlowCoordinator::HandleServerPlayerListControllerSelectSuggestedBeatmap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)(::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty)>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleServerPlayerListControllerSelectSuggestedBeatmap)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "HandleServerPlayerListControllerSelectSuggestedBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "HandleServerPlayerListControllerSelectSuggestedBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>()});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::HandleServerPlayerListControllerSelectSuggestedGameplayModifiers
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleServerPlayerListControllerSelectSuggestedGameplayModifiers
 // Il2CppName: HandleServerPlayerListControllerSelectSuggestedGameplayModifiers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)(GlobalNamespace::GameplayModifiers*)>(&HostGameServerLobbyFlowCoordinator::HandleServerPlayerListControllerSelectSuggestedGameplayModifiers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleServerPlayerListControllerSelectSuggestedGameplayModifiers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "HandleServerPlayerListControllerSelectSuggestedGameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "HandleServerPlayerListControllerSelectSuggestedGameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>()});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::HandleServerPlayerListControllerKickPlayer
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleServerPlayerListControllerKickPlayer
 // Il2CppName: HandleServerPlayerListControllerKickPlayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)(::Il2CppString*)>(&HostGameServerLobbyFlowCoordinator::HandleServerPlayerListControllerKickPlayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)(::Il2CppString*)>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleServerPlayerListControllerKickPlayer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "HandleServerPlayerListControllerKickPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "HandleServerPlayerListControllerKickPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::HandleHostLobbySetupViewControllerStartGame
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleHostLobbySetupViewControllerStartGame
 // Il2CppName: HandleHostLobbySetupViewControllerStartGame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)()>(&HostGameServerLobbyFlowCoordinator::HandleHostLobbySetupViewControllerStartGame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)()>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleHostLobbySetupViewControllerStartGame)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "HandleHostLobbySetupViewControllerStartGame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "HandleHostLobbySetupViewControllerStartGame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::HandleLobbyGameStateControllerStartTimeChanged
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleLobbyGameStateControllerStartTimeChanged
 // Il2CppName: HandleLobbyGameStateControllerStartTimeChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)()>(&HostGameServerLobbyFlowCoordinator::HandleLobbyGameStateControllerStartTimeChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)()>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleLobbyGameStateControllerStartTimeChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "HandleLobbyGameStateControllerStartTimeChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "HandleLobbyGameStateControllerStartTimeChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::HandleLobbyGameStateControllerSongStillDownloading
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleLobbyGameStateControllerSongStillDownloading
 // Il2CppName: HandleLobbyGameStateControllerSongStillDownloading
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)()>(&HostGameServerLobbyFlowCoordinator::HandleLobbyGameStateControllerSongStillDownloading)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)()>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleLobbyGameStateControllerSongStillDownloading)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "HandleLobbyGameStateControllerSongStillDownloading", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "HandleLobbyGameStateControllerSongStillDownloading", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::HandleHostLobbySetupViewControllerCancelStartGame
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleHostLobbySetupViewControllerCancelStartGame
 // Il2CppName: HandleHostLobbySetupViewControllerCancelStartGame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)()>(&HostGameServerLobbyFlowCoordinator::HandleHostLobbySetupViewControllerCancelStartGame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)()>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleHostLobbySetupViewControllerCancelStartGame)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "HandleHostLobbySetupViewControllerCancelStartGame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "HandleHostLobbySetupViewControllerCancelStartGame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::HandleLobbyGameBeforeSceneSwitchCallback
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleLobbyGameBeforeSceneSwitchCallback
 // Il2CppName: HandleLobbyGameBeforeSceneSwitchCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)()>(&HostGameServerLobbyFlowCoordinator::HandleLobbyGameBeforeSceneSwitchCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)()>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleLobbyGameBeforeSceneSwitchCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "HandleLobbyGameBeforeSceneSwitchCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "HandleLobbyGameBeforeSceneSwitchCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::UpdateGameStartTime
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::UpdateGameStartTime
 // Il2CppName: UpdateGameStartTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)()>(&HostGameServerLobbyFlowCoordinator::UpdateGameStartTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)()>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::UpdateGameStartTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "UpdateGameStartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "UpdateGameStartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::UpdateStartGameEnabledState
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::UpdateStartGameEnabledState
 // Il2CppName: UpdateStartGameEnabledState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)()>(&HostGameServerLobbyFlowCoordinator::UpdateStartGameEnabledState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)()>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::UpdateStartGameEnabledState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "UpdateStartGameEnabledState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "UpdateStartGameEnabledState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::UpdateMissingEntitlementsAsync
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::UpdateMissingEntitlementsAsync
 // Il2CppName: UpdateMissingEntitlementsAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)(::Il2CppString*)>(&HostGameServerLobbyFlowCoordinator::UpdateMissingEntitlementsAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)(::Il2CppString*)>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::UpdateMissingEntitlementsAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "UpdateMissingEntitlementsAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "UpdateMissingEntitlementsAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::DismissViewControllersAndCoordinators
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::DismissViewControllersAndCoordinators
 // Il2CppName: DismissViewControllersAndCoordinators
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)()>(&HostGameServerLobbyFlowCoordinator::DismissViewControllersAndCoordinators)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)()>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::DismissViewControllersAndCoordinators)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "DismissViewControllersAndCoordinators", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "DismissViewControllersAndCoordinators", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::DismissStartGameIfAllPlayersSpectating
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::DismissStartGameIfAllPlayersSpectating
 // Il2CppName: DismissStartGameIfAllPlayersSpectating
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)()>(&HostGameServerLobbyFlowCoordinator::DismissStartGameIfAllPlayersSpectating)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)()>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::DismissStartGameIfAllPlayersSpectating)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "DismissStartGameIfAllPlayersSpectating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "DismissStartGameIfAllPlayersSpectating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::ResolveCannotStartGameReason
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::ResolveCannotStartGameReason
 // Il2CppName: ResolveCannotStartGameReason
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::HostLobbySetupViewController::CannotStartGameReason (HostGameServerLobbyFlowCoordinator::*)(bool, bool)>(&HostGameServerLobbyFlowCoordinator::ResolveCannotStartGameReason)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::HostLobbySetupViewController::CannotStartGameReason (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)(bool, bool)>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::ResolveCannotStartGameReason)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "ResolveCannotStartGameReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "ResolveCannotStartGameReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::CheckIfAllPlayersAreReady
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::CheckIfAllPlayersAreReady
 // Il2CppName: CheckIfAllPlayersAreReady
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HostGameServerLobbyFlowCoordinator::*)()>(&HostGameServerLobbyFlowCoordinator::CheckIfAllPlayersAreReady)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)()>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::CheckIfAllPlayersAreReady)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "CheckIfAllPlayersAreReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "CheckIfAllPlayersAreReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::$DismissStartGameIfAllPlayersSpectating$b__45_0
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::$DismissStartGameIfAllPlayersSpectating$b__45_0
 // Il2CppName: <DismissStartGameIfAllPlayersSpectating>b__45_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HostGameServerLobbyFlowCoordinator::*)(bool, GlobalNamespace::IConnectedPlayer*)>(&HostGameServerLobbyFlowCoordinator::$DismissStartGameIfAllPlayersSpectating$b__45_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)(bool, GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::$DismissStartGameIfAllPlayersSpectating$b__45_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "<DismissStartGameIfAllPlayersSpectating>b__45_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "<DismissStartGameIfAllPlayersSpectating>b__45_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::DidActivate
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::DidActivate
 // Il2CppName: DidActivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)(bool, bool, bool)>(&HostGameServerLobbyFlowCoordinator::DidActivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)(bool, bool, bool)>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::DidActivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::DidDeactivate
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::DidDeactivate
 // Il2CppName: DidDeactivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)(bool, bool)>(&HostGameServerLobbyFlowCoordinator::DidDeactivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)(bool, bool)>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::DidDeactivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::TopViewControllerWillChange
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::TopViewControllerWillChange
 // Il2CppName: TopViewControllerWillChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)(HMUI::ViewController*, HMUI::ViewController*, HMUI::ViewController::AnimationType)>(&HostGameServerLobbyFlowCoordinator::TopViewControllerWillChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)(HMUI::ViewController*, HMUI::ViewController*, HMUI::ViewController::AnimationType)>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::TopViewControllerWillChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "TopViewControllerWillChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationType>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "TopViewControllerWillChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationType>()});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::BackButtonWasPressed
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::BackButtonWasPressed
 // Il2CppName: BackButtonWasPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)(HMUI::ViewController*)>(&HostGameServerLobbyFlowCoordinator::BackButtonWasPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)(HMUI::ViewController*)>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::BackButtonWasPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "BackButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "BackButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>()});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::HandleLobbySetupViewControllerSelectBeatmap
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleLobbySetupViewControllerSelectBeatmap
 // Il2CppName: HandleLobbySetupViewControllerSelectBeatmap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)()>(&HostGameServerLobbyFlowCoordinator::HandleLobbySetupViewControllerSelectBeatmap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)()>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleLobbySetupViewControllerSelectBeatmap)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "HandleLobbySetupViewControllerSelectBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "HandleLobbySetupViewControllerSelectBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::HandleMultiplayerLevelSelectionFlowCoordinatorDidSelectLevel
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleMultiplayerLevelSelectionFlowCoordinatorDidSelectLevel
 // Il2CppName: HandleMultiplayerLevelSelectionFlowCoordinatorDidSelectLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)(GlobalNamespace::LevelSelectionFlowCoordinator::State*)>(&HostGameServerLobbyFlowCoordinator::HandleMultiplayerLevelSelectionFlowCoordinatorDidSelectLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)(GlobalNamespace::LevelSelectionFlowCoordinator::State*)>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleMultiplayerLevelSelectionFlowCoordinatorDidSelectLevel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "HandleMultiplayerLevelSelectionFlowCoordinatorDidSelectLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelSelectionFlowCoordinator::State*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "HandleMultiplayerLevelSelectionFlowCoordinatorDidSelectLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelSelectionFlowCoordinator::State*>()});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::Finish
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::Finish
 // Il2CppName: Finish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)(System::Action*, bool)>(&HostGameServerLobbyFlowCoordinator::Finish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)(System::Action*, bool)>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::Finish)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "Finish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "Finish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::HandleBackToLobbyPressed
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleBackToLobbyPressed
 // Il2CppName: HandleBackToLobbyPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)(GlobalNamespace::MultiplayerResultsViewController*)>(&HostGameServerLobbyFlowCoordinator::HandleBackToLobbyPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)(GlobalNamespace::MultiplayerResultsViewController*)>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleBackToLobbyPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "HandleBackToLobbyPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerResultsViewController*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "HandleBackToLobbyPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerResultsViewController*>()});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::HandleMultiplayerSettingsPanelControllerPlayerActiveStateChanged
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleMultiplayerSettingsPanelControllerPlayerActiveStateChanged
 // Il2CppName: HandleMultiplayerSettingsPanelControllerPlayerActiveStateChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)(bool)>(&HostGameServerLobbyFlowCoordinator::HandleMultiplayerSettingsPanelControllerPlayerActiveStateChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)(bool)>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleMultiplayerSettingsPanelControllerPlayerActiveStateChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "HandleMultiplayerSettingsPanelControllerPlayerActiveStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "HandleMultiplayerSettingsPanelControllerPlayerActiveStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::HandleLobbyGameStateControllerLevelFinished
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleLobbyGameStateControllerLevelFinished
 // Il2CppName: HandleLobbyGameStateControllerLevelFinished
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*)>(&HostGameServerLobbyFlowCoordinator::HandleLobbyGameStateControllerLevelFinished)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*)>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::HandleLobbyGameStateControllerLevelFinished)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), "HandleLobbyGameStateControllerLevelFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerResultsData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), "HandleLobbyGameStateControllerLevelFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerResultsData*>()});
   }
 };
-// Writing MetadataGetter for method: HostGameServerLobbyFlowCoordinator::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)()>(&HostGameServerLobbyFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)()>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HostGameServerLobbyFlowCoordinator::*)()>(&HostGameServerLobbyFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::*)()>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HostGameServerLobbyFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

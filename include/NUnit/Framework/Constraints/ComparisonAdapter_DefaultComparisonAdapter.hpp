@@ -36,17 +36,17 @@ namespace NUnit::Framework::Constraints {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ComparisonAdapter::DefaultComparisonAdapter*, "NUnit.Framework.Constraints", "ComparisonAdapter/DefaultComparisonAdapter");
-// Writing MetadataGetter for method: ComparisonAdapter::DefaultComparisonAdapter::New_ctor
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::ComparisonAdapter::DefaultComparisonAdapter::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ComparisonAdapter::DefaultComparisonAdapter::*)()>(&ComparisonAdapter::DefaultComparisonAdapter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::ComparisonAdapter::DefaultComparisonAdapter::*)()>(&NUnit::Framework::Constraints::ComparisonAdapter::DefaultComparisonAdapter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ComparisonAdapter::DefaultComparisonAdapter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ComparisonAdapter::DefaultComparisonAdapter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ComparisonAdapter::DefaultComparisonAdapter::*)()>(&ComparisonAdapter::DefaultComparisonAdapter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::ComparisonAdapter::DefaultComparisonAdapter::*)()>(&NUnit::Framework::Constraints::ComparisonAdapter::DefaultComparisonAdapter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ComparisonAdapter::DefaultComparisonAdapter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ComparisonAdapter::DefaultComparisonAdapter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

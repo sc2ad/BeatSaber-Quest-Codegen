@@ -154,105 +154,105 @@ namespace GlobalNamespace {
   static_assert(sizeof(DifficultyTableView) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DifficultyTableView*, "", "DifficultyTableView");
-// Writing MetadataGetter for method: DifficultyTableView::add_didSelectRow
+// Writing MetadataGetter for method: GlobalNamespace::DifficultyTableView::add_didSelectRow
 // Il2CppName: add_didSelectRow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DifficultyTableView::*)(System::Action_2<GlobalNamespace::DifficultyTableView*, int>*)>(&DifficultyTableView::add_didSelectRow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DifficultyTableView::*)(System::Action_2<GlobalNamespace::DifficultyTableView*, int>*)>(&GlobalNamespace::DifficultyTableView::add_didSelectRow)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DifficultyTableView*), "add_didSelectRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::DifficultyTableView*, int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DifficultyTableView*), "add_didSelectRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::DifficultyTableView*, int>*>()});
   }
 };
-// Writing MetadataGetter for method: DifficultyTableView::remove_didSelectRow
+// Writing MetadataGetter for method: GlobalNamespace::DifficultyTableView::remove_didSelectRow
 // Il2CppName: remove_didSelectRow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DifficultyTableView::*)(System::Action_2<GlobalNamespace::DifficultyTableView*, int>*)>(&DifficultyTableView::remove_didSelectRow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DifficultyTableView::*)(System::Action_2<GlobalNamespace::DifficultyTableView*, int>*)>(&GlobalNamespace::DifficultyTableView::remove_didSelectRow)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DifficultyTableView*), "remove_didSelectRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::DifficultyTableView*, int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DifficultyTableView*), "remove_didSelectRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::DifficultyTableView*, int>*>()});
   }
 };
-// Writing MetadataGetter for method: DifficultyTableView::Init
+// Writing MetadataGetter for method: GlobalNamespace::DifficultyTableView::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DifficultyTableView::*)(::Array<GlobalNamespace::IDifficultyBeatmap*>*)>(&DifficultyTableView::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DifficultyTableView::*)(::Array<GlobalNamespace::IDifficultyBeatmap*>*)>(&GlobalNamespace::DifficultyTableView::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DifficultyTableView*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::IDifficultyBeatmap*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DifficultyTableView*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::IDifficultyBeatmap*>*>()});
   }
 };
-// Writing MetadataGetter for method: DifficultyTableView::SetDifficultyBeatmaps
+// Writing MetadataGetter for method: GlobalNamespace::DifficultyTableView::SetDifficultyBeatmaps
 // Il2CppName: SetDifficultyBeatmaps
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DifficultyTableView::*)(::Array<GlobalNamespace::IDifficultyBeatmap*>*)>(&DifficultyTableView::SetDifficultyBeatmaps)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DifficultyTableView::*)(::Array<GlobalNamespace::IDifficultyBeatmap*>*)>(&GlobalNamespace::DifficultyTableView::SetDifficultyBeatmaps)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DifficultyTableView*), "SetDifficultyBeatmaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::IDifficultyBeatmap*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DifficultyTableView*), "SetDifficultyBeatmaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::IDifficultyBeatmap*>*>()});
   }
 };
-// Writing MetadataGetter for method: DifficultyTableView::CellSize
+// Writing MetadataGetter for method: GlobalNamespace::DifficultyTableView::CellSize
 // Il2CppName: CellSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (DifficultyTableView::*)()>(&DifficultyTableView::CellSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::DifficultyTableView::*)()>(&GlobalNamespace::DifficultyTableView::CellSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DifficultyTableView*), "CellSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DifficultyTableView*), "CellSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DifficultyTableView::NumberOfCells
+// Writing MetadataGetter for method: GlobalNamespace::DifficultyTableView::NumberOfCells
 // Il2CppName: NumberOfCells
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DifficultyTableView::*)()>(&DifficultyTableView::NumberOfCells)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::DifficultyTableView::*)()>(&GlobalNamespace::DifficultyTableView::NumberOfCells)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DifficultyTableView*), "NumberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DifficultyTableView*), "NumberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DifficultyTableView::CellForIdx
+// Writing MetadataGetter for method: GlobalNamespace::DifficultyTableView::CellForIdx
 // Il2CppName: CellForIdx
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (DifficultyTableView::*)(HMUI::TableView*, int)>(&DifficultyTableView::CellForIdx)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (GlobalNamespace::DifficultyTableView::*)(HMUI::TableView*, int)>(&GlobalNamespace::DifficultyTableView::CellForIdx)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DifficultyTableView*), "CellForIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DifficultyTableView*), "CellForIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: DifficultyTableView::HandleDidSelectRowEvent
+// Writing MetadataGetter for method: GlobalNamespace::DifficultyTableView::HandleDidSelectRowEvent
 // Il2CppName: HandleDidSelectRowEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DifficultyTableView::*)(HMUI::TableView*, int)>(&DifficultyTableView::HandleDidSelectRowEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DifficultyTableView::*)(HMUI::TableView*, int)>(&GlobalNamespace::DifficultyTableView::HandleDidSelectRowEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DifficultyTableView*), "HandleDidSelectRowEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DifficultyTableView*), "HandleDidSelectRowEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: DifficultyTableView::SelectRow
+// Writing MetadataGetter for method: GlobalNamespace::DifficultyTableView::SelectRow
 // Il2CppName: SelectRow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DifficultyTableView::*)(int, bool)>(&DifficultyTableView::SelectRow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DifficultyTableView::*)(int, bool)>(&GlobalNamespace::DifficultyTableView::SelectRow)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DifficultyTableView*), "SelectRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DifficultyTableView*), "SelectRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: DifficultyTableView::SelectRow
+// Writing MetadataGetter for method: GlobalNamespace::DifficultyTableView::SelectRow
 // Il2CppName: SelectRow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DifficultyTableView::*)(GlobalNamespace::IDifficultyBeatmap*, bool)>(&DifficultyTableView::SelectRow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DifficultyTableView::*)(GlobalNamespace::IDifficultyBeatmap*, bool)>(&GlobalNamespace::DifficultyTableView::SelectRow)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DifficultyTableView*), "SelectRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DifficultyTableView*), "SelectRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: DifficultyTableView::ClearSelection
+// Writing MetadataGetter for method: GlobalNamespace::DifficultyTableView::ClearSelection
 // Il2CppName: ClearSelection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DifficultyTableView::*)()>(&DifficultyTableView::ClearSelection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DifficultyTableView::*)()>(&GlobalNamespace::DifficultyTableView::ClearSelection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DifficultyTableView*), "ClearSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DifficultyTableView*), "ClearSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DifficultyTableView::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::DifficultyTableView::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DifficultyTableView::*)()>(&DifficultyTableView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DifficultyTableView::*)()>(&GlobalNamespace::DifficultyTableView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DifficultyTableView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DifficultyTableView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DifficultyTableView::*)()>(&DifficultyTableView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DifficultyTableView::*)()>(&GlobalNamespace::DifficultyTableView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DifficultyTableView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DifficultyTableView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -80,41 +80,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(TriggerChecker) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TriggerChecker*, "", "TriggerChecker");
-// Writing MetadataGetter for method: TriggerChecker::OnTriggerEnter
+// Writing MetadataGetter for method: GlobalNamespace::TriggerChecker::OnTriggerEnter
 // Il2CppName: OnTriggerEnter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TriggerChecker::*)(UnityEngine::Collider*)>(&TriggerChecker::OnTriggerEnter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TriggerChecker::*)(UnityEngine::Collider*)>(&GlobalNamespace::TriggerChecker::OnTriggerEnter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TriggerChecker*), "OnTriggerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Collider*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TriggerChecker*), "OnTriggerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Collider*>()});
   }
 };
-// Writing MetadataGetter for method: TriggerChecker::OnTriggerExit
+// Writing MetadataGetter for method: GlobalNamespace::TriggerChecker::OnTriggerExit
 // Il2CppName: OnTriggerExit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TriggerChecker::*)(UnityEngine::Collider*)>(&TriggerChecker::OnTriggerExit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TriggerChecker::*)(UnityEngine::Collider*)>(&GlobalNamespace::TriggerChecker::OnTriggerExit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TriggerChecker*), "OnTriggerExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Collider*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TriggerChecker*), "OnTriggerExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Collider*>()});
   }
 };
-// Writing MetadataGetter for method: TriggerChecker::OnTriggerStay
+// Writing MetadataGetter for method: GlobalNamespace::TriggerChecker::OnTriggerStay
 // Il2CppName: OnTriggerStay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TriggerChecker::*)(UnityEngine::Collider*)>(&TriggerChecker::OnTriggerStay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TriggerChecker::*)(UnityEngine::Collider*)>(&GlobalNamespace::TriggerChecker::OnTriggerStay)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TriggerChecker*), "OnTriggerStay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Collider*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TriggerChecker*), "OnTriggerStay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Collider*>()});
   }
 };
-// Writing MetadataGetter for method: TriggerChecker::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::TriggerChecker::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TriggerChecker::*)()>(&TriggerChecker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TriggerChecker::*)()>(&GlobalNamespace::TriggerChecker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TriggerChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TriggerChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TriggerChecker::*)()>(&TriggerChecker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TriggerChecker::*)()>(&GlobalNamespace::TriggerChecker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TriggerChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TriggerChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

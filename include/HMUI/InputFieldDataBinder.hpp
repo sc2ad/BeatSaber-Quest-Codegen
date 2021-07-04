@@ -116,31 +116,31 @@ namespace HMUI {
   static_assert(sizeof(InputFieldDataBinder) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldDataBinder*, "HMUI", "InputFieldDataBinder");
-// Writing MetadataGetter for method: InputFieldDataBinder::AddBindings
+// Writing MetadataGetter for method: HMUI::InputFieldDataBinder::AddBindings
 // Il2CppName: AddBindings
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: InputFieldDataBinder::AddStringBindings
+// Writing MetadataGetter for method: HMUI::InputFieldDataBinder::AddStringBindings
 // Il2CppName: AddStringBindings
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: InputFieldDataBinder::ClearBindings
+// Writing MetadataGetter for method: HMUI::InputFieldDataBinder::ClearBindings
 // Il2CppName: ClearBindings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputFieldDataBinder::*)()>(&InputFieldDataBinder::ClearBindings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldDataBinder::*)()>(&HMUI::InputFieldDataBinder::ClearBindings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputFieldDataBinder*), "ClearBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldDataBinder*), "ClearBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InputFieldDataBinder::New_ctor
+// Writing MetadataGetter for method: HMUI::InputFieldDataBinder::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputFieldDataBinder::*)()>(&InputFieldDataBinder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldDataBinder::*)()>(&HMUI::InputFieldDataBinder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputFieldDataBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldDataBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputFieldDataBinder::*)()>(&InputFieldDataBinder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldDataBinder::*)()>(&HMUI::InputFieldDataBinder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputFieldDataBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldDataBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

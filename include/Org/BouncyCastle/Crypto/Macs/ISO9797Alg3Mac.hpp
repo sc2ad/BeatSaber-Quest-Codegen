@@ -140,93 +140,93 @@ namespace Org::BouncyCastle::Crypto::Macs {
   static_assert(sizeof(ISO9797Alg3Mac) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac*, "Org.BouncyCastle.Crypto.Macs", "ISO9797Alg3Mac");
-// Writing MetadataGetter for method: ISO9797Alg3Mac::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ISO9797Alg3Mac::*)(Org::BouncyCastle::Crypto::IBlockCipher*)>(&ISO9797Alg3Mac::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::*)(Org::BouncyCastle::Crypto::IBlockCipher*)>(&Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ISO9797Alg3Mac*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IBlockCipher*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IBlockCipher*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ISO9797Alg3Mac::*)(Org::BouncyCastle::Crypto::IBlockCipher*)>(&ISO9797Alg3Mac::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::*)(Org::BouncyCastle::Crypto::IBlockCipher*)>(&Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ISO9797Alg3Mac*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IBlockCipher*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IBlockCipher*>()});
   }
 };
-// Writing MetadataGetter for method: ISO9797Alg3Mac::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ISO9797Alg3Mac::*)(Org::BouncyCastle::Crypto::IBlockCipher*, Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*)>(&ISO9797Alg3Mac::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::*)(Org::BouncyCastle::Crypto::IBlockCipher*, Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*)>(&Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ISO9797Alg3Mac*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IBlockCipher*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IBlockCipher*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ISO9797Alg3Mac::*)(Org::BouncyCastle::Crypto::IBlockCipher*, Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*)>(&ISO9797Alg3Mac::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::*)(Org::BouncyCastle::Crypto::IBlockCipher*, Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*)>(&Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ISO9797Alg3Mac*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IBlockCipher*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IBlockCipher*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*>()});
   }
 };
-// Writing MetadataGetter for method: ISO9797Alg3Mac::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ISO9797Alg3Mac::*)(Org::BouncyCastle::Crypto::IBlockCipher*, int, Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*)>(&ISO9797Alg3Mac::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::*)(Org::BouncyCastle::Crypto::IBlockCipher*, int, Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*)>(&Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ISO9797Alg3Mac*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IBlockCipher*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IBlockCipher*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ISO9797Alg3Mac::*)(Org::BouncyCastle::Crypto::IBlockCipher*, int, Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*)>(&ISO9797Alg3Mac::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::*)(Org::BouncyCastle::Crypto::IBlockCipher*, int, Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*)>(&Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ISO9797Alg3Mac*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IBlockCipher*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IBlockCipher*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*>()});
   }
 };
-// Writing MetadataGetter for method: ISO9797Alg3Mac::Init
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ISO9797Alg3Mac::*)(Org::BouncyCastle::Crypto::ICipherParameters*)>(&ISO9797Alg3Mac::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::*)(Org::BouncyCastle::Crypto::ICipherParameters*)>(&Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ISO9797Alg3Mac*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::ICipherParameters*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::ICipherParameters*>()});
   }
 };
-// Writing MetadataGetter for method: ISO9797Alg3Mac::GetMacSize
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::GetMacSize
 // Il2CppName: GetMacSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ISO9797Alg3Mac::*)()>(&ISO9797Alg3Mac::GetMacSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::*)()>(&Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::GetMacSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ISO9797Alg3Mac*), "GetMacSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac*), "GetMacSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ISO9797Alg3Mac::Update
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ISO9797Alg3Mac::*)(uint8_t)>(&ISO9797Alg3Mac::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::*)(uint8_t)>(&Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ISO9797Alg3Mac*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
   }
 };
-// Writing MetadataGetter for method: ISO9797Alg3Mac::BlockUpdate
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::BlockUpdate
 // Il2CppName: BlockUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ISO9797Alg3Mac::*)(::Array<uint8_t>*, int, int)>(&ISO9797Alg3Mac::BlockUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::BlockUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ISO9797Alg3Mac*), "BlockUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac*), "BlockUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ISO9797Alg3Mac::DoFinal
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ISO9797Alg3Mac::*)(::Array<uint8_t>*, int)>(&ISO9797Alg3Mac::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::*)(::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::DoFinal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ISO9797Alg3Mac*), "DoFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac*), "DoFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ISO9797Alg3Mac::Reset
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::Reset
 // Il2CppName: Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ISO9797Alg3Mac::*)()>(&ISO9797Alg3Mac::Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::*)()>(&Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac::Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ISO9797Alg3Mac*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

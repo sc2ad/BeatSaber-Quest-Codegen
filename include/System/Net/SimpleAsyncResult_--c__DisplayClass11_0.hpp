@@ -73,33 +73,33 @@ namespace System::Net {
   static_assert(sizeof(SimpleAsyncResult::$$c__DisplayClass11_0) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::SimpleAsyncResult::$$c__DisplayClass11_0*, "System.Net", "SimpleAsyncResult/<>c__DisplayClass11_0");
-// Writing MetadataGetter for method: SimpleAsyncResult::$$c__DisplayClass11_0::$RunWithLock$b__0
+// Writing MetadataGetter for method: System::Net::SimpleAsyncResult::$$c__DisplayClass11_0::$RunWithLock$b__0
 // Il2CppName: <RunWithLock>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SimpleAsyncResult::$$c__DisplayClass11_0::*)(System::Net::SimpleAsyncResult*)>(&SimpleAsyncResult::$$c__DisplayClass11_0::$RunWithLock$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::SimpleAsyncResult::$$c__DisplayClass11_0::*)(System::Net::SimpleAsyncResult*)>(&System::Net::SimpleAsyncResult::$$c__DisplayClass11_0::$RunWithLock$b__0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleAsyncResult::$$c__DisplayClass11_0*), "<RunWithLock>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::SimpleAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::SimpleAsyncResult::$$c__DisplayClass11_0*), "<RunWithLock>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::SimpleAsyncResult*>()});
   }
 };
-// Writing MetadataGetter for method: SimpleAsyncResult::$$c__DisplayClass11_0::$RunWithLock$b__1
+// Writing MetadataGetter for method: System::Net::SimpleAsyncResult::$$c__DisplayClass11_0::$RunWithLock$b__1
 // Il2CppName: <RunWithLock>b__1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleAsyncResult::$$c__DisplayClass11_0::*)(System::Net::SimpleAsyncResult*)>(&SimpleAsyncResult::$$c__DisplayClass11_0::$RunWithLock$b__1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::SimpleAsyncResult::$$c__DisplayClass11_0::*)(System::Net::SimpleAsyncResult*)>(&System::Net::SimpleAsyncResult::$$c__DisplayClass11_0::$RunWithLock$b__1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleAsyncResult::$$c__DisplayClass11_0*), "<RunWithLock>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::SimpleAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::SimpleAsyncResult::$$c__DisplayClass11_0*), "<RunWithLock>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::SimpleAsyncResult*>()});
   }
 };
-// Writing MetadataGetter for method: SimpleAsyncResult::$$c__DisplayClass11_0::New_ctor
+// Writing MetadataGetter for method: System::Net::SimpleAsyncResult::$$c__DisplayClass11_0::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleAsyncResult::$$c__DisplayClass11_0::*)()>(&SimpleAsyncResult::$$c__DisplayClass11_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::SimpleAsyncResult::$$c__DisplayClass11_0::*)()>(&System::Net::SimpleAsyncResult::$$c__DisplayClass11_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleAsyncResult::$$c__DisplayClass11_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::SimpleAsyncResult::$$c__DisplayClass11_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleAsyncResult::$$c__DisplayClass11_0::*)()>(&SimpleAsyncResult::$$c__DisplayClass11_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::SimpleAsyncResult::$$c__DisplayClass11_0::*)()>(&System::Net::SimpleAsyncResult::$$c__DisplayClass11_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleAsyncResult::$$c__DisplayClass11_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::SimpleAsyncResult::$$c__DisplayClass11_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

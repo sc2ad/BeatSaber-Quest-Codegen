@@ -96,33 +96,33 @@ namespace UnityEngine::UI {
   static_assert(sizeof(ReflectionMethodsCache) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ReflectionMethodsCache*, "UnityEngine.UI", "ReflectionMethodsCache");
-// Writing MetadataGetter for method: ReflectionMethodsCache::get_Singleton
+// Writing MetadataGetter for method: UnityEngine::UI::ReflectionMethodsCache::get_Singleton
 // Il2CppName: get_Singleton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::ReflectionMethodsCache* (*)()>(&ReflectionMethodsCache::get_Singleton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::ReflectionMethodsCache* (*)()>(&UnityEngine::UI::ReflectionMethodsCache::get_Singleton)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReflectionMethodsCache*), "get_Singleton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ReflectionMethodsCache*), "get_Singleton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ReflectionMethodsCache::_cctor
+// Writing MetadataGetter for method: UnityEngine::UI::ReflectionMethodsCache::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ReflectionMethodsCache::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::UI::ReflectionMethodsCache::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReflectionMethodsCache*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ReflectionMethodsCache*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ReflectionMethodsCache::New_ctor
+// Writing MetadataGetter for method: UnityEngine::UI::ReflectionMethodsCache::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReflectionMethodsCache::*)()>(&ReflectionMethodsCache::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ReflectionMethodsCache::*)()>(&UnityEngine::UI::ReflectionMethodsCache::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReflectionMethodsCache*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ReflectionMethodsCache*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReflectionMethodsCache::*)()>(&ReflectionMethodsCache::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ReflectionMethodsCache::*)()>(&UnityEngine::UI::ReflectionMethodsCache::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReflectionMethodsCache*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ReflectionMethodsCache*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

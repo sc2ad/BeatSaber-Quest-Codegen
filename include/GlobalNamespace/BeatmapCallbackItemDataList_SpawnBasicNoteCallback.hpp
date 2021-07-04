@@ -56,41 +56,41 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback*, "", "BeatmapCallbackItemDataList/SpawnBasicNoteCallback");
-// Writing MetadataGetter for method: BeatmapCallbackItemDataList::SpawnBasicNoteCallback::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapCallbackItemDataList::SpawnBasicNoteCallback::*)(::Il2CppObject*, System::IntPtr)>(&BeatmapCallbackItemDataList::SpawnBasicNoteCallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback::*)(::Il2CppObject*, System::IntPtr)>(&GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapCallbackItemDataList::SpawnBasicNoteCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapCallbackItemDataList::SpawnBasicNoteCallback::*)(::Il2CppObject*, System::IntPtr)>(&BeatmapCallbackItemDataList::SpawnBasicNoteCallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback::*)(::Il2CppObject*, System::IntPtr)>(&GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapCallbackItemDataList::SpawnBasicNoteCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapCallbackItemDataList::SpawnBasicNoteCallback::Invoke
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapCallbackItemDataList::SpawnBasicNoteCallback::*)(GlobalNamespace::NoteData*, float)>(&BeatmapCallbackItemDataList::SpawnBasicNoteCallback::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback::*)(GlobalNamespace::NoteData*, float)>(&GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapCallbackItemDataList::SpawnBasicNoteCallback*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapCallbackItemDataList::SpawnBasicNoteCallback::BeginInvoke
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (BeatmapCallbackItemDataList::SpawnBasicNoteCallback::*)(GlobalNamespace::NoteData*, float, System::AsyncCallback*, ::Il2CppObject*)>(&BeatmapCallbackItemDataList::SpawnBasicNoteCallback::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback::*)(GlobalNamespace::NoteData*, float, System::AsyncCallback*, ::Il2CppObject*)>(&GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapCallbackItemDataList::SpawnBasicNoteCallback*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapCallbackItemDataList::SpawnBasicNoteCallback::EndInvoke
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapCallbackItemDataList::SpawnBasicNoteCallback::*)(System::IAsyncResult*)>(&BeatmapCallbackItemDataList::SpawnBasicNoteCallback::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback::*)(System::IAsyncResult*)>(&GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapCallbackItemDataList::SpawnBasicNoteCallback*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

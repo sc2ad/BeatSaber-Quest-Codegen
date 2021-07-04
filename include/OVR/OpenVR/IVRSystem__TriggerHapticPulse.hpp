@@ -52,41 +52,41 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_TriggerHapticPulse*, "OVR.OpenVR", "IVRSystem/_TriggerHapticPulse");
-// Writing MetadataGetter for method: IVRSystem::_TriggerHapticPulse::New_ctor
+// Writing MetadataGetter for method: OVR::OpenVR::IVRSystem::_TriggerHapticPulse::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSystem::_TriggerHapticPulse::*)(::Il2CppObject*, System::IntPtr)>(&IVRSystem::_TriggerHapticPulse::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRSystem::_TriggerHapticPulse::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVRSystem::_TriggerHapticPulse::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_TriggerHapticPulse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_TriggerHapticPulse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSystem::_TriggerHapticPulse::*)(::Il2CppObject*, System::IntPtr)>(&IVRSystem::_TriggerHapticPulse::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRSystem::_TriggerHapticPulse::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVRSystem::_TriggerHapticPulse::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_TriggerHapticPulse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_TriggerHapticPulse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: IVRSystem::_TriggerHapticPulse::Invoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRSystem::_TriggerHapticPulse::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSystem::_TriggerHapticPulse::*)(uint, uint, uint16_t)>(&IVRSystem::_TriggerHapticPulse::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRSystem::_TriggerHapticPulse::*)(uint, uint, uint16_t)>(&OVR::OpenVR::IVRSystem::_TriggerHapticPulse::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_TriggerHapticPulse*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_TriggerHapticPulse*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>()});
   }
 };
-// Writing MetadataGetter for method: IVRSystem::_TriggerHapticPulse::BeginInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRSystem::_TriggerHapticPulse::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRSystem::_TriggerHapticPulse::*)(uint, uint, uint16_t, System::AsyncCallback*, ::Il2CppObject*)>(&IVRSystem::_TriggerHapticPulse::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRSystem::_TriggerHapticPulse::*)(uint, uint, uint16_t, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRSystem::_TriggerHapticPulse::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_TriggerHapticPulse*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_TriggerHapticPulse*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IVRSystem::_TriggerHapticPulse::EndInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRSystem::_TriggerHapticPulse::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSystem::_TriggerHapticPulse::*)(System::IAsyncResult*)>(&IVRSystem::_TriggerHapticPulse::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRSystem::_TriggerHapticPulse::*)(System::IAsyncResult*)>(&OVR::OpenVR::IVRSystem::_TriggerHapticPulse::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_TriggerHapticPulse*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_TriggerHapticPulse*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

@@ -73,41 +73,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayingTutorialPresenceData) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayingTutorialPresenceData*, "", "PlayingTutorialPresenceData");
-// Writing MetadataGetter for method: PlayingTutorialPresenceData::get_apiName
+// Writing MetadataGetter for method: GlobalNamespace::PlayingTutorialPresenceData::get_apiName
 // Il2CppName: get_apiName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PlayingTutorialPresenceData::*)()>(&PlayingTutorialPresenceData::get_apiName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PlayingTutorialPresenceData::*)()>(&GlobalNamespace::PlayingTutorialPresenceData::get_apiName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayingTutorialPresenceData*), "get_apiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayingTutorialPresenceData*), "get_apiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayingTutorialPresenceData::get_localizedDescription
+// Writing MetadataGetter for method: GlobalNamespace::PlayingTutorialPresenceData::get_localizedDescription
 // Il2CppName: get_localizedDescription
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PlayingTutorialPresenceData::*)()>(&PlayingTutorialPresenceData::get_localizedDescription)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PlayingTutorialPresenceData::*)()>(&GlobalNamespace::PlayingTutorialPresenceData::get_localizedDescription)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayingTutorialPresenceData*), "get_localizedDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayingTutorialPresenceData*), "get_localizedDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayingTutorialPresenceData::set_localizedDescription
+// Writing MetadataGetter for method: GlobalNamespace::PlayingTutorialPresenceData::set_localizedDescription
 // Il2CppName: set_localizedDescription
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayingTutorialPresenceData::*)(::Il2CppString*)>(&PlayingTutorialPresenceData::set_localizedDescription)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayingTutorialPresenceData::*)(::Il2CppString*)>(&GlobalNamespace::PlayingTutorialPresenceData::set_localizedDescription)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayingTutorialPresenceData*), "set_localizedDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayingTutorialPresenceData*), "set_localizedDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: PlayingTutorialPresenceData::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::PlayingTutorialPresenceData::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayingTutorialPresenceData::*)()>(&PlayingTutorialPresenceData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayingTutorialPresenceData::*)()>(&GlobalNamespace::PlayingTutorialPresenceData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayingTutorialPresenceData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayingTutorialPresenceData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayingTutorialPresenceData::*)()>(&PlayingTutorialPresenceData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayingTutorialPresenceData::*)()>(&GlobalNamespace::PlayingTutorialPresenceData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayingTutorialPresenceData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayingTutorialPresenceData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

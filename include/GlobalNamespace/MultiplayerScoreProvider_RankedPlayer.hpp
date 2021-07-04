@@ -94,105 +94,105 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerScoreProvider::RankedPlayer) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*, "", "MultiplayerScoreProvider/RankedPlayer");
-// Writing MetadataGetter for method: MultiplayerScoreProvider::RankedPlayer::get_offsetSyncTime
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::get_offsetSyncTime
 // Il2CppName: get_offsetSyncTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (MultiplayerScoreProvider::RankedPlayer::*)()>(&MultiplayerScoreProvider::RankedPlayer::get_offsetSyncTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::*)()>(&GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::get_offsetSyncTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerScoreProvider::RankedPlayer*), "get_offsetSyncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*), "get_offsetSyncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerScoreProvider::RankedPlayer::get_lastScoreTime
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::get_lastScoreTime
 // Il2CppName: get_lastScoreTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (MultiplayerScoreProvider::RankedPlayer::*)()>(&MultiplayerScoreProvider::RankedPlayer::get_lastScoreTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::*)()>(&GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::get_lastScoreTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerScoreProvider::RankedPlayer*), "get_lastScoreTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*), "get_lastScoreTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerScoreProvider::RankedPlayer::get_score
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::get_score
 // Il2CppName: get_score
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MultiplayerScoreProvider::RankedPlayer::*)()>(&MultiplayerScoreProvider::RankedPlayer::get_score)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::*)()>(&GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::get_score)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerScoreProvider::RankedPlayer*), "get_score", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*), "get_score", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerScoreProvider::RankedPlayer::get_isConnected
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::get_isConnected
 // Il2CppName: get_isConnected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MultiplayerScoreProvider::RankedPlayer::*)()>(&MultiplayerScoreProvider::RankedPlayer::get_isConnected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::*)()>(&GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::get_isConnected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerScoreProvider::RankedPlayer*), "get_isConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*), "get_isConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerScoreProvider::RankedPlayer::get_isActiveOrFinished
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::get_isActiveOrFinished
 // Il2CppName: get_isActiveOrFinished
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MultiplayerScoreProvider::RankedPlayer::*)()>(&MultiplayerScoreProvider::RankedPlayer::get_isActiveOrFinished)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::*)()>(&GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::get_isActiveOrFinished)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerScoreProvider::RankedPlayer*), "get_isActiveOrFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*), "get_isActiveOrFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerScoreProvider::RankedPlayer::get_isFailed
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::get_isFailed
 // Il2CppName: get_isFailed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MultiplayerScoreProvider::RankedPlayer::*)()>(&MultiplayerScoreProvider::RankedPlayer::get_isFailed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::*)()>(&GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::get_isFailed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerScoreProvider::RankedPlayer*), "get_isFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*), "get_isFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerScoreProvider::RankedPlayer::get_wasActiveAtLevelStart
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::get_wasActiveAtLevelStart
 // Il2CppName: get_wasActiveAtLevelStart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MultiplayerScoreProvider::RankedPlayer::*)()>(&MultiplayerScoreProvider::RankedPlayer::get_wasActiveAtLevelStart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::*)()>(&GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::get_wasActiveAtLevelStart)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerScoreProvider::RankedPlayer*), "get_wasActiveAtLevelStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*), "get_wasActiveAtLevelStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerScoreProvider::RankedPlayer::get_isMe
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::get_isMe
 // Il2CppName: get_isMe
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MultiplayerScoreProvider::RankedPlayer::*)()>(&MultiplayerScoreProvider::RankedPlayer::get_isMe)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::*)()>(&GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::get_isMe)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerScoreProvider::RankedPlayer*), "get_isMe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*), "get_isMe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerScoreProvider::RankedPlayer::get_userId
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::get_userId
 // Il2CppName: get_userId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MultiplayerScoreProvider::RankedPlayer::*)()>(&MultiplayerScoreProvider::RankedPlayer::get_userId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::*)()>(&GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::get_userId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerScoreProvider::RankedPlayer*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerScoreProvider::RankedPlayer::get_userName
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::get_userName
 // Il2CppName: get_userName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MultiplayerScoreProvider::RankedPlayer::*)()>(&MultiplayerScoreProvider::RankedPlayer::get_userName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::*)()>(&GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::get_userName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerScoreProvider::RankedPlayer*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerScoreProvider::RankedPlayer::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerScoreProvider::RankedPlayer::*)(GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int>*, GlobalNamespace::MultiplayerScoreProvider*)>(&MultiplayerScoreProvider::RankedPlayer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::*)(GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int>*, GlobalNamespace::MultiplayerScoreProvider*)>(&GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerScoreProvider::RankedPlayer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerScoreProvider*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerScoreProvider*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerScoreProvider::RankedPlayer::*)(GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int>*, GlobalNamespace::MultiplayerScoreProvider*)>(&MultiplayerScoreProvider::RankedPlayer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::*)(GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int>*, GlobalNamespace::MultiplayerScoreProvider*)>(&GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerScoreProvider::RankedPlayer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerScoreProvider*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerSyncState_3<GlobalNamespace::StandardScoreSyncState, GlobalNamespace::StandardScoreSyncState_Score, int>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerScoreProvider*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerScoreProvider::RankedPlayer::CompareTo
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::CompareTo
 // Il2CppName: CompareTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MultiplayerScoreProvider::RankedPlayer::*)(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*)>(&MultiplayerScoreProvider::RankedPlayer::CompareTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::*)(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*)>(&GlobalNamespace::MultiplayerScoreProvider::RankedPlayer::CompareTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerScoreProvider::RankedPlayer*), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>()});
   }
 };

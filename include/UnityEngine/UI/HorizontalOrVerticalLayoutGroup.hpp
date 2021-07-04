@@ -142,153 +142,153 @@ namespace UnityEngine::UI {
   static_assert(sizeof(HorizontalOrVerticalLayoutGroup) == 0x62);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::HorizontalOrVerticalLayoutGroup*, "UnityEngine.UI", "HorizontalOrVerticalLayoutGroup");
-// Writing MetadataGetter for method: HorizontalOrVerticalLayoutGroup::get_spacing
+// Writing MetadataGetter for method: UnityEngine::UI::HorizontalOrVerticalLayoutGroup::get_spacing
 // Il2CppName: get_spacing
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HorizontalOrVerticalLayoutGroup::*)()>(&HorizontalOrVerticalLayoutGroup::get_spacing)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)()>(&UnityEngine::UI::HorizontalOrVerticalLayoutGroup::get_spacing)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HorizontalOrVerticalLayoutGroup*), "get_spacing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::HorizontalOrVerticalLayoutGroup*), "get_spacing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HorizontalOrVerticalLayoutGroup::set_spacing
+// Writing MetadataGetter for method: UnityEngine::UI::HorizontalOrVerticalLayoutGroup::set_spacing
 // Il2CppName: set_spacing
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HorizontalOrVerticalLayoutGroup::*)(float)>(&HorizontalOrVerticalLayoutGroup::set_spacing)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)(float)>(&UnityEngine::UI::HorizontalOrVerticalLayoutGroup::set_spacing)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HorizontalOrVerticalLayoutGroup*), "set_spacing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::HorizontalOrVerticalLayoutGroup*), "set_spacing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: HorizontalOrVerticalLayoutGroup::get_childForceExpandWidth
+// Writing MetadataGetter for method: UnityEngine::UI::HorizontalOrVerticalLayoutGroup::get_childForceExpandWidth
 // Il2CppName: get_childForceExpandWidth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HorizontalOrVerticalLayoutGroup::*)()>(&HorizontalOrVerticalLayoutGroup::get_childForceExpandWidth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)()>(&UnityEngine::UI::HorizontalOrVerticalLayoutGroup::get_childForceExpandWidth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HorizontalOrVerticalLayoutGroup*), "get_childForceExpandWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::HorizontalOrVerticalLayoutGroup*), "get_childForceExpandWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HorizontalOrVerticalLayoutGroup::set_childForceExpandWidth
+// Writing MetadataGetter for method: UnityEngine::UI::HorizontalOrVerticalLayoutGroup::set_childForceExpandWidth
 // Il2CppName: set_childForceExpandWidth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HorizontalOrVerticalLayoutGroup::*)(bool)>(&HorizontalOrVerticalLayoutGroup::set_childForceExpandWidth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)(bool)>(&UnityEngine::UI::HorizontalOrVerticalLayoutGroup::set_childForceExpandWidth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HorizontalOrVerticalLayoutGroup*), "set_childForceExpandWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::HorizontalOrVerticalLayoutGroup*), "set_childForceExpandWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: HorizontalOrVerticalLayoutGroup::get_childForceExpandHeight
+// Writing MetadataGetter for method: UnityEngine::UI::HorizontalOrVerticalLayoutGroup::get_childForceExpandHeight
 // Il2CppName: get_childForceExpandHeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HorizontalOrVerticalLayoutGroup::*)()>(&HorizontalOrVerticalLayoutGroup::get_childForceExpandHeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)()>(&UnityEngine::UI::HorizontalOrVerticalLayoutGroup::get_childForceExpandHeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HorizontalOrVerticalLayoutGroup*), "get_childForceExpandHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::HorizontalOrVerticalLayoutGroup*), "get_childForceExpandHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HorizontalOrVerticalLayoutGroup::set_childForceExpandHeight
+// Writing MetadataGetter for method: UnityEngine::UI::HorizontalOrVerticalLayoutGroup::set_childForceExpandHeight
 // Il2CppName: set_childForceExpandHeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HorizontalOrVerticalLayoutGroup::*)(bool)>(&HorizontalOrVerticalLayoutGroup::set_childForceExpandHeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)(bool)>(&UnityEngine::UI::HorizontalOrVerticalLayoutGroup::set_childForceExpandHeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HorizontalOrVerticalLayoutGroup*), "set_childForceExpandHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::HorizontalOrVerticalLayoutGroup*), "set_childForceExpandHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: HorizontalOrVerticalLayoutGroup::get_childControlWidth
+// Writing MetadataGetter for method: UnityEngine::UI::HorizontalOrVerticalLayoutGroup::get_childControlWidth
 // Il2CppName: get_childControlWidth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HorizontalOrVerticalLayoutGroup::*)()>(&HorizontalOrVerticalLayoutGroup::get_childControlWidth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)()>(&UnityEngine::UI::HorizontalOrVerticalLayoutGroup::get_childControlWidth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HorizontalOrVerticalLayoutGroup*), "get_childControlWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::HorizontalOrVerticalLayoutGroup*), "get_childControlWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HorizontalOrVerticalLayoutGroup::set_childControlWidth
+// Writing MetadataGetter for method: UnityEngine::UI::HorizontalOrVerticalLayoutGroup::set_childControlWidth
 // Il2CppName: set_childControlWidth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HorizontalOrVerticalLayoutGroup::*)(bool)>(&HorizontalOrVerticalLayoutGroup::set_childControlWidth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)(bool)>(&UnityEngine::UI::HorizontalOrVerticalLayoutGroup::set_childControlWidth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HorizontalOrVerticalLayoutGroup*), "set_childControlWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::HorizontalOrVerticalLayoutGroup*), "set_childControlWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: HorizontalOrVerticalLayoutGroup::get_childControlHeight
+// Writing MetadataGetter for method: UnityEngine::UI::HorizontalOrVerticalLayoutGroup::get_childControlHeight
 // Il2CppName: get_childControlHeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HorizontalOrVerticalLayoutGroup::*)()>(&HorizontalOrVerticalLayoutGroup::get_childControlHeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)()>(&UnityEngine::UI::HorizontalOrVerticalLayoutGroup::get_childControlHeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HorizontalOrVerticalLayoutGroup*), "get_childControlHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::HorizontalOrVerticalLayoutGroup*), "get_childControlHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HorizontalOrVerticalLayoutGroup::set_childControlHeight
+// Writing MetadataGetter for method: UnityEngine::UI::HorizontalOrVerticalLayoutGroup::set_childControlHeight
 // Il2CppName: set_childControlHeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HorizontalOrVerticalLayoutGroup::*)(bool)>(&HorizontalOrVerticalLayoutGroup::set_childControlHeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)(bool)>(&UnityEngine::UI::HorizontalOrVerticalLayoutGroup::set_childControlHeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HorizontalOrVerticalLayoutGroup*), "set_childControlHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::HorizontalOrVerticalLayoutGroup*), "set_childControlHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: HorizontalOrVerticalLayoutGroup::get_childScaleWidth
+// Writing MetadataGetter for method: UnityEngine::UI::HorizontalOrVerticalLayoutGroup::get_childScaleWidth
 // Il2CppName: get_childScaleWidth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HorizontalOrVerticalLayoutGroup::*)()>(&HorizontalOrVerticalLayoutGroup::get_childScaleWidth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)()>(&UnityEngine::UI::HorizontalOrVerticalLayoutGroup::get_childScaleWidth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HorizontalOrVerticalLayoutGroup*), "get_childScaleWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::HorizontalOrVerticalLayoutGroup*), "get_childScaleWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HorizontalOrVerticalLayoutGroup::set_childScaleWidth
+// Writing MetadataGetter for method: UnityEngine::UI::HorizontalOrVerticalLayoutGroup::set_childScaleWidth
 // Il2CppName: set_childScaleWidth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HorizontalOrVerticalLayoutGroup::*)(bool)>(&HorizontalOrVerticalLayoutGroup::set_childScaleWidth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)(bool)>(&UnityEngine::UI::HorizontalOrVerticalLayoutGroup::set_childScaleWidth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HorizontalOrVerticalLayoutGroup*), "set_childScaleWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::HorizontalOrVerticalLayoutGroup*), "set_childScaleWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: HorizontalOrVerticalLayoutGroup::get_childScaleHeight
+// Writing MetadataGetter for method: UnityEngine::UI::HorizontalOrVerticalLayoutGroup::get_childScaleHeight
 // Il2CppName: get_childScaleHeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HorizontalOrVerticalLayoutGroup::*)()>(&HorizontalOrVerticalLayoutGroup::get_childScaleHeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)()>(&UnityEngine::UI::HorizontalOrVerticalLayoutGroup::get_childScaleHeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HorizontalOrVerticalLayoutGroup*), "get_childScaleHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::HorizontalOrVerticalLayoutGroup*), "get_childScaleHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HorizontalOrVerticalLayoutGroup::set_childScaleHeight
+// Writing MetadataGetter for method: UnityEngine::UI::HorizontalOrVerticalLayoutGroup::set_childScaleHeight
 // Il2CppName: set_childScaleHeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HorizontalOrVerticalLayoutGroup::*)(bool)>(&HorizontalOrVerticalLayoutGroup::set_childScaleHeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)(bool)>(&UnityEngine::UI::HorizontalOrVerticalLayoutGroup::set_childScaleHeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HorizontalOrVerticalLayoutGroup*), "set_childScaleHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::HorizontalOrVerticalLayoutGroup*), "set_childScaleHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: HorizontalOrVerticalLayoutGroup::CalcAlongAxis
+// Writing MetadataGetter for method: UnityEngine::UI::HorizontalOrVerticalLayoutGroup::CalcAlongAxis
 // Il2CppName: CalcAlongAxis
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HorizontalOrVerticalLayoutGroup::*)(int, bool)>(&HorizontalOrVerticalLayoutGroup::CalcAlongAxis)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)(int, bool)>(&UnityEngine::UI::HorizontalOrVerticalLayoutGroup::CalcAlongAxis)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HorizontalOrVerticalLayoutGroup*), "CalcAlongAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::HorizontalOrVerticalLayoutGroup*), "CalcAlongAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: HorizontalOrVerticalLayoutGroup::SetChildrenAlongAxis
+// Writing MetadataGetter for method: UnityEngine::UI::HorizontalOrVerticalLayoutGroup::SetChildrenAlongAxis
 // Il2CppName: SetChildrenAlongAxis
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HorizontalOrVerticalLayoutGroup::*)(int, bool)>(&HorizontalOrVerticalLayoutGroup::SetChildrenAlongAxis)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)(int, bool)>(&UnityEngine::UI::HorizontalOrVerticalLayoutGroup::SetChildrenAlongAxis)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HorizontalOrVerticalLayoutGroup*), "SetChildrenAlongAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::HorizontalOrVerticalLayoutGroup*), "SetChildrenAlongAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: HorizontalOrVerticalLayoutGroup::GetChildSizes
+// Writing MetadataGetter for method: UnityEngine::UI::HorizontalOrVerticalLayoutGroup::GetChildSizes
 // Il2CppName: GetChildSizes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HorizontalOrVerticalLayoutGroup::*)(UnityEngine::RectTransform*, int, bool, bool, float&, float&, float&)>(&HorizontalOrVerticalLayoutGroup::GetChildSizes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)(UnityEngine::RectTransform*, int, bool, bool, float&, float&, float&)>(&UnityEngine::UI::HorizontalOrVerticalLayoutGroup::GetChildSizes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HorizontalOrVerticalLayoutGroup*), "GetChildSizes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::HorizontalOrVerticalLayoutGroup*), "GetChildSizes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
   }
 };
-// Writing MetadataGetter for method: HorizontalOrVerticalLayoutGroup::New_ctor
+// Writing MetadataGetter for method: UnityEngine::UI::HorizontalOrVerticalLayoutGroup::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HorizontalOrVerticalLayoutGroup::*)()>(&HorizontalOrVerticalLayoutGroup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)()>(&UnityEngine::UI::HorizontalOrVerticalLayoutGroup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HorizontalOrVerticalLayoutGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::HorizontalOrVerticalLayoutGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HorizontalOrVerticalLayoutGroup::*)()>(&HorizontalOrVerticalLayoutGroup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::HorizontalOrVerticalLayoutGroup::*)()>(&UnityEngine::UI::HorizontalOrVerticalLayoutGroup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HorizontalOrVerticalLayoutGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::HorizontalOrVerticalLayoutGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

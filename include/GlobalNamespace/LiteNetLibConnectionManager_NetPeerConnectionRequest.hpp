@@ -88,57 +88,57 @@ namespace GlobalNamespace {
   static_assert(sizeof(LiteNetLibConnectionManager::NetPeerConnectionRequest) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest*, "", "LiteNetLibConnectionManager/NetPeerConnectionRequest");
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::NetPeerConnectionRequest::get_userId
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::get_userId
 // Il2CppName: get_userId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LiteNetLibConnectionManager::NetPeerConnectionRequest::*)()>(&LiteNetLibConnectionManager::NetPeerConnectionRequest::get_userId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::get_userId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager::NetPeerConnectionRequest*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::NetPeerConnectionRequest::get_userName
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::get_userName
 // Il2CppName: get_userName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LiteNetLibConnectionManager::NetPeerConnectionRequest::*)()>(&LiteNetLibConnectionManager::NetPeerConnectionRequest::get_userName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::get_userName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager::NetPeerConnectionRequest*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::NetPeerConnectionRequest::get_isConnectionOwner
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::get_isConnectionOwner
 // Il2CppName: get_isConnectionOwner
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLibConnectionManager::NetPeerConnectionRequest::*)()>(&LiteNetLibConnectionManager::NetPeerConnectionRequest::get_isConnectionOwner)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::get_isConnectionOwner)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager::NetPeerConnectionRequest*), "get_isConnectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest*), "get_isConnectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::NetPeerConnectionRequest::get_endPoint
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::get_endPoint
 // Il2CppName: get_endPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPEndPoint* (LiteNetLibConnectionManager::NetPeerConnectionRequest::*)()>(&LiteNetLibConnectionManager::NetPeerConnectionRequest::get_endPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPEndPoint* (GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::get_endPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager::NetPeerConnectionRequest*), "get_endPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest*), "get_endPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::NetPeerConnectionRequest::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::NetPeerConnectionRequest::*)(LiteNetLib::ConnectionRequest*, ::Il2CppString*, ::Il2CppString*, bool)>(&LiteNetLibConnectionManager::NetPeerConnectionRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::*)(LiteNetLib::ConnectionRequest*, ::Il2CppString*, ::Il2CppString*, bool)>(&GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager::NetPeerConnectionRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::ConnectionRequest*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::ConnectionRequest*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::NetPeerConnectionRequest::*)(LiteNetLib::ConnectionRequest*, ::Il2CppString*, ::Il2CppString*, bool)>(&LiteNetLibConnectionManager::NetPeerConnectionRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::*)(LiteNetLib::ConnectionRequest*, ::Il2CppString*, ::Il2CppString*, bool)>(&GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager::NetPeerConnectionRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::ConnectionRequest*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::ConnectionRequest*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::NetPeerConnectionRequest::Accept
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::Accept
 // Il2CppName: Accept
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPeer* (LiteNetLibConnectionManager::NetPeerConnectionRequest::*)()>(&LiteNetLibConnectionManager::NetPeerConnectionRequest::Accept)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPeer* (GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::Accept)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager::NetPeerConnectionRequest*), "Accept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest*), "Accept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

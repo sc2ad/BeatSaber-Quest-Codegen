@@ -66,41 +66,41 @@ namespace System::Security::Policy {
   static_assert(sizeof(Evidence::EvidenceEnumerator) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Policy::Evidence::EvidenceEnumerator*, "System.Security.Policy", "Evidence/EvidenceEnumerator");
-// Writing MetadataGetter for method: Evidence::EvidenceEnumerator::New_ctor
+// Writing MetadataGetter for method: System::Security::Policy::Evidence::EvidenceEnumerator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Evidence::EvidenceEnumerator::*)(System::Collections::IEnumerator*, System::Collections::IEnumerator*)>(&Evidence::EvidenceEnumerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Policy::Evidence::EvidenceEnumerator::*)(System::Collections::IEnumerator*, System::Collections::IEnumerator*)>(&System::Security::Policy::Evidence::EvidenceEnumerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Evidence::EvidenceEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerator*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerator*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Policy::Evidence::EvidenceEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerator*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerator*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Evidence::EvidenceEnumerator::*)(System::Collections::IEnumerator*, System::Collections::IEnumerator*)>(&Evidence::EvidenceEnumerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Policy::Evidence::EvidenceEnumerator::*)(System::Collections::IEnumerator*, System::Collections::IEnumerator*)>(&System::Security::Policy::Evidence::EvidenceEnumerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Evidence::EvidenceEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerator*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerator*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Policy::Evidence::EvidenceEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerator*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerator*>()});
   }
 };
-// Writing MetadataGetter for method: Evidence::EvidenceEnumerator::MoveNext
+// Writing MetadataGetter for method: System::Security::Policy::Evidence::EvidenceEnumerator::MoveNext
 // Il2CppName: MoveNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Evidence::EvidenceEnumerator::*)()>(&Evidence::EvidenceEnumerator::MoveNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Policy::Evidence::EvidenceEnumerator::*)()>(&System::Security::Policy::Evidence::EvidenceEnumerator::MoveNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Evidence::EvidenceEnumerator*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Policy::Evidence::EvidenceEnumerator*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Evidence::EvidenceEnumerator::Reset
+// Writing MetadataGetter for method: System::Security::Policy::Evidence::EvidenceEnumerator::Reset
 // Il2CppName: Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Evidence::EvidenceEnumerator::*)()>(&Evidence::EvidenceEnumerator::Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Policy::Evidence::EvidenceEnumerator::*)()>(&System::Security::Policy::Evidence::EvidenceEnumerator::Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Evidence::EvidenceEnumerator*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Policy::Evidence::EvidenceEnumerator*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Evidence::EvidenceEnumerator::get_Current
+// Writing MetadataGetter for method: System::Security::Policy::Evidence::EvidenceEnumerator::get_Current
 // Il2CppName: get_Current
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Evidence::EvidenceEnumerator::*)()>(&Evidence::EvidenceEnumerator::get_Current)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Security::Policy::Evidence::EvidenceEnumerator::*)()>(&System::Security::Policy::Evidence::EvidenceEnumerator::get_Current)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Evidence::EvidenceEnumerator*), "get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Policy::Evidence::EvidenceEnumerator*), "get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

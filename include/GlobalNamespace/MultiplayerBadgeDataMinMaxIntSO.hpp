@@ -86,49 +86,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerBadgeDataMinMaxIntSO) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO*, "", "MultiplayerBadgeDataMinMaxIntSO");
-// Writing MetadataGetter for method: MultiplayerBadgeDataMinMaxIntSO::GetValue
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::GetValue
 // Il2CppName: GetValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MultiplayerBadgeDataMinMaxIntSO::*)(GlobalNamespace::MultiplayerPlayerResultsData*)>(&MultiplayerBadgeDataMinMaxIntSO::GetValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::*)(GlobalNamespace::MultiplayerPlayerResultsData*)>(&GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::GetValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerBadgeDataMinMaxIntSO*), "GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerPlayerResultsData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO*), "GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerPlayerResultsData*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerBadgeDataMinMaxIntSO::CalculateMax
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::CalculateMax
 // Il2CppName: CalculateMax
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerBadgeAwardData* (MultiplayerBadgeDataMinMaxIntSO::*)(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*, float)>(&MultiplayerBadgeDataMinMaxIntSO::CalculateMax)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerBadgeAwardData* (GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::*)(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*, float)>(&GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::CalculateMax)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerBadgeDataMinMaxIntSO*), "CalculateMax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO*), "CalculateMax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerBadgeDataMinMaxIntSO::CalculateMin
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::CalculateMin
 // Il2CppName: CalculateMin
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerBadgeAwardData* (MultiplayerBadgeDataMinMaxIntSO::*)(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*, float)>(&MultiplayerBadgeDataMinMaxIntSO::CalculateMin)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerBadgeAwardData* (GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::*)(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*, float)>(&GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::CalculateMin)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerBadgeDataMinMaxIntSO*), "CalculateMin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO*), "CalculateMin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerBadgeDataMinMaxIntSO::CalculateBadgeData
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::CalculateBadgeData
 // Il2CppName: CalculateBadgeData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerBadgeAwardData* (MultiplayerBadgeDataMinMaxIntSO::*)(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*, GlobalNamespace::PlayerDataModel*, GlobalNamespace::IDifficultyBeatmap*, float)>(&MultiplayerBadgeDataMinMaxIntSO::CalculateBadgeData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerBadgeAwardData* (GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::*)(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*, GlobalNamespace::PlayerDataModel*, GlobalNamespace::IDifficultyBeatmap*, float)>(&GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::CalculateBadgeData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerBadgeDataMinMaxIntSO*), "CalculateBadgeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerDataModel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO*), "CalculateBadgeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerDataModel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerBadgeDataMinMaxIntSO::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerBadgeDataMinMaxIntSO::*)()>(&MultiplayerBadgeDataMinMaxIntSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::*)()>(&GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerBadgeDataMinMaxIntSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerBadgeDataMinMaxIntSO::*)()>(&MultiplayerBadgeDataMinMaxIntSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::*)()>(&GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerBadgeDataMinMaxIntSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

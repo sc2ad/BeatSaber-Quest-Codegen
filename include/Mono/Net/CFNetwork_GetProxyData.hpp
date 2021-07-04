@@ -83,25 +83,25 @@ namespace Mono::Net {
   static_assert(sizeof(CFNetwork::GetProxyData) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNetwork::GetProxyData*, "Mono.Net", "CFNetwork/GetProxyData");
-// Writing MetadataGetter for method: CFNetwork::GetProxyData::Dispose
+// Writing MetadataGetter for method: Mono::Net::CFNetwork::GetProxyData::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CFNetwork::GetProxyData::*)()>(&CFNetwork::GetProxyData::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::CFNetwork::GetProxyData::*)()>(&Mono::Net::CFNetwork::GetProxyData::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CFNetwork::GetProxyData*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork::GetProxyData*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CFNetwork::GetProxyData::New_ctor
+// Writing MetadataGetter for method: Mono::Net::CFNetwork::GetProxyData::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CFNetwork::GetProxyData::*)()>(&CFNetwork::GetProxyData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::CFNetwork::GetProxyData::*)()>(&Mono::Net::CFNetwork::GetProxyData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CFNetwork::GetProxyData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork::GetProxyData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CFNetwork::GetProxyData::*)()>(&CFNetwork::GetProxyData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::CFNetwork::GetProxyData::*)()>(&Mono::Net::CFNetwork::GetProxyData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CFNetwork::GetProxyData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork::GetProxyData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

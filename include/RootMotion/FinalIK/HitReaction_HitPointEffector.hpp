@@ -88,41 +88,41 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(HitReaction::HitPointEffector) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReaction::HitPointEffector*, "RootMotion.FinalIK", "HitReaction/HitPointEffector");
-// Writing MetadataGetter for method: HitReaction::HitPointEffector::GetLength
+// Writing MetadataGetter for method: RootMotion::FinalIK::HitReaction::HitPointEffector::GetLength
 // Il2CppName: GetLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HitReaction::HitPointEffector::*)()>(&HitReaction::HitPointEffector::GetLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RootMotion::FinalIK::HitReaction::HitPointEffector::*)()>(&RootMotion::FinalIK::HitReaction::HitPointEffector::GetLength)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HitReaction::HitPointEffector*), "GetLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::HitReaction::HitPointEffector*), "GetLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HitReaction::HitPointEffector::CrossFadeStart
+// Writing MetadataGetter for method: RootMotion::FinalIK::HitReaction::HitPointEffector::CrossFadeStart
 // Il2CppName: CrossFadeStart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReaction::HitPointEffector::*)()>(&HitReaction::HitPointEffector::CrossFadeStart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::HitReaction::HitPointEffector::*)()>(&RootMotion::FinalIK::HitReaction::HitPointEffector::CrossFadeStart)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HitReaction::HitPointEffector*), "CrossFadeStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::HitReaction::HitPointEffector*), "CrossFadeStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HitReaction::HitPointEffector::OnApply
+// Writing MetadataGetter for method: RootMotion::FinalIK::HitReaction::HitPointEffector::OnApply
 // Il2CppName: OnApply
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReaction::HitPointEffector::*)(RootMotion::FinalIK::IKSolverFullBodyBiped*, float)>(&HitReaction::HitPointEffector::OnApply)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::HitReaction::HitPointEffector::*)(RootMotion::FinalIK::IKSolverFullBodyBiped*, float)>(&RootMotion::FinalIK::HitReaction::HitPointEffector::OnApply)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HitReaction::HitPointEffector*), "OnApply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBodyBiped*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::HitReaction::HitPointEffector*), "OnApply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBodyBiped*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: HitReaction::HitPointEffector::New_ctor
+// Writing MetadataGetter for method: RootMotion::FinalIK::HitReaction::HitPointEffector::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReaction::HitPointEffector::*)()>(&HitReaction::HitPointEffector::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::HitReaction::HitPointEffector::*)()>(&RootMotion::FinalIK::HitReaction::HitPointEffector::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HitReaction::HitPointEffector*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::HitReaction::HitPointEffector*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HitReaction::HitPointEffector::*)()>(&HitReaction::HitPointEffector::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::HitReaction::HitPointEffector::*)()>(&RootMotion::FinalIK::HitReaction::HitPointEffector::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HitReaction::HitPointEffector*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::HitReaction::HitPointEffector*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

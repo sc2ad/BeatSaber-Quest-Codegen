@@ -71,49 +71,49 @@ namespace System {
   static_assert(sizeof(MarshalByRefObject) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::MarshalByRefObject*, "System", "MarshalByRefObject");
-// Writing MetadataGetter for method: MarshalByRefObject::get_ObjectIdentity
+// Writing MetadataGetter for method: System::MarshalByRefObject::get_ObjectIdentity
 // Il2CppName: get_ObjectIdentity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ServerIdentity* (MarshalByRefObject::*)()>(&MarshalByRefObject::get_ObjectIdentity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ServerIdentity* (System::MarshalByRefObject::*)()>(&System::MarshalByRefObject::get_ObjectIdentity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MarshalByRefObject*), "get_ObjectIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::MarshalByRefObject*), "get_ObjectIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MarshalByRefObject::set_ObjectIdentity
+// Writing MetadataGetter for method: System::MarshalByRefObject::set_ObjectIdentity
 // Il2CppName: set_ObjectIdentity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MarshalByRefObject::*)(System::Runtime::Remoting::ServerIdentity*)>(&MarshalByRefObject::set_ObjectIdentity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::MarshalByRefObject::*)(System::Runtime::Remoting::ServerIdentity*)>(&System::MarshalByRefObject::set_ObjectIdentity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MarshalByRefObject*), "set_ObjectIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ServerIdentity*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::MarshalByRefObject*), "set_ObjectIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ServerIdentity*>()});
   }
 };
-// Writing MetadataGetter for method: MarshalByRefObject::CreateObjRef
+// Writing MetadataGetter for method: System::MarshalByRefObject::CreateObjRef
 // Il2CppName: CreateObjRef
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ObjRef* (MarshalByRefObject::*)(System::Type*)>(&MarshalByRefObject::CreateObjRef)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ObjRef* (System::MarshalByRefObject::*)(System::Type*)>(&System::MarshalByRefObject::CreateObjRef)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MarshalByRefObject*), "CreateObjRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::MarshalByRefObject*), "CreateObjRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: MarshalByRefObject::InitializeLifetimeService
+// Writing MetadataGetter for method: System::MarshalByRefObject::InitializeLifetimeService
 // Il2CppName: InitializeLifetimeService
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (MarshalByRefObject::*)()>(&MarshalByRefObject::InitializeLifetimeService)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::MarshalByRefObject::*)()>(&System::MarshalByRefObject::InitializeLifetimeService)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MarshalByRefObject*), "InitializeLifetimeService", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::MarshalByRefObject*), "InitializeLifetimeService", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MarshalByRefObject::New_ctor
+// Writing MetadataGetter for method: System::MarshalByRefObject::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MarshalByRefObject::*)()>(&MarshalByRefObject::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::MarshalByRefObject::*)()>(&System::MarshalByRefObject::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MarshalByRefObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::MarshalByRefObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MarshalByRefObject::*)()>(&MarshalByRefObject::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::MarshalByRefObject::*)()>(&System::MarshalByRefObject::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MarshalByRefObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::MarshalByRefObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

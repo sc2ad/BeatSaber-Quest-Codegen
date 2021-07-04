@@ -267,361 +267,361 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(Face) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Face*, "UnityEngine.ProBuilder", "Face");
-// Writing MetadataGetter for method: Face::get_manualUV
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::get_manualUV
 // Il2CppName: get_manualUV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Face::*)()>(&Face::get_manualUV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::get_manualUV)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "get_manualUV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "get_manualUV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Face::set_manualUV
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::set_manualUV
 // Il2CppName: set_manualUV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Face::*)(bool)>(&Face::set_manualUV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)(bool)>(&UnityEngine::ProBuilder::Face::set_manualUV)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "set_manualUV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "set_manualUV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Face::get_textureGroup
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::get_textureGroup
 // Il2CppName: get_textureGroup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Face::*)()>(&Face::get_textureGroup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::get_textureGroup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "get_textureGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "get_textureGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Face::set_textureGroup
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::set_textureGroup
 // Il2CppName: set_textureGroup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Face::*)(int)>(&Face::set_textureGroup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)(int)>(&UnityEngine::ProBuilder::Face::set_textureGroup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "set_textureGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "set_textureGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Face::get_indexesInternal
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::get_indexesInternal
 // Il2CppName: get_indexesInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (Face::*)()>(&Face::get_indexesInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::get_indexesInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "get_indexesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "get_indexesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Face::set_indexesInternal
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::set_indexesInternal
 // Il2CppName: set_indexesInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Face::*)(::Array<int>*)>(&Face::set_indexesInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)(::Array<int>*)>(&UnityEngine::ProBuilder::Face::set_indexesInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "set_indexesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "set_indexesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
   }
 };
-// Writing MetadataGetter for method: Face::get_indexes
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::get_indexes
 // Il2CppName: get_indexes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ObjectModel::ReadOnlyCollection_1<int>* (Face::*)()>(&Face::get_indexes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ObjectModel::ReadOnlyCollection_1<int>* (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::get_indexes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "get_indexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "get_indexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Face::SetIndexes
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::SetIndexes
 // Il2CppName: SetIndexes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Face::*)(System::Collections::Generic::IEnumerable_1<int>*)>(&Face::SetIndexes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)(System::Collections::Generic::IEnumerable_1<int>*)>(&UnityEngine::ProBuilder::Face::SetIndexes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "SetIndexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "SetIndexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
   }
 };
-// Writing MetadataGetter for method: Face::get_distinctIndexesInternal
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::get_distinctIndexesInternal
 // Il2CppName: get_distinctIndexesInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (Face::*)()>(&Face::get_distinctIndexesInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::get_distinctIndexesInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "get_distinctIndexesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "get_distinctIndexesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Face::get_distinctIndexes
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::get_distinctIndexes
 // Il2CppName: get_distinctIndexes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ObjectModel::ReadOnlyCollection_1<int>* (Face::*)()>(&Face::get_distinctIndexes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ObjectModel::ReadOnlyCollection_1<int>* (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::get_distinctIndexes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "get_distinctIndexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "get_distinctIndexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Face::get_edgesInternal
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::get_edgesInternal
 // Il2CppName: get_edgesInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::ProBuilder::Edge>* (Face::*)()>(&Face::get_edgesInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::ProBuilder::Edge>* (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::get_edgesInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "get_edgesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "get_edgesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Face::get_edges
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::get_edges
 // Il2CppName: get_edges
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::ProBuilder::Edge>* (Face::*)()>(&Face::get_edges)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::ProBuilder::Edge>* (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::get_edges)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "get_edges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "get_edges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Face::get_smoothingGroup
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::get_smoothingGroup
 // Il2CppName: get_smoothingGroup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Face::*)()>(&Face::get_smoothingGroup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::get_smoothingGroup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "get_smoothingGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "get_smoothingGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Face::set_smoothingGroup
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::set_smoothingGroup
 // Il2CppName: set_smoothingGroup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Face::*)(int)>(&Face::set_smoothingGroup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)(int)>(&UnityEngine::ProBuilder::Face::set_smoothingGroup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "set_smoothingGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "set_smoothingGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Face::get_material
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::get_material
 // Il2CppName: get_material
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (Face::*)()>(&Face::get_material)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::get_material)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "get_material", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "get_material", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Face::set_material
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::set_material
 // Il2CppName: set_material
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Face::*)(UnityEngine::Material*)>(&Face::set_material)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)(UnityEngine::Material*)>(&UnityEngine::ProBuilder::Face::set_material)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "set_material", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "set_material", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
   }
 };
-// Writing MetadataGetter for method: Face::get_submeshIndex
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::get_submeshIndex
 // Il2CppName: get_submeshIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Face::*)()>(&Face::get_submeshIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::get_submeshIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "get_submeshIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "get_submeshIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Face::set_submeshIndex
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::set_submeshIndex
 // Il2CppName: set_submeshIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Face::*)(int)>(&Face::set_submeshIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)(int)>(&UnityEngine::ProBuilder::Face::set_submeshIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "set_submeshIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "set_submeshIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Face::get_uv
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::get_uv
 // Il2CppName: get_uv
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::AutoUnwrapSettings (Face::*)()>(&Face::get_uv)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::AutoUnwrapSettings (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::get_uv)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "get_uv", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "get_uv", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Face::set_uv
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::set_uv
 // Il2CppName: set_uv
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Face::*)(UnityEngine::ProBuilder::AutoUnwrapSettings)>(&Face::set_uv)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)(UnityEngine::ProBuilder::AutoUnwrapSettings)>(&UnityEngine::ProBuilder::Face::set_uv)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "set_uv", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::AutoUnwrapSettings>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "set_uv", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::AutoUnwrapSettings>()});
   }
 };
-// Writing MetadataGetter for method: Face::get_Item
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Face::*)(int)>(&Face::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::Face::*)(int)>(&UnityEngine::ProBuilder::Face::get_Item)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Face::New_ctor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Face::*)(System::Collections::Generic::IEnumerable_1<int>*)>(&Face::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)(System::Collections::Generic::IEnumerable_1<int>*)>(&UnityEngine::ProBuilder::Face::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Face::*)(System::Collections::Generic::IEnumerable_1<int>*)>(&Face::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)(System::Collections::Generic::IEnumerable_1<int>*)>(&UnityEngine::ProBuilder::Face::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
   }
 };
-// Writing MetadataGetter for method: Face::New_ctor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Face::*)(::Array<int>*, UnityEngine::Material*, UnityEngine::ProBuilder::AutoUnwrapSettings, int, int, int, bool)>(&Face::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)(::Array<int>*, UnityEngine::Material*, UnityEngine::ProBuilder::AutoUnwrapSettings, int, int, int, bool)>(&UnityEngine::ProBuilder::Face::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::AutoUnwrapSettings>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::AutoUnwrapSettings>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Face::*)(::Array<int>*, UnityEngine::Material*, UnityEngine::ProBuilder::AutoUnwrapSettings, int, int, int, bool)>(&Face::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)(::Array<int>*, UnityEngine::Material*, UnityEngine::ProBuilder::AutoUnwrapSettings, int, int, int, bool)>(&UnityEngine::ProBuilder::Face::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::AutoUnwrapSettings>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::AutoUnwrapSettings>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Face::New_ctor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Face::*)(System::Collections::Generic::IEnumerable_1<int>*, int, UnityEngine::ProBuilder::AutoUnwrapSettings, int, int, int, bool)>(&Face::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)(System::Collections::Generic::IEnumerable_1<int>*, int, UnityEngine::ProBuilder::AutoUnwrapSettings, int, int, int, bool)>(&UnityEngine::ProBuilder::Face::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::AutoUnwrapSettings>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::AutoUnwrapSettings>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Face::*)(System::Collections::Generic::IEnumerable_1<int>*, int, UnityEngine::ProBuilder::AutoUnwrapSettings, int, int, int, bool)>(&Face::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)(System::Collections::Generic::IEnumerable_1<int>*, int, UnityEngine::ProBuilder::AutoUnwrapSettings, int, int, int, bool)>(&UnityEngine::ProBuilder::Face::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::AutoUnwrapSettings>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::AutoUnwrapSettings>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Face::New_ctor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Face::*)(UnityEngine::ProBuilder::Face*)>(&Face::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)(UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::Face::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Face::*)(UnityEngine::ProBuilder::Face*)>(&Face::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)(UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::Face::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
   }
 };
-// Writing MetadataGetter for method: Face::CopyFrom
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::CopyFrom
 // Il2CppName: CopyFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Face::*)(UnityEngine::ProBuilder::Face*)>(&Face::CopyFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)(UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::Face::CopyFrom)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "CopyFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "CopyFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
   }
 };
-// Writing MetadataGetter for method: Face::InvalidateCache
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::InvalidateCache
 // Il2CppName: InvalidateCache
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Face::*)()>(&Face::InvalidateCache)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::InvalidateCache)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "InvalidateCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "InvalidateCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Face::CacheEdges
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::CacheEdges
 // Il2CppName: CacheEdges
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::ProBuilder::Edge>* (Face::*)()>(&Face::CacheEdges)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::ProBuilder::Edge>* (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::CacheEdges)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "CacheEdges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "CacheEdges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Face::CacheDistinctIndexes
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::CacheDistinctIndexes
 // Il2CppName: CacheDistinctIndexes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (Face::*)()>(&Face::CacheDistinctIndexes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::CacheDistinctIndexes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "CacheDistinctIndexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "CacheDistinctIndexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Face::Contains
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::Contains
 // Il2CppName: Contains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Face::*)(int, int, int)>(&Face::Contains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::Face::*)(int, int, int)>(&UnityEngine::ProBuilder::Face::Contains)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Face::IsQuad
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::IsQuad
 // Il2CppName: IsQuad
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Face::*)()>(&Face::IsQuad)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::IsQuad)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "IsQuad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "IsQuad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Face::ToQuad
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::ToQuad
 // Il2CppName: ToQuad
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (Face::*)()>(&Face::ToQuad)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::ToQuad)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "ToQuad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "ToQuad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Face::ShiftIndexes
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::ShiftIndexes
 // Il2CppName: ShiftIndexes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Face::*)(int)>(&Face::ShiftIndexes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)(int)>(&UnityEngine::ProBuilder::Face::ShiftIndexes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "ShiftIndexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "ShiftIndexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Face::SmallestIndexValue
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::SmallestIndexValue
 // Il2CppName: SmallestIndexValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Face::*)()>(&Face::SmallestIndexValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::SmallestIndexValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "SmallestIndexValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "SmallestIndexValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Face::ShiftIndexesToZero
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::ShiftIndexesToZero
 // Il2CppName: ShiftIndexesToZero
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Face::*)()>(&Face::ShiftIndexesToZero)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::ShiftIndexesToZero)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "ShiftIndexesToZero", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "ShiftIndexesToZero", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Face::Reverse
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::Reverse
 // Il2CppName: Reverse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Face::*)()>(&Face::Reverse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::Reverse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "Reverse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "Reverse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Face::GetIndices
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::GetIndices
 // Il2CppName: GetIndices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*, System::Collections::Generic::List_1<int>*)>(&Face::GetIndices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*, System::Collections::Generic::List_1<int>*)>(&UnityEngine::ProBuilder::Face::GetIndices)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "GetIndices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "GetIndices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<int>*>()});
   }
 };
-// Writing MetadataGetter for method: Face::GetDistinctIndices
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::GetDistinctIndices
 // Il2CppName: GetDistinctIndices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*, System::Collections::Generic::List_1<int>*)>(&Face::GetDistinctIndices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*, System::Collections::Generic::List_1<int>*)>(&UnityEngine::ProBuilder::Face::GetDistinctIndices)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "GetDistinctIndices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "GetDistinctIndices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<int>*>()});
   }
 };
-// Writing MetadataGetter for method: Face::TryGetNextEdge
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::TryGetNextEdge
 // Il2CppName: TryGetNextEdge
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Face::*)(UnityEngine::ProBuilder::Edge, int, UnityEngine::ProBuilder::Edge&, int&)>(&Face::TryGetNextEdge)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::Face::*)(UnityEngine::ProBuilder::Edge, int, UnityEngine::ProBuilder::Edge&, int&)>(&UnityEngine::ProBuilder::Face::TryGetNextEdge)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "TryGetNextEdge", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "TryGetNextEdge", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: Face::New_ctor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Face::*)()>(&Face::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Face::*)()>(&Face::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Face::ToString
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Face::*)()>(&Face::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Face*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -111,81 +111,81 @@ namespace GlobalNamespace {
   static_assert(sizeof(AutomaticSFXVolumeParamsSO) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AutomaticSFXVolumeParamsSO*, "", "AutomaticSFXVolumeParamsSO");
-// Writing MetadataGetter for method: AutomaticSFXVolumeParamsSO::get_musicVolumeMultiplier
+// Writing MetadataGetter for method: GlobalNamespace::AutomaticSFXVolumeParamsSO::get_musicVolumeMultiplier
 // Il2CppName: get_musicVolumeMultiplier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AutomaticSFXVolumeParamsSO::*)()>(&AutomaticSFXVolumeParamsSO::get_musicVolumeMultiplier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(&GlobalNamespace::AutomaticSFXVolumeParamsSO::get_musicVolumeMultiplier)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AutomaticSFXVolumeParamsSO*), "get_musicVolumeMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AutomaticSFXVolumeParamsSO*), "get_musicVolumeMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AutomaticSFXVolumeParamsSO::get_threshold
+// Writing MetadataGetter for method: GlobalNamespace::AutomaticSFXVolumeParamsSO::get_threshold
 // Il2CppName: get_threshold
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AutomaticSFXVolumeParamsSO::*)()>(&AutomaticSFXVolumeParamsSO::get_threshold)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(&GlobalNamespace::AutomaticSFXVolumeParamsSO::get_threshold)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AutomaticSFXVolumeParamsSO*), "get_threshold", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AutomaticSFXVolumeParamsSO*), "get_threshold", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AutomaticSFXVolumeParamsSO::get_impact
+// Writing MetadataGetter for method: GlobalNamespace::AutomaticSFXVolumeParamsSO::get_impact
 // Il2CppName: get_impact
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AutomaticSFXVolumeParamsSO::*)()>(&AutomaticSFXVolumeParamsSO::get_impact)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(&GlobalNamespace::AutomaticSFXVolumeParamsSO::get_impact)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AutomaticSFXVolumeParamsSO*), "get_impact", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AutomaticSFXVolumeParamsSO*), "get_impact", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AutomaticSFXVolumeParamsSO::get_attackTime
+// Writing MetadataGetter for method: GlobalNamespace::AutomaticSFXVolumeParamsSO::get_attackTime
 // Il2CppName: get_attackTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AutomaticSFXVolumeParamsSO::*)()>(&AutomaticSFXVolumeParamsSO::get_attackTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(&GlobalNamespace::AutomaticSFXVolumeParamsSO::get_attackTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AutomaticSFXVolumeParamsSO*), "get_attackTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AutomaticSFXVolumeParamsSO*), "get_attackTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AutomaticSFXVolumeParamsSO::get_releaseTime
+// Writing MetadataGetter for method: GlobalNamespace::AutomaticSFXVolumeParamsSO::get_releaseTime
 // Il2CppName: get_releaseTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AutomaticSFXVolumeParamsSO::*)()>(&AutomaticSFXVolumeParamsSO::get_releaseTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(&GlobalNamespace::AutomaticSFXVolumeParamsSO::get_releaseTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AutomaticSFXVolumeParamsSO*), "get_releaseTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AutomaticSFXVolumeParamsSO*), "get_releaseTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AutomaticSFXVolumeParamsSO::get_minVolume
+// Writing MetadataGetter for method: GlobalNamespace::AutomaticSFXVolumeParamsSO::get_minVolume
 // Il2CppName: get_minVolume
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AutomaticSFXVolumeParamsSO::*)()>(&AutomaticSFXVolumeParamsSO::get_minVolume)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(&GlobalNamespace::AutomaticSFXVolumeParamsSO::get_minVolume)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AutomaticSFXVolumeParamsSO*), "get_minVolume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AutomaticSFXVolumeParamsSO*), "get_minVolume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AutomaticSFXVolumeParamsSO::get_maxVolume
+// Writing MetadataGetter for method: GlobalNamespace::AutomaticSFXVolumeParamsSO::get_maxVolume
 // Il2CppName: get_maxVolume
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AutomaticSFXVolumeParamsSO::*)()>(&AutomaticSFXVolumeParamsSO::get_maxVolume)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(&GlobalNamespace::AutomaticSFXVolumeParamsSO::get_maxVolume)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AutomaticSFXVolumeParamsSO*), "get_maxVolume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AutomaticSFXVolumeParamsSO*), "get_maxVolume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AutomaticSFXVolumeParamsSO::get_volumeSmooth
+// Writing MetadataGetter for method: GlobalNamespace::AutomaticSFXVolumeParamsSO::get_volumeSmooth
 // Il2CppName: get_volumeSmooth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AutomaticSFXVolumeParamsSO::*)()>(&AutomaticSFXVolumeParamsSO::get_volumeSmooth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(&GlobalNamespace::AutomaticSFXVolumeParamsSO::get_volumeSmooth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AutomaticSFXVolumeParamsSO*), "get_volumeSmooth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AutomaticSFXVolumeParamsSO*), "get_volumeSmooth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AutomaticSFXVolumeParamsSO::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::AutomaticSFXVolumeParamsSO::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutomaticSFXVolumeParamsSO::*)()>(&AutomaticSFXVolumeParamsSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(&GlobalNamespace::AutomaticSFXVolumeParamsSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AutomaticSFXVolumeParamsSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AutomaticSFXVolumeParamsSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AutomaticSFXVolumeParamsSO::*)()>(&AutomaticSFXVolumeParamsSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AutomaticSFXVolumeParamsSO::*)()>(&GlobalNamespace::AutomaticSFXVolumeParamsSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AutomaticSFXVolumeParamsSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AutomaticSFXVolumeParamsSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

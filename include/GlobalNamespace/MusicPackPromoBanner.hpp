@@ -118,41 +118,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(MusicPackPromoBanner) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MusicPackPromoBanner*, "", "MusicPackPromoBanner");
-// Writing MetadataGetter for method: MusicPackPromoBanner::get_currentPromoMusicPack
+// Writing MetadataGetter for method: GlobalNamespace::MusicPackPromoBanner::get_currentPromoMusicPack
 // Il2CppName: get_currentPromoMusicPack
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelPack* (MusicPackPromoBanner::*)()>(&MusicPackPromoBanner::get_currentPromoMusicPack)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelPack* (GlobalNamespace::MusicPackPromoBanner::*)()>(&GlobalNamespace::MusicPackPromoBanner::get_currentPromoMusicPack)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MusicPackPromoBanner*), "get_currentPromoMusicPack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MusicPackPromoBanner*), "get_currentPromoMusicPack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MusicPackPromoBanner::get_promoButtonText
+// Writing MetadataGetter for method: GlobalNamespace::MusicPackPromoBanner::get_promoButtonText
 // Il2CppName: get_promoButtonText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MusicPackPromoBanner::*)()>(&MusicPackPromoBanner::get_promoButtonText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MusicPackPromoBanner::*)()>(&GlobalNamespace::MusicPackPromoBanner::get_promoButtonText)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MusicPackPromoBanner*), "get_promoButtonText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MusicPackPromoBanner*), "get_promoButtonText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MusicPackPromoBanner::Setup
+// Writing MetadataGetter for method: GlobalNamespace::MusicPackPromoBanner::Setup
 // Il2CppName: Setup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MusicPackPromoBanner::*)(GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*, bool)>(&MusicPackPromoBanner::Setup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MusicPackPromoBanner::*)(GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*, bool)>(&GlobalNamespace::MusicPackPromoBanner::Setup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MusicPackPromoBanner*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MusicPackPromoBanner*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MusicPackPromoBanner::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MusicPackPromoBanner::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MusicPackPromoBanner::*)()>(&MusicPackPromoBanner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MusicPackPromoBanner::*)()>(&GlobalNamespace::MusicPackPromoBanner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MusicPackPromoBanner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MusicPackPromoBanner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MusicPackPromoBanner::*)()>(&MusicPackPromoBanner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MusicPackPromoBanner::*)()>(&GlobalNamespace::MusicPackPromoBanner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MusicPackPromoBanner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MusicPackPromoBanner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

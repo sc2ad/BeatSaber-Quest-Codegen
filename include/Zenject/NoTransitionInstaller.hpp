@@ -50,33 +50,33 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::NoTransitionInstaller*, "Zenject", "NoTransitionInstaller");
-// Writing MetadataGetter for method: NoTransitionInstaller::InstallBindings
+// Writing MetadataGetter for method: Zenject::NoTransitionInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoTransitionInstaller::*)(Zenject::DiContainer*)>(&NoTransitionInstaller::InstallBindings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::NoTransitionInstaller::*)(Zenject::DiContainer*)>(&Zenject::NoTransitionInstaller::InstallBindings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoTransitionInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::NoTransitionInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
   }
 };
-// Writing MetadataGetter for method: NoTransitionInstaller::PostInstall
+// Writing MetadataGetter for method: Zenject::NoTransitionInstaller::PostInstall
 // Il2CppName: PostInstall
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoTransitionInstaller::*)(Zenject::DiContainer*)>(&NoTransitionInstaller::PostInstall)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::NoTransitionInstaller::*)(Zenject::DiContainer*)>(&Zenject::NoTransitionInstaller::PostInstall)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoTransitionInstaller*), "PostInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::NoTransitionInstaller*), "PostInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
   }
 };
-// Writing MetadataGetter for method: NoTransitionInstaller::New_ctor
+// Writing MetadataGetter for method: Zenject::NoTransitionInstaller::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoTransitionInstaller::*)()>(&NoTransitionInstaller::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::NoTransitionInstaller::*)()>(&Zenject::NoTransitionInstaller::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoTransitionInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::NoTransitionInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoTransitionInstaller::*)()>(&NoTransitionInstaller::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::NoTransitionInstaller::*)()>(&Zenject::NoTransitionInstaller::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoTransitionInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::NoTransitionInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

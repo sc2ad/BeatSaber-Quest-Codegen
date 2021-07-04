@@ -132,241 +132,241 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rigidbody*, "UnityEngine", "Rigidbody");
-// Writing MetadataGetter for method: Rigidbody::set_velocity
+// Writing MetadataGetter for method: UnityEngine::Rigidbody::set_velocity
 // Il2CppName: set_velocity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rigidbody::*)(UnityEngine::Vector3)>(&Rigidbody::set_velocity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody::*)(UnityEngine::Vector3)>(&UnityEngine::Rigidbody::set_velocity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rigidbody*), "set_velocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody*), "set_velocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: Rigidbody::set_angularVelocity
+// Writing MetadataGetter for method: UnityEngine::Rigidbody::set_angularVelocity
 // Il2CppName: set_angularVelocity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rigidbody::*)(UnityEngine::Vector3)>(&Rigidbody::set_angularVelocity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody::*)(UnityEngine::Vector3)>(&UnityEngine::Rigidbody::set_angularVelocity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rigidbody*), "set_angularVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody*), "set_angularVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: Rigidbody::set_mass
+// Writing MetadataGetter for method: UnityEngine::Rigidbody::set_mass
 // Il2CppName: set_mass
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rigidbody::*)(float)>(&Rigidbody::set_mass)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody::*)(float)>(&UnityEngine::Rigidbody::set_mass)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rigidbody*), "set_mass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody*), "set_mass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Rigidbody::set_useGravity
+// Writing MetadataGetter for method: UnityEngine::Rigidbody::set_useGravity
 // Il2CppName: set_useGravity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rigidbody::*)(bool)>(&Rigidbody::set_useGravity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody::*)(bool)>(&UnityEngine::Rigidbody::set_useGravity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rigidbody*), "set_useGravity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody*), "set_useGravity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Rigidbody::get_isKinematic
+// Writing MetadataGetter for method: UnityEngine::Rigidbody::get_isKinematic
 // Il2CppName: get_isKinematic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Rigidbody::*)()>(&Rigidbody::get_isKinematic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Rigidbody::*)()>(&UnityEngine::Rigidbody::get_isKinematic)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rigidbody*), "get_isKinematic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody*), "get_isKinematic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Rigidbody::set_isKinematic
+// Writing MetadataGetter for method: UnityEngine::Rigidbody::set_isKinematic
 // Il2CppName: set_isKinematic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rigidbody::*)(bool)>(&Rigidbody::set_isKinematic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody::*)(bool)>(&UnityEngine::Rigidbody::set_isKinematic)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rigidbody*), "set_isKinematic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody*), "set_isKinematic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Rigidbody::set_collisionDetectionMode
+// Writing MetadataGetter for method: UnityEngine::Rigidbody::set_collisionDetectionMode
 // Il2CppName: set_collisionDetectionMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rigidbody::*)(UnityEngine::CollisionDetectionMode)>(&Rigidbody::set_collisionDetectionMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody::*)(UnityEngine::CollisionDetectionMode)>(&UnityEngine::Rigidbody::set_collisionDetectionMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rigidbody*), "set_collisionDetectionMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::CollisionDetectionMode>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody*), "set_collisionDetectionMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::CollisionDetectionMode>()});
   }
 };
-// Writing MetadataGetter for method: Rigidbody::get_worldCenterOfMass
+// Writing MetadataGetter for method: UnityEngine::Rigidbody::get_worldCenterOfMass
 // Il2CppName: get_worldCenterOfMass
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Rigidbody::*)()>(&Rigidbody::get_worldCenterOfMass)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Rigidbody::*)()>(&UnityEngine::Rigidbody::get_worldCenterOfMass)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rigidbody*), "get_worldCenterOfMass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody*), "get_worldCenterOfMass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Rigidbody::get_position
+// Writing MetadataGetter for method: UnityEngine::Rigidbody::get_position
 // Il2CppName: get_position
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Rigidbody::*)()>(&Rigidbody::get_position)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Rigidbody::*)()>(&UnityEngine::Rigidbody::get_position)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rigidbody*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Rigidbody::set_position
+// Writing MetadataGetter for method: UnityEngine::Rigidbody::set_position
 // Il2CppName: set_position
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rigidbody::*)(UnityEngine::Vector3)>(&Rigidbody::set_position)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody::*)(UnityEngine::Vector3)>(&UnityEngine::Rigidbody::set_position)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rigidbody*), "set_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody*), "set_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: Rigidbody::set_rotation
+// Writing MetadataGetter for method: UnityEngine::Rigidbody::set_rotation
 // Il2CppName: set_rotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rigidbody::*)(UnityEngine::Quaternion)>(&Rigidbody::set_rotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody::*)(UnityEngine::Quaternion)>(&UnityEngine::Rigidbody::set_rotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rigidbody*), "set_rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody*), "set_rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
   }
 };
-// Writing MetadataGetter for method: Rigidbody::get_maxAngularVelocity
+// Writing MetadataGetter for method: UnityEngine::Rigidbody::get_maxAngularVelocity
 // Il2CppName: get_maxAngularVelocity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Rigidbody::*)()>(&Rigidbody::get_maxAngularVelocity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Rigidbody::*)()>(&UnityEngine::Rigidbody::get_maxAngularVelocity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rigidbody*), "get_maxAngularVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody*), "get_maxAngularVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Rigidbody::MovePosition
+// Writing MetadataGetter for method: UnityEngine::Rigidbody::MovePosition
 // Il2CppName: MovePosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rigidbody::*)(UnityEngine::Vector3)>(&Rigidbody::MovePosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody::*)(UnityEngine::Vector3)>(&UnityEngine::Rigidbody::MovePosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rigidbody*), "MovePosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody*), "MovePosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: Rigidbody::MoveRotation
+// Writing MetadataGetter for method: UnityEngine::Rigidbody::MoveRotation
 // Il2CppName: MoveRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rigidbody::*)(UnityEngine::Quaternion)>(&Rigidbody::MoveRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody::*)(UnityEngine::Quaternion)>(&UnityEngine::Rigidbody::MoveRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rigidbody*), "MoveRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody*), "MoveRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
   }
 };
-// Writing MetadataGetter for method: Rigidbody::WakeUp
+// Writing MetadataGetter for method: UnityEngine::Rigidbody::WakeUp
 // Il2CppName: WakeUp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rigidbody::*)()>(&Rigidbody::WakeUp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody::*)()>(&UnityEngine::Rigidbody::WakeUp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rigidbody*), "WakeUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody*), "WakeUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Rigidbody::AddForce
+// Writing MetadataGetter for method: UnityEngine::Rigidbody::AddForce
 // Il2CppName: AddForce
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rigidbody::*)(UnityEngine::Vector3, UnityEngine::ForceMode)>(&Rigidbody::AddForce)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody::*)(UnityEngine::Vector3, UnityEngine::ForceMode)>(&UnityEngine::Rigidbody::AddForce)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rigidbody*), "AddForce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ForceMode>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody*), "AddForce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ForceMode>()});
   }
 };
-// Writing MetadataGetter for method: Rigidbody::AddForceAtPosition
+// Writing MetadataGetter for method: UnityEngine::Rigidbody::AddForceAtPosition
 // Il2CppName: AddForceAtPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rigidbody::*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::ForceMode)>(&Rigidbody::AddForceAtPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody::*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::ForceMode)>(&UnityEngine::Rigidbody::AddForceAtPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rigidbody*), "AddForceAtPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ForceMode>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody*), "AddForceAtPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ForceMode>()});
   }
 };
-// Writing MetadataGetter for method: Rigidbody::AddForceAtPosition
+// Writing MetadataGetter for method: UnityEngine::Rigidbody::AddForceAtPosition
 // Il2CppName: AddForceAtPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rigidbody::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&Rigidbody::AddForceAtPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&UnityEngine::Rigidbody::AddForceAtPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rigidbody*), "AddForceAtPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody*), "AddForceAtPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: Rigidbody::set_velocity_Injected
+// Writing MetadataGetter for method: UnityEngine::Rigidbody::set_velocity_Injected
 // Il2CppName: set_velocity_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rigidbody::*)(UnityEngine::Vector3&)>(&Rigidbody::set_velocity_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody::*)(UnityEngine::Vector3&)>(&UnityEngine::Rigidbody::set_velocity_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rigidbody*), "set_velocity_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody*), "set_velocity_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: Rigidbody::set_angularVelocity_Injected
+// Writing MetadataGetter for method: UnityEngine::Rigidbody::set_angularVelocity_Injected
 // Il2CppName: set_angularVelocity_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rigidbody::*)(UnityEngine::Vector3&)>(&Rigidbody::set_angularVelocity_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody::*)(UnityEngine::Vector3&)>(&UnityEngine::Rigidbody::set_angularVelocity_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rigidbody*), "set_angularVelocity_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody*), "set_angularVelocity_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: Rigidbody::get_worldCenterOfMass_Injected
+// Writing MetadataGetter for method: UnityEngine::Rigidbody::get_worldCenterOfMass_Injected
 // Il2CppName: get_worldCenterOfMass_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rigidbody::*)(UnityEngine::Vector3&)>(&Rigidbody::get_worldCenterOfMass_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody::*)(UnityEngine::Vector3&)>(&UnityEngine::Rigidbody::get_worldCenterOfMass_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rigidbody*), "get_worldCenterOfMass_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody*), "get_worldCenterOfMass_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: Rigidbody::get_position_Injected
+// Writing MetadataGetter for method: UnityEngine::Rigidbody::get_position_Injected
 // Il2CppName: get_position_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rigidbody::*)(UnityEngine::Vector3&)>(&Rigidbody::get_position_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody::*)(UnityEngine::Vector3&)>(&UnityEngine::Rigidbody::get_position_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rigidbody*), "get_position_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody*), "get_position_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: Rigidbody::set_position_Injected
+// Writing MetadataGetter for method: UnityEngine::Rigidbody::set_position_Injected
 // Il2CppName: set_position_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rigidbody::*)(UnityEngine::Vector3&)>(&Rigidbody::set_position_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody::*)(UnityEngine::Vector3&)>(&UnityEngine::Rigidbody::set_position_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rigidbody*), "set_position_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody*), "set_position_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: Rigidbody::set_rotation_Injected
+// Writing MetadataGetter for method: UnityEngine::Rigidbody::set_rotation_Injected
 // Il2CppName: set_rotation_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rigidbody::*)(UnityEngine::Quaternion&)>(&Rigidbody::set_rotation_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody::*)(UnityEngine::Quaternion&)>(&UnityEngine::Rigidbody::set_rotation_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rigidbody*), "set_rotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody*), "set_rotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
   }
 };
-// Writing MetadataGetter for method: Rigidbody::MovePosition_Injected
+// Writing MetadataGetter for method: UnityEngine::Rigidbody::MovePosition_Injected
 // Il2CppName: MovePosition_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rigidbody::*)(UnityEngine::Vector3&)>(&Rigidbody::MovePosition_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody::*)(UnityEngine::Vector3&)>(&UnityEngine::Rigidbody::MovePosition_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rigidbody*), "MovePosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody*), "MovePosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: Rigidbody::MoveRotation_Injected
+// Writing MetadataGetter for method: UnityEngine::Rigidbody::MoveRotation_Injected
 // Il2CppName: MoveRotation_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rigidbody::*)(UnityEngine::Quaternion&)>(&Rigidbody::MoveRotation_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody::*)(UnityEngine::Quaternion&)>(&UnityEngine::Rigidbody::MoveRotation_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rigidbody*), "MoveRotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody*), "MoveRotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
   }
 };
-// Writing MetadataGetter for method: Rigidbody::AddForce_Injected
+// Writing MetadataGetter for method: UnityEngine::Rigidbody::AddForce_Injected
 // Il2CppName: AddForce_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rigidbody::*)(UnityEngine::Vector3&, UnityEngine::ForceMode)>(&Rigidbody::AddForce_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody::*)(UnityEngine::Vector3&, UnityEngine::ForceMode)>(&UnityEngine::Rigidbody::AddForce_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rigidbody*), "AddForce_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ForceMode>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody*), "AddForce_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ForceMode>()});
   }
 };
-// Writing MetadataGetter for method: Rigidbody::AddForceAtPosition_Injected
+// Writing MetadataGetter for method: UnityEngine::Rigidbody::AddForceAtPosition_Injected
 // Il2CppName: AddForceAtPosition_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rigidbody::*)(UnityEngine::Vector3&, UnityEngine::Vector3&, UnityEngine::ForceMode)>(&Rigidbody::AddForceAtPosition_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody::*)(UnityEngine::Vector3&, UnityEngine::Vector3&, UnityEngine::ForceMode)>(&UnityEngine::Rigidbody::AddForceAtPosition_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rigidbody*), "AddForceAtPosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ForceMode>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody*), "AddForceAtPosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ForceMode>()});
   }
 };
-// Writing MetadataGetter for method: Rigidbody::New_ctor
+// Writing MetadataGetter for method: UnityEngine::Rigidbody::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rigidbody::*)()>(&Rigidbody::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody::*)()>(&UnityEngine::Rigidbody::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rigidbody*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rigidbody::*)()>(&Rigidbody::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rigidbody::*)()>(&UnityEngine::Rigidbody::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rigidbody*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rigidbody*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

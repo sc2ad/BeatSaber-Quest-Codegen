@@ -57,41 +57,41 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData*, "OVR.OpenVR", "IVRCompositor/_SubmitExplicitTimingData");
-// Writing MetadataGetter for method: IVRCompositor::_SubmitExplicitTimingData::New_ctor
+// Writing MetadataGetter for method: OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRCompositor::_SubmitExplicitTimingData::*)(::Il2CppObject*, System::IntPtr)>(&IVRCompositor::_SubmitExplicitTimingData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_SubmitExplicitTimingData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRCompositor::_SubmitExplicitTimingData::*)(::Il2CppObject*, System::IntPtr)>(&IVRCompositor::_SubmitExplicitTimingData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_SubmitExplicitTimingData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: IVRCompositor::_SubmitExplicitTimingData::Invoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRCompositorError (IVRCompositor::_SubmitExplicitTimingData::*)()>(&IVRCompositor::_SubmitExplicitTimingData::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRCompositorError (OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData::*)()>(&OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_SubmitExplicitTimingData*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IVRCompositor::_SubmitExplicitTimingData::BeginInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRCompositor::_SubmitExplicitTimingData::*)(System::AsyncCallback*, ::Il2CppObject*)>(&IVRCompositor::_SubmitExplicitTimingData::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData::*)(System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_SubmitExplicitTimingData*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IVRCompositor::_SubmitExplicitTimingData::EndInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRCompositorError (IVRCompositor::_SubmitExplicitTimingData::*)(System::IAsyncResult*)>(&IVRCompositor::_SubmitExplicitTimingData::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRCompositorError (OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData::*)(System::IAsyncResult*)>(&OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_SubmitExplicitTimingData*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRCompositor::_SubmitExplicitTimingData*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

@@ -61,41 +61,41 @@ namespace UnityEngine::Rendering {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling*, "UnityEngine.Rendering", "BatchRendererGroup/OnPerformCulling");
-// Writing MetadataGetter for method: BatchRendererGroup::OnPerformCulling::New_ctor
+// Writing MetadataGetter for method: UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BatchRendererGroup::OnPerformCulling::*)(::Il2CppObject*, System::IntPtr)>(&BatchRendererGroup::OnPerformCulling::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::*)(::Il2CppObject*, System::IntPtr)>(&UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BatchRendererGroup::OnPerformCulling*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BatchRendererGroup::OnPerformCulling::*)(::Il2CppObject*, System::IntPtr)>(&BatchRendererGroup::OnPerformCulling::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::*)(::Il2CppObject*, System::IntPtr)>(&UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BatchRendererGroup::OnPerformCulling*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: BatchRendererGroup::OnPerformCulling::Invoke
+// Writing MetadataGetter for method: UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Unity::Jobs::JobHandle (BatchRendererGroup::OnPerformCulling::*)(UnityEngine::Rendering::BatchRendererGroup*, UnityEngine::Rendering::BatchCullingContext)>(&BatchRendererGroup::OnPerformCulling::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Unity::Jobs::JobHandle (UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::*)(UnityEngine::Rendering::BatchRendererGroup*, UnityEngine::Rendering::BatchCullingContext)>(&UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BatchRendererGroup::OnPerformCulling*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::BatchRendererGroup*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::BatchCullingContext>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::BatchRendererGroup*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::BatchCullingContext>()});
   }
 };
-// Writing MetadataGetter for method: BatchRendererGroup::OnPerformCulling::BeginInvoke
+// Writing MetadataGetter for method: UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (BatchRendererGroup::OnPerformCulling::*)(UnityEngine::Rendering::BatchRendererGroup*, UnityEngine::Rendering::BatchCullingContext, System::AsyncCallback*, ::Il2CppObject*)>(&BatchRendererGroup::OnPerformCulling::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::*)(UnityEngine::Rendering::BatchRendererGroup*, UnityEngine::Rendering::BatchCullingContext, System::AsyncCallback*, ::Il2CppObject*)>(&UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BatchRendererGroup::OnPerformCulling*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::BatchRendererGroup*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::BatchCullingContext>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::BatchRendererGroup*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::BatchCullingContext>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: BatchRendererGroup::OnPerformCulling::EndInvoke
+// Writing MetadataGetter for method: UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Unity::Jobs::JobHandle (BatchRendererGroup::OnPerformCulling::*)(System::IAsyncResult*)>(&BatchRendererGroup::OnPerformCulling::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Unity::Jobs::JobHandle (UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::*)(System::IAsyncResult*)>(&UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BatchRendererGroup::OnPerformCulling*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

@@ -35,35 +35,35 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::IVoipPCMSource*, "Oculus.Platform", "IVoipPCMSource");
-// Writing MetadataGetter for method: IVoipPCMSource::GetPCM
+// Writing MetadataGetter for method: Oculus::Platform::IVoipPCMSource::GetPCM
 // Il2CppName: GetPCM
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IVoipPCMSource::*)(::Array<float>*, int)>(&IVoipPCMSource::GetPCM)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Oculus::Platform::IVoipPCMSource::*)(::Array<float>*, int)>(&Oculus::Platform::IVoipPCMSource::GetPCM)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVoipPCMSource*), "GetPCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::IVoipPCMSource*), "GetPCM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: IVoipPCMSource::SetSenderID
+// Writing MetadataGetter for method: Oculus::Platform::IVoipPCMSource::SetSenderID
 // Il2CppName: SetSenderID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVoipPCMSource::*)(uint64_t)>(&IVoipPCMSource::SetSenderID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::IVoipPCMSource::*)(uint64_t)>(&Oculus::Platform::IVoipPCMSource::SetSenderID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVoipPCMSource*), "SetSenderID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::IVoipPCMSource*), "SetSenderID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: IVoipPCMSource::Update
+// Writing MetadataGetter for method: Oculus::Platform::IVoipPCMSource::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVoipPCMSource::*)()>(&IVoipPCMSource::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::IVoipPCMSource::*)()>(&Oculus::Platform::IVoipPCMSource::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVoipPCMSource*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::IVoipPCMSource*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IVoipPCMSource::PeekSizeElements
+// Writing MetadataGetter for method: Oculus::Platform::IVoipPCMSource::PeekSizeElements
 // Il2CppName: PeekSizeElements
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IVoipPCMSource::*)()>(&IVoipPCMSource::PeekSizeElements)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Oculus::Platform::IVoipPCMSource::*)()>(&Oculus::Platform::IVoipPCMSource::PeekSizeElements)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVoipPCMSource*), "PeekSizeElements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::IVoipPCMSource*), "PeekSizeElements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -83,41 +83,41 @@ namespace System {
   static_assert(sizeof(IOSelectorJob) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IOSelectorJob*, "System", "IOSelectorJob");
-// Writing MetadataGetter for method: IOSelectorJob::New_ctor
+// Writing MetadataGetter for method: System::IOSelectorJob::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IOSelectorJob::*)(System::IOOperation, System::IOAsyncCallback*, System::IOAsyncResult*)>(&IOSelectorJob::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IOSelectorJob::*)(System::IOOperation, System::IOAsyncCallback*, System::IOAsyncResult*)>(&System::IOSelectorJob::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IOSelectorJob*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IOOperation>(), ::il2cpp_utils::ExtractIndependentType<System::IOAsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<System::IOAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IOSelectorJob*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IOOperation>(), ::il2cpp_utils::ExtractIndependentType<System::IOAsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<System::IOAsyncResult*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IOSelectorJob::*)(System::IOOperation, System::IOAsyncCallback*, System::IOAsyncResult*)>(&IOSelectorJob::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IOSelectorJob::*)(System::IOOperation, System::IOAsyncCallback*, System::IOAsyncResult*)>(&System::IOSelectorJob::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IOSelectorJob*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IOOperation>(), ::il2cpp_utils::ExtractIndependentType<System::IOAsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<System::IOAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IOSelectorJob*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IOOperation>(), ::il2cpp_utils::ExtractIndependentType<System::IOAsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<System::IOAsyncResult*>()});
   }
 };
-// Writing MetadataGetter for method: IOSelectorJob::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem
+// Writing MetadataGetter for method: System::IOSelectorJob::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem
 // Il2CppName: System.Threading.IThreadPoolWorkItem.ExecuteWorkItem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IOSelectorJob::*)()>(&IOSelectorJob::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IOSelectorJob::*)()>(&System::IOSelectorJob::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IOSelectorJob*), "System.Threading.IThreadPoolWorkItem.ExecuteWorkItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IOSelectorJob*), "System.Threading.IThreadPoolWorkItem.ExecuteWorkItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IOSelectorJob::System_Threading_IThreadPoolWorkItem_MarkAborted
+// Writing MetadataGetter for method: System::IOSelectorJob::System_Threading_IThreadPoolWorkItem_MarkAborted
 // Il2CppName: System.Threading.IThreadPoolWorkItem.MarkAborted
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IOSelectorJob::*)(System::Threading::ThreadAbortException*)>(&IOSelectorJob::System_Threading_IThreadPoolWorkItem_MarkAborted)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IOSelectorJob::*)(System::Threading::ThreadAbortException*)>(&System::IOSelectorJob::System_Threading_IThreadPoolWorkItem_MarkAborted)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IOSelectorJob*), "System.Threading.IThreadPoolWorkItem.MarkAborted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadAbortException*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IOSelectorJob*), "System.Threading.IThreadPoolWorkItem.MarkAborted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadAbortException*>()});
   }
 };
-// Writing MetadataGetter for method: IOSelectorJob::MarkDisposed
+// Writing MetadataGetter for method: System::IOSelectorJob::MarkDisposed
 // Il2CppName: MarkDisposed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IOSelectorJob::*)()>(&IOSelectorJob::MarkDisposed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IOSelectorJob::*)()>(&System::IOSelectorJob::MarkDisposed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IOSelectorJob*), "MarkDisposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IOSelectorJob*), "MarkDisposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

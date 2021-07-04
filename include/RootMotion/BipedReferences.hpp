@@ -224,201 +224,201 @@ namespace RootMotion {
   static_assert(sizeof(BipedReferences) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedReferences*, "RootMotion", "BipedReferences");
-// Writing MetadataGetter for method: BipedReferences::get_isFilled
+// Writing MetadataGetter for method: RootMotion::BipedReferences::get_isFilled
 // Il2CppName: get_isFilled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BipedReferences::*)()>(&BipedReferences::get_isFilled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::BipedReferences::*)()>(&RootMotion::BipedReferences::get_isFilled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BipedReferences*), "get_isFilled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedReferences*), "get_isFilled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BipedReferences::get_isEmpty
+// Writing MetadataGetter for method: RootMotion::BipedReferences::get_isEmpty
 // Il2CppName: get_isEmpty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BipedReferences::*)()>(&BipedReferences::get_isEmpty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::BipedReferences::*)()>(&RootMotion::BipedReferences::get_isEmpty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BipedReferences*), "get_isEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedReferences*), "get_isEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BipedReferences::IsEmpty
+// Writing MetadataGetter for method: RootMotion::BipedReferences::IsEmpty
 // Il2CppName: IsEmpty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BipedReferences::*)(bool)>(&BipedReferences::IsEmpty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::BipedReferences::*)(bool)>(&RootMotion::BipedReferences::IsEmpty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BipedReferences*), "IsEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedReferences*), "IsEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: BipedReferences::Contains
+// Writing MetadataGetter for method: RootMotion::BipedReferences::Contains
 // Il2CppName: Contains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BipedReferences::*)(UnityEngine::Transform*, bool)>(&BipedReferences::Contains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::BipedReferences::*)(UnityEngine::Transform*, bool)>(&RootMotion::BipedReferences::Contains)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BipedReferences*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedReferences*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: BipedReferences::AutoDetectReferences
+// Writing MetadataGetter for method: RootMotion::BipedReferences::AutoDetectReferences
 // Il2CppName: AutoDetectReferences
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(RootMotion::BipedReferences*&, UnityEngine::Transform*, RootMotion::BipedReferences::AutoDetectParams)>(&BipedReferences::AutoDetectReferences)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(RootMotion::BipedReferences*&, UnityEngine::Transform*, RootMotion::BipedReferences::AutoDetectParams)>(&RootMotion::BipedReferences::AutoDetectReferences)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BipedReferences*), "AutoDetectReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences::AutoDetectParams>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedReferences*), "AutoDetectReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences::AutoDetectParams>()});
   }
 };
-// Writing MetadataGetter for method: BipedReferences::DetectReferencesByNaming
+// Writing MetadataGetter for method: RootMotion::BipedReferences::DetectReferencesByNaming
 // Il2CppName: DetectReferencesByNaming
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(RootMotion::BipedReferences*&, UnityEngine::Transform*, RootMotion::BipedReferences::AutoDetectParams)>(&BipedReferences::DetectReferencesByNaming)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(RootMotion::BipedReferences*&, UnityEngine::Transform*, RootMotion::BipedReferences::AutoDetectParams)>(&RootMotion::BipedReferences::DetectReferencesByNaming)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BipedReferences*), "DetectReferencesByNaming", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences::AutoDetectParams>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedReferences*), "DetectReferencesByNaming", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences::AutoDetectParams>()});
   }
 };
-// Writing MetadataGetter for method: BipedReferences::AssignHumanoidReferences
+// Writing MetadataGetter for method: RootMotion::BipedReferences::AssignHumanoidReferences
 // Il2CppName: AssignHumanoidReferences
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(RootMotion::BipedReferences*&, UnityEngine::Animator*, RootMotion::BipedReferences::AutoDetectParams)>(&BipedReferences::AssignHumanoidReferences)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(RootMotion::BipedReferences*&, UnityEngine::Animator*, RootMotion::BipedReferences::AutoDetectParams)>(&RootMotion::BipedReferences::AssignHumanoidReferences)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BipedReferences*), "AssignHumanoidReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences::AutoDetectParams>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedReferences*), "AssignHumanoidReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences::AutoDetectParams>()});
   }
 };
-// Writing MetadataGetter for method: BipedReferences::SetupError
+// Writing MetadataGetter for method: RootMotion::BipedReferences::SetupError
 // Il2CppName: SetupError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(RootMotion::BipedReferences*, ::Il2CppString*&)>(&BipedReferences::SetupError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(RootMotion::BipedReferences*, ::Il2CppString*&)>(&RootMotion::BipedReferences::SetupError)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BipedReferences*), "SetupError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedReferences*), "SetupError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
   }
 };
-// Writing MetadataGetter for method: BipedReferences::SetupWarning
+// Writing MetadataGetter for method: RootMotion::BipedReferences::SetupWarning
 // Il2CppName: SetupWarning
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(RootMotion::BipedReferences*, ::Il2CppString*&)>(&BipedReferences::SetupWarning)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(RootMotion::BipedReferences*, ::Il2CppString*&)>(&RootMotion::BipedReferences::SetupWarning)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BipedReferences*), "SetupWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedReferences*), "SetupWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
   }
 };
-// Writing MetadataGetter for method: BipedReferences::IsNeckBone
+// Writing MetadataGetter for method: RootMotion::BipedReferences::IsNeckBone
 // Il2CppName: IsNeckBone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, UnityEngine::Transform*)>(&BipedReferences::IsNeckBone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, UnityEngine::Transform*)>(&RootMotion::BipedReferences::IsNeckBone)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BipedReferences*), "IsNeckBone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedReferences*), "IsNeckBone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
   }
 };
-// Writing MetadataGetter for method: BipedReferences::AddBoneToEyes
+// Writing MetadataGetter for method: RootMotion::BipedReferences::AddBoneToEyes
 // Il2CppName: AddBoneToEyes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, RootMotion::BipedReferences*&, RootMotion::BipedReferences::AutoDetectParams)>(&BipedReferences::AddBoneToEyes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, RootMotion::BipedReferences*&, RootMotion::BipedReferences::AutoDetectParams)>(&RootMotion::BipedReferences::AddBoneToEyes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BipedReferences*), "AddBoneToEyes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*&>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences::AutoDetectParams>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedReferences*), "AddBoneToEyes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*&>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences::AutoDetectParams>()});
   }
 };
-// Writing MetadataGetter for method: BipedReferences::AddBoneToSpine
+// Writing MetadataGetter for method: RootMotion::BipedReferences::AddBoneToSpine
 // Il2CppName: AddBoneToSpine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, RootMotion::BipedReferences*&, RootMotion::BipedReferences::AutoDetectParams)>(&BipedReferences::AddBoneToSpine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, RootMotion::BipedReferences*&, RootMotion::BipedReferences::AutoDetectParams)>(&RootMotion::BipedReferences::AddBoneToSpine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BipedReferences*), "AddBoneToSpine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*&>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences::AutoDetectParams>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedReferences*), "AddBoneToSpine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*&>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences::AutoDetectParams>()});
   }
 };
-// Writing MetadataGetter for method: BipedReferences::DetectLimb
+// Writing MetadataGetter for method: RootMotion::BipedReferences::DetectLimb
 // Il2CppName: DetectLimb
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(RootMotion::BipedNaming::BoneType, RootMotion::BipedNaming::BoneSide, UnityEngine::Transform*&, UnityEngine::Transform*&, UnityEngine::Transform*&, ::Array<UnityEngine::Transform*>*)>(&BipedReferences::DetectLimb)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(RootMotion::BipedNaming::BoneType, RootMotion::BipedNaming::BoneSide, UnityEngine::Transform*&, UnityEngine::Transform*&, UnityEngine::Transform*&, ::Array<UnityEngine::Transform*>*)>(&RootMotion::BipedReferences::DetectLimb)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BipedReferences*), "DetectLimb", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedNaming::BoneType>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedNaming::BoneSide>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedReferences*), "DetectLimb", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedNaming::BoneType>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::BipedNaming::BoneSide>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*>()});
   }
 };
-// Writing MetadataGetter for method: BipedReferences::AddBoneToHierarchy
+// Writing MetadataGetter for method: RootMotion::BipedReferences::AddBoneToHierarchy
 // Il2CppName: AddBoneToHierarchy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<UnityEngine::Transform*>*&, UnityEngine::Transform*)>(&BipedReferences::AddBoneToHierarchy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<UnityEngine::Transform*>*&, UnityEngine::Transform*)>(&RootMotion::BipedReferences::AddBoneToHierarchy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BipedReferences*), "AddBoneToHierarchy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedReferences*), "AddBoneToHierarchy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
   }
 };
-// Writing MetadataGetter for method: BipedReferences::LimbError
+// Writing MetadataGetter for method: RootMotion::BipedReferences::LimbError
 // Il2CppName: LimbError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, ::Il2CppString*&)>(&BipedReferences::LimbError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, ::Il2CppString*&)>(&RootMotion::BipedReferences::LimbError)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BipedReferences*), "LimbError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedReferences*), "LimbError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
   }
 };
-// Writing MetadataGetter for method: BipedReferences::LimbWarning
+// Writing MetadataGetter for method: RootMotion::BipedReferences::LimbWarning
 // Il2CppName: LimbWarning
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, ::Il2CppString*&)>(&BipedReferences::LimbWarning)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, ::Il2CppString*&)>(&RootMotion::BipedReferences::LimbWarning)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BipedReferences*), "LimbWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedReferences*), "LimbWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
   }
 };
-// Writing MetadataGetter for method: BipedReferences::SpineError
+// Writing MetadataGetter for method: RootMotion::BipedReferences::SpineError
 // Il2CppName: SpineError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(RootMotion::BipedReferences*, ::Il2CppString*&)>(&BipedReferences::SpineError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(RootMotion::BipedReferences*, ::Il2CppString*&)>(&RootMotion::BipedReferences::SpineError)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BipedReferences*), "SpineError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedReferences*), "SpineError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
   }
 };
-// Writing MetadataGetter for method: BipedReferences::SpineWarning
+// Writing MetadataGetter for method: RootMotion::BipedReferences::SpineWarning
 // Il2CppName: SpineWarning
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(RootMotion::BipedReferences*, ::Il2CppString*&)>(&BipedReferences::SpineWarning)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(RootMotion::BipedReferences*, ::Il2CppString*&)>(&RootMotion::BipedReferences::SpineWarning)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BipedReferences*), "SpineWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedReferences*), "SpineWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
   }
 };
-// Writing MetadataGetter for method: BipedReferences::EyesError
+// Writing MetadataGetter for method: RootMotion::BipedReferences::EyesError
 // Il2CppName: EyesError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(RootMotion::BipedReferences*, ::Il2CppString*&)>(&BipedReferences::EyesError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(RootMotion::BipedReferences*, ::Il2CppString*&)>(&RootMotion::BipedReferences::EyesError)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BipedReferences*), "EyesError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedReferences*), "EyesError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
   }
 };
-// Writing MetadataGetter for method: BipedReferences::EyesWarning
+// Writing MetadataGetter for method: RootMotion::BipedReferences::EyesWarning
 // Il2CppName: EyesWarning
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(RootMotion::BipedReferences*, ::Il2CppString*&)>(&BipedReferences::EyesWarning)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(RootMotion::BipedReferences*, ::Il2CppString*&)>(&RootMotion::BipedReferences::EyesWarning)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BipedReferences*), "EyesWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedReferences*), "EyesWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
   }
 };
-// Writing MetadataGetter for method: BipedReferences::RootHeightWarning
+// Writing MetadataGetter for method: RootMotion::BipedReferences::RootHeightWarning
 // Il2CppName: RootHeightWarning
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(RootMotion::BipedReferences*, ::Il2CppString*&)>(&BipedReferences::RootHeightWarning)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(RootMotion::BipedReferences*, ::Il2CppString*&)>(&RootMotion::BipedReferences::RootHeightWarning)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BipedReferences*), "RootHeightWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedReferences*), "RootHeightWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
   }
 };
-// Writing MetadataGetter for method: BipedReferences::FacingAxisWarning
+// Writing MetadataGetter for method: RootMotion::BipedReferences::FacingAxisWarning
 // Il2CppName: FacingAxisWarning
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(RootMotion::BipedReferences*, ::Il2CppString*&)>(&BipedReferences::FacingAxisWarning)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(RootMotion::BipedReferences*, ::Il2CppString*&)>(&RootMotion::BipedReferences::FacingAxisWarning)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BipedReferences*), "FacingAxisWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedReferences*), "FacingAxisWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
   }
 };
-// Writing MetadataGetter for method: BipedReferences::GetVerticalOffset
+// Writing MetadataGetter for method: RootMotion::BipedReferences::GetVerticalOffset
 // Il2CppName: GetVerticalOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Quaternion)>(&BipedReferences::GetVerticalOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Quaternion)>(&RootMotion::BipedReferences::GetVerticalOffset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BipedReferences*), "GetVerticalOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedReferences*), "GetVerticalOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
   }
 };
-// Writing MetadataGetter for method: BipedReferences::New_ctor
+// Writing MetadataGetter for method: RootMotion::BipedReferences::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedReferences::*)()>(&BipedReferences::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BipedReferences::*)()>(&RootMotion::BipedReferences::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BipedReferences*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedReferences*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedReferences::*)()>(&BipedReferences::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BipedReferences::*)()>(&RootMotion::BipedReferences::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BipedReferences*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedReferences*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

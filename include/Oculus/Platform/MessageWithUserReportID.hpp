@@ -47,33 +47,33 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithUserReportID
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithUserReportID*, "Oculus.Platform", "MessageWithUserReportID");
-// Writing MetadataGetter for method: MessageWithUserReportID::GetDataFromMessage
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithUserReportID::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::UserReportID* (MessageWithUserReportID::*)(System::IntPtr)>(&MessageWithUserReportID::GetDataFromMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::UserReportID* (Oculus::Platform::MessageWithUserReportID::*)(System::IntPtr)>(&Oculus::Platform::MessageWithUserReportID::GetDataFromMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithUserReportID*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithUserReportID*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithUserReportID::New_ctor
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithUserReportID::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithUserReportID::*)(System::IntPtr)>(&MessageWithUserReportID::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithUserReportID::*)(System::IntPtr)>(&Oculus::Platform::MessageWithUserReportID::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithUserReportID*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithUserReportID*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithUserReportID::*)(System::IntPtr)>(&MessageWithUserReportID::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithUserReportID::*)(System::IntPtr)>(&Oculus::Platform::MessageWithUserReportID::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithUserReportID*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithUserReportID*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithUserReportID::GetUserReportID
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithUserReportID::GetUserReportID
 // Il2CppName: GetUserReportID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::UserReportID* (MessageWithUserReportID::*)()>(&MessageWithUserReportID::GetUserReportID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::UserReportID* (Oculus::Platform::MessageWithUserReportID::*)()>(&Oculus::Platform::MessageWithUserReportID::GetUserReportID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithUserReportID*), "GetUserReportID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithUserReportID*), "GetUserReportID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

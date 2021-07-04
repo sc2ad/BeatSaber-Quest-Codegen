@@ -53,41 +53,41 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHandTest::$$c*, "", "OVRHandTest/<>c");
-// Writing MetadataGetter for method: OVRHandTest::$$c::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::OVRHandTest::$$c::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRHandTest::$$c::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRHandTest::$$c::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRHandTest::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHandTest::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRHandTest::$$c::$Start$b__14_0
+// Writing MetadataGetter for method: GlobalNamespace::OVRHandTest::$$c::$Start$b__14_0
 // Il2CppName: <Start>b__14_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRHandTest::$$c::*)()>(&OVRHandTest::$$c::$Start$b__14_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRHandTest::$$c::*)()>(&GlobalNamespace::OVRHandTest::$$c::$Start$b__14_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRHandTest::$$c*), "<Start>b__14_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHandTest::$$c*), "<Start>b__14_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRHandTest::$$c::$_cctor$b__19_0
+// Writing MetadataGetter for method: GlobalNamespace::OVRHandTest::$$c::$_cctor$b__19_0
 // Il2CppName: <.cctor>b__19_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRHandTest::$$c::*)()>(&OVRHandTest::$$c::$_cctor$b__19_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRHandTest::$$c::*)()>(&GlobalNamespace::OVRHandTest::$$c::$_cctor$b__19_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRHandTest::$$c*), "<.cctor>b__19_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHandTest::$$c*), "<.cctor>b__19_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRHandTest::$$c::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::OVRHandTest::$$c::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRHandTest::$$c::*)()>(&OVRHandTest::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRHandTest::$$c::*)()>(&GlobalNamespace::OVRHandTest::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRHandTest::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHandTest::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRHandTest::$$c::*)()>(&OVRHandTest::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRHandTest::$$c::*)()>(&GlobalNamespace::OVRHandTest::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRHandTest::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHandTest::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

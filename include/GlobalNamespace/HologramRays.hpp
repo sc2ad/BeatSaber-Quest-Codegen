@@ -237,105 +237,105 @@ namespace GlobalNamespace {
   static_assert(sizeof(HologramRays) == 0x9D);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HologramRays*, "", "HologramRays");
-// Writing MetadataGetter for method: HologramRays::RuntimeInit
+// Writing MetadataGetter for method: GlobalNamespace::HologramRays::RuntimeInit
 // Il2CppName: RuntimeInit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&HologramRays::RuntimeInit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::HologramRays::RuntimeInit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HologramRays*), "RuntimeInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HologramRays*), "RuntimeInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HologramRays::Awake
+// Writing MetadataGetter for method: GlobalNamespace::HologramRays::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HologramRays::*)()>(&HologramRays::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HologramRays::*)()>(&GlobalNamespace::HologramRays::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HologramRays*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HologramRays*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HologramRays::OnDisable
+// Writing MetadataGetter for method: GlobalNamespace::HologramRays::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HologramRays::*)()>(&HologramRays::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HologramRays::*)()>(&GlobalNamespace::HologramRays::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HologramRays*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HologramRays*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HologramRays::OnValidate
+// Writing MetadataGetter for method: GlobalNamespace::HologramRays::OnValidate
 // Il2CppName: OnValidate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HologramRays::*)()>(&HologramRays::OnValidate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HologramRays::*)()>(&GlobalNamespace::HologramRays::OnValidate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HologramRays*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HologramRays*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HologramRays::Update
+// Writing MetadataGetter for method: GlobalNamespace::HologramRays::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HologramRays::*)()>(&HologramRays::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HologramRays::*)()>(&GlobalNamespace::HologramRays::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HologramRays*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HologramRays*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HologramRays::Refresh
+// Writing MetadataGetter for method: GlobalNamespace::HologramRays::Refresh
 // Il2CppName: Refresh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HologramRays::*)()>(&HologramRays::Refresh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HologramRays::*)()>(&GlobalNamespace::HologramRays::Refresh)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HologramRays*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HologramRays*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HologramRays::Animate
+// Writing MetadataGetter for method: GlobalNamespace::HologramRays::Animate
 // Il2CppName: Animate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HologramRays::*)(bool, float, Tweening::EaseType)>(&HologramRays::Animate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HologramRays::*)(bool, float, Tweening::EaseType)>(&GlobalNamespace::HologramRays::Animate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HologramRays*), "Animate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<Tweening::EaseType>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HologramRays*), "Animate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<Tweening::EaseType>()});
   }
 };
-// Writing MetadataGetter for method: HologramRays::FadingCoroutine
+// Writing MetadataGetter for method: GlobalNamespace::HologramRays::FadingCoroutine
 // Il2CppName: FadingCoroutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (HologramRays::*)(bool, float, Tweening::EaseType)>(&HologramRays::FadingCoroutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::HologramRays::*)(bool, float, Tweening::EaseType)>(&GlobalNamespace::HologramRays::FadingCoroutine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HologramRays*), "FadingCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<Tweening::EaseType>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HologramRays*), "FadingCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<Tweening::EaseType>()});
   }
 };
-// Writing MetadataGetter for method: HologramRays::UpdateBounds
+// Writing MetadataGetter for method: GlobalNamespace::HologramRays::UpdateBounds
 // Il2CppName: UpdateBounds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HologramRays::*)()>(&HologramRays::UpdateBounds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HologramRays::*)()>(&GlobalNamespace::HologramRays::UpdateBounds)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HologramRays*), "UpdateBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HologramRays*), "UpdateBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HologramRays::$Awake$b__22_0
+// Writing MetadataGetter for method: GlobalNamespace::HologramRays::$Awake$b__22_0
 // Il2CppName: <Awake>b__22_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HologramRays::*)(float)>(&HologramRays::$Awake$b__22_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HologramRays::*)(float)>(&GlobalNamespace::HologramRays::$Awake$b__22_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HologramRays*), "<Awake>b__22_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HologramRays*), "<Awake>b__22_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: HologramRays::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::HologramRays::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HologramRays::*)()>(&HologramRays::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HologramRays::*)()>(&GlobalNamespace::HologramRays::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HologramRays*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HologramRays*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HologramRays::*)()>(&HologramRays::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HologramRays::*)()>(&GlobalNamespace::HologramRays::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HologramRays*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HologramRays*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HologramRays::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::HologramRays::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&HologramRays::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::HologramRays::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HologramRays*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HologramRays*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

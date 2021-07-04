@@ -137,57 +137,57 @@ namespace MasterServer {
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserServerHeartbeatResponse*, "MasterServer", "UserServerHeartbeatResponse");
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserServerHeartbeatResponse::Result, "MasterServer", "UserServerHeartbeatResponse/Result");
-// Writing MetadataGetter for method: UserServerHeartbeatResponse::get_pool
+// Writing MetadataGetter for method: MasterServer::UserServerHeartbeatResponse::get_pool
 // Il2CppName: get_pool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::UserServerHeartbeatResponse*>* (*)()>(&UserServerHeartbeatResponse::get_pool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::UserServerHeartbeatResponse*>* (*)()>(&MasterServer::UserServerHeartbeatResponse::get_pool)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserServerHeartbeatResponse*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserServerHeartbeatResponse*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UserServerHeartbeatResponse::Init
+// Writing MetadataGetter for method: MasterServer::UserServerHeartbeatResponse::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::UserServerHeartbeatResponse* (UserServerHeartbeatResponse::*)(MasterServer::UserServerHeartbeatResponse::Result)>(&UserServerHeartbeatResponse::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::UserServerHeartbeatResponse* (MasterServer::UserServerHeartbeatResponse::*)(MasterServer::UserServerHeartbeatResponse::Result)>(&MasterServer::UserServerHeartbeatResponse::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserServerHeartbeatResponse*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::UserServerHeartbeatResponse::Result>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserServerHeartbeatResponse*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::UserServerHeartbeatResponse::Result>()});
   }
 };
-// Writing MetadataGetter for method: UserServerHeartbeatResponse::Serialize
+// Writing MetadataGetter for method: MasterServer::UserServerHeartbeatResponse::Serialize
 // Il2CppName: Serialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserServerHeartbeatResponse::*)(LiteNetLib::Utils::NetDataWriter*)>(&UserServerHeartbeatResponse::Serialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::UserServerHeartbeatResponse::*)(LiteNetLib::Utils::NetDataWriter*)>(&MasterServer::UserServerHeartbeatResponse::Serialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserServerHeartbeatResponse*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserServerHeartbeatResponse*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
   }
 };
-// Writing MetadataGetter for method: UserServerHeartbeatResponse::Deserialize
+// Writing MetadataGetter for method: MasterServer::UserServerHeartbeatResponse::Deserialize
 // Il2CppName: Deserialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserServerHeartbeatResponse::*)(LiteNetLib::Utils::NetDataReader*)>(&UserServerHeartbeatResponse::Deserialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::UserServerHeartbeatResponse::*)(LiteNetLib::Utils::NetDataReader*)>(&MasterServer::UserServerHeartbeatResponse::Deserialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserServerHeartbeatResponse*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserServerHeartbeatResponse*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
   }
 };
-// Writing MetadataGetter for method: UserServerHeartbeatResponse::Release
+// Writing MetadataGetter for method: MasterServer::UserServerHeartbeatResponse::Release
 // Il2CppName: Release
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserServerHeartbeatResponse::*)()>(&UserServerHeartbeatResponse::Release)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::UserServerHeartbeatResponse::*)()>(&MasterServer::UserServerHeartbeatResponse::Release)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserServerHeartbeatResponse*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserServerHeartbeatResponse*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UserServerHeartbeatResponse::New_ctor
+// Writing MetadataGetter for method: MasterServer::UserServerHeartbeatResponse::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserServerHeartbeatResponse::*)()>(&UserServerHeartbeatResponse::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::UserServerHeartbeatResponse::*)()>(&MasterServer::UserServerHeartbeatResponse::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserServerHeartbeatResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserServerHeartbeatResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserServerHeartbeatResponse::*)()>(&UserServerHeartbeatResponse::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::UserServerHeartbeatResponse::*)()>(&MasterServer::UserServerHeartbeatResponse::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserServerHeartbeatResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserServerHeartbeatResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

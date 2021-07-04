@@ -75,49 +75,49 @@ namespace Polyglot {
   static_assert(sizeof(LanguageDropdown) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LanguageDropdown*, "Polyglot", "LanguageDropdown");
-// Writing MetadataGetter for method: LanguageDropdown::Reset
+// Writing MetadataGetter for method: Polyglot::LanguageDropdown::Reset
 // Il2CppName: Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LanguageDropdown::*)()>(&LanguageDropdown::Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LanguageDropdown::*)()>(&Polyglot::LanguageDropdown::Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LanguageDropdown*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::LanguageDropdown*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LanguageDropdown::Start
+// Writing MetadataGetter for method: Polyglot::LanguageDropdown::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LanguageDropdown::*)()>(&LanguageDropdown::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LanguageDropdown::*)()>(&Polyglot::LanguageDropdown::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LanguageDropdown*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::LanguageDropdown*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LanguageDropdown::CreateDropdown
+// Writing MetadataGetter for method: Polyglot::LanguageDropdown::CreateDropdown
 // Il2CppName: CreateDropdown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LanguageDropdown::*)()>(&LanguageDropdown::CreateDropdown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LanguageDropdown::*)()>(&Polyglot::LanguageDropdown::CreateDropdown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LanguageDropdown*), "CreateDropdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::LanguageDropdown*), "CreateDropdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LanguageDropdown::OnLocalize
+// Writing MetadataGetter for method: Polyglot::LanguageDropdown::OnLocalize
 // Il2CppName: OnLocalize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LanguageDropdown::*)()>(&LanguageDropdown::OnLocalize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LanguageDropdown::*)()>(&Polyglot::LanguageDropdown::OnLocalize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LanguageDropdown*), "OnLocalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::LanguageDropdown*), "OnLocalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LanguageDropdown::New_ctor
+// Writing MetadataGetter for method: Polyglot::LanguageDropdown::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LanguageDropdown::*)()>(&LanguageDropdown::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LanguageDropdown::*)()>(&Polyglot::LanguageDropdown::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LanguageDropdown*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::LanguageDropdown*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LanguageDropdown::*)()>(&LanguageDropdown::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LanguageDropdown::*)()>(&Polyglot::LanguageDropdown::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LanguageDropdown*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::LanguageDropdown*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

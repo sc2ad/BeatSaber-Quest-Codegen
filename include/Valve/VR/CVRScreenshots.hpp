@@ -82,73 +82,73 @@ namespace Valve::VR {
   static_assert(sizeof(CVRScreenshots) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRScreenshots*, "Valve.VR", "CVRScreenshots");
-// Writing MetadataGetter for method: CVRScreenshots::New_ctor
+// Writing MetadataGetter for method: Valve::VR::CVRScreenshots::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRScreenshots::*)(System::IntPtr)>(&CVRScreenshots::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRScreenshots::*)(System::IntPtr)>(&Valve::VR::CVRScreenshots::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRScreenshots*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRScreenshots*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRScreenshots::*)(System::IntPtr)>(&CVRScreenshots::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRScreenshots::*)(System::IntPtr)>(&Valve::VR::CVRScreenshots::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRScreenshots*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRScreenshots*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: CVRScreenshots::RequestScreenshot
+// Writing MetadataGetter for method: Valve::VR::CVRScreenshots::RequestScreenshot
 // Il2CppName: RequestScreenshot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRScreenshotError (CVRScreenshots::*)(uint&, Valve::VR::EVRScreenshotType, ::Il2CppString*, ::Il2CppString*)>(&CVRScreenshots::RequestScreenshot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRScreenshotError (Valve::VR::CVRScreenshots::*)(uint&, Valve::VR::EVRScreenshotType, ::Il2CppString*, ::Il2CppString*)>(&Valve::VR::CVRScreenshots::RequestScreenshot)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRScreenshots*), "RequestScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRScreenshotType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRScreenshots*), "RequestScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRScreenshotType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CVRScreenshots::HookScreenshot
+// Writing MetadataGetter for method: Valve::VR::CVRScreenshots::HookScreenshot
 // Il2CppName: HookScreenshot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRScreenshotError (CVRScreenshots::*)(::Array<Valve::VR::EVRScreenshotType>*)>(&CVRScreenshots::HookScreenshot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRScreenshotError (Valve::VR::CVRScreenshots::*)(::Array<Valve::VR::EVRScreenshotType>*)>(&Valve::VR::CVRScreenshots::HookScreenshot)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRScreenshots*), "HookScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Valve::VR::EVRScreenshotType>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRScreenshots*), "HookScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Valve::VR::EVRScreenshotType>*>()});
   }
 };
-// Writing MetadataGetter for method: CVRScreenshots::GetScreenshotPropertyType
+// Writing MetadataGetter for method: Valve::VR::CVRScreenshots::GetScreenshotPropertyType
 // Il2CppName: GetScreenshotPropertyType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRScreenshotType (CVRScreenshots::*)(uint, Valve::VR::EVRScreenshotError&)>(&CVRScreenshots::GetScreenshotPropertyType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRScreenshotType (Valve::VR::CVRScreenshots::*)(uint, Valve::VR::EVRScreenshotError&)>(&Valve::VR::CVRScreenshots::GetScreenshotPropertyType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRScreenshots*), "GetScreenshotPropertyType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRScreenshotError&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRScreenshots*), "GetScreenshotPropertyType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRScreenshotError&>()});
   }
 };
-// Writing MetadataGetter for method: CVRScreenshots::GetScreenshotPropertyFilename
+// Writing MetadataGetter for method: Valve::VR::CVRScreenshots::GetScreenshotPropertyFilename
 // Il2CppName: GetScreenshotPropertyFilename
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRScreenshots::*)(uint, Valve::VR::EVRScreenshotPropertyFilenames, System::Text::StringBuilder*, uint, Valve::VR::EVRScreenshotError&)>(&CVRScreenshots::GetScreenshotPropertyFilename)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRScreenshots::*)(uint, Valve::VR::EVRScreenshotPropertyFilenames, System::Text::StringBuilder*, uint, Valve::VR::EVRScreenshotError&)>(&Valve::VR::CVRScreenshots::GetScreenshotPropertyFilename)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRScreenshots*), "GetScreenshotPropertyFilename", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRScreenshotPropertyFilenames>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRScreenshotError&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRScreenshots*), "GetScreenshotPropertyFilename", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRScreenshotPropertyFilenames>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRScreenshotError&>()});
   }
 };
-// Writing MetadataGetter for method: CVRScreenshots::UpdateScreenshotProgress
+// Writing MetadataGetter for method: Valve::VR::CVRScreenshots::UpdateScreenshotProgress
 // Il2CppName: UpdateScreenshotProgress
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRScreenshotError (CVRScreenshots::*)(uint, float)>(&CVRScreenshots::UpdateScreenshotProgress)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRScreenshotError (Valve::VR::CVRScreenshots::*)(uint, float)>(&Valve::VR::CVRScreenshots::UpdateScreenshotProgress)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRScreenshots*), "UpdateScreenshotProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRScreenshots*), "UpdateScreenshotProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: CVRScreenshots::TakeStereoScreenshot
+// Writing MetadataGetter for method: Valve::VR::CVRScreenshots::TakeStereoScreenshot
 // Il2CppName: TakeStereoScreenshot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRScreenshotError (CVRScreenshots::*)(uint&, ::Il2CppString*, ::Il2CppString*)>(&CVRScreenshots::TakeStereoScreenshot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRScreenshotError (Valve::VR::CVRScreenshots::*)(uint&, ::Il2CppString*, ::Il2CppString*)>(&Valve::VR::CVRScreenshots::TakeStereoScreenshot)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRScreenshots*), "TakeStereoScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRScreenshots*), "TakeStereoScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CVRScreenshots::SubmitScreenshot
+// Writing MetadataGetter for method: Valve::VR::CVRScreenshots::SubmitScreenshot
 // Il2CppName: SubmitScreenshot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRScreenshotError (CVRScreenshots::*)(uint, Valve::VR::EVRScreenshotType, ::Il2CppString*, ::Il2CppString*)>(&CVRScreenshots::SubmitScreenshot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRScreenshotError (Valve::VR::CVRScreenshots::*)(uint, Valve::VR::EVRScreenshotType, ::Il2CppString*, ::Il2CppString*)>(&Valve::VR::CVRScreenshots::SubmitScreenshot)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRScreenshots*), "SubmitScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRScreenshotType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRScreenshots*), "SubmitScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRScreenshotType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };

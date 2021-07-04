@@ -146,129 +146,129 @@ namespace System::Threading::Tasks {
   static_assert(sizeof(TaskExceptionHolder) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskExceptionHolder*, "System.Threading.Tasks", "TaskExceptionHolder");
-// Writing MetadataGetter for method: TaskExceptionHolder::New_ctor
+// Writing MetadataGetter for method: System::Threading::Tasks::TaskExceptionHolder::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TaskExceptionHolder::*)(System::Threading::Tasks::Task*)>(&TaskExceptionHolder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::TaskExceptionHolder::*)(System::Threading::Tasks::Task*)>(&System::Threading::Tasks::TaskExceptionHolder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaskExceptionHolder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskExceptionHolder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TaskExceptionHolder::*)(System::Threading::Tasks::Task*)>(&TaskExceptionHolder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::TaskExceptionHolder::*)(System::Threading::Tasks::Task*)>(&System::Threading::Tasks::TaskExceptionHolder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaskExceptionHolder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskExceptionHolder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>()});
   }
 };
-// Writing MetadataGetter for method: TaskExceptionHolder::ShouldFailFastOnUnobservedException
+// Writing MetadataGetter for method: System::Threading::Tasks::TaskExceptionHolder::ShouldFailFastOnUnobservedException
 // Il2CppName: ShouldFailFastOnUnobservedException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TaskExceptionHolder::ShouldFailFastOnUnobservedException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Threading::Tasks::TaskExceptionHolder::ShouldFailFastOnUnobservedException)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaskExceptionHolder*), "ShouldFailFastOnUnobservedException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskExceptionHolder*), "ShouldFailFastOnUnobservedException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TaskExceptionHolder::EnsureADUnloadCallbackRegistered
+// Writing MetadataGetter for method: System::Threading::Tasks::TaskExceptionHolder::EnsureADUnloadCallbackRegistered
 // Il2CppName: EnsureADUnloadCallbackRegistered
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TaskExceptionHolder::EnsureADUnloadCallbackRegistered)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Threading::Tasks::TaskExceptionHolder::EnsureADUnloadCallbackRegistered)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaskExceptionHolder*), "EnsureADUnloadCallbackRegistered", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskExceptionHolder*), "EnsureADUnloadCallbackRegistered", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TaskExceptionHolder::AppDomainUnloadCallback
+// Writing MetadataGetter for method: System::Threading::Tasks::TaskExceptionHolder::AppDomainUnloadCallback
 // Il2CppName: AppDomainUnloadCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, System::EventArgs*)>(&TaskExceptionHolder::AppDomainUnloadCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, System::EventArgs*)>(&System::Threading::Tasks::TaskExceptionHolder::AppDomainUnloadCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaskExceptionHolder*), "AppDomainUnloadCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::EventArgs*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskExceptionHolder*), "AppDomainUnloadCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::EventArgs*>()});
   }
 };
-// Writing MetadataGetter for method: TaskExceptionHolder::get_ContainsFaultList
+// Writing MetadataGetter for method: System::Threading::Tasks::TaskExceptionHolder::get_ContainsFaultList
 // Il2CppName: get_ContainsFaultList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TaskExceptionHolder::*)()>(&TaskExceptionHolder::get_ContainsFaultList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::TaskExceptionHolder::*)()>(&System::Threading::Tasks::TaskExceptionHolder::get_ContainsFaultList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaskExceptionHolder*), "get_ContainsFaultList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskExceptionHolder*), "get_ContainsFaultList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TaskExceptionHolder::Add
+// Writing MetadataGetter for method: System::Threading::Tasks::TaskExceptionHolder::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TaskExceptionHolder::*)(::Il2CppObject*, bool)>(&TaskExceptionHolder::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::TaskExceptionHolder::*)(::Il2CppObject*, bool)>(&System::Threading::Tasks::TaskExceptionHolder::Add)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaskExceptionHolder*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskExceptionHolder*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: TaskExceptionHolder::SetCancellationException
+// Writing MetadataGetter for method: System::Threading::Tasks::TaskExceptionHolder::SetCancellationException
 // Il2CppName: SetCancellationException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TaskExceptionHolder::*)(::Il2CppObject*)>(&TaskExceptionHolder::SetCancellationException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::TaskExceptionHolder::*)(::Il2CppObject*)>(&System::Threading::Tasks::TaskExceptionHolder::SetCancellationException)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaskExceptionHolder*), "SetCancellationException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskExceptionHolder*), "SetCancellationException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: TaskExceptionHolder::AddFaultException
+// Writing MetadataGetter for method: System::Threading::Tasks::TaskExceptionHolder::AddFaultException
 // Il2CppName: AddFaultException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TaskExceptionHolder::*)(::Il2CppObject*)>(&TaskExceptionHolder::AddFaultException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::TaskExceptionHolder::*)(::Il2CppObject*)>(&System::Threading::Tasks::TaskExceptionHolder::AddFaultException)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaskExceptionHolder*), "AddFaultException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskExceptionHolder*), "AddFaultException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: TaskExceptionHolder::MarkAsUnhandled
+// Writing MetadataGetter for method: System::Threading::Tasks::TaskExceptionHolder::MarkAsUnhandled
 // Il2CppName: MarkAsUnhandled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TaskExceptionHolder::*)()>(&TaskExceptionHolder::MarkAsUnhandled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::TaskExceptionHolder::*)()>(&System::Threading::Tasks::TaskExceptionHolder::MarkAsUnhandled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaskExceptionHolder*), "MarkAsUnhandled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskExceptionHolder*), "MarkAsUnhandled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TaskExceptionHolder::MarkAsHandled
+// Writing MetadataGetter for method: System::Threading::Tasks::TaskExceptionHolder::MarkAsHandled
 // Il2CppName: MarkAsHandled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TaskExceptionHolder::*)(bool)>(&TaskExceptionHolder::MarkAsHandled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::TaskExceptionHolder::*)(bool)>(&System::Threading::Tasks::TaskExceptionHolder::MarkAsHandled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaskExceptionHolder*), "MarkAsHandled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskExceptionHolder*), "MarkAsHandled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: TaskExceptionHolder::CreateExceptionObject
+// Writing MetadataGetter for method: System::Threading::Tasks::TaskExceptionHolder::CreateExceptionObject
 // Il2CppName: CreateExceptionObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::AggregateException* (TaskExceptionHolder::*)(bool, System::Exception*)>(&TaskExceptionHolder::CreateExceptionObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::AggregateException* (System::Threading::Tasks::TaskExceptionHolder::*)(bool, System::Exception*)>(&System::Threading::Tasks::TaskExceptionHolder::CreateExceptionObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaskExceptionHolder*), "CreateExceptionObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskExceptionHolder*), "CreateExceptionObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
   }
 };
-// Writing MetadataGetter for method: TaskExceptionHolder::GetExceptionDispatchInfos
+// Writing MetadataGetter for method: System::Threading::Tasks::TaskExceptionHolder::GetExceptionDispatchInfos
 // Il2CppName: GetExceptionDispatchInfos
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ObjectModel::ReadOnlyCollection_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* (TaskExceptionHolder::*)()>(&TaskExceptionHolder::GetExceptionDispatchInfos)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ObjectModel::ReadOnlyCollection_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* (System::Threading::Tasks::TaskExceptionHolder::*)()>(&System::Threading::Tasks::TaskExceptionHolder::GetExceptionDispatchInfos)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaskExceptionHolder*), "GetExceptionDispatchInfos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskExceptionHolder*), "GetExceptionDispatchInfos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TaskExceptionHolder::GetCancellationExceptionDispatchInfo
+// Writing MetadataGetter for method: System::Threading::Tasks::TaskExceptionHolder::GetCancellationExceptionDispatchInfo
 // Il2CppName: GetCancellationExceptionDispatchInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::ExceptionServices::ExceptionDispatchInfo* (TaskExceptionHolder::*)()>(&TaskExceptionHolder::GetCancellationExceptionDispatchInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::ExceptionServices::ExceptionDispatchInfo* (System::Threading::Tasks::TaskExceptionHolder::*)()>(&System::Threading::Tasks::TaskExceptionHolder::GetCancellationExceptionDispatchInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaskExceptionHolder*), "GetCancellationExceptionDispatchInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskExceptionHolder*), "GetCancellationExceptionDispatchInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TaskExceptionHolder::_cctor
+// Writing MetadataGetter for method: System::Threading::Tasks::TaskExceptionHolder::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TaskExceptionHolder::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Threading::Tasks::TaskExceptionHolder::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaskExceptionHolder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskExceptionHolder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TaskExceptionHolder::Finalize
+// Writing MetadataGetter for method: System::Threading::Tasks::TaskExceptionHolder::Finalize
 // Il2CppName: Finalize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TaskExceptionHolder::*)()>(&TaskExceptionHolder::Finalize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::TaskExceptionHolder::*)()>(&System::Threading::Tasks::TaskExceptionHolder::Finalize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaskExceptionHolder*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskExceptionHolder*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

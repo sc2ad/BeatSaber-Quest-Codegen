@@ -59,59 +59,59 @@ namespace Microsoft::Win32 {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::IRegistryApi*, "Microsoft.Win32", "IRegistryApi");
-// Writing MetadataGetter for method: IRegistryApi::OpenSubKey
+// Writing MetadataGetter for method: Microsoft::Win32::IRegistryApi::OpenSubKey
 // Il2CppName: OpenSubKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::Win32::RegistryKey* (IRegistryApi::*)(Microsoft::Win32::RegistryKey*, ::Il2CppString*, bool)>(&IRegistryApi::OpenSubKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::Win32::RegistryKey* (Microsoft::Win32::IRegistryApi::*)(Microsoft::Win32::RegistryKey*, ::Il2CppString*, bool)>(&Microsoft::Win32::IRegistryApi::OpenSubKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IRegistryApi*), "OpenSubKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::IRegistryApi*), "OpenSubKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: IRegistryApi::Flush
+// Writing MetadataGetter for method: Microsoft::Win32::IRegistryApi::Flush
 // Il2CppName: Flush
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IRegistryApi::*)(Microsoft::Win32::RegistryKey*)>(&IRegistryApi::Flush)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Microsoft::Win32::IRegistryApi::*)(Microsoft::Win32::RegistryKey*)>(&Microsoft::Win32::IRegistryApi::Flush)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IRegistryApi*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>()});
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::IRegistryApi*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>()});
   }
 };
-// Writing MetadataGetter for method: IRegistryApi::Close
+// Writing MetadataGetter for method: Microsoft::Win32::IRegistryApi::Close
 // Il2CppName: Close
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IRegistryApi::*)(Microsoft::Win32::RegistryKey*)>(&IRegistryApi::Close)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Microsoft::Win32::IRegistryApi::*)(Microsoft::Win32::RegistryKey*)>(&Microsoft::Win32::IRegistryApi::Close)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IRegistryApi*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>()});
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::IRegistryApi*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>()});
   }
 };
-// Writing MetadataGetter for method: IRegistryApi::GetValue
+// Writing MetadataGetter for method: Microsoft::Win32::IRegistryApi::GetValue
 // Il2CppName: GetValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (IRegistryApi::*)(Microsoft::Win32::RegistryKey*, ::Il2CppString*, ::Il2CppObject*, Microsoft::Win32::RegistryValueOptions)>(&IRegistryApi::GetValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Microsoft::Win32::IRegistryApi::*)(Microsoft::Win32::RegistryKey*, ::Il2CppString*, ::Il2CppObject*, Microsoft::Win32::RegistryValueOptions)>(&Microsoft::Win32::IRegistryApi::GetValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IRegistryApi*), "GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryValueOptions>()});
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::IRegistryApi*), "GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryValueOptions>()});
   }
 };
-// Writing MetadataGetter for method: IRegistryApi::GetSubKeyNames
+// Writing MetadataGetter for method: Microsoft::Win32::IRegistryApi::GetSubKeyNames
 // Il2CppName: GetSubKeyNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (IRegistryApi::*)(Microsoft::Win32::RegistryKey*)>(&IRegistryApi::GetSubKeyNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (Microsoft::Win32::IRegistryApi::*)(Microsoft::Win32::RegistryKey*)>(&Microsoft::Win32::IRegistryApi::GetSubKeyNames)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IRegistryApi*), "GetSubKeyNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>()});
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::IRegistryApi*), "GetSubKeyNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>()});
   }
 };
-// Writing MetadataGetter for method: IRegistryApi::ToString
+// Writing MetadataGetter for method: Microsoft::Win32::IRegistryApi::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IRegistryApi::*)(Microsoft::Win32::RegistryKey*)>(&IRegistryApi::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Microsoft::Win32::IRegistryApi::*)(Microsoft::Win32::RegistryKey*)>(&Microsoft::Win32::IRegistryApi::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IRegistryApi*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>()});
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::IRegistryApi*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>()});
   }
 };
-// Writing MetadataGetter for method: IRegistryApi::GetHandle
+// Writing MetadataGetter for method: Microsoft::Win32::IRegistryApi::GetHandle
 // Il2CppName: GetHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (IRegistryApi::*)(Microsoft::Win32::RegistryKey*)>(&IRegistryApi::GetHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Microsoft::Win32::IRegistryApi::*)(Microsoft::Win32::RegistryKey*)>(&Microsoft::Win32::IRegistryApi::GetHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IRegistryApi*), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>()});
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::IRegistryApi*), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::RegistryKey*>()});
   }
 };

@@ -78,41 +78,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(SteamVR_Ears) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Ears*, "", "SteamVR_Ears");
-// Writing MetadataGetter for method: SteamVR_Ears::OnNewPosesApplied
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Ears::OnNewPosesApplied
 // Il2CppName: OnNewPosesApplied
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Ears::*)()>(&SteamVR_Ears::OnNewPosesApplied)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Ears::*)()>(&GlobalNamespace::SteamVR_Ears::OnNewPosesApplied)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_Ears*), "OnNewPosesApplied", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Ears*), "OnNewPosesApplied", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SteamVR_Ears::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Ears::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Ears::*)()>(&SteamVR_Ears::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Ears::*)()>(&GlobalNamespace::SteamVR_Ears::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_Ears*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Ears*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SteamVR_Ears::OnDisable
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Ears::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Ears::*)()>(&SteamVR_Ears::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Ears::*)()>(&GlobalNamespace::SteamVR_Ears::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_Ears*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Ears*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SteamVR_Ears::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Ears::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Ears::*)()>(&SteamVR_Ears::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Ears::*)()>(&GlobalNamespace::SteamVR_Ears::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_Ears*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Ears*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Ears::*)()>(&SteamVR_Ears::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Ears::*)()>(&GlobalNamespace::SteamVR_Ears::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_Ears*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Ears*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

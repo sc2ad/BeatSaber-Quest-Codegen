@@ -36,11 +36,11 @@ namespace System::Runtime::Serialization {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ISurrogateSelector*, "System.Runtime.Serialization", "ISurrogateSelector");
-// Writing MetadataGetter for method: ISurrogateSelector::GetSurrogate
+// Writing MetadataGetter for method: System::Runtime::Serialization::ISurrogateSelector::GetSurrogate
 // Il2CppName: GetSurrogate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::ISerializationSurrogate* (ISurrogateSelector::*)(System::Type*, System::Runtime::Serialization::StreamingContext, System::Runtime::Serialization::ISurrogateSelector*&)>(&ISurrogateSelector::GetSurrogate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::ISerializationSurrogate* (System::Runtime::Serialization::ISurrogateSelector::*)(System::Type*, System::Runtime::Serialization::StreamingContext, System::Runtime::Serialization::ISurrogateSelector*&)>(&System::Runtime::Serialization::ISurrogateSelector::GetSurrogate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ISurrogateSelector*), "GetSurrogate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::ISurrogateSelector*&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ISurrogateSelector*), "GetSurrogate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::ISurrogateSelector*&>()});
   }
 };

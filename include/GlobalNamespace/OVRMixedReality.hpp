@@ -81,35 +81,35 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedReality*, "", "OVRMixedReality");
-// Writing MetadataGetter for method: OVRMixedReality::Update
+// Writing MetadataGetter for method: GlobalNamespace::OVRMixedReality::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, UnityEngine::Camera*, GlobalNamespace::OVRMixedRealityCaptureConfiguration*, GlobalNamespace::OVRManager_TrackingOrigin)>(&OVRMixedReality::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, UnityEngine::Camera*, GlobalNamespace::OVRMixedRealityCaptureConfiguration*, GlobalNamespace::OVRManager_TrackingOrigin)>(&GlobalNamespace::OVRMixedReality::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRMixedReality*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRMixedRealityCaptureConfiguration*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRManager_TrackingOrigin>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedReality*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRMixedRealityCaptureConfiguration*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRManager_TrackingOrigin>()});
   }
 };
-// Writing MetadataGetter for method: OVRMixedReality::Cleanup
+// Writing MetadataGetter for method: GlobalNamespace::OVRMixedReality::Cleanup
 // Il2CppName: Cleanup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRMixedReality::Cleanup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRMixedReality::Cleanup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRMixedReality*), "Cleanup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedReality*), "Cleanup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRMixedReality::RecenterPose
+// Writing MetadataGetter for method: GlobalNamespace::OVRMixedReality::RecenterPose
 // Il2CppName: RecenterPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRMixedReality::RecenterPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRMixedReality::RecenterPose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRMixedReality*), "RecenterPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedReality*), "RecenterPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRMixedReality::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::OVRMixedReality::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRMixedReality::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRMixedReality::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRMixedReality*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedReality*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

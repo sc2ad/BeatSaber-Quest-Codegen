@@ -63,25 +63,25 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayerVRControllersManager) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerVRControllersManager*, "", "PlayerVRControllersManager");
-// Writing MetadataGetter for method: PlayerVRControllersManager::DisableAllVRControllers
+// Writing MetadataGetter for method: GlobalNamespace::PlayerVRControllersManager::DisableAllVRControllers
 // Il2CppName: DisableAllVRControllers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerVRControllersManager::*)()>(&PlayerVRControllersManager::DisableAllVRControllers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerVRControllersManager::*)()>(&GlobalNamespace::PlayerVRControllersManager::DisableAllVRControllers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerVRControllersManager*), "DisableAllVRControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerVRControllersManager*), "DisableAllVRControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerVRControllersManager::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::PlayerVRControllersManager::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerVRControllersManager::*)()>(&PlayerVRControllersManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerVRControllersManager::*)()>(&GlobalNamespace::PlayerVRControllersManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerVRControllersManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerVRControllersManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerVRControllersManager::*)()>(&PlayerVRControllersManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerVRControllersManager::*)()>(&GlobalNamespace::PlayerVRControllersManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerVRControllersManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerVRControllersManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

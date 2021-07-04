@@ -190,233 +190,233 @@ namespace System::Xml {
   static_assert(sizeof(XmlAsyncCheckWriter) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlAsyncCheckWriter*, "System.Xml", "XmlAsyncCheckWriter");
-// Writing MetadataGetter for method: XmlAsyncCheckWriter::New_ctor
+// Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlAsyncCheckWriter::*)(System::Xml::XmlWriter*)>(&XmlAsyncCheckWriter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(System::Xml::XmlWriter*)>(&System::Xml::XmlAsyncCheckWriter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlAsyncCheckWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriter*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriter*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlAsyncCheckWriter::*)(System::Xml::XmlWriter*)>(&XmlAsyncCheckWriter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(System::Xml::XmlWriter*)>(&System::Xml::XmlAsyncCheckWriter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlAsyncCheckWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriter*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriter*>()});
   }
 };
-// Writing MetadataGetter for method: XmlAsyncCheckWriter::CheckAsync
+// Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::CheckAsync
 // Il2CppName: CheckAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlAsyncCheckWriter::*)()>(&XmlAsyncCheckWriter::CheckAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)()>(&System::Xml::XmlAsyncCheckWriter::CheckAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlAsyncCheckWriter*), "CheckAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "CheckAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: XmlAsyncCheckWriter::WriteStartDocument
+// Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteStartDocument
 // Il2CppName: WriteStartDocument
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlAsyncCheckWriter::*)()>(&XmlAsyncCheckWriter::WriteStartDocument)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)()>(&System::Xml::XmlAsyncCheckWriter::WriteStartDocument)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlAsyncCheckWriter*), "WriteStartDocument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteStartDocument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: XmlAsyncCheckWriter::WriteDocType
+// Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteDocType
 // Il2CppName: WriteDocType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlAsyncCheckWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&XmlAsyncCheckWriter::WriteDocType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&System::Xml::XmlAsyncCheckWriter::WriteDocType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlAsyncCheckWriter*), "WriteDocType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteDocType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlAsyncCheckWriter::WriteStartElement
+// Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteStartElement
 // Il2CppName: WriteStartElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlAsyncCheckWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&XmlAsyncCheckWriter::WriteStartElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&System::Xml::XmlAsyncCheckWriter::WriteStartElement)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlAsyncCheckWriter*), "WriteStartElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteStartElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlAsyncCheckWriter::WriteEndElement
+// Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteEndElement
 // Il2CppName: WriteEndElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlAsyncCheckWriter::*)()>(&XmlAsyncCheckWriter::WriteEndElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)()>(&System::Xml::XmlAsyncCheckWriter::WriteEndElement)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlAsyncCheckWriter*), "WriteEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: XmlAsyncCheckWriter::WriteFullEndElement
+// Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteFullEndElement
 // Il2CppName: WriteFullEndElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlAsyncCheckWriter::*)()>(&XmlAsyncCheckWriter::WriteFullEndElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)()>(&System::Xml::XmlAsyncCheckWriter::WriteFullEndElement)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlAsyncCheckWriter*), "WriteFullEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteFullEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: XmlAsyncCheckWriter::WriteStartAttribute
+// Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteStartAttribute
 // Il2CppName: WriteStartAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlAsyncCheckWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&XmlAsyncCheckWriter::WriteStartAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&System::Xml::XmlAsyncCheckWriter::WriteStartAttribute)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlAsyncCheckWriter*), "WriteStartAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteStartAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlAsyncCheckWriter::WriteEndAttribute
+// Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteEndAttribute
 // Il2CppName: WriteEndAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlAsyncCheckWriter::*)()>(&XmlAsyncCheckWriter::WriteEndAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)()>(&System::Xml::XmlAsyncCheckWriter::WriteEndAttribute)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlAsyncCheckWriter*), "WriteEndAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteEndAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: XmlAsyncCheckWriter::WriteCData
+// Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteCData
 // Il2CppName: WriteCData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlAsyncCheckWriter::*)(::Il2CppString*)>(&XmlAsyncCheckWriter::WriteCData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Il2CppString*)>(&System::Xml::XmlAsyncCheckWriter::WriteCData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlAsyncCheckWriter*), "WriteCData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteCData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlAsyncCheckWriter::WriteComment
+// Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteComment
 // Il2CppName: WriteComment
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlAsyncCheckWriter::*)(::Il2CppString*)>(&XmlAsyncCheckWriter::WriteComment)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Il2CppString*)>(&System::Xml::XmlAsyncCheckWriter::WriteComment)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlAsyncCheckWriter*), "WriteComment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteComment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlAsyncCheckWriter::WriteProcessingInstruction
+// Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteProcessingInstruction
 // Il2CppName: WriteProcessingInstruction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlAsyncCheckWriter::*)(::Il2CppString*, ::Il2CppString*)>(&XmlAsyncCheckWriter::WriteProcessingInstruction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Il2CppString*, ::Il2CppString*)>(&System::Xml::XmlAsyncCheckWriter::WriteProcessingInstruction)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlAsyncCheckWriter*), "WriteProcessingInstruction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteProcessingInstruction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlAsyncCheckWriter::WriteEntityRef
+// Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteEntityRef
 // Il2CppName: WriteEntityRef
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlAsyncCheckWriter::*)(::Il2CppString*)>(&XmlAsyncCheckWriter::WriteEntityRef)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Il2CppString*)>(&System::Xml::XmlAsyncCheckWriter::WriteEntityRef)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlAsyncCheckWriter*), "WriteEntityRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteEntityRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlAsyncCheckWriter::WriteCharEntity
+// Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteCharEntity
 // Il2CppName: WriteCharEntity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlAsyncCheckWriter::*)(::Il2CppChar)>(&XmlAsyncCheckWriter::WriteCharEntity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Il2CppChar)>(&System::Xml::XmlAsyncCheckWriter::WriteCharEntity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlAsyncCheckWriter*), "WriteCharEntity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteCharEntity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
   }
 };
-// Writing MetadataGetter for method: XmlAsyncCheckWriter::WriteWhitespace
+// Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteWhitespace
 // Il2CppName: WriteWhitespace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlAsyncCheckWriter::*)(::Il2CppString*)>(&XmlAsyncCheckWriter::WriteWhitespace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Il2CppString*)>(&System::Xml::XmlAsyncCheckWriter::WriteWhitespace)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlAsyncCheckWriter*), "WriteWhitespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteWhitespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlAsyncCheckWriter::WriteString
+// Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteString
 // Il2CppName: WriteString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlAsyncCheckWriter::*)(::Il2CppString*)>(&XmlAsyncCheckWriter::WriteString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Il2CppString*)>(&System::Xml::XmlAsyncCheckWriter::WriteString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlAsyncCheckWriter*), "WriteString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlAsyncCheckWriter::WriteSurrogateCharEntity
+// Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteSurrogateCharEntity
 // Il2CppName: WriteSurrogateCharEntity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlAsyncCheckWriter::*)(::Il2CppChar, ::Il2CppChar)>(&XmlAsyncCheckWriter::WriteSurrogateCharEntity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Il2CppChar, ::Il2CppChar)>(&System::Xml::XmlAsyncCheckWriter::WriteSurrogateCharEntity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlAsyncCheckWriter*), "WriteSurrogateCharEntity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteSurrogateCharEntity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
   }
 };
-// Writing MetadataGetter for method: XmlAsyncCheckWriter::WriteChars
+// Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteChars
 // Il2CppName: WriteChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlAsyncCheckWriter::*)(::Array<::Il2CppChar>*, int, int)>(&XmlAsyncCheckWriter::WriteChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Array<::Il2CppChar>*, int, int)>(&System::Xml::XmlAsyncCheckWriter::WriteChars)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlAsyncCheckWriter*), "WriteChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: XmlAsyncCheckWriter::WriteRaw
+// Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteRaw
 // Il2CppName: WriteRaw
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlAsyncCheckWriter::*)(::Array<::Il2CppChar>*, int, int)>(&XmlAsyncCheckWriter::WriteRaw)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Array<::Il2CppChar>*, int, int)>(&System::Xml::XmlAsyncCheckWriter::WriteRaw)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlAsyncCheckWriter*), "WriteRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: XmlAsyncCheckWriter::WriteRaw
+// Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteRaw
 // Il2CppName: WriteRaw
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlAsyncCheckWriter::*)(::Il2CppString*)>(&XmlAsyncCheckWriter::WriteRaw)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Il2CppString*)>(&System::Xml::XmlAsyncCheckWriter::WriteRaw)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlAsyncCheckWriter*), "WriteRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlAsyncCheckWriter::WriteBase64
+// Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteBase64
 // Il2CppName: WriteBase64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlAsyncCheckWriter::*)(::Array<uint8_t>*, int, int)>(&XmlAsyncCheckWriter::WriteBase64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Array<uint8_t>*, int, int)>(&System::Xml::XmlAsyncCheckWriter::WriteBase64)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlAsyncCheckWriter*), "WriteBase64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteBase64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: XmlAsyncCheckWriter::WriteBinHex
+// Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteBinHex
 // Il2CppName: WriteBinHex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlAsyncCheckWriter::*)(::Array<uint8_t>*, int, int)>(&XmlAsyncCheckWriter::WriteBinHex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Array<uint8_t>*, int, int)>(&System::Xml::XmlAsyncCheckWriter::WriteBinHex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlAsyncCheckWriter*), "WriteBinHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteBinHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: XmlAsyncCheckWriter::get_WriteState
+// Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::get_WriteState
 // Il2CppName: get_WriteState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::WriteState (XmlAsyncCheckWriter::*)()>(&XmlAsyncCheckWriter::get_WriteState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::WriteState (System::Xml::XmlAsyncCheckWriter::*)()>(&System::Xml::XmlAsyncCheckWriter::get_WriteState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlAsyncCheckWriter*), "get_WriteState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "get_WriteState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: XmlAsyncCheckWriter::Close
+// Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::Close
 // Il2CppName: Close
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlAsyncCheckWriter::*)()>(&XmlAsyncCheckWriter::Close)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)()>(&System::Xml::XmlAsyncCheckWriter::Close)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlAsyncCheckWriter*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: XmlAsyncCheckWriter::Flush
+// Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::Flush
 // Il2CppName: Flush
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlAsyncCheckWriter::*)()>(&XmlAsyncCheckWriter::Flush)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)()>(&System::Xml::XmlAsyncCheckWriter::Flush)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlAsyncCheckWriter*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: XmlAsyncCheckWriter::LookupPrefix
+// Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::LookupPrefix
 // Il2CppName: LookupPrefix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (XmlAsyncCheckWriter::*)(::Il2CppString*)>(&XmlAsyncCheckWriter::LookupPrefix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::XmlAsyncCheckWriter::*)(::Il2CppString*)>(&System::Xml::XmlAsyncCheckWriter::LookupPrefix)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlAsyncCheckWriter*), "LookupPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "LookupPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlAsyncCheckWriter::WriteValue
+// Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlAsyncCheckWriter::*)(::Il2CppString*)>(&XmlAsyncCheckWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(::Il2CppString*)>(&System::Xml::XmlAsyncCheckWriter::WriteValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlAsyncCheckWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlAsyncCheckWriter::Dispose
+// Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlAsyncCheckWriter::*)(bool)>(&XmlAsyncCheckWriter::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlAsyncCheckWriter::*)(bool)>(&System::Xml::XmlAsyncCheckWriter::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlAsyncCheckWriter*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlAsyncCheckWriter*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };

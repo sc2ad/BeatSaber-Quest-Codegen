@@ -254,339 +254,339 @@ namespace System::Runtime::Remoting {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::RemotingServices*, "System.Runtime.Remoting", "RemotingServices");
-// Writing MetadataGetter for method: RemotingServices::_cctor
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&RemotingServices::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Runtime::Remoting::RemotingServices::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::InternalExecute
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::InternalExecute
 // Il2CppName: InternalExecute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Reflection::MethodBase*, ::Il2CppObject*, ::Array<::Il2CppObject*>*, ::Array<::Il2CppObject*>*&)>(&RemotingServices::InternalExecute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Reflection::MethodBase*, ::Il2CppObject*, ::Array<::Il2CppObject*>*, ::Array<::Il2CppObject*>*&)>(&System::Runtime::Remoting::RemotingServices::InternalExecute)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "InternalExecute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "InternalExecute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*&>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::GetVirtualMethod
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::GetVirtualMethod
 // Il2CppName: GetVirtualMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (*)(System::Type*, System::Reflection::MethodBase*)>(&RemotingServices::GetVirtualMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (*)(System::Type*, System::Reflection::MethodBase*)>(&System::Runtime::Remoting::RemotingServices::GetVirtualMethod)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "GetVirtualMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "GetVirtualMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::IsTransparentProxy
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::IsTransparentProxy
 // Il2CppName: IsTransparentProxy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*)>(&RemotingServices::IsTransparentProxy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*)>(&System::Runtime::Remoting::RemotingServices::IsTransparentProxy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "IsTransparentProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "IsTransparentProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::InternalExecuteMessage
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::InternalExecuteMessage
 // Il2CppName: InternalExecuteMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMethodReturnMessage* (*)(System::MarshalByRefObject*, System::Runtime::Remoting::Messaging::IMethodCallMessage*)>(&RemotingServices::InternalExecuteMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMethodReturnMessage* (*)(System::MarshalByRefObject*, System::Runtime::Remoting::Messaging::IMethodCallMessage*)>(&System::Runtime::Remoting::RemotingServices::InternalExecuteMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "InternalExecuteMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::MarshalByRefObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMethodCallMessage*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "InternalExecuteMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::MarshalByRefObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMethodCallMessage*>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::Connect
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::Connect
 // Il2CppName: Connect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, ::Il2CppString*)>(&RemotingServices::Connect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, ::Il2CppString*)>(&System::Runtime::Remoting::RemotingServices::Connect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::Connect
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::Connect
 // Il2CppName: Connect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, ::Il2CppString*, ::Il2CppObject*)>(&RemotingServices::Connect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, ::Il2CppString*, ::Il2CppObject*)>(&System::Runtime::Remoting::RemotingServices::Connect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::GetServerTypeForUri
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::GetServerTypeForUri
 // Il2CppName: GetServerTypeForUri
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(::Il2CppString*)>(&RemotingServices::GetServerTypeForUri)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(::Il2CppString*)>(&System::Runtime::Remoting::RemotingServices::GetServerTypeForUri)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "GetServerTypeForUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "GetServerTypeForUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::Unmarshal
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::Unmarshal
 // Il2CppName: Unmarshal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Runtime::Remoting::ObjRef*)>(&RemotingServices::Unmarshal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Runtime::Remoting::ObjRef*)>(&System::Runtime::Remoting::RemotingServices::Unmarshal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "Unmarshal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ObjRef*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "Unmarshal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ObjRef*>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::Unmarshal
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::Unmarshal
 // Il2CppName: Unmarshal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Runtime::Remoting::ObjRef*, bool)>(&RemotingServices::Unmarshal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Runtime::Remoting::ObjRef*, bool)>(&System::Runtime::Remoting::RemotingServices::Unmarshal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "Unmarshal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ObjRef*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "Unmarshal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ObjRef*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::Marshal
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::Marshal
 // Il2CppName: Marshal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ObjRef* (*)(System::MarshalByRefObject*)>(&RemotingServices::Marshal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ObjRef* (*)(System::MarshalByRefObject*)>(&System::Runtime::Remoting::RemotingServices::Marshal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "Marshal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::MarshalByRefObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "Marshal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::MarshalByRefObject*>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::Marshal
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::Marshal
 // Il2CppName: Marshal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ObjRef* (*)(System::MarshalByRefObject*, ::Il2CppString*, System::Type*)>(&RemotingServices::Marshal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ObjRef* (*)(System::MarshalByRefObject*, ::Il2CppString*, System::Type*)>(&System::Runtime::Remoting::RemotingServices::Marshal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "Marshal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::MarshalByRefObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "Marshal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::MarshalByRefObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::NewUri
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::NewUri
 // Il2CppName: NewUri
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&RemotingServices::NewUri)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Runtime::Remoting::RemotingServices::NewUri)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "NewUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "NewUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::GetRealProxy
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::GetRealProxy
 // Il2CppName: GetRealProxy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Proxies::RealProxy* (*)(::Il2CppObject*)>(&RemotingServices::GetRealProxy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Proxies::RealProxy* (*)(::Il2CppObject*)>(&System::Runtime::Remoting::RemotingServices::GetRealProxy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "GetRealProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "GetRealProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::GetMethodBaseFromMethodMessage
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::GetMethodBaseFromMethodMessage
 // Il2CppName: GetMethodBaseFromMethodMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (*)(System::Runtime::Remoting::Messaging::IMethodMessage*)>(&RemotingServices::GetMethodBaseFromMethodMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (*)(System::Runtime::Remoting::Messaging::IMethodMessage*)>(&System::Runtime::Remoting::RemotingServices::GetMethodBaseFromMethodMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "GetMethodBaseFromMethodMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMethodMessage*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "GetMethodBaseFromMethodMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMethodMessage*>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::GetMethodBaseFromName
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::GetMethodBaseFromName
 // Il2CppName: GetMethodBaseFromName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (*)(System::Type*, ::Il2CppString*, ::Array<System::Type*>*)>(&RemotingServices::GetMethodBaseFromName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (*)(System::Type*, ::Il2CppString*, ::Array<System::Type*>*)>(&System::Runtime::Remoting::RemotingServices::GetMethodBaseFromName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "GetMethodBaseFromName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "GetMethodBaseFromName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::FindInterfaceMethod
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::FindInterfaceMethod
 // Il2CppName: FindInterfaceMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (*)(System::Type*, ::Il2CppString*, ::Array<System::Type*>*)>(&RemotingServices::FindInterfaceMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (*)(System::Type*, ::Il2CppString*, ::Array<System::Type*>*)>(&System::Runtime::Remoting::RemotingServices::FindInterfaceMethod)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "FindInterfaceMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "FindInterfaceMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::GetObjectData
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::GetObjectData
 // Il2CppName: GetObjectData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&RemotingServices::GetObjectData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Runtime::Remoting::RemotingServices::GetObjectData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::IsOneWay
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::IsOneWay
 // Il2CppName: IsOneWay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::MethodBase*)>(&RemotingServices::IsOneWay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::MethodBase*)>(&System::Runtime::Remoting::RemotingServices::IsOneWay)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "IsOneWay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "IsOneWay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::CreateClientProxy
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::CreateClientProxy
 // Il2CppName: CreateClientProxy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Runtime::Remoting::ActivatedClientTypeEntry*, ::Array<::Il2CppObject*>*)>(&RemotingServices::CreateClientProxy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Runtime::Remoting::ActivatedClientTypeEntry*, ::Array<::Il2CppObject*>*)>(&System::Runtime::Remoting::RemotingServices::CreateClientProxy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "CreateClientProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ActivatedClientTypeEntry*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "CreateClientProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ActivatedClientTypeEntry*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::CreateClientProxy
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::CreateClientProxy
 // Il2CppName: CreateClientProxy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&RemotingServices::CreateClientProxy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&System::Runtime::Remoting::RemotingServices::CreateClientProxy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "CreateClientProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "CreateClientProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::CreateClientProxy
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::CreateClientProxy
 // Il2CppName: CreateClientProxy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Runtime::Remoting::WellKnownClientTypeEntry*)>(&RemotingServices::CreateClientProxy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Runtime::Remoting::WellKnownClientTypeEntry*)>(&System::Runtime::Remoting::RemotingServices::CreateClientProxy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "CreateClientProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::WellKnownClientTypeEntry*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "CreateClientProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::WellKnownClientTypeEntry*>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::CreateClientProxyForContextBound
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::CreateClientProxyForContextBound
 // Il2CppName: CreateClientProxyForContextBound
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, ::Array<::Il2CppObject*>*)>(&RemotingServices::CreateClientProxyForContextBound)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, ::Array<::Il2CppObject*>*)>(&System::Runtime::Remoting::RemotingServices::CreateClientProxyForContextBound)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "CreateClientProxyForContextBound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "CreateClientProxyForContextBound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::GetIdentityForUri
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::GetIdentityForUri
 // Il2CppName: GetIdentityForUri
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Identity* (*)(::Il2CppString*)>(&RemotingServices::GetIdentityForUri)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Identity* (*)(::Il2CppString*)>(&System::Runtime::Remoting::RemotingServices::GetIdentityForUri)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "GetIdentityForUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "GetIdentityForUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::RemoveAppNameFromUri
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::RemoveAppNameFromUri
 // Il2CppName: RemoveAppNameFromUri
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&RemotingServices::RemoveAppNameFromUri)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Runtime::Remoting::RemotingServices::RemoveAppNameFromUri)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "RemoveAppNameFromUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "RemoveAppNameFromUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::GetOrCreateClientIdentity
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::GetOrCreateClientIdentity
 // Il2CppName: GetOrCreateClientIdentity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ClientIdentity* (*)(System::Runtime::Remoting::ObjRef*, System::Type*, ::Il2CppObject*&)>(&RemotingServices::GetOrCreateClientIdentity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ClientIdentity* (*)(System::Runtime::Remoting::ObjRef*, System::Type*, ::Il2CppObject*&)>(&System::Runtime::Remoting::RemotingServices::GetOrCreateClientIdentity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "GetOrCreateClientIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ObjRef*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "GetOrCreateClientIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ObjRef*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*&>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::GetClientChannelSinkChain
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::GetClientChannelSinkChain
 // Il2CppName: GetClientChannelSinkChain
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (*)(::Il2CppString*, ::Il2CppObject*, ::Il2CppString*&)>(&RemotingServices::GetClientChannelSinkChain)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (*)(::Il2CppString*, ::Il2CppObject*, ::Il2CppString*&)>(&System::Runtime::Remoting::RemotingServices::GetClientChannelSinkChain)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "GetClientChannelSinkChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "GetClientChannelSinkChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::CreateContextBoundObjectIdentity
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::CreateContextBoundObjectIdentity
 // Il2CppName: CreateContextBoundObjectIdentity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ClientActivatedIdentity* (*)(System::Type*)>(&RemotingServices::CreateContextBoundObjectIdentity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ClientActivatedIdentity* (*)(System::Type*)>(&System::Runtime::Remoting::RemotingServices::CreateContextBoundObjectIdentity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "CreateContextBoundObjectIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "CreateContextBoundObjectIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::CreateClientActivatedServerIdentity
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::CreateClientActivatedServerIdentity
 // Il2CppName: CreateClientActivatedServerIdentity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ClientActivatedIdentity* (*)(System::MarshalByRefObject*, System::Type*, ::Il2CppString*)>(&RemotingServices::CreateClientActivatedServerIdentity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ClientActivatedIdentity* (*)(System::MarshalByRefObject*, System::Type*, ::Il2CppString*)>(&System::Runtime::Remoting::RemotingServices::CreateClientActivatedServerIdentity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "CreateClientActivatedServerIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::MarshalByRefObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "CreateClientActivatedServerIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::MarshalByRefObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::CreateWellKnownServerIdentity
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::CreateWellKnownServerIdentity
 // Il2CppName: CreateWellKnownServerIdentity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ServerIdentity* (*)(System::Type*, ::Il2CppString*, System::Runtime::Remoting::WellKnownObjectMode)>(&RemotingServices::CreateWellKnownServerIdentity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ServerIdentity* (*)(System::Type*, ::Il2CppString*, System::Runtime::Remoting::WellKnownObjectMode)>(&System::Runtime::Remoting::RemotingServices::CreateWellKnownServerIdentity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "CreateWellKnownServerIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::WellKnownObjectMode>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "CreateWellKnownServerIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::WellKnownObjectMode>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::RegisterServerIdentity
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::RegisterServerIdentity
 // Il2CppName: RegisterServerIdentity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::ServerIdentity*)>(&RemotingServices::RegisterServerIdentity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::ServerIdentity*)>(&System::Runtime::Remoting::RemotingServices::RegisterServerIdentity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "RegisterServerIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ServerIdentity*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "RegisterServerIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ServerIdentity*>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::GetProxyForRemoteObject
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::GetProxyForRemoteObject
 // Il2CppName: GetProxyForRemoteObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Runtime::Remoting::ObjRef*, System::Type*)>(&RemotingServices::GetProxyForRemoteObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Runtime::Remoting::ObjRef*, System::Type*)>(&System::Runtime::Remoting::RemotingServices::GetProxyForRemoteObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "GetProxyForRemoteObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ObjRef*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "GetProxyForRemoteObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ObjRef*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::GetRemoteObject
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::GetRemoteObject
 // Il2CppName: GetRemoteObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Runtime::Remoting::ObjRef*, System::Type*)>(&RemotingServices::GetRemoteObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Runtime::Remoting::ObjRef*, System::Type*)>(&System::Runtime::Remoting::RemotingServices::GetRemoteObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "GetRemoteObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ObjRef*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "GetRemoteObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ObjRef*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::SerializeCallData
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::SerializeCallData
 // Il2CppName: SerializeCallData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppObject*)>(&RemotingServices::SerializeCallData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppObject*)>(&System::Runtime::Remoting::RemotingServices::SerializeCallData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "SerializeCallData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "SerializeCallData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::DeserializeCallData
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::DeserializeCallData
 // Il2CppName: DeserializeCallData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Array<uint8_t>*)>(&RemotingServices::DeserializeCallData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Array<uint8_t>*)>(&System::Runtime::Remoting::RemotingServices::DeserializeCallData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "DeserializeCallData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "DeserializeCallData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::SerializeExceptionData
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::SerializeExceptionData
 // Il2CppName: SerializeExceptionData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(System::Exception*)>(&RemotingServices::SerializeExceptionData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(System::Exception*)>(&System::Runtime::Remoting::RemotingServices::SerializeExceptionData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "SerializeExceptionData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "SerializeExceptionData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::RegisterInternalChannels
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::RegisterInternalChannels
 // Il2CppName: RegisterInternalChannels
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&RemotingServices::RegisterInternalChannels)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Runtime::Remoting::RemotingServices::RegisterInternalChannels)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "RegisterInternalChannels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "RegisterInternalChannels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::DisposeIdentity
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::DisposeIdentity
 // Il2CppName: DisposeIdentity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::Identity*)>(&RemotingServices::DisposeIdentity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::Identity*)>(&System::Runtime::Remoting::RemotingServices::DisposeIdentity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "DisposeIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Identity*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "DisposeIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Identity*>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::GetMessageTargetIdentity
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::GetMessageTargetIdentity
 // Il2CppName: GetMessageTargetIdentity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Identity* (*)(System::Runtime::Remoting::Messaging::IMessage*)>(&RemotingServices::GetMessageTargetIdentity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Identity* (*)(System::Runtime::Remoting::Messaging::IMessage*)>(&System::Runtime::Remoting::RemotingServices::GetMessageTargetIdentity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "GetMessageTargetIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "GetMessageTargetIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::SetMessageTargetIdentity
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::SetMessageTargetIdentity
 // Il2CppName: SetMessageTargetIdentity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::Messaging::IMessage*, System::Runtime::Remoting::Identity*)>(&RemotingServices::SetMessageTargetIdentity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::Messaging::IMessage*, System::Runtime::Remoting::Identity*)>(&System::Runtime::Remoting::RemotingServices::SetMessageTargetIdentity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "SetMessageTargetIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Identity*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "SetMessageTargetIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Identity*>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::UpdateOutArgObject
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::UpdateOutArgObject
 // Il2CppName: UpdateOutArgObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::ParameterInfo*, ::Il2CppObject*, ::Il2CppObject*)>(&RemotingServices::UpdateOutArgObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::ParameterInfo*, ::Il2CppObject*, ::Il2CppObject*)>(&System::Runtime::Remoting::RemotingServices::UpdateOutArgObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "UpdateOutArgObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ParameterInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "UpdateOutArgObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ParameterInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: RemotingServices::GetNormalizedUri
+// Writing MetadataGetter for method: System::Runtime::Remoting::RemotingServices::GetNormalizedUri
 // Il2CppName: GetNormalizedUri
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&RemotingServices::GetNormalizedUri)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Runtime::Remoting::RemotingServices::GetNormalizedUri)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemotingServices*), "GetNormalizedUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "GetNormalizedUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };

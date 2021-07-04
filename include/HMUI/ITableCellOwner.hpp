@@ -34,27 +34,27 @@ namespace HMUI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ITableCellOwner*, "HMUI", "ITableCellOwner");
-// Writing MetadataGetter for method: ITableCellOwner::get_selectionType
+// Writing MetadataGetter for method: HMUI::ITableCellOwner::get_selectionType
 // Il2CppName: get_selectionType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableViewSelectionType (ITableCellOwner::*)()>(&ITableCellOwner::get_selectionType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableViewSelectionType (HMUI::ITableCellOwner::*)()>(&HMUI::ITableCellOwner::get_selectionType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ITableCellOwner*), "get_selectionType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ITableCellOwner*), "get_selectionType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ITableCellOwner::get_canSelectSelectedCell
+// Writing MetadataGetter for method: HMUI::ITableCellOwner::get_canSelectSelectedCell
 // Il2CppName: get_canSelectSelectedCell
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ITableCellOwner::*)()>(&ITableCellOwner::get_canSelectSelectedCell)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI::ITableCellOwner::*)()>(&HMUI::ITableCellOwner::get_canSelectSelectedCell)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ITableCellOwner*), "get_canSelectSelectedCell", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ITableCellOwner*), "get_canSelectSelectedCell", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ITableCellOwner::get_numberOfCells
+// Writing MetadataGetter for method: HMUI::ITableCellOwner::get_numberOfCells
 // Il2CppName: get_numberOfCells
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ITableCellOwner::*)()>(&ITableCellOwner::get_numberOfCells)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HMUI::ITableCellOwner::*)()>(&HMUI::ITableCellOwner::get_numberOfCells)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ITableCellOwner*), "get_numberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ITableCellOwner*), "get_numberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

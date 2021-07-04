@@ -39,51 +39,51 @@ namespace Mono::Xml {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParser::IAttrList*, "Mono.Xml", "SmallXmlParser/IAttrList");
-// Writing MetadataGetter for method: SmallXmlParser::IAttrList::get_Length
+// Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::IAttrList::get_Length
 // Il2CppName: get_Length
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SmallXmlParser::IAttrList::*)()>(&SmallXmlParser::IAttrList::get_Length)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Xml::SmallXmlParser::IAttrList::*)()>(&Mono::Xml::SmallXmlParser::IAttrList::get_Length)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SmallXmlParser::IAttrList*), "get_Length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser::IAttrList*), "get_Length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SmallXmlParser::IAttrList::GetName
+// Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::IAttrList::GetName
 // Il2CppName: GetName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SmallXmlParser::IAttrList::*)(int)>(&SmallXmlParser::IAttrList::GetName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Xml::SmallXmlParser::IAttrList::*)(int)>(&Mono::Xml::SmallXmlParser::IAttrList::GetName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SmallXmlParser::IAttrList*), "GetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser::IAttrList*), "GetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SmallXmlParser::IAttrList::GetValue
+// Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::IAttrList::GetValue
 // Il2CppName: GetValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SmallXmlParser::IAttrList::*)(int)>(&SmallXmlParser::IAttrList::GetValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Xml::SmallXmlParser::IAttrList::*)(int)>(&Mono::Xml::SmallXmlParser::IAttrList::GetValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SmallXmlParser::IAttrList*), "GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser::IAttrList*), "GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SmallXmlParser::IAttrList::GetValue
+// Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::IAttrList::GetValue
 // Il2CppName: GetValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SmallXmlParser::IAttrList::*)(::Il2CppString*)>(&SmallXmlParser::IAttrList::GetValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Xml::SmallXmlParser::IAttrList::*)(::Il2CppString*)>(&Mono::Xml::SmallXmlParser::IAttrList::GetValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SmallXmlParser::IAttrList*), "GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser::IAttrList*), "GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: SmallXmlParser::IAttrList::get_Names
+// Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::IAttrList::get_Names
 // Il2CppName: get_Names
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (SmallXmlParser::IAttrList::*)()>(&SmallXmlParser::IAttrList::get_Names)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (Mono::Xml::SmallXmlParser::IAttrList::*)()>(&Mono::Xml::SmallXmlParser::IAttrList::get_Names)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SmallXmlParser::IAttrList*), "get_Names", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser::IAttrList*), "get_Names", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SmallXmlParser::IAttrList::get_Values
+// Writing MetadataGetter for method: Mono::Xml::SmallXmlParser::IAttrList::get_Values
 // Il2CppName: get_Values
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (SmallXmlParser::IAttrList::*)()>(&SmallXmlParser::IAttrList::get_Values)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (Mono::Xml::SmallXmlParser::IAttrList::*)()>(&Mono::Xml::SmallXmlParser::IAttrList::get_Values)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SmallXmlParser::IAttrList*), "get_Values", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser::IAttrList*), "get_Values", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

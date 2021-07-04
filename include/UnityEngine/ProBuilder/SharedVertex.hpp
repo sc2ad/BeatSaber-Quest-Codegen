@@ -154,199 +154,199 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(SharedVertex) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SharedVertex*, "UnityEngine.ProBuilder", "SharedVertex");
-// Writing MetadataGetter for method: SharedVertex::get_arrayInternal
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::SharedVertex::get_arrayInternal
 // Il2CppName: get_arrayInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (SharedVertex::*)()>(&SharedVertex::get_arrayInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (UnityEngine::ProBuilder::SharedVertex::*)()>(&UnityEngine::ProBuilder::SharedVertex::get_arrayInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SharedVertex*), "get_arrayInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SharedVertex*), "get_arrayInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SharedVertex::New_ctor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::SharedVertex::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SharedVertex::*)(System::Collections::Generic::IEnumerable_1<int>*)>(&SharedVertex::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::SharedVertex::*)(System::Collections::Generic::IEnumerable_1<int>*)>(&UnityEngine::ProBuilder::SharedVertex::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SharedVertex*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SharedVertex*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SharedVertex::*)(System::Collections::Generic::IEnumerable_1<int>*)>(&SharedVertex::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::SharedVertex::*)(System::Collections::Generic::IEnumerable_1<int>*)>(&UnityEngine::ProBuilder::SharedVertex::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SharedVertex*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SharedVertex*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
   }
 };
-// Writing MetadataGetter for method: SharedVertex::New_ctor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::SharedVertex::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SharedVertex::*)(UnityEngine::ProBuilder::SharedVertex*)>(&SharedVertex::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::SharedVertex::*)(UnityEngine::ProBuilder::SharedVertex*)>(&UnityEngine::ProBuilder::SharedVertex::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SharedVertex*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::SharedVertex*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SharedVertex*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::SharedVertex*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SharedVertex::*)(UnityEngine::ProBuilder::SharedVertex*)>(&SharedVertex::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::SharedVertex::*)(UnityEngine::ProBuilder::SharedVertex*)>(&UnityEngine::ProBuilder::SharedVertex::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SharedVertex*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::SharedVertex*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SharedVertex*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::SharedVertex*>()});
   }
 };
-// Writing MetadataGetter for method: SharedVertex::get_Item
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::SharedVertex::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SharedVertex::*)(int)>(&SharedVertex::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::SharedVertex::*)(int)>(&UnityEngine::ProBuilder::SharedVertex::get_Item)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SharedVertex*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SharedVertex*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SharedVertex::set_Item
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::SharedVertex::set_Item
 // Il2CppName: set_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SharedVertex::*)(int, int)>(&SharedVertex::set_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::SharedVertex::*)(int, int)>(&UnityEngine::ProBuilder::SharedVertex::set_Item)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SharedVertex*), "set_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SharedVertex*), "set_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SharedVertex::GetEnumerator
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::SharedVertex::GetEnumerator
 // Il2CppName: GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<int>* (SharedVertex::*)()>(&SharedVertex::GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<int>* (UnityEngine::ProBuilder::SharedVertex::*)()>(&UnityEngine::ProBuilder::SharedVertex::GetEnumerator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SharedVertex*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SharedVertex*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SharedVertex::System_Collections_IEnumerable_GetEnumerator
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::SharedVertex::System_Collections_IEnumerable_GetEnumerator
 // Il2CppName: System.Collections.IEnumerable.GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (SharedVertex::*)()>(&SharedVertex::System_Collections_IEnumerable_GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (UnityEngine::ProBuilder::SharedVertex::*)()>(&UnityEngine::ProBuilder::SharedVertex::System_Collections_IEnumerable_GetEnumerator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SharedVertex*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SharedVertex*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SharedVertex::Add
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::SharedVertex::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SharedVertex::*)(int)>(&SharedVertex::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::SharedVertex::*)(int)>(&UnityEngine::ProBuilder::SharedVertex::Add)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SharedVertex*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SharedVertex*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SharedVertex::Clear
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::SharedVertex::Clear
 // Il2CppName: Clear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SharedVertex::*)()>(&SharedVertex::Clear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::SharedVertex::*)()>(&UnityEngine::ProBuilder::SharedVertex::Clear)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SharedVertex*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SharedVertex*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SharedVertex::Contains
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::SharedVertex::Contains
 // Il2CppName: Contains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SharedVertex::*)(int)>(&SharedVertex::Contains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::SharedVertex::*)(int)>(&UnityEngine::ProBuilder::SharedVertex::Contains)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SharedVertex*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SharedVertex*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SharedVertex::CopyTo
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::SharedVertex::CopyTo
 // Il2CppName: CopyTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SharedVertex::*)(::Array<int>*, int)>(&SharedVertex::CopyTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::SharedVertex::*)(::Array<int>*, int)>(&UnityEngine::ProBuilder::SharedVertex::CopyTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SharedVertex*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SharedVertex*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SharedVertex::Remove
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::SharedVertex::Remove
 // Il2CppName: Remove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SharedVertex::*)(int)>(&SharedVertex::Remove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::SharedVertex::*)(int)>(&UnityEngine::ProBuilder::SharedVertex::Remove)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SharedVertex*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SharedVertex*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SharedVertex::get_Count
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::SharedVertex::get_Count
 // Il2CppName: get_Count
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SharedVertex::*)()>(&SharedVertex::get_Count)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::SharedVertex::*)()>(&UnityEngine::ProBuilder::SharedVertex::get_Count)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SharedVertex*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SharedVertex*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SharedVertex::get_IsReadOnly
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::SharedVertex::get_IsReadOnly
 // Il2CppName: get_IsReadOnly
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SharedVertex::*)()>(&SharedVertex::get_IsReadOnly)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::SharedVertex::*)()>(&UnityEngine::ProBuilder::SharedVertex::get_IsReadOnly)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SharedVertex*), "get_IsReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SharedVertex*), "get_IsReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SharedVertex::GetSharedVertexLookup
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::SharedVertex::GetSharedVertexLookup
 // Il2CppName: GetSharedVertexLookup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::SharedVertex*>*, System::Collections::Generic::Dictionary_2<int, int>*)>(&SharedVertex::GetSharedVertexLookup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::SharedVertex*>*, System::Collections::Generic::Dictionary_2<int, int>*)>(&UnityEngine::ProBuilder::SharedVertex::GetSharedVertexLookup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SharedVertex*), "GetSharedVertexLookup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::SharedVertex*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<int, int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SharedVertex*), "GetSharedVertexLookup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::SharedVertex*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<int, int>*>()});
   }
 };
-// Writing MetadataGetter for method: SharedVertex::ShiftIndexes
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::SharedVertex::ShiftIndexes
 // Il2CppName: ShiftIndexes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SharedVertex::*)(int)>(&SharedVertex::ShiftIndexes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::SharedVertex::*)(int)>(&UnityEngine::ProBuilder::SharedVertex::ShiftIndexes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SharedVertex*), "ShiftIndexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SharedVertex*), "ShiftIndexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SharedVertex::ToSharedVertices
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::SharedVertex::ToSharedVertices
 // Il2CppName: ToSharedVertices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::ProBuilder::SharedVertex*>* (*)(System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<int, int>>*)>(&SharedVertex::ToSharedVertices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::ProBuilder::SharedVertex*>* (*)(System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<int, int>>*)>(&UnityEngine::ProBuilder::SharedVertex::ToSharedVertices)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SharedVertex*), "ToSharedVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<int, int>>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SharedVertex*), "ToSharedVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<int, int>>*>()});
   }
 };
-// Writing MetadataGetter for method: SharedVertex::ToSharedVertices
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::SharedVertex::ToSharedVertices
 // Il2CppName: ToSharedVertices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::ProBuilder::SharedVertex*>* (*)(System::Collections::Generic::List_1<System::Collections::Generic::List_1<int>*>*)>(&SharedVertex::ToSharedVertices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::ProBuilder::SharedVertex*>* (*)(System::Collections::Generic::List_1<System::Collections::Generic::List_1<int>*>*)>(&UnityEngine::ProBuilder::SharedVertex::ToSharedVertices)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SharedVertex*), "ToSharedVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Collections::Generic::List_1<int>*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SharedVertex*), "ToSharedVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Collections::Generic::List_1<int>*>*>()});
   }
 };
-// Writing MetadataGetter for method: SharedVertex::GetSharedVerticesWithPositions
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::SharedVertex::GetSharedVerticesWithPositions
 // Il2CppName: GetSharedVerticesWithPositions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::ProBuilder::SharedVertex*>* (*)(System::Collections::Generic::IList_1<UnityEngine::Vector3>*)>(&SharedVertex::GetSharedVerticesWithPositions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::ProBuilder::SharedVertex*>* (*)(System::Collections::Generic::IList_1<UnityEngine::Vector3>*)>(&UnityEngine::ProBuilder::SharedVertex::GetSharedVerticesWithPositions)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SharedVertex*), "GetSharedVerticesWithPositions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::Vector3>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SharedVertex*), "GetSharedVerticesWithPositions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::Vector3>*>()});
   }
 };
-// Writing MetadataGetter for method: SharedVertex::RemoveAndShift
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::SharedVertex::RemoveAndShift
 // Il2CppName: RemoveAndShift
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::ProBuilder::SharedVertex*>* (*)(System::Collections::Generic::Dictionary_2<int, int>*, System::Collections::Generic::IEnumerable_1<int>*)>(&SharedVertex::RemoveAndShift)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::ProBuilder::SharedVertex*>* (*)(System::Collections::Generic::Dictionary_2<int, int>*, System::Collections::Generic::IEnumerable_1<int>*)>(&UnityEngine::ProBuilder::SharedVertex::RemoveAndShift)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SharedVertex*), "RemoveAndShift", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<int, int>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SharedVertex*), "RemoveAndShift", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<int, int>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
   }
 };
-// Writing MetadataGetter for method: SharedVertex::SortedRemoveAndShift
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::SharedVertex::SortedRemoveAndShift
 // Il2CppName: SortedRemoveAndShift
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::ProBuilder::SharedVertex*>* (*)(System::Collections::Generic::Dictionary_2<int, int>*, System::Collections::Generic::List_1<int>*)>(&SharedVertex::SortedRemoveAndShift)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::ProBuilder::SharedVertex*>* (*)(System::Collections::Generic::Dictionary_2<int, int>*, System::Collections::Generic::List_1<int>*)>(&UnityEngine::ProBuilder::SharedVertex::SortedRemoveAndShift)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SharedVertex*), "SortedRemoveAndShift", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<int, int>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SharedVertex*), "SortedRemoveAndShift", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<int, int>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<int>*>()});
   }
 };
-// Writing MetadataGetter for method: SharedVertex::SetCoincident
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::SharedVertex::SetCoincident
 // Il2CppName: SetCoincident
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::Dictionary_2<int, int>*&, System::Collections::Generic::IEnumerable_1<int>*)>(&SharedVertex::SetCoincident)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::Dictionary_2<int, int>*&, System::Collections::Generic::IEnumerable_1<int>*)>(&UnityEngine::ProBuilder::SharedVertex::SetCoincident)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SharedVertex*), "SetCoincident", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<int, int>*&>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SharedVertex*), "SetCoincident", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<int, int>*&>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
   }
 };
-// Writing MetadataGetter for method: SharedVertex::ToString
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::SharedVertex::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SharedVertex::*)()>(&SharedVertex::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ProBuilder::SharedVertex::*)()>(&UnityEngine::ProBuilder::SharedVertex::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SharedVertex*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SharedVertex*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

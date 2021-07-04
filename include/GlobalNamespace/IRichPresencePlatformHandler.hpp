@@ -31,19 +31,19 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IRichPresencePlatformHandler*, "", "IRichPresencePlatformHandler");
-// Writing MetadataGetter for method: IRichPresencePlatformHandler::SetPresence
+// Writing MetadataGetter for method: GlobalNamespace::IRichPresencePlatformHandler::SetPresence
 // Il2CppName: SetPresence
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IRichPresencePlatformHandler::*)(GlobalNamespace::IRichPresenceData*)>(&IRichPresencePlatformHandler::SetPresence)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IRichPresencePlatformHandler::*)(GlobalNamespace::IRichPresenceData*)>(&GlobalNamespace::IRichPresencePlatformHandler::SetPresence)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IRichPresencePlatformHandler*), "SetPresence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IRichPresenceData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IRichPresencePlatformHandler*), "SetPresence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IRichPresenceData*>()});
   }
 };
-// Writing MetadataGetter for method: IRichPresencePlatformHandler::Clear
+// Writing MetadataGetter for method: GlobalNamespace::IRichPresencePlatformHandler::Clear
 // Il2CppName: Clear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IRichPresencePlatformHandler::*)()>(&IRichPresencePlatformHandler::Clear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IRichPresencePlatformHandler::*)()>(&GlobalNamespace::IRichPresencePlatformHandler::Clear)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IRichPresencePlatformHandler*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IRichPresencePlatformHandler*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

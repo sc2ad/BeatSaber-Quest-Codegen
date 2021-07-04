@@ -497,497 +497,497 @@ namespace UnityEngine::UI {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Selectable*, "UnityEngine.UI", "Selectable");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Selectable::Transition, "UnityEngine.UI", "Selectable/Transition");
-// Writing MetadataGetter for method: Selectable::get_allSelectablesArray
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::get_allSelectablesArray
 // Il2CppName: get_allSelectablesArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::UI::Selectable*>* (*)()>(&Selectable::get_allSelectablesArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::UI::Selectable*>* (*)()>(&UnityEngine::UI::Selectable::get_allSelectablesArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "get_allSelectablesArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "get_allSelectablesArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::get_allSelectableCount
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::get_allSelectableCount
 // Il2CppName: get_allSelectableCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&Selectable::get_allSelectableCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&UnityEngine::UI::Selectable::get_allSelectableCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "get_allSelectableCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "get_allSelectableCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::get_allSelectables
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::get_allSelectables
 // Il2CppName: get_allSelectables
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::UI::Selectable*>* (*)()>(&Selectable::get_allSelectables)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::UI::Selectable*>* (*)()>(&UnityEngine::UI::Selectable::get_allSelectables)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "get_allSelectables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "get_allSelectables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::AllSelectablesNoAlloc
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::AllSelectablesNoAlloc
 // Il2CppName: AllSelectablesNoAlloc
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<UnityEngine::UI::Selectable*>*)>(&Selectable::AllSelectablesNoAlloc)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<UnityEngine::UI::Selectable*>*)>(&UnityEngine::UI::Selectable::AllSelectablesNoAlloc)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "AllSelectablesNoAlloc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::UI::Selectable*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "AllSelectablesNoAlloc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::UI::Selectable*>*>()});
   }
 };
-// Writing MetadataGetter for method: Selectable::get_navigation
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::get_navigation
 // Il2CppName: get_navigation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Navigation (Selectable::*)()>(&Selectable::get_navigation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Navigation (UnityEngine::UI::Selectable::*)()>(&UnityEngine::UI::Selectable::get_navigation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "get_navigation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "get_navigation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::set_navigation
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::set_navigation
 // Il2CppName: set_navigation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)(UnityEngine::UI::Navigation)>(&Selectable::set_navigation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)(UnityEngine::UI::Navigation)>(&UnityEngine::UI::Selectable::set_navigation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "set_navigation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Navigation>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "set_navigation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Navigation>()});
   }
 };
-// Writing MetadataGetter for method: Selectable::get_transition
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::get_transition
 // Il2CppName: get_transition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Selectable::Transition (Selectable::*)()>(&Selectable::get_transition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Selectable::Transition (UnityEngine::UI::Selectable::*)()>(&UnityEngine::UI::Selectable::get_transition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "get_transition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "get_transition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::set_transition
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::set_transition
 // Il2CppName: set_transition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)(UnityEngine::UI::Selectable::Transition)>(&Selectable::set_transition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)(UnityEngine::UI::Selectable::Transition)>(&UnityEngine::UI::Selectable::set_transition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "set_transition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Selectable::Transition>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "set_transition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Selectable::Transition>()});
   }
 };
-// Writing MetadataGetter for method: Selectable::get_colors
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::get_colors
 // Il2CppName: get_colors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::ColorBlock (Selectable::*)()>(&Selectable::get_colors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::ColorBlock (UnityEngine::UI::Selectable::*)()>(&UnityEngine::UI::Selectable::get_colors)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "get_colors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "get_colors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::set_colors
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::set_colors
 // Il2CppName: set_colors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)(UnityEngine::UI::ColorBlock)>(&Selectable::set_colors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)(UnityEngine::UI::ColorBlock)>(&UnityEngine::UI::Selectable::set_colors)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "set_colors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ColorBlock>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "set_colors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ColorBlock>()});
   }
 };
-// Writing MetadataGetter for method: Selectable::get_spriteState
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::get_spriteState
 // Il2CppName: get_spriteState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::SpriteState (Selectable::*)()>(&Selectable::get_spriteState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::SpriteState (UnityEngine::UI::Selectable::*)()>(&UnityEngine::UI::Selectable::get_spriteState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "get_spriteState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "get_spriteState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::set_spriteState
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::set_spriteState
 // Il2CppName: set_spriteState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)(UnityEngine::UI::SpriteState)>(&Selectable::set_spriteState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)(UnityEngine::UI::SpriteState)>(&UnityEngine::UI::Selectable::set_spriteState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "set_spriteState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::SpriteState>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "set_spriteState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::SpriteState>()});
   }
 };
-// Writing MetadataGetter for method: Selectable::get_animationTriggers
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::get_animationTriggers
 // Il2CppName: get_animationTriggers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::AnimationTriggers* (Selectable::*)()>(&Selectable::get_animationTriggers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::AnimationTriggers* (UnityEngine::UI::Selectable::*)()>(&UnityEngine::UI::Selectable::get_animationTriggers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "get_animationTriggers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "get_animationTriggers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::set_animationTriggers
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::set_animationTriggers
 // Il2CppName: set_animationTriggers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)(UnityEngine::UI::AnimationTriggers*)>(&Selectable::set_animationTriggers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)(UnityEngine::UI::AnimationTriggers*)>(&UnityEngine::UI::Selectable::set_animationTriggers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "set_animationTriggers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::AnimationTriggers*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "set_animationTriggers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::AnimationTriggers*>()});
   }
 };
-// Writing MetadataGetter for method: Selectable::get_targetGraphic
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::get_targetGraphic
 // Il2CppName: get_targetGraphic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Graphic* (Selectable::*)()>(&Selectable::get_targetGraphic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Graphic* (UnityEngine::UI::Selectable::*)()>(&UnityEngine::UI::Selectable::get_targetGraphic)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "get_targetGraphic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "get_targetGraphic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::set_targetGraphic
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::set_targetGraphic
 // Il2CppName: set_targetGraphic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)(UnityEngine::UI::Graphic*)>(&Selectable::set_targetGraphic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)(UnityEngine::UI::Graphic*)>(&UnityEngine::UI::Selectable::set_targetGraphic)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "set_targetGraphic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Graphic*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "set_targetGraphic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Graphic*>()});
   }
 };
-// Writing MetadataGetter for method: Selectable::get_interactable
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::get_interactable
 // Il2CppName: get_interactable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Selectable::*)()>(&Selectable::get_interactable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::Selectable::*)()>(&UnityEngine::UI::Selectable::get_interactable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "get_interactable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "get_interactable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::set_interactable
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::set_interactable
 // Il2CppName: set_interactable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)(bool)>(&Selectable::set_interactable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)(bool)>(&UnityEngine::UI::Selectable::set_interactable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "set_interactable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "set_interactable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Selectable::get_isPointerInside
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::get_isPointerInside
 // Il2CppName: get_isPointerInside
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Selectable::*)()>(&Selectable::get_isPointerInside)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::Selectable::*)()>(&UnityEngine::UI::Selectable::get_isPointerInside)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "get_isPointerInside", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "get_isPointerInside", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::set_isPointerInside
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::set_isPointerInside
 // Il2CppName: set_isPointerInside
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)(bool)>(&Selectable::set_isPointerInside)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)(bool)>(&UnityEngine::UI::Selectable::set_isPointerInside)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "set_isPointerInside", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "set_isPointerInside", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Selectable::get_isPointerDown
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::get_isPointerDown
 // Il2CppName: get_isPointerDown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Selectable::*)()>(&Selectable::get_isPointerDown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::Selectable::*)()>(&UnityEngine::UI::Selectable::get_isPointerDown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "get_isPointerDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "get_isPointerDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::set_isPointerDown
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::set_isPointerDown
 // Il2CppName: set_isPointerDown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)(bool)>(&Selectable::set_isPointerDown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)(bool)>(&UnityEngine::UI::Selectable::set_isPointerDown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "set_isPointerDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "set_isPointerDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Selectable::get_hasSelection
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::get_hasSelection
 // Il2CppName: get_hasSelection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Selectable::*)()>(&Selectable::get_hasSelection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::Selectable::*)()>(&UnityEngine::UI::Selectable::get_hasSelection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "get_hasSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "get_hasSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::set_hasSelection
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::set_hasSelection
 // Il2CppName: set_hasSelection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)(bool)>(&Selectable::set_hasSelection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)(bool)>(&UnityEngine::UI::Selectable::set_hasSelection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "set_hasSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "set_hasSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Selectable::get_image
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::get_image
 // Il2CppName: get_image
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Image* (Selectable::*)()>(&Selectable::get_image)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Image* (UnityEngine::UI::Selectable::*)()>(&UnityEngine::UI::Selectable::get_image)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "get_image", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "get_image", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::set_image
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::set_image
 // Il2CppName: set_image
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)(UnityEngine::UI::Image*)>(&Selectable::set_image)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)(UnityEngine::UI::Image*)>(&UnityEngine::UI::Selectable::set_image)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "set_image", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Image*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "set_image", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Image*>()});
   }
 };
-// Writing MetadataGetter for method: Selectable::get_animator
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::get_animator
 // Il2CppName: get_animator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animator* (Selectable::*)()>(&Selectable::get_animator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animator* (UnityEngine::UI::Selectable::*)()>(&UnityEngine::UI::Selectable::get_animator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "get_animator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "get_animator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::IsInteractable
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::IsInteractable
 // Il2CppName: IsInteractable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Selectable::*)()>(&Selectable::IsInteractable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::Selectable::*)()>(&UnityEngine::UI::Selectable::IsInteractable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "IsInteractable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "IsInteractable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::OnSetProperty
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::OnSetProperty
 // Il2CppName: OnSetProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)()>(&Selectable::OnSetProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)()>(&UnityEngine::UI::Selectable::OnSetProperty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "OnSetProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "OnSetProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::get_currentSelectionState
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::get_currentSelectionState
 // Il2CppName: get_currentSelectionState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Selectable::SelectionState (Selectable::*)()>(&Selectable::get_currentSelectionState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Selectable::SelectionState (UnityEngine::UI::Selectable::*)()>(&UnityEngine::UI::Selectable::get_currentSelectionState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "get_currentSelectionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "get_currentSelectionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::InstantClearState
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::InstantClearState
 // Il2CppName: InstantClearState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)()>(&Selectable::InstantClearState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)()>(&UnityEngine::UI::Selectable::InstantClearState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "InstantClearState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "InstantClearState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::DoStateTransition
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::DoStateTransition
 // Il2CppName: DoStateTransition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)(UnityEngine::UI::Selectable::SelectionState, bool)>(&Selectable::DoStateTransition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)(UnityEngine::UI::Selectable::SelectionState, bool)>(&UnityEngine::UI::Selectable::DoStateTransition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "DoStateTransition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Selectable::SelectionState>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "DoStateTransition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Selectable::SelectionState>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Selectable::FindSelectable
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::FindSelectable
 // Il2CppName: FindSelectable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Selectable* (Selectable::*)(UnityEngine::Vector3)>(&Selectable::FindSelectable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Selectable* (UnityEngine::UI::Selectable::*)(UnityEngine::Vector3)>(&UnityEngine::UI::Selectable::FindSelectable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "FindSelectable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "FindSelectable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: Selectable::GetPointOnRectEdge
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::GetPointOnRectEdge
 // Il2CppName: GetPointOnRectEdge
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::RectTransform*, UnityEngine::Vector2)>(&Selectable::GetPointOnRectEdge)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::RectTransform*, UnityEngine::Vector2)>(&UnityEngine::UI::Selectable::GetPointOnRectEdge)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "GetPointOnRectEdge", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "GetPointOnRectEdge", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
   }
 };
-// Writing MetadataGetter for method: Selectable::Navigate
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::Navigate
 // Il2CppName: Navigate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)(UnityEngine::EventSystems::AxisEventData*, UnityEngine::UI::Selectable*)>(&Selectable::Navigate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)(UnityEngine::EventSystems::AxisEventData*, UnityEngine::UI::Selectable*)>(&UnityEngine::UI::Selectable::Navigate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "Navigate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::AxisEventData*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Selectable*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "Navigate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::AxisEventData*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Selectable*>()});
   }
 };
-// Writing MetadataGetter for method: Selectable::FindSelectableOnLeft
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::FindSelectableOnLeft
 // Il2CppName: FindSelectableOnLeft
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Selectable* (Selectable::*)()>(&Selectable::FindSelectableOnLeft)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Selectable* (UnityEngine::UI::Selectable::*)()>(&UnityEngine::UI::Selectable::FindSelectableOnLeft)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "FindSelectableOnLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "FindSelectableOnLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::FindSelectableOnRight
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::FindSelectableOnRight
 // Il2CppName: FindSelectableOnRight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Selectable* (Selectable::*)()>(&Selectable::FindSelectableOnRight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Selectable* (UnityEngine::UI::Selectable::*)()>(&UnityEngine::UI::Selectable::FindSelectableOnRight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "FindSelectableOnRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "FindSelectableOnRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::FindSelectableOnUp
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::FindSelectableOnUp
 // Il2CppName: FindSelectableOnUp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Selectable* (Selectable::*)()>(&Selectable::FindSelectableOnUp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Selectable* (UnityEngine::UI::Selectable::*)()>(&UnityEngine::UI::Selectable::FindSelectableOnUp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "FindSelectableOnUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "FindSelectableOnUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::FindSelectableOnDown
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::FindSelectableOnDown
 // Il2CppName: FindSelectableOnDown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Selectable* (Selectable::*)()>(&Selectable::FindSelectableOnDown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Selectable* (UnityEngine::UI::Selectable::*)()>(&UnityEngine::UI::Selectable::FindSelectableOnDown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "FindSelectableOnDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "FindSelectableOnDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::OnMove
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::OnMove
 // Il2CppName: OnMove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)(UnityEngine::EventSystems::AxisEventData*)>(&Selectable::OnMove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)(UnityEngine::EventSystems::AxisEventData*)>(&UnityEngine::UI::Selectable::OnMove)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "OnMove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::AxisEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "OnMove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::AxisEventData*>()});
   }
 };
-// Writing MetadataGetter for method: Selectable::StartColorTween
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::StartColorTween
 // Il2CppName: StartColorTween
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)(UnityEngine::Color, bool)>(&Selectable::StartColorTween)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)(UnityEngine::Color, bool)>(&UnityEngine::UI::Selectable::StartColorTween)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "StartColorTween", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "StartColorTween", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Selectable::DoSpriteSwap
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::DoSpriteSwap
 // Il2CppName: DoSpriteSwap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)(UnityEngine::Sprite*)>(&Selectable::DoSpriteSwap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)(UnityEngine::Sprite*)>(&UnityEngine::UI::Selectable::DoSpriteSwap)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "DoSpriteSwap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "DoSpriteSwap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>()});
   }
 };
-// Writing MetadataGetter for method: Selectable::TriggerAnimation
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::TriggerAnimation
 // Il2CppName: TriggerAnimation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)(::Il2CppString*)>(&Selectable::TriggerAnimation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)(::Il2CppString*)>(&UnityEngine::UI::Selectable::TriggerAnimation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "TriggerAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "TriggerAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Selectable::IsHighlighted
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::IsHighlighted
 // Il2CppName: IsHighlighted
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Selectable::*)()>(&Selectable::IsHighlighted)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::Selectable::*)()>(&UnityEngine::UI::Selectable::IsHighlighted)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "IsHighlighted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "IsHighlighted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::IsPressed
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::IsPressed
 // Il2CppName: IsPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Selectable::*)()>(&Selectable::IsPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::Selectable::*)()>(&UnityEngine::UI::Selectable::IsPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "IsPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "IsPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::EvaluateAndTransitionToSelectionState
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::EvaluateAndTransitionToSelectionState
 // Il2CppName: EvaluateAndTransitionToSelectionState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)()>(&Selectable::EvaluateAndTransitionToSelectionState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)()>(&UnityEngine::UI::Selectable::EvaluateAndTransitionToSelectionState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "EvaluateAndTransitionToSelectionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "EvaluateAndTransitionToSelectionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::OnPointerDown
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::OnPointerDown
 // Il2CppName: OnPointerDown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)(UnityEngine::EventSystems::PointerEventData*)>(&Selectable::OnPointerDown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::UI::Selectable::OnPointerDown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "OnPointerDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "OnPointerDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: Selectable::OnPointerUp
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::OnPointerUp
 // Il2CppName: OnPointerUp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)(UnityEngine::EventSystems::PointerEventData*)>(&Selectable::OnPointerUp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::UI::Selectable::OnPointerUp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "OnPointerUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "OnPointerUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: Selectable::OnPointerEnter
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::OnPointerEnter
 // Il2CppName: OnPointerEnter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)(UnityEngine::EventSystems::PointerEventData*)>(&Selectable::OnPointerEnter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::UI::Selectable::OnPointerEnter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "OnPointerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "OnPointerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: Selectable::OnPointerExit
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::OnPointerExit
 // Il2CppName: OnPointerExit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)(UnityEngine::EventSystems::PointerEventData*)>(&Selectable::OnPointerExit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::UI::Selectable::OnPointerExit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "OnPointerExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "OnPointerExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: Selectable::OnSelect
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::OnSelect
 // Il2CppName: OnSelect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)(UnityEngine::EventSystems::BaseEventData*)>(&Selectable::OnSelect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)(UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::UI::Selectable::OnSelect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "OnSelect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "OnSelect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
   }
 };
-// Writing MetadataGetter for method: Selectable::OnDeselect
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::OnDeselect
 // Il2CppName: OnDeselect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)(UnityEngine::EventSystems::BaseEventData*)>(&Selectable::OnDeselect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)(UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::UI::Selectable::OnDeselect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "OnDeselect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "OnDeselect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
   }
 };
-// Writing MetadataGetter for method: Selectable::Select
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::Select
 // Il2CppName: Select
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)()>(&Selectable::Select)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)()>(&UnityEngine::UI::Selectable::Select)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "Select", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "Select", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::New_ctor
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)()>(&Selectable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)()>(&UnityEngine::UI::Selectable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)()>(&Selectable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)()>(&UnityEngine::UI::Selectable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::Awake
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)()>(&Selectable::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)()>(&UnityEngine::UI::Selectable::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::OnCanvasGroupChanged
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::OnCanvasGroupChanged
 // Il2CppName: OnCanvasGroupChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)()>(&Selectable::OnCanvasGroupChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)()>(&UnityEngine::UI::Selectable::OnCanvasGroupChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "OnCanvasGroupChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "OnCanvasGroupChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::OnDidApplyAnimationProperties
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::OnDidApplyAnimationProperties
 // Il2CppName: OnDidApplyAnimationProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)()>(&Selectable::OnDidApplyAnimationProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)()>(&UnityEngine::UI::Selectable::OnDidApplyAnimationProperties)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "OnDidApplyAnimationProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "OnDidApplyAnimationProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::OnEnable
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)()>(&Selectable::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)()>(&UnityEngine::UI::Selectable::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::OnTransformParentChanged
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::OnTransformParentChanged
 // Il2CppName: OnTransformParentChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)()>(&Selectable::OnTransformParentChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)()>(&UnityEngine::UI::Selectable::OnTransformParentChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "OnTransformParentChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "OnTransformParentChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::OnDisable
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Selectable::*)()>(&Selectable::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Selectable::*)()>(&UnityEngine::UI::Selectable::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Selectable::_cctor
+// Writing MetadataGetter for method: UnityEngine::UI::Selectable::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Selectable::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::UI::Selectable::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Selectable*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

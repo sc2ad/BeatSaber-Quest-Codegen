@@ -126,73 +126,73 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapData::$get_beatmapObjectsData$d__31) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31*, "", "BeatmapData/<get_beatmapObjectsData>d__31");
-// Writing MetadataGetter for method: BeatmapData::$get_beatmapObjectsData$d__31::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapData::$get_beatmapObjectsData$d__31::*)(int)>(&BeatmapData::$get_beatmapObjectsData$d__31::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31::*)(int)>(&GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapData::$get_beatmapObjectsData$d__31*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapData::$get_beatmapObjectsData$d__31::*)(int)>(&BeatmapData::$get_beatmapObjectsData$d__31::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31::*)(int)>(&GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapData::$get_beatmapObjectsData$d__31*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapData::$get_beatmapObjectsData$d__31::System_IDisposable_Dispose
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31::System_IDisposable_Dispose
 // Il2CppName: System.IDisposable.Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapData::$get_beatmapObjectsData$d__31::*)()>(&BeatmapData::$get_beatmapObjectsData$d__31::System_IDisposable_Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31::*)()>(&GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31::System_IDisposable_Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapData::$get_beatmapObjectsData$d__31*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapData::$get_beatmapObjectsData$d__31::MoveNext
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31::MoveNext
 // Il2CppName: MoveNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BeatmapData::$get_beatmapObjectsData$d__31::*)()>(&BeatmapData::$get_beatmapObjectsData$d__31::MoveNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31::*)()>(&GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31::MoveNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapData::$get_beatmapObjectsData$d__31*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapData::$get_beatmapObjectsData$d__31::System_Collections_Generic_IEnumerator$BeatmapObjectData$_get_Current
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31::System_Collections_Generic_IEnumerator$BeatmapObjectData$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<BeatmapObjectData>.get_Current
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapObjectData* (BeatmapData::$get_beatmapObjectsData$d__31::*)()>(&BeatmapData::$get_beatmapObjectsData$d__31::System_Collections_Generic_IEnumerator$BeatmapObjectData$_get_Current)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapObjectData* (GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31::*)()>(&GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31::System_Collections_Generic_IEnumerator$BeatmapObjectData$_get_Current)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapData::$get_beatmapObjectsData$d__31*), "System.Collections.Generic.IEnumerator<BeatmapObjectData>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31*), "System.Collections.Generic.IEnumerator<BeatmapObjectData>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapData::$get_beatmapObjectsData$d__31::System_Collections_IEnumerator_Reset
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31::System_Collections_IEnumerator_Reset
 // Il2CppName: System.Collections.IEnumerator.Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapData::$get_beatmapObjectsData$d__31::*)()>(&BeatmapData::$get_beatmapObjectsData$d__31::System_Collections_IEnumerator_Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31::*)()>(&GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31::System_Collections_IEnumerator_Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapData::$get_beatmapObjectsData$d__31*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapData::$get_beatmapObjectsData$d__31::System_Collections_IEnumerator_get_Current
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31::System_Collections_IEnumerator_get_Current
 // Il2CppName: System.Collections.IEnumerator.get_Current
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (BeatmapData::$get_beatmapObjectsData$d__31::*)()>(&BeatmapData::$get_beatmapObjectsData$d__31::System_Collections_IEnumerator_get_Current)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31::*)()>(&GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31::System_Collections_IEnumerator_get_Current)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapData::$get_beatmapObjectsData$d__31*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapData::$get_beatmapObjectsData$d__31::System_Collections_Generic_IEnumerable$BeatmapObjectData$_GetEnumerator
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31::System_Collections_Generic_IEnumerable$BeatmapObjectData$_GetEnumerator
 // Il2CppName: System.Collections.Generic.IEnumerable<BeatmapObjectData>.GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<GlobalNamespace::BeatmapObjectData*>* (BeatmapData::$get_beatmapObjectsData$d__31::*)()>(&BeatmapData::$get_beatmapObjectsData$d__31::System_Collections_Generic_IEnumerable$BeatmapObjectData$_GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<GlobalNamespace::BeatmapObjectData*>* (GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31::*)()>(&GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31::System_Collections_Generic_IEnumerable$BeatmapObjectData$_GetEnumerator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapData::$get_beatmapObjectsData$d__31*), "System.Collections.Generic.IEnumerable<BeatmapObjectData>.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31*), "System.Collections.Generic.IEnumerable<BeatmapObjectData>.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapData::$get_beatmapObjectsData$d__31::System_Collections_IEnumerable_GetEnumerator
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31::System_Collections_IEnumerable_GetEnumerator
 // Il2CppName: System.Collections.IEnumerable.GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (BeatmapData::$get_beatmapObjectsData$d__31::*)()>(&BeatmapData::$get_beatmapObjectsData$d__31::System_Collections_IEnumerable_GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31::*)()>(&GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31::System_Collections_IEnumerable_GetEnumerator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapData::$get_beatmapObjectsData$d__31*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__31*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

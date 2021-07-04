@@ -156,265 +156,265 @@ namespace OVR::OpenVR {
   static_assert(sizeof(CVRApplications) == 0x108);
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRApplications*, "OVR.OpenVR", "CVRApplications");
-// Writing MetadataGetter for method: CVRApplications::New_ctor
+// Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRApplications::*)(System::IntPtr)>(&CVRApplications::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRApplications::*)(System::IntPtr)>(&OVR::OpenVR::CVRApplications::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRApplications::*)(System::IntPtr)>(&CVRApplications::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRApplications::*)(System::IntPtr)>(&OVR::OpenVR::CVRApplications::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: CVRApplications::AddApplicationManifest
+// Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::AddApplicationManifest
 // Il2CppName: AddApplicationManifest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (CVRApplications::*)(::Il2CppString*, bool)>(&CVRApplications::AddApplicationManifest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::CVRApplications::*)(::Il2CppString*, bool)>(&OVR::OpenVR::CVRApplications::AddApplicationManifest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "AddApplicationManifest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "AddApplicationManifest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: CVRApplications::RemoveApplicationManifest
+// Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::RemoveApplicationManifest
 // Il2CppName: RemoveApplicationManifest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (CVRApplications::*)(::Il2CppString*)>(&CVRApplications::RemoveApplicationManifest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::CVRApplications::*)(::Il2CppString*)>(&OVR::OpenVR::CVRApplications::RemoveApplicationManifest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "RemoveApplicationManifest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "RemoveApplicationManifest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CVRApplications::IsApplicationInstalled
+// Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::IsApplicationInstalled
 // Il2CppName: IsApplicationInstalled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRApplications::*)(::Il2CppString*)>(&CVRApplications::IsApplicationInstalled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRApplications::*)(::Il2CppString*)>(&OVR::OpenVR::CVRApplications::IsApplicationInstalled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "IsApplicationInstalled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "IsApplicationInstalled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CVRApplications::GetApplicationCount
+// Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::GetApplicationCount
 // Il2CppName: GetApplicationCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRApplications::*)()>(&CVRApplications::GetApplicationCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRApplications::*)()>(&OVR::OpenVR::CVRApplications::GetApplicationCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetApplicationCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "GetApplicationCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CVRApplications::GetApplicationKeyByIndex
+// Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::GetApplicationKeyByIndex
 // Il2CppName: GetApplicationKeyByIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (CVRApplications::*)(uint, System::Text::StringBuilder*, uint)>(&CVRApplications::GetApplicationKeyByIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::CVRApplications::*)(uint, System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVRApplications::GetApplicationKeyByIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetApplicationKeyByIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "GetApplicationKeyByIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: CVRApplications::GetApplicationKeyByProcessId
+// Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::GetApplicationKeyByProcessId
 // Il2CppName: GetApplicationKeyByProcessId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (CVRApplications::*)(uint, System::Text::StringBuilder*, uint)>(&CVRApplications::GetApplicationKeyByProcessId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::CVRApplications::*)(uint, System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVRApplications::GetApplicationKeyByProcessId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetApplicationKeyByProcessId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "GetApplicationKeyByProcessId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: CVRApplications::LaunchApplication
+// Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::LaunchApplication
 // Il2CppName: LaunchApplication
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (CVRApplications::*)(::Il2CppString*)>(&CVRApplications::LaunchApplication)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::CVRApplications::*)(::Il2CppString*)>(&OVR::OpenVR::CVRApplications::LaunchApplication)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "LaunchApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "LaunchApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CVRApplications::LaunchTemplateApplication
+// Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::LaunchTemplateApplication
 // Il2CppName: LaunchTemplateApplication
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (CVRApplications::*)(::Il2CppString*, ::Il2CppString*, ::Array<OVR::OpenVR::AppOverrideKeys_t>*)>(&CVRApplications::LaunchTemplateApplication)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::CVRApplications::*)(::Il2CppString*, ::Il2CppString*, ::Array<OVR::OpenVR::AppOverrideKeys_t>*)>(&OVR::OpenVR::CVRApplications::LaunchTemplateApplication)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "LaunchTemplateApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::AppOverrideKeys_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "LaunchTemplateApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::AppOverrideKeys_t>*>()});
   }
 };
-// Writing MetadataGetter for method: CVRApplications::LaunchApplicationFromMimeType
+// Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::LaunchApplicationFromMimeType
 // Il2CppName: LaunchApplicationFromMimeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (CVRApplications::*)(::Il2CppString*, ::Il2CppString*)>(&CVRApplications::LaunchApplicationFromMimeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::CVRApplications::*)(::Il2CppString*, ::Il2CppString*)>(&OVR::OpenVR::CVRApplications::LaunchApplicationFromMimeType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "LaunchApplicationFromMimeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "LaunchApplicationFromMimeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CVRApplications::LaunchDashboardOverlay
+// Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::LaunchDashboardOverlay
 // Il2CppName: LaunchDashboardOverlay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (CVRApplications::*)(::Il2CppString*)>(&CVRApplications::LaunchDashboardOverlay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::CVRApplications::*)(::Il2CppString*)>(&OVR::OpenVR::CVRApplications::LaunchDashboardOverlay)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "LaunchDashboardOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "LaunchDashboardOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CVRApplications::CancelApplicationLaunch
+// Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::CancelApplicationLaunch
 // Il2CppName: CancelApplicationLaunch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRApplications::*)(::Il2CppString*)>(&CVRApplications::CancelApplicationLaunch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRApplications::*)(::Il2CppString*)>(&OVR::OpenVR::CVRApplications::CancelApplicationLaunch)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "CancelApplicationLaunch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "CancelApplicationLaunch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CVRApplications::IdentifyApplication
+// Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::IdentifyApplication
 // Il2CppName: IdentifyApplication
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (CVRApplications::*)(uint, ::Il2CppString*)>(&CVRApplications::IdentifyApplication)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::CVRApplications::*)(uint, ::Il2CppString*)>(&OVR::OpenVR::CVRApplications::IdentifyApplication)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "IdentifyApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "IdentifyApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CVRApplications::GetApplicationProcessId
+// Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::GetApplicationProcessId
 // Il2CppName: GetApplicationProcessId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRApplications::*)(::Il2CppString*)>(&CVRApplications::GetApplicationProcessId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRApplications::*)(::Il2CppString*)>(&OVR::OpenVR::CVRApplications::GetApplicationProcessId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetApplicationProcessId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "GetApplicationProcessId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CVRApplications::GetApplicationsErrorNameFromEnum
+// Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::GetApplicationsErrorNameFromEnum
 // Il2CppName: GetApplicationsErrorNameFromEnum
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CVRApplications::*)(OVR::OpenVR::EVRApplicationError)>(&CVRApplications::GetApplicationsErrorNameFromEnum)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OVR::OpenVR::CVRApplications::*)(OVR::OpenVR::EVRApplicationError)>(&OVR::OpenVR::CVRApplications::GetApplicationsErrorNameFromEnum)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetApplicationsErrorNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRApplicationError>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "GetApplicationsErrorNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRApplicationError>()});
   }
 };
-// Writing MetadataGetter for method: CVRApplications::GetApplicationPropertyString
+// Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::GetApplicationPropertyString
 // Il2CppName: GetApplicationPropertyString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRApplications::*)(::Il2CppString*, OVR::OpenVR::EVRApplicationProperty, System::Text::StringBuilder*, uint, OVR::OpenVR::EVRApplicationError&)>(&CVRApplications::GetApplicationPropertyString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRApplications::*)(::Il2CppString*, OVR::OpenVR::EVRApplicationProperty, System::Text::StringBuilder*, uint, OVR::OpenVR::EVRApplicationError&)>(&OVR::OpenVR::CVRApplications::GetApplicationPropertyString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetApplicationPropertyString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRApplicationProperty>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRApplicationError&>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "GetApplicationPropertyString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRApplicationProperty>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRApplicationError&>()});
   }
 };
-// Writing MetadataGetter for method: CVRApplications::GetApplicationPropertyBool
+// Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::GetApplicationPropertyBool
 // Il2CppName: GetApplicationPropertyBool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRApplications::*)(::Il2CppString*, OVR::OpenVR::EVRApplicationProperty, OVR::OpenVR::EVRApplicationError&)>(&CVRApplications::GetApplicationPropertyBool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRApplications::*)(::Il2CppString*, OVR::OpenVR::EVRApplicationProperty, OVR::OpenVR::EVRApplicationError&)>(&OVR::OpenVR::CVRApplications::GetApplicationPropertyBool)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetApplicationPropertyBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRApplicationProperty>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRApplicationError&>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "GetApplicationPropertyBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRApplicationProperty>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRApplicationError&>()});
   }
 };
-// Writing MetadataGetter for method: CVRApplications::GetApplicationPropertyUint64
+// Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::GetApplicationPropertyUint64
 // Il2CppName: GetApplicationPropertyUint64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (CVRApplications::*)(::Il2CppString*, OVR::OpenVR::EVRApplicationProperty, OVR::OpenVR::EVRApplicationError&)>(&CVRApplications::GetApplicationPropertyUint64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (OVR::OpenVR::CVRApplications::*)(::Il2CppString*, OVR::OpenVR::EVRApplicationProperty, OVR::OpenVR::EVRApplicationError&)>(&OVR::OpenVR::CVRApplications::GetApplicationPropertyUint64)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetApplicationPropertyUint64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRApplicationProperty>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRApplicationError&>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "GetApplicationPropertyUint64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRApplicationProperty>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRApplicationError&>()});
   }
 };
-// Writing MetadataGetter for method: CVRApplications::SetApplicationAutoLaunch
+// Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::SetApplicationAutoLaunch
 // Il2CppName: SetApplicationAutoLaunch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (CVRApplications::*)(::Il2CppString*, bool)>(&CVRApplications::SetApplicationAutoLaunch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::CVRApplications::*)(::Il2CppString*, bool)>(&OVR::OpenVR::CVRApplications::SetApplicationAutoLaunch)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "SetApplicationAutoLaunch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "SetApplicationAutoLaunch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: CVRApplications::GetApplicationAutoLaunch
+// Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::GetApplicationAutoLaunch
 // Il2CppName: GetApplicationAutoLaunch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRApplications::*)(::Il2CppString*)>(&CVRApplications::GetApplicationAutoLaunch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRApplications::*)(::Il2CppString*)>(&OVR::OpenVR::CVRApplications::GetApplicationAutoLaunch)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetApplicationAutoLaunch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "GetApplicationAutoLaunch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CVRApplications::SetDefaultApplicationForMimeType
+// Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::SetDefaultApplicationForMimeType
 // Il2CppName: SetDefaultApplicationForMimeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (CVRApplications::*)(::Il2CppString*, ::Il2CppString*)>(&CVRApplications::SetDefaultApplicationForMimeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::CVRApplications::*)(::Il2CppString*, ::Il2CppString*)>(&OVR::OpenVR::CVRApplications::SetDefaultApplicationForMimeType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "SetDefaultApplicationForMimeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "SetDefaultApplicationForMimeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CVRApplications::GetDefaultApplicationForMimeType
+// Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::GetDefaultApplicationForMimeType
 // Il2CppName: GetDefaultApplicationForMimeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRApplications::*)(::Il2CppString*, System::Text::StringBuilder*, uint)>(&CVRApplications::GetDefaultApplicationForMimeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRApplications::*)(::Il2CppString*, System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVRApplications::GetDefaultApplicationForMimeType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetDefaultApplicationForMimeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "GetDefaultApplicationForMimeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: CVRApplications::GetApplicationSupportedMimeTypes
+// Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::GetApplicationSupportedMimeTypes
 // Il2CppName: GetApplicationSupportedMimeTypes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRApplications::*)(::Il2CppString*, System::Text::StringBuilder*, uint)>(&CVRApplications::GetApplicationSupportedMimeTypes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRApplications::*)(::Il2CppString*, System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVRApplications::GetApplicationSupportedMimeTypes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetApplicationSupportedMimeTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "GetApplicationSupportedMimeTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: CVRApplications::GetApplicationsThatSupportMimeType
+// Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::GetApplicationsThatSupportMimeType
 // Il2CppName: GetApplicationsThatSupportMimeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRApplications::*)(::Il2CppString*, System::Text::StringBuilder*, uint)>(&CVRApplications::GetApplicationsThatSupportMimeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRApplications::*)(::Il2CppString*, System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVRApplications::GetApplicationsThatSupportMimeType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetApplicationsThatSupportMimeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "GetApplicationsThatSupportMimeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: CVRApplications::GetApplicationLaunchArguments
+// Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::GetApplicationLaunchArguments
 // Il2CppName: GetApplicationLaunchArguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRApplications::*)(uint, System::Text::StringBuilder*, uint)>(&CVRApplications::GetApplicationLaunchArguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRApplications::*)(uint, System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVRApplications::GetApplicationLaunchArguments)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetApplicationLaunchArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "GetApplicationLaunchArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: CVRApplications::GetStartingApplication
+// Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::GetStartingApplication
 // Il2CppName: GetStartingApplication
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (CVRApplications::*)(System::Text::StringBuilder*, uint)>(&CVRApplications::GetStartingApplication)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::CVRApplications::*)(System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVRApplications::GetStartingApplication)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetStartingApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "GetStartingApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: CVRApplications::GetTransitionState
+// Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::GetTransitionState
 // Il2CppName: GetTransitionState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationTransitionState (CVRApplications::*)()>(&CVRApplications::GetTransitionState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationTransitionState (OVR::OpenVR::CVRApplications::*)()>(&OVR::OpenVR::CVRApplications::GetTransitionState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetTransitionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "GetTransitionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CVRApplications::PerformApplicationPrelaunchCheck
+// Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::PerformApplicationPrelaunchCheck
 // Il2CppName: PerformApplicationPrelaunchCheck
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (CVRApplications::*)(::Il2CppString*)>(&CVRApplications::PerformApplicationPrelaunchCheck)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::CVRApplications::*)(::Il2CppString*)>(&OVR::OpenVR::CVRApplications::PerformApplicationPrelaunchCheck)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "PerformApplicationPrelaunchCheck", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "PerformApplicationPrelaunchCheck", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CVRApplications::GetApplicationsTransitionStateNameFromEnum
+// Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::GetApplicationsTransitionStateNameFromEnum
 // Il2CppName: GetApplicationsTransitionStateNameFromEnum
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CVRApplications::*)(OVR::OpenVR::EVRApplicationTransitionState)>(&CVRApplications::GetApplicationsTransitionStateNameFromEnum)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OVR::OpenVR::CVRApplications::*)(OVR::OpenVR::EVRApplicationTransitionState)>(&OVR::OpenVR::CVRApplications::GetApplicationsTransitionStateNameFromEnum)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetApplicationsTransitionStateNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRApplicationTransitionState>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "GetApplicationsTransitionStateNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRApplicationTransitionState>()});
   }
 };
-// Writing MetadataGetter for method: CVRApplications::IsQuitUserPromptRequested
+// Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::IsQuitUserPromptRequested
 // Il2CppName: IsQuitUserPromptRequested
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRApplications::*)()>(&CVRApplications::IsQuitUserPromptRequested)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRApplications::*)()>(&OVR::OpenVR::CVRApplications::IsQuitUserPromptRequested)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "IsQuitUserPromptRequested", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "IsQuitUserPromptRequested", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CVRApplications::LaunchInternalProcess
+// Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::LaunchInternalProcess
 // Il2CppName: LaunchInternalProcess
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (CVRApplications::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&CVRApplications::LaunchInternalProcess)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::CVRApplications::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&OVR::OpenVR::CVRApplications::LaunchInternalProcess)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "LaunchInternalProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "LaunchInternalProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CVRApplications::GetCurrentSceneProcessId
+// Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::GetCurrentSceneProcessId
 // Il2CppName: GetCurrentSceneProcessId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRApplications::*)()>(&CVRApplications::GetCurrentSceneProcessId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRApplications::*)()>(&OVR::OpenVR::CVRApplications::GetCurrentSceneProcessId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRApplications*), "GetCurrentSceneProcessId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "GetCurrentSceneProcessId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

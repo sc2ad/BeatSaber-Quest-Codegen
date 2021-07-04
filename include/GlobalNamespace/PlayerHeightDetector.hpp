@@ -150,73 +150,73 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayerHeightDetector) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerHeightDetector*, "", "PlayerHeightDetector");
-// Writing MetadataGetter for method: PlayerHeightDetector::add_playerHeightDidChangeEvent
+// Writing MetadataGetter for method: GlobalNamespace::PlayerHeightDetector::add_playerHeightDidChangeEvent
 // Il2CppName: add_playerHeightDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerHeightDetector::*)(System::Action_1<float>*)>(&PlayerHeightDetector::add_playerHeightDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerHeightDetector::*)(System::Action_1<float>*)>(&GlobalNamespace::PlayerHeightDetector::add_playerHeightDidChangeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerHeightDetector*), "add_playerHeightDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerHeightDetector*), "add_playerHeightDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
   }
 };
-// Writing MetadataGetter for method: PlayerHeightDetector::remove_playerHeightDidChangeEvent
+// Writing MetadataGetter for method: GlobalNamespace::PlayerHeightDetector::remove_playerHeightDidChangeEvent
 // Il2CppName: remove_playerHeightDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerHeightDetector::*)(System::Action_1<float>*)>(&PlayerHeightDetector::remove_playerHeightDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerHeightDetector::*)(System::Action_1<float>*)>(&GlobalNamespace::PlayerHeightDetector::remove_playerHeightDidChangeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerHeightDetector*), "remove_playerHeightDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerHeightDetector*), "remove_playerHeightDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
   }
 };
-// Writing MetadataGetter for method: PlayerHeightDetector::get_playerHeight
+// Writing MetadataGetter for method: GlobalNamespace::PlayerHeightDetector::get_playerHeight
 // Il2CppName: get_playerHeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (PlayerHeightDetector::*)()>(&PlayerHeightDetector::get_playerHeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::PlayerHeightDetector::*)()>(&GlobalNamespace::PlayerHeightDetector::get_playerHeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerHeightDetector*), "get_playerHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerHeightDetector*), "get_playerHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerHeightDetector::Start
+// Writing MetadataGetter for method: GlobalNamespace::PlayerHeightDetector::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerHeightDetector::*)()>(&PlayerHeightDetector::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerHeightDetector::*)()>(&GlobalNamespace::PlayerHeightDetector::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerHeightDetector*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerHeightDetector*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerHeightDetector::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::PlayerHeightDetector::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerHeightDetector::*)()>(&PlayerHeightDetector::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerHeightDetector::*)()>(&GlobalNamespace::PlayerHeightDetector::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerHeightDetector*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerHeightDetector*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerHeightDetector::LateUpdate
+// Writing MetadataGetter for method: GlobalNamespace::PlayerHeightDetector::LateUpdate
 // Il2CppName: LateUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerHeightDetector::*)()>(&PlayerHeightDetector::LateUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerHeightDetector::*)()>(&GlobalNamespace::PlayerHeightDetector::LateUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerHeightDetector*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerHeightDetector*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerHeightDetector::BeatmapObjectSpawnCallback
+// Writing MetadataGetter for method: GlobalNamespace::PlayerHeightDetector::BeatmapObjectSpawnCallback
 // Il2CppName: BeatmapObjectSpawnCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerHeightDetector::*)(GlobalNamespace::BeatmapObjectData*)>(&PlayerHeightDetector::BeatmapObjectSpawnCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerHeightDetector::*)(GlobalNamespace::BeatmapObjectData*)>(&GlobalNamespace::PlayerHeightDetector::BeatmapObjectSpawnCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerHeightDetector*), "BeatmapObjectSpawnCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerHeightDetector*), "BeatmapObjectSpawnCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectData*>()});
   }
 };
-// Writing MetadataGetter for method: PlayerHeightDetector::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::PlayerHeightDetector::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerHeightDetector::*)()>(&PlayerHeightDetector::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerHeightDetector::*)()>(&GlobalNamespace::PlayerHeightDetector::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerHeightDetector*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerHeightDetector*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerHeightDetector::*)()>(&PlayerHeightDetector::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerHeightDetector::*)()>(&GlobalNamespace::PlayerHeightDetector::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerHeightDetector*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerHeightDetector*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

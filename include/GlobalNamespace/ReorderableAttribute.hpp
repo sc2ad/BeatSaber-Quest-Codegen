@@ -83,79 +83,79 @@ namespace GlobalNamespace {
   static_assert(sizeof(ReorderableAttribute) == 0x1A);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ReorderableAttribute*, "", "ReorderableAttribute");
-// Writing MetadataGetter for method: ReorderableAttribute::get_ElementHeader
+// Writing MetadataGetter for method: GlobalNamespace::ReorderableAttribute::get_ElementHeader
 // Il2CppName: get_ElementHeader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ReorderableAttribute::*)()>(&ReorderableAttribute::get_ElementHeader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::ReorderableAttribute::*)()>(&GlobalNamespace::ReorderableAttribute::get_ElementHeader)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReorderableAttribute*), "get_ElementHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ReorderableAttribute*), "get_ElementHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ReorderableAttribute::set_ElementHeader
+// Writing MetadataGetter for method: GlobalNamespace::ReorderableAttribute::set_ElementHeader
 // Il2CppName: set_ElementHeader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReorderableAttribute::*)(::Il2CppString*)>(&ReorderableAttribute::set_ElementHeader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ReorderableAttribute::*)(::Il2CppString*)>(&GlobalNamespace::ReorderableAttribute::set_ElementHeader)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReorderableAttribute*), "set_ElementHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ReorderableAttribute*), "set_ElementHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: ReorderableAttribute::get_HeaderZeroIndex
+// Writing MetadataGetter for method: GlobalNamespace::ReorderableAttribute::get_HeaderZeroIndex
 // Il2CppName: get_HeaderZeroIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReorderableAttribute::*)()>(&ReorderableAttribute::get_HeaderZeroIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ReorderableAttribute::*)()>(&GlobalNamespace::ReorderableAttribute::get_HeaderZeroIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReorderableAttribute*), "get_HeaderZeroIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ReorderableAttribute*), "get_HeaderZeroIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ReorderableAttribute::set_HeaderZeroIndex
+// Writing MetadataGetter for method: GlobalNamespace::ReorderableAttribute::set_HeaderZeroIndex
 // Il2CppName: set_HeaderZeroIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReorderableAttribute::*)(bool)>(&ReorderableAttribute::set_HeaderZeroIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ReorderableAttribute::*)(bool)>(&GlobalNamespace::ReorderableAttribute::set_HeaderZeroIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReorderableAttribute*), "set_HeaderZeroIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ReorderableAttribute*), "set_HeaderZeroIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ReorderableAttribute::get_ElementSingleLine
+// Writing MetadataGetter for method: GlobalNamespace::ReorderableAttribute::get_ElementSingleLine
 // Il2CppName: get_ElementSingleLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ReorderableAttribute::*)()>(&ReorderableAttribute::get_ElementSingleLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ReorderableAttribute::*)()>(&GlobalNamespace::ReorderableAttribute::get_ElementSingleLine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReorderableAttribute*), "get_ElementSingleLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ReorderableAttribute*), "get_ElementSingleLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ReorderableAttribute::set_ElementSingleLine
+// Writing MetadataGetter for method: GlobalNamespace::ReorderableAttribute::set_ElementSingleLine
 // Il2CppName: set_ElementSingleLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReorderableAttribute::*)(bool)>(&ReorderableAttribute::set_ElementSingleLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ReorderableAttribute::*)(bool)>(&GlobalNamespace::ReorderableAttribute::set_ElementSingleLine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReorderableAttribute*), "set_ElementSingleLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ReorderableAttribute*), "set_ElementSingleLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ReorderableAttribute::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::ReorderableAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReorderableAttribute::*)(::Il2CppString*, bool, bool)>(&ReorderableAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ReorderableAttribute::*)(::Il2CppString*, bool, bool)>(&GlobalNamespace::ReorderableAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReorderableAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ReorderableAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReorderableAttribute::*)(::Il2CppString*, bool, bool)>(&ReorderableAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ReorderableAttribute::*)(::Il2CppString*, bool, bool)>(&GlobalNamespace::ReorderableAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReorderableAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ReorderableAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ReorderableAttribute::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::ReorderableAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReorderableAttribute::*)()>(&ReorderableAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ReorderableAttribute::*)()>(&GlobalNamespace::ReorderableAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReorderableAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ReorderableAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReorderableAttribute::*)()>(&ReorderableAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ReorderableAttribute::*)()>(&GlobalNamespace::ReorderableAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReorderableAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ReorderableAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -140,33 +140,33 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentIntensityReductionOptions*, "", "EnvironmentIntensityReductionOptions");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentIntensityReductionOptions::CompressExpandReductionType, "", "EnvironmentIntensityReductionOptions/CompressExpandReductionType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType, "", "EnvironmentIntensityReductionOptions/RotateRingsReductionType");
-// Writing MetadataGetter for method: EnvironmentIntensityReductionOptions::get_compressExpand
+// Writing MetadataGetter for method: GlobalNamespace::EnvironmentIntensityReductionOptions::get_compressExpand
 // Il2CppName: get_compressExpand
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentIntensityReductionOptions::CompressExpandReductionType (EnvironmentIntensityReductionOptions::*)()>(&EnvironmentIntensityReductionOptions::get_compressExpand)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentIntensityReductionOptions::CompressExpandReductionType (GlobalNamespace::EnvironmentIntensityReductionOptions::*)()>(&GlobalNamespace::EnvironmentIntensityReductionOptions::get_compressExpand)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnvironmentIntensityReductionOptions*), "get_compressExpand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentIntensityReductionOptions*), "get_compressExpand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EnvironmentIntensityReductionOptions::get_rotateRings
+// Writing MetadataGetter for method: GlobalNamespace::EnvironmentIntensityReductionOptions::get_rotateRings
 // Il2CppName: get_rotateRings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType (EnvironmentIntensityReductionOptions::*)()>(&EnvironmentIntensityReductionOptions::get_rotateRings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType (GlobalNamespace::EnvironmentIntensityReductionOptions::*)()>(&GlobalNamespace::EnvironmentIntensityReductionOptions::get_rotateRings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnvironmentIntensityReductionOptions*), "get_rotateRings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentIntensityReductionOptions*), "get_rotateRings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EnvironmentIntensityReductionOptions::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::EnvironmentIntensityReductionOptions::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnvironmentIntensityReductionOptions::*)()>(&EnvironmentIntensityReductionOptions::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnvironmentIntensityReductionOptions::*)()>(&GlobalNamespace::EnvironmentIntensityReductionOptions::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnvironmentIntensityReductionOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentIntensityReductionOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnvironmentIntensityReductionOptions::*)()>(&EnvironmentIntensityReductionOptions::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnvironmentIntensityReductionOptions::*)()>(&GlobalNamespace::EnvironmentIntensityReductionOptions::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnvironmentIntensityReductionOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentIntensityReductionOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -101,121 +101,121 @@ namespace System::Collections {
   static_assert(sizeof(SortedList::ValueList) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::SortedList::ValueList*, "System.Collections", "SortedList/ValueList");
-// Writing MetadataGetter for method: SortedList::ValueList::New_ctor
+// Writing MetadataGetter for method: System::Collections::SortedList::ValueList::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SortedList::ValueList::*)(System::Collections::SortedList*)>(&SortedList::ValueList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::SortedList::ValueList::*)(System::Collections::SortedList*)>(&System::Collections::SortedList::ValueList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SortedList::ValueList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::SortedList*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::ValueList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::SortedList*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SortedList::ValueList::*)(System::Collections::SortedList*)>(&SortedList::ValueList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::SortedList::ValueList::*)(System::Collections::SortedList*)>(&System::Collections::SortedList::ValueList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SortedList::ValueList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::SortedList*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::ValueList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::SortedList*>()});
   }
 };
-// Writing MetadataGetter for method: SortedList::ValueList::get_Count
+// Writing MetadataGetter for method: System::Collections::SortedList::ValueList::get_Count
 // Il2CppName: get_Count
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SortedList::ValueList::*)()>(&SortedList::ValueList::get_Count)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::SortedList::ValueList::*)()>(&System::Collections::SortedList::ValueList::get_Count)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SortedList::ValueList*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::ValueList*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SortedList::ValueList::get_IsReadOnly
+// Writing MetadataGetter for method: System::Collections::SortedList::ValueList::get_IsReadOnly
 // Il2CppName: get_IsReadOnly
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SortedList::ValueList::*)()>(&SortedList::ValueList::get_IsReadOnly)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Collections::SortedList::ValueList::*)()>(&System::Collections::SortedList::ValueList::get_IsReadOnly)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SortedList::ValueList*), "get_IsReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::ValueList*), "get_IsReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SortedList::ValueList::Add
+// Writing MetadataGetter for method: System::Collections::SortedList::ValueList::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SortedList::ValueList::*)(::Il2CppObject*)>(&SortedList::ValueList::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::SortedList::ValueList::*)(::Il2CppObject*)>(&System::Collections::SortedList::ValueList::Add)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SortedList::ValueList*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::ValueList*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: SortedList::ValueList::Clear
+// Writing MetadataGetter for method: System::Collections::SortedList::ValueList::Clear
 // Il2CppName: Clear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SortedList::ValueList::*)()>(&SortedList::ValueList::Clear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::SortedList::ValueList::*)()>(&System::Collections::SortedList::ValueList::Clear)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SortedList::ValueList*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::ValueList*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SortedList::ValueList::Contains
+// Writing MetadataGetter for method: System::Collections::SortedList::ValueList::Contains
 // Il2CppName: Contains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SortedList::ValueList::*)(::Il2CppObject*)>(&SortedList::ValueList::Contains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Collections::SortedList::ValueList::*)(::Il2CppObject*)>(&System::Collections::SortedList::ValueList::Contains)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SortedList::ValueList*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::ValueList*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: SortedList::ValueList::CopyTo
+// Writing MetadataGetter for method: System::Collections::SortedList::ValueList::CopyTo
 // Il2CppName: CopyTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SortedList::ValueList::*)(System::Array*, int)>(&SortedList::ValueList::CopyTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::SortedList::ValueList::*)(System::Array*, int)>(&System::Collections::SortedList::ValueList::CopyTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SortedList::ValueList*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::ValueList*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SortedList::ValueList::Insert
+// Writing MetadataGetter for method: System::Collections::SortedList::ValueList::Insert
 // Il2CppName: Insert
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SortedList::ValueList::*)(int, ::Il2CppObject*)>(&SortedList::ValueList::Insert)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::SortedList::ValueList::*)(int, ::Il2CppObject*)>(&System::Collections::SortedList::ValueList::Insert)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SortedList::ValueList*), "Insert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::ValueList*), "Insert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: SortedList::ValueList::get_Item
+// Writing MetadataGetter for method: System::Collections::SortedList::ValueList::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (SortedList::ValueList::*)(int)>(&SortedList::ValueList::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Collections::SortedList::ValueList::*)(int)>(&System::Collections::SortedList::ValueList::get_Item)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SortedList::ValueList*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::ValueList*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SortedList::ValueList::set_Item
+// Writing MetadataGetter for method: System::Collections::SortedList::ValueList::set_Item
 // Il2CppName: set_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SortedList::ValueList::*)(int, ::Il2CppObject*)>(&SortedList::ValueList::set_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::SortedList::ValueList::*)(int, ::Il2CppObject*)>(&System::Collections::SortedList::ValueList::set_Item)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SortedList::ValueList*), "set_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::ValueList*), "set_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: SortedList::ValueList::GetEnumerator
+// Writing MetadataGetter for method: System::Collections::SortedList::ValueList::GetEnumerator
 // Il2CppName: GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (SortedList::ValueList::*)()>(&SortedList::ValueList::GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::Collections::SortedList::ValueList::*)()>(&System::Collections::SortedList::ValueList::GetEnumerator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SortedList::ValueList*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::ValueList*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SortedList::ValueList::IndexOf
+// Writing MetadataGetter for method: System::Collections::SortedList::ValueList::IndexOf
 // Il2CppName: IndexOf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SortedList::ValueList::*)(::Il2CppObject*)>(&SortedList::ValueList::IndexOf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::SortedList::ValueList::*)(::Il2CppObject*)>(&System::Collections::SortedList::ValueList::IndexOf)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SortedList::ValueList*), "IndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::ValueList*), "IndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: SortedList::ValueList::Remove
+// Writing MetadataGetter for method: System::Collections::SortedList::ValueList::Remove
 // Il2CppName: Remove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SortedList::ValueList::*)(::Il2CppObject*)>(&SortedList::ValueList::Remove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::SortedList::ValueList::*)(::Il2CppObject*)>(&System::Collections::SortedList::ValueList::Remove)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SortedList::ValueList*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::ValueList*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: SortedList::ValueList::RemoveAt
+// Writing MetadataGetter for method: System::Collections::SortedList::ValueList::RemoveAt
 // Il2CppName: RemoveAt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SortedList::ValueList::*)(int)>(&SortedList::ValueList::RemoveAt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::SortedList::ValueList::*)(int)>(&System::Collections::SortedList::ValueList::RemoveAt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SortedList::ValueList*), "RemoveAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::SortedList::ValueList*), "RemoveAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };

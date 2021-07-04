@@ -274,185 +274,185 @@ namespace GlobalNamespace {
   static_assert(sizeof(LevelCollectionTableView) == 0xA8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCollectionTableView*, "", "LevelCollectionTableView");
-// Writing MetadataGetter for method: LevelCollectionTableView::add_didSelectLevelEvent
+// Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::add_didSelectLevelEvent
 // Il2CppName: add_didSelectLevelEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionTableView::*)(System::Action_2<GlobalNamespace::LevelCollectionTableView*, GlobalNamespace::IPreviewBeatmapLevel*>*)>(&LevelCollectionTableView::add_didSelectLevelEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionTableView::*)(System::Action_2<GlobalNamespace::LevelCollectionTableView*, GlobalNamespace::IPreviewBeatmapLevel*>*)>(&GlobalNamespace::LevelCollectionTableView::add_didSelectLevelEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelCollectionTableView*), "add_didSelectLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::LevelCollectionTableView*, GlobalNamespace::IPreviewBeatmapLevel*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCollectionTableView*), "add_didSelectLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::LevelCollectionTableView*, GlobalNamespace::IPreviewBeatmapLevel*>*>()});
   }
 };
-// Writing MetadataGetter for method: LevelCollectionTableView::remove_didSelectLevelEvent
+// Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::remove_didSelectLevelEvent
 // Il2CppName: remove_didSelectLevelEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionTableView::*)(System::Action_2<GlobalNamespace::LevelCollectionTableView*, GlobalNamespace::IPreviewBeatmapLevel*>*)>(&LevelCollectionTableView::remove_didSelectLevelEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionTableView::*)(System::Action_2<GlobalNamespace::LevelCollectionTableView*, GlobalNamespace::IPreviewBeatmapLevel*>*)>(&GlobalNamespace::LevelCollectionTableView::remove_didSelectLevelEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelCollectionTableView*), "remove_didSelectLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::LevelCollectionTableView*, GlobalNamespace::IPreviewBeatmapLevel*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCollectionTableView*), "remove_didSelectLevelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::LevelCollectionTableView*, GlobalNamespace::IPreviewBeatmapLevel*>*>()});
   }
 };
-// Writing MetadataGetter for method: LevelCollectionTableView::add_didSelectHeaderEvent
+// Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::add_didSelectHeaderEvent
 // Il2CppName: add_didSelectHeaderEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionTableView::*)(System::Action_1<GlobalNamespace::LevelCollectionTableView*>*)>(&LevelCollectionTableView::add_didSelectHeaderEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionTableView::*)(System::Action_1<GlobalNamespace::LevelCollectionTableView*>*)>(&GlobalNamespace::LevelCollectionTableView::add_didSelectHeaderEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelCollectionTableView*), "add_didSelectHeaderEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::LevelCollectionTableView*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCollectionTableView*), "add_didSelectHeaderEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::LevelCollectionTableView*>*>()});
   }
 };
-// Writing MetadataGetter for method: LevelCollectionTableView::remove_didSelectHeaderEvent
+// Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::remove_didSelectHeaderEvent
 // Il2CppName: remove_didSelectHeaderEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionTableView::*)(System::Action_1<GlobalNamespace::LevelCollectionTableView*>*)>(&LevelCollectionTableView::remove_didSelectHeaderEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionTableView::*)(System::Action_1<GlobalNamespace::LevelCollectionTableView*>*)>(&GlobalNamespace::LevelCollectionTableView::remove_didSelectHeaderEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelCollectionTableView*), "remove_didSelectHeaderEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::LevelCollectionTableView*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCollectionTableView*), "remove_didSelectHeaderEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::LevelCollectionTableView*>*>()});
   }
 };
-// Writing MetadataGetter for method: LevelCollectionTableView::Init
+// Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionTableView::*)(::Il2CppString*, UnityEngine::Sprite*)>(&LevelCollectionTableView::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionTableView::*)(::Il2CppString*, UnityEngine::Sprite*)>(&GlobalNamespace::LevelCollectionTableView::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelCollectionTableView*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCollectionTableView*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>()});
   }
 };
-// Writing MetadataGetter for method: LevelCollectionTableView::Init
+// Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionTableView::*)()>(&LevelCollectionTableView::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionTableView::*)()>(&GlobalNamespace::LevelCollectionTableView::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelCollectionTableView*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCollectionTableView*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LevelCollectionTableView::SetData
+// Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::SetData
 // Il2CppName: SetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionTableView::*)(::Array<GlobalNamespace::IPreviewBeatmapLevel*>*, System::Collections::Generic::HashSet_1<::Il2CppString*>*, bool)>(&LevelCollectionTableView::SetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionTableView::*)(::Array<GlobalNamespace::IPreviewBeatmapLevel*>*, System::Collections::Generic::HashSet_1<::Il2CppString*>*, bool)>(&GlobalNamespace::LevelCollectionTableView::SetData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelCollectionTableView*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::IPreviewBeatmapLevel*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCollectionTableView*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::IPreviewBeatmapLevel*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: LevelCollectionTableView::RefreshFavorites
+// Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::RefreshFavorites
 // Il2CppName: RefreshFavorites
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionTableView::*)(System::Collections::Generic::HashSet_1<::Il2CppString*>*)>(&LevelCollectionTableView::RefreshFavorites)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionTableView::*)(System::Collections::Generic::HashSet_1<::Il2CppString*>*)>(&GlobalNamespace::LevelCollectionTableView::RefreshFavorites)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelCollectionTableView*), "RefreshFavorites", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCollectionTableView*), "RefreshFavorites", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: LevelCollectionTableView::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionTableView::*)()>(&LevelCollectionTableView::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionTableView::*)()>(&GlobalNamespace::LevelCollectionTableView::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelCollectionTableView*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCollectionTableView*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LevelCollectionTableView::OnDisable
+// Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionTableView::*)()>(&LevelCollectionTableView::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionTableView::*)()>(&GlobalNamespace::LevelCollectionTableView::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelCollectionTableView*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCollectionTableView*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LevelCollectionTableView::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionTableView::*)()>(&LevelCollectionTableView::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionTableView::*)()>(&GlobalNamespace::LevelCollectionTableView::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelCollectionTableView*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCollectionTableView*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LevelCollectionTableView::CellSize
+// Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::CellSize
 // Il2CppName: CellSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (LevelCollectionTableView::*)()>(&LevelCollectionTableView::CellSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::LevelCollectionTableView::*)()>(&GlobalNamespace::LevelCollectionTableView::CellSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelCollectionTableView*), "CellSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCollectionTableView*), "CellSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LevelCollectionTableView::NumberOfCells
+// Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::NumberOfCells
 // Il2CppName: NumberOfCells
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LevelCollectionTableView::*)()>(&LevelCollectionTableView::NumberOfCells)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::LevelCollectionTableView::*)()>(&GlobalNamespace::LevelCollectionTableView::NumberOfCells)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelCollectionTableView*), "NumberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCollectionTableView*), "NumberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LevelCollectionTableView::CellForIdx
+// Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::CellForIdx
 // Il2CppName: CellForIdx
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (LevelCollectionTableView::*)(HMUI::TableView*, int)>(&LevelCollectionTableView::CellForIdx)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (GlobalNamespace::LevelCollectionTableView::*)(HMUI::TableView*, int)>(&GlobalNamespace::LevelCollectionTableView::CellForIdx)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelCollectionTableView*), "CellForIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCollectionTableView*), "CellForIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LevelCollectionTableView::HandleDidSelectRowEvent
+// Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::HandleDidSelectRowEvent
 // Il2CppName: HandleDidSelectRowEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionTableView::*)(HMUI::TableView*, int)>(&LevelCollectionTableView::HandleDidSelectRowEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionTableView::*)(HMUI::TableView*, int)>(&GlobalNamespace::LevelCollectionTableView::HandleDidSelectRowEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelCollectionTableView*), "HandleDidSelectRowEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCollectionTableView*), "HandleDidSelectRowEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LevelCollectionTableView::HandleAdditionalContentModelDidInvalidateData
+// Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::HandleAdditionalContentModelDidInvalidateData
 // Il2CppName: HandleAdditionalContentModelDidInvalidateData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionTableView::*)()>(&LevelCollectionTableView::HandleAdditionalContentModelDidInvalidateData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionTableView::*)()>(&GlobalNamespace::LevelCollectionTableView::HandleAdditionalContentModelDidInvalidateData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelCollectionTableView*), "HandleAdditionalContentModelDidInvalidateData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCollectionTableView*), "HandleAdditionalContentModelDidInvalidateData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LevelCollectionTableView::CancelAsyncOperations
+// Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::CancelAsyncOperations
 // Il2CppName: CancelAsyncOperations
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionTableView::*)()>(&LevelCollectionTableView::CancelAsyncOperations)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionTableView::*)()>(&GlobalNamespace::LevelCollectionTableView::CancelAsyncOperations)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelCollectionTableView*), "CancelAsyncOperations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCollectionTableView*), "CancelAsyncOperations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LevelCollectionTableView::RefreshLevelsAvailability
+// Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::RefreshLevelsAvailability
 // Il2CppName: RefreshLevelsAvailability
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionTableView::*)()>(&LevelCollectionTableView::RefreshLevelsAvailability)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionTableView::*)()>(&GlobalNamespace::LevelCollectionTableView::RefreshLevelsAvailability)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelCollectionTableView*), "RefreshLevelsAvailability", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCollectionTableView*), "RefreshLevelsAvailability", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LevelCollectionTableView::SelectLevelPackHeaderCell
+// Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::SelectLevelPackHeaderCell
 // Il2CppName: SelectLevelPackHeaderCell
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionTableView::*)()>(&LevelCollectionTableView::SelectLevelPackHeaderCell)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionTableView::*)()>(&GlobalNamespace::LevelCollectionTableView::SelectLevelPackHeaderCell)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelCollectionTableView*), "SelectLevelPackHeaderCell", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCollectionTableView*), "SelectLevelPackHeaderCell", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LevelCollectionTableView::ClearSelection
+// Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::ClearSelection
 // Il2CppName: ClearSelection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionTableView::*)()>(&LevelCollectionTableView::ClearSelection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionTableView::*)()>(&GlobalNamespace::LevelCollectionTableView::ClearSelection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelCollectionTableView*), "ClearSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCollectionTableView*), "ClearSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LevelCollectionTableView::SelectLevel
+// Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::SelectLevel
 // Il2CppName: SelectLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionTableView::*)(GlobalNamespace::IPreviewBeatmapLevel*)>(&LevelCollectionTableView::SelectLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionTableView::*)(GlobalNamespace::IPreviewBeatmapLevel*)>(&GlobalNamespace::LevelCollectionTableView::SelectLevel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelCollectionTableView*), "SelectLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCollectionTableView*), "SelectLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>()});
   }
 };
-// Writing MetadataGetter for method: LevelCollectionTableView::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionTableView::*)()>(&LevelCollectionTableView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionTableView::*)()>(&GlobalNamespace::LevelCollectionTableView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelCollectionTableView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCollectionTableView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelCollectionTableView::*)()>(&LevelCollectionTableView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionTableView::*)()>(&GlobalNamespace::LevelCollectionTableView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelCollectionTableView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCollectionTableView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

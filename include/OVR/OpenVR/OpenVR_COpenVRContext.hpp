@@ -189,137 +189,137 @@ namespace OVR::OpenVR {
   static_assert(sizeof(OpenVR::COpenVRContext) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::OpenVR::COpenVRContext*, "OVR.OpenVR", "OpenVR/COpenVRContext");
-// Writing MetadataGetter for method: OpenVR::COpenVRContext::Clear
+// Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::Clear
 // Il2CppName: Clear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OpenVR::COpenVRContext::*)()>(&OpenVR::COpenVRContext::Clear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::Clear)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OpenVR::COpenVRContext*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::OpenVR::COpenVRContext*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OpenVR::COpenVRContext::CheckClear
+// Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::CheckClear
 // Il2CppName: CheckClear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OpenVR::COpenVRContext::*)()>(&OpenVR::COpenVRContext::CheckClear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::CheckClear)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OpenVR::COpenVRContext*), "CheckClear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::OpenVR::COpenVRContext*), "CheckClear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OpenVR::COpenVRContext::VRSystem
+// Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::VRSystem
 // Il2CppName: VRSystem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRSystem* (OpenVR::COpenVRContext::*)()>(&OpenVR::COpenVRContext::VRSystem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRSystem* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRSystem)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OpenVR::COpenVRContext*), "VRSystem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::OpenVR::COpenVRContext*), "VRSystem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OpenVR::COpenVRContext::VRChaperone
+// Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::VRChaperone
 // Il2CppName: VRChaperone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRChaperone* (OpenVR::COpenVRContext::*)()>(&OpenVR::COpenVRContext::VRChaperone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRChaperone* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRChaperone)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OpenVR::COpenVRContext*), "VRChaperone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::OpenVR::COpenVRContext*), "VRChaperone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OpenVR::COpenVRContext::VRChaperoneSetup
+// Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::VRChaperoneSetup
 // Il2CppName: VRChaperoneSetup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRChaperoneSetup* (OpenVR::COpenVRContext::*)()>(&OpenVR::COpenVRContext::VRChaperoneSetup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRChaperoneSetup* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRChaperoneSetup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OpenVR::COpenVRContext*), "VRChaperoneSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::OpenVR::COpenVRContext*), "VRChaperoneSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OpenVR::COpenVRContext::VRCompositor
+// Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::VRCompositor
 // Il2CppName: VRCompositor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRCompositor* (OpenVR::COpenVRContext::*)()>(&OpenVR::COpenVRContext::VRCompositor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRCompositor* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRCompositor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OpenVR::COpenVRContext*), "VRCompositor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::OpenVR::COpenVRContext*), "VRCompositor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OpenVR::COpenVRContext::VROverlay
+// Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::VROverlay
 // Il2CppName: VROverlay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVROverlay* (OpenVR::COpenVRContext::*)()>(&OpenVR::COpenVRContext::VROverlay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVROverlay* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VROverlay)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OpenVR::COpenVRContext*), "VROverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::OpenVR::COpenVRContext*), "VROverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OpenVR::COpenVRContext::VRRenderModels
+// Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::VRRenderModels
 // Il2CppName: VRRenderModels
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRRenderModels* (OpenVR::COpenVRContext::*)()>(&OpenVR::COpenVRContext::VRRenderModels)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRRenderModels* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRRenderModels)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OpenVR::COpenVRContext*), "VRRenderModels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::OpenVR::COpenVRContext*), "VRRenderModels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OpenVR::COpenVRContext::VRExtendedDisplay
+// Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::VRExtendedDisplay
 // Il2CppName: VRExtendedDisplay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRExtendedDisplay* (OpenVR::COpenVRContext::*)()>(&OpenVR::COpenVRContext::VRExtendedDisplay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRExtendedDisplay* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRExtendedDisplay)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OpenVR::COpenVRContext*), "VRExtendedDisplay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::OpenVR::COpenVRContext*), "VRExtendedDisplay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OpenVR::COpenVRContext::VRSettings
+// Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::VRSettings
 // Il2CppName: VRSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRSettings* (OpenVR::COpenVRContext::*)()>(&OpenVR::COpenVRContext::VRSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRSettings* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRSettings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OpenVR::COpenVRContext*), "VRSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::OpenVR::COpenVRContext*), "VRSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OpenVR::COpenVRContext::VRApplications
+// Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::VRApplications
 // Il2CppName: VRApplications
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRApplications* (OpenVR::COpenVRContext::*)()>(&OpenVR::COpenVRContext::VRApplications)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRApplications* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRApplications)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OpenVR::COpenVRContext*), "VRApplications", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::OpenVR::COpenVRContext*), "VRApplications", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OpenVR::COpenVRContext::VRScreenshots
+// Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::VRScreenshots
 // Il2CppName: VRScreenshots
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRScreenshots* (OpenVR::COpenVRContext::*)()>(&OpenVR::COpenVRContext::VRScreenshots)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRScreenshots* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRScreenshots)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OpenVR::COpenVRContext*), "VRScreenshots", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::OpenVR::COpenVRContext*), "VRScreenshots", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OpenVR::COpenVRContext::VRTrackedCamera
+// Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::VRTrackedCamera
 // Il2CppName: VRTrackedCamera
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRTrackedCamera* (OpenVR::COpenVRContext::*)()>(&OpenVR::COpenVRContext::VRTrackedCamera)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRTrackedCamera* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRTrackedCamera)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OpenVR::COpenVRContext*), "VRTrackedCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::OpenVR::COpenVRContext*), "VRTrackedCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OpenVR::COpenVRContext::VRInput
+// Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::VRInput
 // Il2CppName: VRInput
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRInput* (OpenVR::COpenVRContext::*)()>(&OpenVR::COpenVRContext::VRInput)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRInput* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRInput)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OpenVR::COpenVRContext*), "VRInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::OpenVR::COpenVRContext*), "VRInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OpenVR::COpenVRContext::VRSpatialAnchors
+// Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::VRSpatialAnchors
 // Il2CppName: VRSpatialAnchors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRSpatialAnchors* (OpenVR::COpenVRContext::*)()>(&OpenVR::COpenVRContext::VRSpatialAnchors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::CVRSpatialAnchors* (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::VRSpatialAnchors)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OpenVR::COpenVRContext*), "VRSpatialAnchors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::OpenVR::COpenVRContext*), "VRSpatialAnchors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OpenVR::COpenVRContext::New_ctor
+// Writing MetadataGetter for method: OVR::OpenVR::OpenVR::COpenVRContext::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OpenVR::COpenVRContext::*)()>(&OpenVR::COpenVRContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OpenVR::COpenVRContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::OpenVR::COpenVRContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OpenVR::COpenVRContext::*)()>(&OpenVR::COpenVRContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::OpenVR::COpenVRContext::*)()>(&OVR::OpenVR::OpenVR::COpenVRContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OpenVR::COpenVRContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::OpenVR::COpenVRContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

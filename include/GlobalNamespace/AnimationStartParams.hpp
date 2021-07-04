@@ -69,25 +69,25 @@ namespace GlobalNamespace {
   static_assert(sizeof(AnimationStartParams) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnimationStartParams*, "", "AnimationStartParams");
-// Writing MetadataGetter for method: AnimationStartParams::Start
+// Writing MetadataGetter for method: GlobalNamespace::AnimationStartParams::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationStartParams::*)()>(&AnimationStartParams::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnimationStartParams::*)()>(&GlobalNamespace::AnimationStartParams::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationStartParams*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnimationStartParams*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AnimationStartParams::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::AnimationStartParams::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationStartParams::*)()>(&AnimationStartParams::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnimationStartParams::*)()>(&GlobalNamespace::AnimationStartParams::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationStartParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnimationStartParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationStartParams::*)()>(&AnimationStartParams::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnimationStartParams::*)()>(&GlobalNamespace::AnimationStartParams::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationStartParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnimationStartParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

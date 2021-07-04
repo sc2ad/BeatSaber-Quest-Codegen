@@ -64,33 +64,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomPrePassGraphicsSettingsPresetsSO) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO*, "", "BloomPrePassGraphicsSettingsPresetsSO");
-// Writing MetadataGetter for method: BloomPrePassGraphicsSettingsPresetsSO::get_presets
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::get_presets
 // Il2CppName: get_presets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::Preset*>* (BloomPrePassGraphicsSettingsPresetsSO::*)()>(&BloomPrePassGraphicsSettingsPresetsSO::get_presets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::Preset*>* (GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::*)()>(&GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::get_presets)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassGraphicsSettingsPresetsSO*), "get_presets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO*), "get_presets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomPrePassGraphicsSettingsPresetsSO::get_namedPresets
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::get_namedPresets
 // Il2CppName: get_namedPresets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::NamedPreset*>* (BloomPrePassGraphicsSettingsPresetsSO::*)()>(&BloomPrePassGraphicsSettingsPresetsSO::get_namedPresets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::NamedPreset*>* (GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::*)()>(&GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::get_namedPresets)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassGraphicsSettingsPresetsSO*), "get_namedPresets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO*), "get_namedPresets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomPrePassGraphicsSettingsPresetsSO::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassGraphicsSettingsPresetsSO::*)()>(&BloomPrePassGraphicsSettingsPresetsSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::*)()>(&GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassGraphicsSettingsPresetsSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassGraphicsSettingsPresetsSO::*)()>(&BloomPrePassGraphicsSettingsPresetsSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::*)()>(&GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassGraphicsSettingsPresetsSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

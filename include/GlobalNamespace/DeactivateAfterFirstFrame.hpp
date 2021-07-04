@@ -52,25 +52,25 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DeactivateAfterFirstFrame*, "", "DeactivateAfterFirstFrame");
-// Writing MetadataGetter for method: DeactivateAfterFirstFrame::Start
+// Writing MetadataGetter for method: GlobalNamespace::DeactivateAfterFirstFrame::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (DeactivateAfterFirstFrame::*)()>(&DeactivateAfterFirstFrame::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::DeactivateAfterFirstFrame::*)()>(&GlobalNamespace::DeactivateAfterFirstFrame::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeactivateAfterFirstFrame*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DeactivateAfterFirstFrame*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DeactivateAfterFirstFrame::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::DeactivateAfterFirstFrame::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeactivateAfterFirstFrame::*)()>(&DeactivateAfterFirstFrame::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DeactivateAfterFirstFrame::*)()>(&GlobalNamespace::DeactivateAfterFirstFrame::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeactivateAfterFirstFrame*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DeactivateAfterFirstFrame*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeactivateAfterFirstFrame::*)()>(&DeactivateAfterFirstFrame::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DeactivateAfterFirstFrame::*)()>(&GlobalNamespace::DeactivateAfterFirstFrame::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeactivateAfterFirstFrame*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DeactivateAfterFirstFrame*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

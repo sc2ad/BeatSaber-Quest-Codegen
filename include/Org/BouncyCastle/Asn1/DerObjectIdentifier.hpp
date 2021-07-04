@@ -143,181 +143,181 @@ namespace Org::BouncyCastle::Asn1 {
   static_assert(sizeof(DerObjectIdentifier) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerObjectIdentifier*, "Org.BouncyCastle.Asn1", "DerObjectIdentifier");
-// Writing MetadataGetter for method: DerObjectIdentifier::GetInstance
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::GetInstance
 // Il2CppName: GetInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerObjectIdentifier* (*)(::Il2CppObject*)>(&DerObjectIdentifier::GetInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerObjectIdentifier* (*)(::Il2CppObject*)>(&Org::BouncyCastle::Asn1::DerObjectIdentifier::GetInstance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerObjectIdentifier*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerObjectIdentifier*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: DerObjectIdentifier::GetInstance
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::GetInstance
 // Il2CppName: GetInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerObjectIdentifier* (*)(Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(&DerObjectIdentifier::GetInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerObjectIdentifier* (*)(Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(&Org::BouncyCastle::Asn1::DerObjectIdentifier::GetInstance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerObjectIdentifier*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1TaggedObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerObjectIdentifier*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1TaggedObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: DerObjectIdentifier::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerObjectIdentifier::*)(::Il2CppString*)>(&DerObjectIdentifier::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::DerObjectIdentifier::*)(::Il2CppString*)>(&Org::BouncyCastle::Asn1::DerObjectIdentifier::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerObjectIdentifier*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerObjectIdentifier*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerObjectIdentifier::*)(::Il2CppString*)>(&DerObjectIdentifier::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::DerObjectIdentifier::*)(::Il2CppString*)>(&Org::BouncyCastle::Asn1::DerObjectIdentifier::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerObjectIdentifier*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerObjectIdentifier*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: DerObjectIdentifier::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerObjectIdentifier::*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Il2CppString*)>(&DerObjectIdentifier::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::DerObjectIdentifier::*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Il2CppString*)>(&Org::BouncyCastle::Asn1::DerObjectIdentifier::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerObjectIdentifier*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerObjectIdentifier*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerObjectIdentifier::*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Il2CppString*)>(&DerObjectIdentifier::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::DerObjectIdentifier::*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Il2CppString*)>(&Org::BouncyCastle::Asn1::DerObjectIdentifier::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerObjectIdentifier*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerObjectIdentifier*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: DerObjectIdentifier::get_Id
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::get_Id
 // Il2CppName: get_Id
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DerObjectIdentifier::*)()>(&DerObjectIdentifier::get_Id)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Asn1::DerObjectIdentifier::*)()>(&Org::BouncyCastle::Asn1::DerObjectIdentifier::get_Id)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerObjectIdentifier*), "get_Id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerObjectIdentifier*), "get_Id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DerObjectIdentifier::Branch
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::Branch
 // Il2CppName: Branch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerObjectIdentifier* (DerObjectIdentifier::*)(::Il2CppString*)>(&DerObjectIdentifier::Branch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerObjectIdentifier* (Org::BouncyCastle::Asn1::DerObjectIdentifier::*)(::Il2CppString*)>(&Org::BouncyCastle::Asn1::DerObjectIdentifier::Branch)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerObjectIdentifier*), "Branch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerObjectIdentifier*), "Branch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: DerObjectIdentifier::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerObjectIdentifier::*)(::Array<uint8_t>*)>(&DerObjectIdentifier::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::DerObjectIdentifier::*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Asn1::DerObjectIdentifier::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerObjectIdentifier*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerObjectIdentifier*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerObjectIdentifier::*)(::Array<uint8_t>*)>(&DerObjectIdentifier::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::DerObjectIdentifier::*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Asn1::DerObjectIdentifier::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerObjectIdentifier*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerObjectIdentifier*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: DerObjectIdentifier::WriteField
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::WriteField
 // Il2CppName: WriteField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerObjectIdentifier::*)(System::IO::Stream*, int64_t)>(&DerObjectIdentifier::WriteField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::DerObjectIdentifier::*)(System::IO::Stream*, int64_t)>(&Org::BouncyCastle::Asn1::DerObjectIdentifier::WriteField)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerObjectIdentifier*), "WriteField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerObjectIdentifier*), "WriteField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
   }
 };
-// Writing MetadataGetter for method: DerObjectIdentifier::WriteField
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::WriteField
 // Il2CppName: WriteField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerObjectIdentifier::*)(System::IO::Stream*, Org::BouncyCastle::Math::BigInteger*)>(&DerObjectIdentifier::WriteField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::DerObjectIdentifier::*)(System::IO::Stream*, Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Asn1::DerObjectIdentifier::WriteField)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerObjectIdentifier*), "WriteField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerObjectIdentifier*), "WriteField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::BigInteger*>()});
   }
 };
-// Writing MetadataGetter for method: DerObjectIdentifier::DoOutput
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::DoOutput
 // Il2CppName: DoOutput
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerObjectIdentifier::*)(System::IO::MemoryStream*)>(&DerObjectIdentifier::DoOutput)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::DerObjectIdentifier::*)(System::IO::MemoryStream*)>(&Org::BouncyCastle::Asn1::DerObjectIdentifier::DoOutput)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerObjectIdentifier*), "DoOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::MemoryStream*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerObjectIdentifier*), "DoOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::MemoryStream*>()});
   }
 };
-// Writing MetadataGetter for method: DerObjectIdentifier::GetBody
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::GetBody
 // Il2CppName: GetBody
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (DerObjectIdentifier::*)()>(&DerObjectIdentifier::GetBody)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Asn1::DerObjectIdentifier::*)()>(&Org::BouncyCastle::Asn1::DerObjectIdentifier::GetBody)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerObjectIdentifier*), "GetBody", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerObjectIdentifier*), "GetBody", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DerObjectIdentifier::IsValidBranchID
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::IsValidBranchID
 // Il2CppName: IsValidBranchID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int)>(&DerObjectIdentifier::IsValidBranchID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int)>(&Org::BouncyCastle::Asn1::DerObjectIdentifier::IsValidBranchID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerObjectIdentifier*), "IsValidBranchID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerObjectIdentifier*), "IsValidBranchID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: DerObjectIdentifier::IsValidIdentifier
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::IsValidIdentifier
 // Il2CppName: IsValidIdentifier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&DerObjectIdentifier::IsValidIdentifier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Org::BouncyCastle::Asn1::DerObjectIdentifier::IsValidIdentifier)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerObjectIdentifier*), "IsValidIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerObjectIdentifier*), "IsValidIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: DerObjectIdentifier::MakeOidStringFromBytes
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::MakeOidStringFromBytes
 // Il2CppName: MakeOidStringFromBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<uint8_t>*)>(&DerObjectIdentifier::MakeOidStringFromBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Asn1::DerObjectIdentifier::MakeOidStringFromBytes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerObjectIdentifier*), "MakeOidStringFromBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerObjectIdentifier*), "MakeOidStringFromBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: DerObjectIdentifier::FromOctetString
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::FromOctetString
 // Il2CppName: FromOctetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerObjectIdentifier* (*)(::Array<uint8_t>*)>(&DerObjectIdentifier::FromOctetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerObjectIdentifier* (*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Asn1::DerObjectIdentifier::FromOctetString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerObjectIdentifier*), "FromOctetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerObjectIdentifier*), "FromOctetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: DerObjectIdentifier::_cctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&DerObjectIdentifier::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::Asn1::DerObjectIdentifier::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerObjectIdentifier*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerObjectIdentifier*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DerObjectIdentifier::Encode
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::Encode
 // Il2CppName: Encode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerObjectIdentifier::*)(Org::BouncyCastle::Asn1::DerOutputStream*)>(&DerObjectIdentifier::Encode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::DerObjectIdentifier::*)(Org::BouncyCastle::Asn1::DerOutputStream*)>(&Org::BouncyCastle::Asn1::DerObjectIdentifier::Encode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerObjectIdentifier*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerOutputStream*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerObjectIdentifier*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerOutputStream*>()});
   }
 };
-// Writing MetadataGetter for method: DerObjectIdentifier::Asn1GetHashCode
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::Asn1GetHashCode
 // Il2CppName: Asn1GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DerObjectIdentifier::*)()>(&DerObjectIdentifier::Asn1GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Asn1::DerObjectIdentifier::*)()>(&Org::BouncyCastle::Asn1::DerObjectIdentifier::Asn1GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerObjectIdentifier*), "Asn1GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerObjectIdentifier*), "Asn1GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DerObjectIdentifier::Asn1Equals
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::Asn1Equals
 // Il2CppName: Asn1Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DerObjectIdentifier::*)(Org::BouncyCastle::Asn1::Asn1Object*)>(&DerObjectIdentifier::Asn1Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Asn1::DerObjectIdentifier::*)(Org::BouncyCastle::Asn1::Asn1Object*)>(&Org::BouncyCastle::Asn1::DerObjectIdentifier::Asn1Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerObjectIdentifier*), "Asn1Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Object*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerObjectIdentifier*), "Asn1Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Object*>()});
   }
 };
-// Writing MetadataGetter for method: DerObjectIdentifier::ToString
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerObjectIdentifier::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DerObjectIdentifier::*)()>(&DerObjectIdentifier::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Asn1::DerObjectIdentifier::*)()>(&Org::BouncyCastle::Asn1::DerObjectIdentifier::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerObjectIdentifier*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerObjectIdentifier*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

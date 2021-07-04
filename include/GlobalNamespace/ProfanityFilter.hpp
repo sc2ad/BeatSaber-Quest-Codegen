@@ -65,41 +65,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(ProfanityFilter) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ProfanityFilter*, "", "ProfanityFilter");
-// Writing MetadataGetter for method: ProfanityFilter::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::ProfanityFilter::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProfanityFilter::*)(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*)>(&ProfanityFilter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ProfanityFilter::*)(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*)>(&GlobalNamespace::ProfanityFilter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProfanityFilter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ProfanityFilter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProfanityFilter::*)(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*)>(&ProfanityFilter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ProfanityFilter::*)(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*)>(&GlobalNamespace::ProfanityFilter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProfanityFilter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ProfanityFilter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: ProfanityFilter::IsProfane
+// Writing MetadataGetter for method: GlobalNamespace::ProfanityFilter::IsProfane
 // Il2CppName: IsProfane
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ProfanityFilter::*)(::Il2CppString*)>(&ProfanityFilter::IsProfane)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ProfanityFilter::*)(::Il2CppString*)>(&GlobalNamespace::ProfanityFilter::IsProfane)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProfanityFilter*), "IsProfane", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ProfanityFilter*), "IsProfane", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: ProfanityFilter::GetLookalikeLetters
+// Writing MetadataGetter for method: GlobalNamespace::ProfanityFilter::GetLookalikeLetters
 // Il2CppName: GetLookalikeLetters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppChar>* (*)(::Il2CppChar)>(&ProfanityFilter::GetLookalikeLetters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppChar>* (*)(::Il2CppChar)>(&GlobalNamespace::ProfanityFilter::GetLookalikeLetters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProfanityFilter*), "GetLookalikeLetters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ProfanityFilter*), "GetLookalikeLetters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
   }
 };
-// Writing MetadataGetter for method: ProfanityFilter::GetLeetEquivalent
+// Writing MetadataGetter for method: GlobalNamespace::ProfanityFilter::GetLeetEquivalent
 // Il2CppName: GetLeetEquivalent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::Il2CppChar)>(&ProfanityFilter::GetLeetEquivalent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::Il2CppChar)>(&GlobalNamespace::ProfanityFilter::GetLeetEquivalent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProfanityFilter*), "GetLeetEquivalent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ProfanityFilter*), "GetLeetEquivalent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
   }
 };

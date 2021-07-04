@@ -56,41 +56,41 @@ namespace LiteNetLib {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::EventBasedNetListener::OnConnectionRequest*, "LiteNetLib", "EventBasedNetListener/OnConnectionRequest");
-// Writing MetadataGetter for method: EventBasedNetListener::OnConnectionRequest::New_ctor
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::OnConnectionRequest::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::OnConnectionRequest::*)(::Il2CppObject*, System::IntPtr)>(&EventBasedNetListener::OnConnectionRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::OnConnectionRequest::*)(::Il2CppObject*, System::IntPtr)>(&LiteNetLib::EventBasedNetListener::OnConnectionRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener::OnConnectionRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener::OnConnectionRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::OnConnectionRequest::*)(::Il2CppObject*, System::IntPtr)>(&EventBasedNetListener::OnConnectionRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::OnConnectionRequest::*)(::Il2CppObject*, System::IntPtr)>(&LiteNetLib::EventBasedNetListener::OnConnectionRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener::OnConnectionRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener::OnConnectionRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::OnConnectionRequest::Invoke
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::OnConnectionRequest::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::OnConnectionRequest::*)(LiteNetLib::ConnectionRequest*)>(&EventBasedNetListener::OnConnectionRequest::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::OnConnectionRequest::*)(LiteNetLib::ConnectionRequest*)>(&LiteNetLib::EventBasedNetListener::OnConnectionRequest::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener::OnConnectionRequest*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::ConnectionRequest*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener::OnConnectionRequest*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::ConnectionRequest*>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::OnConnectionRequest::BeginInvoke
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::OnConnectionRequest::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (EventBasedNetListener::OnConnectionRequest::*)(LiteNetLib::ConnectionRequest*, System::AsyncCallback*, ::Il2CppObject*)>(&EventBasedNetListener::OnConnectionRequest::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (LiteNetLib::EventBasedNetListener::OnConnectionRequest::*)(LiteNetLib::ConnectionRequest*, System::AsyncCallback*, ::Il2CppObject*)>(&LiteNetLib::EventBasedNetListener::OnConnectionRequest::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener::OnConnectionRequest*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::ConnectionRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener::OnConnectionRequest*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::ConnectionRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::OnConnectionRequest::EndInvoke
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::OnConnectionRequest::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::OnConnectionRequest::*)(System::IAsyncResult*)>(&EventBasedNetListener::OnConnectionRequest::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::OnConnectionRequest::*)(System::IAsyncResult*)>(&LiteNetLib::EventBasedNetListener::OnConnectionRequest::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener::OnConnectionRequest*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener::OnConnectionRequest*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

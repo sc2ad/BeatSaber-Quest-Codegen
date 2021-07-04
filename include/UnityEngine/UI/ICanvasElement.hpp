@@ -45,43 +45,43 @@ namespace UnityEngine::UI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ICanvasElement*, "UnityEngine.UI", "ICanvasElement");
-// Writing MetadataGetter for method: ICanvasElement::Rebuild
+// Writing MetadataGetter for method: UnityEngine::UI::ICanvasElement::Rebuild
 // Il2CppName: Rebuild
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ICanvasElement::*)(UnityEngine::UI::CanvasUpdate)>(&ICanvasElement::Rebuild)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ICanvasElement::*)(UnityEngine::UI::CanvasUpdate)>(&UnityEngine::UI::ICanvasElement::Rebuild)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ICanvasElement*), "Rebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::CanvasUpdate>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ICanvasElement*), "Rebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::CanvasUpdate>()});
   }
 };
-// Writing MetadataGetter for method: ICanvasElement::get_transform
+// Writing MetadataGetter for method: UnityEngine::UI::ICanvasElement::get_transform
 // Il2CppName: get_transform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (ICanvasElement::*)()>(&ICanvasElement::get_transform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (UnityEngine::UI::ICanvasElement::*)()>(&UnityEngine::UI::ICanvasElement::get_transform)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ICanvasElement*), "get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ICanvasElement*), "get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ICanvasElement::LayoutComplete
+// Writing MetadataGetter for method: UnityEngine::UI::ICanvasElement::LayoutComplete
 // Il2CppName: LayoutComplete
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ICanvasElement::*)()>(&ICanvasElement::LayoutComplete)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ICanvasElement::*)()>(&UnityEngine::UI::ICanvasElement::LayoutComplete)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ICanvasElement*), "LayoutComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ICanvasElement*), "LayoutComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ICanvasElement::GraphicUpdateComplete
+// Writing MetadataGetter for method: UnityEngine::UI::ICanvasElement::GraphicUpdateComplete
 // Il2CppName: GraphicUpdateComplete
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ICanvasElement::*)()>(&ICanvasElement::GraphicUpdateComplete)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ICanvasElement::*)()>(&UnityEngine::UI::ICanvasElement::GraphicUpdateComplete)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ICanvasElement*), "GraphicUpdateComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ICanvasElement*), "GraphicUpdateComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ICanvasElement::IsDestroyed
+// Writing MetadataGetter for method: UnityEngine::UI::ICanvasElement::IsDestroyed
 // Il2CppName: IsDestroyed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ICanvasElement::*)()>(&ICanvasElement::IsDestroyed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::ICanvasElement::*)()>(&UnityEngine::UI::ICanvasElement::IsDestroyed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ICanvasElement*), "IsDestroyed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ICanvasElement*), "IsDestroyed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -134,19 +134,19 @@ namespace System::Security::Cryptography {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CryptoStream::$WriteAsyncInternal$d__37, "System.Security.Cryptography", "CryptoStream/<WriteAsyncInternal>d__37");
-// Writing MetadataGetter for method: CryptoStream::$WriteAsyncInternal$d__37::MoveNext
+// Writing MetadataGetter for method: System::Security::Cryptography::CryptoStream::$WriteAsyncInternal$d__37::MoveNext
 // Il2CppName: MoveNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CryptoStream::$WriteAsyncInternal$d__37::*)()>(&CryptoStream::$WriteAsyncInternal$d__37::MoveNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::CryptoStream::$WriteAsyncInternal$d__37::*)()>(&System::Security::Cryptography::CryptoStream::$WriteAsyncInternal$d__37::MoveNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CryptoStream::$WriteAsyncInternal$d__37), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CryptoStream::$WriteAsyncInternal$d__37), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CryptoStream::$WriteAsyncInternal$d__37::SetStateMachine
+// Writing MetadataGetter for method: System::Security::Cryptography::CryptoStream::$WriteAsyncInternal$d__37::SetStateMachine
 // Il2CppName: SetStateMachine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CryptoStream::$WriteAsyncInternal$d__37::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&CryptoStream::$WriteAsyncInternal$d__37::SetStateMachine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::CryptoStream::$WriteAsyncInternal$d__37::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&System::Security::Cryptography::CryptoStream::$WriteAsyncInternal$d__37::SetStateMachine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CryptoStream::$WriteAsyncInternal$d__37), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CryptoStream::$WriteAsyncInternal$d__37), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
   }
 };

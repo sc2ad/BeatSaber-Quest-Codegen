@@ -179,121 +179,121 @@ namespace GlobalNamespace {
   static_assert(sizeof(SteamVR_ControllerManager) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_ControllerManager*, "", "SteamVR_ControllerManager");
-// Writing MetadataGetter for method: SteamVR_ControllerManager::SetUniqueObject
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_ControllerManager::SetUniqueObject
 // Il2CppName: SetUniqueObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_ControllerManager::*)(UnityEngine::GameObject*, int)>(&SteamVR_ControllerManager::SetUniqueObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_ControllerManager::*)(UnityEngine::GameObject*, int)>(&GlobalNamespace::SteamVR_ControllerManager::SetUniqueObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_ControllerManager*), "SetUniqueObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_ControllerManager*), "SetUniqueObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SteamVR_ControllerManager::UpdateTargets
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_ControllerManager::UpdateTargets
 // Il2CppName: UpdateTargets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_ControllerManager::*)()>(&SteamVR_ControllerManager::UpdateTargets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_ControllerManager::*)()>(&GlobalNamespace::SteamVR_ControllerManager::UpdateTargets)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_ControllerManager*), "UpdateTargets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_ControllerManager*), "UpdateTargets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SteamVR_ControllerManager::Awake
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_ControllerManager::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_ControllerManager::*)()>(&SteamVR_ControllerManager::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_ControllerManager::*)()>(&GlobalNamespace::SteamVR_ControllerManager::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_ControllerManager*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_ControllerManager*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SteamVR_ControllerManager::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_ControllerManager::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_ControllerManager::*)()>(&SteamVR_ControllerManager::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_ControllerManager::*)()>(&GlobalNamespace::SteamVR_ControllerManager::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_ControllerManager*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_ControllerManager*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SteamVR_ControllerManager::OnDisable
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_ControllerManager::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_ControllerManager::*)()>(&SteamVR_ControllerManager::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_ControllerManager::*)()>(&GlobalNamespace::SteamVR_ControllerManager::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_ControllerManager*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_ControllerManager*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SteamVR_ControllerManager::OnInputFocus
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_ControllerManager::OnInputFocus
 // Il2CppName: OnInputFocus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_ControllerManager::*)(bool)>(&SteamVR_ControllerManager::OnInputFocus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_ControllerManager::*)(bool)>(&GlobalNamespace::SteamVR_ControllerManager::OnInputFocus)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_ControllerManager*), "OnInputFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_ControllerManager*), "OnInputFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: SteamVR_ControllerManager::HideObject
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_ControllerManager::HideObject
 // Il2CppName: HideObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_ControllerManager::*)(UnityEngine::Transform*, ::Il2CppString*)>(&SteamVR_ControllerManager::HideObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_ControllerManager::*)(UnityEngine::Transform*, ::Il2CppString*)>(&GlobalNamespace::SteamVR_ControllerManager::HideObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_ControllerManager*), "HideObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_ControllerManager*), "HideObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: SteamVR_ControllerManager::ShowObject
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_ControllerManager::ShowObject
 // Il2CppName: ShowObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_ControllerManager::*)(UnityEngine::Transform*, ::Il2CppString*)>(&SteamVR_ControllerManager::ShowObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_ControllerManager::*)(UnityEngine::Transform*, ::Il2CppString*)>(&GlobalNamespace::SteamVR_ControllerManager::ShowObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_ControllerManager*), "ShowObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_ControllerManager*), "ShowObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: SteamVR_ControllerManager::SetTrackedDeviceIndex
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_ControllerManager::SetTrackedDeviceIndex
 // Il2CppName: SetTrackedDeviceIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_ControllerManager::*)(int, uint)>(&SteamVR_ControllerManager::SetTrackedDeviceIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_ControllerManager::*)(int, uint)>(&GlobalNamespace::SteamVR_ControllerManager::SetTrackedDeviceIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_ControllerManager*), "SetTrackedDeviceIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_ControllerManager*), "SetTrackedDeviceIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: SteamVR_ControllerManager::OnTrackedDeviceRoleChanged
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_ControllerManager::OnTrackedDeviceRoleChanged
 // Il2CppName: OnTrackedDeviceRoleChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_ControllerManager::*)(Valve::VR::VREvent_t)>(&SteamVR_ControllerManager::OnTrackedDeviceRoleChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_ControllerManager::*)(Valve::VR::VREvent_t)>(&GlobalNamespace::SteamVR_ControllerManager::OnTrackedDeviceRoleChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_ControllerManager*), "OnTrackedDeviceRoleChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::VREvent_t>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_ControllerManager*), "OnTrackedDeviceRoleChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::VREvent_t>()});
   }
 };
-// Writing MetadataGetter for method: SteamVR_ControllerManager::OnDeviceConnected
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_ControllerManager::OnDeviceConnected
 // Il2CppName: OnDeviceConnected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_ControllerManager::*)(int, bool)>(&SteamVR_ControllerManager::OnDeviceConnected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_ControllerManager::*)(int, bool)>(&GlobalNamespace::SteamVR_ControllerManager::OnDeviceConnected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_ControllerManager*), "OnDeviceConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_ControllerManager*), "OnDeviceConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: SteamVR_ControllerManager::Refresh
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_ControllerManager::Refresh
 // Il2CppName: Refresh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_ControllerManager::*)()>(&SteamVR_ControllerManager::Refresh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_ControllerManager::*)()>(&GlobalNamespace::SteamVR_ControllerManager::Refresh)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_ControllerManager*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_ControllerManager*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SteamVR_ControllerManager::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_ControllerManager::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_ControllerManager::*)()>(&SteamVR_ControllerManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_ControllerManager::*)()>(&GlobalNamespace::SteamVR_ControllerManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_ControllerManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_ControllerManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_ControllerManager::*)()>(&SteamVR_ControllerManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_ControllerManager::*)()>(&GlobalNamespace::SteamVR_ControllerManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_ControllerManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_ControllerManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SteamVR_ControllerManager::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_ControllerManager::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SteamVR_ControllerManager::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::SteamVR_ControllerManager::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_ControllerManager*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_ControllerManager*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

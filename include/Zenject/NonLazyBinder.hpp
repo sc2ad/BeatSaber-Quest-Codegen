@@ -47,33 +47,33 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::NonLazyBinder*, "Zenject", "NonLazyBinder");
-// Writing MetadataGetter for method: NonLazyBinder::NonLazy
+// Writing MetadataGetter for method: Zenject::NonLazyBinder::NonLazy
 // Il2CppName: NonLazy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IfNotBoundBinder* (NonLazyBinder::*)()>(&NonLazyBinder::NonLazy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IfNotBoundBinder* (Zenject::NonLazyBinder::*)()>(&Zenject::NonLazyBinder::NonLazy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NonLazyBinder*), "NonLazy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::NonLazyBinder*), "NonLazy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NonLazyBinder::Lazy
+// Writing MetadataGetter for method: Zenject::NonLazyBinder::Lazy
 // Il2CppName: Lazy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IfNotBoundBinder* (NonLazyBinder::*)()>(&NonLazyBinder::Lazy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IfNotBoundBinder* (Zenject::NonLazyBinder::*)()>(&Zenject::NonLazyBinder::Lazy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NonLazyBinder*), "Lazy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::NonLazyBinder*), "Lazy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NonLazyBinder::New_ctor
+// Writing MetadataGetter for method: Zenject::NonLazyBinder::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NonLazyBinder::*)(Zenject::BindInfo*)>(&NonLazyBinder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::NonLazyBinder::*)(Zenject::BindInfo*)>(&Zenject::NonLazyBinder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NonLazyBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::NonLazyBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NonLazyBinder::*)(Zenject::BindInfo*)>(&NonLazyBinder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::NonLazyBinder::*)(Zenject::BindInfo*)>(&Zenject::NonLazyBinder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NonLazyBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::NonLazyBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
   }
 };

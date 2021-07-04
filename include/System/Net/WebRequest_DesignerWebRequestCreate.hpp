@@ -49,25 +49,25 @@ namespace System::Net {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebRequest::DesignerWebRequestCreate*, "System.Net", "WebRequest/DesignerWebRequestCreate");
-// Writing MetadataGetter for method: WebRequest::DesignerWebRequestCreate::Create
+// Writing MetadataGetter for method: System::Net::WebRequest::DesignerWebRequestCreate::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebRequest* (WebRequest::DesignerWebRequestCreate::*)(System::Uri*)>(&WebRequest::DesignerWebRequestCreate::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebRequest* (System::Net::WebRequest::DesignerWebRequestCreate::*)(System::Uri*)>(&System::Net::WebRequest::DesignerWebRequestCreate::Create)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebRequest::DesignerWebRequestCreate*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebRequest::DesignerWebRequestCreate*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
   }
 };
-// Writing MetadataGetter for method: WebRequest::DesignerWebRequestCreate::New_ctor
+// Writing MetadataGetter for method: System::Net::WebRequest::DesignerWebRequestCreate::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebRequest::DesignerWebRequestCreate::*)()>(&WebRequest::DesignerWebRequestCreate::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebRequest::DesignerWebRequestCreate::*)()>(&System::Net::WebRequest::DesignerWebRequestCreate::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebRequest::DesignerWebRequestCreate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebRequest::DesignerWebRequestCreate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebRequest::DesignerWebRequestCreate::*)()>(&WebRequest::DesignerWebRequestCreate::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebRequest::DesignerWebRequestCreate::*)()>(&System::Net::WebRequest::DesignerWebRequestCreate::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebRequest::DesignerWebRequestCreate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebRequest::DesignerWebRequestCreate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

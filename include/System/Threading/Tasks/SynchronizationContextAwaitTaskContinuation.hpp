@@ -88,49 +88,49 @@ namespace System::Threading::Tasks {
   static_assert(sizeof(SynchronizationContextAwaitTaskContinuation) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation*, "System.Threading.Tasks", "SynchronizationContextAwaitTaskContinuation");
-// Writing MetadataGetter for method: SynchronizationContextAwaitTaskContinuation::New_ctor
+// Writing MetadataGetter for method: System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SynchronizationContextAwaitTaskContinuation::*)(System::Threading::SynchronizationContext*, System::Action*, bool, System::Threading::StackCrawlMark&)>(&SynchronizationContextAwaitTaskContinuation::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation::*)(System::Threading::SynchronizationContext*, System::Action*, bool, System::Threading::StackCrawlMark&)>(&System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SynchronizationContextAwaitTaskContinuation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::SynchronizationContext*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::StackCrawlMark&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::SynchronizationContext*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::StackCrawlMark&>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SynchronizationContextAwaitTaskContinuation::*)(System::Threading::SynchronizationContext*, System::Action*, bool, System::Threading::StackCrawlMark&)>(&SynchronizationContextAwaitTaskContinuation::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation::*)(System::Threading::SynchronizationContext*, System::Action*, bool, System::Threading::StackCrawlMark&)>(&System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SynchronizationContextAwaitTaskContinuation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::SynchronizationContext*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::StackCrawlMark&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::SynchronizationContext*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::StackCrawlMark&>()});
   }
 };
-// Writing MetadataGetter for method: SynchronizationContextAwaitTaskContinuation::PostAction
+// Writing MetadataGetter for method: System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation::PostAction
 // Il2CppName: PostAction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&SynchronizationContextAwaitTaskContinuation::PostAction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation::PostAction)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SynchronizationContextAwaitTaskContinuation*), "PostAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation*), "PostAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: SynchronizationContextAwaitTaskContinuation::GetPostActionCallback
+// Writing MetadataGetter for method: System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation::GetPostActionCallback
 // Il2CppName: GetPostActionCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ContextCallback* (*)()>(&SynchronizationContextAwaitTaskContinuation::GetPostActionCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ContextCallback* (*)()>(&System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation::GetPostActionCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SynchronizationContextAwaitTaskContinuation*), "GetPostActionCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation*), "GetPostActionCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SynchronizationContextAwaitTaskContinuation::_cctor
+// Writing MetadataGetter for method: System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SynchronizationContextAwaitTaskContinuation::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SynchronizationContextAwaitTaskContinuation*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SynchronizationContextAwaitTaskContinuation::Run
+// Writing MetadataGetter for method: System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation::Run
 // Il2CppName: Run
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SynchronizationContextAwaitTaskContinuation::*)(System::Threading::Tasks::Task*, bool)>(&SynchronizationContextAwaitTaskContinuation::Run)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation::*)(System::Threading::Tasks::Task*, bool)>(&System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation::Run)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SynchronizationContextAwaitTaskContinuation*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };

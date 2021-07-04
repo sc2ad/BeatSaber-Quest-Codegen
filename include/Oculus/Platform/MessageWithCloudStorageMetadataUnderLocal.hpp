@@ -47,33 +47,33 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithCloudStorageMetadataUnderLocal
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithCloudStorageMetadataUnderLocal*, "Oculus.Platform", "MessageWithCloudStorageMetadataUnderLocal");
-// Writing MetadataGetter for method: MessageWithCloudStorageMetadataUnderLocal::GetDataFromMessage
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithCloudStorageMetadataUnderLocal::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CloudStorageMetadata* (MessageWithCloudStorageMetadataUnderLocal::*)(System::IntPtr)>(&MessageWithCloudStorageMetadataUnderLocal::GetDataFromMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CloudStorageMetadata* (Oculus::Platform::MessageWithCloudStorageMetadataUnderLocal::*)(System::IntPtr)>(&Oculus::Platform::MessageWithCloudStorageMetadataUnderLocal::GetDataFromMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithCloudStorageMetadataUnderLocal*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithCloudStorageMetadataUnderLocal*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithCloudStorageMetadataUnderLocal::New_ctor
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithCloudStorageMetadataUnderLocal::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithCloudStorageMetadataUnderLocal::*)(System::IntPtr)>(&MessageWithCloudStorageMetadataUnderLocal::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithCloudStorageMetadataUnderLocal::*)(System::IntPtr)>(&Oculus::Platform::MessageWithCloudStorageMetadataUnderLocal::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithCloudStorageMetadataUnderLocal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithCloudStorageMetadataUnderLocal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithCloudStorageMetadataUnderLocal::*)(System::IntPtr)>(&MessageWithCloudStorageMetadataUnderLocal::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithCloudStorageMetadataUnderLocal::*)(System::IntPtr)>(&Oculus::Platform::MessageWithCloudStorageMetadataUnderLocal::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithCloudStorageMetadataUnderLocal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithCloudStorageMetadataUnderLocal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithCloudStorageMetadataUnderLocal::GetCloudStorageMetadata
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithCloudStorageMetadataUnderLocal::GetCloudStorageMetadata
 // Il2CppName: GetCloudStorageMetadata
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CloudStorageMetadata* (MessageWithCloudStorageMetadataUnderLocal::*)()>(&MessageWithCloudStorageMetadataUnderLocal::GetCloudStorageMetadata)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CloudStorageMetadata* (Oculus::Platform::MessageWithCloudStorageMetadataUnderLocal::*)()>(&Oculus::Platform::MessageWithCloudStorageMetadataUnderLocal::GetCloudStorageMetadata)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithCloudStorageMetadataUnderLocal*), "GetCloudStorageMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithCloudStorageMetadataUnderLocal*), "GetCloudStorageMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

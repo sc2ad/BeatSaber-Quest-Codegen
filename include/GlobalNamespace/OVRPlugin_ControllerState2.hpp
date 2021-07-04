@@ -117,17 +117,17 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRPlugin::ControllerState2) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::ControllerState2, "", "OVRPlugin/ControllerState2");
-// Writing MetadataGetter for method: OVRPlugin::ControllerState2::ControllerState2
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::ControllerState2::ControllerState2
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlugin::ControllerState2::*)(GlobalNamespace::OVRPlugin::ControllerState)>(&OVRPlugin::ControllerState2::ControllerState2<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRPlugin::ControllerState2::*)(GlobalNamespace::OVRPlugin::ControllerState)>(&GlobalNamespace::OVRPlugin::ControllerState2::ControllerState2<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::ControllerState2), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::ControllerState>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::ControllerState2), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::ControllerState>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlugin::ControllerState2::*)(GlobalNamespace::OVRPlugin::ControllerState)>(&OVRPlugin::ControllerState2::ControllerState2<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRPlugin::ControllerState2::*)(GlobalNamespace::OVRPlugin::ControllerState)>(&GlobalNamespace::OVRPlugin::ControllerState2::ControllerState2<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::ControllerState2), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::ControllerState>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::ControllerState2), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::ControllerState>()});
   }
 };

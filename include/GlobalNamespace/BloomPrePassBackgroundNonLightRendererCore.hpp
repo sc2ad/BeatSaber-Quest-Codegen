@@ -96,57 +96,57 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomPrePassBackgroundNonLightRendererCore) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore*, "", "BloomPrePassBackgroundNonLightRendererCore");
-// Writing MetadataGetter for method: BloomPrePassBackgroundNonLightRendererCore::get_renderer
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::get_renderer
 // Il2CppName: get_renderer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Renderer* (BloomPrePassBackgroundNonLightRendererCore::*)()>(&BloomPrePassBackgroundNonLightRendererCore::get_renderer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Renderer* (GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::*)()>(&GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::get_renderer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundNonLightRendererCore*), "get_renderer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore*), "get_renderer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomPrePassBackgroundNonLightRendererCore::InitIfNeeded
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::InitIfNeeded
 // Il2CppName: InitIfNeeded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassBackgroundNonLightRendererCore::*)()>(&BloomPrePassBackgroundNonLightRendererCore::InitIfNeeded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::*)()>(&GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::InitIfNeeded)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundNonLightRendererCore*), "InitIfNeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore*), "InitIfNeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomPrePassBackgroundNonLightRendererCore::Awake
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassBackgroundNonLightRendererCore::*)()>(&BloomPrePassBackgroundNonLightRendererCore::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::*)()>(&GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundNonLightRendererCore*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomPrePassBackgroundNonLightRendererCore::Render
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::Render
 // Il2CppName: Render
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassBackgroundNonLightRendererCore::*)(UnityEngine::RenderTexture*, UnityEngine::Matrix4x4, UnityEngine::Matrix4x4)>(&BloomPrePassBackgroundNonLightRendererCore::Render)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::*)(UnityEngine::RenderTexture*, UnityEngine::Matrix4x4, UnityEngine::Matrix4x4)>(&GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::Render)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundNonLightRendererCore*), "Render", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore*), "Render", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
   }
 };
-// Writing MetadataGetter for method: BloomPrePassBackgroundNonLightRendererCore::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassBackgroundNonLightRendererCore::*)()>(&BloomPrePassBackgroundNonLightRendererCore::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::*)()>(&GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundNonLightRendererCore*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassBackgroundNonLightRendererCore::*)()>(&BloomPrePassBackgroundNonLightRendererCore::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::*)()>(&GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundNonLightRendererCore*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomPrePassBackgroundNonLightRendererCore::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&BloomPrePassBackgroundNonLightRendererCore::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassBackgroundNonLightRendererCore*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

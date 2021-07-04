@@ -62,25 +62,25 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static_assert(sizeof(ConnectElements::$$c__DisplayClass3_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0*, "UnityEngine.ProBuilder.MeshOperations", "ConnectElements/<>c__DisplayClass3_0");
-// Writing MetadataGetter for method: ConnectElements::$$c__DisplayClass3_0::$Connect$b__3
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0::$Connect$b__3
 // Il2CppName: <Connect>b__3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ConnectElements::$$c__DisplayClass3_0::*)(UnityEngine::ProBuilder::Edge)>(&ConnectElements::$$c__DisplayClass3_0::$Connect$b__3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0::*)(UnityEngine::ProBuilder::Edge)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0::$Connect$b__3)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c__DisplayClass3_0*), "<Connect>b__3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0*), "<Connect>b__3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>()});
   }
 };
-// Writing MetadataGetter for method: ConnectElements::$$c__DisplayClass3_0::New_ctor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectElements::$$c__DisplayClass3_0::*)()>(&ConnectElements::$$c__DisplayClass3_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0::*)()>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c__DisplayClass3_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectElements::$$c__DisplayClass3_0::*)()>(&ConnectElements::$$c__DisplayClass3_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0::*)()>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectElements::$$c__DisplayClass3_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

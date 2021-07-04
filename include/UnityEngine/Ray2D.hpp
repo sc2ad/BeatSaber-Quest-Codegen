@@ -63,49 +63,49 @@ namespace UnityEngine {
   static_assert(sizeof(Ray2D) == 0x10);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Ray2D, "UnityEngine", "Ray2D");
-// Writing MetadataGetter for method: Ray2D::Ray2D
+// Writing MetadataGetter for method: UnityEngine::Ray2D::Ray2D
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Ray2D::*)(UnityEngine::Vector2, UnityEngine::Vector2)>(&Ray2D::Ray2D<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Ray2D::*)(UnityEngine::Vector2, UnityEngine::Vector2)>(&UnityEngine::Ray2D::Ray2D<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Ray2D), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Ray2D), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Ray2D::*)(UnityEngine::Vector2, UnityEngine::Vector2)>(&Ray2D::Ray2D<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Ray2D::*)(UnityEngine::Vector2, UnityEngine::Vector2)>(&UnityEngine::Ray2D::Ray2D<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Ray2D), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Ray2D), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
   }
 };
-// Writing MetadataGetter for method: Ray2D::get_origin
+// Writing MetadataGetter for method: UnityEngine::Ray2D::get_origin
 // Il2CppName: get_origin
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (Ray2D::*)()>(&Ray2D::get_origin)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::Ray2D::*)()>(&UnityEngine::Ray2D::get_origin)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Ray2D), "get_origin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Ray2D), "get_origin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Ray2D::get_direction
+// Writing MetadataGetter for method: UnityEngine::Ray2D::get_direction
 // Il2CppName: get_direction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (Ray2D::*)()>(&Ray2D::get_direction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::Ray2D::*)()>(&UnityEngine::Ray2D::get_direction)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Ray2D), "get_direction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Ray2D), "get_direction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Ray2D::GetPoint
+// Writing MetadataGetter for method: UnityEngine::Ray2D::GetPoint
 // Il2CppName: GetPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (Ray2D::*)(float)>(&Ray2D::GetPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::Ray2D::*)(float)>(&UnityEngine::Ray2D::GetPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Ray2D), "GetPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Ray2D), "GetPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Ray2D::ToString
+// Writing MetadataGetter for method: UnityEngine::Ray2D::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Ray2D::*)()>(&Ray2D::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Ray2D::*)()>(&UnityEngine::Ray2D::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Ray2D), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Ray2D), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

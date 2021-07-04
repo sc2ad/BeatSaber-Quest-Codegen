@@ -66,17 +66,17 @@ namespace LiteNetLib {
   static_assert(sizeof(NetPeer::IncomingFragments) == 0x21);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPeer::IncomingFragments*, "LiteNetLib", "NetPeer/IncomingFragments");
-// Writing MetadataGetter for method: NetPeer::IncomingFragments::New_ctor
+// Writing MetadataGetter for method: LiteNetLib::NetPeer::IncomingFragments::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetPeer::IncomingFragments::*)()>(&NetPeer::IncomingFragments::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::IncomingFragments::*)()>(&LiteNetLib::NetPeer::IncomingFragments::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetPeer::IncomingFragments*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPeer::IncomingFragments*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetPeer::IncomingFragments::*)()>(&NetPeer::IncomingFragments::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPeer::IncomingFragments::*)()>(&LiteNetLib::NetPeer::IncomingFragments::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetPeer::IncomingFragments*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPeer::IncomingFragments*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

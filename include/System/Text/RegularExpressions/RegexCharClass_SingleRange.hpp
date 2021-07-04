@@ -45,17 +45,17 @@ namespace System::Text::RegularExpressions {
   static_assert(sizeof(RegexCharClass::SingleRange) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCharClass::SingleRange*, "System.Text.RegularExpressions", "RegexCharClass/SingleRange");
-// Writing MetadataGetter for method: RegexCharClass::SingleRange::New_ctor
+// Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::SingleRange::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexCharClass::SingleRange::*)(::Il2CppChar, ::Il2CppChar)>(&RegexCharClass::SingleRange::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexCharClass::SingleRange::*)(::Il2CppChar, ::Il2CppChar)>(&System::Text::RegularExpressions::RegexCharClass::SingleRange::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RegexCharClass::SingleRange*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexCharClass::SingleRange*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexCharClass::SingleRange::*)(::Il2CppChar, ::Il2CppChar)>(&RegexCharClass::SingleRange::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexCharClass::SingleRange::*)(::Il2CppChar, ::Il2CppChar)>(&System::Text::RegularExpressions::RegexCharClass::SingleRange::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RegexCharClass::SingleRange*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexCharClass::SingleRange*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
   }
 };

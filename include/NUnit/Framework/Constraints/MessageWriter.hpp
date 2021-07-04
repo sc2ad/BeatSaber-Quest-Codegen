@@ -95,97 +95,97 @@ namespace NUnit::Framework::Constraints {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::MessageWriter*, "NUnit.Framework.Constraints", "MessageWriter");
-// Writing MetadataGetter for method: MessageWriter::get_MaxLineLength
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::MessageWriter::get_MaxLineLength
 // Il2CppName: get_MaxLineLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MessageWriter::*)()>(&MessageWriter::get_MaxLineLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NUnit::Framework::Constraints::MessageWriter::*)()>(&NUnit::Framework::Constraints::MessageWriter::get_MaxLineLength)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWriter*), "get_MaxLineLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MessageWriter*), "get_MaxLineLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MessageWriter::WriteMessageLine
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::MessageWriter::WriteMessageLine
 // Il2CppName: WriteMessageLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWriter::*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&MessageWriter::WriteMessageLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::MessageWriter::*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&NUnit::Framework::Constraints::MessageWriter::WriteMessageLine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWriter*), "WriteMessageLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MessageWriter*), "WriteMessageLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
   }
 };
-// Writing MetadataGetter for method: MessageWriter::WriteMessageLine
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::MessageWriter::WriteMessageLine
 // Il2CppName: WriteMessageLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWriter::*)(int, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&MessageWriter::WriteMessageLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::MessageWriter::*)(int, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&NUnit::Framework::Constraints::MessageWriter::WriteMessageLine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWriter*), "WriteMessageLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MessageWriter*), "WriteMessageLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
   }
 };
-// Writing MetadataGetter for method: MessageWriter::DisplayDifferences
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::MessageWriter::DisplayDifferences
 // Il2CppName: DisplayDifferences
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWriter::*)(NUnit::Framework::Constraints::ConstraintResult*)>(&MessageWriter::DisplayDifferences)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::MessageWriter::*)(NUnit::Framework::Constraints::ConstraintResult*)>(&NUnit::Framework::Constraints::MessageWriter::DisplayDifferences)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWriter*), "DisplayDifferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::ConstraintResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MessageWriter*), "DisplayDifferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::ConstraintResult*>()});
   }
 };
-// Writing MetadataGetter for method: MessageWriter::DisplayDifferences
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::MessageWriter::DisplayDifferences
 // Il2CppName: DisplayDifferences
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWriter::*)(::Il2CppObject*, ::Il2CppObject*)>(&MessageWriter::DisplayDifferences)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::MessageWriter::*)(::Il2CppObject*, ::Il2CppObject*)>(&NUnit::Framework::Constraints::MessageWriter::DisplayDifferences)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWriter*), "DisplayDifferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MessageWriter*), "DisplayDifferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: MessageWriter::DisplayDifferences
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::MessageWriter::DisplayDifferences
 // Il2CppName: DisplayDifferences
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWriter::*)(::Il2CppObject*, ::Il2CppObject*, NUnit::Framework::Constraints::Tolerance*)>(&MessageWriter::DisplayDifferences)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::MessageWriter::*)(::Il2CppObject*, ::Il2CppObject*, NUnit::Framework::Constraints::Tolerance*)>(&NUnit::Framework::Constraints::MessageWriter::DisplayDifferences)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWriter*), "DisplayDifferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::Tolerance*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MessageWriter*), "DisplayDifferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::Tolerance*>()});
   }
 };
-// Writing MetadataGetter for method: MessageWriter::DisplayStringDifferences
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::MessageWriter::DisplayStringDifferences
 // Il2CppName: DisplayStringDifferences
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWriter::*)(::Il2CppString*, ::Il2CppString*, int, bool, bool)>(&MessageWriter::DisplayStringDifferences)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::MessageWriter::*)(::Il2CppString*, ::Il2CppString*, int, bool, bool)>(&NUnit::Framework::Constraints::MessageWriter::DisplayStringDifferences)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWriter*), "DisplayStringDifferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MessageWriter*), "DisplayStringDifferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MessageWriter::WriteActualValue
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::MessageWriter::WriteActualValue
 // Il2CppName: WriteActualValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWriter::*)(::Il2CppObject*)>(&MessageWriter::WriteActualValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::MessageWriter::*)(::Il2CppObject*)>(&NUnit::Framework::Constraints::MessageWriter::WriteActualValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWriter*), "WriteActualValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MessageWriter*), "WriteActualValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: MessageWriter::WriteValue
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::MessageWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWriter::*)(::Il2CppObject*)>(&MessageWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::MessageWriter::*)(::Il2CppObject*)>(&NUnit::Framework::Constraints::MessageWriter::WriteValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MessageWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: MessageWriter::WriteCollectionElements
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::MessageWriter::WriteCollectionElements
 // Il2CppName: WriteCollectionElements
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWriter::*)(System::Collections::IEnumerable*, int64_t, int)>(&MessageWriter::WriteCollectionElements)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::MessageWriter::*)(System::Collections::IEnumerable*, int64_t, int)>(&NUnit::Framework::Constraints::MessageWriter::WriteCollectionElements)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWriter*), "WriteCollectionElements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MessageWriter*), "WriteCollectionElements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: MessageWriter::New_ctor
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::MessageWriter::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWriter::*)()>(&MessageWriter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::MessageWriter::*)()>(&NUnit::Framework::Constraints::MessageWriter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MessageWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWriter::*)()>(&MessageWriter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::MessageWriter::*)()>(&NUnit::Framework::Constraints::MessageWriter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MessageWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -117,57 +117,57 @@ namespace GlobalNamespace {
   static_assert(sizeof(Rotate) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Rotate*, "", "Rotate");
-// Writing MetadataGetter for method: Rotate::Awake
+// Writing MetadataGetter for method: GlobalNamespace::Rotate::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rotate::*)()>(&Rotate::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::Rotate::*)()>(&GlobalNamespace::Rotate::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rotate*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Rotate*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Rotate::OnBecameVisible
+// Writing MetadataGetter for method: GlobalNamespace::Rotate::OnBecameVisible
 // Il2CppName: OnBecameVisible
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rotate::*)()>(&Rotate::OnBecameVisible)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::Rotate::*)()>(&GlobalNamespace::Rotate::OnBecameVisible)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rotate*), "OnBecameVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Rotate*), "OnBecameVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Rotate::OnBecameInvisible
+// Writing MetadataGetter for method: GlobalNamespace::Rotate::OnBecameInvisible
 // Il2CppName: OnBecameInvisible
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rotate::*)()>(&Rotate::OnBecameInvisible)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::Rotate::*)()>(&GlobalNamespace::Rotate::OnBecameInvisible)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rotate*), "OnBecameInvisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Rotate*), "OnBecameInvisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Rotate::Update
+// Writing MetadataGetter for method: GlobalNamespace::Rotate::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rotate::*)()>(&Rotate::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::Rotate::*)()>(&GlobalNamespace::Rotate::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rotate*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Rotate*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Rotate::Randomize
+// Writing MetadataGetter for method: GlobalNamespace::Rotate::Randomize
 // Il2CppName: Randomize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rotate::*)()>(&Rotate::Randomize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::Rotate::*)()>(&GlobalNamespace::Rotate::Randomize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rotate*), "Randomize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Rotate*), "Randomize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Rotate::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::Rotate::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rotate::*)()>(&Rotate::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::Rotate::*)()>(&GlobalNamespace::Rotate::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rotate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Rotate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Rotate::*)()>(&Rotate::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::Rotate::*)()>(&GlobalNamespace::Rotate::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Rotate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Rotate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

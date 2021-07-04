@@ -202,234 +202,234 @@ namespace OVRSimpleJSON {
   bool operator !=(OVRSimpleJSON::JSONLazyCreator* a, ::Il2CppObject& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONLazyCreator*, "OVRSimpleJSON", "JSONLazyCreator");
-// Writing MetadataGetter for method: JSONLazyCreator::New_ctor
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JSONLazyCreator::*)(OVRSimpleJSON::JSONNode*)>(&JSONLazyCreator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONLazyCreator::*)(OVRSimpleJSON::JSONNode*)>(&OVRSimpleJSON::JSONLazyCreator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONLazyCreator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONNode*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONNode*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JSONLazyCreator::*)(OVRSimpleJSON::JSONNode*)>(&JSONLazyCreator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONLazyCreator::*)(OVRSimpleJSON::JSONNode*)>(&OVRSimpleJSON::JSONLazyCreator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONLazyCreator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONNode*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONNode*>()});
   }
 };
-// Writing MetadataGetter for method: JSONLazyCreator::New_ctor
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JSONLazyCreator::*)(OVRSimpleJSON::JSONNode*, ::Il2CppString*)>(&JSONLazyCreator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONLazyCreator::*)(OVRSimpleJSON::JSONNode*, ::Il2CppString*)>(&OVRSimpleJSON::JSONLazyCreator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONLazyCreator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONNode*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONNode*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JSONLazyCreator::*)(OVRSimpleJSON::JSONNode*, ::Il2CppString*)>(&JSONLazyCreator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONLazyCreator::*)(OVRSimpleJSON::JSONNode*, ::Il2CppString*)>(&OVRSimpleJSON::JSONLazyCreator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONLazyCreator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONNode*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONNode*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: JSONLazyCreator::Set
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::Set
 // Il2CppName: Set
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: JSONLazyCreator::get_Tag
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::get_Tag
 // Il2CppName: get_Tag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONNodeType (JSONLazyCreator::*)()>(&JSONLazyCreator::get_Tag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONNodeType (OVRSimpleJSON::JSONLazyCreator::*)()>(&OVRSimpleJSON::JSONLazyCreator::get_Tag)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONLazyCreator*), "get_Tag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "get_Tag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: JSONLazyCreator::GetEnumerator
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::GetEnumerator
 // Il2CppName: GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONNode::Enumerator (JSONLazyCreator::*)()>(&JSONLazyCreator::GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONNode::Enumerator (OVRSimpleJSON::JSONLazyCreator::*)()>(&OVRSimpleJSON::JSONLazyCreator::GetEnumerator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONLazyCreator*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: JSONLazyCreator::get_Item
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONNode* (JSONLazyCreator::*)(int)>(&JSONLazyCreator::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONNode* (OVRSimpleJSON::JSONLazyCreator::*)(int)>(&OVRSimpleJSON::JSONLazyCreator::get_Item)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONLazyCreator*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: JSONLazyCreator::set_Item
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::set_Item
 // Il2CppName: set_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JSONLazyCreator::*)(int, OVRSimpleJSON::JSONNode*)>(&JSONLazyCreator::set_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONLazyCreator::*)(int, OVRSimpleJSON::JSONNode*)>(&OVRSimpleJSON::JSONLazyCreator::set_Item)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONLazyCreator*), "set_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONNode*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "set_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONNode*>()});
   }
 };
-// Writing MetadataGetter for method: JSONLazyCreator::get_Item
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONNode* (JSONLazyCreator::*)(::Il2CppString*)>(&JSONLazyCreator::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONNode* (OVRSimpleJSON::JSONLazyCreator::*)(::Il2CppString*)>(&OVRSimpleJSON::JSONLazyCreator::get_Item)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONLazyCreator*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: JSONLazyCreator::set_Item
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::set_Item
 // Il2CppName: set_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JSONLazyCreator::*)(::Il2CppString*, OVRSimpleJSON::JSONNode*)>(&JSONLazyCreator::set_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONLazyCreator::*)(::Il2CppString*, OVRSimpleJSON::JSONNode*)>(&OVRSimpleJSON::JSONLazyCreator::set_Item)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONLazyCreator*), "set_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONNode*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "set_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONNode*>()});
   }
 };
-// Writing MetadataGetter for method: JSONLazyCreator::Add
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JSONLazyCreator::*)(OVRSimpleJSON::JSONNode*)>(&JSONLazyCreator::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONLazyCreator::*)(OVRSimpleJSON::JSONNode*)>(&OVRSimpleJSON::JSONLazyCreator::Add)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONLazyCreator*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONNode*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONNode*>()});
   }
 };
-// Writing MetadataGetter for method: JSONLazyCreator::Add
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JSONLazyCreator::*)(::Il2CppString*, OVRSimpleJSON::JSONNode*)>(&JSONLazyCreator::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONLazyCreator::*)(::Il2CppString*, OVRSimpleJSON::JSONNode*)>(&OVRSimpleJSON::JSONLazyCreator::Add)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONLazyCreator*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONNode*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONNode*>()});
   }
 };
-// Writing MetadataGetter for method: JSONLazyCreator::Equals
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (JSONLazyCreator::*)(::Il2CppObject*)>(&JSONLazyCreator::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRSimpleJSON::JSONLazyCreator::*)(::Il2CppObject*)>(&OVRSimpleJSON::JSONLazyCreator::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONLazyCreator*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: JSONLazyCreator::GetHashCode
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (JSONLazyCreator::*)()>(&JSONLazyCreator::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OVRSimpleJSON::JSONLazyCreator::*)()>(&OVRSimpleJSON::JSONLazyCreator::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONLazyCreator*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: JSONLazyCreator::get_AsInt
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::get_AsInt
 // Il2CppName: get_AsInt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (JSONLazyCreator::*)()>(&JSONLazyCreator::get_AsInt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OVRSimpleJSON::JSONLazyCreator::*)()>(&OVRSimpleJSON::JSONLazyCreator::get_AsInt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONLazyCreator*), "get_AsInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "get_AsInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: JSONLazyCreator::set_AsInt
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::set_AsInt
 // Il2CppName: set_AsInt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JSONLazyCreator::*)(int)>(&JSONLazyCreator::set_AsInt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONLazyCreator::*)(int)>(&OVRSimpleJSON::JSONLazyCreator::set_AsInt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONLazyCreator*), "set_AsInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "set_AsInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: JSONLazyCreator::get_AsFloat
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::get_AsFloat
 // Il2CppName: get_AsFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (JSONLazyCreator::*)()>(&JSONLazyCreator::get_AsFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVRSimpleJSON::JSONLazyCreator::*)()>(&OVRSimpleJSON::JSONLazyCreator::get_AsFloat)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONLazyCreator*), "get_AsFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "get_AsFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: JSONLazyCreator::set_AsFloat
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::set_AsFloat
 // Il2CppName: set_AsFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JSONLazyCreator::*)(float)>(&JSONLazyCreator::set_AsFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONLazyCreator::*)(float)>(&OVRSimpleJSON::JSONLazyCreator::set_AsFloat)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONLazyCreator*), "set_AsFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "set_AsFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: JSONLazyCreator::get_AsDouble
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::get_AsDouble
 // Il2CppName: get_AsDouble
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (JSONLazyCreator::*)()>(&JSONLazyCreator::get_AsDouble)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (OVRSimpleJSON::JSONLazyCreator::*)()>(&OVRSimpleJSON::JSONLazyCreator::get_AsDouble)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONLazyCreator*), "get_AsDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "get_AsDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: JSONLazyCreator::set_AsDouble
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::set_AsDouble
 // Il2CppName: set_AsDouble
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JSONLazyCreator::*)(double)>(&JSONLazyCreator::set_AsDouble)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONLazyCreator::*)(double)>(&OVRSimpleJSON::JSONLazyCreator::set_AsDouble)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONLazyCreator*), "set_AsDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "set_AsDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: JSONLazyCreator::get_AsLong
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::get_AsLong
 // Il2CppName: get_AsLong
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (JSONLazyCreator::*)()>(&JSONLazyCreator::get_AsLong)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (OVRSimpleJSON::JSONLazyCreator::*)()>(&OVRSimpleJSON::JSONLazyCreator::get_AsLong)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONLazyCreator*), "get_AsLong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "get_AsLong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: JSONLazyCreator::set_AsLong
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::set_AsLong
 // Il2CppName: set_AsLong
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JSONLazyCreator::*)(int64_t)>(&JSONLazyCreator::set_AsLong)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONLazyCreator::*)(int64_t)>(&OVRSimpleJSON::JSONLazyCreator::set_AsLong)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONLazyCreator*), "set_AsLong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "set_AsLong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
   }
 };
-// Writing MetadataGetter for method: JSONLazyCreator::get_AsBool
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::get_AsBool
 // Il2CppName: get_AsBool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (JSONLazyCreator::*)()>(&JSONLazyCreator::get_AsBool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRSimpleJSON::JSONLazyCreator::*)()>(&OVRSimpleJSON::JSONLazyCreator::get_AsBool)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONLazyCreator*), "get_AsBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "get_AsBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: JSONLazyCreator::set_AsBool
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::set_AsBool
 // Il2CppName: set_AsBool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JSONLazyCreator::*)(bool)>(&JSONLazyCreator::set_AsBool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONLazyCreator::*)(bool)>(&OVRSimpleJSON::JSONLazyCreator::set_AsBool)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONLazyCreator*), "set_AsBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "set_AsBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: JSONLazyCreator::get_AsArray
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::get_AsArray
 // Il2CppName: get_AsArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONArray* (JSONLazyCreator::*)()>(&JSONLazyCreator::get_AsArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONArray* (OVRSimpleJSON::JSONLazyCreator::*)()>(&OVRSimpleJSON::JSONLazyCreator::get_AsArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONLazyCreator*), "get_AsArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "get_AsArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: JSONLazyCreator::get_AsObject
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::get_AsObject
 // Il2CppName: get_AsObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONObject* (JSONLazyCreator::*)()>(&JSONLazyCreator::get_AsObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONObject* (OVRSimpleJSON::JSONLazyCreator::*)()>(&OVRSimpleJSON::JSONLazyCreator::get_AsObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONLazyCreator*), "get_AsObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "get_AsObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: JSONLazyCreator::WriteToStringBuilder
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::WriteToStringBuilder
 // Il2CppName: WriteToStringBuilder
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JSONLazyCreator::*)(System::Text::StringBuilder*, int, int, OVRSimpleJSON::JSONTextMode)>(&JSONLazyCreator::WriteToStringBuilder)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONLazyCreator::*)(System::Text::StringBuilder*, int, int, OVRSimpleJSON::JSONTextMode)>(&OVRSimpleJSON::JSONLazyCreator::WriteToStringBuilder)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONLazyCreator*), "WriteToStringBuilder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONTextMode>()});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "WriteToStringBuilder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONTextMode>()});
   }
 };
-// Writing MetadataGetter for method: JSONLazyCreator::operator ==
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::operator ==
 // Il2CppName: op_Equality
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(OVRSimpleJSON::JSONLazyCreator*, ::Il2CppObject&)>(&JSONLazyCreator::operator ==)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(OVRSimpleJSON::JSONLazyCreator*, ::Il2CppObject&)>(&OVRSimpleJSON::JSONLazyCreator::operator ==)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONLazyCreator*), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONLazyCreator*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject&>()});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONLazyCreator*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject&>()});
   }
 };
-// Writing MetadataGetter for method: JSONLazyCreator::operator !=
+// Writing MetadataGetter for method: OVRSimpleJSON::JSONLazyCreator::operator !=
 // Il2CppName: op_Inequality
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(OVRSimpleJSON::JSONLazyCreator*, ::Il2CppObject&)>(&JSONLazyCreator::operator !=)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(OVRSimpleJSON::JSONLazyCreator*, ::Il2CppObject&)>(&OVRSimpleJSON::JSONLazyCreator::operator !=)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JSONLazyCreator*), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONLazyCreator*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject&>()});
+    return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVRSimpleJSON::JSONLazyCreator*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject&>()});
   }
 };

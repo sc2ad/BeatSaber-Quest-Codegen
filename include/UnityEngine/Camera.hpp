@@ -360,705 +360,705 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Camera*, "UnityEngine", "Camera");
-// Writing MetadataGetter for method: Camera::get_nearClipPlane
+// Writing MetadataGetter for method: UnityEngine::Camera::get_nearClipPlane
 // Il2CppName: get_nearClipPlane
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Camera::*)()>(&Camera::get_nearClipPlane)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_nearClipPlane)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "get_nearClipPlane", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_nearClipPlane", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Camera::set_nearClipPlane
+// Writing MetadataGetter for method: UnityEngine::Camera::set_nearClipPlane
 // Il2CppName: set_nearClipPlane
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(float)>(&Camera::set_nearClipPlane)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(float)>(&UnityEngine::Camera::set_nearClipPlane)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "set_nearClipPlane", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_nearClipPlane", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Camera::get_farClipPlane
+// Writing MetadataGetter for method: UnityEngine::Camera::get_farClipPlane
 // Il2CppName: get_farClipPlane
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Camera::*)()>(&Camera::get_farClipPlane)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_farClipPlane)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "get_farClipPlane", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_farClipPlane", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Camera::set_farClipPlane
+// Writing MetadataGetter for method: UnityEngine::Camera::set_farClipPlane
 // Il2CppName: set_farClipPlane
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(float)>(&Camera::set_farClipPlane)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(float)>(&UnityEngine::Camera::set_farClipPlane)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "set_farClipPlane", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_farClipPlane", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Camera::get_fieldOfView
+// Writing MetadataGetter for method: UnityEngine::Camera::get_fieldOfView
 // Il2CppName: get_fieldOfView
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Camera::*)()>(&Camera::get_fieldOfView)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_fieldOfView)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "get_fieldOfView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_fieldOfView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Camera::set_fieldOfView
+// Writing MetadataGetter for method: UnityEngine::Camera::set_fieldOfView
 // Il2CppName: set_fieldOfView
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(float)>(&Camera::set_fieldOfView)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(float)>(&UnityEngine::Camera::set_fieldOfView)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "set_fieldOfView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_fieldOfView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Camera::set_renderingPath
+// Writing MetadataGetter for method: UnityEngine::Camera::set_renderingPath
 // Il2CppName: set_renderingPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(UnityEngine::RenderingPath)>(&Camera::set_renderingPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::RenderingPath)>(&UnityEngine::Camera::set_renderingPath)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "set_renderingPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderingPath>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_renderingPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderingPath>()});
   }
 };
-// Writing MetadataGetter for method: Camera::set_allowHDR
+// Writing MetadataGetter for method: UnityEngine::Camera::set_allowHDR
 // Il2CppName: set_allowHDR
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(bool)>(&Camera::set_allowHDR)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(bool)>(&UnityEngine::Camera::set_allowHDR)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "set_allowHDR", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_allowHDR", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Camera::set_allowMSAA
+// Writing MetadataGetter for method: UnityEngine::Camera::set_allowMSAA
 // Il2CppName: set_allowMSAA
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(bool)>(&Camera::set_allowMSAA)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(bool)>(&UnityEngine::Camera::set_allowMSAA)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "set_allowMSAA", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_allowMSAA", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Camera::set_forceIntoRenderTexture
+// Writing MetadataGetter for method: UnityEngine::Camera::set_forceIntoRenderTexture
 // Il2CppName: set_forceIntoRenderTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(bool)>(&Camera::set_forceIntoRenderTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(bool)>(&UnityEngine::Camera::set_forceIntoRenderTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "set_forceIntoRenderTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_forceIntoRenderTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Camera::set_orthographicSize
+// Writing MetadataGetter for method: UnityEngine::Camera::set_orthographicSize
 // Il2CppName: set_orthographicSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(float)>(&Camera::set_orthographicSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(float)>(&UnityEngine::Camera::set_orthographicSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "set_orthographicSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_orthographicSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Camera::get_orthographic
+// Writing MetadataGetter for method: UnityEngine::Camera::get_orthographic
 // Il2CppName: get_orthographic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Camera::*)()>(&Camera::get_orthographic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_orthographic)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "get_orthographic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_orthographic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Camera::set_orthographic
+// Writing MetadataGetter for method: UnityEngine::Camera::set_orthographic
 // Il2CppName: set_orthographic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(bool)>(&Camera::set_orthographic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(bool)>(&UnityEngine::Camera::set_orthographic)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "set_orthographic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_orthographic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Camera::get_depth
+// Writing MetadataGetter for method: UnityEngine::Camera::get_depth
 // Il2CppName: get_depth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Camera::*)()>(&Camera::get_depth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_depth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "get_depth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_depth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Camera::set_depth
+// Writing MetadataGetter for method: UnityEngine::Camera::set_depth
 // Il2CppName: set_depth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(float)>(&Camera::set_depth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(float)>(&UnityEngine::Camera::set_depth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "set_depth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_depth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Camera::get_aspect
+// Writing MetadataGetter for method: UnityEngine::Camera::get_aspect
 // Il2CppName: get_aspect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Camera::*)()>(&Camera::get_aspect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_aspect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "get_aspect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_aspect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Camera::set_aspect
+// Writing MetadataGetter for method: UnityEngine::Camera::set_aspect
 // Il2CppName: set_aspect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(float)>(&Camera::set_aspect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(float)>(&UnityEngine::Camera::set_aspect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "set_aspect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_aspect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Camera::get_cullingMask
+// Writing MetadataGetter for method: UnityEngine::Camera::get_cullingMask
 // Il2CppName: get_cullingMask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Camera::*)()>(&Camera::get_cullingMask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_cullingMask)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "get_cullingMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_cullingMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Camera::set_cullingMask
+// Writing MetadataGetter for method: UnityEngine::Camera::set_cullingMask
 // Il2CppName: set_cullingMask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(int)>(&Camera::set_cullingMask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(int)>(&UnityEngine::Camera::set_cullingMask)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "set_cullingMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_cullingMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Camera::get_eventMask
+// Writing MetadataGetter for method: UnityEngine::Camera::get_eventMask
 // Il2CppName: get_eventMask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Camera::*)()>(&Camera::get_eventMask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_eventMask)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "get_eventMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_eventMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Camera::set_useOcclusionCulling
+// Writing MetadataGetter for method: UnityEngine::Camera::set_useOcclusionCulling
 // Il2CppName: set_useOcclusionCulling
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(bool)>(&Camera::set_useOcclusionCulling)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(bool)>(&UnityEngine::Camera::set_useOcclusionCulling)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "set_useOcclusionCulling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_useOcclusionCulling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Camera::get_backgroundColor
+// Writing MetadataGetter for method: UnityEngine::Camera::get_backgroundColor
 // Il2CppName: get_backgroundColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (Camera::*)()>(&Camera::get_backgroundColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_backgroundColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "get_backgroundColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_backgroundColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Camera::set_backgroundColor
+// Writing MetadataGetter for method: UnityEngine::Camera::set_backgroundColor
 // Il2CppName: set_backgroundColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(UnityEngine::Color)>(&Camera::set_backgroundColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Color)>(&UnityEngine::Camera::set_backgroundColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "set_backgroundColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_backgroundColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: Camera::get_clearFlags
+// Writing MetadataGetter for method: UnityEngine::Camera::get_clearFlags
 // Il2CppName: get_clearFlags
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::CameraClearFlags (Camera::*)()>(&Camera::get_clearFlags)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::CameraClearFlags (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_clearFlags)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "get_clearFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_clearFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Camera::set_clearFlags
+// Writing MetadataGetter for method: UnityEngine::Camera::set_clearFlags
 // Il2CppName: set_clearFlags
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(UnityEngine::CameraClearFlags)>(&Camera::set_clearFlags)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::CameraClearFlags)>(&UnityEngine::Camera::set_clearFlags)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "set_clearFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::CameraClearFlags>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_clearFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::CameraClearFlags>()});
   }
 };
-// Writing MetadataGetter for method: Camera::get_depthTextureMode
+// Writing MetadataGetter for method: UnityEngine::Camera::get_depthTextureMode
 // Il2CppName: get_depthTextureMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::DepthTextureMode (Camera::*)()>(&Camera::get_depthTextureMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::DepthTextureMode (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_depthTextureMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "get_depthTextureMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_depthTextureMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Camera::set_depthTextureMode
+// Writing MetadataGetter for method: UnityEngine::Camera::set_depthTextureMode
 // Il2CppName: set_depthTextureMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(UnityEngine::DepthTextureMode)>(&Camera::set_depthTextureMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::DepthTextureMode)>(&UnityEngine::Camera::set_depthTextureMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "set_depthTextureMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::DepthTextureMode>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_depthTextureMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::DepthTextureMode>()});
   }
 };
-// Writing MetadataGetter for method: Camera::get_rect
+// Writing MetadataGetter for method: UnityEngine::Camera::get_rect
 // Il2CppName: get_rect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (Camera::*)()>(&Camera::get_rect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_rect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "get_rect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_rect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Camera::set_rect
+// Writing MetadataGetter for method: UnityEngine::Camera::set_rect
 // Il2CppName: set_rect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(UnityEngine::Rect)>(&Camera::set_rect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Rect)>(&UnityEngine::Camera::set_rect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "set_rect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_rect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>()});
   }
 };
-// Writing MetadataGetter for method: Camera::get_pixelRect
+// Writing MetadataGetter for method: UnityEngine::Camera::get_pixelRect
 // Il2CppName: get_pixelRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (Camera::*)()>(&Camera::get_pixelRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_pixelRect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "get_pixelRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_pixelRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Camera::get_pixelWidth
+// Writing MetadataGetter for method: UnityEngine::Camera::get_pixelWidth
 // Il2CppName: get_pixelWidth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Camera::*)()>(&Camera::get_pixelWidth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_pixelWidth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "get_pixelWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_pixelWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Camera::get_pixelHeight
+// Writing MetadataGetter for method: UnityEngine::Camera::get_pixelHeight
 // Il2CppName: get_pixelHeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Camera::*)()>(&Camera::get_pixelHeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_pixelHeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "get_pixelHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_pixelHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Camera::get_targetTexture
+// Writing MetadataGetter for method: UnityEngine::Camera::get_targetTexture
 // Il2CppName: get_targetTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (Camera::*)()>(&Camera::get_targetTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_targetTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "get_targetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_targetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Camera::set_targetTexture
+// Writing MetadataGetter for method: UnityEngine::Camera::set_targetTexture
 // Il2CppName: set_targetTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(UnityEngine::RenderTexture*)>(&Camera::set_targetTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::RenderTexture*)>(&UnityEngine::Camera::set_targetTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "set_targetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_targetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>()});
   }
 };
-// Writing MetadataGetter for method: Camera::get_targetDisplay
+// Writing MetadataGetter for method: UnityEngine::Camera::get_targetDisplay
 // Il2CppName: get_targetDisplay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Camera::*)()>(&Camera::get_targetDisplay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_targetDisplay)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "get_targetDisplay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_targetDisplay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Camera::set_targetDisplay
+// Writing MetadataGetter for method: UnityEngine::Camera::set_targetDisplay
 // Il2CppName: set_targetDisplay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(int)>(&Camera::set_targetDisplay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(int)>(&UnityEngine::Camera::set_targetDisplay)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "set_targetDisplay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_targetDisplay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Camera::get_worldToCameraMatrix
+// Writing MetadataGetter for method: UnityEngine::Camera::get_worldToCameraMatrix
 // Il2CppName: get_worldToCameraMatrix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (Camera::*)()>(&Camera::get_worldToCameraMatrix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_worldToCameraMatrix)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "get_worldToCameraMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_worldToCameraMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Camera::set_worldToCameraMatrix
+// Writing MetadataGetter for method: UnityEngine::Camera::set_worldToCameraMatrix
 // Il2CppName: set_worldToCameraMatrix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(UnityEngine::Matrix4x4)>(&Camera::set_worldToCameraMatrix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Matrix4x4)>(&UnityEngine::Camera::set_worldToCameraMatrix)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "set_worldToCameraMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_worldToCameraMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
   }
 };
-// Writing MetadataGetter for method: Camera::get_projectionMatrix
+// Writing MetadataGetter for method: UnityEngine::Camera::get_projectionMatrix
 // Il2CppName: get_projectionMatrix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (Camera::*)()>(&Camera::get_projectionMatrix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_projectionMatrix)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "get_projectionMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_projectionMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Camera::set_projectionMatrix
+// Writing MetadataGetter for method: UnityEngine::Camera::set_projectionMatrix
 // Il2CppName: set_projectionMatrix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(UnityEngine::Matrix4x4)>(&Camera::set_projectionMatrix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Matrix4x4)>(&UnityEngine::Camera::set_projectionMatrix)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "set_projectionMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_projectionMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
   }
 };
-// Writing MetadataGetter for method: Camera::ResetWorldToCameraMatrix
+// Writing MetadataGetter for method: UnityEngine::Camera::ResetWorldToCameraMatrix
 // Il2CppName: ResetWorldToCameraMatrix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)()>(&Camera::ResetWorldToCameraMatrix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)()>(&UnityEngine::Camera::ResetWorldToCameraMatrix)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "ResetWorldToCameraMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "ResetWorldToCameraMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Camera::CalculateObliqueMatrix
+// Writing MetadataGetter for method: UnityEngine::Camera::CalculateObliqueMatrix
 // Il2CppName: CalculateObliqueMatrix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (Camera::*)(UnityEngine::Vector4)>(&Camera::CalculateObliqueMatrix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (UnityEngine::Camera::*)(UnityEngine::Vector4)>(&UnityEngine::Camera::CalculateObliqueMatrix)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "CalculateObliqueMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "CalculateObliqueMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
   }
 };
-// Writing MetadataGetter for method: Camera::WorldToScreenPoint
+// Writing MetadataGetter for method: UnityEngine::Camera::WorldToScreenPoint
 // Il2CppName: WorldToScreenPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Camera::*)(UnityEngine::Vector3, UnityEngine::Camera::MonoOrStereoscopicEye)>(&Camera::WorldToScreenPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Camera::*)(UnityEngine::Vector3, UnityEngine::Camera::MonoOrStereoscopicEye)>(&UnityEngine::Camera::WorldToScreenPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "WorldToScreenPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera::MonoOrStereoscopicEye>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "WorldToScreenPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera::MonoOrStereoscopicEye>()});
   }
 };
-// Writing MetadataGetter for method: Camera::ViewportToWorldPoint
+// Writing MetadataGetter for method: UnityEngine::Camera::ViewportToWorldPoint
 // Il2CppName: ViewportToWorldPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Camera::*)(UnityEngine::Vector3, UnityEngine::Camera::MonoOrStereoscopicEye)>(&Camera::ViewportToWorldPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Camera::*)(UnityEngine::Vector3, UnityEngine::Camera::MonoOrStereoscopicEye)>(&UnityEngine::Camera::ViewportToWorldPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "ViewportToWorldPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera::MonoOrStereoscopicEye>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "ViewportToWorldPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera::MonoOrStereoscopicEye>()});
   }
 };
-// Writing MetadataGetter for method: Camera::WorldToScreenPoint
+// Writing MetadataGetter for method: UnityEngine::Camera::WorldToScreenPoint
 // Il2CppName: WorldToScreenPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Camera::*)(UnityEngine::Vector3)>(&Camera::WorldToScreenPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Camera::*)(UnityEngine::Vector3)>(&UnityEngine::Camera::WorldToScreenPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "WorldToScreenPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "WorldToScreenPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: Camera::ScreenToViewportPoint
+// Writing MetadataGetter for method: UnityEngine::Camera::ScreenToViewportPoint
 // Il2CppName: ScreenToViewportPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Camera::*)(UnityEngine::Vector3)>(&Camera::ScreenToViewportPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Camera::*)(UnityEngine::Vector3)>(&UnityEngine::Camera::ScreenToViewportPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "ScreenToViewportPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "ScreenToViewportPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: Camera::ScreenPointToRay
+// Writing MetadataGetter for method: UnityEngine::Camera::ScreenPointToRay
 // Il2CppName: ScreenPointToRay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Ray (Camera::*)(UnityEngine::Vector2, UnityEngine::Camera::MonoOrStereoscopicEye)>(&Camera::ScreenPointToRay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Ray (UnityEngine::Camera::*)(UnityEngine::Vector2, UnityEngine::Camera::MonoOrStereoscopicEye)>(&UnityEngine::Camera::ScreenPointToRay)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "ScreenPointToRay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera::MonoOrStereoscopicEye>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "ScreenPointToRay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera::MonoOrStereoscopicEye>()});
   }
 };
-// Writing MetadataGetter for method: Camera::ScreenPointToRay
+// Writing MetadataGetter for method: UnityEngine::Camera::ScreenPointToRay
 // Il2CppName: ScreenPointToRay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Ray (Camera::*)(UnityEngine::Vector3, UnityEngine::Camera::MonoOrStereoscopicEye)>(&Camera::ScreenPointToRay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Ray (UnityEngine::Camera::*)(UnityEngine::Vector3, UnityEngine::Camera::MonoOrStereoscopicEye)>(&UnityEngine::Camera::ScreenPointToRay)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "ScreenPointToRay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera::MonoOrStereoscopicEye>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "ScreenPointToRay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera::MonoOrStereoscopicEye>()});
   }
 };
-// Writing MetadataGetter for method: Camera::ScreenPointToRay
+// Writing MetadataGetter for method: UnityEngine::Camera::ScreenPointToRay
 // Il2CppName: ScreenPointToRay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Ray (Camera::*)(UnityEngine::Vector3)>(&Camera::ScreenPointToRay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Ray (UnityEngine::Camera::*)(UnityEngine::Vector3)>(&UnityEngine::Camera::ScreenPointToRay)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "ScreenPointToRay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "ScreenPointToRay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: Camera::get_main
+// Writing MetadataGetter for method: UnityEngine::Camera::get_main
 // Il2CppName: get_main
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (*)()>(&Camera::get_main)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (*)()>(&UnityEngine::Camera::get_main)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "get_main", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_main", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Camera::get_current
+// Writing MetadataGetter for method: UnityEngine::Camera::get_current
 // Il2CppName: get_current
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (*)()>(&Camera::get_current)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (*)()>(&UnityEngine::Camera::get_current)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "get_current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Camera::get_stereoEnabled
+// Writing MetadataGetter for method: UnityEngine::Camera::get_stereoEnabled
 // Il2CppName: get_stereoEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Camera::*)()>(&Camera::get_stereoEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_stereoEnabled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "get_stereoEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_stereoEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Camera::get_stereoTargetEye
+// Writing MetadataGetter for method: UnityEngine::Camera::get_stereoTargetEye
 // Il2CppName: get_stereoTargetEye
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::StereoTargetEyeMask (Camera::*)()>(&Camera::get_stereoTargetEye)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::StereoTargetEyeMask (UnityEngine::Camera::*)()>(&UnityEngine::Camera::get_stereoTargetEye)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "get_stereoTargetEye", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_stereoTargetEye", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Camera::set_stereoTargetEye
+// Writing MetadataGetter for method: UnityEngine::Camera::set_stereoTargetEye
 // Il2CppName: set_stereoTargetEye
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(UnityEngine::StereoTargetEyeMask)>(&Camera::set_stereoTargetEye)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::StereoTargetEyeMask)>(&UnityEngine::Camera::set_stereoTargetEye)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "set_stereoTargetEye", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::StereoTargetEyeMask>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_stereoTargetEye", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::StereoTargetEyeMask>()});
   }
 };
-// Writing MetadataGetter for method: Camera::GetStereoProjectionMatrix
+// Writing MetadataGetter for method: UnityEngine::Camera::GetStereoProjectionMatrix
 // Il2CppName: GetStereoProjectionMatrix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (Camera::*)(UnityEngine::Camera::StereoscopicEye)>(&Camera::GetStereoProjectionMatrix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (UnityEngine::Camera::*)(UnityEngine::Camera::StereoscopicEye)>(&UnityEngine::Camera::GetStereoProjectionMatrix)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "GetStereoProjectionMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera::StereoscopicEye>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "GetStereoProjectionMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera::StereoscopicEye>()});
   }
 };
-// Writing MetadataGetter for method: Camera::GetAllCamerasCount
+// Writing MetadataGetter for method: UnityEngine::Camera::GetAllCamerasCount
 // Il2CppName: GetAllCamerasCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&Camera::GetAllCamerasCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&UnityEngine::Camera::GetAllCamerasCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "GetAllCamerasCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "GetAllCamerasCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Camera::GetAllCamerasImpl
+// Writing MetadataGetter for method: UnityEngine::Camera::GetAllCamerasImpl
 // Il2CppName: GetAllCamerasImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<UnityEngine::Camera*>*&)>(&Camera::GetAllCamerasImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<UnityEngine::Camera*>*&)>(&UnityEngine::Camera::GetAllCamerasImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "GetAllCamerasImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Camera*>*&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "GetAllCamerasImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Camera*>*&>()});
   }
 };
-// Writing MetadataGetter for method: Camera::get_allCamerasCount
+// Writing MetadataGetter for method: UnityEngine::Camera::get_allCamerasCount
 // Il2CppName: get_allCamerasCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&Camera::get_allCamerasCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&UnityEngine::Camera::get_allCamerasCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "get_allCamerasCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_allCamerasCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Camera::GetAllCameras
+// Writing MetadataGetter for method: UnityEngine::Camera::GetAllCameras
 // Il2CppName: GetAllCameras
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<UnityEngine::Camera*>*)>(&Camera::GetAllCameras)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<UnityEngine::Camera*>*)>(&UnityEngine::Camera::GetAllCameras)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "GetAllCameras", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Camera*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "GetAllCameras", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Camera*>*>()});
   }
 };
-// Writing MetadataGetter for method: Camera::RenderToCubemapImpl
+// Writing MetadataGetter for method: UnityEngine::Camera::RenderToCubemapImpl
 // Il2CppName: RenderToCubemapImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Camera::*)(UnityEngine::Texture*, int)>(&Camera::RenderToCubemapImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Camera::*)(UnityEngine::Texture*, int)>(&UnityEngine::Camera::RenderToCubemapImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "RenderToCubemapImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "RenderToCubemapImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Camera::RenderToCubemap
+// Writing MetadataGetter for method: UnityEngine::Camera::RenderToCubemap
 // Il2CppName: RenderToCubemap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Camera::*)(UnityEngine::RenderTexture*)>(&Camera::RenderToCubemap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Camera::*)(UnityEngine::RenderTexture*)>(&UnityEngine::Camera::RenderToCubemap)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "RenderToCubemap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "RenderToCubemap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>()});
   }
 };
-// Writing MetadataGetter for method: Camera::Render
+// Writing MetadataGetter for method: UnityEngine::Camera::Render
 // Il2CppName: Render
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)()>(&Camera::Render)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)()>(&UnityEngine::Camera::Render)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "Render", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "Render", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Camera::RenderWithShader
+// Writing MetadataGetter for method: UnityEngine::Camera::RenderWithShader
 // Il2CppName: RenderWithShader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(UnityEngine::Shader*, ::Il2CppString*)>(&Camera::RenderWithShader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Shader*, ::Il2CppString*)>(&UnityEngine::Camera::RenderWithShader)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "RenderWithShader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "RenderWithShader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Shader*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Camera::CopyFrom
+// Writing MetadataGetter for method: UnityEngine::Camera::CopyFrom
 // Il2CppName: CopyFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(UnityEngine::Camera*)>(&Camera::CopyFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Camera*)>(&UnityEngine::Camera::CopyFrom)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "CopyFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "CopyFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
   }
 };
-// Writing MetadataGetter for method: Camera::AddCommandBufferImpl
+// Writing MetadataGetter for method: UnityEngine::Camera::AddCommandBufferImpl
 // Il2CppName: AddCommandBufferImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(UnityEngine::Rendering::CameraEvent, UnityEngine::Rendering::CommandBuffer*)>(&Camera::AddCommandBufferImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Rendering::CameraEvent, UnityEngine::Rendering::CommandBuffer*)>(&UnityEngine::Camera::AddCommandBufferImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "AddCommandBufferImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::CameraEvent>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::CommandBuffer*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "AddCommandBufferImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::CameraEvent>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::CommandBuffer*>()});
   }
 };
-// Writing MetadataGetter for method: Camera::RemoveCommandBufferImpl
+// Writing MetadataGetter for method: UnityEngine::Camera::RemoveCommandBufferImpl
 // Il2CppName: RemoveCommandBufferImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(UnityEngine::Rendering::CameraEvent, UnityEngine::Rendering::CommandBuffer*)>(&Camera::RemoveCommandBufferImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Rendering::CameraEvent, UnityEngine::Rendering::CommandBuffer*)>(&UnityEngine::Camera::RemoveCommandBufferImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "RemoveCommandBufferImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::CameraEvent>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::CommandBuffer*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "RemoveCommandBufferImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::CameraEvent>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::CommandBuffer*>()});
   }
 };
-// Writing MetadataGetter for method: Camera::AddCommandBuffer
+// Writing MetadataGetter for method: UnityEngine::Camera::AddCommandBuffer
 // Il2CppName: AddCommandBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(UnityEngine::Rendering::CameraEvent, UnityEngine::Rendering::CommandBuffer*)>(&Camera::AddCommandBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Rendering::CameraEvent, UnityEngine::Rendering::CommandBuffer*)>(&UnityEngine::Camera::AddCommandBuffer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "AddCommandBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::CameraEvent>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::CommandBuffer*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "AddCommandBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::CameraEvent>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::CommandBuffer*>()});
   }
 };
-// Writing MetadataGetter for method: Camera::RemoveCommandBuffer
+// Writing MetadataGetter for method: UnityEngine::Camera::RemoveCommandBuffer
 // Il2CppName: RemoveCommandBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(UnityEngine::Rendering::CameraEvent, UnityEngine::Rendering::CommandBuffer*)>(&Camera::RemoveCommandBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Rendering::CameraEvent, UnityEngine::Rendering::CommandBuffer*)>(&UnityEngine::Camera::RemoveCommandBuffer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "RemoveCommandBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::CameraEvent>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::CommandBuffer*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "RemoveCommandBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::CameraEvent>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::CommandBuffer*>()});
   }
 };
-// Writing MetadataGetter for method: Camera::FireOnPreCull
+// Writing MetadataGetter for method: UnityEngine::Camera::FireOnPreCull
 // Il2CppName: FireOnPreCull
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Camera*)>(&Camera::FireOnPreCull)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Camera*)>(&UnityEngine::Camera::FireOnPreCull)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "FireOnPreCull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "FireOnPreCull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
   }
 };
-// Writing MetadataGetter for method: Camera::FireOnPreRender
+// Writing MetadataGetter for method: UnityEngine::Camera::FireOnPreRender
 // Il2CppName: FireOnPreRender
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Camera*)>(&Camera::FireOnPreRender)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Camera*)>(&UnityEngine::Camera::FireOnPreRender)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "FireOnPreRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "FireOnPreRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
   }
 };
-// Writing MetadataGetter for method: Camera::FireOnPostRender
+// Writing MetadataGetter for method: UnityEngine::Camera::FireOnPostRender
 // Il2CppName: FireOnPostRender
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Camera*)>(&Camera::FireOnPostRender)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Camera*)>(&UnityEngine::Camera::FireOnPostRender)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "FireOnPostRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "FireOnPostRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
   }
 };
-// Writing MetadataGetter for method: Camera::get_backgroundColor_Injected
+// Writing MetadataGetter for method: UnityEngine::Camera::get_backgroundColor_Injected
 // Il2CppName: get_backgroundColor_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(UnityEngine::Color&)>(&Camera::get_backgroundColor_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Color&)>(&UnityEngine::Camera::get_backgroundColor_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "get_backgroundColor_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_backgroundColor_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color&>()});
   }
 };
-// Writing MetadataGetter for method: Camera::set_backgroundColor_Injected
+// Writing MetadataGetter for method: UnityEngine::Camera::set_backgroundColor_Injected
 // Il2CppName: set_backgroundColor_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(UnityEngine::Color&)>(&Camera::set_backgroundColor_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Color&)>(&UnityEngine::Camera::set_backgroundColor_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "set_backgroundColor_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_backgroundColor_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color&>()});
   }
 };
-// Writing MetadataGetter for method: Camera::get_rect_Injected
+// Writing MetadataGetter for method: UnityEngine::Camera::get_rect_Injected
 // Il2CppName: get_rect_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(UnityEngine::Rect&)>(&Camera::get_rect_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Rect&)>(&UnityEngine::Camera::get_rect_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "get_rect_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_rect_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>()});
   }
 };
-// Writing MetadataGetter for method: Camera::set_rect_Injected
+// Writing MetadataGetter for method: UnityEngine::Camera::set_rect_Injected
 // Il2CppName: set_rect_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(UnityEngine::Rect&)>(&Camera::set_rect_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Rect&)>(&UnityEngine::Camera::set_rect_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "set_rect_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_rect_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>()});
   }
 };
-// Writing MetadataGetter for method: Camera::get_pixelRect_Injected
+// Writing MetadataGetter for method: UnityEngine::Camera::get_pixelRect_Injected
 // Il2CppName: get_pixelRect_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(UnityEngine::Rect&)>(&Camera::get_pixelRect_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Rect&)>(&UnityEngine::Camera::get_pixelRect_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "get_pixelRect_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_pixelRect_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>()});
   }
 };
-// Writing MetadataGetter for method: Camera::get_worldToCameraMatrix_Injected
+// Writing MetadataGetter for method: UnityEngine::Camera::get_worldToCameraMatrix_Injected
 // Il2CppName: get_worldToCameraMatrix_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(UnityEngine::Matrix4x4&)>(&Camera::get_worldToCameraMatrix_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Matrix4x4&)>(&UnityEngine::Camera::get_worldToCameraMatrix_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "get_worldToCameraMatrix_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_worldToCameraMatrix_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4&>()});
   }
 };
-// Writing MetadataGetter for method: Camera::set_worldToCameraMatrix_Injected
+// Writing MetadataGetter for method: UnityEngine::Camera::set_worldToCameraMatrix_Injected
 // Il2CppName: set_worldToCameraMatrix_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(UnityEngine::Matrix4x4&)>(&Camera::set_worldToCameraMatrix_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Matrix4x4&)>(&UnityEngine::Camera::set_worldToCameraMatrix_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "set_worldToCameraMatrix_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_worldToCameraMatrix_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4&>()});
   }
 };
-// Writing MetadataGetter for method: Camera::get_projectionMatrix_Injected
+// Writing MetadataGetter for method: UnityEngine::Camera::get_projectionMatrix_Injected
 // Il2CppName: get_projectionMatrix_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(UnityEngine::Matrix4x4&)>(&Camera::get_projectionMatrix_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Matrix4x4&)>(&UnityEngine::Camera::get_projectionMatrix_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "get_projectionMatrix_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "get_projectionMatrix_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4&>()});
   }
 };
-// Writing MetadataGetter for method: Camera::set_projectionMatrix_Injected
+// Writing MetadataGetter for method: UnityEngine::Camera::set_projectionMatrix_Injected
 // Il2CppName: set_projectionMatrix_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(UnityEngine::Matrix4x4&)>(&Camera::set_projectionMatrix_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Matrix4x4&)>(&UnityEngine::Camera::set_projectionMatrix_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "set_projectionMatrix_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "set_projectionMatrix_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4&>()});
   }
 };
-// Writing MetadataGetter for method: Camera::CalculateObliqueMatrix_Injected
+// Writing MetadataGetter for method: UnityEngine::Camera::CalculateObliqueMatrix_Injected
 // Il2CppName: CalculateObliqueMatrix_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(UnityEngine::Vector4&, UnityEngine::Matrix4x4&)>(&Camera::CalculateObliqueMatrix_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Vector4&, UnityEngine::Matrix4x4&)>(&UnityEngine::Camera::CalculateObliqueMatrix_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "CalculateObliqueMatrix_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "CalculateObliqueMatrix_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4&>()});
   }
 };
-// Writing MetadataGetter for method: Camera::WorldToScreenPoint_Injected
+// Writing MetadataGetter for method: UnityEngine::Camera::WorldToScreenPoint_Injected
 // Il2CppName: WorldToScreenPoint_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(UnityEngine::Vector3&, UnityEngine::Camera::MonoOrStereoscopicEye, UnityEngine::Vector3&)>(&Camera::WorldToScreenPoint_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Vector3&, UnityEngine::Camera::MonoOrStereoscopicEye, UnityEngine::Vector3&)>(&UnityEngine::Camera::WorldToScreenPoint_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "WorldToScreenPoint_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera::MonoOrStereoscopicEye>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "WorldToScreenPoint_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera::MonoOrStereoscopicEye>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: Camera::ViewportToWorldPoint_Injected
+// Writing MetadataGetter for method: UnityEngine::Camera::ViewportToWorldPoint_Injected
 // Il2CppName: ViewportToWorldPoint_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(UnityEngine::Vector3&, UnityEngine::Camera::MonoOrStereoscopicEye, UnityEngine::Vector3&)>(&Camera::ViewportToWorldPoint_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Vector3&, UnityEngine::Camera::MonoOrStereoscopicEye, UnityEngine::Vector3&)>(&UnityEngine::Camera::ViewportToWorldPoint_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "ViewportToWorldPoint_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera::MonoOrStereoscopicEye>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "ViewportToWorldPoint_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera::MonoOrStereoscopicEye>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: Camera::ScreenToViewportPoint_Injected
+// Writing MetadataGetter for method: UnityEngine::Camera::ScreenToViewportPoint_Injected
 // Il2CppName: ScreenToViewportPoint_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(UnityEngine::Vector3&, UnityEngine::Vector3&)>(&Camera::ScreenToViewportPoint_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Vector3&, UnityEngine::Vector3&)>(&UnityEngine::Camera::ScreenToViewportPoint_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "ScreenToViewportPoint_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "ScreenToViewportPoint_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: Camera::ScreenPointToRay_Injected
+// Writing MetadataGetter for method: UnityEngine::Camera::ScreenPointToRay_Injected
 // Il2CppName: ScreenPointToRay_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(UnityEngine::Vector2&, UnityEngine::Camera::MonoOrStereoscopicEye, UnityEngine::Ray&)>(&Camera::ScreenPointToRay_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Vector2&, UnityEngine::Camera::MonoOrStereoscopicEye, UnityEngine::Ray&)>(&UnityEngine::Camera::ScreenPointToRay_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "ScreenPointToRay_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera::MonoOrStereoscopicEye>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "ScreenPointToRay_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera::MonoOrStereoscopicEye>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray&>()});
   }
 };
-// Writing MetadataGetter for method: Camera::GetStereoProjectionMatrix_Injected
+// Writing MetadataGetter for method: UnityEngine::Camera::GetStereoProjectionMatrix_Injected
 // Il2CppName: GetStereoProjectionMatrix_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)(UnityEngine::Camera::StereoscopicEye, UnityEngine::Matrix4x4&)>(&Camera::GetStereoProjectionMatrix_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)(UnityEngine::Camera::StereoscopicEye, UnityEngine::Matrix4x4&)>(&UnityEngine::Camera::GetStereoProjectionMatrix_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), "GetStereoProjectionMatrix_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera::StereoscopicEye>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "GetStereoProjectionMatrix_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera::StereoscopicEye>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4&>()});
   }
 };
-// Writing MetadataGetter for method: Camera::New_ctor
+// Writing MetadataGetter for method: UnityEngine::Camera::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)()>(&Camera::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)()>(&UnityEngine::Camera::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Camera::*)()>(&Camera::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Camera::*)()>(&UnityEngine::Camera::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Camera*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

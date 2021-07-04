@@ -127,81 +127,81 @@ namespace System::Security::Claims {
   static_assert(sizeof(ClaimsIdentity::$get_Claims$d__51) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Claims::ClaimsIdentity::$get_Claims$d__51*, "System.Security.Claims", "ClaimsIdentity/<get_Claims>d__51");
-// Writing MetadataGetter for method: ClaimsIdentity::$get_Claims$d__51::New_ctor
+// Writing MetadataGetter for method: System::Security::Claims::ClaimsIdentity::$get_Claims$d__51::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClaimsIdentity::$get_Claims$d__51::*)(int)>(&ClaimsIdentity::$get_Claims$d__51::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Claims::ClaimsIdentity::$get_Claims$d__51::*)(int)>(&System::Security::Claims::ClaimsIdentity::$get_Claims$d__51::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ClaimsIdentity::$get_Claims$d__51*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsIdentity::$get_Claims$d__51*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClaimsIdentity::$get_Claims$d__51::*)(int)>(&ClaimsIdentity::$get_Claims$d__51::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Claims::ClaimsIdentity::$get_Claims$d__51::*)(int)>(&System::Security::Claims::ClaimsIdentity::$get_Claims$d__51::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ClaimsIdentity::$get_Claims$d__51*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsIdentity::$get_Claims$d__51*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ClaimsIdentity::$get_Claims$d__51::System_IDisposable_Dispose
+// Writing MetadataGetter for method: System::Security::Claims::ClaimsIdentity::$get_Claims$d__51::System_IDisposable_Dispose
 // Il2CppName: System.IDisposable.Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClaimsIdentity::$get_Claims$d__51::*)()>(&ClaimsIdentity::$get_Claims$d__51::System_IDisposable_Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Claims::ClaimsIdentity::$get_Claims$d__51::*)()>(&System::Security::Claims::ClaimsIdentity::$get_Claims$d__51::System_IDisposable_Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ClaimsIdentity::$get_Claims$d__51*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsIdentity::$get_Claims$d__51*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ClaimsIdentity::$get_Claims$d__51::MoveNext
+// Writing MetadataGetter for method: System::Security::Claims::ClaimsIdentity::$get_Claims$d__51::MoveNext
 // Il2CppName: MoveNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ClaimsIdentity::$get_Claims$d__51::*)()>(&ClaimsIdentity::$get_Claims$d__51::MoveNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Claims::ClaimsIdentity::$get_Claims$d__51::*)()>(&System::Security::Claims::ClaimsIdentity::$get_Claims$d__51::MoveNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ClaimsIdentity::$get_Claims$d__51*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsIdentity::$get_Claims$d__51*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ClaimsIdentity::$get_Claims$d__51::$$m__Finally1
+// Writing MetadataGetter for method: System::Security::Claims::ClaimsIdentity::$get_Claims$d__51::$$m__Finally1
 // Il2CppName: <>m__Finally1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClaimsIdentity::$get_Claims$d__51::*)()>(&ClaimsIdentity::$get_Claims$d__51::$$m__Finally1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Claims::ClaimsIdentity::$get_Claims$d__51::*)()>(&System::Security::Claims::ClaimsIdentity::$get_Claims$d__51::$$m__Finally1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ClaimsIdentity::$get_Claims$d__51*), "<>m__Finally1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsIdentity::$get_Claims$d__51*), "<>m__Finally1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ClaimsIdentity::$get_Claims$d__51::System_Collections_Generic_IEnumerator$System_Security_Claims_Claim$_get_Current
+// Writing MetadataGetter for method: System::Security::Claims::ClaimsIdentity::$get_Claims$d__51::System_Collections_Generic_IEnumerator$System_Security_Claims_Claim$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<System.Security.Claims.Claim>.get_Current
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Claims::Claim* (ClaimsIdentity::$get_Claims$d__51::*)()>(&ClaimsIdentity::$get_Claims$d__51::System_Collections_Generic_IEnumerator$System_Security_Claims_Claim$_get_Current)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Claims::Claim* (System::Security::Claims::ClaimsIdentity::$get_Claims$d__51::*)()>(&System::Security::Claims::ClaimsIdentity::$get_Claims$d__51::System_Collections_Generic_IEnumerator$System_Security_Claims_Claim$_get_Current)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ClaimsIdentity::$get_Claims$d__51*), "System.Collections.Generic.IEnumerator<System.Security.Claims.Claim>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsIdentity::$get_Claims$d__51*), "System.Collections.Generic.IEnumerator<System.Security.Claims.Claim>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ClaimsIdentity::$get_Claims$d__51::System_Collections_IEnumerator_Reset
+// Writing MetadataGetter for method: System::Security::Claims::ClaimsIdentity::$get_Claims$d__51::System_Collections_IEnumerator_Reset
 // Il2CppName: System.Collections.IEnumerator.Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClaimsIdentity::$get_Claims$d__51::*)()>(&ClaimsIdentity::$get_Claims$d__51::System_Collections_IEnumerator_Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Claims::ClaimsIdentity::$get_Claims$d__51::*)()>(&System::Security::Claims::ClaimsIdentity::$get_Claims$d__51::System_Collections_IEnumerator_Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ClaimsIdentity::$get_Claims$d__51*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsIdentity::$get_Claims$d__51*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ClaimsIdentity::$get_Claims$d__51::System_Collections_IEnumerator_get_Current
+// Writing MetadataGetter for method: System::Security::Claims::ClaimsIdentity::$get_Claims$d__51::System_Collections_IEnumerator_get_Current
 // Il2CppName: System.Collections.IEnumerator.get_Current
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ClaimsIdentity::$get_Claims$d__51::*)()>(&ClaimsIdentity::$get_Claims$d__51::System_Collections_IEnumerator_get_Current)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Security::Claims::ClaimsIdentity::$get_Claims$d__51::*)()>(&System::Security::Claims::ClaimsIdentity::$get_Claims$d__51::System_Collections_IEnumerator_get_Current)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ClaimsIdentity::$get_Claims$d__51*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsIdentity::$get_Claims$d__51*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ClaimsIdentity::$get_Claims$d__51::System_Collections_Generic_IEnumerable$System_Security_Claims_Claim$_GetEnumerator
+// Writing MetadataGetter for method: System::Security::Claims::ClaimsIdentity::$get_Claims$d__51::System_Collections_Generic_IEnumerable$System_Security_Claims_Claim$_GetEnumerator
 // Il2CppName: System.Collections.Generic.IEnumerable<System.Security.Claims.Claim>.GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<System::Security::Claims::Claim*>* (ClaimsIdentity::$get_Claims$d__51::*)()>(&ClaimsIdentity::$get_Claims$d__51::System_Collections_Generic_IEnumerable$System_Security_Claims_Claim$_GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<System::Security::Claims::Claim*>* (System::Security::Claims::ClaimsIdentity::$get_Claims$d__51::*)()>(&System::Security::Claims::ClaimsIdentity::$get_Claims$d__51::System_Collections_Generic_IEnumerable$System_Security_Claims_Claim$_GetEnumerator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ClaimsIdentity::$get_Claims$d__51*), "System.Collections.Generic.IEnumerable<System.Security.Claims.Claim>.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsIdentity::$get_Claims$d__51*), "System.Collections.Generic.IEnumerable<System.Security.Claims.Claim>.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ClaimsIdentity::$get_Claims$d__51::System_Collections_IEnumerable_GetEnumerator
+// Writing MetadataGetter for method: System::Security::Claims::ClaimsIdentity::$get_Claims$d__51::System_Collections_IEnumerable_GetEnumerator
 // Il2CppName: System.Collections.IEnumerable.GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (ClaimsIdentity::$get_Claims$d__51::*)()>(&ClaimsIdentity::$get_Claims$d__51::System_Collections_IEnumerable_GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::Security::Claims::ClaimsIdentity::$get_Claims$d__51::*)()>(&System::Security::Claims::ClaimsIdentity::$get_Claims$d__51::System_Collections_IEnumerable_GetEnumerator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ClaimsIdentity::$get_Claims$d__51*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsIdentity::$get_Claims$d__51*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

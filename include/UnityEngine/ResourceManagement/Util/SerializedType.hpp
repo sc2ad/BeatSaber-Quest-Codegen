@@ -87,59 +87,59 @@ namespace UnityEngine::ResourceManagement::Util {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::SerializedType, "UnityEngine.ResourceManagement.Util", "SerializedType");
-// Writing MetadataGetter for method: SerializedType::get_AssemblyName
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::SerializedType::get_AssemblyName
 // Il2CppName: get_AssemblyName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SerializedType::*)()>(&SerializedType::get_AssemblyName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::Util::SerializedType::*)()>(&UnityEngine::ResourceManagement::Util::SerializedType::get_AssemblyName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SerializedType), "get_AssemblyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::SerializedType), "get_AssemblyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SerializedType::get_ClassName
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::SerializedType::get_ClassName
 // Il2CppName: get_ClassName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SerializedType::*)()>(&SerializedType::get_ClassName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::Util::SerializedType::*)()>(&UnityEngine::ResourceManagement::Util::SerializedType::get_ClassName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SerializedType), "get_ClassName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::SerializedType), "get_ClassName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SerializedType::get_Value
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::SerializedType::get_Value
 // Il2CppName: get_Value
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (SerializedType::*)()>(&SerializedType::get_Value)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (UnityEngine::ResourceManagement::Util::SerializedType::*)()>(&UnityEngine::ResourceManagement::Util::SerializedType::get_Value)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SerializedType), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::SerializedType), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SerializedType::set_Value
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::SerializedType::set_Value
 // Il2CppName: set_Value
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SerializedType::*)(System::Type*)>(&SerializedType::set_Value)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::Util::SerializedType::*)(System::Type*)>(&UnityEngine::ResourceManagement::Util::SerializedType::set_Value)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SerializedType), "set_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::SerializedType), "set_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: SerializedType::get_ValueChanged
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::SerializedType::get_ValueChanged
 // Il2CppName: get_ValueChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SerializedType::*)()>(&SerializedType::get_ValueChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ResourceManagement::Util::SerializedType::*)()>(&UnityEngine::ResourceManagement::Util::SerializedType::get_ValueChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SerializedType), "get_ValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::SerializedType), "get_ValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SerializedType::set_ValueChanged
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::SerializedType::set_ValueChanged
 // Il2CppName: set_ValueChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SerializedType::*)(bool)>(&SerializedType::set_ValueChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::Util::SerializedType::*)(bool)>(&UnityEngine::ResourceManagement::Util::SerializedType::set_ValueChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SerializedType), "set_ValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::SerializedType), "set_ValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: SerializedType::ToString
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::SerializedType::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SerializedType::*)()>(&SerializedType::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::Util::SerializedType::*)()>(&UnityEngine::ResourceManagement::Util::SerializedType::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SerializedType), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::SerializedType), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

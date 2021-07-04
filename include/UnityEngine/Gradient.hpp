@@ -106,113 +106,113 @@ namespace UnityEngine {
   static_assert(sizeof(Gradient) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Gradient*, "UnityEngine", "Gradient");
-// Writing MetadataGetter for method: Gradient::Init
+// Writing MetadataGetter for method: UnityEngine::Gradient::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&Gradient::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&UnityEngine::Gradient::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Gradient*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gradient*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Gradient::Cleanup
+// Writing MetadataGetter for method: UnityEngine::Gradient::Cleanup
 // Il2CppName: Cleanup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Gradient::*)()>(&Gradient::Cleanup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Gradient::*)()>(&UnityEngine::Gradient::Cleanup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Gradient*), "Cleanup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gradient*), "Cleanup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Gradient::Internal_Equals
+// Writing MetadataGetter for method: UnityEngine::Gradient::Internal_Equals
 // Il2CppName: Internal_Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Gradient::*)(System::IntPtr)>(&Gradient::Internal_Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Gradient::*)(System::IntPtr)>(&UnityEngine::Gradient::Internal_Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Gradient*), "Internal_Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gradient*), "Internal_Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: Gradient::Evaluate
+// Writing MetadataGetter for method: UnityEngine::Gradient::Evaluate
 // Il2CppName: Evaluate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (Gradient::*)(float)>(&Gradient::Evaluate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (UnityEngine::Gradient::*)(float)>(&UnityEngine::Gradient::Evaluate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Gradient*), "Evaluate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gradient*), "Evaluate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Gradient::get_colorKeys
+// Writing MetadataGetter for method: UnityEngine::Gradient::get_colorKeys
 // Il2CppName: get_colorKeys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::GradientColorKey>* (Gradient::*)()>(&Gradient::get_colorKeys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::GradientColorKey>* (UnityEngine::Gradient::*)()>(&UnityEngine::Gradient::get_colorKeys)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Gradient*), "get_colorKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gradient*), "get_colorKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Gradient::get_alphaKeys
+// Writing MetadataGetter for method: UnityEngine::Gradient::get_alphaKeys
 // Il2CppName: get_alphaKeys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::GradientAlphaKey>* (Gradient::*)()>(&Gradient::get_alphaKeys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::GradientAlphaKey>* (UnityEngine::Gradient::*)()>(&UnityEngine::Gradient::get_alphaKeys)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Gradient*), "get_alphaKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gradient*), "get_alphaKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Gradient::SetKeys
+// Writing MetadataGetter for method: UnityEngine::Gradient::SetKeys
 // Il2CppName: SetKeys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Gradient::*)(::Array<UnityEngine::GradientColorKey>*, ::Array<UnityEngine::GradientAlphaKey>*)>(&Gradient::SetKeys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Gradient::*)(::Array<UnityEngine::GradientColorKey>*, ::Array<UnityEngine::GradientAlphaKey>*)>(&UnityEngine::Gradient::SetKeys)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Gradient*), "SetKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GradientColorKey>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GradientAlphaKey>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gradient*), "SetKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GradientColorKey>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GradientAlphaKey>*>()});
   }
 };
-// Writing MetadataGetter for method: Gradient::Equals
+// Writing MetadataGetter for method: UnityEngine::Gradient::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Gradient::*)(UnityEngine::Gradient*)>(&Gradient::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Gradient::*)(UnityEngine::Gradient*)>(&UnityEngine::Gradient::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Gradient*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Gradient*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gradient*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Gradient*>()});
   }
 };
-// Writing MetadataGetter for method: Gradient::Evaluate_Injected
+// Writing MetadataGetter for method: UnityEngine::Gradient::Evaluate_Injected
 // Il2CppName: Evaluate_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Gradient::*)(float, UnityEngine::Color&)>(&Gradient::Evaluate_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Gradient::*)(float, UnityEngine::Color&)>(&UnityEngine::Gradient::Evaluate_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Gradient*), "Evaluate_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gradient*), "Evaluate_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color&>()});
   }
 };
-// Writing MetadataGetter for method: Gradient::New_ctor
+// Writing MetadataGetter for method: UnityEngine::Gradient::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Gradient::*)()>(&Gradient::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Gradient::*)()>(&UnityEngine::Gradient::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Gradient*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gradient*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Gradient::*)()>(&Gradient::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Gradient::*)()>(&UnityEngine::Gradient::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Gradient*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gradient*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Gradient::Finalize
+// Writing MetadataGetter for method: UnityEngine::Gradient::Finalize
 // Il2CppName: Finalize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Gradient::*)()>(&Gradient::Finalize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Gradient::*)()>(&UnityEngine::Gradient::Finalize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Gradient*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gradient*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Gradient::Equals
+// Writing MetadataGetter for method: UnityEngine::Gradient::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Gradient::*)(::Il2CppObject*)>(&Gradient::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Gradient::*)(::Il2CppObject*)>(&UnityEngine::Gradient::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Gradient*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gradient*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Gradient::GetHashCode
+// Writing MetadataGetter for method: UnityEngine::Gradient::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Gradient::*)()>(&Gradient::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Gradient::*)()>(&UnityEngine::Gradient::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Gradient*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gradient*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -151,137 +151,137 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(MarkerList) == 0x12);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::MarkerList, "UnityEngine.Timeline", "MarkerList");
-// Writing MetadataGetter for method: MarkerList::get_markers
+// Writing MetadataGetter for method: UnityEngine::Timeline::MarkerList::get_markers
 // Il2CppName: get_markers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker*>* (MarkerList::*)()>(&MarkerList::get_markers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker*>* (UnityEngine::Timeline::MarkerList::*)()>(&UnityEngine::Timeline::MarkerList::get_markers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MarkerList), "get_markers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::MarkerList), "get_markers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MarkerList::MarkerList
+// Writing MetadataGetter for method: UnityEngine::Timeline::MarkerList::MarkerList
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MarkerList::*)(int)>(&MarkerList::MarkerList<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::MarkerList::*)(int)>(&UnityEngine::Timeline::MarkerList::MarkerList<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MarkerList), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::MarkerList), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MarkerList::*)(int)>(&MarkerList::MarkerList<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::MarkerList::*)(int)>(&UnityEngine::Timeline::MarkerList::MarkerList<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MarkerList), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::MarkerList), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: MarkerList::Add
+// Writing MetadataGetter for method: UnityEngine::Timeline::MarkerList::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MarkerList::*)(UnityEngine::ScriptableObject*)>(&MarkerList::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::MarkerList::*)(UnityEngine::ScriptableObject*)>(&UnityEngine::Timeline::MarkerList::Add)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MarkerList), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ScriptableObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::MarkerList), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ScriptableObject*>()});
   }
 };
-// Writing MetadataGetter for method: MarkerList::Remove
+// Writing MetadataGetter for method: UnityEngine::Timeline::MarkerList::Remove
 // Il2CppName: Remove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MarkerList::*)(UnityEngine::Timeline::IMarker*)>(&MarkerList::Remove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::MarkerList::*)(UnityEngine::Timeline::IMarker*)>(&UnityEngine::Timeline::MarkerList::Remove)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MarkerList), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IMarker*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::MarkerList), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IMarker*>()});
   }
 };
-// Writing MetadataGetter for method: MarkerList::Remove
+// Writing MetadataGetter for method: UnityEngine::Timeline::MarkerList::Remove
 // Il2CppName: Remove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MarkerList::*)(UnityEngine::ScriptableObject*, UnityEngine::Timeline::TimelineAsset*, UnityEngine::Playables::PlayableAsset*)>(&MarkerList::Remove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::MarkerList::*)(UnityEngine::ScriptableObject*, UnityEngine::Timeline::TimelineAsset*, UnityEngine::Playables::PlayableAsset*)>(&UnityEngine::Timeline::MarkerList::Remove)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MarkerList), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ScriptableObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineAsset*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableAsset*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::MarkerList), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ScriptableObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineAsset*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableAsset*>()});
   }
 };
-// Writing MetadataGetter for method: MarkerList::Clear
+// Writing MetadataGetter for method: UnityEngine::Timeline::MarkerList::Clear
 // Il2CppName: Clear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MarkerList::*)()>(&MarkerList::Clear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::MarkerList::*)()>(&UnityEngine::Timeline::MarkerList::Clear)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MarkerList), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::MarkerList), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MarkerList::Contains
+// Writing MetadataGetter for method: UnityEngine::Timeline::MarkerList::Contains
 // Il2CppName: Contains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MarkerList::*)(UnityEngine::ScriptableObject*)>(&MarkerList::Contains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::MarkerList::*)(UnityEngine::ScriptableObject*)>(&UnityEngine::Timeline::MarkerList::Contains)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MarkerList), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ScriptableObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::MarkerList), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ScriptableObject*>()});
   }
 };
-// Writing MetadataGetter for method: MarkerList::GetMarkers
+// Writing MetadataGetter for method: UnityEngine::Timeline::MarkerList::GetMarkers
 // Il2CppName: GetMarkers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::IMarker*>* (MarkerList::*)()>(&MarkerList::GetMarkers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::IMarker*>* (UnityEngine::Timeline::MarkerList::*)()>(&UnityEngine::Timeline::MarkerList::GetMarkers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MarkerList), "GetMarkers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::MarkerList), "GetMarkers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MarkerList::get_Count
+// Writing MetadataGetter for method: UnityEngine::Timeline::MarkerList::get_Count
 // Il2CppName: get_Count
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MarkerList::*)()>(&MarkerList::get_Count)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Timeline::MarkerList::*)()>(&UnityEngine::Timeline::MarkerList::get_Count)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MarkerList), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::MarkerList), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MarkerList::get_Item
+// Writing MetadataGetter for method: UnityEngine::Timeline::MarkerList::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::IMarker* (MarkerList::*)(int)>(&MarkerList::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::IMarker* (UnityEngine::Timeline::MarkerList::*)(int)>(&UnityEngine::Timeline::MarkerList::get_Item)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MarkerList), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::MarkerList), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: MarkerList::GetRawMarkerList
+// Writing MetadataGetter for method: UnityEngine::Timeline::MarkerList::GetRawMarkerList
 // Il2CppName: GetRawMarkerList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ScriptableObject*>* (MarkerList::*)()>(&MarkerList::GetRawMarkerList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ScriptableObject*>* (UnityEngine::Timeline::MarkerList::*)()>(&UnityEngine::Timeline::MarkerList::GetRawMarkerList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MarkerList), "GetRawMarkerList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::MarkerList), "GetRawMarkerList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MarkerList::CreateMarker
+// Writing MetadataGetter for method: UnityEngine::Timeline::MarkerList::CreateMarker
 // Il2CppName: CreateMarker
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::IMarker* (MarkerList::*)(System::Type*, double, UnityEngine::Timeline::TrackAsset*)>(&MarkerList::CreateMarker)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::IMarker* (UnityEngine::Timeline::MarkerList::*)(System::Type*, double, UnityEngine::Timeline::TrackAsset*)>(&UnityEngine::Timeline::MarkerList::CreateMarker)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MarkerList), "CreateMarker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::MarkerList), "CreateMarker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
   }
 };
-// Writing MetadataGetter for method: MarkerList::HasNotifications
+// Writing MetadataGetter for method: UnityEngine::Timeline::MarkerList::HasNotifications
 // Il2CppName: HasNotifications
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MarkerList::*)()>(&MarkerList::HasNotifications)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::MarkerList::*)()>(&UnityEngine::Timeline::MarkerList::HasNotifications)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MarkerList), "HasNotifications", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::MarkerList), "HasNotifications", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MarkerList::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize
+// Writing MetadataGetter for method: UnityEngine::Timeline::MarkerList::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize
 // Il2CppName: UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MarkerList::*)()>(&MarkerList::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::MarkerList::*)()>(&UnityEngine::Timeline::MarkerList::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MarkerList), "UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::MarkerList), "UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MarkerList::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize
+// Writing MetadataGetter for method: UnityEngine::Timeline::MarkerList::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize
 // Il2CppName: UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MarkerList::*)()>(&MarkerList::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::MarkerList::*)()>(&UnityEngine::Timeline::MarkerList::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MarkerList), "UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::MarkerList), "UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MarkerList::BuildCache
+// Writing MetadataGetter for method: UnityEngine::Timeline::MarkerList::BuildCache
 // Il2CppName: BuildCache
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MarkerList::*)()>(&MarkerList::BuildCache)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::MarkerList::*)()>(&UnityEngine::Timeline::MarkerList::BuildCache)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MarkerList), "BuildCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::MarkerList), "BuildCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

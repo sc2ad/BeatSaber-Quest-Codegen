@@ -51,41 +51,41 @@ namespace UnityEngine::TestTools::TestRunner {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::UnityTestTimeoutException*, "UnityEngine.TestTools.TestRunner", "UnityTestTimeoutException");
-// Writing MetadataGetter for method: UnityTestTimeoutException::New_ctor
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::UnityTestTimeoutException::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestTimeoutException::*)(int)>(&UnityTestTimeoutException::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestRunner::UnityTestTimeoutException::*)(int)>(&UnityEngine::TestTools::TestRunner::UnityTestTimeoutException::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTestTimeoutException*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::UnityTestTimeoutException*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTestTimeoutException::*)(int)>(&UnityTestTimeoutException::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestRunner::UnityTestTimeoutException::*)(int)>(&UnityEngine::TestTools::TestRunner::UnityTestTimeoutException::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTestTimeoutException*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::UnityTestTimeoutException*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: UnityTestTimeoutException::BuildMessage
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::UnityTestTimeoutException::BuildMessage
 // Il2CppName: BuildMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&UnityTestTimeoutException::BuildMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&UnityEngine::TestTools::TestRunner::UnityTestTimeoutException::BuildMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTestTimeoutException*), "BuildMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::UnityTestTimeoutException*), "BuildMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: UnityTestTimeoutException::get_ResultState
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::UnityTestTimeoutException::get_ResultState
 // Il2CppName: get_ResultState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ResultState* (UnityTestTimeoutException::*)()>(&UnityTestTimeoutException::get_ResultState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ResultState* (UnityEngine::TestTools::TestRunner::UnityTestTimeoutException::*)()>(&UnityEngine::TestTools::TestRunner::UnityTestTimeoutException::get_ResultState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTestTimeoutException*), "get_ResultState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::UnityTestTimeoutException*), "get_ResultState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityTestTimeoutException::get_StackTrace
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::UnityTestTimeoutException::get_StackTrace
 // Il2CppName: get_StackTrace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityTestTimeoutException::*)()>(&UnityTestTimeoutException::get_StackTrace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::TestTools::TestRunner::UnityTestTimeoutException::*)()>(&UnityEngine::TestTools::TestRunner::UnityTestTimeoutException::get_StackTrace)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTestTimeoutException*), "get_StackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::UnityTestTimeoutException*), "get_StackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

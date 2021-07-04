@@ -62,33 +62,33 @@ namespace Mono::Http {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Http::NtlmClient::$$c*, "Mono.Http", "NtlmClient/<>c");
-// Writing MetadataGetter for method: NtlmClient::$$c::_cctor
+// Writing MetadataGetter for method: Mono::Http::NtlmClient::$$c::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NtlmClient::$$c::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Mono::Http::NtlmClient::$$c::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NtlmClient::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Http::NtlmClient::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NtlmClient::$$c::$Authenticate$b__1_0
+// Writing MetadataGetter for method: Mono::Http::NtlmClient::$$c::$Authenticate$b__1_0
 // Il2CppName: <Authenticate>b__1_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Http::NtlmSession* (NtlmClient::$$c::*)(System::Net::HttpWebRequest*)>(&NtlmClient::$$c::$Authenticate$b__1_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Http::NtlmSession* (Mono::Http::NtlmClient::$$c::*)(System::Net::HttpWebRequest*)>(&Mono::Http::NtlmClient::$$c::$Authenticate$b__1_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NtlmClient::$$c*), "<Authenticate>b__1_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Http::NtlmClient::$$c*), "<Authenticate>b__1_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>()});
   }
 };
-// Writing MetadataGetter for method: NtlmClient::$$c::New_ctor
+// Writing MetadataGetter for method: Mono::Http::NtlmClient::$$c::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NtlmClient::$$c::*)()>(&NtlmClient::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Http::NtlmClient::$$c::*)()>(&Mono::Http::NtlmClient::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NtlmClient::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Http::NtlmClient::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NtlmClient::$$c::*)()>(&NtlmClient::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Http::NtlmClient::$$c::*)()>(&Mono::Http::NtlmClient::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NtlmClient::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Http::NtlmClient::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -169,149 +169,149 @@ namespace System::Security::Principal {
   static_assert(sizeof(WindowsIdentity) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::WindowsIdentity*, "System.Security.Principal", "WindowsIdentity");
-// Writing MetadataGetter for method: WindowsIdentity::New_ctor
+// Writing MetadataGetter for method: System::Security::Principal::WindowsIdentity::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WindowsIdentity::*)(System::IntPtr, ::Il2CppString*, System::Security::Principal::WindowsAccountType, bool)>(&WindowsIdentity::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Principal::WindowsIdentity::*)(System::IntPtr, ::Il2CppString*, System::Security::Principal::WindowsAccountType, bool)>(&System::Security::Principal::WindowsIdentity::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WindowsIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Principal::WindowsAccountType>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::WindowsIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Principal::WindowsAccountType>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WindowsIdentity::*)(System::IntPtr, ::Il2CppString*, System::Security::Principal::WindowsAccountType, bool)>(&WindowsIdentity::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Principal::WindowsIdentity::*)(System::IntPtr, ::Il2CppString*, System::Security::Principal::WindowsAccountType, bool)>(&System::Security::Principal::WindowsIdentity::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WindowsIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Principal::WindowsAccountType>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::WindowsIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Principal::WindowsAccountType>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: WindowsIdentity::New_ctor
+// Writing MetadataGetter for method: System::Security::Principal::WindowsIdentity::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WindowsIdentity::*)(System::Security::Claims::ClaimsIdentity*, System::IntPtr)>(&WindowsIdentity::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Principal::WindowsIdentity::*)(System::Security::Claims::ClaimsIdentity*, System::IntPtr)>(&System::Security::Principal::WindowsIdentity::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WindowsIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Claims::ClaimsIdentity*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::WindowsIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Claims::ClaimsIdentity*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WindowsIdentity::*)(System::Security::Claims::ClaimsIdentity*, System::IntPtr)>(&WindowsIdentity::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Principal::WindowsIdentity::*)(System::Security::Claims::ClaimsIdentity*, System::IntPtr)>(&System::Security::Principal::WindowsIdentity::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WindowsIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Claims::ClaimsIdentity*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::WindowsIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Claims::ClaimsIdentity*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: WindowsIdentity::Dispose
+// Writing MetadataGetter for method: System::Security::Principal::WindowsIdentity::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WindowsIdentity::*)()>(&WindowsIdentity::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Principal::WindowsIdentity::*)()>(&System::Security::Principal::WindowsIdentity::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WindowsIdentity*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::WindowsIdentity*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WindowsIdentity::GetCurrent
+// Writing MetadataGetter for method: System::Security::Principal::WindowsIdentity::GetCurrent
 // Il2CppName: GetCurrent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Principal::WindowsIdentity* (*)()>(&WindowsIdentity::GetCurrent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Principal::WindowsIdentity* (*)()>(&System::Security::Principal::WindowsIdentity::GetCurrent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WindowsIdentity*), "GetCurrent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::WindowsIdentity*), "GetCurrent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WindowsIdentity::Impersonate
+// Writing MetadataGetter for method: System::Security::Principal::WindowsIdentity::Impersonate
 // Il2CppName: Impersonate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Principal::WindowsImpersonationContext* (WindowsIdentity::*)()>(&WindowsIdentity::Impersonate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Principal::WindowsImpersonationContext* (System::Security::Principal::WindowsIdentity::*)()>(&System::Security::Principal::WindowsIdentity::Impersonate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WindowsIdentity*), "Impersonate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::WindowsIdentity*), "Impersonate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WindowsIdentity::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization
+// Writing MetadataGetter for method: System::Security::Principal::WindowsIdentity::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization
 // Il2CppName: System.Runtime.Serialization.IDeserializationCallback.OnDeserialization
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WindowsIdentity::*)(::Il2CppObject*)>(&WindowsIdentity::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Principal::WindowsIdentity::*)(::Il2CppObject*)>(&System::Security::Principal::WindowsIdentity::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WindowsIdentity*), "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::WindowsIdentity*), "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: WindowsIdentity::System_Runtime_Serialization_ISerializable_GetObjectData
+// Writing MetadataGetter for method: System::Security::Principal::WindowsIdentity::System_Runtime_Serialization_ISerializable_GetObjectData
 // Il2CppName: System.Runtime.Serialization.ISerializable.GetObjectData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WindowsIdentity::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&WindowsIdentity::System_Runtime_Serialization_ISerializable_GetObjectData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Principal::WindowsIdentity::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Security::Principal::WindowsIdentity::System_Runtime_Serialization_ISerializable_GetObjectData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WindowsIdentity*), "System.Runtime.Serialization.ISerializable.GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::WindowsIdentity*), "System.Runtime.Serialization.ISerializable.GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
   }
 };
-// Writing MetadataGetter for method: WindowsIdentity::CloneAsBase
+// Writing MetadataGetter for method: System::Security::Principal::WindowsIdentity::CloneAsBase
 // Il2CppName: CloneAsBase
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Claims::ClaimsIdentity* (WindowsIdentity::*)()>(&WindowsIdentity::CloneAsBase)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Claims::ClaimsIdentity* (System::Security::Principal::WindowsIdentity::*)()>(&System::Security::Principal::WindowsIdentity::CloneAsBase)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WindowsIdentity*), "CloneAsBase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::WindowsIdentity*), "CloneAsBase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WindowsIdentity::GetTokenInternal
+// Writing MetadataGetter for method: System::Security::Principal::WindowsIdentity::GetTokenInternal
 // Il2CppName: GetTokenInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (WindowsIdentity::*)()>(&WindowsIdentity::GetTokenInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (System::Security::Principal::WindowsIdentity::*)()>(&System::Security::Principal::WindowsIdentity::GetTokenInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WindowsIdentity*), "GetTokenInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::WindowsIdentity*), "GetTokenInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WindowsIdentity::SetToken
+// Writing MetadataGetter for method: System::Security::Principal::WindowsIdentity::SetToken
 // Il2CppName: SetToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WindowsIdentity::*)(System::IntPtr)>(&WindowsIdentity::SetToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Principal::WindowsIdentity::*)(System::IntPtr)>(&System::Security::Principal::WindowsIdentity::SetToken)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WindowsIdentity*), "SetToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::WindowsIdentity*), "SetToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: WindowsIdentity::GetCurrentToken
+// Writing MetadataGetter for method: System::Security::Principal::WindowsIdentity::GetCurrentToken
 // Il2CppName: GetCurrentToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&WindowsIdentity::GetCurrentToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&System::Security::Principal::WindowsIdentity::GetCurrentToken)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WindowsIdentity*), "GetCurrentToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::WindowsIdentity*), "GetCurrentToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WindowsIdentity::GetTokenName
+// Writing MetadataGetter for method: System::Security::Principal::WindowsIdentity::GetTokenName
 // Il2CppName: GetTokenName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&WindowsIdentity::GetTokenName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&System::Security::Principal::WindowsIdentity::GetTokenName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WindowsIdentity*), "GetTokenName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::WindowsIdentity*), "GetTokenName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: WindowsIdentity::_cctor
+// Writing MetadataGetter for method: System::Security::Principal::WindowsIdentity::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&WindowsIdentity::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Security::Principal::WindowsIdentity::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WindowsIdentity*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::WindowsIdentity*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WindowsIdentity::New_ctor
+// Writing MetadataGetter for method: System::Security::Principal::WindowsIdentity::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WindowsIdentity::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&WindowsIdentity::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Principal::WindowsIdentity::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Security::Principal::WindowsIdentity::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WindowsIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::WindowsIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WindowsIdentity::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&WindowsIdentity::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Principal::WindowsIdentity::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Security::Principal::WindowsIdentity::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WindowsIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::WindowsIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
   }
 };
-// Writing MetadataGetter for method: WindowsIdentity::get_AuthenticationType
+// Writing MetadataGetter for method: System::Security::Principal::WindowsIdentity::get_AuthenticationType
 // Il2CppName: get_AuthenticationType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (WindowsIdentity::*)()>(&WindowsIdentity::get_AuthenticationType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Principal::WindowsIdentity::*)()>(&System::Security::Principal::WindowsIdentity::get_AuthenticationType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WindowsIdentity*), "get_AuthenticationType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::WindowsIdentity*), "get_AuthenticationType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WindowsIdentity::get_Name
+// Writing MetadataGetter for method: System::Security::Principal::WindowsIdentity::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (WindowsIdentity::*)()>(&WindowsIdentity::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Principal::WindowsIdentity::*)()>(&System::Security::Principal::WindowsIdentity::get_Name)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WindowsIdentity*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::WindowsIdentity*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

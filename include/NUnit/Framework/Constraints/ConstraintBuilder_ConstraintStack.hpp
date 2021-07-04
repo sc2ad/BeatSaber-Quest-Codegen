@@ -49,11 +49,11 @@ namespace NUnit::Framework::Constraints {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack*, "NUnit.Framework.Constraints", "ConstraintBuilder/ConstraintStack");
-// Writing MetadataGetter for method: ConstraintBuilder::ConstraintStack::Pop
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack::Pop
 // Il2CppName: Pop
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::IConstraint* (ConstraintBuilder::ConstraintStack::*)()>(&ConstraintBuilder::ConstraintStack::Pop)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::IConstraint* (NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack::*)()>(&NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack::Pop)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConstraintBuilder::ConstraintStack*), "Pop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack*), "Pop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

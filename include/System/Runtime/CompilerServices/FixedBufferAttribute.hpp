@@ -59,33 +59,33 @@ namespace System::Runtime::CompilerServices {
   static_assert(sizeof(FixedBufferAttribute) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::FixedBufferAttribute*, "System.Runtime.CompilerServices", "FixedBufferAttribute");
-// Writing MetadataGetter for method: FixedBufferAttribute::New_ctor
+// Writing MetadataGetter for method: System::Runtime::CompilerServices::FixedBufferAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FixedBufferAttribute::*)(System::Type*, int)>(&FixedBufferAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::CompilerServices::FixedBufferAttribute::*)(System::Type*, int)>(&System::Runtime::CompilerServices::FixedBufferAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FixedBufferAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::FixedBufferAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FixedBufferAttribute::*)(System::Type*, int)>(&FixedBufferAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::CompilerServices::FixedBufferAttribute::*)(System::Type*, int)>(&System::Runtime::CompilerServices::FixedBufferAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FixedBufferAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::FixedBufferAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: FixedBufferAttribute::get_ElementType
+// Writing MetadataGetter for method: System::Runtime::CompilerServices::FixedBufferAttribute::get_ElementType
 // Il2CppName: get_ElementType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (FixedBufferAttribute::*)()>(&FixedBufferAttribute::get_ElementType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Runtime::CompilerServices::FixedBufferAttribute::*)()>(&System::Runtime::CompilerServices::FixedBufferAttribute::get_ElementType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FixedBufferAttribute*), "get_ElementType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::FixedBufferAttribute*), "get_ElementType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FixedBufferAttribute::get_Length
+// Writing MetadataGetter for method: System::Runtime::CompilerServices::FixedBufferAttribute::get_Length
 // Il2CppName: get_Length
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (FixedBufferAttribute::*)()>(&FixedBufferAttribute::get_Length)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Runtime::CompilerServices::FixedBufferAttribute::*)()>(&System::Runtime::CompilerServices::FixedBufferAttribute::get_Length)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FixedBufferAttribute*), "get_Length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::FixedBufferAttribute*), "get_Length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

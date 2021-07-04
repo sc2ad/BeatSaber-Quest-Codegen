@@ -81,39 +81,39 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::NoAllocHelpers*, "UnityEngine", "NoAllocHelpers");
-// Writing MetadataGetter for method: NoAllocHelpers::ResizeList
+// Writing MetadataGetter for method: UnityEngine::NoAllocHelpers::ResizeList
 // Il2CppName: ResizeList
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: NoAllocHelpers::EnsureListElemCount
+// Writing MetadataGetter for method: UnityEngine::NoAllocHelpers::EnsureListElemCount
 // Il2CppName: EnsureListElemCount
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: NoAllocHelpers::SafeLength
+// Writing MetadataGetter for method: UnityEngine::NoAllocHelpers::SafeLength
 // Il2CppName: SafeLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Array*)>(&NoAllocHelpers::SafeLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Array*)>(&UnityEngine::NoAllocHelpers::SafeLength)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoAllocHelpers*), "SafeLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::NoAllocHelpers*), "SafeLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>()});
   }
 };
-// Writing MetadataGetter for method: NoAllocHelpers::SafeLength
+// Writing MetadataGetter for method: UnityEngine::NoAllocHelpers::SafeLength
 // Il2CppName: SafeLength
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: NoAllocHelpers::ExtractArrayFromListT
+// Writing MetadataGetter for method: UnityEngine::NoAllocHelpers::ExtractArrayFromListT
 // Il2CppName: ExtractArrayFromListT
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: NoAllocHelpers::Internal_ResizeList
+// Writing MetadataGetter for method: UnityEngine::NoAllocHelpers::Internal_ResizeList
 // Il2CppName: Internal_ResizeList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, int)>(&NoAllocHelpers::Internal_ResizeList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, int)>(&UnityEngine::NoAllocHelpers::Internal_ResizeList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoAllocHelpers*), "Internal_ResizeList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::NoAllocHelpers*), "Internal_ResizeList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: NoAllocHelpers::ExtractArrayFromList
+// Writing MetadataGetter for method: UnityEngine::NoAllocHelpers::ExtractArrayFromList
 // Il2CppName: ExtractArrayFromList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(::Il2CppObject*)>(&NoAllocHelpers::ExtractArrayFromList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(::Il2CppObject*)>(&UnityEngine::NoAllocHelpers::ExtractArrayFromList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoAllocHelpers*), "ExtractArrayFromList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::NoAllocHelpers*), "ExtractArrayFromList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };

@@ -42,25 +42,25 @@ namespace Zenject {
   }; // Zenject.FixedTickablesTaskUpdater
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FixedTickablesTaskUpdater*, "Zenject", "FixedTickablesTaskUpdater");
-// Writing MetadataGetter for method: FixedTickablesTaskUpdater::UpdateItem
+// Writing MetadataGetter for method: Zenject::FixedTickablesTaskUpdater::UpdateItem
 // Il2CppName: UpdateItem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FixedTickablesTaskUpdater::*)(Zenject::IFixedTickable*)>(&FixedTickablesTaskUpdater::UpdateItem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::FixedTickablesTaskUpdater::*)(Zenject::IFixedTickable*)>(&Zenject::FixedTickablesTaskUpdater::UpdateItem)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FixedTickablesTaskUpdater*), "UpdateItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::IFixedTickable*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::FixedTickablesTaskUpdater*), "UpdateItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::IFixedTickable*>()});
   }
 };
-// Writing MetadataGetter for method: FixedTickablesTaskUpdater::New_ctor
+// Writing MetadataGetter for method: Zenject::FixedTickablesTaskUpdater::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FixedTickablesTaskUpdater::*)()>(&FixedTickablesTaskUpdater::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::FixedTickablesTaskUpdater::*)()>(&Zenject::FixedTickablesTaskUpdater::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FixedTickablesTaskUpdater*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::FixedTickablesTaskUpdater*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FixedTickablesTaskUpdater::*)()>(&FixedTickablesTaskUpdater::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::FixedTickablesTaskUpdater::*)()>(&Zenject::FixedTickablesTaskUpdater::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FixedTickablesTaskUpdater*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::FixedTickablesTaskUpdater*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

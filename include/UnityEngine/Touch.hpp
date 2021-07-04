@@ -131,35 +131,35 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Touch, "UnityEngine", "Touch");
-// Writing MetadataGetter for method: Touch::get_fingerId
+// Writing MetadataGetter for method: UnityEngine::Touch::get_fingerId
 // Il2CppName: get_fingerId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Touch::*)()>(&Touch::get_fingerId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Touch::*)()>(&UnityEngine::Touch::get_fingerId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Touch), "get_fingerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Touch), "get_fingerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Touch::get_position
+// Writing MetadataGetter for method: UnityEngine::Touch::get_position
 // Il2CppName: get_position
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (Touch::*)()>(&Touch::get_position)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::Touch::*)()>(&UnityEngine::Touch::get_position)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Touch), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Touch), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Touch::get_phase
+// Writing MetadataGetter for method: UnityEngine::Touch::get_phase
 // Il2CppName: get_phase
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TouchPhase (Touch::*)()>(&Touch::get_phase)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TouchPhase (UnityEngine::Touch::*)()>(&UnityEngine::Touch::get_phase)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Touch), "get_phase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Touch), "get_phase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Touch::get_type
+// Writing MetadataGetter for method: UnityEngine::Touch::get_type
 // Il2CppName: get_type
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TouchType (Touch::*)()>(&Touch::get_type)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TouchType (UnityEngine::Touch::*)()>(&UnityEngine::Touch::get_type)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Touch), "get_type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Touch), "get_type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

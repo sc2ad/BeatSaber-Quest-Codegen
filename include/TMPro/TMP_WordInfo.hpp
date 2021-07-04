@@ -64,11 +64,11 @@ namespace TMPro {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_WordInfo, "TMPro", "TMP_WordInfo");
-// Writing MetadataGetter for method: TMP_WordInfo::GetWord
+// Writing MetadataGetter for method: TMPro::TMP_WordInfo::GetWord
 // Il2CppName: GetWord
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMP_WordInfo::*)()>(&TMP_WordInfo::GetWord)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMPro::TMP_WordInfo::*)()>(&TMPro::TMP_WordInfo::GetWord)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_WordInfo), "GetWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_WordInfo), "GetWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

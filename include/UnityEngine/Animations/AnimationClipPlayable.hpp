@@ -119,129 +119,129 @@ namespace UnityEngine::Animations {
   static_assert(sizeof(AnimationClipPlayable) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationClipPlayable, "UnityEngine.Animations", "AnimationClipPlayable");
-// Writing MetadataGetter for method: AnimationClipPlayable::Create
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationClipPlayable::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animations::AnimationClipPlayable (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::AnimationClip*)>(&AnimationClipPlayable::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animations::AnimationClipPlayable (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::AnimationClip*)>(&UnityEngine::Animations::AnimationClipPlayable::Create)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationClipPlayable), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationClipPlayable), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>()});
   }
 };
-// Writing MetadataGetter for method: AnimationClipPlayable::CreateHandle
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationClipPlayable::CreateHandle
 // Il2CppName: CreateHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::AnimationClip*)>(&AnimationClipPlayable::CreateHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::AnimationClip*)>(&UnityEngine::Animations::AnimationClipPlayable::CreateHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationClipPlayable), "CreateHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationClipPlayable), "CreateHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>()});
   }
 };
-// Writing MetadataGetter for method: AnimationClipPlayable::AnimationClipPlayable
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationClipPlayable::AnimationClipPlayable
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationClipPlayable::*)(UnityEngine::Playables::PlayableHandle)>(&AnimationClipPlayable::AnimationClipPlayable<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animations::AnimationClipPlayable::*)(UnityEngine::Playables::PlayableHandle)>(&UnityEngine::Animations::AnimationClipPlayable::AnimationClipPlayable<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationClipPlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationClipPlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationClipPlayable::*)(UnityEngine::Playables::PlayableHandle)>(&AnimationClipPlayable::AnimationClipPlayable<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animations::AnimationClipPlayable::*)(UnityEngine::Playables::PlayableHandle)>(&UnityEngine::Animations::AnimationClipPlayable::AnimationClipPlayable<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationClipPlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationClipPlayable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
   }
 };
-// Writing MetadataGetter for method: AnimationClipPlayable::GetHandle
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationClipPlayable::GetHandle
 // Il2CppName: GetHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (AnimationClipPlayable::*)()>(&AnimationClipPlayable::GetHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (UnityEngine::Animations::AnimationClipPlayable::*)()>(&UnityEngine::Animations::AnimationClipPlayable::GetHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationClipPlayable), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationClipPlayable), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AnimationClipPlayable::Equals
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationClipPlayable::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AnimationClipPlayable::*)(UnityEngine::Animations::AnimationClipPlayable)>(&AnimationClipPlayable::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animations::AnimationClipPlayable::*)(UnityEngine::Animations::AnimationClipPlayable)>(&UnityEngine::Animations::AnimationClipPlayable::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationClipPlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimationClipPlayable>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationClipPlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimationClipPlayable>()});
   }
 };
-// Writing MetadataGetter for method: AnimationClipPlayable::SetApplyFootIK
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationClipPlayable::SetApplyFootIK
 // Il2CppName: SetApplyFootIK
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationClipPlayable::*)(bool)>(&AnimationClipPlayable::SetApplyFootIK)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animations::AnimationClipPlayable::*)(bool)>(&UnityEngine::Animations::AnimationClipPlayable::SetApplyFootIK)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationClipPlayable), "SetApplyFootIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationClipPlayable), "SetApplyFootIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AnimationClipPlayable::SetRemoveStartOffset
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationClipPlayable::SetRemoveStartOffset
 // Il2CppName: SetRemoveStartOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationClipPlayable::*)(bool)>(&AnimationClipPlayable::SetRemoveStartOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animations::AnimationClipPlayable::*)(bool)>(&UnityEngine::Animations::AnimationClipPlayable::SetRemoveStartOffset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationClipPlayable), "SetRemoveStartOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationClipPlayable), "SetRemoveStartOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AnimationClipPlayable::SetOverrideLoopTime
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationClipPlayable::SetOverrideLoopTime
 // Il2CppName: SetOverrideLoopTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationClipPlayable::*)(bool)>(&AnimationClipPlayable::SetOverrideLoopTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animations::AnimationClipPlayable::*)(bool)>(&UnityEngine::Animations::AnimationClipPlayable::SetOverrideLoopTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationClipPlayable), "SetOverrideLoopTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationClipPlayable), "SetOverrideLoopTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AnimationClipPlayable::SetLoopTime
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationClipPlayable::SetLoopTime
 // Il2CppName: SetLoopTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnimationClipPlayable::*)(bool)>(&AnimationClipPlayable::SetLoopTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animations::AnimationClipPlayable::*)(bool)>(&UnityEngine::Animations::AnimationClipPlayable::SetLoopTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationClipPlayable), "SetLoopTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationClipPlayable), "SetLoopTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AnimationClipPlayable::CreateHandleInternal
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationClipPlayable::CreateHandleInternal
 // Il2CppName: CreateHandleInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::AnimationClip*, UnityEngine::Playables::PlayableHandle&)>(&AnimationClipPlayable::CreateHandleInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::AnimationClip*, UnityEngine::Playables::PlayableHandle&)>(&UnityEngine::Animations::AnimationClipPlayable::CreateHandleInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationClipPlayable), "CreateHandleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationClipPlayable), "CreateHandleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
   }
 };
-// Writing MetadataGetter for method: AnimationClipPlayable::SetApplyFootIKInternal
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationClipPlayable::SetApplyFootIKInternal
 // Il2CppName: SetApplyFootIKInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, bool)>(&AnimationClipPlayable::SetApplyFootIKInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, bool)>(&UnityEngine::Animations::AnimationClipPlayable::SetApplyFootIKInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationClipPlayable), "SetApplyFootIKInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationClipPlayable), "SetApplyFootIKInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AnimationClipPlayable::SetRemoveStartOffsetInternal
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationClipPlayable::SetRemoveStartOffsetInternal
 // Il2CppName: SetRemoveStartOffsetInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, bool)>(&AnimationClipPlayable::SetRemoveStartOffsetInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, bool)>(&UnityEngine::Animations::AnimationClipPlayable::SetRemoveStartOffsetInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationClipPlayable), "SetRemoveStartOffsetInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationClipPlayable), "SetRemoveStartOffsetInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AnimationClipPlayable::SetOverrideLoopTimeInternal
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationClipPlayable::SetOverrideLoopTimeInternal
 // Il2CppName: SetOverrideLoopTimeInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, bool)>(&AnimationClipPlayable::SetOverrideLoopTimeInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, bool)>(&UnityEngine::Animations::AnimationClipPlayable::SetOverrideLoopTimeInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationClipPlayable), "SetOverrideLoopTimeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationClipPlayable), "SetOverrideLoopTimeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AnimationClipPlayable::SetLoopTimeInternal
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationClipPlayable::SetLoopTimeInternal
 // Il2CppName: SetLoopTimeInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, bool)>(&AnimationClipPlayable::SetLoopTimeInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, bool)>(&UnityEngine::Animations::AnimationClipPlayable::SetLoopTimeInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationClipPlayable), "SetLoopTimeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationClipPlayable), "SetLoopTimeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AnimationClipPlayable::CreateHandleInternal_Injected
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationClipPlayable::CreateHandleInternal_Injected
 // Il2CppName: CreateHandleInternal_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&, UnityEngine::AnimationClip*, UnityEngine::Playables::PlayableHandle&)>(&AnimationClipPlayable::CreateHandleInternal_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&, UnityEngine::AnimationClip*, UnityEngine::Playables::PlayableHandle&)>(&UnityEngine::Animations::AnimationClipPlayable::CreateHandleInternal_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationClipPlayable), "CreateHandleInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationClipPlayable), "CreateHandleInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
   }
 };

@@ -56,25 +56,25 @@ namespace UnityEngine {
   static_assert(sizeof(WaitUntil) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WaitUntil*, "UnityEngine", "WaitUntil");
-// Writing MetadataGetter for method: WaitUntil::New_ctor
+// Writing MetadataGetter for method: UnityEngine::WaitUntil::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaitUntil::*)(System::Func_1<bool>*)>(&WaitUntil::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::WaitUntil::*)(System::Func_1<bool>*)>(&UnityEngine::WaitUntil::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WaitUntil*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_1<bool>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::WaitUntil*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_1<bool>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaitUntil::*)(System::Func_1<bool>*)>(&WaitUntil::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::WaitUntil::*)(System::Func_1<bool>*)>(&UnityEngine::WaitUntil::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WaitUntil*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_1<bool>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::WaitUntil*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_1<bool>*>()});
   }
 };
-// Writing MetadataGetter for method: WaitUntil::get_keepWaiting
+// Writing MetadataGetter for method: UnityEngine::WaitUntil::get_keepWaiting
 // Il2CppName: get_keepWaiting
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WaitUntil::*)()>(&WaitUntil::get_keepWaiting)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::WaitUntil::*)()>(&UnityEngine::WaitUntil::get_keepWaiting)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WaitUntil*), "get_keepWaiting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::WaitUntil*), "get_keepWaiting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

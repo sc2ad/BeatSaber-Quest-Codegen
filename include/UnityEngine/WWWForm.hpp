@@ -29,11 +29,11 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WWWForm*, "UnityEngine", "WWWForm");
-// Writing MetadataGetter for method: WWWForm::get_DefaultEncoding
+// Writing MetadataGetter for method: UnityEngine::WWWForm::get_DefaultEncoding
 // Il2CppName: get_DefaultEncoding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)()>(&WWWForm::get_DefaultEncoding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)()>(&UnityEngine::WWWForm::get_DefaultEncoding)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WWWForm*), "get_DefaultEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::WWWForm*), "get_DefaultEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

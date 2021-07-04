@@ -85,81 +85,81 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRNativeBuffer) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRNativeBuffer*, "", "OVRNativeBuffer");
-// Writing MetadataGetter for method: OVRNativeBuffer::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::OVRNativeBuffer::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRNativeBuffer::*)(int)>(&OVRNativeBuffer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRNativeBuffer::*)(int)>(&GlobalNamespace::OVRNativeBuffer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRNativeBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNativeBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRNativeBuffer::*)(int)>(&OVRNativeBuffer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRNativeBuffer::*)(int)>(&GlobalNamespace::OVRNativeBuffer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRNativeBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNativeBuffer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: OVRNativeBuffer::Reset
+// Writing MetadataGetter for method: GlobalNamespace::OVRNativeBuffer::Reset
 // Il2CppName: Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRNativeBuffer::*)(int)>(&OVRNativeBuffer::Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRNativeBuffer::*)(int)>(&GlobalNamespace::OVRNativeBuffer::Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRNativeBuffer*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNativeBuffer*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: OVRNativeBuffer::GetCapacity
+// Writing MetadataGetter for method: GlobalNamespace::OVRNativeBuffer::GetCapacity
 // Il2CppName: GetCapacity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OVRNativeBuffer::*)()>(&OVRNativeBuffer::GetCapacity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::OVRNativeBuffer::*)()>(&GlobalNamespace::OVRNativeBuffer::GetCapacity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRNativeBuffer*), "GetCapacity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNativeBuffer*), "GetCapacity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRNativeBuffer::GetPointer
+// Writing MetadataGetter for method: GlobalNamespace::OVRNativeBuffer::GetPointer
 // Il2CppName: GetPointer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (OVRNativeBuffer::*)(int)>(&OVRNativeBuffer::GetPointer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (GlobalNamespace::OVRNativeBuffer::*)(int)>(&GlobalNamespace::OVRNativeBuffer::GetPointer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRNativeBuffer*), "GetPointer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNativeBuffer*), "GetPointer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: OVRNativeBuffer::Dispose
+// Writing MetadataGetter for method: GlobalNamespace::OVRNativeBuffer::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRNativeBuffer::*)()>(&OVRNativeBuffer::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRNativeBuffer::*)()>(&GlobalNamespace::OVRNativeBuffer::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRNativeBuffer*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNativeBuffer*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRNativeBuffer::Dispose
+// Writing MetadataGetter for method: GlobalNamespace::OVRNativeBuffer::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRNativeBuffer::*)(bool)>(&OVRNativeBuffer::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRNativeBuffer::*)(bool)>(&GlobalNamespace::OVRNativeBuffer::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRNativeBuffer*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNativeBuffer*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: OVRNativeBuffer::Reallocate
+// Writing MetadataGetter for method: GlobalNamespace::OVRNativeBuffer::Reallocate
 // Il2CppName: Reallocate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRNativeBuffer::*)(int)>(&OVRNativeBuffer::Reallocate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRNativeBuffer::*)(int)>(&GlobalNamespace::OVRNativeBuffer::Reallocate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRNativeBuffer*), "Reallocate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNativeBuffer*), "Reallocate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: OVRNativeBuffer::Release
+// Writing MetadataGetter for method: GlobalNamespace::OVRNativeBuffer::Release
 // Il2CppName: Release
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRNativeBuffer::*)()>(&OVRNativeBuffer::Release)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRNativeBuffer::*)()>(&GlobalNamespace::OVRNativeBuffer::Release)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRNativeBuffer*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNativeBuffer*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRNativeBuffer::Finalize
+// Writing MetadataGetter for method: GlobalNamespace::OVRNativeBuffer::Finalize
 // Il2CppName: Finalize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRNativeBuffer::*)()>(&OVRNativeBuffer::Finalize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRNativeBuffer::*)()>(&GlobalNamespace::OVRNativeBuffer::Finalize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRNativeBuffer*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNativeBuffer*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

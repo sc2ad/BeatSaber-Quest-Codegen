@@ -77,41 +77,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(NetworkPlayerEntitlementChecker::CachedTcs) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs*, "", "NetworkPlayerEntitlementChecker/CachedTcs");
-// Writing MetadataGetter for method: NetworkPlayerEntitlementChecker::CachedTcs::get_task
+// Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs::get_task
 // Il2CppName: get_task
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::EntitlementsStatus>* (NetworkPlayerEntitlementChecker::CachedTcs::*)()>(&NetworkPlayerEntitlementChecker::CachedTcs::get_task)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::EntitlementsStatus>* (GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs::*)()>(&GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs::get_task)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetworkPlayerEntitlementChecker::CachedTcs*), "get_task", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs*), "get_task", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetworkPlayerEntitlementChecker::CachedTcs::SetResult
+// Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs::SetResult
 // Il2CppName: SetResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkPlayerEntitlementChecker::CachedTcs::*)(GlobalNamespace::EntitlementsStatus)>(&NetworkPlayerEntitlementChecker::CachedTcs::SetResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs::*)(GlobalNamespace::EntitlementsStatus)>(&GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs::SetResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetworkPlayerEntitlementChecker::CachedTcs*), "SetResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EntitlementsStatus>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs*), "SetResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EntitlementsStatus>()});
   }
 };
-// Writing MetadataGetter for method: NetworkPlayerEntitlementChecker::CachedTcs::Refresh
+// Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs::Refresh
 // Il2CppName: Refresh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetworkPlayerEntitlementChecker::CachedTcs::*)()>(&NetworkPlayerEntitlementChecker::CachedTcs::Refresh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs::*)()>(&GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs::Refresh)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetworkPlayerEntitlementChecker::CachedTcs*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetworkPlayerEntitlementChecker::CachedTcs::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkPlayerEntitlementChecker::CachedTcs::*)()>(&NetworkPlayerEntitlementChecker::CachedTcs::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs::*)()>(&GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetworkPlayerEntitlementChecker::CachedTcs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetworkPlayerEntitlementChecker::CachedTcs::*)()>(&NetworkPlayerEntitlementChecker::CachedTcs::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs::*)()>(&GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetworkPlayerEntitlementChecker::CachedTcs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

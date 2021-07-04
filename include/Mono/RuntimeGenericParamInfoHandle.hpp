@@ -77,49 +77,49 @@ namespace Mono {
   static_assert(sizeof(RuntimeGenericParamInfoHandle) == 0x8);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeGenericParamInfoHandle, "Mono", "RuntimeGenericParamInfoHandle");
-// Writing MetadataGetter for method: RuntimeGenericParamInfoHandle::RuntimeGenericParamInfoHandle
+// Writing MetadataGetter for method: Mono::RuntimeGenericParamInfoHandle::RuntimeGenericParamInfoHandle
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeGenericParamInfoHandle::*)(System::IntPtr)>(&RuntimeGenericParamInfoHandle::RuntimeGenericParamInfoHandle<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::RuntimeGenericParamInfoHandle::*)(System::IntPtr)>(&Mono::RuntimeGenericParamInfoHandle::RuntimeGenericParamInfoHandle<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RuntimeGenericParamInfoHandle), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeGenericParamInfoHandle), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeGenericParamInfoHandle::*)(System::IntPtr)>(&RuntimeGenericParamInfoHandle::RuntimeGenericParamInfoHandle<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::RuntimeGenericParamInfoHandle::*)(System::IntPtr)>(&Mono::RuntimeGenericParamInfoHandle::RuntimeGenericParamInfoHandle<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RuntimeGenericParamInfoHandle), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeGenericParamInfoHandle), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: RuntimeGenericParamInfoHandle::get_Constraints
+// Writing MetadataGetter for method: Mono::RuntimeGenericParamInfoHandle::get_Constraints
 // Il2CppName: get_Constraints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (RuntimeGenericParamInfoHandle::*)()>(&RuntimeGenericParamInfoHandle::get_Constraints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (Mono::RuntimeGenericParamInfoHandle::*)()>(&Mono::RuntimeGenericParamInfoHandle::get_Constraints)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RuntimeGenericParamInfoHandle), "get_Constraints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeGenericParamInfoHandle), "get_Constraints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RuntimeGenericParamInfoHandle::get_Attributes
+// Writing MetadataGetter for method: Mono::RuntimeGenericParamInfoHandle::get_Attributes
 // Il2CppName: get_Attributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::GenericParameterAttributes (RuntimeGenericParamInfoHandle::*)()>(&RuntimeGenericParamInfoHandle::get_Attributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::GenericParameterAttributes (Mono::RuntimeGenericParamInfoHandle::*)()>(&Mono::RuntimeGenericParamInfoHandle::get_Attributes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RuntimeGenericParamInfoHandle), "get_Attributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeGenericParamInfoHandle), "get_Attributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RuntimeGenericParamInfoHandle::GetConstraints
+// Writing MetadataGetter for method: Mono::RuntimeGenericParamInfoHandle::GetConstraints
 // Il2CppName: GetConstraints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (RuntimeGenericParamInfoHandle::*)()>(&RuntimeGenericParamInfoHandle::GetConstraints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (Mono::RuntimeGenericParamInfoHandle::*)()>(&Mono::RuntimeGenericParamInfoHandle::GetConstraints)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RuntimeGenericParamInfoHandle), "GetConstraints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeGenericParamInfoHandle), "GetConstraints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RuntimeGenericParamInfoHandle::GetConstraintsCount
+// Writing MetadataGetter for method: Mono::RuntimeGenericParamInfoHandle::GetConstraintsCount
 // Il2CppName: GetConstraintsCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RuntimeGenericParamInfoHandle::*)()>(&RuntimeGenericParamInfoHandle::GetConstraintsCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::RuntimeGenericParamInfoHandle::*)()>(&Mono::RuntimeGenericParamInfoHandle::GetConstraintsCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RuntimeGenericParamInfoHandle), "GetConstraintsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeGenericParamInfoHandle), "GetConstraintsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

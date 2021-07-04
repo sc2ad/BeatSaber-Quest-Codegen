@@ -179,199 +179,199 @@ namespace UnityEngine {
   bool operator !=(const UnityEngine::Vector4& lhs, const UnityEngine::Vector4& rhs);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Vector4, "UnityEngine", "Vector4");
-// Writing MetadataGetter for method: Vector4::get_Item
+// Writing MetadataGetter for method: UnityEngine::Vector4::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Vector4::*)(int)>(&Vector4::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Vector4::*)(int)>(&UnityEngine::Vector4::get_Item)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Vector4), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector4), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Vector4::set_Item
+// Writing MetadataGetter for method: UnityEngine::Vector4::set_Item
 // Il2CppName: set_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector4::*)(int, float)>(&Vector4::set_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Vector4::*)(int, float)>(&UnityEngine::Vector4::set_Item)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Vector4), "set_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector4), "set_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Vector4::Vector4
+// Writing MetadataGetter for method: UnityEngine::Vector4::Vector4
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector4::*)(float, float, float, float)>(&Vector4::Vector4<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Vector4::*)(float, float, float, float)>(&UnityEngine::Vector4::Vector4<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Vector4), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector4), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector4::*)(float, float, float, float)>(&Vector4::Vector4<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Vector4::*)(float, float, float, float)>(&UnityEngine::Vector4::Vector4<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Vector4), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector4), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Vector4::Vector4
+// Writing MetadataGetter for method: UnityEngine::Vector4::Vector4
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector4::*)(float, float, float)>(&Vector4::Vector4<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Vector4::*)(float, float, float)>(&UnityEngine::Vector4::Vector4<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Vector4), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector4), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector4::*)(float, float, float)>(&Vector4::Vector4<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Vector4::*)(float, float, float)>(&UnityEngine::Vector4::Vector4<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Vector4), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector4), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Vector4::Equals
+// Writing MetadataGetter for method: UnityEngine::Vector4::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Vector4::*)(UnityEngine::Vector4)>(&Vector4::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Vector4::*)(UnityEngine::Vector4)>(&UnityEngine::Vector4::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Vector4), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector4), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
   }
 };
-// Writing MetadataGetter for method: Vector4::Normalize
+// Writing MetadataGetter for method: UnityEngine::Vector4::Normalize
 // Il2CppName: Normalize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Vector4::*)()>(&Vector4::Normalize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Vector4::*)()>(&UnityEngine::Vector4::Normalize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Vector4), "Normalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector4), "Normalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Vector4::Dot
+// Writing MetadataGetter for method: UnityEngine::Vector4::Dot
 // Il2CppName: Dot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Vector4, UnityEngine::Vector4)>(&Vector4::Dot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Vector4, UnityEngine::Vector4)>(&UnityEngine::Vector4::Dot)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Vector4), "Dot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector4), "Dot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
   }
 };
-// Writing MetadataGetter for method: Vector4::Magnitude
+// Writing MetadataGetter for method: UnityEngine::Vector4::Magnitude
 // Il2CppName: Magnitude
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Vector4)>(&Vector4::Magnitude)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Vector4)>(&UnityEngine::Vector4::Magnitude)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Vector4), "Magnitude", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector4), "Magnitude", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
   }
 };
-// Writing MetadataGetter for method: Vector4::get_magnitude
+// Writing MetadataGetter for method: UnityEngine::Vector4::get_magnitude
 // Il2CppName: get_magnitude
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Vector4::*)()>(&Vector4::get_magnitude)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Vector4::*)()>(&UnityEngine::Vector4::get_magnitude)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Vector4), "get_magnitude", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector4), "get_magnitude", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Vector4::get_sqrMagnitude
+// Writing MetadataGetter for method: UnityEngine::Vector4::get_sqrMagnitude
 // Il2CppName: get_sqrMagnitude
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Vector4::*)()>(&Vector4::get_sqrMagnitude)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Vector4::*)()>(&UnityEngine::Vector4::get_sqrMagnitude)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Vector4), "get_sqrMagnitude", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector4), "get_sqrMagnitude", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Vector4::get_zero
+// Writing MetadataGetter for method: UnityEngine::Vector4::get_zero
 // Il2CppName: get_zero
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)()>(&Vector4::get_zero)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)()>(&UnityEngine::Vector4::get_zero)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Vector4), "get_zero", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector4), "get_zero", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Vector4::get_one
+// Writing MetadataGetter for method: UnityEngine::Vector4::get_one
 // Il2CppName: get_one
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)()>(&Vector4::get_one)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)()>(&UnityEngine::Vector4::get_one)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Vector4), "get_one", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector4), "get_one", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Vector4::ToString
+// Writing MetadataGetter for method: UnityEngine::Vector4::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Vector4::*)(::Il2CppString*)>(&Vector4::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Vector4::*)(::Il2CppString*)>(&UnityEngine::Vector4::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Vector4), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector4), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Vector4::_cctor
+// Writing MetadataGetter for method: UnityEngine::Vector4::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Vector4::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Vector4::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Vector4), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector4), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Vector4::GetHashCode
+// Writing MetadataGetter for method: UnityEngine::Vector4::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Vector4::*)()>(&Vector4::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Vector4::*)()>(&UnityEngine::Vector4::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Vector4), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector4), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Vector4::Equals
+// Writing MetadataGetter for method: UnityEngine::Vector4::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Vector4::*)(::Il2CppObject*)>(&Vector4::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Vector4::*)(::Il2CppObject*)>(&UnityEngine::Vector4::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Vector4), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector4), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Vector4::ToString
+// Writing MetadataGetter for method: UnityEngine::Vector4::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Vector4::*)()>(&Vector4::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Vector4::*)()>(&UnityEngine::Vector4::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Vector4), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector4), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Vector4::operator+
+// Writing MetadataGetter for method: UnityEngine::Vector4::operator+
 // Il2CppName: op_Addition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)(const UnityEngine::Vector4&, const UnityEngine::Vector4&)>(&Vector4::operator+)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)(const UnityEngine::Vector4&, const UnityEngine::Vector4&)>(&UnityEngine::Vector4::operator+)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Vector4), "op_Addition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Vector4&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::Vector4&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector4), "op_Addition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Vector4&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::Vector4&>()});
   }
 };
-// Writing MetadataGetter for method: Vector4::operator-
+// Writing MetadataGetter for method: UnityEngine::Vector4::operator-
 // Il2CppName: op_Subtraction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)(const UnityEngine::Vector4&, const UnityEngine::Vector4&)>(&Vector4::operator-)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)(const UnityEngine::Vector4&, const UnityEngine::Vector4&)>(&UnityEngine::Vector4::operator-)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Vector4), "op_Subtraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Vector4&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::Vector4&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector4), "op_Subtraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Vector4&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::Vector4&>()});
   }
 };
-// Writing MetadataGetter for method: Vector4::operator*
+// Writing MetadataGetter for method: UnityEngine::Vector4::operator*
 // Il2CppName: op_Multiply
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)(const UnityEngine::Vector4&, const float&)>(&Vector4::operator*)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)(const UnityEngine::Vector4&, const float&)>(&UnityEngine::Vector4::operator*)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Vector4), "op_Multiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Vector4&>(), ::il2cpp_utils::ExtractIndependentType<const float&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector4), "op_Multiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Vector4&>(), ::il2cpp_utils::ExtractIndependentType<const float&>()});
   }
 };
-// Writing MetadataGetter for method: Vector4::operator/
+// Writing MetadataGetter for method: UnityEngine::Vector4::operator/
 // Il2CppName: op_Division
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)(const UnityEngine::Vector4&, const float&)>(&Vector4::operator/)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)(const UnityEngine::Vector4&, const float&)>(&UnityEngine::Vector4::operator/)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Vector4), "op_Division", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Vector4&>(), ::il2cpp_utils::ExtractIndependentType<const float&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector4), "op_Division", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Vector4&>(), ::il2cpp_utils::ExtractIndependentType<const float&>()});
   }
 };
-// Writing MetadataGetter for method: Vector4::operator ==
+// Writing MetadataGetter for method: UnityEngine::Vector4::operator ==
 // Il2CppName: op_Equality
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const UnityEngine::Vector4&, const UnityEngine::Vector4&)>(&Vector4::operator ==)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const UnityEngine::Vector4&, const UnityEngine::Vector4&)>(&UnityEngine::Vector4::operator ==)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Vector4), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Vector4&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::Vector4&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector4), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Vector4&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::Vector4&>()});
   }
 };
-// Writing MetadataGetter for method: Vector4::operator !=
+// Writing MetadataGetter for method: UnityEngine::Vector4::operator !=
 // Il2CppName: op_Inequality
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const UnityEngine::Vector4&, const UnityEngine::Vector4&)>(&Vector4::operator !=)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const UnityEngine::Vector4&, const UnityEngine::Vector4&)>(&UnityEngine::Vector4::operator !=)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Vector4), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Vector4&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::Vector4&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Vector4), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Vector4&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::Vector4&>()});
   }
 };

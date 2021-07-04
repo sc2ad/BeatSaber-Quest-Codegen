@@ -41,25 +41,25 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsBestGraphicsValues*, "", "MainSettingsBestGraphicsValues");
-// Writing MetadataGetter for method: MainSettingsBestGraphicsValues::ApplyValues
+// Writing MetadataGetter for method: GlobalNamespace::MainSettingsBestGraphicsValues::ApplyValues
 // Il2CppName: ApplyValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::MainSettingsModelSO*)>(&MainSettingsBestGraphicsValues::ApplyValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::MainSettingsModelSO*)>(&GlobalNamespace::MainSettingsBestGraphicsValues::ApplyValues)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainSettingsBestGraphicsValues*), "ApplyValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MainSettingsModelSO*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsBestGraphicsValues*), "ApplyValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MainSettingsModelSO*>()});
   }
 };
-// Writing MetadataGetter for method: MainSettingsBestGraphicsValues::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MainSettingsBestGraphicsValues::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsBestGraphicsValues::*)()>(&MainSettingsBestGraphicsValues::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainSettingsBestGraphicsValues::*)()>(&GlobalNamespace::MainSettingsBestGraphicsValues::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainSettingsBestGraphicsValues*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsBestGraphicsValues*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsBestGraphicsValues::*)()>(&MainSettingsBestGraphicsValues::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainSettingsBestGraphicsValues::*)()>(&GlobalNamespace::MainSettingsBestGraphicsValues::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainSettingsBestGraphicsValues*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsBestGraphicsValues*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

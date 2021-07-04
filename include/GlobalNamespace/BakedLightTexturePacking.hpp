@@ -63,19 +63,19 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BakedLightTexturePacking*, "", "BakedLightTexturePacking");
-// Writing MetadataGetter for method: BakedLightTexturePacking::PackTextures
+// Writing MetadataGetter for method: GlobalNamespace::BakedLightTexturePacking::PackTextures
 // Il2CppName: PackTextures
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (*)(System::Collections::Generic::IReadOnlyList_1<UnityEngine::RenderTexture*>*, UnityEngine::RenderTextureDescriptor)>(&BakedLightTexturePacking::PackTextures)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (*)(System::Collections::Generic::IReadOnlyList_1<UnityEngine::RenderTexture*>*, UnityEngine::RenderTextureDescriptor)>(&GlobalNamespace::BakedLightTexturePacking::PackTextures)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BakedLightTexturePacking*), "PackTextures", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<UnityEngine::RenderTexture*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTextureDescriptor>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BakedLightTexturePacking*), "PackTextures", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<UnityEngine::RenderTexture*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTextureDescriptor>()});
   }
 };
-// Writing MetadataGetter for method: BakedLightTexturePacking::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::BakedLightTexturePacking::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&BakedLightTexturePacking::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::BakedLightTexturePacking::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BakedLightTexturePacking*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BakedLightTexturePacking*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -229,392 +229,392 @@ namespace LiteNetLib::Utils {
   static_assert(sizeof(NetDataWriter) == 0x1D);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetDataWriter*, "LiteNetLib.Utils", "NetDataWriter");
-// Writing MetadataGetter for method: NetDataWriter::get_Capacity
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::get_Capacity
 // Il2CppName: get_Capacity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NetDataWriter::*)()>(&NetDataWriter::get_Capacity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNetLib::Utils::NetDataWriter::*)()>(&LiteNetLib::Utils::NetDataWriter::get_Capacity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "get_Capacity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "get_Capacity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::New_ctor
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(bool)>(&NetDataWriter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(bool)>(&LiteNetLib::Utils::NetDataWriter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(bool)>(&NetDataWriter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(bool)>(&LiteNetLib::Utils::NetDataWriter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::New_ctor
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(bool, int)>(&NetDataWriter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(bool, int)>(&LiteNetLib::Utils::NetDataWriter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(bool, int)>(&NetDataWriter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(bool, int)>(&LiteNetLib::Utils::NetDataWriter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::FromBytes
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::FromBytes
 // Il2CppName: FromBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::Utils::NetDataWriter* (*)(::Array<uint8_t>*, bool)>(&NetDataWriter::FromBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::Utils::NetDataWriter* (*)(::Array<uint8_t>*, bool)>(&LiteNetLib::Utils::NetDataWriter::FromBytes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "FromBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "FromBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::FromBytes
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::FromBytes
 // Il2CppName: FromBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::Utils::NetDataWriter* (*)(::Array<uint8_t>*, int, int)>(&NetDataWriter::FromBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::Utils::NetDataWriter* (*)(::Array<uint8_t>*, int, int)>(&LiteNetLib::Utils::NetDataWriter::FromBytes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "FromBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "FromBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::FromString
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::FromString
 // Il2CppName: FromString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::Utils::NetDataWriter* (*)(::Il2CppString*)>(&NetDataWriter::FromString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::Utils::NetDataWriter* (*)(::Il2CppString*)>(&LiteNetLib::Utils::NetDataWriter::FromString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "FromString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "FromString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::ResizeIfNeed
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::ResizeIfNeed
 // Il2CppName: ResizeIfNeed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(int)>(&NetDataWriter::ResizeIfNeed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(int)>(&LiteNetLib::Utils::NetDataWriter::ResizeIfNeed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "ResizeIfNeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "ResizeIfNeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::Reset
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::Reset
 // Il2CppName: Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(int)>(&NetDataWriter::Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(int)>(&LiteNetLib::Utils::NetDataWriter::Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::Reset
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::Reset
 // Il2CppName: Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)()>(&NetDataWriter::Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)()>(&LiteNetLib::Utils::NetDataWriter::Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::CopyData
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::CopyData
 // Il2CppName: CopyData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (NetDataWriter::*)()>(&NetDataWriter::CopyData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (LiteNetLib::Utils::NetDataWriter::*)()>(&LiteNetLib::Utils::NetDataWriter::CopyData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "CopyData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "CopyData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::get_Data
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::get_Data
 // Il2CppName: get_Data
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (NetDataWriter::*)()>(&NetDataWriter::get_Data)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (LiteNetLib::Utils::NetDataWriter::*)()>(&LiteNetLib::Utils::NetDataWriter::get_Data)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "get_Data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "get_Data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::get_Length
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::get_Length
 // Il2CppName: get_Length
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NetDataWriter::*)()>(&NetDataWriter::get_Length)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNetLib::Utils::NetDataWriter::*)()>(&LiteNetLib::Utils::NetDataWriter::get_Length)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "get_Length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "get_Length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::Put
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::Put
 // Il2CppName: Put
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(float)>(&NetDataWriter::Put)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(float)>(&LiteNetLib::Utils::NetDataWriter::Put)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::Put
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::Put
 // Il2CppName: Put
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(double)>(&NetDataWriter::Put)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(double)>(&LiteNetLib::Utils::NetDataWriter::Put)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::Put
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::Put
 // Il2CppName: Put
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(int64_t)>(&NetDataWriter::Put)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(int64_t)>(&LiteNetLib::Utils::NetDataWriter::Put)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::Put
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::Put
 // Il2CppName: Put
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(uint64_t)>(&NetDataWriter::Put)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(uint64_t)>(&LiteNetLib::Utils::NetDataWriter::Put)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::Put
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::Put
 // Il2CppName: Put
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(int)>(&NetDataWriter::Put)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(int)>(&LiteNetLib::Utils::NetDataWriter::Put)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::Put
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::Put
 // Il2CppName: Put
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(uint)>(&NetDataWriter::Put)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(uint)>(&LiteNetLib::Utils::NetDataWriter::Put)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::Put
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::Put
 // Il2CppName: Put
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(::Il2CppChar)>(&NetDataWriter::Put)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::Il2CppChar)>(&LiteNetLib::Utils::NetDataWriter::Put)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::Put
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::Put
 // Il2CppName: Put
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(uint16_t)>(&NetDataWriter::Put)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(uint16_t)>(&LiteNetLib::Utils::NetDataWriter::Put)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::Put
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::Put
 // Il2CppName: Put
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(int16_t)>(&NetDataWriter::Put)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(int16_t)>(&LiteNetLib::Utils::NetDataWriter::Put)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int16_t>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int16_t>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::Put
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::Put
 // Il2CppName: Put
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(int8_t)>(&NetDataWriter::Put)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(int8_t)>(&LiteNetLib::Utils::NetDataWriter::Put)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int8_t>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int8_t>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::Put
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::Put
 // Il2CppName: Put
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(uint8_t)>(&NetDataWriter::Put)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(uint8_t)>(&LiteNetLib::Utils::NetDataWriter::Put)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::Put
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::Put
 // Il2CppName: Put
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(::Array<uint8_t>*, int, int)>(&NetDataWriter::Put)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::Array<uint8_t>*, int, int)>(&LiteNetLib::Utils::NetDataWriter::Put)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::Put
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::Put
 // Il2CppName: Put
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(::Array<uint8_t>*)>(&NetDataWriter::Put)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::Array<uint8_t>*)>(&LiteNetLib::Utils::NetDataWriter::Put)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::PutSBytesWithLength
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::PutSBytesWithLength
 // Il2CppName: PutSBytesWithLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(::Array<int8_t>*, int, int)>(&NetDataWriter::PutSBytesWithLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::Array<int8_t>*, int, int)>(&LiteNetLib::Utils::NetDataWriter::PutSBytesWithLength)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "PutSBytesWithLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "PutSBytesWithLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::PutSBytesWithLength
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::PutSBytesWithLength
 // Il2CppName: PutSBytesWithLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(::Array<int8_t>*)>(&NetDataWriter::PutSBytesWithLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::Array<int8_t>*)>(&LiteNetLib::Utils::NetDataWriter::PutSBytesWithLength)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "PutSBytesWithLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "PutSBytesWithLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::PutBytesWithLength
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::PutBytesWithLength
 // Il2CppName: PutBytesWithLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(::Array<uint8_t>*, int, int)>(&NetDataWriter::PutBytesWithLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::Array<uint8_t>*, int, int)>(&LiteNetLib::Utils::NetDataWriter::PutBytesWithLength)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "PutBytesWithLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "PutBytesWithLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::PutBytesWithLength
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::PutBytesWithLength
 // Il2CppName: PutBytesWithLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(::Array<uint8_t>*)>(&NetDataWriter::PutBytesWithLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::Array<uint8_t>*)>(&LiteNetLib::Utils::NetDataWriter::PutBytesWithLength)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "PutBytesWithLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "PutBytesWithLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::Put
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::Put
 // Il2CppName: Put
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(bool)>(&NetDataWriter::Put)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(bool)>(&LiteNetLib::Utils::NetDataWriter::Put)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::PutArray
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::PutArray
 // Il2CppName: PutArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(System::Array*, int)>(&NetDataWriter::PutArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(System::Array*, int)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::PutArray
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::PutArray
 // Il2CppName: PutArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(::Array<float>*)>(&NetDataWriter::PutArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::Array<float>*)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::PutArray
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::PutArray
 // Il2CppName: PutArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(::Array<double>*)>(&NetDataWriter::PutArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::Array<double>*)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<double>*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<double>*>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::PutArray
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::PutArray
 // Il2CppName: PutArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(::Array<int64_t>*)>(&NetDataWriter::PutArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::Array<int64_t>*)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::PutArray
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::PutArray
 // Il2CppName: PutArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(::Array<uint64_t>*)>(&NetDataWriter::PutArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::Array<uint64_t>*)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::PutArray
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::PutArray
 // Il2CppName: PutArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(::Array<int>*)>(&NetDataWriter::PutArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::Array<int>*)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::PutArray
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::PutArray
 // Il2CppName: PutArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(::Array<uint>*)>(&NetDataWriter::PutArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::Array<uint>*)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::PutArray
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::PutArray
 // Il2CppName: PutArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(::Array<uint16_t>*)>(&NetDataWriter::PutArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::Array<uint16_t>*)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint16_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint16_t>*>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::PutArray
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::PutArray
 // Il2CppName: PutArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(::Array<int16_t>*)>(&NetDataWriter::PutArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::Array<int16_t>*)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int16_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int16_t>*>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::PutArray
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::PutArray
 // Il2CppName: PutArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(::Array<bool>*)>(&NetDataWriter::PutArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::Array<bool>*)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<bool>*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<bool>*>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::PutArray
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::PutArray
 // Il2CppName: PutArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(::Array<::Il2CppString*>*)>(&NetDataWriter::PutArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::Array<::Il2CppString*>*)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::PutArray
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::PutArray
 // Il2CppName: PutArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(::Array<::Il2CppString*>*, int)>(&NetDataWriter::PutArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::Array<::Il2CppString*>*, int)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::Put
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::Put
 // Il2CppName: Put
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(System::Net::IPEndPoint*)>(&NetDataWriter::Put)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(System::Net::IPEndPoint*)>(&LiteNetLib::Utils::NetDataWriter::Put)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::Put
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::Put
 // Il2CppName: Put
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(::Il2CppString*)>(&NetDataWriter::Put)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::Il2CppString*)>(&LiteNetLib::Utils::NetDataWriter::Put)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::Put
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::Put
 // Il2CppName: Put
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)(::Il2CppString*, int)>(&NetDataWriter::Put)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::Il2CppString*, int)>(&LiteNetLib::Utils::NetDataWriter::Put)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: NetDataWriter::Put
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::Put
 // Il2CppName: Put
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: NetDataWriter::New_ctor
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)()>(&NetDataWriter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)()>(&LiteNetLib::Utils::NetDataWriter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetDataWriter::*)()>(&NetDataWriter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)()>(&LiteNetLib::Utils::NetDataWriter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetDataWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

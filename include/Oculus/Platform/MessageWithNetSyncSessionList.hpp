@@ -47,33 +47,33 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithNetSyncSessionList
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithNetSyncSessionList*, "Oculus.Platform", "MessageWithNetSyncSessionList");
-// Writing MetadataGetter for method: MessageWithNetSyncSessionList::GetDataFromMessage
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithNetSyncSessionList::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::NetSyncSessionList* (MessageWithNetSyncSessionList::*)(System::IntPtr)>(&MessageWithNetSyncSessionList::GetDataFromMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::NetSyncSessionList* (Oculus::Platform::MessageWithNetSyncSessionList::*)(System::IntPtr)>(&Oculus::Platform::MessageWithNetSyncSessionList::GetDataFromMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithNetSyncSessionList*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithNetSyncSessionList*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithNetSyncSessionList::New_ctor
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithNetSyncSessionList::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithNetSyncSessionList::*)(System::IntPtr)>(&MessageWithNetSyncSessionList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithNetSyncSessionList::*)(System::IntPtr)>(&Oculus::Platform::MessageWithNetSyncSessionList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithNetSyncSessionList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithNetSyncSessionList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithNetSyncSessionList::*)(System::IntPtr)>(&MessageWithNetSyncSessionList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithNetSyncSessionList::*)(System::IntPtr)>(&Oculus::Platform::MessageWithNetSyncSessionList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithNetSyncSessionList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithNetSyncSessionList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithNetSyncSessionList::GetNetSyncSessionList
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithNetSyncSessionList::GetNetSyncSessionList
 // Il2CppName: GetNetSyncSessionList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::NetSyncSessionList* (MessageWithNetSyncSessionList::*)()>(&MessageWithNetSyncSessionList::GetNetSyncSessionList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::NetSyncSessionList* (Oculus::Platform::MessageWithNetSyncSessionList::*)()>(&Oculus::Platform::MessageWithNetSyncSessionList::GetNetSyncSessionList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithNetSyncSessionList*), "GetNetSyncSessionList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithNetSyncSessionList*), "GetNetSyncSessionList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -103,97 +103,97 @@ namespace Mono::Security::X509 {
   static_assert(sizeof(PKCS12::DeriveBytes) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::PKCS12::DeriveBytes*, "Mono.Security.X509", "PKCS12/DeriveBytes");
-// Writing MetadataGetter for method: PKCS12::DeriveBytes::set_HashName
+// Writing MetadataGetter for method: Mono::Security::X509::PKCS12::DeriveBytes::set_HashName
 // Il2CppName: set_HashName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS12::DeriveBytes::*)(::Il2CppString*)>(&PKCS12::DeriveBytes::set_HashName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::PKCS12::DeriveBytes::*)(::Il2CppString*)>(&Mono::Security::X509::PKCS12::DeriveBytes::set_HashName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PKCS12::DeriveBytes*), "set_HashName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12::DeriveBytes*), "set_HashName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: PKCS12::DeriveBytes::set_IterationCount
+// Writing MetadataGetter for method: Mono::Security::X509::PKCS12::DeriveBytes::set_IterationCount
 // Il2CppName: set_IterationCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS12::DeriveBytes::*)(int)>(&PKCS12::DeriveBytes::set_IterationCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::PKCS12::DeriveBytes::*)(int)>(&Mono::Security::X509::PKCS12::DeriveBytes::set_IterationCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PKCS12::DeriveBytes*), "set_IterationCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12::DeriveBytes*), "set_IterationCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: PKCS12::DeriveBytes::set_Password
+// Writing MetadataGetter for method: Mono::Security::X509::PKCS12::DeriveBytes::set_Password
 // Il2CppName: set_Password
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS12::DeriveBytes::*)(::Array<uint8_t>*)>(&PKCS12::DeriveBytes::set_Password)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::PKCS12::DeriveBytes::*)(::Array<uint8_t>*)>(&Mono::Security::X509::PKCS12::DeriveBytes::set_Password)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PKCS12::DeriveBytes*), "set_Password", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12::DeriveBytes*), "set_Password", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: PKCS12::DeriveBytes::set_Salt
+// Writing MetadataGetter for method: Mono::Security::X509::PKCS12::DeriveBytes::set_Salt
 // Il2CppName: set_Salt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS12::DeriveBytes::*)(::Array<uint8_t>*)>(&PKCS12::DeriveBytes::set_Salt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::PKCS12::DeriveBytes::*)(::Array<uint8_t>*)>(&Mono::Security::X509::PKCS12::DeriveBytes::set_Salt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PKCS12::DeriveBytes*), "set_Salt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12::DeriveBytes*), "set_Salt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: PKCS12::DeriveBytes::Adjust
+// Writing MetadataGetter for method: Mono::Security::X509::PKCS12::DeriveBytes::Adjust
 // Il2CppName: Adjust
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS12::DeriveBytes::*)(::Array<uint8_t>*, int, ::Array<uint8_t>*)>(&PKCS12::DeriveBytes::Adjust)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::PKCS12::DeriveBytes::*)(::Array<uint8_t>*, int, ::Array<uint8_t>*)>(&Mono::Security::X509::PKCS12::DeriveBytes::Adjust)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PKCS12::DeriveBytes*), "Adjust", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12::DeriveBytes*), "Adjust", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: PKCS12::DeriveBytes::Derive
+// Writing MetadataGetter for method: Mono::Security::X509::PKCS12::DeriveBytes::Derive
 // Il2CppName: Derive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (PKCS12::DeriveBytes::*)(::Array<uint8_t>*, int)>(&PKCS12::DeriveBytes::Derive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::X509::PKCS12::DeriveBytes::*)(::Array<uint8_t>*, int)>(&Mono::Security::X509::PKCS12::DeriveBytes::Derive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PKCS12::DeriveBytes*), "Derive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12::DeriveBytes*), "Derive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: PKCS12::DeriveBytes::DeriveKey
+// Writing MetadataGetter for method: Mono::Security::X509::PKCS12::DeriveBytes::DeriveKey
 // Il2CppName: DeriveKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (PKCS12::DeriveBytes::*)(int)>(&PKCS12::DeriveBytes::DeriveKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::X509::PKCS12::DeriveBytes::*)(int)>(&Mono::Security::X509::PKCS12::DeriveBytes::DeriveKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PKCS12::DeriveBytes*), "DeriveKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12::DeriveBytes*), "DeriveKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: PKCS12::DeriveBytes::DeriveIV
+// Writing MetadataGetter for method: Mono::Security::X509::PKCS12::DeriveBytes::DeriveIV
 // Il2CppName: DeriveIV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (PKCS12::DeriveBytes::*)(int)>(&PKCS12::DeriveBytes::DeriveIV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::X509::PKCS12::DeriveBytes::*)(int)>(&Mono::Security::X509::PKCS12::DeriveBytes::DeriveIV)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PKCS12::DeriveBytes*), "DeriveIV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12::DeriveBytes*), "DeriveIV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: PKCS12::DeriveBytes::DeriveMAC
+// Writing MetadataGetter for method: Mono::Security::X509::PKCS12::DeriveBytes::DeriveMAC
 // Il2CppName: DeriveMAC
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (PKCS12::DeriveBytes::*)(int)>(&PKCS12::DeriveBytes::DeriveMAC)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::X509::PKCS12::DeriveBytes::*)(int)>(&Mono::Security::X509::PKCS12::DeriveBytes::DeriveMAC)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PKCS12::DeriveBytes*), "DeriveMAC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12::DeriveBytes*), "DeriveMAC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: PKCS12::DeriveBytes::_cctor
+// Writing MetadataGetter for method: Mono::Security::X509::PKCS12::DeriveBytes::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&PKCS12::DeriveBytes::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Mono::Security::X509::PKCS12::DeriveBytes::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PKCS12::DeriveBytes*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12::DeriveBytes*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PKCS12::DeriveBytes::New_ctor
+// Writing MetadataGetter for method: Mono::Security::X509::PKCS12::DeriveBytes::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS12::DeriveBytes::*)()>(&PKCS12::DeriveBytes::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::PKCS12::DeriveBytes::*)()>(&Mono::Security::X509::PKCS12::DeriveBytes::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PKCS12::DeriveBytes*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12::DeriveBytes*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PKCS12::DeriveBytes::*)()>(&PKCS12::DeriveBytes::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::PKCS12::DeriveBytes::*)()>(&Mono::Security::X509::PKCS12::DeriveBytes::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PKCS12::DeriveBytes*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12::DeriveBytes*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

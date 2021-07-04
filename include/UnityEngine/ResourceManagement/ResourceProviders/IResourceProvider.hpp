@@ -59,51 +59,51 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, "UnityEngine.ResourceManagement.ResourceProviders", "IResourceProvider");
-// Writing MetadataGetter for method: IResourceProvider::get_ProviderId
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider::get_ProviderId
 // Il2CppName: get_ProviderId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IResourceProvider::*)()>(&IResourceProvider::get_ProviderId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider::get_ProviderId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IResourceProvider*), "get_ProviderId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*), "get_ProviderId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IResourceProvider::GetDefaultType
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider::GetDefaultType
 // Il2CppName: GetDefaultType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (IResourceProvider::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&IResourceProvider::GetDefaultType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider::GetDefaultType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IResourceProvider*), "GetDefaultType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*), "GetDefaultType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
   }
 };
-// Writing MetadataGetter for method: IResourceProvider::CanProvide
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider::CanProvide
 // Il2CppName: CanProvide
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IResourceProvider::*)(System::Type*, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&IResourceProvider::CanProvide)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider::*)(System::Type*, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider::CanProvide)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IResourceProvider*), "CanProvide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*), "CanProvide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
   }
 };
-// Writing MetadataGetter for method: IResourceProvider::Provide
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider::Provide
 // Il2CppName: Provide
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IResourceProvider::*)(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle)>(&IResourceProvider::Provide)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider::*)(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle)>(&UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider::Provide)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IResourceProvider*), "Provide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*), "Provide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle>()});
   }
 };
-// Writing MetadataGetter for method: IResourceProvider::Release
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider::Release
 // Il2CppName: Release
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IResourceProvider::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppObject*)>(&IResourceProvider::Release)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppObject*)>(&UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider::Release)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IResourceProvider*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IResourceProvider::get_BehaviourFlags
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider::get_BehaviourFlags
 // Il2CppName: get_BehaviourFlags
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags (IResourceProvider::*)()>(&IResourceProvider::get_BehaviourFlags)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags (UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider::get_BehaviourFlags)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IResourceProvider*), "get_BehaviourFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*), "get_BehaviourFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

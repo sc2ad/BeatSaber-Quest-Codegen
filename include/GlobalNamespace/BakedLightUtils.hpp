@@ -64,19 +64,19 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BakedLightUtils*, "", "BakedLightUtils");
-// Writing MetadataGetter for method: BakedLightUtils::ValidateLoadedEnvironmentScene
+// Writing MetadataGetter for method: GlobalNamespace::BakedLightUtils::ValidateLoadedEnvironmentScene
 // Il2CppName: ValidateLoadedEnvironmentScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&BakedLightUtils::ValidateLoadedEnvironmentScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::BakedLightUtils::ValidateLoadedEnvironmentScene)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BakedLightUtils*), "ValidateLoadedEnvironmentScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BakedLightUtils*), "ValidateLoadedEnvironmentScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BakedLightUtils::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::BakedLightUtils::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&BakedLightUtils::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::BakedLightUtils::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BakedLightUtils*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BakedLightUtils*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -111,105 +111,105 @@ namespace UnityEngine::UI {
   static_assert(sizeof(ToggleGroup) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ToggleGroup*, "UnityEngine.UI", "ToggleGroup");
-// Writing MetadataGetter for method: ToggleGroup::get_allowSwitchOff
+// Writing MetadataGetter for method: UnityEngine::UI::ToggleGroup::get_allowSwitchOff
 // Il2CppName: get_allowSwitchOff
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ToggleGroup::*)()>(&ToggleGroup::get_allowSwitchOff)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::ToggleGroup::*)()>(&UnityEngine::UI::ToggleGroup::get_allowSwitchOff)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ToggleGroup*), "get_allowSwitchOff", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ToggleGroup*), "get_allowSwitchOff", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ToggleGroup::set_allowSwitchOff
+// Writing MetadataGetter for method: UnityEngine::UI::ToggleGroup::set_allowSwitchOff
 // Il2CppName: set_allowSwitchOff
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ToggleGroup::*)(bool)>(&ToggleGroup::set_allowSwitchOff)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ToggleGroup::*)(bool)>(&UnityEngine::UI::ToggleGroup::set_allowSwitchOff)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ToggleGroup*), "set_allowSwitchOff", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ToggleGroup*), "set_allowSwitchOff", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ToggleGroup::ValidateToggleIsInGroup
+// Writing MetadataGetter for method: UnityEngine::UI::ToggleGroup::ValidateToggleIsInGroup
 // Il2CppName: ValidateToggleIsInGroup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ToggleGroup::*)(UnityEngine::UI::Toggle*)>(&ToggleGroup::ValidateToggleIsInGroup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ToggleGroup::*)(UnityEngine::UI::Toggle*)>(&UnityEngine::UI::ToggleGroup::ValidateToggleIsInGroup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ToggleGroup*), "ValidateToggleIsInGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Toggle*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ToggleGroup*), "ValidateToggleIsInGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Toggle*>()});
   }
 };
-// Writing MetadataGetter for method: ToggleGroup::NotifyToggleOn
+// Writing MetadataGetter for method: UnityEngine::UI::ToggleGroup::NotifyToggleOn
 // Il2CppName: NotifyToggleOn
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ToggleGroup::*)(UnityEngine::UI::Toggle*, bool)>(&ToggleGroup::NotifyToggleOn)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ToggleGroup::*)(UnityEngine::UI::Toggle*, bool)>(&UnityEngine::UI::ToggleGroup::NotifyToggleOn)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ToggleGroup*), "NotifyToggleOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Toggle*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ToggleGroup*), "NotifyToggleOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Toggle*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ToggleGroup::UnregisterToggle
+// Writing MetadataGetter for method: UnityEngine::UI::ToggleGroup::UnregisterToggle
 // Il2CppName: UnregisterToggle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ToggleGroup::*)(UnityEngine::UI::Toggle*)>(&ToggleGroup::UnregisterToggle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ToggleGroup::*)(UnityEngine::UI::Toggle*)>(&UnityEngine::UI::ToggleGroup::UnregisterToggle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ToggleGroup*), "UnregisterToggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Toggle*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ToggleGroup*), "UnregisterToggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Toggle*>()});
   }
 };
-// Writing MetadataGetter for method: ToggleGroup::RegisterToggle
+// Writing MetadataGetter for method: UnityEngine::UI::ToggleGroup::RegisterToggle
 // Il2CppName: RegisterToggle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ToggleGroup::*)(UnityEngine::UI::Toggle*)>(&ToggleGroup::RegisterToggle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ToggleGroup::*)(UnityEngine::UI::Toggle*)>(&UnityEngine::UI::ToggleGroup::RegisterToggle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ToggleGroup*), "RegisterToggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Toggle*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ToggleGroup*), "RegisterToggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Toggle*>()});
   }
 };
-// Writing MetadataGetter for method: ToggleGroup::EnsureValidState
+// Writing MetadataGetter for method: UnityEngine::UI::ToggleGroup::EnsureValidState
 // Il2CppName: EnsureValidState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ToggleGroup::*)()>(&ToggleGroup::EnsureValidState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ToggleGroup::*)()>(&UnityEngine::UI::ToggleGroup::EnsureValidState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ToggleGroup*), "EnsureValidState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ToggleGroup*), "EnsureValidState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ToggleGroup::AnyTogglesOn
+// Writing MetadataGetter for method: UnityEngine::UI::ToggleGroup::AnyTogglesOn
 // Il2CppName: AnyTogglesOn
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ToggleGroup::*)()>(&ToggleGroup::AnyTogglesOn)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::ToggleGroup::*)()>(&UnityEngine::UI::ToggleGroup::AnyTogglesOn)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ToggleGroup*), "AnyTogglesOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ToggleGroup*), "AnyTogglesOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ToggleGroup::ActiveToggles
+// Writing MetadataGetter for method: UnityEngine::UI::ToggleGroup::ActiveToggles
 // Il2CppName: ActiveToggles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::UI::Toggle*>* (ToggleGroup::*)()>(&ToggleGroup::ActiveToggles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::UI::Toggle*>* (UnityEngine::UI::ToggleGroup::*)()>(&UnityEngine::UI::ToggleGroup::ActiveToggles)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ToggleGroup*), "ActiveToggles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ToggleGroup*), "ActiveToggles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ToggleGroup::SetAllTogglesOff
+// Writing MetadataGetter for method: UnityEngine::UI::ToggleGroup::SetAllTogglesOff
 // Il2CppName: SetAllTogglesOff
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ToggleGroup::*)(bool)>(&ToggleGroup::SetAllTogglesOff)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ToggleGroup::*)(bool)>(&UnityEngine::UI::ToggleGroup::SetAllTogglesOff)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ToggleGroup*), "SetAllTogglesOff", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ToggleGroup*), "SetAllTogglesOff", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ToggleGroup::New_ctor
+// Writing MetadataGetter for method: UnityEngine::UI::ToggleGroup::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ToggleGroup::*)()>(&ToggleGroup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ToggleGroup::*)()>(&UnityEngine::UI::ToggleGroup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ToggleGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ToggleGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ToggleGroup::*)()>(&ToggleGroup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ToggleGroup::*)()>(&UnityEngine::UI::ToggleGroup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ToggleGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ToggleGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ToggleGroup::Start
+// Writing MetadataGetter for method: UnityEngine::UI::ToggleGroup::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ToggleGroup::*)()>(&ToggleGroup::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ToggleGroup::*)()>(&UnityEngine::UI::ToggleGroup::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ToggleGroup*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ToggleGroup*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

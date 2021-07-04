@@ -49,6 +49,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BatchExtensions*, "", "BatchExtensions");
-// Writing MetadataGetter for method: BatchExtensions::Batch
+// Writing MetadataGetter for method: GlobalNamespace::BatchExtensions::Batch
 // Il2CppName: Batch
 // Cannot write MetadataGetter for generic methods!

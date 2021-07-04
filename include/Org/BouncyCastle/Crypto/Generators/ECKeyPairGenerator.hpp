@@ -117,71 +117,71 @@ namespace Org::BouncyCastle::Crypto::Generators {
   static_assert(sizeof(ECKeyPairGenerator) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator*, "Org.BouncyCastle.Crypto.Generators", "ECKeyPairGenerator");
-// Writing MetadataGetter for method: ECKeyPairGenerator::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ECKeyPairGenerator::*)(::Il2CppString*)>(&ECKeyPairGenerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::*)(::Il2CppString*)>(&Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECKeyPairGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ECKeyPairGenerator::*)(::Il2CppString*)>(&ECKeyPairGenerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::*)(::Il2CppString*)>(&Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECKeyPairGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: ECKeyPairGenerator::Init
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ECKeyPairGenerator::*)(Org::BouncyCastle::Crypto::KeyGenerationParameters*)>(&ECKeyPairGenerator::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::*)(Org::BouncyCastle::Crypto::KeyGenerationParameters*)>(&Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECKeyPairGenerator*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::KeyGenerationParameters*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::KeyGenerationParameters*>()});
   }
 };
-// Writing MetadataGetter for method: ECKeyPairGenerator::GenerateKeyPair
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::GenerateKeyPair
 // Il2CppName: GenerateKeyPair
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* (ECKeyPairGenerator::*)()>(&ECKeyPairGenerator::GenerateKeyPair)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* (Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::*)()>(&Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::GenerateKeyPair)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECKeyPairGenerator*), "GenerateKeyPair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator*), "GenerateKeyPair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ECKeyPairGenerator::CreateBasePointMultiplier
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::CreateBasePointMultiplier
 // Il2CppName: CreateBasePointMultiplier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* (ECKeyPairGenerator::*)()>(&ECKeyPairGenerator::CreateBasePointMultiplier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* (Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::*)()>(&Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::CreateBasePointMultiplier)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECKeyPairGenerator*), "CreateBasePointMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator*), "CreateBasePointMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ECKeyPairGenerator::FindECCurveByOid
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::FindECCurveByOid
 // Il2CppName: FindECCurveByOid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&ECKeyPairGenerator::FindECCurveByOid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::FindECCurveByOid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECKeyPairGenerator*), "FindECCurveByOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator*), "FindECCurveByOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>()});
   }
 };
-// Writing MetadataGetter for method: ECKeyPairGenerator::GetCorrespondingPublicKey
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::GetCorrespondingPublicKey
 // Il2CppName: GetCorrespondingPublicKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* (*)(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*)>(&ECKeyPairGenerator::GetCorrespondingPublicKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* (*)(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*)>(&Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::GetCorrespondingPublicKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECKeyPairGenerator*), "GetCorrespondingPublicKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator*), "GetCorrespondingPublicKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*>()});
   }
 };
-// Writing MetadataGetter for method: ECKeyPairGenerator::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ECKeyPairGenerator::*)()>(&ECKeyPairGenerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::*)()>(&Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECKeyPairGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ECKeyPairGenerator::*)()>(&ECKeyPairGenerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::*)()>(&Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECKeyPairGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

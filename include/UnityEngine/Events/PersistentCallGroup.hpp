@@ -64,25 +64,25 @@ namespace UnityEngine::Events {
   static_assert(sizeof(PersistentCallGroup) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::PersistentCallGroup*, "UnityEngine.Events", "PersistentCallGroup");
-// Writing MetadataGetter for method: PersistentCallGroup::Initialize
+// Writing MetadataGetter for method: UnityEngine::Events::PersistentCallGroup::Initialize
 // Il2CppName: Initialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PersistentCallGroup::*)(UnityEngine::Events::InvokableCallList*, UnityEngine::Events::UnityEventBase*)>(&PersistentCallGroup::Initialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::PersistentCallGroup::*)(UnityEngine::Events::InvokableCallList*, UnityEngine::Events::UnityEventBase*)>(&UnityEngine::Events::PersistentCallGroup::Initialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PersistentCallGroup*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::InvokableCallList*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityEventBase*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::PersistentCallGroup*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::InvokableCallList*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityEventBase*>()});
   }
 };
-// Writing MetadataGetter for method: PersistentCallGroup::New_ctor
+// Writing MetadataGetter for method: UnityEngine::Events::PersistentCallGroup::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PersistentCallGroup::*)()>(&PersistentCallGroup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::PersistentCallGroup::*)()>(&UnityEngine::Events::PersistentCallGroup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PersistentCallGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::PersistentCallGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PersistentCallGroup::*)()>(&PersistentCallGroup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::PersistentCallGroup::*)()>(&UnityEngine::Events::PersistentCallGroup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PersistentCallGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::PersistentCallGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -56,41 +56,41 @@ namespace Oculus::Platform {
   static_assert(sizeof(ApplicationOptions) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::ApplicationOptions*, "Oculus.Platform", "ApplicationOptions");
-// Writing MetadataGetter for method: ApplicationOptions::SetDeeplinkMessage
+// Writing MetadataGetter for method: Oculus::Platform::ApplicationOptions::SetDeeplinkMessage
 // Il2CppName: SetDeeplinkMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ApplicationOptions::*)(::Il2CppString*)>(&ApplicationOptions::SetDeeplinkMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::ApplicationOptions::*)(::Il2CppString*)>(&Oculus::Platform::ApplicationOptions::SetDeeplinkMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ApplicationOptions*), "SetDeeplinkMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::ApplicationOptions*), "SetDeeplinkMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: ApplicationOptions::operator System::IntPtr
+// Writing MetadataGetter for method: Oculus::Platform::ApplicationOptions::operator System::IntPtr
 // Il2CppName: op_Explicit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&ApplicationOptions::operator System::IntPtr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&Oculus::Platform::ApplicationOptions::operator System::IntPtr)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ApplicationOptions*), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::ApplicationOptions*), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ApplicationOptions::New_ctor
+// Writing MetadataGetter for method: Oculus::Platform::ApplicationOptions::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ApplicationOptions::*)()>(&ApplicationOptions::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::ApplicationOptions::*)()>(&Oculus::Platform::ApplicationOptions::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ApplicationOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::ApplicationOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ApplicationOptions::*)()>(&ApplicationOptions::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::ApplicationOptions::*)()>(&Oculus::Platform::ApplicationOptions::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ApplicationOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::ApplicationOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ApplicationOptions::Finalize
+// Writing MetadataGetter for method: Oculus::Platform::ApplicationOptions::Finalize
 // Il2CppName: Finalize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ApplicationOptions::*)()>(&ApplicationOptions::Finalize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::ApplicationOptions::*)()>(&Oculus::Platform::ApplicationOptions::Finalize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ApplicationOptions*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::ApplicationOptions*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

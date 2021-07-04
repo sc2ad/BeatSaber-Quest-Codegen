@@ -101,49 +101,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLobbyCenterStageLayoutAnimator) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator*, "", "MultiplayerLobbyCenterStageLayoutAnimator");
-// Writing MetadataGetter for method: MultiplayerLobbyCenterStageLayoutAnimator::StartCountdown
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::StartCountdown
 // Il2CppName: StartCountdown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyCenterStageLayoutAnimator::*)()>(&MultiplayerLobbyCenterStageLayoutAnimator::StartCountdown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::*)()>(&GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::StartCountdown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyCenterStageLayoutAnimator*), "StartCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator*), "StartCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyCenterStageLayoutAnimator::StopCountdown
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::StopCountdown
 // Il2CppName: StopCountdown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyCenterStageLayoutAnimator::*)(bool)>(&MultiplayerLobbyCenterStageLayoutAnimator::StopCountdown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::*)(bool)>(&GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::StopCountdown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyCenterStageLayoutAnimator*), "StopCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator*), "StopCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyCenterStageLayoutAnimator::Move
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::Move
 // Il2CppName: Move
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyCenterStageLayoutAnimator::*)(UnityEngine::Vector3, UnityEngine::Vector3, float)>(&MultiplayerLobbyCenterStageLayoutAnimator::Move)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::*)(UnityEngine::Vector3, UnityEngine::Vector3, float)>(&GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::Move)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyCenterStageLayoutAnimator*), "Move", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator*), "Move", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyCenterStageLayoutAnimator::$Move$b__7_0
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::$Move$b__7_0
 // Il2CppName: <Move>b__7_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyCenterStageLayoutAnimator::*)(UnityEngine::Vector3)>(&MultiplayerLobbyCenterStageLayoutAnimator::$Move$b__7_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::*)(UnityEngine::Vector3)>(&GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::$Move$b__7_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyCenterStageLayoutAnimator*), "<Move>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator*), "<Move>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyCenterStageLayoutAnimator::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyCenterStageLayoutAnimator::*)()>(&MultiplayerLobbyCenterStageLayoutAnimator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::*)()>(&GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyCenterStageLayoutAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyCenterStageLayoutAnimator::*)()>(&MultiplayerLobbyCenterStageLayoutAnimator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::*)()>(&GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyCenterStageLayoutAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -93,145 +93,145 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerConnectionInternal*, "UnityEngine", "PlayerConnectionInternal");
-// Writing MetadataGetter for method: PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_SendMessage
+// Writing MetadataGetter for method: UnityEngine::PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_SendMessage
 // Il2CppName: UnityEngine.IPlayerEditorConnectionNative.SendMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerConnectionInternal::*)(System::Guid, ::Array<uint8_t>*, int)>(&PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_SendMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::PlayerConnectionInternal::*)(System::Guid, ::Array<uint8_t>*, int)>(&UnityEngine::PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_SendMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerConnectionInternal*), "UnityEngine.IPlayerEditorConnectionNative.SendMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PlayerConnectionInternal*), "UnityEngine.IPlayerEditorConnectionNative.SendMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_TrySendMessage
+// Writing MetadataGetter for method: UnityEngine::PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_TrySendMessage
 // Il2CppName: UnityEngine.IPlayerEditorConnectionNative.TrySendMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayerConnectionInternal::*)(System::Guid, ::Array<uint8_t>*, int)>(&PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_TrySendMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::PlayerConnectionInternal::*)(System::Guid, ::Array<uint8_t>*, int)>(&UnityEngine::PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_TrySendMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerConnectionInternal*), "UnityEngine.IPlayerEditorConnectionNative.TrySendMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PlayerConnectionInternal*), "UnityEngine.IPlayerEditorConnectionNative.TrySendMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_Poll
+// Writing MetadataGetter for method: UnityEngine::PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_Poll
 // Il2CppName: UnityEngine.IPlayerEditorConnectionNative.Poll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerConnectionInternal::*)()>(&PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_Poll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::PlayerConnectionInternal::*)()>(&UnityEngine::PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_Poll)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerConnectionInternal*), "UnityEngine.IPlayerEditorConnectionNative.Poll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PlayerConnectionInternal*), "UnityEngine.IPlayerEditorConnectionNative.Poll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_RegisterInternal
+// Writing MetadataGetter for method: UnityEngine::PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_RegisterInternal
 // Il2CppName: UnityEngine.IPlayerEditorConnectionNative.RegisterInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerConnectionInternal::*)(System::Guid)>(&PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_RegisterInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::PlayerConnectionInternal::*)(System::Guid)>(&UnityEngine::PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_RegisterInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerConnectionInternal*), "UnityEngine.IPlayerEditorConnectionNative.RegisterInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PlayerConnectionInternal*), "UnityEngine.IPlayerEditorConnectionNative.RegisterInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>()});
   }
 };
-// Writing MetadataGetter for method: PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_UnregisterInternal
+// Writing MetadataGetter for method: UnityEngine::PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_UnregisterInternal
 // Il2CppName: UnityEngine.IPlayerEditorConnectionNative.UnregisterInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerConnectionInternal::*)(System::Guid)>(&PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_UnregisterInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::PlayerConnectionInternal::*)(System::Guid)>(&UnityEngine::PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_UnregisterInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerConnectionInternal*), "UnityEngine.IPlayerEditorConnectionNative.UnregisterInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PlayerConnectionInternal*), "UnityEngine.IPlayerEditorConnectionNative.UnregisterInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>()});
   }
 };
-// Writing MetadataGetter for method: PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_Initialize
+// Writing MetadataGetter for method: UnityEngine::PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_Initialize
 // Il2CppName: UnityEngine.IPlayerEditorConnectionNative.Initialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerConnectionInternal::*)()>(&PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_Initialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::PlayerConnectionInternal::*)()>(&UnityEngine::PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_Initialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerConnectionInternal*), "UnityEngine.IPlayerEditorConnectionNative.Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PlayerConnectionInternal*), "UnityEngine.IPlayerEditorConnectionNative.Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_IsConnected
+// Writing MetadataGetter for method: UnityEngine::PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_IsConnected
 // Il2CppName: UnityEngine.IPlayerEditorConnectionNative.IsConnected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayerConnectionInternal::*)()>(&PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_IsConnected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::PlayerConnectionInternal::*)()>(&UnityEngine::PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_IsConnected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerConnectionInternal*), "UnityEngine.IPlayerEditorConnectionNative.IsConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PlayerConnectionInternal*), "UnityEngine.IPlayerEditorConnectionNative.IsConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_DisconnectAll
+// Writing MetadataGetter for method: UnityEngine::PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_DisconnectAll
 // Il2CppName: UnityEngine.IPlayerEditorConnectionNative.DisconnectAll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerConnectionInternal::*)()>(&PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_DisconnectAll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::PlayerConnectionInternal::*)()>(&UnityEngine::PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_DisconnectAll)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerConnectionInternal*), "UnityEngine.IPlayerEditorConnectionNative.DisconnectAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PlayerConnectionInternal*), "UnityEngine.IPlayerEditorConnectionNative.DisconnectAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerConnectionInternal::IsConnected
+// Writing MetadataGetter for method: UnityEngine::PlayerConnectionInternal::IsConnected
 // Il2CppName: IsConnected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&PlayerConnectionInternal::IsConnected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::PlayerConnectionInternal::IsConnected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerConnectionInternal*), "IsConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PlayerConnectionInternal*), "IsConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerConnectionInternal::Initialize
+// Writing MetadataGetter for method: UnityEngine::PlayerConnectionInternal::Initialize
 // Il2CppName: Initialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&PlayerConnectionInternal::Initialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::PlayerConnectionInternal::Initialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerConnectionInternal*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PlayerConnectionInternal*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerConnectionInternal::RegisterInternal
+// Writing MetadataGetter for method: UnityEngine::PlayerConnectionInternal::RegisterInternal
 // Il2CppName: RegisterInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&PlayerConnectionInternal::RegisterInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&UnityEngine::PlayerConnectionInternal::RegisterInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerConnectionInternal*), "RegisterInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PlayerConnectionInternal*), "RegisterInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: PlayerConnectionInternal::UnregisterInternal
+// Writing MetadataGetter for method: UnityEngine::PlayerConnectionInternal::UnregisterInternal
 // Il2CppName: UnregisterInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&PlayerConnectionInternal::UnregisterInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&UnityEngine::PlayerConnectionInternal::UnregisterInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerConnectionInternal*), "UnregisterInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PlayerConnectionInternal*), "UnregisterInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: PlayerConnectionInternal::SendMessage
+// Writing MetadataGetter for method: UnityEngine::PlayerConnectionInternal::SendMessage
 // Il2CppName: SendMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<uint8_t>*, int)>(&PlayerConnectionInternal::SendMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<uint8_t>*, int)>(&UnityEngine::PlayerConnectionInternal::SendMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerConnectionInternal*), "SendMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PlayerConnectionInternal*), "SendMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: PlayerConnectionInternal::TrySendMessage
+// Writing MetadataGetter for method: UnityEngine::PlayerConnectionInternal::TrySendMessage
 // Il2CppName: TrySendMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Array<uint8_t>*, int)>(&PlayerConnectionInternal::TrySendMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Array<uint8_t>*, int)>(&UnityEngine::PlayerConnectionInternal::TrySendMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerConnectionInternal*), "TrySendMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PlayerConnectionInternal*), "TrySendMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: PlayerConnectionInternal::PollInternal
+// Writing MetadataGetter for method: UnityEngine::PlayerConnectionInternal::PollInternal
 // Il2CppName: PollInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&PlayerConnectionInternal::PollInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::PlayerConnectionInternal::PollInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerConnectionInternal*), "PollInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PlayerConnectionInternal*), "PollInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerConnectionInternal::DisconnectAll
+// Writing MetadataGetter for method: UnityEngine::PlayerConnectionInternal::DisconnectAll
 // Il2CppName: DisconnectAll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&PlayerConnectionInternal::DisconnectAll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::PlayerConnectionInternal::DisconnectAll)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerConnectionInternal*), "DisconnectAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PlayerConnectionInternal*), "DisconnectAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerConnectionInternal::New_ctor
+// Writing MetadataGetter for method: UnityEngine::PlayerConnectionInternal::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerConnectionInternal::*)()>(&PlayerConnectionInternal::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::PlayerConnectionInternal::*)()>(&UnityEngine::PlayerConnectionInternal::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerConnectionInternal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PlayerConnectionInternal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerConnectionInternal::*)()>(&PlayerConnectionInternal::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::PlayerConnectionInternal::*)()>(&UnityEngine::PlayerConnectionInternal::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerConnectionInternal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PlayerConnectionInternal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

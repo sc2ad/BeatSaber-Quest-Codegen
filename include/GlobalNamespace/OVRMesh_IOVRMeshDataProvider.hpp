@@ -24,11 +24,11 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMesh::IOVRMeshDataProvider*, "", "OVRMesh/IOVRMeshDataProvider");
-// Writing MetadataGetter for method: OVRMesh::IOVRMeshDataProvider::GetMeshType
+// Writing MetadataGetter for method: GlobalNamespace::OVRMesh::IOVRMeshDataProvider::GetMeshType
 // Il2CppName: GetMeshType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRMesh::MeshType (OVRMesh::IOVRMeshDataProvider::*)()>(&OVRMesh::IOVRMeshDataProvider::GetMeshType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRMesh::MeshType (GlobalNamespace::OVRMesh::IOVRMeshDataProvider::*)()>(&GlobalNamespace::OVRMesh::IOVRMeshDataProvider::GetMeshType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRMesh::IOVRMeshDataProvider*), "GetMeshType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMesh::IOVRMeshDataProvider*), "GetMeshType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

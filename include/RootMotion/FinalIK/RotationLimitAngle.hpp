@@ -82,65 +82,65 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(RotationLimitAngle) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitAngle*, "RootMotion.FinalIK", "RotationLimitAngle");
-// Writing MetadataGetter for method: RotationLimitAngle::OpenUserManual
+// Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitAngle::OpenUserManual
 // Il2CppName: OpenUserManual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitAngle::*)()>(&RotationLimitAngle::OpenUserManual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RotationLimitAngle::*)()>(&RootMotion::FinalIK::RotationLimitAngle::OpenUserManual)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RotationLimitAngle*), "OpenUserManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RotationLimitAngle*), "OpenUserManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RotationLimitAngle::OpenScriptReference
+// Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitAngle::OpenScriptReference
 // Il2CppName: OpenScriptReference
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitAngle::*)()>(&RotationLimitAngle::OpenScriptReference)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RotationLimitAngle::*)()>(&RootMotion::FinalIK::RotationLimitAngle::OpenScriptReference)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RotationLimitAngle*), "OpenScriptReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RotationLimitAngle*), "OpenScriptReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RotationLimitAngle::SupportGroup
+// Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitAngle::SupportGroup
 // Il2CppName: SupportGroup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitAngle::*)()>(&RotationLimitAngle::SupportGroup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RotationLimitAngle::*)()>(&RootMotion::FinalIK::RotationLimitAngle::SupportGroup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RotationLimitAngle*), "SupportGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RotationLimitAngle*), "SupportGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RotationLimitAngle::ASThread
+// Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitAngle::ASThread
 // Il2CppName: ASThread
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitAngle::*)()>(&RotationLimitAngle::ASThread)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RotationLimitAngle::*)()>(&RootMotion::FinalIK::RotationLimitAngle::ASThread)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RotationLimitAngle*), "ASThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RotationLimitAngle*), "ASThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RotationLimitAngle::LimitSwing
+// Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitAngle::LimitSwing
 // Il2CppName: LimitSwing
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (RotationLimitAngle::*)(UnityEngine::Quaternion)>(&RotationLimitAngle::LimitSwing)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (RootMotion::FinalIK::RotationLimitAngle::*)(UnityEngine::Quaternion)>(&RootMotion::FinalIK::RotationLimitAngle::LimitSwing)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RotationLimitAngle*), "LimitSwing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RotationLimitAngle*), "LimitSwing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
   }
 };
-// Writing MetadataGetter for method: RotationLimitAngle::LimitRotation
+// Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitAngle::LimitRotation
 // Il2CppName: LimitRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (RotationLimitAngle::*)(UnityEngine::Quaternion)>(&RotationLimitAngle::LimitRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (RootMotion::FinalIK::RotationLimitAngle::*)(UnityEngine::Quaternion)>(&RootMotion::FinalIK::RotationLimitAngle::LimitRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RotationLimitAngle*), "LimitRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RotationLimitAngle*), "LimitRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
   }
 };
-// Writing MetadataGetter for method: RotationLimitAngle::New_ctor
+// Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitAngle::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitAngle::*)()>(&RotationLimitAngle::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RotationLimitAngle::*)()>(&RootMotion::FinalIK::RotationLimitAngle::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RotationLimitAngle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RotationLimitAngle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotationLimitAngle::*)()>(&RotationLimitAngle::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RotationLimitAngle::*)()>(&RootMotion::FinalIK::RotationLimitAngle::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RotationLimitAngle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RotationLimitAngle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -60,51 +60,51 @@ namespace NUnit::Framework::Interfaces {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IPropertyBag*, "NUnit.Framework.Interfaces", "IPropertyBag");
-// Writing MetadataGetter for method: IPropertyBag::Add
+// Writing MetadataGetter for method: NUnit::Framework::Interfaces::IPropertyBag::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPropertyBag::*)(::Il2CppString*, ::Il2CppObject*)>(&IPropertyBag::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Interfaces::IPropertyBag::*)(::Il2CppString*, ::Il2CppObject*)>(&NUnit::Framework::Interfaces::IPropertyBag::Add)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IPropertyBag*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::IPropertyBag*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IPropertyBag::Set
+// Writing MetadataGetter for method: NUnit::Framework::Interfaces::IPropertyBag::Set
 // Il2CppName: Set
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPropertyBag::*)(::Il2CppString*, ::Il2CppObject*)>(&IPropertyBag::Set)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Interfaces::IPropertyBag::*)(::Il2CppString*, ::Il2CppObject*)>(&NUnit::Framework::Interfaces::IPropertyBag::Set)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IPropertyBag*), "Set", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::IPropertyBag*), "Set", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IPropertyBag::Get
+// Writing MetadataGetter for method: NUnit::Framework::Interfaces::IPropertyBag::Get
 // Il2CppName: Get
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (IPropertyBag::*)(::Il2CppString*)>(&IPropertyBag::Get)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (NUnit::Framework::Interfaces::IPropertyBag::*)(::Il2CppString*)>(&NUnit::Framework::Interfaces::IPropertyBag::Get)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IPropertyBag*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::IPropertyBag*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: IPropertyBag::ContainsKey
+// Writing MetadataGetter for method: NUnit::Framework::Interfaces::IPropertyBag::ContainsKey
 // Il2CppName: ContainsKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IPropertyBag::*)(::Il2CppString*)>(&IPropertyBag::ContainsKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Interfaces::IPropertyBag::*)(::Il2CppString*)>(&NUnit::Framework::Interfaces::IPropertyBag::ContainsKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IPropertyBag*), "ContainsKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::IPropertyBag*), "ContainsKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: IPropertyBag::get_Item
+// Writing MetadataGetter for method: NUnit::Framework::Interfaces::IPropertyBag::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (IPropertyBag::*)(::Il2CppString*)>(&IPropertyBag::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (NUnit::Framework::Interfaces::IPropertyBag::*)(::Il2CppString*)>(&NUnit::Framework::Interfaces::IPropertyBag::get_Item)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IPropertyBag*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::IPropertyBag*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: IPropertyBag::get_Keys
+// Writing MetadataGetter for method: NUnit::Framework::Interfaces::IPropertyBag::get_Keys
 // Il2CppName: get_Keys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::ICollection_1<::Il2CppString*>* (IPropertyBag::*)()>(&IPropertyBag::get_Keys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::ICollection_1<::Il2CppString*>* (NUnit::Framework::Interfaces::IPropertyBag::*)()>(&NUnit::Framework::Interfaces::IPropertyBag::get_Keys)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IPropertyBag*), "get_Keys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::IPropertyBag*), "get_Keys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

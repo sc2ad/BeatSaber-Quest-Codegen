@@ -177,73 +177,73 @@ namespace GlobalNamespace {
   static_assert(sizeof(KawaseBloomMainEffectSO) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::KawaseBloomMainEffectSO*, "", "KawaseBloomMainEffectSO");
-// Writing MetadataGetter for method: KawaseBloomMainEffectSO::OnDisable
+// Writing MetadataGetter for method: GlobalNamespace::KawaseBloomMainEffectSO::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KawaseBloomMainEffectSO::*)()>(&KawaseBloomMainEffectSO::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::KawaseBloomMainEffectSO::*)()>(&GlobalNamespace::KawaseBloomMainEffectSO::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(KawaseBloomMainEffectSO*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBloomMainEffectSO*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: KawaseBloomMainEffectSO::LazyInitializeMaterials
+// Writing MetadataGetter for method: GlobalNamespace::KawaseBloomMainEffectSO::LazyInitializeMaterials
 // Il2CppName: LazyInitializeMaterials
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KawaseBloomMainEffectSO::*)()>(&KawaseBloomMainEffectSO::LazyInitializeMaterials)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::KawaseBloomMainEffectSO::*)()>(&GlobalNamespace::KawaseBloomMainEffectSO::LazyInitializeMaterials)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(KawaseBloomMainEffectSO*), "LazyInitializeMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBloomMainEffectSO*), "LazyInitializeMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: KawaseBloomMainEffectSO::get_hasPostProcessEffect
+// Writing MetadataGetter for method: GlobalNamespace::KawaseBloomMainEffectSO::get_hasPostProcessEffect
 // Il2CppName: get_hasPostProcessEffect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (KawaseBloomMainEffectSO::*)()>(&KawaseBloomMainEffectSO::get_hasPostProcessEffect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::KawaseBloomMainEffectSO::*)()>(&GlobalNamespace::KawaseBloomMainEffectSO::get_hasPostProcessEffect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(KawaseBloomMainEffectSO*), "get_hasPostProcessEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBloomMainEffectSO*), "get_hasPostProcessEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: KawaseBloomMainEffectSO::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::KawaseBloomMainEffectSO::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KawaseBloomMainEffectSO::*)()>(&KawaseBloomMainEffectSO::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::KawaseBloomMainEffectSO::*)()>(&GlobalNamespace::KawaseBloomMainEffectSO::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(KawaseBloomMainEffectSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBloomMainEffectSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: KawaseBloomMainEffectSO::PreRender
+// Writing MetadataGetter for method: GlobalNamespace::KawaseBloomMainEffectSO::PreRender
 // Il2CppName: PreRender
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KawaseBloomMainEffectSO::*)()>(&KawaseBloomMainEffectSO::PreRender)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::KawaseBloomMainEffectSO::*)()>(&GlobalNamespace::KawaseBloomMainEffectSO::PreRender)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(KawaseBloomMainEffectSO*), "PreRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBloomMainEffectSO*), "PreRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: KawaseBloomMainEffectSO::Render
+// Writing MetadataGetter for method: GlobalNamespace::KawaseBloomMainEffectSO::Render
 // Il2CppName: Render
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KawaseBloomMainEffectSO::*)(UnityEngine::RenderTexture*, UnityEngine::RenderTexture*, float)>(&KawaseBloomMainEffectSO::Render)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::KawaseBloomMainEffectSO::*)(UnityEngine::RenderTexture*, UnityEngine::RenderTexture*, float)>(&GlobalNamespace::KawaseBloomMainEffectSO::Render)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(KawaseBloomMainEffectSO*), "Render", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBloomMainEffectSO*), "Render", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: KawaseBloomMainEffectSO::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::KawaseBloomMainEffectSO::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KawaseBloomMainEffectSO::*)()>(&KawaseBloomMainEffectSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::KawaseBloomMainEffectSO::*)()>(&GlobalNamespace::KawaseBloomMainEffectSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(KawaseBloomMainEffectSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBloomMainEffectSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (KawaseBloomMainEffectSO::*)()>(&KawaseBloomMainEffectSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::KawaseBloomMainEffectSO::*)()>(&GlobalNamespace::KawaseBloomMainEffectSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(KawaseBloomMainEffectSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBloomMainEffectSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: KawaseBloomMainEffectSO::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::KawaseBloomMainEffectSO::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&KawaseBloomMainEffectSO::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::KawaseBloomMainEffectSO::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(KawaseBloomMainEffectSO*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBloomMainEffectSO*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -100,41 +100,41 @@ namespace Zenject {
   static_assert(sizeof(SubContainerBindingFinalizer) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerBindingFinalizer*, "Zenject", "SubContainerBindingFinalizer");
-// Writing MetadataGetter for method: SubContainerBindingFinalizer::New_ctor
+// Writing MetadataGetter for method: Zenject::SubContainerBindingFinalizer::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerBindingFinalizer::*)(Zenject::BindInfo*, ::Il2CppObject*, bool, System::Func_2<Zenject::DiContainer*, Zenject::ISubContainerCreator*>*)>(&SubContainerBindingFinalizer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SubContainerBindingFinalizer::*)(Zenject::BindInfo*, ::Il2CppObject*, bool, System::Func_2<Zenject::DiContainer*, Zenject::ISubContainerCreator*>*)>(&Zenject::SubContainerBindingFinalizer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubContainerBindingFinalizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Func_2<Zenject::DiContainer*, Zenject::ISubContainerCreator*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBindingFinalizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Func_2<Zenject::DiContainer*, Zenject::ISubContainerCreator*>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerBindingFinalizer::*)(Zenject::BindInfo*, ::Il2CppObject*, bool, System::Func_2<Zenject::DiContainer*, Zenject::ISubContainerCreator*>*)>(&SubContainerBindingFinalizer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SubContainerBindingFinalizer::*)(Zenject::BindInfo*, ::Il2CppObject*, bool, System::Func_2<Zenject::DiContainer*, Zenject::ISubContainerCreator*>*)>(&Zenject::SubContainerBindingFinalizer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubContainerBindingFinalizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Func_2<Zenject::DiContainer*, Zenject::ISubContainerCreator*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBindingFinalizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Func_2<Zenject::DiContainer*, Zenject::ISubContainerCreator*>*>()});
   }
 };
-// Writing MetadataGetter for method: SubContainerBindingFinalizer::FinalizeBindingConcrete
+// Writing MetadataGetter for method: Zenject::SubContainerBindingFinalizer::FinalizeBindingConcrete
 // Il2CppName: FinalizeBindingConcrete
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerBindingFinalizer::*)(Zenject::DiContainer*, System::Collections::Generic::List_1<System::Type*>*)>(&SubContainerBindingFinalizer::FinalizeBindingConcrete)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SubContainerBindingFinalizer::*)(Zenject::DiContainer*, System::Collections::Generic::List_1<System::Type*>*)>(&Zenject::SubContainerBindingFinalizer::FinalizeBindingConcrete)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubContainerBindingFinalizer*), "FinalizeBindingConcrete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Type*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBindingFinalizer*), "FinalizeBindingConcrete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Type*>*>()});
   }
 };
-// Writing MetadataGetter for method: SubContainerBindingFinalizer::FinalizeBindingSelf
+// Writing MetadataGetter for method: Zenject::SubContainerBindingFinalizer::FinalizeBindingSelf
 // Il2CppName: FinalizeBindingSelf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerBindingFinalizer::*)(Zenject::DiContainer*)>(&SubContainerBindingFinalizer::FinalizeBindingSelf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SubContainerBindingFinalizer::*)(Zenject::DiContainer*)>(&Zenject::SubContainerBindingFinalizer::FinalizeBindingSelf)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubContainerBindingFinalizer*), "FinalizeBindingSelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBindingFinalizer*), "FinalizeBindingSelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
   }
 };
-// Writing MetadataGetter for method: SubContainerBindingFinalizer::OnFinalizeBinding
+// Writing MetadataGetter for method: Zenject::SubContainerBindingFinalizer::OnFinalizeBinding
 // Il2CppName: OnFinalizeBinding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerBindingFinalizer::*)(Zenject::DiContainer*)>(&SubContainerBindingFinalizer::OnFinalizeBinding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SubContainerBindingFinalizer::*)(Zenject::DiContainer*)>(&Zenject::SubContainerBindingFinalizer::OnFinalizeBinding)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubContainerBindingFinalizer*), "OnFinalizeBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBindingFinalizer*), "OnFinalizeBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
   }
 };

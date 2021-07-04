@@ -213,145 +213,145 @@ namespace GlobalNamespace {
   static_assert(sizeof(ArcadeFlowCoordinator) == 0x160);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ArcadeFlowCoordinator*, "", "ArcadeFlowCoordinator");
-// Writing MetadataGetter for method: ArcadeFlowCoordinator::WillScoreGoToLeaderboard
+// Writing MetadataGetter for method: GlobalNamespace::ArcadeFlowCoordinator::WillScoreGoToLeaderboard
 // Il2CppName: WillScoreGoToLeaderboard
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ArcadeFlowCoordinator::*)(GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*, bool)>(&ArcadeFlowCoordinator::WillScoreGoToLeaderboard)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ArcadeFlowCoordinator::*)(GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*, bool)>(&GlobalNamespace::ArcadeFlowCoordinator::WillScoreGoToLeaderboard)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArcadeFlowCoordinator*), "WillScoreGoToLeaderboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ArcadeFlowCoordinator*), "WillScoreGoToLeaderboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ArcadeFlowCoordinator::ProcessScore
+// Writing MetadataGetter for method: GlobalNamespace::ArcadeFlowCoordinator::ProcessScore
 // Il2CppName: ProcessScore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ArcadeFlowCoordinator::*)(GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*, bool, ::Il2CppString*)>(&ArcadeFlowCoordinator::ProcessScore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ArcadeFlowCoordinator::*)(GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*, bool, ::Il2CppString*)>(&GlobalNamespace::ArcadeFlowCoordinator::ProcessScore)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArcadeFlowCoordinator*), "ProcessScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ArcadeFlowCoordinator*), "ProcessScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: ArcadeFlowCoordinator::HandleResultsViewControllerContinueButtonPressed
+// Writing MetadataGetter for method: GlobalNamespace::ArcadeFlowCoordinator::HandleResultsViewControllerContinueButtonPressed
 // Il2CppName: HandleResultsViewControllerContinueButtonPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArcadeFlowCoordinator::*)(GlobalNamespace::ResultsViewController*)>(&ArcadeFlowCoordinator::HandleResultsViewControllerContinueButtonPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ArcadeFlowCoordinator::*)(GlobalNamespace::ResultsViewController*)>(&GlobalNamespace::ArcadeFlowCoordinator::HandleResultsViewControllerContinueButtonPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArcadeFlowCoordinator*), "HandleResultsViewControllerContinueButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ResultsViewController*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ArcadeFlowCoordinator*), "HandleResultsViewControllerContinueButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ResultsViewController*>()});
   }
 };
-// Writing MetadataGetter for method: ArcadeFlowCoordinator::HandleResultsViewControllerRestartButtonPressed
+// Writing MetadataGetter for method: GlobalNamespace::ArcadeFlowCoordinator::HandleResultsViewControllerRestartButtonPressed
 // Il2CppName: HandleResultsViewControllerRestartButtonPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArcadeFlowCoordinator::*)(GlobalNamespace::ResultsViewController*)>(&ArcadeFlowCoordinator::HandleResultsViewControllerRestartButtonPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ArcadeFlowCoordinator::*)(GlobalNamespace::ResultsViewController*)>(&GlobalNamespace::ArcadeFlowCoordinator::HandleResultsViewControllerRestartButtonPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArcadeFlowCoordinator*), "HandleResultsViewControllerRestartButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ResultsViewController*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ArcadeFlowCoordinator*), "HandleResultsViewControllerRestartButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ResultsViewController*>()});
   }
 };
-// Writing MetadataGetter for method: ArcadeFlowCoordinator::HandleHowToPlayViewControllerDidFinish
+// Writing MetadataGetter for method: GlobalNamespace::ArcadeFlowCoordinator::HandleHowToPlayViewControllerDidFinish
 // Il2CppName: HandleHowToPlayViewControllerDidFinish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArcadeFlowCoordinator::*)(GlobalNamespace::HowToPlayViewController::HowToPlayOptions)>(&ArcadeFlowCoordinator::HandleHowToPlayViewControllerDidFinish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ArcadeFlowCoordinator::*)(GlobalNamespace::HowToPlayViewController::HowToPlayOptions)>(&GlobalNamespace::ArcadeFlowCoordinator::HandleHowToPlayViewControllerDidFinish)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArcadeFlowCoordinator*), "HandleHowToPlayViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ArcadeFlowCoordinator*), "HandleHowToPlayViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>()});
   }
 };
-// Writing MetadataGetter for method: ArcadeFlowCoordinator::HandleHowToPlayTabSelected
+// Writing MetadataGetter for method: GlobalNamespace::ArcadeFlowCoordinator::HandleHowToPlayTabSelected
 // Il2CppName: HandleHowToPlayTabSelected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArcadeFlowCoordinator::*)()>(&ArcadeFlowCoordinator::HandleHowToPlayTabSelected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ArcadeFlowCoordinator::*)()>(&GlobalNamespace::ArcadeFlowCoordinator::HandleHowToPlayTabSelected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArcadeFlowCoordinator*), "HandleHowToPlayTabSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ArcadeFlowCoordinator*), "HandleHowToPlayTabSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ArcadeFlowCoordinator::$SinglePlayerLevelSelectionFlowCoordinatorDidActivate$b__20_0
+// Writing MetadataGetter for method: GlobalNamespace::ArcadeFlowCoordinator::$SinglePlayerLevelSelectionFlowCoordinatorDidActivate$b__20_0
 // Il2CppName: <SinglePlayerLevelSelectionFlowCoordinatorDidActivate>b__20_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArcadeFlowCoordinator::*)()>(&ArcadeFlowCoordinator::$SinglePlayerLevelSelectionFlowCoordinatorDidActivate$b__20_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ArcadeFlowCoordinator::*)()>(&GlobalNamespace::ArcadeFlowCoordinator::$SinglePlayerLevelSelectionFlowCoordinatorDidActivate$b__20_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArcadeFlowCoordinator*), "<SinglePlayerLevelSelectionFlowCoordinatorDidActivate>b__20_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ArcadeFlowCoordinator*), "<SinglePlayerLevelSelectionFlowCoordinatorDidActivate>b__20_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ArcadeFlowCoordinator::$HandleHowToPlayTabSelected$b__28_0
+// Writing MetadataGetter for method: GlobalNamespace::ArcadeFlowCoordinator::$HandleHowToPlayTabSelected$b__28_0
 // Il2CppName: <HandleHowToPlayTabSelected>b__28_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArcadeFlowCoordinator::*)()>(&ArcadeFlowCoordinator::$HandleHowToPlayTabSelected$b__28_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ArcadeFlowCoordinator::*)()>(&GlobalNamespace::ArcadeFlowCoordinator::$HandleHowToPlayTabSelected$b__28_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArcadeFlowCoordinator*), "<HandleHowToPlayTabSelected>b__28_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ArcadeFlowCoordinator*), "<HandleHowToPlayTabSelected>b__28_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ArcadeFlowCoordinator::get_gameMode
+// Writing MetadataGetter for method: GlobalNamespace::ArcadeFlowCoordinator::get_gameMode
 // Il2CppName: get_gameMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ArcadeFlowCoordinator::*)()>(&ArcadeFlowCoordinator::get_gameMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::ArcadeFlowCoordinator::*)()>(&GlobalNamespace::ArcadeFlowCoordinator::get_gameMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArcadeFlowCoordinator*), "get_gameMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ArcadeFlowCoordinator*), "get_gameMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ArcadeFlowCoordinator::get_leaderboardViewController
+// Writing MetadataGetter for method: GlobalNamespace::ArcadeFlowCoordinator::get_leaderboardViewController
 // Il2CppName: get_leaderboardViewController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LeaderboardViewController* (ArcadeFlowCoordinator::*)()>(&ArcadeFlowCoordinator::get_leaderboardViewController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LeaderboardViewController* (GlobalNamespace::ArcadeFlowCoordinator::*)()>(&GlobalNamespace::ArcadeFlowCoordinator::get_leaderboardViewController)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArcadeFlowCoordinator*), "get_leaderboardViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ArcadeFlowCoordinator*), "get_leaderboardViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ArcadeFlowCoordinator::get_initialTopScreenViewController
+// Writing MetadataGetter for method: GlobalNamespace::ArcadeFlowCoordinator::get_initialTopScreenViewController
 // Il2CppName: get_initialTopScreenViewController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewController* (ArcadeFlowCoordinator::*)()>(&ArcadeFlowCoordinator::get_initialTopScreenViewController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewController* (GlobalNamespace::ArcadeFlowCoordinator::*)()>(&GlobalNamespace::ArcadeFlowCoordinator::get_initialTopScreenViewController)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArcadeFlowCoordinator*), "get_initialTopScreenViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ArcadeFlowCoordinator*), "get_initialTopScreenViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ArcadeFlowCoordinator::get_showPlayerStatsInDetailView
+// Writing MetadataGetter for method: GlobalNamespace::ArcadeFlowCoordinator::get_showPlayerStatsInDetailView
 // Il2CppName: get_showPlayerStatsInDetailView
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ArcadeFlowCoordinator::*)()>(&ArcadeFlowCoordinator::get_showPlayerStatsInDetailView)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ArcadeFlowCoordinator::*)()>(&GlobalNamespace::ArcadeFlowCoordinator::get_showPlayerStatsInDetailView)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArcadeFlowCoordinator*), "get_showPlayerStatsInDetailView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ArcadeFlowCoordinator*), "get_showPlayerStatsInDetailView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ArcadeFlowCoordinator::get_hidePacksIfOneOrNone
+// Writing MetadataGetter for method: GlobalNamespace::ArcadeFlowCoordinator::get_hidePacksIfOneOrNone
 // Il2CppName: get_hidePacksIfOneOrNone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ArcadeFlowCoordinator::*)()>(&ArcadeFlowCoordinator::get_hidePacksIfOneOrNone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ArcadeFlowCoordinator::*)()>(&GlobalNamespace::ArcadeFlowCoordinator::get_hidePacksIfOneOrNone)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArcadeFlowCoordinator*), "get_hidePacksIfOneOrNone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ArcadeFlowCoordinator*), "get_hidePacksIfOneOrNone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ArcadeFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidActivate
+// Writing MetadataGetter for method: GlobalNamespace::ArcadeFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidActivate
 // Il2CppName: SinglePlayerLevelSelectionFlowCoordinatorDidActivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArcadeFlowCoordinator::*)(bool, bool)>(&ArcadeFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidActivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ArcadeFlowCoordinator::*)(bool, bool)>(&GlobalNamespace::ArcadeFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidActivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArcadeFlowCoordinator*), "SinglePlayerLevelSelectionFlowCoordinatorDidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ArcadeFlowCoordinator*), "SinglePlayerLevelSelectionFlowCoordinatorDidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ArcadeFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate
+// Writing MetadataGetter for method: GlobalNamespace::ArcadeFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate
 // Il2CppName: SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArcadeFlowCoordinator::*)(bool)>(&ArcadeFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ArcadeFlowCoordinator::*)(bool)>(&GlobalNamespace::ArcadeFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArcadeFlowCoordinator*), "SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ArcadeFlowCoordinator*), "SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ArcadeFlowCoordinator::ProcessLevelCompletionResultsAfterLevelDidFinish
+// Writing MetadataGetter for method: GlobalNamespace::ArcadeFlowCoordinator::ProcessLevelCompletionResultsAfterLevelDidFinish
 // Il2CppName: ProcessLevelCompletionResultsAfterLevelDidFinish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArcadeFlowCoordinator::*)(GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::GameplayModifiers*, bool)>(&ArcadeFlowCoordinator::ProcessLevelCompletionResultsAfterLevelDidFinish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ArcadeFlowCoordinator::*)(GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::GameplayModifiers*, bool)>(&GlobalNamespace::ArcadeFlowCoordinator::ProcessLevelCompletionResultsAfterLevelDidFinish)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArcadeFlowCoordinator*), "ProcessLevelCompletionResultsAfterLevelDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ArcadeFlowCoordinator*), "ProcessLevelCompletionResultsAfterLevelDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ArcadeFlowCoordinator::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::ArcadeFlowCoordinator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArcadeFlowCoordinator::*)()>(&ArcadeFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ArcadeFlowCoordinator::*)()>(&GlobalNamespace::ArcadeFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArcadeFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ArcadeFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArcadeFlowCoordinator::*)()>(&ArcadeFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ArcadeFlowCoordinator::*)()>(&GlobalNamespace::ArcadeFlowCoordinator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArcadeFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ArcadeFlowCoordinator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

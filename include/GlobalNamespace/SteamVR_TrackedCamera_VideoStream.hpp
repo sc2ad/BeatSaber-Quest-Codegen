@@ -80,65 +80,65 @@ namespace GlobalNamespace {
   static_assert(sizeof(SteamVR_TrackedCamera::VideoStream) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_TrackedCamera::VideoStream*, "", "SteamVR_TrackedCamera/VideoStream");
-// Writing MetadataGetter for method: SteamVR_TrackedCamera::VideoStream::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStream::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_TrackedCamera::VideoStream::*)(uint)>(&SteamVR_TrackedCamera::VideoStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_TrackedCamera::VideoStream::*)(uint)>(&GlobalNamespace::SteamVR_TrackedCamera::VideoStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_TrackedCamera::VideoStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera::VideoStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_TrackedCamera::VideoStream::*)(uint)>(&SteamVR_TrackedCamera::VideoStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_TrackedCamera::VideoStream::*)(uint)>(&GlobalNamespace::SteamVR_TrackedCamera::VideoStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_TrackedCamera::VideoStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera::VideoStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: SteamVR_TrackedCamera::VideoStream::get_deviceIndex
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStream::get_deviceIndex
 // Il2CppName: get_deviceIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (SteamVR_TrackedCamera::VideoStream::*)()>(&SteamVR_TrackedCamera::VideoStream::get_deviceIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (GlobalNamespace::SteamVR_TrackedCamera::VideoStream::*)()>(&GlobalNamespace::SteamVR_TrackedCamera::VideoStream::get_deviceIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_TrackedCamera::VideoStream*), "get_deviceIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera::VideoStream*), "get_deviceIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SteamVR_TrackedCamera::VideoStream::set_deviceIndex
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStream::set_deviceIndex
 // Il2CppName: set_deviceIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_TrackedCamera::VideoStream::*)(uint)>(&SteamVR_TrackedCamera::VideoStream::set_deviceIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_TrackedCamera::VideoStream::*)(uint)>(&GlobalNamespace::SteamVR_TrackedCamera::VideoStream::set_deviceIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_TrackedCamera::VideoStream*), "set_deviceIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera::VideoStream*), "set_deviceIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: SteamVR_TrackedCamera::VideoStream::get_handle
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStream::get_handle
 // Il2CppName: get_handle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (SteamVR_TrackedCamera::VideoStream::*)()>(&SteamVR_TrackedCamera::VideoStream::get_handle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (GlobalNamespace::SteamVR_TrackedCamera::VideoStream::*)()>(&GlobalNamespace::SteamVR_TrackedCamera::VideoStream::get_handle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_TrackedCamera::VideoStream*), "get_handle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera::VideoStream*), "get_handle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SteamVR_TrackedCamera::VideoStream::get_hasCamera
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStream::get_hasCamera
 // Il2CppName: get_hasCamera
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SteamVR_TrackedCamera::VideoStream::*)()>(&SteamVR_TrackedCamera::VideoStream::get_hasCamera)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_TrackedCamera::VideoStream::*)()>(&GlobalNamespace::SteamVR_TrackedCamera::VideoStream::get_hasCamera)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_TrackedCamera::VideoStream*), "get_hasCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera::VideoStream*), "get_hasCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SteamVR_TrackedCamera::VideoStream::Acquire
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStream::Acquire
 // Il2CppName: Acquire
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (SteamVR_TrackedCamera::VideoStream::*)()>(&SteamVR_TrackedCamera::VideoStream::Acquire)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (GlobalNamespace::SteamVR_TrackedCamera::VideoStream::*)()>(&GlobalNamespace::SteamVR_TrackedCamera::VideoStream::Acquire)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_TrackedCamera::VideoStream*), "Acquire", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera::VideoStream*), "Acquire", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SteamVR_TrackedCamera::VideoStream::Release
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedCamera::VideoStream::Release
 // Il2CppName: Release
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (SteamVR_TrackedCamera::VideoStream::*)()>(&SteamVR_TrackedCamera::VideoStream::Release)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (GlobalNamespace::SteamVR_TrackedCamera::VideoStream::*)()>(&GlobalNamespace::SteamVR_TrackedCamera::VideoStream::Release)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_TrackedCamera::VideoStream*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera::VideoStream*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

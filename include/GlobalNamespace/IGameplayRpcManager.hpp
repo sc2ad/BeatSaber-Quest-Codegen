@@ -171,307 +171,307 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IGameplayRpcManager*, "", "IGameplayRpcManager");
-// Writing MetadataGetter for method: IGameplayRpcManager::get_enabled
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::get_enabled
 // Il2CppName: get_enabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IGameplayRpcManager::*)()>(&IGameplayRpcManager::get_enabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::IGameplayRpcManager::*)()>(&GlobalNamespace::IGameplayRpcManager::get_enabled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "get_enabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "get_enabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::set_enabled
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::set_enabled
 // Il2CppName: set_enabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)(bool)>(&IGameplayRpcManager::set_enabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(bool)>(&GlobalNamespace::IGameplayRpcManager::set_enabled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "set_enabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "set_enabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::add_setGameplaySceneSyncFinishedEvent
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::add_setGameplaySceneSyncFinishedEvent
 // Il2CppName: add_setGameplaySceneSyncFinishedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)(System::Action_3<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*>*)>(&IGameplayRpcManager::add_setGameplaySceneSyncFinishedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(System::Action_3<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*>*)>(&GlobalNamespace::IGameplayRpcManager::add_setGameplaySceneSyncFinishedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "add_setGameplaySceneSyncFinishedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "add_setGameplaySceneSyncFinishedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::remove_setGameplaySceneSyncFinishedEvent
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::remove_setGameplaySceneSyncFinishedEvent
 // Il2CppName: remove_setGameplaySceneSyncFinishedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)(System::Action_3<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*>*)>(&IGameplayRpcManager::remove_setGameplaySceneSyncFinishedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(System::Action_3<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*>*)>(&GlobalNamespace::IGameplayRpcManager::remove_setGameplaySceneSyncFinishedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "remove_setGameplaySceneSyncFinishedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "remove_setGameplaySceneSyncFinishedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::add_setGameplaySceneReadyEvent
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::add_setGameplaySceneReadyEvent
 // Il2CppName: add_setGameplaySceneReadyEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsNetSerializable*>*)>(&IGameplayRpcManager::add_setGameplaySceneReadyEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsNetSerializable*>*)>(&GlobalNamespace::IGameplayRpcManager::add_setGameplaySceneReadyEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "add_setGameplaySceneReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsNetSerializable*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "add_setGameplaySceneReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsNetSerializable*>*>()});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::remove_setGameplaySceneReadyEvent
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::remove_setGameplaySceneReadyEvent
 // Il2CppName: remove_setGameplaySceneReadyEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsNetSerializable*>*)>(&IGameplayRpcManager::remove_setGameplaySceneReadyEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsNetSerializable*>*)>(&GlobalNamespace::IGameplayRpcManager::remove_setGameplaySceneReadyEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "remove_setGameplaySceneReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsNetSerializable*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "remove_setGameplaySceneReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsNetSerializable*>*>()});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::add_getGameplaySceneReadyEvent
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::add_getGameplaySceneReadyEvent
 // Il2CppName: add_getGameplaySceneReadyEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&IGameplayRpcManager::add_getGameplaySceneReadyEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IGameplayRpcManager::add_getGameplaySceneReadyEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "add_getGameplaySceneReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "add_getGameplaySceneReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::remove_getGameplaySceneReadyEvent
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::remove_getGameplaySceneReadyEvent
 // Il2CppName: remove_getGameplaySceneReadyEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&IGameplayRpcManager::remove_getGameplaySceneReadyEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IGameplayRpcManager::remove_getGameplaySceneReadyEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "remove_getGameplaySceneReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "remove_getGameplaySceneReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::add_setPlayerDidConnectLateEvent
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::add_setPlayerDidConnectLateEvent
 // Il2CppName: add_setPlayerDidConnectLateEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)(System::Action_4<::Il2CppString*, ::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*>*)>(&IGameplayRpcManager::add_setPlayerDidConnectLateEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(System::Action_4<::Il2CppString*, ::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*>*)>(&GlobalNamespace::IGameplayRpcManager::add_setPlayerDidConnectLateEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "add_setPlayerDidConnectLateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_4<::Il2CppString*, ::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "add_setPlayerDidConnectLateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_4<::Il2CppString*, ::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::remove_setPlayerDidConnectLateEvent
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::remove_setPlayerDidConnectLateEvent
 // Il2CppName: remove_setPlayerDidConnectLateEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)(System::Action_4<::Il2CppString*, ::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*>*)>(&IGameplayRpcManager::remove_setPlayerDidConnectLateEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(System::Action_4<::Il2CppString*, ::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*>*)>(&GlobalNamespace::IGameplayRpcManager::remove_setPlayerDidConnectLateEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "remove_setPlayerDidConnectLateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_4<::Il2CppString*, ::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "remove_setPlayerDidConnectLateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_4<::Il2CppString*, ::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::add_setGameplaySongReadyEvent
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::add_setGameplaySongReadyEvent
 // Il2CppName: add_setGameplaySongReadyEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&IGameplayRpcManager::add_setGameplaySongReadyEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IGameplayRpcManager::add_setGameplaySongReadyEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "add_setGameplaySongReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "add_setGameplaySongReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::remove_setGameplaySongReadyEvent
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::remove_setGameplaySongReadyEvent
 // Il2CppName: remove_setGameplaySongReadyEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&IGameplayRpcManager::remove_setGameplaySongReadyEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IGameplayRpcManager::remove_setGameplaySongReadyEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "remove_setGameplaySongReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "remove_setGameplaySongReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::add_getGameplaySongReadyEvent
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::add_getGameplaySongReadyEvent
 // Il2CppName: add_getGameplaySongReadyEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&IGameplayRpcManager::add_getGameplaySongReadyEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IGameplayRpcManager::add_getGameplaySongReadyEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "add_getGameplaySongReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "add_getGameplaySongReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::remove_getGameplaySongReadyEvent
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::remove_getGameplaySongReadyEvent
 // Il2CppName: remove_getGameplaySongReadyEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&IGameplayRpcManager::remove_getGameplaySongReadyEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IGameplayRpcManager::remove_getGameplaySongReadyEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "remove_getGameplaySongReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "remove_getGameplaySongReadyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::add_setSongStartTimeEvent
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::add_setSongStartTimeEvent
 // Il2CppName: add_setSongStartTimeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)(System::Action_2<::Il2CppString*, float>*)>(&IGameplayRpcManager::add_setSongStartTimeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(System::Action_2<::Il2CppString*, float>*)>(&GlobalNamespace::IGameplayRpcManager::add_setSongStartTimeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "add_setSongStartTimeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "add_setSongStartTimeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, float>*>()});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::remove_setSongStartTimeEvent
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::remove_setSongStartTimeEvent
 // Il2CppName: remove_setSongStartTimeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)(System::Action_2<::Il2CppString*, float>*)>(&IGameplayRpcManager::remove_setSongStartTimeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(System::Action_2<::Il2CppString*, float>*)>(&GlobalNamespace::IGameplayRpcManager::remove_setSongStartTimeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "remove_setSongStartTimeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "remove_setSongStartTimeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, float>*>()});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::add_returnToMenuEvent
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::add_returnToMenuEvent
 // Il2CppName: add_returnToMenuEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&IGameplayRpcManager::add_returnToMenuEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IGameplayRpcManager::add_returnToMenuEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "add_returnToMenuEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "add_returnToMenuEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::remove_returnToMenuEvent
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::remove_returnToMenuEvent
 // Il2CppName: remove_returnToMenuEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&IGameplayRpcManager::remove_returnToMenuEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IGameplayRpcManager::remove_returnToMenuEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "remove_returnToMenuEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "remove_returnToMenuEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::add_levelEndedEarlyEvent
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::add_levelEndedEarlyEvent
 // Il2CppName: add_levelEndedEarlyEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&IGameplayRpcManager::add_levelEndedEarlyEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IGameplayRpcManager::add_levelEndedEarlyEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "add_levelEndedEarlyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "add_levelEndedEarlyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::remove_levelEndedEarlyEvent
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::remove_levelEndedEarlyEvent
 // Il2CppName: remove_levelEndedEarlyEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&IGameplayRpcManager::remove_levelEndedEarlyEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::IGameplayRpcManager::remove_levelEndedEarlyEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "remove_levelEndedEarlyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "remove_levelEndedEarlyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::add_levelFinishedEvent
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::add_levelFinishedEvent
 // Il2CppName: add_levelFinishedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*)>(&IGameplayRpcManager::add_levelFinishedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*)>(&GlobalNamespace::IGameplayRpcManager::add_levelFinishedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "add_levelFinishedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "add_levelFinishedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*>()});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::remove_levelFinishedEvent
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::remove_levelFinishedEvent
 // Il2CppName: remove_levelFinishedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*)>(&IGameplayRpcManager::remove_levelFinishedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*)>(&GlobalNamespace::IGameplayRpcManager::remove_levelFinishedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "remove_levelFinishedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "remove_levelFinishedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*>()});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::add_noteWasCutEvent
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::add_noteWasCutEvent
 // Il2CppName: add_noteWasCutEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)(System::Action_4<::Il2CppString*, float, float, GlobalNamespace::NoteCutInfoNetSerializable*>*)>(&IGameplayRpcManager::add_noteWasCutEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(System::Action_4<::Il2CppString*, float, float, GlobalNamespace::NoteCutInfoNetSerializable*>*)>(&GlobalNamespace::IGameplayRpcManager::add_noteWasCutEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "add_noteWasCutEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_4<::Il2CppString*, float, float, GlobalNamespace::NoteCutInfoNetSerializable*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "add_noteWasCutEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_4<::Il2CppString*, float, float, GlobalNamespace::NoteCutInfoNetSerializable*>*>()});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::remove_noteWasCutEvent
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::remove_noteWasCutEvent
 // Il2CppName: remove_noteWasCutEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)(System::Action_4<::Il2CppString*, float, float, GlobalNamespace::NoteCutInfoNetSerializable*>*)>(&IGameplayRpcManager::remove_noteWasCutEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(System::Action_4<::Il2CppString*, float, float, GlobalNamespace::NoteCutInfoNetSerializable*>*)>(&GlobalNamespace::IGameplayRpcManager::remove_noteWasCutEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "remove_noteWasCutEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_4<::Il2CppString*, float, float, GlobalNamespace::NoteCutInfoNetSerializable*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "remove_noteWasCutEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_4<::Il2CppString*, float, float, GlobalNamespace::NoteCutInfoNetSerializable*>*>()});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::add_noteWasMissedEvent
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::add_noteWasMissedEvent
 // Il2CppName: add_noteWasMissedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)(System::Action_4<::Il2CppString*, float, float, GlobalNamespace::NoteMissInfoNetSerializable*>*)>(&IGameplayRpcManager::add_noteWasMissedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(System::Action_4<::Il2CppString*, float, float, GlobalNamespace::NoteMissInfoNetSerializable*>*)>(&GlobalNamespace::IGameplayRpcManager::add_noteWasMissedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "add_noteWasMissedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_4<::Il2CppString*, float, float, GlobalNamespace::NoteMissInfoNetSerializable*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "add_noteWasMissedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_4<::Il2CppString*, float, float, GlobalNamespace::NoteMissInfoNetSerializable*>*>()});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::remove_noteWasMissedEvent
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::remove_noteWasMissedEvent
 // Il2CppName: remove_noteWasMissedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)(System::Action_4<::Il2CppString*, float, float, GlobalNamespace::NoteMissInfoNetSerializable*>*)>(&IGameplayRpcManager::remove_noteWasMissedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(System::Action_4<::Il2CppString*, float, float, GlobalNamespace::NoteMissInfoNetSerializable*>*)>(&GlobalNamespace::IGameplayRpcManager::remove_noteWasMissedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "remove_noteWasMissedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_4<::Il2CppString*, float, float, GlobalNamespace::NoteMissInfoNetSerializable*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "remove_noteWasMissedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_4<::Il2CppString*, float, float, GlobalNamespace::NoteMissInfoNetSerializable*>*>()});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::NoteMissed
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::NoteMissed
 // Il2CppName: NoteMissed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)(float, GlobalNamespace::NoteMissInfoNetSerializable*)>(&IGameplayRpcManager::NoteMissed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(float, GlobalNamespace::NoteMissInfoNetSerializable*)>(&GlobalNamespace::IGameplayRpcManager::NoteMissed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "NoteMissed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteMissInfoNetSerializable*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "NoteMissed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteMissInfoNetSerializable*>()});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::NoteCut
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::NoteCut
 // Il2CppName: NoteCut
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)(float, GlobalNamespace::NoteCutInfoNetSerializable*)>(&IGameplayRpcManager::NoteCut)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(float, GlobalNamespace::NoteCutInfoNetSerializable*)>(&GlobalNamespace::IGameplayRpcManager::NoteCut)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "NoteCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfoNetSerializable*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "NoteCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfoNetSerializable*>()});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::SetGameplaySceneSyncFinished
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::SetGameplaySceneSyncFinished
 // Il2CppName: SetGameplaySceneSyncFinished
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)(GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*)>(&IGameplayRpcManager::SetGameplaySceneSyncFinished)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*)>(&GlobalNamespace::IGameplayRpcManager::SetGameplaySceneSyncFinished)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "SetGameplaySceneSyncFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "SetGameplaySceneSyncFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::SetGameplaySceneReady
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::SetGameplaySceneReady
 // Il2CppName: SetGameplaySceneReady
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)(GlobalNamespace::PlayerSpecificSettingsNetSerializable*)>(&IGameplayRpcManager::SetGameplaySceneReady)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(GlobalNamespace::PlayerSpecificSettingsNetSerializable*)>(&GlobalNamespace::IGameplayRpcManager::SetGameplaySceneReady)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "SetGameplaySceneReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettingsNetSerializable*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "SetGameplaySceneReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettingsNetSerializable*>()});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::GetGameplaySceneReady
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::GetGameplaySceneReady
 // Il2CppName: GetGameplaySceneReady
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)()>(&IGameplayRpcManager::GetGameplaySceneReady)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)()>(&GlobalNamespace::IGameplayRpcManager::GetGameplaySceneReady)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "GetGameplaySceneReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "GetGameplaySceneReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::SetPlayerDidConnectLate
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::SetPlayerDidConnectLate
 // Il2CppName: SetPlayerDidConnectLate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)(::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*)>(&IGameplayRpcManager::SetPlayerDidConnectLate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*)>(&GlobalNamespace::IGameplayRpcManager::SetPlayerDidConnectLate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "SetPlayerDidConnectLate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "SetPlayerDidConnectLate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::SetSongStartTime
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::SetSongStartTime
 // Il2CppName: SetSongStartTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)(float)>(&IGameplayRpcManager::SetSongStartTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(float)>(&GlobalNamespace::IGameplayRpcManager::SetSongStartTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "SetSongStartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "SetSongStartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::SetGameplaySongReady
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::SetGameplaySongReady
 // Il2CppName: SetGameplaySongReady
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)()>(&IGameplayRpcManager::SetGameplaySongReady)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)()>(&GlobalNamespace::IGameplayRpcManager::SetGameplaySongReady)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "SetGameplaySongReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "SetGameplaySongReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::GetGameplaySongReady
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::GetGameplaySongReady
 // Il2CppName: GetGameplaySongReady
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)()>(&IGameplayRpcManager::GetGameplaySongReady)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)()>(&GlobalNamespace::IGameplayRpcManager::GetGameplaySongReady)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "GetGameplaySongReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "GetGameplaySongReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::ReturnToMenu
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::ReturnToMenu
 // Il2CppName: ReturnToMenu
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)()>(&IGameplayRpcManager::ReturnToMenu)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)()>(&GlobalNamespace::IGameplayRpcManager::ReturnToMenu)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "ReturnToMenu", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "ReturnToMenu", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::EndLevelEarly
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::EndLevelEarly
 // Il2CppName: EndLevelEarly
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)()>(&IGameplayRpcManager::EndLevelEarly)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)()>(&GlobalNamespace::IGameplayRpcManager::EndLevelEarly)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "EndLevelEarly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "EndLevelEarly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IGameplayRpcManager::LevelFinished
+// Writing MetadataGetter for method: GlobalNamespace::IGameplayRpcManager::LevelFinished
 // Il2CppName: LevelFinished
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGameplayRpcManager::*)(GlobalNamespace::MultiplayerLevelCompletionResults*)>(&IGameplayRpcManager::LevelFinished)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IGameplayRpcManager::*)(GlobalNamespace::MultiplayerLevelCompletionResults*)>(&GlobalNamespace::IGameplayRpcManager::LevelFinished)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGameplayRpcManager*), "LevelFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLevelCompletionResults*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IGameplayRpcManager*), "LevelFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLevelCompletionResults*>()});
   }
 };

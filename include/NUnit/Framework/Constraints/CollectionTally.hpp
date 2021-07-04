@@ -73,49 +73,49 @@ namespace NUnit::Framework::Constraints {
   static_assert(sizeof(CollectionTally) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::CollectionTally*, "NUnit.Framework.Constraints", "CollectionTally");
-// Writing MetadataGetter for method: CollectionTally::New_ctor
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::CollectionTally::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionTally::*)(NUnit::Framework::Constraints::NUnitEqualityComparer*, System::Collections::IEnumerable*)>(&CollectionTally::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::CollectionTally::*)(NUnit::Framework::Constraints::NUnitEqualityComparer*, System::Collections::IEnumerable*)>(&NUnit::Framework::Constraints::CollectionTally::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CollectionTally*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::NUnitEqualityComparer*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::CollectionTally*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::NUnitEqualityComparer*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CollectionTally::*)(NUnit::Framework::Constraints::NUnitEqualityComparer*, System::Collections::IEnumerable*)>(&CollectionTally::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::CollectionTally::*)(NUnit::Framework::Constraints::NUnitEqualityComparer*, System::Collections::IEnumerable*)>(&NUnit::Framework::Constraints::CollectionTally::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CollectionTally*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::NUnitEqualityComparer*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::CollectionTally*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::NUnitEqualityComparer*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>()});
   }
 };
-// Writing MetadataGetter for method: CollectionTally::get_Count
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::CollectionTally::get_Count
 // Il2CppName: get_Count
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CollectionTally::*)()>(&CollectionTally::get_Count)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NUnit::Framework::Constraints::CollectionTally::*)()>(&NUnit::Framework::Constraints::CollectionTally::get_Count)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CollectionTally*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::CollectionTally*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CollectionTally::ItemsEqual
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::CollectionTally::ItemsEqual
 // Il2CppName: ItemsEqual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CollectionTally::*)(::Il2CppObject*, ::Il2CppObject*)>(&CollectionTally::ItemsEqual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::CollectionTally::*)(::Il2CppObject*, ::Il2CppObject*)>(&NUnit::Framework::Constraints::CollectionTally::ItemsEqual)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CollectionTally*), "ItemsEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::CollectionTally*), "ItemsEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: CollectionTally::TryRemove
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::CollectionTally::TryRemove
 // Il2CppName: TryRemove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CollectionTally::*)(::Il2CppObject*)>(&CollectionTally::TryRemove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::CollectionTally::*)(::Il2CppObject*)>(&NUnit::Framework::Constraints::CollectionTally::TryRemove)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CollectionTally*), "TryRemove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::CollectionTally*), "TryRemove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: CollectionTally::TryRemove
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::CollectionTally::TryRemove
 // Il2CppName: TryRemove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CollectionTally::*)(System::Collections::IEnumerable*)>(&CollectionTally::TryRemove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::CollectionTally::*)(System::Collections::IEnumerable*)>(&NUnit::Framework::Constraints::CollectionTally::TryRemove)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CollectionTally*), "TryRemove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::CollectionTally*), "TryRemove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>()});
   }
 };

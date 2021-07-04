@@ -75,49 +75,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(SongPreviewPlayerPauseOnInputFocusLost) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost*, "", "SongPreviewPlayerPauseOnInputFocusLost");
-// Writing MetadataGetter for method: SongPreviewPlayerPauseOnInputFocusLost::Start
+// Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPreviewPlayerPauseOnInputFocusLost::*)()>(&SongPreviewPlayerPauseOnInputFocusLost::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::*)()>(&GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayerPauseOnInputFocusLost*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SongPreviewPlayerPauseOnInputFocusLost::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPreviewPlayerPauseOnInputFocusLost::*)()>(&SongPreviewPlayerPauseOnInputFocusLost::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::*)()>(&GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayerPauseOnInputFocusLost*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SongPreviewPlayerPauseOnInputFocusLost::HandleInputFocusCaptured
+// Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::HandleInputFocusCaptured
 // Il2CppName: HandleInputFocusCaptured
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPreviewPlayerPauseOnInputFocusLost::*)()>(&SongPreviewPlayerPauseOnInputFocusLost::HandleInputFocusCaptured)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::*)()>(&GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::HandleInputFocusCaptured)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayerPauseOnInputFocusLost*), "HandleInputFocusCaptured", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost*), "HandleInputFocusCaptured", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SongPreviewPlayerPauseOnInputFocusLost::HandleInputFocusReleased
+// Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::HandleInputFocusReleased
 // Il2CppName: HandleInputFocusReleased
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPreviewPlayerPauseOnInputFocusLost::*)()>(&SongPreviewPlayerPauseOnInputFocusLost::HandleInputFocusReleased)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::*)()>(&GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::HandleInputFocusReleased)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayerPauseOnInputFocusLost*), "HandleInputFocusReleased", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost*), "HandleInputFocusReleased", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SongPreviewPlayerPauseOnInputFocusLost::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPreviewPlayerPauseOnInputFocusLost::*)()>(&SongPreviewPlayerPauseOnInputFocusLost::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::*)()>(&GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayerPauseOnInputFocusLost*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPreviewPlayerPauseOnInputFocusLost::*)()>(&SongPreviewPlayerPauseOnInputFocusLost::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::*)()>(&GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayerPauseOnInputFocusLost*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -63,12 +63,12 @@ namespace ModestTree::Util {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::Util::ValuePair*, "ModestTree.Util", "ValuePair");
-// Writing MetadataGetter for method: ValuePair::New
+// Writing MetadataGetter for method: ModestTree::Util::ValuePair::New
 // Il2CppName: New
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ValuePair::New
+// Writing MetadataGetter for method: ModestTree::Util::ValuePair::New
 // Il2CppName: New
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ValuePair::New
+// Writing MetadataGetter for method: ModestTree::Util::ValuePair::New
 // Il2CppName: New
 // Cannot write MetadataGetter for generic methods!

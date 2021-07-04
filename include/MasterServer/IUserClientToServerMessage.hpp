@@ -33,19 +33,19 @@ namespace MasterServer {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::IUserClientToServerMessage*, "MasterServer", "IUserClientToServerMessage");
-// Writing MetadataGetter for method: IUserClientToServerMessage::get_userId
+// Writing MetadataGetter for method: MasterServer::IUserClientToServerMessage::get_userId
 // Il2CppName: get_userId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IUserClientToServerMessage::*)()>(&IUserClientToServerMessage::get_userId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MasterServer::IUserClientToServerMessage::*)()>(&MasterServer::IUserClientToServerMessage::get_userId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IUserClientToServerMessage*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::IUserClientToServerMessage*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IUserClientToServerMessage::get_userName
+// Writing MetadataGetter for method: MasterServer::IUserClientToServerMessage::get_userName
 // Il2CppName: get_userName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IUserClientToServerMessage::*)()>(&IUserClientToServerMessage::get_userName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MasterServer::IUserClientToServerMessage::*)()>(&MasterServer::IUserClientToServerMessage::get_userName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IUserClientToServerMessage*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::IUserClientToServerMessage*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -120,81 +120,81 @@ namespace GlobalNamespace {
   static_assert(sizeof(LightsAnimator) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightsAnimator*, "", "LightsAnimator");
-// Writing MetadataGetter for method: LightsAnimator::Awake
+// Writing MetadataGetter for method: GlobalNamespace::LightsAnimator::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightsAnimator::*)()>(&LightsAnimator::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightsAnimator::*)()>(&GlobalNamespace::LightsAnimator::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightsAnimator*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightsAnimator*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LightsAnimator::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::LightsAnimator::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightsAnimator::*)()>(&LightsAnimator::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightsAnimator::*)()>(&GlobalNamespace::LightsAnimator::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightsAnimator*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightsAnimator*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LightsAnimator::AnimateToColor
+// Writing MetadataGetter for method: GlobalNamespace::LightsAnimator::AnimateToColor
 // Il2CppName: AnimateToColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightsAnimator::*)(UnityEngine::Color, float, Tweening::EaseType)>(&LightsAnimator::AnimateToColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightsAnimator::*)(UnityEngine::Color, float, Tweening::EaseType)>(&GlobalNamespace::LightsAnimator::AnimateToColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightsAnimator*), "AnimateToColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<Tweening::EaseType>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightsAnimator*), "AnimateToColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<Tweening::EaseType>()});
   }
 };
-// Writing MetadataGetter for method: LightsAnimator::SetColor
+// Writing MetadataGetter for method: GlobalNamespace::LightsAnimator::SetColor
 // Il2CppName: SetColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightsAnimator::*)(UnityEngine::Color)>(&LightsAnimator::SetColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightsAnimator::*)(UnityEngine::Color)>(&GlobalNamespace::LightsAnimator::SetColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightsAnimator*), "SetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightsAnimator*), "SetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: LightsAnimator::SetLightsColor
+// Writing MetadataGetter for method: GlobalNamespace::LightsAnimator::SetLightsColor
 // Il2CppName: SetLightsColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightsAnimator::*)(UnityEngine::Color)>(&LightsAnimator::SetLightsColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightsAnimator::*)(UnityEngine::Color)>(&GlobalNamespace::LightsAnimator::SetLightsColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightsAnimator*), "SetLightsColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightsAnimator*), "SetLightsColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: LightsAnimator::SetLightsWidth
+// Writing MetadataGetter for method: GlobalNamespace::LightsAnimator::SetLightsWidth
 // Il2CppName: SetLightsWidth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightsAnimator::*)(float)>(&LightsAnimator::SetLightsWidth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightsAnimator::*)(float)>(&GlobalNamespace::LightsAnimator::SetLightsWidth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightsAnimator*), "SetLightsWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightsAnimator*), "SetLightsWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: LightsAnimator::DisableDirectionalLights
+// Writing MetadataGetter for method: GlobalNamespace::LightsAnimator::DisableDirectionalLights
 // Il2CppName: DisableDirectionalLights
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightsAnimator::*)(float)>(&LightsAnimator::DisableDirectionalLights)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightsAnimator::*)(float)>(&GlobalNamespace::LightsAnimator::DisableDirectionalLights)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightsAnimator*), "DisableDirectionalLights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightsAnimator*), "DisableDirectionalLights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: LightsAnimator::DisableDirectionalLightsCoroutine
+// Writing MetadataGetter for method: GlobalNamespace::LightsAnimator::DisableDirectionalLightsCoroutine
 // Il2CppName: DisableDirectionalLightsCoroutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (LightsAnimator::*)(float)>(&LightsAnimator::DisableDirectionalLightsCoroutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::LightsAnimator::*)(float)>(&GlobalNamespace::LightsAnimator::DisableDirectionalLightsCoroutine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightsAnimator*), "DisableDirectionalLightsCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightsAnimator*), "DisableDirectionalLightsCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: LightsAnimator::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::LightsAnimator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightsAnimator::*)()>(&LightsAnimator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightsAnimator::*)()>(&GlobalNamespace::LightsAnimator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightsAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightsAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightsAnimator::*)()>(&LightsAnimator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightsAnimator::*)()>(&GlobalNamespace::LightsAnimator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightsAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightsAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

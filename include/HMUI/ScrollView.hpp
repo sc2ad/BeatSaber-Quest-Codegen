@@ -474,257 +474,257 @@ DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView*, "HMUI", "ScrollView");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView::ScrollType, "HMUI", "ScrollView/ScrollType");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView::ScrollDirection, "HMUI", "ScrollView/ScrollDirection");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView::ScrollViewDirection, "HMUI", "ScrollView/ScrollViewDirection");
-// Writing MetadataGetter for method: ScrollView::add_scrollPositionChangedEvent
+// Writing MetadataGetter for method: HMUI::ScrollView::add_scrollPositionChangedEvent
 // Il2CppName: add_scrollPositionChangedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollView::*)(System::Action_1<float>*)>(&ScrollView::add_scrollPositionChangedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScrollView::*)(System::Action_1<float>*)>(&HMUI::ScrollView::add_scrollPositionChangedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollView*), "add_scrollPositionChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView*), "add_scrollPositionChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
   }
 };
-// Writing MetadataGetter for method: ScrollView::remove_scrollPositionChangedEvent
+// Writing MetadataGetter for method: HMUI::ScrollView::remove_scrollPositionChangedEvent
 // Il2CppName: remove_scrollPositionChangedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollView::*)(System::Action_1<float>*)>(&ScrollView::remove_scrollPositionChangedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScrollView::*)(System::Action_1<float>*)>(&HMUI::ScrollView::remove_scrollPositionChangedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollView*), "remove_scrollPositionChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView*), "remove_scrollPositionChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
   }
 };
-// Writing MetadataGetter for method: ScrollView::get_viewportTransform
+// Writing MetadataGetter for method: HMUI::ScrollView::get_viewportTransform
 // Il2CppName: get_viewportTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (ScrollView::*)()>(&ScrollView::get_viewportTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (HMUI::ScrollView::*)()>(&HMUI::ScrollView::get_viewportTransform)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollView*), "get_viewportTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView*), "get_viewportTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ScrollView::get_contentTransform
+// Writing MetadataGetter for method: HMUI::ScrollView::get_contentTransform
 // Il2CppName: get_contentTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (ScrollView::*)()>(&ScrollView::get_contentTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (HMUI::ScrollView::*)()>(&HMUI::ScrollView::get_contentTransform)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollView*), "get_contentTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView*), "get_contentTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ScrollView::get_position
+// Writing MetadataGetter for method: HMUI::ScrollView::get_position
 // Il2CppName: get_position
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (ScrollView::*)()>(&ScrollView::get_position)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::ScrollView::*)()>(&HMUI::ScrollView::get_position)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollView*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ScrollView::get_scrollableSize
+// Writing MetadataGetter for method: HMUI::ScrollView::get_scrollableSize
 // Il2CppName: get_scrollableSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (ScrollView::*)()>(&ScrollView::get_scrollableSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::ScrollView::*)()>(&HMUI::ScrollView::get_scrollableSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollView*), "get_scrollableSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView*), "get_scrollableSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ScrollView::get_scrollPageSize
+// Writing MetadataGetter for method: HMUI::ScrollView::get_scrollPageSize
 // Il2CppName: get_scrollPageSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (ScrollView::*)()>(&ScrollView::get_scrollPageSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::ScrollView::*)()>(&HMUI::ScrollView::get_scrollPageSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollView*), "get_scrollPageSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView*), "get_scrollPageSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ScrollView::get_contentSize
+// Writing MetadataGetter for method: HMUI::ScrollView::get_contentSize
 // Il2CppName: get_contentSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (ScrollView::*)()>(&ScrollView::get_contentSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::ScrollView::*)()>(&HMUI::ScrollView::get_contentSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollView*), "get_contentSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView*), "get_contentSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ScrollView::Awake
+// Writing MetadataGetter for method: HMUI::ScrollView::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollView::*)()>(&ScrollView::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScrollView::*)()>(&HMUI::ScrollView::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollView*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ScrollView::OnDestroy
+// Writing MetadataGetter for method: HMUI::ScrollView::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollView::*)()>(&ScrollView::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScrollView::*)()>(&HMUI::ScrollView::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollView*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ScrollView::Update
+// Writing MetadataGetter for method: HMUI::ScrollView::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollView::*)()>(&ScrollView::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScrollView::*)()>(&HMUI::ScrollView::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollView*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ScrollView::SetContentSize
+// Writing MetadataGetter for method: HMUI::ScrollView::SetContentSize
 // Il2CppName: SetContentSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollView::*)(float)>(&ScrollView::SetContentSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScrollView::*)(float)>(&HMUI::ScrollView::SetContentSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollView*), "SetContentSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView*), "SetContentSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: ScrollView::UpdateContentSize
+// Writing MetadataGetter for method: HMUI::ScrollView::UpdateContentSize
 // Il2CppName: UpdateContentSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollView::*)()>(&ScrollView::UpdateContentSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScrollView::*)()>(&HMUI::ScrollView::UpdateContentSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollView*), "UpdateContentSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView*), "UpdateContentSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ScrollView::ScrollToEnd
+// Writing MetadataGetter for method: HMUI::ScrollView::ScrollToEnd
 // Il2CppName: ScrollToEnd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollView::*)(bool)>(&ScrollView::ScrollToEnd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScrollView::*)(bool)>(&HMUI::ScrollView::ScrollToEnd)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollView*), "ScrollToEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView*), "ScrollToEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ScrollView::ScrollToWorldPosition
+// Writing MetadataGetter for method: HMUI::ScrollView::ScrollToWorldPosition
 // Il2CppName: ScrollToWorldPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollView::*)(UnityEngine::Vector3, float, bool)>(&ScrollView::ScrollToWorldPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScrollView::*)(UnityEngine::Vector3, float, bool)>(&HMUI::ScrollView::ScrollToWorldPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollView*), "ScrollToWorldPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView*), "ScrollToWorldPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ScrollView::ScrollToWorldPositionIfOutsideArea
+// Writing MetadataGetter for method: HMUI::ScrollView::ScrollToWorldPositionIfOutsideArea
 // Il2CppName: ScrollToWorldPositionIfOutsideArea
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollView::*)(UnityEngine::Vector3, float, float, float, bool)>(&ScrollView::ScrollToWorldPositionIfOutsideArea)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScrollView::*)(UnityEngine::Vector3, float, float, float, bool)>(&HMUI::ScrollView::ScrollToWorldPositionIfOutsideArea)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollView*), "ScrollToWorldPositionIfOutsideArea", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView*), "ScrollToWorldPositionIfOutsideArea", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ScrollView::ScrollTo
+// Writing MetadataGetter for method: HMUI::ScrollView::ScrollTo
 // Il2CppName: ScrollTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollView::*)(float, bool)>(&ScrollView::ScrollTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScrollView::*)(float, bool)>(&HMUI::ScrollView::ScrollTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollView*), "ScrollTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView*), "ScrollTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ScrollView::WorldPositionToScrollViewPosition
+// Writing MetadataGetter for method: HMUI::ScrollView::WorldPositionToScrollViewPosition
 // Il2CppName: WorldPositionToScrollViewPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (ScrollView::*)(UnityEngine::Vector3)>(&ScrollView::WorldPositionToScrollViewPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (HMUI::ScrollView::*)(UnityEngine::Vector3)>(&HMUI::ScrollView::WorldPositionToScrollViewPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollView*), "WorldPositionToScrollViewPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView*), "WorldPositionToScrollViewPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: ScrollView::SetDestinationPos
+// Writing MetadataGetter for method: HMUI::ScrollView::SetDestinationPos
 // Il2CppName: SetDestinationPos
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollView::*)(float)>(&ScrollView::SetDestinationPos)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScrollView::*)(float)>(&HMUI::ScrollView::SetDestinationPos)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollView*), "SetDestinationPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView*), "SetDestinationPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: ScrollView::UpdateVerticalScrollIndicator
+// Writing MetadataGetter for method: HMUI::ScrollView::UpdateVerticalScrollIndicator
 // Il2CppName: UpdateVerticalScrollIndicator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollView::*)(float)>(&ScrollView::UpdateVerticalScrollIndicator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScrollView::*)(float)>(&HMUI::ScrollView::UpdateVerticalScrollIndicator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollView*), "UpdateVerticalScrollIndicator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView*), "UpdateVerticalScrollIndicator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: ScrollView::PageUpButtonPressed
+// Writing MetadataGetter for method: HMUI::ScrollView::PageUpButtonPressed
 // Il2CppName: PageUpButtonPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollView::*)()>(&ScrollView::PageUpButtonPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScrollView::*)()>(&HMUI::ScrollView::PageUpButtonPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollView*), "PageUpButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView*), "PageUpButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ScrollView::PageDownButtonPressed
+// Writing MetadataGetter for method: HMUI::ScrollView::PageDownButtonPressed
 // Il2CppName: PageDownButtonPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollView::*)()>(&ScrollView::PageDownButtonPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScrollView::*)()>(&HMUI::ScrollView::PageDownButtonPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollView*), "PageDownButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView*), "PageDownButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ScrollView::RefreshButtons
+// Writing MetadataGetter for method: HMUI::ScrollView::RefreshButtons
 // Il2CppName: RefreshButtons
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollView::*)()>(&ScrollView::RefreshButtons)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScrollView::*)()>(&HMUI::ScrollView::RefreshButtons)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollView*), "RefreshButtons", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView*), "RefreshButtons", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ScrollView::HandlePointerDidEnter
+// Writing MetadataGetter for method: HMUI::ScrollView::HandlePointerDidEnter
 // Il2CppName: HandlePointerDidEnter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollView::*)(UnityEngine::EventSystems::PointerEventData*)>(&ScrollView::HandlePointerDidEnter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScrollView::*)(UnityEngine::EventSystems::PointerEventData*)>(&HMUI::ScrollView::HandlePointerDidEnter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollView*), "HandlePointerDidEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView*), "HandlePointerDidEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: ScrollView::HandlePointerDidExit
+// Writing MetadataGetter for method: HMUI::ScrollView::HandlePointerDidExit
 // Il2CppName: HandlePointerDidExit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollView::*)(UnityEngine::EventSystems::PointerEventData*)>(&ScrollView::HandlePointerDidExit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScrollView::*)(UnityEngine::EventSystems::PointerEventData*)>(&HMUI::ScrollView::HandlePointerDidExit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollView*), "HandlePointerDidExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView*), "HandlePointerDidExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: ScrollView::HandleJoystickWasNotCenteredThisFrame
+// Writing MetadataGetter for method: HMUI::ScrollView::HandleJoystickWasNotCenteredThisFrame
 // Il2CppName: HandleJoystickWasNotCenteredThisFrame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollView::*)(UnityEngine::Vector2)>(&ScrollView::HandleJoystickWasNotCenteredThisFrame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScrollView::*)(UnityEngine::Vector2)>(&HMUI::ScrollView::HandleJoystickWasNotCenteredThisFrame)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollView*), "HandleJoystickWasNotCenteredThisFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView*), "HandleJoystickWasNotCenteredThisFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
   }
 };
-// Writing MetadataGetter for method: ScrollView::HandleJoystickWasCenteredThisFrame
+// Writing MetadataGetter for method: HMUI::ScrollView::HandleJoystickWasCenteredThisFrame
 // Il2CppName: HandleJoystickWasCenteredThisFrame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollView::*)()>(&ScrollView::HandleJoystickWasCenteredThisFrame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScrollView::*)()>(&HMUI::ScrollView::HandleJoystickWasCenteredThisFrame)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollView*), "HandleJoystickWasCenteredThisFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView*), "HandleJoystickWasCenteredThisFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ScrollView::ResolveScrollDirection
+// Writing MetadataGetter for method: HMUI::ScrollView::ResolveScrollDirection
 // Il2CppName: ResolveScrollDirection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ScrollView::ScrollDirection (ScrollView::*)(UnityEngine::Vector2)>(&ScrollView::ResolveScrollDirection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ScrollView::ScrollDirection (HMUI::ScrollView::*)(UnityEngine::Vector2)>(&HMUI::ScrollView::ResolveScrollDirection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollView*), "ResolveScrollDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView*), "ResolveScrollDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
   }
 };
-// Writing MetadataGetter for method: ScrollView::$Awake$b__38_0
+// Writing MetadataGetter for method: HMUI::ScrollView::$Awake$b__38_0
 // Il2CppName: <Awake>b__38_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (ScrollView::*)(HMUI::ItemForFocussedScrolling*)>(&ScrollView::$Awake$b__38_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::ScrollView::*)(HMUI::ItemForFocussedScrolling*)>(&HMUI::ScrollView::$Awake$b__38_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollView*), "<Awake>b__38_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ItemForFocussedScrolling*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView*), "<Awake>b__38_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ItemForFocussedScrolling*>()});
   }
 };
-// Writing MetadataGetter for method: ScrollView::$Awake$b__38_2
+// Writing MetadataGetter for method: HMUI::ScrollView::$Awake$b__38_2
 // Il2CppName: <Awake>b__38_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (ScrollView::*)(HMUI::ItemForFocussedScrolling*)>(&ScrollView::$Awake$b__38_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::ScrollView::*)(HMUI::ItemForFocussedScrolling*)>(&HMUI::ScrollView::$Awake$b__38_2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollView*), "<Awake>b__38_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ItemForFocussedScrolling*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView*), "<Awake>b__38_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ItemForFocussedScrolling*>()});
   }
 };
-// Writing MetadataGetter for method: ScrollView::New_ctor
+// Writing MetadataGetter for method: HMUI::ScrollView::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollView::*)()>(&ScrollView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScrollView::*)()>(&HMUI::ScrollView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollView::*)()>(&ScrollView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScrollView::*)()>(&HMUI::ScrollView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

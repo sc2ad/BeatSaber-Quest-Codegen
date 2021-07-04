@@ -36,19 +36,19 @@ namespace NUnit::Framework::Interfaces {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ISuiteBuilder*, "NUnit.Framework.Interfaces", "ISuiteBuilder");
-// Writing MetadataGetter for method: ISuiteBuilder::CanBuildFrom
+// Writing MetadataGetter for method: NUnit::Framework::Interfaces::ISuiteBuilder::CanBuildFrom
 // Il2CppName: CanBuildFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ISuiteBuilder::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&ISuiteBuilder::CanBuildFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Interfaces::ISuiteBuilder::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&NUnit::Framework::Interfaces::ISuiteBuilder::CanBuildFrom)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ISuiteBuilder*), "CanBuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITypeInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ISuiteBuilder*), "CanBuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITypeInfo*>()});
   }
 };
-// Writing MetadataGetter for method: ISuiteBuilder::BuildFrom
+// Writing MetadataGetter for method: NUnit::Framework::Interfaces::ISuiteBuilder::BuildFrom
 // Il2CppName: BuildFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestSuite* (ISuiteBuilder::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&ISuiteBuilder::BuildFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestSuite* (NUnit::Framework::Interfaces::ISuiteBuilder::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&NUnit::Framework::Interfaces::ISuiteBuilder::BuildFrom)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ISuiteBuilder*), "BuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITypeInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ISuiteBuilder*), "BuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITypeInfo*>()});
   }
 };

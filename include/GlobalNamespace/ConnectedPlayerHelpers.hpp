@@ -45,51 +45,51 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerHelpers*, "", "ConnectedPlayerHelpers");
-// Writing MetadataGetter for method: ConnectedPlayerHelpers::WantsToPlayNextLevel
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerHelpers::WantsToPlayNextLevel
 // Il2CppName: WantsToPlayNextLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::IConnectedPlayer*)>(&ConnectedPlayerHelpers::WantsToPlayNextLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::ConnectedPlayerHelpers::WantsToPlayNextLevel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerHelpers*), "WantsToPlayNextLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerHelpers*), "WantsToPlayNextLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
   }
 };
-// Writing MetadataGetter for method: ConnectedPlayerHelpers::WasActiveAtLevelStart
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerHelpers::WasActiveAtLevelStart
 // Il2CppName: WasActiveAtLevelStart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::IConnectedPlayer*)>(&ConnectedPlayerHelpers::WasActiveAtLevelStart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::ConnectedPlayerHelpers::WasActiveAtLevelStart)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerHelpers*), "WasActiveAtLevelStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerHelpers*), "WasActiveAtLevelStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
   }
 };
-// Writing MetadataGetter for method: ConnectedPlayerHelpers::IsActive
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerHelpers::IsActive
 // Il2CppName: IsActive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::IConnectedPlayer*)>(&ConnectedPlayerHelpers::IsActive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::ConnectedPlayerHelpers::IsActive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerHelpers*), "IsActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerHelpers*), "IsActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
   }
 };
-// Writing MetadataGetter for method: ConnectedPlayerHelpers::HasFinishedLevel
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerHelpers::HasFinishedLevel
 // Il2CppName: HasFinishedLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::IConnectedPlayer*)>(&ConnectedPlayerHelpers::HasFinishedLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::ConnectedPlayerHelpers::HasFinishedLevel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerHelpers*), "HasFinishedLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerHelpers*), "HasFinishedLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
   }
 };
-// Writing MetadataGetter for method: ConnectedPlayerHelpers::IsActiveOrFinished
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerHelpers::IsActiveOrFinished
 // Il2CppName: IsActiveOrFinished
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::IConnectedPlayer*)>(&ConnectedPlayerHelpers::IsActiveOrFinished)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::ConnectedPlayerHelpers::IsActiveOrFinished)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerHelpers*), "IsActiveOrFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerHelpers*), "IsActiveOrFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
   }
 };
-// Writing MetadataGetter for method: ConnectedPlayerHelpers::IsFailed
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerHelpers::IsFailed
 // Il2CppName: IsFailed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::IConnectedPlayer*)>(&ConnectedPlayerHelpers::IsFailed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::ConnectedPlayerHelpers::IsFailed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerHelpers*), "IsFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerHelpers*), "IsFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
   }
 };

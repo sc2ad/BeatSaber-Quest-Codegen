@@ -132,65 +132,65 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HowToPlayViewController*, "", "HowToPlayViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HowToPlayViewController::HowToPlayOptions, "", "HowToPlayViewController/HowToPlayOptions");
-// Writing MetadataGetter for method: HowToPlayViewController::add_didFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::HowToPlayViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HowToPlayViewController::*)(System::Action_1<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>*)>(&HowToPlayViewController::add_didFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HowToPlayViewController::*)(System::Action_1<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>*)>(&GlobalNamespace::HowToPlayViewController::add_didFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HowToPlayViewController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HowToPlayViewController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>*>()});
   }
 };
-// Writing MetadataGetter for method: HowToPlayViewController::remove_didFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::HowToPlayViewController::remove_didFinishEvent
 // Il2CppName: remove_didFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HowToPlayViewController::*)(System::Action_1<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>*)>(&HowToPlayViewController::remove_didFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HowToPlayViewController::*)(System::Action_1<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>*)>(&GlobalNamespace::HowToPlayViewController::remove_didFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HowToPlayViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HowToPlayViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>*>()});
   }
 };
-// Writing MetadataGetter for method: HowToPlayViewController::Setup
+// Writing MetadataGetter for method: GlobalNamespace::HowToPlayViewController::Setup
 // Il2CppName: Setup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HowToPlayViewController::*)(bool)>(&HowToPlayViewController::Setup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HowToPlayViewController::*)(bool)>(&GlobalNamespace::HowToPlayViewController::Setup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HowToPlayViewController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HowToPlayViewController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: HowToPlayViewController::$DidActivate$b__7_0
+// Writing MetadataGetter for method: GlobalNamespace::HowToPlayViewController::$DidActivate$b__7_0
 // Il2CppName: <DidActivate>b__7_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HowToPlayViewController::*)()>(&HowToPlayViewController::$DidActivate$b__7_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HowToPlayViewController::*)()>(&GlobalNamespace::HowToPlayViewController::$DidActivate$b__7_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HowToPlayViewController*), "<DidActivate>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HowToPlayViewController*), "<DidActivate>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HowToPlayViewController::$DidActivate$b__7_1
+// Writing MetadataGetter for method: GlobalNamespace::HowToPlayViewController::$DidActivate$b__7_1
 // Il2CppName: <DidActivate>b__7_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HowToPlayViewController::*)()>(&HowToPlayViewController::$DidActivate$b__7_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HowToPlayViewController::*)()>(&GlobalNamespace::HowToPlayViewController::$DidActivate$b__7_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HowToPlayViewController*), "<DidActivate>b__7_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HowToPlayViewController*), "<DidActivate>b__7_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HowToPlayViewController::DidActivate
+// Writing MetadataGetter for method: GlobalNamespace::HowToPlayViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HowToPlayViewController::*)(bool, bool, bool)>(&HowToPlayViewController::DidActivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HowToPlayViewController::*)(bool, bool, bool)>(&GlobalNamespace::HowToPlayViewController::DidActivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HowToPlayViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HowToPlayViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: HowToPlayViewController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::HowToPlayViewController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HowToPlayViewController::*)()>(&HowToPlayViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HowToPlayViewController::*)()>(&GlobalNamespace::HowToPlayViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HowToPlayViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HowToPlayViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HowToPlayViewController::*)()>(&HowToPlayViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HowToPlayViewController::*)()>(&GlobalNamespace::HowToPlayViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HowToPlayViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HowToPlayViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

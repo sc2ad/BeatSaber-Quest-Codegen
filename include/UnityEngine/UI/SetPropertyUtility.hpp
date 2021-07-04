@@ -56,17 +56,17 @@ namespace UnityEngine::UI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::SetPropertyUtility*, "UnityEngine.UI", "SetPropertyUtility");
-// Writing MetadataGetter for method: SetPropertyUtility::SetColor
+// Writing MetadataGetter for method: UnityEngine::UI::SetPropertyUtility::SetColor
 // Il2CppName: SetColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Color&, UnityEngine::Color)>(&SetPropertyUtility::SetColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Color&, UnityEngine::Color)>(&UnityEngine::UI::SetPropertyUtility::SetColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SetPropertyUtility*), "SetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::SetPropertyUtility*), "SetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: SetPropertyUtility::SetStruct
+// Writing MetadataGetter for method: UnityEngine::UI::SetPropertyUtility::SetStruct
 // Il2CppName: SetStruct
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: SetPropertyUtility::SetClass
+// Writing MetadataGetter for method: UnityEngine::UI::SetPropertyUtility::SetClass
 // Il2CppName: SetClass
 // Cannot write MetadataGetter for generic methods!

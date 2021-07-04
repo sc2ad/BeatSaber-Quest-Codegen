@@ -114,143 +114,143 @@ namespace Org::BouncyCastle::Crypto::Digests {
   static_assert(sizeof(GeneralDigest) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::GeneralDigest*, "Org.BouncyCastle.Crypto.Digests", "GeneralDigest");
-// Writing MetadataGetter for method: GeneralDigest::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::GeneralDigest::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GeneralDigest::*)(Org::BouncyCastle::Crypto::Digests::GeneralDigest*)>(&GeneralDigest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::GeneralDigest::*)(Org::BouncyCastle::Crypto::Digests::GeneralDigest*)>(&Org::BouncyCastle::Crypto::Digests::GeneralDigest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneralDigest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Digests::GeneralDigest*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::GeneralDigest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Digests::GeneralDigest*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GeneralDigest::*)(Org::BouncyCastle::Crypto::Digests::GeneralDigest*)>(&GeneralDigest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::GeneralDigest::*)(Org::BouncyCastle::Crypto::Digests::GeneralDigest*)>(&Org::BouncyCastle::Crypto::Digests::GeneralDigest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneralDigest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Digests::GeneralDigest*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::GeneralDigest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Digests::GeneralDigest*>()});
   }
 };
-// Writing MetadataGetter for method: GeneralDigest::CopyIn
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::GeneralDigest::CopyIn
 // Il2CppName: CopyIn
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GeneralDigest::*)(Org::BouncyCastle::Crypto::Digests::GeneralDigest*)>(&GeneralDigest::CopyIn)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::GeneralDigest::*)(Org::BouncyCastle::Crypto::Digests::GeneralDigest*)>(&Org::BouncyCastle::Crypto::Digests::GeneralDigest::CopyIn)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneralDigest*), "CopyIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Digests::GeneralDigest*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::GeneralDigest*), "CopyIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Digests::GeneralDigest*>()});
   }
 };
-// Writing MetadataGetter for method: GeneralDigest::Update
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::GeneralDigest::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GeneralDigest::*)(uint8_t)>(&GeneralDigest::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::GeneralDigest::*)(uint8_t)>(&Org::BouncyCastle::Crypto::Digests::GeneralDigest::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneralDigest*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::GeneralDigest*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
   }
 };
-// Writing MetadataGetter for method: GeneralDigest::BlockUpdate
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::GeneralDigest::BlockUpdate
 // Il2CppName: BlockUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GeneralDigest::*)(::Array<uint8_t>*, int, int)>(&GeneralDigest::BlockUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::GeneralDigest::*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Crypto::Digests::GeneralDigest::BlockUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneralDigest*), "BlockUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::GeneralDigest*), "BlockUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: GeneralDigest::Finish
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::GeneralDigest::Finish
 // Il2CppName: Finish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GeneralDigest::*)()>(&GeneralDigest::Finish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::GeneralDigest::*)()>(&Org::BouncyCastle::Crypto::Digests::GeneralDigest::Finish)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneralDigest*), "Finish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::GeneralDigest*), "Finish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GeneralDigest::Reset
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::GeneralDigest::Reset
 // Il2CppName: Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GeneralDigest::*)()>(&GeneralDigest::Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::GeneralDigest::*)()>(&Org::BouncyCastle::Crypto::Digests::GeneralDigest::Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneralDigest*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::GeneralDigest*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GeneralDigest::GetByteLength
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::GeneralDigest::GetByteLength
 // Il2CppName: GetByteLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GeneralDigest::*)()>(&GeneralDigest::GetByteLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::GeneralDigest::*)()>(&Org::BouncyCastle::Crypto::Digests::GeneralDigest::GetByteLength)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneralDigest*), "GetByteLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::GeneralDigest*), "GetByteLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GeneralDigest::ProcessWord
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::GeneralDigest::ProcessWord
 // Il2CppName: ProcessWord
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GeneralDigest::*)(::Array<uint8_t>*, int)>(&GeneralDigest::ProcessWord)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::GeneralDigest::*)(::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Digests::GeneralDigest::ProcessWord)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneralDigest*), "ProcessWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::GeneralDigest*), "ProcessWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: GeneralDigest::ProcessLength
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::GeneralDigest::ProcessLength
 // Il2CppName: ProcessLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GeneralDigest::*)(int64_t)>(&GeneralDigest::ProcessLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::GeneralDigest::*)(int64_t)>(&Org::BouncyCastle::Crypto::Digests::GeneralDigest::ProcessLength)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneralDigest*), "ProcessLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::GeneralDigest*), "ProcessLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
   }
 };
-// Writing MetadataGetter for method: GeneralDigest::ProcessBlock
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::GeneralDigest::ProcessBlock
 // Il2CppName: ProcessBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GeneralDigest::*)()>(&GeneralDigest::ProcessBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::GeneralDigest::*)()>(&Org::BouncyCastle::Crypto::Digests::GeneralDigest::ProcessBlock)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneralDigest*), "ProcessBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::GeneralDigest*), "ProcessBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GeneralDigest::get_AlgorithmName
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::GeneralDigest::get_AlgorithmName
 // Il2CppName: get_AlgorithmName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GeneralDigest::*)()>(&GeneralDigest::get_AlgorithmName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Crypto::Digests::GeneralDigest::*)()>(&Org::BouncyCastle::Crypto::Digests::GeneralDigest::get_AlgorithmName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneralDigest*), "get_AlgorithmName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::GeneralDigest*), "get_AlgorithmName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GeneralDigest::GetDigestSize
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::GeneralDigest::GetDigestSize
 // Il2CppName: GetDigestSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GeneralDigest::*)()>(&GeneralDigest::GetDigestSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::GeneralDigest::*)()>(&Org::BouncyCastle::Crypto::Digests::GeneralDigest::GetDigestSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneralDigest*), "GetDigestSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::GeneralDigest*), "GetDigestSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GeneralDigest::DoFinal
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::GeneralDigest::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GeneralDigest::*)(::Array<uint8_t>*, int)>(&GeneralDigest::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::GeneralDigest::*)(::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Digests::GeneralDigest::DoFinal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneralDigest*), "DoFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::GeneralDigest*), "DoFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: GeneralDigest::Copy
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::GeneralDigest::Copy
 // Il2CppName: Copy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Utilities::IMemoable* (GeneralDigest::*)()>(&GeneralDigest::Copy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Utilities::IMemoable* (Org::BouncyCastle::Crypto::Digests::GeneralDigest::*)()>(&Org::BouncyCastle::Crypto::Digests::GeneralDigest::Copy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneralDigest*), "Copy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::GeneralDigest*), "Copy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GeneralDigest::Reset
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::GeneralDigest::Reset
 // Il2CppName: Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GeneralDigest::*)(Org::BouncyCastle::Utilities::IMemoable*)>(&GeneralDigest::Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::GeneralDigest::*)(Org::BouncyCastle::Utilities::IMemoable*)>(&Org::BouncyCastle::Crypto::Digests::GeneralDigest::Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneralDigest*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Utilities::IMemoable*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::GeneralDigest*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Utilities::IMemoable*>()});
   }
 };
-// Writing MetadataGetter for method: GeneralDigest::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::GeneralDigest::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GeneralDigest::*)()>(&GeneralDigest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::GeneralDigest::*)()>(&Org::BouncyCastle::Crypto::Digests::GeneralDigest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneralDigest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::GeneralDigest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GeneralDigest::*)()>(&GeneralDigest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::GeneralDigest::*)()>(&Org::BouncyCastle::Crypto::Digests::GeneralDigest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneralDigest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::GeneralDigest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

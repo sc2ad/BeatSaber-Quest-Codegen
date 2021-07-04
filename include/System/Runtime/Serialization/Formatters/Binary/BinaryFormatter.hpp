@@ -169,119 +169,119 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static_assert(sizeof(BinaryFormatter) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*, "System.Runtime.Serialization.Formatters.Binary", "BinaryFormatter");
-// Writing MetadataGetter for method: BinaryFormatter::set_AssemblyFormat
+// Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::set_AssemblyFormat
 // Il2CppName: set_AssemblyFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BinaryFormatter::*)(System::Runtime::Serialization::Formatters::FormatterAssemblyStyle)>(&BinaryFormatter::set_AssemblyFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::*)(System::Runtime::Serialization::Formatters::FormatterAssemblyStyle)>(&System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::set_AssemblyFormat)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryFormatter*), "set_AssemblyFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::FormatterAssemblyStyle>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*), "set_AssemblyFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::FormatterAssemblyStyle>()});
   }
 };
-// Writing MetadataGetter for method: BinaryFormatter::set_SurrogateSelector
+// Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::set_SurrogateSelector
 // Il2CppName: set_SurrogateSelector
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BinaryFormatter::*)(System::Runtime::Serialization::ISurrogateSelector*)>(&BinaryFormatter::set_SurrogateSelector)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::*)(System::Runtime::Serialization::ISurrogateSelector*)>(&System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::set_SurrogateSelector)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryFormatter*), "set_SurrogateSelector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::ISurrogateSelector*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*), "set_SurrogateSelector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::ISurrogateSelector*>()});
   }
 };
-// Writing MetadataGetter for method: BinaryFormatter::set_Binder
+// Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::set_Binder
 // Il2CppName: set_Binder
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BinaryFormatter::*)(System::Runtime::Serialization::SerializationBinder*)>(&BinaryFormatter::set_Binder)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::*)(System::Runtime::Serialization::SerializationBinder*)>(&System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::set_Binder)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryFormatter*), "set_Binder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationBinder*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*), "set_Binder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationBinder*>()});
   }
 };
-// Writing MetadataGetter for method: BinaryFormatter::New_ctor
+// Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BinaryFormatter::*)(System::Runtime::Serialization::ISurrogateSelector*, System::Runtime::Serialization::StreamingContext)>(&BinaryFormatter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::*)(System::Runtime::Serialization::ISurrogateSelector*, System::Runtime::Serialization::StreamingContext)>(&System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryFormatter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::ISurrogateSelector*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::ISurrogateSelector*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BinaryFormatter::*)(System::Runtime::Serialization::ISurrogateSelector*, System::Runtime::Serialization::StreamingContext)>(&BinaryFormatter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::*)(System::Runtime::Serialization::ISurrogateSelector*, System::Runtime::Serialization::StreamingContext)>(&System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryFormatter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::ISurrogateSelector*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::ISurrogateSelector*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
   }
 };
-// Writing MetadataGetter for method: BinaryFormatter::Deserialize
+// Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::Deserialize
 // Il2CppName: Deserialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (BinaryFormatter::*)(System::IO::Stream*)>(&BinaryFormatter::Deserialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::*)(System::IO::Stream*)>(&System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::Deserialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryFormatter*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
   }
 };
-// Writing MetadataGetter for method: BinaryFormatter::Deserialize
+// Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::Deserialize
 // Il2CppName: Deserialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (BinaryFormatter::*)(System::IO::Stream*, System::Runtime::Remoting::Messaging::HeaderHandler*, bool)>(&BinaryFormatter::Deserialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::*)(System::IO::Stream*, System::Runtime::Remoting::Messaging::HeaderHandler*, bool)>(&System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::Deserialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryFormatter*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::HeaderHandler*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::HeaderHandler*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: BinaryFormatter::Deserialize
+// Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::Deserialize
 // Il2CppName: Deserialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (BinaryFormatter::*)(System::IO::Stream*, System::Runtime::Remoting::Messaging::HeaderHandler*)>(&BinaryFormatter::Deserialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::*)(System::IO::Stream*, System::Runtime::Remoting::Messaging::HeaderHandler*)>(&System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::Deserialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryFormatter*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::HeaderHandler*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::HeaderHandler*>()});
   }
 };
-// Writing MetadataGetter for method: BinaryFormatter::Serialize
+// Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::Serialize
 // Il2CppName: Serialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BinaryFormatter::*)(System::IO::Stream*, ::Il2CppObject*)>(&BinaryFormatter::Serialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::*)(System::IO::Stream*, ::Il2CppObject*)>(&System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::Serialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryFormatter*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: BinaryFormatter::Serialize
+// Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::Serialize
 // Il2CppName: Serialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BinaryFormatter::*)(System::IO::Stream*, ::Il2CppObject*, ::Array<System::Runtime::Remoting::Messaging::Header*>*)>(&BinaryFormatter::Serialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::*)(System::IO::Stream*, ::Il2CppObject*, ::Array<System::Runtime::Remoting::Messaging::Header*>*)>(&System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::Serialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryFormatter*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Runtime::Remoting::Messaging::Header*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Runtime::Remoting::Messaging::Header*>*>()});
   }
 };
-// Writing MetadataGetter for method: BinaryFormatter::Serialize
+// Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::Serialize
 // Il2CppName: Serialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BinaryFormatter::*)(System::IO::Stream*, ::Il2CppObject*, ::Array<System::Runtime::Remoting::Messaging::Header*>*, bool)>(&BinaryFormatter::Serialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::*)(System::IO::Stream*, ::Il2CppObject*, ::Array<System::Runtime::Remoting::Messaging::Header*>*, bool)>(&System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::Serialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryFormatter*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Runtime::Remoting::Messaging::Header*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Runtime::Remoting::Messaging::Header*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: BinaryFormatter::GetTypeInformation
+// Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::GetTypeInformation
 // Il2CppName: GetTypeInformation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::Formatters::Binary::TypeInformation* (*)(System::Type*)>(&BinaryFormatter::GetTypeInformation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::Formatters::Binary::TypeInformation* (*)(System::Type*)>(&System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::GetTypeInformation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryFormatter*), "GetTypeInformation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*), "GetTypeInformation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: BinaryFormatter::_cctor
+// Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&BinaryFormatter::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryFormatter*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BinaryFormatter::New_ctor
+// Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BinaryFormatter::*)()>(&BinaryFormatter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::*)()>(&System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryFormatter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BinaryFormatter::*)()>(&BinaryFormatter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::*)()>(&System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryFormatter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

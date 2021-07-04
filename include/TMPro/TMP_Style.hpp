@@ -98,89 +98,89 @@ namespace TMPro {
   static_assert(sizeof(TMP_Style) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Style*, "TMPro", "TMP_Style");
-// Writing MetadataGetter for method: TMP_Style::get_name
+// Writing MetadataGetter for method: TMPro::TMP_Style::get_name
 // Il2CppName: get_name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMP_Style::*)()>(&TMP_Style::get_name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMPro::TMP_Style::*)()>(&TMPro::TMP_Style::get_name)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Style*), "get_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Style*), "get_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Style::set_name
+// Writing MetadataGetter for method: TMPro::TMP_Style::set_name
 // Il2CppName: set_name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_Style::*)(::Il2CppString*)>(&TMP_Style::set_name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Style::*)(::Il2CppString*)>(&TMPro::TMP_Style::set_name)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Style*), "set_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Style*), "set_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TMP_Style::get_hashCode
+// Writing MetadataGetter for method: TMPro::TMP_Style::get_hashCode
 // Il2CppName: get_hashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMP_Style::*)()>(&TMP_Style::get_hashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TMP_Style::*)()>(&TMPro::TMP_Style::get_hashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Style*), "get_hashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Style*), "get_hashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Style::set_hashCode
+// Writing MetadataGetter for method: TMPro::TMP_Style::set_hashCode
 // Il2CppName: set_hashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_Style::*)(int)>(&TMP_Style::set_hashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Style::*)(int)>(&TMPro::TMP_Style::set_hashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Style*), "set_hashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Style*), "set_hashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TMP_Style::get_styleOpeningDefinition
+// Writing MetadataGetter for method: TMPro::TMP_Style::get_styleOpeningDefinition
 // Il2CppName: get_styleOpeningDefinition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMP_Style::*)()>(&TMP_Style::get_styleOpeningDefinition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMPro::TMP_Style::*)()>(&TMPro::TMP_Style::get_styleOpeningDefinition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Style*), "get_styleOpeningDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Style*), "get_styleOpeningDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Style::get_styleClosingDefinition
+// Writing MetadataGetter for method: TMPro::TMP_Style::get_styleClosingDefinition
 // Il2CppName: get_styleClosingDefinition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMP_Style::*)()>(&TMP_Style::get_styleClosingDefinition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMPro::TMP_Style::*)()>(&TMPro::TMP_Style::get_styleClosingDefinition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Style*), "get_styleClosingDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Style*), "get_styleClosingDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Style::get_styleOpeningTagArray
+// Writing MetadataGetter for method: TMPro::TMP_Style::get_styleOpeningTagArray
 // Il2CppName: get_styleOpeningTagArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (TMP_Style::*)()>(&TMP_Style::get_styleOpeningTagArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (TMPro::TMP_Style::*)()>(&TMPro::TMP_Style::get_styleOpeningTagArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Style*), "get_styleOpeningTagArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Style*), "get_styleOpeningTagArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Style::get_styleClosingTagArray
+// Writing MetadataGetter for method: TMPro::TMP_Style::get_styleClosingTagArray
 // Il2CppName: get_styleClosingTagArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (TMP_Style::*)()>(&TMP_Style::get_styleClosingTagArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (TMPro::TMP_Style::*)()>(&TMPro::TMP_Style::get_styleClosingTagArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Style*), "get_styleClosingTagArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Style*), "get_styleClosingTagArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Style::RefreshStyle
+// Writing MetadataGetter for method: TMPro::TMP_Style::RefreshStyle
 // Il2CppName: RefreshStyle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_Style::*)()>(&TMP_Style::RefreshStyle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Style::*)()>(&TMPro::TMP_Style::RefreshStyle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Style*), "RefreshStyle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Style*), "RefreshStyle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Style::New_ctor
+// Writing MetadataGetter for method: TMPro::TMP_Style::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_Style::*)()>(&TMP_Style::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Style::*)()>(&TMPro::TMP_Style::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Style*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Style*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_Style::*)()>(&TMP_Style::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Style::*)()>(&TMPro::TMP_Style::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Style*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Style*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

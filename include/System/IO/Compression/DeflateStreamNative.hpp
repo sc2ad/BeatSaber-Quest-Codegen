@@ -143,145 +143,145 @@ namespace System::IO::Compression {
   static_assert(sizeof(DeflateStreamNative) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::DeflateStreamNative*, "System.IO.Compression", "DeflateStreamNative");
-// Writing MetadataGetter for method: DeflateStreamNative::Create
+// Writing MetadataGetter for method: System::IO::Compression::DeflateStreamNative::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Compression::DeflateStreamNative* (*)(System::IO::Stream*, System::IO::Compression::CompressionMode, bool)>(&DeflateStreamNative::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Compression::DeflateStreamNative* (*)(System::IO::Stream*, System::IO::Compression::CompressionMode, bool)>(&System::IO::Compression::DeflateStreamNative::Create)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeflateStreamNative*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Compression::CompressionMode>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::DeflateStreamNative*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Compression::CompressionMode>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: DeflateStreamNative::Dispose
+// Writing MetadataGetter for method: System::IO::Compression::DeflateStreamNative::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeflateStreamNative::*)(bool)>(&DeflateStreamNative::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Compression::DeflateStreamNative::*)(bool)>(&System::IO::Compression::DeflateStreamNative::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeflateStreamNative*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::DeflateStreamNative*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: DeflateStreamNative::Flush
+// Writing MetadataGetter for method: System::IO::Compression::DeflateStreamNative::Flush
 // Il2CppName: Flush
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeflateStreamNative::*)()>(&DeflateStreamNative::Flush)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Compression::DeflateStreamNative::*)()>(&System::IO::Compression::DeflateStreamNative::Flush)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeflateStreamNative*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::DeflateStreamNative*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DeflateStreamNative::ReadZStream
+// Writing MetadataGetter for method: System::IO::Compression::DeflateStreamNative::ReadZStream
 // Il2CppName: ReadZStream
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DeflateStreamNative::*)(System::IntPtr, int)>(&DeflateStreamNative::ReadZStream)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::Compression::DeflateStreamNative::*)(System::IntPtr, int)>(&System::IO::Compression::DeflateStreamNative::ReadZStream)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeflateStreamNative*), "ReadZStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::DeflateStreamNative*), "ReadZStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: DeflateStreamNative::WriteZStream
+// Writing MetadataGetter for method: System::IO::Compression::DeflateStreamNative::WriteZStream
 // Il2CppName: WriteZStream
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeflateStreamNative::*)(System::IntPtr, int)>(&DeflateStreamNative::WriteZStream)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Compression::DeflateStreamNative::*)(System::IntPtr, int)>(&System::IO::Compression::DeflateStreamNative::WriteZStream)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeflateStreamNative*), "WriteZStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::DeflateStreamNative*), "WriteZStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: DeflateStreamNative::UnmanagedRead
+// Writing MetadataGetter for method: System::IO::Compression::DeflateStreamNative::UnmanagedRead
 // Il2CppName: UnmanagedRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, int, System::IntPtr)>(&DeflateStreamNative::UnmanagedRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, int, System::IntPtr)>(&System::IO::Compression::DeflateStreamNative::UnmanagedRead)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeflateStreamNative*), "UnmanagedRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::DeflateStreamNative*), "UnmanagedRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: DeflateStreamNative::UnmanagedRead
+// Writing MetadataGetter for method: System::IO::Compression::DeflateStreamNative::UnmanagedRead
 // Il2CppName: UnmanagedRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DeflateStreamNative::*)(System::IntPtr, int)>(&DeflateStreamNative::UnmanagedRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::Compression::DeflateStreamNative::*)(System::IntPtr, int)>(&System::IO::Compression::DeflateStreamNative::UnmanagedRead)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeflateStreamNative*), "UnmanagedRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::DeflateStreamNative*), "UnmanagedRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: DeflateStreamNative::UnmanagedWrite
+// Writing MetadataGetter for method: System::IO::Compression::DeflateStreamNative::UnmanagedWrite
 // Il2CppName: UnmanagedWrite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, int, System::IntPtr)>(&DeflateStreamNative::UnmanagedWrite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, int, System::IntPtr)>(&System::IO::Compression::DeflateStreamNative::UnmanagedWrite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeflateStreamNative*), "UnmanagedWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::DeflateStreamNative*), "UnmanagedWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: DeflateStreamNative::UnmanagedWrite
+// Writing MetadataGetter for method: System::IO::Compression::DeflateStreamNative::UnmanagedWrite
 // Il2CppName: UnmanagedWrite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DeflateStreamNative::*)(System::IntPtr, int)>(&DeflateStreamNative::UnmanagedWrite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::Compression::DeflateStreamNative::*)(System::IntPtr, int)>(&System::IO::Compression::DeflateStreamNative::UnmanagedWrite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeflateStreamNative*), "UnmanagedWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::DeflateStreamNative*), "UnmanagedWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: DeflateStreamNative::CheckResult
+// Writing MetadataGetter for method: System::IO::Compression::DeflateStreamNative::CheckResult
 // Il2CppName: CheckResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Il2CppString*)>(&DeflateStreamNative::CheckResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Il2CppString*)>(&System::IO::Compression::DeflateStreamNative::CheckResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeflateStreamNative*), "CheckResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::DeflateStreamNative*), "CheckResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: DeflateStreamNative::CreateZStream
+// Writing MetadataGetter for method: System::IO::Compression::DeflateStreamNative::CreateZStream
 // Il2CppName: CreateZStream
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle* (*)(System::IO::Compression::CompressionMode, bool, System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite*, System::IntPtr)>(&DeflateStreamNative::CreateZStream)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle* (*)(System::IO::Compression::CompressionMode, bool, System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite*, System::IntPtr)>(&System::IO::Compression::DeflateStreamNative::CreateZStream)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeflateStreamNative*), "CreateZStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Compression::CompressionMode>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::DeflateStreamNative*), "CreateZStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Compression::CompressionMode>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: DeflateStreamNative::CloseZStream
+// Writing MetadataGetter for method: System::IO::Compression::DeflateStreamNative::CloseZStream
 // Il2CppName: CloseZStream
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&DeflateStreamNative::CloseZStream)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&System::IO::Compression::DeflateStreamNative::CloseZStream)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeflateStreamNative*), "CloseZStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::DeflateStreamNative*), "CloseZStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: DeflateStreamNative::Flush
+// Writing MetadataGetter for method: System::IO::Compression::DeflateStreamNative::Flush
 // Il2CppName: Flush
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle*)>(&DeflateStreamNative::Flush)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle*)>(&System::IO::Compression::DeflateStreamNative::Flush)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeflateStreamNative*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::DeflateStreamNative*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle*>()});
   }
 };
-// Writing MetadataGetter for method: DeflateStreamNative::ReadZStream
+// Writing MetadataGetter for method: System::IO::Compression::DeflateStreamNative::ReadZStream
 // Il2CppName: ReadZStream
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle*, System::IntPtr, int)>(&DeflateStreamNative::ReadZStream)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle*, System::IntPtr, int)>(&System::IO::Compression::DeflateStreamNative::ReadZStream)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeflateStreamNative*), "ReadZStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::DeflateStreamNative*), "ReadZStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: DeflateStreamNative::WriteZStream
+// Writing MetadataGetter for method: System::IO::Compression::DeflateStreamNative::WriteZStream
 // Il2CppName: WriteZStream
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle*, System::IntPtr, int)>(&DeflateStreamNative::WriteZStream)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle*, System::IntPtr, int)>(&System::IO::Compression::DeflateStreamNative::WriteZStream)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeflateStreamNative*), "WriteZStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::DeflateStreamNative*), "WriteZStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: DeflateStreamNative::New_ctor
+// Writing MetadataGetter for method: System::IO::Compression::DeflateStreamNative::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeflateStreamNative::*)()>(&DeflateStreamNative::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Compression::DeflateStreamNative::*)()>(&System::IO::Compression::DeflateStreamNative::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeflateStreamNative*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::DeflateStreamNative*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeflateStreamNative::*)()>(&DeflateStreamNative::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Compression::DeflateStreamNative::*)()>(&System::IO::Compression::DeflateStreamNative::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeflateStreamNative*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::DeflateStreamNative*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DeflateStreamNative::Finalize
+// Writing MetadataGetter for method: System::IO::Compression::DeflateStreamNative::Finalize
 // Il2CppName: Finalize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeflateStreamNative::*)()>(&DeflateStreamNative::Finalize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Compression::DeflateStreamNative::*)()>(&System::IO::Compression::DeflateStreamNative::Finalize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeflateStreamNative*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::DeflateStreamNative*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

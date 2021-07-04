@@ -68,41 +68,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(HandsMovementMissionObjectiveChecker) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HandsMovementMissionObjectiveChecker*, "", "HandsMovementMissionObjectiveChecker");
-// Writing MetadataGetter for method: HandsMovementMissionObjectiveChecker::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::HandsMovementMissionObjectiveChecker::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HandsMovementMissionObjectiveChecker::*)()>(&HandsMovementMissionObjectiveChecker::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HandsMovementMissionObjectiveChecker::*)()>(&GlobalNamespace::HandsMovementMissionObjectiveChecker::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HandsMovementMissionObjectiveChecker*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HandsMovementMissionObjectiveChecker*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HandsMovementMissionObjectiveChecker::HandleTotalDistanceDidChange
+// Writing MetadataGetter for method: GlobalNamespace::HandsMovementMissionObjectiveChecker::HandleTotalDistanceDidChange
 // Il2CppName: HandleTotalDistanceDidChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HandsMovementMissionObjectiveChecker::*)(float)>(&HandsMovementMissionObjectiveChecker::HandleTotalDistanceDidChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HandsMovementMissionObjectiveChecker::*)(float)>(&GlobalNamespace::HandsMovementMissionObjectiveChecker::HandleTotalDistanceDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HandsMovementMissionObjectiveChecker*), "HandleTotalDistanceDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HandsMovementMissionObjectiveChecker*), "HandleTotalDistanceDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: HandsMovementMissionObjectiveChecker::Init
+// Writing MetadataGetter for method: GlobalNamespace::HandsMovementMissionObjectiveChecker::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HandsMovementMissionObjectiveChecker::*)()>(&HandsMovementMissionObjectiveChecker::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HandsMovementMissionObjectiveChecker::*)()>(&GlobalNamespace::HandsMovementMissionObjectiveChecker::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HandsMovementMissionObjectiveChecker*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HandsMovementMissionObjectiveChecker*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HandsMovementMissionObjectiveChecker::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::HandsMovementMissionObjectiveChecker::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HandsMovementMissionObjectiveChecker::*)()>(&HandsMovementMissionObjectiveChecker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HandsMovementMissionObjectiveChecker::*)()>(&GlobalNamespace::HandsMovementMissionObjectiveChecker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HandsMovementMissionObjectiveChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HandsMovementMissionObjectiveChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HandsMovementMissionObjectiveChecker::*)()>(&HandsMovementMissionObjectiveChecker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HandsMovementMissionObjectiveChecker::*)()>(&GlobalNamespace::HandsMovementMissionObjectiveChecker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HandsMovementMissionObjectiveChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HandsMovementMissionObjectiveChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -42,19 +42,19 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IServerBeatmapProviderManager*, "", "IServerBeatmapProviderManager");
-// Writing MetadataGetter for method: IServerBeatmapProviderManager::GetServerBeatmapProvider
+// Writing MetadataGetter for method: GlobalNamespace::IServerBeatmapProviderManager::GetServerBeatmapProvider
 // Il2CppName: GetServerBeatmapProvider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IServerBeatmapProvider* (IServerBeatmapProviderManager::*)()>(&IServerBeatmapProviderManager::GetServerBeatmapProvider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IServerBeatmapProvider* (GlobalNamespace::IServerBeatmapProviderManager::*)()>(&GlobalNamespace::IServerBeatmapProviderManager::GetServerBeatmapProvider)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IServerBeatmapProviderManager*), "GetServerBeatmapProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IServerBeatmapProviderManager*), "GetServerBeatmapProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IServerBeatmapProviderManager::RefreshAsync
+// Writing MetadataGetter for method: GlobalNamespace::IServerBeatmapProviderManager::RefreshAsync
 // Il2CppName: RefreshAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (IServerBeatmapProviderManager::*)()>(&IServerBeatmapProviderManager::RefreshAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (GlobalNamespace::IServerBeatmapProviderManager::*)()>(&GlobalNamespace::IServerBeatmapProviderManager::RefreshAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IServerBeatmapProviderManager*), "RefreshAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IServerBeatmapProviderManager*), "RefreshAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

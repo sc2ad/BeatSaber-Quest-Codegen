@@ -97,33 +97,33 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static_assert(sizeof(BinaryMethodCall) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall*, "System.Runtime.Serialization.Formatters.Binary", "BinaryMethodCall");
-// Writing MetadataGetter for method: BinaryMethodCall::Write
+// Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BinaryMethodCall::*)(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(&BinaryMethodCall::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::*)(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(&System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::Write)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryMethodCall*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*>()});
   }
 };
-// Writing MetadataGetter for method: BinaryMethodCall::Dump
+// Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::Dump
 // Il2CppName: Dump
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BinaryMethodCall::*)()>(&BinaryMethodCall::Dump)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::*)()>(&System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::Dump)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryMethodCall*), "Dump", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall*), "Dump", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BinaryMethodCall::New_ctor
+// Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BinaryMethodCall::*)()>(&BinaryMethodCall::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::*)()>(&System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryMethodCall*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BinaryMethodCall::*)()>(&BinaryMethodCall::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::*)()>(&System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryMethodCall*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

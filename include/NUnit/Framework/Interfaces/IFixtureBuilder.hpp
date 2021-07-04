@@ -39,11 +39,11 @@ namespace NUnit::Framework::Interfaces {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IFixtureBuilder*, "NUnit.Framework.Interfaces", "IFixtureBuilder");
-// Writing MetadataGetter for method: IFixtureBuilder::BuildFrom
+// Writing MetadataGetter for method: NUnit::Framework::Interfaces::IFixtureBuilder::BuildFrom
 // Il2CppName: BuildFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestSuite*>* (IFixtureBuilder::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&IFixtureBuilder::BuildFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestSuite*>* (NUnit::Framework::Interfaces::IFixtureBuilder::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&NUnit::Framework::Interfaces::IFixtureBuilder::BuildFrom)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IFixtureBuilder*), "BuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITypeInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::IFixtureBuilder*), "BuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITypeInfo*>()});
   }
 };

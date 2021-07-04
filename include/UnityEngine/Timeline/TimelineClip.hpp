@@ -619,721 +619,721 @@ namespace UnityEngine::Timeline {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineClip*, "UnityEngine.Timeline", "TimelineClip");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineClip::ClipExtrapolation, "UnityEngine.Timeline", "TimelineClip/ClipExtrapolation");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineClip::BlendCurveMode, "UnityEngine.Timeline", "TimelineClip/BlendCurveMode");
-// Writing MetadataGetter for method: TimelineClip::UpgradeToLatestVersion
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::UpgradeToLatestVersion
 // Il2CppName: UpgradeToLatestVersion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)()>(&TimelineClip::UpgradeToLatestVersion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::UpgradeToLatestVersion)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "UpgradeToLatestVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "UpgradeToLatestVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::New_ctor
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(UnityEngine::Timeline::TrackAsset*)>(&TimelineClip::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)(UnityEngine::Timeline::TrackAsset*)>(&UnityEngine::Timeline::TimelineClip::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(UnityEngine::Timeline::TrackAsset*)>(&TimelineClip::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)(UnityEngine::Timeline::TrackAsset*)>(&UnityEngine::Timeline::TimelineClip::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_hasPreExtrapolation
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_hasPreExtrapolation
 // Il2CppName: get_hasPreExtrapolation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimelineClip::*)()>(&TimelineClip::get_hasPreExtrapolation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_hasPreExtrapolation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_hasPreExtrapolation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_hasPreExtrapolation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_hasPostExtrapolation
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_hasPostExtrapolation
 // Il2CppName: get_hasPostExtrapolation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimelineClip::*)()>(&TimelineClip::get_hasPostExtrapolation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_hasPostExtrapolation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_hasPostExtrapolation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_hasPostExtrapolation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_timeScale
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_timeScale
 // Il2CppName: get_timeScale
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_timeScale)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_timeScale)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_timeScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_timeScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::set_timeScale
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::set_timeScale
 // Il2CppName: set_timeScale
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(double)>(&TimelineClip::set_timeScale)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)(double)>(&UnityEngine::Timeline::TimelineClip::set_timeScale)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_timeScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "set_timeScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_start
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_start
 // Il2CppName: get_start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::set_start
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::set_start
 // Il2CppName: set_start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(double)>(&TimelineClip::set_start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)(double)>(&UnityEngine::Timeline::TimelineClip::set_start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "set_start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_duration
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_duration
 // Il2CppName: get_duration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_duration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_duration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::set_duration
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::set_duration
 // Il2CppName: set_duration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(double)>(&TimelineClip::set_duration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)(double)>(&UnityEngine::Timeline::TimelineClip::set_duration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "set_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_end
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_end
 // Il2CppName: get_end
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_end)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_end)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_end", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_end", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_clipIn
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_clipIn
 // Il2CppName: get_clipIn
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_clipIn)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_clipIn)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_clipIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_clipIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::set_clipIn
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::set_clipIn
 // Il2CppName: set_clipIn
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(double)>(&TimelineClip::set_clipIn)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)(double)>(&UnityEngine::Timeline::TimelineClip::set_clipIn)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_clipIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "set_clipIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_displayName
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_displayName
 // Il2CppName: get_displayName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TimelineClip::*)()>(&TimelineClip::get_displayName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_displayName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_displayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_displayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::set_displayName
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::set_displayName
 // Il2CppName: set_displayName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(::Il2CppString*)>(&TimelineClip::set_displayName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)(::Il2CppString*)>(&UnityEngine::Timeline::TimelineClip::set_displayName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_displayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "set_displayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_clipAssetDuration
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_clipAssetDuration
 // Il2CppName: get_clipAssetDuration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_clipAssetDuration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_clipAssetDuration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_clipAssetDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_clipAssetDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_curves
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_curves
 // Il2CppName: get_curves
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationClip* (TimelineClip::*)()>(&TimelineClip::get_curves)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationClip* (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_curves)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_curves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_curves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::set_curves
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::set_curves
 // Il2CppName: set_curves
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(UnityEngine::AnimationClip*)>(&TimelineClip::set_curves)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)(UnityEngine::AnimationClip*)>(&UnityEngine::Timeline::TimelineClip::set_curves)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_curves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "set_curves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName
 // Il2CppName: UnityEngine.Timeline.ICurvesOwner.get_defaultCurvesName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TimelineClip::*)()>(&TimelineClip::UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "UnityEngine.Timeline.ICurvesOwner.get_defaultCurvesName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "UnityEngine.Timeline.ICurvesOwner.get_defaultCurvesName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_hasCurves
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_hasCurves
 // Il2CppName: get_hasCurves
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimelineClip::*)()>(&TimelineClip::get_hasCurves)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_hasCurves)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_hasCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_hasCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_asset
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_asset
 // Il2CppName: get_asset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (TimelineClip::*)()>(&TimelineClip::get_asset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_asset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_asset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_asset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::set_asset
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::set_asset
 // Il2CppName: set_asset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(UnityEngine::Object*)>(&TimelineClip::set_asset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)(UnityEngine::Object*)>(&UnityEngine::Timeline::TimelineClip::set_asset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_asset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "set_asset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::UnityEngine_Timeline_ICurvesOwner_get_assetOwner
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::UnityEngine_Timeline_ICurvesOwner_get_assetOwner
 // Il2CppName: UnityEngine.Timeline.ICurvesOwner.get_assetOwner
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (TimelineClip::*)()>(&TimelineClip::UnityEngine_Timeline_ICurvesOwner_get_assetOwner)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::UnityEngine_Timeline_ICurvesOwner_get_assetOwner)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "UnityEngine.Timeline.ICurvesOwner.get_assetOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "UnityEngine.Timeline.ICurvesOwner.get_assetOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::UnityEngine_Timeline_ICurvesOwner_get_targetTrack
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::UnityEngine_Timeline_ICurvesOwner_get_targetTrack
 // Il2CppName: UnityEngine.Timeline.ICurvesOwner.get_targetTrack
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackAsset* (TimelineClip::*)()>(&TimelineClip::UnityEngine_Timeline_ICurvesOwner_get_targetTrack)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackAsset* (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::UnityEngine_Timeline_ICurvesOwner_get_targetTrack)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "UnityEngine.Timeline.ICurvesOwner.get_targetTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "UnityEngine.Timeline.ICurvesOwner.get_targetTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_underlyingAsset
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_underlyingAsset
 // Il2CppName: get_underlyingAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (TimelineClip::*)()>(&TimelineClip::get_underlyingAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_underlyingAsset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_underlyingAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_underlyingAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::set_underlyingAsset
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::set_underlyingAsset
 // Il2CppName: set_underlyingAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(UnityEngine::Object*)>(&TimelineClip::set_underlyingAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)(UnityEngine::Object*)>(&UnityEngine::Timeline::TimelineClip::set_underlyingAsset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_underlyingAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "set_underlyingAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_parentTrack
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_parentTrack
 // Il2CppName: get_parentTrack
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackAsset* (TimelineClip::*)()>(&TimelineClip::get_parentTrack)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackAsset* (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_parentTrack)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_parentTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_parentTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::set_parentTrack
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::set_parentTrack
 // Il2CppName: set_parentTrack
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(UnityEngine::Timeline::TrackAsset*)>(&TimelineClip::set_parentTrack)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)(UnityEngine::Timeline::TrackAsset*)>(&UnityEngine::Timeline::TimelineClip::set_parentTrack)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_parentTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "set_parentTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::GetParentTrack
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::GetParentTrack
 // Il2CppName: GetParentTrack
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackAsset* (TimelineClip::*)()>(&TimelineClip::GetParentTrack)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackAsset* (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::GetParentTrack)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "GetParentTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "GetParentTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::SetParentTrack_Internal
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::SetParentTrack_Internal
 // Il2CppName: SetParentTrack_Internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(UnityEngine::Timeline::TrackAsset*)>(&TimelineClip::SetParentTrack_Internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)(UnityEngine::Timeline::TrackAsset*)>(&UnityEngine::Timeline::TimelineClip::SetParentTrack_Internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "SetParentTrack_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "SetParentTrack_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_easeInDuration
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_easeInDuration
 // Il2CppName: get_easeInDuration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_easeInDuration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_easeInDuration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_easeInDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_easeInDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::set_easeInDuration
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::set_easeInDuration
 // Il2CppName: set_easeInDuration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(double)>(&TimelineClip::set_easeInDuration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)(double)>(&UnityEngine::Timeline::TimelineClip::set_easeInDuration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_easeInDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "set_easeInDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_easeOutDuration
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_easeOutDuration
 // Il2CppName: get_easeOutDuration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_easeOutDuration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_easeOutDuration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_easeOutDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_easeOutDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::set_easeOutDuration
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::set_easeOutDuration
 // Il2CppName: set_easeOutDuration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(double)>(&TimelineClip::set_easeOutDuration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)(double)>(&UnityEngine::Timeline::TimelineClip::set_easeOutDuration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_easeOutDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "set_easeOutDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_eastOutTime
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_eastOutTime
 // Il2CppName: get_eastOutTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_eastOutTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_eastOutTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_eastOutTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_eastOutTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_easeOutTime
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_easeOutTime
 // Il2CppName: get_easeOutTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_easeOutTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_easeOutTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_easeOutTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_easeOutTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_blendInDuration
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_blendInDuration
 // Il2CppName: get_blendInDuration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_blendInDuration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_blendInDuration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_blendInDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_blendInDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::set_blendInDuration
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::set_blendInDuration
 // Il2CppName: set_blendInDuration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(double)>(&TimelineClip::set_blendInDuration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)(double)>(&UnityEngine::Timeline::TimelineClip::set_blendInDuration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_blendInDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "set_blendInDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_blendOutDuration
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_blendOutDuration
 // Il2CppName: get_blendOutDuration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_blendOutDuration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_blendOutDuration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_blendOutDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_blendOutDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::set_blendOutDuration
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::set_blendOutDuration
 // Il2CppName: set_blendOutDuration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(double)>(&TimelineClip::set_blendOutDuration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)(double)>(&UnityEngine::Timeline::TimelineClip::set_blendOutDuration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_blendOutDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "set_blendOutDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_blendInCurveMode
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_blendInCurveMode
 // Il2CppName: get_blendInCurveMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip::BlendCurveMode (TimelineClip::*)()>(&TimelineClip::get_blendInCurveMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip::BlendCurveMode (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_blendInCurveMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_blendInCurveMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_blendInCurveMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::set_blendInCurveMode
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::set_blendInCurveMode
 // Il2CppName: set_blendInCurveMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(UnityEngine::Timeline::TimelineClip::BlendCurveMode)>(&TimelineClip::set_blendInCurveMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)(UnityEngine::Timeline::TimelineClip::BlendCurveMode)>(&UnityEngine::Timeline::TimelineClip::set_blendInCurveMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_blendInCurveMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip::BlendCurveMode>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "set_blendInCurveMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip::BlendCurveMode>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_blendOutCurveMode
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_blendOutCurveMode
 // Il2CppName: get_blendOutCurveMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip::BlendCurveMode (TimelineClip::*)()>(&TimelineClip::get_blendOutCurveMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip::BlendCurveMode (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_blendOutCurveMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_blendOutCurveMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_blendOutCurveMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::set_blendOutCurveMode
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::set_blendOutCurveMode
 // Il2CppName: set_blendOutCurveMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(UnityEngine::Timeline::TimelineClip::BlendCurveMode)>(&TimelineClip::set_blendOutCurveMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)(UnityEngine::Timeline::TimelineClip::BlendCurveMode)>(&UnityEngine::Timeline::TimelineClip::set_blendOutCurveMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_blendOutCurveMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip::BlendCurveMode>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "set_blendOutCurveMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip::BlendCurveMode>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_hasBlendIn
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_hasBlendIn
 // Il2CppName: get_hasBlendIn
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimelineClip::*)()>(&TimelineClip::get_hasBlendIn)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_hasBlendIn)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_hasBlendIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_hasBlendIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_hasBlendOut
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_hasBlendOut
 // Il2CppName: get_hasBlendOut
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimelineClip::*)()>(&TimelineClip::get_hasBlendOut)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_hasBlendOut)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_hasBlendOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_hasBlendOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_mixInCurve
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_mixInCurve
 // Il2CppName: get_mixInCurve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationCurve* (TimelineClip::*)()>(&TimelineClip::get_mixInCurve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationCurve* (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_mixInCurve)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_mixInCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_mixInCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::set_mixInCurve
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::set_mixInCurve
 // Il2CppName: set_mixInCurve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(UnityEngine::AnimationCurve*)>(&TimelineClip::set_mixInCurve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)(UnityEngine::AnimationCurve*)>(&UnityEngine::Timeline::TimelineClip::set_mixInCurve)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_mixInCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "set_mixInCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_mixInPercentage
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_mixInPercentage
 // Il2CppName: get_mixInPercentage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TimelineClip::*)()>(&TimelineClip::get_mixInPercentage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_mixInPercentage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_mixInPercentage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_mixInPercentage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_mixInDuration
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_mixInDuration
 // Il2CppName: get_mixInDuration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_mixInDuration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_mixInDuration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_mixInDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_mixInDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_mixOutCurve
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_mixOutCurve
 // Il2CppName: get_mixOutCurve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationCurve* (TimelineClip::*)()>(&TimelineClip::get_mixOutCurve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationCurve* (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_mixOutCurve)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_mixOutCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_mixOutCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::set_mixOutCurve
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::set_mixOutCurve
 // Il2CppName: set_mixOutCurve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(UnityEngine::AnimationCurve*)>(&TimelineClip::set_mixOutCurve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)(UnityEngine::AnimationCurve*)>(&UnityEngine::Timeline::TimelineClip::set_mixOutCurve)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_mixOutCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "set_mixOutCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_mixOutTime
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_mixOutTime
 // Il2CppName: get_mixOutTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_mixOutTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_mixOutTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_mixOutTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_mixOutTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_mixOutDuration
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_mixOutDuration
 // Il2CppName: get_mixOutDuration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_mixOutDuration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_mixOutDuration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_mixOutDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_mixOutDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_mixOutPercentage
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_mixOutPercentage
 // Il2CppName: get_mixOutPercentage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TimelineClip::*)()>(&TimelineClip::get_mixOutPercentage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_mixOutPercentage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_mixOutPercentage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_mixOutPercentage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_recordable
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_recordable
 // Il2CppName: get_recordable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimelineClip::*)()>(&TimelineClip::get_recordable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_recordable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_recordable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_recordable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::set_recordable
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::set_recordable
 // Il2CppName: set_recordable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(bool)>(&TimelineClip::set_recordable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)(bool)>(&UnityEngine::Timeline::TimelineClip::set_recordable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_recordable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "set_recordable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_exposedParameters
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_exposedParameters
 // Il2CppName: get_exposedParameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (TimelineClip::*)()>(&TimelineClip::get_exposedParameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_exposedParameters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_exposedParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_exposedParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_clipCaps
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_clipCaps
 // Il2CppName: get_clipCaps
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::ClipCaps (TimelineClip::*)()>(&TimelineClip::get_clipCaps)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::ClipCaps (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_clipCaps)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_clipCaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_clipCaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::Hash
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::Hash
 // Il2CppName: Hash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TimelineClip::*)()>(&TimelineClip::Hash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::Hash)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "Hash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "Hash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::EvaluateMixOut
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::EvaluateMixOut
 // Il2CppName: EvaluateMixOut
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TimelineClip::*)(double)>(&TimelineClip::EvaluateMixOut)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Timeline::TimelineClip::*)(double)>(&UnityEngine::Timeline::TimelineClip::EvaluateMixOut)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "EvaluateMixOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "EvaluateMixOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::EvaluateMixIn
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::EvaluateMixIn
 // Il2CppName: EvaluateMixIn
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TimelineClip::*)(double)>(&TimelineClip::EvaluateMixIn)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Timeline::TimelineClip::*)(double)>(&UnityEngine::Timeline::TimelineClip::EvaluateMixIn)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "EvaluateMixIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "EvaluateMixIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::GetDefaultMixInCurve
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::GetDefaultMixInCurve
 // Il2CppName: GetDefaultMixInCurve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationCurve* (*)()>(&TimelineClip::GetDefaultMixInCurve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationCurve* (*)()>(&UnityEngine::Timeline::TimelineClip::GetDefaultMixInCurve)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "GetDefaultMixInCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "GetDefaultMixInCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::GetDefaultMixOutCurve
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::GetDefaultMixOutCurve
 // Il2CppName: GetDefaultMixOutCurve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationCurve* (*)()>(&TimelineClip::GetDefaultMixOutCurve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationCurve* (*)()>(&UnityEngine::Timeline::TimelineClip::GetDefaultMixOutCurve)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "GetDefaultMixOutCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "GetDefaultMixOutCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::ToLocalTime
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::ToLocalTime
 // Il2CppName: ToLocalTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)(double)>(&TimelineClip::ToLocalTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::TimelineClip::*)(double)>(&UnityEngine::Timeline::TimelineClip::ToLocalTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "ToLocalTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "ToLocalTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::ToLocalTimeUnbound
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::ToLocalTimeUnbound
 // Il2CppName: ToLocalTimeUnbound
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)(double)>(&TimelineClip::ToLocalTimeUnbound)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::TimelineClip::*)(double)>(&UnityEngine::Timeline::TimelineClip::ToLocalTimeUnbound)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "ToLocalTimeUnbound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "ToLocalTimeUnbound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::FromLocalTimeUnbound
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::FromLocalTimeUnbound
 // Il2CppName: FromLocalTimeUnbound
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)(double)>(&TimelineClip::FromLocalTimeUnbound)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::TimelineClip::*)(double)>(&UnityEngine::Timeline::TimelineClip::FromLocalTimeUnbound)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "FromLocalTimeUnbound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "FromLocalTimeUnbound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_animationClip
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_animationClip
 // Il2CppName: get_animationClip
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationClip* (TimelineClip::*)()>(&TimelineClip::get_animationClip)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationClip* (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_animationClip)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_animationClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_animationClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::SanitizeTimeValue
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::SanitizeTimeValue
 // Il2CppName: SanitizeTimeValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, double)>(&TimelineClip::SanitizeTimeValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, double)>(&UnityEngine::Timeline::TimelineClip::SanitizeTimeValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "SanitizeTimeValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "SanitizeTimeValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_postExtrapolationMode
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_postExtrapolationMode
 // Il2CppName: get_postExtrapolationMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip::ClipExtrapolation (TimelineClip::*)()>(&TimelineClip::get_postExtrapolationMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip::ClipExtrapolation (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_postExtrapolationMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_postExtrapolationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_postExtrapolationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::set_postExtrapolationMode
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::set_postExtrapolationMode
 // Il2CppName: set_postExtrapolationMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(UnityEngine::Timeline::TimelineClip::ClipExtrapolation)>(&TimelineClip::set_postExtrapolationMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)(UnityEngine::Timeline::TimelineClip::ClipExtrapolation)>(&UnityEngine::Timeline::TimelineClip::set_postExtrapolationMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_postExtrapolationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip::ClipExtrapolation>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "set_postExtrapolationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip::ClipExtrapolation>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_preExtrapolationMode
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_preExtrapolationMode
 // Il2CppName: get_preExtrapolationMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip::ClipExtrapolation (TimelineClip::*)()>(&TimelineClip::get_preExtrapolationMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip::ClipExtrapolation (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_preExtrapolationMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_preExtrapolationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_preExtrapolationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::set_preExtrapolationMode
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::set_preExtrapolationMode
 // Il2CppName: set_preExtrapolationMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(UnityEngine::Timeline::TimelineClip::ClipExtrapolation)>(&TimelineClip::set_preExtrapolationMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)(UnityEngine::Timeline::TimelineClip::ClipExtrapolation)>(&UnityEngine::Timeline::TimelineClip::set_preExtrapolationMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "set_preExtrapolationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip::ClipExtrapolation>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "set_preExtrapolationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip::ClipExtrapolation>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::SetPostExtrapolationTime
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::SetPostExtrapolationTime
 // Il2CppName: SetPostExtrapolationTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(double)>(&TimelineClip::SetPostExtrapolationTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)(double)>(&UnityEngine::Timeline::TimelineClip::SetPostExtrapolationTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "SetPostExtrapolationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "SetPostExtrapolationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::SetPreExtrapolationTime
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::SetPreExtrapolationTime
 // Il2CppName: SetPreExtrapolationTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(double)>(&TimelineClip::SetPreExtrapolationTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)(double)>(&UnityEngine::Timeline::TimelineClip::SetPreExtrapolationTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "SetPreExtrapolationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "SetPreExtrapolationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::IsExtrapolatedTime
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::IsExtrapolatedTime
 // Il2CppName: IsExtrapolatedTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimelineClip::*)(double)>(&TimelineClip::IsExtrapolatedTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TimelineClip::*)(double)>(&UnityEngine::Timeline::TimelineClip::IsExtrapolatedTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "IsExtrapolatedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "IsExtrapolatedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::IsPreExtrapolatedTime
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::IsPreExtrapolatedTime
 // Il2CppName: IsPreExtrapolatedTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimelineClip::*)(double)>(&TimelineClip::IsPreExtrapolatedTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TimelineClip::*)(double)>(&UnityEngine::Timeline::TimelineClip::IsPreExtrapolatedTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "IsPreExtrapolatedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "IsPreExtrapolatedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::IsPostExtrapolatedTime
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::IsPostExtrapolatedTime
 // Il2CppName: IsPostExtrapolatedTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimelineClip::*)(double)>(&TimelineClip::IsPostExtrapolatedTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TimelineClip::*)(double)>(&UnityEngine::Timeline::TimelineClip::IsPostExtrapolatedTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "IsPostExtrapolatedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "IsPostExtrapolatedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_extrapolatedStart
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_extrapolatedStart
 // Il2CppName: get_extrapolatedStart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_extrapolatedStart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_extrapolatedStart)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_extrapolatedStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_extrapolatedStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::get_extrapolatedDuration
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::get_extrapolatedDuration
 // Il2CppName: get_extrapolatedDuration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimelineClip::*)()>(&TimelineClip::get_extrapolatedDuration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::get_extrapolatedDuration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "get_extrapolatedDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "get_extrapolatedDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::GetExtrapolatedTime
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::GetExtrapolatedTime
 // Il2CppName: GetExtrapolatedTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, UnityEngine::Timeline::TimelineClip::ClipExtrapolation, double)>(&TimelineClip::GetExtrapolatedTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, UnityEngine::Timeline::TimelineClip::ClipExtrapolation, double)>(&UnityEngine::Timeline::TimelineClip::GetExtrapolatedTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "GetExtrapolatedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip::ClipExtrapolation>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "GetExtrapolatedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip::ClipExtrapolation>(), ::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::CreateCurves
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::CreateCurves
 // Il2CppName: CreateCurves
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(::Il2CppString*)>(&TimelineClip::CreateCurves)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)(::Il2CppString*)>(&UnityEngine::Timeline::TimelineClip::CreateCurves)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "CreateCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "CreateCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize
 // Il2CppName: UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)()>(&TimelineClip::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize
 // Il2CppName: UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)()>(&TimelineClip::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::ConformEaseValues
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::ConformEaseValues
 // Il2CppName: ConformEaseValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)()>(&TimelineClip::ConformEaseValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::ConformEaseValues)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "ConformEaseValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "ConformEaseValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::CalculateEasingRatio
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::CalculateEasingRatio
 // Il2CppName: CalculateEasingRatio
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, double)>(&TimelineClip::CalculateEasingRatio)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, double)>(&UnityEngine::Timeline::TimelineClip::CalculateEasingRatio)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "CalculateEasingRatio", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "CalculateEasingRatio", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::UpdateDirty
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::UpdateDirty
 // Il2CppName: UpdateDirty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineClip::*)(double, double)>(&TimelineClip::UpdateDirty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineClip::*)(double, double)>(&UnityEngine::Timeline::TimelineClip::UpdateDirty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "UpdateDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "UpdateDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::_cctor
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TimelineClip::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Timeline::TimelineClip::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineClip::ToString
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TimelineClip::*)()>(&TimelineClip::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Timeline::TimelineClip::*)()>(&UnityEngine::Timeline::TimelineClip::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineClip*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClip*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

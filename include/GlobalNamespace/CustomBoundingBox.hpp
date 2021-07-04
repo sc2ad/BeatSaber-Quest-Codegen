@@ -77,25 +77,25 @@ namespace GlobalNamespace {
   static_assert(sizeof(CustomBoundingBox) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomBoundingBox*, "", "CustomBoundingBox");
-// Writing MetadataGetter for method: CustomBoundingBox::Awake
+// Writing MetadataGetter for method: GlobalNamespace::CustomBoundingBox::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomBoundingBox::*)()>(&CustomBoundingBox::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CustomBoundingBox::*)()>(&GlobalNamespace::CustomBoundingBox::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomBoundingBox*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomBoundingBox*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CustomBoundingBox::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::CustomBoundingBox::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomBoundingBox::*)()>(&CustomBoundingBox::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CustomBoundingBox::*)()>(&GlobalNamespace::CustomBoundingBox::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomBoundingBox*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomBoundingBox*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomBoundingBox::*)()>(&CustomBoundingBox::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CustomBoundingBox::*)()>(&GlobalNamespace::CustomBoundingBox::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomBoundingBox*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomBoundingBox*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

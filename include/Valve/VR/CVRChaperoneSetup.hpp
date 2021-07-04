@@ -121,177 +121,177 @@ namespace Valve::VR {
   static_assert(sizeof(CVRChaperoneSetup) == 0xB0);
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRChaperoneSetup*, "Valve.VR", "CVRChaperoneSetup");
-// Writing MetadataGetter for method: CVRChaperoneSetup::New_ctor
+// Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperoneSetup::*)(System::IntPtr)>(&CVRChaperoneSetup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRChaperoneSetup::*)(System::IntPtr)>(&Valve::VR::CVRChaperoneSetup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperoneSetup::*)(System::IntPtr)>(&CVRChaperoneSetup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRChaperoneSetup::*)(System::IntPtr)>(&Valve::VR::CVRChaperoneSetup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: CVRChaperoneSetup::CommitWorkingCopy
+// Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::CommitWorkingCopy
 // Il2CppName: CommitWorkingCopy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(Valve::VR::EChaperoneConfigFile)>(&CVRChaperoneSetup::CommitWorkingCopy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(Valve::VR::EChaperoneConfigFile)>(&Valve::VR::CVRChaperoneSetup::CommitWorkingCopy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "CommitWorkingCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EChaperoneConfigFile>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "CommitWorkingCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EChaperoneConfigFile>()});
   }
 };
-// Writing MetadataGetter for method: CVRChaperoneSetup::RevertWorkingCopy
+// Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::RevertWorkingCopy
 // Il2CppName: RevertWorkingCopy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperoneSetup::*)()>(&CVRChaperoneSetup::RevertWorkingCopy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRChaperoneSetup::*)()>(&Valve::VR::CVRChaperoneSetup::RevertWorkingCopy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "RevertWorkingCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "RevertWorkingCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CVRChaperoneSetup::GetWorkingPlayAreaSize
+// Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::GetWorkingPlayAreaSize
 // Il2CppName: GetWorkingPlayAreaSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(float&, float&)>(&CVRChaperoneSetup::GetWorkingPlayAreaSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(float&, float&)>(&Valve::VR::CVRChaperoneSetup::GetWorkingPlayAreaSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "GetWorkingPlayAreaSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "GetWorkingPlayAreaSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
   }
 };
-// Writing MetadataGetter for method: CVRChaperoneSetup::GetWorkingPlayAreaRect
+// Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::GetWorkingPlayAreaRect
 // Il2CppName: GetWorkingPlayAreaRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(Valve::VR::HmdQuad_t&)>(&CVRChaperoneSetup::GetWorkingPlayAreaRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(Valve::VR::HmdQuad_t&)>(&Valve::VR::CVRChaperoneSetup::GetWorkingPlayAreaRect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "GetWorkingPlayAreaRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdQuad_t&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "GetWorkingPlayAreaRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdQuad_t&>()});
   }
 };
-// Writing MetadataGetter for method: CVRChaperoneSetup::GetWorkingCollisionBoundsInfo
+// Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::GetWorkingCollisionBoundsInfo
 // Il2CppName: GetWorkingCollisionBoundsInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(::Array<Valve::VR::HmdQuad_t>*&)>(&CVRChaperoneSetup::GetWorkingCollisionBoundsInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(::Array<Valve::VR::HmdQuad_t>*&)>(&Valve::VR::CVRChaperoneSetup::GetWorkingCollisionBoundsInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "GetWorkingCollisionBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Valve::VR::HmdQuad_t>*&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "GetWorkingCollisionBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Valve::VR::HmdQuad_t>*&>()});
   }
 };
-// Writing MetadataGetter for method: CVRChaperoneSetup::GetLiveCollisionBoundsInfo
+// Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::GetLiveCollisionBoundsInfo
 // Il2CppName: GetLiveCollisionBoundsInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(::Array<Valve::VR::HmdQuad_t>*&)>(&CVRChaperoneSetup::GetLiveCollisionBoundsInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(::Array<Valve::VR::HmdQuad_t>*&)>(&Valve::VR::CVRChaperoneSetup::GetLiveCollisionBoundsInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "GetLiveCollisionBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Valve::VR::HmdQuad_t>*&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "GetLiveCollisionBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Valve::VR::HmdQuad_t>*&>()});
   }
 };
-// Writing MetadataGetter for method: CVRChaperoneSetup::GetWorkingSeatedZeroPoseToRawTrackingPose
+// Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::GetWorkingSeatedZeroPoseToRawTrackingPose
 // Il2CppName: GetWorkingSeatedZeroPoseToRawTrackingPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(Valve::VR::HmdMatrix34_t&)>(&CVRChaperoneSetup::GetWorkingSeatedZeroPoseToRawTrackingPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(Valve::VR::HmdMatrix34_t&)>(&Valve::VR::CVRChaperoneSetup::GetWorkingSeatedZeroPoseToRawTrackingPose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "GetWorkingSeatedZeroPoseToRawTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "GetWorkingSeatedZeroPoseToRawTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
   }
 };
-// Writing MetadataGetter for method: CVRChaperoneSetup::GetWorkingStandingZeroPoseToRawTrackingPose
+// Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::GetWorkingStandingZeroPoseToRawTrackingPose
 // Il2CppName: GetWorkingStandingZeroPoseToRawTrackingPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(Valve::VR::HmdMatrix34_t&)>(&CVRChaperoneSetup::GetWorkingStandingZeroPoseToRawTrackingPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(Valve::VR::HmdMatrix34_t&)>(&Valve::VR::CVRChaperoneSetup::GetWorkingStandingZeroPoseToRawTrackingPose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "GetWorkingStandingZeroPoseToRawTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "GetWorkingStandingZeroPoseToRawTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
   }
 };
-// Writing MetadataGetter for method: CVRChaperoneSetup::SetWorkingPlayAreaSize
+// Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::SetWorkingPlayAreaSize
 // Il2CppName: SetWorkingPlayAreaSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperoneSetup::*)(float, float)>(&CVRChaperoneSetup::SetWorkingPlayAreaSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRChaperoneSetup::*)(float, float)>(&Valve::VR::CVRChaperoneSetup::SetWorkingPlayAreaSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "SetWorkingPlayAreaSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "SetWorkingPlayAreaSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: CVRChaperoneSetup::SetWorkingCollisionBoundsInfo
+// Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::SetWorkingCollisionBoundsInfo
 // Il2CppName: SetWorkingCollisionBoundsInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperoneSetup::*)(::Array<Valve::VR::HmdQuad_t>*)>(&CVRChaperoneSetup::SetWorkingCollisionBoundsInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRChaperoneSetup::*)(::Array<Valve::VR::HmdQuad_t>*)>(&Valve::VR::CVRChaperoneSetup::SetWorkingCollisionBoundsInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "SetWorkingCollisionBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Valve::VR::HmdQuad_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "SetWorkingCollisionBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Valve::VR::HmdQuad_t>*>()});
   }
 };
-// Writing MetadataGetter for method: CVRChaperoneSetup::SetWorkingSeatedZeroPoseToRawTrackingPose
+// Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::SetWorkingSeatedZeroPoseToRawTrackingPose
 // Il2CppName: SetWorkingSeatedZeroPoseToRawTrackingPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperoneSetup::*)(Valve::VR::HmdMatrix34_t&)>(&CVRChaperoneSetup::SetWorkingSeatedZeroPoseToRawTrackingPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRChaperoneSetup::*)(Valve::VR::HmdMatrix34_t&)>(&Valve::VR::CVRChaperoneSetup::SetWorkingSeatedZeroPoseToRawTrackingPose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "SetWorkingSeatedZeroPoseToRawTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "SetWorkingSeatedZeroPoseToRawTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
   }
 };
-// Writing MetadataGetter for method: CVRChaperoneSetup::SetWorkingStandingZeroPoseToRawTrackingPose
+// Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::SetWorkingStandingZeroPoseToRawTrackingPose
 // Il2CppName: SetWorkingStandingZeroPoseToRawTrackingPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperoneSetup::*)(Valve::VR::HmdMatrix34_t&)>(&CVRChaperoneSetup::SetWorkingStandingZeroPoseToRawTrackingPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRChaperoneSetup::*)(Valve::VR::HmdMatrix34_t&)>(&Valve::VR::CVRChaperoneSetup::SetWorkingStandingZeroPoseToRawTrackingPose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "SetWorkingStandingZeroPoseToRawTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "SetWorkingStandingZeroPoseToRawTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
   }
 };
-// Writing MetadataGetter for method: CVRChaperoneSetup::ReloadFromDisk
+// Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::ReloadFromDisk
 // Il2CppName: ReloadFromDisk
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperoneSetup::*)(Valve::VR::EChaperoneConfigFile)>(&CVRChaperoneSetup::ReloadFromDisk)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRChaperoneSetup::*)(Valve::VR::EChaperoneConfigFile)>(&Valve::VR::CVRChaperoneSetup::ReloadFromDisk)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "ReloadFromDisk", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EChaperoneConfigFile>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "ReloadFromDisk", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EChaperoneConfigFile>()});
   }
 };
-// Writing MetadataGetter for method: CVRChaperoneSetup::GetLiveSeatedZeroPoseToRawTrackingPose
+// Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::GetLiveSeatedZeroPoseToRawTrackingPose
 // Il2CppName: GetLiveSeatedZeroPoseToRawTrackingPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(Valve::VR::HmdMatrix34_t&)>(&CVRChaperoneSetup::GetLiveSeatedZeroPoseToRawTrackingPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(Valve::VR::HmdMatrix34_t&)>(&Valve::VR::CVRChaperoneSetup::GetLiveSeatedZeroPoseToRawTrackingPose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "GetLiveSeatedZeroPoseToRawTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "GetLiveSeatedZeroPoseToRawTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
   }
 };
-// Writing MetadataGetter for method: CVRChaperoneSetup::SetWorkingCollisionBoundsTagsInfo
+// Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::SetWorkingCollisionBoundsTagsInfo
 // Il2CppName: SetWorkingCollisionBoundsTagsInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRChaperoneSetup::*)(::Array<uint8_t>*)>(&CVRChaperoneSetup::SetWorkingCollisionBoundsTagsInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRChaperoneSetup::*)(::Array<uint8_t>*)>(&Valve::VR::CVRChaperoneSetup::SetWorkingCollisionBoundsTagsInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "SetWorkingCollisionBoundsTagsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "SetWorkingCollisionBoundsTagsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: CVRChaperoneSetup::GetLiveCollisionBoundsTagsInfo
+// Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::GetLiveCollisionBoundsTagsInfo
 // Il2CppName: GetLiveCollisionBoundsTagsInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(::Array<uint8_t>*&)>(&CVRChaperoneSetup::GetLiveCollisionBoundsTagsInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(::Array<uint8_t>*&)>(&Valve::VR::CVRChaperoneSetup::GetLiveCollisionBoundsTagsInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "GetLiveCollisionBoundsTagsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "GetLiveCollisionBoundsTagsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>()});
   }
 };
-// Writing MetadataGetter for method: CVRChaperoneSetup::SetWorkingPhysicalBoundsInfo
+// Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::SetWorkingPhysicalBoundsInfo
 // Il2CppName: SetWorkingPhysicalBoundsInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(::Array<Valve::VR::HmdQuad_t>*)>(&CVRChaperoneSetup::SetWorkingPhysicalBoundsInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(::Array<Valve::VR::HmdQuad_t>*)>(&Valve::VR::CVRChaperoneSetup::SetWorkingPhysicalBoundsInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "SetWorkingPhysicalBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Valve::VR::HmdQuad_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "SetWorkingPhysicalBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Valve::VR::HmdQuad_t>*>()});
   }
 };
-// Writing MetadataGetter for method: CVRChaperoneSetup::GetLivePhysicalBoundsInfo
+// Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::GetLivePhysicalBoundsInfo
 // Il2CppName: GetLivePhysicalBoundsInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(::Array<Valve::VR::HmdQuad_t>*&)>(&CVRChaperoneSetup::GetLivePhysicalBoundsInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(::Array<Valve::VR::HmdQuad_t>*&)>(&Valve::VR::CVRChaperoneSetup::GetLivePhysicalBoundsInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "GetLivePhysicalBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Valve::VR::HmdQuad_t>*&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "GetLivePhysicalBoundsInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Valve::VR::HmdQuad_t>*&>()});
   }
 };
-// Writing MetadataGetter for method: CVRChaperoneSetup::ExportLiveToBuffer
+// Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::ExportLiveToBuffer
 // Il2CppName: ExportLiveToBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(System::Text::StringBuilder*, uint&)>(&CVRChaperoneSetup::ExportLiveToBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(System::Text::StringBuilder*, uint&)>(&Valve::VR::CVRChaperoneSetup::ExportLiveToBuffer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "ExportLiveToBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "ExportLiveToBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
   }
 };
-// Writing MetadataGetter for method: CVRChaperoneSetup::ImportFromBufferToWorking
+// Writing MetadataGetter for method: Valve::VR::CVRChaperoneSetup::ImportFromBufferToWorking
 // Il2CppName: ImportFromBufferToWorking
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRChaperoneSetup::*)(::Il2CppString*, uint)>(&CVRChaperoneSetup::ImportFromBufferToWorking)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRChaperoneSetup::*)(::Il2CppString*, uint)>(&Valve::VR::CVRChaperoneSetup::ImportFromBufferToWorking)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRChaperoneSetup*), "ImportFromBufferToWorking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRChaperoneSetup*), "ImportFromBufferToWorking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };

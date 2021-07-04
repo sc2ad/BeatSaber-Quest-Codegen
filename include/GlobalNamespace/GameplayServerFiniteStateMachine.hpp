@@ -131,41 +131,41 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayServerFiniteStateMachine*, "", "GameplayServerFiniteStateMachine");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType, "", "GameplayServerFiniteStateMachine/GameStateType");
-// Writing MetadataGetter for method: GameplayServerFiniteStateMachine::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::GameplayServerFiniteStateMachine::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayServerFiniteStateMachine::*)(MasterServer::ITimeProvider*, GlobalNamespace::IMultiplayerSessionManager*, GlobalNamespace::GameplayServerConfiguration, bool, GlobalNamespace::IServerBeatmapProvider*)>(&GameplayServerFiniteStateMachine::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayServerFiniteStateMachine::*)(MasterServer::ITimeProvider*, GlobalNamespace::IMultiplayerSessionManager*, GlobalNamespace::GameplayServerConfiguration, bool, GlobalNamespace::IServerBeatmapProvider*)>(&GlobalNamespace::GameplayServerFiniteStateMachine::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplayServerFiniteStateMachine*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::ITimeProvider*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IServerBeatmapProvider*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayServerFiniteStateMachine*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::ITimeProvider*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IServerBeatmapProvider*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayServerFiniteStateMachine::*)(MasterServer::ITimeProvider*, GlobalNamespace::IMultiplayerSessionManager*, GlobalNamespace::GameplayServerConfiguration, bool, GlobalNamespace::IServerBeatmapProvider*)>(&GameplayServerFiniteStateMachine::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayServerFiniteStateMachine::*)(MasterServer::ITimeProvider*, GlobalNamespace::IMultiplayerSessionManager*, GlobalNamespace::GameplayServerConfiguration, bool, GlobalNamespace::IServerBeatmapProvider*)>(&GlobalNamespace::GameplayServerFiniteStateMachine::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplayServerFiniteStateMachine*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::ITimeProvider*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IServerBeatmapProvider*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayServerFiniteStateMachine*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::ITimeProvider*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IServerBeatmapProvider*>()});
   }
 };
-// Writing MetadataGetter for method: GameplayServerFiniteStateMachine::add_onGameStateChanged
+// Writing MetadataGetter for method: GlobalNamespace::GameplayServerFiniteStateMachine::add_onGameStateChanged
 // Il2CppName: add_onGameStateChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayServerFiniteStateMachine::*)(System::Action_1<GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType>*)>(&GameplayServerFiniteStateMachine::add_onGameStateChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayServerFiniteStateMachine::*)(System::Action_1<GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType>*)>(&GlobalNamespace::GameplayServerFiniteStateMachine::add_onGameStateChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplayServerFiniteStateMachine*), "add_onGameStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayServerFiniteStateMachine*), "add_onGameStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType>*>()});
   }
 };
-// Writing MetadataGetter for method: GameplayServerFiniteStateMachine::remove_onGameStateChanged
+// Writing MetadataGetter for method: GlobalNamespace::GameplayServerFiniteStateMachine::remove_onGameStateChanged
 // Il2CppName: remove_onGameStateChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayServerFiniteStateMachine::*)(System::Action_1<GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType>*)>(&GameplayServerFiniteStateMachine::remove_onGameStateChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayServerFiniteStateMachine::*)(System::Action_1<GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType>*)>(&GlobalNamespace::GameplayServerFiniteStateMachine::remove_onGameStateChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplayServerFiniteStateMachine*), "remove_onGameStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayServerFiniteStateMachine*), "remove_onGameStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType>*>()});
   }
 };
-// Writing MetadataGetter for method: GameplayServerFiniteStateMachine::Dispose
+// Writing MetadataGetter for method: GlobalNamespace::GameplayServerFiniteStateMachine::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayServerFiniteStateMachine::*)()>(&GameplayServerFiniteStateMachine::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayServerFiniteStateMachine::*)()>(&GlobalNamespace::GameplayServerFiniteStateMachine::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplayServerFiniteStateMachine*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayServerFiniteStateMachine*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

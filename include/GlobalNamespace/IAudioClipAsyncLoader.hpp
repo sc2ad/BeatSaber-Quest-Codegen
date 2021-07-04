@@ -42,11 +42,11 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IAudioClipAsyncLoader*, "", "IAudioClipAsyncLoader");
-// Writing MetadataGetter for method: IAudioClipAsyncLoader::LoadAudioClipAsync
+// Writing MetadataGetter for method: GlobalNamespace::IAudioClipAsyncLoader::LoadAudioClipAsync
 // Il2CppName: LoadAudioClipAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* (IAudioClipAsyncLoader::*)(::Il2CppString*, System::Threading::CancellationToken)>(&IAudioClipAsyncLoader::LoadAudioClipAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* (GlobalNamespace::IAudioClipAsyncLoader::*)(::Il2CppString*, System::Threading::CancellationToken)>(&GlobalNamespace::IAudioClipAsyncLoader::LoadAudioClipAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IAudioClipAsyncLoader*), "LoadAudioClipAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IAudioClipAsyncLoader*), "LoadAudioClipAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };

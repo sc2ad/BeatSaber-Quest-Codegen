@@ -47,33 +47,33 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithSystemVoipState
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithSystemVoipState*, "Oculus.Platform", "MessageWithSystemVoipState");
-// Writing MetadataGetter for method: MessageWithSystemVoipState::GetDataFromMessage
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithSystemVoipState::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::SystemVoipState* (MessageWithSystemVoipState::*)(System::IntPtr)>(&MessageWithSystemVoipState::GetDataFromMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::SystemVoipState* (Oculus::Platform::MessageWithSystemVoipState::*)(System::IntPtr)>(&Oculus::Platform::MessageWithSystemVoipState::GetDataFromMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithSystemVoipState*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithSystemVoipState*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithSystemVoipState::New_ctor
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithSystemVoipState::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithSystemVoipState::*)(System::IntPtr)>(&MessageWithSystemVoipState::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithSystemVoipState::*)(System::IntPtr)>(&Oculus::Platform::MessageWithSystemVoipState::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithSystemVoipState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithSystemVoipState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithSystemVoipState::*)(System::IntPtr)>(&MessageWithSystemVoipState::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithSystemVoipState::*)(System::IntPtr)>(&Oculus::Platform::MessageWithSystemVoipState::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithSystemVoipState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithSystemVoipState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithSystemVoipState::GetSystemVoipState
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithSystemVoipState::GetSystemVoipState
 // Il2CppName: GetSystemVoipState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::SystemVoipState* (MessageWithSystemVoipState::*)()>(&MessageWithSystemVoipState::GetSystemVoipState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::SystemVoipState* (Oculus::Platform::MessageWithSystemVoipState::*)()>(&Oculus::Platform::MessageWithSystemVoipState::GetSystemVoipState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithSystemVoipState*), "GetSystemVoipState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithSystemVoipState*), "GetSystemVoipState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

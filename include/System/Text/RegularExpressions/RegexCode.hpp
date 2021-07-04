@@ -112,25 +112,25 @@ namespace System::Text::RegularExpressions {
   static_assert(sizeof(RegexCode) == 0x4D);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCode*, "System.Text.RegularExpressions", "RegexCode");
-// Writing MetadataGetter for method: RegexCode::New_ctor
+// Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCode::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexCode::*)(::Array<int>*, System::Collections::Generic::List_1<::Il2CppString*>*, int, System::Collections::Hashtable*, int, System::Text::RegularExpressions::RegexBoyerMoore*, System::Text::RegularExpressions::RegexPrefix*, int, bool)>(&RegexCode::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexCode::*)(::Array<int>*, System::Collections::Generic::List_1<::Il2CppString*>*, int, System::Collections::Hashtable*, int, System::Text::RegularExpressions::RegexBoyerMoore*, System::Text::RegularExpressions::RegexPrefix*, int, bool)>(&System::Text::RegularExpressions::RegexCode::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RegexCode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Hashtable*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexBoyerMoore*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexPrefix*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexCode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Hashtable*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexBoyerMoore*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexPrefix*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexCode::*)(::Array<int>*, System::Collections::Generic::List_1<::Il2CppString*>*, int, System::Collections::Hashtable*, int, System::Text::RegularExpressions::RegexBoyerMoore*, System::Text::RegularExpressions::RegexPrefix*, int, bool)>(&RegexCode::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexCode::*)(::Array<int>*, System::Collections::Generic::List_1<::Il2CppString*>*, int, System::Collections::Hashtable*, int, System::Text::RegularExpressions::RegexBoyerMoore*, System::Text::RegularExpressions::RegexPrefix*, int, bool)>(&System::Text::RegularExpressions::RegexCode::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RegexCode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Hashtable*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexBoyerMoore*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexPrefix*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexCode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Hashtable*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexBoyerMoore*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexPrefix*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: RegexCode::OpcodeBacktracks
+// Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCode::OpcodeBacktracks
 // Il2CppName: OpcodeBacktracks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&RegexCode::OpcodeBacktracks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&System::Text::RegularExpressions::RegexCode::OpcodeBacktracks)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RegexCode*), "OpcodeBacktracks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexCode*), "OpcodeBacktracks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };

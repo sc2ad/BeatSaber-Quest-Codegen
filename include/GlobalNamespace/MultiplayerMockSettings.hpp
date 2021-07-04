@@ -126,97 +126,97 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerMockSettings) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerMockSettings*, "", "MultiplayerMockSettings");
-// Writing MetadataGetter for method: MultiplayerMockSettings::get_quickplayServer
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerMockSettings::get_quickplayServer
 // Il2CppName: get_quickplayServer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockServerSettings* (MultiplayerMockSettings::*)()>(&MultiplayerMockSettings::get_quickplayServer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockServerSettings* (GlobalNamespace::MultiplayerMockSettings::*)()>(&GlobalNamespace::MultiplayerMockSettings::get_quickplayServer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerMockSettings*), "get_quickplayServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerMockSettings*), "get_quickplayServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerMockSettings::get_localPlayer
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerMockSettings::get_localPlayer
 // Il2CppName: get_localPlayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockPlayerSettings* (MultiplayerMockSettings::*)()>(&MultiplayerMockSettings::get_localPlayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockPlayerSettings* (GlobalNamespace::MultiplayerMockSettings::*)()>(&GlobalNamespace::MultiplayerMockSettings::get_localPlayer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerMockSettings*), "get_localPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerMockSettings*), "get_localPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerMockSettings::get_masterServerQuickPlaySetupData
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerMockSettings::get_masterServerQuickPlaySetupData
 // Il2CppName: get_masterServerQuickPlaySetupData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MasterServerQuickPlaySetupData* (MultiplayerMockSettings::*)()>(&MultiplayerMockSettings::get_masterServerQuickPlaySetupData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MasterServerQuickPlaySetupData* (GlobalNamespace::MultiplayerMockSettings::*)()>(&GlobalNamespace::MultiplayerMockSettings::get_masterServerQuickPlaySetupData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerMockSettings*), "get_masterServerQuickPlaySetupData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerMockSettings*), "get_masterServerQuickPlaySetupData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerMockSettings::set_masterServerQuickPlaySetupData
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerMockSettings::set_masterServerQuickPlaySetupData
 // Il2CppName: set_masterServerQuickPlaySetupData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerMockSettings::*)(GlobalNamespace::MasterServerQuickPlaySetupData*)>(&MultiplayerMockSettings::set_masterServerQuickPlaySetupData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerMockSettings::*)(GlobalNamespace::MasterServerQuickPlaySetupData*)>(&GlobalNamespace::MultiplayerMockSettings::set_masterServerQuickPlaySetupData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerMockSettings*), "set_masterServerQuickPlaySetupData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MasterServerQuickPlaySetupData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerMockSettings*), "set_masterServerQuickPlaySetupData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MasterServerQuickPlaySetupData*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerMockSettings::get_masterServerAvailabilityData
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerMockSettings::get_masterServerAvailabilityData
 // Il2CppName: get_masterServerAvailabilityData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MasterServerAvailabilityData* (MultiplayerMockSettings::*)()>(&MultiplayerMockSettings::get_masterServerAvailabilityData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MasterServerAvailabilityData* (GlobalNamespace::MultiplayerMockSettings::*)()>(&GlobalNamespace::MultiplayerMockSettings::get_masterServerAvailabilityData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerMockSettings*), "get_masterServerAvailabilityData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerMockSettings*), "get_masterServerAvailabilityData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerMockSettings::set_masterServerAvailabilityData
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerMockSettings::set_masterServerAvailabilityData
 // Il2CppName: set_masterServerAvailabilityData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerMockSettings::*)(GlobalNamespace::MasterServerAvailabilityData*)>(&MultiplayerMockSettings::set_masterServerAvailabilityData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerMockSettings::*)(GlobalNamespace::MasterServerAvailabilityData*)>(&GlobalNamespace::MultiplayerMockSettings::set_masterServerAvailabilityData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerMockSettings*), "set_masterServerAvailabilityData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MasterServerAvailabilityData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerMockSettings*), "set_masterServerAvailabilityData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MasterServerAvailabilityData*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerMockSettings::get_otherPlayers
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerMockSettings::get_otherPlayers
 // Il2CppName: get_otherPlayers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::MockPlayerSettings*>* (MultiplayerMockSettings::*)()>(&MultiplayerMockSettings::get_otherPlayers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::MockPlayerSettings*>* (GlobalNamespace::MultiplayerMockSettings::*)()>(&GlobalNamespace::MultiplayerMockSettings::get_otherPlayers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerMockSettings*), "get_otherPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerMockSettings*), "get_otherPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerMockSettings::get_isEnabled
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerMockSettings::get_isEnabled
 // Il2CppName: get_isEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MultiplayerMockSettings::*)()>(&MultiplayerMockSettings::get_isEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerMockSettings::*)()>(&GlobalNamespace::MultiplayerMockSettings::get_isEnabled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerMockSettings*), "get_isEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerMockSettings*), "get_isEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerMockSettings::set_isEnabled
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerMockSettings::set_isEnabled
 // Il2CppName: set_isEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerMockSettings::*)(bool)>(&MultiplayerMockSettings::set_isEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerMockSettings::*)(bool)>(&GlobalNamespace::MultiplayerMockSettings::set_isEnabled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerMockSettings*), "set_isEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerMockSettings*), "set_isEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerMockSettings::SharedSettings
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerMockSettings::SharedSettings
 // Il2CppName: SharedSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerMockSettings* (*)()>(&MultiplayerMockSettings::SharedSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerMockSettings* (*)()>(&GlobalNamespace::MultiplayerMockSettings::SharedSettings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerMockSettings*), "SharedSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerMockSettings*), "SharedSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerMockSettings::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerMockSettings::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerMockSettings::*)()>(&MultiplayerMockSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerMockSettings::*)()>(&GlobalNamespace::MultiplayerMockSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerMockSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerMockSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerMockSettings::*)()>(&MultiplayerMockSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerMockSettings::*)()>(&GlobalNamespace::MultiplayerMockSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerMockSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerMockSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

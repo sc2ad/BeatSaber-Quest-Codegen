@@ -105,57 +105,57 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayerOptionsViewController) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerOptionsViewController*, "", "PlayerOptionsViewController");
-// Writing MetadataGetter for method: PlayerOptionsViewController::add_didFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::PlayerOptionsViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerOptionsViewController::*)(System::Action_1<HMUI::ViewController*>*)>(&PlayerOptionsViewController::add_didFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerOptionsViewController::*)(System::Action_1<HMUI::ViewController*>*)>(&GlobalNamespace::PlayerOptionsViewController::add_didFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerOptionsViewController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<HMUI::ViewController*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerOptionsViewController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<HMUI::ViewController*>*>()});
   }
 };
-// Writing MetadataGetter for method: PlayerOptionsViewController::remove_didFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::PlayerOptionsViewController::remove_didFinishEvent
 // Il2CppName: remove_didFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerOptionsViewController::*)(System::Action_1<HMUI::ViewController*>*)>(&PlayerOptionsViewController::remove_didFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerOptionsViewController::*)(System::Action_1<HMUI::ViewController*>*)>(&GlobalNamespace::PlayerOptionsViewController::remove_didFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerOptionsViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<HMUI::ViewController*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerOptionsViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<HMUI::ViewController*>*>()});
   }
 };
-// Writing MetadataGetter for method: PlayerOptionsViewController::$DidActivate$b__6_0
+// Writing MetadataGetter for method: GlobalNamespace::PlayerOptionsViewController::$DidActivate$b__6_0
 // Il2CppName: <DidActivate>b__6_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerOptionsViewController::*)()>(&PlayerOptionsViewController::$DidActivate$b__6_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerOptionsViewController::*)()>(&GlobalNamespace::PlayerOptionsViewController::$DidActivate$b__6_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerOptionsViewController*), "<DidActivate>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerOptionsViewController*), "<DidActivate>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerOptionsViewController::DidActivate
+// Writing MetadataGetter for method: GlobalNamespace::PlayerOptionsViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerOptionsViewController::*)(bool, bool, bool)>(&PlayerOptionsViewController::DidActivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerOptionsViewController::*)(bool, bool, bool)>(&GlobalNamespace::PlayerOptionsViewController::DidActivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerOptionsViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerOptionsViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: PlayerOptionsViewController::DidDeactivate
+// Writing MetadataGetter for method: GlobalNamespace::PlayerOptionsViewController::DidDeactivate
 // Il2CppName: DidDeactivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerOptionsViewController::*)(bool, bool)>(&PlayerOptionsViewController::DidDeactivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerOptionsViewController::*)(bool, bool)>(&GlobalNamespace::PlayerOptionsViewController::DidDeactivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerOptionsViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerOptionsViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: PlayerOptionsViewController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::PlayerOptionsViewController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerOptionsViewController::*)()>(&PlayerOptionsViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerOptionsViewController::*)()>(&GlobalNamespace::PlayerOptionsViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerOptionsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerOptionsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerOptionsViewController::*)()>(&PlayerOptionsViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerOptionsViewController::*)()>(&GlobalNamespace::PlayerOptionsViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerOptionsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerOptionsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

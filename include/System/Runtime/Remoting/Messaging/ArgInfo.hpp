@@ -63,25 +63,25 @@ namespace System::Runtime::Remoting::Messaging {
   static_assert(sizeof(ArgInfo) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ArgInfo*, "System.Runtime.Remoting.Messaging", "ArgInfo");
-// Writing MetadataGetter for method: ArgInfo::New_ctor
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ArgInfo::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArgInfo::*)(System::Reflection::MethodBase*, System::Runtime::Remoting::Messaging::ArgInfoType)>(&ArgInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::ArgInfo::*)(System::Reflection::MethodBase*, System::Runtime::Remoting::Messaging::ArgInfoType)>(&System::Runtime::Remoting::Messaging::ArgInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArgInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::ArgInfoType>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ArgInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::ArgInfoType>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArgInfo::*)(System::Reflection::MethodBase*, System::Runtime::Remoting::Messaging::ArgInfoType)>(&ArgInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::ArgInfo::*)(System::Reflection::MethodBase*, System::Runtime::Remoting::Messaging::ArgInfoType)>(&System::Runtime::Remoting::Messaging::ArgInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArgInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::ArgInfoType>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ArgInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::ArgInfoType>()});
   }
 };
-// Writing MetadataGetter for method: ArgInfo::GetInOutArgs
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ArgInfo::GetInOutArgs
 // Il2CppName: GetInOutArgs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (ArgInfo::*)(::Array<::Il2CppObject*>*)>(&ArgInfo::GetInOutArgs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Runtime::Remoting::Messaging::ArgInfo::*)(::Array<::Il2CppObject*>*)>(&System::Runtime::Remoting::Messaging::ArgInfo::GetInOutArgs)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArgInfo*), "GetInOutArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ArgInfo*), "GetInOutArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
   }
 };

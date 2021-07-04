@@ -92,49 +92,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(MainAudioEffects) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainAudioEffects*, "", "MainAudioEffects");
-// Writing MetadataGetter for method: MainAudioEffects::Start
+// Writing MetadataGetter for method: GlobalNamespace::MainAudioEffects::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainAudioEffects::*)()>(&MainAudioEffects::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainAudioEffects::*)()>(&GlobalNamespace::MainAudioEffects::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainAudioEffects*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainAudioEffects*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MainAudioEffects::LateUpdate
+// Writing MetadataGetter for method: GlobalNamespace::MainAudioEffects::LateUpdate
 // Il2CppName: LateUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainAudioEffects::*)()>(&MainAudioEffects::LateUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainAudioEffects::*)()>(&GlobalNamespace::MainAudioEffects::LateUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainAudioEffects*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainAudioEffects*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MainAudioEffects::ResumeNormalSound
+// Writing MetadataGetter for method: GlobalNamespace::MainAudioEffects::ResumeNormalSound
 // Il2CppName: ResumeNormalSound
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainAudioEffects::*)()>(&MainAudioEffects::ResumeNormalSound)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainAudioEffects::*)()>(&GlobalNamespace::MainAudioEffects::ResumeNormalSound)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainAudioEffects*), "ResumeNormalSound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainAudioEffects*), "ResumeNormalSound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MainAudioEffects::TriggerLowPass
+// Writing MetadataGetter for method: GlobalNamespace::MainAudioEffects::TriggerLowPass
 // Il2CppName: TriggerLowPass
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainAudioEffects::*)()>(&MainAudioEffects::TriggerLowPass)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainAudioEffects::*)()>(&GlobalNamespace::MainAudioEffects::TriggerLowPass)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainAudioEffects*), "TriggerLowPass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainAudioEffects*), "TriggerLowPass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MainAudioEffects::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MainAudioEffects::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainAudioEffects::*)()>(&MainAudioEffects::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainAudioEffects::*)()>(&GlobalNamespace::MainAudioEffects::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainAudioEffects*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainAudioEffects*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainAudioEffects::*)()>(&MainAudioEffects::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainAudioEffects::*)()>(&GlobalNamespace::MainAudioEffects::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainAudioEffects*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainAudioEffects*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

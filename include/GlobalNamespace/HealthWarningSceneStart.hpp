@@ -85,25 +85,25 @@ namespace GlobalNamespace {
   static_assert(sizeof(HealthWarningSceneStart) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningSceneStart*, "", "HealthWarningSceneStart");
-// Writing MetadataGetter for method: HealthWarningSceneStart::Start
+// Writing MetadataGetter for method: GlobalNamespace::HealthWarningSceneStart::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (HealthWarningSceneStart::*)()>(&HealthWarningSceneStart::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::HealthWarningSceneStart::*)()>(&GlobalNamespace::HealthWarningSceneStart::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HealthWarningSceneStart*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthWarningSceneStart*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HealthWarningSceneStart::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::HealthWarningSceneStart::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HealthWarningSceneStart::*)()>(&HealthWarningSceneStart::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HealthWarningSceneStart::*)()>(&GlobalNamespace::HealthWarningSceneStart::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HealthWarningSceneStart*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthWarningSceneStart*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HealthWarningSceneStart::*)()>(&HealthWarningSceneStart::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HealthWarningSceneStart::*)()>(&GlobalNamespace::HealthWarningSceneStart::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HealthWarningSceneStart*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthWarningSceneStart*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

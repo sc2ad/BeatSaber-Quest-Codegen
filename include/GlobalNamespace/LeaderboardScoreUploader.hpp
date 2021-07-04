@@ -144,89 +144,89 @@ namespace GlobalNamespace {
   static_assert(sizeof(LeaderboardScoreUploader) == 0x41);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardScoreUploader*, "", "LeaderboardScoreUploader");
-// Writing MetadataGetter for method: LeaderboardScoreUploader::add_allScoresDidUploadEvent
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::add_allScoresDidUploadEvent
 // Il2CppName: add_allScoresDidUploadEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::*)(System::Action*)>(&LeaderboardScoreUploader::add_allScoresDidUploadEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardScoreUploader::*)(System::Action*)>(&GlobalNamespace::LeaderboardScoreUploader::add_allScoresDidUploadEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader*), "add_allScoresDidUploadEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardScoreUploader*), "add_allScoresDidUploadEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: LeaderboardScoreUploader::remove_allScoresDidUploadEvent
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::remove_allScoresDidUploadEvent
 // Il2CppName: remove_allScoresDidUploadEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::*)(System::Action*)>(&LeaderboardScoreUploader::remove_allScoresDidUploadEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardScoreUploader::*)(System::Action*)>(&GlobalNamespace::LeaderboardScoreUploader::remove_allScoresDidUploadEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader*), "remove_allScoresDidUploadEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardScoreUploader*), "remove_allScoresDidUploadEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: LeaderboardScoreUploader::Init
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::*)(GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback*, ::Il2CppString*)>(&LeaderboardScoreUploader::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardScoreUploader::*)(GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback*, ::Il2CppString*)>(&GlobalNamespace::LeaderboardScoreUploader::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardScoreUploader*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: LeaderboardScoreUploader::OnApplicationQuit
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::OnApplicationQuit
 // Il2CppName: OnApplicationQuit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::*)()>(&LeaderboardScoreUploader::OnApplicationQuit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardScoreUploader::*)()>(&GlobalNamespace::LeaderboardScoreUploader::OnApplicationQuit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader*), "OnApplicationQuit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardScoreUploader*), "OnApplicationQuit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LeaderboardScoreUploader::UploadScoresCoroutine
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::UploadScoresCoroutine
 // Il2CppName: UploadScoresCoroutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (LeaderboardScoreUploader::*)()>(&LeaderboardScoreUploader::UploadScoresCoroutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::LeaderboardScoreUploader::*)()>(&GlobalNamespace::LeaderboardScoreUploader::UploadScoresCoroutine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader*), "UploadScoresCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardScoreUploader*), "UploadScoresCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LeaderboardScoreUploader::LoadScoresToUploadFromFile
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::LoadScoresToUploadFromFile
 // Il2CppName: LoadScoresToUploadFromFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::*)()>(&LeaderboardScoreUploader::LoadScoresToUploadFromFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardScoreUploader::*)()>(&GlobalNamespace::LeaderboardScoreUploader::LoadScoresToUploadFromFile)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader*), "LoadScoresToUploadFromFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardScoreUploader*), "LoadScoresToUploadFromFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LeaderboardScoreUploader::SaveScoresToUploadToFile
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::SaveScoresToUploadToFile
 // Il2CppName: SaveScoresToUploadToFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::*)()>(&LeaderboardScoreUploader::SaveScoresToUploadToFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardScoreUploader::*)()>(&GlobalNamespace::LeaderboardScoreUploader::SaveScoresToUploadToFile)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader*), "SaveScoresToUploadToFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardScoreUploader*), "SaveScoresToUploadToFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LeaderboardScoreUploader::AddScore
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::AddScore
 // Il2CppName: AddScore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::*)(GlobalNamespace::LeaderboardScoreUploader::ScoreData*)>(&LeaderboardScoreUploader::AddScore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardScoreUploader::*)(GlobalNamespace::LeaderboardScoreUploader::ScoreData*)>(&GlobalNamespace::LeaderboardScoreUploader::AddScore)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader*), "AddScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LeaderboardScoreUploader::ScoreData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardScoreUploader*), "AddScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LeaderboardScoreUploader::ScoreData*>()});
   }
 };
-// Writing MetadataGetter for method: LeaderboardScoreUploader::$UploadScoresCoroutine$b__14_1
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::$UploadScoresCoroutine$b__14_1
 // Il2CppName: <UploadScoresCoroutine>b__14_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LeaderboardScoreUploader::*)()>(&LeaderboardScoreUploader::$UploadScoresCoroutine$b__14_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LeaderboardScoreUploader::*)()>(&GlobalNamespace::LeaderboardScoreUploader::$UploadScoresCoroutine$b__14_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader*), "<UploadScoresCoroutine>b__14_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardScoreUploader*), "<UploadScoresCoroutine>b__14_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LeaderboardScoreUploader::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::*)()>(&LeaderboardScoreUploader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardScoreUploader::*)()>(&GlobalNamespace::LeaderboardScoreUploader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardScoreUploader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardScoreUploader::*)()>(&LeaderboardScoreUploader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardScoreUploader::*)()>(&GlobalNamespace::LeaderboardScoreUploader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardScoreUploader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardScoreUploader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

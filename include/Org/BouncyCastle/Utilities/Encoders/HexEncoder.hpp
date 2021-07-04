@@ -70,65 +70,65 @@ namespace Org::BouncyCastle::Utilities::Encoders {
   static_assert(sizeof(HexEncoder) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Encoders::HexEncoder*, "Org.BouncyCastle.Utilities.Encoders", "HexEncoder");
-// Writing MetadataGetter for method: HexEncoder::InitialiseDecodingTable
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Encoders::HexEncoder::InitialiseDecodingTable
 // Il2CppName: InitialiseDecodingTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HexEncoder::*)()>(&HexEncoder::InitialiseDecodingTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)()>(&Org::BouncyCastle::Utilities::Encoders::HexEncoder::InitialiseDecodingTable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HexEncoder*), "InitialiseDecodingTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Encoders::HexEncoder*), "InitialiseDecodingTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HexEncoder::Encode
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Encoders::HexEncoder::Encode
 // Il2CppName: Encode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HexEncoder::*)(::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&HexEncoder::Encode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)(::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Utilities::Encoders::HexEncoder::Encode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HexEncoder*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Encoders::HexEncoder*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: HexEncoder::Encode
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Encoders::HexEncoder::Encode
 // Il2CppName: Encode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HexEncoder::*)(::Array<uint8_t>*, int, int, System::IO::Stream*)>(&HexEncoder::Encode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)(::Array<uint8_t>*, int, int, System::IO::Stream*)>(&Org::BouncyCastle::Utilities::Encoders::HexEncoder::Encode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HexEncoder*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Encoders::HexEncoder*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
   }
 };
-// Writing MetadataGetter for method: HexEncoder::Ignore
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Encoders::HexEncoder::Ignore
 // Il2CppName: Ignore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&HexEncoder::Ignore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&Org::BouncyCastle::Utilities::Encoders::HexEncoder::Ignore)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HexEncoder*), "Ignore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Encoders::HexEncoder*), "Ignore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
   }
 };
-// Writing MetadataGetter for method: HexEncoder::DecodeString
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Encoders::HexEncoder::DecodeString
 // Il2CppName: DecodeString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HexEncoder::*)(::Il2CppString*, System::IO::Stream*)>(&HexEncoder::DecodeString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)(::Il2CppString*, System::IO::Stream*)>(&Org::BouncyCastle::Utilities::Encoders::HexEncoder::DecodeString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HexEncoder*), "DecodeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Encoders::HexEncoder*), "DecodeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
   }
 };
-// Writing MetadataGetter for method: HexEncoder::DecodeStrict
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Encoders::HexEncoder::DecodeStrict
 // Il2CppName: DecodeStrict
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (HexEncoder::*)(::Il2CppString*, int, int)>(&HexEncoder::DecodeStrict)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)(::Il2CppString*, int, int)>(&Org::BouncyCastle::Utilities::Encoders::HexEncoder::DecodeStrict)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HexEncoder*), "DecodeStrict", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Encoders::HexEncoder*), "DecodeStrict", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: HexEncoder::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Encoders::HexEncoder::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HexEncoder::*)()>(&HexEncoder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)()>(&Org::BouncyCastle::Utilities::Encoders::HexEncoder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HexEncoder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Encoders::HexEncoder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HexEncoder::*)()>(&HexEncoder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)()>(&Org::BouncyCastle::Utilities::Encoders::HexEncoder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HexEncoder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Encoders::HexEncoder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

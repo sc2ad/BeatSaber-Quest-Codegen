@@ -70,41 +70,41 @@ namespace System {
   static_assert(sizeof(PointerSpec) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::PointerSpec*, "System", "PointerSpec");
-// Writing MetadataGetter for method: PointerSpec::New_ctor
+// Writing MetadataGetter for method: System::PointerSpec::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerSpec::*)(int)>(&PointerSpec::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::PointerSpec::*)(int)>(&System::PointerSpec::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerSpec*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::PointerSpec*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerSpec::*)(int)>(&PointerSpec::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::PointerSpec::*)(int)>(&System::PointerSpec::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerSpec*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::PointerSpec*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: PointerSpec::Resolve
+// Writing MetadataGetter for method: System::PointerSpec::Resolve
 // Il2CppName: Resolve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (PointerSpec::*)(System::Type*)>(&PointerSpec::Resolve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::PointerSpec::*)(System::Type*)>(&System::PointerSpec::Resolve)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerSpec*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::PointerSpec*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: PointerSpec::Append
+// Writing MetadataGetter for method: System::PointerSpec::Append
 // Il2CppName: Append
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (PointerSpec::*)(System::Text::StringBuilder*)>(&PointerSpec::Append)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::PointerSpec::*)(System::Text::StringBuilder*)>(&System::PointerSpec::Append)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerSpec*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::PointerSpec*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
   }
 };
-// Writing MetadataGetter for method: PointerSpec::ToString
+// Writing MetadataGetter for method: System::PointerSpec::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PointerSpec::*)()>(&PointerSpec::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::PointerSpec::*)()>(&System::PointerSpec::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerSpec*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::PointerSpec*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -28,19 +28,19 @@ namespace Org::BouncyCastle::Math::Field {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Field::IPolynomial*, "Org.BouncyCastle.Math.Field", "IPolynomial");
-// Writing MetadataGetter for method: IPolynomial::get_Degree
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::Field::IPolynomial::get_Degree
 // Il2CppName: get_Degree
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IPolynomial::*)()>(&IPolynomial::get_Degree)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Math::Field::IPolynomial::*)()>(&Org::BouncyCastle::Math::Field::IPolynomial::get_Degree)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IPolynomial*), "get_Degree", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Field::IPolynomial*), "get_Degree", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IPolynomial::GetExponentsPresent
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::Field::IPolynomial::GetExponentsPresent
 // Il2CppName: GetExponentsPresent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (IPolynomial::*)()>(&IPolynomial::GetExponentsPresent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (Org::BouncyCastle::Math::Field::IPolynomial::*)()>(&Org::BouncyCastle::Math::Field::IPolynomial::GetExponentsPresent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IPolynomial*), "GetExponentsPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Field::IPolynomial*), "GetExponentsPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

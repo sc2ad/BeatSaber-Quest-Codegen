@@ -90,79 +90,79 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRBoneCapsule) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRBoneCapsule*, "", "OVRBoneCapsule");
-// Writing MetadataGetter for method: OVRBoneCapsule::get_BoneIndex
+// Writing MetadataGetter for method: GlobalNamespace::OVRBoneCapsule::get_BoneIndex
 // Il2CppName: get_BoneIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (OVRBoneCapsule::*)()>(&OVRBoneCapsule::get_BoneIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (GlobalNamespace::OVRBoneCapsule::*)()>(&GlobalNamespace::OVRBoneCapsule::get_BoneIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRBoneCapsule*), "get_BoneIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoneCapsule*), "get_BoneIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRBoneCapsule::set_BoneIndex
+// Writing MetadataGetter for method: GlobalNamespace::OVRBoneCapsule::set_BoneIndex
 // Il2CppName: set_BoneIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRBoneCapsule::*)(int16_t)>(&OVRBoneCapsule::set_BoneIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRBoneCapsule::*)(int16_t)>(&GlobalNamespace::OVRBoneCapsule::set_BoneIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRBoneCapsule*), "set_BoneIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int16_t>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoneCapsule*), "set_BoneIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int16_t>()});
   }
 };
-// Writing MetadataGetter for method: OVRBoneCapsule::get_CapsuleRigidbody
+// Writing MetadataGetter for method: GlobalNamespace::OVRBoneCapsule::get_CapsuleRigidbody
 // Il2CppName: get_CapsuleRigidbody
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rigidbody* (OVRBoneCapsule::*)()>(&OVRBoneCapsule::get_CapsuleRigidbody)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rigidbody* (GlobalNamespace::OVRBoneCapsule::*)()>(&GlobalNamespace::OVRBoneCapsule::get_CapsuleRigidbody)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRBoneCapsule*), "get_CapsuleRigidbody", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoneCapsule*), "get_CapsuleRigidbody", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRBoneCapsule::set_CapsuleRigidbody
+// Writing MetadataGetter for method: GlobalNamespace::OVRBoneCapsule::set_CapsuleRigidbody
 // Il2CppName: set_CapsuleRigidbody
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRBoneCapsule::*)(UnityEngine::Rigidbody*)>(&OVRBoneCapsule::set_CapsuleRigidbody)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRBoneCapsule::*)(UnityEngine::Rigidbody*)>(&GlobalNamespace::OVRBoneCapsule::set_CapsuleRigidbody)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRBoneCapsule*), "set_CapsuleRigidbody", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rigidbody*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoneCapsule*), "set_CapsuleRigidbody", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rigidbody*>()});
   }
 };
-// Writing MetadataGetter for method: OVRBoneCapsule::get_CapsuleCollider
+// Writing MetadataGetter for method: GlobalNamespace::OVRBoneCapsule::get_CapsuleCollider
 // Il2CppName: get_CapsuleCollider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::CapsuleCollider* (OVRBoneCapsule::*)()>(&OVRBoneCapsule::get_CapsuleCollider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::CapsuleCollider* (GlobalNamespace::OVRBoneCapsule::*)()>(&GlobalNamespace::OVRBoneCapsule::get_CapsuleCollider)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRBoneCapsule*), "get_CapsuleCollider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoneCapsule*), "get_CapsuleCollider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRBoneCapsule::set_CapsuleCollider
+// Writing MetadataGetter for method: GlobalNamespace::OVRBoneCapsule::set_CapsuleCollider
 // Il2CppName: set_CapsuleCollider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRBoneCapsule::*)(UnityEngine::CapsuleCollider*)>(&OVRBoneCapsule::set_CapsuleCollider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRBoneCapsule::*)(UnityEngine::CapsuleCollider*)>(&GlobalNamespace::OVRBoneCapsule::set_CapsuleCollider)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRBoneCapsule*), "set_CapsuleCollider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::CapsuleCollider*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoneCapsule*), "set_CapsuleCollider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::CapsuleCollider*>()});
   }
 };
-// Writing MetadataGetter for method: OVRBoneCapsule::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::OVRBoneCapsule::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRBoneCapsule::*)(int16_t, UnityEngine::Rigidbody*, UnityEngine::CapsuleCollider*)>(&OVRBoneCapsule::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRBoneCapsule::*)(int16_t, UnityEngine::Rigidbody*, UnityEngine::CapsuleCollider*)>(&GlobalNamespace::OVRBoneCapsule::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRBoneCapsule*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int16_t>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rigidbody*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::CapsuleCollider*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoneCapsule*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int16_t>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rigidbody*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::CapsuleCollider*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRBoneCapsule::*)(int16_t, UnityEngine::Rigidbody*, UnityEngine::CapsuleCollider*)>(&OVRBoneCapsule::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRBoneCapsule::*)(int16_t, UnityEngine::Rigidbody*, UnityEngine::CapsuleCollider*)>(&GlobalNamespace::OVRBoneCapsule::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRBoneCapsule*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int16_t>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rigidbody*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::CapsuleCollider*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoneCapsule*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int16_t>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rigidbody*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::CapsuleCollider*>()});
   }
 };
-// Writing MetadataGetter for method: OVRBoneCapsule::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::OVRBoneCapsule::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRBoneCapsule::*)()>(&OVRBoneCapsule::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRBoneCapsule::*)()>(&GlobalNamespace::OVRBoneCapsule::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRBoneCapsule*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoneCapsule*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRBoneCapsule::*)()>(&OVRBoneCapsule::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRBoneCapsule::*)()>(&GlobalNamespace::OVRBoneCapsule::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRBoneCapsule*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRBoneCapsule*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

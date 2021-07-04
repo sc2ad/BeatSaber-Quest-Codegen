@@ -107,65 +107,65 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapObjectSpawnCenter) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnCenter*, "", "BeatmapObjectSpawnCenter");
-// Writing MetadataGetter for method: BeatmapObjectSpawnCenter::get_spawnCenterDistance
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnCenter::get_spawnCenterDistance
 // Il2CppName: get_spawnCenterDistance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BeatmapObjectSpawnCenter::*)()>(&BeatmapObjectSpawnCenter::get_spawnCenterDistance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnCenter::*)()>(&GlobalNamespace::BeatmapObjectSpawnCenter::get_spawnCenterDistance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnCenter*), "get_spawnCenterDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnCenter*), "get_spawnCenterDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnCenter::get_spawnCenterDistanceWasFound
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnCenter::get_spawnCenterDistanceWasFound
 // Il2CppName: get_spawnCenterDistanceWasFound
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BeatmapObjectSpawnCenter::*)()>(&BeatmapObjectSpawnCenter::get_spawnCenterDistanceWasFound)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BeatmapObjectSpawnCenter::*)()>(&GlobalNamespace::BeatmapObjectSpawnCenter::get_spawnCenterDistanceWasFound)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnCenter*), "get_spawnCenterDistanceWasFound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnCenter*), "get_spawnCenterDistanceWasFound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnCenter::add_spawnCenterDistanceWasFoundEvent
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnCenter::add_spawnCenterDistanceWasFoundEvent
 // Il2CppName: add_spawnCenterDistanceWasFoundEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnCenter::*)(System::Action_1<float>*)>(&BeatmapObjectSpawnCenter::add_spawnCenterDistanceWasFoundEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnCenter::*)(System::Action_1<float>*)>(&GlobalNamespace::BeatmapObjectSpawnCenter::add_spawnCenterDistanceWasFoundEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnCenter*), "add_spawnCenterDistanceWasFoundEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnCenter*), "add_spawnCenterDistanceWasFoundEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnCenter::remove_spawnCenterDistanceWasFoundEvent
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnCenter::remove_spawnCenterDistanceWasFoundEvent
 // Il2CppName: remove_spawnCenterDistanceWasFoundEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnCenter::*)(System::Action_1<float>*)>(&BeatmapObjectSpawnCenter::remove_spawnCenterDistanceWasFoundEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnCenter::*)(System::Action_1<float>*)>(&GlobalNamespace::BeatmapObjectSpawnCenter::remove_spawnCenterDistanceWasFoundEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnCenter*), "remove_spawnCenterDistanceWasFoundEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnCenter*), "remove_spawnCenterDistanceWasFoundEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnCenter::CalculateSpawnCenterPosition
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnCenter::CalculateSpawnCenterPosition
 // Il2CppName: CalculateSpawnCenterPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BeatmapObjectSpawnCenter::*)(int)>(&BeatmapObjectSpawnCenter::CalculateSpawnCenterPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnCenter::*)(int)>(&GlobalNamespace::BeatmapObjectSpawnCenter::CalculateSpawnCenterPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnCenter*), "CalculateSpawnCenterPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnCenter*), "CalculateSpawnCenterPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnCenter::ReportAndSaveSpawnCenterDistance
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnCenter::ReportAndSaveSpawnCenterDistance
 // Il2CppName: ReportAndSaveSpawnCenterDistance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnCenter::*)(float)>(&BeatmapObjectSpawnCenter::ReportAndSaveSpawnCenterDistance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnCenter::*)(float)>(&GlobalNamespace::BeatmapObjectSpawnCenter::ReportAndSaveSpawnCenterDistance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnCenter*), "ReportAndSaveSpawnCenterDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnCenter*), "ReportAndSaveSpawnCenterDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnCenter::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnCenter::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnCenter::*)()>(&BeatmapObjectSpawnCenter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnCenter::*)()>(&GlobalNamespace::BeatmapObjectSpawnCenter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnCenter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnCenter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnCenter::*)()>(&BeatmapObjectSpawnCenter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnCenter::*)()>(&GlobalNamespace::BeatmapObjectSpawnCenter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnCenter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnCenter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

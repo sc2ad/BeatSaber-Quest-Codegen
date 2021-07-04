@@ -155,137 +155,137 @@ namespace HMUI {
   static_assert(sizeof(ContainerViewController) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ContainerViewController*, "HMUI", "ContainerViewController");
-// Writing MetadataGetter for method: ContainerViewController::get_controllersContainer
+// Writing MetadataGetter for method: HMUI::ContainerViewController::get_controllersContainer
 // Il2CppName: get_controllersContainer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (ContainerViewController::*)()>(&ContainerViewController::get_controllersContainer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (HMUI::ContainerViewController::*)()>(&HMUI::ContainerViewController::get_controllersContainer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContainerViewController*), "get_controllersContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ContainerViewController*), "get_controllersContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ContainerViewController::get_viewControllers
+// Writing MetadataGetter for method: HMUI::ContainerViewController::get_viewControllers
 // Il2CppName: get_viewControllers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<HMUI::ViewController*>* (ContainerViewController::*)()>(&ContainerViewController::get_viewControllers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<HMUI::ViewController*>* (HMUI::ContainerViewController::*)()>(&HMUI::ContainerViewController::get_viewControllers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContainerViewController*), "get_viewControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ContainerViewController*), "get_viewControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ContainerViewController::LayoutViewControllers
+// Writing MetadataGetter for method: HMUI::ContainerViewController::LayoutViewControllers
 // Il2CppName: LayoutViewControllers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContainerViewController::*)(System::Collections::Generic::List_1<HMUI::ViewController*>*)>(&ContainerViewController::LayoutViewControllers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ContainerViewController::*)(System::Collections::Generic::List_1<HMUI::ViewController*>*)>(&HMUI::ContainerViewController::LayoutViewControllers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContainerViewController*), "LayoutViewControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<HMUI::ViewController*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ContainerViewController*), "LayoutViewControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<HMUI::ViewController*>*>()});
   }
 };
-// Writing MetadataGetter for method: ContainerViewController::ClearChildViewControllers
+// Writing MetadataGetter for method: HMUI::ContainerViewController::ClearChildViewControllers
 // Il2CppName: ClearChildViewControllers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContainerViewController::*)()>(&ContainerViewController::ClearChildViewControllers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ContainerViewController::*)()>(&HMUI::ContainerViewController::ClearChildViewControllers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContainerViewController*), "ClearChildViewControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ContainerViewController*), "ClearChildViewControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ContainerViewController::SetChildViewController
+// Writing MetadataGetter for method: HMUI::ContainerViewController::SetChildViewController
 // Il2CppName: SetChildViewController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContainerViewController::*)(HMUI::ViewController*)>(&ContainerViewController::SetChildViewController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ContainerViewController::*)(HMUI::ViewController*)>(&HMUI::ContainerViewController::SetChildViewController)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContainerViewController*), "SetChildViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ContainerViewController*), "SetChildViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>()});
   }
 };
-// Writing MetadataGetter for method: ContainerViewController::SetChildViewControllers
+// Writing MetadataGetter for method: HMUI::ContainerViewController::SetChildViewControllers
 // Il2CppName: SetChildViewControllers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContainerViewController::*)(::Array<HMUI::ViewController*>*)>(&ContainerViewController::SetChildViewControllers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ContainerViewController::*)(::Array<HMUI::ViewController*>*)>(&HMUI::ContainerViewController::SetChildViewControllers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContainerViewController*), "SetChildViewControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<HMUI::ViewController*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ContainerViewController*), "SetChildViewControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<HMUI::ViewController*>*>()});
   }
 };
-// Writing MetadataGetter for method: ContainerViewController::AddViewController
+// Writing MetadataGetter for method: HMUI::ContainerViewController::AddViewController
 // Il2CppName: AddViewController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContainerViewController::*)(HMUI::ViewController*, System::Action*, System::Action_2<float, ::Array<HMUI::ViewController*>*>*, bool)>(&ContainerViewController::AddViewController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ContainerViewController::*)(HMUI::ViewController*, System::Action*, System::Action_2<float, ::Array<HMUI::ViewController*>*>*, bool)>(&HMUI::ContainerViewController::AddViewController)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContainerViewController*), "AddViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_2<float, ::Array<HMUI::ViewController*>*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ContainerViewController*), "AddViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_2<float, ::Array<HMUI::ViewController*>*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ContainerViewController::AddViewControllerCoroutine
+// Writing MetadataGetter for method: HMUI::ContainerViewController::AddViewControllerCoroutine
 // Il2CppName: AddViewControllerCoroutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (ContainerViewController::*)(HMUI::ViewController*, System::Action*, System::Action_2<float, ::Array<HMUI::ViewController*>*>*, bool)>(&ContainerViewController::AddViewControllerCoroutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (HMUI::ContainerViewController::*)(HMUI::ViewController*, System::Action*, System::Action_2<float, ::Array<HMUI::ViewController*>*>*, bool)>(&HMUI::ContainerViewController::AddViewControllerCoroutine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContainerViewController*), "AddViewControllerCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_2<float, ::Array<HMUI::ViewController*>*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ContainerViewController*), "AddViewControllerCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_2<float, ::Array<HMUI::ViewController*>*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ContainerViewController::RemoveViewControllers
+// Writing MetadataGetter for method: HMUI::ContainerViewController::RemoveViewControllers
 // Il2CppName: RemoveViewControllers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContainerViewController::*)(::Array<HMUI::ViewController*>*, System::Action*, System::Action_3<float, ::Array<HMUI::ViewController*>*, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>*, bool)>(&ContainerViewController::RemoveViewControllers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ContainerViewController::*)(::Array<HMUI::ViewController*>*, System::Action*, System::Action_3<float, ::Array<HMUI::ViewController*>*, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>*, bool)>(&HMUI::ContainerViewController::RemoveViewControllers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContainerViewController*), "RemoveViewControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<HMUI::ViewController*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_3<float, ::Array<HMUI::ViewController*>*, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ContainerViewController*), "RemoveViewControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<HMUI::ViewController*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_3<float, ::Array<HMUI::ViewController*>*, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ContainerViewController::RemoveViewControllersCoroutine
+// Writing MetadataGetter for method: HMUI::ContainerViewController::RemoveViewControllersCoroutine
 // Il2CppName: RemoveViewControllersCoroutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (ContainerViewController::*)(::Array<HMUI::ViewController*>*, System::Action*, System::Action_3<float, ::Array<HMUI::ViewController*>*, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>*, bool)>(&ContainerViewController::RemoveViewControllersCoroutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (HMUI::ContainerViewController::*)(::Array<HMUI::ViewController*>*, System::Action*, System::Action_3<float, ::Array<HMUI::ViewController*>*, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>*, bool)>(&HMUI::ContainerViewController::RemoveViewControllersCoroutine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContainerViewController*), "RemoveViewControllersCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<HMUI::ViewController*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_3<float, ::Array<HMUI::ViewController*>*, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ContainerViewController*), "RemoveViewControllersCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<HMUI::ViewController*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_3<float, ::Array<HMUI::ViewController*>*, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ContainerViewController::GetNewXPositionsForViewControllers
+// Writing MetadataGetter for method: HMUI::ContainerViewController::GetNewXPositionsForViewControllers
 // Il2CppName: GetNewXPositionsForViewControllers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<float>* (ContainerViewController::*)(System::Collections::Generic::List_1<HMUI::ViewController*>*, int)>(&ContainerViewController::GetNewXPositionsForViewControllers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<float>* (HMUI::ContainerViewController::*)(System::Collections::Generic::List_1<HMUI::ViewController*>*, int)>(&HMUI::ContainerViewController::GetNewXPositionsForViewControllers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContainerViewController*), "GetNewXPositionsForViewControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<HMUI::ViewController*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ContainerViewController*), "GetNewXPositionsForViewControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<HMUI::ViewController*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ContainerViewController::__Init
+// Writing MetadataGetter for method: HMUI::ContainerViewController::__Init
 // Il2CppName: __Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContainerViewController::*)(HMUI::Screen*, HMUI::ViewController*, HMUI::ContainerViewController*)>(&ContainerViewController::__Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ContainerViewController::*)(HMUI::Screen*, HMUI::ViewController*, HMUI::ContainerViewController*)>(&HMUI::ContainerViewController::__Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContainerViewController*), "__Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::Screen*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ContainerViewController*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ContainerViewController*), "__Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::Screen*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ContainerViewController*>()});
   }
 };
-// Writing MetadataGetter for method: ContainerViewController::__Activate
+// Writing MetadataGetter for method: HMUI::ContainerViewController::__Activate
 // Il2CppName: __Activate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContainerViewController::*)(bool, bool)>(&ContainerViewController::__Activate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ContainerViewController::*)(bool, bool)>(&HMUI::ContainerViewController::__Activate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContainerViewController*), "__Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ContainerViewController*), "__Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ContainerViewController::__Deactivate
+// Writing MetadataGetter for method: HMUI::ContainerViewController::__Deactivate
 // Il2CppName: __Deactivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContainerViewController::*)(bool, bool, bool)>(&ContainerViewController::__Deactivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ContainerViewController::*)(bool, bool, bool)>(&HMUI::ContainerViewController::__Deactivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContainerViewController*), "__Deactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ContainerViewController*), "__Deactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ContainerViewController::DeactivateGameObject
+// Writing MetadataGetter for method: HMUI::ContainerViewController::DeactivateGameObject
 // Il2CppName: DeactivateGameObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContainerViewController::*)()>(&ContainerViewController::DeactivateGameObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ContainerViewController::*)()>(&HMUI::ContainerViewController::DeactivateGameObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContainerViewController*), "DeactivateGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ContainerViewController*), "DeactivateGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ContainerViewController::New_ctor
+// Writing MetadataGetter for method: HMUI::ContainerViewController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContainerViewController::*)()>(&ContainerViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ContainerViewController::*)()>(&HMUI::ContainerViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContainerViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ContainerViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContainerViewController::*)()>(&ContainerViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ContainerViewController::*)()>(&HMUI::ContainerViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContainerViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ContainerViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

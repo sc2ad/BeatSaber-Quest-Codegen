@@ -100,49 +100,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(MaterialPropertyValuesSetter) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyValuesSetter*, "", "MaterialPropertyValuesSetter");
-// Writing MetadataGetter for method: MaterialPropertyValuesSetter::Start
+// Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyValuesSetter::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyValuesSetter::*)()>(&MaterialPropertyValuesSetter::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MaterialPropertyValuesSetter::*)()>(&GlobalNamespace::MaterialPropertyValuesSetter::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialPropertyValuesSetter*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MaterialPropertyValuesSetter*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MaterialPropertyValuesSetter::OnValidate
+// Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyValuesSetter::OnValidate
 // Il2CppName: OnValidate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyValuesSetter::*)()>(&MaterialPropertyValuesSetter::OnValidate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MaterialPropertyValuesSetter::*)()>(&GlobalNamespace::MaterialPropertyValuesSetter::OnValidate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialPropertyValuesSetter*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MaterialPropertyValuesSetter*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MaterialPropertyValuesSetter::RefreshPropertyIds
+// Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyValuesSetter::RefreshPropertyIds
 // Il2CppName: RefreshPropertyIds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyValuesSetter::*)()>(&MaterialPropertyValuesSetter::RefreshPropertyIds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MaterialPropertyValuesSetter::*)()>(&GlobalNamespace::MaterialPropertyValuesSetter::RefreshPropertyIds)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialPropertyValuesSetter*), "RefreshPropertyIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MaterialPropertyValuesSetter*), "RefreshPropertyIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MaterialPropertyValuesSetter::ApplyParams
+// Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyValuesSetter::ApplyParams
 // Il2CppName: ApplyParams
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyValuesSetter::*)()>(&MaterialPropertyValuesSetter::ApplyParams)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MaterialPropertyValuesSetter::*)()>(&GlobalNamespace::MaterialPropertyValuesSetter::ApplyParams)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialPropertyValuesSetter*), "ApplyParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MaterialPropertyValuesSetter*), "ApplyParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MaterialPropertyValuesSetter::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyValuesSetter::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyValuesSetter::*)()>(&MaterialPropertyValuesSetter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MaterialPropertyValuesSetter::*)()>(&GlobalNamespace::MaterialPropertyValuesSetter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialPropertyValuesSetter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MaterialPropertyValuesSetter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyValuesSetter::*)()>(&MaterialPropertyValuesSetter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MaterialPropertyValuesSetter::*)()>(&GlobalNamespace::MaterialPropertyValuesSetter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialPropertyValuesSetter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MaterialPropertyValuesSetter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

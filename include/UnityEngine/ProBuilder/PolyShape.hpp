@@ -194,105 +194,105 @@ namespace UnityEngine::ProBuilder {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PolyShape*, "UnityEngine.ProBuilder", "PolyShape");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PolyShape::PolyEditMode, "UnityEngine.ProBuilder", "PolyShape/PolyEditMode");
-// Writing MetadataGetter for method: PolyShape::get_controlPoints
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::PolyShape::get_controlPoints
 // Il2CppName: get_controlPoints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::Vector3>* (PolyShape::*)()>(&PolyShape::get_controlPoints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::Vector3>* (UnityEngine::ProBuilder::PolyShape::*)()>(&UnityEngine::ProBuilder::PolyShape::get_controlPoints)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PolyShape*), "get_controlPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PolyShape*), "get_controlPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PolyShape::SetControlPoints
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::PolyShape::SetControlPoints
 // Il2CppName: SetControlPoints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PolyShape::*)(System::Collections::Generic::IList_1<UnityEngine::Vector3>*)>(&PolyShape::SetControlPoints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::PolyShape::*)(System::Collections::Generic::IList_1<UnityEngine::Vector3>*)>(&UnityEngine::ProBuilder::PolyShape::SetControlPoints)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PolyShape*), "SetControlPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::Vector3>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PolyShape*), "SetControlPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::Vector3>*>()});
   }
 };
-// Writing MetadataGetter for method: PolyShape::get_extrude
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::PolyShape::get_extrude
 // Il2CppName: get_extrude
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (PolyShape::*)()>(&PolyShape::get_extrude)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ProBuilder::PolyShape::*)()>(&UnityEngine::ProBuilder::PolyShape::get_extrude)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PolyShape*), "get_extrude", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PolyShape*), "get_extrude", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PolyShape::set_extrude
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::PolyShape::set_extrude
 // Il2CppName: set_extrude
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PolyShape::*)(float)>(&PolyShape::set_extrude)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::PolyShape::*)(float)>(&UnityEngine::ProBuilder::PolyShape::set_extrude)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PolyShape*), "set_extrude", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PolyShape*), "set_extrude", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: PolyShape::get_polyEditMode
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::PolyShape::get_polyEditMode
 // Il2CppName: get_polyEditMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::PolyShape::PolyEditMode (PolyShape::*)()>(&PolyShape::get_polyEditMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::PolyShape::PolyEditMode (UnityEngine::ProBuilder::PolyShape::*)()>(&UnityEngine::ProBuilder::PolyShape::get_polyEditMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PolyShape*), "get_polyEditMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PolyShape*), "get_polyEditMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PolyShape::set_polyEditMode
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::PolyShape::set_polyEditMode
 // Il2CppName: set_polyEditMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PolyShape::*)(UnityEngine::ProBuilder::PolyShape::PolyEditMode)>(&PolyShape::set_polyEditMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::PolyShape::*)(UnityEngine::ProBuilder::PolyShape::PolyEditMode)>(&UnityEngine::ProBuilder::PolyShape::set_polyEditMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PolyShape*), "set_polyEditMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::PolyShape::PolyEditMode>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PolyShape*), "set_polyEditMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::PolyShape::PolyEditMode>()});
   }
 };
-// Writing MetadataGetter for method: PolyShape::get_flipNormals
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::PolyShape::get_flipNormals
 // Il2CppName: get_flipNormals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PolyShape::*)()>(&PolyShape::get_flipNormals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::PolyShape::*)()>(&UnityEngine::ProBuilder::PolyShape::get_flipNormals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PolyShape*), "get_flipNormals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PolyShape*), "get_flipNormals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PolyShape::set_flipNormals
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::PolyShape::set_flipNormals
 // Il2CppName: set_flipNormals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PolyShape::*)(bool)>(&PolyShape::set_flipNormals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::PolyShape::*)(bool)>(&UnityEngine::ProBuilder::PolyShape::set_flipNormals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PolyShape*), "set_flipNormals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PolyShape*), "set_flipNormals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: PolyShape::get_mesh
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::PolyShape::get_mesh
 // Il2CppName: get_mesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (PolyShape::*)()>(&PolyShape::get_mesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (UnityEngine::ProBuilder::PolyShape::*)()>(&UnityEngine::ProBuilder::PolyShape::get_mesh)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PolyShape*), "get_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PolyShape*), "get_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PolyShape::set_mesh
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::PolyShape::set_mesh
 // Il2CppName: set_mesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PolyShape::*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&PolyShape::set_mesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::PolyShape::*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&UnityEngine::ProBuilder::PolyShape::set_mesh)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PolyShape*), "set_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PolyShape*), "set_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>()});
   }
 };
-// Writing MetadataGetter for method: PolyShape::IsSnapEnabled
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::PolyShape::IsSnapEnabled
 // Il2CppName: IsSnapEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PolyShape::*)()>(&PolyShape::IsSnapEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::PolyShape::*)()>(&UnityEngine::ProBuilder::PolyShape::IsSnapEnabled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PolyShape*), "IsSnapEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PolyShape*), "IsSnapEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PolyShape::New_ctor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::PolyShape::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PolyShape::*)()>(&PolyShape::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::PolyShape::*)()>(&UnityEngine::ProBuilder::PolyShape::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PolyShape*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PolyShape*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PolyShape::*)()>(&PolyShape::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::PolyShape::*)()>(&UnityEngine::ProBuilder::PolyShape::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PolyShape*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PolyShape*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

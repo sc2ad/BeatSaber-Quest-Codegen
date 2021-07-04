@@ -73,25 +73,25 @@ namespace GlobalNamespace {
   static_assert(sizeof(HealthWarningNoTransitionInstaller) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningNoTransitionInstaller*, "", "HealthWarningNoTransitionInstaller");
-// Writing MetadataGetter for method: HealthWarningNoTransitionInstaller::InstallBindings
+// Writing MetadataGetter for method: GlobalNamespace::HealthWarningNoTransitionInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HealthWarningNoTransitionInstaller::*)(Zenject::DiContainer*)>(&HealthWarningNoTransitionInstaller::InstallBindings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HealthWarningNoTransitionInstaller::*)(Zenject::DiContainer*)>(&GlobalNamespace::HealthWarningNoTransitionInstaller::InstallBindings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HealthWarningNoTransitionInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthWarningNoTransitionInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
   }
 };
-// Writing MetadataGetter for method: HealthWarningNoTransitionInstaller::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::HealthWarningNoTransitionInstaller::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HealthWarningNoTransitionInstaller::*)()>(&HealthWarningNoTransitionInstaller::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HealthWarningNoTransitionInstaller::*)()>(&GlobalNamespace::HealthWarningNoTransitionInstaller::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HealthWarningNoTransitionInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthWarningNoTransitionInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HealthWarningNoTransitionInstaller::*)()>(&HealthWarningNoTransitionInstaller::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HealthWarningNoTransitionInstaller::*)()>(&GlobalNamespace::HealthWarningNoTransitionInstaller::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HealthWarningNoTransitionInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthWarningNoTransitionInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

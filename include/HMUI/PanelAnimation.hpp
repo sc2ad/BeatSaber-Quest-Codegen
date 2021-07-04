@@ -67,33 +67,33 @@ namespace HMUI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::PanelAnimation*, "HMUI", "PanelAnimation");
-// Writing MetadataGetter for method: PanelAnimation::StartAnimation
+// Writing MetadataGetter for method: HMUI::PanelAnimation::StartAnimation
 // Il2CppName: StartAnimation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PanelAnimation::*)(UnityEngine::CanvasGroup*, UnityEngine::CanvasGroup*, float, UnityEngine::AnimationCurve*, UnityEngine::AnimationCurve*, UnityEngine::AnimationCurve*, UnityEngine::AnimationCurve*, System::Action*)>(&PanelAnimation::StartAnimation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::PanelAnimation::*)(UnityEngine::CanvasGroup*, UnityEngine::CanvasGroup*, float, UnityEngine::AnimationCurve*, UnityEngine::AnimationCurve*, UnityEngine::AnimationCurve*, UnityEngine::AnimationCurve*, System::Action*)>(&HMUI::PanelAnimation::StartAnimation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PanelAnimation*), "StartAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::CanvasGroup*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::CanvasGroup*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::PanelAnimation*), "StartAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::CanvasGroup*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::CanvasGroup*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: PanelAnimation::AnimationCoroutine
+// Writing MetadataGetter for method: HMUI::PanelAnimation::AnimationCoroutine
 // Il2CppName: AnimationCoroutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (PanelAnimation::*)(float, UnityEngine::CanvasGroup*, UnityEngine::CanvasGroup*, UnityEngine::AnimationCurve*, UnityEngine::AnimationCurve*, UnityEngine::AnimationCurve*, UnityEngine::AnimationCurve*, System::Action*)>(&PanelAnimation::AnimationCoroutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (HMUI::PanelAnimation::*)(float, UnityEngine::CanvasGroup*, UnityEngine::CanvasGroup*, UnityEngine::AnimationCurve*, UnityEngine::AnimationCurve*, UnityEngine::AnimationCurve*, UnityEngine::AnimationCurve*, System::Action*)>(&HMUI::PanelAnimation::AnimationCoroutine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PanelAnimation*), "AnimationCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::CanvasGroup*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::CanvasGroup*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::PanelAnimation*), "AnimationCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::CanvasGroup*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::CanvasGroup*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: PanelAnimation::New_ctor
+// Writing MetadataGetter for method: HMUI::PanelAnimation::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PanelAnimation::*)()>(&PanelAnimation::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::PanelAnimation::*)()>(&HMUI::PanelAnimation::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PanelAnimation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::PanelAnimation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PanelAnimation::*)()>(&PanelAnimation::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::PanelAnimation::*)()>(&HMUI::PanelAnimation::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PanelAnimation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::PanelAnimation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

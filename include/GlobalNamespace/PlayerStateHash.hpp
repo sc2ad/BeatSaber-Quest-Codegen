@@ -162,157 +162,157 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayerStateHash) == 0x10);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerStateHash, "", "PlayerStateHash");
-// Writing MetadataGetter for method: PlayerStateHash::PlayerStateHash
+// Writing MetadataGetter for method: GlobalNamespace::PlayerStateHash::PlayerStateHash
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerStateHash::*)(GlobalNamespace::BitMask128)>(&PlayerStateHash::PlayerStateHash<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerStateHash::*)(GlobalNamespace::BitMask128)>(&GlobalNamespace::PlayerStateHash::PlayerStateHash<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerStateHash), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BitMask128>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerStateHash), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BitMask128>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerStateHash::*)(GlobalNamespace::BitMask128)>(&PlayerStateHash::PlayerStateHash<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerStateHash::*)(GlobalNamespace::BitMask128)>(&GlobalNamespace::PlayerStateHash::PlayerStateHash<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerStateHash), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BitMask128>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerStateHash), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BitMask128>()});
   }
 };
-// Writing MetadataGetter for method: PlayerStateHash::PlayerStateHash
+// Writing MetadataGetter for method: GlobalNamespace::PlayerStateHash::PlayerStateHash
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerStateHash::*)(::Il2CppString*)>(&PlayerStateHash::PlayerStateHash<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerStateHash::*)(::Il2CppString*)>(&GlobalNamespace::PlayerStateHash::PlayerStateHash<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerStateHash), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerStateHash), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerStateHash::*)(::Il2CppString*)>(&PlayerStateHash::PlayerStateHash<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerStateHash::*)(::Il2CppString*)>(&GlobalNamespace::PlayerStateHash::PlayerStateHash<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerStateHash), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerStateHash), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: PlayerStateHash::PlayerStateHash
+// Writing MetadataGetter for method: GlobalNamespace::PlayerStateHash::PlayerStateHash
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerStateHash::*)(System::Collections::Generic::HashSet_1<::Il2CppString*>*)>(&PlayerStateHash::PlayerStateHash<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerStateHash::*)(System::Collections::Generic::HashSet_1<::Il2CppString*>*)>(&GlobalNamespace::PlayerStateHash::PlayerStateHash<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerStateHash), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerStateHash), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<::Il2CppString*>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerStateHash::*)(System::Collections::Generic::HashSet_1<::Il2CppString*>*)>(&PlayerStateHash::PlayerStateHash<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerStateHash::*)(System::Collections::Generic::HashSet_1<::Il2CppString*>*)>(&GlobalNamespace::PlayerStateHash::PlayerStateHash<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerStateHash), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerStateHash), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: PlayerStateHash::Contains
+// Writing MetadataGetter for method: GlobalNamespace::PlayerStateHash::Contains
 // Il2CppName: Contains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayerStateHash::*)(::Il2CppString*)>(&PlayerStateHash::Contains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerStateHash::*)(::Il2CppString*)>(&GlobalNamespace::PlayerStateHash::Contains)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerStateHash), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerStateHash), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: PlayerStateHash::AddState
+// Writing MetadataGetter for method: GlobalNamespace::PlayerStateHash::AddState
 // Il2CppName: AddState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerStateHash (PlayerStateHash::*)(::Il2CppString*)>(&PlayerStateHash::AddState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerStateHash (GlobalNamespace::PlayerStateHash::*)(::Il2CppString*)>(&GlobalNamespace::PlayerStateHash::AddState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerStateHash), "AddState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerStateHash), "AddState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: PlayerStateHash::Serialize
+// Writing MetadataGetter for method: GlobalNamespace::PlayerStateHash::Serialize
 // Il2CppName: Serialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerStateHash::*)(LiteNetLib::Utils::NetDataWriter*)>(&PlayerStateHash::Serialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerStateHash::*)(LiteNetLib::Utils::NetDataWriter*)>(&GlobalNamespace::PlayerStateHash::Serialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerStateHash), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerStateHash), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
   }
 };
-// Writing MetadataGetter for method: PlayerStateHash::CreateFromSerializedData
+// Writing MetadataGetter for method: GlobalNamespace::PlayerStateHash::CreateFromSerializedData
 // Il2CppName: CreateFromSerializedData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerStateHash (PlayerStateHash::*)(LiteNetLib::Utils::NetDataReader*)>(&PlayerStateHash::CreateFromSerializedData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerStateHash (GlobalNamespace::PlayerStateHash::*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::PlayerStateHash::CreateFromSerializedData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerStateHash), "CreateFromSerializedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerStateHash), "CreateFromSerializedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
   }
 };
-// Writing MetadataGetter for method: PlayerStateHash::Deserialize
+// Writing MetadataGetter for method: GlobalNamespace::PlayerStateHash::Deserialize
 // Il2CppName: Deserialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerStateHash (*)(LiteNetLib::Utils::NetDataReader*)>(&PlayerStateHash::Deserialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerStateHash (*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::PlayerStateHash::Deserialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerStateHash), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerStateHash), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
   }
 };
-// Writing MetadataGetter for method: PlayerStateHash::ToShortString
+// Writing MetadataGetter for method: GlobalNamespace::PlayerStateHash::ToShortString
 // Il2CppName: ToShortString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PlayerStateHash::*)()>(&PlayerStateHash::ToShortString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PlayerStateHash::*)()>(&GlobalNamespace::PlayerStateHash::ToShortString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerStateHash), "ToShortString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerStateHash), "ToShortString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerStateHash::ToBytes
+// Writing MetadataGetter for method: GlobalNamespace::PlayerStateHash::ToBytes
 // Il2CppName: ToBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (PlayerStateHash::*)()>(&PlayerStateHash::ToBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (GlobalNamespace::PlayerStateHash::*)()>(&GlobalNamespace::PlayerStateHash::ToBytes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerStateHash), "ToBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerStateHash), "ToBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerStateHash::Equals
+// Writing MetadataGetter for method: GlobalNamespace::PlayerStateHash::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayerStateHash::*)(GlobalNamespace::PlayerStateHash)>(&PlayerStateHash::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerStateHash::*)(GlobalNamespace::PlayerStateHash)>(&GlobalNamespace::PlayerStateHash::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerStateHash), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerStateHash>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerStateHash), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerStateHash>()});
   }
 };
-// Writing MetadataGetter for method: PlayerStateHash::TryParse
+// Writing MetadataGetter for method: GlobalNamespace::PlayerStateHash::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, GlobalNamespace::PlayerStateHash&)>(&PlayerStateHash::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, GlobalNamespace::PlayerStateHash&)>(&GlobalNamespace::PlayerStateHash::TryParse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerStateHash), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerStateHash&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerStateHash), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerStateHash&>()});
   }
 };
-// Writing MetadataGetter for method: PlayerStateHash::Parse
+// Writing MetadataGetter for method: GlobalNamespace::PlayerStateHash::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerStateHash (*)(::Il2CppString*)>(&PlayerStateHash::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerStateHash (*)(::Il2CppString*)>(&GlobalNamespace::PlayerStateHash::Parse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerStateHash), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerStateHash), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: PlayerStateHash::FromBytes
+// Writing MetadataGetter for method: GlobalNamespace::PlayerStateHash::FromBytes
 // Il2CppName: FromBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerStateHash (*)(::Array<uint8_t>*, int)>(&PlayerStateHash::FromBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerStateHash (*)(::Array<uint8_t>*, int)>(&GlobalNamespace::PlayerStateHash::FromBytes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerStateHash), "FromBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerStateHash), "FromBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: PlayerStateHash::ToString
+// Writing MetadataGetter for method: GlobalNamespace::PlayerStateHash::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PlayerStateHash::*)()>(&PlayerStateHash::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PlayerStateHash::*)()>(&GlobalNamespace::PlayerStateHash::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerStateHash), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerStateHash), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerStateHash::GetHashCode
+// Writing MetadataGetter for method: GlobalNamespace::PlayerStateHash::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PlayerStateHash::*)()>(&PlayerStateHash::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::PlayerStateHash::*)()>(&GlobalNamespace::PlayerStateHash::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerStateHash), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerStateHash), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerStateHash::Equals
+// Writing MetadataGetter for method: GlobalNamespace::PlayerStateHash::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayerStateHash::*)(::Il2CppObject*)>(&PlayerStateHash::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayerStateHash::*)(::Il2CppObject*)>(&GlobalNamespace::PlayerStateHash::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerStateHash), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerStateHash), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };

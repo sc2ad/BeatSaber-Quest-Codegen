@@ -75,57 +75,57 @@ namespace NUnit::Framework::Internal::Execution {
   static_assert(sizeof(EventListenerTextWriter) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Execution::EventListenerTextWriter*, "NUnit.Framework.Internal.Execution", "EventListenerTextWriter");
-// Writing MetadataGetter for method: EventListenerTextWriter::New_ctor
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Execution::EventListenerTextWriter::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventListenerTextWriter::*)(::Il2CppString*, System::IO::TextWriter*)>(&EventListenerTextWriter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Execution::EventListenerTextWriter::*)(::Il2CppString*, System::IO::TextWriter*)>(&NUnit::Framework::Internal::Execution::EventListenerTextWriter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventListenerTextWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::TextWriter*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Execution::EventListenerTextWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::TextWriter*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventListenerTextWriter::*)(::Il2CppString*, System::IO::TextWriter*)>(&EventListenerTextWriter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Execution::EventListenerTextWriter::*)(::Il2CppString*, System::IO::TextWriter*)>(&NUnit::Framework::Internal::Execution::EventListenerTextWriter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventListenerTextWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::TextWriter*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Execution::EventListenerTextWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::TextWriter*>()});
   }
 };
-// Writing MetadataGetter for method: EventListenerTextWriter::TrySendToListener
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Execution::EventListenerTextWriter::TrySendToListener
 // Il2CppName: TrySendToListener
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EventListenerTextWriter::*)(::Il2CppString*)>(&EventListenerTextWriter::TrySendToListener)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Internal::Execution::EventListenerTextWriter::*)(::Il2CppString*)>(&NUnit::Framework::Internal::Execution::EventListenerTextWriter::TrySendToListener)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventListenerTextWriter*), "TrySendToListener", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Execution::EventListenerTextWriter*), "TrySendToListener", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: EventListenerTextWriter::Write
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Execution::EventListenerTextWriter::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventListenerTextWriter::*)(::Il2CppChar)>(&EventListenerTextWriter::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Execution::EventListenerTextWriter::*)(::Il2CppChar)>(&NUnit::Framework::Internal::Execution::EventListenerTextWriter::Write)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventListenerTextWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Execution::EventListenerTextWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
   }
 };
-// Writing MetadataGetter for method: EventListenerTextWriter::Write
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Execution::EventListenerTextWriter::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventListenerTextWriter::*)(::Il2CppString*)>(&EventListenerTextWriter::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Execution::EventListenerTextWriter::*)(::Il2CppString*)>(&NUnit::Framework::Internal::Execution::EventListenerTextWriter::Write)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventListenerTextWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Execution::EventListenerTextWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: EventListenerTextWriter::WriteLine
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Execution::EventListenerTextWriter::WriteLine
 // Il2CppName: WriteLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventListenerTextWriter::*)(::Il2CppString*)>(&EventListenerTextWriter::WriteLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Execution::EventListenerTextWriter::*)(::Il2CppString*)>(&NUnit::Framework::Internal::Execution::EventListenerTextWriter::WriteLine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventListenerTextWriter*), "WriteLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Execution::EventListenerTextWriter*), "WriteLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: EventListenerTextWriter::get_Encoding
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Execution::EventListenerTextWriter::get_Encoding
 // Il2CppName: get_Encoding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (EventListenerTextWriter::*)()>(&EventListenerTextWriter::get_Encoding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (NUnit::Framework::Internal::Execution::EventListenerTextWriter::*)()>(&NUnit::Framework::Internal::Execution::EventListenerTextWriter::get_Encoding)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventListenerTextWriter*), "get_Encoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Execution::EventListenerTextWriter*), "get_Encoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

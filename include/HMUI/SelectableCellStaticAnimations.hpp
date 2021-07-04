@@ -99,65 +99,65 @@ namespace HMUI {
   static_assert(sizeof(SelectableCellStaticAnimations) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SelectableCellStaticAnimations*, "HMUI", "SelectableCellStaticAnimations");
-// Writing MetadataGetter for method: SelectableCellStaticAnimations::Awake
+// Writing MetadataGetter for method: HMUI::SelectableCellStaticAnimations::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCellStaticAnimations::*)()>(&SelectableCellStaticAnimations::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SelectableCellStaticAnimations::*)()>(&HMUI::SelectableCellStaticAnimations::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectableCellStaticAnimations*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SelectableCellStaticAnimations*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SelectableCellStaticAnimations::Start
+// Writing MetadataGetter for method: HMUI::SelectableCellStaticAnimations::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCellStaticAnimations::*)()>(&SelectableCellStaticAnimations::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SelectableCellStaticAnimations::*)()>(&HMUI::SelectableCellStaticAnimations::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectableCellStaticAnimations*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SelectableCellStaticAnimations*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SelectableCellStaticAnimations::OnDestroy
+// Writing MetadataGetter for method: HMUI::SelectableCellStaticAnimations::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCellStaticAnimations::*)()>(&SelectableCellStaticAnimations::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SelectableCellStaticAnimations::*)()>(&HMUI::SelectableCellStaticAnimations::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectableCellStaticAnimations*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SelectableCellStaticAnimations*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SelectableCellStaticAnimations::HandleSelectionDidChange
+// Writing MetadataGetter for method: HMUI::SelectableCellStaticAnimations::HandleSelectionDidChange
 // Il2CppName: HandleSelectionDidChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCellStaticAnimations::*)(HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType, ::Il2CppObject*)>(&SelectableCellStaticAnimations::HandleSelectionDidChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SelectableCellStaticAnimations::*)(HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType, ::Il2CppObject*)>(&HMUI::SelectableCellStaticAnimations::HandleSelectionDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectableCellStaticAnimations*), "HandleSelectionDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SelectableCellStaticAnimations*), "HandleSelectionDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: SelectableCellStaticAnimations::HandleHighlightDidChange
+// Writing MetadataGetter for method: HMUI::SelectableCellStaticAnimations::HandleHighlightDidChange
 // Il2CppName: HandleHighlightDidChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCellStaticAnimations::*)(HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType)>(&SelectableCellStaticAnimations::HandleHighlightDidChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SelectableCellStaticAnimations::*)(HMUI::SelectableCell*, HMUI::SelectableCell::TransitionType)>(&HMUI::SelectableCellStaticAnimations::HandleHighlightDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectableCellStaticAnimations*), "HandleHighlightDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SelectableCellStaticAnimations*), "HandleHighlightDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>()});
   }
 };
-// Writing MetadataGetter for method: SelectableCellStaticAnimations::RefreshVisuals
+// Writing MetadataGetter for method: HMUI::SelectableCellStaticAnimations::RefreshVisuals
 // Il2CppName: RefreshVisuals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCellStaticAnimations::*)()>(&SelectableCellStaticAnimations::RefreshVisuals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SelectableCellStaticAnimations::*)()>(&HMUI::SelectableCellStaticAnimations::RefreshVisuals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectableCellStaticAnimations*), "RefreshVisuals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SelectableCellStaticAnimations*), "RefreshVisuals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SelectableCellStaticAnimations::New_ctor
+// Writing MetadataGetter for method: HMUI::SelectableCellStaticAnimations::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCellStaticAnimations::*)()>(&SelectableCellStaticAnimations::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SelectableCellStaticAnimations::*)()>(&HMUI::SelectableCellStaticAnimations::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectableCellStaticAnimations*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SelectableCellStaticAnimations*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableCellStaticAnimations::*)()>(&SelectableCellStaticAnimations::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SelectableCellStaticAnimations::*)()>(&HMUI::SelectableCellStaticAnimations::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectableCellStaticAnimations*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SelectableCellStaticAnimations*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

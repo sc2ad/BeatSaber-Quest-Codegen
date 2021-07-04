@@ -59,41 +59,41 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate*, "", "OVRManager/InstantiateMrcCameraDelegate");
-// Writing MetadataGetter for method: OVRManager_InstantiateMrcCameraDelegate::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager_InstantiateMrcCameraDelegate::*)(::Il2CppObject*, System::IntPtr)>(&OVRManager_InstantiateMrcCameraDelegate::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::*)(::Il2CppObject*, System::IntPtr)>(&GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRManager_InstantiateMrcCameraDelegate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRManager_InstantiateMrcCameraDelegate::*)(::Il2CppObject*, System::IntPtr)>(&OVRManager_InstantiateMrcCameraDelegate::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::*)(::Il2CppObject*, System::IntPtr)>(&GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRManager_InstantiateMrcCameraDelegate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: OVRManager_InstantiateMrcCameraDelegate::Invoke
+// Writing MetadataGetter for method: GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (OVRManager_InstantiateMrcCameraDelegate::*)(UnityEngine::GameObject*, GlobalNamespace::OVRManager_MrcCameraType)>(&OVRManager_InstantiateMrcCameraDelegate::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::*)(UnityEngine::GameObject*, GlobalNamespace::OVRManager_MrcCameraType)>(&GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRManager_InstantiateMrcCameraDelegate*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRManager_MrcCameraType>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRManager_MrcCameraType>()});
   }
 };
-// Writing MetadataGetter for method: OVRManager_InstantiateMrcCameraDelegate::BeginInvoke
+// Writing MetadataGetter for method: GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVRManager_InstantiateMrcCameraDelegate::*)(UnityEngine::GameObject*, GlobalNamespace::OVRManager_MrcCameraType, System::AsyncCallback*, ::Il2CppObject*)>(&OVRManager_InstantiateMrcCameraDelegate::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::*)(UnityEngine::GameObject*, GlobalNamespace::OVRManager_MrcCameraType, System::AsyncCallback*, ::Il2CppObject*)>(&GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRManager_InstantiateMrcCameraDelegate*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRManager_MrcCameraType>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRManager_MrcCameraType>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: OVRManager_InstantiateMrcCameraDelegate::EndInvoke
+// Writing MetadataGetter for method: GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (OVRManager_InstantiateMrcCameraDelegate::*)(System::IAsyncResult*)>(&OVRManager_InstantiateMrcCameraDelegate::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::*)(System::IAsyncResult*)>(&GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRManager_InstantiateMrcCameraDelegate*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

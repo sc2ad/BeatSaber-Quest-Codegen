@@ -86,49 +86,49 @@ namespace System::Threading {
   static_assert(sizeof(QueueUserWorkItemCallback) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::QueueUserWorkItemCallback*, "System.Threading", "QueueUserWorkItemCallback");
-// Writing MetadataGetter for method: QueueUserWorkItemCallback::_cctor
+// Writing MetadataGetter for method: System::Threading::QueueUserWorkItemCallback::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&QueueUserWorkItemCallback::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Threading::QueueUserWorkItemCallback::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(QueueUserWorkItemCallback*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::QueueUserWorkItemCallback*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: QueueUserWorkItemCallback::New_ctor
+// Writing MetadataGetter for method: System::Threading::QueueUserWorkItemCallback::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueueUserWorkItemCallback::*)(System::Threading::WaitCallback*, ::Il2CppObject*, bool, System::Threading::StackCrawlMark&)>(&QueueUserWorkItemCallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::QueueUserWorkItemCallback::*)(System::Threading::WaitCallback*, ::Il2CppObject*, bool, System::Threading::StackCrawlMark&)>(&System::Threading::QueueUserWorkItemCallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(QueueUserWorkItemCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::WaitCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::StackCrawlMark&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::QueueUserWorkItemCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::WaitCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::StackCrawlMark&>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueueUserWorkItemCallback::*)(System::Threading::WaitCallback*, ::Il2CppObject*, bool, System::Threading::StackCrawlMark&)>(&QueueUserWorkItemCallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::QueueUserWorkItemCallback::*)(System::Threading::WaitCallback*, ::Il2CppObject*, bool, System::Threading::StackCrawlMark&)>(&System::Threading::QueueUserWorkItemCallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(QueueUserWorkItemCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::WaitCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::StackCrawlMark&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::QueueUserWorkItemCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::WaitCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::StackCrawlMark&>()});
   }
 };
-// Writing MetadataGetter for method: QueueUserWorkItemCallback::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem
+// Writing MetadataGetter for method: System::Threading::QueueUserWorkItemCallback::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem
 // Il2CppName: System.Threading.IThreadPoolWorkItem.ExecuteWorkItem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueueUserWorkItemCallback::*)()>(&QueueUserWorkItemCallback::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::QueueUserWorkItemCallback::*)()>(&System::Threading::QueueUserWorkItemCallback::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(QueueUserWorkItemCallback*), "System.Threading.IThreadPoolWorkItem.ExecuteWorkItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::QueueUserWorkItemCallback*), "System.Threading.IThreadPoolWorkItem.ExecuteWorkItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: QueueUserWorkItemCallback::System_Threading_IThreadPoolWorkItem_MarkAborted
+// Writing MetadataGetter for method: System::Threading::QueueUserWorkItemCallback::System_Threading_IThreadPoolWorkItem_MarkAborted
 // Il2CppName: System.Threading.IThreadPoolWorkItem.MarkAborted
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QueueUserWorkItemCallback::*)(System::Threading::ThreadAbortException*)>(&QueueUserWorkItemCallback::System_Threading_IThreadPoolWorkItem_MarkAborted)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::QueueUserWorkItemCallback::*)(System::Threading::ThreadAbortException*)>(&System::Threading::QueueUserWorkItemCallback::System_Threading_IThreadPoolWorkItem_MarkAborted)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(QueueUserWorkItemCallback*), "System.Threading.IThreadPoolWorkItem.MarkAborted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadAbortException*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::QueueUserWorkItemCallback*), "System.Threading.IThreadPoolWorkItem.MarkAborted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadAbortException*>()});
   }
 };
-// Writing MetadataGetter for method: QueueUserWorkItemCallback::WaitCallback_Context
+// Writing MetadataGetter for method: System::Threading::QueueUserWorkItemCallback::WaitCallback_Context
 // Il2CppName: WaitCallback_Context
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&QueueUserWorkItemCallback::WaitCallback_Context)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&System::Threading::QueueUserWorkItemCallback::WaitCallback_Context)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(QueueUserWorkItemCallback*), "WaitCallback_Context", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::QueueUserWorkItemCallback*), "WaitCallback_Context", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };

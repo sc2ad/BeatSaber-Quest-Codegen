@@ -76,49 +76,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapObjectSpawnControllerPlayerHeightSetter) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter*, "", "BeatmapObjectSpawnControllerPlayerHeightSetter");
-// Writing MetadataGetter for method: BeatmapObjectSpawnControllerPlayerHeightSetter::Start
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnControllerPlayerHeightSetter::*)()>(&BeatmapObjectSpawnControllerPlayerHeightSetter::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter::*)()>(&GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnControllerPlayerHeightSetter*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnControllerPlayerHeightSetter::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnControllerPlayerHeightSetter::*)()>(&BeatmapObjectSpawnControllerPlayerHeightSetter::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter::*)()>(&GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnControllerPlayerHeightSetter*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnControllerPlayerHeightSetter::HandlePlayerHeightDidChange
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter::HandlePlayerHeightDidChange
 // Il2CppName: HandlePlayerHeightDidChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnControllerPlayerHeightSetter::*)(float)>(&BeatmapObjectSpawnControllerPlayerHeightSetter::HandlePlayerHeightDidChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter::*)(float)>(&GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter::HandlePlayerHeightDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnControllerPlayerHeightSetter*), "HandlePlayerHeightDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter*), "HandlePlayerHeightDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnControllerPlayerHeightSetter::JumpOffsetYForPlayerHeight
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter::JumpOffsetYForPlayerHeight
 // Il2CppName: JumpOffsetYForPlayerHeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&BeatmapObjectSpawnControllerPlayerHeightSetter::JumpOffsetYForPlayerHeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter::JumpOffsetYForPlayerHeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnControllerPlayerHeightSetter*), "JumpOffsetYForPlayerHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter*), "JumpOffsetYForPlayerHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnControllerPlayerHeightSetter::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnControllerPlayerHeightSetter::*)()>(&BeatmapObjectSpawnControllerPlayerHeightSetter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter::*)()>(&GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnControllerPlayerHeightSetter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnControllerPlayerHeightSetter::*)()>(&BeatmapObjectSpawnControllerPlayerHeightSetter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter::*)()>(&GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnControllerPlayerHeightSetter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

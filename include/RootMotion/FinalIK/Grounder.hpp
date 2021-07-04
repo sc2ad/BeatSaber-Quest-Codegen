@@ -117,89 +117,89 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(Grounder) == 0x39);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Grounder*, "RootMotion.FinalIK", "Grounder");
-// Writing MetadataGetter for method: Grounder::ResetPosition
+// Writing MetadataGetter for method: RootMotion::FinalIK::Grounder::ResetPosition
 // Il2CppName: ResetPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounder::*)()>(&Grounder::ResetPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounder::*)()>(&RootMotion::FinalIK::Grounder::ResetPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Grounder*), "ResetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounder*), "ResetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Grounder::get_initiated
+// Writing MetadataGetter for method: RootMotion::FinalIK::Grounder::get_initiated
 // Il2CppName: get_initiated
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Grounder::*)()>(&Grounder::get_initiated)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::Grounder::*)()>(&RootMotion::FinalIK::Grounder::get_initiated)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Grounder*), "get_initiated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounder*), "get_initiated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Grounder::set_initiated
+// Writing MetadataGetter for method: RootMotion::FinalIK::Grounder::set_initiated
 // Il2CppName: set_initiated
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounder::*)(bool)>(&Grounder::set_initiated)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounder::*)(bool)>(&RootMotion::FinalIK::Grounder::set_initiated)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Grounder*), "set_initiated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounder*), "set_initiated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Grounder::GetSpineOffsetTarget
+// Writing MetadataGetter for method: RootMotion::FinalIK::Grounder::GetSpineOffsetTarget
 // Il2CppName: GetSpineOffsetTarget
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Grounder::*)()>(&Grounder::GetSpineOffsetTarget)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::Grounder::*)()>(&RootMotion::FinalIK::Grounder::GetSpineOffsetTarget)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Grounder*), "GetSpineOffsetTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounder*), "GetSpineOffsetTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Grounder::LogWarning
+// Writing MetadataGetter for method: RootMotion::FinalIK::Grounder::LogWarning
 // Il2CppName: LogWarning
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounder::*)(::Il2CppString*)>(&Grounder::LogWarning)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounder::*)(::Il2CppString*)>(&RootMotion::FinalIK::Grounder::LogWarning)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Grounder*), "LogWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounder*), "LogWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Grounder::GetLegSpineBendVector
+// Writing MetadataGetter for method: RootMotion::FinalIK::Grounder::GetLegSpineBendVector
 // Il2CppName: GetLegSpineBendVector
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Grounder::*)(RootMotion::FinalIK::Grounding::Leg*)>(&Grounder::GetLegSpineBendVector)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::Grounder::*)(RootMotion::FinalIK::Grounding::Leg*)>(&RootMotion::FinalIK::Grounder::GetLegSpineBendVector)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Grounder*), "GetLegSpineBendVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::Grounding::Leg*>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounder*), "GetLegSpineBendVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::Grounding::Leg*>()});
   }
 };
-// Writing MetadataGetter for method: Grounder::GetLegSpineTangent
+// Writing MetadataGetter for method: RootMotion::FinalIK::Grounder::GetLegSpineTangent
 // Il2CppName: GetLegSpineTangent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Grounder::*)(RootMotion::FinalIK::Grounding::Leg*)>(&Grounder::GetLegSpineTangent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::Grounder::*)(RootMotion::FinalIK::Grounding::Leg*)>(&RootMotion::FinalIK::Grounder::GetLegSpineTangent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Grounder*), "GetLegSpineTangent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::Grounding::Leg*>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounder*), "GetLegSpineTangent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::Grounding::Leg*>()});
   }
 };
-// Writing MetadataGetter for method: Grounder::OpenUserManual
+// Writing MetadataGetter for method: RootMotion::FinalIK::Grounder::OpenUserManual
 // Il2CppName: OpenUserManual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounder::*)()>(&Grounder::OpenUserManual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounder::*)()>(&RootMotion::FinalIK::Grounder::OpenUserManual)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Grounder*), "OpenUserManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounder*), "OpenUserManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Grounder::OpenScriptReference
+// Writing MetadataGetter for method: RootMotion::FinalIK::Grounder::OpenScriptReference
 // Il2CppName: OpenScriptReference
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounder::*)()>(&Grounder::OpenScriptReference)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounder::*)()>(&RootMotion::FinalIK::Grounder::OpenScriptReference)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Grounder*), "OpenScriptReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounder*), "OpenScriptReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Grounder::New_ctor
+// Writing MetadataGetter for method: RootMotion::FinalIK::Grounder::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounder::*)()>(&Grounder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounder::*)()>(&RootMotion::FinalIK::Grounder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Grounder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Grounder::*)()>(&Grounder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounder::*)()>(&RootMotion::FinalIK::Grounder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Grounder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

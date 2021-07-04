@@ -49,17 +49,17 @@ namespace TMPro {
   static_assert(sizeof(CaretInfo) == 0x8);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::CaretInfo, "TMPro", "CaretInfo");
-// Writing MetadataGetter for method: CaretInfo::CaretInfo
+// Writing MetadataGetter for method: TMPro::CaretInfo::CaretInfo
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaretInfo::*)(int, TMPro::CaretPosition)>(&CaretInfo::CaretInfo<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::CaretInfo::*)(int, TMPro::CaretPosition)>(&TMPro::CaretInfo::CaretInfo<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CaretInfo), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::CaretPosition>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::CaretInfo), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::CaretPosition>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaretInfo::*)(int, TMPro::CaretPosition)>(&CaretInfo::CaretInfo<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::CaretInfo::*)(int, TMPro::CaretPosition)>(&TMPro::CaretInfo::CaretInfo<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CaretInfo), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::CaretPosition>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::CaretInfo), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::CaretPosition>()});
   }
 };

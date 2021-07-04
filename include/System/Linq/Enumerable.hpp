@@ -668,225 +668,225 @@ namespace System::Linq {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Linq::Enumerable*, "System.Linq", "Enumerable");
-// Writing MetadataGetter for method: Enumerable::Where
+// Writing MetadataGetter for method: System::Linq::Enumerable::Where
 // Il2CppName: Where
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::Select
+// Writing MetadataGetter for method: System::Linq::Enumerable::Select
 // Il2CppName: Select
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::CombinePredicates
+// Writing MetadataGetter for method: System::Linq::Enumerable::CombinePredicates
 // Il2CppName: CombinePredicates
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::CombineSelectors
+// Writing MetadataGetter for method: System::Linq::Enumerable::CombineSelectors
 // Il2CppName: CombineSelectors
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::SelectMany
+// Writing MetadataGetter for method: System::Linq::Enumerable::SelectMany
 // Il2CppName: SelectMany
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::SelectManyIterator
+// Writing MetadataGetter for method: System::Linq::Enumerable::SelectManyIterator
 // Il2CppName: SelectManyIterator
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::Take
+// Writing MetadataGetter for method: System::Linq::Enumerable::Take
 // Il2CppName: Take
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::TakeIterator
+// Writing MetadataGetter for method: System::Linq::Enumerable::TakeIterator
 // Il2CppName: TakeIterator
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::Skip
+// Writing MetadataGetter for method: System::Linq::Enumerable::Skip
 // Il2CppName: Skip
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::SkipIterator
+// Writing MetadataGetter for method: System::Linq::Enumerable::SkipIterator
 // Il2CppName: SkipIterator
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::OrderBy
+// Writing MetadataGetter for method: System::Linq::Enumerable::OrderBy
 // Il2CppName: OrderBy
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::OrderByDescending
+// Writing MetadataGetter for method: System::Linq::Enumerable::OrderByDescending
 // Il2CppName: OrderByDescending
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::ThenBy
+// Writing MetadataGetter for method: System::Linq::Enumerable::ThenBy
 // Il2CppName: ThenBy
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::GroupBy
+// Writing MetadataGetter for method: System::Linq::Enumerable::GroupBy
 // Il2CppName: GroupBy
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::Concat
+// Writing MetadataGetter for method: System::Linq::Enumerable::Concat
 // Il2CppName: Concat
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::ConcatIterator
+// Writing MetadataGetter for method: System::Linq::Enumerable::ConcatIterator
 // Il2CppName: ConcatIterator
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::Append
+// Writing MetadataGetter for method: System::Linq::Enumerable::Append
 // Il2CppName: Append
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::AppendIterator
+// Writing MetadataGetter for method: System::Linq::Enumerable::AppendIterator
 // Il2CppName: AppendIterator
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::Distinct
+// Writing MetadataGetter for method: System::Linq::Enumerable::Distinct
 // Il2CppName: Distinct
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::DistinctIterator
+// Writing MetadataGetter for method: System::Linq::Enumerable::DistinctIterator
 // Il2CppName: DistinctIterator
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::Except
+// Writing MetadataGetter for method: System::Linq::Enumerable::Except
 // Il2CppName: Except
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::ExceptIterator
+// Writing MetadataGetter for method: System::Linq::Enumerable::ExceptIterator
 // Il2CppName: ExceptIterator
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::Reverse
+// Writing MetadataGetter for method: System::Linq::Enumerable::Reverse
 // Il2CppName: Reverse
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::ReverseIterator
+// Writing MetadataGetter for method: System::Linq::Enumerable::ReverseIterator
 // Il2CppName: ReverseIterator
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::SequenceEqual
+// Writing MetadataGetter for method: System::Linq::Enumerable::SequenceEqual
 // Il2CppName: SequenceEqual
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::SequenceEqual
+// Writing MetadataGetter for method: System::Linq::Enumerable::SequenceEqual
 // Il2CppName: SequenceEqual
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::ToArray
+// Writing MetadataGetter for method: System::Linq::Enumerable::ToArray
 // Il2CppName: ToArray
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::ToList
+// Writing MetadataGetter for method: System::Linq::Enumerable::ToList
 // Il2CppName: ToList
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::ToDictionary
+// Writing MetadataGetter for method: System::Linq::Enumerable::ToDictionary
 // Il2CppName: ToDictionary
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::ToDictionary
+// Writing MetadataGetter for method: System::Linq::Enumerable::ToDictionary
 // Il2CppName: ToDictionary
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::DefaultIfEmpty
+// Writing MetadataGetter for method: System::Linq::Enumerable::DefaultIfEmpty
 // Il2CppName: DefaultIfEmpty
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::DefaultIfEmptyIterator
+// Writing MetadataGetter for method: System::Linq::Enumerable::DefaultIfEmptyIterator
 // Il2CppName: DefaultIfEmptyIterator
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::OfType
+// Writing MetadataGetter for method: System::Linq::Enumerable::OfType
 // Il2CppName: OfType
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::OfTypeIterator
+// Writing MetadataGetter for method: System::Linq::Enumerable::OfTypeIterator
 // Il2CppName: OfTypeIterator
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::Cast
+// Writing MetadataGetter for method: System::Linq::Enumerable::Cast
 // Il2CppName: Cast
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::CastIterator
+// Writing MetadataGetter for method: System::Linq::Enumerable::CastIterator
 // Il2CppName: CastIterator
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::First
+// Writing MetadataGetter for method: System::Linq::Enumerable::First
 // Il2CppName: First
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::First
+// Writing MetadataGetter for method: System::Linq::Enumerable::First
 // Il2CppName: First
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::FirstOrDefault
+// Writing MetadataGetter for method: System::Linq::Enumerable::FirstOrDefault
 // Il2CppName: FirstOrDefault
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::FirstOrDefault
+// Writing MetadataGetter for method: System::Linq::Enumerable::FirstOrDefault
 // Il2CppName: FirstOrDefault
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::Last
+// Writing MetadataGetter for method: System::Linq::Enumerable::Last
 // Il2CppName: Last
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::LastOrDefault
+// Writing MetadataGetter for method: System::Linq::Enumerable::LastOrDefault
 // Il2CppName: LastOrDefault
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::Single
+// Writing MetadataGetter for method: System::Linq::Enumerable::Single
 // Il2CppName: Single
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::SingleOrDefault
+// Writing MetadataGetter for method: System::Linq::Enumerable::SingleOrDefault
 // Il2CppName: SingleOrDefault
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::SingleOrDefault
+// Writing MetadataGetter for method: System::Linq::Enumerable::SingleOrDefault
 // Il2CppName: SingleOrDefault
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::ElementAt
+// Writing MetadataGetter for method: System::Linq::Enumerable::ElementAt
 // Il2CppName: ElementAt
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::Range
+// Writing MetadataGetter for method: System::Linq::Enumerable::Range
 // Il2CppName: Range
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<int>* (*)(int, int)>(&Enumerable::Range)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<int>* (*)(int, int)>(&System::Linq::Enumerable::Range)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Enumerable*), "Range", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Linq::Enumerable*), "Range", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Enumerable::RangeIterator
+// Writing MetadataGetter for method: System::Linq::Enumerable::RangeIterator
 // Il2CppName: RangeIterator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<int>* (*)(int, int)>(&Enumerable::RangeIterator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<int>* (*)(int, int)>(&System::Linq::Enumerable::RangeIterator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Enumerable*), "RangeIterator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Linq::Enumerable*), "RangeIterator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Enumerable::Repeat
+// Writing MetadataGetter for method: System::Linq::Enumerable::Repeat
 // Il2CppName: Repeat
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::RepeatIterator
+// Writing MetadataGetter for method: System::Linq::Enumerable::RepeatIterator
 // Il2CppName: RepeatIterator
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::Empty
+// Writing MetadataGetter for method: System::Linq::Enumerable::Empty
 // Il2CppName: Empty
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::Any
+// Writing MetadataGetter for method: System::Linq::Enumerable::Any
 // Il2CppName: Any
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::Any
+// Writing MetadataGetter for method: System::Linq::Enumerable::Any
 // Il2CppName: Any
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::All
+// Writing MetadataGetter for method: System::Linq::Enumerable::All
 // Il2CppName: All
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::Count
+// Writing MetadataGetter for method: System::Linq::Enumerable::Count
 // Il2CppName: Count
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::Contains
+// Writing MetadataGetter for method: System::Linq::Enumerable::Contains
 // Il2CppName: Contains
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::Contains
+// Writing MetadataGetter for method: System::Linq::Enumerable::Contains
 // Il2CppName: Contains
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::Aggregate
+// Writing MetadataGetter for method: System::Linq::Enumerable::Aggregate
 // Il2CppName: Aggregate
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::Sum
+// Writing MetadataGetter for method: System::Linq::Enumerable::Sum
 // Il2CppName: Sum
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Collections::Generic::IEnumerable_1<int>*)>(&Enumerable::Sum)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Collections::Generic::IEnumerable_1<int>*)>(&System::Linq::Enumerable::Sum)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Enumerable*), "Sum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Linq::Enumerable*), "Sum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
   }
 };
-// Writing MetadataGetter for method: Enumerable::Sum
+// Writing MetadataGetter for method: System::Linq::Enumerable::Sum
 // Il2CppName: Sum
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Enumerable::Min
+// Writing MetadataGetter for method: System::Linq::Enumerable::Min
 // Il2CppName: Min
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(System::Collections::Generic::IEnumerable_1<float>*)>(&Enumerable::Min)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(System::Collections::Generic::IEnumerable_1<float>*)>(&System::Linq::Enumerable::Min)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Enumerable*), "Min", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Linq::Enumerable*), "Min", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<float>*>()});
   }
 };
-// Writing MetadataGetter for method: Enumerable::Max
+// Writing MetadataGetter for method: System::Linq::Enumerable::Max
 // Il2CppName: Max
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Collections::Generic::IEnumerable_1<int>*)>(&Enumerable::Max)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Collections::Generic::IEnumerable_1<int>*)>(&System::Linq::Enumerable::Max)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Enumerable*), "Max", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Linq::Enumerable*), "Max", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
   }
 };
-// Writing MetadataGetter for method: Enumerable::Max
+// Writing MetadataGetter for method: System::Linq::Enumerable::Max
 // Il2CppName: Max
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(System::Collections::Generic::IEnumerable_1<float>*)>(&Enumerable::Max)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(System::Collections::Generic::IEnumerable_1<float>*)>(&System::Linq::Enumerable::Max)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Enumerable*), "Max", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Linq::Enumerable*), "Max", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<float>*>()});
   }
 };
-// Writing MetadataGetter for method: Enumerable::Max
+// Writing MetadataGetter for method: System::Linq::Enumerable::Max
 // Il2CppName: Max
 // Cannot write MetadataGetter for generic methods!

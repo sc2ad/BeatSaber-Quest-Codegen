@@ -109,99 +109,99 @@ namespace System::Reflection::Emit {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::DynamicMethod*, "System.Reflection.Emit", "DynamicMethod");
-// Writing MetadataGetter for method: DynamicMethod::get_Attributes
+// Writing MetadataGetter for method: System::Reflection::Emit::DynamicMethod::get_Attributes
 // Il2CppName: get_Attributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodAttributes (DynamicMethod::*)()>(&DynamicMethod::get_Attributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodAttributes (System::Reflection::Emit::DynamicMethod::*)()>(&System::Reflection::Emit::DynamicMethod::get_Attributes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DynamicMethod*), "get_Attributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::DynamicMethod*), "get_Attributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DynamicMethod::get_DeclaringType
+// Writing MetadataGetter for method: System::Reflection::Emit::DynamicMethod::get_DeclaringType
 // Il2CppName: get_DeclaringType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (DynamicMethod::*)()>(&DynamicMethod::get_DeclaringType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Reflection::Emit::DynamicMethod::*)()>(&System::Reflection::Emit::DynamicMethod::get_DeclaringType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DynamicMethod*), "get_DeclaringType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::DynamicMethod*), "get_DeclaringType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DynamicMethod::get_MethodHandle
+// Writing MetadataGetter for method: System::Reflection::Emit::DynamicMethod::get_MethodHandle
 // Il2CppName: get_MethodHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeMethodHandle (DynamicMethod::*)()>(&DynamicMethod::get_MethodHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeMethodHandle (System::Reflection::Emit::DynamicMethod::*)()>(&System::Reflection::Emit::DynamicMethod::get_MethodHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DynamicMethod*), "get_MethodHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::DynamicMethod*), "get_MethodHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DynamicMethod::get_Name
+// Writing MetadataGetter for method: System::Reflection::Emit::DynamicMethod::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DynamicMethod::*)()>(&DynamicMethod::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Reflection::Emit::DynamicMethod::*)()>(&System::Reflection::Emit::DynamicMethod::get_Name)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DynamicMethod*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::DynamicMethod*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DynamicMethod::get_ReflectedType
+// Writing MetadataGetter for method: System::Reflection::Emit::DynamicMethod::get_ReflectedType
 // Il2CppName: get_ReflectedType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (DynamicMethod::*)()>(&DynamicMethod::get_ReflectedType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Reflection::Emit::DynamicMethod::*)()>(&System::Reflection::Emit::DynamicMethod::get_ReflectedType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DynamicMethod*), "get_ReflectedType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::DynamicMethod*), "get_ReflectedType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DynamicMethod::GetBaseDefinition
+// Writing MetadataGetter for method: System::Reflection::Emit::DynamicMethod::GetBaseDefinition
 // Il2CppName: GetBaseDefinition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (DynamicMethod::*)()>(&DynamicMethod::GetBaseDefinition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (System::Reflection::Emit::DynamicMethod::*)()>(&System::Reflection::Emit::DynamicMethod::GetBaseDefinition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DynamicMethod*), "GetBaseDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::DynamicMethod*), "GetBaseDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DynamicMethod::GetCustomAttributes
+// Writing MetadataGetter for method: System::Reflection::Emit::DynamicMethod::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (DynamicMethod::*)(bool)>(&DynamicMethod::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Reflection::Emit::DynamicMethod::*)(bool)>(&System::Reflection::Emit::DynamicMethod::GetCustomAttributes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DynamicMethod*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::DynamicMethod*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: DynamicMethod::GetCustomAttributes
+// Writing MetadataGetter for method: System::Reflection::Emit::DynamicMethod::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (DynamicMethod::*)(System::Type*, bool)>(&DynamicMethod::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Reflection::Emit::DynamicMethod::*)(System::Type*, bool)>(&System::Reflection::Emit::DynamicMethod::GetCustomAttributes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DynamicMethod*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::DynamicMethod*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: DynamicMethod::GetMethodImplementationFlags
+// Writing MetadataGetter for method: System::Reflection::Emit::DynamicMethod::GetMethodImplementationFlags
 // Il2CppName: GetMethodImplementationFlags
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodImplAttributes (DynamicMethod::*)()>(&DynamicMethod::GetMethodImplementationFlags)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodImplAttributes (System::Reflection::Emit::DynamicMethod::*)()>(&System::Reflection::Emit::DynamicMethod::GetMethodImplementationFlags)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DynamicMethod*), "GetMethodImplementationFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::DynamicMethod*), "GetMethodImplementationFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DynamicMethod::GetParameters
+// Writing MetadataGetter for method: System::Reflection::Emit::DynamicMethod::GetParameters
 // Il2CppName: GetParameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::ParameterInfo*>* (DynamicMethod::*)()>(&DynamicMethod::GetParameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::ParameterInfo*>* (System::Reflection::Emit::DynamicMethod::*)()>(&System::Reflection::Emit::DynamicMethod::GetParameters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DynamicMethod*), "GetParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::DynamicMethod*), "GetParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DynamicMethod::Invoke
+// Writing MetadataGetter for method: System::Reflection::Emit::DynamicMethod::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (DynamicMethod::*)(::Il2CppObject*, System::Reflection::BindingFlags, System::Reflection::Binder*, ::Array<::Il2CppObject*>*, System::Globalization::CultureInfo*)>(&DynamicMethod::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Reflection::Emit::DynamicMethod::*)(::Il2CppObject*, System::Reflection::BindingFlags, System::Reflection::Binder*, ::Array<::Il2CppObject*>*, System::Globalization::CultureInfo*)>(&System::Reflection::Emit::DynamicMethod::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DynamicMethod*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Binder*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::DynamicMethod*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Binder*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
   }
 };
-// Writing MetadataGetter for method: DynamicMethod::IsDefined
+// Writing MetadataGetter for method: System::Reflection::Emit::DynamicMethod::IsDefined
 // Il2CppName: IsDefined
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DynamicMethod::*)(System::Type*, bool)>(&DynamicMethod::IsDefined)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Reflection::Emit::DynamicMethod::*)(System::Type*, bool)>(&System::Reflection::Emit::DynamicMethod::IsDefined)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DynamicMethod*), "IsDefined", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::DynamicMethod*), "IsDefined", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };

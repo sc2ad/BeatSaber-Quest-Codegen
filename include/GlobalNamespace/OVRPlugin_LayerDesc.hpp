@@ -131,11 +131,11 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::LayerDesc, "", "OVRPlugin/LayerDesc");
-// Writing MetadataGetter for method: OVRPlugin::LayerDesc::ToString
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::LayerDesc::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OVRPlugin::LayerDesc::*)()>(&OVRPlugin::LayerDesc::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::OVRPlugin::LayerDesc::*)()>(&GlobalNamespace::OVRPlugin::LayerDesc::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::LayerDesc), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::LayerDesc), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

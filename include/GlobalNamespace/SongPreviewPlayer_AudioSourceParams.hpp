@@ -76,49 +76,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(SongPreviewPlayer::AudioSourceParams) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPreviewPlayer::AudioSourceParams*, "", "SongPreviewPlayer/AudioSourceParams");
-// Writing MetadataGetter for method: SongPreviewPlayer::AudioSourceParams::get_position
+// Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayer::AudioSourceParams::get_position
 // Il2CppName: get_position
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (SongPreviewPlayer::AudioSourceParams::*)()>(&SongPreviewPlayer::AudioSourceParams::get_position)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::SongPreviewPlayer::AudioSourceParams::*)()>(&GlobalNamespace::SongPreviewPlayer::AudioSourceParams::get_position)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer::AudioSourceParams*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPreviewPlayer::AudioSourceParams*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SongPreviewPlayer::AudioSourceParams::get_reverbZoneMix
+// Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayer::AudioSourceParams::get_reverbZoneMix
 // Il2CppName: get_reverbZoneMix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SongPreviewPlayer::AudioSourceParams::*)()>(&SongPreviewPlayer::AudioSourceParams::get_reverbZoneMix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::SongPreviewPlayer::AudioSourceParams::*)()>(&GlobalNamespace::SongPreviewPlayer::AudioSourceParams::get_reverbZoneMix)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer::AudioSourceParams*), "get_reverbZoneMix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPreviewPlayer::AudioSourceParams*), "get_reverbZoneMix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SongPreviewPlayer::AudioSourceParams::get_spatialBlend
+// Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayer::AudioSourceParams::get_spatialBlend
 // Il2CppName: get_spatialBlend
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SongPreviewPlayer::AudioSourceParams::*)()>(&SongPreviewPlayer::AudioSourceParams::get_spatialBlend)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::SongPreviewPlayer::AudioSourceParams::*)()>(&GlobalNamespace::SongPreviewPlayer::AudioSourceParams::get_spatialBlend)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer::AudioSourceParams*), "get_spatialBlend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPreviewPlayer::AudioSourceParams*), "get_spatialBlend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SongPreviewPlayer::AudioSourceParams::get_spread
+// Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayer::AudioSourceParams::get_spread
 // Il2CppName: get_spread
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SongPreviewPlayer::AudioSourceParams::*)()>(&SongPreviewPlayer::AudioSourceParams::get_spread)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::SongPreviewPlayer::AudioSourceParams::*)()>(&GlobalNamespace::SongPreviewPlayer::AudioSourceParams::get_spread)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer::AudioSourceParams*), "get_spread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPreviewPlayer::AudioSourceParams*), "get_spread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SongPreviewPlayer::AudioSourceParams::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayer::AudioSourceParams::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPreviewPlayer::AudioSourceParams::*)()>(&SongPreviewPlayer::AudioSourceParams::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongPreviewPlayer::AudioSourceParams::*)()>(&GlobalNamespace::SongPreviewPlayer::AudioSourceParams::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer::AudioSourceParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPreviewPlayer::AudioSourceParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPreviewPlayer::AudioSourceParams::*)()>(&SongPreviewPlayer::AudioSourceParams::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongPreviewPlayer::AudioSourceParams::*)()>(&GlobalNamespace::SongPreviewPlayer::AudioSourceParams::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer::AudioSourceParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPreviewPlayer::AudioSourceParams*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -65,49 +65,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapCharacteristicCollectionSO) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicCollectionSO*, "", "BeatmapCharacteristicCollectionSO");
-// Writing MetadataGetter for method: BeatmapCharacteristicCollectionSO::get_beatmapCharacteristics
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicCollectionSO::get_beatmapCharacteristics
 // Il2CppName: get_beatmapCharacteristics
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::BeatmapCharacteristicSO*>* (BeatmapCharacteristicCollectionSO::*)()>(&BeatmapCharacteristicCollectionSO::get_beatmapCharacteristics)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::BeatmapCharacteristicSO*>* (GlobalNamespace::BeatmapCharacteristicCollectionSO::*)()>(&GlobalNamespace::BeatmapCharacteristicCollectionSO::get_beatmapCharacteristics)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapCharacteristicCollectionSO*), "get_beatmapCharacteristics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCharacteristicCollectionSO*), "get_beatmapCharacteristics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapCharacteristicCollectionSO::set_beatmapCharacteristics
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicCollectionSO::set_beatmapCharacteristics
 // Il2CppName: set_beatmapCharacteristics
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapCharacteristicCollectionSO::*)(::Array<GlobalNamespace::BeatmapCharacteristicSO*>*)>(&BeatmapCharacteristicCollectionSO::set_beatmapCharacteristics)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapCharacteristicCollectionSO::*)(::Array<GlobalNamespace::BeatmapCharacteristicSO*>*)>(&GlobalNamespace::BeatmapCharacteristicCollectionSO::set_beatmapCharacteristics)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapCharacteristicCollectionSO*), "set_beatmapCharacteristics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::BeatmapCharacteristicSO*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCharacteristicCollectionSO*), "set_beatmapCharacteristics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::BeatmapCharacteristicSO*>*>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapCharacteristicCollectionSO::GetBeatmapCharacteristicBySerializedName
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicCollectionSO::GetBeatmapCharacteristicBySerializedName
 // Il2CppName: GetBeatmapCharacteristicBySerializedName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapCharacteristicSO* (BeatmapCharacteristicCollectionSO::*)(::Il2CppString*)>(&BeatmapCharacteristicCollectionSO::GetBeatmapCharacteristicBySerializedName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapCharacteristicSO* (GlobalNamespace::BeatmapCharacteristicCollectionSO::*)(::Il2CppString*)>(&GlobalNamespace::BeatmapCharacteristicCollectionSO::GetBeatmapCharacteristicBySerializedName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapCharacteristicCollectionSO*), "GetBeatmapCharacteristicBySerializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCharacteristicCollectionSO*), "GetBeatmapCharacteristicBySerializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapCharacteristicCollectionSO::ContainsBeatmapCharacteristic
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicCollectionSO::ContainsBeatmapCharacteristic
 // Il2CppName: ContainsBeatmapCharacteristic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BeatmapCharacteristicCollectionSO::*)(GlobalNamespace::BeatmapCharacteristicSO*)>(&BeatmapCharacteristicCollectionSO::ContainsBeatmapCharacteristic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BeatmapCharacteristicCollectionSO::*)(GlobalNamespace::BeatmapCharacteristicSO*)>(&GlobalNamespace::BeatmapCharacteristicCollectionSO::ContainsBeatmapCharacteristic)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapCharacteristicCollectionSO*), "ContainsBeatmapCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCharacteristicCollectionSO*), "ContainsBeatmapCharacteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapCharacteristicCollectionSO::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicCollectionSO::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapCharacteristicCollectionSO::*)()>(&BeatmapCharacteristicCollectionSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapCharacteristicCollectionSO::*)()>(&GlobalNamespace::BeatmapCharacteristicCollectionSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapCharacteristicCollectionSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCharacteristicCollectionSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapCharacteristicCollectionSO::*)()>(&BeatmapCharacteristicCollectionSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapCharacteristicCollectionSO::*)()>(&GlobalNamespace::BeatmapCharacteristicCollectionSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapCharacteristicCollectionSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCharacteristicCollectionSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -33,19 +33,19 @@ namespace HMUI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SegmentedControl::IDataSource*, "HMUI", "SegmentedControl/IDataSource");
-// Writing MetadataGetter for method: SegmentedControl::IDataSource::NumberOfCells
+// Writing MetadataGetter for method: HMUI::SegmentedControl::IDataSource::NumberOfCells
 // Il2CppName: NumberOfCells
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SegmentedControl::IDataSource::*)()>(&SegmentedControl::IDataSource::NumberOfCells)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HMUI::SegmentedControl::IDataSource::*)()>(&HMUI::SegmentedControl::IDataSource::NumberOfCells)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SegmentedControl::IDataSource*), "NumberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SegmentedControl::IDataSource*), "NumberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SegmentedControl::IDataSource::CellForCellNumber
+// Writing MetadataGetter for method: HMUI::SegmentedControl::IDataSource::CellForCellNumber
 // Il2CppName: CellForCellNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::SegmentedControlCell* (SegmentedControl::IDataSource::*)(int)>(&SegmentedControl::IDataSource::CellForCellNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::SegmentedControlCell* (HMUI::SegmentedControl::IDataSource::*)(int)>(&HMUI::SegmentedControl::IDataSource::CellForCellNumber)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SegmentedControl::IDataSource*), "CellForCellNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SegmentedControl::IDataSource*), "CellForCellNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };

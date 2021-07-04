@@ -227,33 +227,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRSystemPerfMetrics::PerfMetrics) == 0x7C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics*, "", "OVRSystemPerfMetrics/PerfMetrics");
-// Writing MetadataGetter for method: OVRSystemPerfMetrics::PerfMetrics::ToJSON
+// Writing MetadataGetter for method: GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics::ToJSON
 // Il2CppName: ToJSON
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OVRSystemPerfMetrics::PerfMetrics::*)()>(&OVRSystemPerfMetrics::PerfMetrics::ToJSON)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics::*)()>(&GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics::ToJSON)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSystemPerfMetrics::PerfMetrics*), "ToJSON", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics*), "ToJSON", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRSystemPerfMetrics::PerfMetrics::LoadFromJSON
+// Writing MetadataGetter for method: GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics::LoadFromJSON
 // Il2CppName: LoadFromJSON
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRSystemPerfMetrics::PerfMetrics::*)(::Il2CppString*)>(&OVRSystemPerfMetrics::PerfMetrics::LoadFromJSON)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics::*)(::Il2CppString*)>(&GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics::LoadFromJSON)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSystemPerfMetrics::PerfMetrics*), "LoadFromJSON", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics*), "LoadFromJSON", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: OVRSystemPerfMetrics::PerfMetrics::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSystemPerfMetrics::PerfMetrics::*)()>(&OVRSystemPerfMetrics::PerfMetrics::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics::*)()>(&GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSystemPerfMetrics::PerfMetrics*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSystemPerfMetrics::PerfMetrics::*)()>(&OVRSystemPerfMetrics::PerfMetrics::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics::*)()>(&GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSystemPerfMetrics::PerfMetrics*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

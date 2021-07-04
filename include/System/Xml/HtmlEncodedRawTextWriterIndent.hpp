@@ -126,95 +126,95 @@ namespace System::Xml {
   static_assert(sizeof(HtmlEncodedRawTextWriterIndent) == 0xF9);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::HtmlEncodedRawTextWriterIndent*, "System.Xml", "HtmlEncodedRawTextWriterIndent");
-// Writing MetadataGetter for method: HtmlEncodedRawTextWriterIndent::WriteIndent
+// Writing MetadataGetter for method: System::Xml::HtmlEncodedRawTextWriterIndent::WriteIndent
 // Il2CppName: WriteIndent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HtmlEncodedRawTextWriterIndent::*)()>(&HtmlEncodedRawTextWriterIndent::WriteIndent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriterIndent::*)()>(&System::Xml::HtmlEncodedRawTextWriterIndent::WriteIndent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HtmlEncodedRawTextWriterIndent*), "WriteIndent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::HtmlEncodedRawTextWriterIndent*), "WriteIndent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HtmlEncodedRawTextWriterIndent::New_ctor
+// Writing MetadataGetter for method: System::Xml::HtmlEncodedRawTextWriterIndent::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HtmlEncodedRawTextWriterIndent::*)(System::IO::TextWriter*, System::Xml::XmlWriterSettings*)>(&HtmlEncodedRawTextWriterIndent::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriterIndent::*)(System::IO::TextWriter*, System::Xml::XmlWriterSettings*)>(&System::Xml::HtmlEncodedRawTextWriterIndent::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HtmlEncodedRawTextWriterIndent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::TextWriter*>(), ::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriterSettings*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::HtmlEncodedRawTextWriterIndent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::TextWriter*>(), ::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriterSettings*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HtmlEncodedRawTextWriterIndent::*)(System::IO::TextWriter*, System::Xml::XmlWriterSettings*)>(&HtmlEncodedRawTextWriterIndent::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriterIndent::*)(System::IO::TextWriter*, System::Xml::XmlWriterSettings*)>(&System::Xml::HtmlEncodedRawTextWriterIndent::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HtmlEncodedRawTextWriterIndent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::TextWriter*>(), ::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriterSettings*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::HtmlEncodedRawTextWriterIndent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::TextWriter*>(), ::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriterSettings*>()});
   }
 };
-// Writing MetadataGetter for method: HtmlEncodedRawTextWriterIndent::New_ctor
+// Writing MetadataGetter for method: System::Xml::HtmlEncodedRawTextWriterIndent::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HtmlEncodedRawTextWriterIndent::*)(System::IO::Stream*, System::Xml::XmlWriterSettings*)>(&HtmlEncodedRawTextWriterIndent::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriterIndent::*)(System::IO::Stream*, System::Xml::XmlWriterSettings*)>(&System::Xml::HtmlEncodedRawTextWriterIndent::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HtmlEncodedRawTextWriterIndent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriterSettings*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::HtmlEncodedRawTextWriterIndent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriterSettings*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HtmlEncodedRawTextWriterIndent::*)(System::IO::Stream*, System::Xml::XmlWriterSettings*)>(&HtmlEncodedRawTextWriterIndent::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriterIndent::*)(System::IO::Stream*, System::Xml::XmlWriterSettings*)>(&System::Xml::HtmlEncodedRawTextWriterIndent::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HtmlEncodedRawTextWriterIndent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriterSettings*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::HtmlEncodedRawTextWriterIndent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriterSettings*>()});
   }
 };
-// Writing MetadataGetter for method: HtmlEncodedRawTextWriterIndent::WriteDocType
+// Writing MetadataGetter for method: System::Xml::HtmlEncodedRawTextWriterIndent::WriteDocType
 // Il2CppName: WriteDocType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HtmlEncodedRawTextWriterIndent::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&HtmlEncodedRawTextWriterIndent::WriteDocType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriterIndent::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&System::Xml::HtmlEncodedRawTextWriterIndent::WriteDocType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HtmlEncodedRawTextWriterIndent*), "WriteDocType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::HtmlEncodedRawTextWriterIndent*), "WriteDocType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: HtmlEncodedRawTextWriterIndent::WriteStartElement
+// Writing MetadataGetter for method: System::Xml::HtmlEncodedRawTextWriterIndent::WriteStartElement
 // Il2CppName: WriteStartElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HtmlEncodedRawTextWriterIndent::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&HtmlEncodedRawTextWriterIndent::WriteStartElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriterIndent::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&System::Xml::HtmlEncodedRawTextWriterIndent::WriteStartElement)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HtmlEncodedRawTextWriterIndent*), "WriteStartElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::HtmlEncodedRawTextWriterIndent*), "WriteStartElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: HtmlEncodedRawTextWriterIndent::StartElementContent
+// Writing MetadataGetter for method: System::Xml::HtmlEncodedRawTextWriterIndent::StartElementContent
 // Il2CppName: StartElementContent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HtmlEncodedRawTextWriterIndent::*)()>(&HtmlEncodedRawTextWriterIndent::StartElementContent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriterIndent::*)()>(&System::Xml::HtmlEncodedRawTextWriterIndent::StartElementContent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HtmlEncodedRawTextWriterIndent*), "StartElementContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::HtmlEncodedRawTextWriterIndent*), "StartElementContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HtmlEncodedRawTextWriterIndent::WriteEndElement
+// Writing MetadataGetter for method: System::Xml::HtmlEncodedRawTextWriterIndent::WriteEndElement
 // Il2CppName: WriteEndElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HtmlEncodedRawTextWriterIndent::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&HtmlEncodedRawTextWriterIndent::WriteEndElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriterIndent::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&System::Xml::HtmlEncodedRawTextWriterIndent::WriteEndElement)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HtmlEncodedRawTextWriterIndent*), "WriteEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::HtmlEncodedRawTextWriterIndent*), "WriteEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: HtmlEncodedRawTextWriterIndent::WriteStartAttribute
+// Writing MetadataGetter for method: System::Xml::HtmlEncodedRawTextWriterIndent::WriteStartAttribute
 // Il2CppName: WriteStartAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HtmlEncodedRawTextWriterIndent::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&HtmlEncodedRawTextWriterIndent::WriteStartAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriterIndent::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&System::Xml::HtmlEncodedRawTextWriterIndent::WriteStartAttribute)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HtmlEncodedRawTextWriterIndent*), "WriteStartAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::HtmlEncodedRawTextWriterIndent*), "WriteStartAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: HtmlEncodedRawTextWriterIndent::FlushBuffer
+// Writing MetadataGetter for method: System::Xml::HtmlEncodedRawTextWriterIndent::FlushBuffer
 // Il2CppName: FlushBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HtmlEncodedRawTextWriterIndent::*)()>(&HtmlEncodedRawTextWriterIndent::FlushBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriterIndent::*)()>(&System::Xml::HtmlEncodedRawTextWriterIndent::FlushBuffer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HtmlEncodedRawTextWriterIndent*), "FlushBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::HtmlEncodedRawTextWriterIndent*), "FlushBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HtmlEncodedRawTextWriterIndent::Init
+// Writing MetadataGetter for method: System::Xml::HtmlEncodedRawTextWriterIndent::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HtmlEncodedRawTextWriterIndent::*)(System::Xml::XmlWriterSettings*)>(&HtmlEncodedRawTextWriterIndent::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriterIndent::*)(System::Xml::XmlWriterSettings*)>(&System::Xml::HtmlEncodedRawTextWriterIndent::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HtmlEncodedRawTextWriterIndent*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriterSettings*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::HtmlEncodedRawTextWriterIndent*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriterSettings*>()});
   }
 };

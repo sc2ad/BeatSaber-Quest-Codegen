@@ -87,33 +87,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(FlyingScoreSpawner) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingScoreSpawner*, "", "FlyingScoreSpawner");
-// Writing MetadataGetter for method: FlyingScoreSpawner::SpawnFlyingScore
+// Writing MetadataGetter for method: GlobalNamespace::FlyingScoreSpawner::SpawnFlyingScore
 // Il2CppName: SpawnFlyingScore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingScoreSpawner::*)(GlobalNamespace::NoteCutInfo&, int, int, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Quaternion, UnityEngine::Color)>(&FlyingScoreSpawner::SpawnFlyingScore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingScoreSpawner::*)(GlobalNamespace::NoteCutInfo&, int, int, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Quaternion, UnityEngine::Color)>(&GlobalNamespace::FlyingScoreSpawner::SpawnFlyingScore)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FlyingScoreSpawner*), "SpawnFlyingScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingScoreSpawner*), "SpawnFlyingScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: FlyingScoreSpawner::HandleFlyingObjectEffectDidFinish
+// Writing MetadataGetter for method: GlobalNamespace::FlyingScoreSpawner::HandleFlyingObjectEffectDidFinish
 // Il2CppName: HandleFlyingObjectEffectDidFinish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingScoreSpawner::*)(GlobalNamespace::FlyingObjectEffect*)>(&FlyingScoreSpawner::HandleFlyingObjectEffectDidFinish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingScoreSpawner::*)(GlobalNamespace::FlyingObjectEffect*)>(&GlobalNamespace::FlyingScoreSpawner::HandleFlyingObjectEffectDidFinish)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FlyingScoreSpawner*), "HandleFlyingObjectEffectDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::FlyingObjectEffect*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingScoreSpawner*), "HandleFlyingObjectEffectDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::FlyingObjectEffect*>()});
   }
 };
-// Writing MetadataGetter for method: FlyingScoreSpawner::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::FlyingScoreSpawner::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingScoreSpawner::*)()>(&FlyingScoreSpawner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingScoreSpawner::*)()>(&GlobalNamespace::FlyingScoreSpawner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FlyingScoreSpawner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingScoreSpawner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingScoreSpawner::*)()>(&FlyingScoreSpawner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingScoreSpawner::*)()>(&GlobalNamespace::FlyingScoreSpawner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FlyingScoreSpawner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingScoreSpawner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

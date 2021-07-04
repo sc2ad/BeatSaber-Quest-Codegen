@@ -42,11 +42,11 @@ namespace NetEase::Docker {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::LogoutData, "NetEase.Docker", "LogoutData");
-// Writing MetadataGetter for method: LogoutData::set_LogoutCode
+// Writing MetadataGetter for method: NetEase::Docker::LogoutData::set_LogoutCode
 // Il2CppName: set_LogoutCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LogoutData::*)(int)>(&LogoutData::set_LogoutCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::LogoutData::*)(int)>(&NetEase::Docker::LogoutData::set_LogoutCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LogoutData), "set_LogoutCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::LogoutData), "set_LogoutCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };

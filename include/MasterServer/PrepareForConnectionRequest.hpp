@@ -131,57 +131,57 @@ namespace MasterServer {
   static_assert(sizeof(PrepareForConnectionRequest) == 0x42);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::PrepareForConnectionRequest*, "MasterServer", "PrepareForConnectionRequest");
-// Writing MetadataGetter for method: PrepareForConnectionRequest::get_pool
+// Writing MetadataGetter for method: MasterServer::PrepareForConnectionRequest::get_pool
 // Il2CppName: get_pool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::PrepareForConnectionRequest*>* (*)()>(&PrepareForConnectionRequest::get_pool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::PrepareForConnectionRequest*>* (*)()>(&MasterServer::PrepareForConnectionRequest::get_pool)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrepareForConnectionRequest*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::PrepareForConnectionRequest*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PrepareForConnectionRequest::Init
+// Writing MetadataGetter for method: MasterServer::PrepareForConnectionRequest::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::PrepareForConnectionRequest* (PrepareForConnectionRequest::*)(::Il2CppString*, ::Il2CppString*, System::Net::IPEndPoint*, ::Array<uint8_t>*, ::Array<uint8_t>*, bool, bool)>(&PrepareForConnectionRequest::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::PrepareForConnectionRequest* (MasterServer::PrepareForConnectionRequest::*)(::Il2CppString*, ::Il2CppString*, System::Net::IPEndPoint*, ::Array<uint8_t>*, ::Array<uint8_t>*, bool, bool)>(&MasterServer::PrepareForConnectionRequest::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrepareForConnectionRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::PrepareForConnectionRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: PrepareForConnectionRequest::Serialize
+// Writing MetadataGetter for method: MasterServer::PrepareForConnectionRequest::Serialize
 // Il2CppName: Serialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrepareForConnectionRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&PrepareForConnectionRequest::Serialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::PrepareForConnectionRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&MasterServer::PrepareForConnectionRequest::Serialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrepareForConnectionRequest*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::PrepareForConnectionRequest*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
   }
 };
-// Writing MetadataGetter for method: PrepareForConnectionRequest::Deserialize
+// Writing MetadataGetter for method: MasterServer::PrepareForConnectionRequest::Deserialize
 // Il2CppName: Deserialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrepareForConnectionRequest::*)(LiteNetLib::Utils::NetDataReader*)>(&PrepareForConnectionRequest::Deserialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::PrepareForConnectionRequest::*)(LiteNetLib::Utils::NetDataReader*)>(&MasterServer::PrepareForConnectionRequest::Deserialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrepareForConnectionRequest*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::PrepareForConnectionRequest*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
   }
 };
-// Writing MetadataGetter for method: PrepareForConnectionRequest::Release
+// Writing MetadataGetter for method: MasterServer::PrepareForConnectionRequest::Release
 // Il2CppName: Release
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrepareForConnectionRequest::*)()>(&PrepareForConnectionRequest::Release)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::PrepareForConnectionRequest::*)()>(&MasterServer::PrepareForConnectionRequest::Release)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrepareForConnectionRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::PrepareForConnectionRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PrepareForConnectionRequest::New_ctor
+// Writing MetadataGetter for method: MasterServer::PrepareForConnectionRequest::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrepareForConnectionRequest::*)()>(&PrepareForConnectionRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::PrepareForConnectionRequest::*)()>(&MasterServer::PrepareForConnectionRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrepareForConnectionRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::PrepareForConnectionRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrepareForConnectionRequest::*)()>(&PrepareForConnectionRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::PrepareForConnectionRequest::*)()>(&MasterServer::PrepareForConnectionRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrepareForConnectionRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::PrepareForConnectionRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

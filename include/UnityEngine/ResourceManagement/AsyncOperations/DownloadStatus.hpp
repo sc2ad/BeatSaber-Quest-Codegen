@@ -49,11 +49,11 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus, "UnityEngine.ResourceManagement.AsyncOperations", "DownloadStatus");
-// Writing MetadataGetter for method: DownloadStatus::get_Percent
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus::get_Percent
 // Il2CppName: get_Percent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (DownloadStatus::*)()>(&DownloadStatus::get_Percent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus::get_Percent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DownloadStatus), "get_Percent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus), "get_Percent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -55,17 +55,17 @@ namespace GlobalNamespace {
   static_assert(sizeof(QuickPlayLobbyFlowCoordinator::$$c__DisplayClass61_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuickPlayLobbyFlowCoordinator::$$c__DisplayClass61_0*, "", "QuickPlayLobbyFlowCoordinator/<>c__DisplayClass61_0");
-// Writing MetadataGetter for method: QuickPlayLobbyFlowCoordinator::$$c__DisplayClass61_0::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::$$c__DisplayClass61_0::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuickPlayLobbyFlowCoordinator::$$c__DisplayClass61_0::*)()>(&QuickPlayLobbyFlowCoordinator::$$c__DisplayClass61_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::$$c__DisplayClass61_0::*)()>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::$$c__DisplayClass61_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(QuickPlayLobbyFlowCoordinator::$$c__DisplayClass61_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator::$$c__DisplayClass61_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (QuickPlayLobbyFlowCoordinator::$$c__DisplayClass61_0::*)()>(&QuickPlayLobbyFlowCoordinator::$$c__DisplayClass61_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::QuickPlayLobbyFlowCoordinator::$$c__DisplayClass61_0::*)()>(&GlobalNamespace::QuickPlayLobbyFlowCoordinator::$$c__DisplayClass61_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(QuickPlayLobbyFlowCoordinator::$$c__DisplayClass61_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlayLobbyFlowCoordinator::$$c__DisplayClass61_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

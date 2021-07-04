@@ -47,25 +47,25 @@ namespace Mono::Net::Security {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncHandshakeRequest*, "Mono.Net.Security", "AsyncHandshakeRequest");
-// Writing MetadataGetter for method: AsyncHandshakeRequest::New_ctor
+// Writing MetadataGetter for method: Mono::Net::Security::AsyncHandshakeRequest::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncHandshakeRequest::*)(Mono::Net::Security::MobileAuthenticatedStream*, bool)>(&AsyncHandshakeRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::AsyncHandshakeRequest::*)(Mono::Net::Security::MobileAuthenticatedStream*, bool)>(&Mono::Net::Security::AsyncHandshakeRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncHandshakeRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::MobileAuthenticatedStream*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::AsyncHandshakeRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::MobileAuthenticatedStream*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncHandshakeRequest::*)(Mono::Net::Security::MobileAuthenticatedStream*, bool)>(&AsyncHandshakeRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::AsyncHandshakeRequest::*)(Mono::Net::Security::MobileAuthenticatedStream*, bool)>(&Mono::Net::Security::AsyncHandshakeRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncHandshakeRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::MobileAuthenticatedStream*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::AsyncHandshakeRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::MobileAuthenticatedStream*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AsyncHandshakeRequest::Run
+// Writing MetadataGetter for method: Mono::Net::Security::AsyncHandshakeRequest::Run
 // Il2CppName: Run
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::Security::AsyncOperationStatus (AsyncHandshakeRequest::*)(Mono::Net::Security::AsyncOperationStatus)>(&AsyncHandshakeRequest::Run)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::Security::AsyncOperationStatus (Mono::Net::Security::AsyncHandshakeRequest::*)(Mono::Net::Security::AsyncOperationStatus)>(&Mono::Net::Security::AsyncHandshakeRequest::Run)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncHandshakeRequest*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::AsyncOperationStatus>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::AsyncHandshakeRequest*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::AsyncOperationStatus>()});
   }
 };

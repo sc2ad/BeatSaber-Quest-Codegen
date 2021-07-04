@@ -109,65 +109,65 @@ namespace Tweening {
   static_assert(sizeof(TweeningManager) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(Tweening::TweeningManager*, "Tweening", "TweeningManager");
-// Writing MetadataGetter for method: TweeningManager::Start
+// Writing MetadataGetter for method: Tweening::TweeningManager::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TweeningManager::*)()>(&TweeningManager::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::TweeningManager::*)()>(&Tweening::TweeningManager::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TweeningManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Tweening::TweeningManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TweeningManager::Update
+// Writing MetadataGetter for method: Tweening::TweeningManager::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TweeningManager::*)()>(&TweeningManager::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::TweeningManager::*)()>(&Tweening::TweeningManager::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TweeningManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Tweening::TweeningManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TweeningManager::AddTween
+// Writing MetadataGetter for method: Tweening::TweeningManager::AddTween
 // Il2CppName: AddTween
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Tweening::Tween* (TweeningManager::*)(Tweening::Tween*, UnityEngine::Object*)>(&TweeningManager::AddTween)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Tweening::Tween* (Tweening::TweeningManager::*)(Tweening::Tween*, UnityEngine::Object*)>(&Tweening::TweeningManager::AddTween)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TweeningManager*), "AddTween", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Tweening::Tween*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    return ::il2cpp_utils::FindMethod(classof(Tweening::TweeningManager*), "AddTween", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Tweening::Tween*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
   }
 };
-// Writing MetadataGetter for method: TweeningManager::RestartTween
+// Writing MetadataGetter for method: Tweening::TweeningManager::RestartTween
 // Il2CppName: RestartTween
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Tweening::Tween* (TweeningManager::*)(Tweening::Tween*, UnityEngine::Object*)>(&TweeningManager::RestartTween)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Tweening::Tween* (Tweening::TweeningManager::*)(Tweening::Tween*, UnityEngine::Object*)>(&Tweening::TweeningManager::RestartTween)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TweeningManager*), "RestartTween", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Tweening::Tween*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    return ::il2cpp_utils::FindMethod(classof(Tweening::TweeningManager*), "RestartTween", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Tweening::Tween*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
   }
 };
-// Writing MetadataGetter for method: TweeningManager::KillAllTweens
+// Writing MetadataGetter for method: Tweening::TweeningManager::KillAllTweens
 // Il2CppName: KillAllTweens
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TweeningManager::*)(UnityEngine::Object*)>(&TweeningManager::KillAllTweens)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::TweeningManager::*)(UnityEngine::Object*)>(&Tweening::TweeningManager::KillAllTweens)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TweeningManager*), "KillAllTweens", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    return ::il2cpp_utils::FindMethod(classof(Tweening::TweeningManager*), "KillAllTweens", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
   }
 };
-// Writing MetadataGetter for method: TweeningManager::AddTweenToOwnerDictionary
+// Writing MetadataGetter for method: Tweening::TweeningManager::AddTweenToOwnerDictionary
 // Il2CppName: AddTweenToOwnerDictionary
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TweeningManager::*)(Tweening::Tween*, UnityEngine::Object*)>(&TweeningManager::AddTweenToOwnerDictionary)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::TweeningManager::*)(Tweening::Tween*, UnityEngine::Object*)>(&Tweening::TweeningManager::AddTweenToOwnerDictionary)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TweeningManager*), "AddTweenToOwnerDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Tweening::Tween*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    return ::il2cpp_utils::FindMethod(classof(Tweening::TweeningManager*), "AddTweenToOwnerDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Tweening::Tween*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
   }
 };
-// Writing MetadataGetter for method: TweeningManager::New_ctor
+// Writing MetadataGetter for method: Tweening::TweeningManager::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TweeningManager::*)()>(&TweeningManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::TweeningManager::*)()>(&Tweening::TweeningManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TweeningManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Tweening::TweeningManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TweeningManager::*)()>(&TweeningManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::TweeningManager::*)()>(&Tweening::TweeningManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TweeningManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Tweening::TweeningManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

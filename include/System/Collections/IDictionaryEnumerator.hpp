@@ -44,27 +44,27 @@ namespace System::Collections {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::IDictionaryEnumerator*, "System.Collections", "IDictionaryEnumerator");
-// Writing MetadataGetter for method: IDictionaryEnumerator::get_Key
+// Writing MetadataGetter for method: System::Collections::IDictionaryEnumerator::get_Key
 // Il2CppName: get_Key
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (IDictionaryEnumerator::*)()>(&IDictionaryEnumerator::get_Key)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Collections::IDictionaryEnumerator::*)()>(&System::Collections::IDictionaryEnumerator::get_Key)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IDictionaryEnumerator*), "get_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::IDictionaryEnumerator*), "get_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IDictionaryEnumerator::get_Value
+// Writing MetadataGetter for method: System::Collections::IDictionaryEnumerator::get_Value
 // Il2CppName: get_Value
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (IDictionaryEnumerator::*)()>(&IDictionaryEnumerator::get_Value)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Collections::IDictionaryEnumerator::*)()>(&System::Collections::IDictionaryEnumerator::get_Value)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IDictionaryEnumerator*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::IDictionaryEnumerator*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IDictionaryEnumerator::get_Entry
+// Writing MetadataGetter for method: System::Collections::IDictionaryEnumerator::get_Entry
 // Il2CppName: get_Entry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::DictionaryEntry (IDictionaryEnumerator::*)()>(&IDictionaryEnumerator::get_Entry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::DictionaryEntry (System::Collections::IDictionaryEnumerator::*)()>(&System::Collections::IDictionaryEnumerator::get_Entry)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IDictionaryEnumerator*), "get_Entry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::IDictionaryEnumerator*), "get_Entry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

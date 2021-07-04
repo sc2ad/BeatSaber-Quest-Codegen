@@ -47,35 +47,35 @@ namespace UnityEngine::Networking {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::CertificateHandler*, "UnityEngine.Networking", "CertificateHandler");
-// Writing MetadataGetter for method: CertificateHandler::Release
+// Writing MetadataGetter for method: UnityEngine::Networking::CertificateHandler::Release
 // Il2CppName: Release
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CertificateHandler::*)()>(&CertificateHandler::Release)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::CertificateHandler::*)()>(&UnityEngine::Networking::CertificateHandler::Release)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CertificateHandler*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::CertificateHandler*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CertificateHandler::ValidateCertificate
+// Writing MetadataGetter for method: UnityEngine::Networking::CertificateHandler::ValidateCertificate
 // Il2CppName: ValidateCertificate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CertificateHandler::*)(::Array<uint8_t>*)>(&CertificateHandler::ValidateCertificate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Networking::CertificateHandler::*)(::Array<uint8_t>*)>(&UnityEngine::Networking::CertificateHandler::ValidateCertificate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CertificateHandler*), "ValidateCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::CertificateHandler*), "ValidateCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: CertificateHandler::ValidateCertificateNative
+// Writing MetadataGetter for method: UnityEngine::Networking::CertificateHandler::ValidateCertificateNative
 // Il2CppName: ValidateCertificateNative
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CertificateHandler::*)(::Array<uint8_t>*)>(&CertificateHandler::ValidateCertificateNative)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Networking::CertificateHandler::*)(::Array<uint8_t>*)>(&UnityEngine::Networking::CertificateHandler::ValidateCertificateNative)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CertificateHandler*), "ValidateCertificateNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::CertificateHandler*), "ValidateCertificateNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: CertificateHandler::Dispose
+// Writing MetadataGetter for method: UnityEngine::Networking::CertificateHandler::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CertificateHandler::*)()>(&CertificateHandler::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::CertificateHandler::*)()>(&UnityEngine::Networking::CertificateHandler::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CertificateHandler*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::CertificateHandler*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

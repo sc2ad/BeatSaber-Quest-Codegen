@@ -120,49 +120,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLocalActiveLevelFailController) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActiveLevelFailController*, "", "MultiplayerLocalActiveLevelFailController");
-// Writing MetadataGetter for method: MultiplayerLocalActiveLevelFailController::Start
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActiveLevelFailController::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActiveLevelFailController::*)()>(&MultiplayerLocalActiveLevelFailController::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLocalActiveLevelFailController::*)()>(&GlobalNamespace::MultiplayerLocalActiveLevelFailController::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActiveLevelFailController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalActiveLevelFailController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLocalActiveLevelFailController::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActiveLevelFailController::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActiveLevelFailController::*)()>(&MultiplayerLocalActiveLevelFailController::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLocalActiveLevelFailController::*)()>(&GlobalNamespace::MultiplayerLocalActiveLevelFailController::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActiveLevelFailController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalActiveLevelFailController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLocalActiveLevelFailController::PlayerFailedCoroutine
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActiveLevelFailController::PlayerFailedCoroutine
 // Il2CppName: PlayerFailedCoroutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (MultiplayerLocalActiveLevelFailController::*)()>(&MultiplayerLocalActiveLevelFailController::PlayerFailedCoroutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::MultiplayerLocalActiveLevelFailController::*)()>(&GlobalNamespace::MultiplayerLocalActiveLevelFailController::PlayerFailedCoroutine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActiveLevelFailController*), "PlayerFailedCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalActiveLevelFailController*), "PlayerFailedCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLocalActiveLevelFailController::HandlePlayerDidFinish
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActiveLevelFailController::HandlePlayerDidFinish
 // Il2CppName: HandlePlayerDidFinish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActiveLevelFailController::*)(GlobalNamespace::MultiplayerLevelCompletionResults*)>(&MultiplayerLocalActiveLevelFailController::HandlePlayerDidFinish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLocalActiveLevelFailController::*)(GlobalNamespace::MultiplayerLevelCompletionResults*)>(&GlobalNamespace::MultiplayerLocalActiveLevelFailController::HandlePlayerDidFinish)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActiveLevelFailController*), "HandlePlayerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLevelCompletionResults*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalActiveLevelFailController*), "HandlePlayerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLevelCompletionResults*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLocalActiveLevelFailController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActiveLevelFailController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActiveLevelFailController::*)()>(&MultiplayerLocalActiveLevelFailController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLocalActiveLevelFailController::*)()>(&GlobalNamespace::MultiplayerLocalActiveLevelFailController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActiveLevelFailController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalActiveLevelFailController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActiveLevelFailController::*)()>(&MultiplayerLocalActiveLevelFailController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLocalActiveLevelFailController::*)()>(&GlobalNamespace::MultiplayerLocalActiveLevelFailController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActiveLevelFailController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalActiveLevelFailController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

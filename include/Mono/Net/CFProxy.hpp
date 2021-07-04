@@ -131,89 +131,89 @@ namespace Mono::Net {
   static_assert(sizeof(CFProxy) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFProxy*, "Mono.Net", "CFProxy");
-// Writing MetadataGetter for method: CFProxy::_cctor
+// Writing MetadataGetter for method: Mono::Net::CFProxy::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CFProxy::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Mono::Net::CFProxy::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CFProxy*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFProxy*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CFProxy::New_ctor
+// Writing MetadataGetter for method: Mono::Net::CFProxy::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CFProxy::*)(Mono::Net::CFDictionary*)>(&CFProxy::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::CFProxy::*)(Mono::Net::CFDictionary*)>(&Mono::Net::CFProxy::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CFProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::CFDictionary*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::CFDictionary*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CFProxy::*)(Mono::Net::CFDictionary*)>(&CFProxy::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::CFProxy::*)(Mono::Net::CFDictionary*)>(&Mono::Net::CFProxy::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CFProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::CFDictionary*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::CFDictionary*>()});
   }
 };
-// Writing MetadataGetter for method: CFProxy::CFProxyTypeToEnum
+// Writing MetadataGetter for method: Mono::Net::CFProxy::CFProxyTypeToEnum
 // Il2CppName: CFProxyTypeToEnum
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::CFProxyType (*)(System::IntPtr)>(&CFProxy::CFProxyTypeToEnum)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::CFProxyType (*)(System::IntPtr)>(&Mono::Net::CFProxy::CFProxyTypeToEnum)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CFProxy*), "CFProxyTypeToEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFProxy*), "CFProxyTypeToEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: CFProxy::get_AutoConfigurationJavaScript
+// Writing MetadataGetter for method: Mono::Net::CFProxy::get_AutoConfigurationJavaScript
 // Il2CppName: get_AutoConfigurationJavaScript
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (CFProxy::*)()>(&CFProxy::get_AutoConfigurationJavaScript)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Mono::Net::CFProxy::*)()>(&Mono::Net::CFProxy::get_AutoConfigurationJavaScript)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CFProxy*), "get_AutoConfigurationJavaScript", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFProxy*), "get_AutoConfigurationJavaScript", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CFProxy::get_AutoConfigurationUrl
+// Writing MetadataGetter for method: Mono::Net::CFProxy::get_AutoConfigurationUrl
 // Il2CppName: get_AutoConfigurationUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (CFProxy::*)()>(&CFProxy::get_AutoConfigurationUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Mono::Net::CFProxy::*)()>(&Mono::Net::CFProxy::get_AutoConfigurationUrl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CFProxy*), "get_AutoConfigurationUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFProxy*), "get_AutoConfigurationUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CFProxy::get_HostName
+// Writing MetadataGetter for method: Mono::Net::CFProxy::get_HostName
 // Il2CppName: get_HostName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CFProxy::*)()>(&CFProxy::get_HostName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Net::CFProxy::*)()>(&Mono::Net::CFProxy::get_HostName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CFProxy*), "get_HostName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFProxy*), "get_HostName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CFProxy::get_Password
+// Writing MetadataGetter for method: Mono::Net::CFProxy::get_Password
 // Il2CppName: get_Password
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CFProxy::*)()>(&CFProxy::get_Password)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Net::CFProxy::*)()>(&Mono::Net::CFProxy::get_Password)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CFProxy*), "get_Password", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFProxy*), "get_Password", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CFProxy::get_Port
+// Writing MetadataGetter for method: Mono::Net::CFProxy::get_Port
 // Il2CppName: get_Port
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CFProxy::*)()>(&CFProxy::get_Port)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Net::CFProxy::*)()>(&Mono::Net::CFProxy::get_Port)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CFProxy*), "get_Port", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFProxy*), "get_Port", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CFProxy::get_ProxyType
+// Writing MetadataGetter for method: Mono::Net::CFProxy::get_ProxyType
 // Il2CppName: get_ProxyType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::CFProxyType (CFProxy::*)()>(&CFProxy::get_ProxyType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::CFProxyType (Mono::Net::CFProxy::*)()>(&Mono::Net::CFProxy::get_ProxyType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CFProxy*), "get_ProxyType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFProxy*), "get_ProxyType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CFProxy::get_Username
+// Writing MetadataGetter for method: Mono::Net::CFProxy::get_Username
 // Il2CppName: get_Username
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CFProxy::*)()>(&CFProxy::get_Username)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Net::CFProxy::*)()>(&Mono::Net::CFProxy::get_Username)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CFProxy*), "get_Username", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFProxy*), "get_Username", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -155,41 +155,41 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataLoaderSO*, "", "BeatmapLevelDataLoaderSO");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataLoaderSO::AssetBundleLevelInfo, "", "BeatmapLevelDataLoaderSO/AssetBundleLevelInfo");
-// Writing MetadataGetter for method: BeatmapLevelDataLoaderSO::LoadBeatmapLevelFormAssetBundleAsync
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataLoaderSO::LoadBeatmapLevelFormAssetBundleAsync
 // Il2CppName: LoadBeatmapLevelFormAssetBundleAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::IBeatmapLevel*>* (BeatmapLevelDataLoaderSO::*)(GlobalNamespace::IPreviewBeatmapLevel*, ::Il2CppString*, ::Il2CppString*, System::Threading::CancellationToken)>(&BeatmapLevelDataLoaderSO::LoadBeatmapLevelFormAssetBundleAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::IBeatmapLevel*>* (GlobalNamespace::BeatmapLevelDataLoaderSO::*)(GlobalNamespace::IPreviewBeatmapLevel*, ::Il2CppString*, ::Il2CppString*, System::Threading::CancellationToken)>(&GlobalNamespace::BeatmapLevelDataLoaderSO::LoadBeatmapLevelFormAssetBundleAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapLevelDataLoaderSO*), "LoadBeatmapLevelFormAssetBundleAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelDataLoaderSO*), "LoadBeatmapLevelFormAssetBundleAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapLevelDataLoaderSO::LoadBeatmapLevelAsync
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataLoaderSO::LoadBeatmapLevelAsync
 // Il2CppName: LoadBeatmapLevelAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::IBeatmapLevel*>* (BeatmapLevelDataLoaderSO::*)(::Il2CppString*)>(&BeatmapLevelDataLoaderSO::LoadBeatmapLevelAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::IBeatmapLevel*>* (GlobalNamespace::BeatmapLevelDataLoaderSO::*)(::Il2CppString*)>(&GlobalNamespace::BeatmapLevelDataLoaderSO::LoadBeatmapLevelAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapLevelDataLoaderSO*), "LoadBeatmapLevelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelDataLoaderSO*), "LoadBeatmapLevelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapLevelDataLoaderSO::LoadBeatmalLevelDataAsync
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataLoaderSO::LoadBeatmalLevelDataAsync
 // Il2CppName: LoadBeatmalLevelDataAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::BeatmapLevelDataSO*>* (BeatmapLevelDataLoaderSO::*)(::Il2CppString*, ::Il2CppString*)>(&BeatmapLevelDataLoaderSO::LoadBeatmalLevelDataAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::BeatmapLevelDataSO*>* (GlobalNamespace::BeatmapLevelDataLoaderSO::*)(::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::BeatmapLevelDataLoaderSO::LoadBeatmalLevelDataAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapLevelDataLoaderSO*), "LoadBeatmalLevelDataAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelDataLoaderSO*), "LoadBeatmalLevelDataAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapLevelDataLoaderSO::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataLoaderSO::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapLevelDataLoaderSO::*)()>(&BeatmapLevelDataLoaderSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelDataLoaderSO::*)()>(&GlobalNamespace::BeatmapLevelDataLoaderSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapLevelDataLoaderSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelDataLoaderSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapLevelDataLoaderSO::*)()>(&BeatmapLevelDataLoaderSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelDataLoaderSO::*)()>(&GlobalNamespace::BeatmapLevelDataLoaderSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapLevelDataLoaderSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelDataLoaderSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

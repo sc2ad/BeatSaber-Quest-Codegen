@@ -120,121 +120,121 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockNoteData) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockNoteData*, "", "MockNoteData");
-// Writing MetadataGetter for method: MockNoteData::get_time
+// Writing MetadataGetter for method: GlobalNamespace::MockNoteData::get_time
 // Il2CppName: get_time
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (MockNoteData::*)()>(&MockNoteData::get_time)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MockNoteData::*)()>(&GlobalNamespace::MockNoteData::get_time)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockNoteData*), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNoteData*), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockNoteData::set_time
+// Writing MetadataGetter for method: GlobalNamespace::MockNoteData::set_time
 // Il2CppName: set_time
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockNoteData::*)(float)>(&MockNoteData::set_time)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNoteData::*)(float)>(&GlobalNamespace::MockNoteData::set_time)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockNoteData*), "set_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNoteData*), "set_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: MockNoteData::get_lineIndex
+// Writing MetadataGetter for method: GlobalNamespace::MockNoteData::get_lineIndex
 // Il2CppName: get_lineIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MockNoteData::*)()>(&MockNoteData::get_lineIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MockNoteData::*)()>(&GlobalNamespace::MockNoteData::get_lineIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockNoteData*), "get_lineIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNoteData*), "get_lineIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockNoteData::set_lineIndex
+// Writing MetadataGetter for method: GlobalNamespace::MockNoteData::set_lineIndex
 // Il2CppName: set_lineIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockNoteData::*)(int)>(&MockNoteData::set_lineIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNoteData::*)(int)>(&GlobalNamespace::MockNoteData::set_lineIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockNoteData*), "set_lineIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNoteData*), "set_lineIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: MockNoteData::get_colorType
+// Writing MetadataGetter for method: GlobalNamespace::MockNoteData::get_colorType
 // Il2CppName: get_colorType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorType (MockNoteData::*)()>(&MockNoteData::get_colorType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorType (GlobalNamespace::MockNoteData::*)()>(&GlobalNamespace::MockNoteData::get_colorType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockNoteData*), "get_colorType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNoteData*), "get_colorType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockNoteData::set_colorType
+// Writing MetadataGetter for method: GlobalNamespace::MockNoteData::set_colorType
 // Il2CppName: set_colorType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockNoteData::*)(GlobalNamespace::ColorType)>(&MockNoteData::set_colorType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNoteData::*)(GlobalNamespace::ColorType)>(&GlobalNamespace::MockNoteData::set_colorType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockNoteData*), "set_colorType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorType>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNoteData*), "set_colorType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorType>()});
   }
 };
-// Writing MetadataGetter for method: MockNoteData::get_cutDirection
+// Writing MetadataGetter for method: GlobalNamespace::MockNoteData::get_cutDirection
 // Il2CppName: get_cutDirection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteCutDirection (MockNoteData::*)()>(&MockNoteData::get_cutDirection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteCutDirection (GlobalNamespace::MockNoteData::*)()>(&GlobalNamespace::MockNoteData::get_cutDirection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockNoteData*), "get_cutDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNoteData*), "get_cutDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockNoteData::set_cutDirection
+// Writing MetadataGetter for method: GlobalNamespace::MockNoteData::set_cutDirection
 // Il2CppName: set_cutDirection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockNoteData::*)(GlobalNamespace::NoteCutDirection)>(&MockNoteData::set_cutDirection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNoteData::*)(GlobalNamespace::NoteCutDirection)>(&GlobalNamespace::MockNoteData::set_cutDirection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockNoteData*), "set_cutDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutDirection>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNoteData*), "set_cutDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutDirection>()});
   }
 };
-// Writing MetadataGetter for method: MockNoteData::get_noteLineLayer
+// Writing MetadataGetter for method: GlobalNamespace::MockNoteData::get_noteLineLayer
 // Il2CppName: get_noteLineLayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteLineLayer (MockNoteData::*)()>(&MockNoteData::get_noteLineLayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteLineLayer (GlobalNamespace::MockNoteData::*)()>(&GlobalNamespace::MockNoteData::get_noteLineLayer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockNoteData*), "get_noteLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNoteData*), "get_noteLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockNoteData::set_noteLineLayer
+// Writing MetadataGetter for method: GlobalNamespace::MockNoteData::set_noteLineLayer
 // Il2CppName: set_noteLineLayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockNoteData::*)(GlobalNamespace::NoteLineLayer)>(&MockNoteData::set_noteLineLayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNoteData::*)(GlobalNamespace::NoteLineLayer)>(&GlobalNamespace::MockNoteData::set_noteLineLayer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockNoteData*), "set_noteLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNoteData*), "set_noteLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>()});
   }
 };
-// Writing MetadataGetter for method: MockNoteData::get_duration
+// Writing MetadataGetter for method: GlobalNamespace::MockNoteData::get_duration
 // Il2CppName: get_duration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (MockNoteData::*)()>(&MockNoteData::get_duration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MockNoteData::*)()>(&GlobalNamespace::MockNoteData::get_duration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockNoteData*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNoteData*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockNoteData::set_duration
+// Writing MetadataGetter for method: GlobalNamespace::MockNoteData::set_duration
 // Il2CppName: set_duration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockNoteData::*)(float)>(&MockNoteData::set_duration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNoteData::*)(float)>(&GlobalNamespace::MockNoteData::set_duration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockNoteData*), "set_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNoteData*), "set_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: MockNoteData::Mirror
+// Writing MetadataGetter for method: GlobalNamespace::MockNoteData::Mirror
 // Il2CppName: Mirror
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockNoteData::*)(int)>(&MockNoteData::Mirror)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNoteData::*)(int)>(&GlobalNamespace::MockNoteData::Mirror)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockNoteData*), "Mirror", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNoteData*), "Mirror", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: MockNoteData::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MockNoteData::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockNoteData::*)()>(&MockNoteData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNoteData::*)()>(&GlobalNamespace::MockNoteData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockNoteData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNoteData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockNoteData::*)()>(&MockNoteData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNoteData::*)()>(&GlobalNamespace::MockNoteData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockNoteData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNoteData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

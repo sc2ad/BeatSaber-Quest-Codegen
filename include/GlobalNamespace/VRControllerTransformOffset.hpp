@@ -49,33 +49,33 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllerTransformOffset*, "", "VRControllerTransformOffset");
-// Writing MetadataGetter for method: VRControllerTransformOffset::get_positionOffset
+// Writing MetadataGetter for method: GlobalNamespace::VRControllerTransformOffset::get_positionOffset
 // Il2CppName: get_positionOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (VRControllerTransformOffset::*)()>(&VRControllerTransformOffset::get_positionOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::VRControllerTransformOffset::*)()>(&GlobalNamespace::VRControllerTransformOffset::get_positionOffset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRControllerTransformOffset*), "get_positionOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllerTransformOffset*), "get_positionOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRControllerTransformOffset::get_rotationOffset
+// Writing MetadataGetter for method: GlobalNamespace::VRControllerTransformOffset::get_rotationOffset
 // Il2CppName: get_rotationOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (VRControllerTransformOffset::*)()>(&VRControllerTransformOffset::get_rotationOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::VRControllerTransformOffset::*)()>(&GlobalNamespace::VRControllerTransformOffset::get_rotationOffset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRControllerTransformOffset*), "get_rotationOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllerTransformOffset*), "get_rotationOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRControllerTransformOffset::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::VRControllerTransformOffset::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRControllerTransformOffset::*)()>(&VRControllerTransformOffset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRControllerTransformOffset::*)()>(&GlobalNamespace::VRControllerTransformOffset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRControllerTransformOffset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllerTransformOffset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRControllerTransformOffset::*)()>(&VRControllerTransformOffset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRControllerTransformOffset::*)()>(&GlobalNamespace::VRControllerTransformOffset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRControllerTransformOffset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllerTransformOffset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

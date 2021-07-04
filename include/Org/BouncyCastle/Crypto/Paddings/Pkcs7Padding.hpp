@@ -53,41 +53,41 @@ namespace Org::BouncyCastle::Crypto::Paddings {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding*, "Org.BouncyCastle.Crypto.Paddings", "Pkcs7Padding");
-// Writing MetadataGetter for method: Pkcs7Padding::Init
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Pkcs7Padding::*)(Org::BouncyCastle::Security::SecureRandom*)>(&Pkcs7Padding::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding::*)(Org::BouncyCastle::Security::SecureRandom*)>(&Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Pkcs7Padding*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Security::SecureRandom*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Security::SecureRandom*>()});
   }
 };
-// Writing MetadataGetter for method: Pkcs7Padding::AddPadding
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding::AddPadding
 // Il2CppName: AddPadding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Pkcs7Padding::*)(::Array<uint8_t>*, int)>(&Pkcs7Padding::AddPadding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding::*)(::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding::AddPadding)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Pkcs7Padding*), "AddPadding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding*), "AddPadding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Pkcs7Padding::PadCount
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding::PadCount
 // Il2CppName: PadCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Pkcs7Padding::*)(::Array<uint8_t>*)>(&Pkcs7Padding::PadCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding::*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding::PadCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Pkcs7Padding*), "PadCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding*), "PadCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: Pkcs7Padding::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Pkcs7Padding::*)()>(&Pkcs7Padding::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding::*)()>(&Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Pkcs7Padding*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Pkcs7Padding::*)()>(&Pkcs7Padding::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding::*)()>(&Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Pkcs7Padding*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -58,33 +58,33 @@ namespace UnityEngine {
   static_assert(sizeof(CachedAssetBundle) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CachedAssetBundle, "UnityEngine", "CachedAssetBundle");
-// Writing MetadataGetter for method: CachedAssetBundle::CachedAssetBundle
+// Writing MetadataGetter for method: UnityEngine::CachedAssetBundle::CachedAssetBundle
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CachedAssetBundle::*)(::Il2CppString*, UnityEngine::Hash128)>(&CachedAssetBundle::CachedAssetBundle<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CachedAssetBundle::*)(::Il2CppString*, UnityEngine::Hash128)>(&UnityEngine::CachedAssetBundle::CachedAssetBundle<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CachedAssetBundle), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Hash128>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CachedAssetBundle), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Hash128>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CachedAssetBundle::*)(::Il2CppString*, UnityEngine::Hash128)>(&CachedAssetBundle::CachedAssetBundle<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CachedAssetBundle::*)(::Il2CppString*, UnityEngine::Hash128)>(&UnityEngine::CachedAssetBundle::CachedAssetBundle<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CachedAssetBundle), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Hash128>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CachedAssetBundle), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Hash128>()});
   }
 };
-// Writing MetadataGetter for method: CachedAssetBundle::get_name
+// Writing MetadataGetter for method: UnityEngine::CachedAssetBundle::get_name
 // Il2CppName: get_name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CachedAssetBundle::*)()>(&CachedAssetBundle::get_name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::CachedAssetBundle::*)()>(&UnityEngine::CachedAssetBundle::get_name)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CachedAssetBundle), "get_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CachedAssetBundle), "get_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CachedAssetBundle::get_hash
+// Writing MetadataGetter for method: UnityEngine::CachedAssetBundle::get_hash
 // Il2CppName: get_hash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Hash128 (CachedAssetBundle::*)()>(&CachedAssetBundle::get_hash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Hash128 (UnityEngine::CachedAssetBundle::*)()>(&UnityEngine::CachedAssetBundle::get_hash)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CachedAssetBundle), "get_hash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CachedAssetBundle), "get_hash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -69,25 +69,25 @@ namespace GlobalNamespace {
   static_assert(sizeof(SignalOnPointerClick) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SignalOnPointerClick*, "", "SignalOnPointerClick");
-// Writing MetadataGetter for method: SignalOnPointerClick::OnPointerClick
+// Writing MetadataGetter for method: GlobalNamespace::SignalOnPointerClick::OnPointerClick
 // Il2CppName: OnPointerClick
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalOnPointerClick::*)(UnityEngine::EventSystems::PointerEventData*)>(&SignalOnPointerClick::OnPointerClick)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SignalOnPointerClick::*)(UnityEngine::EventSystems::PointerEventData*)>(&GlobalNamespace::SignalOnPointerClick::OnPointerClick)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignalOnPointerClick*), "OnPointerClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SignalOnPointerClick*), "OnPointerClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: SignalOnPointerClick::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::SignalOnPointerClick::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalOnPointerClick::*)()>(&SignalOnPointerClick::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SignalOnPointerClick::*)()>(&GlobalNamespace::SignalOnPointerClick::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignalOnPointerClick*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SignalOnPointerClick*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalOnPointerClick::*)()>(&SignalOnPointerClick::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SignalOnPointerClick::*)()>(&GlobalNamespace::SignalOnPointerClick::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignalOnPointerClick*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SignalOnPointerClick*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

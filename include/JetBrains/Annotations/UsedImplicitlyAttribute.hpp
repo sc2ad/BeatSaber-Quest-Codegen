@@ -64,31 +64,31 @@ namespace JetBrains::Annotations {
   static_assert(sizeof(UsedImplicitlyAttribute) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::UsedImplicitlyAttribute*, "JetBrains.Annotations", "UsedImplicitlyAttribute");
-// Writing MetadataGetter for method: UsedImplicitlyAttribute::New_ctor
+// Writing MetadataGetter for method: JetBrains::Annotations::UsedImplicitlyAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UsedImplicitlyAttribute::*)(JetBrains::Annotations::ImplicitUseKindFlags, JetBrains::Annotations::ImplicitUseTargetFlags)>(&UsedImplicitlyAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::UsedImplicitlyAttribute::*)(JetBrains::Annotations::ImplicitUseKindFlags, JetBrains::Annotations::ImplicitUseTargetFlags)>(&JetBrains::Annotations::UsedImplicitlyAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UsedImplicitlyAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<JetBrains::Annotations::ImplicitUseKindFlags>(), ::il2cpp_utils::ExtractIndependentType<JetBrains::Annotations::ImplicitUseTargetFlags>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::UsedImplicitlyAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<JetBrains::Annotations::ImplicitUseKindFlags>(), ::il2cpp_utils::ExtractIndependentType<JetBrains::Annotations::ImplicitUseTargetFlags>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UsedImplicitlyAttribute::*)(JetBrains::Annotations::ImplicitUseKindFlags, JetBrains::Annotations::ImplicitUseTargetFlags)>(&UsedImplicitlyAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::UsedImplicitlyAttribute::*)(JetBrains::Annotations::ImplicitUseKindFlags, JetBrains::Annotations::ImplicitUseTargetFlags)>(&JetBrains::Annotations::UsedImplicitlyAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UsedImplicitlyAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<JetBrains::Annotations::ImplicitUseKindFlags>(), ::il2cpp_utils::ExtractIndependentType<JetBrains::Annotations::ImplicitUseTargetFlags>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::UsedImplicitlyAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<JetBrains::Annotations::ImplicitUseKindFlags>(), ::il2cpp_utils::ExtractIndependentType<JetBrains::Annotations::ImplicitUseTargetFlags>()});
   }
 };
-// Writing MetadataGetter for method: UsedImplicitlyAttribute::New_ctor
+// Writing MetadataGetter for method: JetBrains::Annotations::UsedImplicitlyAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UsedImplicitlyAttribute::*)()>(&UsedImplicitlyAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::UsedImplicitlyAttribute::*)()>(&JetBrains::Annotations::UsedImplicitlyAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UsedImplicitlyAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::UsedImplicitlyAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UsedImplicitlyAttribute::*)()>(&UsedImplicitlyAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::UsedImplicitlyAttribute::*)()>(&JetBrains::Annotations::UsedImplicitlyAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UsedImplicitlyAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::UsedImplicitlyAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

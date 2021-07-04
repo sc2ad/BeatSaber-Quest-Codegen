@@ -62,67 +62,67 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::UserDataStore*, "Oculus.Platform", "UserDataStore");
-// Writing MetadataGetter for method: UserDataStore::PrivateDeleteEntryByKey
+// Writing MetadataGetter for method: Oculus::Platform::UserDataStore::PrivateDeleteEntryByKey
 // Il2CppName: PrivateDeleteEntryByKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::UserDataStoreUpdateResponse*>* (*)(uint64_t, ::Il2CppString*)>(&UserDataStore::PrivateDeleteEntryByKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::UserDataStoreUpdateResponse*>* (*)(uint64_t, ::Il2CppString*)>(&Oculus::Platform::UserDataStore::PrivateDeleteEntryByKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserDataStore*), "PrivateDeleteEntryByKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::UserDataStore*), "PrivateDeleteEntryByKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: UserDataStore::PrivateGetEntries
+// Writing MetadataGetter for method: Oculus::Platform::UserDataStore::PrivateGetEntries
 // Il2CppName: PrivateGetEntries
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>* (*)(uint64_t)>(&UserDataStore::PrivateGetEntries)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>* (*)(uint64_t)>(&Oculus::Platform::UserDataStore::PrivateGetEntries)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserDataStore*), "PrivateGetEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::UserDataStore*), "PrivateGetEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: UserDataStore::PrivateGetEntryByKey
+// Writing MetadataGetter for method: Oculus::Platform::UserDataStore::PrivateGetEntryByKey
 // Il2CppName: PrivateGetEntryByKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>* (*)(uint64_t, ::Il2CppString*)>(&UserDataStore::PrivateGetEntryByKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>* (*)(uint64_t, ::Il2CppString*)>(&Oculus::Platform::UserDataStore::PrivateGetEntryByKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserDataStore*), "PrivateGetEntryByKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::UserDataStore*), "PrivateGetEntryByKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: UserDataStore::PrivateWriteEntry
+// Writing MetadataGetter for method: Oculus::Platform::UserDataStore::PrivateWriteEntry
 // Il2CppName: PrivateWriteEntry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::UserDataStoreUpdateResponse*>* (*)(uint64_t, ::Il2CppString*, ::Il2CppString*)>(&UserDataStore::PrivateWriteEntry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::UserDataStoreUpdateResponse*>* (*)(uint64_t, ::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::UserDataStore::PrivateWriteEntry)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserDataStore*), "PrivateWriteEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::UserDataStore*), "PrivateWriteEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: UserDataStore::PublicDeleteEntryByKey
+// Writing MetadataGetter for method: Oculus::Platform::UserDataStore::PublicDeleteEntryByKey
 // Il2CppName: PublicDeleteEntryByKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::UserDataStoreUpdateResponse*>* (*)(uint64_t, ::Il2CppString*)>(&UserDataStore::PublicDeleteEntryByKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::UserDataStoreUpdateResponse*>* (*)(uint64_t, ::Il2CppString*)>(&Oculus::Platform::UserDataStore::PublicDeleteEntryByKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserDataStore*), "PublicDeleteEntryByKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::UserDataStore*), "PublicDeleteEntryByKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: UserDataStore::PublicGetEntries
+// Writing MetadataGetter for method: Oculus::Platform::UserDataStore::PublicGetEntries
 // Il2CppName: PublicGetEntries
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>* (*)(uint64_t)>(&UserDataStore::PublicGetEntries)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>* (*)(uint64_t)>(&Oculus::Platform::UserDataStore::PublicGetEntries)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserDataStore*), "PublicGetEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::UserDataStore*), "PublicGetEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: UserDataStore::PublicGetEntryByKey
+// Writing MetadataGetter for method: Oculus::Platform::UserDataStore::PublicGetEntryByKey
 // Il2CppName: PublicGetEntryByKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>* (*)(uint64_t, ::Il2CppString*)>(&UserDataStore::PublicGetEntryByKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>* (*)(uint64_t, ::Il2CppString*)>(&Oculus::Platform::UserDataStore::PublicGetEntryByKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserDataStore*), "PublicGetEntryByKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::UserDataStore*), "PublicGetEntryByKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: UserDataStore::PublicWriteEntry
+// Writing MetadataGetter for method: Oculus::Platform::UserDataStore::PublicWriteEntry
 // Il2CppName: PublicWriteEntry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::UserDataStoreUpdateResponse*>* (*)(uint64_t, ::Il2CppString*, ::Il2CppString*)>(&UserDataStore::PublicWriteEntry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::UserDataStoreUpdateResponse*>* (*)(uint64_t, ::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::UserDataStore::PublicWriteEntry)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserDataStore*), "PublicWriteEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::UserDataStore*), "PublicWriteEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };

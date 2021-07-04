@@ -61,33 +61,33 @@ namespace UnityEngine::TestTools::TestRunner {
   static_assert(sizeof(TestEnumeratorWrapper) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper*, "UnityEngine.TestTools.TestRunner", "TestEnumeratorWrapper");
-// Writing MetadataGetter for method: TestEnumeratorWrapper::New_ctor
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestEnumeratorWrapper::*)(NUnit::Framework::Internal::TestMethod*)>(&TestEnumeratorWrapper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::*)(NUnit::Framework::Internal::TestMethod*)>(&UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestEnumeratorWrapper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestMethod*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestMethod*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestEnumeratorWrapper::*)(NUnit::Framework::Internal::TestMethod*)>(&TestEnumeratorWrapper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::*)(NUnit::Framework::Internal::TestMethod*)>(&UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestEnumeratorWrapper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestMethod*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestMethod*>()});
   }
 };
-// Writing MetadataGetter for method: TestEnumeratorWrapper::GetEnumerator
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::GetEnumerator
 // Il2CppName: GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (TestEnumeratorWrapper::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&TestEnumeratorWrapper::GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::GetEnumerator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestEnumeratorWrapper*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
   }
 };
-// Writing MetadataGetter for method: TestEnumeratorWrapper::HandleEnumerableTest
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::HandleEnumerableTest
 // Il2CppName: HandleEnumerableTest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (TestEnumeratorWrapper::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&TestEnumeratorWrapper::HandleEnumerableTest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::HandleEnumerableTest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestEnumeratorWrapper*), "HandleEnumerableTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper*), "HandleEnumerableTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
   }
 };

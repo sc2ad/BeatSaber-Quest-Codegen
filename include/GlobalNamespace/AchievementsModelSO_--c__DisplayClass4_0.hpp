@@ -53,25 +53,25 @@ namespace GlobalNamespace {
   static_assert(sizeof(AchievementsModelSO::$$c__DisplayClass4_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0*, "", "AchievementsModelSO/<>c__DisplayClass4_0");
-// Writing MetadataGetter for method: AchievementsModelSO::$$c__DisplayClass4_0::$UnlockAchievement$b__0
+// Writing MetadataGetter for method: GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0::$UnlockAchievement$b__0
 // Il2CppName: <UnlockAchievement>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AchievementsModelSO::$$c__DisplayClass4_0::*)(GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementResult)>(&AchievementsModelSO::$$c__DisplayClass4_0::$UnlockAchievement$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0::*)(GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementResult)>(&GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0::$UnlockAchievement$b__0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AchievementsModelSO::$$c__DisplayClass4_0*), "<UnlockAchievement>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementResult>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0*), "<UnlockAchievement>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementResult>()});
   }
 };
-// Writing MetadataGetter for method: AchievementsModelSO::$$c__DisplayClass4_0::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AchievementsModelSO::$$c__DisplayClass4_0::*)()>(&AchievementsModelSO::$$c__DisplayClass4_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0::*)()>(&GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AchievementsModelSO::$$c__DisplayClass4_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AchievementsModelSO::$$c__DisplayClass4_0::*)()>(&AchievementsModelSO::$$c__DisplayClass4_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0::*)()>(&GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AchievementsModelSO::$$c__DisplayClass4_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

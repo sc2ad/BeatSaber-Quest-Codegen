@@ -58,33 +58,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(SceneInfo) == 0x21);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SceneInfo*, "", "SceneInfo");
-// Writing MetadataGetter for method: SceneInfo::get_sceneName
+// Writing MetadataGetter for method: GlobalNamespace::SceneInfo::get_sceneName
 // Il2CppName: get_sceneName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SceneInfo::*)()>(&SceneInfo::get_sceneName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SceneInfo::*)()>(&GlobalNamespace::SceneInfo::get_sceneName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SceneInfo*), "get_sceneName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneInfo*), "get_sceneName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SceneInfo::get_disabledRootObjects
+// Writing MetadataGetter for method: GlobalNamespace::SceneInfo::get_disabledRootObjects
 // Il2CppName: get_disabledRootObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SceneInfo::*)()>(&SceneInfo::get_disabledRootObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SceneInfo::*)()>(&GlobalNamespace::SceneInfo::get_disabledRootObjects)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SceneInfo*), "get_disabledRootObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneInfo*), "get_disabledRootObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SceneInfo::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::SceneInfo::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneInfo::*)()>(&SceneInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneInfo::*)()>(&GlobalNamespace::SceneInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SceneInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneInfo::*)()>(&SceneInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneInfo::*)()>(&GlobalNamespace::SceneInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SceneInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

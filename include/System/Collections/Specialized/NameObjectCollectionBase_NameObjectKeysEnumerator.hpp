@@ -68,41 +68,41 @@ namespace System::Collections::Specialized {
   static_assert(sizeof(NameObjectCollectionBase::NameObjectKeysEnumerator) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator*, "System.Collections.Specialized", "NameObjectCollectionBase/NameObjectKeysEnumerator");
-// Writing MetadataGetter for method: NameObjectCollectionBase::NameObjectKeysEnumerator::New_ctor
+// Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NameObjectCollectionBase::NameObjectKeysEnumerator::*)(System::Collections::Specialized::NameObjectCollectionBase*)>(&NameObjectCollectionBase::NameObjectKeysEnumerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator::*)(System::Collections::Specialized::NameObjectCollectionBase*)>(&System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NameObjectCollectionBase::NameObjectKeysEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Specialized::NameObjectCollectionBase*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Specialized::NameObjectCollectionBase*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NameObjectCollectionBase::NameObjectKeysEnumerator::*)(System::Collections::Specialized::NameObjectCollectionBase*)>(&NameObjectCollectionBase::NameObjectKeysEnumerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator::*)(System::Collections::Specialized::NameObjectCollectionBase*)>(&System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NameObjectCollectionBase::NameObjectKeysEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Specialized::NameObjectCollectionBase*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Specialized::NameObjectCollectionBase*>()});
   }
 };
-// Writing MetadataGetter for method: NameObjectCollectionBase::NameObjectKeysEnumerator::MoveNext
+// Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator::MoveNext
 // Il2CppName: MoveNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NameObjectCollectionBase::NameObjectKeysEnumerator::*)()>(&NameObjectCollectionBase::NameObjectKeysEnumerator::MoveNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator::*)()>(&System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator::MoveNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NameObjectCollectionBase::NameObjectKeysEnumerator*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NameObjectCollectionBase::NameObjectKeysEnumerator::Reset
+// Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator::Reset
 // Il2CppName: Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NameObjectCollectionBase::NameObjectKeysEnumerator::*)()>(&NameObjectCollectionBase::NameObjectKeysEnumerator::Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator::*)()>(&System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator::Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NameObjectCollectionBase::NameObjectKeysEnumerator*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NameObjectCollectionBase::NameObjectKeysEnumerator::get_Current
+// Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator::get_Current
 // Il2CppName: get_Current
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (NameObjectCollectionBase::NameObjectKeysEnumerator::*)()>(&NameObjectCollectionBase::NameObjectKeysEnumerator::get_Current)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator::*)()>(&System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator::get_Current)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NameObjectCollectionBase::NameObjectKeysEnumerator*), "get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator*), "get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

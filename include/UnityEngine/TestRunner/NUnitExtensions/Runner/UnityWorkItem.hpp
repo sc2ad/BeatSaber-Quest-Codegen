@@ -216,177 +216,177 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   static_assert(sizeof(UnityWorkItem) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityWorkItem");
-// Writing MetadataGetter for method: UnityWorkItem::get_ResultedInDomainReload
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::get_ResultedInDomainReload
 // Il2CppName: get_ResultedInDomainReload
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityWorkItem::*)()>(&UnityWorkItem::get_ResultedInDomainReload)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::get_ResultedInDomainReload)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWorkItem*), "get_ResultedInDomainReload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "get_ResultedInDomainReload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityWorkItem::set_ResultedInDomainReload
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::set_ResultedInDomainReload
 // Il2CppName: set_ResultedInDomainReload
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWorkItem::*)(bool)>(&UnityWorkItem::set_ResultedInDomainReload)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)(bool)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::set_ResultedInDomainReload)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWorkItem*), "set_ResultedInDomainReload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "set_ResultedInDomainReload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: UnityWorkItem::get_Context
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::get_Context
 // Il2CppName: get_Context
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* (UnityWorkItem::*)()>(&UnityWorkItem::get_Context)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::get_Context)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWorkItem*), "get_Context", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "get_Context", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityWorkItem::set_Context
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::set_Context
 // Il2CppName: set_Context
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWorkItem::*)(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*)>(&UnityWorkItem::set_Context)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::set_Context)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWorkItem*), "set_Context", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "set_Context", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*>()});
   }
 };
-// Writing MetadataGetter for method: UnityWorkItem::get_Test
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::get_Test
 // Il2CppName: get_Test
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Test* (UnityWorkItem::*)()>(&UnityWorkItem::get_Test)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Test* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::get_Test)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWorkItem*), "get_Test", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "get_Test", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityWorkItem::set_Test
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::set_Test
 // Il2CppName: set_Test
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWorkItem::*)(NUnit::Framework::Internal::Test*)>(&UnityWorkItem::set_Test)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)(NUnit::Framework::Internal::Test*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::set_Test)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWorkItem*), "set_Test", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "set_Test", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
   }
 };
-// Writing MetadataGetter for method: UnityWorkItem::get_Result
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::get_Result
 // Il2CppName: get_Result
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (UnityWorkItem::*)()>(&UnityWorkItem::get_Result)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::get_Result)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWorkItem*), "get_Result", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "get_Result", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityWorkItem::set_Result
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::set_Result
 // Il2CppName: set_Result
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWorkItem::*)(NUnit::Framework::Internal::TestResult*)>(&UnityWorkItem::set_Result)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)(NUnit::Framework::Internal::TestResult*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::set_Result)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWorkItem*), "set_Result", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "set_Result", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestResult*>()});
   }
 };
-// Writing MetadataGetter for method: UnityWorkItem::get_State
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::get_State
 // Il2CppName: get_State
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Execution::WorkItemState (UnityWorkItem::*)()>(&UnityWorkItem::get_State)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Execution::WorkItemState (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::get_State)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWorkItem*), "get_State", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "get_State", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityWorkItem::set_State
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::set_State
 // Il2CppName: set_State
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWorkItem::*)(NUnit::Framework::Internal::Execution::WorkItemState)>(&UnityWorkItem::set_State)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)(NUnit::Framework::Internal::Execution::WorkItemState)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::set_State)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWorkItem*), "set_State", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Execution::WorkItemState>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "set_State", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Execution::WorkItemState>()});
   }
 };
-// Writing MetadataGetter for method: UnityWorkItem::get_Actions
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::get_Actions
 // Il2CppName: get_Actions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>* (UnityWorkItem::*)()>(&UnityWorkItem::get_Actions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::get_Actions)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWorkItem*), "get_Actions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "get_Actions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityWorkItem::set_Actions
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::set_Actions
 // Il2CppName: set_Actions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWorkItem::*)(System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>*)>(&UnityWorkItem::set_Actions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)(System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::set_Actions)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWorkItem*), "set_Actions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "set_Actions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>*>()});
   }
 };
-// Writing MetadataGetter for method: UnityWorkItem::New_ctor
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWorkItem::*)(NUnit::Framework::Internal::Test*, UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*)>(&UnityWorkItem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)(NUnit::Framework::Internal::Test*, UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWorkItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWorkItem::*)(NUnit::Framework::Internal::Test*, UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*)>(&UnityWorkItem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)(NUnit::Framework::Internal::Test*, UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWorkItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*>()});
   }
 };
-// Writing MetadataGetter for method: UnityWorkItem::ShouldRestore
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::ShouldRestore
 // Il2CppName: ShouldRestore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(NUnit::Framework::Interfaces::ITest*)>(&UnityWorkItem::ShouldRestore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(NUnit::Framework::Interfaces::ITest*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::ShouldRestore)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWorkItem*), "ShouldRestore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "ShouldRestore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
   }
 };
-// Writing MetadataGetter for method: UnityWorkItem::ShouldExecuteStartEvent
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::ShouldExecuteStartEvent
 // Il2CppName: ShouldExecuteStartEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityWorkItem::*)()>(&UnityWorkItem::ShouldExecuteStartEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::ShouldExecuteStartEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWorkItem*), "ShouldExecuteStartEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "ShouldExecuteStartEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityWorkItem::PerformWork
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::PerformWork
 // Il2CppName: PerformWork
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (UnityWorkItem::*)()>(&UnityWorkItem::PerformWork)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::PerformWork)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWorkItem*), "PerformWork", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "PerformWork", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityWorkItem::InitializeContext
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::InitializeContext
 // Il2CppName: InitializeContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWorkItem::*)(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*)>(&UnityWorkItem::InitializeContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::InitializeContext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWorkItem*), "InitializeContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "InitializeContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*>()});
   }
 };
-// Writing MetadataGetter for method: UnityWorkItem::Execute
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::Execute
 // Il2CppName: Execute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (UnityWorkItem::*)()>(&UnityWorkItem::Execute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::Execute)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWorkItem*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityWorkItem::WorkItemComplete
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::WorkItemComplete
 // Il2CppName: WorkItemComplete
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWorkItem::*)()>(&UnityWorkItem::WorkItemComplete)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::WorkItemComplete)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWorkItem*), "WorkItemComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "WorkItemComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityWorkItem::Cancel
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::Cancel
 // Il2CppName: Cancel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityWorkItem::*)(bool)>(&UnityWorkItem::Cancel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)(bool)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::Cancel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWorkItem*), "Cancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "Cancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: UnityWorkItem::$ShouldExecuteStartEvent$b__33_0
+// Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::$ShouldExecuteStartEvent$b__33_0
 // Il2CppName: <ShouldExecuteStartEvent>b__33_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityWorkItem::*)(::Il2CppString*)>(&UnityWorkItem::$ShouldExecuteStartEvent$b__33_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::*)(::Il2CppString*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::$ShouldExecuteStartEvent$b__33_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWorkItem*), "<ShouldExecuteStartEvent>b__33_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*), "<ShouldExecuteStartEvent>b__33_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };

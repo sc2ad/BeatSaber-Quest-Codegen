@@ -130,81 +130,81 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLobbyAvatarManager) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyAvatarManager*, "", "MultiplayerLobbyAvatarManager");
-// Writing MetadataGetter for method: MultiplayerLobbyAvatarManager::Init
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyAvatarManager::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyAvatarManager::*)(float, float)>(&MultiplayerLobbyAvatarManager::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyAvatarManager::*)(float, float)>(&GlobalNamespace::MultiplayerLobbyAvatarManager::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyAvatarManager*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyAvatarManager*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyAvatarManager::ActivateMultiplayerLobbyAvatarManager
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyAvatarManager::ActivateMultiplayerLobbyAvatarManager
 // Il2CppName: ActivateMultiplayerLobbyAvatarManager
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyAvatarManager::*)()>(&MultiplayerLobbyAvatarManager::ActivateMultiplayerLobbyAvatarManager)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyAvatarManager::*)()>(&GlobalNamespace::MultiplayerLobbyAvatarManager::ActivateMultiplayerLobbyAvatarManager)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyAvatarManager*), "ActivateMultiplayerLobbyAvatarManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyAvatarManager*), "ActivateMultiplayerLobbyAvatarManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyAvatarManager::DeactivateMultiplayerLobbyAvatarManager
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyAvatarManager::DeactivateMultiplayerLobbyAvatarManager
 // Il2CppName: DeactivateMultiplayerLobbyAvatarManager
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyAvatarManager::*)()>(&MultiplayerLobbyAvatarManager::DeactivateMultiplayerLobbyAvatarManager)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyAvatarManager::*)()>(&GlobalNamespace::MultiplayerLobbyAvatarManager::DeactivateMultiplayerLobbyAvatarManager)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyAvatarManager*), "DeactivateMultiplayerLobbyAvatarManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyAvatarManager*), "DeactivateMultiplayerLobbyAvatarManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyAvatarManager::HandleLobbyStateDataModelPlayerConnected
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyAvatarManager::HandleLobbyStateDataModelPlayerConnected
 // Il2CppName: HandleLobbyStateDataModelPlayerConnected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyAvatarManager::*)(GlobalNamespace::IConnectedPlayer*)>(&MultiplayerLobbyAvatarManager::HandleLobbyStateDataModelPlayerConnected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyAvatarManager::*)(GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::MultiplayerLobbyAvatarManager::HandleLobbyStateDataModelPlayerConnected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyAvatarManager*), "HandleLobbyStateDataModelPlayerConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyAvatarManager*), "HandleLobbyStateDataModelPlayerConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyAvatarManager::HandleLobbyStateDataModelPlayerDisconnected
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyAvatarManager::HandleLobbyStateDataModelPlayerDisconnected
 // Il2CppName: HandleLobbyStateDataModelPlayerDisconnected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyAvatarManager::*)(GlobalNamespace::IConnectedPlayer*)>(&MultiplayerLobbyAvatarManager::HandleLobbyStateDataModelPlayerDisconnected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyAvatarManager::*)(GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::MultiplayerLobbyAvatarManager::HandleLobbyStateDataModelPlayerDisconnected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyAvatarManager*), "HandleLobbyStateDataModelPlayerDisconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyAvatarManager*), "HandleLobbyStateDataModelPlayerDisconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyAvatarManager::AddPlayer
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyAvatarManager::AddPlayer
 // Il2CppName: AddPlayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyAvatarManager::*)(GlobalNamespace::IConnectedPlayer*)>(&MultiplayerLobbyAvatarManager::AddPlayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyAvatarManager::*)(GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::MultiplayerLobbyAvatarManager::AddPlayer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyAvatarManager*), "AddPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyAvatarManager*), "AddPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyAvatarManager::RemovePlayer
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyAvatarManager::RemovePlayer
 // Il2CppName: RemovePlayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyAvatarManager::*)(GlobalNamespace::IConnectedPlayer*)>(&MultiplayerLobbyAvatarManager::RemovePlayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyAvatarManager::*)(GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::MultiplayerLobbyAvatarManager::RemovePlayer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyAvatarManager*), "RemovePlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyAvatarManager*), "RemovePlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyAvatarManager::RemovePlayerAndDestroy
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyAvatarManager::RemovePlayerAndDestroy
 // Il2CppName: RemovePlayerAndDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (MultiplayerLobbyAvatarManager::*)(::Il2CppString*, GlobalNamespace::MultiplayerLobbyAvatarController*)>(&MultiplayerLobbyAvatarManager::RemovePlayerAndDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::MultiplayerLobbyAvatarManager::*)(::Il2CppString*, GlobalNamespace::MultiplayerLobbyAvatarController*)>(&GlobalNamespace::MultiplayerLobbyAvatarManager::RemovePlayerAndDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyAvatarManager*), "RemovePlayerAndDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLobbyAvatarController*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyAvatarManager*), "RemovePlayerAndDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLobbyAvatarController*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyAvatarManager::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyAvatarManager::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyAvatarManager::*)()>(&MultiplayerLobbyAvatarManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyAvatarManager::*)()>(&GlobalNamespace::MultiplayerLobbyAvatarManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyAvatarManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyAvatarManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyAvatarManager::*)()>(&MultiplayerLobbyAvatarManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyAvatarManager::*)()>(&GlobalNamespace::MultiplayerLobbyAvatarManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyAvatarManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyAvatarManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

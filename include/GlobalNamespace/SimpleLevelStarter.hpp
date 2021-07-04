@@ -188,73 +188,73 @@ namespace GlobalNamespace {
   static_assert(sizeof(SimpleLevelStarter) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleLevelStarter*, "", "SimpleLevelStarter");
-// Writing MetadataGetter for method: SimpleLevelStarter::Awake
+// Writing MetadataGetter for method: GlobalNamespace::SimpleLevelStarter::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleLevelStarter::*)()>(&SimpleLevelStarter::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleLevelStarter::*)()>(&GlobalNamespace::SimpleLevelStarter::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleLevelStarter*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleLevelStarter*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SimpleLevelStarter::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::SimpleLevelStarter::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleLevelStarter::*)()>(&SimpleLevelStarter::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleLevelStarter::*)()>(&GlobalNamespace::SimpleLevelStarter::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleLevelStarter*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleLevelStarter*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SimpleLevelStarter::StartLevel
+// Writing MetadataGetter for method: GlobalNamespace::SimpleLevelStarter::StartLevel
 // Il2CppName: StartLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleLevelStarter::*)()>(&SimpleLevelStarter::StartLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleLevelStarter::*)()>(&GlobalNamespace::SimpleLevelStarter::StartLevel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleLevelStarter*), "StartLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleLevelStarter*), "StartLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SimpleLevelStarter::InstallEarlyBindings
+// Writing MetadataGetter for method: GlobalNamespace::SimpleLevelStarter::InstallEarlyBindings
 // Il2CppName: InstallEarlyBindings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleLevelStarter::*)(GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*)>(&SimpleLevelStarter::InstallEarlyBindings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleLevelStarter::*)(GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*)>(&GlobalNamespace::SimpleLevelStarter::InstallEarlyBindings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleLevelStarter*), "InstallEarlyBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ScenesTransitionSetupDataSO*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleLevelStarter*), "InstallEarlyBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ScenesTransitionSetupDataSO*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
   }
 };
-// Writing MetadataGetter for method: SimpleLevelStarter::ButtonPressed
+// Writing MetadataGetter for method: GlobalNamespace::SimpleLevelStarter::ButtonPressed
 // Il2CppName: ButtonPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleLevelStarter::*)()>(&SimpleLevelStarter::ButtonPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleLevelStarter::*)()>(&GlobalNamespace::SimpleLevelStarter::ButtonPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleLevelStarter*), "ButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleLevelStarter*), "ButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SimpleLevelStarter::HandleLevelDidFinish
+// Writing MetadataGetter for method: GlobalNamespace::SimpleLevelStarter::HandleLevelDidFinish
 // Il2CppName: HandleLevelDidFinish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleLevelStarter::*)(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*)>(&SimpleLevelStarter::HandleLevelDidFinish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleLevelStarter::*)(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*)>(&GlobalNamespace::SimpleLevelStarter::HandleLevelDidFinish)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleLevelStarter*), "HandleLevelDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleLevelStarter*), "HandleLevelDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>()});
   }
 };
-// Writing MetadataGetter for method: SimpleLevelStarter::$StartLevel$g__AfterSceneSwitchCallback_14_0
+// Writing MetadataGetter for method: GlobalNamespace::SimpleLevelStarter::$StartLevel$g__AfterSceneSwitchCallback_14_0
 // Il2CppName: <StartLevel>g__AfterSceneSwitchCallback|14_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleLevelStarter::*)(Zenject::DiContainer*)>(&SimpleLevelStarter::$StartLevel$g__AfterSceneSwitchCallback_14_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleLevelStarter::*)(Zenject::DiContainer*)>(&GlobalNamespace::SimpleLevelStarter::$StartLevel$g__AfterSceneSwitchCallback_14_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleLevelStarter*), "<StartLevel>g__AfterSceneSwitchCallback|14_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleLevelStarter*), "<StartLevel>g__AfterSceneSwitchCallback|14_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
   }
 };
-// Writing MetadataGetter for method: SimpleLevelStarter::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::SimpleLevelStarter::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleLevelStarter::*)()>(&SimpleLevelStarter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleLevelStarter::*)()>(&GlobalNamespace::SimpleLevelStarter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleLevelStarter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleLevelStarter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleLevelStarter::*)()>(&SimpleLevelStarter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleLevelStarter::*)()>(&GlobalNamespace::SimpleLevelStarter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleLevelStarter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleLevelStarter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

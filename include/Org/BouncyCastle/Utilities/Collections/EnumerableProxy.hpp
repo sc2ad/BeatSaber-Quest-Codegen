@@ -57,25 +57,25 @@ namespace Org::BouncyCastle::Utilities::Collections {
   static_assert(sizeof(EnumerableProxy) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::EnumerableProxy*, "Org.BouncyCastle.Utilities.Collections", "EnumerableProxy");
-// Writing MetadataGetter for method: EnumerableProxy::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::EnumerableProxy::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnumerableProxy::*)(System::Collections::IEnumerable*)>(&EnumerableProxy::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Utilities::Collections::EnumerableProxy::*)(System::Collections::IEnumerable*)>(&Org::BouncyCastle::Utilities::Collections::EnumerableProxy::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnumerableProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::EnumerableProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnumerableProxy::*)(System::Collections::IEnumerable*)>(&EnumerableProxy::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Utilities::Collections::EnumerableProxy::*)(System::Collections::IEnumerable*)>(&Org::BouncyCastle::Utilities::Collections::EnumerableProxy::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnumerableProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::EnumerableProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>()});
   }
 };
-// Writing MetadataGetter for method: EnumerableProxy::GetEnumerator
+// Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::EnumerableProxy::GetEnumerator
 // Il2CppName: GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (EnumerableProxy::*)()>(&EnumerableProxy::GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (Org::BouncyCastle::Utilities::Collections::EnumerableProxy::*)()>(&Org::BouncyCastle::Utilities::Collections::EnumerableProxy::GetEnumerator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnumerableProxy*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::EnumerableProxy*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

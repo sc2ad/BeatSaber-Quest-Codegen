@@ -75,41 +75,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(SignalOnUIButtonClick) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SignalOnUIButtonClick*, "", "SignalOnUIButtonClick");
-// Writing MetadataGetter for method: SignalOnUIButtonClick::OnReset
+// Writing MetadataGetter for method: GlobalNamespace::SignalOnUIButtonClick::OnReset
 // Il2CppName: OnReset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalOnUIButtonClick::*)()>(&SignalOnUIButtonClick::OnReset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SignalOnUIButtonClick::*)()>(&GlobalNamespace::SignalOnUIButtonClick::OnReset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignalOnUIButtonClick*), "OnReset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SignalOnUIButtonClick*), "OnReset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SignalOnUIButtonClick::Start
+// Writing MetadataGetter for method: GlobalNamespace::SignalOnUIButtonClick::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalOnUIButtonClick::*)()>(&SignalOnUIButtonClick::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SignalOnUIButtonClick::*)()>(&GlobalNamespace::SignalOnUIButtonClick::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignalOnUIButtonClick*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SignalOnUIButtonClick*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SignalOnUIButtonClick::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::SignalOnUIButtonClick::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalOnUIButtonClick::*)()>(&SignalOnUIButtonClick::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SignalOnUIButtonClick::*)()>(&GlobalNamespace::SignalOnUIButtonClick::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignalOnUIButtonClick*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SignalOnUIButtonClick*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SignalOnUIButtonClick::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::SignalOnUIButtonClick::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalOnUIButtonClick::*)()>(&SignalOnUIButtonClick::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SignalOnUIButtonClick::*)()>(&GlobalNamespace::SignalOnUIButtonClick::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignalOnUIButtonClick*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SignalOnUIButtonClick*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalOnUIButtonClick::*)()>(&SignalOnUIButtonClick::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SignalOnUIButtonClick::*)()>(&GlobalNamespace::SignalOnUIButtonClick::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignalOnUIButtonClick*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SignalOnUIButtonClick*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

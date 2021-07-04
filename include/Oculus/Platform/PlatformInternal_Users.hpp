@@ -39,11 +39,11 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PlatformInternal::Users*, "Oculus.Platform", "PlatformInternal/Users");
-// Writing MetadataGetter for method: PlatformInternal::Users::GetLinkedAccounts
+// Writing MetadataGetter for method: Oculus::Platform::PlatformInternal::Users::GetLinkedAccounts
 // Il2CppName: GetLinkedAccounts
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::LinkedAccountList*>* (*)(::Array<Oculus::Platform::ServiceProvider>*)>(&PlatformInternal::Users::GetLinkedAccounts)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::LinkedAccountList*>* (*)(::Array<Oculus::Platform::ServiceProvider>*)>(&Oculus::Platform::PlatformInternal::Users::GetLinkedAccounts)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformInternal::Users*), "GetLinkedAccounts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Oculus::Platform::ServiceProvider>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::PlatformInternal::Users*), "GetLinkedAccounts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Oculus::Platform::ServiceProvider>*>()});
   }
 };

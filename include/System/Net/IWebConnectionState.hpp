@@ -34,27 +34,27 @@ namespace System::Net {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::IWebConnectionState*, "System.Net", "IWebConnectionState");
-// Writing MetadataGetter for method: IWebConnectionState::get_Group
+// Writing MetadataGetter for method: System::Net::IWebConnectionState::get_Group
 // Il2CppName: get_Group
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebConnectionGroup* (IWebConnectionState::*)()>(&IWebConnectionState::get_Group)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebConnectionGroup* (System::Net::IWebConnectionState::*)()>(&System::Net::IWebConnectionState::get_Group)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IWebConnectionState*), "get_Group", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::IWebConnectionState*), "get_Group", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IWebConnectionState::TrySetBusy
+// Writing MetadataGetter for method: System::Net::IWebConnectionState::TrySetBusy
 // Il2CppName: TrySetBusy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IWebConnectionState::*)()>(&IWebConnectionState::TrySetBusy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::IWebConnectionState::*)()>(&System::Net::IWebConnectionState::TrySetBusy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IWebConnectionState*), "TrySetBusy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::IWebConnectionState*), "TrySetBusy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IWebConnectionState::SetIdle
+// Writing MetadataGetter for method: System::Net::IWebConnectionState::SetIdle
 // Il2CppName: SetIdle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IWebConnectionState::*)()>(&IWebConnectionState::SetIdle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::IWebConnectionState::*)()>(&System::Net::IWebConnectionState::SetIdle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IWebConnectionState*), "SetIdle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::IWebConnectionState*), "SetIdle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

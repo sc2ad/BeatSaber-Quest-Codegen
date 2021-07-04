@@ -110,97 +110,97 @@ namespace GlobalNamespace {
   static_assert(sizeof(LightWithIdMonoBehaviour) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightWithIdMonoBehaviour*, "", "LightWithIdMonoBehaviour");
-// Writing MetadataGetter for method: LightWithIdMonoBehaviour::get_lightId
+// Writing MetadataGetter for method: GlobalNamespace::LightWithIdMonoBehaviour::get_lightId
 // Il2CppName: get_lightId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LightWithIdMonoBehaviour::*)()>(&LightWithIdMonoBehaviour::get_lightId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::LightWithIdMonoBehaviour::*)()>(&GlobalNamespace::LightWithIdMonoBehaviour::get_lightId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightWithIdMonoBehaviour*), "get_lightId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdMonoBehaviour*), "get_lightId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LightWithIdMonoBehaviour::get_isRegistered
+// Writing MetadataGetter for method: GlobalNamespace::LightWithIdMonoBehaviour::get_isRegistered
 // Il2CppName: get_isRegistered
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LightWithIdMonoBehaviour::*)()>(&LightWithIdMonoBehaviour::get_isRegistered)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LightWithIdMonoBehaviour::*)()>(&GlobalNamespace::LightWithIdMonoBehaviour::get_isRegistered)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightWithIdMonoBehaviour*), "get_isRegistered", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdMonoBehaviour*), "get_isRegistered", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LightWithIdMonoBehaviour::__SetIsRegistered
+// Writing MetadataGetter for method: GlobalNamespace::LightWithIdMonoBehaviour::__SetIsRegistered
 // Il2CppName: __SetIsRegistered
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightWithIdMonoBehaviour::*)()>(&LightWithIdMonoBehaviour::__SetIsRegistered)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightWithIdMonoBehaviour::*)()>(&GlobalNamespace::LightWithIdMonoBehaviour::__SetIsRegistered)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightWithIdMonoBehaviour*), "__SetIsRegistered", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdMonoBehaviour*), "__SetIsRegistered", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LightWithIdMonoBehaviour::__SetIsUnRegistered
+// Writing MetadataGetter for method: GlobalNamespace::LightWithIdMonoBehaviour::__SetIsUnRegistered
 // Il2CppName: __SetIsUnRegistered
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightWithIdMonoBehaviour::*)()>(&LightWithIdMonoBehaviour::__SetIsUnRegistered)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightWithIdMonoBehaviour::*)()>(&GlobalNamespace::LightWithIdMonoBehaviour::__SetIsUnRegistered)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightWithIdMonoBehaviour*), "__SetIsUnRegistered", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdMonoBehaviour*), "__SetIsUnRegistered", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LightWithIdMonoBehaviour::ColorWasSet
+// Writing MetadataGetter for method: GlobalNamespace::LightWithIdMonoBehaviour::ColorWasSet
 // Il2CppName: ColorWasSet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightWithIdMonoBehaviour::*)(UnityEngine::Color)>(&LightWithIdMonoBehaviour::ColorWasSet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightWithIdMonoBehaviour::*)(UnityEngine::Color)>(&GlobalNamespace::LightWithIdMonoBehaviour::ColorWasSet)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightWithIdMonoBehaviour*), "ColorWasSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdMonoBehaviour*), "ColorWasSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: LightWithIdMonoBehaviour::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::LightWithIdMonoBehaviour::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightWithIdMonoBehaviour::*)()>(&LightWithIdMonoBehaviour::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightWithIdMonoBehaviour::*)()>(&GlobalNamespace::LightWithIdMonoBehaviour::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightWithIdMonoBehaviour*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdMonoBehaviour*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LightWithIdMonoBehaviour::Start
+// Writing MetadataGetter for method: GlobalNamespace::LightWithIdMonoBehaviour::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightWithIdMonoBehaviour::*)()>(&LightWithIdMonoBehaviour::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightWithIdMonoBehaviour::*)()>(&GlobalNamespace::LightWithIdMonoBehaviour::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightWithIdMonoBehaviour*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdMonoBehaviour*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LightWithIdMonoBehaviour::OnDisable
+// Writing MetadataGetter for method: GlobalNamespace::LightWithIdMonoBehaviour::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightWithIdMonoBehaviour::*)()>(&LightWithIdMonoBehaviour::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightWithIdMonoBehaviour::*)()>(&GlobalNamespace::LightWithIdMonoBehaviour::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightWithIdMonoBehaviour*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdMonoBehaviour*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LightWithIdMonoBehaviour::RegisterLight
+// Writing MetadataGetter for method: GlobalNamespace::LightWithIdMonoBehaviour::RegisterLight
 // Il2CppName: RegisterLight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightWithIdMonoBehaviour::*)()>(&LightWithIdMonoBehaviour::RegisterLight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightWithIdMonoBehaviour::*)()>(&GlobalNamespace::LightWithIdMonoBehaviour::RegisterLight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightWithIdMonoBehaviour*), "RegisterLight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdMonoBehaviour*), "RegisterLight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LightWithIdMonoBehaviour::SetLightId
+// Writing MetadataGetter for method: GlobalNamespace::LightWithIdMonoBehaviour::SetLightId
 // Il2CppName: SetLightId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightWithIdMonoBehaviour::*)(int)>(&LightWithIdMonoBehaviour::SetLightId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightWithIdMonoBehaviour::*)(int)>(&GlobalNamespace::LightWithIdMonoBehaviour::SetLightId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightWithIdMonoBehaviour*), "SetLightId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdMonoBehaviour*), "SetLightId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LightWithIdMonoBehaviour::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::LightWithIdMonoBehaviour::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightWithIdMonoBehaviour::*)()>(&LightWithIdMonoBehaviour::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightWithIdMonoBehaviour::*)()>(&GlobalNamespace::LightWithIdMonoBehaviour::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightWithIdMonoBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdMonoBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightWithIdMonoBehaviour::*)()>(&LightWithIdMonoBehaviour::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightWithIdMonoBehaviour::*)()>(&GlobalNamespace::LightWithIdMonoBehaviour::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightWithIdMonoBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdMonoBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

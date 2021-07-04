@@ -204,149 +204,149 @@ namespace Zenject {
   static_assert(sizeof(SubContainerBinder) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerBinder*, "Zenject", "SubContainerBinder");
-// Writing MetadataGetter for method: SubContainerBinder::New_ctor
+// Writing MetadataGetter for method: Zenject::SubContainerBinder::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerBinder::*)(Zenject::BindInfo*, Zenject::BindStatement*, ::Il2CppObject*, bool)>(&SubContainerBinder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SubContainerBinder::*)(Zenject::BindInfo*, Zenject::BindStatement*, ::Il2CppObject*, bool)>(&Zenject::SubContainerBinder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubContainerBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::BindStatement*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::BindStatement*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerBinder::*)(Zenject::BindInfo*, Zenject::BindStatement*, ::Il2CppObject*, bool)>(&SubContainerBinder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SubContainerBinder::*)(Zenject::BindInfo*, Zenject::BindStatement*, ::Il2CppObject*, bool)>(&Zenject::SubContainerBinder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubContainerBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::BindStatement*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::BindStatement*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: SubContainerBinder::set_SubFinalizer
+// Writing MetadataGetter for method: Zenject::SubContainerBinder::set_SubFinalizer
 // Il2CppName: set_SubFinalizer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerBinder::*)(Zenject::IBindingFinalizer*)>(&SubContainerBinder::set_SubFinalizer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SubContainerBinder::*)(Zenject::IBindingFinalizer*)>(&Zenject::SubContainerBinder::set_SubFinalizer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubContainerBinder*), "set_SubFinalizer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::IBindingFinalizer*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder*), "set_SubFinalizer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::IBindingFinalizer*>()});
   }
 };
-// Writing MetadataGetter for method: SubContainerBinder::ByInstance
+// Writing MetadataGetter for method: Zenject::SubContainerBinder::ByInstance
 // Il2CppName: ByInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (SubContainerBinder::*)(Zenject::DiContainer*)>(&SubContainerBinder::ByInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::SubContainerBinder::*)(Zenject::DiContainer*)>(&Zenject::SubContainerBinder::ByInstance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubContainerBinder*), "ByInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder*), "ByInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
   }
 };
-// Writing MetadataGetter for method: SubContainerBinder::ByInstanceGetter
+// Writing MetadataGetter for method: Zenject::SubContainerBinder::ByInstanceGetter
 // Il2CppName: ByInstanceGetter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (SubContainerBinder::*)(System::Func_2<Zenject::InjectContext*, Zenject::DiContainer*>*)>(&SubContainerBinder::ByInstanceGetter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::SubContainerBinder::*)(System::Func_2<Zenject::InjectContext*, Zenject::DiContainer*>*)>(&Zenject::SubContainerBinder::ByInstanceGetter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubContainerBinder*), "ByInstanceGetter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<Zenject::InjectContext*, Zenject::DiContainer*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder*), "ByInstanceGetter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<Zenject::InjectContext*, Zenject::DiContainer*>*>()});
   }
 };
-// Writing MetadataGetter for method: SubContainerBinder::ByInstaller
+// Writing MetadataGetter for method: Zenject::SubContainerBinder::ByInstaller
 // Il2CppName: ByInstaller
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: SubContainerBinder::ByInstaller
+// Writing MetadataGetter for method: Zenject::SubContainerBinder::ByInstaller
 // Il2CppName: ByInstaller
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* (SubContainerBinder::*)(System::Type*)>(&SubContainerBinder::ByInstaller)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::SubContainerBinder::*)(System::Type*)>(&Zenject::SubContainerBinder::ByInstaller)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubContainerBinder*), "ByInstaller", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder*), "ByInstaller", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: SubContainerBinder::ByMethod
+// Writing MetadataGetter for method: Zenject::SubContainerBinder::ByMethod
 // Il2CppName: ByMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* (SubContainerBinder::*)(System::Action_1<Zenject::DiContainer*>*)>(&SubContainerBinder::ByMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::SubContainerBinder::*)(System::Action_1<Zenject::DiContainer*>*)>(&Zenject::SubContainerBinder::ByMethod)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubContainerBinder*), "ByMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder*), "ByMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
   }
 };
-// Writing MetadataGetter for method: SubContainerBinder::ByNewGameObjectMethod
+// Writing MetadataGetter for method: Zenject::SubContainerBinder::ByNewGameObjectMethod
 // Il2CppName: ByNewGameObjectMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (SubContainerBinder::*)(System::Action_1<Zenject::DiContainer*>*)>(&SubContainerBinder::ByNewGameObjectMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::SubContainerBinder::*)(System::Action_1<Zenject::DiContainer*>*)>(&Zenject::SubContainerBinder::ByNewGameObjectMethod)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubContainerBinder*), "ByNewGameObjectMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder*), "ByNewGameObjectMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
   }
 };
-// Writing MetadataGetter for method: SubContainerBinder::ByNewPrefabMethod
+// Writing MetadataGetter for method: Zenject::SubContainerBinder::ByNewPrefabMethod
 // Il2CppName: ByNewPrefabMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (SubContainerBinder::*)(UnityEngine::Object*, System::Action_1<Zenject::DiContainer*>*)>(&SubContainerBinder::ByNewPrefabMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::SubContainerBinder::*)(UnityEngine::Object*, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::SubContainerBinder::ByNewPrefabMethod)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubContainerBinder*), "ByNewPrefabMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder*), "ByNewPrefabMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
   }
 };
-// Writing MetadataGetter for method: SubContainerBinder::ByNewGameObjectInstaller
+// Writing MetadataGetter for method: Zenject::SubContainerBinder::ByNewGameObjectInstaller
 // Il2CppName: ByNewGameObjectInstaller
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: SubContainerBinder::ByNewGameObjectInstaller
+// Writing MetadataGetter for method: Zenject::SubContainerBinder::ByNewGameObjectInstaller
 // Il2CppName: ByNewGameObjectInstaller
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (SubContainerBinder::*)(System::Type*)>(&SubContainerBinder::ByNewGameObjectInstaller)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::SubContainerBinder::*)(System::Type*)>(&Zenject::SubContainerBinder::ByNewGameObjectInstaller)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubContainerBinder*), "ByNewGameObjectInstaller", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder*), "ByNewGameObjectInstaller", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: SubContainerBinder::ByNewPrefabInstaller
+// Writing MetadataGetter for method: Zenject::SubContainerBinder::ByNewPrefabInstaller
 // Il2CppName: ByNewPrefabInstaller
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: SubContainerBinder::ByNewPrefabInstaller
+// Writing MetadataGetter for method: Zenject::SubContainerBinder::ByNewPrefabInstaller
 // Il2CppName: ByNewPrefabInstaller
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (SubContainerBinder::*)(UnityEngine::Object*, System::Type*)>(&SubContainerBinder::ByNewPrefabInstaller)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::SubContainerBinder::*)(UnityEngine::Object*, System::Type*)>(&Zenject::SubContainerBinder::ByNewPrefabInstaller)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubContainerBinder*), "ByNewPrefabInstaller", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder*), "ByNewPrefabInstaller", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: SubContainerBinder::ByNewPrefabResourceMethod
+// Writing MetadataGetter for method: Zenject::SubContainerBinder::ByNewPrefabResourceMethod
 // Il2CppName: ByNewPrefabResourceMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (SubContainerBinder::*)(::Il2CppString*, System::Action_1<Zenject::DiContainer*>*)>(&SubContainerBinder::ByNewPrefabResourceMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::SubContainerBinder::*)(::Il2CppString*, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::SubContainerBinder::ByNewPrefabResourceMethod)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubContainerBinder*), "ByNewPrefabResourceMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder*), "ByNewPrefabResourceMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
   }
 };
-// Writing MetadataGetter for method: SubContainerBinder::ByNewPrefabResourceInstaller
+// Writing MetadataGetter for method: Zenject::SubContainerBinder::ByNewPrefabResourceInstaller
 // Il2CppName: ByNewPrefabResourceInstaller
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: SubContainerBinder::ByNewPrefabResourceInstaller
+// Writing MetadataGetter for method: Zenject::SubContainerBinder::ByNewPrefabResourceInstaller
 // Il2CppName: ByNewPrefabResourceInstaller
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (SubContainerBinder::*)(::Il2CppString*, System::Type*)>(&SubContainerBinder::ByNewPrefabResourceInstaller)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::SubContainerBinder::*)(::Il2CppString*, System::Type*)>(&Zenject::SubContainerBinder::ByNewPrefabResourceInstaller)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubContainerBinder*), "ByNewPrefabResourceInstaller", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder*), "ByNewPrefabResourceInstaller", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: SubContainerBinder::ByNewPrefab
+// Writing MetadataGetter for method: Zenject::SubContainerBinder::ByNewPrefab
 // Il2CppName: ByNewPrefab
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (SubContainerBinder::*)(UnityEngine::Object*)>(&SubContainerBinder::ByNewPrefab)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::SubContainerBinder::*)(UnityEngine::Object*)>(&Zenject::SubContainerBinder::ByNewPrefab)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubContainerBinder*), "ByNewPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder*), "ByNewPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
   }
 };
-// Writing MetadataGetter for method: SubContainerBinder::ByNewContextPrefab
+// Writing MetadataGetter for method: Zenject::SubContainerBinder::ByNewContextPrefab
 // Il2CppName: ByNewContextPrefab
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (SubContainerBinder::*)(UnityEngine::Object*)>(&SubContainerBinder::ByNewContextPrefab)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::SubContainerBinder::*)(UnityEngine::Object*)>(&Zenject::SubContainerBinder::ByNewContextPrefab)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubContainerBinder*), "ByNewContextPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder*), "ByNewContextPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
   }
 };
-// Writing MetadataGetter for method: SubContainerBinder::ByNewPrefabResource
+// Writing MetadataGetter for method: Zenject::SubContainerBinder::ByNewPrefabResource
 // Il2CppName: ByNewPrefabResource
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (SubContainerBinder::*)(::Il2CppString*)>(&SubContainerBinder::ByNewPrefabResource)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::SubContainerBinder::*)(::Il2CppString*)>(&Zenject::SubContainerBinder::ByNewPrefabResource)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubContainerBinder*), "ByNewPrefabResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder*), "ByNewPrefabResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: SubContainerBinder::ByNewContextPrefabResource
+// Writing MetadataGetter for method: Zenject::SubContainerBinder::ByNewContextPrefabResource
 // Il2CppName: ByNewContextPrefabResource
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (SubContainerBinder::*)(::Il2CppString*)>(&SubContainerBinder::ByNewContextPrefabResource)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::SubContainerBinder::*)(::Il2CppString*)>(&Zenject::SubContainerBinder::ByNewContextPrefabResource)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubContainerBinder*), "ByNewContextPrefabResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder*), "ByNewContextPrefabResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };

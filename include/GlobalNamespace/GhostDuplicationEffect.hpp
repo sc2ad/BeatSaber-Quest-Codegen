@@ -122,105 +122,105 @@ namespace GlobalNamespace {
   static_assert(sizeof(GhostDuplicationEffect) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostDuplicationEffect*, "", "GhostDuplicationEffect");
-// Writing MetadataGetter for method: GhostDuplicationEffect::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::GhostDuplicationEffect::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostDuplicationEffect::*)()>(&GhostDuplicationEffect::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GhostDuplicationEffect::*)()>(&GlobalNamespace::GhostDuplicationEffect::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GhostDuplicationEffect*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GhostDuplicationEffect::Awake
+// Writing MetadataGetter for method: GlobalNamespace::GhostDuplicationEffect::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostDuplicationEffect::*)()>(&GhostDuplicationEffect::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GhostDuplicationEffect::*)()>(&GlobalNamespace::GhostDuplicationEffect::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GhostDuplicationEffect*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GhostDuplicationEffect::Init
+// Writing MetadataGetter for method: GlobalNamespace::GhostDuplicationEffect::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostDuplicationEffect::*)()>(&GhostDuplicationEffect::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GhostDuplicationEffect::*)()>(&GlobalNamespace::GhostDuplicationEffect::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GhostDuplicationEffect*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GhostDuplicationEffect::Animate
+// Writing MetadataGetter for method: GlobalNamespace::GhostDuplicationEffect::Animate
 // Il2CppName: Animate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostDuplicationEffect::*)(GlobalNamespace::GhostDuplicationEffect::GhostEffectParams)>(&GhostDuplicationEffect::Animate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GhostDuplicationEffect::*)(GlobalNamespace::GhostDuplicationEffect::GhostEffectParams)>(&GlobalNamespace::GhostDuplicationEffect::Animate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect*), "Animate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GhostDuplicationEffect::GhostEffectParams>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GhostDuplicationEffect*), "Animate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GhostDuplicationEffect::GhostEffectParams>()});
   }
 };
-// Writing MetadataGetter for method: GhostDuplicationEffect::HideRedundantWithDelay
+// Writing MetadataGetter for method: GlobalNamespace::GhostDuplicationEffect::HideRedundantWithDelay
 // Il2CppName: HideRedundantWithDelay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GhostDuplicationEffect::*)(float)>(&GhostDuplicationEffect::HideRedundantWithDelay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::GhostDuplicationEffect::*)(float)>(&GlobalNamespace::GhostDuplicationEffect::HideRedundantWithDelay)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect*), "HideRedundantWithDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GhostDuplicationEffect*), "HideRedundantWithDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: GhostDuplicationEffect::SetDistances
+// Writing MetadataGetter for method: GlobalNamespace::GhostDuplicationEffect::SetDistances
 // Il2CppName: SetDistances
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostDuplicationEffect::*)(float, UnityEngine::Vector3)>(&GhostDuplicationEffect::SetDistances)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GhostDuplicationEffect::*)(float, UnityEngine::Vector3)>(&GlobalNamespace::GhostDuplicationEffect::SetDistances)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect*), "SetDistances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GhostDuplicationEffect*), "SetDistances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: GhostDuplicationEffect::set_hide
+// Writing MetadataGetter for method: GlobalNamespace::GhostDuplicationEffect::set_hide
 // Il2CppName: set_hide
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostDuplicationEffect::*)(bool)>(&GhostDuplicationEffect::set_hide)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GhostDuplicationEffect::*)(bool)>(&GlobalNamespace::GhostDuplicationEffect::set_hide)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect*), "set_hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GhostDuplicationEffect*), "set_hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: GhostDuplicationEffect::set_size
+// Writing MetadataGetter for method: GlobalNamespace::GhostDuplicationEffect::set_size
 // Il2CppName: set_size
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostDuplicationEffect::*)(float)>(&GhostDuplicationEffect::set_size)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GhostDuplicationEffect::*)(float)>(&GlobalNamespace::GhostDuplicationEffect::set_size)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect*), "set_size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GhostDuplicationEffect*), "set_size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: GhostDuplicationEffect::get_size
+// Writing MetadataGetter for method: GlobalNamespace::GhostDuplicationEffect::get_size
 // Il2CppName: get_size
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GhostDuplicationEffect::*)()>(&GhostDuplicationEffect::get_size)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::GhostDuplicationEffect::*)()>(&GlobalNamespace::GhostDuplicationEffect::get_size)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect*), "get_size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GhostDuplicationEffect*), "get_size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GhostDuplicationEffect::set_alpha
+// Writing MetadataGetter for method: GlobalNamespace::GhostDuplicationEffect::set_alpha
 // Il2CppName: set_alpha
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostDuplicationEffect::*)(float)>(&GhostDuplicationEffect::set_alpha)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GhostDuplicationEffect::*)(float)>(&GlobalNamespace::GhostDuplicationEffect::set_alpha)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect*), "set_alpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GhostDuplicationEffect*), "set_alpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: GhostDuplicationEffect::get_alpha
+// Writing MetadataGetter for method: GlobalNamespace::GhostDuplicationEffect::get_alpha
 // Il2CppName: get_alpha
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GhostDuplicationEffect::*)()>(&GhostDuplicationEffect::get_alpha)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::GhostDuplicationEffect::*)()>(&GlobalNamespace::GhostDuplicationEffect::get_alpha)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect*), "get_alpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GhostDuplicationEffect*), "get_alpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GhostDuplicationEffect::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::GhostDuplicationEffect::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostDuplicationEffect::*)()>(&GhostDuplicationEffect::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GhostDuplicationEffect::*)()>(&GlobalNamespace::GhostDuplicationEffect::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GhostDuplicationEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GhostDuplicationEffect::*)()>(&GhostDuplicationEffect::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GhostDuplicationEffect::*)()>(&GlobalNamespace::GhostDuplicationEffect::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GhostDuplicationEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GhostDuplicationEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -68,41 +68,41 @@ namespace UnityEngine::ProBuilder {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Smoothing::$$c*, "UnityEngine.ProBuilder", "Smoothing/<>c");
-// Writing MetadataGetter for method: Smoothing::$$c::_cctor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Smoothing::$$c::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Smoothing::$$c::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::ProBuilder::Smoothing::$$c::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Smoothing::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Smoothing::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Smoothing::$$c::$GetUnusedSmoothingGroup$b__5_0
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Smoothing::$$c::$GetUnusedSmoothingGroup$b__5_0
 // Il2CppName: <GetUnusedSmoothingGroup>b__5_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Smoothing::$$c::*)(UnityEngine::ProBuilder::Face*)>(&Smoothing::$$c::$GetUnusedSmoothingGroup$b__5_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::Smoothing::$$c::*)(UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::Smoothing::$$c::$GetUnusedSmoothingGroup$b__5_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Smoothing::$$c*), "<GetUnusedSmoothingGroup>b__5_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Smoothing::$$c*), "<GetUnusedSmoothingGroup>b__5_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
   }
 };
-// Writing MetadataGetter for method: Smoothing::$$c::$ApplySmoothingGroups$b__9_0
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Smoothing::$$c::$ApplySmoothingGroups$b__9_0
 // Il2CppName: <ApplySmoothingGroups>b__9_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Smoothing::$$c::*)(UnityEngine::ProBuilder::Face*)>(&Smoothing::$$c::$ApplySmoothingGroups$b__9_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::Smoothing::$$c::*)(UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::Smoothing::$$c::$ApplySmoothingGroups$b__9_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Smoothing::$$c*), "<ApplySmoothingGroups>b__9_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Smoothing::$$c*), "<ApplySmoothingGroups>b__9_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
   }
 };
-// Writing MetadataGetter for method: Smoothing::$$c::New_ctor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Smoothing::$$c::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Smoothing::$$c::*)()>(&Smoothing::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Smoothing::$$c::*)()>(&UnityEngine::ProBuilder::Smoothing::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Smoothing::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Smoothing::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Smoothing::$$c::*)()>(&Smoothing::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Smoothing::$$c::*)()>(&UnityEngine::ProBuilder::Smoothing::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Smoothing::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Smoothing::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -63,41 +63,41 @@ namespace NUnit::Framework::Internal::Commands {
   static_assert(sizeof(TestCommand) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::TestCommand*, "NUnit.Framework.Internal.Commands", "TestCommand");
-// Writing MetadataGetter for method: TestCommand::New_ctor
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::TestCommand::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestCommand::*)(NUnit::Framework::Internal::Test*)>(&TestCommand::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Commands::TestCommand::*)(NUnit::Framework::Internal::Test*)>(&NUnit::Framework::Internal::Commands::TestCommand::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestCommand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::TestCommand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestCommand::*)(NUnit::Framework::Internal::Test*)>(&TestCommand::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Commands::TestCommand::*)(NUnit::Framework::Internal::Test*)>(&NUnit::Framework::Internal::Commands::TestCommand::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestCommand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::TestCommand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
   }
 };
-// Writing MetadataGetter for method: TestCommand::get_Test
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::TestCommand::get_Test
 // Il2CppName: get_Test
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Test* (TestCommand::*)()>(&TestCommand::get_Test)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Test* (NUnit::Framework::Internal::Commands::TestCommand::*)()>(&NUnit::Framework::Internal::Commands::TestCommand::get_Test)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestCommand*), "get_Test", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::TestCommand*), "get_Test", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TestCommand::set_Test
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::TestCommand::set_Test
 // Il2CppName: set_Test
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestCommand::*)(NUnit::Framework::Internal::Test*)>(&TestCommand::set_Test)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Commands::TestCommand::*)(NUnit::Framework::Internal::Test*)>(&NUnit::Framework::Internal::Commands::TestCommand::set_Test)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestCommand*), "set_Test", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::TestCommand*), "set_Test", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
   }
 };
-// Writing MetadataGetter for method: TestCommand::Execute
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::TestCommand::Execute
 // Il2CppName: Execute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (TestCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&TestCommand::Execute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (NUnit::Framework::Internal::Commands::TestCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&NUnit::Framework::Internal::Commands::TestCommand::Execute)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestCommand*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::TestCommand*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
   }
 };

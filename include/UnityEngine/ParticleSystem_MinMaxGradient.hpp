@@ -88,25 +88,25 @@ namespace UnityEngine {
   static_assert(sizeof(ParticleSystem::MinMaxGradient) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::MinMaxGradient, "UnityEngine", "ParticleSystem/MinMaxGradient");
-// Writing MetadataGetter for method: ParticleSystem::MinMaxGradient::MinMaxGradient
+// Writing MetadataGetter for method: UnityEngine::ParticleSystem::MinMaxGradient::MinMaxGradient
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystem::MinMaxGradient::*)(UnityEngine::Color)>(&ParticleSystem::MinMaxGradient::MinMaxGradient<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::MinMaxGradient::*)(UnityEngine::Color)>(&UnityEngine::ParticleSystem::MinMaxGradient::MinMaxGradient<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParticleSystem::MinMaxGradient), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MinMaxGradient), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystem::MinMaxGradient::*)(UnityEngine::Color)>(&ParticleSystem::MinMaxGradient::MinMaxGradient<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::MinMaxGradient::*)(UnityEngine::Color)>(&UnityEngine::ParticleSystem::MinMaxGradient::MinMaxGradient<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParticleSystem::MinMaxGradient), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MinMaxGradient), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: ParticleSystem::MinMaxGradient::get_color
+// Writing MetadataGetter for method: UnityEngine::ParticleSystem::MinMaxGradient::get_color
 // Il2CppName: get_color
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ParticleSystem::MinMaxGradient::*)()>(&ParticleSystem::MinMaxGradient::get_color)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (UnityEngine::ParticleSystem::MinMaxGradient::*)()>(&UnityEngine::ParticleSystem::MinMaxGradient::get_color)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParticleSystem::MinMaxGradient), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MinMaxGradient), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -74,43 +74,43 @@ namespace UnityEngine::XR {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::Hand, "UnityEngine.XR", "Hand");
-// Writing MetadataGetter for method: Hand::get_deviceId
+// Writing MetadataGetter for method: UnityEngine::XR::Hand::get_deviceId
 // Il2CppName: get_deviceId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (Hand::*)()>(&Hand::get_deviceId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (UnityEngine::XR::Hand::*)()>(&UnityEngine::XR::Hand::get_deviceId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Hand), "get_deviceId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::Hand), "get_deviceId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Hand::get_featureIndex
+// Writing MetadataGetter for method: UnityEngine::XR::Hand::get_featureIndex
 // Il2CppName: get_featureIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Hand::*)()>(&Hand::get_featureIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (UnityEngine::XR::Hand::*)()>(&UnityEngine::XR::Hand::get_featureIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Hand), "get_featureIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::Hand), "get_featureIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Hand::Equals
+// Writing MetadataGetter for method: UnityEngine::XR::Hand::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Hand::*)(UnityEngine::XR::Hand)>(&Hand::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::Hand::*)(UnityEngine::XR::Hand)>(&UnityEngine::XR::Hand::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Hand), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::Hand>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::Hand), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::Hand>()});
   }
 };
-// Writing MetadataGetter for method: Hand::Equals
+// Writing MetadataGetter for method: UnityEngine::XR::Hand::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Hand::*)(::Il2CppObject*)>(&Hand::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::Hand::*)(::Il2CppObject*)>(&UnityEngine::XR::Hand::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Hand), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::Hand), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Hand::GetHashCode
+// Writing MetadataGetter for method: UnityEngine::XR::Hand::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Hand::*)()>(&Hand::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::XR::Hand::*)()>(&UnityEngine::XR::Hand::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Hand), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::Hand), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

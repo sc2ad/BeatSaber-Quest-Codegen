@@ -53,27 +53,27 @@ namespace Mono::Net::Security::Private {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::Private::CallbackHelpers*, "Mono.Net.Security.Private", "CallbackHelpers");
-// Writing MetadataGetter for method: CallbackHelpers::PublicToMono
+// Writing MetadataGetter for method: Mono::Net::Security::Private::CallbackHelpers::PublicToMono
 // Il2CppName: PublicToMono
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoRemoteCertificateValidationCallback* (*)(System::Net::Security::RemoteCertificateValidationCallback*)>(&CallbackHelpers::PublicToMono)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoRemoteCertificateValidationCallback* (*)(System::Net::Security::RemoteCertificateValidationCallback*)>(&Mono::Net::Security::Private::CallbackHelpers::PublicToMono)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CallbackHelpers*), "PublicToMono", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Security::RemoteCertificateValidationCallback*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::Private::CallbackHelpers*), "PublicToMono", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Security::RemoteCertificateValidationCallback*>()});
   }
 };
-// Writing MetadataGetter for method: CallbackHelpers::MonoToPublic
+// Writing MetadataGetter for method: Mono::Net::Security::Private::CallbackHelpers::MonoToPublic
 // Il2CppName: MonoToPublic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Security::RemoteCertificateValidationCallback* (*)(Mono::Security::Interface::MonoRemoteCertificateValidationCallback*)>(&CallbackHelpers::MonoToPublic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Security::RemoteCertificateValidationCallback* (*)(Mono::Security::Interface::MonoRemoteCertificateValidationCallback*)>(&Mono::Net::Security::Private::CallbackHelpers::MonoToPublic)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CallbackHelpers*), "MonoToPublic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoRemoteCertificateValidationCallback*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::Private::CallbackHelpers*), "MonoToPublic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoRemoteCertificateValidationCallback*>()});
   }
 };
-// Writing MetadataGetter for method: CallbackHelpers::MonoToInternal
+// Writing MetadataGetter for method: Mono::Net::Security::Private::CallbackHelpers::MonoToInternal
 // Il2CppName: MonoToInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Security::LocalCertSelectionCallback* (*)(Mono::Security::Interface::MonoLocalCertificateSelectionCallback*)>(&CallbackHelpers::MonoToInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Security::LocalCertSelectionCallback* (*)(Mono::Security::Interface::MonoLocalCertificateSelectionCallback*)>(&Mono::Net::Security::Private::CallbackHelpers::MonoToInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CallbackHelpers*), "MonoToInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoLocalCertificateSelectionCallback*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::Private::CallbackHelpers*), "MonoToInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoLocalCertificateSelectionCallback*>()});
   }
 };

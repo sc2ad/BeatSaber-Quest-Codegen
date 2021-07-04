@@ -66,41 +66,41 @@ namespace UnityEngine::EventSystems {
   static_assert(sizeof(BaseEventData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::BaseEventData*, "UnityEngine.EventSystems", "BaseEventData");
-// Writing MetadataGetter for method: BaseEventData::New_ctor
+// Writing MetadataGetter for method: UnityEngine::EventSystems::BaseEventData::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseEventData::*)(UnityEngine::EventSystems::EventSystem*)>(&BaseEventData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::BaseEventData::*)(UnityEngine::EventSystems::EventSystem*)>(&UnityEngine::EventSystems::BaseEventData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseEventData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::EventSystem*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::BaseEventData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::EventSystem*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseEventData::*)(UnityEngine::EventSystems::EventSystem*)>(&BaseEventData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::BaseEventData::*)(UnityEngine::EventSystems::EventSystem*)>(&UnityEngine::EventSystems::BaseEventData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseEventData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::EventSystem*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::BaseEventData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::EventSystem*>()});
   }
 };
-// Writing MetadataGetter for method: BaseEventData::get_currentInputModule
+// Writing MetadataGetter for method: UnityEngine::EventSystems::BaseEventData::get_currentInputModule
 // Il2CppName: get_currentInputModule
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::BaseInputModule* (BaseEventData::*)()>(&BaseEventData::get_currentInputModule)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::BaseInputModule* (UnityEngine::EventSystems::BaseEventData::*)()>(&UnityEngine::EventSystems::BaseEventData::get_currentInputModule)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseEventData*), "get_currentInputModule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::BaseEventData*), "get_currentInputModule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BaseEventData::get_selectedObject
+// Writing MetadataGetter for method: UnityEngine::EventSystems::BaseEventData::get_selectedObject
 // Il2CppName: get_selectedObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (BaseEventData::*)()>(&BaseEventData::get_selectedObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (UnityEngine::EventSystems::BaseEventData::*)()>(&UnityEngine::EventSystems::BaseEventData::get_selectedObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseEventData*), "get_selectedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::BaseEventData*), "get_selectedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BaseEventData::set_selectedObject
+// Writing MetadataGetter for method: UnityEngine::EventSystems::BaseEventData::set_selectedObject
 // Il2CppName: set_selectedObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseEventData::*)(UnityEngine::GameObject*)>(&BaseEventData::set_selectedObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::BaseEventData::*)(UnityEngine::GameObject*)>(&UnityEngine::EventSystems::BaseEventData::set_selectedObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseEventData*), "set_selectedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::BaseEventData*), "set_selectedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
   }
 };

@@ -52,41 +52,41 @@ namespace Valve::VR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_GetCurrentSceneFocusProcess*, "Valve.VR", "IVRCompositor/_GetCurrentSceneFocusProcess");
-// Writing MetadataGetter for method: IVRCompositor::_GetCurrentSceneFocusProcess::New_ctor
+// Writing MetadataGetter for method: Valve::VR::IVRCompositor::_GetCurrentSceneFocusProcess::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRCompositor::_GetCurrentSceneFocusProcess::*)(::Il2CppObject*, System::IntPtr)>(&IVRCompositor::_GetCurrentSceneFocusProcess::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRCompositor::_GetCurrentSceneFocusProcess::*)(::Il2CppObject*, System::IntPtr)>(&Valve::VR::IVRCompositor::_GetCurrentSceneFocusProcess::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_GetCurrentSceneFocusProcess*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_GetCurrentSceneFocusProcess*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRCompositor::_GetCurrentSceneFocusProcess::*)(::Il2CppObject*, System::IntPtr)>(&IVRCompositor::_GetCurrentSceneFocusProcess::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRCompositor::_GetCurrentSceneFocusProcess::*)(::Il2CppObject*, System::IntPtr)>(&Valve::VR::IVRCompositor::_GetCurrentSceneFocusProcess::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_GetCurrentSceneFocusProcess*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_GetCurrentSceneFocusProcess*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: IVRCompositor::_GetCurrentSceneFocusProcess::Invoke
+// Writing MetadataGetter for method: Valve::VR::IVRCompositor::_GetCurrentSceneFocusProcess::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (IVRCompositor::_GetCurrentSceneFocusProcess::*)()>(&IVRCompositor::_GetCurrentSceneFocusProcess::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::IVRCompositor::_GetCurrentSceneFocusProcess::*)()>(&Valve::VR::IVRCompositor::_GetCurrentSceneFocusProcess::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_GetCurrentSceneFocusProcess*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_GetCurrentSceneFocusProcess*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IVRCompositor::_GetCurrentSceneFocusProcess::BeginInvoke
+// Writing MetadataGetter for method: Valve::VR::IVRCompositor::_GetCurrentSceneFocusProcess::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRCompositor::_GetCurrentSceneFocusProcess::*)(System::AsyncCallback*, ::Il2CppObject*)>(&IVRCompositor::_GetCurrentSceneFocusProcess::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRCompositor::_GetCurrentSceneFocusProcess::*)(System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRCompositor::_GetCurrentSceneFocusProcess::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_GetCurrentSceneFocusProcess*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_GetCurrentSceneFocusProcess*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IVRCompositor::_GetCurrentSceneFocusProcess::EndInvoke
+// Writing MetadataGetter for method: Valve::VR::IVRCompositor::_GetCurrentSceneFocusProcess::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (IVRCompositor::_GetCurrentSceneFocusProcess::*)(System::IAsyncResult*)>(&IVRCompositor::_GetCurrentSceneFocusProcess::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::IVRCompositor::_GetCurrentSceneFocusProcess::*)(System::IAsyncResult*)>(&Valve::VR::IVRCompositor::_GetCurrentSceneFocusProcess::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_GetCurrentSceneFocusProcess*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_GetCurrentSceneFocusProcess*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

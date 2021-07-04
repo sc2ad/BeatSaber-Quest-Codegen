@@ -37,35 +37,35 @@ namespace UnityEngine::Timeline {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::IMarker*, "UnityEngine.Timeline", "IMarker");
-// Writing MetadataGetter for method: IMarker::get_time
+// Writing MetadataGetter for method: UnityEngine::Timeline::IMarker::get_time
 // Il2CppName: get_time
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (IMarker::*)()>(&IMarker::get_time)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::IMarker::*)()>(&UnityEngine::Timeline::IMarker::get_time)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IMarker*), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::IMarker*), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IMarker::set_time
+// Writing MetadataGetter for method: UnityEngine::Timeline::IMarker::set_time
 // Il2CppName: set_time
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMarker::*)(double)>(&IMarker::set_time)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IMarker::*)(double)>(&UnityEngine::Timeline::IMarker::set_time)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IMarker*), "set_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::IMarker*), "set_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: IMarker::get_parent
+// Writing MetadataGetter for method: UnityEngine::Timeline::IMarker::get_parent
 // Il2CppName: get_parent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackAsset* (IMarker::*)()>(&IMarker::get_parent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackAsset* (UnityEngine::Timeline::IMarker::*)()>(&UnityEngine::Timeline::IMarker::get_parent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IMarker*), "get_parent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::IMarker*), "get_parent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IMarker::Initialize
+// Writing MetadataGetter for method: UnityEngine::Timeline::IMarker::Initialize
 // Il2CppName: Initialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IMarker::*)(UnityEngine::Timeline::TrackAsset*)>(&IMarker::Initialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IMarker::*)(UnityEngine::Timeline::TrackAsset*)>(&UnityEngine::Timeline::IMarker::Initialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IMarker*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::IMarker*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
   }
 };

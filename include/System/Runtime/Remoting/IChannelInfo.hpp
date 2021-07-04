@@ -27,11 +27,11 @@ namespace System::Runtime::Remoting {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::IChannelInfo*, "System.Runtime.Remoting", "IChannelInfo");
-// Writing MetadataGetter for method: IChannelInfo::get_ChannelData
+// Writing MetadataGetter for method: System::Runtime::Remoting::IChannelInfo::get_ChannelData
 // Il2CppName: get_ChannelData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (IChannelInfo::*)()>(&IChannelInfo::get_ChannelData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Runtime::Remoting::IChannelInfo::*)()>(&System::Runtime::Remoting::IChannelInfo::get_ChannelData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IChannelInfo*), "get_ChannelData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::IChannelInfo*), "get_ChannelData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -98,49 +98,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(TestBeatmapDataAssetFileModel) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestBeatmapDataAssetFileModel*, "", "TestBeatmapDataAssetFileModel");
-// Writing MetadataGetter for method: TestBeatmapDataAssetFileModel::add_levelDataAssetDownloadUpdateEvent
+// Writing MetadataGetter for method: GlobalNamespace::TestBeatmapDataAssetFileModel::add_levelDataAssetDownloadUpdateEvent
 // Il2CppName: add_levelDataAssetDownloadUpdateEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestBeatmapDataAssetFileModel::*)(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>*)>(&TestBeatmapDataAssetFileModel::add_levelDataAssetDownloadUpdateEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TestBeatmapDataAssetFileModel::*)(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>*)>(&GlobalNamespace::TestBeatmapDataAssetFileModel::add_levelDataAssetDownloadUpdateEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestBeatmapDataAssetFileModel*), "add_levelDataAssetDownloadUpdateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TestBeatmapDataAssetFileModel*), "add_levelDataAssetDownloadUpdateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>*>()});
   }
 };
-// Writing MetadataGetter for method: TestBeatmapDataAssetFileModel::remove_levelDataAssetDownloadUpdateEvent
+// Writing MetadataGetter for method: GlobalNamespace::TestBeatmapDataAssetFileModel::remove_levelDataAssetDownloadUpdateEvent
 // Il2CppName: remove_levelDataAssetDownloadUpdateEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestBeatmapDataAssetFileModel::*)(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>*)>(&TestBeatmapDataAssetFileModel::remove_levelDataAssetDownloadUpdateEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TestBeatmapDataAssetFileModel::*)(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>*)>(&GlobalNamespace::TestBeatmapDataAssetFileModel::remove_levelDataAssetDownloadUpdateEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestBeatmapDataAssetFileModel*), "remove_levelDataAssetDownloadUpdateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TestBeatmapDataAssetFileModel*), "remove_levelDataAssetDownloadUpdateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>*>()});
   }
 };
-// Writing MetadataGetter for method: TestBeatmapDataAssetFileModel::GetAssetBundleFileForPreviewLevelAsync
+// Writing MetadataGetter for method: GlobalNamespace::TestBeatmapDataAssetFileModel::GetAssetBundleFileForPreviewLevelAsync
 // Il2CppName: GetAssetBundleFileForPreviewLevelAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::GetAssetBundleFileResult>* (TestBeatmapDataAssetFileModel::*)(GlobalNamespace::IPreviewBeatmapLevel*, System::Threading::CancellationToken)>(&TestBeatmapDataAssetFileModel::GetAssetBundleFileForPreviewLevelAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::GetAssetBundleFileResult>* (GlobalNamespace::TestBeatmapDataAssetFileModel::*)(GlobalNamespace::IPreviewBeatmapLevel*, System::Threading::CancellationToken)>(&GlobalNamespace::TestBeatmapDataAssetFileModel::GetAssetBundleFileForPreviewLevelAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestBeatmapDataAssetFileModel*), "GetAssetBundleFileForPreviewLevelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TestBeatmapDataAssetFileModel*), "GetAssetBundleFileForPreviewLevelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: TestBeatmapDataAssetFileModel::TryDeleteAssetBundleFileForPreviewLevelAsync
+// Writing MetadataGetter for method: GlobalNamespace::TestBeatmapDataAssetFileModel::TryDeleteAssetBundleFileForPreviewLevelAsync
 // Il2CppName: TryDeleteAssetBundleFileForPreviewLevelAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (TestBeatmapDataAssetFileModel::*)(GlobalNamespace::IPreviewBeatmapLevel*, System::Threading::CancellationToken)>(&TestBeatmapDataAssetFileModel::TryDeleteAssetBundleFileForPreviewLevelAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (GlobalNamespace::TestBeatmapDataAssetFileModel::*)(GlobalNamespace::IPreviewBeatmapLevel*, System::Threading::CancellationToken)>(&GlobalNamespace::TestBeatmapDataAssetFileModel::TryDeleteAssetBundleFileForPreviewLevelAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestBeatmapDataAssetFileModel*), "TryDeleteAssetBundleFileForPreviewLevelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TestBeatmapDataAssetFileModel*), "TryDeleteAssetBundleFileForPreviewLevelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: TestBeatmapDataAssetFileModel::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::TestBeatmapDataAssetFileModel::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestBeatmapDataAssetFileModel::*)()>(&TestBeatmapDataAssetFileModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TestBeatmapDataAssetFileModel::*)()>(&GlobalNamespace::TestBeatmapDataAssetFileModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestBeatmapDataAssetFileModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TestBeatmapDataAssetFileModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestBeatmapDataAssetFileModel::*)()>(&TestBeatmapDataAssetFileModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TestBeatmapDataAssetFileModel::*)()>(&GlobalNamespace::TestBeatmapDataAssetFileModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestBeatmapDataAssetFileModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TestBeatmapDataAssetFileModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

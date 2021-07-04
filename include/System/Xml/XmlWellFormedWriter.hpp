@@ -967,425 +967,425 @@ DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::NamespaceKind, "System.
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::Namespace, "System.Xml", "XmlWellFormedWriter/Namespace");
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::AttrName, "System.Xml", "XmlWellFormedWriter/AttrName");
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::SpecialAttribute, "System.Xml", "XmlWellFormedWriter/SpecialAttribute");
-// Writing MetadataGetter for method: XmlWellFormedWriter::New_ctor
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)(System::Xml::XmlWriter*, System::Xml::XmlWriterSettings*)>(&XmlWellFormedWriter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(System::Xml::XmlWriter*, System::Xml::XmlWriterSettings*)>(&System::Xml::XmlWellFormedWriter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriter*>(), ::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriterSettings*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriter*>(), ::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriterSettings*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)(System::Xml::XmlWriter*, System::Xml::XmlWriterSettings*)>(&XmlWellFormedWriter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(System::Xml::XmlWriter*, System::Xml::XmlWriterSettings*)>(&System::Xml::XmlWellFormedWriter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriter*>(), ::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriterSettings*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriter*>(), ::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriterSettings*>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::get_RawWriter
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::get_RawWriter
 // Il2CppName: get_RawWriter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlRawWriter* (XmlWellFormedWriter::*)()>(&XmlWellFormedWriter::get_RawWriter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlRawWriter* (System::Xml::XmlWellFormedWriter::*)()>(&System::Xml::XmlWellFormedWriter::get_RawWriter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "get_RawWriter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "get_RawWriter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::get_SaveAttrValue
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::get_SaveAttrValue
 // Il2CppName: get_SaveAttrValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (XmlWellFormedWriter::*)()>(&XmlWellFormedWriter::get_SaveAttrValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlWellFormedWriter::*)()>(&System::Xml::XmlWellFormedWriter::get_SaveAttrValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "get_SaveAttrValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "get_SaveAttrValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::get_InBase64
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::get_InBase64
 // Il2CppName: get_InBase64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (XmlWellFormedWriter::*)()>(&XmlWellFormedWriter::get_InBase64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlWellFormedWriter::*)()>(&System::Xml::XmlWellFormedWriter::get_InBase64)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "get_InBase64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "get_InBase64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::SetSpecialAttribute
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::SetSpecialAttribute
 // Il2CppName: SetSpecialAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)(System::Xml::XmlWellFormedWriter::SpecialAttribute)>(&XmlWellFormedWriter::SetSpecialAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(System::Xml::XmlWellFormedWriter::SpecialAttribute)>(&System::Xml::XmlWellFormedWriter::SetSpecialAttribute)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "SetSpecialAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWellFormedWriter::SpecialAttribute>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "SetSpecialAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWellFormedWriter::SpecialAttribute>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::WriteStartDocumentImpl
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteStartDocumentImpl
 // Il2CppName: WriteStartDocumentImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)(System::Xml::XmlStandalone)>(&XmlWellFormedWriter::WriteStartDocumentImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(System::Xml::XmlStandalone)>(&System::Xml::XmlWellFormedWriter::WriteStartDocumentImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "WriteStartDocumentImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlStandalone>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteStartDocumentImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlStandalone>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::StartFragment
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::StartFragment
 // Il2CppName: StartFragment
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)()>(&XmlWellFormedWriter::StartFragment)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)()>(&System::Xml::XmlWellFormedWriter::StartFragment)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "StartFragment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "StartFragment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::PushNamespaceImplicit
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::PushNamespaceImplicit
 // Il2CppName: PushNamespaceImplicit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)(::Il2CppString*, ::Il2CppString*)>(&XmlWellFormedWriter::PushNamespaceImplicit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*, ::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::PushNamespaceImplicit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "PushNamespaceImplicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "PushNamespaceImplicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::PushNamespaceExplicit
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::PushNamespaceExplicit
 // Il2CppName: PushNamespaceExplicit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (XmlWellFormedWriter::*)(::Il2CppString*, ::Il2CppString*)>(&XmlWellFormedWriter::PushNamespaceExplicit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*, ::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::PushNamespaceExplicit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "PushNamespaceExplicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "PushNamespaceExplicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::AddNamespace
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::AddNamespace
 // Il2CppName: AddNamespace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)(::Il2CppString*, ::Il2CppString*, System::Xml::XmlWellFormedWriter::NamespaceKind)>(&XmlWellFormedWriter::AddNamespace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*, ::Il2CppString*, System::Xml::XmlWellFormedWriter::NamespaceKind)>(&System::Xml::XmlWellFormedWriter::AddNamespace)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "AddNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWellFormedWriter::NamespaceKind>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "AddNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWellFormedWriter::NamespaceKind>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::AddToNamespaceHashtable
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::AddToNamespaceHashtable
 // Il2CppName: AddToNamespaceHashtable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)(int)>(&XmlWellFormedWriter::AddToNamespaceHashtable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(int)>(&System::Xml::XmlWellFormedWriter::AddToNamespaceHashtable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "AddToNamespaceHashtable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "AddToNamespaceHashtable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::LookupNamespaceIndex
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::LookupNamespaceIndex
 // Il2CppName: LookupNamespaceIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (XmlWellFormedWriter::*)(::Il2CppString*)>(&XmlWellFormedWriter::LookupNamespaceIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::LookupNamespaceIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "LookupNamespaceIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "LookupNamespaceIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::PopNamespaces
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::PopNamespaces
 // Il2CppName: PopNamespaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)(int, int)>(&XmlWellFormedWriter::PopNamespaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(int, int)>(&System::Xml::XmlWellFormedWriter::PopNamespaces)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "PopNamespaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "PopNamespaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::DupAttrException
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::DupAttrException
 // Il2CppName: DupAttrException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlException* (*)(::Il2CppString*, ::Il2CppString*)>(&XmlWellFormedWriter::DupAttrException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlException* (*)(::Il2CppString*, ::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::DupAttrException)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "DupAttrException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "DupAttrException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::AdvanceState
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::AdvanceState
 // Il2CppName: AdvanceState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)(System::Xml::XmlWellFormedWriter::Token)>(&XmlWellFormedWriter::AdvanceState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(System::Xml::XmlWellFormedWriter::Token)>(&System::Xml::XmlWellFormedWriter::AdvanceState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "AdvanceState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWellFormedWriter::Token>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "AdvanceState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWellFormedWriter::Token>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::StartElementContent
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::StartElementContent
 // Il2CppName: StartElementContent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)()>(&XmlWellFormedWriter::StartElementContent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)()>(&System::Xml::XmlWellFormedWriter::StartElementContent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "StartElementContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "StartElementContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::GetStateName
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::GetStateName
 // Il2CppName: GetStateName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Xml::XmlWellFormedWriter::State)>(&XmlWellFormedWriter::GetStateName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Xml::XmlWellFormedWriter::State)>(&System::Xml::XmlWellFormedWriter::GetStateName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "GetStateName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWellFormedWriter::State>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "GetStateName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWellFormedWriter::State>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::LookupNamespace
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::LookupNamespace
 // Il2CppName: LookupNamespace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (XmlWellFormedWriter::*)(::Il2CppString*)>(&XmlWellFormedWriter::LookupNamespace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::LookupNamespace)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "LookupNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "LookupNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::LookupLocalNamespace
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::LookupLocalNamespace
 // Il2CppName: LookupLocalNamespace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (XmlWellFormedWriter::*)(::Il2CppString*)>(&XmlWellFormedWriter::LookupLocalNamespace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::LookupLocalNamespace)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "LookupLocalNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "LookupLocalNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::GeneratePrefix
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::GeneratePrefix
 // Il2CppName: GeneratePrefix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (XmlWellFormedWriter::*)()>(&XmlWellFormedWriter::GeneratePrefix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::XmlWellFormedWriter::*)()>(&System::Xml::XmlWellFormedWriter::GeneratePrefix)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "GeneratePrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "GeneratePrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::CheckNCName
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::CheckNCName
 // Il2CppName: CheckNCName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)(::Il2CppString*)>(&XmlWellFormedWriter::CheckNCName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::CheckNCName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "CheckNCName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "CheckNCName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::InvalidCharsException
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::InvalidCharsException
 // Il2CppName: InvalidCharsException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppString*, int)>(&XmlWellFormedWriter::InvalidCharsException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppString*, int)>(&System::Xml::XmlWellFormedWriter::InvalidCharsException)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "InvalidCharsException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "InvalidCharsException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::ThrowInvalidStateTransition
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::ThrowInvalidStateTransition
 // Il2CppName: ThrowInvalidStateTransition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)(System::Xml::XmlWellFormedWriter::Token, System::Xml::XmlWellFormedWriter::State)>(&XmlWellFormedWriter::ThrowInvalidStateTransition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(System::Xml::XmlWellFormedWriter::Token, System::Xml::XmlWellFormedWriter::State)>(&System::Xml::XmlWellFormedWriter::ThrowInvalidStateTransition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "ThrowInvalidStateTransition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWellFormedWriter::Token>(), ::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWellFormedWriter::State>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "ThrowInvalidStateTransition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWellFormedWriter::Token>(), ::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWellFormedWriter::State>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::get_IsClosedOrErrorState
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::get_IsClosedOrErrorState
 // Il2CppName: get_IsClosedOrErrorState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (XmlWellFormedWriter::*)()>(&XmlWellFormedWriter::get_IsClosedOrErrorState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlWellFormedWriter::*)()>(&System::Xml::XmlWellFormedWriter::get_IsClosedOrErrorState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "get_IsClosedOrErrorState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "get_IsClosedOrErrorState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::AddAttribute
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::AddAttribute
 // Il2CppName: AddAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&XmlWellFormedWriter::AddAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::AddAttribute)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "AddAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "AddAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::AddToAttrHashTable
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::AddToAttrHashTable
 // Il2CppName: AddToAttrHashTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)(int)>(&XmlWellFormedWriter::AddToAttrHashTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(int)>(&System::Xml::XmlWellFormedWriter::AddToAttrHashTable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "AddToAttrHashTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "AddToAttrHashTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::_cctor
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&XmlWellFormedWriter::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Xml::XmlWellFormedWriter::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::get_WriteState
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::get_WriteState
 // Il2CppName: get_WriteState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::WriteState (XmlWellFormedWriter::*)()>(&XmlWellFormedWriter::get_WriteState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::WriteState (System::Xml::XmlWellFormedWriter::*)()>(&System::Xml::XmlWellFormedWriter::get_WriteState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "get_WriteState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "get_WriteState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::WriteStartDocument
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteStartDocument
 // Il2CppName: WriteStartDocument
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)()>(&XmlWellFormedWriter::WriteStartDocument)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)()>(&System::Xml::XmlWellFormedWriter::WriteStartDocument)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "WriteStartDocument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteStartDocument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::WriteDocType
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteDocType
 // Il2CppName: WriteDocType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&XmlWellFormedWriter::WriteDocType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::WriteDocType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "WriteDocType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteDocType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::WriteStartElement
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteStartElement
 // Il2CppName: WriteStartElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&XmlWellFormedWriter::WriteStartElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::WriteStartElement)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "WriteStartElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteStartElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::WriteEndElement
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteEndElement
 // Il2CppName: WriteEndElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)()>(&XmlWellFormedWriter::WriteEndElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)()>(&System::Xml::XmlWellFormedWriter::WriteEndElement)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "WriteEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::WriteFullEndElement
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteFullEndElement
 // Il2CppName: WriteFullEndElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)()>(&XmlWellFormedWriter::WriteFullEndElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)()>(&System::Xml::XmlWellFormedWriter::WriteFullEndElement)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "WriteFullEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteFullEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::WriteStartAttribute
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteStartAttribute
 // Il2CppName: WriteStartAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&XmlWellFormedWriter::WriteStartAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::WriteStartAttribute)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "WriteStartAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteStartAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::WriteEndAttribute
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteEndAttribute
 // Il2CppName: WriteEndAttribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)()>(&XmlWellFormedWriter::WriteEndAttribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)()>(&System::Xml::XmlWellFormedWriter::WriteEndAttribute)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "WriteEndAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteEndAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::WriteCData
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteCData
 // Il2CppName: WriteCData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)(::Il2CppString*)>(&XmlWellFormedWriter::WriteCData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::WriteCData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "WriteCData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteCData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::WriteComment
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteComment
 // Il2CppName: WriteComment
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)(::Il2CppString*)>(&XmlWellFormedWriter::WriteComment)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::WriteComment)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "WriteComment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteComment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::WriteProcessingInstruction
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteProcessingInstruction
 // Il2CppName: WriteProcessingInstruction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)(::Il2CppString*, ::Il2CppString*)>(&XmlWellFormedWriter::WriteProcessingInstruction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*, ::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::WriteProcessingInstruction)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "WriteProcessingInstruction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteProcessingInstruction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::WriteEntityRef
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteEntityRef
 // Il2CppName: WriteEntityRef
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)(::Il2CppString*)>(&XmlWellFormedWriter::WriteEntityRef)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::WriteEntityRef)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "WriteEntityRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteEntityRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::WriteCharEntity
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteCharEntity
 // Il2CppName: WriteCharEntity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)(::Il2CppChar)>(&XmlWellFormedWriter::WriteCharEntity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Il2CppChar)>(&System::Xml::XmlWellFormedWriter::WriteCharEntity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "WriteCharEntity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteCharEntity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::WriteSurrogateCharEntity
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteSurrogateCharEntity
 // Il2CppName: WriteSurrogateCharEntity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)(::Il2CppChar, ::Il2CppChar)>(&XmlWellFormedWriter::WriteSurrogateCharEntity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Il2CppChar, ::Il2CppChar)>(&System::Xml::XmlWellFormedWriter::WriteSurrogateCharEntity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "WriteSurrogateCharEntity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteSurrogateCharEntity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::WriteWhitespace
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteWhitespace
 // Il2CppName: WriteWhitespace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)(::Il2CppString*)>(&XmlWellFormedWriter::WriteWhitespace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::WriteWhitespace)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "WriteWhitespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteWhitespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::WriteString
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteString
 // Il2CppName: WriteString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)(::Il2CppString*)>(&XmlWellFormedWriter::WriteString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::WriteString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "WriteString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::WriteChars
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteChars
 // Il2CppName: WriteChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)(::Array<::Il2CppChar>*, int, int)>(&XmlWellFormedWriter::WriteChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Array<::Il2CppChar>*, int, int)>(&System::Xml::XmlWellFormedWriter::WriteChars)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "WriteChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::WriteRaw
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteRaw
 // Il2CppName: WriteRaw
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)(::Array<::Il2CppChar>*, int, int)>(&XmlWellFormedWriter::WriteRaw)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Array<::Il2CppChar>*, int, int)>(&System::Xml::XmlWellFormedWriter::WriteRaw)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "WriteRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::WriteRaw
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteRaw
 // Il2CppName: WriteRaw
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)(::Il2CppString*)>(&XmlWellFormedWriter::WriteRaw)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::WriteRaw)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "WriteRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::WriteBase64
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteBase64
 // Il2CppName: WriteBase64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)(::Array<uint8_t>*, int, int)>(&XmlWellFormedWriter::WriteBase64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Array<uint8_t>*, int, int)>(&System::Xml::XmlWellFormedWriter::WriteBase64)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "WriteBase64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteBase64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::Close
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::Close
 // Il2CppName: Close
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)()>(&XmlWellFormedWriter::Close)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)()>(&System::Xml::XmlWellFormedWriter::Close)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::Flush
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::Flush
 // Il2CppName: Flush
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)()>(&XmlWellFormedWriter::Flush)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)()>(&System::Xml::XmlWellFormedWriter::Flush)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::LookupPrefix
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::LookupPrefix
 // Il2CppName: LookupPrefix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (XmlWellFormedWriter::*)(::Il2CppString*)>(&XmlWellFormedWriter::LookupPrefix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::LookupPrefix)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "LookupPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "LookupPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::WriteValue
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteValue
 // Il2CppName: WriteValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)(::Il2CppString*)>(&XmlWellFormedWriter::WriteValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::WriteValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlWellFormedWriter::WriteBinHex
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::WriteBinHex
 // Il2CppName: WriteBinHex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::*)(::Array<uint8_t>*, int, int)>(&XmlWellFormedWriter::WriteBinHex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::*)(::Array<uint8_t>*, int, int)>(&System::Xml::XmlWellFormedWriter::WriteBinHex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter*), "WriteBinHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter*), "WriteBinHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };

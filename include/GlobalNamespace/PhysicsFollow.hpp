@@ -89,33 +89,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(PhysicsFollow) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PhysicsFollow*, "", "PhysicsFollow");
-// Writing MetadataGetter for method: PhysicsFollow::Start
+// Writing MetadataGetter for method: GlobalNamespace::PhysicsFollow::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PhysicsFollow::*)()>(&PhysicsFollow::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PhysicsFollow::*)()>(&GlobalNamespace::PhysicsFollow::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PhysicsFollow*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PhysicsFollow*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PhysicsFollow::FixedUpdate
+// Writing MetadataGetter for method: GlobalNamespace::PhysicsFollow::FixedUpdate
 // Il2CppName: FixedUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PhysicsFollow::*)()>(&PhysicsFollow::FixedUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PhysicsFollow::*)()>(&GlobalNamespace::PhysicsFollow::FixedUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PhysicsFollow*), "FixedUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PhysicsFollow*), "FixedUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PhysicsFollow::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::PhysicsFollow::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PhysicsFollow::*)()>(&PhysicsFollow::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PhysicsFollow::*)()>(&GlobalNamespace::PhysicsFollow::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PhysicsFollow*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PhysicsFollow*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PhysicsFollow::*)()>(&PhysicsFollow::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PhysicsFollow::*)()>(&GlobalNamespace::PhysicsFollow::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PhysicsFollow*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PhysicsFollow*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

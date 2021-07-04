@@ -69,33 +69,33 @@ namespace System::Threading::Tasks {
   static_assert(sizeof(CompletionActionInvoker) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::CompletionActionInvoker*, "System.Threading.Tasks", "CompletionActionInvoker");
-// Writing MetadataGetter for method: CompletionActionInvoker::New_ctor
+// Writing MetadataGetter for method: System::Threading::Tasks::CompletionActionInvoker::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompletionActionInvoker::*)(System::Threading::Tasks::ITaskCompletionAction*, System::Threading::Tasks::Task*)>(&CompletionActionInvoker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::CompletionActionInvoker::*)(System::Threading::Tasks::ITaskCompletionAction*, System::Threading::Tasks::Task*)>(&System::Threading::Tasks::CompletionActionInvoker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CompletionActionInvoker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::ITaskCompletionAction*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::CompletionActionInvoker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::ITaskCompletionAction*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompletionActionInvoker::*)(System::Threading::Tasks::ITaskCompletionAction*, System::Threading::Tasks::Task*)>(&CompletionActionInvoker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::CompletionActionInvoker::*)(System::Threading::Tasks::ITaskCompletionAction*, System::Threading::Tasks::Task*)>(&System::Threading::Tasks::CompletionActionInvoker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CompletionActionInvoker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::ITaskCompletionAction*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::CompletionActionInvoker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::ITaskCompletionAction*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>()});
   }
 };
-// Writing MetadataGetter for method: CompletionActionInvoker::ExecuteWorkItem
+// Writing MetadataGetter for method: System::Threading::Tasks::CompletionActionInvoker::ExecuteWorkItem
 // Il2CppName: ExecuteWorkItem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompletionActionInvoker::*)()>(&CompletionActionInvoker::ExecuteWorkItem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::CompletionActionInvoker::*)()>(&System::Threading::Tasks::CompletionActionInvoker::ExecuteWorkItem)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CompletionActionInvoker*), "ExecuteWorkItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::CompletionActionInvoker*), "ExecuteWorkItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CompletionActionInvoker::MarkAborted
+// Writing MetadataGetter for method: System::Threading::Tasks::CompletionActionInvoker::MarkAborted
 // Il2CppName: MarkAborted
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CompletionActionInvoker::*)(System::Threading::ThreadAbortException*)>(&CompletionActionInvoker::MarkAborted)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::CompletionActionInvoker::*)(System::Threading::ThreadAbortException*)>(&System::Threading::Tasks::CompletionActionInvoker::MarkAborted)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CompletionActionInvoker*), "MarkAborted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadAbortException*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::CompletionActionInvoker*), "MarkAborted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadAbortException*>()});
   }
 };

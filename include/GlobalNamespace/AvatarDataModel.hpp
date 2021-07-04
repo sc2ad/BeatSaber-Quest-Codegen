@@ -99,89 +99,89 @@ namespace GlobalNamespace {
   static_assert(sizeof(AvatarDataModel) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarDataModel*, "", "AvatarDataModel");
-// Writing MetadataGetter for method: AvatarDataModel::get_avatarData
+// Writing MetadataGetter for method: GlobalNamespace::AvatarDataModel::get_avatarData
 // Il2CppName: get_avatarData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AvatarData* (AvatarDataModel::*)()>(&AvatarDataModel::get_avatarData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AvatarData* (GlobalNamespace::AvatarDataModel::*)()>(&GlobalNamespace::AvatarDataModel::get_avatarData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarDataModel*), "get_avatarData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarDataModel*), "get_avatarData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AvatarDataModel::set_avatarData
+// Writing MetadataGetter for method: GlobalNamespace::AvatarDataModel::set_avatarData
 // Il2CppName: set_avatarData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarDataModel::*)(GlobalNamespace::AvatarData*)>(&AvatarDataModel::set_avatarData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarDataModel::*)(GlobalNamespace::AvatarData*)>(&GlobalNamespace::AvatarDataModel::set_avatarData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarDataModel*), "set_avatarData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AvatarData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarDataModel*), "set_avatarData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AvatarData*>()});
   }
 };
-// Writing MetadataGetter for method: AvatarDataModel::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::AvatarDataModel::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarDataModel::*)()>(&AvatarDataModel::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarDataModel::*)()>(&GlobalNamespace::AvatarDataModel::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarDataModel*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarDataModel*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AvatarDataModel::OnApplicationPause
+// Writing MetadataGetter for method: GlobalNamespace::AvatarDataModel::OnApplicationPause
 // Il2CppName: OnApplicationPause
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarDataModel::*)(bool)>(&AvatarDataModel::OnApplicationPause)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarDataModel::*)(bool)>(&GlobalNamespace::AvatarDataModel::OnApplicationPause)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarDataModel*), "OnApplicationPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarDataModel*), "OnApplicationPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AvatarDataModel::OnDisable
+// Writing MetadataGetter for method: GlobalNamespace::AvatarDataModel::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarDataModel::*)()>(&AvatarDataModel::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarDataModel::*)()>(&GlobalNamespace::AvatarDataModel::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarDataModel*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarDataModel*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AvatarDataModel::Randomize
+// Writing MetadataGetter for method: GlobalNamespace::AvatarDataModel::Randomize
 // Il2CppName: Randomize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarDataModel::*)()>(&AvatarDataModel::Randomize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarDataModel::*)()>(&GlobalNamespace::AvatarDataModel::Randomize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarDataModel*), "Randomize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarDataModel*), "Randomize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AvatarDataModel::Save
+// Writing MetadataGetter for method: GlobalNamespace::AvatarDataModel::Save
 // Il2CppName: Save
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarDataModel::*)()>(&AvatarDataModel::Save)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarDataModel::*)()>(&GlobalNamespace::AvatarDataModel::Save)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarDataModel*), "Save", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarDataModel*), "Save", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AvatarDataModel::Load
+// Writing MetadataGetter for method: GlobalNamespace::AvatarDataModel::Load
 // Il2CppName: Load
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarDataModel::*)()>(&AvatarDataModel::Load)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarDataModel::*)()>(&GlobalNamespace::AvatarDataModel::Load)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarDataModel*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarDataModel*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AvatarDataModel::CreateDefaultAvatarData
+// Writing MetadataGetter for method: GlobalNamespace::AvatarDataModel::CreateDefaultAvatarData
 // Il2CppName: CreateDefaultAvatarData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AvatarData* (AvatarDataModel::*)()>(&AvatarDataModel::CreateDefaultAvatarData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AvatarData* (GlobalNamespace::AvatarDataModel::*)()>(&GlobalNamespace::AvatarDataModel::CreateDefaultAvatarData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarDataModel*), "CreateDefaultAvatarData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarDataModel*), "CreateDefaultAvatarData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AvatarDataModel::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::AvatarDataModel::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarDataModel::*)()>(&AvatarDataModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarDataModel::*)()>(&GlobalNamespace::AvatarDataModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarDataModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarDataModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AvatarDataModel::*)()>(&AvatarDataModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarDataModel::*)()>(&GlobalNamespace::AvatarDataModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AvatarDataModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarDataModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

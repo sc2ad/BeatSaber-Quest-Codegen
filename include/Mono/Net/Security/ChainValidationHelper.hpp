@@ -154,89 +154,89 @@ namespace Mono::Net::Security {
   static_assert(sizeof(ChainValidationHelper) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::ChainValidationHelper*, "Mono.Net.Security", "ChainValidationHelper");
-// Writing MetadataGetter for method: ChainValidationHelper::GetInternalValidator
+// Writing MetadataGetter for method: Mono::Net::Security::ChainValidationHelper::GetInternalValidator
 // Il2CppName: GetInternalValidator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::ICertificateValidator* (*)(Mono::Security::Interface::MonoTlsProvider*, Mono::Security::Interface::MonoTlsSettings*)>(&ChainValidationHelper::GetInternalValidator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::ICertificateValidator* (*)(Mono::Security::Interface::MonoTlsProvider*, Mono::Security::Interface::MonoTlsSettings*)>(&Mono::Net::Security::ChainValidationHelper::GetInternalValidator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ChainValidationHelper*), "GetInternalValidator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsProvider*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsSettings*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::ChainValidationHelper*), "GetInternalValidator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsProvider*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsSettings*>()});
   }
 };
-// Writing MetadataGetter for method: ChainValidationHelper::Create
+// Writing MetadataGetter for method: Mono::Net::Security::ChainValidationHelper::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::Security::ChainValidationHelper* (*)(Mono::Security::Interface::MonoTlsProvider*, Mono::Security::Interface::MonoTlsSettings*&, Mono::Net::Security::MonoTlsStream*)>(&ChainValidationHelper::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::Security::ChainValidationHelper* (*)(Mono::Security::Interface::MonoTlsProvider*, Mono::Security::Interface::MonoTlsSettings*&, Mono::Net::Security::MonoTlsStream*)>(&Mono::Net::Security::ChainValidationHelper::Create)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ChainValidationHelper*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsProvider*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsSettings*&>(), ::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::MonoTlsStream*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::ChainValidationHelper*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsProvider*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsSettings*&>(), ::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::MonoTlsStream*>()});
   }
 };
-// Writing MetadataGetter for method: ChainValidationHelper::New_ctor
+// Writing MetadataGetter for method: Mono::Net::Security::ChainValidationHelper::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ChainValidationHelper::*)(Mono::Security::Interface::MonoTlsProvider*, Mono::Security::Interface::MonoTlsSettings*, bool, Mono::Net::Security::MonoTlsStream*, Mono::Net::Security::ServerCertValidationCallbackWrapper*)>(&ChainValidationHelper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::ChainValidationHelper::*)(Mono::Security::Interface::MonoTlsProvider*, Mono::Security::Interface::MonoTlsSettings*, bool, Mono::Net::Security::MonoTlsStream*, Mono::Net::Security::ServerCertValidationCallbackWrapper*)>(&Mono::Net::Security::ChainValidationHelper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ChainValidationHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsProvider*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsSettings*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::MonoTlsStream*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::ServerCertValidationCallbackWrapper*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::ChainValidationHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsProvider*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsSettings*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::MonoTlsStream*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::ServerCertValidationCallbackWrapper*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ChainValidationHelper::*)(Mono::Security::Interface::MonoTlsProvider*, Mono::Security::Interface::MonoTlsSettings*, bool, Mono::Net::Security::MonoTlsStream*, Mono::Net::Security::ServerCertValidationCallbackWrapper*)>(&ChainValidationHelper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::ChainValidationHelper::*)(Mono::Security::Interface::MonoTlsProvider*, Mono::Security::Interface::MonoTlsSettings*, bool, Mono::Net::Security::MonoTlsStream*, Mono::Net::Security::ServerCertValidationCallbackWrapper*)>(&Mono::Net::Security::ChainValidationHelper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ChainValidationHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsProvider*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsSettings*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::MonoTlsStream*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::ServerCertValidationCallbackWrapper*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::ChainValidationHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsProvider*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoTlsSettings*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::MonoTlsStream*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::ServerCertValidationCallbackWrapper*>()});
   }
 };
-// Writing MetadataGetter for method: ChainValidationHelper::DefaultSelectionCallback
+// Writing MetadataGetter for method: Mono::Net::Security::ChainValidationHelper::DefaultSelectionCallback
 // Il2CppName: DefaultSelectionCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate* (*)(::Il2CppString*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, System::Security::Cryptography::X509Certificates::X509Certificate*, ::Array<::Il2CppString*>*)>(&ChainValidationHelper::DefaultSelectionCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate* (*)(::Il2CppString*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, System::Security::Cryptography::X509Certificates::X509Certificate*, ::Array<::Il2CppString*>*)>(&Mono::Net::Security::ChainValidationHelper::DefaultSelectionCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ChainValidationHelper*), "DefaultSelectionCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::ChainValidationHelper*), "DefaultSelectionCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: ChainValidationHelper::get_Settings
+// Writing MetadataGetter for method: Mono::Net::Security::ChainValidationHelper::get_Settings
 // Il2CppName: get_Settings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsSettings* (ChainValidationHelper::*)()>(&ChainValidationHelper::get_Settings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsSettings* (Mono::Net::Security::ChainValidationHelper::*)()>(&Mono::Net::Security::ChainValidationHelper::get_Settings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ChainValidationHelper*), "get_Settings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::ChainValidationHelper*), "get_Settings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ChainValidationHelper::SelectClientCertificate
+// Writing MetadataGetter for method: Mono::Net::Security::ChainValidationHelper::SelectClientCertificate
 // Il2CppName: SelectClientCertificate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ChainValidationHelper::*)(::Il2CppString*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, System::Security::Cryptography::X509Certificates::X509Certificate*, ::Array<::Il2CppString*>*, System::Security::Cryptography::X509Certificates::X509Certificate*&)>(&ChainValidationHelper::SelectClientCertificate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Net::Security::ChainValidationHelper::*)(::Il2CppString*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, System::Security::Cryptography::X509Certificates::X509Certificate*, ::Array<::Il2CppString*>*, System::Security::Cryptography::X509Certificates::X509Certificate*&)>(&Mono::Net::Security::ChainValidationHelper::SelectClientCertificate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ChainValidationHelper*), "SelectClientCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*&>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::ChainValidationHelper*), "SelectClientCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*&>()});
   }
 };
-// Writing MetadataGetter for method: ChainValidationHelper::ValidateCertificate
+// Writing MetadataGetter for method: Mono::Net::Security::ChainValidationHelper::ValidateCertificate
 // Il2CppName: ValidateCertificate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::ValidationResult* (ChainValidationHelper::*)(::Il2CppString*, bool, System::Security::Cryptography::X509Certificates::X509CertificateCollection*)>(&ChainValidationHelper::ValidateCertificate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::ValidationResult* (Mono::Net::Security::ChainValidationHelper::*)(::Il2CppString*, bool, System::Security::Cryptography::X509Certificates::X509CertificateCollection*)>(&Mono::Net::Security::ChainValidationHelper::ValidateCertificate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ChainValidationHelper*), "ValidateCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::ChainValidationHelper*), "ValidateCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>()});
   }
 };
-// Writing MetadataGetter for method: ChainValidationHelper::ValidateCertificate
+// Writing MetadataGetter for method: Mono::Net::Security::ChainValidationHelper::ValidateCertificate
 // Il2CppName: ValidateCertificate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::ValidationResult* (ChainValidationHelper::*)(::Il2CppString*, bool, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509Chain*)>(&ChainValidationHelper::ValidateCertificate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::ValidationResult* (Mono::Net::Security::ChainValidationHelper::*)(::Il2CppString*, bool, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509Chain*)>(&Mono::Net::Security::ChainValidationHelper::ValidateCertificate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ChainValidationHelper*), "ValidateCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Chain*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::ChainValidationHelper*), "ValidateCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Chain*>()});
   }
 };
-// Writing MetadataGetter for method: ChainValidationHelper::ValidateChain
+// Writing MetadataGetter for method: Mono::Net::Security::ChainValidationHelper::ValidateChain
 // Il2CppName: ValidateChain
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::ValidationResult* (ChainValidationHelper::*)(::Il2CppString*, bool, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509Chain*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, System::Net::Security::SslPolicyErrors)>(&ChainValidationHelper::ValidateChain)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::ValidationResult* (Mono::Net::Security::ChainValidationHelper::*)(::Il2CppString*, bool, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509Chain*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, System::Net::Security::SslPolicyErrors)>(&Mono::Net::Security::ChainValidationHelper::ValidateChain)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ChainValidationHelper*), "ValidateChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Chain*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Security::SslPolicyErrors>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::ChainValidationHelper*), "ValidateChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Chain*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Security::SslPolicyErrors>()});
   }
 };
-// Writing MetadataGetter for method: ChainValidationHelper::ValidateChain_
+// Writing MetadataGetter for method: Mono::Net::Security::ChainValidationHelper::ValidateChain_
 // Il2CppName: ValidateChain
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::ValidationResult* (ChainValidationHelper::*)(::Il2CppString*, bool, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509Chain*&, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, System::Net::Security::SslPolicyErrors)>(&ChainValidationHelper::ValidateChain_)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::ValidationResult* (Mono::Net::Security::ChainValidationHelper::*)(::Il2CppString*, bool, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509Chain*&, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, System::Net::Security::SslPolicyErrors)>(&Mono::Net::Security::ChainValidationHelper::ValidateChain_)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ChainValidationHelper*), "ValidateChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Chain*&>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Security::SslPolicyErrors>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::ChainValidationHelper*), "ValidateChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Chain*&>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Security::SslPolicyErrors>()});
   }
 };

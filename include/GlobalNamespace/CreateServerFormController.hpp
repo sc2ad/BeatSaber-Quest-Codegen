@@ -82,33 +82,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(CreateServerFormController) == 0x21);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreateServerFormController*, "", "CreateServerFormController");
-// Writing MetadataGetter for method: CreateServerFormController::get_formData
+// Writing MetadataGetter for method: GlobalNamespace::CreateServerFormController::get_formData
 // Il2CppName: get_formData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::CreateServerFormData (CreateServerFormController::*)()>(&CreateServerFormController::get_formData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::CreateServerFormData (GlobalNamespace::CreateServerFormController::*)()>(&GlobalNamespace::CreateServerFormController::get_formData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CreateServerFormController*), "get_formData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreateServerFormController*), "get_formData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CreateServerFormController::Setup
+// Writing MetadataGetter for method: GlobalNamespace::CreateServerFormController::Setup
 // Il2CppName: Setup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateServerFormController::*)(int, bool)>(&CreateServerFormController::Setup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CreateServerFormController::*)(int, bool)>(&GlobalNamespace::CreateServerFormController::Setup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CreateServerFormController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreateServerFormController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: CreateServerFormController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::CreateServerFormController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateServerFormController::*)()>(&CreateServerFormController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CreateServerFormController::*)()>(&GlobalNamespace::CreateServerFormController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CreateServerFormController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreateServerFormController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreateServerFormController::*)()>(&CreateServerFormController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CreateServerFormController::*)()>(&GlobalNamespace::CreateServerFormController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CreateServerFormController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreateServerFormController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

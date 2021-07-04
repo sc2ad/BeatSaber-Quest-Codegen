@@ -58,17 +58,17 @@ namespace System::Runtime::Remoting::Messaging {
   static_assert(sizeof(CADObjRef) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADObjRef*, "System.Runtime.Remoting.Messaging", "CADObjRef");
-// Writing MetadataGetter for method: CADObjRef::New_ctor
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADObjRef::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CADObjRef::*)(System::Runtime::Remoting::ObjRef*, int)>(&CADObjRef::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::CADObjRef::*)(System::Runtime::Remoting::ObjRef*, int)>(&System::Runtime::Remoting::Messaging::CADObjRef::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CADObjRef*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ObjRef*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADObjRef*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ObjRef*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CADObjRef::*)(System::Runtime::Remoting::ObjRef*, int)>(&CADObjRef::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::CADObjRef::*)(System::Runtime::Remoting::ObjRef*, int)>(&System::Runtime::Remoting::Messaging::CADObjRef::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CADObjRef*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ObjRef*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADObjRef*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ObjRef*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };

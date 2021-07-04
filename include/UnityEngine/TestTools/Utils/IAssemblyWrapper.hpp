@@ -28,11 +28,11 @@ namespace UnityEngine::TestTools::Utils {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::IAssemblyWrapper*, "UnityEngine.TestTools.Utils", "IAssemblyWrapper");
-// Writing MetadataGetter for method: IAssemblyWrapper::get_Assembly
+// Writing MetadataGetter for method: UnityEngine::TestTools::Utils::IAssemblyWrapper::get_Assembly
 // Il2CppName: get_Assembly
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (IAssemblyWrapper::*)()>(&IAssemblyWrapper::get_Assembly)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (UnityEngine::TestTools::Utils::IAssemblyWrapper::*)()>(&UnityEngine::TestTools::Utils::IAssemblyWrapper::get_Assembly)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IAssemblyWrapper*), "get_Assembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Utils::IAssemblyWrapper*), "get_Assembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

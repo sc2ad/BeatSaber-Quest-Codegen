@@ -81,57 +81,57 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(FABRIKRoot) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FABRIKRoot*, "RootMotion.FinalIK", "FABRIKRoot");
-// Writing MetadataGetter for method: FABRIKRoot::SupportGroup
+// Writing MetadataGetter for method: RootMotion::FinalIK::FABRIKRoot::SupportGroup
 // Il2CppName: SupportGroup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FABRIKRoot::*)()>(&FABRIKRoot::SupportGroup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FABRIKRoot::*)()>(&RootMotion::FinalIK::FABRIKRoot::SupportGroup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FABRIKRoot*), "SupportGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FABRIKRoot*), "SupportGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FABRIKRoot::ASThread
+// Writing MetadataGetter for method: RootMotion::FinalIK::FABRIKRoot::ASThread
 // Il2CppName: ASThread
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FABRIKRoot::*)()>(&FABRIKRoot::ASThread)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FABRIKRoot::*)()>(&RootMotion::FinalIK::FABRIKRoot::ASThread)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FABRIKRoot*), "ASThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FABRIKRoot*), "ASThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FABRIKRoot::OpenUserManual
+// Writing MetadataGetter for method: RootMotion::FinalIK::FABRIKRoot::OpenUserManual
 // Il2CppName: OpenUserManual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FABRIKRoot::*)()>(&FABRIKRoot::OpenUserManual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FABRIKRoot::*)()>(&RootMotion::FinalIK::FABRIKRoot::OpenUserManual)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FABRIKRoot*), "OpenUserManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FABRIKRoot*), "OpenUserManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FABRIKRoot::OpenScriptReference
+// Writing MetadataGetter for method: RootMotion::FinalIK::FABRIKRoot::OpenScriptReference
 // Il2CppName: OpenScriptReference
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FABRIKRoot::*)()>(&FABRIKRoot::OpenScriptReference)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FABRIKRoot::*)()>(&RootMotion::FinalIK::FABRIKRoot::OpenScriptReference)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FABRIKRoot*), "OpenScriptReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FABRIKRoot*), "OpenScriptReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FABRIKRoot::GetIKSolver
+// Writing MetadataGetter for method: RootMotion::FinalIK::FABRIKRoot::GetIKSolver
 // Il2CppName: GetIKSolver
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolver* (FABRIKRoot::*)()>(&FABRIKRoot::GetIKSolver)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolver* (RootMotion::FinalIK::FABRIKRoot::*)()>(&RootMotion::FinalIK::FABRIKRoot::GetIKSolver)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FABRIKRoot*), "GetIKSolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FABRIKRoot*), "GetIKSolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FABRIKRoot::New_ctor
+// Writing MetadataGetter for method: RootMotion::FinalIK::FABRIKRoot::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FABRIKRoot::*)()>(&FABRIKRoot::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FABRIKRoot::*)()>(&RootMotion::FinalIK::FABRIKRoot::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FABRIKRoot*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FABRIKRoot*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FABRIKRoot::*)()>(&FABRIKRoot::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FABRIKRoot::*)()>(&RootMotion::FinalIK::FABRIKRoot::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FABRIKRoot*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FABRIKRoot*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

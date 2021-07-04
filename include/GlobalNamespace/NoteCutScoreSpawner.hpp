@@ -85,41 +85,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteCutScoreSpawner) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutScoreSpawner*, "", "NoteCutScoreSpawner");
-// Writing MetadataGetter for method: NoteCutScoreSpawner::Start
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutScoreSpawner::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteCutScoreSpawner::*)()>(&NoteCutScoreSpawner::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteCutScoreSpawner::*)()>(&GlobalNamespace::NoteCutScoreSpawner::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteCutScoreSpawner*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutScoreSpawner*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NoteCutScoreSpawner::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutScoreSpawner::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteCutScoreSpawner::*)()>(&NoteCutScoreSpawner::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteCutScoreSpawner::*)()>(&GlobalNamespace::NoteCutScoreSpawner::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteCutScoreSpawner*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutScoreSpawner*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NoteCutScoreSpawner::HandleNoteWasCut
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutScoreSpawner::HandleNoteWasCut
 // Il2CppName: HandleNoteWasCut
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteCutScoreSpawner::*)(GlobalNamespace::NoteController*, GlobalNamespace::NoteCutInfo&)>(&NoteCutScoreSpawner::HandleNoteWasCut)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteCutScoreSpawner::*)(GlobalNamespace::NoteController*, GlobalNamespace::NoteCutInfo&)>(&GlobalNamespace::NoteCutScoreSpawner::HandleNoteWasCut)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteCutScoreSpawner*), "HandleNoteWasCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutScoreSpawner*), "HandleNoteWasCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>()});
   }
 };
-// Writing MetadataGetter for method: NoteCutScoreSpawner::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutScoreSpawner::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteCutScoreSpawner::*)()>(&NoteCutScoreSpawner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteCutScoreSpawner::*)()>(&GlobalNamespace::NoteCutScoreSpawner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteCutScoreSpawner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutScoreSpawner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteCutScoreSpawner::*)()>(&NoteCutScoreSpawner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteCutScoreSpawner::*)()>(&GlobalNamespace::NoteCutScoreSpawner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteCutScoreSpawner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutScoreSpawner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

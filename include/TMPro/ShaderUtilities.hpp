@@ -309,75 +309,75 @@ namespace TMPro {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::ShaderUtilities*, "TMPro", "ShaderUtilities");
-// Writing MetadataGetter for method: ShaderUtilities::get_ShaderRef_MobileSDF
+// Writing MetadataGetter for method: TMPro::ShaderUtilities::get_ShaderRef_MobileSDF
 // Il2CppName: get_ShaderRef_MobileSDF
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Shader* (*)()>(&ShaderUtilities::get_ShaderRef_MobileSDF)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Shader* (*)()>(&TMPro::ShaderUtilities::get_ShaderRef_MobileSDF)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ShaderUtilities*), "get_ShaderRef_MobileSDF", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::ShaderUtilities*), "get_ShaderRef_MobileSDF", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ShaderUtilities::get_ShaderRef_MobileBitmap
+// Writing MetadataGetter for method: TMPro::ShaderUtilities::get_ShaderRef_MobileBitmap
 // Il2CppName: get_ShaderRef_MobileBitmap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Shader* (*)()>(&ShaderUtilities::get_ShaderRef_MobileBitmap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Shader* (*)()>(&TMPro::ShaderUtilities::get_ShaderRef_MobileBitmap)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ShaderUtilities*), "get_ShaderRef_MobileBitmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::ShaderUtilities*), "get_ShaderRef_MobileBitmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ShaderUtilities::_cctor
+// Writing MetadataGetter for method: TMPro::ShaderUtilities::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ShaderUtilities::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TMPro::ShaderUtilities::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ShaderUtilities*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::ShaderUtilities*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ShaderUtilities::GetShaderPropertyIDs
+// Writing MetadataGetter for method: TMPro::ShaderUtilities::GetShaderPropertyIDs
 // Il2CppName: GetShaderPropertyIDs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ShaderUtilities::GetShaderPropertyIDs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TMPro::ShaderUtilities::GetShaderPropertyIDs)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ShaderUtilities*), "GetShaderPropertyIDs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::ShaderUtilities*), "GetShaderPropertyIDs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ShaderUtilities::UpdateShaderRatios
+// Writing MetadataGetter for method: TMPro::ShaderUtilities::UpdateShaderRatios
 // Il2CppName: UpdateShaderRatios
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Material*)>(&ShaderUtilities::UpdateShaderRatios)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Material*)>(&TMPro::ShaderUtilities::UpdateShaderRatios)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ShaderUtilities*), "UpdateShaderRatios", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::ShaderUtilities*), "UpdateShaderRatios", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
   }
 };
-// Writing MetadataGetter for method: ShaderUtilities::GetFontExtent
+// Writing MetadataGetter for method: TMPro::ShaderUtilities::GetFontExtent
 // Il2CppName: GetFontExtent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)(UnityEngine::Material*)>(&ShaderUtilities::GetFontExtent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)(UnityEngine::Material*)>(&TMPro::ShaderUtilities::GetFontExtent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ShaderUtilities*), "GetFontExtent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::ShaderUtilities*), "GetFontExtent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
   }
 };
-// Writing MetadataGetter for method: ShaderUtilities::IsMaskingEnabled
+// Writing MetadataGetter for method: TMPro::ShaderUtilities::IsMaskingEnabled
 // Il2CppName: IsMaskingEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Material*)>(&ShaderUtilities::IsMaskingEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Material*)>(&TMPro::ShaderUtilities::IsMaskingEnabled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ShaderUtilities*), "IsMaskingEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::ShaderUtilities*), "IsMaskingEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
   }
 };
-// Writing MetadataGetter for method: ShaderUtilities::GetPadding
+// Writing MetadataGetter for method: TMPro::ShaderUtilities::GetPadding
 // Il2CppName: GetPadding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Material*, bool, bool)>(&ShaderUtilities::GetPadding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Material*, bool, bool)>(&TMPro::ShaderUtilities::GetPadding)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ShaderUtilities*), "GetPadding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::ShaderUtilities*), "GetPadding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ShaderUtilities::GetPadding
+// Writing MetadataGetter for method: TMPro::ShaderUtilities::GetPadding
 // Il2CppName: GetPadding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::Array<UnityEngine::Material*>*, bool, bool)>(&ShaderUtilities::GetPadding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::Array<UnityEngine::Material*>*, bool, bool)>(&TMPro::ShaderUtilities::GetPadding)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ShaderUtilities*), "GetPadding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Material*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::ShaderUtilities*), "GetPadding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Material*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };

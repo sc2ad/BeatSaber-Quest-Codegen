@@ -62,31 +62,31 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(TrackBindingTypeAttribute) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackBindingTypeAttribute*, "UnityEngine.Timeline", "TrackBindingTypeAttribute");
-// Writing MetadataGetter for method: TrackBindingTypeAttribute::New_ctor
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackBindingTypeAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackBindingTypeAttribute::*)(System::Type*)>(&TrackBindingTypeAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackBindingTypeAttribute::*)(System::Type*)>(&UnityEngine::Timeline::TrackBindingTypeAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackBindingTypeAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackBindingTypeAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackBindingTypeAttribute::*)(System::Type*)>(&TrackBindingTypeAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackBindingTypeAttribute::*)(System::Type*)>(&UnityEngine::Timeline::TrackBindingTypeAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackBindingTypeAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackBindingTypeAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: TrackBindingTypeAttribute::New_ctor
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackBindingTypeAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackBindingTypeAttribute::*)(System::Type*, UnityEngine::Timeline::TrackBindingFlags)>(&TrackBindingTypeAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackBindingTypeAttribute::*)(System::Type*, UnityEngine::Timeline::TrackBindingFlags)>(&UnityEngine::Timeline::TrackBindingTypeAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackBindingTypeAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackBindingFlags>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackBindingTypeAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackBindingFlags>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackBindingTypeAttribute::*)(System::Type*, UnityEngine::Timeline::TrackBindingFlags)>(&TrackBindingTypeAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackBindingTypeAttribute::*)(System::Type*, UnityEngine::Timeline::TrackBindingFlags)>(&UnityEngine::Timeline::TrackBindingTypeAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackBindingTypeAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackBindingFlags>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackBindingTypeAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackBindingFlags>()});
   }
 };

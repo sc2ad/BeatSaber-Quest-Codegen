@@ -52,41 +52,41 @@ namespace Valve::VR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_AcknowledgeQuit_Exiting*, "Valve.VR", "IVRSystem/_AcknowledgeQuit_Exiting");
-// Writing MetadataGetter for method: IVRSystem::_AcknowledgeQuit_Exiting::New_ctor
+// Writing MetadataGetter for method: Valve::VR::IVRSystem::_AcknowledgeQuit_Exiting::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSystem::_AcknowledgeQuit_Exiting::*)(::Il2CppObject*, System::IntPtr)>(&IVRSystem::_AcknowledgeQuit_Exiting::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRSystem::_AcknowledgeQuit_Exiting::*)(::Il2CppObject*, System::IntPtr)>(&Valve::VR::IVRSystem::_AcknowledgeQuit_Exiting::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_AcknowledgeQuit_Exiting*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_AcknowledgeQuit_Exiting*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSystem::_AcknowledgeQuit_Exiting::*)(::Il2CppObject*, System::IntPtr)>(&IVRSystem::_AcknowledgeQuit_Exiting::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRSystem::_AcknowledgeQuit_Exiting::*)(::Il2CppObject*, System::IntPtr)>(&Valve::VR::IVRSystem::_AcknowledgeQuit_Exiting::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_AcknowledgeQuit_Exiting*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_AcknowledgeQuit_Exiting*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: IVRSystem::_AcknowledgeQuit_Exiting::Invoke
+// Writing MetadataGetter for method: Valve::VR::IVRSystem::_AcknowledgeQuit_Exiting::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSystem::_AcknowledgeQuit_Exiting::*)()>(&IVRSystem::_AcknowledgeQuit_Exiting::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRSystem::_AcknowledgeQuit_Exiting::*)()>(&Valve::VR::IVRSystem::_AcknowledgeQuit_Exiting::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_AcknowledgeQuit_Exiting*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_AcknowledgeQuit_Exiting*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IVRSystem::_AcknowledgeQuit_Exiting::BeginInvoke
+// Writing MetadataGetter for method: Valve::VR::IVRSystem::_AcknowledgeQuit_Exiting::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRSystem::_AcknowledgeQuit_Exiting::*)(System::AsyncCallback*, ::Il2CppObject*)>(&IVRSystem::_AcknowledgeQuit_Exiting::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRSystem::_AcknowledgeQuit_Exiting::*)(System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRSystem::_AcknowledgeQuit_Exiting::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_AcknowledgeQuit_Exiting*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_AcknowledgeQuit_Exiting*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IVRSystem::_AcknowledgeQuit_Exiting::EndInvoke
+// Writing MetadataGetter for method: Valve::VR::IVRSystem::_AcknowledgeQuit_Exiting::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSystem::_AcknowledgeQuit_Exiting::*)(System::IAsyncResult*)>(&IVRSystem::_AcknowledgeQuit_Exiting::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRSystem::_AcknowledgeQuit_Exiting::*)(System::IAsyncResult*)>(&Valve::VR::IVRSystem::_AcknowledgeQuit_Exiting::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_AcknowledgeQuit_Exiting*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_AcknowledgeQuit_Exiting*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

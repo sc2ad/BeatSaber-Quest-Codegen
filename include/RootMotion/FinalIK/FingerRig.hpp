@@ -120,121 +120,121 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(FingerRig) == 0x41);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FingerRig*, "RootMotion.FinalIK", "FingerRig");
-// Writing MetadataGetter for method: FingerRig::get_initiated
+// Writing MetadataGetter for method: RootMotion::FinalIK::FingerRig::get_initiated
 // Il2CppName: get_initiated
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FingerRig::*)()>(&FingerRig::get_initiated)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::FingerRig::*)()>(&RootMotion::FinalIK::FingerRig::get_initiated)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FingerRig*), "get_initiated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FingerRig*), "get_initiated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FingerRig::set_initiated
+// Writing MetadataGetter for method: RootMotion::FinalIK::FingerRig::set_initiated
 // Il2CppName: set_initiated
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FingerRig::*)(bool)>(&FingerRig::set_initiated)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FingerRig::*)(bool)>(&RootMotion::FinalIK::FingerRig::set_initiated)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FingerRig*), "set_initiated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FingerRig*), "set_initiated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: FingerRig::IsValid
+// Writing MetadataGetter for method: RootMotion::FinalIK::FingerRig::IsValid
 // Il2CppName: IsValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FingerRig::*)(::Il2CppString*&)>(&FingerRig::IsValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::FingerRig::*)(::Il2CppString*&)>(&RootMotion::FinalIK::FingerRig::IsValid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FingerRig*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FingerRig*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
   }
 };
-// Writing MetadataGetter for method: FingerRig::AutoDetect
+// Writing MetadataGetter for method: RootMotion::FinalIK::FingerRig::AutoDetect
 // Il2CppName: AutoDetect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FingerRig::*)()>(&FingerRig::AutoDetect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FingerRig::*)()>(&RootMotion::FinalIK::FingerRig::AutoDetect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FingerRig*), "AutoDetect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FingerRig*), "AutoDetect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FingerRig::AddFinger
+// Writing MetadataGetter for method: RootMotion::FinalIK::FingerRig::AddFinger
 // Il2CppName: AddFinger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FingerRig::*)(UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*)>(&FingerRig::AddFinger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FingerRig::*)(UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*)>(&RootMotion::FinalIK::FingerRig::AddFinger)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FingerRig*), "AddFinger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FingerRig*), "AddFinger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
   }
 };
-// Writing MetadataGetter for method: FingerRig::RemoveFinger
+// Writing MetadataGetter for method: RootMotion::FinalIK::FingerRig::RemoveFinger
 // Il2CppName: RemoveFinger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FingerRig::*)(int)>(&FingerRig::RemoveFinger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FingerRig::*)(int)>(&RootMotion::FinalIK::FingerRig::RemoveFinger)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FingerRig*), "RemoveFinger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FingerRig*), "RemoveFinger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: FingerRig::AddChildrenRecursive
+// Writing MetadataGetter for method: RootMotion::FinalIK::FingerRig::AddChildrenRecursive
 // Il2CppName: AddChildrenRecursive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FingerRig::*)(UnityEngine::Transform*, ::Array<UnityEngine::Transform*>*&)>(&FingerRig::AddChildrenRecursive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FingerRig::*)(UnityEngine::Transform*, ::Array<UnityEngine::Transform*>*&)>(&RootMotion::FinalIK::FingerRig::AddChildrenRecursive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FingerRig*), "AddChildrenRecursive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*&>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FingerRig*), "AddChildrenRecursive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*&>()});
   }
 };
-// Writing MetadataGetter for method: FingerRig::UpdateFingerSolvers
+// Writing MetadataGetter for method: RootMotion::FinalIK::FingerRig::UpdateFingerSolvers
 // Il2CppName: UpdateFingerSolvers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FingerRig::*)()>(&FingerRig::UpdateFingerSolvers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FingerRig::*)()>(&RootMotion::FinalIK::FingerRig::UpdateFingerSolvers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FingerRig*), "UpdateFingerSolvers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FingerRig*), "UpdateFingerSolvers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FingerRig::FixFingerTransforms
+// Writing MetadataGetter for method: RootMotion::FinalIK::FingerRig::FixFingerTransforms
 // Il2CppName: FixFingerTransforms
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FingerRig::*)()>(&FingerRig::FixFingerTransforms)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FingerRig::*)()>(&RootMotion::FinalIK::FingerRig::FixFingerTransforms)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FingerRig*), "FixFingerTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FingerRig*), "FixFingerTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FingerRig::StoreDefaultLocalState
+// Writing MetadataGetter for method: RootMotion::FinalIK::FingerRig::StoreDefaultLocalState
 // Il2CppName: StoreDefaultLocalState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FingerRig::*)()>(&FingerRig::StoreDefaultLocalState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FingerRig::*)()>(&RootMotion::FinalIK::FingerRig::StoreDefaultLocalState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FingerRig*), "StoreDefaultLocalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FingerRig*), "StoreDefaultLocalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FingerRig::InitiateSolver
+// Writing MetadataGetter for method: RootMotion::FinalIK::FingerRig::InitiateSolver
 // Il2CppName: InitiateSolver
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FingerRig::*)()>(&FingerRig::InitiateSolver)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FingerRig::*)()>(&RootMotion::FinalIK::FingerRig::InitiateSolver)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FingerRig*), "InitiateSolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FingerRig*), "InitiateSolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FingerRig::UpdateSolver
+// Writing MetadataGetter for method: RootMotion::FinalIK::FingerRig::UpdateSolver
 // Il2CppName: UpdateSolver
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FingerRig::*)()>(&FingerRig::UpdateSolver)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FingerRig::*)()>(&RootMotion::FinalIK::FingerRig::UpdateSolver)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FingerRig*), "UpdateSolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FingerRig*), "UpdateSolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FingerRig::FixTransforms
+// Writing MetadataGetter for method: RootMotion::FinalIK::FingerRig::FixTransforms
 // Il2CppName: FixTransforms
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FingerRig::*)()>(&FingerRig::FixTransforms)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FingerRig::*)()>(&RootMotion::FinalIK::FingerRig::FixTransforms)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FingerRig*), "FixTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FingerRig*), "FixTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FingerRig::New_ctor
+// Writing MetadataGetter for method: RootMotion::FinalIK::FingerRig::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FingerRig::*)()>(&FingerRig::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FingerRig::*)()>(&RootMotion::FinalIK::FingerRig::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FingerRig*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FingerRig*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FingerRig::*)()>(&FingerRig::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FingerRig::*)()>(&RootMotion::FinalIK::FingerRig::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FingerRig*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FingerRig*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

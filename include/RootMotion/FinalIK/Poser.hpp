@@ -112,81 +112,81 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(Poser) == 0x4D);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Poser*, "RootMotion.FinalIK", "Poser");
-// Writing MetadataGetter for method: Poser::AutoMapping
+// Writing MetadataGetter for method: RootMotion::FinalIK::Poser::AutoMapping
 // Il2CppName: AutoMapping
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Poser::*)()>(&Poser::AutoMapping)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Poser::*)()>(&RootMotion::FinalIK::Poser::AutoMapping)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Poser*), "AutoMapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Poser*), "AutoMapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Poser::UpdateManual
+// Writing MetadataGetter for method: RootMotion::FinalIK::Poser::UpdateManual
 // Il2CppName: UpdateManual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Poser::*)()>(&Poser::UpdateManual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Poser::*)()>(&RootMotion::FinalIK::Poser::UpdateManual)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Poser*), "UpdateManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Poser*), "UpdateManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Poser::InitiatePoser
+// Writing MetadataGetter for method: RootMotion::FinalIK::Poser::InitiatePoser
 // Il2CppName: InitiatePoser
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Poser::*)()>(&Poser::InitiatePoser)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Poser::*)()>(&RootMotion::FinalIK::Poser::InitiatePoser)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Poser*), "InitiatePoser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Poser*), "InitiatePoser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Poser::UpdatePoser
+// Writing MetadataGetter for method: RootMotion::FinalIK::Poser::UpdatePoser
 // Il2CppName: UpdatePoser
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Poser::*)()>(&Poser::UpdatePoser)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Poser::*)()>(&RootMotion::FinalIK::Poser::UpdatePoser)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Poser*), "UpdatePoser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Poser*), "UpdatePoser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Poser::FixPoserTransforms
+// Writing MetadataGetter for method: RootMotion::FinalIK::Poser::FixPoserTransforms
 // Il2CppName: FixPoserTransforms
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Poser::*)()>(&Poser::FixPoserTransforms)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Poser::*)()>(&RootMotion::FinalIK::Poser::FixPoserTransforms)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Poser*), "FixPoserTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Poser*), "FixPoserTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Poser::UpdateSolver
+// Writing MetadataGetter for method: RootMotion::FinalIK::Poser::UpdateSolver
 // Il2CppName: UpdateSolver
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Poser::*)()>(&Poser::UpdateSolver)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Poser::*)()>(&RootMotion::FinalIK::Poser::UpdateSolver)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Poser*), "UpdateSolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Poser*), "UpdateSolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Poser::InitiateSolver
+// Writing MetadataGetter for method: RootMotion::FinalIK::Poser::InitiateSolver
 // Il2CppName: InitiateSolver
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Poser::*)()>(&Poser::InitiateSolver)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Poser::*)()>(&RootMotion::FinalIK::Poser::InitiateSolver)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Poser*), "InitiateSolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Poser*), "InitiateSolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Poser::FixTransforms
+// Writing MetadataGetter for method: RootMotion::FinalIK::Poser::FixTransforms
 // Il2CppName: FixTransforms
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Poser::*)()>(&Poser::FixTransforms)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Poser::*)()>(&RootMotion::FinalIK::Poser::FixTransforms)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Poser*), "FixTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Poser*), "FixTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Poser::New_ctor
+// Writing MetadataGetter for method: RootMotion::FinalIK::Poser::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Poser::*)()>(&Poser::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Poser::*)()>(&RootMotion::FinalIK::Poser::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Poser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Poser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Poser::*)()>(&Poser::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Poser::*)()>(&RootMotion::FinalIK::Poser::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Poser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Poser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

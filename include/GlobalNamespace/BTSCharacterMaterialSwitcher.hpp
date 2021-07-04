@@ -59,25 +59,25 @@ namespace GlobalNamespace {
   static_assert(sizeof(BTSCharacterMaterialSwitcher) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterMaterialSwitcher*, "", "BTSCharacterMaterialSwitcher");
-// Writing MetadataGetter for method: BTSCharacterMaterialSwitcher::SwapMaterials
+// Writing MetadataGetter for method: GlobalNamespace::BTSCharacterMaterialSwitcher::SwapMaterials
 // Il2CppName: SwapMaterials
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterMaterialSwitcher::*)(bool)>(&BTSCharacterMaterialSwitcher::SwapMaterials)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterMaterialSwitcher::*)(bool)>(&GlobalNamespace::BTSCharacterMaterialSwitcher::SwapMaterials)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BTSCharacterMaterialSwitcher*), "SwapMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterMaterialSwitcher*), "SwapMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: BTSCharacterMaterialSwitcher::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BTSCharacterMaterialSwitcher::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterMaterialSwitcher::*)()>(&BTSCharacterMaterialSwitcher::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterMaterialSwitcher::*)()>(&GlobalNamespace::BTSCharacterMaterialSwitcher::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BTSCharacterMaterialSwitcher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterMaterialSwitcher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterMaterialSwitcher::*)()>(&BTSCharacterMaterialSwitcher::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterMaterialSwitcher::*)()>(&GlobalNamespace::BTSCharacterMaterialSwitcher::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BTSCharacterMaterialSwitcher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterMaterialSwitcher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

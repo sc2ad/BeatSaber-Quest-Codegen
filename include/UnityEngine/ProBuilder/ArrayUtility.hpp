@@ -268,72 +268,72 @@ namespace UnityEngine::ProBuilder {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ArrayUtility*, "UnityEngine.ProBuilder", "ArrayUtility");
-// Writing MetadataGetter for method: ArrayUtility::ValuesWithIndexes
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ArrayUtility::ValuesWithIndexes
 // Il2CppName: ValuesWithIndexes
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ArrayUtility::ValuesWithIndexes
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ArrayUtility::ValuesWithIndexes
 // Il2CppName: ValuesWithIndexes
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ArrayUtility::AllIndexesOf
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ArrayUtility::AllIndexesOf
 // Il2CppName: AllIndexesOf
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ArrayUtility::Add
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ArrayUtility::Add
 // Il2CppName: Add
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ArrayUtility::AddRange
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ArrayUtility::AddRange
 // Il2CppName: AddRange
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ArrayUtility::Remove
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ArrayUtility::Remove
 // Il2CppName: Remove
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ArrayUtility::Remove
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ArrayUtility::Remove
 // Il2CppName: Remove
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ArrayUtility::RemoveAt
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ArrayUtility::RemoveAt
 // Il2CppName: RemoveAt
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ArrayUtility::RemoveAt
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ArrayUtility::RemoveAt
 // Il2CppName: RemoveAt
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ArrayUtility::SortedRemoveAt
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ArrayUtility::SortedRemoveAt
 // Il2CppName: SortedRemoveAt
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ArrayUtility::NearestIndexPriorToValue
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ArrayUtility::NearestIndexPriorToValue
 // Il2CppName: NearestIndexPriorToValue
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ArrayUtility::Fill
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ArrayUtility::Fill
 // Il2CppName: Fill
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ArrayUtility::Fill
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ArrayUtility::Fill
 // Il2CppName: Fill
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ArrayUtility::ContainsMatch
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ArrayUtility::ContainsMatch
 // Il2CppName: ContainsMatch
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ArrayUtility::ContainsMatch
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ArrayUtility::ContainsMatch
 // Il2CppName: ContainsMatch
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ArrayUtility::Concat
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ArrayUtility::Concat
 // Il2CppName: Concat
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ArrayUtility::IndexOf
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ArrayUtility::IndexOf
 // Il2CppName: IndexOf
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ArrayUtility::Fill
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ArrayUtility::Fill
 // Il2CppName: Fill
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ArrayUtility::AddOrAppend
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ArrayUtility::AddOrAppend
 // Il2CppName: AddOrAppend
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ArrayUtility::AddOrAppendRange
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ArrayUtility::AddOrAppendRange
 // Il2CppName: AddOrAppendRange
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ArrayUtility::DistinctBy
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ArrayUtility::DistinctBy
 // Il2CppName: DistinctBy
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ArrayUtility::ToString
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ArrayUtility::ToString
 // Il2CppName: ToString
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ArrayUtility::ToString
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ArrayUtility::ToString
 // Il2CppName: ToString
 // Cannot write MetadataGetter for generic methods!

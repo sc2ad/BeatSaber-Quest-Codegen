@@ -66,59 +66,59 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioSettings::Mobile*, "UnityEngine", "AudioSettings/Mobile");
-// Writing MetadataGetter for method: AudioSettings::Mobile::get_muteState
+// Writing MetadataGetter for method: UnityEngine::AudioSettings::Mobile::get_muteState
 // Il2CppName: get_muteState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&AudioSettings::Mobile::get_muteState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::AudioSettings::Mobile::get_muteState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings::Mobile*), "get_muteState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioSettings::Mobile*), "get_muteState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AudioSettings::Mobile::set_muteState
+// Writing MetadataGetter for method: UnityEngine::AudioSettings::Mobile::set_muteState
 // Il2CppName: set_muteState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&AudioSettings::Mobile::set_muteState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&UnityEngine::AudioSettings::Mobile::set_muteState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings::Mobile*), "set_muteState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioSettings::Mobile*), "set_muteState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AudioSettings::Mobile::get_stopAudioOutputOnMute
+// Writing MetadataGetter for method: UnityEngine::AudioSettings::Mobile::get_stopAudioOutputOnMute
 // Il2CppName: get_stopAudioOutputOnMute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&AudioSettings::Mobile::get_stopAudioOutputOnMute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::AudioSettings::Mobile::get_stopAudioOutputOnMute)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings::Mobile*), "get_stopAudioOutputOnMute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioSettings::Mobile*), "get_stopAudioOutputOnMute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AudioSettings::Mobile::InvokeOnMuteStateChanged
+// Writing MetadataGetter for method: UnityEngine::AudioSettings::Mobile::InvokeOnMuteStateChanged
 // Il2CppName: InvokeOnMuteStateChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&AudioSettings::Mobile::InvokeOnMuteStateChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&UnityEngine::AudioSettings::Mobile::InvokeOnMuteStateChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings::Mobile*), "InvokeOnMuteStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioSettings::Mobile*), "InvokeOnMuteStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AudioSettings::Mobile::StartAudioOutput
+// Writing MetadataGetter for method: UnityEngine::AudioSettings::Mobile::StartAudioOutput
 // Il2CppName: StartAudioOutput
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AudioSettings::Mobile::StartAudioOutput)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::AudioSettings::Mobile::StartAudioOutput)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings::Mobile*), "StartAudioOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioSettings::Mobile*), "StartAudioOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AudioSettings::Mobile::StopAudioOutput
+// Writing MetadataGetter for method: UnityEngine::AudioSettings::Mobile::StopAudioOutput
 // Il2CppName: StopAudioOutput
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AudioSettings::Mobile::StopAudioOutput)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::AudioSettings::Mobile::StopAudioOutput)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings::Mobile*), "StopAudioOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioSettings::Mobile*), "StopAudioOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AudioSettings::Mobile::_cctor
+// Writing MetadataGetter for method: UnityEngine::AudioSettings::Mobile::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AudioSettings::Mobile::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::AudioSettings::Mobile::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings::Mobile*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioSettings::Mobile*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

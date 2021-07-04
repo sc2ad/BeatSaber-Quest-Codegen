@@ -61,25 +61,25 @@ namespace NUnit::Compatibility {
   static_assert(sizeof(AdditionalTypeExtensions::$$c__DisplayClass2_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0*, "NUnit.Compatibility", "AdditionalTypeExtensions/<>c__DisplayClass2_0");
-// Writing MetadataGetter for method: AdditionalTypeExtensions::$$c__DisplayClass2_0::$IsCastableFrom$b__0
+// Writing MetadataGetter for method: NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0::$IsCastableFrom$b__0
 // Il2CppName: <IsCastableFrom>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AdditionalTypeExtensions::$$c__DisplayClass2_0::*)(System::Reflection::MethodInfo*)>(&AdditionalTypeExtensions::$$c__DisplayClass2_0::$IsCastableFrom$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0::*)(System::Reflection::MethodInfo*)>(&NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0::$IsCastableFrom$b__0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AdditionalTypeExtensions::$$c__DisplayClass2_0*), "<IsCastableFrom>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0*), "<IsCastableFrom>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>()});
   }
 };
-// Writing MetadataGetter for method: AdditionalTypeExtensions::$$c__DisplayClass2_0::New_ctor
+// Writing MetadataGetter for method: NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AdditionalTypeExtensions::$$c__DisplayClass2_0::*)()>(&AdditionalTypeExtensions::$$c__DisplayClass2_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0::*)()>(&NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AdditionalTypeExtensions::$$c__DisplayClass2_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AdditionalTypeExtensions::$$c__DisplayClass2_0::*)()>(&AdditionalTypeExtensions::$$c__DisplayClass2_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0::*)()>(&NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AdditionalTypeExtensions::$$c__DisplayClass2_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

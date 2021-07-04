@@ -57,41 +57,41 @@ namespace Valve::VR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose*, "Valve.VR", "IVRSystem/_GetRawZeroPoseToStandingAbsoluteTrackingPose");
-// Writing MetadataGetter for method: IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose::New_ctor
+// Writing MetadataGetter for method: Valve::VR::IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose::*)(::Il2CppObject*, System::IntPtr)>(&IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose::*)(::Il2CppObject*, System::IntPtr)>(&Valve::VR::IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose::*)(::Il2CppObject*, System::IntPtr)>(&IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose::*)(::Il2CppObject*, System::IntPtr)>(&Valve::VR::IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose::Invoke
+// Writing MetadataGetter for method: Valve::VR::IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::HmdMatrix34_t (IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose::*)()>(&IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::HmdMatrix34_t (Valve::VR::IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose::*)()>(&Valve::VR::IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose::BeginInvoke
+// Writing MetadataGetter for method: Valve::VR::IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose::*)(System::AsyncCallback*, ::Il2CppObject*)>(&IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose::*)(System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose::EndInvoke
+// Writing MetadataGetter for method: Valve::VR::IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::HmdMatrix34_t (IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose::*)(System::IAsyncResult*)>(&IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::HmdMatrix34_t (Valve::VR::IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose::*)(System::IAsyncResult*)>(&Valve::VR::IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

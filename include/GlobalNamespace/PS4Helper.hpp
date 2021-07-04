@@ -81,57 +81,57 @@ namespace GlobalNamespace {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4Helper*, "", "PS4Helper");
-// Writing MetadataGetter for method: PS4Helper::add_didGoToBackgroundExecutionEvent
+// Writing MetadataGetter for method: GlobalNamespace::PS4Helper::add_didGoToBackgroundExecutionEvent
 // Il2CppName: add_didGoToBackgroundExecutionEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PS4Helper::*)(System::Action*)>(&PS4Helper::add_didGoToBackgroundExecutionEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PS4Helper::*)(System::Action*)>(&GlobalNamespace::PS4Helper::add_didGoToBackgroundExecutionEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PS4Helper*), "add_didGoToBackgroundExecutionEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4Helper*), "add_didGoToBackgroundExecutionEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: PS4Helper::remove_didGoToBackgroundExecutionEvent
+// Writing MetadataGetter for method: GlobalNamespace::PS4Helper::remove_didGoToBackgroundExecutionEvent
 // Il2CppName: remove_didGoToBackgroundExecutionEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PS4Helper::*)(System::Action*)>(&PS4Helper::remove_didGoToBackgroundExecutionEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PS4Helper::*)(System::Action*)>(&GlobalNamespace::PS4Helper::remove_didGoToBackgroundExecutionEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PS4Helper*), "remove_didGoToBackgroundExecutionEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4Helper*), "remove_didGoToBackgroundExecutionEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: PS4Helper::add_didGoToForegroundExecutionEvent
+// Writing MetadataGetter for method: GlobalNamespace::PS4Helper::add_didGoToForegroundExecutionEvent
 // Il2CppName: add_didGoToForegroundExecutionEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PS4Helper::*)(System::Action*)>(&PS4Helper::add_didGoToForegroundExecutionEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PS4Helper::*)(System::Action*)>(&GlobalNamespace::PS4Helper::add_didGoToForegroundExecutionEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PS4Helper*), "add_didGoToForegroundExecutionEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4Helper*), "add_didGoToForegroundExecutionEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: PS4Helper::remove_didGoToForegroundExecutionEvent
+// Writing MetadataGetter for method: GlobalNamespace::PS4Helper::remove_didGoToForegroundExecutionEvent
 // Il2CppName: remove_didGoToForegroundExecutionEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PS4Helper::*)(System::Action*)>(&PS4Helper::remove_didGoToForegroundExecutionEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PS4Helper::*)(System::Action*)>(&GlobalNamespace::PS4Helper::remove_didGoToForegroundExecutionEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PS4Helper*), "remove_didGoToForegroundExecutionEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4Helper*), "remove_didGoToForegroundExecutionEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: PS4Helper::Update
+// Writing MetadataGetter for method: GlobalNamespace::PS4Helper::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PS4Helper::*)()>(&PS4Helper::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PS4Helper::*)()>(&GlobalNamespace::PS4Helper::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PS4Helper*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4Helper*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PS4Helper::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::PS4Helper::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PS4Helper::*)()>(&PS4Helper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PS4Helper::*)()>(&GlobalNamespace::PS4Helper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PS4Helper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4Helper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PS4Helper::*)()>(&PS4Helper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PS4Helper::*)()>(&GlobalNamespace::PS4Helper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PS4Helper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4Helper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

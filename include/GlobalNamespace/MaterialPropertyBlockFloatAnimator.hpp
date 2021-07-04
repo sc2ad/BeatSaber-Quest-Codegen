@@ -55,25 +55,25 @@ namespace GlobalNamespace {
   static_assert(sizeof(MaterialPropertyBlockFloatAnimator) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockFloatAnimator*, "", "MaterialPropertyBlockFloatAnimator");
-// Writing MetadataGetter for method: MaterialPropertyBlockFloatAnimator::SetProperty
+// Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyBlockFloatAnimator::SetProperty
 // Il2CppName: SetProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyBlockFloatAnimator::*)()>(&MaterialPropertyBlockFloatAnimator::SetProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MaterialPropertyBlockFloatAnimator::*)()>(&GlobalNamespace::MaterialPropertyBlockFloatAnimator::SetProperty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockFloatAnimator*), "SetProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MaterialPropertyBlockFloatAnimator*), "SetProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MaterialPropertyBlockFloatAnimator::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyBlockFloatAnimator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyBlockFloatAnimator::*)()>(&MaterialPropertyBlockFloatAnimator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MaterialPropertyBlockFloatAnimator::*)()>(&GlobalNamespace::MaterialPropertyBlockFloatAnimator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockFloatAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MaterialPropertyBlockFloatAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialPropertyBlockFloatAnimator::*)()>(&MaterialPropertyBlockFloatAnimator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MaterialPropertyBlockFloatAnimator::*)()>(&GlobalNamespace::MaterialPropertyBlockFloatAnimator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialPropertyBlockFloatAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MaterialPropertyBlockFloatAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

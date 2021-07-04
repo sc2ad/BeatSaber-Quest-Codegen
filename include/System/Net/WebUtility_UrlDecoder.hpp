@@ -90,49 +90,49 @@ namespace System::Net {
   static_assert(sizeof(WebUtility::UrlDecoder) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebUtility::UrlDecoder*, "System.Net", "WebUtility/UrlDecoder");
-// Writing MetadataGetter for method: WebUtility::UrlDecoder::FlushBytes
+// Writing MetadataGetter for method: System::Net::WebUtility::UrlDecoder::FlushBytes
 // Il2CppName: FlushBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebUtility::UrlDecoder::*)()>(&WebUtility::UrlDecoder::FlushBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebUtility::UrlDecoder::*)()>(&System::Net::WebUtility::UrlDecoder::FlushBytes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebUtility::UrlDecoder*), "FlushBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebUtility::UrlDecoder*), "FlushBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WebUtility::UrlDecoder::New_ctor
+// Writing MetadataGetter for method: System::Net::WebUtility::UrlDecoder::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebUtility::UrlDecoder::*)(int, System::Text::Encoding*)>(&WebUtility::UrlDecoder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebUtility::UrlDecoder::*)(int, System::Text::Encoding*)>(&System::Net::WebUtility::UrlDecoder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebUtility::UrlDecoder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebUtility::UrlDecoder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebUtility::UrlDecoder::*)(int, System::Text::Encoding*)>(&WebUtility::UrlDecoder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebUtility::UrlDecoder::*)(int, System::Text::Encoding*)>(&System::Net::WebUtility::UrlDecoder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebUtility::UrlDecoder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebUtility::UrlDecoder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
   }
 };
-// Writing MetadataGetter for method: WebUtility::UrlDecoder::AddChar
+// Writing MetadataGetter for method: System::Net::WebUtility::UrlDecoder::AddChar
 // Il2CppName: AddChar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebUtility::UrlDecoder::*)(::Il2CppChar)>(&WebUtility::UrlDecoder::AddChar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebUtility::UrlDecoder::*)(::Il2CppChar)>(&System::Net::WebUtility::UrlDecoder::AddChar)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebUtility::UrlDecoder*), "AddChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebUtility::UrlDecoder*), "AddChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
   }
 };
-// Writing MetadataGetter for method: WebUtility::UrlDecoder::AddByte
+// Writing MetadataGetter for method: System::Net::WebUtility::UrlDecoder::AddByte
 // Il2CppName: AddByte
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebUtility::UrlDecoder::*)(uint8_t)>(&WebUtility::UrlDecoder::AddByte)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebUtility::UrlDecoder::*)(uint8_t)>(&System::Net::WebUtility::UrlDecoder::AddByte)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebUtility::UrlDecoder*), "AddByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebUtility::UrlDecoder*), "AddByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
   }
 };
-// Writing MetadataGetter for method: WebUtility::UrlDecoder::GetString
+// Writing MetadataGetter for method: System::Net::WebUtility::UrlDecoder::GetString
 // Il2CppName: GetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (WebUtility::UrlDecoder::*)()>(&WebUtility::UrlDecoder::GetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::WebUtility::UrlDecoder::*)()>(&System::Net::WebUtility::UrlDecoder::GetString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebUtility::UrlDecoder*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebUtility::UrlDecoder*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

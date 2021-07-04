@@ -38,11 +38,11 @@ namespace UnityEngine::TestTools {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestMustExpectAllLogsAttribute*, "UnityEngine.TestTools", "TestMustExpectAllLogsAttribute");
-// Writing MetadataGetter for method: TestMustExpectAllLogsAttribute::get_MustExpect
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestMustExpectAllLogsAttribute::get_MustExpect
 // Il2CppName: get_MustExpect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TestMustExpectAllLogsAttribute::*)()>(&TestMustExpectAllLogsAttribute::get_MustExpect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::TestMustExpectAllLogsAttribute::*)()>(&UnityEngine::TestTools::TestMustExpectAllLogsAttribute::get_MustExpect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestMustExpectAllLogsAttribute*), "get_MustExpect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestMustExpectAllLogsAttribute*), "get_MustExpect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

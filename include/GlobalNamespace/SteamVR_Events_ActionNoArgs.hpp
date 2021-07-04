@@ -59,25 +59,25 @@ namespace GlobalNamespace {
   static_assert(sizeof(SteamVR_Events::ActionNoArgs) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Events::ActionNoArgs*, "", "SteamVR_Events/ActionNoArgs");
-// Writing MetadataGetter for method: SteamVR_Events::ActionNoArgs::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::ActionNoArgs::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Events::ActionNoArgs::*)(GlobalNamespace::SteamVR_Events::Event*, UnityEngine::Events::UnityAction*)>(&SteamVR_Events::ActionNoArgs::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Events::ActionNoArgs::*)(GlobalNamespace::SteamVR_Events::Event*, UnityEngine::Events::UnityAction*)>(&GlobalNamespace::SteamVR_Events::ActionNoArgs::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_Events::ActionNoArgs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SteamVR_Events::Event*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events::ActionNoArgs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SteamVR_Events::Event*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Events::ActionNoArgs::*)(GlobalNamespace::SteamVR_Events::Event*, UnityEngine::Events::UnityAction*)>(&SteamVR_Events::ActionNoArgs::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Events::ActionNoArgs::*)(GlobalNamespace::SteamVR_Events::Event*, UnityEngine::Events::UnityAction*)>(&GlobalNamespace::SteamVR_Events::ActionNoArgs::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_Events::ActionNoArgs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SteamVR_Events::Event*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events::ActionNoArgs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SteamVR_Events::Event*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction*>()});
   }
 };
-// Writing MetadataGetter for method: SteamVR_Events::ActionNoArgs::Enable
+// Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::ActionNoArgs::Enable
 // Il2CppName: Enable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamVR_Events::ActionNoArgs::*)(bool)>(&SteamVR_Events::ActionNoArgs::Enable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Events::ActionNoArgs::*)(bool)>(&GlobalNamespace::SteamVR_Events::ActionNoArgs::Enable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamVR_Events::ActionNoArgs*), "Enable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events::ActionNoArgs*), "Enable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };

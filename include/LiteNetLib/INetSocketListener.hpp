@@ -38,11 +38,11 @@ namespace LiteNetLib {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::INetSocketListener*, "LiteNetLib", "INetSocketListener");
-// Writing MetadataGetter for method: INetSocketListener::OnMessageReceived
+// Writing MetadataGetter for method: LiteNetLib::INetSocketListener::OnMessageReceived
 // Il2CppName: OnMessageReceived
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (INetSocketListener::*)(::Array<uint8_t>*, int, System::Net::Sockets::SocketError, System::Net::IPEndPoint*)>(&INetSocketListener::OnMessageReceived)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::INetSocketListener::*)(::Array<uint8_t>*, int, System::Net::Sockets::SocketError, System::Net::IPEndPoint*)>(&LiteNetLib::INetSocketListener::OnMessageReceived)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INetSocketListener*), "OnMessageReceived", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::INetSocketListener*), "OnMessageReceived", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
   }
 };

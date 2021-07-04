@@ -54,27 +54,27 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::IesParameters*, "Org.BouncyCastle.Crypto.Parameters", "IesParameters");
-// Writing MetadataGetter for method: IesParameters::GetDerivationV
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::IesParameters::GetDerivationV
 // Il2CppName: GetDerivationV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (IesParameters::*)()>(&IesParameters::GetDerivationV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Parameters::IesParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::IesParameters::GetDerivationV)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IesParameters*), "GetDerivationV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::IesParameters*), "GetDerivationV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IesParameters::GetEncodingV
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::IesParameters::GetEncodingV
 // Il2CppName: GetEncodingV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (IesParameters::*)()>(&IesParameters::GetEncodingV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Parameters::IesParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::IesParameters::GetEncodingV)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IesParameters*), "GetEncodingV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::IesParameters*), "GetEncodingV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IesParameters::get_MacKeySize
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::IesParameters::get_MacKeySize
 // Il2CppName: get_MacKeySize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IesParameters::*)()>(&IesParameters::get_MacKeySize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Parameters::IesParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::IesParameters::get_MacKeySize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IesParameters*), "get_MacKeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::IesParameters*), "get_MacKeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -93,115 +93,115 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHaptics::Config*, "", "OVRHaptics/Config");
-// Writing MetadataGetter for method: OVRHaptics::Config::get_SampleRateHz
+// Writing MetadataGetter for method: GlobalNamespace::OVRHaptics::Config::get_SampleRateHz
 // Il2CppName: get_SampleRateHz
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&OVRHaptics::Config::get_SampleRateHz)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&GlobalNamespace::OVRHaptics::Config::get_SampleRateHz)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRHaptics::Config*), "get_SampleRateHz", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHaptics::Config*), "get_SampleRateHz", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRHaptics::Config::set_SampleRateHz
+// Writing MetadataGetter for method: GlobalNamespace::OVRHaptics::Config::set_SampleRateHz
 // Il2CppName: set_SampleRateHz
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&OVRHaptics::Config::set_SampleRateHz)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&GlobalNamespace::OVRHaptics::Config::set_SampleRateHz)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRHaptics::Config*), "set_SampleRateHz", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHaptics::Config*), "set_SampleRateHz", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: OVRHaptics::Config::get_SampleSizeInBytes
+// Writing MetadataGetter for method: GlobalNamespace::OVRHaptics::Config::get_SampleSizeInBytes
 // Il2CppName: get_SampleSizeInBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&OVRHaptics::Config::get_SampleSizeInBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&GlobalNamespace::OVRHaptics::Config::get_SampleSizeInBytes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRHaptics::Config*), "get_SampleSizeInBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHaptics::Config*), "get_SampleSizeInBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRHaptics::Config::set_SampleSizeInBytes
+// Writing MetadataGetter for method: GlobalNamespace::OVRHaptics::Config::set_SampleSizeInBytes
 // Il2CppName: set_SampleSizeInBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&OVRHaptics::Config::set_SampleSizeInBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&GlobalNamespace::OVRHaptics::Config::set_SampleSizeInBytes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRHaptics::Config*), "set_SampleSizeInBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHaptics::Config*), "set_SampleSizeInBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: OVRHaptics::Config::get_MinimumSafeSamplesQueued
+// Writing MetadataGetter for method: GlobalNamespace::OVRHaptics::Config::get_MinimumSafeSamplesQueued
 // Il2CppName: get_MinimumSafeSamplesQueued
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&OVRHaptics::Config::get_MinimumSafeSamplesQueued)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&GlobalNamespace::OVRHaptics::Config::get_MinimumSafeSamplesQueued)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRHaptics::Config*), "get_MinimumSafeSamplesQueued", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHaptics::Config*), "get_MinimumSafeSamplesQueued", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRHaptics::Config::set_MinimumSafeSamplesQueued
+// Writing MetadataGetter for method: GlobalNamespace::OVRHaptics::Config::set_MinimumSafeSamplesQueued
 // Il2CppName: set_MinimumSafeSamplesQueued
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&OVRHaptics::Config::set_MinimumSafeSamplesQueued)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&GlobalNamespace::OVRHaptics::Config::set_MinimumSafeSamplesQueued)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRHaptics::Config*), "set_MinimumSafeSamplesQueued", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHaptics::Config*), "set_MinimumSafeSamplesQueued", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: OVRHaptics::Config::get_MinimumBufferSamplesCount
+// Writing MetadataGetter for method: GlobalNamespace::OVRHaptics::Config::get_MinimumBufferSamplesCount
 // Il2CppName: get_MinimumBufferSamplesCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&OVRHaptics::Config::get_MinimumBufferSamplesCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&GlobalNamespace::OVRHaptics::Config::get_MinimumBufferSamplesCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRHaptics::Config*), "get_MinimumBufferSamplesCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHaptics::Config*), "get_MinimumBufferSamplesCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRHaptics::Config::set_MinimumBufferSamplesCount
+// Writing MetadataGetter for method: GlobalNamespace::OVRHaptics::Config::set_MinimumBufferSamplesCount
 // Il2CppName: set_MinimumBufferSamplesCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&OVRHaptics::Config::set_MinimumBufferSamplesCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&GlobalNamespace::OVRHaptics::Config::set_MinimumBufferSamplesCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRHaptics::Config*), "set_MinimumBufferSamplesCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHaptics::Config*), "set_MinimumBufferSamplesCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: OVRHaptics::Config::get_OptimalBufferSamplesCount
+// Writing MetadataGetter for method: GlobalNamespace::OVRHaptics::Config::get_OptimalBufferSamplesCount
 // Il2CppName: get_OptimalBufferSamplesCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&OVRHaptics::Config::get_OptimalBufferSamplesCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&GlobalNamespace::OVRHaptics::Config::get_OptimalBufferSamplesCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRHaptics::Config*), "get_OptimalBufferSamplesCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHaptics::Config*), "get_OptimalBufferSamplesCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRHaptics::Config::set_OptimalBufferSamplesCount
+// Writing MetadataGetter for method: GlobalNamespace::OVRHaptics::Config::set_OptimalBufferSamplesCount
 // Il2CppName: set_OptimalBufferSamplesCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&OVRHaptics::Config::set_OptimalBufferSamplesCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&GlobalNamespace::OVRHaptics::Config::set_OptimalBufferSamplesCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRHaptics::Config*), "set_OptimalBufferSamplesCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHaptics::Config*), "set_OptimalBufferSamplesCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: OVRHaptics::Config::get_MaximumBufferSamplesCount
+// Writing MetadataGetter for method: GlobalNamespace::OVRHaptics::Config::get_MaximumBufferSamplesCount
 // Il2CppName: get_MaximumBufferSamplesCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&OVRHaptics::Config::get_MaximumBufferSamplesCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&GlobalNamespace::OVRHaptics::Config::get_MaximumBufferSamplesCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRHaptics::Config*), "get_MaximumBufferSamplesCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHaptics::Config*), "get_MaximumBufferSamplesCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRHaptics::Config::set_MaximumBufferSamplesCount
+// Writing MetadataGetter for method: GlobalNamespace::OVRHaptics::Config::set_MaximumBufferSamplesCount
 // Il2CppName: set_MaximumBufferSamplesCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&OVRHaptics::Config::set_MaximumBufferSamplesCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&GlobalNamespace::OVRHaptics::Config::set_MaximumBufferSamplesCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRHaptics::Config*), "set_MaximumBufferSamplesCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHaptics::Config*), "set_MaximumBufferSamplesCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: OVRHaptics::Config::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::OVRHaptics::Config::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRHaptics::Config::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRHaptics::Config::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRHaptics::Config*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHaptics::Config*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRHaptics::Config::Load
+// Writing MetadataGetter for method: GlobalNamespace::OVRHaptics::Config::Load
 // Il2CppName: Load
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRHaptics::Config::Load)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRHaptics::Config::Load)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRHaptics::Config*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHaptics::Config*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

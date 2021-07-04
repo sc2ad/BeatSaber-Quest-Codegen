@@ -67,33 +67,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomPrePassLightTypeSO) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassLightTypeSO*, "", "BloomPrePassLightTypeSO");
-// Writing MetadataGetter for method: BloomPrePassLightTypeSO::get_renderingPriority
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassLightTypeSO::get_renderingPriority
 // Il2CppName: get_renderingPriority
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BloomPrePassLightTypeSO::*)()>(&BloomPrePassLightTypeSO::get_renderingPriority)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::BloomPrePassLightTypeSO::*)()>(&GlobalNamespace::BloomPrePassLightTypeSO::get_renderingPriority)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassLightTypeSO*), "get_renderingPriority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassLightTypeSO*), "get_renderingPriority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomPrePassLightTypeSO::get_material
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassLightTypeSO::get_material
 // Il2CppName: get_material
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (BloomPrePassLightTypeSO::*)()>(&BloomPrePassLightTypeSO::get_material)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (GlobalNamespace::BloomPrePassLightTypeSO::*)()>(&GlobalNamespace::BloomPrePassLightTypeSO::get_material)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassLightTypeSO*), "get_material", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassLightTypeSO*), "get_material", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomPrePassLightTypeSO::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassLightTypeSO::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassLightTypeSO::*)()>(&BloomPrePassLightTypeSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePassLightTypeSO::*)()>(&GlobalNamespace::BloomPrePassLightTypeSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassLightTypeSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassLightTypeSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassLightTypeSO::*)()>(&BloomPrePassLightTypeSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePassLightTypeSO::*)()>(&GlobalNamespace::BloomPrePassLightTypeSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassLightTypeSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassLightTypeSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -65,25 +65,25 @@ namespace GlobalNamespace {
   static_assert(sizeof(SetTubeBloomPrePassLightColor) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetTubeBloomPrePassLightColor*, "", "SetTubeBloomPrePassLightColor");
-// Writing MetadataGetter for method: SetTubeBloomPrePassLightColor::Start
+// Writing MetadataGetter for method: GlobalNamespace::SetTubeBloomPrePassLightColor::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SetTubeBloomPrePassLightColor::*)()>(&SetTubeBloomPrePassLightColor::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SetTubeBloomPrePassLightColor::*)()>(&GlobalNamespace::SetTubeBloomPrePassLightColor::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SetTubeBloomPrePassLightColor*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SetTubeBloomPrePassLightColor*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SetTubeBloomPrePassLightColor::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::SetTubeBloomPrePassLightColor::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SetTubeBloomPrePassLightColor::*)()>(&SetTubeBloomPrePassLightColor::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SetTubeBloomPrePassLightColor::*)()>(&GlobalNamespace::SetTubeBloomPrePassLightColor::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SetTubeBloomPrePassLightColor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SetTubeBloomPrePassLightColor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SetTubeBloomPrePassLightColor::*)()>(&SetTubeBloomPrePassLightColor::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SetTubeBloomPrePassLightColor::*)()>(&GlobalNamespace::SetTubeBloomPrePassLightColor::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SetTubeBloomPrePassLightColor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SetTubeBloomPrePassLightColor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

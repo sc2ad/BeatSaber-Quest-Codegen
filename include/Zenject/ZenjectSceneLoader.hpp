@@ -135,185 +135,185 @@ namespace Zenject {
   static_assert(sizeof(ZenjectSceneLoader) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectSceneLoader*, "Zenject", "ZenjectSceneLoader");
-// Writing MetadataGetter for method: ZenjectSceneLoader::New_ctor
+// Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectSceneLoader::*)(Zenject::SceneContext*, Zenject::ProjectKernel*)>(&ZenjectSceneLoader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(Zenject::SceneContext*, Zenject::ProjectKernel*)>(&Zenject::ZenjectSceneLoader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSceneLoader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::SceneContext*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::ProjectKernel*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::SceneContext*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::ProjectKernel*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectSceneLoader::*)(Zenject::SceneContext*, Zenject::ProjectKernel*)>(&ZenjectSceneLoader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(Zenject::SceneContext*, Zenject::ProjectKernel*)>(&Zenject::ZenjectSceneLoader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSceneLoader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::SceneContext*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::ProjectKernel*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::SceneContext*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::ProjectKernel*>()});
   }
 };
-// Writing MetadataGetter for method: ZenjectSceneLoader::LoadScene
+// Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadScene
 // Il2CppName: LoadScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectSceneLoader::*)(::Il2CppString*)>(&ZenjectSceneLoader::LoadScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(::Il2CppString*)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: ZenjectSceneLoader::LoadScene
+// Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadScene
 // Il2CppName: LoadScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectSceneLoader::*)(::Il2CppString*, UnityEngine::SceneManagement::LoadSceneMode)>(&ZenjectSceneLoader::LoadScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(::Il2CppString*, UnityEngine::SceneManagement::LoadSceneMode)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>()});
   }
 };
-// Writing MetadataGetter for method: ZenjectSceneLoader::LoadScene
+// Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadScene
 // Il2CppName: LoadScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectSceneLoader::*)(::Il2CppString*, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*)>(&ZenjectSceneLoader::LoadScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(::Il2CppString*, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
   }
 };
-// Writing MetadataGetter for method: ZenjectSceneLoader::LoadScene
+// Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadScene
 // Il2CppName: LoadScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectSceneLoader::*)(::Il2CppString*, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship)>(&ZenjectSceneLoader::LoadScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(::Il2CppString*, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::LoadSceneRelationship>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::LoadSceneRelationship>()});
   }
 };
-// Writing MetadataGetter for method: ZenjectSceneLoader::LoadScene
+// Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadScene
 // Il2CppName: LoadScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectSceneLoader::*)(::Il2CppString*, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship, System::Action_1<Zenject::DiContainer*>*)>(&ZenjectSceneLoader::LoadScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(::Il2CppString*, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::LoadSceneRelationship>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::LoadSceneRelationship>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
   }
 };
-// Writing MetadataGetter for method: ZenjectSceneLoader::LoadSceneAsync
+// Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (ZenjectSceneLoader::*)(::Il2CppString*)>(&ZenjectSceneLoader::LoadSceneAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(::Il2CppString*)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: ZenjectSceneLoader::LoadSceneAsync
+// Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (ZenjectSceneLoader::*)(::Il2CppString*, UnityEngine::SceneManagement::LoadSceneMode)>(&ZenjectSceneLoader::LoadSceneAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(::Il2CppString*, UnityEngine::SceneManagement::LoadSceneMode)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>()});
   }
 };
-// Writing MetadataGetter for method: ZenjectSceneLoader::LoadSceneAsync
+// Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (ZenjectSceneLoader::*)(::Il2CppString*, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*)>(&ZenjectSceneLoader::LoadSceneAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(::Il2CppString*, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
   }
 };
-// Writing MetadataGetter for method: ZenjectSceneLoader::LoadSceneAsync
+// Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (ZenjectSceneLoader::*)(::Il2CppString*, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship)>(&ZenjectSceneLoader::LoadSceneAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(::Il2CppString*, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::LoadSceneRelationship>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::LoadSceneRelationship>()});
   }
 };
-// Writing MetadataGetter for method: ZenjectSceneLoader::LoadSceneAsync
+// Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (ZenjectSceneLoader::*)(::Il2CppString*, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship, System::Action_1<Zenject::DiContainer*>*)>(&ZenjectSceneLoader::LoadSceneAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(::Il2CppString*, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::LoadSceneRelationship>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::LoadSceneRelationship>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
   }
 };
-// Writing MetadataGetter for method: ZenjectSceneLoader::PrepareForLoadScene
+// Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::PrepareForLoadScene
 // Il2CppName: PrepareForLoadScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectSceneLoader::*)(UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, System::Action_1<Zenject::DiContainer*>*, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship)>(&ZenjectSceneLoader::PrepareForLoadScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, System::Action_1<Zenject::DiContainer*>*, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship)>(&Zenject::ZenjectSceneLoader::PrepareForLoadScene)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSceneLoader*), "PrepareForLoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::LoadSceneRelationship>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "PrepareForLoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::LoadSceneRelationship>()});
   }
 };
-// Writing MetadataGetter for method: ZenjectSceneLoader::LoadScene
+// Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadScene
 // Il2CppName: LoadScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectSceneLoader::*)(int)>(&ZenjectSceneLoader::LoadScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(int)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ZenjectSceneLoader::LoadScene
+// Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadScene
 // Il2CppName: LoadScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode)>(&ZenjectSceneLoader::LoadScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>()});
   }
 };
-// Writing MetadataGetter for method: ZenjectSceneLoader::LoadScene
+// Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadScene
 // Il2CppName: LoadScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*)>(&ZenjectSceneLoader::LoadScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
   }
 };
-// Writing MetadataGetter for method: ZenjectSceneLoader::LoadScene
+// Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadScene
 // Il2CppName: LoadScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship)>(&ZenjectSceneLoader::LoadScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::LoadSceneRelationship>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::LoadSceneRelationship>()});
   }
 };
-// Writing MetadataGetter for method: ZenjectSceneLoader::LoadScene
+// Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadScene
 // Il2CppName: LoadScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship, System::Action_1<Zenject::DiContainer*>*)>(&ZenjectSceneLoader::LoadScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::LoadSceneRelationship>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::LoadSceneRelationship>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
   }
 };
-// Writing MetadataGetter for method: ZenjectSceneLoader::LoadSceneAsync
+// Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (ZenjectSceneLoader::*)(int)>(&ZenjectSceneLoader::LoadSceneAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(int)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ZenjectSceneLoader::LoadSceneAsync
+// Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode)>(&ZenjectSceneLoader::LoadSceneAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>()});
   }
 };
-// Writing MetadataGetter for method: ZenjectSceneLoader::LoadSceneAsync
+// Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*)>(&ZenjectSceneLoader::LoadSceneAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
   }
 };
-// Writing MetadataGetter for method: ZenjectSceneLoader::LoadSceneAsync
+// Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship)>(&ZenjectSceneLoader::LoadSceneAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::LoadSceneRelationship>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::LoadSceneRelationship>()});
   }
 };
-// Writing MetadataGetter for method: ZenjectSceneLoader::LoadSceneAsync
+// Writing MetadataGetter for method: Zenject::ZenjectSceneLoader::LoadSceneAsync
 // Il2CppName: LoadSceneAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship, System::Action_1<Zenject::DiContainer*>*)>(&ZenjectSceneLoader::LoadSceneAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::LoadSceneRelationship>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::LoadSceneRelationship>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<Zenject::DiContainer*>*>()});
   }
 };

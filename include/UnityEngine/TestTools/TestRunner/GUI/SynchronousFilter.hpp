@@ -63,49 +63,49 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter*, "UnityEngine.TestTools.TestRunner.GUI", "SynchronousFilter");
-// Writing MetadataGetter for method: SynchronousFilter::ToXml
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::ToXml
 // Il2CppName: ToXml
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::TNode* (SynchronousFilter::*)(bool)>(&SynchronousFilter::ToXml)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::TNode* (UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::*)(bool)>(&UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::ToXml)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SynchronousFilter*), "ToXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter*), "ToXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: SynchronousFilter::AddToXml
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::AddToXml
 // Il2CppName: AddToXml
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::TNode* (SynchronousFilter::*)(NUnit::Framework::Interfaces::TNode*, bool)>(&SynchronousFilter::AddToXml)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::TNode* (UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::*)(NUnit::Framework::Interfaces::TNode*, bool)>(&UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::AddToXml)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SynchronousFilter*), "AddToXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::TNode*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter*), "AddToXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::TNode*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: SynchronousFilter::Pass
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::Pass
 // Il2CppName: Pass
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SynchronousFilter::*)(NUnit::Framework::Interfaces::ITest*)>(&SynchronousFilter::Pass)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::*)(NUnit::Framework::Interfaces::ITest*)>(&UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::Pass)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SynchronousFilter*), "Pass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter*), "Pass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
   }
 };
-// Writing MetadataGetter for method: SynchronousFilter::IsExplicitMatch
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::IsExplicitMatch
 // Il2CppName: IsExplicitMatch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SynchronousFilter::*)(NUnit::Framework::Interfaces::ITest*)>(&SynchronousFilter::IsExplicitMatch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::*)(NUnit::Framework::Interfaces::ITest*)>(&UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::IsExplicitMatch)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SynchronousFilter*), "IsExplicitMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter*), "IsExplicitMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
   }
 };
-// Writing MetadataGetter for method: SynchronousFilter::New_ctor
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SynchronousFilter::*)()>(&SynchronousFilter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::*)()>(&UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SynchronousFilter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SynchronousFilter::*)()>(&SynchronousFilter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::*)()>(&UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SynchronousFilter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

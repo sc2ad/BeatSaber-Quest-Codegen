@@ -72,57 +72,57 @@ namespace System::Runtime::Remoting::Messaging {
   static_assert(sizeof(CADMethodCallMessage) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADMethodCallMessage*, "System.Runtime.Remoting.Messaging", "CADMethodCallMessage");
-// Writing MetadataGetter for method: CADMethodCallMessage::get_Uri
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADMethodCallMessage::get_Uri
 // Il2CppName: get_Uri
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CADMethodCallMessage::*)()>(&CADMethodCallMessage::get_Uri)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Messaging::CADMethodCallMessage::*)()>(&System::Runtime::Remoting::Messaging::CADMethodCallMessage::get_Uri)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CADMethodCallMessage*), "get_Uri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADMethodCallMessage*), "get_Uri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CADMethodCallMessage::Create
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADMethodCallMessage::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::CADMethodCallMessage* (*)(System::Runtime::Remoting::Messaging::IMessage*)>(&CADMethodCallMessage::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::CADMethodCallMessage* (*)(System::Runtime::Remoting::Messaging::IMessage*)>(&System::Runtime::Remoting::Messaging::CADMethodCallMessage::Create)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CADMethodCallMessage*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADMethodCallMessage*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>()});
   }
 };
-// Writing MetadataGetter for method: CADMethodCallMessage::New_ctor
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADMethodCallMessage::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CADMethodCallMessage::*)(System::Runtime::Remoting::Messaging::IMethodCallMessage*)>(&CADMethodCallMessage::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::CADMethodCallMessage::*)(System::Runtime::Remoting::Messaging::IMethodCallMessage*)>(&System::Runtime::Remoting::Messaging::CADMethodCallMessage::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CADMethodCallMessage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMethodCallMessage*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADMethodCallMessage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMethodCallMessage*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CADMethodCallMessage::*)(System::Runtime::Remoting::Messaging::IMethodCallMessage*)>(&CADMethodCallMessage::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::CADMethodCallMessage::*)(System::Runtime::Remoting::Messaging::IMethodCallMessage*)>(&System::Runtime::Remoting::Messaging::CADMethodCallMessage::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CADMethodCallMessage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMethodCallMessage*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADMethodCallMessage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMethodCallMessage*>()});
   }
 };
-// Writing MetadataGetter for method: CADMethodCallMessage::GetArguments
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADMethodCallMessage::GetArguments
 // Il2CppName: GetArguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ArrayList* (CADMethodCallMessage::*)()>(&CADMethodCallMessage::GetArguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ArrayList* (System::Runtime::Remoting::Messaging::CADMethodCallMessage::*)()>(&System::Runtime::Remoting::Messaging::CADMethodCallMessage::GetArguments)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CADMethodCallMessage*), "GetArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADMethodCallMessage*), "GetArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CADMethodCallMessage::GetArgs
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADMethodCallMessage::GetArgs
 // Il2CppName: GetArgs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (CADMethodCallMessage::*)(System::Collections::ArrayList*)>(&CADMethodCallMessage::GetArgs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Runtime::Remoting::Messaging::CADMethodCallMessage::*)(System::Collections::ArrayList*)>(&System::Runtime::Remoting::Messaging::CADMethodCallMessage::GetArgs)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CADMethodCallMessage*), "GetArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::ArrayList*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADMethodCallMessage*), "GetArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::ArrayList*>()});
   }
 };
-// Writing MetadataGetter for method: CADMethodCallMessage::get_PropertiesCount
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADMethodCallMessage::get_PropertiesCount
 // Il2CppName: get_PropertiesCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CADMethodCallMessage::*)()>(&CADMethodCallMessage::get_PropertiesCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Runtime::Remoting::Messaging::CADMethodCallMessage::*)()>(&System::Runtime::Remoting::Messaging::CADMethodCallMessage::get_PropertiesCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CADMethodCallMessage*), "get_PropertiesCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADMethodCallMessage*), "get_PropertiesCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

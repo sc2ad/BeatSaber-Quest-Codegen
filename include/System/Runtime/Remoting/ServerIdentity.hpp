@@ -135,105 +135,105 @@ namespace System::Runtime::Remoting {
   static_assert(sizeof(ServerIdentity) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ServerIdentity*, "System.Runtime.Remoting", "ServerIdentity");
-// Writing MetadataGetter for method: ServerIdentity::New_ctor
+// Writing MetadataGetter for method: System::Runtime::Remoting::ServerIdentity::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerIdentity::*)(::Il2CppString*, System::Runtime::Remoting::Contexts::Context*, System::Type*)>(&ServerIdentity::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ServerIdentity::*)(::Il2CppString*, System::Runtime::Remoting::Contexts::Context*, System::Type*)>(&System::Runtime::Remoting::ServerIdentity::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerIdentity::*)(::Il2CppString*, System::Runtime::Remoting::Contexts::Context*, System::Type*)>(&ServerIdentity::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ServerIdentity::*)(::Il2CppString*, System::Runtime::Remoting::Contexts::Context*, System::Type*)>(&System::Runtime::Remoting::ServerIdentity::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: ServerIdentity::get_ObjectType
+// Writing MetadataGetter for method: System::Runtime::Remoting::ServerIdentity::get_ObjectType
 // Il2CppName: get_ObjectType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (ServerIdentity::*)()>(&ServerIdentity::get_ObjectType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Runtime::Remoting::ServerIdentity::*)()>(&System::Runtime::Remoting::ServerIdentity::get_ObjectType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerIdentity*), "get_ObjectType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "get_ObjectType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ServerIdentity::StartTrackingLifetime
+// Writing MetadataGetter for method: System::Runtime::Remoting::ServerIdentity::StartTrackingLifetime
 // Il2CppName: StartTrackingLifetime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerIdentity::*)(System::Runtime::Remoting::Lifetime::ILease*)>(&ServerIdentity::StartTrackingLifetime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ServerIdentity::*)(System::Runtime::Remoting::Lifetime::ILease*)>(&System::Runtime::Remoting::ServerIdentity::StartTrackingLifetime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerIdentity*), "StartTrackingLifetime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Lifetime::ILease*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "StartTrackingLifetime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Lifetime::ILease*>()});
   }
 };
-// Writing MetadataGetter for method: ServerIdentity::OnLifetimeExpired
+// Writing MetadataGetter for method: System::Runtime::Remoting::ServerIdentity::OnLifetimeExpired
 // Il2CppName: OnLifetimeExpired
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerIdentity::*)()>(&ServerIdentity::OnLifetimeExpired)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ServerIdentity::*)()>(&System::Runtime::Remoting::ServerIdentity::OnLifetimeExpired)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerIdentity*), "OnLifetimeExpired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "OnLifetimeExpired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ServerIdentity::AttachServerObject
+// Writing MetadataGetter for method: System::Runtime::Remoting::ServerIdentity::AttachServerObject
 // Il2CppName: AttachServerObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerIdentity::*)(System::MarshalByRefObject*, System::Runtime::Remoting::Contexts::Context*)>(&ServerIdentity::AttachServerObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ServerIdentity::*)(System::MarshalByRefObject*, System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::ServerIdentity::AttachServerObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerIdentity*), "AttachServerObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::MarshalByRefObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "AttachServerObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::MarshalByRefObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>()});
   }
 };
-// Writing MetadataGetter for method: ServerIdentity::get_Lease
+// Writing MetadataGetter for method: System::Runtime::Remoting::ServerIdentity::get_Lease
 // Il2CppName: get_Lease
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Lifetime::Lease* (ServerIdentity::*)()>(&ServerIdentity::get_Lease)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Lifetime::Lease* (System::Runtime::Remoting::ServerIdentity::*)()>(&System::Runtime::Remoting::ServerIdentity::get_Lease)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerIdentity*), "get_Lease", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "get_Lease", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ServerIdentity::get_Context
+// Writing MetadataGetter for method: System::Runtime::Remoting::ServerIdentity::get_Context
 // Il2CppName: get_Context
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::Context* (ServerIdentity::*)()>(&ServerIdentity::get_Context)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::Context* (System::Runtime::Remoting::ServerIdentity::*)()>(&System::Runtime::Remoting::ServerIdentity::get_Context)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerIdentity*), "get_Context", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "get_Context", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ServerIdentity::set_Context
+// Writing MetadataGetter for method: System::Runtime::Remoting::ServerIdentity::set_Context
 // Il2CppName: set_Context
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerIdentity::*)(System::Runtime::Remoting::Contexts::Context*)>(&ServerIdentity::set_Context)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ServerIdentity::*)(System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::ServerIdentity::set_Context)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerIdentity*), "set_Context", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "set_Context", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>()});
   }
 };
-// Writing MetadataGetter for method: ServerIdentity::SyncObjectProcessMessage
+// Writing MetadataGetter for method: System::Runtime::Remoting::ServerIdentity::SyncObjectProcessMessage
 // Il2CppName: SyncObjectProcessMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (ServerIdentity::*)(System::Runtime::Remoting::Messaging::IMessage*)>(&ServerIdentity::SyncObjectProcessMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (System::Runtime::Remoting::ServerIdentity::*)(System::Runtime::Remoting::Messaging::IMessage*)>(&System::Runtime::Remoting::ServerIdentity::SyncObjectProcessMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerIdentity*), "SyncObjectProcessMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "SyncObjectProcessMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>()});
   }
 };
-// Writing MetadataGetter for method: ServerIdentity::AsyncObjectProcessMessage
+// Writing MetadataGetter for method: System::Runtime::Remoting::ServerIdentity::AsyncObjectProcessMessage
 // Il2CppName: AsyncObjectProcessMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageCtrl* (ServerIdentity::*)(System::Runtime::Remoting::Messaging::IMessage*, System::Runtime::Remoting::Messaging::IMessageSink*)>(&ServerIdentity::AsyncObjectProcessMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageCtrl* (System::Runtime::Remoting::ServerIdentity::*)(System::Runtime::Remoting::Messaging::IMessage*, System::Runtime::Remoting::Messaging::IMessageSink*)>(&System::Runtime::Remoting::ServerIdentity::AsyncObjectProcessMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerIdentity*), "AsyncObjectProcessMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessageSink*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "AsyncObjectProcessMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessageSink*>()});
   }
 };
-// Writing MetadataGetter for method: ServerIdentity::DisposeServerObject
+// Writing MetadataGetter for method: System::Runtime::Remoting::ServerIdentity::DisposeServerObject
 // Il2CppName: DisposeServerObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerIdentity::*)()>(&ServerIdentity::DisposeServerObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ServerIdentity::*)()>(&System::Runtime::Remoting::ServerIdentity::DisposeServerObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerIdentity*), "DisposeServerObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "DisposeServerObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ServerIdentity::CreateObjRef
+// Writing MetadataGetter for method: System::Runtime::Remoting::ServerIdentity::CreateObjRef
 // Il2CppName: CreateObjRef
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ObjRef* (ServerIdentity::*)(System::Type*)>(&ServerIdentity::CreateObjRef)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ObjRef* (System::Runtime::Remoting::ServerIdentity::*)(System::Type*)>(&System::Runtime::Remoting::ServerIdentity::CreateObjRef)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerIdentity*), "CreateObjRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "CreateObjRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };

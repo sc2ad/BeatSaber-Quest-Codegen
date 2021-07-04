@@ -203,169 +203,169 @@ namespace GlobalNamespace {
   static_assert(sizeof(StandardLevelInfoSaveData_V100) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelInfoSaveData_V100*, "", "StandardLevelInfoSaveData_V100");
-// Writing MetadataGetter for method: StandardLevelInfoSaveData_V100::get_version
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::get_version
 // Il2CppName: get_version
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StandardLevelInfoSaveData_V100::*)()>(&StandardLevelInfoSaveData_V100::get_version)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_version)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData_V100*), "get_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), "get_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandardLevelInfoSaveData_V100::get_songName
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::get_songName
 // Il2CppName: get_songName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StandardLevelInfoSaveData_V100::*)()>(&StandardLevelInfoSaveData_V100::get_songName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_songName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData_V100*), "get_songName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), "get_songName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandardLevelInfoSaveData_V100::get_songSubName
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::get_songSubName
 // Il2CppName: get_songSubName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StandardLevelInfoSaveData_V100::*)()>(&StandardLevelInfoSaveData_V100::get_songSubName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_songSubName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData_V100*), "get_songSubName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), "get_songSubName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandardLevelInfoSaveData_V100::get_songAuthorName
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::get_songAuthorName
 // Il2CppName: get_songAuthorName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StandardLevelInfoSaveData_V100::*)()>(&StandardLevelInfoSaveData_V100::get_songAuthorName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_songAuthorName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData_V100*), "get_songAuthorName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), "get_songAuthorName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandardLevelInfoSaveData_V100::get_levelAuthorName
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::get_levelAuthorName
 // Il2CppName: get_levelAuthorName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StandardLevelInfoSaveData_V100::*)()>(&StandardLevelInfoSaveData_V100::get_levelAuthorName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_levelAuthorName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData_V100*), "get_levelAuthorName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), "get_levelAuthorName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandardLevelInfoSaveData_V100::get_beatsPerMinute
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::get_beatsPerMinute
 // Il2CppName: get_beatsPerMinute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (StandardLevelInfoSaveData_V100::*)()>(&StandardLevelInfoSaveData_V100::get_beatsPerMinute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_beatsPerMinute)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData_V100*), "get_beatsPerMinute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), "get_beatsPerMinute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandardLevelInfoSaveData_V100::get_songTimeOffset
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::get_songTimeOffset
 // Il2CppName: get_songTimeOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (StandardLevelInfoSaveData_V100::*)()>(&StandardLevelInfoSaveData_V100::get_songTimeOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_songTimeOffset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData_V100*), "get_songTimeOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), "get_songTimeOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandardLevelInfoSaveData_V100::get_shuffle
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::get_shuffle
 // Il2CppName: get_shuffle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (StandardLevelInfoSaveData_V100::*)()>(&StandardLevelInfoSaveData_V100::get_shuffle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_shuffle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData_V100*), "get_shuffle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), "get_shuffle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandardLevelInfoSaveData_V100::get_shufflePeriod
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::get_shufflePeriod
 // Il2CppName: get_shufflePeriod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (StandardLevelInfoSaveData_V100::*)()>(&StandardLevelInfoSaveData_V100::get_shufflePeriod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_shufflePeriod)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData_V100*), "get_shufflePeriod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), "get_shufflePeriod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandardLevelInfoSaveData_V100::get_previewStartTime
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::get_previewStartTime
 // Il2CppName: get_previewStartTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (StandardLevelInfoSaveData_V100::*)()>(&StandardLevelInfoSaveData_V100::get_previewStartTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_previewStartTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData_V100*), "get_previewStartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), "get_previewStartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandardLevelInfoSaveData_V100::get_previewDuration
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::get_previewDuration
 // Il2CppName: get_previewDuration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (StandardLevelInfoSaveData_V100::*)()>(&StandardLevelInfoSaveData_V100::get_previewDuration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_previewDuration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData_V100*), "get_previewDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), "get_previewDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandardLevelInfoSaveData_V100::get_songFilename
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::get_songFilename
 // Il2CppName: get_songFilename
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StandardLevelInfoSaveData_V100::*)()>(&StandardLevelInfoSaveData_V100::get_songFilename)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_songFilename)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData_V100*), "get_songFilename", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), "get_songFilename", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandardLevelInfoSaveData_V100::get_coverImageFilename
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::get_coverImageFilename
 // Il2CppName: get_coverImageFilename
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StandardLevelInfoSaveData_V100::*)()>(&StandardLevelInfoSaveData_V100::get_coverImageFilename)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_coverImageFilename)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData_V100*), "get_coverImageFilename", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), "get_coverImageFilename", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandardLevelInfoSaveData_V100::get_environmentName
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::get_environmentName
 // Il2CppName: get_environmentName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StandardLevelInfoSaveData_V100::*)()>(&StandardLevelInfoSaveData_V100::get_environmentName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_environmentName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData_V100*), "get_environmentName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), "get_environmentName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandardLevelInfoSaveData_V100::get_difficultyBeatmaps
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::get_difficultyBeatmaps
 // Il2CppName: get_difficultyBeatmaps
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*>* (StandardLevelInfoSaveData_V100::*)()>(&StandardLevelInfoSaveData_V100::get_difficultyBeatmaps)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*>* (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_difficultyBeatmaps)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData_V100*), "get_difficultyBeatmaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), "get_difficultyBeatmaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandardLevelInfoSaveData_V100::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelInfoSaveData_V100::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, float, float, float, float, float, float, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Array<GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*>*)>(&StandardLevelInfoSaveData_V100::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelInfoSaveData_V100::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, float, float, float, float, float, float, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Array<GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*>*)>(&GlobalNamespace::StandardLevelInfoSaveData_V100::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData_V100*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelInfoSaveData_V100::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, float, float, float, float, float, float, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Array<GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*>*)>(&StandardLevelInfoSaveData_V100::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelInfoSaveData_V100::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, float, float, float, float, float, float, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Array<GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*>*)>(&GlobalNamespace::StandardLevelInfoSaveData_V100::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData_V100*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::StandardLevelInfoSaveData_V100::DifficultyBeatmap*>*>()});
   }
 };
-// Writing MetadataGetter for method: StandardLevelInfoSaveData_V100::get_hasAllData
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::get_hasAllData
 // Il2CppName: get_hasAllData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (StandardLevelInfoSaveData_V100::*)()>(&StandardLevelInfoSaveData_V100::get_hasAllData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::get_hasAllData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData_V100*), "get_hasAllData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), "get_hasAllData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandardLevelInfoSaveData_V100::SetSongFilename
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::SetSongFilename
 // Il2CppName: SetSongFilename
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelInfoSaveData_V100::*)(::Il2CppString*)>(&StandardLevelInfoSaveData_V100::SetSongFilename)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelInfoSaveData_V100::*)(::Il2CppString*)>(&GlobalNamespace::StandardLevelInfoSaveData_V100::SetSongFilename)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData_V100*), "SetSongFilename", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), "SetSongFilename", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: StandardLevelInfoSaveData_V100::SerializeToJSONString
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::SerializeToJSONString
 // Il2CppName: SerializeToJSONString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StandardLevelInfoSaveData_V100::*)()>(&StandardLevelInfoSaveData_V100::SerializeToJSONString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::StandardLevelInfoSaveData_V100::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::SerializeToJSONString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData_V100*), "SerializeToJSONString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), "SerializeToJSONString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandardLevelInfoSaveData_V100::DeserializeFromJSONString
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::DeserializeFromJSONString
 // Il2CppName: DeserializeFromJSONString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::StandardLevelInfoSaveData* (*)(::Il2CppString*)>(&StandardLevelInfoSaveData_V100::DeserializeFromJSONString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::StandardLevelInfoSaveData* (*)(::Il2CppString*)>(&GlobalNamespace::StandardLevelInfoSaveData_V100::DeserializeFromJSONString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelInfoSaveData_V100*), "DeserializeFromJSONString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100*), "DeserializeFromJSONString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };

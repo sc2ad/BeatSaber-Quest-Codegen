@@ -138,161 +138,161 @@ namespace System::Runtime::Remoting::Messaging {
   static_assert(sizeof(MessageDictionary) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::MessageDictionary*, "System.Runtime.Remoting.Messaging", "MessageDictionary");
-// Writing MetadataGetter for method: MessageDictionary::New_ctor
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MessageDictionary::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageDictionary::*)(System::Runtime::Remoting::Messaging::IMethodMessage*)>(&MessageDictionary::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::MessageDictionary::*)(System::Runtime::Remoting::Messaging::IMethodMessage*)>(&System::Runtime::Remoting::Messaging::MessageDictionary::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageDictionary*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMethodMessage*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MessageDictionary*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMethodMessage*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageDictionary::*)(System::Runtime::Remoting::Messaging::IMethodMessage*)>(&MessageDictionary::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::MessageDictionary::*)(System::Runtime::Remoting::Messaging::IMethodMessage*)>(&System::Runtime::Remoting::Messaging::MessageDictionary::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageDictionary*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMethodMessage*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MessageDictionary*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMethodMessage*>()});
   }
 };
-// Writing MetadataGetter for method: MessageDictionary::HasUserData
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MessageDictionary::HasUserData
 // Il2CppName: HasUserData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MessageDictionary::*)()>(&MessageDictionary::HasUserData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(&System::Runtime::Remoting::Messaging::MessageDictionary::HasUserData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageDictionary*), "HasUserData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MessageDictionary*), "HasUserData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MessageDictionary::get_InternalDictionary
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MessageDictionary::get_InternalDictionary
 // Il2CppName: get_InternalDictionary
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionary* (MessageDictionary::*)()>(&MessageDictionary::get_InternalDictionary)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionary* (System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(&System::Runtime::Remoting::Messaging::MessageDictionary::get_InternalDictionary)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageDictionary*), "get_InternalDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MessageDictionary*), "get_InternalDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MessageDictionary::set_MethodKeys
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MessageDictionary::set_MethodKeys
 // Il2CppName: set_MethodKeys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageDictionary::*)(::Array<::Il2CppString*>*)>(&MessageDictionary::set_MethodKeys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::MessageDictionary::*)(::Array<::Il2CppString*>*)>(&System::Runtime::Remoting::Messaging::MessageDictionary::set_MethodKeys)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageDictionary*), "set_MethodKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MessageDictionary*), "set_MethodKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: MessageDictionary::AllocInternalProperties
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MessageDictionary::AllocInternalProperties
 // Il2CppName: AllocInternalProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionary* (MessageDictionary::*)()>(&MessageDictionary::AllocInternalProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionary* (System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(&System::Runtime::Remoting::Messaging::MessageDictionary::AllocInternalProperties)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageDictionary*), "AllocInternalProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MessageDictionary*), "AllocInternalProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MessageDictionary::GetInternalProperties
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MessageDictionary::GetInternalProperties
 // Il2CppName: GetInternalProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionary* (MessageDictionary::*)()>(&MessageDictionary::GetInternalProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionary* (System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(&System::Runtime::Remoting::Messaging::MessageDictionary::GetInternalProperties)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageDictionary*), "GetInternalProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MessageDictionary*), "GetInternalProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MessageDictionary::IsOverridenKey
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MessageDictionary::IsOverridenKey
 // Il2CppName: IsOverridenKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MessageDictionary::*)(::Il2CppString*)>(&MessageDictionary::IsOverridenKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Remoting::Messaging::MessageDictionary::*)(::Il2CppString*)>(&System::Runtime::Remoting::Messaging::MessageDictionary::IsOverridenKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageDictionary*), "IsOverridenKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MessageDictionary*), "IsOverridenKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: MessageDictionary::get_Item
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MessageDictionary::get_Item
 // Il2CppName: get_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (MessageDictionary::*)(::Il2CppObject*)>(&MessageDictionary::get_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Remoting::Messaging::MessageDictionary::*)(::Il2CppObject*)>(&System::Runtime::Remoting::Messaging::MessageDictionary::get_Item)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageDictionary*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MessageDictionary*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: MessageDictionary::set_Item
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MessageDictionary::set_Item
 // Il2CppName: set_Item
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageDictionary::*)(::Il2CppObject*, ::Il2CppObject*)>(&MessageDictionary::set_Item)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::MessageDictionary::*)(::Il2CppObject*, ::Il2CppObject*)>(&System::Runtime::Remoting::Messaging::MessageDictionary::set_Item)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageDictionary*), "set_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MessageDictionary*), "set_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: MessageDictionary::GetMethodProperty
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MessageDictionary::GetMethodProperty
 // Il2CppName: GetMethodProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (MessageDictionary::*)(::Il2CppString*)>(&MessageDictionary::GetMethodProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Remoting::Messaging::MessageDictionary::*)(::Il2CppString*)>(&System::Runtime::Remoting::Messaging::MessageDictionary::GetMethodProperty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageDictionary*), "GetMethodProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MessageDictionary*), "GetMethodProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: MessageDictionary::SetMethodProperty
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MessageDictionary::SetMethodProperty
 // Il2CppName: SetMethodProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageDictionary::*)(::Il2CppString*, ::Il2CppObject*)>(&MessageDictionary::SetMethodProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::MessageDictionary::*)(::Il2CppString*, ::Il2CppObject*)>(&System::Runtime::Remoting::Messaging::MessageDictionary::SetMethodProperty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageDictionary*), "SetMethodProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MessageDictionary*), "SetMethodProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: MessageDictionary::get_Keys
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MessageDictionary::get_Keys
 // Il2CppName: get_Keys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ICollection* (MessageDictionary::*)()>(&MessageDictionary::get_Keys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ICollection* (System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(&System::Runtime::Remoting::Messaging::MessageDictionary::get_Keys)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageDictionary*), "get_Keys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MessageDictionary*), "get_Keys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MessageDictionary::get_Values
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MessageDictionary::get_Values
 // Il2CppName: get_Values
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ICollection* (MessageDictionary::*)()>(&MessageDictionary::get_Values)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ICollection* (System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(&System::Runtime::Remoting::Messaging::MessageDictionary::get_Values)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageDictionary*), "get_Values", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MessageDictionary*), "get_Values", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MessageDictionary::Add
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MessageDictionary::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageDictionary::*)(::Il2CppObject*, ::Il2CppObject*)>(&MessageDictionary::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::MessageDictionary::*)(::Il2CppObject*, ::Il2CppObject*)>(&System::Runtime::Remoting::Messaging::MessageDictionary::Add)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageDictionary*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MessageDictionary*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: MessageDictionary::Contains
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MessageDictionary::Contains
 // Il2CppName: Contains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MessageDictionary::*)(::Il2CppObject*)>(&MessageDictionary::Contains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Remoting::Messaging::MessageDictionary::*)(::Il2CppObject*)>(&System::Runtime::Remoting::Messaging::MessageDictionary::Contains)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageDictionary*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MessageDictionary*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: MessageDictionary::get_Count
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MessageDictionary::get_Count
 // Il2CppName: get_Count
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MessageDictionary::*)()>(&MessageDictionary::get_Count)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(&System::Runtime::Remoting::Messaging::MessageDictionary::get_Count)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageDictionary*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MessageDictionary*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MessageDictionary::CopyTo
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MessageDictionary::CopyTo
 // Il2CppName: CopyTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageDictionary::*)(System::Array*, int)>(&MessageDictionary::CopyTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::MessageDictionary::*)(System::Array*, int)>(&System::Runtime::Remoting::Messaging::MessageDictionary::CopyTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageDictionary*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MessageDictionary*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: MessageDictionary::System_Collections_IEnumerable_GetEnumerator
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MessageDictionary::System_Collections_IEnumerable_GetEnumerator
 // Il2CppName: System.Collections.IEnumerable.GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (MessageDictionary::*)()>(&MessageDictionary::System_Collections_IEnumerable_GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(&System::Runtime::Remoting::Messaging::MessageDictionary::System_Collections_IEnumerable_GetEnumerator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageDictionary*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MessageDictionary*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MessageDictionary::GetEnumerator
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MessageDictionary::GetEnumerator
 // Il2CppName: GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionaryEnumerator* (MessageDictionary::*)()>(&MessageDictionary::GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionaryEnumerator* (System::Runtime::Remoting::Messaging::MessageDictionary::*)()>(&System::Runtime::Remoting::Messaging::MessageDictionary::GetEnumerator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageDictionary*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MessageDictionary*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

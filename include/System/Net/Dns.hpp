@@ -61,91 +61,91 @@ namespace System::Net {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Dns*, "System.Net", "Dns");
-// Writing MetadataGetter for method: Dns::GetHostByName_internal
+// Writing MetadataGetter for method: System::Net::Dns::GetHostByName_internal
 // Il2CppName: GetHostByName_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*&, ::Array<::Il2CppString*>*&, ::Array<::Il2CppString*>*&, int)>(&Dns::GetHostByName_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*&, ::Array<::Il2CppString*>*&, ::Array<::Il2CppString*>*&, int)>(&System::Net::Dns::GetHostByName_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Dns*), "GetHostByName_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Dns*), "GetHostByName_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Dns::GetHostByAddr_internal
+// Writing MetadataGetter for method: System::Net::Dns::GetHostByAddr_internal
 // Il2CppName: GetHostByAddr_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*&, ::Array<::Il2CppString*>*&, ::Array<::Il2CppString*>*&, int)>(&Dns::GetHostByAddr_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*&, ::Array<::Il2CppString*>*&, ::Array<::Il2CppString*>*&, int)>(&System::Net::Dns::GetHostByAddr_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Dns*), "GetHostByAddr_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Dns*), "GetHostByAddr_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Dns::GetHostName_internal
+// Writing MetadataGetter for method: System::Net::Dns::GetHostName_internal
 // Il2CppName: GetHostName_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*&)>(&Dns::GetHostName_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*&)>(&System::Net::Dns::GetHostName_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Dns*), "GetHostName_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Dns*), "GetHostName_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
   }
 };
-// Writing MetadataGetter for method: Dns::Error_11001
+// Writing MetadataGetter for method: System::Net::Dns::Error_11001
 // Il2CppName: Error_11001
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Dns::Error_11001)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&System::Net::Dns::Error_11001)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Dns*), "Error_11001", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Dns*), "Error_11001", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Dns::hostent_to_IPHostEntry
+// Writing MetadataGetter for method: System::Net::Dns::hostent_to_IPHostEntry
 // Il2CppName: hostent_to_IPHostEntry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPHostEntry* (*)(::Il2CppString*, ::Il2CppString*, ::Array<::Il2CppString*>*, ::Array<::Il2CppString*>*)>(&Dns::hostent_to_IPHostEntry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPHostEntry* (*)(::Il2CppString*, ::Il2CppString*, ::Array<::Il2CppString*>*, ::Array<::Il2CppString*>*)>(&System::Net::Dns::hostent_to_IPHostEntry)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Dns*), "hostent_to_IPHostEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Dns*), "hostent_to_IPHostEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: Dns::GetHostByAddressFromString
+// Writing MetadataGetter for method: System::Net::Dns::GetHostByAddressFromString
 // Il2CppName: GetHostByAddressFromString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPHostEntry* (*)(::Il2CppString*, bool)>(&Dns::GetHostByAddressFromString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPHostEntry* (*)(::Il2CppString*, bool)>(&System::Net::Dns::GetHostByAddressFromString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Dns*), "GetHostByAddressFromString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Dns*), "GetHostByAddressFromString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Dns::GetHostEntry
+// Writing MetadataGetter for method: System::Net::Dns::GetHostEntry
 // Il2CppName: GetHostEntry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPHostEntry* (*)(::Il2CppString*)>(&Dns::GetHostEntry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPHostEntry* (*)(::Il2CppString*)>(&System::Net::Dns::GetHostEntry)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Dns*), "GetHostEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Dns*), "GetHostEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Dns::GetHostEntry
+// Writing MetadataGetter for method: System::Net::Dns::GetHostEntry
 // Il2CppName: GetHostEntry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPHostEntry* (*)(System::Net::IPAddress*)>(&Dns::GetHostEntry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPHostEntry* (*)(System::Net::IPAddress*)>(&System::Net::Dns::GetHostEntry)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Dns*), "GetHostEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Dns*), "GetHostEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>()});
   }
 };
-// Writing MetadataGetter for method: Dns::GetHostAddresses
+// Writing MetadataGetter for method: System::Net::Dns::GetHostAddresses
 // Il2CppName: GetHostAddresses
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Net::IPAddress*>* (*)(::Il2CppString*)>(&Dns::GetHostAddresses)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Net::IPAddress*>* (*)(::Il2CppString*)>(&System::Net::Dns::GetHostAddresses)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Dns*), "GetHostAddresses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Dns*), "GetHostAddresses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Dns::GetHostByName
+// Writing MetadataGetter for method: System::Net::Dns::GetHostByName
 // Il2CppName: GetHostByName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPHostEntry* (*)(::Il2CppString*)>(&Dns::GetHostByName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPHostEntry* (*)(::Il2CppString*)>(&System::Net::Dns::GetHostByName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Dns*), "GetHostByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Dns*), "GetHostByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Dns::GetHostName
+// Writing MetadataGetter for method: System::Net::Dns::GetHostName
 // Il2CppName: GetHostName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Dns::GetHostName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Net::Dns::GetHostName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Dns*), "GetHostName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Dns*), "GetHostName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

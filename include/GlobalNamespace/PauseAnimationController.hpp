@@ -87,73 +87,73 @@ namespace GlobalNamespace {
   static_assert(sizeof(PauseAnimationController) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PauseAnimationController*, "", "PauseAnimationController");
-// Writing MetadataGetter for method: PauseAnimationController::add_resumeFromPauseAnimationDidFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::PauseAnimationController::add_resumeFromPauseAnimationDidFinishEvent
 // Il2CppName: add_resumeFromPauseAnimationDidFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PauseAnimationController::*)(System::Action*)>(&PauseAnimationController::add_resumeFromPauseAnimationDidFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PauseAnimationController::*)(System::Action*)>(&GlobalNamespace::PauseAnimationController::add_resumeFromPauseAnimationDidFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PauseAnimationController*), "add_resumeFromPauseAnimationDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PauseAnimationController*), "add_resumeFromPauseAnimationDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: PauseAnimationController::remove_resumeFromPauseAnimationDidFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::PauseAnimationController::remove_resumeFromPauseAnimationDidFinishEvent
 // Il2CppName: remove_resumeFromPauseAnimationDidFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PauseAnimationController::*)(System::Action*)>(&PauseAnimationController::remove_resumeFromPauseAnimationDidFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PauseAnimationController::*)(System::Action*)>(&GlobalNamespace::PauseAnimationController::remove_resumeFromPauseAnimationDidFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PauseAnimationController*), "remove_resumeFromPauseAnimationDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PauseAnimationController*), "remove_resumeFromPauseAnimationDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: PauseAnimationController::Awake
+// Writing MetadataGetter for method: GlobalNamespace::PauseAnimationController::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PauseAnimationController::*)()>(&PauseAnimationController::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PauseAnimationController::*)()>(&GlobalNamespace::PauseAnimationController::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PauseAnimationController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PauseAnimationController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PauseAnimationController::StartEnterPauseAnimation
+// Writing MetadataGetter for method: GlobalNamespace::PauseAnimationController::StartEnterPauseAnimation
 // Il2CppName: StartEnterPauseAnimation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PauseAnimationController::*)()>(&PauseAnimationController::StartEnterPauseAnimation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PauseAnimationController::*)()>(&GlobalNamespace::PauseAnimationController::StartEnterPauseAnimation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PauseAnimationController*), "StartEnterPauseAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PauseAnimationController*), "StartEnterPauseAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PauseAnimationController::StartResumeFromPauseAnimation
+// Writing MetadataGetter for method: GlobalNamespace::PauseAnimationController::StartResumeFromPauseAnimation
 // Il2CppName: StartResumeFromPauseAnimation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PauseAnimationController::*)()>(&PauseAnimationController::StartResumeFromPauseAnimation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PauseAnimationController::*)()>(&GlobalNamespace::PauseAnimationController::StartResumeFromPauseAnimation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PauseAnimationController*), "StartResumeFromPauseAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PauseAnimationController*), "StartResumeFromPauseAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PauseAnimationController::EnterPauseAnimationDidFinish
+// Writing MetadataGetter for method: GlobalNamespace::PauseAnimationController::EnterPauseAnimationDidFinish
 // Il2CppName: EnterPauseAnimationDidFinish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PauseAnimationController::*)()>(&PauseAnimationController::EnterPauseAnimationDidFinish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PauseAnimationController::*)()>(&GlobalNamespace::PauseAnimationController::EnterPauseAnimationDidFinish)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PauseAnimationController*), "EnterPauseAnimationDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PauseAnimationController*), "EnterPauseAnimationDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PauseAnimationController::ResumeFromPauseAnimationDidFinish
+// Writing MetadataGetter for method: GlobalNamespace::PauseAnimationController::ResumeFromPauseAnimationDidFinish
 // Il2CppName: ResumeFromPauseAnimationDidFinish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PauseAnimationController::*)()>(&PauseAnimationController::ResumeFromPauseAnimationDidFinish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PauseAnimationController::*)()>(&GlobalNamespace::PauseAnimationController::ResumeFromPauseAnimationDidFinish)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PauseAnimationController*), "ResumeFromPauseAnimationDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PauseAnimationController*), "ResumeFromPauseAnimationDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PauseAnimationController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::PauseAnimationController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PauseAnimationController::*)()>(&PauseAnimationController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PauseAnimationController::*)()>(&GlobalNamespace::PauseAnimationController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PauseAnimationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PauseAnimationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PauseAnimationController::*)()>(&PauseAnimationController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PauseAnimationController::*)()>(&GlobalNamespace::PauseAnimationController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PauseAnimationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PauseAnimationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

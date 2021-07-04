@@ -57,46 +57,46 @@ namespace System::Runtime::CompilerServices {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::RuntimeHelpers*, "System.Runtime.CompilerServices", "RuntimeHelpers");
-// Writing MetadataGetter for method: RuntimeHelpers::InitializeArray
+// Writing MetadataGetter for method: System::Runtime::CompilerServices::RuntimeHelpers::InitializeArray
 // Il2CppName: InitializeArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Array*, System::IntPtr)>(&RuntimeHelpers::InitializeArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Array*, System::IntPtr)>(&System::Runtime::CompilerServices::RuntimeHelpers::InitializeArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RuntimeHelpers*), "InitializeArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::RuntimeHelpers*), "InitializeArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: RuntimeHelpers::InitializeArray
+// Writing MetadataGetter for method: System::Runtime::CompilerServices::RuntimeHelpers::InitializeArray
 // Il2CppName: InitializeArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Array*, System::RuntimeFieldHandle)>(&RuntimeHelpers::InitializeArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Array*, System::RuntimeFieldHandle)>(&System::Runtime::CompilerServices::RuntimeHelpers::InitializeArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RuntimeHelpers*), "InitializeArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeFieldHandle>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::RuntimeHelpers*), "InitializeArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeFieldHandle>()});
   }
 };
-// Writing MetadataGetter for method: RuntimeHelpers::get_OffsetToStringData
+// Writing MetadataGetter for method: System::Runtime::CompilerServices::RuntimeHelpers::get_OffsetToStringData
 // Il2CppName: get_OffsetToStringData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&RuntimeHelpers::get_OffsetToStringData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&System::Runtime::CompilerServices::RuntimeHelpers::get_OffsetToStringData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RuntimeHelpers*), "get_OffsetToStringData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::RuntimeHelpers*), "get_OffsetToStringData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RuntimeHelpers::GetHashCode
+// Writing MetadataGetter for method: System::Runtime::CompilerServices::RuntimeHelpers::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppObject*)>(&RuntimeHelpers::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppObject*)>(&System::Runtime::CompilerServices::RuntimeHelpers::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RuntimeHelpers*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::RuntimeHelpers*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: RuntimeHelpers::PrepareConstrainedRegions
+// Writing MetadataGetter for method: System::Runtime::CompilerServices::RuntimeHelpers::PrepareConstrainedRegions
 // Il2CppName: PrepareConstrainedRegions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&RuntimeHelpers::PrepareConstrainedRegions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Runtime::CompilerServices::RuntimeHelpers::PrepareConstrainedRegions)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RuntimeHelpers*), "PrepareConstrainedRegions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::RuntimeHelpers*), "PrepareConstrainedRegions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RuntimeHelpers::IsReferenceOrContainsReferences
+// Writing MetadataGetter for method: System::Runtime::CompilerServices::RuntimeHelpers::IsReferenceOrContainsReferences
 // Il2CppName: IsReferenceOrContainsReferences
 // Cannot write MetadataGetter for generic methods!

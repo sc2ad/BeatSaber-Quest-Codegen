@@ -34,11 +34,11 @@ namespace UnityEngine::Playables {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::INotificationReceiver*, "UnityEngine.Playables", "INotificationReceiver");
-// Writing MetadataGetter for method: INotificationReceiver::OnNotify
+// Writing MetadataGetter for method: UnityEngine::Playables::INotificationReceiver::OnNotify
 // Il2CppName: OnNotify
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (INotificationReceiver::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::INotification*, ::Il2CppObject*)>(&INotificationReceiver::OnNotify)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::INotificationReceiver::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::INotification*, ::Il2CppObject*)>(&UnityEngine::Playables::INotificationReceiver::OnNotify)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INotificationReceiver*), "OnNotify", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::INotification*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::INotificationReceiver*), "OnNotify", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::INotification*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };

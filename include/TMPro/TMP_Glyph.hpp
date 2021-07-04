@@ -37,25 +37,25 @@ namespace TMPro {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Glyph*, "TMPro", "TMP_Glyph");
-// Writing MetadataGetter for method: TMP_Glyph::Clone
+// Writing MetadataGetter for method: TMPro::TMP_Glyph::Clone
 // Il2CppName: Clone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Glyph* (*)(TMPro::TMP_Glyph*)>(&TMP_Glyph::Clone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Glyph* (*)(TMPro::TMP_Glyph*)>(&TMPro::TMP_Glyph::Clone)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Glyph*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Glyph*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Glyph*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Glyph*>()});
   }
 };
-// Writing MetadataGetter for method: TMP_Glyph::New_ctor
+// Writing MetadataGetter for method: TMPro::TMP_Glyph::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_Glyph::*)()>(&TMP_Glyph::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Glyph::*)()>(&TMPro::TMP_Glyph::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Glyph*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Glyph*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_Glyph::*)()>(&TMP_Glyph::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Glyph::*)()>(&TMPro::TMP_Glyph::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Glyph*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Glyph*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -63,49 +63,49 @@ namespace Org::BouncyCastle::Math::Field {
   static_assert(sizeof(GF2Polynomial) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Field::GF2Polynomial*, "Org.BouncyCastle.Math.Field", "GF2Polynomial");
-// Writing MetadataGetter for method: GF2Polynomial::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::Field::GF2Polynomial::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GF2Polynomial::*)(::Array<int>*)>(&GF2Polynomial::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::Field::GF2Polynomial::*)(::Array<int>*)>(&Org::BouncyCastle::Math::Field::GF2Polynomial::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GF2Polynomial*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Field::GF2Polynomial*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GF2Polynomial::*)(::Array<int>*)>(&GF2Polynomial::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::Field::GF2Polynomial::*)(::Array<int>*)>(&Org::BouncyCastle::Math::Field::GF2Polynomial::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GF2Polynomial*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Field::GF2Polynomial*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
   }
 };
-// Writing MetadataGetter for method: GF2Polynomial::get_Degree
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::Field::GF2Polynomial::get_Degree
 // Il2CppName: get_Degree
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GF2Polynomial::*)()>(&GF2Polynomial::get_Degree)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Math::Field::GF2Polynomial::*)()>(&Org::BouncyCastle::Math::Field::GF2Polynomial::get_Degree)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GF2Polynomial*), "get_Degree", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Field::GF2Polynomial*), "get_Degree", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GF2Polynomial::GetExponentsPresent
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::Field::GF2Polynomial::GetExponentsPresent
 // Il2CppName: GetExponentsPresent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (GF2Polynomial::*)()>(&GF2Polynomial::GetExponentsPresent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (Org::BouncyCastle::Math::Field::GF2Polynomial::*)()>(&Org::BouncyCastle::Math::Field::GF2Polynomial::GetExponentsPresent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GF2Polynomial*), "GetExponentsPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Field::GF2Polynomial*), "GetExponentsPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GF2Polynomial::Equals
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::Field::GF2Polynomial::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GF2Polynomial::*)(::Il2CppObject*)>(&GF2Polynomial::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Math::Field::GF2Polynomial::*)(::Il2CppObject*)>(&Org::BouncyCastle::Math::Field::GF2Polynomial::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GF2Polynomial*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Field::GF2Polynomial*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: GF2Polynomial::GetHashCode
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::Field::GF2Polynomial::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GF2Polynomial::*)()>(&GF2Polynomial::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Math::Field::GF2Polynomial::*)()>(&Org::BouncyCastle::Math::Field::GF2Polynomial::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GF2Polynomial*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Field::GF2Polynomial*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

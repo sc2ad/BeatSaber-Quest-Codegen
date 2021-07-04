@@ -63,49 +63,49 @@ namespace System::Security::Cryptography {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::TripleDESCryptoServiceProvider*, "System.Security.Cryptography", "TripleDESCryptoServiceProvider");
-// Writing MetadataGetter for method: TripleDESCryptoServiceProvider::New_ctor
+// Writing MetadataGetter for method: System::Security::Cryptography::TripleDESCryptoServiceProvider::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TripleDESCryptoServiceProvider::*)()>(&TripleDESCryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::TripleDESCryptoServiceProvider::*)()>(&System::Security::Cryptography::TripleDESCryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TripleDESCryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::TripleDESCryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TripleDESCryptoServiceProvider::*)()>(&TripleDESCryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::TripleDESCryptoServiceProvider::*)()>(&System::Security::Cryptography::TripleDESCryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TripleDESCryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::TripleDESCryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TripleDESCryptoServiceProvider::CreateEncryptor
+// Writing MetadataGetter for method: System::Security::Cryptography::TripleDESCryptoServiceProvider::CreateEncryptor
 // Il2CppName: CreateEncryptor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (TripleDESCryptoServiceProvider::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&TripleDESCryptoServiceProvider::CreateEncryptor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (System::Security::Cryptography::TripleDESCryptoServiceProvider::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&System::Security::Cryptography::TripleDESCryptoServiceProvider::CreateEncryptor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TripleDESCryptoServiceProvider*), "CreateEncryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::TripleDESCryptoServiceProvider*), "CreateEncryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: TripleDESCryptoServiceProvider::CreateDecryptor
+// Writing MetadataGetter for method: System::Security::Cryptography::TripleDESCryptoServiceProvider::CreateDecryptor
 // Il2CppName: CreateDecryptor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (TripleDESCryptoServiceProvider::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&TripleDESCryptoServiceProvider::CreateDecryptor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (System::Security::Cryptography::TripleDESCryptoServiceProvider::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&System::Security::Cryptography::TripleDESCryptoServiceProvider::CreateDecryptor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TripleDESCryptoServiceProvider*), "CreateDecryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::TripleDESCryptoServiceProvider*), "CreateDecryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: TripleDESCryptoServiceProvider::GenerateKey
+// Writing MetadataGetter for method: System::Security::Cryptography::TripleDESCryptoServiceProvider::GenerateKey
 // Il2CppName: GenerateKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TripleDESCryptoServiceProvider::*)()>(&TripleDESCryptoServiceProvider::GenerateKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::TripleDESCryptoServiceProvider::*)()>(&System::Security::Cryptography::TripleDESCryptoServiceProvider::GenerateKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TripleDESCryptoServiceProvider*), "GenerateKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::TripleDESCryptoServiceProvider*), "GenerateKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TripleDESCryptoServiceProvider::GenerateIV
+// Writing MetadataGetter for method: System::Security::Cryptography::TripleDESCryptoServiceProvider::GenerateIV
 // Il2CppName: GenerateIV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TripleDESCryptoServiceProvider::*)()>(&TripleDESCryptoServiceProvider::GenerateIV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::TripleDESCryptoServiceProvider::*)()>(&System::Security::Cryptography::TripleDESCryptoServiceProvider::GenerateIV)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TripleDESCryptoServiceProvider*), "GenerateIV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::TripleDESCryptoServiceProvider*), "GenerateIV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

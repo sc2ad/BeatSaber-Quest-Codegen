@@ -34,11 +34,11 @@ namespace UnityEngine::EventSystems {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::IUpdateSelectedHandler*, "UnityEngine.EventSystems", "IUpdateSelectedHandler");
-// Writing MetadataGetter for method: IUpdateSelectedHandler::OnUpdateSelected
+// Writing MetadataGetter for method: UnityEngine::EventSystems::IUpdateSelectedHandler::OnUpdateSelected
 // Il2CppName: OnUpdateSelected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IUpdateSelectedHandler::*)(UnityEngine::EventSystems::BaseEventData*)>(&IUpdateSelectedHandler::OnUpdateSelected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::IUpdateSelectedHandler::*)(UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::IUpdateSelectedHandler::OnUpdateSelected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IUpdateSelectedHandler*), "OnUpdateSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::IUpdateSelectedHandler*), "OnUpdateSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
   }
 };

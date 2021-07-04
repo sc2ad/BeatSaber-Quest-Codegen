@@ -75,89 +75,89 @@ namespace System::Security {
   static_assert(sizeof(SecurityDocument) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::SecurityDocument*, "System.Security", "SecurityDocument");
-// Writing MetadataGetter for method: SecurityDocument::New_ctor
+// Writing MetadataGetter for method: System::Security::SecurityDocument::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecurityDocument::*)(int)>(&SecurityDocument::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::SecurityDocument::*)(int)>(&System::Security::SecurityDocument::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecurityDocument*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::SecurityDocument*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecurityDocument::*)(int)>(&SecurityDocument::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::SecurityDocument::*)(int)>(&System::Security::SecurityDocument::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecurityDocument*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::SecurityDocument*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SecurityDocument::GuaranteeSize
+// Writing MetadataGetter for method: System::Security::SecurityDocument::GuaranteeSize
 // Il2CppName: GuaranteeSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecurityDocument::*)(int)>(&SecurityDocument::GuaranteeSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::SecurityDocument::*)(int)>(&System::Security::SecurityDocument::GuaranteeSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecurityDocument*), "GuaranteeSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::SecurityDocument*), "GuaranteeSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SecurityDocument::AddString
+// Writing MetadataGetter for method: System::Security::SecurityDocument::AddString
 // Il2CppName: AddString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecurityDocument::*)(::Il2CppString*, int&)>(&SecurityDocument::AddString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::SecurityDocument::*)(::Il2CppString*, int&)>(&System::Security::SecurityDocument::AddString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecurityDocument*), "AddString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::SecurityDocument*), "AddString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: SecurityDocument::AppendString
+// Writing MetadataGetter for method: System::Security::SecurityDocument::AppendString
 // Il2CppName: AppendString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecurityDocument::*)(::Il2CppString*, int&)>(&SecurityDocument::AppendString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::SecurityDocument::*)(::Il2CppString*, int&)>(&System::Security::SecurityDocument::AppendString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecurityDocument*), "AppendString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::SecurityDocument*), "AppendString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: SecurityDocument::EncodedStringSize
+// Writing MetadataGetter for method: System::Security::SecurityDocument::EncodedStringSize
 // Il2CppName: EncodedStringSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&SecurityDocument::EncodedStringSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&System::Security::SecurityDocument::EncodedStringSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecurityDocument*), "EncodedStringSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::SecurityDocument*), "EncodedStringSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: SecurityDocument::GetString
+// Writing MetadataGetter for method: System::Security::SecurityDocument::GetString
 // Il2CppName: GetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SecurityDocument::*)(int&, bool)>(&SecurityDocument::GetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::SecurityDocument::*)(int&, bool)>(&System::Security::SecurityDocument::GetString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecurityDocument*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::SecurityDocument*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: SecurityDocument::AddToken
+// Writing MetadataGetter for method: System::Security::SecurityDocument::AddToken
 // Il2CppName: AddToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SecurityDocument::*)(uint8_t, int&)>(&SecurityDocument::AddToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::SecurityDocument::*)(uint8_t, int&)>(&System::Security::SecurityDocument::AddToken)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecurityDocument*), "AddToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::SecurityDocument*), "AddToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: SecurityDocument::GetRootElement
+// Writing MetadataGetter for method: System::Security::SecurityDocument::GetRootElement
 // Il2CppName: GetRootElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::SecurityElement* (SecurityDocument::*)()>(&SecurityDocument::GetRootElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::SecurityElement* (System::Security::SecurityDocument::*)()>(&System::Security::SecurityDocument::GetRootElement)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecurityDocument*), "GetRootElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::SecurityDocument*), "GetRootElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SecurityDocument::GetElement
+// Writing MetadataGetter for method: System::Security::SecurityDocument::GetElement
 // Il2CppName: GetElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::SecurityElement* (SecurityDocument::*)(int, bool)>(&SecurityDocument::GetElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::SecurityElement* (System::Security::SecurityDocument::*)(int, bool)>(&System::Security::SecurityDocument::GetElement)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecurityDocument*), "GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::SecurityDocument*), "GetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: SecurityDocument::InternalGetElement
+// Writing MetadataGetter for method: System::Security::SecurityDocument::InternalGetElement
 // Il2CppName: InternalGetElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::SecurityElement* (SecurityDocument::*)(int&, bool)>(&SecurityDocument::InternalGetElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::SecurityElement* (System::Security::SecurityDocument::*)(int&, bool)>(&System::Security::SecurityDocument::InternalGetElement)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SecurityDocument*), "InternalGetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::SecurityDocument*), "InternalGetElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };

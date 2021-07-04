@@ -89,33 +89,33 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(Changelog) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Changelog*, "UnityEngine.ProBuilder", "Changelog");
-// Writing MetadataGetter for method: Changelog::get_entries
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Changelog::get_entries
 // Il2CppName: get_entries
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::ProBuilder::ChangelogEntry*>* (Changelog::*)()>(&Changelog::get_entries)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::ProBuilder::ChangelogEntry*>* (UnityEngine::ProBuilder::Changelog::*)()>(&UnityEngine::ProBuilder::Changelog::get_entries)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Changelog*), "get_entries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Changelog*), "get_entries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Changelog::New_ctor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Changelog::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Changelog::*)(::Il2CppString*)>(&Changelog::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Changelog::*)(::Il2CppString*)>(&UnityEngine::ProBuilder::Changelog::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Changelog*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Changelog*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Changelog::*)(::Il2CppString*)>(&Changelog::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Changelog::*)(::Il2CppString*)>(&UnityEngine::ProBuilder::Changelog::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Changelog*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Changelog*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Changelog::CreateEntry
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Changelog::CreateEntry
 // Il2CppName: CreateEntry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ChangelogEntry* (Changelog::*)(::Il2CppString*, ::Il2CppString*)>(&Changelog::CreateEntry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ChangelogEntry* (UnityEngine::ProBuilder::Changelog::*)(::Il2CppString*, ::Il2CppString*)>(&UnityEngine::ProBuilder::Changelog::CreateEntry)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Changelog*), "CreateEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Changelog*), "CreateEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };

@@ -32,19 +32,19 @@ namespace UnityEngine::Networking {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequestTexture*, "UnityEngine.Networking", "UnityWebRequestTexture");
-// Writing MetadataGetter for method: UnityWebRequestTexture::GetTexture
+// Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequestTexture::GetTexture
 // Il2CppName: GetTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (*)(::Il2CppString*)>(&UnityWebRequestTexture::GetTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (*)(::Il2CppString*)>(&UnityEngine::Networking::UnityWebRequestTexture::GetTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequestTexture*), "GetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequestTexture*), "GetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: UnityWebRequestTexture::GetTexture
+// Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequestTexture::GetTexture
 // Il2CppName: GetTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (*)(::Il2CppString*, bool)>(&UnityWebRequestTexture::GetTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (*)(::Il2CppString*, bool)>(&UnityEngine::Networking::UnityWebRequestTexture::GetTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityWebRequestTexture*), "GetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequestTexture*), "GetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };

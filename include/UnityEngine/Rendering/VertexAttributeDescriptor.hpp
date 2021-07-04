@@ -101,67 +101,67 @@ namespace UnityEngine::Rendering {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::VertexAttributeDescriptor, "UnityEngine.Rendering", "VertexAttributeDescriptor");
-// Writing MetadataGetter for method: VertexAttributeDescriptor::get_attribute
+// Writing MetadataGetter for method: UnityEngine::Rendering::VertexAttributeDescriptor::get_attribute
 // Il2CppName: get_attribute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::VertexAttribute (VertexAttributeDescriptor::*)()>(&VertexAttributeDescriptor::get_attribute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::VertexAttribute (UnityEngine::Rendering::VertexAttributeDescriptor::*)()>(&UnityEngine::Rendering::VertexAttributeDescriptor::get_attribute)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VertexAttributeDescriptor), "get_attribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::VertexAttributeDescriptor), "get_attribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VertexAttributeDescriptor::get_format
+// Writing MetadataGetter for method: UnityEngine::Rendering::VertexAttributeDescriptor::get_format
 // Il2CppName: get_format
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::VertexAttributeFormat (VertexAttributeDescriptor::*)()>(&VertexAttributeDescriptor::get_format)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::VertexAttributeFormat (UnityEngine::Rendering::VertexAttributeDescriptor::*)()>(&UnityEngine::Rendering::VertexAttributeDescriptor::get_format)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VertexAttributeDescriptor), "get_format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::VertexAttributeDescriptor), "get_format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VertexAttributeDescriptor::get_dimension
+// Writing MetadataGetter for method: UnityEngine::Rendering::VertexAttributeDescriptor::get_dimension
 // Il2CppName: get_dimension
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (VertexAttributeDescriptor::*)()>(&VertexAttributeDescriptor::get_dimension)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Rendering::VertexAttributeDescriptor::*)()>(&UnityEngine::Rendering::VertexAttributeDescriptor::get_dimension)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VertexAttributeDescriptor), "get_dimension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::VertexAttributeDescriptor), "get_dimension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VertexAttributeDescriptor::get_stream
+// Writing MetadataGetter for method: UnityEngine::Rendering::VertexAttributeDescriptor::get_stream
 // Il2CppName: get_stream
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (VertexAttributeDescriptor::*)()>(&VertexAttributeDescriptor::get_stream)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Rendering::VertexAttributeDescriptor::*)()>(&UnityEngine::Rendering::VertexAttributeDescriptor::get_stream)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VertexAttributeDescriptor), "get_stream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::VertexAttributeDescriptor), "get_stream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VertexAttributeDescriptor::Equals
+// Writing MetadataGetter for method: UnityEngine::Rendering::VertexAttributeDescriptor::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VertexAttributeDescriptor::*)(UnityEngine::Rendering::VertexAttributeDescriptor)>(&VertexAttributeDescriptor::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Rendering::VertexAttributeDescriptor::*)(UnityEngine::Rendering::VertexAttributeDescriptor)>(&UnityEngine::Rendering::VertexAttributeDescriptor::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VertexAttributeDescriptor), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::VertexAttributeDescriptor>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::VertexAttributeDescriptor), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::VertexAttributeDescriptor>()});
   }
 };
-// Writing MetadataGetter for method: VertexAttributeDescriptor::ToString
+// Writing MetadataGetter for method: UnityEngine::Rendering::VertexAttributeDescriptor::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (VertexAttributeDescriptor::*)()>(&VertexAttributeDescriptor::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Rendering::VertexAttributeDescriptor::*)()>(&UnityEngine::Rendering::VertexAttributeDescriptor::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VertexAttributeDescriptor), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::VertexAttributeDescriptor), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VertexAttributeDescriptor::GetHashCode
+// Writing MetadataGetter for method: UnityEngine::Rendering::VertexAttributeDescriptor::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (VertexAttributeDescriptor::*)()>(&VertexAttributeDescriptor::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Rendering::VertexAttributeDescriptor::*)()>(&UnityEngine::Rendering::VertexAttributeDescriptor::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VertexAttributeDescriptor), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::VertexAttributeDescriptor), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VertexAttributeDescriptor::Equals
+// Writing MetadataGetter for method: UnityEngine::Rendering::VertexAttributeDescriptor::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VertexAttributeDescriptor::*)(::Il2CppObject*)>(&VertexAttributeDescriptor::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Rendering::VertexAttributeDescriptor::*)(::Il2CppObject*)>(&UnityEngine::Rendering::VertexAttributeDescriptor::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VertexAttributeDescriptor), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::VertexAttributeDescriptor), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };

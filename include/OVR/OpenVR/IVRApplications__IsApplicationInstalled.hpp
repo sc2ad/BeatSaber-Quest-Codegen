@@ -52,41 +52,41 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRApplications::_IsApplicationInstalled*, "OVR.OpenVR", "IVRApplications/_IsApplicationInstalled");
-// Writing MetadataGetter for method: IVRApplications::_IsApplicationInstalled::New_ctor
+// Writing MetadataGetter for method: OVR::OpenVR::IVRApplications::_IsApplicationInstalled::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRApplications::_IsApplicationInstalled::*)(::Il2CppObject*, System::IntPtr)>(&IVRApplications::_IsApplicationInstalled::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRApplications::_IsApplicationInstalled::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVRApplications::_IsApplicationInstalled::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRApplications::_IsApplicationInstalled*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRApplications::_IsApplicationInstalled*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRApplications::_IsApplicationInstalled::*)(::Il2CppObject*, System::IntPtr)>(&IVRApplications::_IsApplicationInstalled::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRApplications::_IsApplicationInstalled::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVRApplications::_IsApplicationInstalled::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRApplications::_IsApplicationInstalled*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRApplications::_IsApplicationInstalled*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: IVRApplications::_IsApplicationInstalled::Invoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRApplications::_IsApplicationInstalled::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IVRApplications::_IsApplicationInstalled::*)(::Il2CppString*)>(&IVRApplications::_IsApplicationInstalled::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::IVRApplications::_IsApplicationInstalled::*)(::Il2CppString*)>(&OVR::OpenVR::IVRApplications::_IsApplicationInstalled::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRApplications::_IsApplicationInstalled*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRApplications::_IsApplicationInstalled*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: IVRApplications::_IsApplicationInstalled::BeginInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRApplications::_IsApplicationInstalled::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRApplications::_IsApplicationInstalled::*)(::Il2CppString*, System::AsyncCallback*, ::Il2CppObject*)>(&IVRApplications::_IsApplicationInstalled::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRApplications::_IsApplicationInstalled::*)(::Il2CppString*, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRApplications::_IsApplicationInstalled::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRApplications::_IsApplicationInstalled*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRApplications::_IsApplicationInstalled*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IVRApplications::_IsApplicationInstalled::EndInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRApplications::_IsApplicationInstalled::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IVRApplications::_IsApplicationInstalled::*)(System::IAsyncResult*)>(&IVRApplications::_IsApplicationInstalled::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::IVRApplications::_IsApplicationInstalled::*)(System::IAsyncResult*)>(&OVR::OpenVR::IVRApplications::_IsApplicationInstalled::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRApplications::_IsApplicationInstalled*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRApplications::_IsApplicationInstalled*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

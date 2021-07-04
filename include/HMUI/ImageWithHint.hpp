@@ -79,41 +79,41 @@ namespace HMUI {
   static_assert(sizeof(ImageWithHint) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ImageWithHint*, "HMUI", "ImageWithHint");
-// Writing MetadataGetter for method: ImageWithHint::set_sprite
+// Writing MetadataGetter for method: HMUI::ImageWithHint::set_sprite
 // Il2CppName: set_sprite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ImageWithHint::*)(UnityEngine::Sprite*)>(&ImageWithHint::set_sprite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ImageWithHint::*)(UnityEngine::Sprite*)>(&HMUI::ImageWithHint::set_sprite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ImageWithHint*), "set_sprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ImageWithHint*), "set_sprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>()});
   }
 };
-// Writing MetadataGetter for method: ImageWithHint::get_sprite
+// Writing MetadataGetter for method: HMUI::ImageWithHint::get_sprite
 // Il2CppName: get_sprite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (ImageWithHint::*)()>(&ImageWithHint::get_sprite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (HMUI::ImageWithHint::*)()>(&HMUI::ImageWithHint::get_sprite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ImageWithHint*), "get_sprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ImageWithHint*), "get_sprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ImageWithHint::set_hintText
+// Writing MetadataGetter for method: HMUI::ImageWithHint::set_hintText
 // Il2CppName: set_hintText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ImageWithHint::*)(::Il2CppString*)>(&ImageWithHint::set_hintText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ImageWithHint::*)(::Il2CppString*)>(&HMUI::ImageWithHint::set_hintText)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ImageWithHint*), "set_hintText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ImageWithHint*), "set_hintText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: ImageWithHint::New_ctor
+// Writing MetadataGetter for method: HMUI::ImageWithHint::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ImageWithHint::*)()>(&ImageWithHint::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ImageWithHint::*)()>(&HMUI::ImageWithHint::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ImageWithHint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ImageWithHint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ImageWithHint::*)()>(&ImageWithHint::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ImageWithHint::*)()>(&HMUI::ImageWithHint::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ImageWithHint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ImageWithHint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

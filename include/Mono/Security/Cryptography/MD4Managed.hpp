@@ -117,129 +117,129 @@ namespace Mono::Security::Cryptography {
   static_assert(sizeof(MD4Managed) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::MD4Managed*, "Mono.Security.Cryptography", "MD4Managed");
-// Writing MetadataGetter for method: MD4Managed::Padding
+// Writing MetadataGetter for method: Mono::Security::Cryptography::MD4Managed::Padding
 // Il2CppName: Padding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (MD4Managed::*)(int)>(&MD4Managed::Padding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::Cryptography::MD4Managed::*)(int)>(&Mono::Security::Cryptography::MD4Managed::Padding)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MD4Managed*), "Padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD4Managed*), "Padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: MD4Managed::F
+// Writing MetadataGetter for method: Mono::Security::Cryptography::MD4Managed::F
 // Il2CppName: F
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (MD4Managed::*)(uint, uint, uint)>(&MD4Managed::F)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Mono::Security::Cryptography::MD4Managed::*)(uint, uint, uint)>(&Mono::Security::Cryptography::MD4Managed::F)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MD4Managed*), "F", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD4Managed*), "F", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: MD4Managed::G
+// Writing MetadataGetter for method: Mono::Security::Cryptography::MD4Managed::G
 // Il2CppName: G
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (MD4Managed::*)(uint, uint, uint)>(&MD4Managed::G)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Mono::Security::Cryptography::MD4Managed::*)(uint, uint, uint)>(&Mono::Security::Cryptography::MD4Managed::G)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MD4Managed*), "G", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD4Managed*), "G", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: MD4Managed::H
+// Writing MetadataGetter for method: Mono::Security::Cryptography::MD4Managed::H
 // Il2CppName: H
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (MD4Managed::*)(uint, uint, uint)>(&MD4Managed::H)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Mono::Security::Cryptography::MD4Managed::*)(uint, uint, uint)>(&Mono::Security::Cryptography::MD4Managed::H)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MD4Managed*), "H", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD4Managed*), "H", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: MD4Managed::ROL
+// Writing MetadataGetter for method: Mono::Security::Cryptography::MD4Managed::ROL
 // Il2CppName: ROL
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (MD4Managed::*)(uint, uint8_t)>(&MD4Managed::ROL)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Mono::Security::Cryptography::MD4Managed::*)(uint, uint8_t)>(&Mono::Security::Cryptography::MD4Managed::ROL)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MD4Managed*), "ROL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD4Managed*), "ROL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
   }
 };
-// Writing MetadataGetter for method: MD4Managed::FF
+// Writing MetadataGetter for method: Mono::Security::Cryptography::MD4Managed::FF
 // Il2CppName: FF
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MD4Managed::*)(uint&, uint, uint, uint, uint, uint8_t)>(&MD4Managed::FF)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD4Managed::*)(uint&, uint, uint, uint, uint, uint8_t)>(&Mono::Security::Cryptography::MD4Managed::FF)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MD4Managed*), "FF", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD4Managed*), "FF", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
   }
 };
-// Writing MetadataGetter for method: MD4Managed::GG
+// Writing MetadataGetter for method: Mono::Security::Cryptography::MD4Managed::GG
 // Il2CppName: GG
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MD4Managed::*)(uint&, uint, uint, uint, uint, uint8_t)>(&MD4Managed::GG)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD4Managed::*)(uint&, uint, uint, uint, uint, uint8_t)>(&Mono::Security::Cryptography::MD4Managed::GG)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MD4Managed*), "GG", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD4Managed*), "GG", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
   }
 };
-// Writing MetadataGetter for method: MD4Managed::HH
+// Writing MetadataGetter for method: Mono::Security::Cryptography::MD4Managed::HH
 // Il2CppName: HH
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MD4Managed::*)(uint&, uint, uint, uint, uint, uint8_t)>(&MD4Managed::HH)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD4Managed::*)(uint&, uint, uint, uint, uint, uint8_t)>(&Mono::Security::Cryptography::MD4Managed::HH)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MD4Managed*), "HH", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD4Managed*), "HH", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
   }
 };
-// Writing MetadataGetter for method: MD4Managed::Encode
+// Writing MetadataGetter for method: Mono::Security::Cryptography::MD4Managed::Encode
 // Il2CppName: Encode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MD4Managed::*)(::Array<uint8_t>*, ::Array<uint>*)>(&MD4Managed::Encode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD4Managed::*)(::Array<uint8_t>*, ::Array<uint>*)>(&Mono::Security::Cryptography::MD4Managed::Encode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MD4Managed*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD4Managed*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>()});
   }
 };
-// Writing MetadataGetter for method: MD4Managed::Decode
+// Writing MetadataGetter for method: Mono::Security::Cryptography::MD4Managed::Decode
 // Il2CppName: Decode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MD4Managed::*)(::Array<uint>*, ::Array<uint8_t>*, int)>(&MD4Managed::Decode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD4Managed::*)(::Array<uint>*, ::Array<uint8_t>*, int)>(&Mono::Security::Cryptography::MD4Managed::Decode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MD4Managed*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD4Managed*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: MD4Managed::MD4Transform
+// Writing MetadataGetter for method: Mono::Security::Cryptography::MD4Managed::MD4Transform
 // Il2CppName: MD4Transform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MD4Managed::*)(::Array<uint>*, ::Array<uint8_t>*, int)>(&MD4Managed::MD4Transform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD4Managed::*)(::Array<uint>*, ::Array<uint8_t>*, int)>(&Mono::Security::Cryptography::MD4Managed::MD4Transform)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MD4Managed*), "MD4Transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD4Managed*), "MD4Transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: MD4Managed::New_ctor
+// Writing MetadataGetter for method: Mono::Security::Cryptography::MD4Managed::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MD4Managed::*)()>(&MD4Managed::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD4Managed::*)()>(&Mono::Security::Cryptography::MD4Managed::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MD4Managed*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD4Managed*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MD4Managed::*)()>(&MD4Managed::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD4Managed::*)()>(&Mono::Security::Cryptography::MD4Managed::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MD4Managed*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD4Managed*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MD4Managed::Initialize
+// Writing MetadataGetter for method: Mono::Security::Cryptography::MD4Managed::Initialize
 // Il2CppName: Initialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MD4Managed::*)()>(&MD4Managed::Initialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD4Managed::*)()>(&Mono::Security::Cryptography::MD4Managed::Initialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MD4Managed*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD4Managed*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MD4Managed::HashCore
+// Writing MetadataGetter for method: Mono::Security::Cryptography::MD4Managed::HashCore
 // Il2CppName: HashCore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MD4Managed::*)(::Array<uint8_t>*, int, int)>(&MD4Managed::HashCore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD4Managed::*)(::Array<uint8_t>*, int, int)>(&Mono::Security::Cryptography::MD4Managed::HashCore)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MD4Managed*), "HashCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD4Managed*), "HashCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: MD4Managed::HashFinal
+// Writing MetadataGetter for method: Mono::Security::Cryptography::MD4Managed::HashFinal
 // Il2CppName: HashFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (MD4Managed::*)()>(&MD4Managed::HashFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::Cryptography::MD4Managed::*)()>(&Mono::Security::Cryptography::MD4Managed::HashFinal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MD4Managed*), "HashFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD4Managed*), "HashFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

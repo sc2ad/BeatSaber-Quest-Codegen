@@ -183,217 +183,217 @@ namespace Org::BouncyCastle::Crypto::Engines {
   static_assert(sizeof(TwofishEngine) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::TwofishEngine*, "Org.BouncyCastle.Crypto.Engines", "TwofishEngine");
-// Writing MetadataGetter for method: TwofishEngine::Init
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TwofishEngine::*)(bool, Org::BouncyCastle::Crypto::ICipherParameters*)>(&TwofishEngine::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(bool, Org::BouncyCastle::Crypto::ICipherParameters*)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwofishEngine*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::ICipherParameters*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TwofishEngine*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::ICipherParameters*>()});
   }
 };
-// Writing MetadataGetter for method: TwofishEngine::get_AlgorithmName
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::get_AlgorithmName
 // Il2CppName: get_AlgorithmName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TwofishEngine::*)()>(&TwofishEngine::get_AlgorithmName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)()>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::get_AlgorithmName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwofishEngine*), "get_AlgorithmName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TwofishEngine*), "get_AlgorithmName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TwofishEngine::get_IsPartialBlockOkay
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::get_IsPartialBlockOkay
 // Il2CppName: get_IsPartialBlockOkay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TwofishEngine::*)()>(&TwofishEngine::get_IsPartialBlockOkay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)()>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::get_IsPartialBlockOkay)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwofishEngine*), "get_IsPartialBlockOkay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TwofishEngine*), "get_IsPartialBlockOkay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TwofishEngine::ProcessBlock
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::ProcessBlock
 // Il2CppName: ProcessBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TwofishEngine::*)(::Array<uint8_t>*, int, ::Array<uint8_t>*, int)>(&TwofishEngine::ProcessBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(::Array<uint8_t>*, int, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::ProcessBlock)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwofishEngine*), "ProcessBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TwofishEngine*), "ProcessBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TwofishEngine::Reset
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::Reset
 // Il2CppName: Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TwofishEngine::*)()>(&TwofishEngine::Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)()>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwofishEngine*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TwofishEngine*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TwofishEngine::GetBlockSize
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::GetBlockSize
 // Il2CppName: GetBlockSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TwofishEngine::*)()>(&TwofishEngine::GetBlockSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)()>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::GetBlockSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwofishEngine*), "GetBlockSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TwofishEngine*), "GetBlockSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TwofishEngine::SetKey
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::SetKey
 // Il2CppName: SetKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TwofishEngine::*)(::Array<uint8_t>*)>(&TwofishEngine::SetKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::SetKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwofishEngine*), "SetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TwofishEngine*), "SetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: TwofishEngine::EncryptBlock
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::EncryptBlock
 // Il2CppName: EncryptBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TwofishEngine::*)(::Array<uint8_t>*, int, ::Array<uint8_t>*, int)>(&TwofishEngine::EncryptBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(::Array<uint8_t>*, int, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::EncryptBlock)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwofishEngine*), "EncryptBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TwofishEngine*), "EncryptBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TwofishEngine::DecryptBlock
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::DecryptBlock
 // Il2CppName: DecryptBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TwofishEngine::*)(::Array<uint8_t>*, int, ::Array<uint8_t>*, int)>(&TwofishEngine::DecryptBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(::Array<uint8_t>*, int, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::DecryptBlock)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwofishEngine*), "DecryptBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TwofishEngine*), "DecryptBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TwofishEngine::F32
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::F32
 // Il2CppName: F32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TwofishEngine::*)(int, ::Array<int>*)>(&TwofishEngine::F32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(int, ::Array<int>*)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::F32)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwofishEngine*), "F32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TwofishEngine*), "F32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
   }
 };
-// Writing MetadataGetter for method: TwofishEngine::RS_MDS_Encode
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::RS_MDS_Encode
 // Il2CppName: RS_MDS_Encode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TwofishEngine::*)(int, int)>(&TwofishEngine::RS_MDS_Encode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(int, int)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::RS_MDS_Encode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwofishEngine*), "RS_MDS_Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TwofishEngine*), "RS_MDS_Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TwofishEngine::RS_rem
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::RS_rem
 // Il2CppName: RS_rem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TwofishEngine::*)(int)>(&TwofishEngine::RS_rem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(int)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::RS_rem)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwofishEngine*), "RS_rem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TwofishEngine*), "RS_rem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TwofishEngine::LFSR1
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::LFSR1
 // Il2CppName: LFSR1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TwofishEngine::*)(int)>(&TwofishEngine::LFSR1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(int)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::LFSR1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwofishEngine*), "LFSR1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TwofishEngine*), "LFSR1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TwofishEngine::LFSR2
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::LFSR2
 // Il2CppName: LFSR2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TwofishEngine::*)(int)>(&TwofishEngine::LFSR2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(int)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::LFSR2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwofishEngine*), "LFSR2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TwofishEngine*), "LFSR2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TwofishEngine::Mx_X
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::Mx_X
 // Il2CppName: Mx_X
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TwofishEngine::*)(int)>(&TwofishEngine::Mx_X)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(int)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::Mx_X)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwofishEngine*), "Mx_X", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TwofishEngine*), "Mx_X", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TwofishEngine::Mx_Y
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::Mx_Y
 // Il2CppName: Mx_Y
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TwofishEngine::*)(int)>(&TwofishEngine::Mx_Y)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(int)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::Mx_Y)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwofishEngine*), "Mx_Y", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TwofishEngine*), "Mx_Y", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TwofishEngine::M_b0
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::M_b0
 // Il2CppName: M_b0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TwofishEngine::*)(int)>(&TwofishEngine::M_b0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(int)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::M_b0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwofishEngine*), "M_b0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TwofishEngine*), "M_b0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TwofishEngine::M_b1
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::M_b1
 // Il2CppName: M_b1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TwofishEngine::*)(int)>(&TwofishEngine::M_b1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(int)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::M_b1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwofishEngine*), "M_b1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TwofishEngine*), "M_b1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TwofishEngine::M_b2
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::M_b2
 // Il2CppName: M_b2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TwofishEngine::*)(int)>(&TwofishEngine::M_b2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(int)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::M_b2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwofishEngine*), "M_b2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TwofishEngine*), "M_b2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TwofishEngine::M_b3
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::M_b3
 // Il2CppName: M_b3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TwofishEngine::*)(int)>(&TwofishEngine::M_b3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(int)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::M_b3)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwofishEngine*), "M_b3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TwofishEngine*), "M_b3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TwofishEngine::Fe32_0
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::Fe32_0
 // Il2CppName: Fe32_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TwofishEngine::*)(int)>(&TwofishEngine::Fe32_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(int)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::Fe32_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwofishEngine*), "Fe32_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TwofishEngine*), "Fe32_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TwofishEngine::Fe32_3
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::Fe32_3
 // Il2CppName: Fe32_3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TwofishEngine::*)(int)>(&TwofishEngine::Fe32_3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(int)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::Fe32_3)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwofishEngine*), "Fe32_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TwofishEngine*), "Fe32_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TwofishEngine::BytesTo32Bits
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::BytesTo32Bits
 // Il2CppName: BytesTo32Bits
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TwofishEngine::*)(::Array<uint8_t>*, int)>(&TwofishEngine::BytesTo32Bits)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::BytesTo32Bits)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwofishEngine*), "BytesTo32Bits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TwofishEngine*), "BytesTo32Bits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TwofishEngine::Bits32ToBytes
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::Bits32ToBytes
 // Il2CppName: Bits32ToBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TwofishEngine::*)(int, ::Array<uint8_t>*, int)>(&TwofishEngine::Bits32ToBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(int, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::Bits32ToBytes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwofishEngine*), "Bits32ToBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TwofishEngine*), "Bits32ToBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TwofishEngine::_cctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TwofishEngine::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwofishEngine*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TwofishEngine*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TwofishEngine::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TwofishEngine::*)()>(&TwofishEngine::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)()>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwofishEngine*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TwofishEngine*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TwofishEngine::*)()>(&TwofishEngine::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)()>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwofishEngine*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TwofishEngine*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

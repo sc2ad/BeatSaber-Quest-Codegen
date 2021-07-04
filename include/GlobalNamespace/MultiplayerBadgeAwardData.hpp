@@ -107,65 +107,65 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerBadgeAwardData) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBadgeAwardData*, "", "MultiplayerBadgeAwardData");
-// Writing MetadataGetter for method: MultiplayerBadgeAwardData::get_awardedPlayer
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeAwardData::get_awardedPlayer
 // Il2CppName: get_awardedPlayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnectedPlayer* (MultiplayerBadgeAwardData::*)()>(&MultiplayerBadgeAwardData::get_awardedPlayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnectedPlayer* (GlobalNamespace::MultiplayerBadgeAwardData::*)()>(&GlobalNamespace::MultiplayerBadgeAwardData::get_awardedPlayer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerBadgeAwardData*), "get_awardedPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerBadgeAwardData*), "get_awardedPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerBadgeAwardData::get_titleLocalizationKey
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeAwardData::get_titleLocalizationKey
 // Il2CppName: get_titleLocalizationKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MultiplayerBadgeAwardData::*)()>(&MultiplayerBadgeAwardData::get_titleLocalizationKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MultiplayerBadgeAwardData::*)()>(&GlobalNamespace::MultiplayerBadgeAwardData::get_titleLocalizationKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerBadgeAwardData*), "get_titleLocalizationKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerBadgeAwardData*), "get_titleLocalizationKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerBadgeAwardData::get_title
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeAwardData::get_title
 // Il2CppName: get_title
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MultiplayerBadgeAwardData::*)()>(&MultiplayerBadgeAwardData::get_title)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MultiplayerBadgeAwardData::*)()>(&GlobalNamespace::MultiplayerBadgeAwardData::get_title)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerBadgeAwardData*), "get_title", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerBadgeAwardData*), "get_title", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerBadgeAwardData::get_subtitle
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeAwardData::get_subtitle
 // Il2CppName: get_subtitle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MultiplayerBadgeAwardData::*)()>(&MultiplayerBadgeAwardData::get_subtitle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MultiplayerBadgeAwardData::*)()>(&GlobalNamespace::MultiplayerBadgeAwardData::get_subtitle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerBadgeAwardData*), "get_subtitle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerBadgeAwardData*), "get_subtitle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerBadgeAwardData::get_icon
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeAwardData::get_icon
 // Il2CppName: get_icon
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (MultiplayerBadgeAwardData::*)()>(&MultiplayerBadgeAwardData::get_icon)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (GlobalNamespace::MultiplayerBadgeAwardData::*)()>(&GlobalNamespace::MultiplayerBadgeAwardData::get_icon)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerBadgeAwardData*), "get_icon", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerBadgeAwardData*), "get_icon", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerBadgeAwardData::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeAwardData::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerBadgeAwardData::*)(GlobalNamespace::IConnectedPlayer*, float, ::Il2CppString*, ::Il2CppString*, GlobalNamespace::MultiplayerBadgeDataSO*)>(&MultiplayerBadgeAwardData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerBadgeAwardData::*)(GlobalNamespace::IConnectedPlayer*, float, ::Il2CppString*, ::Il2CppString*, GlobalNamespace::MultiplayerBadgeDataSO*)>(&GlobalNamespace::MultiplayerBadgeAwardData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerBadgeAwardData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerBadgeDataSO*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerBadgeAwardData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerBadgeDataSO*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerBadgeAwardData::*)(GlobalNamespace::IConnectedPlayer*, float, ::Il2CppString*, ::Il2CppString*, GlobalNamespace::MultiplayerBadgeDataSO*)>(&MultiplayerBadgeAwardData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerBadgeAwardData::*)(GlobalNamespace::IConnectedPlayer*, float, ::Il2CppString*, ::Il2CppString*, GlobalNamespace::MultiplayerBadgeDataSO*)>(&GlobalNamespace::MultiplayerBadgeAwardData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerBadgeAwardData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerBadgeDataSO*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerBadgeAwardData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerBadgeDataSO*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerBadgeAwardData::CompareTo
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeAwardData::CompareTo
 // Il2CppName: CompareTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MultiplayerBadgeAwardData::*)(::Il2CppObject*)>(&MultiplayerBadgeAwardData::CompareTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MultiplayerBadgeAwardData::*)(::Il2CppObject*)>(&GlobalNamespace::MultiplayerBadgeAwardData::CompareTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerBadgeAwardData*), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerBadgeAwardData*), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };

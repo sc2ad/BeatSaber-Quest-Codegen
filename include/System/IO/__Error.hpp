@@ -58,107 +58,107 @@ namespace System::IO {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::__Error*, "System.IO", "__Error");
-// Writing MetadataGetter for method: __Error::EndOfFile
+// Writing MetadataGetter for method: System::IO::__Error::EndOfFile
 // Il2CppName: EndOfFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&__Error::EndOfFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::IO::__Error::EndOfFile)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(__Error*), "EndOfFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::__Error*), "EndOfFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: __Error::FileNotOpen
+// Writing MetadataGetter for method: System::IO::__Error::FileNotOpen
 // Il2CppName: FileNotOpen
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&__Error::FileNotOpen)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::IO::__Error::FileNotOpen)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(__Error*), "FileNotOpen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::__Error*), "FileNotOpen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: __Error::StreamIsClosed
+// Writing MetadataGetter for method: System::IO::__Error::StreamIsClosed
 // Il2CppName: StreamIsClosed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&__Error::StreamIsClosed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::IO::__Error::StreamIsClosed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(__Error*), "StreamIsClosed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::__Error*), "StreamIsClosed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: __Error::MemoryStreamNotExpandable
+// Writing MetadataGetter for method: System::IO::__Error::MemoryStreamNotExpandable
 // Il2CppName: MemoryStreamNotExpandable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&__Error::MemoryStreamNotExpandable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::IO::__Error::MemoryStreamNotExpandable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(__Error*), "MemoryStreamNotExpandable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::__Error*), "MemoryStreamNotExpandable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: __Error::ReaderClosed
+// Writing MetadataGetter for method: System::IO::__Error::ReaderClosed
 // Il2CppName: ReaderClosed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&__Error::ReaderClosed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::IO::__Error::ReaderClosed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(__Error*), "ReaderClosed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::__Error*), "ReaderClosed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: __Error::ReadNotSupported
+// Writing MetadataGetter for method: System::IO::__Error::ReadNotSupported
 // Il2CppName: ReadNotSupported
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&__Error::ReadNotSupported)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::IO::__Error::ReadNotSupported)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(__Error*), "ReadNotSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::__Error*), "ReadNotSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: __Error::WrongAsyncResult
+// Writing MetadataGetter for method: System::IO::__Error::WrongAsyncResult
 // Il2CppName: WrongAsyncResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&__Error::WrongAsyncResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::IO::__Error::WrongAsyncResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(__Error*), "WrongAsyncResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::__Error*), "WrongAsyncResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: __Error::EndReadCalledTwice
+// Writing MetadataGetter for method: System::IO::__Error::EndReadCalledTwice
 // Il2CppName: EndReadCalledTwice
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&__Error::EndReadCalledTwice)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::IO::__Error::EndReadCalledTwice)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(__Error*), "EndReadCalledTwice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::__Error*), "EndReadCalledTwice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: __Error::EndWriteCalledTwice
+// Writing MetadataGetter for method: System::IO::__Error::EndWriteCalledTwice
 // Il2CppName: EndWriteCalledTwice
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&__Error::EndWriteCalledTwice)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::IO::__Error::EndWriteCalledTwice)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(__Error*), "EndWriteCalledTwice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::__Error*), "EndWriteCalledTwice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: __Error::GetDisplayablePath
+// Writing MetadataGetter for method: System::IO::__Error::GetDisplayablePath
 // Il2CppName: GetDisplayablePath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, bool)>(&__Error::GetDisplayablePath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, bool)>(&System::IO::__Error::GetDisplayablePath)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(__Error*), "GetDisplayablePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::__Error*), "GetDisplayablePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: __Error::WinIOError
+// Writing MetadataGetter for method: System::IO::__Error::WinIOError
 // Il2CppName: WinIOError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Il2CppString*)>(&__Error::WinIOError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Il2CppString*)>(&System::IO::__Error::WinIOError)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(__Error*), "WinIOError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::__Error*), "WinIOError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: __Error::WriteNotSupported
+// Writing MetadataGetter for method: System::IO::__Error::WriteNotSupported
 // Il2CppName: WriteNotSupported
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&__Error::WriteNotSupported)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::IO::__Error::WriteNotSupported)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(__Error*), "WriteNotSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::__Error*), "WriteNotSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: __Error::WriterClosed
+// Writing MetadataGetter for method: System::IO::__Error::WriterClosed
 // Il2CppName: WriterClosed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&__Error::WriterClosed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::IO::__Error::WriterClosed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(__Error*), "WriterClosed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::__Error*), "WriterClosed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

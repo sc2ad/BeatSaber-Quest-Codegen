@@ -122,145 +122,145 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(SHA384Managed) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SHA384Managed*, "System.Security.Cryptography", "SHA384Managed");
-// Writing MetadataGetter for method: SHA384Managed::InitializeState
+// Writing MetadataGetter for method: System::Security::Cryptography::SHA384Managed::InitializeState
 // Il2CppName: InitializeState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SHA384Managed::*)()>(&SHA384Managed::InitializeState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SHA384Managed::*)()>(&System::Security::Cryptography::SHA384Managed::InitializeState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SHA384Managed*), "InitializeState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA384Managed*), "InitializeState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SHA384Managed::_HashData
+// Writing MetadataGetter for method: System::Security::Cryptography::SHA384Managed::_HashData
 // Il2CppName: _HashData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SHA384Managed::*)(::Array<uint8_t>*, int, int)>(&SHA384Managed::_HashData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SHA384Managed::*)(::Array<uint8_t>*, int, int)>(&System::Security::Cryptography::SHA384Managed::_HashData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SHA384Managed*), "_HashData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA384Managed*), "_HashData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SHA384Managed::_EndHash
+// Writing MetadataGetter for method: System::Security::Cryptography::SHA384Managed::_EndHash
 // Il2CppName: _EndHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (SHA384Managed::*)()>(&SHA384Managed::_EndHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Security::Cryptography::SHA384Managed::*)()>(&System::Security::Cryptography::SHA384Managed::_EndHash)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SHA384Managed*), "_EndHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA384Managed*), "_EndHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SHA384Managed::SHATransform
+// Writing MetadataGetter for method: System::Security::Cryptography::SHA384Managed::SHATransform
 // Il2CppName: SHATransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t*, uint64_t*, uint8_t*)>(&SHA384Managed::SHATransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t*, uint64_t*, uint8_t*)>(&System::Security::Cryptography::SHA384Managed::SHATransform)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SHA384Managed*), "SHATransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA384Managed*), "SHATransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>()});
   }
 };
-// Writing MetadataGetter for method: SHA384Managed::RotateRight
+// Writing MetadataGetter for method: System::Security::Cryptography::SHA384Managed::RotateRight
 // Il2CppName: RotateRight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, int)>(&SHA384Managed::RotateRight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, int)>(&System::Security::Cryptography::SHA384Managed::RotateRight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SHA384Managed*), "RotateRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA384Managed*), "RotateRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SHA384Managed::Ch
+// Writing MetadataGetter for method: System::Security::Cryptography::SHA384Managed::Ch
 // Il2CppName: Ch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, uint64_t, uint64_t)>(&SHA384Managed::Ch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, uint64_t, uint64_t)>(&System::Security::Cryptography::SHA384Managed::Ch)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SHA384Managed*), "Ch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA384Managed*), "Ch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: SHA384Managed::Maj
+// Writing MetadataGetter for method: System::Security::Cryptography::SHA384Managed::Maj
 // Il2CppName: Maj
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, uint64_t, uint64_t)>(&SHA384Managed::Maj)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, uint64_t, uint64_t)>(&System::Security::Cryptography::SHA384Managed::Maj)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SHA384Managed*), "Maj", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA384Managed*), "Maj", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: SHA384Managed::Sigma_0
+// Writing MetadataGetter for method: System::Security::Cryptography::SHA384Managed::Sigma_0
 // Il2CppName: Sigma_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&SHA384Managed::Sigma_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&System::Security::Cryptography::SHA384Managed::Sigma_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SHA384Managed*), "Sigma_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA384Managed*), "Sigma_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: SHA384Managed::Sigma_1
+// Writing MetadataGetter for method: System::Security::Cryptography::SHA384Managed::Sigma_1
 // Il2CppName: Sigma_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&SHA384Managed::Sigma_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&System::Security::Cryptography::SHA384Managed::Sigma_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SHA384Managed*), "Sigma_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA384Managed*), "Sigma_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: SHA384Managed::sigma_0
+// Writing MetadataGetter for method: System::Security::Cryptography::SHA384Managed::sigma_0
 // Il2CppName: sigma_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&SHA384Managed::sigma_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&System::Security::Cryptography::SHA384Managed::sigma_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SHA384Managed*), "sigma_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA384Managed*), "sigma_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: SHA384Managed::sigma_1
+// Writing MetadataGetter for method: System::Security::Cryptography::SHA384Managed::sigma_1
 // Il2CppName: sigma_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&SHA384Managed::sigma_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&System::Security::Cryptography::SHA384Managed::sigma_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SHA384Managed*), "sigma_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA384Managed*), "sigma_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: SHA384Managed::SHA384Expand
+// Writing MetadataGetter for method: System::Security::Cryptography::SHA384Managed::SHA384Expand
 // Il2CppName: SHA384Expand
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t*)>(&SHA384Managed::SHA384Expand)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t*)>(&System::Security::Cryptography::SHA384Managed::SHA384Expand)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SHA384Managed*), "SHA384Expand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA384Managed*), "SHA384Expand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t*>()});
   }
 };
-// Writing MetadataGetter for method: SHA384Managed::_cctor
+// Writing MetadataGetter for method: System::Security::Cryptography::SHA384Managed::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SHA384Managed::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Security::Cryptography::SHA384Managed::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SHA384Managed*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA384Managed*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SHA384Managed::New_ctor
+// Writing MetadataGetter for method: System::Security::Cryptography::SHA384Managed::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SHA384Managed::*)()>(&SHA384Managed::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SHA384Managed::*)()>(&System::Security::Cryptography::SHA384Managed::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SHA384Managed*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA384Managed*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SHA384Managed::*)()>(&SHA384Managed::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SHA384Managed::*)()>(&System::Security::Cryptography::SHA384Managed::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SHA384Managed*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA384Managed*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SHA384Managed::Initialize
+// Writing MetadataGetter for method: System::Security::Cryptography::SHA384Managed::Initialize
 // Il2CppName: Initialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SHA384Managed::*)()>(&SHA384Managed::Initialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SHA384Managed::*)()>(&System::Security::Cryptography::SHA384Managed::Initialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SHA384Managed*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA384Managed*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SHA384Managed::HashCore
+// Writing MetadataGetter for method: System::Security::Cryptography::SHA384Managed::HashCore
 // Il2CppName: HashCore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SHA384Managed::*)(::Array<uint8_t>*, int, int)>(&SHA384Managed::HashCore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SHA384Managed::*)(::Array<uint8_t>*, int, int)>(&System::Security::Cryptography::SHA384Managed::HashCore)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SHA384Managed*), "HashCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA384Managed*), "HashCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SHA384Managed::HashFinal
+// Writing MetadataGetter for method: System::Security::Cryptography::SHA384Managed::HashFinal
 // Il2CppName: HashFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (SHA384Managed::*)()>(&SHA384Managed::HashFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Security::Cryptography::SHA384Managed::*)()>(&System::Security::Cryptography::SHA384Managed::HashFinal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SHA384Managed*), "HashFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA384Managed*), "HashFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

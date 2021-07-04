@@ -89,33 +89,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(CPUMonitor) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CPUMonitor*, "", "CPUMonitor");
-// Writing MetadataGetter for method: CPUMonitor::PollUpdate
+// Writing MetadataGetter for method: GlobalNamespace::CPUMonitor::PollUpdate
 // Il2CppName: PollUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CPUMonitor::*)()>(&CPUMonitor::PollUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CPUMonitor::*)()>(&GlobalNamespace::CPUMonitor::PollUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CPUMonitor*), "PollUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CPUMonitor*), "PollUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CPUMonitor::get_utilization
+// Writing MetadataGetter for method: GlobalNamespace::CPUMonitor::get_utilization
 // Il2CppName: get_utilization
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (CPUMonitor::*)()>(&CPUMonitor::get_utilization)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::CPUMonitor::*)()>(&GlobalNamespace::CPUMonitor::get_utilization)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CPUMonitor*), "get_utilization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CPUMonitor*), "get_utilization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CPUMonitor::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::CPUMonitor::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CPUMonitor::*)()>(&CPUMonitor::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CPUMonitor::*)()>(&GlobalNamespace::CPUMonitor::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CPUMonitor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CPUMonitor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CPUMonitor::*)()>(&CPUMonitor::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CPUMonitor::*)()>(&GlobalNamespace::CPUMonitor::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CPUMonitor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CPUMonitor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

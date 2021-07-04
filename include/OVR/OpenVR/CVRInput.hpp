@@ -131,161 +131,161 @@ namespace OVR::OpenVR {
   static_assert(sizeof(CVRInput) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRInput*, "OVR.OpenVR", "CVRInput");
-// Writing MetadataGetter for method: CVRInput::New_ctor
+// Writing MetadataGetter for method: OVR::OpenVR::CVRInput::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRInput::*)(System::IntPtr)>(&CVRInput::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRInput::*)(System::IntPtr)>(&OVR::OpenVR::CVRInput::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRInput*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRInput*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRInput::*)(System::IntPtr)>(&CVRInput::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRInput::*)(System::IntPtr)>(&OVR::OpenVR::CVRInput::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRInput*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRInput*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: CVRInput::SetActionManifestPath
+// Writing MetadataGetter for method: OVR::OpenVR::CVRInput::SetActionManifestPath
 // Il2CppName: SetActionManifestPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (CVRInput::*)(::Il2CppString*)>(&CVRInput::SetActionManifestPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(::Il2CppString*)>(&OVR::OpenVR::CVRInput::SetActionManifestPath)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRInput*), "SetActionManifestPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRInput*), "SetActionManifestPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CVRInput::GetActionSetHandle
+// Writing MetadataGetter for method: OVR::OpenVR::CVRInput::GetActionSetHandle
 // Il2CppName: GetActionSetHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (CVRInput::*)(::Il2CppString*, uint64_t&)>(&CVRInput::GetActionSetHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(::Il2CppString*, uint64_t&)>(&OVR::OpenVR::CVRInput::GetActionSetHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRInput*), "GetActionSetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRInput*), "GetActionSetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>()});
   }
 };
-// Writing MetadataGetter for method: CVRInput::GetActionHandle
+// Writing MetadataGetter for method: OVR::OpenVR::CVRInput::GetActionHandle
 // Il2CppName: GetActionHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (CVRInput::*)(::Il2CppString*, uint64_t&)>(&CVRInput::GetActionHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(::Il2CppString*, uint64_t&)>(&OVR::OpenVR::CVRInput::GetActionHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRInput*), "GetActionHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRInput*), "GetActionHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>()});
   }
 };
-// Writing MetadataGetter for method: CVRInput::GetInputSourceHandle
+// Writing MetadataGetter for method: OVR::OpenVR::CVRInput::GetInputSourceHandle
 // Il2CppName: GetInputSourceHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (CVRInput::*)(::Il2CppString*, uint64_t&)>(&CVRInput::GetInputSourceHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(::Il2CppString*, uint64_t&)>(&OVR::OpenVR::CVRInput::GetInputSourceHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRInput*), "GetInputSourceHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRInput*), "GetInputSourceHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>()});
   }
 };
-// Writing MetadataGetter for method: CVRInput::UpdateActionState
+// Writing MetadataGetter for method: OVR::OpenVR::CVRInput::UpdateActionState
 // Il2CppName: UpdateActionState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (CVRInput::*)(::Array<OVR::OpenVR::VRActiveActionSet_t>*, uint)>(&CVRInput::UpdateActionState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(::Array<OVR::OpenVR::VRActiveActionSet_t>*, uint)>(&OVR::OpenVR::CVRInput::UpdateActionState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRInput*), "UpdateActionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::VRActiveActionSet_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRInput*), "UpdateActionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::VRActiveActionSet_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: CVRInput::GetDigitalActionData
+// Writing MetadataGetter for method: OVR::OpenVR::CVRInput::GetDigitalActionData
 // Il2CppName: GetDigitalActionData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (CVRInput::*)(uint64_t, OVR::OpenVR::InputDigitalActionData_t&, uint, uint64_t)>(&CVRInput::GetDigitalActionData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(uint64_t, OVR::OpenVR::InputDigitalActionData_t&, uint, uint64_t)>(&OVR::OpenVR::CVRInput::GetDigitalActionData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRInput*), "GetDigitalActionData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::InputDigitalActionData_t&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRInput*), "GetDigitalActionData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::InputDigitalActionData_t&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: CVRInput::GetAnalogActionData
+// Writing MetadataGetter for method: OVR::OpenVR::CVRInput::GetAnalogActionData
 // Il2CppName: GetAnalogActionData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (CVRInput::*)(uint64_t, OVR::OpenVR::InputAnalogActionData_t&, uint, uint64_t)>(&CVRInput::GetAnalogActionData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(uint64_t, OVR::OpenVR::InputAnalogActionData_t&, uint, uint64_t)>(&OVR::OpenVR::CVRInput::GetAnalogActionData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRInput*), "GetAnalogActionData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::InputAnalogActionData_t&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRInput*), "GetAnalogActionData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::InputAnalogActionData_t&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: CVRInput::GetPoseActionData
+// Writing MetadataGetter for method: OVR::OpenVR::CVRInput::GetPoseActionData
 // Il2CppName: GetPoseActionData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (CVRInput::*)(uint64_t, OVR::OpenVR::ETrackingUniverseOrigin, float, OVR::OpenVR::InputPoseActionData_t&, uint, uint64_t)>(&CVRInput::GetPoseActionData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(uint64_t, OVR::OpenVR::ETrackingUniverseOrigin, float, OVR::OpenVR::InputPoseActionData_t&, uint, uint64_t)>(&OVR::OpenVR::CVRInput::GetPoseActionData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRInput*), "GetPoseActionData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackingUniverseOrigin>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::InputPoseActionData_t&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRInput*), "GetPoseActionData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackingUniverseOrigin>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::InputPoseActionData_t&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: CVRInput::GetSkeletalActionData
+// Writing MetadataGetter for method: OVR::OpenVR::CVRInput::GetSkeletalActionData
 // Il2CppName: GetSkeletalActionData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (CVRInput::*)(uint64_t, OVR::OpenVR::InputSkeletalActionData_t&, uint, uint64_t)>(&CVRInput::GetSkeletalActionData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(uint64_t, OVR::OpenVR::InputSkeletalActionData_t&, uint, uint64_t)>(&OVR::OpenVR::CVRInput::GetSkeletalActionData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRInput*), "GetSkeletalActionData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::InputSkeletalActionData_t&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRInput*), "GetSkeletalActionData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::InputSkeletalActionData_t&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: CVRInput::GetSkeletalBoneData
+// Writing MetadataGetter for method: OVR::OpenVR::CVRInput::GetSkeletalBoneData
 // Il2CppName: GetSkeletalBoneData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (CVRInput::*)(uint64_t, OVR::OpenVR::EVRSkeletalTransformSpace, OVR::OpenVR::EVRSkeletalMotionRange, ::Array<OVR::OpenVR::VRBoneTransform_t>*, uint64_t)>(&CVRInput::GetSkeletalBoneData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(uint64_t, OVR::OpenVR::EVRSkeletalTransformSpace, OVR::OpenVR::EVRSkeletalMotionRange, ::Array<OVR::OpenVR::VRBoneTransform_t>*, uint64_t)>(&OVR::OpenVR::CVRInput::GetSkeletalBoneData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRInput*), "GetSkeletalBoneData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSkeletalTransformSpace>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSkeletalMotionRange>(), ::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::VRBoneTransform_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRInput*), "GetSkeletalBoneData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSkeletalTransformSpace>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSkeletalMotionRange>(), ::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::VRBoneTransform_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: CVRInput::GetSkeletalBoneDataCompressed
+// Writing MetadataGetter for method: OVR::OpenVR::CVRInput::GetSkeletalBoneDataCompressed
 // Il2CppName: GetSkeletalBoneDataCompressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (CVRInput::*)(uint64_t, OVR::OpenVR::EVRSkeletalTransformSpace, OVR::OpenVR::EVRSkeletalMotionRange, System::IntPtr, uint, uint&, uint64_t)>(&CVRInput::GetSkeletalBoneDataCompressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(uint64_t, OVR::OpenVR::EVRSkeletalTransformSpace, OVR::OpenVR::EVRSkeletalMotionRange, System::IntPtr, uint, uint&, uint64_t)>(&OVR::OpenVR::CVRInput::GetSkeletalBoneDataCompressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRInput*), "GetSkeletalBoneDataCompressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSkeletalTransformSpace>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSkeletalMotionRange>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRInput*), "GetSkeletalBoneDataCompressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSkeletalTransformSpace>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSkeletalMotionRange>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: CVRInput::DecompressSkeletalBoneData
+// Writing MetadataGetter for method: OVR::OpenVR::CVRInput::DecompressSkeletalBoneData
 // Il2CppName: DecompressSkeletalBoneData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (CVRInput::*)(System::IntPtr, uint, OVR::OpenVR::EVRSkeletalTransformSpace&, ::Array<OVR::OpenVR::VRBoneTransform_t>*)>(&CVRInput::DecompressSkeletalBoneData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(System::IntPtr, uint, OVR::OpenVR::EVRSkeletalTransformSpace&, ::Array<OVR::OpenVR::VRBoneTransform_t>*)>(&OVR::OpenVR::CVRInput::DecompressSkeletalBoneData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRInput*), "DecompressSkeletalBoneData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSkeletalTransformSpace&>(), ::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::VRBoneTransform_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRInput*), "DecompressSkeletalBoneData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRSkeletalTransformSpace&>(), ::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::VRBoneTransform_t>*>()});
   }
 };
-// Writing MetadataGetter for method: CVRInput::TriggerHapticVibrationAction
+// Writing MetadataGetter for method: OVR::OpenVR::CVRInput::TriggerHapticVibrationAction
 // Il2CppName: TriggerHapticVibrationAction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (CVRInput::*)(uint64_t, float, float, float, float, uint64_t)>(&CVRInput::TriggerHapticVibrationAction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(uint64_t, float, float, float, float, uint64_t)>(&OVR::OpenVR::CVRInput::TriggerHapticVibrationAction)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRInput*), "TriggerHapticVibrationAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRInput*), "TriggerHapticVibrationAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: CVRInput::GetActionOrigins
+// Writing MetadataGetter for method: OVR::OpenVR::CVRInput::GetActionOrigins
 // Il2CppName: GetActionOrigins
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (CVRInput::*)(uint64_t, uint64_t, ::Array<uint64_t>*)>(&CVRInput::GetActionOrigins)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(uint64_t, uint64_t, ::Array<uint64_t>*)>(&OVR::OpenVR::CVRInput::GetActionOrigins)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRInput*), "GetActionOrigins", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRInput*), "GetActionOrigins", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>()});
   }
 };
-// Writing MetadataGetter for method: CVRInput::GetOriginLocalizedName
+// Writing MetadataGetter for method: OVR::OpenVR::CVRInput::GetOriginLocalizedName
 // Il2CppName: GetOriginLocalizedName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (CVRInput::*)(uint64_t, System::Text::StringBuilder*, uint)>(&CVRInput::GetOriginLocalizedName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(uint64_t, System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVRInput::GetOriginLocalizedName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRInput*), "GetOriginLocalizedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRInput*), "GetOriginLocalizedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: CVRInput::GetOriginTrackedDeviceInfo
+// Writing MetadataGetter for method: OVR::OpenVR::CVRInput::GetOriginTrackedDeviceInfo
 // Il2CppName: GetOriginTrackedDeviceInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (CVRInput::*)(uint64_t, OVR::OpenVR::InputOriginInfo_t&, uint)>(&CVRInput::GetOriginTrackedDeviceInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(uint64_t, OVR::OpenVR::InputOriginInfo_t&, uint)>(&OVR::OpenVR::CVRInput::GetOriginTrackedDeviceInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRInput*), "GetOriginTrackedDeviceInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::InputOriginInfo_t&>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRInput*), "GetOriginTrackedDeviceInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::InputOriginInfo_t&>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: CVRInput::ShowActionOrigins
+// Writing MetadataGetter for method: OVR::OpenVR::CVRInput::ShowActionOrigins
 // Il2CppName: ShowActionOrigins
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (CVRInput::*)(uint64_t, uint64_t)>(&CVRInput::ShowActionOrigins)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(uint64_t, uint64_t)>(&OVR::OpenVR::CVRInput::ShowActionOrigins)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRInput*), "ShowActionOrigins", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRInput*), "ShowActionOrigins", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: CVRInput::ShowBindingsForActionSet
+// Writing MetadataGetter for method: OVR::OpenVR::CVRInput::ShowBindingsForActionSet
 // Il2CppName: ShowBindingsForActionSet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (CVRInput::*)(::Array<OVR::OpenVR::VRActiveActionSet_t>*, uint, uint64_t)>(&CVRInput::ShowBindingsForActionSet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(::Array<OVR::OpenVR::VRActiveActionSet_t>*, uint, uint64_t)>(&OVR::OpenVR::CVRInput::ShowBindingsForActionSet)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRInput*), "ShowBindingsForActionSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::VRActiveActionSet_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRInput*), "ShowBindingsForActionSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::VRActiveActionSet_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };

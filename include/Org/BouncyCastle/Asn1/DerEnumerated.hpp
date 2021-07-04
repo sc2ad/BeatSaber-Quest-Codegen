@@ -98,95 +98,95 @@ namespace Org::BouncyCastle::Asn1 {
   static_assert(sizeof(DerEnumerated) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerEnumerated*, "Org.BouncyCastle.Asn1", "DerEnumerated");
-// Writing MetadataGetter for method: DerEnumerated::GetInstance
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerEnumerated::GetInstance
 // Il2CppName: GetInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerEnumerated* (*)(::Il2CppObject*)>(&DerEnumerated::GetInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerEnumerated* (*)(::Il2CppObject*)>(&Org::BouncyCastle::Asn1::DerEnumerated::GetInstance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerEnumerated*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerEnumerated*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: DerEnumerated::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerEnumerated::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerEnumerated::*)(int)>(&DerEnumerated::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::DerEnumerated::*)(int)>(&Org::BouncyCastle::Asn1::DerEnumerated::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerEnumerated*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerEnumerated*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerEnumerated::*)(int)>(&DerEnumerated::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::DerEnumerated::*)(int)>(&Org::BouncyCastle::Asn1::DerEnumerated::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerEnumerated*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerEnumerated*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: DerEnumerated::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerEnumerated::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerEnumerated::*)(::Array<uint8_t>*)>(&DerEnumerated::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::DerEnumerated::*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Asn1::DerEnumerated::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerEnumerated*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerEnumerated*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerEnumerated::*)(::Array<uint8_t>*)>(&DerEnumerated::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::DerEnumerated::*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Asn1::DerEnumerated::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerEnumerated*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerEnumerated*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: DerEnumerated::get_Value
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerEnumerated::get_Value
 // Il2CppName: get_Value
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (DerEnumerated::*)()>(&DerEnumerated::get_Value)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Asn1::DerEnumerated::*)()>(&Org::BouncyCastle::Asn1::DerEnumerated::get_Value)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerEnumerated*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerEnumerated*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DerEnumerated::get_IntValueExact
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerEnumerated::get_IntValueExact
 // Il2CppName: get_IntValueExact
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DerEnumerated::*)()>(&DerEnumerated::get_IntValueExact)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Asn1::DerEnumerated::*)()>(&Org::BouncyCastle::Asn1::DerEnumerated::get_IntValueExact)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerEnumerated*), "get_IntValueExact", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerEnumerated*), "get_IntValueExact", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DerEnumerated::FromOctetString
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerEnumerated::FromOctetString
 // Il2CppName: FromOctetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerEnumerated* (*)(::Array<uint8_t>*)>(&DerEnumerated::FromOctetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerEnumerated* (*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Asn1::DerEnumerated::FromOctetString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerEnumerated*), "FromOctetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerEnumerated*), "FromOctetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: DerEnumerated::_cctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerEnumerated::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&DerEnumerated::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::Asn1::DerEnumerated::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerEnumerated*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerEnumerated*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DerEnumerated::Encode
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerEnumerated::Encode
 // Il2CppName: Encode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerEnumerated::*)(Org::BouncyCastle::Asn1::DerOutputStream*)>(&DerEnumerated::Encode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::DerEnumerated::*)(Org::BouncyCastle::Asn1::DerOutputStream*)>(&Org::BouncyCastle::Asn1::DerEnumerated::Encode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerEnumerated*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerOutputStream*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerEnumerated*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerOutputStream*>()});
   }
 };
-// Writing MetadataGetter for method: DerEnumerated::Asn1Equals
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerEnumerated::Asn1Equals
 // Il2CppName: Asn1Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DerEnumerated::*)(Org::BouncyCastle::Asn1::Asn1Object*)>(&DerEnumerated::Asn1Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Asn1::DerEnumerated::*)(Org::BouncyCastle::Asn1::Asn1Object*)>(&Org::BouncyCastle::Asn1::DerEnumerated::Asn1Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerEnumerated*), "Asn1Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Object*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerEnumerated*), "Asn1Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Object*>()});
   }
 };
-// Writing MetadataGetter for method: DerEnumerated::Asn1GetHashCode
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerEnumerated::Asn1GetHashCode
 // Il2CppName: Asn1GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DerEnumerated::*)()>(&DerEnumerated::Asn1GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Asn1::DerEnumerated::*)()>(&Org::BouncyCastle::Asn1::DerEnumerated::Asn1GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerEnumerated*), "Asn1GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerEnumerated*), "Asn1GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

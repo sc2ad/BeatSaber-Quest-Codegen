@@ -160,113 +160,113 @@ namespace LiteNetLib {
   static_assert(sizeof(NetSocket) == 0x3D);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetSocket*, "LiteNetLib", "NetSocket");
-// Writing MetadataGetter for method: NetSocket::get_LocalPort
+// Writing MetadataGetter for method: LiteNetLib::NetSocket::get_LocalPort
 // Il2CppName: get_LocalPort
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NetSocket::*)()>(&NetSocket::get_LocalPort)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNetLib::NetSocket::*)()>(&LiteNetLib::NetSocket::get_LocalPort)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetSocket*), "get_LocalPort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetSocket*), "get_LocalPort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetSocket::set_LocalPort
+// Writing MetadataGetter for method: LiteNetLib::NetSocket::set_LocalPort
 // Il2CppName: set_LocalPort
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetSocket::*)(int)>(&NetSocket::set_LocalPort)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetSocket::*)(int)>(&LiteNetLib::NetSocket::set_LocalPort)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetSocket*), "set_LocalPort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetSocket*), "set_LocalPort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: NetSocket::get_Ttl
+// Writing MetadataGetter for method: LiteNetLib::NetSocket::get_Ttl
 // Il2CppName: get_Ttl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (NetSocket::*)()>(&NetSocket::get_Ttl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (LiteNetLib::NetSocket::*)()>(&LiteNetLib::NetSocket::get_Ttl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetSocket*), "get_Ttl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetSocket*), "get_Ttl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetSocket::set_Ttl
+// Writing MetadataGetter for method: LiteNetLib::NetSocket::set_Ttl
 // Il2CppName: set_Ttl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetSocket::*)(int16_t)>(&NetSocket::set_Ttl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetSocket::*)(int16_t)>(&LiteNetLib::NetSocket::set_Ttl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetSocket*), "set_Ttl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int16_t>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetSocket*), "set_Ttl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int16_t>()});
   }
 };
-// Writing MetadataGetter for method: NetSocket::_cctor
+// Writing MetadataGetter for method: LiteNetLib::NetSocket::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NetSocket::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&LiteNetLib::NetSocket::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetSocket*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetSocket*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetSocket::New_ctor
+// Writing MetadataGetter for method: LiteNetLib::NetSocket::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetSocket::*)(LiteNetLib::INetSocketListener*)>(&NetSocket::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetSocket::*)(LiteNetLib::INetSocketListener*)>(&LiteNetLib::NetSocket::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetSocket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::INetSocketListener*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetSocket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::INetSocketListener*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetSocket::*)(LiteNetLib::INetSocketListener*)>(&NetSocket::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetSocket::*)(LiteNetLib::INetSocketListener*)>(&LiteNetLib::NetSocket::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetSocket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::INetSocketListener*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetSocket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::INetSocketListener*>()});
   }
 };
-// Writing MetadataGetter for method: NetSocket::IsActive
+// Writing MetadataGetter for method: LiteNetLib::NetSocket::IsActive
 // Il2CppName: IsActive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetSocket::*)()>(&NetSocket::IsActive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::NetSocket::*)()>(&LiteNetLib::NetSocket::IsActive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetSocket*), "IsActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetSocket*), "IsActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetSocket::ReceiveLogic
+// Writing MetadataGetter for method: LiteNetLib::NetSocket::ReceiveLogic
 // Il2CppName: ReceiveLogic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetSocket::*)(::Il2CppObject*)>(&NetSocket::ReceiveLogic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetSocket::*)(::Il2CppObject*)>(&LiteNetLib::NetSocket::ReceiveLogic)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetSocket*), "ReceiveLogic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetSocket*), "ReceiveLogic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: NetSocket::Bind
+// Writing MetadataGetter for method: LiteNetLib::NetSocket::Bind
 // Il2CppName: Bind
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetSocket::*)(System::Net::IPAddress*, System::Net::IPAddress*, int, bool, bool, System::Threading::ThreadPriority)>(&NetSocket::Bind)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::NetSocket::*)(System::Net::IPAddress*, System::Net::IPAddress*, int, bool, bool, System::Threading::ThreadPriority)>(&LiteNetLib::NetSocket::Bind)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetSocket*), "Bind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadPriority>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetSocket*), "Bind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadPriority>()});
   }
 };
-// Writing MetadataGetter for method: NetSocket::BindSocket
+// Writing MetadataGetter for method: LiteNetLib::NetSocket::BindSocket
 // Il2CppName: BindSocket
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetSocket::*)(System::Net::Sockets::Socket*, System::Net::IPEndPoint*, bool)>(&NetSocket::BindSocket)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::NetSocket::*)(System::Net::Sockets::Socket*, System::Net::IPEndPoint*, bool)>(&LiteNetLib::NetSocket::BindSocket)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetSocket*), "BindSocket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetSocket*), "BindSocket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: NetSocket::SendBroadcast
+// Writing MetadataGetter for method: LiteNetLib::NetSocket::SendBroadcast
 // Il2CppName: SendBroadcast
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetSocket::*)(::Array<uint8_t>*, int, int, int)>(&NetSocket::SendBroadcast)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::NetSocket::*)(::Array<uint8_t>*, int, int, int)>(&LiteNetLib::NetSocket::SendBroadcast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetSocket*), "SendBroadcast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetSocket*), "SendBroadcast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: NetSocket::SendTo
+// Writing MetadataGetter for method: LiteNetLib::NetSocket::SendTo
 // Il2CppName: SendTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NetSocket::*)(::Array<uint8_t>*, int, int, System::Net::IPEndPoint*, System::Net::Sockets::SocketError&)>(&NetSocket::SendTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNetLib::NetSocket::*)(::Array<uint8_t>*, int, int, System::Net::IPEndPoint*, System::Net::Sockets::SocketError&)>(&LiteNetLib::NetSocket::SendTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetSocket*), "SendTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError&>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetSocket*), "SendTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError&>()});
   }
 };
-// Writing MetadataGetter for method: NetSocket::Close
+// Writing MetadataGetter for method: LiteNetLib::NetSocket::Close
 // Il2CppName: Close
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetSocket::*)(bool)>(&NetSocket::Close)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetSocket::*)(bool)>(&LiteNetLib::NetSocket::Close)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetSocket*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetSocket*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };

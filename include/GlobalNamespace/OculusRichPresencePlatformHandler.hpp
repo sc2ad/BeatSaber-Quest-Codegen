@@ -50,33 +50,33 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusRichPresencePlatformHandler*, "", "OculusRichPresencePlatformHandler");
-// Writing MetadataGetter for method: OculusRichPresencePlatformHandler::SetPresence
+// Writing MetadataGetter for method: GlobalNamespace::OculusRichPresencePlatformHandler::SetPresence
 // Il2CppName: SetPresence
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusRichPresencePlatformHandler::*)(GlobalNamespace::IRichPresenceData*)>(&OculusRichPresencePlatformHandler::SetPresence)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusRichPresencePlatformHandler::*)(GlobalNamespace::IRichPresenceData*)>(&GlobalNamespace::OculusRichPresencePlatformHandler::SetPresence)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusRichPresencePlatformHandler*), "SetPresence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IRichPresenceData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusRichPresencePlatformHandler*), "SetPresence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IRichPresenceData*>()});
   }
 };
-// Writing MetadataGetter for method: OculusRichPresencePlatformHandler::Clear
+// Writing MetadataGetter for method: GlobalNamespace::OculusRichPresencePlatformHandler::Clear
 // Il2CppName: Clear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusRichPresencePlatformHandler::*)()>(&OculusRichPresencePlatformHandler::Clear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusRichPresencePlatformHandler::*)()>(&GlobalNamespace::OculusRichPresencePlatformHandler::Clear)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusRichPresencePlatformHandler*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusRichPresencePlatformHandler*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OculusRichPresencePlatformHandler::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::OculusRichPresencePlatformHandler::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusRichPresencePlatformHandler::*)()>(&OculusRichPresencePlatformHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusRichPresencePlatformHandler::*)()>(&GlobalNamespace::OculusRichPresencePlatformHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusRichPresencePlatformHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusRichPresencePlatformHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusRichPresencePlatformHandler::*)()>(&OculusRichPresencePlatformHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusRichPresencePlatformHandler::*)()>(&GlobalNamespace::OculusRichPresencePlatformHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusRichPresencePlatformHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusRichPresencePlatformHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

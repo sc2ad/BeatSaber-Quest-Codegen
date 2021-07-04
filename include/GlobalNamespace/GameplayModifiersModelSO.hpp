@@ -217,97 +217,97 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameplayModifiersModelSO) == 0xB0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersModelSO*, "", "GameplayModifiersModelSO");
-// Writing MetadataGetter for method: GameplayModifiersModelSO::CreateGameplayModifiers
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::CreateGameplayModifiers
 // Il2CppName: CreateGameplayModifiers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers* (GameplayModifiersModelSO::*)(System::Func_2<GlobalNamespace::GameplayModifierParamsSO*, bool>*)>(&GameplayModifiersModelSO::CreateGameplayModifiers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers* (GlobalNamespace::GameplayModifiersModelSO::*)(System::Func_2<GlobalNamespace::GameplayModifierParamsSO*, bool>*)>(&GlobalNamespace::GameplayModifiersModelSO::CreateGameplayModifiers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplayModifiersModelSO*), "CreateGameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<GlobalNamespace::GameplayModifierParamsSO*, bool>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO*), "CreateGameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<GlobalNamespace::GameplayModifierParamsSO*, bool>*>()});
   }
 };
-// Writing MetadataGetter for method: GameplayModifiersModelSO::GetModifierBoolValue
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::GetModifierBoolValue
 // Il2CppName: GetModifierBoolValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GameplayModifiersModelSO::*)(GlobalNamespace::GameplayModifiers*, GlobalNamespace::GameplayModifierParamsSO*)>(&GameplayModifiersModelSO::GetModifierBoolValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::*)(GlobalNamespace::GameplayModifiers*, GlobalNamespace::GameplayModifierParamsSO*)>(&GlobalNamespace::GameplayModifiersModelSO::GetModifierBoolValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplayModifiersModelSO*), "GetModifierBoolValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifierParamsSO*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO*), "GetModifierBoolValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifierParamsSO*>()});
   }
 };
-// Writing MetadataGetter for method: GameplayModifiersModelSO::CreateModifierParamsList
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::CreateModifierParamsList
 // Il2CppName: CreateModifierParamsList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* (GameplayModifiersModelSO::*)(GlobalNamespace::GameplayModifiers*)>(&GameplayModifiersModelSO::CreateModifierParamsList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* (GlobalNamespace::GameplayModifiersModelSO::*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::CreateModifierParamsList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplayModifiersModelSO*), "CreateModifierParamsList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO*), "CreateModifierParamsList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>()});
   }
 };
-// Writing MetadataGetter for method: GameplayModifiersModelSO::GetTotalMultiplier
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::GetTotalMultiplier
 // Il2CppName: GetTotalMultiplier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GameplayModifiersModelSO::*)(System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*, float)>(&GameplayModifiersModelSO::GetTotalMultiplier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::GameplayModifiersModelSO::*)(System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*, float)>(&GlobalNamespace::GameplayModifiersModelSO::GetTotalMultiplier)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplayModifiersModelSO*), "GetTotalMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO*), "GetTotalMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: GameplayModifiersModelSO::MaxModifiedScoreForMaxRawScore
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::MaxModifiedScoreForMaxRawScore
 // Il2CppName: MaxModifiedScoreForMaxRawScore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GameplayModifiersModelSO::*)(int, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*, float)>(&GameplayModifiersModelSO::MaxModifiedScoreForMaxRawScore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::GameplayModifiersModelSO::*)(int, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*, float)>(&GlobalNamespace::GameplayModifiersModelSO::MaxModifiedScoreForMaxRawScore)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplayModifiersModelSO*), "MaxModifiedScoreForMaxRawScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO*), "MaxModifiedScoreForMaxRawScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: GameplayModifiersModelSO::MaxModifiedScoreForMaxRawScore
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::MaxModifiedScoreForMaxRawScore
 // Il2CppName: MaxModifiedScoreForMaxRawScore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GameplayModifiersModelSO::*)(int, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*, GlobalNamespace::GameplayModifiersModelSO*, float)>(&GameplayModifiersModelSO::MaxModifiedScoreForMaxRawScore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::GameplayModifiersModelSO::*)(int, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*, GlobalNamespace::GameplayModifiersModelSO*, float)>(&GlobalNamespace::GameplayModifiersModelSO::MaxModifiedScoreForMaxRawScore)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplayModifiersModelSO*), "MaxModifiedScoreForMaxRawScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiersModelSO*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO*), "MaxModifiedScoreForMaxRawScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiersModelSO*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: GameplayModifiersModelSO::GetModifiedScoreForGameplayModifiers
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::GetModifiedScoreForGameplayModifiers
 // Il2CppName: GetModifiedScoreForGameplayModifiers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GameplayModifiersModelSO::*)(int, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*, float)>(&GameplayModifiersModelSO::GetModifiedScoreForGameplayModifiers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::GameplayModifiersModelSO::*)(int, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*, float)>(&GlobalNamespace::GameplayModifiersModelSO::GetModifiedScoreForGameplayModifiers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplayModifiersModelSO*), "GetModifiedScoreForGameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO*), "GetModifiedScoreForGameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: GameplayModifiersModelSO::GetGameplayModifierParams
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::GetGameplayModifierParams
 // Il2CppName: GetGameplayModifierParams
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifierParamsSO* (GameplayModifiersModelSO::*)(GlobalNamespace::GameplayModifierMask)>(&GameplayModifiersModelSO::GetGameplayModifierParams)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifierParamsSO* (GlobalNamespace::GameplayModifiersModelSO::*)(GlobalNamespace::GameplayModifierMask)>(&GlobalNamespace::GameplayModifiersModelSO::GetGameplayModifierParams)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplayModifiersModelSO*), "GetGameplayModifierParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifierMask>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO*), "GetGameplayModifierParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifierMask>()});
   }
 };
-// Writing MetadataGetter for method: GameplayModifiersModelSO::GetSongSpeedFromValueGetter
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::GetSongSpeedFromValueGetter
 // Il2CppName: GetSongSpeedFromValueGetter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers::SongSpeed (GameplayModifiersModelSO::*)(System::Func_2<GlobalNamespace::GameplayModifierParamsSO*, bool>*)>(&GameplayModifiersModelSO::GetSongSpeedFromValueGetter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers::SongSpeed (GlobalNamespace::GameplayModifiersModelSO::*)(System::Func_2<GlobalNamespace::GameplayModifierParamsSO*, bool>*)>(&GlobalNamespace::GameplayModifiersModelSO::GetSongSpeedFromValueGetter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplayModifiersModelSO*), "GetSongSpeedFromValueGetter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<GlobalNamespace::GameplayModifierParamsSO*, bool>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO*), "GetSongSpeedFromValueGetter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<GlobalNamespace::GameplayModifierParamsSO*, bool>*>()});
   }
 };
-// Writing MetadataGetter for method: GameplayModifiersModelSO::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayModifiersModelSO::*)()>(&GameplayModifiersModelSO::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayModifiersModelSO::*)()>(&GlobalNamespace::GameplayModifiersModelSO::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplayModifiersModelSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GameplayModifiersModelSO::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayModifiersModelSO::*)()>(&GameplayModifiersModelSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayModifiersModelSO::*)()>(&GlobalNamespace::GameplayModifiersModelSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplayModifiersModelSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayModifiersModelSO::*)()>(&GameplayModifiersModelSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayModifiersModelSO::*)()>(&GlobalNamespace::GameplayModifiersModelSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplayModifiersModelSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

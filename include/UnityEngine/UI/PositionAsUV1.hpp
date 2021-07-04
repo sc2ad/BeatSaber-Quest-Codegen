@@ -52,25 +52,25 @@ namespace UnityEngine::UI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::PositionAsUV1*, "UnityEngine.UI", "PositionAsUV1");
-// Writing MetadataGetter for method: PositionAsUV1::New_ctor
+// Writing MetadataGetter for method: UnityEngine::UI::PositionAsUV1::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionAsUV1::*)()>(&PositionAsUV1::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::PositionAsUV1::*)()>(&UnityEngine::UI::PositionAsUV1::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PositionAsUV1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::PositionAsUV1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionAsUV1::*)()>(&PositionAsUV1::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::PositionAsUV1::*)()>(&UnityEngine::UI::PositionAsUV1::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PositionAsUV1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::PositionAsUV1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PositionAsUV1::ModifyMesh
+// Writing MetadataGetter for method: UnityEngine::UI::PositionAsUV1::ModifyMesh
 // Il2CppName: ModifyMesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PositionAsUV1::*)(UnityEngine::UI::VertexHelper*)>(&PositionAsUV1::ModifyMesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::PositionAsUV1::*)(UnityEngine::UI::VertexHelper*)>(&UnityEngine::UI::PositionAsUV1::ModifyMesh)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PositionAsUV1*), "ModifyMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::PositionAsUV1*), "ModifyMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>()});
   }
 };

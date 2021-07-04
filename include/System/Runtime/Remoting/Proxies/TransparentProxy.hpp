@@ -91,65 +91,65 @@ namespace System::Runtime::Remoting::Proxies {
   static_assert(sizeof(TransparentProxy) == 0x21);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Proxies::TransparentProxy*, "System.Runtime.Remoting.Proxies", "TransparentProxy");
-// Writing MetadataGetter for method: TransparentProxy::GetProxyType
+// Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::TransparentProxy::GetProxyType
 // Il2CppName: GetProxyType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType* (TransparentProxy::*)()>(&TransparentProxy::GetProxyType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType* (System::Runtime::Remoting::Proxies::TransparentProxy::*)()>(&System::Runtime::Remoting::Proxies::TransparentProxy::GetProxyType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TransparentProxy*), "GetProxyType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::TransparentProxy*), "GetProxyType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TransparentProxy::get_IsContextBoundObject
+// Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::TransparentProxy::get_IsContextBoundObject
 // Il2CppName: get_IsContextBoundObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TransparentProxy::*)()>(&TransparentProxy::get_IsContextBoundObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Remoting::Proxies::TransparentProxy::*)()>(&System::Runtime::Remoting::Proxies::TransparentProxy::get_IsContextBoundObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TransparentProxy*), "get_IsContextBoundObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::TransparentProxy*), "get_IsContextBoundObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TransparentProxy::get_TargetContext
+// Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::TransparentProxy::get_TargetContext
 // Il2CppName: get_TargetContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::Context* (TransparentProxy::*)()>(&TransparentProxy::get_TargetContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::Context* (System::Runtime::Remoting::Proxies::TransparentProxy::*)()>(&System::Runtime::Remoting::Proxies::TransparentProxy::get_TargetContext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TransparentProxy*), "get_TargetContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::TransparentProxy*), "get_TargetContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TransparentProxy::InCurrentContext
+// Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::TransparentProxy::InCurrentContext
 // Il2CppName: InCurrentContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TransparentProxy::*)()>(&TransparentProxy::InCurrentContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Remoting::Proxies::TransparentProxy::*)()>(&System::Runtime::Remoting::Proxies::TransparentProxy::InCurrentContext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TransparentProxy*), "InCurrentContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::TransparentProxy*), "InCurrentContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TransparentProxy::LoadRemoteFieldNew
+// Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::TransparentProxy::LoadRemoteFieldNew
 // Il2CppName: LoadRemoteFieldNew
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (TransparentProxy::*)(System::IntPtr, System::IntPtr)>(&TransparentProxy::LoadRemoteFieldNew)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Remoting::Proxies::TransparentProxy::*)(System::IntPtr, System::IntPtr)>(&System::Runtime::Remoting::Proxies::TransparentProxy::LoadRemoteFieldNew)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TransparentProxy*), "LoadRemoteFieldNew", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::TransparentProxy*), "LoadRemoteFieldNew", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: TransparentProxy::StoreRemoteField
+// Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::TransparentProxy::StoreRemoteField
 // Il2CppName: StoreRemoteField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TransparentProxy::*)(System::IntPtr, System::IntPtr, ::Il2CppObject*)>(&TransparentProxy::StoreRemoteField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Proxies::TransparentProxy::*)(System::IntPtr, System::IntPtr, ::Il2CppObject*)>(&System::Runtime::Remoting::Proxies::TransparentProxy::StoreRemoteField)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TransparentProxy*), "StoreRemoteField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::TransparentProxy*), "StoreRemoteField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: TransparentProxy::New_ctor
+// Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::TransparentProxy::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TransparentProxy::*)()>(&TransparentProxy::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Proxies::TransparentProxy::*)()>(&System::Runtime::Remoting::Proxies::TransparentProxy::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TransparentProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::TransparentProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TransparentProxy::*)()>(&TransparentProxy::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Proxies::TransparentProxy::*)()>(&System::Runtime::Remoting::Proxies::TransparentProxy::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TransparentProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::TransparentProxy*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

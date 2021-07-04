@@ -126,89 +126,89 @@ namespace GlobalNamespace {
   static_assert(sizeof(MainEffectController) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectController*, "", "MainEffectController");
-// Writing MetadataGetter for method: MainEffectController::add_afterImageEffectEvent
+// Writing MetadataGetter for method: GlobalNamespace::MainEffectController::add_afterImageEffectEvent
 // Il2CppName: add_afterImageEffectEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainEffectController::*)(System::Action_1<UnityEngine::RenderTexture*>*)>(&MainEffectController::add_afterImageEffectEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainEffectController::*)(System::Action_1<UnityEngine::RenderTexture*>*)>(&GlobalNamespace::MainEffectController::add_afterImageEffectEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainEffectController*), "add_afterImageEffectEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::RenderTexture*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainEffectController*), "add_afterImageEffectEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::RenderTexture*>*>()});
   }
 };
-// Writing MetadataGetter for method: MainEffectController::remove_afterImageEffectEvent
+// Writing MetadataGetter for method: GlobalNamespace::MainEffectController::remove_afterImageEffectEvent
 // Il2CppName: remove_afterImageEffectEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainEffectController::*)(System::Action_1<UnityEngine::RenderTexture*>*)>(&MainEffectController::remove_afterImageEffectEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainEffectController::*)(System::Action_1<UnityEngine::RenderTexture*>*)>(&GlobalNamespace::MainEffectController::remove_afterImageEffectEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainEffectController*), "remove_afterImageEffectEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::RenderTexture*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainEffectController*), "remove_afterImageEffectEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::RenderTexture*>*>()});
   }
 };
-// Writing MetadataGetter for method: MainEffectController::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::MainEffectController::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainEffectController::*)()>(&MainEffectController::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainEffectController::*)()>(&GlobalNamespace::MainEffectController::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainEffectController*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainEffectController*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MainEffectController::OnDisable
+// Writing MetadataGetter for method: GlobalNamespace::MainEffectController::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainEffectController::*)()>(&MainEffectController::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainEffectController::*)()>(&GlobalNamespace::MainEffectController::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainEffectController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainEffectController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MainEffectController::OnValidate
+// Writing MetadataGetter for method: GlobalNamespace::MainEffectController::OnValidate
 // Il2CppName: OnValidate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainEffectController::*)()>(&MainEffectController::OnValidate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainEffectController::*)()>(&GlobalNamespace::MainEffectController::OnValidate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainEffectController*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainEffectController*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MainEffectController::LazySetupImageEffectController
+// Writing MetadataGetter for method: GlobalNamespace::MainEffectController::LazySetupImageEffectController
 // Il2CppName: LazySetupImageEffectController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainEffectController::*)()>(&MainEffectController::LazySetupImageEffectController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainEffectController::*)()>(&GlobalNamespace::MainEffectController::LazySetupImageEffectController)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainEffectController*), "LazySetupImageEffectController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainEffectController*), "LazySetupImageEffectController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MainEffectController::ImageEffectControllerCallback
+// Writing MetadataGetter for method: GlobalNamespace::MainEffectController::ImageEffectControllerCallback
 // Il2CppName: ImageEffectControllerCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainEffectController::*)(UnityEngine::RenderTexture*, UnityEngine::RenderTexture*)>(&MainEffectController::ImageEffectControllerCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainEffectController::*)(UnityEngine::RenderTexture*, UnityEngine::RenderTexture*)>(&GlobalNamespace::MainEffectController::ImageEffectControllerCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainEffectController*), "ImageEffectControllerCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainEffectController*), "ImageEffectControllerCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>()});
   }
 };
-// Writing MetadataGetter for method: MainEffectController::OnPreRender
+// Writing MetadataGetter for method: GlobalNamespace::MainEffectController::OnPreRender
 // Il2CppName: OnPreRender
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainEffectController::*)()>(&MainEffectController::OnPreRender)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainEffectController::*)()>(&GlobalNamespace::MainEffectController::OnPreRender)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainEffectController*), "OnPreRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainEffectController*), "OnPreRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MainEffectController::OnPostRender
+// Writing MetadataGetter for method: GlobalNamespace::MainEffectController::OnPostRender
 // Il2CppName: OnPostRender
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainEffectController::*)()>(&MainEffectController::OnPostRender)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainEffectController::*)()>(&GlobalNamespace::MainEffectController::OnPostRender)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainEffectController*), "OnPostRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainEffectController*), "OnPostRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MainEffectController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MainEffectController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainEffectController::*)()>(&MainEffectController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainEffectController::*)()>(&GlobalNamespace::MainEffectController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainEffectController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainEffectController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainEffectController::*)()>(&MainEffectController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainEffectController::*)()>(&GlobalNamespace::MainEffectController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainEffectController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainEffectController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

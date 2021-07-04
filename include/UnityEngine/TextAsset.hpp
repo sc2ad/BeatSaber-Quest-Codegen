@@ -33,27 +33,27 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextAsset*, "UnityEngine", "TextAsset");
-// Writing MetadataGetter for method: TextAsset::get_text
+// Writing MetadataGetter for method: UnityEngine::TextAsset::get_text
 // Il2CppName: get_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TextAsset::*)()>(&TextAsset::get_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::TextAsset::*)()>(&UnityEngine::TextAsset::get_text)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextAsset*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextAsset*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextAsset::get_bytes
+// Writing MetadataGetter for method: UnityEngine::TextAsset::get_bytes
 // Il2CppName: get_bytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (TextAsset::*)()>(&TextAsset::get_bytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (UnityEngine::TextAsset::*)()>(&UnityEngine::TextAsset::get_bytes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextAsset*), "get_bytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextAsset*), "get_bytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextAsset::ToString
+// Writing MetadataGetter for method: UnityEngine::TextAsset::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TextAsset::*)()>(&TextAsset::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::TextAsset::*)()>(&UnityEngine::TextAsset::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextAsset*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextAsset*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

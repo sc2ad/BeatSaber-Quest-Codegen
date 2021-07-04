@@ -57,41 +57,41 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL*, "OVR.OpenVR", "IVRTrackedCamera/_ReleaseVideoStreamTextureGL");
-// Writing MetadataGetter for method: IVRTrackedCamera::_ReleaseVideoStreamTextureGL::New_ctor
+// Writing MetadataGetter for method: OVR::OpenVR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRTrackedCamera::_ReleaseVideoStreamTextureGL::*)(::Il2CppObject*, System::IntPtr)>(&IVRTrackedCamera::_ReleaseVideoStreamTextureGL::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRTrackedCamera::_ReleaseVideoStreamTextureGL*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRTrackedCamera::_ReleaseVideoStreamTextureGL::*)(::Il2CppObject*, System::IntPtr)>(&IVRTrackedCamera::_ReleaseVideoStreamTextureGL::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRTrackedCamera::_ReleaseVideoStreamTextureGL*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: IVRTrackedCamera::_ReleaseVideoStreamTextureGL::Invoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRTrackedCameraError (IVRTrackedCamera::_ReleaseVideoStreamTextureGL::*)(uint64_t, uint)>(&IVRTrackedCamera::_ReleaseVideoStreamTextureGL::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRTrackedCameraError (OVR::OpenVR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL::*)(uint64_t, uint)>(&OVR::OpenVR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRTrackedCamera::_ReleaseVideoStreamTextureGL*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: IVRTrackedCamera::_ReleaseVideoStreamTextureGL::BeginInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRTrackedCamera::_ReleaseVideoStreamTextureGL::*)(uint64_t, uint, System::AsyncCallback*, ::Il2CppObject*)>(&IVRTrackedCamera::_ReleaseVideoStreamTextureGL::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL::*)(uint64_t, uint, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRTrackedCamera::_ReleaseVideoStreamTextureGL*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IVRTrackedCamera::_ReleaseVideoStreamTextureGL::EndInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRTrackedCameraError (IVRTrackedCamera::_ReleaseVideoStreamTextureGL::*)(System::IAsyncResult*)>(&IVRTrackedCamera::_ReleaseVideoStreamTextureGL::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRTrackedCameraError (OVR::OpenVR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL::*)(System::IAsyncResult*)>(&OVR::OpenVR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRTrackedCamera::_ReleaseVideoStreamTextureGL*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

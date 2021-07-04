@@ -106,49 +106,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(BasicUIAudioManager) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BasicUIAudioManager*, "", "BasicUIAudioManager");
-// Writing MetadataGetter for method: BasicUIAudioManager::Start
+// Writing MetadataGetter for method: GlobalNamespace::BasicUIAudioManager::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicUIAudioManager::*)()>(&BasicUIAudioManager::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BasicUIAudioManager::*)()>(&GlobalNamespace::BasicUIAudioManager::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BasicUIAudioManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BasicUIAudioManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BasicUIAudioManager::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::BasicUIAudioManager::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicUIAudioManager::*)()>(&BasicUIAudioManager::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BasicUIAudioManager::*)()>(&GlobalNamespace::BasicUIAudioManager::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BasicUIAudioManager*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BasicUIAudioManager*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BasicUIAudioManager::OnDisable
+// Writing MetadataGetter for method: GlobalNamespace::BasicUIAudioManager::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicUIAudioManager::*)()>(&BasicUIAudioManager::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BasicUIAudioManager::*)()>(&GlobalNamespace::BasicUIAudioManager::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BasicUIAudioManager*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BasicUIAudioManager*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BasicUIAudioManager::HandleButtonClickEvent
+// Writing MetadataGetter for method: GlobalNamespace::BasicUIAudioManager::HandleButtonClickEvent
 // Il2CppName: HandleButtonClickEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicUIAudioManager::*)()>(&BasicUIAudioManager::HandleButtonClickEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BasicUIAudioManager::*)()>(&GlobalNamespace::BasicUIAudioManager::HandleButtonClickEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BasicUIAudioManager*), "HandleButtonClickEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BasicUIAudioManager*), "HandleButtonClickEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BasicUIAudioManager::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BasicUIAudioManager::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicUIAudioManager::*)()>(&BasicUIAudioManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BasicUIAudioManager::*)()>(&GlobalNamespace::BasicUIAudioManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BasicUIAudioManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BasicUIAudioManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BasicUIAudioManager::*)()>(&BasicUIAudioManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BasicUIAudioManager::*)()>(&GlobalNamespace::BasicUIAudioManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BasicUIAudioManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BasicUIAudioManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

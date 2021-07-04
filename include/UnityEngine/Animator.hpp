@@ -942,2194 +942,2194 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animator*, "UnityEngine", "Animator");
-// Writing MetadataGetter for method: Animator::get_isOptimizable
+// Writing MetadataGetter for method: UnityEngine::Animator::get_isOptimizable
 // Il2CppName: get_isOptimizable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animator::*)()>(&Animator::get_isOptimizable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_isOptimizable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_isOptimizable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_isOptimizable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::get_isHuman
+// Writing MetadataGetter for method: UnityEngine::Animator::get_isHuman
 // Il2CppName: get_isHuman
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animator::*)()>(&Animator::get_isHuman)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_isHuman)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_isHuman", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_isHuman", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::get_hasRootMotion
+// Writing MetadataGetter for method: UnityEngine::Animator::get_hasRootMotion
 // Il2CppName: get_hasRootMotion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animator::*)()>(&Animator::get_hasRootMotion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_hasRootMotion)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_hasRootMotion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_hasRootMotion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::get_isRootPositionOrRotationControlledByCurves
+// Writing MetadataGetter for method: UnityEngine::Animator::get_isRootPositionOrRotationControlledByCurves
 // Il2CppName: get_isRootPositionOrRotationControlledByCurves
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animator::*)()>(&Animator::get_isRootPositionOrRotationControlledByCurves)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_isRootPositionOrRotationControlledByCurves)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_isRootPositionOrRotationControlledByCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_isRootPositionOrRotationControlledByCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::get_humanScale
+// Writing MetadataGetter for method: UnityEngine::Animator::get_humanScale
 // Il2CppName: get_humanScale
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Animator::*)()>(&Animator::get_humanScale)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_humanScale)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_humanScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_humanScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::get_isInitialized
+// Writing MetadataGetter for method: UnityEngine::Animator::get_isInitialized
 // Il2CppName: get_isInitialized
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animator::*)()>(&Animator::get_isInitialized)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_isInitialized)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_isInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_isInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::GetFloat
+// Writing MetadataGetter for method: UnityEngine::Animator::GetFloat
 // Il2CppName: GetFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Animator::*)(::Il2CppString*)>(&Animator::GetFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::GetFloat)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetFloat
+// Writing MetadataGetter for method: UnityEngine::Animator::GetFloat
 // Il2CppName: GetFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Animator::*)(int)>(&Animator::GetFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetFloat)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetFloat
+// Writing MetadataGetter for method: UnityEngine::Animator::SetFloat
 // Il2CppName: SetFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(::Il2CppString*, float)>(&Animator::SetFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, float)>(&UnityEngine::Animator::SetFloat)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetFloat
+// Writing MetadataGetter for method: UnityEngine::Animator::SetFloat
 // Il2CppName: SetFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(::Il2CppString*, float, float, float)>(&Animator::SetFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, float, float, float)>(&UnityEngine::Animator::SetFloat)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetFloat
+// Writing MetadataGetter for method: UnityEngine::Animator::SetFloat
 // Il2CppName: SetFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int, float)>(&Animator::SetFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, float)>(&UnityEngine::Animator::SetFloat)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetFloat
+// Writing MetadataGetter for method: UnityEngine::Animator::SetFloat
 // Il2CppName: SetFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int, float, float, float)>(&Animator::SetFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, float, float, float)>(&UnityEngine::Animator::SetFloat)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetBool
+// Writing MetadataGetter for method: UnityEngine::Animator::GetBool
 // Il2CppName: GetBool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animator::*)(::Il2CppString*)>(&Animator::GetBool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::GetBool)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetBool
+// Writing MetadataGetter for method: UnityEngine::Animator::GetBool
 // Il2CppName: GetBool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animator::*)(int)>(&Animator::GetBool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetBool)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetBool
+// Writing MetadataGetter for method: UnityEngine::Animator::SetBool
 // Il2CppName: SetBool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(::Il2CppString*, bool)>(&Animator::SetBool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, bool)>(&UnityEngine::Animator::SetBool)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetBool
+// Writing MetadataGetter for method: UnityEngine::Animator::SetBool
 // Il2CppName: SetBool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int, bool)>(&Animator::SetBool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, bool)>(&UnityEngine::Animator::SetBool)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetInteger
+// Writing MetadataGetter for method: UnityEngine::Animator::GetInteger
 // Il2CppName: GetInteger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Animator::*)(::Il2CppString*)>(&Animator::GetInteger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::GetInteger)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetInteger
+// Writing MetadataGetter for method: UnityEngine::Animator::GetInteger
 // Il2CppName: GetInteger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Animator::*)(int)>(&Animator::GetInteger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetInteger)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetInteger
+// Writing MetadataGetter for method: UnityEngine::Animator::SetInteger
 // Il2CppName: SetInteger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(::Il2CppString*, int)>(&Animator::SetInteger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, int)>(&UnityEngine::Animator::SetInteger)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetInteger
+// Writing MetadataGetter for method: UnityEngine::Animator::SetInteger
 // Il2CppName: SetInteger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int, int)>(&Animator::SetInteger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, int)>(&UnityEngine::Animator::SetInteger)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetTrigger
+// Writing MetadataGetter for method: UnityEngine::Animator::SetTrigger
 // Il2CppName: SetTrigger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(::Il2CppString*)>(&Animator::SetTrigger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::SetTrigger)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetTrigger
+// Writing MetadataGetter for method: UnityEngine::Animator::SetTrigger
 // Il2CppName: SetTrigger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int)>(&Animator::SetTrigger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::SetTrigger)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::ResetTrigger
+// Writing MetadataGetter for method: UnityEngine::Animator::ResetTrigger
 // Il2CppName: ResetTrigger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(::Il2CppString*)>(&Animator::ResetTrigger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::ResetTrigger)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "ResetTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "ResetTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Animator::ResetTrigger
+// Writing MetadataGetter for method: UnityEngine::Animator::ResetTrigger
 // Il2CppName: ResetTrigger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int)>(&Animator::ResetTrigger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::ResetTrigger)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "ResetTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "ResetTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::IsParameterControlledByCurve
+// Writing MetadataGetter for method: UnityEngine::Animator::IsParameterControlledByCurve
 // Il2CppName: IsParameterControlledByCurve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animator::*)(::Il2CppString*)>(&Animator::IsParameterControlledByCurve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::IsParameterControlledByCurve)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "IsParameterControlledByCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "IsParameterControlledByCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Animator::IsParameterControlledByCurve
+// Writing MetadataGetter for method: UnityEngine::Animator::IsParameterControlledByCurve
 // Il2CppName: IsParameterControlledByCurve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animator::*)(int)>(&Animator::IsParameterControlledByCurve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::IsParameterControlledByCurve)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "IsParameterControlledByCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "IsParameterControlledByCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_deltaPosition
+// Writing MetadataGetter for method: UnityEngine::Animator::get_deltaPosition
 // Il2CppName: get_deltaPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Animator::*)()>(&Animator::get_deltaPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_deltaPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_deltaPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_deltaPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::get_deltaRotation
+// Writing MetadataGetter for method: UnityEngine::Animator::get_deltaRotation
 // Il2CppName: get_deltaRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (Animator::*)()>(&Animator::get_deltaRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_deltaRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_deltaRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_deltaRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::get_velocity
+// Writing MetadataGetter for method: UnityEngine::Animator::get_velocity
 // Il2CppName: get_velocity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Animator::*)()>(&Animator::get_velocity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_velocity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_velocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_velocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::get_angularVelocity
+// Writing MetadataGetter for method: UnityEngine::Animator::get_angularVelocity
 // Il2CppName: get_angularVelocity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Animator::*)()>(&Animator::get_angularVelocity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_angularVelocity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_angularVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_angularVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::get_rootPosition
+// Writing MetadataGetter for method: UnityEngine::Animator::get_rootPosition
 // Il2CppName: get_rootPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Animator::*)()>(&Animator::get_rootPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_rootPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_rootPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_rootPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::set_rootPosition
+// Writing MetadataGetter for method: UnityEngine::Animator::set_rootPosition
 // Il2CppName: set_rootPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::Vector3)>(&Animator::set_rootPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Vector3)>(&UnityEngine::Animator::set_rootPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "set_rootPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_rootPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_rootRotation
+// Writing MetadataGetter for method: UnityEngine::Animator::get_rootRotation
 // Il2CppName: get_rootRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (Animator::*)()>(&Animator::get_rootRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_rootRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_rootRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_rootRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::set_rootRotation
+// Writing MetadataGetter for method: UnityEngine::Animator::set_rootRotation
 // Il2CppName: set_rootRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::Quaternion)>(&Animator::set_rootRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Quaternion)>(&UnityEngine::Animator::set_rootRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "set_rootRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_rootRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_applyRootMotion
+// Writing MetadataGetter for method: UnityEngine::Animator::get_applyRootMotion
 // Il2CppName: get_applyRootMotion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animator::*)()>(&Animator::get_applyRootMotion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_applyRootMotion)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_applyRootMotion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_applyRootMotion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::set_applyRootMotion
+// Writing MetadataGetter for method: UnityEngine::Animator::set_applyRootMotion
 // Il2CppName: set_applyRootMotion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(bool)>(&Animator::set_applyRootMotion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(bool)>(&UnityEngine::Animator::set_applyRootMotion)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "set_applyRootMotion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_applyRootMotion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_linearVelocityBlending
+// Writing MetadataGetter for method: UnityEngine::Animator::get_linearVelocityBlending
 // Il2CppName: get_linearVelocityBlending
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animator::*)()>(&Animator::get_linearVelocityBlending)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_linearVelocityBlending)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_linearVelocityBlending", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_linearVelocityBlending", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::set_linearVelocityBlending
+// Writing MetadataGetter for method: UnityEngine::Animator::set_linearVelocityBlending
 // Il2CppName: set_linearVelocityBlending
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(bool)>(&Animator::set_linearVelocityBlending)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(bool)>(&UnityEngine::Animator::set_linearVelocityBlending)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "set_linearVelocityBlending", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_linearVelocityBlending", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_animatePhysics
+// Writing MetadataGetter for method: UnityEngine::Animator::get_animatePhysics
 // Il2CppName: get_animatePhysics
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animator::*)()>(&Animator::get_animatePhysics)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_animatePhysics)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_animatePhysics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_animatePhysics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::set_animatePhysics
+// Writing MetadataGetter for method: UnityEngine::Animator::set_animatePhysics
 // Il2CppName: set_animatePhysics
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(bool)>(&Animator::set_animatePhysics)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(bool)>(&UnityEngine::Animator::set_animatePhysics)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "set_animatePhysics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_animatePhysics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_updateMode
+// Writing MetadataGetter for method: UnityEngine::Animator::get_updateMode
 // Il2CppName: get_updateMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimatorUpdateMode (Animator::*)()>(&Animator::get_updateMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimatorUpdateMode (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_updateMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_updateMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_updateMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::set_updateMode
+// Writing MetadataGetter for method: UnityEngine::Animator::set_updateMode
 // Il2CppName: set_updateMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::AnimatorUpdateMode)>(&Animator::set_updateMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AnimatorUpdateMode)>(&UnityEngine::Animator::set_updateMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "set_updateMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimatorUpdateMode>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_updateMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimatorUpdateMode>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_hasTransformHierarchy
+// Writing MetadataGetter for method: UnityEngine::Animator::get_hasTransformHierarchy
 // Il2CppName: get_hasTransformHierarchy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animator::*)()>(&Animator::get_hasTransformHierarchy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_hasTransformHierarchy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_hasTransformHierarchy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_hasTransformHierarchy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::get_allowConstantClipSamplingOptimization
+// Writing MetadataGetter for method: UnityEngine::Animator::get_allowConstantClipSamplingOptimization
 // Il2CppName: get_allowConstantClipSamplingOptimization
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animator::*)()>(&Animator::get_allowConstantClipSamplingOptimization)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_allowConstantClipSamplingOptimization)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_allowConstantClipSamplingOptimization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_allowConstantClipSamplingOptimization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::set_allowConstantClipSamplingOptimization
+// Writing MetadataGetter for method: UnityEngine::Animator::set_allowConstantClipSamplingOptimization
 // Il2CppName: set_allowConstantClipSamplingOptimization
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(bool)>(&Animator::set_allowConstantClipSamplingOptimization)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(bool)>(&UnityEngine::Animator::set_allowConstantClipSamplingOptimization)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "set_allowConstantClipSamplingOptimization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_allowConstantClipSamplingOptimization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_gravityWeight
+// Writing MetadataGetter for method: UnityEngine::Animator::get_gravityWeight
 // Il2CppName: get_gravityWeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Animator::*)()>(&Animator::get_gravityWeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_gravityWeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_gravityWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_gravityWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::get_bodyPosition
+// Writing MetadataGetter for method: UnityEngine::Animator::get_bodyPosition
 // Il2CppName: get_bodyPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Animator::*)()>(&Animator::get_bodyPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_bodyPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_bodyPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_bodyPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::set_bodyPosition
+// Writing MetadataGetter for method: UnityEngine::Animator::set_bodyPosition
 // Il2CppName: set_bodyPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::Vector3)>(&Animator::set_bodyPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Vector3)>(&UnityEngine::Animator::set_bodyPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "set_bodyPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_bodyPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_bodyPositionInternal
+// Writing MetadataGetter for method: UnityEngine::Animator::get_bodyPositionInternal
 // Il2CppName: get_bodyPositionInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Animator::*)()>(&Animator::get_bodyPositionInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_bodyPositionInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_bodyPositionInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_bodyPositionInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::set_bodyPositionInternal
+// Writing MetadataGetter for method: UnityEngine::Animator::set_bodyPositionInternal
 // Il2CppName: set_bodyPositionInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::Vector3)>(&Animator::set_bodyPositionInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Vector3)>(&UnityEngine::Animator::set_bodyPositionInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "set_bodyPositionInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_bodyPositionInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_bodyRotation
+// Writing MetadataGetter for method: UnityEngine::Animator::get_bodyRotation
 // Il2CppName: get_bodyRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (Animator::*)()>(&Animator::get_bodyRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_bodyRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_bodyRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_bodyRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::set_bodyRotation
+// Writing MetadataGetter for method: UnityEngine::Animator::set_bodyRotation
 // Il2CppName: set_bodyRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::Quaternion)>(&Animator::set_bodyRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Quaternion)>(&UnityEngine::Animator::set_bodyRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "set_bodyRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_bodyRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_bodyRotationInternal
+// Writing MetadataGetter for method: UnityEngine::Animator::get_bodyRotationInternal
 // Il2CppName: get_bodyRotationInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (Animator::*)()>(&Animator::get_bodyRotationInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_bodyRotationInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_bodyRotationInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_bodyRotationInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::set_bodyRotationInternal
+// Writing MetadataGetter for method: UnityEngine::Animator::set_bodyRotationInternal
 // Il2CppName: set_bodyRotationInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::Quaternion)>(&Animator::set_bodyRotationInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Quaternion)>(&UnityEngine::Animator::set_bodyRotationInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "set_bodyRotationInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_bodyRotationInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetIKPosition
+// Writing MetadataGetter for method: UnityEngine::Animator::GetIKPosition
 // Il2CppName: GetIKPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Animator::*)(UnityEngine::AvatarIKGoal)>(&Animator::GetIKPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal)>(&UnityEngine::Animator::GetIKPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetIKPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetIKPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetGoalPosition
+// Writing MetadataGetter for method: UnityEngine::Animator::GetGoalPosition
 // Il2CppName: GetGoalPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Animator::*)(UnityEngine::AvatarIKGoal)>(&Animator::GetGoalPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal)>(&UnityEngine::Animator::GetGoalPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetGoalPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetGoalPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetIKPosition
+// Writing MetadataGetter for method: UnityEngine::Animator::SetIKPosition
 // Il2CppName: SetIKPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::AvatarIKGoal, UnityEngine::Vector3)>(&Animator::SetIKPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal, UnityEngine::Vector3)>(&UnityEngine::Animator::SetIKPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetIKPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetIKPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetGoalPosition
+// Writing MetadataGetter for method: UnityEngine::Animator::SetGoalPosition
 // Il2CppName: SetGoalPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::AvatarIKGoal, UnityEngine::Vector3)>(&Animator::SetGoalPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal, UnityEngine::Vector3)>(&UnityEngine::Animator::SetGoalPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetGoalPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetGoalPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetIKRotation
+// Writing MetadataGetter for method: UnityEngine::Animator::GetIKRotation
 // Il2CppName: GetIKRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (Animator::*)(UnityEngine::AvatarIKGoal)>(&Animator::GetIKRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal)>(&UnityEngine::Animator::GetIKRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetIKRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetIKRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetGoalRotation
+// Writing MetadataGetter for method: UnityEngine::Animator::GetGoalRotation
 // Il2CppName: GetGoalRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (Animator::*)(UnityEngine::AvatarIKGoal)>(&Animator::GetGoalRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal)>(&UnityEngine::Animator::GetGoalRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetGoalRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetGoalRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetIKRotation
+// Writing MetadataGetter for method: UnityEngine::Animator::SetIKRotation
 // Il2CppName: SetIKRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::AvatarIKGoal, UnityEngine::Quaternion)>(&Animator::SetIKRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal, UnityEngine::Quaternion)>(&UnityEngine::Animator::SetIKRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetIKRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetIKRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetGoalRotation
+// Writing MetadataGetter for method: UnityEngine::Animator::SetGoalRotation
 // Il2CppName: SetGoalRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::AvatarIKGoal, UnityEngine::Quaternion)>(&Animator::SetGoalRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal, UnityEngine::Quaternion)>(&UnityEngine::Animator::SetGoalRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetGoalRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetGoalRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetIKPositionWeight
+// Writing MetadataGetter for method: UnityEngine::Animator::GetIKPositionWeight
 // Il2CppName: GetIKPositionWeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Animator::*)(UnityEngine::AvatarIKGoal)>(&Animator::GetIKPositionWeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal)>(&UnityEngine::Animator::GetIKPositionWeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetIKPositionWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetIKPositionWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetGoalWeightPosition
+// Writing MetadataGetter for method: UnityEngine::Animator::GetGoalWeightPosition
 // Il2CppName: GetGoalWeightPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Animator::*)(UnityEngine::AvatarIKGoal)>(&Animator::GetGoalWeightPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal)>(&UnityEngine::Animator::GetGoalWeightPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetGoalWeightPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetGoalWeightPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetIKPositionWeight
+// Writing MetadataGetter for method: UnityEngine::Animator::SetIKPositionWeight
 // Il2CppName: SetIKPositionWeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::AvatarIKGoal, float)>(&Animator::SetIKPositionWeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal, float)>(&UnityEngine::Animator::SetIKPositionWeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetIKPositionWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetIKPositionWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetGoalWeightPosition
+// Writing MetadataGetter for method: UnityEngine::Animator::SetGoalWeightPosition
 // Il2CppName: SetGoalWeightPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::AvatarIKGoal, float)>(&Animator::SetGoalWeightPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal, float)>(&UnityEngine::Animator::SetGoalWeightPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetGoalWeightPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetGoalWeightPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetIKRotationWeight
+// Writing MetadataGetter for method: UnityEngine::Animator::GetIKRotationWeight
 // Il2CppName: GetIKRotationWeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Animator::*)(UnityEngine::AvatarIKGoal)>(&Animator::GetIKRotationWeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal)>(&UnityEngine::Animator::GetIKRotationWeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetIKRotationWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetIKRotationWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetGoalWeightRotation
+// Writing MetadataGetter for method: UnityEngine::Animator::GetGoalWeightRotation
 // Il2CppName: GetGoalWeightRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Animator::*)(UnityEngine::AvatarIKGoal)>(&Animator::GetGoalWeightRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal)>(&UnityEngine::Animator::GetGoalWeightRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetGoalWeightRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetGoalWeightRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetIKRotationWeight
+// Writing MetadataGetter for method: UnityEngine::Animator::SetIKRotationWeight
 // Il2CppName: SetIKRotationWeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::AvatarIKGoal, float)>(&Animator::SetIKRotationWeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal, float)>(&UnityEngine::Animator::SetIKRotationWeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetIKRotationWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetIKRotationWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetGoalWeightRotation
+// Writing MetadataGetter for method: UnityEngine::Animator::SetGoalWeightRotation
 // Il2CppName: SetGoalWeightRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::AvatarIKGoal, float)>(&Animator::SetGoalWeightRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal, float)>(&UnityEngine::Animator::SetGoalWeightRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetGoalWeightRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetGoalWeightRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetIKHintPosition
+// Writing MetadataGetter for method: UnityEngine::Animator::GetIKHintPosition
 // Il2CppName: GetIKHintPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Animator::*)(UnityEngine::AvatarIKHint)>(&Animator::GetIKHintPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Animator::*)(UnityEngine::AvatarIKHint)>(&UnityEngine::Animator::GetIKHintPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetIKHintPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKHint>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetIKHintPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKHint>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetHintPosition
+// Writing MetadataGetter for method: UnityEngine::Animator::GetHintPosition
 // Il2CppName: GetHintPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Animator::*)(UnityEngine::AvatarIKHint)>(&Animator::GetHintPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Animator::*)(UnityEngine::AvatarIKHint)>(&UnityEngine::Animator::GetHintPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetHintPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKHint>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetHintPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKHint>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetIKHintPosition
+// Writing MetadataGetter for method: UnityEngine::Animator::SetIKHintPosition
 // Il2CppName: SetIKHintPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::AvatarIKHint, UnityEngine::Vector3)>(&Animator::SetIKHintPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKHint, UnityEngine::Vector3)>(&UnityEngine::Animator::SetIKHintPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetIKHintPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKHint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetIKHintPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKHint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetHintPosition
+// Writing MetadataGetter for method: UnityEngine::Animator::SetHintPosition
 // Il2CppName: SetHintPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::AvatarIKHint, UnityEngine::Vector3)>(&Animator::SetHintPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKHint, UnityEngine::Vector3)>(&UnityEngine::Animator::SetHintPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetHintPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKHint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetHintPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKHint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetIKHintPositionWeight
+// Writing MetadataGetter for method: UnityEngine::Animator::GetIKHintPositionWeight
 // Il2CppName: GetIKHintPositionWeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Animator::*)(UnityEngine::AvatarIKHint)>(&Animator::GetIKHintPositionWeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)(UnityEngine::AvatarIKHint)>(&UnityEngine::Animator::GetIKHintPositionWeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetIKHintPositionWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKHint>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetIKHintPositionWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKHint>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetHintWeightPosition
+// Writing MetadataGetter for method: UnityEngine::Animator::GetHintWeightPosition
 // Il2CppName: GetHintWeightPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Animator::*)(UnityEngine::AvatarIKHint)>(&Animator::GetHintWeightPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)(UnityEngine::AvatarIKHint)>(&UnityEngine::Animator::GetHintWeightPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetHintWeightPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKHint>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetHintWeightPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKHint>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetIKHintPositionWeight
+// Writing MetadataGetter for method: UnityEngine::Animator::SetIKHintPositionWeight
 // Il2CppName: SetIKHintPositionWeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::AvatarIKHint, float)>(&Animator::SetIKHintPositionWeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKHint, float)>(&UnityEngine::Animator::SetIKHintPositionWeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetIKHintPositionWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKHint>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetIKHintPositionWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKHint>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetHintWeightPosition
+// Writing MetadataGetter for method: UnityEngine::Animator::SetHintWeightPosition
 // Il2CppName: SetHintWeightPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::AvatarIKHint, float)>(&Animator::SetHintWeightPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKHint, float)>(&UnityEngine::Animator::SetHintWeightPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetHintWeightPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKHint>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetHintWeightPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKHint>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetLookAtPosition
+// Writing MetadataGetter for method: UnityEngine::Animator::SetLookAtPosition
 // Il2CppName: SetLookAtPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::Vector3)>(&Animator::SetLookAtPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Vector3)>(&UnityEngine::Animator::SetLookAtPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetLookAtPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetLookAtPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetLookAtPositionInternal
+// Writing MetadataGetter for method: UnityEngine::Animator::SetLookAtPositionInternal
 // Il2CppName: SetLookAtPositionInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::Vector3)>(&Animator::SetLookAtPositionInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Vector3)>(&UnityEngine::Animator::SetLookAtPositionInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetLookAtPositionInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetLookAtPositionInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetLookAtWeight
+// Writing MetadataGetter for method: UnityEngine::Animator::SetLookAtWeight
 // Il2CppName: SetLookAtWeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(float)>(&Animator::SetLookAtWeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(float)>(&UnityEngine::Animator::SetLookAtWeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetLookAtWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetLookAtWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetLookAtWeight
+// Writing MetadataGetter for method: UnityEngine::Animator::SetLookAtWeight
 // Il2CppName: SetLookAtWeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(float, float)>(&Animator::SetLookAtWeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(float, float)>(&UnityEngine::Animator::SetLookAtWeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetLookAtWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetLookAtWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetLookAtWeight
+// Writing MetadataGetter for method: UnityEngine::Animator::SetLookAtWeight
 // Il2CppName: SetLookAtWeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(float, float, float)>(&Animator::SetLookAtWeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(float, float, float)>(&UnityEngine::Animator::SetLookAtWeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetLookAtWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetLookAtWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetLookAtWeight
+// Writing MetadataGetter for method: UnityEngine::Animator::SetLookAtWeight
 // Il2CppName: SetLookAtWeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(float, float, float, float)>(&Animator::SetLookAtWeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(float, float, float, float)>(&UnityEngine::Animator::SetLookAtWeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetLookAtWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetLookAtWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetLookAtWeight
+// Writing MetadataGetter for method: UnityEngine::Animator::SetLookAtWeight
 // Il2CppName: SetLookAtWeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(float, float, float, float, float)>(&Animator::SetLookAtWeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(float, float, float, float, float)>(&UnityEngine::Animator::SetLookAtWeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetLookAtWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetLookAtWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetLookAtWeightInternal
+// Writing MetadataGetter for method: UnityEngine::Animator::SetLookAtWeightInternal
 // Il2CppName: SetLookAtWeightInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(float, float, float, float, float)>(&Animator::SetLookAtWeightInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(float, float, float, float, float)>(&UnityEngine::Animator::SetLookAtWeightInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetLookAtWeightInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetLookAtWeightInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetBoneLocalRotation
+// Writing MetadataGetter for method: UnityEngine::Animator::SetBoneLocalRotation
 // Il2CppName: SetBoneLocalRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::HumanBodyBones, UnityEngine::Quaternion)>(&Animator::SetBoneLocalRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::HumanBodyBones, UnityEngine::Quaternion)>(&UnityEngine::Animator::SetBoneLocalRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetBoneLocalRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::HumanBodyBones>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetBoneLocalRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::HumanBodyBones>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetBoneLocalRotationInternal
+// Writing MetadataGetter for method: UnityEngine::Animator::SetBoneLocalRotationInternal
 // Il2CppName: SetBoneLocalRotationInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int, UnityEngine::Quaternion)>(&Animator::SetBoneLocalRotationInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, UnityEngine::Quaternion)>(&UnityEngine::Animator::SetBoneLocalRotationInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetBoneLocalRotationInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetBoneLocalRotationInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetBehaviour
+// Writing MetadataGetter for method: UnityEngine::Animator::GetBehaviour
 // Il2CppName: GetBehaviour
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ScriptableObject* (Animator::*)(System::Type*)>(&Animator::GetBehaviour)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ScriptableObject* (UnityEngine::Animator::*)(System::Type*)>(&UnityEngine::Animator::GetBehaviour)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetBehaviour", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetBehaviour", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetBehaviour
+// Writing MetadataGetter for method: UnityEngine::Animator::GetBehaviour
 // Il2CppName: GetBehaviour
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Animator::ConvertStateMachineBehaviour
+// Writing MetadataGetter for method: UnityEngine::Animator::ConvertStateMachineBehaviour
 // Il2CppName: ConvertStateMachineBehaviour
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Animator::GetBehaviours
+// Writing MetadataGetter for method: UnityEngine::Animator::GetBehaviours
 // Il2CppName: GetBehaviours
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: Animator::InternalGetBehaviours
+// Writing MetadataGetter for method: UnityEngine::Animator::InternalGetBehaviours
 // Il2CppName: InternalGetBehaviours
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::ScriptableObject*>* (Animator::*)(System::Type*)>(&Animator::InternalGetBehaviours)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::ScriptableObject*>* (UnityEngine::Animator::*)(System::Type*)>(&UnityEngine::Animator::InternalGetBehaviours)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "InternalGetBehaviours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "InternalGetBehaviours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetBehaviours
+// Writing MetadataGetter for method: UnityEngine::Animator::GetBehaviours
 // Il2CppName: GetBehaviours
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::StateMachineBehaviour*>* (Animator::*)(int, int)>(&Animator::GetBehaviours)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::StateMachineBehaviour*>* (UnityEngine::Animator::*)(int, int)>(&UnityEngine::Animator::GetBehaviours)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetBehaviours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetBehaviours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::InternalGetBehavioursByKey
+// Writing MetadataGetter for method: UnityEngine::Animator::InternalGetBehavioursByKey
 // Il2CppName: InternalGetBehavioursByKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::ScriptableObject*>* (Animator::*)(int, int, System::Type*)>(&Animator::InternalGetBehavioursByKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::ScriptableObject*>* (UnityEngine::Animator::*)(int, int, System::Type*)>(&UnityEngine::Animator::InternalGetBehavioursByKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "InternalGetBehavioursByKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "InternalGetBehavioursByKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_stabilizeFeet
+// Writing MetadataGetter for method: UnityEngine::Animator::get_stabilizeFeet
 // Il2CppName: get_stabilizeFeet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animator::*)()>(&Animator::get_stabilizeFeet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_stabilizeFeet)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_stabilizeFeet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_stabilizeFeet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::set_stabilizeFeet
+// Writing MetadataGetter for method: UnityEngine::Animator::set_stabilizeFeet
 // Il2CppName: set_stabilizeFeet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(bool)>(&Animator::set_stabilizeFeet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(bool)>(&UnityEngine::Animator::set_stabilizeFeet)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "set_stabilizeFeet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_stabilizeFeet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_layerCount
+// Writing MetadataGetter for method: UnityEngine::Animator::get_layerCount
 // Il2CppName: get_layerCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Animator::*)()>(&Animator::get_layerCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_layerCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_layerCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_layerCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::GetLayerName
+// Writing MetadataGetter for method: UnityEngine::Animator::GetLayerName
 // Il2CppName: GetLayerName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Animator::*)(int)>(&Animator::GetLayerName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetLayerName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetLayerName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetLayerName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetLayerIndex
+// Writing MetadataGetter for method: UnityEngine::Animator::GetLayerIndex
 // Il2CppName: GetLayerIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Animator::*)(::Il2CppString*)>(&Animator::GetLayerIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::GetLayerIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetLayerIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetLayerIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetLayerWeight
+// Writing MetadataGetter for method: UnityEngine::Animator::GetLayerWeight
 // Il2CppName: GetLayerWeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Animator::*)(int)>(&Animator::GetLayerWeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetLayerWeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetLayerWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetLayerWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetLayerWeight
+// Writing MetadataGetter for method: UnityEngine::Animator::SetLayerWeight
 // Il2CppName: SetLayerWeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int, float)>(&Animator::SetLayerWeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, float)>(&UnityEngine::Animator::SetLayerWeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetLayerWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetLayerWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetAnimatorStateInfo
+// Writing MetadataGetter for method: UnityEngine::Animator::GetAnimatorStateInfo
 // Il2CppName: GetAnimatorStateInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int, UnityEngine::StateInfoIndex, UnityEngine::AnimatorStateInfo&)>(&Animator::GetAnimatorStateInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, UnityEngine::StateInfoIndex, UnityEngine::AnimatorStateInfo&)>(&UnityEngine::Animator::GetAnimatorStateInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetAnimatorStateInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::StateInfoIndex>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimatorStateInfo&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetAnimatorStateInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::StateInfoIndex>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimatorStateInfo&>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetCurrentAnimatorStateInfo
+// Writing MetadataGetter for method: UnityEngine::Animator::GetCurrentAnimatorStateInfo
 // Il2CppName: GetCurrentAnimatorStateInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimatorStateInfo (Animator::*)(int)>(&Animator::GetCurrentAnimatorStateInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimatorStateInfo (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetCurrentAnimatorStateInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetCurrentAnimatorStateInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetCurrentAnimatorStateInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetNextAnimatorStateInfo
+// Writing MetadataGetter for method: UnityEngine::Animator::GetNextAnimatorStateInfo
 // Il2CppName: GetNextAnimatorStateInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimatorStateInfo (Animator::*)(int)>(&Animator::GetNextAnimatorStateInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimatorStateInfo (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetNextAnimatorStateInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetNextAnimatorStateInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetNextAnimatorStateInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetAnimatorTransitionInfo
+// Writing MetadataGetter for method: UnityEngine::Animator::GetAnimatorTransitionInfo
 // Il2CppName: GetAnimatorTransitionInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int, UnityEngine::AnimatorTransitionInfo&)>(&Animator::GetAnimatorTransitionInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, UnityEngine::AnimatorTransitionInfo&)>(&UnityEngine::Animator::GetAnimatorTransitionInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetAnimatorTransitionInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimatorTransitionInfo&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetAnimatorTransitionInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimatorTransitionInfo&>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetAnimatorTransitionInfo
+// Writing MetadataGetter for method: UnityEngine::Animator::GetAnimatorTransitionInfo
 // Il2CppName: GetAnimatorTransitionInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimatorTransitionInfo (Animator::*)(int)>(&Animator::GetAnimatorTransitionInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimatorTransitionInfo (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetAnimatorTransitionInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetAnimatorTransitionInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetAnimatorTransitionInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetAnimatorClipInfoCount
+// Writing MetadataGetter for method: UnityEngine::Animator::GetAnimatorClipInfoCount
 // Il2CppName: GetAnimatorClipInfoCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Animator::*)(int, bool)>(&Animator::GetAnimatorClipInfoCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Animator::*)(int, bool)>(&UnityEngine::Animator::GetAnimatorClipInfoCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetAnimatorClipInfoCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetAnimatorClipInfoCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetCurrentAnimatorClipInfoCount
+// Writing MetadataGetter for method: UnityEngine::Animator::GetCurrentAnimatorClipInfoCount
 // Il2CppName: GetCurrentAnimatorClipInfoCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Animator::*)(int)>(&Animator::GetCurrentAnimatorClipInfoCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetCurrentAnimatorClipInfoCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetCurrentAnimatorClipInfoCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetCurrentAnimatorClipInfoCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetNextAnimatorClipInfoCount
+// Writing MetadataGetter for method: UnityEngine::Animator::GetNextAnimatorClipInfoCount
 // Il2CppName: GetNextAnimatorClipInfoCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Animator::*)(int)>(&Animator::GetNextAnimatorClipInfoCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetNextAnimatorClipInfoCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetNextAnimatorClipInfoCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetNextAnimatorClipInfoCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetCurrentAnimatorClipInfo
+// Writing MetadataGetter for method: UnityEngine::Animator::GetCurrentAnimatorClipInfo
 // Il2CppName: GetCurrentAnimatorClipInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::AnimatorClipInfo>* (Animator::*)(int)>(&Animator::GetCurrentAnimatorClipInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::AnimatorClipInfo>* (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetCurrentAnimatorClipInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetCurrentAnimatorClipInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetCurrentAnimatorClipInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetNextAnimatorClipInfo
+// Writing MetadataGetter for method: UnityEngine::Animator::GetNextAnimatorClipInfo
 // Il2CppName: GetNextAnimatorClipInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::AnimatorClipInfo>* (Animator::*)(int)>(&Animator::GetNextAnimatorClipInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::AnimatorClipInfo>* (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetNextAnimatorClipInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetNextAnimatorClipInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetNextAnimatorClipInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetCurrentAnimatorClipInfo
+// Writing MetadataGetter for method: UnityEngine::Animator::GetCurrentAnimatorClipInfo
 // Il2CppName: GetCurrentAnimatorClipInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int, System::Collections::Generic::List_1<UnityEngine::AnimatorClipInfo>*)>(&Animator::GetCurrentAnimatorClipInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, System::Collections::Generic::List_1<UnityEngine::AnimatorClipInfo>*)>(&UnityEngine::Animator::GetCurrentAnimatorClipInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetCurrentAnimatorClipInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::AnimatorClipInfo>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetCurrentAnimatorClipInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::AnimatorClipInfo>*>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetAnimatorClipInfoInternal
+// Writing MetadataGetter for method: UnityEngine::Animator::GetAnimatorClipInfoInternal
 // Il2CppName: GetAnimatorClipInfoInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int, bool, ::Il2CppObject*)>(&Animator::GetAnimatorClipInfoInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, bool, ::Il2CppObject*)>(&UnityEngine::Animator::GetAnimatorClipInfoInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetAnimatorClipInfoInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetAnimatorClipInfoInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetNextAnimatorClipInfo
+// Writing MetadataGetter for method: UnityEngine::Animator::GetNextAnimatorClipInfo
 // Il2CppName: GetNextAnimatorClipInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int, System::Collections::Generic::List_1<UnityEngine::AnimatorClipInfo>*)>(&Animator::GetNextAnimatorClipInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, System::Collections::Generic::List_1<UnityEngine::AnimatorClipInfo>*)>(&UnityEngine::Animator::GetNextAnimatorClipInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetNextAnimatorClipInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::AnimatorClipInfo>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetNextAnimatorClipInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::AnimatorClipInfo>*>()});
   }
 };
-// Writing MetadataGetter for method: Animator::IsInTransition
+// Writing MetadataGetter for method: UnityEngine::Animator::IsInTransition
 // Il2CppName: IsInTransition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animator::*)(int)>(&Animator::IsInTransition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::IsInTransition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "IsInTransition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "IsInTransition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_parameters
+// Writing MetadataGetter for method: UnityEngine::Animator::get_parameters
 // Il2CppName: get_parameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::AnimatorControllerParameter*>* (Animator::*)()>(&Animator::get_parameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::AnimatorControllerParameter*>* (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_parameters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_parameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_parameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::get_parameterCount
+// Writing MetadataGetter for method: UnityEngine::Animator::get_parameterCount
 // Il2CppName: get_parameterCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Animator::*)()>(&Animator::get_parameterCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_parameterCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_parameterCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_parameterCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::GetParameter
+// Writing MetadataGetter for method: UnityEngine::Animator::GetParameter
 // Il2CppName: GetParameter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimatorControllerParameter* (Animator::*)(int)>(&Animator::GetParameter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimatorControllerParameter* (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetParameter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetParameter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetParameter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_feetPivotActive
+// Writing MetadataGetter for method: UnityEngine::Animator::get_feetPivotActive
 // Il2CppName: get_feetPivotActive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Animator::*)()>(&Animator::get_feetPivotActive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_feetPivotActive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_feetPivotActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_feetPivotActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::set_feetPivotActive
+// Writing MetadataGetter for method: UnityEngine::Animator::set_feetPivotActive
 // Il2CppName: set_feetPivotActive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(float)>(&Animator::set_feetPivotActive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(float)>(&UnityEngine::Animator::set_feetPivotActive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "set_feetPivotActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_feetPivotActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_pivotWeight
+// Writing MetadataGetter for method: UnityEngine::Animator::get_pivotWeight
 // Il2CppName: get_pivotWeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Animator::*)()>(&Animator::get_pivotWeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_pivotWeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_pivotWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_pivotWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::get_pivotPosition
+// Writing MetadataGetter for method: UnityEngine::Animator::get_pivotPosition
 // Il2CppName: get_pivotPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Animator::*)()>(&Animator::get_pivotPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_pivotPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_pivotPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_pivotPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::MatchTarget
+// Writing MetadataGetter for method: UnityEngine::Animator::MatchTarget
 // Il2CppName: MatchTarget
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::Vector3, UnityEngine::Quaternion, int, UnityEngine::MatchTargetWeightMask, float, float, bool)>(&Animator::MatchTarget)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Vector3, UnityEngine::Quaternion, int, UnityEngine::MatchTargetWeightMask, float, float, bool)>(&UnityEngine::Animator::MatchTarget)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "MatchTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::MatchTargetWeightMask>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "MatchTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::MatchTargetWeightMask>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Animator::MatchTarget
+// Writing MetadataGetter for method: UnityEngine::Animator::MatchTarget
 // Il2CppName: MatchTarget
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::AvatarTarget, UnityEngine::MatchTargetWeightMask, float)>(&Animator::MatchTarget)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::AvatarTarget, UnityEngine::MatchTargetWeightMask, float)>(&UnityEngine::Animator::MatchTarget)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "MatchTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarTarget>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::MatchTargetWeightMask>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "MatchTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarTarget>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::MatchTargetWeightMask>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::MatchTarget
+// Writing MetadataGetter for method: UnityEngine::Animator::MatchTarget
 // Il2CppName: MatchTarget
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::AvatarTarget, UnityEngine::MatchTargetWeightMask, float, float)>(&Animator::MatchTarget)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::AvatarTarget, UnityEngine::MatchTargetWeightMask, float, float)>(&UnityEngine::Animator::MatchTarget)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "MatchTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarTarget>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::MatchTargetWeightMask>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "MatchTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarTarget>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::MatchTargetWeightMask>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::MatchTarget
+// Writing MetadataGetter for method: UnityEngine::Animator::MatchTarget
 // Il2CppName: MatchTarget
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::AvatarTarget, UnityEngine::MatchTargetWeightMask, float, float, bool)>(&Animator::MatchTarget)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::AvatarTarget, UnityEngine::MatchTargetWeightMask, float, float, bool)>(&UnityEngine::Animator::MatchTarget)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "MatchTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarTarget>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::MatchTargetWeightMask>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "MatchTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarTarget>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::MatchTargetWeightMask>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Animator::InterruptMatchTarget
+// Writing MetadataGetter for method: UnityEngine::Animator::InterruptMatchTarget
 // Il2CppName: InterruptMatchTarget
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)()>(&Animator::InterruptMatchTarget)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)()>(&UnityEngine::Animator::InterruptMatchTarget)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "InterruptMatchTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "InterruptMatchTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::InterruptMatchTarget
+// Writing MetadataGetter for method: UnityEngine::Animator::InterruptMatchTarget
 // Il2CppName: InterruptMatchTarget
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(bool)>(&Animator::InterruptMatchTarget)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(bool)>(&UnityEngine::Animator::InterruptMatchTarget)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "InterruptMatchTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "InterruptMatchTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_isMatchingTarget
+// Writing MetadataGetter for method: UnityEngine::Animator::get_isMatchingTarget
 // Il2CppName: get_isMatchingTarget
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animator::*)()>(&Animator::get_isMatchingTarget)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_isMatchingTarget)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_isMatchingTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_isMatchingTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::get_speed
+// Writing MetadataGetter for method: UnityEngine::Animator::get_speed
 // Il2CppName: get_speed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Animator::*)()>(&Animator::get_speed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_speed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_speed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_speed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::set_speed
+// Writing MetadataGetter for method: UnityEngine::Animator::set_speed
 // Il2CppName: set_speed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(float)>(&Animator::set_speed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(float)>(&UnityEngine::Animator::set_speed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "set_speed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_speed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::ForceStateNormalizedTime
+// Writing MetadataGetter for method: UnityEngine::Animator::ForceStateNormalizedTime
 // Il2CppName: ForceStateNormalizedTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(float)>(&Animator::ForceStateNormalizedTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(float)>(&UnityEngine::Animator::ForceStateNormalizedTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "ForceStateNormalizedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "ForceStateNormalizedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::CrossFadeInFixedTime
+// Writing MetadataGetter for method: UnityEngine::Animator::CrossFadeInFixedTime
 // Il2CppName: CrossFadeInFixedTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(::Il2CppString*, float)>(&Animator::CrossFadeInFixedTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, float)>(&UnityEngine::Animator::CrossFadeInFixedTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "CrossFadeInFixedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "CrossFadeInFixedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::CrossFadeInFixedTime
+// Writing MetadataGetter for method: UnityEngine::Animator::CrossFadeInFixedTime
 // Il2CppName: CrossFadeInFixedTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(::Il2CppString*, float, int)>(&Animator::CrossFadeInFixedTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, float, int)>(&UnityEngine::Animator::CrossFadeInFixedTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "CrossFadeInFixedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "CrossFadeInFixedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::CrossFadeInFixedTime
+// Writing MetadataGetter for method: UnityEngine::Animator::CrossFadeInFixedTime
 // Il2CppName: CrossFadeInFixedTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(::Il2CppString*, float, int, float)>(&Animator::CrossFadeInFixedTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, float, int, float)>(&UnityEngine::Animator::CrossFadeInFixedTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "CrossFadeInFixedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "CrossFadeInFixedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::CrossFadeInFixedTime
+// Writing MetadataGetter for method: UnityEngine::Animator::CrossFadeInFixedTime
 // Il2CppName: CrossFadeInFixedTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(::Il2CppString*, float, int, float, float)>(&Animator::CrossFadeInFixedTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, float, int, float, float)>(&UnityEngine::Animator::CrossFadeInFixedTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "CrossFadeInFixedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "CrossFadeInFixedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::CrossFadeInFixedTime
+// Writing MetadataGetter for method: UnityEngine::Animator::CrossFadeInFixedTime
 // Il2CppName: CrossFadeInFixedTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int, float, int, float)>(&Animator::CrossFadeInFixedTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, float, int, float)>(&UnityEngine::Animator::CrossFadeInFixedTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "CrossFadeInFixedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "CrossFadeInFixedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::CrossFadeInFixedTime
+// Writing MetadataGetter for method: UnityEngine::Animator::CrossFadeInFixedTime
 // Il2CppName: CrossFadeInFixedTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int, float, int)>(&Animator::CrossFadeInFixedTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, float, int)>(&UnityEngine::Animator::CrossFadeInFixedTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "CrossFadeInFixedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "CrossFadeInFixedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::CrossFadeInFixedTime
+// Writing MetadataGetter for method: UnityEngine::Animator::CrossFadeInFixedTime
 // Il2CppName: CrossFadeInFixedTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int, float)>(&Animator::CrossFadeInFixedTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, float)>(&UnityEngine::Animator::CrossFadeInFixedTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "CrossFadeInFixedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "CrossFadeInFixedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::CrossFadeInFixedTime
+// Writing MetadataGetter for method: UnityEngine::Animator::CrossFadeInFixedTime
 // Il2CppName: CrossFadeInFixedTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int, float, int, float, float)>(&Animator::CrossFadeInFixedTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, float, int, float, float)>(&UnityEngine::Animator::CrossFadeInFixedTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "CrossFadeInFixedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "CrossFadeInFixedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::WriteDefaultValues
+// Writing MetadataGetter for method: UnityEngine::Animator::WriteDefaultValues
 // Il2CppName: WriteDefaultValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)()>(&Animator::WriteDefaultValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)()>(&UnityEngine::Animator::WriteDefaultValues)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "WriteDefaultValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "WriteDefaultValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::CrossFade
+// Writing MetadataGetter for method: UnityEngine::Animator::CrossFade
 // Il2CppName: CrossFade
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(::Il2CppString*, float, int, float)>(&Animator::CrossFade)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, float, int, float)>(&UnityEngine::Animator::CrossFade)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "CrossFade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "CrossFade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::CrossFade
+// Writing MetadataGetter for method: UnityEngine::Animator::CrossFade
 // Il2CppName: CrossFade
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(::Il2CppString*, float, int)>(&Animator::CrossFade)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, float, int)>(&UnityEngine::Animator::CrossFade)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "CrossFade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "CrossFade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::CrossFade
+// Writing MetadataGetter for method: UnityEngine::Animator::CrossFade
 // Il2CppName: CrossFade
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(::Il2CppString*, float)>(&Animator::CrossFade)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, float)>(&UnityEngine::Animator::CrossFade)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "CrossFade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "CrossFade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::CrossFade
+// Writing MetadataGetter for method: UnityEngine::Animator::CrossFade
 // Il2CppName: CrossFade
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(::Il2CppString*, float, int, float, float)>(&Animator::CrossFade)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, float, int, float, float)>(&UnityEngine::Animator::CrossFade)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "CrossFade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "CrossFade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::CrossFade
+// Writing MetadataGetter for method: UnityEngine::Animator::CrossFade
 // Il2CppName: CrossFade
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int, float, int, float, float)>(&Animator::CrossFade)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, float, int, float, float)>(&UnityEngine::Animator::CrossFade)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "CrossFade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "CrossFade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::CrossFade
+// Writing MetadataGetter for method: UnityEngine::Animator::CrossFade
 // Il2CppName: CrossFade
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int, float, int, float)>(&Animator::CrossFade)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, float, int, float)>(&UnityEngine::Animator::CrossFade)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "CrossFade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "CrossFade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::CrossFade
+// Writing MetadataGetter for method: UnityEngine::Animator::CrossFade
 // Il2CppName: CrossFade
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int, float, int)>(&Animator::CrossFade)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, float, int)>(&UnityEngine::Animator::CrossFade)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "CrossFade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "CrossFade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::CrossFade
+// Writing MetadataGetter for method: UnityEngine::Animator::CrossFade
 // Il2CppName: CrossFade
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int, float)>(&Animator::CrossFade)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, float)>(&UnityEngine::Animator::CrossFade)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "CrossFade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "CrossFade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::PlayInFixedTime
+// Writing MetadataGetter for method: UnityEngine::Animator::PlayInFixedTime
 // Il2CppName: PlayInFixedTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(::Il2CppString*, int)>(&Animator::PlayInFixedTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, int)>(&UnityEngine::Animator::PlayInFixedTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "PlayInFixedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "PlayInFixedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::PlayInFixedTime
+// Writing MetadataGetter for method: UnityEngine::Animator::PlayInFixedTime
 // Il2CppName: PlayInFixedTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(::Il2CppString*)>(&Animator::PlayInFixedTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::PlayInFixedTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "PlayInFixedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "PlayInFixedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Animator::PlayInFixedTime
+// Writing MetadataGetter for method: UnityEngine::Animator::PlayInFixedTime
 // Il2CppName: PlayInFixedTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(::Il2CppString*, int, float)>(&Animator::PlayInFixedTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, int, float)>(&UnityEngine::Animator::PlayInFixedTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "PlayInFixedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "PlayInFixedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::PlayInFixedTime
+// Writing MetadataGetter for method: UnityEngine::Animator::PlayInFixedTime
 // Il2CppName: PlayInFixedTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int, int, float)>(&Animator::PlayInFixedTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, int, float)>(&UnityEngine::Animator::PlayInFixedTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "PlayInFixedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "PlayInFixedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::PlayInFixedTime
+// Writing MetadataGetter for method: UnityEngine::Animator::PlayInFixedTime
 // Il2CppName: PlayInFixedTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int, int)>(&Animator::PlayInFixedTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, int)>(&UnityEngine::Animator::PlayInFixedTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "PlayInFixedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "PlayInFixedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::PlayInFixedTime
+// Writing MetadataGetter for method: UnityEngine::Animator::PlayInFixedTime
 // Il2CppName: PlayInFixedTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int)>(&Animator::PlayInFixedTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::PlayInFixedTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "PlayInFixedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "PlayInFixedTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::Play
+// Writing MetadataGetter for method: UnityEngine::Animator::Play
 // Il2CppName: Play
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(::Il2CppString*, int)>(&Animator::Play)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, int)>(&UnityEngine::Animator::Play)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "Play", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "Play", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::Play
+// Writing MetadataGetter for method: UnityEngine::Animator::Play
 // Il2CppName: Play
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(::Il2CppString*)>(&Animator::Play)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::Play)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "Play", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "Play", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Animator::Play
+// Writing MetadataGetter for method: UnityEngine::Animator::Play
 // Il2CppName: Play
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(::Il2CppString*, int, float)>(&Animator::Play)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, int, float)>(&UnityEngine::Animator::Play)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "Play", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "Play", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::Play
+// Writing MetadataGetter for method: UnityEngine::Animator::Play
 // Il2CppName: Play
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int, int, float)>(&Animator::Play)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, int, float)>(&UnityEngine::Animator::Play)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "Play", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "Play", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::Play
+// Writing MetadataGetter for method: UnityEngine::Animator::Play
 // Il2CppName: Play
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int, int)>(&Animator::Play)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, int)>(&UnityEngine::Animator::Play)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "Play", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "Play", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::Play
+// Writing MetadataGetter for method: UnityEngine::Animator::Play
 // Il2CppName: Play
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int)>(&Animator::Play)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::Play)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "Play", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "Play", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetTarget
+// Writing MetadataGetter for method: UnityEngine::Animator::SetTarget
 // Il2CppName: SetTarget
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::AvatarTarget, float)>(&Animator::SetTarget)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarTarget, float)>(&UnityEngine::Animator::SetTarget)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarTarget>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarTarget>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_targetPosition
+// Writing MetadataGetter for method: UnityEngine::Animator::get_targetPosition
 // Il2CppName: get_targetPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Animator::*)()>(&Animator::get_targetPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_targetPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_targetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_targetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::get_targetRotation
+// Writing MetadataGetter for method: UnityEngine::Animator::get_targetRotation
 // Il2CppName: get_targetRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (Animator::*)()>(&Animator::get_targetRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_targetRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_targetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_targetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::IsControlled
+// Writing MetadataGetter for method: UnityEngine::Animator::IsControlled
 // Il2CppName: IsControlled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animator::*)(UnityEngine::Transform*)>(&Animator::IsControlled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)(UnityEngine::Transform*)>(&UnityEngine::Animator::IsControlled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "IsControlled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "IsControlled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
   }
 };
-// Writing MetadataGetter for method: Animator::IsBoneTransform
+// Writing MetadataGetter for method: UnityEngine::Animator::IsBoneTransform
 // Il2CppName: IsBoneTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animator::*)(UnityEngine::Transform*)>(&Animator::IsBoneTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)(UnityEngine::Transform*)>(&UnityEngine::Animator::IsBoneTransform)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "IsBoneTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "IsBoneTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_avatarRoot
+// Writing MetadataGetter for method: UnityEngine::Animator::get_avatarRoot
 // Il2CppName: get_avatarRoot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (Animator::*)()>(&Animator::get_avatarRoot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_avatarRoot)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_avatarRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_avatarRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::GetBoneTransform
+// Writing MetadataGetter for method: UnityEngine::Animator::GetBoneTransform
 // Il2CppName: GetBoneTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (Animator::*)(UnityEngine::HumanBodyBones)>(&Animator::GetBoneTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (UnityEngine::Animator::*)(UnityEngine::HumanBodyBones)>(&UnityEngine::Animator::GetBoneTransform)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetBoneTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::HumanBodyBones>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetBoneTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::HumanBodyBones>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetBoneTransformInternal
+// Writing MetadataGetter for method: UnityEngine::Animator::GetBoneTransformInternal
 // Il2CppName: GetBoneTransformInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (Animator::*)(int)>(&Animator::GetBoneTransformInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetBoneTransformInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetBoneTransformInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetBoneTransformInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_cullingMode
+// Writing MetadataGetter for method: UnityEngine::Animator::get_cullingMode
 // Il2CppName: get_cullingMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimatorCullingMode (Animator::*)()>(&Animator::get_cullingMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimatorCullingMode (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_cullingMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_cullingMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_cullingMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::set_cullingMode
+// Writing MetadataGetter for method: UnityEngine::Animator::set_cullingMode
 // Il2CppName: set_cullingMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::AnimatorCullingMode)>(&Animator::set_cullingMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AnimatorCullingMode)>(&UnityEngine::Animator::set_cullingMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "set_cullingMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimatorCullingMode>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_cullingMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimatorCullingMode>()});
   }
 };
-// Writing MetadataGetter for method: Animator::StartPlayback
+// Writing MetadataGetter for method: UnityEngine::Animator::StartPlayback
 // Il2CppName: StartPlayback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)()>(&Animator::StartPlayback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)()>(&UnityEngine::Animator::StartPlayback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "StartPlayback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "StartPlayback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::StopPlayback
+// Writing MetadataGetter for method: UnityEngine::Animator::StopPlayback
 // Il2CppName: StopPlayback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)()>(&Animator::StopPlayback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)()>(&UnityEngine::Animator::StopPlayback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "StopPlayback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "StopPlayback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::get_playbackTime
+// Writing MetadataGetter for method: UnityEngine::Animator::get_playbackTime
 // Il2CppName: get_playbackTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Animator::*)()>(&Animator::get_playbackTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_playbackTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_playbackTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_playbackTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::set_playbackTime
+// Writing MetadataGetter for method: UnityEngine::Animator::set_playbackTime
 // Il2CppName: set_playbackTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(float)>(&Animator::set_playbackTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(float)>(&UnityEngine::Animator::set_playbackTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "set_playbackTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_playbackTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::StartRecording
+// Writing MetadataGetter for method: UnityEngine::Animator::StartRecording
 // Il2CppName: StartRecording
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int)>(&Animator::StartRecording)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::StartRecording)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "StartRecording", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "StartRecording", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::StopRecording
+// Writing MetadataGetter for method: UnityEngine::Animator::StopRecording
 // Il2CppName: StopRecording
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)()>(&Animator::StopRecording)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)()>(&UnityEngine::Animator::StopRecording)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "StopRecording", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "StopRecording", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::get_recorderStartTime
+// Writing MetadataGetter for method: UnityEngine::Animator::get_recorderStartTime
 // Il2CppName: get_recorderStartTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Animator::*)()>(&Animator::get_recorderStartTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_recorderStartTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_recorderStartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_recorderStartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::set_recorderStartTime
+// Writing MetadataGetter for method: UnityEngine::Animator::set_recorderStartTime
 // Il2CppName: set_recorderStartTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(float)>(&Animator::set_recorderStartTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(float)>(&UnityEngine::Animator::set_recorderStartTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "set_recorderStartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_recorderStartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetRecorderStartTime
+// Writing MetadataGetter for method: UnityEngine::Animator::GetRecorderStartTime
 // Il2CppName: GetRecorderStartTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Animator::*)()>(&Animator::GetRecorderStartTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)()>(&UnityEngine::Animator::GetRecorderStartTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetRecorderStartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetRecorderStartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::get_recorderStopTime
+// Writing MetadataGetter for method: UnityEngine::Animator::get_recorderStopTime
 // Il2CppName: get_recorderStopTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Animator::*)()>(&Animator::get_recorderStopTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_recorderStopTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_recorderStopTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_recorderStopTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::set_recorderStopTime
+// Writing MetadataGetter for method: UnityEngine::Animator::set_recorderStopTime
 // Il2CppName: set_recorderStopTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(float)>(&Animator::set_recorderStopTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(float)>(&UnityEngine::Animator::set_recorderStopTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "set_recorderStopTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_recorderStopTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetRecorderStopTime
+// Writing MetadataGetter for method: UnityEngine::Animator::GetRecorderStopTime
 // Il2CppName: GetRecorderStopTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Animator::*)()>(&Animator::GetRecorderStopTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)()>(&UnityEngine::Animator::GetRecorderStopTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetRecorderStopTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetRecorderStopTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::get_recorderMode
+// Writing MetadataGetter for method: UnityEngine::Animator::get_recorderMode
 // Il2CppName: get_recorderMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimatorRecorderMode (Animator::*)()>(&Animator::get_recorderMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimatorRecorderMode (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_recorderMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_recorderMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_recorderMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::get_runtimeAnimatorController
+// Writing MetadataGetter for method: UnityEngine::Animator::get_runtimeAnimatorController
 // Il2CppName: get_runtimeAnimatorController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RuntimeAnimatorController* (Animator::*)()>(&Animator::get_runtimeAnimatorController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RuntimeAnimatorController* (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_runtimeAnimatorController)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_runtimeAnimatorController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_runtimeAnimatorController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::set_runtimeAnimatorController
+// Writing MetadataGetter for method: UnityEngine::Animator::set_runtimeAnimatorController
 // Il2CppName: set_runtimeAnimatorController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::RuntimeAnimatorController*)>(&Animator::set_runtimeAnimatorController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::RuntimeAnimatorController*)>(&UnityEngine::Animator::set_runtimeAnimatorController)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "set_runtimeAnimatorController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RuntimeAnimatorController*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_runtimeAnimatorController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RuntimeAnimatorController*>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_hasBoundPlayables
+// Writing MetadataGetter for method: UnityEngine::Animator::get_hasBoundPlayables
 // Il2CppName: get_hasBoundPlayables
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animator::*)()>(&Animator::get_hasBoundPlayables)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_hasBoundPlayables)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_hasBoundPlayables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_hasBoundPlayables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::ClearInternalControllerPlayable
+// Writing MetadataGetter for method: UnityEngine::Animator::ClearInternalControllerPlayable
 // Il2CppName: ClearInternalControllerPlayable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)()>(&Animator::ClearInternalControllerPlayable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)()>(&UnityEngine::Animator::ClearInternalControllerPlayable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "ClearInternalControllerPlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "ClearInternalControllerPlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::HasState
+// Writing MetadataGetter for method: UnityEngine::Animator::HasState
 // Il2CppName: HasState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animator::*)(int, int)>(&Animator::HasState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)(int, int)>(&UnityEngine::Animator::HasState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "HasState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "HasState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::StringToHash
+// Writing MetadataGetter for method: UnityEngine::Animator::StringToHash
 // Il2CppName: StringToHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&Animator::StringToHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&UnityEngine::Animator::StringToHash)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "StringToHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "StringToHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_avatar
+// Writing MetadataGetter for method: UnityEngine::Animator::get_avatar
 // Il2CppName: get_avatar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Avatar* (Animator::*)()>(&Animator::get_avatar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Avatar* (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_avatar)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_avatar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_avatar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::set_avatar
+// Writing MetadataGetter for method: UnityEngine::Animator::set_avatar
 // Il2CppName: set_avatar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::Avatar*)>(&Animator::set_avatar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Avatar*)>(&UnityEngine::Animator::set_avatar)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "set_avatar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Avatar*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_avatar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Avatar*>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetStats
+// Writing MetadataGetter for method: UnityEngine::Animator::GetStats
 // Il2CppName: GetStats
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Animator::*)()>(&Animator::GetStats)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Animator::*)()>(&UnityEngine::Animator::GetStats)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::get_playableGraph
+// Writing MetadataGetter for method: UnityEngine::Animator::get_playableGraph
 // Il2CppName: get_playableGraph
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableGraph (Animator::*)()>(&Animator::get_playableGraph)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableGraph (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_playableGraph)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_playableGraph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_playableGraph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::GetCurrentGraph
+// Writing MetadataGetter for method: UnityEngine::Animator::GetCurrentGraph
 // Il2CppName: GetCurrentGraph
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::Playables::PlayableGraph&)>(&Animator::GetCurrentGraph)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Playables::PlayableGraph&)>(&UnityEngine::Animator::GetCurrentGraph)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetCurrentGraph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetCurrentGraph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>()});
   }
 };
-// Writing MetadataGetter for method: Animator::CheckIfInIKPass
+// Writing MetadataGetter for method: UnityEngine::Animator::CheckIfInIKPass
 // Il2CppName: CheckIfInIKPass
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)()>(&Animator::CheckIfInIKPass)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)()>(&UnityEngine::Animator::CheckIfInIKPass)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "CheckIfInIKPass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "CheckIfInIKPass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::IsInIKPass
+// Writing MetadataGetter for method: UnityEngine::Animator::IsInIKPass
 // Il2CppName: IsInIKPass
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animator::*)()>(&Animator::IsInIKPass)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)()>(&UnityEngine::Animator::IsInIKPass)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "IsInIKPass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "IsInIKPass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::SetFloatString
+// Writing MetadataGetter for method: UnityEngine::Animator::SetFloatString
 // Il2CppName: SetFloatString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(::Il2CppString*, float)>(&Animator::SetFloatString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, float)>(&UnityEngine::Animator::SetFloatString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetFloatString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetFloatString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetFloatID
+// Writing MetadataGetter for method: UnityEngine::Animator::SetFloatID
 // Il2CppName: SetFloatID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int, float)>(&Animator::SetFloatID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, float)>(&UnityEngine::Animator::SetFloatID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetFloatID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetFloatID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetFloatString
+// Writing MetadataGetter for method: UnityEngine::Animator::GetFloatString
 // Il2CppName: GetFloatString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Animator::*)(::Il2CppString*)>(&Animator::GetFloatString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::GetFloatString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetFloatString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetFloatString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetFloatID
+// Writing MetadataGetter for method: UnityEngine::Animator::GetFloatID
 // Il2CppName: GetFloatID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Animator::*)(int)>(&Animator::GetFloatID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetFloatID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetFloatID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetFloatID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetBoolString
+// Writing MetadataGetter for method: UnityEngine::Animator::SetBoolString
 // Il2CppName: SetBoolString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(::Il2CppString*, bool)>(&Animator::SetBoolString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, bool)>(&UnityEngine::Animator::SetBoolString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetBoolString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetBoolString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetBoolID
+// Writing MetadataGetter for method: UnityEngine::Animator::SetBoolID
 // Il2CppName: SetBoolID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int, bool)>(&Animator::SetBoolID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, bool)>(&UnityEngine::Animator::SetBoolID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetBoolID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetBoolID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetBoolString
+// Writing MetadataGetter for method: UnityEngine::Animator::GetBoolString
 // Il2CppName: GetBoolString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animator::*)(::Il2CppString*)>(&Animator::GetBoolString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::GetBoolString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetBoolString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetBoolString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetBoolID
+// Writing MetadataGetter for method: UnityEngine::Animator::GetBoolID
 // Il2CppName: GetBoolID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animator::*)(int)>(&Animator::GetBoolID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetBoolID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetBoolID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetBoolID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetIntegerString
+// Writing MetadataGetter for method: UnityEngine::Animator::SetIntegerString
 // Il2CppName: SetIntegerString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(::Il2CppString*, int)>(&Animator::SetIntegerString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, int)>(&UnityEngine::Animator::SetIntegerString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetIntegerString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetIntegerString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetIntegerID
+// Writing MetadataGetter for method: UnityEngine::Animator::SetIntegerID
 // Il2CppName: SetIntegerID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int, int)>(&Animator::SetIntegerID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, int)>(&UnityEngine::Animator::SetIntegerID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetIntegerID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetIntegerID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetIntegerString
+// Writing MetadataGetter for method: UnityEngine::Animator::GetIntegerString
 // Il2CppName: GetIntegerString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Animator::*)(::Il2CppString*)>(&Animator::GetIntegerString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::GetIntegerString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetIntegerString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetIntegerString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetIntegerID
+// Writing MetadataGetter for method: UnityEngine::Animator::GetIntegerID
 // Il2CppName: GetIntegerID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Animator::*)(int)>(&Animator::GetIntegerID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetIntegerID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetIntegerID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetIntegerID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetTriggerString
+// Writing MetadataGetter for method: UnityEngine::Animator::SetTriggerString
 // Il2CppName: SetTriggerString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(::Il2CppString*)>(&Animator::SetTriggerString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::SetTriggerString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetTriggerString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetTriggerString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetTriggerID
+// Writing MetadataGetter for method: UnityEngine::Animator::SetTriggerID
 // Il2CppName: SetTriggerID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int)>(&Animator::SetTriggerID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::SetTriggerID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetTriggerID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetTriggerID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::ResetTriggerString
+// Writing MetadataGetter for method: UnityEngine::Animator::ResetTriggerString
 // Il2CppName: ResetTriggerString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(::Il2CppString*)>(&Animator::ResetTriggerString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::ResetTriggerString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "ResetTriggerString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "ResetTriggerString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Animator::ResetTriggerID
+// Writing MetadataGetter for method: UnityEngine::Animator::ResetTriggerID
 // Il2CppName: ResetTriggerID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int)>(&Animator::ResetTriggerID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::ResetTriggerID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "ResetTriggerID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "ResetTriggerID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::IsParameterControlledByCurveString
+// Writing MetadataGetter for method: UnityEngine::Animator::IsParameterControlledByCurveString
 // Il2CppName: IsParameterControlledByCurveString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animator::*)(::Il2CppString*)>(&Animator::IsParameterControlledByCurveString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::IsParameterControlledByCurveString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "IsParameterControlledByCurveString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "IsParameterControlledByCurveString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Animator::IsParameterControlledByCurveID
+// Writing MetadataGetter for method: UnityEngine::Animator::IsParameterControlledByCurveID
 // Il2CppName: IsParameterControlledByCurveID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animator::*)(int)>(&Animator::IsParameterControlledByCurveID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::IsParameterControlledByCurveID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "IsParameterControlledByCurveID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "IsParameterControlledByCurveID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetFloatStringDamp
+// Writing MetadataGetter for method: UnityEngine::Animator::SetFloatStringDamp
 // Il2CppName: SetFloatStringDamp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(::Il2CppString*, float, float, float)>(&Animator::SetFloatStringDamp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, float, float, float)>(&UnityEngine::Animator::SetFloatStringDamp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetFloatStringDamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetFloatStringDamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetFloatIDDamp
+// Writing MetadataGetter for method: UnityEngine::Animator::SetFloatIDDamp
 // Il2CppName: SetFloatIDDamp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int, float, float, float)>(&Animator::SetFloatIDDamp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, float, float, float)>(&UnityEngine::Animator::SetFloatIDDamp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetFloatIDDamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetFloatIDDamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_layersAffectMassCenter
+// Writing MetadataGetter for method: UnityEngine::Animator::get_layersAffectMassCenter
 // Il2CppName: get_layersAffectMassCenter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animator::*)()>(&Animator::get_layersAffectMassCenter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_layersAffectMassCenter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_layersAffectMassCenter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_layersAffectMassCenter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::set_layersAffectMassCenter
+// Writing MetadataGetter for method: UnityEngine::Animator::set_layersAffectMassCenter
 // Il2CppName: set_layersAffectMassCenter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(bool)>(&Animator::set_layersAffectMassCenter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(bool)>(&UnityEngine::Animator::set_layersAffectMassCenter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "set_layersAffectMassCenter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_layersAffectMassCenter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_leftFeetBottomHeight
+// Writing MetadataGetter for method: UnityEngine::Animator::get_leftFeetBottomHeight
 // Il2CppName: get_leftFeetBottomHeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Animator::*)()>(&Animator::get_leftFeetBottomHeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_leftFeetBottomHeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_leftFeetBottomHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_leftFeetBottomHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::get_rightFeetBottomHeight
+// Writing MetadataGetter for method: UnityEngine::Animator::get_rightFeetBottomHeight
 // Il2CppName: get_rightFeetBottomHeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Animator::*)()>(&Animator::get_rightFeetBottomHeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_rightFeetBottomHeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_rightFeetBottomHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_rightFeetBottomHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::get_supportsOnAnimatorMove
+// Writing MetadataGetter for method: UnityEngine::Animator::get_supportsOnAnimatorMove
 // Il2CppName: get_supportsOnAnimatorMove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animator::*)()>(&Animator::get_supportsOnAnimatorMove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_supportsOnAnimatorMove)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_supportsOnAnimatorMove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_supportsOnAnimatorMove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::OnUpdateModeChanged
+// Writing MetadataGetter for method: UnityEngine::Animator::OnUpdateModeChanged
 // Il2CppName: OnUpdateModeChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)()>(&Animator::OnUpdateModeChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)()>(&UnityEngine::Animator::OnUpdateModeChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "OnUpdateModeChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "OnUpdateModeChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::OnCullingModeChanged
+// Writing MetadataGetter for method: UnityEngine::Animator::OnCullingModeChanged
 // Il2CppName: OnCullingModeChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)()>(&Animator::OnCullingModeChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)()>(&UnityEngine::Animator::OnCullingModeChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "OnCullingModeChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "OnCullingModeChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::WriteDefaultPose
+// Writing MetadataGetter for method: UnityEngine::Animator::WriteDefaultPose
 // Il2CppName: WriteDefaultPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)()>(&Animator::WriteDefaultPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)()>(&UnityEngine::Animator::WriteDefaultPose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "WriteDefaultPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "WriteDefaultPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::Update
+// Writing MetadataGetter for method: UnityEngine::Animator::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(float)>(&Animator::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(float)>(&UnityEngine::Animator::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::Rebind
+// Writing MetadataGetter for method: UnityEngine::Animator::Rebind
 // Il2CppName: Rebind
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)()>(&Animator::Rebind)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)()>(&UnityEngine::Animator::Rebind)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "Rebind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "Rebind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::Rebind
+// Writing MetadataGetter for method: UnityEngine::Animator::Rebind
 // Il2CppName: Rebind
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(bool)>(&Animator::Rebind)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(bool)>(&UnityEngine::Animator::Rebind)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "Rebind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "Rebind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Animator::ApplyBuiltinRootMotion
+// Writing MetadataGetter for method: UnityEngine::Animator::ApplyBuiltinRootMotion
 // Il2CppName: ApplyBuiltinRootMotion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)()>(&Animator::ApplyBuiltinRootMotion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)()>(&UnityEngine::Animator::ApplyBuiltinRootMotion)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "ApplyBuiltinRootMotion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "ApplyBuiltinRootMotion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::EvaluateController
+// Writing MetadataGetter for method: UnityEngine::Animator::EvaluateController
 // Il2CppName: EvaluateController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)()>(&Animator::EvaluateController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)()>(&UnityEngine::Animator::EvaluateController)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "EvaluateController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "EvaluateController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::EvaluateController
+// Writing MetadataGetter for method: UnityEngine::Animator::EvaluateController
 // Il2CppName: EvaluateController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(float)>(&Animator::EvaluateController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(float)>(&UnityEngine::Animator::EvaluateController)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "EvaluateController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "EvaluateController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetCurrentStateName
+// Writing MetadataGetter for method: UnityEngine::Animator::GetCurrentStateName
 // Il2CppName: GetCurrentStateName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Animator::*)(int)>(&Animator::GetCurrentStateName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetCurrentStateName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetCurrentStateName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetCurrentStateName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetNextStateName
+// Writing MetadataGetter for method: UnityEngine::Animator::GetNextStateName
 // Il2CppName: GetNextStateName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Animator::*)(int)>(&Animator::GetNextStateName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetNextStateName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetNextStateName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetNextStateName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetAnimatorStateName
+// Writing MetadataGetter for method: UnityEngine::Animator::GetAnimatorStateName
 // Il2CppName: GetAnimatorStateName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Animator::*)(int, bool)>(&Animator::GetAnimatorStateName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Animator::*)(int, bool)>(&UnityEngine::Animator::GetAnimatorStateName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetAnimatorStateName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetAnimatorStateName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Animator::ResolveHash
+// Writing MetadataGetter for method: UnityEngine::Animator::ResolveHash
 // Il2CppName: ResolveHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Animator::*)(int)>(&Animator::ResolveHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::ResolveHash)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "ResolveHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "ResolveHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_logWarnings
+// Writing MetadataGetter for method: UnityEngine::Animator::get_logWarnings
 // Il2CppName: get_logWarnings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animator::*)()>(&Animator::get_logWarnings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_logWarnings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_logWarnings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_logWarnings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::set_logWarnings
+// Writing MetadataGetter for method: UnityEngine::Animator::set_logWarnings
 // Il2CppName: set_logWarnings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(bool)>(&Animator::set_logWarnings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(bool)>(&UnityEngine::Animator::set_logWarnings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "set_logWarnings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_logWarnings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_fireEvents
+// Writing MetadataGetter for method: UnityEngine::Animator::get_fireEvents
 // Il2CppName: get_fireEvents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animator::*)()>(&Animator::get_fireEvents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_fireEvents)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_fireEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_fireEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::set_fireEvents
+// Writing MetadataGetter for method: UnityEngine::Animator::set_fireEvents
 // Il2CppName: set_fireEvents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(bool)>(&Animator::set_fireEvents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(bool)>(&UnityEngine::Animator::set_fireEvents)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "set_fireEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_fireEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_keepAnimatorControllerStateOnDisable
+// Writing MetadataGetter for method: UnityEngine::Animator::get_keepAnimatorControllerStateOnDisable
 // Il2CppName: get_keepAnimatorControllerStateOnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Animator::*)()>(&Animator::get_keepAnimatorControllerStateOnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_keepAnimatorControllerStateOnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_keepAnimatorControllerStateOnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_keepAnimatorControllerStateOnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Animator::set_keepAnimatorControllerStateOnDisable
+// Writing MetadataGetter for method: UnityEngine::Animator::set_keepAnimatorControllerStateOnDisable
 // Il2CppName: set_keepAnimatorControllerStateOnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(bool)>(&Animator::set_keepAnimatorControllerStateOnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(bool)>(&UnityEngine::Animator::set_keepAnimatorControllerStateOnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "set_keepAnimatorControllerStateOnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_keepAnimatorControllerStateOnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetVector
+// Writing MetadataGetter for method: UnityEngine::Animator::GetVector
 // Il2CppName: GetVector
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Animator::*)(::Il2CppString*)>(&Animator::GetVector)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::GetVector)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetVector
+// Writing MetadataGetter for method: UnityEngine::Animator::GetVector
 // Il2CppName: GetVector
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (Animator::*)(int)>(&Animator::GetVector)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetVector)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetVector
+// Writing MetadataGetter for method: UnityEngine::Animator::SetVector
 // Il2CppName: SetVector
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(::Il2CppString*, UnityEngine::Vector3)>(&Animator::SetVector)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, UnityEngine::Vector3)>(&UnityEngine::Animator::SetVector)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetVector
+// Writing MetadataGetter for method: UnityEngine::Animator::SetVector
 // Il2CppName: SetVector
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int, UnityEngine::Vector3)>(&Animator::SetVector)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, UnityEngine::Vector3)>(&UnityEngine::Animator::SetVector)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetQuaternion
+// Writing MetadataGetter for method: UnityEngine::Animator::GetQuaternion
 // Il2CppName: GetQuaternion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (Animator::*)(::Il2CppString*)>(&Animator::GetQuaternion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Animator::*)(::Il2CppString*)>(&UnityEngine::Animator::GetQuaternion)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetQuaternion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetQuaternion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetQuaternion
+// Writing MetadataGetter for method: UnityEngine::Animator::GetQuaternion
 // Il2CppName: GetQuaternion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (Animator::*)(int)>(&Animator::GetQuaternion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetQuaternion)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetQuaternion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetQuaternion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetQuaternion
+// Writing MetadataGetter for method: UnityEngine::Animator::SetQuaternion
 // Il2CppName: SetQuaternion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(::Il2CppString*, UnityEngine::Quaternion)>(&Animator::SetQuaternion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(::Il2CppString*, UnityEngine::Quaternion)>(&UnityEngine::Animator::SetQuaternion)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetQuaternion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetQuaternion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetQuaternion
+// Writing MetadataGetter for method: UnityEngine::Animator::SetQuaternion
 // Il2CppName: SetQuaternion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int, UnityEngine::Quaternion)>(&Animator::SetQuaternion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, UnityEngine::Quaternion)>(&UnityEngine::Animator::SetQuaternion)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetQuaternion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetQuaternion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_deltaPosition_Injected
+// Writing MetadataGetter for method: UnityEngine::Animator::get_deltaPosition_Injected
 // Il2CppName: get_deltaPosition_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::Vector3&)>(&Animator::get_deltaPosition_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Vector3&)>(&UnityEngine::Animator::get_deltaPosition_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_deltaPosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_deltaPosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_deltaRotation_Injected
+// Writing MetadataGetter for method: UnityEngine::Animator::get_deltaRotation_Injected
 // Il2CppName: get_deltaRotation_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::Quaternion&)>(&Animator::get_deltaRotation_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Quaternion&)>(&UnityEngine::Animator::get_deltaRotation_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_deltaRotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_deltaRotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_velocity_Injected
+// Writing MetadataGetter for method: UnityEngine::Animator::get_velocity_Injected
 // Il2CppName: get_velocity_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::Vector3&)>(&Animator::get_velocity_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Vector3&)>(&UnityEngine::Animator::get_velocity_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_velocity_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_velocity_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_angularVelocity_Injected
+// Writing MetadataGetter for method: UnityEngine::Animator::get_angularVelocity_Injected
 // Il2CppName: get_angularVelocity_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::Vector3&)>(&Animator::get_angularVelocity_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Vector3&)>(&UnityEngine::Animator::get_angularVelocity_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_angularVelocity_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_angularVelocity_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_rootPosition_Injected
+// Writing MetadataGetter for method: UnityEngine::Animator::get_rootPosition_Injected
 // Il2CppName: get_rootPosition_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::Vector3&)>(&Animator::get_rootPosition_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Vector3&)>(&UnityEngine::Animator::get_rootPosition_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_rootPosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_rootPosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: Animator::set_rootPosition_Injected
+// Writing MetadataGetter for method: UnityEngine::Animator::set_rootPosition_Injected
 // Il2CppName: set_rootPosition_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::Vector3&)>(&Animator::set_rootPosition_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Vector3&)>(&UnityEngine::Animator::set_rootPosition_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "set_rootPosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_rootPosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_rootRotation_Injected
+// Writing MetadataGetter for method: UnityEngine::Animator::get_rootRotation_Injected
 // Il2CppName: get_rootRotation_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::Quaternion&)>(&Animator::get_rootRotation_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Quaternion&)>(&UnityEngine::Animator::get_rootRotation_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_rootRotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_rootRotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
   }
 };
-// Writing MetadataGetter for method: Animator::set_rootRotation_Injected
+// Writing MetadataGetter for method: UnityEngine::Animator::set_rootRotation_Injected
 // Il2CppName: set_rootRotation_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::Quaternion&)>(&Animator::set_rootRotation_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Quaternion&)>(&UnityEngine::Animator::set_rootRotation_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "set_rootRotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_rootRotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_bodyPositionInternal_Injected
+// Writing MetadataGetter for method: UnityEngine::Animator::get_bodyPositionInternal_Injected
 // Il2CppName: get_bodyPositionInternal_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::Vector3&)>(&Animator::get_bodyPositionInternal_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Vector3&)>(&UnityEngine::Animator::get_bodyPositionInternal_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_bodyPositionInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_bodyPositionInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: Animator::set_bodyPositionInternal_Injected
+// Writing MetadataGetter for method: UnityEngine::Animator::set_bodyPositionInternal_Injected
 // Il2CppName: set_bodyPositionInternal_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::Vector3&)>(&Animator::set_bodyPositionInternal_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Vector3&)>(&UnityEngine::Animator::set_bodyPositionInternal_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "set_bodyPositionInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_bodyPositionInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_bodyRotationInternal_Injected
+// Writing MetadataGetter for method: UnityEngine::Animator::get_bodyRotationInternal_Injected
 // Il2CppName: get_bodyRotationInternal_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::Quaternion&)>(&Animator::get_bodyRotationInternal_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Quaternion&)>(&UnityEngine::Animator::get_bodyRotationInternal_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_bodyRotationInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_bodyRotationInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
   }
 };
-// Writing MetadataGetter for method: Animator::set_bodyRotationInternal_Injected
+// Writing MetadataGetter for method: UnityEngine::Animator::set_bodyRotationInternal_Injected
 // Il2CppName: set_bodyRotationInternal_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::Quaternion&)>(&Animator::set_bodyRotationInternal_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Quaternion&)>(&UnityEngine::Animator::set_bodyRotationInternal_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "set_bodyRotationInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "set_bodyRotationInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetGoalPosition_Injected
+// Writing MetadataGetter for method: UnityEngine::Animator::GetGoalPosition_Injected
 // Il2CppName: GetGoalPosition_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::AvatarIKGoal, UnityEngine::Vector3&)>(&Animator::GetGoalPosition_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal, UnityEngine::Vector3&)>(&UnityEngine::Animator::GetGoalPosition_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetGoalPosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetGoalPosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetGoalPosition_Injected
+// Writing MetadataGetter for method: UnityEngine::Animator::SetGoalPosition_Injected
 // Il2CppName: SetGoalPosition_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::AvatarIKGoal, UnityEngine::Vector3&)>(&Animator::SetGoalPosition_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal, UnityEngine::Vector3&)>(&UnityEngine::Animator::SetGoalPosition_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetGoalPosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetGoalPosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetGoalRotation_Injected
+// Writing MetadataGetter for method: UnityEngine::Animator::GetGoalRotation_Injected
 // Il2CppName: GetGoalRotation_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::AvatarIKGoal, UnityEngine::Quaternion&)>(&Animator::GetGoalRotation_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal, UnityEngine::Quaternion&)>(&UnityEngine::Animator::GetGoalRotation_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetGoalRotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetGoalRotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetGoalRotation_Injected
+// Writing MetadataGetter for method: UnityEngine::Animator::SetGoalRotation_Injected
 // Il2CppName: SetGoalRotation_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::AvatarIKGoal, UnityEngine::Quaternion&)>(&Animator::SetGoalRotation_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKGoal, UnityEngine::Quaternion&)>(&UnityEngine::Animator::SetGoalRotation_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetGoalRotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetGoalRotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKGoal>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
   }
 };
-// Writing MetadataGetter for method: Animator::GetHintPosition_Injected
+// Writing MetadataGetter for method: UnityEngine::Animator::GetHintPosition_Injected
 // Il2CppName: GetHintPosition_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::AvatarIKHint, UnityEngine::Vector3&)>(&Animator::GetHintPosition_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKHint, UnityEngine::Vector3&)>(&UnityEngine::Animator::GetHintPosition_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "GetHintPosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKHint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetHintPosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKHint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetHintPosition_Injected
+// Writing MetadataGetter for method: UnityEngine::Animator::SetHintPosition_Injected
 // Il2CppName: SetHintPosition_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::AvatarIKHint, UnityEngine::Vector3&)>(&Animator::SetHintPosition_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::AvatarIKHint, UnityEngine::Vector3&)>(&UnityEngine::Animator::SetHintPosition_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetHintPosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKHint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetHintPosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AvatarIKHint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetLookAtPositionInternal_Injected
+// Writing MetadataGetter for method: UnityEngine::Animator::SetLookAtPositionInternal_Injected
 // Il2CppName: SetLookAtPositionInternal_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::Vector3&)>(&Animator::SetLookAtPositionInternal_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Vector3&)>(&UnityEngine::Animator::SetLookAtPositionInternal_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetLookAtPositionInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetLookAtPositionInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: Animator::SetBoneLocalRotationInternal_Injected
+// Writing MetadataGetter for method: UnityEngine::Animator::SetBoneLocalRotationInternal_Injected
 // Il2CppName: SetBoneLocalRotationInternal_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(int, UnityEngine::Quaternion&)>(&Animator::SetBoneLocalRotationInternal_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(int, UnityEngine::Quaternion&)>(&UnityEngine::Animator::SetBoneLocalRotationInternal_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "SetBoneLocalRotationInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "SetBoneLocalRotationInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_pivotPosition_Injected
+// Writing MetadataGetter for method: UnityEngine::Animator::get_pivotPosition_Injected
 // Il2CppName: get_pivotPosition_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::Vector3&)>(&Animator::get_pivotPosition_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Vector3&)>(&UnityEngine::Animator::get_pivotPosition_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_pivotPosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_pivotPosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: Animator::MatchTarget_Injected
+// Writing MetadataGetter for method: UnityEngine::Animator::MatchTarget_Injected
 // Il2CppName: MatchTarget_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::Vector3&, UnityEngine::Quaternion&, int, UnityEngine::MatchTargetWeightMask&, float, float, bool)>(&Animator::MatchTarget_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Vector3&, UnityEngine::Quaternion&, int, UnityEngine::MatchTargetWeightMask&, float, float, bool)>(&UnityEngine::Animator::MatchTarget_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "MatchTarget_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::MatchTargetWeightMask&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "MatchTarget_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::MatchTargetWeightMask&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_targetPosition_Injected
+// Writing MetadataGetter for method: UnityEngine::Animator::get_targetPosition_Injected
 // Il2CppName: get_targetPosition_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::Vector3&)>(&Animator::get_targetPosition_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Vector3&)>(&UnityEngine::Animator::get_targetPosition_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_targetPosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_targetPosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: Animator::get_targetRotation_Injected
+// Writing MetadataGetter for method: UnityEngine::Animator::get_targetRotation_Injected
 // Il2CppName: get_targetRotation_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)(UnityEngine::Quaternion&)>(&Animator::get_targetRotation_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)(UnityEngine::Quaternion&)>(&UnityEngine::Animator::get_targetRotation_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), "get_targetRotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_targetRotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
   }
 };
-// Writing MetadataGetter for method: Animator::New_ctor
+// Writing MetadataGetter for method: UnityEngine::Animator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)()>(&Animator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)()>(&UnityEngine::Animator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Animator::*)()>(&Animator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animator::*)()>(&UnityEngine::Animator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Animator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

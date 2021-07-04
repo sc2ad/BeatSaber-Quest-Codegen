@@ -101,121 +101,121 @@ namespace System::Diagnostics {
   static_assert(sizeof(DefaultTraceListener) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DefaultTraceListener*, "System.Diagnostics", "DefaultTraceListener");
-// Writing MetadataGetter for method: DefaultTraceListener::_cctor
+// Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&DefaultTraceListener::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Diagnostics::DefaultTraceListener::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultTraceListener*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DefaultTraceListener::GetPrefix
+// Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::GetPrefix
 // Il2CppName: GetPrefix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&DefaultTraceListener::GetPrefix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&System::Diagnostics::DefaultTraceListener::GetPrefix)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultTraceListener*), "GetPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "GetPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultTraceListener::get_LogFileName
+// Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::get_LogFileName
 // Il2CppName: get_LogFileName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DefaultTraceListener::*)()>(&DefaultTraceListener::get_LogFileName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Diagnostics::DefaultTraceListener::*)()>(&System::Diagnostics::DefaultTraceListener::get_LogFileName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultTraceListener*), "get_LogFileName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "get_LogFileName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DefaultTraceListener::WriteWindowsDebugString
+// Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::WriteWindowsDebugString
 // Il2CppName: WriteWindowsDebugString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&DefaultTraceListener::WriteWindowsDebugString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&System::Diagnostics::DefaultTraceListener::WriteWindowsDebugString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultTraceListener*), "WriteWindowsDebugString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "WriteWindowsDebugString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultTraceListener::WriteDebugString
+// Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::WriteDebugString
 // Il2CppName: WriteDebugString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultTraceListener::*)(::Il2CppString*)>(&DefaultTraceListener::WriteDebugString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)(::Il2CppString*)>(&System::Diagnostics::DefaultTraceListener::WriteDebugString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultTraceListener*), "WriteDebugString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "WriteDebugString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultTraceListener::WriteMonoTrace
+// Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::WriteMonoTrace
 // Il2CppName: WriteMonoTrace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultTraceListener::*)(::Il2CppString*)>(&DefaultTraceListener::WriteMonoTrace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)(::Il2CppString*)>(&System::Diagnostics::DefaultTraceListener::WriteMonoTrace)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultTraceListener*), "WriteMonoTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "WriteMonoTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultTraceListener::WritePrefix
+// Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::WritePrefix
 // Il2CppName: WritePrefix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultTraceListener::*)()>(&DefaultTraceListener::WritePrefix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)()>(&System::Diagnostics::DefaultTraceListener::WritePrefix)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultTraceListener*), "WritePrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "WritePrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DefaultTraceListener::WriteImpl
+// Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::WriteImpl
 // Il2CppName: WriteImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultTraceListener::*)(::Il2CppString*)>(&DefaultTraceListener::WriteImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)(::Il2CppString*)>(&System::Diagnostics::DefaultTraceListener::WriteImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultTraceListener*), "WriteImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "WriteImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultTraceListener::WriteLogFile
+// Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::WriteLogFile
 // Il2CppName: WriteLogFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultTraceListener::*)(::Il2CppString*, ::Il2CppString*)>(&DefaultTraceListener::WriteLogFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)(::Il2CppString*, ::Il2CppString*)>(&System::Diagnostics::DefaultTraceListener::WriteLogFile)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultTraceListener*), "WriteLogFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "WriteLogFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultTraceListener::New_ctor
+// Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultTraceListener::*)()>(&DefaultTraceListener::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)()>(&System::Diagnostics::DefaultTraceListener::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultTraceListener*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultTraceListener::*)()>(&DefaultTraceListener::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)()>(&System::Diagnostics::DefaultTraceListener::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultTraceListener*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DefaultTraceListener::Fail
+// Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::Fail
 // Il2CppName: Fail
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultTraceListener::*)(::Il2CppString*)>(&DefaultTraceListener::Fail)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)(::Il2CppString*)>(&System::Diagnostics::DefaultTraceListener::Fail)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultTraceListener*), "Fail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "Fail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultTraceListener::Fail
+// Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::Fail
 // Il2CppName: Fail
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultTraceListener::*)(::Il2CppString*, ::Il2CppString*)>(&DefaultTraceListener::Fail)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)(::Il2CppString*, ::Il2CppString*)>(&System::Diagnostics::DefaultTraceListener::Fail)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultTraceListener*), "Fail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "Fail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultTraceListener::Write
+// Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultTraceListener::*)(::Il2CppString*)>(&DefaultTraceListener::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)(::Il2CppString*)>(&System::Diagnostics::DefaultTraceListener::Write)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultTraceListener*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultTraceListener::WriteLine
+// Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::WriteLine
 // Il2CppName: WriteLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultTraceListener::*)(::Il2CppString*)>(&DefaultTraceListener::WriteLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::DefaultTraceListener::*)(::Il2CppString*)>(&System::Diagnostics::DefaultTraceListener::WriteLine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultTraceListener*), "WriteLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::DefaultTraceListener*), "WriteLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };

@@ -76,25 +76,25 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionResultsViewController::$$c__DisplayClass29_0) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionResultsViewController::$$c__DisplayClass29_0*, "", "MissionResultsViewController/<>c__DisplayClass29_0");
-// Writing MetadataGetter for method: MissionResultsViewController::$$c__DisplayClass29_0::$SetDataToUI$b__0
+// Writing MetadataGetter for method: GlobalNamespace::MissionResultsViewController::$$c__DisplayClass29_0::$SetDataToUI$b__0
 // Il2CppName: <SetDataToUI>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionResultsViewController::$$c__DisplayClass29_0::*)(int, GlobalNamespace::ResultObjectiveListItem*)>(&MissionResultsViewController::$$c__DisplayClass29_0::$SetDataToUI$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionResultsViewController::$$c__DisplayClass29_0::*)(int, GlobalNamespace::ResultObjectiveListItem*)>(&GlobalNamespace::MissionResultsViewController::$$c__DisplayClass29_0::$SetDataToUI$b__0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionResultsViewController::$$c__DisplayClass29_0*), "<SetDataToUI>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ResultObjectiveListItem*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionResultsViewController::$$c__DisplayClass29_0*), "<SetDataToUI>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ResultObjectiveListItem*>()});
   }
 };
-// Writing MetadataGetter for method: MissionResultsViewController::$$c__DisplayClass29_0::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MissionResultsViewController::$$c__DisplayClass29_0::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionResultsViewController::$$c__DisplayClass29_0::*)()>(&MissionResultsViewController::$$c__DisplayClass29_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionResultsViewController::$$c__DisplayClass29_0::*)()>(&GlobalNamespace::MissionResultsViewController::$$c__DisplayClass29_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionResultsViewController::$$c__DisplayClass29_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionResultsViewController::$$c__DisplayClass29_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionResultsViewController::$$c__DisplayClass29_0::*)()>(&MissionResultsViewController::$$c__DisplayClass29_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionResultsViewController::$$c__DisplayClass29_0::*)()>(&GlobalNamespace::MissionResultsViewController::$$c__DisplayClass29_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionResultsViewController::$$c__DisplayClass29_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionResultsViewController::$$c__DisplayClass29_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

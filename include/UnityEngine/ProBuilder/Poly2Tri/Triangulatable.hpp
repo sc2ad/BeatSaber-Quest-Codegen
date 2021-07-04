@@ -53,43 +53,43 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::Triangulatable*, "UnityEngine.ProBuilder.Poly2Tri", "Triangulatable");
-// Writing MetadataGetter for method: Triangulatable::Prepare
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::Triangulatable::Prepare
 // Il2CppName: Prepare
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Triangulatable::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*)>(&Triangulatable::Prepare)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::Triangulatable::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*)>(&UnityEngine::ProBuilder::Poly2Tri::Triangulatable::Prepare)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Triangulatable*), "Prepare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::Triangulatable*), "Prepare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*>()});
   }
 };
-// Writing MetadataGetter for method: Triangulatable::get_Triangles
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::Triangulatable::get_Triangles
 // Il2CppName: get_Triangles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* (Triangulatable::*)()>(&Triangulatable::get_Triangles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* (UnityEngine::ProBuilder::Poly2Tri::Triangulatable::*)()>(&UnityEngine::ProBuilder::Poly2Tri::Triangulatable::get_Triangles)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Triangulatable*), "get_Triangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::Triangulatable*), "get_Triangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Triangulatable::AddTriangle
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::Triangulatable::AddTriangle
 // Il2CppName: AddTriangle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Triangulatable::*)(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*)>(&Triangulatable::AddTriangle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::Triangulatable::*)(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*)>(&UnityEngine::ProBuilder::Poly2Tri::Triangulatable::AddTriangle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Triangulatable*), "AddTriangle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::Triangulatable*), "AddTriangle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>()});
   }
 };
-// Writing MetadataGetter for method: Triangulatable::AddTriangles
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::Triangulatable::AddTriangles
 // Il2CppName: AddTriangles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Triangulatable::*)(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>*)>(&Triangulatable::AddTriangles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Poly2Tri::Triangulatable::*)(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>*)>(&UnityEngine::ProBuilder::Poly2Tri::Triangulatable::AddTriangles)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Triangulatable*), "AddTriangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::Triangulatable*), "AddTriangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>*>()});
   }
 };
-// Writing MetadataGetter for method: Triangulatable::get_TriangulationMode
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::Triangulatable::get_TriangulationMode
 // Il2CppName: get_TriangulationMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::TriangulationMode (Triangulatable::*)()>(&Triangulatable::get_TriangulationMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Poly2Tri::TriangulationMode (UnityEngine::ProBuilder::Poly2Tri::Triangulatable::*)()>(&UnityEngine::ProBuilder::Poly2Tri::Triangulatable::get_TriangulationMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Triangulatable*), "get_TriangulationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::Triangulatable*), "get_TriangulationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

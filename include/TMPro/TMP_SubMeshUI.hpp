@@ -343,393 +343,393 @@ namespace TMPro {
   static_assert(sizeof(TMP_SubMeshUI) == 0x118);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SubMeshUI*, "TMPro", "TMP_SubMeshUI");
-// Writing MetadataGetter for method: TMP_SubMeshUI::get_fontAsset
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::get_fontAsset
 // Il2CppName: get_fontAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_FontAsset* (TMP_SubMeshUI::*)()>(&TMP_SubMeshUI::get_fontAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_FontAsset* (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::get_fontAsset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "get_fontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "get_fontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::set_fontAsset
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::set_fontAsset
 // Il2CppName: set_fontAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SubMeshUI::*)(TMPro::TMP_FontAsset*)>(&TMP_SubMeshUI::set_fontAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)(TMPro::TMP_FontAsset*)>(&TMPro::TMP_SubMeshUI::set_fontAsset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "set_fontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_FontAsset*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "set_fontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_FontAsset*>()});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::get_spriteAsset
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::get_spriteAsset
 // Il2CppName: get_spriteAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (TMP_SubMeshUI::*)()>(&TMP_SubMeshUI::get_spriteAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::get_spriteAsset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "get_spriteAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "get_spriteAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::set_spriteAsset
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::set_spriteAsset
 // Il2CppName: set_spriteAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SubMeshUI::*)(TMPro::TMP_SpriteAsset*)>(&TMP_SubMeshUI::set_spriteAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)(TMPro::TMP_SpriteAsset*)>(&TMPro::TMP_SubMeshUI::set_spriteAsset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "set_spriteAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "set_spriteAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>()});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::get_sharedMaterial
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::get_sharedMaterial
 // Il2CppName: get_sharedMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMP_SubMeshUI::*)()>(&TMP_SubMeshUI::get_sharedMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::get_sharedMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "get_sharedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "get_sharedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::set_sharedMaterial
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::set_sharedMaterial
 // Il2CppName: set_sharedMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SubMeshUI::*)(UnityEngine::Material*)>(&TMP_SubMeshUI::set_sharedMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)(UnityEngine::Material*)>(&TMPro::TMP_SubMeshUI::set_sharedMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "set_sharedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "set_sharedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::get_fallbackMaterial
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::get_fallbackMaterial
 // Il2CppName: get_fallbackMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMP_SubMeshUI::*)()>(&TMP_SubMeshUI::get_fallbackMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::get_fallbackMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "get_fallbackMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "get_fallbackMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::set_fallbackMaterial
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::set_fallbackMaterial
 // Il2CppName: set_fallbackMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SubMeshUI::*)(UnityEngine::Material*)>(&TMP_SubMeshUI::set_fallbackMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)(UnityEngine::Material*)>(&TMPro::TMP_SubMeshUI::set_fallbackMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "set_fallbackMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "set_fallbackMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::get_fallbackSourceMaterial
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::get_fallbackSourceMaterial
 // Il2CppName: get_fallbackSourceMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMP_SubMeshUI::*)()>(&TMP_SubMeshUI::get_fallbackSourceMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::get_fallbackSourceMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "get_fallbackSourceMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "get_fallbackSourceMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::set_fallbackSourceMaterial
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::set_fallbackSourceMaterial
 // Il2CppName: set_fallbackSourceMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SubMeshUI::*)(UnityEngine::Material*)>(&TMP_SubMeshUI::set_fallbackSourceMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)(UnityEngine::Material*)>(&TMPro::TMP_SubMeshUI::set_fallbackSourceMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "set_fallbackSourceMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "set_fallbackSourceMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::get_isDefaultMaterial
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::get_isDefaultMaterial
 // Il2CppName: get_isDefaultMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMP_SubMeshUI::*)()>(&TMP_SubMeshUI::get_isDefaultMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::get_isDefaultMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "get_isDefaultMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "get_isDefaultMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::set_isDefaultMaterial
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::set_isDefaultMaterial
 // Il2CppName: set_isDefaultMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SubMeshUI::*)(bool)>(&TMP_SubMeshUI::set_isDefaultMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)(bool)>(&TMPro::TMP_SubMeshUI::set_isDefaultMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "set_isDefaultMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "set_isDefaultMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::get_padding
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::get_padding
 // Il2CppName: get_padding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMP_SubMeshUI::*)()>(&TMP_SubMeshUI::get_padding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::get_padding)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "get_padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "get_padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::set_padding
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::set_padding
 // Il2CppName: set_padding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SubMeshUI::*)(float)>(&TMP_SubMeshUI::set_padding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)(float)>(&TMPro::TMP_SubMeshUI::set_padding)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "set_padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "set_padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::get_mesh
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::get_mesh
 // Il2CppName: get_mesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (TMP_SubMeshUI::*)()>(&TMP_SubMeshUI::get_mesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::get_mesh)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "get_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "get_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::set_mesh
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::set_mesh
 // Il2CppName: set_mesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SubMeshUI::*)(UnityEngine::Mesh*)>(&TMP_SubMeshUI::set_mesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)(UnityEngine::Mesh*)>(&TMPro::TMP_SubMeshUI::set_mesh)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "set_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "set_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::AddSubTextObject
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::AddSubTextObject
 // Il2CppName: AddSubTextObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SubMeshUI* (*)(TMPro::TextMeshProUGUI*, TMPro::MaterialReference)>(&TMP_SubMeshUI::AddSubTextObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SubMeshUI* (*)(TMPro::TextMeshProUGUI*, TMPro::MaterialReference)>(&TMPro::TMP_SubMeshUI::AddSubTextObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "AddSubTextObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TextMeshProUGUI*>(), ::il2cpp_utils::ExtractIndependentType<TMPro::MaterialReference>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "AddSubTextObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TextMeshProUGUI*>(), ::il2cpp_utils::ExtractIndependentType<TMPro::MaterialReference>()});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::GetPaddingForMaterial
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::GetPaddingForMaterial
 // Il2CppName: GetPaddingForMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMP_SubMeshUI::*)()>(&TMP_SubMeshUI::GetPaddingForMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::GetPaddingForMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "GetPaddingForMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "GetPaddingForMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::GetPaddingForMaterial
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::GetPaddingForMaterial
 // Il2CppName: GetPaddingForMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMP_SubMeshUI::*)(UnityEngine::Material*)>(&TMP_SubMeshUI::GetPaddingForMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPro::TMP_SubMeshUI::*)(UnityEngine::Material*)>(&TMPro::TMP_SubMeshUI::GetPaddingForMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "GetPaddingForMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "GetPaddingForMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::UpdateMeshPadding
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::UpdateMeshPadding
 // Il2CppName: UpdateMeshPadding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SubMeshUI::*)(bool, bool)>(&TMP_SubMeshUI::UpdateMeshPadding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)(bool, bool)>(&TMPro::TMP_SubMeshUI::UpdateMeshPadding)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "UpdateMeshPadding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "UpdateMeshPadding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::SetPivotDirty
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::SetPivotDirty
 // Il2CppName: SetPivotDirty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SubMeshUI::*)()>(&TMP_SubMeshUI::SetPivotDirty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::SetPivotDirty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "SetPivotDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "SetPivotDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::RefreshMaterial
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::RefreshMaterial
 // Il2CppName: RefreshMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SubMeshUI::*)()>(&TMP_SubMeshUI::RefreshMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::RefreshMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "RefreshMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "RefreshMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::GetMaterial
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::GetMaterial
 // Il2CppName: GetMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMP_SubMeshUI::*)()>(&TMP_SubMeshUI::GetMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::GetMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "GetMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "GetMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::GetMaterial
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::GetMaterial
 // Il2CppName: GetMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMP_SubMeshUI::*)(UnityEngine::Material*)>(&TMP_SubMeshUI::GetMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TMP_SubMeshUI::*)(UnityEngine::Material*)>(&TMPro::TMP_SubMeshUI::GetMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "GetMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "GetMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::CreateMaterialInstance
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::CreateMaterialInstance
 // Il2CppName: CreateMaterialInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMP_SubMeshUI::*)(UnityEngine::Material*)>(&TMP_SubMeshUI::CreateMaterialInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TMP_SubMeshUI::*)(UnityEngine::Material*)>(&TMPro::TMP_SubMeshUI::CreateMaterialInstance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "CreateMaterialInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "CreateMaterialInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::GetSharedMaterial
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::GetSharedMaterial
 // Il2CppName: GetSharedMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMP_SubMeshUI::*)()>(&TMP_SubMeshUI::GetSharedMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::GetSharedMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "GetSharedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "GetSharedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::SetSharedMaterial
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::SetSharedMaterial
 // Il2CppName: SetSharedMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SubMeshUI::*)(UnityEngine::Material*)>(&TMP_SubMeshUI::SetSharedMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)(UnityEngine::Material*)>(&TMPro::TMP_SubMeshUI::SetSharedMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "SetSharedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "SetSharedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::get_mainTexture
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::get_mainTexture
 // Il2CppName: get_mainTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture* (TMP_SubMeshUI::*)()>(&TMP_SubMeshUI::get_mainTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture* (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::get_mainTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "get_mainTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "get_mainTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::get_material
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::get_material
 // Il2CppName: get_material
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMP_SubMeshUI::*)()>(&TMP_SubMeshUI::get_material)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::get_material)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "get_material", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "get_material", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::set_material
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::set_material
 // Il2CppName: set_material
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SubMeshUI::*)(UnityEngine::Material*)>(&TMP_SubMeshUI::set_material)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)(UnityEngine::Material*)>(&TMPro::TMP_SubMeshUI::set_material)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "set_material", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "set_material", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::get_materialForRendering
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::get_materialForRendering
 // Il2CppName: get_materialForRendering
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMP_SubMeshUI::*)()>(&TMP_SubMeshUI::get_materialForRendering)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::get_materialForRendering)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "get_materialForRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "get_materialForRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::get_canvasRenderer
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::get_canvasRenderer
 // Il2CppName: get_canvasRenderer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::CanvasRenderer* (TMP_SubMeshUI::*)()>(&TMP_SubMeshUI::get_canvasRenderer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::CanvasRenderer* (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::get_canvasRenderer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "get_canvasRenderer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "get_canvasRenderer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::OnEnable
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SubMeshUI::*)()>(&TMP_SubMeshUI::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::OnDisable
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SubMeshUI::*)()>(&TMP_SubMeshUI::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::OnDestroy
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SubMeshUI::*)()>(&TMP_SubMeshUI::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::OnTransformParentChanged
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::OnTransformParentChanged
 // Il2CppName: OnTransformParentChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SubMeshUI::*)()>(&TMP_SubMeshUI::OnTransformParentChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::OnTransformParentChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "OnTransformParentChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "OnTransformParentChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::GetModifiedMaterial
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::GetModifiedMaterial
 // Il2CppName: GetModifiedMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMP_SubMeshUI::*)(UnityEngine::Material*)>(&TMP_SubMeshUI::GetModifiedMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TMP_SubMeshUI::*)(UnityEngine::Material*)>(&TMPro::TMP_SubMeshUI::GetModifiedMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "GetModifiedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "GetModifiedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::SetAllDirty
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::SetAllDirty
 // Il2CppName: SetAllDirty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SubMeshUI::*)()>(&TMP_SubMeshUI::SetAllDirty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::SetAllDirty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "SetAllDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "SetAllDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::SetVerticesDirty
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::SetVerticesDirty
 // Il2CppName: SetVerticesDirty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SubMeshUI::*)()>(&TMP_SubMeshUI::SetVerticesDirty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::SetVerticesDirty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "SetVerticesDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "SetVerticesDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::SetLayoutDirty
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::SetLayoutDirty
 // Il2CppName: SetLayoutDirty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SubMeshUI::*)()>(&TMP_SubMeshUI::SetLayoutDirty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::SetLayoutDirty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "SetLayoutDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "SetLayoutDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::SetMaterialDirty
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::SetMaterialDirty
 // Il2CppName: SetMaterialDirty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SubMeshUI::*)()>(&TMP_SubMeshUI::SetMaterialDirty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::SetMaterialDirty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "SetMaterialDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "SetMaterialDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::Cull
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::Cull
 // Il2CppName: Cull
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SubMeshUI::*)(UnityEngine::Rect, bool)>(&TMP_SubMeshUI::Cull)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)(UnityEngine::Rect, bool)>(&TMPro::TMP_SubMeshUI::Cull)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "Cull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "Cull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::UpdateGeometry
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::UpdateGeometry
 // Il2CppName: UpdateGeometry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SubMeshUI::*)()>(&TMP_SubMeshUI::UpdateGeometry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::UpdateGeometry)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "UpdateGeometry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "UpdateGeometry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::Rebuild
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::Rebuild
 // Il2CppName: Rebuild
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SubMeshUI::*)(UnityEngine::UI::CanvasUpdate)>(&TMP_SubMeshUI::Rebuild)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)(UnityEngine::UI::CanvasUpdate)>(&TMPro::TMP_SubMeshUI::Rebuild)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "Rebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::CanvasUpdate>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "Rebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::CanvasUpdate>()});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::UpdateMaterial
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::UpdateMaterial
 // Il2CppName: UpdateMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SubMeshUI::*)()>(&TMP_SubMeshUI::UpdateMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::UpdateMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "UpdateMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "UpdateMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::RecalculateClipping
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::RecalculateClipping
 // Il2CppName: RecalculateClipping
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SubMeshUI::*)()>(&TMP_SubMeshUI::RecalculateClipping)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::RecalculateClipping)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "RecalculateClipping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "RecalculateClipping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::RecalculateMasking
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::RecalculateMasking
 // Il2CppName: RecalculateMasking
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SubMeshUI::*)()>(&TMP_SubMeshUI::RecalculateMasking)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::RecalculateMasking)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), "RecalculateMasking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), "RecalculateMasking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_SubMeshUI::New_ctor
+// Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SubMeshUI::*)()>(&TMP_SubMeshUI::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SubMeshUI::*)()>(&TMP_SubMeshUI::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SubMeshUI::*)()>(&TMPro::TMP_SubMeshUI::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SubMeshUI*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SubMeshUI*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

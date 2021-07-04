@@ -60,31 +60,31 @@ namespace TMPro {
   static_assert(sizeof(Compute_DT_EventArgs) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::Compute_DT_EventArgs*, "TMPro", "Compute_DT_EventArgs");
-// Writing MetadataGetter for method: Compute_DT_EventArgs::New_ctor
+// Writing MetadataGetter for method: TMPro::Compute_DT_EventArgs::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Compute_DT_EventArgs::*)(TMPro::Compute_DistanceTransform_EventTypes, float)>(&Compute_DT_EventArgs::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::Compute_DT_EventArgs::*)(TMPro::Compute_DistanceTransform_EventTypes, float)>(&TMPro::Compute_DT_EventArgs::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Compute_DT_EventArgs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::Compute_DistanceTransform_EventTypes>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::Compute_DT_EventArgs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::Compute_DistanceTransform_EventTypes>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Compute_DT_EventArgs::*)(TMPro::Compute_DistanceTransform_EventTypes, float)>(&Compute_DT_EventArgs::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::Compute_DT_EventArgs::*)(TMPro::Compute_DistanceTransform_EventTypes, float)>(&TMPro::Compute_DT_EventArgs::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Compute_DT_EventArgs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::Compute_DistanceTransform_EventTypes>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::Compute_DT_EventArgs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::Compute_DistanceTransform_EventTypes>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Compute_DT_EventArgs::New_ctor
+// Writing MetadataGetter for method: TMPro::Compute_DT_EventArgs::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Compute_DT_EventArgs::*)(TMPro::Compute_DistanceTransform_EventTypes, ::Array<UnityEngine::Color>*)>(&Compute_DT_EventArgs::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::Compute_DT_EventArgs::*)(TMPro::Compute_DistanceTransform_EventTypes, ::Array<UnityEngine::Color>*)>(&TMPro::Compute_DT_EventArgs::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Compute_DT_EventArgs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::Compute_DistanceTransform_EventTypes>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Color>*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::Compute_DT_EventArgs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::Compute_DistanceTransform_EventTypes>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Color>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Compute_DT_EventArgs::*)(TMPro::Compute_DistanceTransform_EventTypes, ::Array<UnityEngine::Color>*)>(&Compute_DT_EventArgs::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::Compute_DT_EventArgs::*)(TMPro::Compute_DistanceTransform_EventTypes, ::Array<UnityEngine::Color>*)>(&TMPro::Compute_DT_EventArgs::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Compute_DT_EventArgs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::Compute_DistanceTransform_EventTypes>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Color>*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::Compute_DT_EventArgs*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::Compute_DistanceTransform_EventTypes>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Color>*>()});
   }
 };

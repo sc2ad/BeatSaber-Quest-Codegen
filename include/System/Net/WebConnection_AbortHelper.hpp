@@ -55,25 +55,25 @@ namespace System::Net {
   static_assert(sizeof(WebConnection::AbortHelper) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnection::AbortHelper*, "System.Net", "WebConnection/AbortHelper");
-// Writing MetadataGetter for method: WebConnection::AbortHelper::Abort
+// Writing MetadataGetter for method: System::Net::WebConnection::AbortHelper::Abort
 // Il2CppName: Abort
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebConnection::AbortHelper::*)(::Il2CppObject*, System::EventArgs*)>(&WebConnection::AbortHelper::Abort)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnection::AbortHelper::*)(::Il2CppObject*, System::EventArgs*)>(&System::Net::WebConnection::AbortHelper::Abort)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection::AbortHelper*), "Abort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::EventArgs*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection::AbortHelper*), "Abort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::EventArgs*>()});
   }
 };
-// Writing MetadataGetter for method: WebConnection::AbortHelper::New_ctor
+// Writing MetadataGetter for method: System::Net::WebConnection::AbortHelper::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebConnection::AbortHelper::*)()>(&WebConnection::AbortHelper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnection::AbortHelper::*)()>(&System::Net::WebConnection::AbortHelper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection::AbortHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection::AbortHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebConnection::AbortHelper::*)()>(&WebConnection::AbortHelper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnection::AbortHelper::*)()>(&System::Net::WebConnection::AbortHelper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebConnection::AbortHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnection::AbortHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

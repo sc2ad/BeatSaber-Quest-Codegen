@@ -59,25 +59,25 @@ namespace GlobalNamespace {
   static_assert(sizeof(ShaderWarmupSceneSetup) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderWarmupSceneSetup*, "", "ShaderWarmupSceneSetup");
-// Writing MetadataGetter for method: ShaderWarmupSceneSetup::InstallBindings
+// Writing MetadataGetter for method: GlobalNamespace::ShaderWarmupSceneSetup::InstallBindings
 // Il2CppName: InstallBindings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShaderWarmupSceneSetup::*)()>(&ShaderWarmupSceneSetup::InstallBindings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ShaderWarmupSceneSetup::*)()>(&GlobalNamespace::ShaderWarmupSceneSetup::InstallBindings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ShaderWarmupSceneSetup*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShaderWarmupSceneSetup*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ShaderWarmupSceneSetup::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::ShaderWarmupSceneSetup::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShaderWarmupSceneSetup::*)()>(&ShaderWarmupSceneSetup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ShaderWarmupSceneSetup::*)()>(&GlobalNamespace::ShaderWarmupSceneSetup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ShaderWarmupSceneSetup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShaderWarmupSceneSetup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShaderWarmupSceneSetup::*)()>(&ShaderWarmupSceneSetup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ShaderWarmupSceneSetup::*)()>(&GlobalNamespace::ShaderWarmupSceneSetup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ShaderWarmupSceneSetup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShaderWarmupSceneSetup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -38,19 +38,19 @@ namespace UnityEngine::TestRunner::TestLaunchers {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory*, "UnityEngine.TestRunner.TestLaunchers", "IRemoteTestResultDataFactory");
-// Writing MetadataGetter for method: IRemoteTestResultDataFactory::CreateFromTestResult
+// Writing MetadataGetter for method: UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory::CreateFromTestResult
 // Il2CppName: CreateFromTestResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* (IRemoteTestResultDataFactory::*)(NUnit::Framework::Interfaces::ITestResult*)>(&IRemoteTestResultDataFactory::CreateFromTestResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* (UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory::*)(NUnit::Framework::Interfaces::ITestResult*)>(&UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory::CreateFromTestResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IRemoteTestResultDataFactory*), "CreateFromTestResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory*), "CreateFromTestResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestResult*>()});
   }
 };
-// Writing MetadataGetter for method: IRemoteTestResultDataFactory::CreateFromTest
+// Writing MetadataGetter for method: UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory::CreateFromTest
 // Il2CppName: CreateFromTest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* (IRemoteTestResultDataFactory::*)(NUnit::Framework::Interfaces::ITest*)>(&IRemoteTestResultDataFactory::CreateFromTest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* (UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory::*)(NUnit::Framework::Interfaces::ITest*)>(&UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory::CreateFromTest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IRemoteTestResultDataFactory*), "CreateFromTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory*), "CreateFromTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
   }
 };

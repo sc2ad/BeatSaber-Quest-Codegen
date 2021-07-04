@@ -56,25 +56,25 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectionErrorDialogViewController*, "", "ConnectionErrorDialogViewController");
-// Writing MetadataGetter for method: ConnectionErrorDialogViewController::Init
+// Writing MetadataGetter for method: GlobalNamespace::ConnectionErrorDialogViewController::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectionErrorDialogViewController::*)(GlobalNamespace::DisconnectedReason, System::Action*)>(&ConnectionErrorDialogViewController::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectionErrorDialogViewController::*)(GlobalNamespace::DisconnectedReason, System::Action*)>(&GlobalNamespace::ConnectionErrorDialogViewController::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectionErrorDialogViewController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DisconnectedReason>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectionErrorDialogViewController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DisconnectedReason>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: ConnectionErrorDialogViewController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::ConnectionErrorDialogViewController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectionErrorDialogViewController::*)()>(&ConnectionErrorDialogViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectionErrorDialogViewController::*)()>(&GlobalNamespace::ConnectionErrorDialogViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectionErrorDialogViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectionErrorDialogViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectionErrorDialogViewController::*)()>(&ConnectionErrorDialogViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectionErrorDialogViewController::*)()>(&GlobalNamespace::ConnectionErrorDialogViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectionErrorDialogViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectionErrorDialogViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

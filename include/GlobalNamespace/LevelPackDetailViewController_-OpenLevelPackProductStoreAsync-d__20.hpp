@@ -67,19 +67,19 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelPackDetailViewController::$OpenLevelPackProductStoreAsync$d__20, "", "LevelPackDetailViewController/<OpenLevelPackProductStoreAsync>d__20");
-// Writing MetadataGetter for method: LevelPackDetailViewController::$OpenLevelPackProductStoreAsync$d__20::MoveNext
+// Writing MetadataGetter for method: GlobalNamespace::LevelPackDetailViewController::$OpenLevelPackProductStoreAsync$d__20::MoveNext
 // Il2CppName: MoveNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelPackDetailViewController::$OpenLevelPackProductStoreAsync$d__20::*)()>(&LevelPackDetailViewController::$OpenLevelPackProductStoreAsync$d__20::MoveNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelPackDetailViewController::$OpenLevelPackProductStoreAsync$d__20::*)()>(&GlobalNamespace::LevelPackDetailViewController::$OpenLevelPackProductStoreAsync$d__20::MoveNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelPackDetailViewController::$OpenLevelPackProductStoreAsync$d__20), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelPackDetailViewController::$OpenLevelPackProductStoreAsync$d__20), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LevelPackDetailViewController::$OpenLevelPackProductStoreAsync$d__20::SetStateMachine
+// Writing MetadataGetter for method: GlobalNamespace::LevelPackDetailViewController::$OpenLevelPackProductStoreAsync$d__20::SetStateMachine
 // Il2CppName: SetStateMachine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelPackDetailViewController::$OpenLevelPackProductStoreAsync$d__20::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&LevelPackDetailViewController::$OpenLevelPackProductStoreAsync$d__20::SetStateMachine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelPackDetailViewController::$OpenLevelPackProductStoreAsync$d__20::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&GlobalNamespace::LevelPackDetailViewController::$OpenLevelPackProductStoreAsync$d__20::SetStateMachine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelPackDetailViewController::$OpenLevelPackProductStoreAsync$d__20), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelPackDetailViewController::$OpenLevelPackProductStoreAsync$d__20), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
   }
 };

@@ -53,25 +53,25 @@ namespace GlobalNamespace {
   static_assert(sizeof(NetEaseSceneSetupData) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseSceneSetupData*, "", "NetEaseSceneSetupData");
-// Writing MetadataGetter for method: NetEaseSceneSetupData::get_nextScenesTransitionSetupData
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseSceneSetupData::get_nextScenesTransitionSetupData
 // Il2CppName: get_nextScenesTransitionSetupData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ScenesTransitionSetupDataSO* (NetEaseSceneSetupData::*)()>(&NetEaseSceneSetupData::get_nextScenesTransitionSetupData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ScenesTransitionSetupDataSO* (GlobalNamespace::NetEaseSceneSetupData::*)()>(&GlobalNamespace::NetEaseSceneSetupData::get_nextScenesTransitionSetupData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseSceneSetupData*), "get_nextScenesTransitionSetupData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseSceneSetupData*), "get_nextScenesTransitionSetupData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetEaseSceneSetupData::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::NetEaseSceneSetupData::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseSceneSetupData::*)(GlobalNamespace::ScenesTransitionSetupDataSO*)>(&NetEaseSceneSetupData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetEaseSceneSetupData::*)(GlobalNamespace::ScenesTransitionSetupDataSO*)>(&GlobalNamespace::NetEaseSceneSetupData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseSceneSetupData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ScenesTransitionSetupDataSO*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseSceneSetupData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ScenesTransitionSetupDataSO*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEaseSceneSetupData::*)(GlobalNamespace::ScenesTransitionSetupDataSO*)>(&NetEaseSceneSetupData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetEaseSceneSetupData::*)(GlobalNamespace::ScenesTransitionSetupDataSO*)>(&GlobalNamespace::NetEaseSceneSetupData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEaseSceneSetupData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ScenesTransitionSetupDataSO*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetEaseSceneSetupData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ScenesTransitionSetupDataSO*>()});
   }
 };

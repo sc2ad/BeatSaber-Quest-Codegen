@@ -30,35 +30,35 @@ namespace TMPro {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::ITweenValue*, "TMPro", "ITweenValue");
-// Writing MetadataGetter for method: ITweenValue::TweenValue
+// Writing MetadataGetter for method: TMPro::ITweenValue::TweenValue
 // Il2CppName: TweenValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ITweenValue::*)(float)>(&ITweenValue::TweenValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::ITweenValue::*)(float)>(&TMPro::ITweenValue::TweenValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ITweenValue*), "TweenValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::ITweenValue*), "TweenValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: ITweenValue::get_ignoreTimeScale
+// Writing MetadataGetter for method: TMPro::ITweenValue::get_ignoreTimeScale
 // Il2CppName: get_ignoreTimeScale
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ITweenValue::*)()>(&ITweenValue::get_ignoreTimeScale)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::ITweenValue::*)()>(&TMPro::ITweenValue::get_ignoreTimeScale)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ITweenValue*), "get_ignoreTimeScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::ITweenValue*), "get_ignoreTimeScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ITweenValue::get_duration
+// Writing MetadataGetter for method: TMPro::ITweenValue::get_duration
 // Il2CppName: get_duration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (ITweenValue::*)()>(&ITweenValue::get_duration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPro::ITweenValue::*)()>(&TMPro::ITweenValue::get_duration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ITweenValue*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::ITweenValue*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ITweenValue::ValidTarget
+// Writing MetadataGetter for method: TMPro::ITweenValue::ValidTarget
 // Il2CppName: ValidTarget
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ITweenValue::*)()>(&ITweenValue::ValidTarget)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::ITweenValue::*)()>(&TMPro::ITweenValue::ValidTarget)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ITweenValue*), "ValidTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::ITweenValue*), "ValidTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

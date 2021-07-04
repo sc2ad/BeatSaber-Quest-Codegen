@@ -102,33 +102,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(MoveBackWall) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MoveBackWall*, "", "MoveBackWall");
-// Writing MetadataGetter for method: MoveBackWall::Start
+// Writing MetadataGetter for method: GlobalNamespace::MoveBackWall::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MoveBackWall::*)()>(&MoveBackWall::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MoveBackWall::*)()>(&GlobalNamespace::MoveBackWall::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MoveBackWall*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MoveBackWall*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MoveBackWall::Update
+// Writing MetadataGetter for method: GlobalNamespace::MoveBackWall::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MoveBackWall::*)()>(&MoveBackWall::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MoveBackWall::*)()>(&GlobalNamespace::MoveBackWall::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MoveBackWall*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MoveBackWall*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MoveBackWall::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MoveBackWall::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MoveBackWall::*)()>(&MoveBackWall::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MoveBackWall::*)()>(&GlobalNamespace::MoveBackWall::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MoveBackWall*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MoveBackWall*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MoveBackWall::*)()>(&MoveBackWall::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MoveBackWall::*)()>(&GlobalNamespace::MoveBackWall::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MoveBackWall*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MoveBackWall*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

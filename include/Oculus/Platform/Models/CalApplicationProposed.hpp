@@ -43,17 +43,17 @@ namespace Oculus::Platform::Models {
   static_assert(sizeof(CalApplicationProposed) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::CalApplicationProposed*, "Oculus.Platform.Models", "CalApplicationProposed");
-// Writing MetadataGetter for method: CalApplicationProposed::New_ctor
+// Writing MetadataGetter for method: Oculus::Platform::Models::CalApplicationProposed::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CalApplicationProposed::*)(System::IntPtr)>(&CalApplicationProposed::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::Models::CalApplicationProposed::*)(System::IntPtr)>(&Oculus::Platform::Models::CalApplicationProposed::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CalApplicationProposed*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Models::CalApplicationProposed*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CalApplicationProposed::*)(System::IntPtr)>(&CalApplicationProposed::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::Models::CalApplicationProposed::*)(System::IntPtr)>(&Oculus::Platform::Models::CalApplicationProposed::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CalApplicationProposed*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Models::CalApplicationProposed*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };

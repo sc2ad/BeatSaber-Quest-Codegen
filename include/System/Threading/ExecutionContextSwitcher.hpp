@@ -69,19 +69,19 @@ namespace System::Threading {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ExecutionContextSwitcher, "System.Threading", "ExecutionContextSwitcher");
-// Writing MetadataGetter for method: ExecutionContextSwitcher::UndoNoThrow
+// Writing MetadataGetter for method: System::Threading::ExecutionContextSwitcher::UndoNoThrow
 // Il2CppName: UndoNoThrow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ExecutionContextSwitcher::*)()>(&ExecutionContextSwitcher::UndoNoThrow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ExecutionContextSwitcher::*)()>(&System::Threading::ExecutionContextSwitcher::UndoNoThrow)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ExecutionContextSwitcher), "UndoNoThrow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContextSwitcher), "UndoNoThrow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ExecutionContextSwitcher::Undo
+// Writing MetadataGetter for method: System::Threading::ExecutionContextSwitcher::Undo
 // Il2CppName: Undo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExecutionContextSwitcher::*)()>(&ExecutionContextSwitcher::Undo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ExecutionContextSwitcher::*)()>(&System::Threading::ExecutionContextSwitcher::Undo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ExecutionContextSwitcher), "Undo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContextSwitcher), "Undo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

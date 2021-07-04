@@ -149,73 +149,73 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameEnergyUIPanel) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameEnergyUIPanel*, "", "GameEnergyUIPanel");
-// Writing MetadataGetter for method: GameEnergyUIPanel::Start
+// Writing MetadataGetter for method: GlobalNamespace::GameEnergyUIPanel::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameEnergyUIPanel::*)()>(&GameEnergyUIPanel::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyUIPanel::*)()>(&GlobalNamespace::GameEnergyUIPanel::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameEnergyUIPanel*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyUIPanel*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GameEnergyUIPanel::Init
+// Writing MetadataGetter for method: GlobalNamespace::GameEnergyUIPanel::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameEnergyUIPanel::*)()>(&GameEnergyUIPanel::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyUIPanel::*)()>(&GlobalNamespace::GameEnergyUIPanel::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameEnergyUIPanel*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyUIPanel*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GameEnergyUIPanel::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::GameEnergyUIPanel::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameEnergyUIPanel::*)()>(&GameEnergyUIPanel::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyUIPanel::*)()>(&GlobalNamespace::GameEnergyUIPanel::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameEnergyUIPanel*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyUIPanel*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GameEnergyUIPanel::CreateUIForBatteryEnergyType
+// Writing MetadataGetter for method: GlobalNamespace::GameEnergyUIPanel::CreateUIForBatteryEnergyType
 // Il2CppName: CreateUIForBatteryEnergyType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameEnergyUIPanel::*)(int)>(&GameEnergyUIPanel::CreateUIForBatteryEnergyType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyUIPanel::*)(int)>(&GlobalNamespace::GameEnergyUIPanel::CreateUIForBatteryEnergyType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameEnergyUIPanel*), "CreateUIForBatteryEnergyType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyUIPanel*), "CreateUIForBatteryEnergyType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: GameEnergyUIPanel::RefreshEnergyUI
+// Writing MetadataGetter for method: GlobalNamespace::GameEnergyUIPanel::RefreshEnergyUI
 // Il2CppName: RefreshEnergyUI
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameEnergyUIPanel::*)(float)>(&GameEnergyUIPanel::RefreshEnergyUI)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyUIPanel::*)(float)>(&GlobalNamespace::GameEnergyUIPanel::RefreshEnergyUI)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameEnergyUIPanel*), "RefreshEnergyUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyUIPanel*), "RefreshEnergyUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: GameEnergyUIPanel::HandleGameEnergyCounterDidInit
+// Writing MetadataGetter for method: GlobalNamespace::GameEnergyUIPanel::HandleGameEnergyCounterDidInit
 // Il2CppName: HandleGameEnergyCounterDidInit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameEnergyUIPanel::*)()>(&GameEnergyUIPanel::HandleGameEnergyCounterDidInit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyUIPanel::*)()>(&GlobalNamespace::GameEnergyUIPanel::HandleGameEnergyCounterDidInit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameEnergyUIPanel*), "HandleGameEnergyCounterDidInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyUIPanel*), "HandleGameEnergyCounterDidInit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GameEnergyUIPanel::HandleGameEnergyDidChange
+// Writing MetadataGetter for method: GlobalNamespace::GameEnergyUIPanel::HandleGameEnergyDidChange
 // Il2CppName: HandleGameEnergyDidChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameEnergyUIPanel::*)(float)>(&GameEnergyUIPanel::HandleGameEnergyDidChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyUIPanel::*)(float)>(&GlobalNamespace::GameEnergyUIPanel::HandleGameEnergyDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameEnergyUIPanel*), "HandleGameEnergyDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyUIPanel*), "HandleGameEnergyDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: GameEnergyUIPanel::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::GameEnergyUIPanel::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameEnergyUIPanel::*)()>(&GameEnergyUIPanel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyUIPanel::*)()>(&GlobalNamespace::GameEnergyUIPanel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameEnergyUIPanel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyUIPanel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameEnergyUIPanel::*)()>(&GameEnergyUIPanel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameEnergyUIPanel::*)()>(&GlobalNamespace::GameEnergyUIPanel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameEnergyUIPanel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameEnergyUIPanel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

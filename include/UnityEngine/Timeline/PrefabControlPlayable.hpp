@@ -94,73 +94,73 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(PrefabControlPlayable) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::PrefabControlPlayable*, "UnityEngine.Timeline", "PrefabControlPlayable");
-// Writing MetadataGetter for method: PrefabControlPlayable::Create
+// Writing MetadataGetter for method: UnityEngine::Timeline::PrefabControlPlayable::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::PrefabControlPlayable*> (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, UnityEngine::Transform*)>(&PrefabControlPlayable::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::ScriptPlayable_1<UnityEngine::Timeline::PrefabControlPlayable*> (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, UnityEngine::Transform*)>(&UnityEngine::Timeline::PrefabControlPlayable::Create)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrefabControlPlayable*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::PrefabControlPlayable*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
   }
 };
-// Writing MetadataGetter for method: PrefabControlPlayable::get_prefabInstance
+// Writing MetadataGetter for method: UnityEngine::Timeline::PrefabControlPlayable::get_prefabInstance
 // Il2CppName: get_prefabInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (PrefabControlPlayable::*)()>(&PrefabControlPlayable::get_prefabInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (UnityEngine::Timeline::PrefabControlPlayable::*)()>(&UnityEngine::Timeline::PrefabControlPlayable::get_prefabInstance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrefabControlPlayable*), "get_prefabInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::PrefabControlPlayable*), "get_prefabInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PrefabControlPlayable::Initialize
+// Writing MetadataGetter for method: UnityEngine::Timeline::PrefabControlPlayable::Initialize
 // Il2CppName: Initialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (PrefabControlPlayable::*)(UnityEngine::GameObject*, UnityEngine::Transform*)>(&PrefabControlPlayable::Initialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (UnityEngine::Timeline::PrefabControlPlayable::*)(UnityEngine::GameObject*, UnityEngine::Transform*)>(&UnityEngine::Timeline::PrefabControlPlayable::Initialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrefabControlPlayable*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::PrefabControlPlayable*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
   }
 };
-// Writing MetadataGetter for method: PrefabControlPlayable::SetHideFlagsRecursive
+// Writing MetadataGetter for method: UnityEngine::Timeline::PrefabControlPlayable::SetHideFlagsRecursive
 // Il2CppName: SetHideFlagsRecursive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*)>(&PrefabControlPlayable::SetHideFlagsRecursive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*)>(&UnityEngine::Timeline::PrefabControlPlayable::SetHideFlagsRecursive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrefabControlPlayable*), "SetHideFlagsRecursive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::PrefabControlPlayable*), "SetHideFlagsRecursive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
   }
 };
-// Writing MetadataGetter for method: PrefabControlPlayable::OnPlayableDestroy
+// Writing MetadataGetter for method: UnityEngine::Timeline::PrefabControlPlayable::OnPlayableDestroy
 // Il2CppName: OnPlayableDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrefabControlPlayable::*)(UnityEngine::Playables::Playable)>(&PrefabControlPlayable::OnPlayableDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::PrefabControlPlayable::*)(UnityEngine::Playables::Playable)>(&UnityEngine::Timeline::PrefabControlPlayable::OnPlayableDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrefabControlPlayable*), "OnPlayableDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::PrefabControlPlayable*), "OnPlayableDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
   }
 };
-// Writing MetadataGetter for method: PrefabControlPlayable::OnBehaviourPlay
+// Writing MetadataGetter for method: UnityEngine::Timeline::PrefabControlPlayable::OnBehaviourPlay
 // Il2CppName: OnBehaviourPlay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrefabControlPlayable::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&PrefabControlPlayable::OnBehaviourPlay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::PrefabControlPlayable::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&UnityEngine::Timeline::PrefabControlPlayable::OnBehaviourPlay)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrefabControlPlayable*), "OnBehaviourPlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::PrefabControlPlayable*), "OnBehaviourPlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
   }
 };
-// Writing MetadataGetter for method: PrefabControlPlayable::OnBehaviourPause
+// Writing MetadataGetter for method: UnityEngine::Timeline::PrefabControlPlayable::OnBehaviourPause
 // Il2CppName: OnBehaviourPause
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrefabControlPlayable::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&PrefabControlPlayable::OnBehaviourPause)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::PrefabControlPlayable::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&UnityEngine::Timeline::PrefabControlPlayable::OnBehaviourPause)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrefabControlPlayable*), "OnBehaviourPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::PrefabControlPlayable*), "OnBehaviourPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
   }
 };
-// Writing MetadataGetter for method: PrefabControlPlayable::New_ctor
+// Writing MetadataGetter for method: UnityEngine::Timeline::PrefabControlPlayable::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrefabControlPlayable::*)()>(&PrefabControlPlayable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::PrefabControlPlayable::*)()>(&UnityEngine::Timeline::PrefabControlPlayable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrefabControlPlayable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::PrefabControlPlayable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrefabControlPlayable::*)()>(&PrefabControlPlayable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::PrefabControlPlayable::*)()>(&UnityEngine::Timeline::PrefabControlPlayable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrefabControlPlayable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::PrefabControlPlayable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

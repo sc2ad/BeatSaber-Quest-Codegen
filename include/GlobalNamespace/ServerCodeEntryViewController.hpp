@@ -129,81 +129,81 @@ namespace GlobalNamespace {
   static_assert(sizeof(ServerCodeEntryViewController) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ServerCodeEntryViewController*, "", "ServerCodeEntryViewController");
-// Writing MetadataGetter for method: ServerCodeEntryViewController::add_didFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::ServerCodeEntryViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerCodeEntryViewController::*)(System::Action_2<bool, ::Il2CppString*>*)>(&ServerCodeEntryViewController::add_didFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerCodeEntryViewController::*)(System::Action_2<bool, ::Il2CppString*>*)>(&GlobalNamespace::ServerCodeEntryViewController::add_didFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerCodeEntryViewController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<bool, ::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerCodeEntryViewController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<bool, ::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: ServerCodeEntryViewController::remove_didFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::ServerCodeEntryViewController::remove_didFinishEvent
 // Il2CppName: remove_didFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerCodeEntryViewController::*)(System::Action_2<bool, ::Il2CppString*>*)>(&ServerCodeEntryViewController::remove_didFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerCodeEntryViewController::*)(System::Action_2<bool, ::Il2CppString*>*)>(&GlobalNamespace::ServerCodeEntryViewController::remove_didFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerCodeEntryViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<bool, ::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerCodeEntryViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<bool, ::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: ServerCodeEntryViewController::HandleInputFieldChanged
+// Writing MetadataGetter for method: GlobalNamespace::ServerCodeEntryViewController::HandleInputFieldChanged
 // Il2CppName: HandleInputFieldChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerCodeEntryViewController::*)(HMUI::InputFieldView*)>(&ServerCodeEntryViewController::HandleInputFieldChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerCodeEntryViewController::*)(HMUI::InputFieldView*)>(&GlobalNamespace::ServerCodeEntryViewController::HandleInputFieldChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerCodeEntryViewController*), "HandleInputFieldChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::InputFieldView*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerCodeEntryViewController*), "HandleInputFieldChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::InputFieldView*>()});
   }
 };
-// Writing MetadataGetter for method: ServerCodeEntryViewController::HandleJoinButtonPressed
+// Writing MetadataGetter for method: GlobalNamespace::ServerCodeEntryViewController::HandleJoinButtonPressed
 // Il2CppName: HandleJoinButtonPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerCodeEntryViewController::*)()>(&ServerCodeEntryViewController::HandleJoinButtonPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerCodeEntryViewController::*)()>(&GlobalNamespace::ServerCodeEntryViewController::HandleJoinButtonPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerCodeEntryViewController*), "HandleJoinButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerCodeEntryViewController*), "HandleJoinButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ServerCodeEntryViewController::HandleCancelButtonPressed
+// Writing MetadataGetter for method: GlobalNamespace::ServerCodeEntryViewController::HandleCancelButtonPressed
 // Il2CppName: HandleCancelButtonPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerCodeEntryViewController::*)()>(&ServerCodeEntryViewController::HandleCancelButtonPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerCodeEntryViewController::*)()>(&GlobalNamespace::ServerCodeEntryViewController::HandleCancelButtonPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerCodeEntryViewController*), "HandleCancelButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerCodeEntryViewController*), "HandleCancelButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ServerCodeEntryViewController::DidActivate
+// Writing MetadataGetter for method: GlobalNamespace::ServerCodeEntryViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerCodeEntryViewController::*)(bool, bool, bool)>(&ServerCodeEntryViewController::DidActivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerCodeEntryViewController::*)(bool, bool, bool)>(&GlobalNamespace::ServerCodeEntryViewController::DidActivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerCodeEntryViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerCodeEntryViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ServerCodeEntryViewController::DidDeactivate
+// Writing MetadataGetter for method: GlobalNamespace::ServerCodeEntryViewController::DidDeactivate
 // Il2CppName: DidDeactivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerCodeEntryViewController::*)(bool, bool)>(&ServerCodeEntryViewController::DidDeactivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerCodeEntryViewController::*)(bool, bool)>(&GlobalNamespace::ServerCodeEntryViewController::DidDeactivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerCodeEntryViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerCodeEntryViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ServerCodeEntryViewController::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::ServerCodeEntryViewController::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerCodeEntryViewController::*)()>(&ServerCodeEntryViewController::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerCodeEntryViewController::*)()>(&GlobalNamespace::ServerCodeEntryViewController::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerCodeEntryViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerCodeEntryViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ServerCodeEntryViewController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::ServerCodeEntryViewController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerCodeEntryViewController::*)()>(&ServerCodeEntryViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerCodeEntryViewController::*)()>(&GlobalNamespace::ServerCodeEntryViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerCodeEntryViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerCodeEntryViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerCodeEntryViewController::*)()>(&ServerCodeEntryViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerCodeEntryViewController::*)()>(&GlobalNamespace::ServerCodeEntryViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerCodeEntryViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerCodeEntryViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -58,41 +58,41 @@ namespace UnityEngine::Timeline {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SignalAsset*, "UnityEngine.Timeline", "SignalAsset");
-// Writing MetadataGetter for method: SignalAsset::add_OnEnableCallback
+// Writing MetadataGetter for method: UnityEngine::Timeline::SignalAsset::add_OnEnableCallback
 // Il2CppName: add_OnEnableCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<UnityEngine::Timeline::SignalAsset*>*)>(&SignalAsset::add_OnEnableCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<UnityEngine::Timeline::SignalAsset*>*)>(&UnityEngine::Timeline::SignalAsset::add_OnEnableCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignalAsset*), "add_OnEnableCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Timeline::SignalAsset*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalAsset*), "add_OnEnableCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Timeline::SignalAsset*>*>()});
   }
 };
-// Writing MetadataGetter for method: SignalAsset::remove_OnEnableCallback
+// Writing MetadataGetter for method: UnityEngine::Timeline::SignalAsset::remove_OnEnableCallback
 // Il2CppName: remove_OnEnableCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<UnityEngine::Timeline::SignalAsset*>*)>(&SignalAsset::remove_OnEnableCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<UnityEngine::Timeline::SignalAsset*>*)>(&UnityEngine::Timeline::SignalAsset::remove_OnEnableCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignalAsset*), "remove_OnEnableCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Timeline::SignalAsset*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalAsset*), "remove_OnEnableCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Timeline::SignalAsset*>*>()});
   }
 };
-// Writing MetadataGetter for method: SignalAsset::OnEnable
+// Writing MetadataGetter for method: UnityEngine::Timeline::SignalAsset::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalAsset::*)()>(&SignalAsset::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::SignalAsset::*)()>(&UnityEngine::Timeline::SignalAsset::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignalAsset*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalAsset*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SignalAsset::New_ctor
+// Writing MetadataGetter for method: UnityEngine::Timeline::SignalAsset::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalAsset::*)()>(&SignalAsset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::SignalAsset::*)()>(&UnityEngine::Timeline::SignalAsset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignalAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalAsset::*)()>(&SignalAsset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::SignalAsset::*)()>(&UnityEngine::Timeline::SignalAsset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignalAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

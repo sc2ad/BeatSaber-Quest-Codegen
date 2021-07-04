@@ -80,41 +80,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(InstantMenuButtonTrigger) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::InstantMenuButtonTrigger*, "", "InstantMenuButtonTrigger");
-// Writing MetadataGetter for method: InstantMenuButtonTrigger::add_menuButtonTriggeredEvent
+// Writing MetadataGetter for method: GlobalNamespace::InstantMenuButtonTrigger::add_menuButtonTriggeredEvent
 // Il2CppName: add_menuButtonTriggeredEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InstantMenuButtonTrigger::*)(System::Action*)>(&InstantMenuButtonTrigger::add_menuButtonTriggeredEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::InstantMenuButtonTrigger::*)(System::Action*)>(&GlobalNamespace::InstantMenuButtonTrigger::add_menuButtonTriggeredEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InstantMenuButtonTrigger*), "add_menuButtonTriggeredEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::InstantMenuButtonTrigger*), "add_menuButtonTriggeredEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: InstantMenuButtonTrigger::remove_menuButtonTriggeredEvent
+// Writing MetadataGetter for method: GlobalNamespace::InstantMenuButtonTrigger::remove_menuButtonTriggeredEvent
 // Il2CppName: remove_menuButtonTriggeredEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InstantMenuButtonTrigger::*)(System::Action*)>(&InstantMenuButtonTrigger::remove_menuButtonTriggeredEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::InstantMenuButtonTrigger::*)(System::Action*)>(&GlobalNamespace::InstantMenuButtonTrigger::remove_menuButtonTriggeredEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InstantMenuButtonTrigger*), "remove_menuButtonTriggeredEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::InstantMenuButtonTrigger*), "remove_menuButtonTriggeredEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: InstantMenuButtonTrigger::Tick
+// Writing MetadataGetter for method: GlobalNamespace::InstantMenuButtonTrigger::Tick
 // Il2CppName: Tick
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InstantMenuButtonTrigger::*)()>(&InstantMenuButtonTrigger::Tick)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::InstantMenuButtonTrigger::*)()>(&GlobalNamespace::InstantMenuButtonTrigger::Tick)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InstantMenuButtonTrigger*), "Tick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::InstantMenuButtonTrigger*), "Tick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InstantMenuButtonTrigger::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::InstantMenuButtonTrigger::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InstantMenuButtonTrigger::*)()>(&InstantMenuButtonTrigger::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::InstantMenuButtonTrigger::*)()>(&GlobalNamespace::InstantMenuButtonTrigger::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InstantMenuButtonTrigger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::InstantMenuButtonTrigger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InstantMenuButtonTrigger::*)()>(&InstantMenuButtonTrigger::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::InstantMenuButtonTrigger::*)()>(&GlobalNamespace::InstantMenuButtonTrigger::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InstantMenuButtonTrigger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::InstantMenuButtonTrigger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

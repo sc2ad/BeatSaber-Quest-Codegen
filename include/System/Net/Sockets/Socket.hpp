@@ -759,1135 +759,1135 @@ namespace System::Net::Sockets {
   static_assert(sizeof(Socket) == 0x51);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::Socket*, "System.Net.Sockets", "Socket");
-// Writing MetadataGetter for method: Socket::New_ctor
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(System::Net::Sockets::AddressFamily, System::Net::Sockets::SocketType, System::Net::Sockets::ProtocolType)>(&Socket::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(System::Net::Sockets::AddressFamily, System::Net::Sockets::SocketType, System::Net::Sockets::ProtocolType)>(&System::Net::Sockets::Socket::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::AddressFamily>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketType>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::ProtocolType>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::AddressFamily>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketType>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::ProtocolType>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(System::Net::Sockets::AddressFamily, System::Net::Sockets::SocketType, System::Net::Sockets::ProtocolType)>(&Socket::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(System::Net::Sockets::AddressFamily, System::Net::Sockets::SocketType, System::Net::Sockets::ProtocolType)>(&System::Net::Sockets::Socket::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::AddressFamily>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketType>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::ProtocolType>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::AddressFamily>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketType>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::ProtocolType>()});
   }
 };
-// Writing MetadataGetter for method: Socket::get_SupportsIPv4
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::get_SupportsIPv4
 // Il2CppName: get_SupportsIPv4
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Socket::get_SupportsIPv4)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Net::Sockets::Socket::get_SupportsIPv4)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "get_SupportsIPv4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_SupportsIPv4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Socket::get_OSSupportsIPv4
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::get_OSSupportsIPv4
 // Il2CppName: get_OSSupportsIPv4
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Socket::get_OSSupportsIPv4)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Net::Sockets::Socket::get_OSSupportsIPv4)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "get_OSSupportsIPv4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_OSSupportsIPv4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Socket::get_SupportsIPv6
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::get_SupportsIPv6
 // Il2CppName: get_SupportsIPv6
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Socket::get_SupportsIPv6)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Net::Sockets::Socket::get_SupportsIPv6)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "get_SupportsIPv6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_SupportsIPv6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Socket::get_OSSupportsIPv6
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::get_OSSupportsIPv6
 // Il2CppName: get_OSSupportsIPv6
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Socket::get_OSSupportsIPv6)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Net::Sockets::Socket::get_OSSupportsIPv6)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "get_OSSupportsIPv6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_OSSupportsIPv6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Socket::get_Handle
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::get_Handle
 // Il2CppName: get_Handle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Socket::*)()>(&Socket::get_Handle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::get_Handle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "get_Handle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_Handle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Socket::get_AddressFamily
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::get_AddressFamily
 // Il2CppName: get_AddressFamily
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::AddressFamily (Socket::*)()>(&Socket::get_AddressFamily)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::AddressFamily (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::get_AddressFamily)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "get_AddressFamily", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_AddressFamily", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Socket::get_SocketType
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::get_SocketType
 // Il2CppName: get_SocketType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::SocketType (Socket::*)()>(&Socket::get_SocketType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::SocketType (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::get_SocketType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "get_SocketType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_SocketType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Socket::get_ProtocolType
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::get_ProtocolType
 // Il2CppName: get_ProtocolType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::ProtocolType (Socket::*)()>(&Socket::get_ProtocolType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::ProtocolType (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::get_ProtocolType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "get_ProtocolType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_ProtocolType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Socket::set_ExclusiveAddressUse
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::set_ExclusiveAddressUse
 // Il2CppName: set_ExclusiveAddressUse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(bool)>(&Socket::set_ExclusiveAddressUse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(bool)>(&System::Net::Sockets::Socket::set_ExclusiveAddressUse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "set_ExclusiveAddressUse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "set_ExclusiveAddressUse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Socket::set_ReceiveBufferSize
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::set_ReceiveBufferSize
 // Il2CppName: set_ReceiveBufferSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(int)>(&Socket::set_ReceiveBufferSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(int)>(&System::Net::Sockets::Socket::set_ReceiveBufferSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "set_ReceiveBufferSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "set_ReceiveBufferSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Socket::set_SendBufferSize
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::set_SendBufferSize
 // Il2CppName: set_SendBufferSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(int)>(&Socket::set_SendBufferSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(int)>(&System::Net::Sockets::Socket::set_SendBufferSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "set_SendBufferSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "set_SendBufferSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Socket::set_ReceiveTimeout
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::set_ReceiveTimeout
 // Il2CppName: set_ReceiveTimeout
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(int)>(&Socket::set_ReceiveTimeout)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(int)>(&System::Net::Sockets::Socket::set_ReceiveTimeout)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "set_ReceiveTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "set_ReceiveTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Socket::set_SendTimeout
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::set_SendTimeout
 // Il2CppName: set_SendTimeout
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(int)>(&Socket::set_SendTimeout)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(int)>(&System::Net::Sockets::Socket::set_SendTimeout)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "set_SendTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "set_SendTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Socket::get_Ttl
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::get_Ttl
 // Il2CppName: get_Ttl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (Socket::*)()>(&Socket::get_Ttl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::get_Ttl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "get_Ttl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_Ttl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Socket::set_Ttl
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::set_Ttl
 // Il2CppName: set_Ttl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(int16_t)>(&Socket::set_Ttl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(int16_t)>(&System::Net::Sockets::Socket::set_Ttl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "set_Ttl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int16_t>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "set_Ttl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int16_t>()});
   }
 };
-// Writing MetadataGetter for method: Socket::set_DontFragment
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::set_DontFragment
 // Il2CppName: set_DontFragment
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(bool)>(&Socket::set_DontFragment)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(bool)>(&System::Net::Sockets::Socket::set_DontFragment)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "set_DontFragment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "set_DontFragment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Socket::get_DualMode
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::get_DualMode
 // Il2CppName: get_DualMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Socket::*)()>(&Socket::get_DualMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::get_DualMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "get_DualMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_DualMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Socket::set_DualMode
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::set_DualMode
 // Il2CppName: set_DualMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(bool)>(&Socket::set_DualMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(bool)>(&System::Net::Sockets::Socket::set_DualMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "set_DualMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "set_DualMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Socket::get_IsDualMode
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::get_IsDualMode
 // Il2CppName: get_IsDualMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Socket::*)()>(&Socket::get_IsDualMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::get_IsDualMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "get_IsDualMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_IsDualMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Socket::Send
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Send
 // Il2CppName: Send
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Socket::*)(System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>*, System::Net::Sockets::SocketFlags)>(&Socket::Send)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>*, System::Net::Sockets::SocketFlags)>(&System::Net::Sockets::Socket::Send)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Send", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Send", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Send
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Send
 // Il2CppName: Send
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags)>(&Socket::Send)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags)>(&System::Net::Sockets::Socket::Send)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Send", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Send", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Receive
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Receive
 // Il2CppName: Receive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags)>(&Socket::Receive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags)>(&System::Net::Sockets::Socket::Receive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Receive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Receive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Receive
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Receive
 // Il2CppName: Receive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Socket::*)(System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>*, System::Net::Sockets::SocketFlags)>(&Socket::Receive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>*, System::Net::Sockets::SocketFlags)>(&System::Net::Sockets::Socket::Receive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Receive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Receive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>()});
   }
 };
-// Writing MetadataGetter for method: Socket::IOControl
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::IOControl
 // Il2CppName: IOControl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Socket::*)(System::Net::Sockets::IOControlCode, ::Array<uint8_t>*, ::Array<uint8_t>*)>(&Socket::IOControl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(System::Net::Sockets::IOControlCode, ::Array<uint8_t>*, ::Array<uint8_t>*)>(&System::Net::Sockets::Socket::IOControl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "IOControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::IOControlCode>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "IOControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::IOControlCode>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: Socket::SetIPProtectionLevel
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::SetIPProtectionLevel
 // Il2CppName: SetIPProtectionLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(System::Net::Sockets::IPProtectionLevel)>(&Socket::SetIPProtectionLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(System::Net::Sockets::IPProtectionLevel)>(&System::Net::Sockets::Socket::SetIPProtectionLevel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "SetIPProtectionLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::IPProtectionLevel>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "SetIPProtectionLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::IPProtectionLevel>()});
   }
 };
-// Writing MetadataGetter for method: Socket::BeginSend
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::BeginSend
 // Il2CppName: BeginSend
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, System::AsyncCallback*, ::Il2CppObject*)>(&Socket::BeginSend)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Sockets::Socket::BeginSend)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "BeginSend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "BeginSend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Socket::EndSend
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::EndSend
 // Il2CppName: EndSend
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Socket::*)(System::IAsyncResult*)>(&Socket::EndSend)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(System::IAsyncResult*)>(&System::Net::Sockets::Socket::EndSend)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "EndSend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "EndSend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };
-// Writing MetadataGetter for method: Socket::BeginReceive
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::BeginReceive
 // Il2CppName: BeginReceive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, System::AsyncCallback*, ::Il2CppObject*)>(&Socket::BeginReceive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Sockets::Socket::BeginReceive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "BeginReceive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "BeginReceive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Socket::EndReceive
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::EndReceive
 // Il2CppName: EndReceive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Socket::*)(System::IAsyncResult*)>(&Socket::EndReceive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(System::IAsyncResult*)>(&System::Net::Sockets::Socket::EndReceive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "EndReceive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "EndReceive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };
-// Writing MetadataGetter for method: Socket::get_InternalSyncObject
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::get_InternalSyncObject
 // Il2CppName: get_InternalSyncObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)()>(&Socket::get_InternalSyncObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)()>(&System::Net::Sockets::Socket::get_InternalSyncObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "get_InternalSyncObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_InternalSyncObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Socket::get_CleanedUp
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::get_CleanedUp
 // Il2CppName: get_CleanedUp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Socket::*)()>(&Socket::get_CleanedUp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::get_CleanedUp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "get_CleanedUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_CleanedUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Socket::InitializeSockets
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::InitializeSockets
 // Il2CppName: InitializeSockets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Socket::InitializeSockets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Net::Sockets::Socket::InitializeSockets)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "InitializeSockets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "InitializeSockets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Socket::Dispose
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)()>(&Socket::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Socket::InternalShutdown
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::InternalShutdown
 // Il2CppName: InternalShutdown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(System::Net::Sockets::SocketShutdown)>(&Socket::InternalShutdown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(System::Net::Sockets::SocketShutdown)>(&System::Net::Sockets::Socket::InternalShutdown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "InternalShutdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketShutdown>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "InternalShutdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketShutdown>()});
   }
 };
-// Writing MetadataGetter for method: Socket::New_ctor
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(System::Net::Sockets::AddressFamily, System::Net::Sockets::SocketType, System::Net::Sockets::ProtocolType, System::Net::Sockets::SafeSocketHandle*)>(&Socket::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(System::Net::Sockets::AddressFamily, System::Net::Sockets::SocketType, System::Net::Sockets::ProtocolType, System::Net::Sockets::SafeSocketHandle*)>(&System::Net::Sockets::Socket::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::AddressFamily>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketType>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::ProtocolType>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::AddressFamily>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketType>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::ProtocolType>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(System::Net::Sockets::AddressFamily, System::Net::Sockets::SocketType, System::Net::Sockets::ProtocolType, System::Net::Sockets::SafeSocketHandle*)>(&Socket::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(System::Net::Sockets::AddressFamily, System::Net::Sockets::SocketType, System::Net::Sockets::ProtocolType, System::Net::Sockets::SafeSocketHandle*)>(&System::Net::Sockets::Socket::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::AddressFamily>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketType>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::ProtocolType>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::AddressFamily>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketType>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::ProtocolType>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>()});
   }
 };
-// Writing MetadataGetter for method: Socket::SocketDefaults
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::SocketDefaults
 // Il2CppName: SocketDefaults
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)()>(&Socket::SocketDefaults)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::SocketDefaults)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "SocketDefaults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "SocketDefaults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Socket::Socket_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Socket_internal
 // Il2CppName: Socket_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Socket::*)(System::Net::Sockets::AddressFamily, System::Net::Sockets::SocketType, System::Net::Sockets::ProtocolType, int&)>(&Socket::Socket_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (System::Net::Sockets::Socket::*)(System::Net::Sockets::AddressFamily, System::Net::Sockets::SocketType, System::Net::Sockets::ProtocolType, int&)>(&System::Net::Sockets::Socket::Socket_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Socket_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::AddressFamily>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketType>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::ProtocolType>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Socket_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::AddressFamily>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketType>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::ProtocolType>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::get_Available
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::get_Available
 // Il2CppName: get_Available
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Socket::*)()>(&Socket::get_Available)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::get_Available)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "get_Available", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_Available", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Socket::Available_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Available_internal
 // Il2CppName: Available_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::Sockets::SafeSocketHandle*, int&)>(&Socket::Available_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::Sockets::SafeSocketHandle*, int&)>(&System::Net::Sockets::Socket::Available_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Available_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Available_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Available_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Available_internal
 // Il2CppName: Available_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, int&)>(&Socket::Available_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, int&)>(&System::Net::Sockets::Socket::Available_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Available_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Available_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::set_EnableBroadcast
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::set_EnableBroadcast
 // Il2CppName: set_EnableBroadcast
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(bool)>(&Socket::set_EnableBroadcast)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(bool)>(&System::Net::Sockets::Socket::set_EnableBroadcast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "set_EnableBroadcast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "set_EnableBroadcast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Socket::get_IsBound
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::get_IsBound
 // Il2CppName: get_IsBound
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Socket::*)()>(&Socket::get_IsBound)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::get_IsBound)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "get_IsBound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_IsBound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Socket::get_LocalEndPoint
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::get_LocalEndPoint
 // Il2CppName: get_LocalEndPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::EndPoint* (Socket::*)()>(&Socket::get_LocalEndPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::EndPoint* (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::get_LocalEndPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "get_LocalEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_LocalEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Socket::LocalEndPoint_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::LocalEndPoint_internal
 // Il2CppName: LocalEndPoint_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::SocketAddress* (*)(System::Net::Sockets::SafeSocketHandle*, int, int&)>(&Socket::LocalEndPoint_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::SocketAddress* (*)(System::Net::Sockets::SafeSocketHandle*, int, int&)>(&System::Net::Sockets::Socket::LocalEndPoint_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "LocalEndPoint_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "LocalEndPoint_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::LocalEndPoint_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::LocalEndPoint_internal
 // Il2CppName: LocalEndPoint_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::SocketAddress* (*)(System::IntPtr, int, int&)>(&Socket::LocalEndPoint_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::SocketAddress* (*)(System::IntPtr, int, int&)>(&System::Net::Sockets::Socket::LocalEndPoint_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "LocalEndPoint_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "LocalEndPoint_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::get_Blocking
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::get_Blocking
 // Il2CppName: get_Blocking
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Socket::*)()>(&Socket::get_Blocking)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::get_Blocking)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "get_Blocking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_Blocking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Socket::set_Blocking
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::set_Blocking
 // Il2CppName: set_Blocking
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(bool)>(&Socket::set_Blocking)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(bool)>(&System::Net::Sockets::Socket::set_Blocking)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "set_Blocking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "set_Blocking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Blocking_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Blocking_internal
 // Il2CppName: Blocking_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SafeSocketHandle*, bool, int&)>(&Socket::Blocking_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SafeSocketHandle*, bool, int&)>(&System::Net::Sockets::Socket::Blocking_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Blocking_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Blocking_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Blocking_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Blocking_internal
 // Il2CppName: Blocking_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, bool, int&)>(&Socket::Blocking_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, bool, int&)>(&System::Net::Sockets::Socket::Blocking_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Blocking_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Blocking_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::get_Connected
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::get_Connected
 // Il2CppName: get_Connected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Socket::*)()>(&Socket::get_Connected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::get_Connected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "get_Connected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_Connected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Socket::set_NoDelay
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::set_NoDelay
 // Il2CppName: set_NoDelay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(bool)>(&Socket::set_NoDelay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(bool)>(&System::Net::Sockets::Socket::set_NoDelay)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "set_NoDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "set_NoDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Poll
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Poll
 // Il2CppName: Poll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Socket::*)(int, System::Net::Sockets::SelectMode)>(&Socket::Poll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Sockets::Socket::*)(int, System::Net::Sockets::SelectMode)>(&System::Net::Sockets::Socket::Poll)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Poll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SelectMode>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Poll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SelectMode>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Poll_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Poll_internal
 // Il2CppName: Poll_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Net::Sockets::SafeSocketHandle*, System::Net::Sockets::SelectMode, int, int&)>(&Socket::Poll_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Net::Sockets::SafeSocketHandle*, System::Net::Sockets::SelectMode, int, int&)>(&System::Net::Sockets::Socket::Poll_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Poll_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SelectMode>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Poll_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SelectMode>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Poll_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Poll_internal
 // Il2CppName: Poll_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::Net::Sockets::SelectMode, int, int&)>(&Socket::Poll_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::Net::Sockets::SelectMode, int, int&)>(&System::Net::Sockets::Socket::Poll_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Poll_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SelectMode>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Poll_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SelectMode>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Accept
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Accept
 // Il2CppName: Accept
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::Socket* (Socket::*)()>(&Socket::Accept)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::Socket* (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::Accept)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Accept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Accept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Socket::Accept
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Accept
 // Il2CppName: Accept
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(System::Net::Sockets::Socket*)>(&Socket::Accept)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(System::Net::Sockets::Socket*)>(&System::Net::Sockets::Socket::Accept)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Accept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Accept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>()});
   }
 };
-// Writing MetadataGetter for method: Socket::AcceptAsync
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::AcceptAsync
 // Il2CppName: AcceptAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Socket::*)(System::Net::Sockets::SocketAsyncEventArgs*)>(&Socket::AcceptAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Sockets::Socket::*)(System::Net::Sockets::SocketAsyncEventArgs*)>(&System::Net::Sockets::Socket::AcceptAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "AcceptAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketAsyncEventArgs*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "AcceptAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketAsyncEventArgs*>()});
   }
 };
-// Writing MetadataGetter for method: Socket::BeginAccept
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::BeginAccept
 // Il2CppName: BeginAccept
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Socket::*)(System::AsyncCallback*, ::Il2CppObject*)>(&Socket::BeginAccept)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::Sockets::Socket::*)(System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Sockets::Socket::BeginAccept)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "BeginAccept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "BeginAccept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Socket::EndAccept
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::EndAccept
 // Il2CppName: EndAccept
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::Socket* (Socket::*)(System::IAsyncResult*)>(&Socket::EndAccept)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::Socket* (System::Net::Sockets::Socket::*)(System::IAsyncResult*)>(&System::Net::Sockets::Socket::EndAccept)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "EndAccept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "EndAccept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };
-// Writing MetadataGetter for method: Socket::EndAccept
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::EndAccept
 // Il2CppName: EndAccept
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::Socket* (Socket::*)(::Array<uint8_t>*&, int&, System::IAsyncResult*)>(&Socket::EndAccept)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::Socket* (System::Net::Sockets::Socket::*)(::Array<uint8_t>*&, int&, System::IAsyncResult*)>(&System::Net::Sockets::Socket::EndAccept)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "EndAccept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "EndAccept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Accept_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Accept_internal
 // Il2CppName: Accept_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::SafeSocketHandle* (*)(System::Net::Sockets::SafeSocketHandle*, int&, bool)>(&Socket::Accept_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::SafeSocketHandle* (*)(System::Net::Sockets::SafeSocketHandle*, int&, bool)>(&System::Net::Sockets::Socket::Accept_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Accept_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Accept_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Accept_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Accept_internal
 // Il2CppName: Accept_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, int&, bool)>(&Socket::Accept_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, int&, bool)>(&System::Net::Sockets::Socket::Accept_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Accept_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Accept_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Bind
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Bind
 // Il2CppName: Bind
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(System::Net::EndPoint*)>(&Socket::Bind)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(System::Net::EndPoint*)>(&System::Net::Sockets::Socket::Bind)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Bind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::EndPoint*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Bind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::EndPoint*>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Bind_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Bind_internal
 // Il2CppName: Bind_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SafeSocketHandle*, System::Net::SocketAddress*, int&)>(&Socket::Bind_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SafeSocketHandle*, System::Net::SocketAddress*, int&)>(&System::Net::Sockets::Socket::Bind_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Bind_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::SocketAddress*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Bind_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::SocketAddress*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Bind_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Bind_internal
 // Il2CppName: Bind_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::Net::SocketAddress*, int&)>(&Socket::Bind_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::Net::SocketAddress*, int&)>(&System::Net::Sockets::Socket::Bind_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Bind_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Net::SocketAddress*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Bind_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Net::SocketAddress*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Listen
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Listen
 // Il2CppName: Listen
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(int)>(&Socket::Listen)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(int)>(&System::Net::Sockets::Socket::Listen)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Listen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Listen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Listen_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Listen_internal
 // Il2CppName: Listen_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SafeSocketHandle*, int, int&)>(&Socket::Listen_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SafeSocketHandle*, int, int&)>(&System::Net::Sockets::Socket::Listen_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Listen_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Listen_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Listen_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Listen_internal
 // Il2CppName: Listen_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, int, int&)>(&Socket::Listen_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, int, int&)>(&System::Net::Sockets::Socket::Listen_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Listen_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Listen_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Connect
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Connect
 // Il2CppName: Connect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(System::Net::EndPoint*)>(&Socket::Connect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(System::Net::EndPoint*)>(&System::Net::Sockets::Socket::Connect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::EndPoint*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::EndPoint*>()});
   }
 };
-// Writing MetadataGetter for method: Socket::BeginConnect
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::BeginConnect
 // Il2CppName: BeginConnect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Socket::*)(::Il2CppString*, int, System::AsyncCallback*, ::Il2CppObject*)>(&Socket::BeginConnect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::Sockets::Socket::*)(::Il2CppString*, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Sockets::Socket::BeginConnect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "BeginConnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "BeginConnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Socket::BeginConnect
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::BeginConnect
 // Il2CppName: BeginConnect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Socket::*)(::Array<System::Net::IPAddress*>*, int, System::AsyncCallback*, ::Il2CppObject*)>(&Socket::BeginConnect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::Sockets::Socket::*)(::Array<System::Net::IPAddress*>*, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Sockets::Socket::BeginConnect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "BeginConnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Net::IPAddress*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "BeginConnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Net::IPAddress*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Socket::BeginMConnect
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::BeginMConnect
 // Il2CppName: BeginMConnect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SocketAsyncResult*)>(&Socket::BeginMConnect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SocketAsyncResult*)>(&System::Net::Sockets::Socket::BeginMConnect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "BeginMConnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "BeginMConnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketAsyncResult*>()});
   }
 };
-// Writing MetadataGetter for method: Socket::BeginSConnect
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::BeginSConnect
 // Il2CppName: BeginSConnect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SocketAsyncResult*)>(&Socket::BeginSConnect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SocketAsyncResult*)>(&System::Net::Sockets::Socket::BeginSConnect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "BeginSConnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "BeginSConnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketAsyncResult*>()});
   }
 };
-// Writing MetadataGetter for method: Socket::EndConnect
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::EndConnect
 // Il2CppName: EndConnect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(System::IAsyncResult*)>(&Socket::EndConnect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(System::IAsyncResult*)>(&System::Net::Sockets::Socket::EndConnect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "EndConnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "EndConnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Connect_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Connect_internal
 // Il2CppName: Connect_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SafeSocketHandle*, System::Net::SocketAddress*, int&, bool)>(&Socket::Connect_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SafeSocketHandle*, System::Net::SocketAddress*, int&, bool)>(&System::Net::Sockets::Socket::Connect_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Connect_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::SocketAddress*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Connect_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::SocketAddress*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Connect_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Connect_internal
 // Il2CppName: Connect_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::Net::SocketAddress*, int&, bool)>(&Socket::Connect_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::Net::SocketAddress*, int&, bool)>(&System::Net::Sockets::Socket::Connect_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Connect_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Net::SocketAddress*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Connect_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Net::SocketAddress*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Disconnect
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Disconnect
 // Il2CppName: Disconnect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(bool)>(&Socket::Disconnect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(bool)>(&System::Net::Sockets::Socket::Disconnect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Disconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Disconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Socket::EndDisconnect
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::EndDisconnect
 // Il2CppName: EndDisconnect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(System::IAsyncResult*)>(&Socket::EndDisconnect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(System::IAsyncResult*)>(&System::Net::Sockets::Socket::EndDisconnect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "EndDisconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "EndDisconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Disconnect_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Disconnect_internal
 // Il2CppName: Disconnect_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SafeSocketHandle*, bool, int&)>(&Socket::Disconnect_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SafeSocketHandle*, bool, int&)>(&System::Net::Sockets::Socket::Disconnect_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Disconnect_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Disconnect_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Disconnect_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Disconnect_internal
 // Il2CppName: Disconnect_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, bool, int&)>(&Socket::Disconnect_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, bool, int&)>(&System::Net::Sockets::Socket::Disconnect_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Disconnect_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Disconnect_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Receive
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Receive
 // Il2CppName: Receive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, System::Net::Sockets::SocketError&)>(&Socket::Receive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, System::Net::Sockets::SocketError&)>(&System::Net::Sockets::Socket::Receive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Receive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Receive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Receive
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Receive
 // Il2CppName: Receive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Socket::*)(System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>*, System::Net::Sockets::SocketFlags, System::Net::Sockets::SocketError&)>(&Socket::Receive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>*, System::Net::Sockets::SocketFlags, System::Net::Sockets::SocketError&)>(&System::Net::Sockets::Socket::Receive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Receive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Receive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::BeginReceive
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::BeginReceive
 // Il2CppName: BeginReceive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, System::Net::Sockets::SocketError&, System::AsyncCallback*, ::Il2CppObject*)>(&Socket::BeginReceive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, System::Net::Sockets::SocketError&, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Sockets::Socket::BeginReceive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "BeginReceive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "BeginReceive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Socket::EndReceive
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::EndReceive
 // Il2CppName: EndReceive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Socket::*)(System::IAsyncResult*, System::Net::Sockets::SocketError&)>(&Socket::EndReceive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(System::IAsyncResult*, System::Net::Sockets::SocketError&)>(&System::Net::Sockets::Socket::EndReceive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "EndReceive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "EndReceive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Receive_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Receive_internal
 // Il2CppName: Receive_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::Sockets::SafeSocketHandle*, System::Net::Sockets::Socket::WSABUF*, int, System::Net::Sockets::SocketFlags, int&, bool)>(&Socket::Receive_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::Sockets::SafeSocketHandle*, System::Net::Sockets::Socket::WSABUF*, int, System::Net::Sockets::SocketFlags, int&, bool)>(&System::Net::Sockets::Socket::Receive_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Receive_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket::WSABUF*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Receive_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket::WSABUF*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Receive_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Receive_internal
 // Il2CppName: Receive_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, System::Net::Sockets::Socket::WSABUF*, int, System::Net::Sockets::SocketFlags, int&, bool)>(&Socket::Receive_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, System::Net::Sockets::Socket::WSABUF*, int, System::Net::Sockets::SocketFlags, int&, bool)>(&System::Net::Sockets::Socket::Receive_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Receive_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket::WSABUF*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Receive_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket::WSABUF*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Receive_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Receive_internal
 // Il2CppName: Receive_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::Sockets::SafeSocketHandle*, uint8_t*, int, System::Net::Sockets::SocketFlags, int&, bool)>(&Socket::Receive_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::Sockets::SafeSocketHandle*, uint8_t*, int, System::Net::Sockets::SocketFlags, int&, bool)>(&System::Net::Sockets::Socket::Receive_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Receive_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Receive_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Receive_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Receive_internal
 // Il2CppName: Receive_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, uint8_t*, int, System::Net::Sockets::SocketFlags, int&, bool)>(&Socket::Receive_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, uint8_t*, int, System::Net::Sockets::SocketFlags, int&, bool)>(&System::Net::Sockets::Socket::Receive_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Receive_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Receive_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Socket::ReceiveFrom
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::ReceiveFrom
 // Il2CppName: ReceiveFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, System::Net::EndPoint*&)>(&Socket::ReceiveFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, System::Net::EndPoint*&)>(&System::Net::Sockets::Socket::ReceiveFrom)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "ReceiveFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Net::EndPoint*&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "ReceiveFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Net::EndPoint*&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::ReceiveFrom
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::ReceiveFrom
 // Il2CppName: ReceiveFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, System::Net::EndPoint*&, System::Net::Sockets::SocketError&)>(&Socket::ReceiveFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, System::Net::EndPoint*&, System::Net::Sockets::SocketError&)>(&System::Net::Sockets::Socket::ReceiveFrom)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "ReceiveFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Net::EndPoint*&>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "ReceiveFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Net::EndPoint*&>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::EndReceiveFrom
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::EndReceiveFrom
 // Il2CppName: EndReceiveFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Socket::*)(System::IAsyncResult*, System::Net::EndPoint*&)>(&Socket::EndReceiveFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(System::IAsyncResult*, System::Net::EndPoint*&)>(&System::Net::Sockets::Socket::EndReceiveFrom)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "EndReceiveFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::EndPoint*&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "EndReceiveFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::EndPoint*&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::ReceiveFrom_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::ReceiveFrom_internal
 // Il2CppName: ReceiveFrom_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::Sockets::SafeSocketHandle*, uint8_t*, int, System::Net::Sockets::SocketFlags, System::Net::SocketAddress*&, int&, bool)>(&Socket::ReceiveFrom_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::Sockets::SafeSocketHandle*, uint8_t*, int, System::Net::Sockets::SocketFlags, System::Net::SocketAddress*&, int&, bool)>(&System::Net::Sockets::Socket::ReceiveFrom_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "ReceiveFrom_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Net::SocketAddress*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "ReceiveFrom_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Net::SocketAddress*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Socket::ReceiveFrom_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::ReceiveFrom_internal
 // Il2CppName: ReceiveFrom_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, uint8_t*, int, System::Net::Sockets::SocketFlags, System::Net::SocketAddress*&, int&, bool)>(&Socket::ReceiveFrom_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, uint8_t*, int, System::Net::Sockets::SocketFlags, System::Net::SocketAddress*&, int&, bool)>(&System::Net::Sockets::Socket::ReceiveFrom_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "ReceiveFrom_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Net::SocketAddress*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "ReceiveFrom_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Net::SocketAddress*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Send
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Send
 // Il2CppName: Send
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, System::Net::Sockets::SocketError&)>(&Socket::Send)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, System::Net::Sockets::SocketError&)>(&System::Net::Sockets::Socket::Send)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Send", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Send", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Send
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Send
 // Il2CppName: Send
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Socket::*)(System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>*, System::Net::Sockets::SocketFlags, System::Net::Sockets::SocketError&)>(&Socket::Send)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>*, System::Net::Sockets::SocketFlags, System::Net::Sockets::SocketError&)>(&System::Net::Sockets::Socket::Send)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Send", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Send", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::BeginSend
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::BeginSend
 // Il2CppName: BeginSend
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, System::Net::Sockets::SocketError&, System::AsyncCallback*, ::Il2CppObject*)>(&Socket::BeginSend)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, System::Net::Sockets::SocketError&, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Sockets::Socket::BeginSend)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "BeginSend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "BeginSend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Socket::BeginSendCallback
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::BeginSendCallback
 // Il2CppName: BeginSendCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SocketAsyncResult*, int)>(&Socket::BeginSendCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SocketAsyncResult*, int)>(&System::Net::Sockets::Socket::BeginSendCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "BeginSendCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketAsyncResult*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "BeginSendCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketAsyncResult*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Socket::EndSend
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::EndSend
 // Il2CppName: EndSend
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Socket::*)(System::IAsyncResult*, System::Net::Sockets::SocketError&)>(&Socket::EndSend)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(System::IAsyncResult*, System::Net::Sockets::SocketError&)>(&System::Net::Sockets::Socket::EndSend)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "EndSend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "EndSend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Send_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Send_internal
 // Il2CppName: Send_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::Sockets::SafeSocketHandle*, System::Net::Sockets::Socket::WSABUF*, int, System::Net::Sockets::SocketFlags, int&, bool)>(&Socket::Send_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::Sockets::SafeSocketHandle*, System::Net::Sockets::Socket::WSABUF*, int, System::Net::Sockets::SocketFlags, int&, bool)>(&System::Net::Sockets::Socket::Send_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Send_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket::WSABUF*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Send_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket::WSABUF*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Send_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Send_internal
 // Il2CppName: Send_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, System::Net::Sockets::Socket::WSABUF*, int, System::Net::Sockets::SocketFlags, int&, bool)>(&Socket::Send_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, System::Net::Sockets::Socket::WSABUF*, int, System::Net::Sockets::SocketFlags, int&, bool)>(&System::Net::Sockets::Socket::Send_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Send_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket::WSABUF*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Send_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket::WSABUF*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Send_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Send_internal
 // Il2CppName: Send_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::Sockets::SafeSocketHandle*, uint8_t*, int, System::Net::Sockets::SocketFlags, int&, bool)>(&Socket::Send_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::Sockets::SafeSocketHandle*, uint8_t*, int, System::Net::Sockets::SocketFlags, int&, bool)>(&System::Net::Sockets::Socket::Send_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Send_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Send_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Send_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Send_internal
 // Il2CppName: Send_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, uint8_t*, int, System::Net::Sockets::SocketFlags, int&, bool)>(&Socket::Send_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, uint8_t*, int, System::Net::Sockets::SocketFlags, int&, bool)>(&System::Net::Sockets::Socket::Send_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Send_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Send_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Socket::SendTo
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::SendTo
 // Il2CppName: SendTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, System::Net::EndPoint*)>(&Socket::SendTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, System::Net::EndPoint*)>(&System::Net::Sockets::Socket::SendTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "SendTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Net::EndPoint*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "SendTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Net::EndPoint*>()});
   }
 };
-// Writing MetadataGetter for method: Socket::EndSendTo
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::EndSendTo
 // Il2CppName: EndSendTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Socket::*)(System::IAsyncResult*)>(&Socket::EndSendTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(System::IAsyncResult*)>(&System::Net::Sockets::Socket::EndSendTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "EndSendTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "EndSendTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };
-// Writing MetadataGetter for method: Socket::SendTo_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::SendTo_internal
 // Il2CppName: SendTo_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::Sockets::SafeSocketHandle*, uint8_t*, int, System::Net::Sockets::SocketFlags, System::Net::SocketAddress*, int&, bool)>(&Socket::SendTo_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::Sockets::SafeSocketHandle*, uint8_t*, int, System::Net::Sockets::SocketFlags, System::Net::SocketAddress*, int&, bool)>(&System::Net::Sockets::Socket::SendTo_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "SendTo_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Net::SocketAddress*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "SendTo_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Net::SocketAddress*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Socket::SendTo_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::SendTo_internal
 // Il2CppName: SendTo_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, uint8_t*, int, System::Net::Sockets::SocketFlags, System::Net::SocketAddress*, int&, bool)>(&Socket::SendTo_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, uint8_t*, int, System::Net::Sockets::SocketFlags, System::Net::SocketAddress*, int&, bool)>(&System::Net::Sockets::Socket::SendTo_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "SendTo_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Net::SocketAddress*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "SendTo_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Net::SocketAddress*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Socket::GetSocketOption
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::GetSocketOption
 // Il2CppName: GetSocketOption
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Socket::*)(System::Net::Sockets::SocketOptionLevel, System::Net::Sockets::SocketOptionName)>(&Socket::GetSocketOption)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Net::Sockets::Socket::*)(System::Net::Sockets::SocketOptionLevel, System::Net::Sockets::SocketOptionName)>(&System::Net::Sockets::Socket::GetSocketOption)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "GetSocketOption", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOptionLevel>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOptionName>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "GetSocketOption", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOptionLevel>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOptionName>()});
   }
 };
-// Writing MetadataGetter for method: Socket::GetSocketOption_obj_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::GetSocketOption_obj_internal
 // Il2CppName: GetSocketOption_obj_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SafeSocketHandle*, System::Net::Sockets::SocketOptionLevel, System::Net::Sockets::SocketOptionName, ::Il2CppObject*&, int&)>(&Socket::GetSocketOption_obj_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SafeSocketHandle*, System::Net::Sockets::SocketOptionLevel, System::Net::Sockets::SocketOptionName, ::Il2CppObject*&, int&)>(&System::Net::Sockets::Socket::GetSocketOption_obj_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "GetSocketOption_obj_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOptionLevel>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOptionName>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "GetSocketOption_obj_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOptionLevel>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOptionName>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::GetSocketOption_obj_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::GetSocketOption_obj_internal
 // Il2CppName: GetSocketOption_obj_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::Net::Sockets::SocketOptionLevel, System::Net::Sockets::SocketOptionName, ::Il2CppObject*&, int&)>(&Socket::GetSocketOption_obj_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::Net::Sockets::SocketOptionLevel, System::Net::Sockets::SocketOptionName, ::Il2CppObject*&, int&)>(&System::Net::Sockets::Socket::GetSocketOption_obj_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "GetSocketOption_obj_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOptionLevel>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOptionName>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "GetSocketOption_obj_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOptionLevel>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOptionName>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::SetSocketOption
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::SetSocketOption
 // Il2CppName: SetSocketOption
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(System::Net::Sockets::SocketOptionLevel, System::Net::Sockets::SocketOptionName, bool)>(&Socket::SetSocketOption)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(System::Net::Sockets::SocketOptionLevel, System::Net::Sockets::SocketOptionName, bool)>(&System::Net::Sockets::Socket::SetSocketOption)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "SetSocketOption", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOptionLevel>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOptionName>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "SetSocketOption", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOptionLevel>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOptionName>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Socket::SetSocketOption
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::SetSocketOption
 // Il2CppName: SetSocketOption
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(System::Net::Sockets::SocketOptionLevel, System::Net::Sockets::SocketOptionName, int)>(&Socket::SetSocketOption)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(System::Net::Sockets::SocketOptionLevel, System::Net::Sockets::SocketOptionName, int)>(&System::Net::Sockets::Socket::SetSocketOption)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "SetSocketOption", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOptionLevel>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOptionName>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "SetSocketOption", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOptionLevel>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOptionName>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Socket::SetSocketOption_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::SetSocketOption_internal
 // Il2CppName: SetSocketOption_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SafeSocketHandle*, System::Net::Sockets::SocketOptionLevel, System::Net::Sockets::SocketOptionName, ::Il2CppObject*, ::Array<uint8_t>*, int, int&)>(&Socket::SetSocketOption_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SafeSocketHandle*, System::Net::Sockets::SocketOptionLevel, System::Net::Sockets::SocketOptionName, ::Il2CppObject*, ::Array<uint8_t>*, int, int&)>(&System::Net::Sockets::Socket::SetSocketOption_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "SetSocketOption_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOptionLevel>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOptionName>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "SetSocketOption_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOptionLevel>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOptionName>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::SetSocketOption_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::SetSocketOption_internal
 // Il2CppName: SetSocketOption_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::Net::Sockets::SocketOptionLevel, System::Net::Sockets::SocketOptionName, ::Il2CppObject*, ::Array<uint8_t>*, int, int&)>(&Socket::SetSocketOption_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::Net::Sockets::SocketOptionLevel, System::Net::Sockets::SocketOptionName, ::Il2CppObject*, ::Array<uint8_t>*, int, int&)>(&System::Net::Sockets::Socket::SetSocketOption_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "SetSocketOption_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOptionLevel>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOptionName>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "SetSocketOption_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOptionLevel>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOptionName>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::IOControl
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::IOControl
 // Il2CppName: IOControl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Socket::*)(int, ::Array<uint8_t>*, ::Array<uint8_t>*)>(&Socket::IOControl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(int, ::Array<uint8_t>*, ::Array<uint8_t>*)>(&System::Net::Sockets::Socket::IOControl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "IOControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "IOControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: Socket::IOControl_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::IOControl_internal
 // Il2CppName: IOControl_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::Sockets::SafeSocketHandle*, int, ::Array<uint8_t>*, ::Array<uint8_t>*, int&)>(&Socket::IOControl_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::Sockets::SafeSocketHandle*, int, ::Array<uint8_t>*, ::Array<uint8_t>*, int&)>(&System::Net::Sockets::Socket::IOControl_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "IOControl_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "IOControl_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::IOControl_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::IOControl_internal
 // Il2CppName: IOControl_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, int, ::Array<uint8_t>*, ::Array<uint8_t>*, int&)>(&Socket::IOControl_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, int, ::Array<uint8_t>*, ::Array<uint8_t>*, int&)>(&System::Net::Sockets::Socket::IOControl_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "IOControl_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "IOControl_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Close
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Close
 // Il2CppName: Close
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)()>(&Socket::Close)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::Close)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Socket::Close
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Close
 // Il2CppName: Close
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(int)>(&Socket::Close)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(int)>(&System::Net::Sockets::Socket::Close)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Close_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Close_internal
 // Il2CppName: Close_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, int&)>(&Socket::Close_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, int&)>(&System::Net::Sockets::Socket::Close_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Close_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Close_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Shutdown
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Shutdown
 // Il2CppName: Shutdown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(System::Net::Sockets::SocketShutdown)>(&Socket::Shutdown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(System::Net::Sockets::SocketShutdown)>(&System::Net::Sockets::Socket::Shutdown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Shutdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketShutdown>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Shutdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketShutdown>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Shutdown_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Shutdown_internal
 // Il2CppName: Shutdown_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SafeSocketHandle*, System::Net::Sockets::SocketShutdown, int&)>(&Socket::Shutdown_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SafeSocketHandle*, System::Net::Sockets::SocketShutdown, int&)>(&System::Net::Sockets::Socket::Shutdown_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Shutdown_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketShutdown>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Shutdown_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SafeSocketHandle*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketShutdown>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Shutdown_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Shutdown_internal
 // Il2CppName: Shutdown_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::Net::Sockets::SocketShutdown, int&)>(&Socket::Shutdown_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::Net::Sockets::SocketShutdown, int&)>(&System::Net::Sockets::Socket::Shutdown_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Shutdown_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketShutdown>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Shutdown_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketShutdown>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Dispose
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(bool)>(&Socket::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(bool)>(&System::Net::Sockets::Socket::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Socket::Linger
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Linger
 // Il2CppName: Linger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(System::IntPtr)>(&Socket::Linger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(System::IntPtr)>(&System::Net::Sockets::Socket::Linger)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Linger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Linger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: Socket::ThrowIfDisposedAndClosed
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::ThrowIfDisposedAndClosed
 // Il2CppName: ThrowIfDisposedAndClosed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)()>(&Socket::ThrowIfDisposedAndClosed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::ThrowIfDisposedAndClosed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "ThrowIfDisposedAndClosed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "ThrowIfDisposedAndClosed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Socket::ThrowIfBufferNull
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::ThrowIfBufferNull
 // Il2CppName: ThrowIfBufferNull
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(::Array<uint8_t>*)>(&Socket::ThrowIfBufferNull)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(::Array<uint8_t>*)>(&System::Net::Sockets::Socket::ThrowIfBufferNull)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "ThrowIfBufferNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "ThrowIfBufferNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: Socket::ThrowIfBufferOutOfRange
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::ThrowIfBufferOutOfRange
 // Il2CppName: ThrowIfBufferOutOfRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(::Array<uint8_t>*, int, int)>(&Socket::ThrowIfBufferOutOfRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int)>(&System::Net::Sockets::Socket::ThrowIfBufferOutOfRange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "ThrowIfBufferOutOfRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "ThrowIfBufferOutOfRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Socket::ThrowIfUdp
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::ThrowIfUdp
 // Il2CppName: ThrowIfUdp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)()>(&Socket::ThrowIfUdp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::ThrowIfUdp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "ThrowIfUdp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "ThrowIfUdp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Socket::ValidateEndIAsyncResult
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::ValidateEndIAsyncResult
 // Il2CppName: ValidateEndIAsyncResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::SocketAsyncResult* (Socket::*)(System::IAsyncResult*, ::Il2CppString*, ::Il2CppString*)>(&Socket::ValidateEndIAsyncResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::SocketAsyncResult* (System::Net::Sockets::Socket::*)(System::IAsyncResult*, ::Il2CppString*, ::Il2CppString*)>(&System::Net::Sockets::Socket::ValidateEndIAsyncResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "ValidateEndIAsyncResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "ValidateEndIAsyncResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Socket::QueueIOSelectorJob
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::QueueIOSelectorJob
 // Il2CppName: QueueIOSelectorJob
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(System::Threading::SemaphoreSlim*, System::IntPtr, System::IOSelectorJob*)>(&Socket::QueueIOSelectorJob)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(System::Threading::SemaphoreSlim*, System::IntPtr, System::IOSelectorJob*)>(&System::Net::Sockets::Socket::QueueIOSelectorJob)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "QueueIOSelectorJob", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::SemaphoreSlim*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IOSelectorJob*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "QueueIOSelectorJob", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::SemaphoreSlim*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IOSelectorJob*>()});
   }
 };
-// Writing MetadataGetter for method: Socket::InitSocketAsyncEventArgs
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::InitSocketAsyncEventArgs
 // Il2CppName: InitSocketAsyncEventArgs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)(System::Net::Sockets::SocketAsyncEventArgs*, System::AsyncCallback*, ::Il2CppObject*, System::Net::Sockets::SocketOperation)>(&Socket::InitSocketAsyncEventArgs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(System::Net::Sockets::SocketAsyncEventArgs*, System::AsyncCallback*, ::Il2CppObject*, System::Net::Sockets::SocketOperation)>(&System::Net::Sockets::Socket::InitSocketAsyncEventArgs)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "InitSocketAsyncEventArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketAsyncEventArgs*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOperation>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "InitSocketAsyncEventArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketAsyncEventArgs*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOperation>()});
   }
 };
-// Writing MetadataGetter for method: Socket::SocketOperationToSocketAsyncOperation
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::SocketOperationToSocketAsyncOperation
 // Il2CppName: SocketOperationToSocketAsyncOperation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::SocketAsyncOperation (Socket::*)(System::Net::Sockets::SocketOperation)>(&Socket::SocketOperationToSocketAsyncOperation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::SocketAsyncOperation (System::Net::Sockets::Socket::*)(System::Net::Sockets::SocketOperation)>(&System::Net::Sockets::Socket::SocketOperationToSocketAsyncOperation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "SocketOperationToSocketAsyncOperation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOperation>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "SocketOperationToSocketAsyncOperation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketOperation>()});
   }
 };
-// Writing MetadataGetter for method: Socket::RemapIPEndPoint
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::RemapIPEndPoint
 // Il2CppName: RemapIPEndPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPEndPoint* (Socket::*)(System::Net::IPEndPoint*)>(&Socket::RemapIPEndPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPEndPoint* (System::Net::Sockets::Socket::*)(System::Net::IPEndPoint*)>(&System::Net::Sockets::Socket::RemapIPEndPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "RemapIPEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "RemapIPEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
   }
 };
-// Writing MetadataGetter for method: Socket::cancel_blocking_socket_operation
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::cancel_blocking_socket_operation
 // Il2CppName: cancel_blocking_socket_operation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Thread*)>(&Socket::cancel_blocking_socket_operation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Thread*)>(&System::Net::Sockets::Socket::cancel_blocking_socket_operation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "cancel_blocking_socket_operation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Thread*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "cancel_blocking_socket_operation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Thread*>()});
   }
 };
-// Writing MetadataGetter for method: Socket::get_FamilyHint
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::get_FamilyHint
 // Il2CppName: get_FamilyHint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&Socket::get_FamilyHint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&System::Net::Sockets::Socket::get_FamilyHint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "get_FamilyHint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_FamilyHint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Socket::IsProtocolSupported_internal
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::IsProtocolSupported_internal
 // Il2CppName: IsProtocolSupported_internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Net::NetworkInformation::NetworkInterfaceComponent)>(&Socket::IsProtocolSupported_internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Net::NetworkInformation::NetworkInterfaceComponent)>(&System::Net::Sockets::Socket::IsProtocolSupported_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "IsProtocolSupported_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::NetworkInterfaceComponent>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "IsProtocolSupported_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::NetworkInterfaceComponent>()});
   }
 };
-// Writing MetadataGetter for method: Socket::IsProtocolSupported
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::IsProtocolSupported
 // Il2CppName: IsProtocolSupported
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Net::NetworkInformation::NetworkInterfaceComponent)>(&Socket::IsProtocolSupported)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Net::NetworkInformation::NetworkInterfaceComponent)>(&System::Net::Sockets::Socket::IsProtocolSupported)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "IsProtocolSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::NetworkInterfaceComponent>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "IsProtocolSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::NetworkInterfaceComponent>()});
   }
 };
-// Writing MetadataGetter for method: Socket::_cctor
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Socket::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Net::Sockets::Socket::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Socket::Finalize
+// Writing MetadataGetter for method: System::Net::Sockets::Socket::Finalize
 // Il2CppName: Finalize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Socket::*)()>(&Socket::Finalize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::Finalize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Socket*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

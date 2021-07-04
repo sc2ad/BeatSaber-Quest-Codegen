@@ -166,105 +166,105 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(InteractionTarget) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTarget*, "RootMotion.FinalIK", "InteractionTarget");
-// Writing MetadataGetter for method: InteractionTarget::OpenUserManual
+// Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTarget::OpenUserManual
 // Il2CppName: OpenUserManual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionTarget::*)()>(&InteractionTarget::OpenUserManual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionTarget::*)()>(&RootMotion::FinalIK::InteractionTarget::OpenUserManual)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InteractionTarget*), "OpenUserManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionTarget*), "OpenUserManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InteractionTarget::OpenScriptReference
+// Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTarget::OpenScriptReference
 // Il2CppName: OpenScriptReference
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionTarget::*)()>(&InteractionTarget::OpenScriptReference)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionTarget::*)()>(&RootMotion::FinalIK::InteractionTarget::OpenScriptReference)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InteractionTarget*), "OpenScriptReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionTarget*), "OpenScriptReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InteractionTarget::OpenTutorial1
+// Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTarget::OpenTutorial1
 // Il2CppName: OpenTutorial1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionTarget::*)()>(&InteractionTarget::OpenTutorial1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionTarget::*)()>(&RootMotion::FinalIK::InteractionTarget::OpenTutorial1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InteractionTarget*), "OpenTutorial1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionTarget*), "OpenTutorial1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InteractionTarget::OpenTutorial2
+// Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTarget::OpenTutorial2
 // Il2CppName: OpenTutorial2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionTarget::*)()>(&InteractionTarget::OpenTutorial2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionTarget::*)()>(&RootMotion::FinalIK::InteractionTarget::OpenTutorial2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InteractionTarget*), "OpenTutorial2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionTarget*), "OpenTutorial2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InteractionTarget::OpenTutorial3
+// Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTarget::OpenTutorial3
 // Il2CppName: OpenTutorial3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionTarget::*)()>(&InteractionTarget::OpenTutorial3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionTarget::*)()>(&RootMotion::FinalIK::InteractionTarget::OpenTutorial3)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InteractionTarget*), "OpenTutorial3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionTarget*), "OpenTutorial3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InteractionTarget::OpenTutorial4
+// Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTarget::OpenTutorial4
 // Il2CppName: OpenTutorial4
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionTarget::*)()>(&InteractionTarget::OpenTutorial4)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionTarget::*)()>(&RootMotion::FinalIK::InteractionTarget::OpenTutorial4)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InteractionTarget*), "OpenTutorial4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionTarget*), "OpenTutorial4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InteractionTarget::SupportGroup
+// Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTarget::SupportGroup
 // Il2CppName: SupportGroup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionTarget::*)()>(&InteractionTarget::SupportGroup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionTarget::*)()>(&RootMotion::FinalIK::InteractionTarget::SupportGroup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InteractionTarget*), "SupportGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionTarget*), "SupportGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InteractionTarget::ASThread
+// Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTarget::ASThread
 // Il2CppName: ASThread
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionTarget::*)()>(&InteractionTarget::ASThread)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionTarget::*)()>(&RootMotion::FinalIK::InteractionTarget::ASThread)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InteractionTarget*), "ASThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionTarget*), "ASThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InteractionTarget::GetValue
+// Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTarget::GetValue
 // Il2CppName: GetValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (InteractionTarget::*)(RootMotion::FinalIK::InteractionObject::WeightCurve::Type)>(&InteractionTarget::GetValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RootMotion::FinalIK::InteractionTarget::*)(RootMotion::FinalIK::InteractionObject::WeightCurve::Type)>(&RootMotion::FinalIK::InteractionTarget::GetValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InteractionTarget*), "GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::InteractionObject::WeightCurve::Type>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionTarget*), "GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::InteractionObject::WeightCurve::Type>()});
   }
 };
-// Writing MetadataGetter for method: InteractionTarget::ResetRotation
+// Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTarget::ResetRotation
 // Il2CppName: ResetRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionTarget::*)()>(&InteractionTarget::ResetRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionTarget::*)()>(&RootMotion::FinalIK::InteractionTarget::ResetRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InteractionTarget*), "ResetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionTarget*), "ResetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InteractionTarget::RotateTo
+// Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTarget::RotateTo
 // Il2CppName: RotateTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionTarget::*)(UnityEngine::Vector3)>(&InteractionTarget::RotateTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionTarget::*)(UnityEngine::Vector3)>(&RootMotion::FinalIK::InteractionTarget::RotateTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InteractionTarget*), "RotateTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionTarget*), "RotateTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: InteractionTarget::New_ctor
+// Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTarget::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionTarget::*)()>(&InteractionTarget::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionTarget::*)()>(&RootMotion::FinalIK::InteractionTarget::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InteractionTarget*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionTarget*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionTarget::*)()>(&InteractionTarget::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionTarget::*)()>(&RootMotion::FinalIK::InteractionTarget::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InteractionTarget*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionTarget*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

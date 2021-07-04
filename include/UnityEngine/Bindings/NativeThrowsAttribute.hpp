@@ -53,25 +53,25 @@ namespace UnityEngine::Bindings {
   static_assert(sizeof(NativeThrowsAttribute) == 0x11);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeThrowsAttribute*, "UnityEngine.Bindings", "NativeThrowsAttribute");
-// Writing MetadataGetter for method: NativeThrowsAttribute::set_ThrowsException
+// Writing MetadataGetter for method: UnityEngine::Bindings::NativeThrowsAttribute::set_ThrowsException
 // Il2CppName: set_ThrowsException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeThrowsAttribute::*)(bool)>(&NativeThrowsAttribute::set_ThrowsException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeThrowsAttribute::*)(bool)>(&UnityEngine::Bindings::NativeThrowsAttribute::set_ThrowsException)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NativeThrowsAttribute*), "set_ThrowsException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeThrowsAttribute*), "set_ThrowsException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: NativeThrowsAttribute::New_ctor
+// Writing MetadataGetter for method: UnityEngine::Bindings::NativeThrowsAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeThrowsAttribute::*)()>(&NativeThrowsAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeThrowsAttribute::*)()>(&UnityEngine::Bindings::NativeThrowsAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NativeThrowsAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeThrowsAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeThrowsAttribute::*)()>(&NativeThrowsAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeThrowsAttribute::*)()>(&UnityEngine::Bindings::NativeThrowsAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NativeThrowsAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeThrowsAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

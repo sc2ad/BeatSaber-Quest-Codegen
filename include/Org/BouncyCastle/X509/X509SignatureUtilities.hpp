@@ -46,27 +46,27 @@ namespace Org::BouncyCastle::X509 {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509SignatureUtilities*, "Org.BouncyCastle.X509", "X509SignatureUtilities");
-// Writing MetadataGetter for method: X509SignatureUtilities::GetSignatureName
+// Writing MetadataGetter for method: Org::BouncyCastle::X509::X509SignatureUtilities::GetSignatureName
 // Il2CppName: GetSignatureName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(&X509SignatureUtilities::GetSignatureName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(&Org::BouncyCastle::X509::X509SignatureUtilities::GetSignatureName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509SignatureUtilities*), "GetSignatureName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509SignatureUtilities*), "GetSignatureName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*>()});
   }
 };
-// Writing MetadataGetter for method: X509SignatureUtilities::GetDigestAlgName
+// Writing MetadataGetter for method: Org::BouncyCastle::X509::X509SignatureUtilities::GetDigestAlgName
 // Il2CppName: GetDigestAlgName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&X509SignatureUtilities::GetDigestAlgName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&Org::BouncyCastle::X509::X509SignatureUtilities::GetDigestAlgName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509SignatureUtilities*), "GetDigestAlgName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509SignatureUtilities*), "GetDigestAlgName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>()});
   }
 };
-// Writing MetadataGetter for method: X509SignatureUtilities::_cctor
+// Writing MetadataGetter for method: Org::BouncyCastle::X509::X509SignatureUtilities::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&X509SignatureUtilities::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::X509::X509SignatureUtilities::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509SignatureUtilities*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509SignatureUtilities*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

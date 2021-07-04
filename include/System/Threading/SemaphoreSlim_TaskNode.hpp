@@ -61,33 +61,33 @@ namespace System::Threading {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SemaphoreSlim::TaskNode*, "System.Threading", "SemaphoreSlim/TaskNode");
-// Writing MetadataGetter for method: SemaphoreSlim::TaskNode::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem
+// Writing MetadataGetter for method: System::Threading::SemaphoreSlim::TaskNode::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem
 // Il2CppName: System.Threading.IThreadPoolWorkItem.ExecuteWorkItem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SemaphoreSlim::TaskNode::*)()>(&SemaphoreSlim::TaskNode::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::SemaphoreSlim::TaskNode::*)()>(&System::Threading::SemaphoreSlim::TaskNode::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim::TaskNode*), "System.Threading.IThreadPoolWorkItem.ExecuteWorkItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::SemaphoreSlim::TaskNode*), "System.Threading.IThreadPoolWorkItem.ExecuteWorkItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SemaphoreSlim::TaskNode::System_Threading_IThreadPoolWorkItem_MarkAborted
+// Writing MetadataGetter for method: System::Threading::SemaphoreSlim::TaskNode::System_Threading_IThreadPoolWorkItem_MarkAborted
 // Il2CppName: System.Threading.IThreadPoolWorkItem.MarkAborted
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SemaphoreSlim::TaskNode::*)(System::Threading::ThreadAbortException*)>(&SemaphoreSlim::TaskNode::System_Threading_IThreadPoolWorkItem_MarkAborted)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::SemaphoreSlim::TaskNode::*)(System::Threading::ThreadAbortException*)>(&System::Threading::SemaphoreSlim::TaskNode::System_Threading_IThreadPoolWorkItem_MarkAborted)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim::TaskNode*), "System.Threading.IThreadPoolWorkItem.MarkAborted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadAbortException*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::SemaphoreSlim::TaskNode*), "System.Threading.IThreadPoolWorkItem.MarkAborted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadAbortException*>()});
   }
 };
-// Writing MetadataGetter for method: SemaphoreSlim::TaskNode::New_ctor
+// Writing MetadataGetter for method: System::Threading::SemaphoreSlim::TaskNode::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SemaphoreSlim::TaskNode::*)()>(&SemaphoreSlim::TaskNode::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::SemaphoreSlim::TaskNode::*)()>(&System::Threading::SemaphoreSlim::TaskNode::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim::TaskNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::SemaphoreSlim::TaskNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SemaphoreSlim::TaskNode::*)()>(&SemaphoreSlim::TaskNode::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::SemaphoreSlim::TaskNode::*)()>(&System::Threading::SemaphoreSlim::TaskNode::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SemaphoreSlim::TaskNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::SemaphoreSlim::TaskNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -70,33 +70,33 @@ namespace UnityEngine::ProBuilder {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshUtility::$$c*, "UnityEngine.ProBuilder", "MeshUtility/<>c");
-// Writing MetadataGetter for method: MeshUtility::$$c::_cctor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::$$c::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&MeshUtility::$$c::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::ProBuilder::MeshUtility::$$c::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MeshUtility::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshUtility::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MeshUtility::$$c::$CollapseSharedVertices$b__10_0
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::$$c::$CollapseSharedVertices$b__10_0
 // Il2CppName: <CollapseSharedVertices>b__10_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Vertex*>* (MeshUtility::$$c::*)(System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Vertex*, int>*)>(&MeshUtility::$$c::$CollapseSharedVertices$b__10_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Vertex*>* (UnityEngine::ProBuilder::MeshUtility::$$c::*)(System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Vertex*, int>*)>(&UnityEngine::ProBuilder::MeshUtility::$$c::$CollapseSharedVertices$b__10_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MeshUtility::$$c*), "<CollapseSharedVertices>b__10_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Vertex*, int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshUtility::$$c*), "<CollapseSharedVertices>b__10_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Vertex*, int>*>()});
   }
 };
-// Writing MetadataGetter for method: MeshUtility::$$c::New_ctor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::$$c::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MeshUtility::$$c::*)()>(&MeshUtility::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::MeshUtility::$$c::*)()>(&UnityEngine::ProBuilder::MeshUtility::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MeshUtility::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshUtility::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MeshUtility::$$c::*)()>(&MeshUtility::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::MeshUtility::$$c::*)()>(&UnityEngine::ProBuilder::MeshUtility::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MeshUtility::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshUtility::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -124,191 +124,191 @@ namespace LiteNetLib {
   static_assert(sizeof(NetPacket) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPacket*, "LiteNetLib", "NetPacket");
-// Writing MetadataGetter for method: NetPacket::get_Property
+// Writing MetadataGetter for method: LiteNetLib::NetPacket::get_Property
 // Il2CppName: get_Property
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::PacketProperty (NetPacket::*)()>(&NetPacket::get_Property)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::PacketProperty (LiteNetLib::NetPacket::*)()>(&LiteNetLib::NetPacket::get_Property)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetPacket*), "get_Property", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacket*), "get_Property", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetPacket::set_Property
+// Writing MetadataGetter for method: LiteNetLib::NetPacket::set_Property
 // Il2CppName: set_Property
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetPacket::*)(LiteNetLib::PacketProperty)>(&NetPacket::set_Property)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPacket::*)(LiteNetLib::PacketProperty)>(&LiteNetLib::NetPacket::set_Property)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetPacket*), "set_Property", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::PacketProperty>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacket*), "set_Property", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::PacketProperty>()});
   }
 };
-// Writing MetadataGetter for method: NetPacket::get_ConnectionNumber
+// Writing MetadataGetter for method: LiteNetLib::NetPacket::get_ConnectionNumber
 // Il2CppName: get_ConnectionNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (NetPacket::*)()>(&NetPacket::get_ConnectionNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (LiteNetLib::NetPacket::*)()>(&LiteNetLib::NetPacket::get_ConnectionNumber)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetPacket*), "get_ConnectionNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacket*), "get_ConnectionNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetPacket::set_ConnectionNumber
+// Writing MetadataGetter for method: LiteNetLib::NetPacket::set_ConnectionNumber
 // Il2CppName: set_ConnectionNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetPacket::*)(uint8_t)>(&NetPacket::set_ConnectionNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPacket::*)(uint8_t)>(&LiteNetLib::NetPacket::set_ConnectionNumber)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetPacket*), "set_ConnectionNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacket*), "set_ConnectionNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
   }
 };
-// Writing MetadataGetter for method: NetPacket::get_Sequence
+// Writing MetadataGetter for method: LiteNetLib::NetPacket::get_Sequence
 // Il2CppName: get_Sequence
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (NetPacket::*)()>(&NetPacket::get_Sequence)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (LiteNetLib::NetPacket::*)()>(&LiteNetLib::NetPacket::get_Sequence)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetPacket*), "get_Sequence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacket*), "get_Sequence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetPacket::set_Sequence
+// Writing MetadataGetter for method: LiteNetLib::NetPacket::set_Sequence
 // Il2CppName: set_Sequence
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetPacket::*)(uint16_t)>(&NetPacket::set_Sequence)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPacket::*)(uint16_t)>(&LiteNetLib::NetPacket::set_Sequence)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetPacket*), "set_Sequence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacket*), "set_Sequence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t>()});
   }
 };
-// Writing MetadataGetter for method: NetPacket::get_IsFragmented
+// Writing MetadataGetter for method: LiteNetLib::NetPacket::get_IsFragmented
 // Il2CppName: get_IsFragmented
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetPacket::*)()>(&NetPacket::get_IsFragmented)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::NetPacket::*)()>(&LiteNetLib::NetPacket::get_IsFragmented)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetPacket*), "get_IsFragmented", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacket*), "get_IsFragmented", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetPacket::MarkFragmented
+// Writing MetadataGetter for method: LiteNetLib::NetPacket::MarkFragmented
 // Il2CppName: MarkFragmented
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetPacket::*)()>(&NetPacket::MarkFragmented)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPacket::*)()>(&LiteNetLib::NetPacket::MarkFragmented)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetPacket*), "MarkFragmented", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacket*), "MarkFragmented", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetPacket::get_ChannelId
+// Writing MetadataGetter for method: LiteNetLib::NetPacket::get_ChannelId
 // Il2CppName: get_ChannelId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (NetPacket::*)()>(&NetPacket::get_ChannelId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (LiteNetLib::NetPacket::*)()>(&LiteNetLib::NetPacket::get_ChannelId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetPacket*), "get_ChannelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacket*), "get_ChannelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetPacket::set_ChannelId
+// Writing MetadataGetter for method: LiteNetLib::NetPacket::set_ChannelId
 // Il2CppName: set_ChannelId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetPacket::*)(uint8_t)>(&NetPacket::set_ChannelId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPacket::*)(uint8_t)>(&LiteNetLib::NetPacket::set_ChannelId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetPacket*), "set_ChannelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacket*), "set_ChannelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
   }
 };
-// Writing MetadataGetter for method: NetPacket::get_FragmentId
+// Writing MetadataGetter for method: LiteNetLib::NetPacket::get_FragmentId
 // Il2CppName: get_FragmentId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (NetPacket::*)()>(&NetPacket::get_FragmentId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (LiteNetLib::NetPacket::*)()>(&LiteNetLib::NetPacket::get_FragmentId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetPacket*), "get_FragmentId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacket*), "get_FragmentId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetPacket::set_FragmentId
+// Writing MetadataGetter for method: LiteNetLib::NetPacket::set_FragmentId
 // Il2CppName: set_FragmentId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetPacket::*)(uint16_t)>(&NetPacket::set_FragmentId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPacket::*)(uint16_t)>(&LiteNetLib::NetPacket::set_FragmentId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetPacket*), "set_FragmentId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacket*), "set_FragmentId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t>()});
   }
 };
-// Writing MetadataGetter for method: NetPacket::get_FragmentPart
+// Writing MetadataGetter for method: LiteNetLib::NetPacket::get_FragmentPart
 // Il2CppName: get_FragmentPart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (NetPacket::*)()>(&NetPacket::get_FragmentPart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (LiteNetLib::NetPacket::*)()>(&LiteNetLib::NetPacket::get_FragmentPart)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetPacket*), "get_FragmentPart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacket*), "get_FragmentPart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetPacket::set_FragmentPart
+// Writing MetadataGetter for method: LiteNetLib::NetPacket::set_FragmentPart
 // Il2CppName: set_FragmentPart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetPacket::*)(uint16_t)>(&NetPacket::set_FragmentPart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPacket::*)(uint16_t)>(&LiteNetLib::NetPacket::set_FragmentPart)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetPacket*), "set_FragmentPart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacket*), "set_FragmentPart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t>()});
   }
 };
-// Writing MetadataGetter for method: NetPacket::get_FragmentsTotal
+// Writing MetadataGetter for method: LiteNetLib::NetPacket::get_FragmentsTotal
 // Il2CppName: get_FragmentsTotal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (NetPacket::*)()>(&NetPacket::get_FragmentsTotal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (LiteNetLib::NetPacket::*)()>(&LiteNetLib::NetPacket::get_FragmentsTotal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetPacket*), "get_FragmentsTotal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacket*), "get_FragmentsTotal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetPacket::set_FragmentsTotal
+// Writing MetadataGetter for method: LiteNetLib::NetPacket::set_FragmentsTotal
 // Il2CppName: set_FragmentsTotal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetPacket::*)(uint16_t)>(&NetPacket::set_FragmentsTotal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPacket::*)(uint16_t)>(&LiteNetLib::NetPacket::set_FragmentsTotal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetPacket*), "set_FragmentsTotal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacket*), "set_FragmentsTotal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t>()});
   }
 };
-// Writing MetadataGetter for method: NetPacket::New_ctor
+// Writing MetadataGetter for method: LiteNetLib::NetPacket::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetPacket::*)(int)>(&NetPacket::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPacket::*)(int)>(&LiteNetLib::NetPacket::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetPacket::*)(int)>(&NetPacket::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPacket::*)(int)>(&LiteNetLib::NetPacket::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: NetPacket::New_ctor
+// Writing MetadataGetter for method: LiteNetLib::NetPacket::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetPacket::*)(LiteNetLib::PacketProperty, int)>(&NetPacket::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPacket::*)(LiteNetLib::PacketProperty, int)>(&LiteNetLib::NetPacket::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::PacketProperty>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::PacketProperty>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetPacket::*)(LiteNetLib::PacketProperty, int)>(&NetPacket::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPacket::*)(LiteNetLib::PacketProperty, int)>(&LiteNetLib::NetPacket::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::PacketProperty>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::PacketProperty>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: NetPacket::GetHeaderSize
+// Writing MetadataGetter for method: LiteNetLib::NetPacket::GetHeaderSize
 // Il2CppName: GetHeaderSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(LiteNetLib::PacketProperty)>(&NetPacket::GetHeaderSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(LiteNetLib::PacketProperty)>(&LiteNetLib::NetPacket::GetHeaderSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetPacket*), "GetHeaderSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::PacketProperty>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacket*), "GetHeaderSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::PacketProperty>()});
   }
 };
-// Writing MetadataGetter for method: NetPacket::GetHeaderSize
+// Writing MetadataGetter for method: LiteNetLib::NetPacket::GetHeaderSize
 // Il2CppName: GetHeaderSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NetPacket::*)()>(&NetPacket::GetHeaderSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNetLib::NetPacket::*)()>(&LiteNetLib::NetPacket::GetHeaderSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetPacket*), "GetHeaderSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacket*), "GetHeaderSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetPacket::FromBytes
+// Writing MetadataGetter for method: LiteNetLib::NetPacket::FromBytes
 // Il2CppName: FromBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetPacket::*)(::Array<uint8_t>*, int, int)>(&NetPacket::FromBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::NetPacket::*)(::Array<uint8_t>*, int, int)>(&LiteNetLib::NetPacket::FromBytes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetPacket*), "FromBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacket*), "FromBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: NetPacket::_cctor
+// Writing MetadataGetter for method: LiteNetLib::NetPacket::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NetPacket::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&LiteNetLib::NetPacket::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetPacket*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacket*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

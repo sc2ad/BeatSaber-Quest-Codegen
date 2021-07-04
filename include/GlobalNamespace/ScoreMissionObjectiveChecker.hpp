@@ -68,41 +68,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(ScoreMissionObjectiveChecker) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreMissionObjectiveChecker*, "", "ScoreMissionObjectiveChecker");
-// Writing MetadataGetter for method: ScoreMissionObjectiveChecker::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::ScoreMissionObjectiveChecker::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScoreMissionObjectiveChecker::*)()>(&ScoreMissionObjectiveChecker::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreMissionObjectiveChecker::*)()>(&GlobalNamespace::ScoreMissionObjectiveChecker::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScoreMissionObjectiveChecker*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreMissionObjectiveChecker*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ScoreMissionObjectiveChecker::HandleScoreDidChange
+// Writing MetadataGetter for method: GlobalNamespace::ScoreMissionObjectiveChecker::HandleScoreDidChange
 // Il2CppName: HandleScoreDidChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScoreMissionObjectiveChecker::*)(int, int)>(&ScoreMissionObjectiveChecker::HandleScoreDidChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreMissionObjectiveChecker::*)(int, int)>(&GlobalNamespace::ScoreMissionObjectiveChecker::HandleScoreDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScoreMissionObjectiveChecker*), "HandleScoreDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreMissionObjectiveChecker*), "HandleScoreDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ScoreMissionObjectiveChecker::Init
+// Writing MetadataGetter for method: GlobalNamespace::ScoreMissionObjectiveChecker::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScoreMissionObjectiveChecker::*)()>(&ScoreMissionObjectiveChecker::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreMissionObjectiveChecker::*)()>(&GlobalNamespace::ScoreMissionObjectiveChecker::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScoreMissionObjectiveChecker*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreMissionObjectiveChecker*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ScoreMissionObjectiveChecker::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::ScoreMissionObjectiveChecker::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScoreMissionObjectiveChecker::*)()>(&ScoreMissionObjectiveChecker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreMissionObjectiveChecker::*)()>(&GlobalNamespace::ScoreMissionObjectiveChecker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScoreMissionObjectiveChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreMissionObjectiveChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScoreMissionObjectiveChecker::*)()>(&ScoreMissionObjectiveChecker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScoreMissionObjectiveChecker::*)()>(&GlobalNamespace::ScoreMissionObjectiveChecker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScoreMissionObjectiveChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreMissionObjectiveChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

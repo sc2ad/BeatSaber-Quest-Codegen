@@ -28,19 +28,19 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::FrameTimingManager*, "UnityEngine", "FrameTimingManager");
-// Writing MetadataGetter for method: FrameTimingManager::CaptureFrameTimings
+// Writing MetadataGetter for method: UnityEngine::FrameTimingManager::CaptureFrameTimings
 // Il2CppName: CaptureFrameTimings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&FrameTimingManager::CaptureFrameTimings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::FrameTimingManager::CaptureFrameTimings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FrameTimingManager*), "CaptureFrameTimings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::FrameTimingManager*), "CaptureFrameTimings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FrameTimingManager::GetLatestTimings
+// Writing MetadataGetter for method: UnityEngine::FrameTimingManager::GetLatestTimings
 // Il2CppName: GetLatestTimings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, ::Array<UnityEngine::FrameTiming>*)>(&FrameTimingManager::GetLatestTimings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, ::Array<UnityEngine::FrameTiming>*)>(&UnityEngine::FrameTimingManager::GetLatestTimings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FrameTimingManager*), "GetLatestTimings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::FrameTiming>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::FrameTimingManager*), "GetLatestTimings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::FrameTiming>*>()});
   }
 };

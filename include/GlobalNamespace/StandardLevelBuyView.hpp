@@ -73,33 +73,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(StandardLevelBuyView) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelBuyView*, "", "StandardLevelBuyView");
-// Writing MetadataGetter for method: StandardLevelBuyView::get_buyButton
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelBuyView::get_buyButton
 // Il2CppName: get_buyButton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Button* (StandardLevelBuyView::*)()>(&StandardLevelBuyView::get_buyButton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Button* (GlobalNamespace::StandardLevelBuyView::*)()>(&GlobalNamespace::StandardLevelBuyView::get_buyButton)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelBuyView*), "get_buyButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelBuyView*), "get_buyButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandardLevelBuyView::SetContent
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelBuyView::SetContent
 // Il2CppName: SetContent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelBuyView::*)(GlobalNamespace::IPreviewBeatmapLevel*)>(&StandardLevelBuyView::SetContent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelBuyView::*)(GlobalNamespace::IPreviewBeatmapLevel*)>(&GlobalNamespace::StandardLevelBuyView::SetContent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelBuyView*), "SetContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelBuyView*), "SetContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>()});
   }
 };
-// Writing MetadataGetter for method: StandardLevelBuyView::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelBuyView::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelBuyView::*)()>(&StandardLevelBuyView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelBuyView::*)()>(&GlobalNamespace::StandardLevelBuyView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelBuyView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelBuyView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelBuyView::*)()>(&StandardLevelBuyView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelBuyView::*)()>(&GlobalNamespace::StandardLevelBuyView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelBuyView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelBuyView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

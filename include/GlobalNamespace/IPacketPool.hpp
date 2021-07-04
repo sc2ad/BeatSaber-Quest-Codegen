@@ -24,11 +24,11 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IPacketPool*, "", "IPacketPool");
-// Writing MetadataGetter for method: IPacketPool::Release
+// Writing MetadataGetter for method: GlobalNamespace::IPacketPool::Release
 // Il2CppName: Release
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IPacketPool::*)(::Il2CppObject*)>(&IPacketPool::Release)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IPacketPool::*)(::Il2CppObject*)>(&GlobalNamespace::IPacketPool::Release)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IPacketPool*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IPacketPool*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };

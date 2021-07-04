@@ -28,11 +28,11 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*, "Org.BouncyCastle.Math.EC.Multiplier", "IPreCompCallback");
-// Writing MetadataGetter for method: IPreCompCallback::Precompute
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback::Precompute
 // Il2CppName: Precompute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* (IPreCompCallback::*)(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*)>(&IPreCompCallback::Precompute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* (Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback::*)(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*)>(&Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback::Precompute)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IPreCompCallback*), "Precompute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*), "Precompute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>()});
   }
 };

@@ -93,65 +93,65 @@ namespace UnityEngine::UI {
   static_assert(sizeof(BaseMeshEffect) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::BaseMeshEffect*, "UnityEngine.UI", "BaseMeshEffect");
-// Writing MetadataGetter for method: BaseMeshEffect::get_graphic
+// Writing MetadataGetter for method: UnityEngine::UI::BaseMeshEffect::get_graphic
 // Il2CppName: get_graphic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Graphic* (BaseMeshEffect::*)()>(&BaseMeshEffect::get_graphic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Graphic* (UnityEngine::UI::BaseMeshEffect::*)()>(&UnityEngine::UI::BaseMeshEffect::get_graphic)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseMeshEffect*), "get_graphic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::BaseMeshEffect*), "get_graphic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BaseMeshEffect::ModifyMesh
+// Writing MetadataGetter for method: UnityEngine::UI::BaseMeshEffect::ModifyMesh
 // Il2CppName: ModifyMesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMeshEffect::*)(UnityEngine::Mesh*)>(&BaseMeshEffect::ModifyMesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::BaseMeshEffect::*)(UnityEngine::Mesh*)>(&UnityEngine::UI::BaseMeshEffect::ModifyMesh)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseMeshEffect*), "ModifyMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::BaseMeshEffect*), "ModifyMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
   }
 };
-// Writing MetadataGetter for method: BaseMeshEffect::ModifyMesh
+// Writing MetadataGetter for method: UnityEngine::UI::BaseMeshEffect::ModifyMesh
 // Il2CppName: ModifyMesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMeshEffect::*)(UnityEngine::UI::VertexHelper*)>(&BaseMeshEffect::ModifyMesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::BaseMeshEffect::*)(UnityEngine::UI::VertexHelper*)>(&UnityEngine::UI::BaseMeshEffect::ModifyMesh)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseMeshEffect*), "ModifyMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::BaseMeshEffect*), "ModifyMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>()});
   }
 };
-// Writing MetadataGetter for method: BaseMeshEffect::OnEnable
+// Writing MetadataGetter for method: UnityEngine::UI::BaseMeshEffect::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMeshEffect::*)()>(&BaseMeshEffect::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::BaseMeshEffect::*)()>(&UnityEngine::UI::BaseMeshEffect::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseMeshEffect*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::BaseMeshEffect*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BaseMeshEffect::OnDisable
+// Writing MetadataGetter for method: UnityEngine::UI::BaseMeshEffect::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMeshEffect::*)()>(&BaseMeshEffect::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::BaseMeshEffect::*)()>(&UnityEngine::UI::BaseMeshEffect::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseMeshEffect*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::BaseMeshEffect*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BaseMeshEffect::OnDidApplyAnimationProperties
+// Writing MetadataGetter for method: UnityEngine::UI::BaseMeshEffect::OnDidApplyAnimationProperties
 // Il2CppName: OnDidApplyAnimationProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMeshEffect::*)()>(&BaseMeshEffect::OnDidApplyAnimationProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::BaseMeshEffect::*)()>(&UnityEngine::UI::BaseMeshEffect::OnDidApplyAnimationProperties)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseMeshEffect*), "OnDidApplyAnimationProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::BaseMeshEffect*), "OnDidApplyAnimationProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BaseMeshEffect::New_ctor
+// Writing MetadataGetter for method: UnityEngine::UI::BaseMeshEffect::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMeshEffect::*)()>(&BaseMeshEffect::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::BaseMeshEffect::*)()>(&UnityEngine::UI::BaseMeshEffect::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseMeshEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::BaseMeshEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMeshEffect::*)()>(&BaseMeshEffect::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::BaseMeshEffect::*)()>(&UnityEngine::UI::BaseMeshEffect::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseMeshEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::BaseMeshEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

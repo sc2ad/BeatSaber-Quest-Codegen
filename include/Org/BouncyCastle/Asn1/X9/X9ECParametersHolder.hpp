@@ -56,33 +56,33 @@ namespace Org::BouncyCastle::Asn1::X9 {
   static_assert(sizeof(X9ECParametersHolder) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Org.BouncyCastle.Asn1.X9", "X9ECParametersHolder");
-// Writing MetadataGetter for method: X9ECParametersHolder::get_Parameters
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::get_Parameters
 // Il2CppName: get_Parameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (X9ECParametersHolder::*)()>(&X9ECParametersHolder::get_Parameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::*)()>(&Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::get_Parameters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X9ECParametersHolder*), "get_Parameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*), "get_Parameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: X9ECParametersHolder::CreateParameters
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::CreateParameters
 // Il2CppName: CreateParameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (X9ECParametersHolder::*)()>(&X9ECParametersHolder::CreateParameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::X9ECParameters* (Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::*)()>(&Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::CreateParameters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X9ECParametersHolder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*), "CreateParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: X9ECParametersHolder::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X9ECParametersHolder::*)()>(&X9ECParametersHolder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::*)()>(&Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X9ECParametersHolder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X9ECParametersHolder::*)()>(&X9ECParametersHolder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::*)()>(&Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X9ECParametersHolder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

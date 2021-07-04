@@ -127,127 +127,127 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapIdentifierNetSerializable) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapIdentifierNetSerializable*, "", "BeatmapIdentifierNetSerializable");
-// Writing MetadataGetter for method: BeatmapIdentifierNetSerializable::get_levelID
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapIdentifierNetSerializable::get_levelID
 // Il2CppName: get_levelID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BeatmapIdentifierNetSerializable::*)()>(&BeatmapIdentifierNetSerializable::get_levelID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BeatmapIdentifierNetSerializable::*)()>(&GlobalNamespace::BeatmapIdentifierNetSerializable::get_levelID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapIdentifierNetSerializable*), "get_levelID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapIdentifierNetSerializable*), "get_levelID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapIdentifierNetSerializable::set_levelID
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapIdentifierNetSerializable::set_levelID
 // Il2CppName: set_levelID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapIdentifierNetSerializable::*)(::Il2CppString*)>(&BeatmapIdentifierNetSerializable::set_levelID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapIdentifierNetSerializable::*)(::Il2CppString*)>(&GlobalNamespace::BeatmapIdentifierNetSerializable::set_levelID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapIdentifierNetSerializable*), "set_levelID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapIdentifierNetSerializable*), "set_levelID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapIdentifierNetSerializable::get_beatmapCharacteristicSerializedName
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapIdentifierNetSerializable::get_beatmapCharacteristicSerializedName
 // Il2CppName: get_beatmapCharacteristicSerializedName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BeatmapIdentifierNetSerializable::*)()>(&BeatmapIdentifierNetSerializable::get_beatmapCharacteristicSerializedName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BeatmapIdentifierNetSerializable::*)()>(&GlobalNamespace::BeatmapIdentifierNetSerializable::get_beatmapCharacteristicSerializedName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapIdentifierNetSerializable*), "get_beatmapCharacteristicSerializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapIdentifierNetSerializable*), "get_beatmapCharacteristicSerializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapIdentifierNetSerializable::set_beatmapCharacteristicSerializedName
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapIdentifierNetSerializable::set_beatmapCharacteristicSerializedName
 // Il2CppName: set_beatmapCharacteristicSerializedName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapIdentifierNetSerializable::*)(::Il2CppString*)>(&BeatmapIdentifierNetSerializable::set_beatmapCharacteristicSerializedName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapIdentifierNetSerializable::*)(::Il2CppString*)>(&GlobalNamespace::BeatmapIdentifierNetSerializable::set_beatmapCharacteristicSerializedName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapIdentifierNetSerializable*), "set_beatmapCharacteristicSerializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapIdentifierNetSerializable*), "set_beatmapCharacteristicSerializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapIdentifierNetSerializable::get_difficulty
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapIdentifierNetSerializable::get_difficulty
 // Il2CppName: get_difficulty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapDifficulty (BeatmapIdentifierNetSerializable::*)()>(&BeatmapIdentifierNetSerializable::get_difficulty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapDifficulty (GlobalNamespace::BeatmapIdentifierNetSerializable::*)()>(&GlobalNamespace::BeatmapIdentifierNetSerializable::get_difficulty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapIdentifierNetSerializable*), "get_difficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapIdentifierNetSerializable*), "get_difficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapIdentifierNetSerializable::set_difficulty
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapIdentifierNetSerializable::set_difficulty
 // Il2CppName: set_difficulty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapIdentifierNetSerializable::*)(GlobalNamespace::BeatmapDifficulty)>(&BeatmapIdentifierNetSerializable::set_difficulty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapIdentifierNetSerializable::*)(GlobalNamespace::BeatmapDifficulty)>(&GlobalNamespace::BeatmapIdentifierNetSerializable::set_difficulty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapIdentifierNetSerializable*), "set_difficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapIdentifierNetSerializable*), "set_difficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapIdentifierNetSerializable::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapIdentifierNetSerializable::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapIdentifierNetSerializable::*)(::Il2CppString*, ::Il2CppString*, GlobalNamespace::BeatmapDifficulty)>(&BeatmapIdentifierNetSerializable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapIdentifierNetSerializable::*)(::Il2CppString*, ::Il2CppString*, GlobalNamespace::BeatmapDifficulty)>(&GlobalNamespace::BeatmapIdentifierNetSerializable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapIdentifierNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapIdentifierNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapIdentifierNetSerializable::*)(::Il2CppString*, ::Il2CppString*, GlobalNamespace::BeatmapDifficulty)>(&BeatmapIdentifierNetSerializable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapIdentifierNetSerializable::*)(::Il2CppString*, ::Il2CppString*, GlobalNamespace::BeatmapDifficulty)>(&GlobalNamespace::BeatmapIdentifierNetSerializable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapIdentifierNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapIdentifierNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapIdentifierNetSerializable::LiteNetLib_Utils_INetSerializable_Deserialize
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapIdentifierNetSerializable::LiteNetLib_Utils_INetSerializable_Deserialize
 // Il2CppName: LiteNetLib.Utils.INetSerializable.Deserialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapIdentifierNetSerializable::*)(LiteNetLib::Utils::NetDataReader*)>(&BeatmapIdentifierNetSerializable::LiteNetLib_Utils_INetSerializable_Deserialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapIdentifierNetSerializable::*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::BeatmapIdentifierNetSerializable::LiteNetLib_Utils_INetSerializable_Deserialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapIdentifierNetSerializable*), "LiteNetLib.Utils.INetSerializable.Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapIdentifierNetSerializable*), "LiteNetLib.Utils.INetSerializable.Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapIdentifierNetSerializable::LiteNetLib_Utils_INetSerializable_Serialize
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapIdentifierNetSerializable::LiteNetLib_Utils_INetSerializable_Serialize
 // Il2CppName: LiteNetLib.Utils.INetSerializable.Serialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapIdentifierNetSerializable::*)(LiteNetLib::Utils::NetDataWriter*)>(&BeatmapIdentifierNetSerializable::LiteNetLib_Utils_INetSerializable_Serialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapIdentifierNetSerializable::*)(LiteNetLib::Utils::NetDataWriter*)>(&GlobalNamespace::BeatmapIdentifierNetSerializable::LiteNetLib_Utils_INetSerializable_Serialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapIdentifierNetSerializable*), "LiteNetLib.Utils.INetSerializable.Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapIdentifierNetSerializable*), "LiteNetLib.Utils.INetSerializable.Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapIdentifierNetSerializable::Equals
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapIdentifierNetSerializable::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BeatmapIdentifierNetSerializable::*)(GlobalNamespace::BeatmapIdentifierNetSerializable*)>(&BeatmapIdentifierNetSerializable::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BeatmapIdentifierNetSerializable::*)(GlobalNamespace::BeatmapIdentifierNetSerializable*)>(&GlobalNamespace::BeatmapIdentifierNetSerializable::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapIdentifierNetSerializable*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapIdentifierNetSerializable*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapIdentifierNetSerializable*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapIdentifierNetSerializable*>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapIdentifierNetSerializable::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapIdentifierNetSerializable::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapIdentifierNetSerializable::*)()>(&BeatmapIdentifierNetSerializable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapIdentifierNetSerializable::*)()>(&GlobalNamespace::BeatmapIdentifierNetSerializable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapIdentifierNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapIdentifierNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapIdentifierNetSerializable::*)()>(&BeatmapIdentifierNetSerializable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapIdentifierNetSerializable::*)()>(&GlobalNamespace::BeatmapIdentifierNetSerializable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapIdentifierNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapIdentifierNetSerializable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapIdentifierNetSerializable::Equals
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapIdentifierNetSerializable::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BeatmapIdentifierNetSerializable::*)(::Il2CppObject*)>(&BeatmapIdentifierNetSerializable::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BeatmapIdentifierNetSerializable::*)(::Il2CppObject*)>(&GlobalNamespace::BeatmapIdentifierNetSerializable::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapIdentifierNetSerializable*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapIdentifierNetSerializable*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapIdentifierNetSerializable::GetHashCode
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapIdentifierNetSerializable::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BeatmapIdentifierNetSerializable::*)()>(&BeatmapIdentifierNetSerializable::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::BeatmapIdentifierNetSerializable::*)()>(&GlobalNamespace::BeatmapIdentifierNetSerializable::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapIdentifierNetSerializable*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapIdentifierNetSerializable*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapIdentifierNetSerializable::ToString
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapIdentifierNetSerializable::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BeatmapIdentifierNetSerializable::*)()>(&BeatmapIdentifierNetSerializable::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BeatmapIdentifierNetSerializable::*)()>(&GlobalNamespace::BeatmapIdentifierNetSerializable::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapIdentifierNetSerializable*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapIdentifierNetSerializable*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

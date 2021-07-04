@@ -120,33 +120,33 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static_assert(sizeof(PrimitiveArray) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*, "System.Runtime.Serialization.Formatters.Binary", "PrimitiveArray");
-// Writing MetadataGetter for method: PrimitiveArray::New_ctor
+// Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrimitiveArray::*)(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE, System::Array*)>(&PrimitiveArray::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::*)(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE, System::Array*)>(&System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrimitiveArray*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>(), ::il2cpp_utils::ExtractIndependentType<System::Array*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>(), ::il2cpp_utils::ExtractIndependentType<System::Array*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrimitiveArray::*)(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE, System::Array*)>(&PrimitiveArray::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::*)(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE, System::Array*)>(&System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrimitiveArray*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>(), ::il2cpp_utils::ExtractIndependentType<System::Array*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>(), ::il2cpp_utils::ExtractIndependentType<System::Array*>()});
   }
 };
-// Writing MetadataGetter for method: PrimitiveArray::Init
+// Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrimitiveArray::*)(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE, System::Array*)>(&PrimitiveArray::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::*)(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE, System::Array*)>(&System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrimitiveArray*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>(), ::il2cpp_utils::ExtractIndependentType<System::Array*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>(), ::il2cpp_utils::ExtractIndependentType<System::Array*>()});
   }
 };
-// Writing MetadataGetter for method: PrimitiveArray::SetValue
+// Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::SetValue
 // Il2CppName: SetValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrimitiveArray::*)(::Il2CppString*, int)>(&PrimitiveArray::SetValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::*)(::Il2CppString*, int)>(&System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::SetValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrimitiveArray*), "SetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*), "SetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };

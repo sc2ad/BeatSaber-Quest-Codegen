@@ -231,17 +231,17 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers*
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnabledObstacleType, "", "PlayerSaveDataV1_0_1/GameplayModifiers/EnabledObstacleType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnergyType, "", "PlayerSaveDataV1_0_1/GameplayModifiers/EnergyType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::SongSpeed, "", "PlayerSaveDataV1_0_1/GameplayModifiers/SongSpeed");
-// Writing MetadataGetter for method: PlayerSaveDataV1_0_1::GameplayModifiers::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSaveDataV1_0_1::GameplayModifiers::*)()>(&PlayerSaveDataV1_0_1::GameplayModifiers::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::*)()>(&GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerSaveDataV1_0_1::GameplayModifiers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerSaveDataV1_0_1::GameplayModifiers::*)()>(&PlayerSaveDataV1_0_1::GameplayModifiers::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::*)()>(&GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerSaveDataV1_0_1::GameplayModifiers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

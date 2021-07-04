@@ -131,97 +131,97 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(ScheduleRuntimeClip) == 0x51);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ScheduleRuntimeClip*, "UnityEngine.Timeline", "ScheduleRuntimeClip");
-// Writing MetadataGetter for method: ScheduleRuntimeClip::SetTime
+// Writing MetadataGetter for method: UnityEngine::Timeline::ScheduleRuntimeClip::SetTime
 // Il2CppName: SetTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScheduleRuntimeClip::*)(double)>(&ScheduleRuntimeClip::SetTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ScheduleRuntimeClip::*)(double)>(&UnityEngine::Timeline::ScheduleRuntimeClip::SetTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScheduleRuntimeClip*), "SetTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ScheduleRuntimeClip*), "SetTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: ScheduleRuntimeClip::get_clip
+// Writing MetadataGetter for method: UnityEngine::Timeline::ScheduleRuntimeClip::get_clip
 // Il2CppName: get_clip
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip* (ScheduleRuntimeClip::*)()>(&ScheduleRuntimeClip::get_clip)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip* (UnityEngine::Timeline::ScheduleRuntimeClip::*)()>(&UnityEngine::Timeline::ScheduleRuntimeClip::get_clip)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScheduleRuntimeClip*), "get_clip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ScheduleRuntimeClip*), "get_clip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ScheduleRuntimeClip::get_mixer
+// Writing MetadataGetter for method: UnityEngine::Timeline::ScheduleRuntimeClip::get_mixer
 // Il2CppName: get_mixer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (ScheduleRuntimeClip::*)()>(&ScheduleRuntimeClip::get_mixer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (UnityEngine::Timeline::ScheduleRuntimeClip::*)()>(&UnityEngine::Timeline::ScheduleRuntimeClip::get_mixer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScheduleRuntimeClip*), "get_mixer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ScheduleRuntimeClip*), "get_mixer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ScheduleRuntimeClip::get_playable
+// Writing MetadataGetter for method: UnityEngine::Timeline::ScheduleRuntimeClip::get_playable
 // Il2CppName: get_playable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (ScheduleRuntimeClip::*)()>(&ScheduleRuntimeClip::get_playable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (UnityEngine::Timeline::ScheduleRuntimeClip::*)()>(&UnityEngine::Timeline::ScheduleRuntimeClip::get_playable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScheduleRuntimeClip*), "get_playable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ScheduleRuntimeClip*), "get_playable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ScheduleRuntimeClip::New_ctor
+// Writing MetadataGetter for method: UnityEngine::Timeline::ScheduleRuntimeClip::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScheduleRuntimeClip::*)(UnityEngine::Timeline::TimelineClip*, UnityEngine::Playables::Playable, UnityEngine::Playables::Playable, double, double)>(&ScheduleRuntimeClip::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ScheduleRuntimeClip::*)(UnityEngine::Timeline::TimelineClip*, UnityEngine::Playables::Playable, UnityEngine::Playables::Playable, double, double)>(&UnityEngine::Timeline::ScheduleRuntimeClip::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScheduleRuntimeClip*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ScheduleRuntimeClip*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScheduleRuntimeClip::*)(UnityEngine::Timeline::TimelineClip*, UnityEngine::Playables::Playable, UnityEngine::Playables::Playable, double, double)>(&ScheduleRuntimeClip::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ScheduleRuntimeClip::*)(UnityEngine::Timeline::TimelineClip*, UnityEngine::Playables::Playable, UnityEngine::Playables::Playable, double, double)>(&UnityEngine::Timeline::ScheduleRuntimeClip::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScheduleRuntimeClip*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ScheduleRuntimeClip*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: ScheduleRuntimeClip::Create
+// Writing MetadataGetter for method: UnityEngine::Timeline::ScheduleRuntimeClip::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScheduleRuntimeClip::*)(UnityEngine::Timeline::TimelineClip*, UnityEngine::Playables::Playable, UnityEngine::Playables::Playable, double, double)>(&ScheduleRuntimeClip::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ScheduleRuntimeClip::*)(UnityEngine::Timeline::TimelineClip*, UnityEngine::Playables::Playable, UnityEngine::Playables::Playable, double, double)>(&UnityEngine::Timeline::ScheduleRuntimeClip::Create)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScheduleRuntimeClip*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ScheduleRuntimeClip*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: ScheduleRuntimeClip::get_start
+// Writing MetadataGetter for method: UnityEngine::Timeline::ScheduleRuntimeClip::get_start
 // Il2CppName: get_start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (ScheduleRuntimeClip::*)()>(&ScheduleRuntimeClip::get_start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::ScheduleRuntimeClip::*)()>(&UnityEngine::Timeline::ScheduleRuntimeClip::get_start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScheduleRuntimeClip*), "get_start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ScheduleRuntimeClip*), "get_start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ScheduleRuntimeClip::get_duration
+// Writing MetadataGetter for method: UnityEngine::Timeline::ScheduleRuntimeClip::get_duration
 // Il2CppName: get_duration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (ScheduleRuntimeClip::*)()>(&ScheduleRuntimeClip::get_duration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::ScheduleRuntimeClip::*)()>(&UnityEngine::Timeline::ScheduleRuntimeClip::get_duration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScheduleRuntimeClip*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ScheduleRuntimeClip*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ScheduleRuntimeClip::set_enable
+// Writing MetadataGetter for method: UnityEngine::Timeline::ScheduleRuntimeClip::set_enable
 // Il2CppName: set_enable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScheduleRuntimeClip::*)(bool)>(&ScheduleRuntimeClip::set_enable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ScheduleRuntimeClip::*)(bool)>(&UnityEngine::Timeline::ScheduleRuntimeClip::set_enable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScheduleRuntimeClip*), "set_enable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ScheduleRuntimeClip*), "set_enable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ScheduleRuntimeClip::EvaluateAt
+// Writing MetadataGetter for method: UnityEngine::Timeline::ScheduleRuntimeClip::EvaluateAt
 // Il2CppName: EvaluateAt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScheduleRuntimeClip::*)(double, UnityEngine::Playables::FrameData)>(&ScheduleRuntimeClip::EvaluateAt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ScheduleRuntimeClip::*)(double, UnityEngine::Playables::FrameData)>(&UnityEngine::Timeline::ScheduleRuntimeClip::EvaluateAt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScheduleRuntimeClip*), "EvaluateAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ScheduleRuntimeClip*), "EvaluateAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
   }
 };
-// Writing MetadataGetter for method: ScheduleRuntimeClip::DisableAt
+// Writing MetadataGetter for method: UnityEngine::Timeline::ScheduleRuntimeClip::DisableAt
 // Il2CppName: DisableAt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScheduleRuntimeClip::*)(double, double, UnityEngine::Playables::FrameData)>(&ScheduleRuntimeClip::DisableAt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ScheduleRuntimeClip::*)(double, double, UnityEngine::Playables::FrameData)>(&UnityEngine::Timeline::ScheduleRuntimeClip::DisableAt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScheduleRuntimeClip*), "DisableAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ScheduleRuntimeClip*), "DisableAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
   }
 };

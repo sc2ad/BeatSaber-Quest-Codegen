@@ -65,47 +65,47 @@ namespace System::Runtime::Serialization {
   static_assert(sizeof(FixupHolderList) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::FixupHolderList*, "System.Runtime.Serialization", "FixupHolderList");
-// Writing MetadataGetter for method: FixupHolderList::New_ctor
+// Writing MetadataGetter for method: System::Runtime::Serialization::FixupHolderList::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FixupHolderList::*)(int)>(&FixupHolderList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::FixupHolderList::*)(int)>(&System::Runtime::Serialization::FixupHolderList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FixupHolderList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::FixupHolderList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FixupHolderList::*)(int)>(&FixupHolderList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::FixupHolderList::*)(int)>(&System::Runtime::Serialization::FixupHolderList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FixupHolderList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::FixupHolderList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: FixupHolderList::Add
+// Writing MetadataGetter for method: System::Runtime::Serialization::FixupHolderList::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FixupHolderList::*)(System::Runtime::Serialization::FixupHolder*)>(&FixupHolderList::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::FixupHolderList::*)(System::Runtime::Serialization::FixupHolder*)>(&System::Runtime::Serialization::FixupHolderList::Add)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FixupHolderList*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::FixupHolder*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::FixupHolderList*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::FixupHolder*>()});
   }
 };
-// Writing MetadataGetter for method: FixupHolderList::EnlargeArray
+// Writing MetadataGetter for method: System::Runtime::Serialization::FixupHolderList::EnlargeArray
 // Il2CppName: EnlargeArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FixupHolderList::*)()>(&FixupHolderList::EnlargeArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::FixupHolderList::*)()>(&System::Runtime::Serialization::FixupHolderList::EnlargeArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FixupHolderList*), "EnlargeArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::FixupHolderList*), "EnlargeArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FixupHolderList::New_ctor
+// Writing MetadataGetter for method: System::Runtime::Serialization::FixupHolderList::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FixupHolderList::*)()>(&FixupHolderList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::FixupHolderList::*)()>(&System::Runtime::Serialization::FixupHolderList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FixupHolderList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::FixupHolderList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FixupHolderList::*)()>(&FixupHolderList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::FixupHolderList::*)()>(&System::Runtime::Serialization::FixupHolderList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FixupHolderList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::FixupHolderList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

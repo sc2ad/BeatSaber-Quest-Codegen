@@ -126,113 +126,113 @@ namespace GlobalNamespace {
   static_assert(sizeof(StepValuePicker) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StepValuePicker*, "", "StepValuePicker");
-// Writing MetadataGetter for method: StepValuePicker::add_decButtonWasPressedEvent
+// Writing MetadataGetter for method: GlobalNamespace::StepValuePicker::add_decButtonWasPressedEvent
 // Il2CppName: add_decButtonWasPressedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StepValuePicker::*)(System::Action*)>(&StepValuePicker::add_decButtonWasPressedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StepValuePicker::*)(System::Action*)>(&GlobalNamespace::StepValuePicker::add_decButtonWasPressedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StepValuePicker*), "add_decButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StepValuePicker*), "add_decButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: StepValuePicker::remove_decButtonWasPressedEvent
+// Writing MetadataGetter for method: GlobalNamespace::StepValuePicker::remove_decButtonWasPressedEvent
 // Il2CppName: remove_decButtonWasPressedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StepValuePicker::*)(System::Action*)>(&StepValuePicker::remove_decButtonWasPressedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StepValuePicker::*)(System::Action*)>(&GlobalNamespace::StepValuePicker::remove_decButtonWasPressedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StepValuePicker*), "remove_decButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StepValuePicker*), "remove_decButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: StepValuePicker::add_incButtonWasPressedEvent
+// Writing MetadataGetter for method: GlobalNamespace::StepValuePicker::add_incButtonWasPressedEvent
 // Il2CppName: add_incButtonWasPressedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StepValuePicker::*)(System::Action*)>(&StepValuePicker::add_incButtonWasPressedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StepValuePicker::*)(System::Action*)>(&GlobalNamespace::StepValuePicker::add_incButtonWasPressedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StepValuePicker*), "add_incButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StepValuePicker*), "add_incButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: StepValuePicker::remove_incButtonWasPressedEvent
+// Writing MetadataGetter for method: GlobalNamespace::StepValuePicker::remove_incButtonWasPressedEvent
 // Il2CppName: remove_incButtonWasPressedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StepValuePicker::*)(System::Action*)>(&StepValuePicker::remove_incButtonWasPressedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StepValuePicker::*)(System::Action*)>(&GlobalNamespace::StepValuePicker::remove_incButtonWasPressedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StepValuePicker*), "remove_incButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StepValuePicker*), "remove_incButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: StepValuePicker::get_text
+// Writing MetadataGetter for method: GlobalNamespace::StepValuePicker::get_text
 // Il2CppName: get_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StepValuePicker::*)()>(&StepValuePicker::get_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::StepValuePicker::*)()>(&GlobalNamespace::StepValuePicker::get_text)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StepValuePicker*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StepValuePicker*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StepValuePicker::set_text
+// Writing MetadataGetter for method: GlobalNamespace::StepValuePicker::set_text
 // Il2CppName: set_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StepValuePicker::*)(::Il2CppString*)>(&StepValuePicker::set_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StepValuePicker::*)(::Il2CppString*)>(&GlobalNamespace::StepValuePicker::set_text)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StepValuePicker*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StepValuePicker*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: StepValuePicker::set_decButtonInteractable
+// Writing MetadataGetter for method: GlobalNamespace::StepValuePicker::set_decButtonInteractable
 // Il2CppName: set_decButtonInteractable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StepValuePicker::*)(bool)>(&StepValuePicker::set_decButtonInteractable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StepValuePicker::*)(bool)>(&GlobalNamespace::StepValuePicker::set_decButtonInteractable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StepValuePicker*), "set_decButtonInteractable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StepValuePicker*), "set_decButtonInteractable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: StepValuePicker::set_incButtonInteractable
+// Writing MetadataGetter for method: GlobalNamespace::StepValuePicker::set_incButtonInteractable
 // Il2CppName: set_incButtonInteractable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StepValuePicker::*)(bool)>(&StepValuePicker::set_incButtonInteractable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StepValuePicker::*)(bool)>(&GlobalNamespace::StepValuePicker::set_incButtonInteractable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StepValuePicker*), "set_incButtonInteractable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StepValuePicker*), "set_incButtonInteractable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: StepValuePicker::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::StepValuePicker::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StepValuePicker::*)()>(&StepValuePicker::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StepValuePicker::*)()>(&GlobalNamespace::StepValuePicker::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StepValuePicker*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StepValuePicker*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StepValuePicker::OnDisable
+// Writing MetadataGetter for method: GlobalNamespace::StepValuePicker::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StepValuePicker::*)()>(&StepValuePicker::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StepValuePicker::*)()>(&GlobalNamespace::StepValuePicker::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StepValuePicker*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StepValuePicker*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StepValuePicker::IncButtonPressed
+// Writing MetadataGetter for method: GlobalNamespace::StepValuePicker::IncButtonPressed
 // Il2CppName: IncButtonPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StepValuePicker::*)()>(&StepValuePicker::IncButtonPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StepValuePicker::*)()>(&GlobalNamespace::StepValuePicker::IncButtonPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StepValuePicker*), "IncButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StepValuePicker*), "IncButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StepValuePicker::DecButtonPressed
+// Writing MetadataGetter for method: GlobalNamespace::StepValuePicker::DecButtonPressed
 // Il2CppName: DecButtonPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StepValuePicker::*)()>(&StepValuePicker::DecButtonPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StepValuePicker::*)()>(&GlobalNamespace::StepValuePicker::DecButtonPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StepValuePicker*), "DecButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StepValuePicker*), "DecButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StepValuePicker::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::StepValuePicker::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StepValuePicker::*)()>(&StepValuePicker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StepValuePicker::*)()>(&GlobalNamespace::StepValuePicker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StepValuePicker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StepValuePicker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StepValuePicker::*)()>(&StepValuePicker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StepValuePicker::*)()>(&GlobalNamespace::StepValuePicker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StepValuePicker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StepValuePicker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

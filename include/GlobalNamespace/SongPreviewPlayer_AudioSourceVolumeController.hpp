@@ -71,49 +71,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(SongPreviewPlayer::AudioSourceVolumeController) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController*, "", "SongPreviewPlayer/AudioSourceVolumeController");
-// Writing MetadataGetter for method: SongPreviewPlayer::AudioSourceVolumeController::set_volume
+// Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::set_volume
 // Il2CppName: set_volume
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPreviewPlayer::AudioSourceVolumeController::*)(float)>(&SongPreviewPlayer::AudioSourceVolumeController::set_volume)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::*)(float)>(&GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::set_volume)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer::AudioSourceVolumeController*), "set_volume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController*), "set_volume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: SongPreviewPlayer::AudioSourceVolumeController::get_volume
+// Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::get_volume
 // Il2CppName: get_volume
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SongPreviewPlayer::AudioSourceVolumeController::*)()>(&SongPreviewPlayer::AudioSourceVolumeController::get_volume)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::*)()>(&GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::get_volume)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer::AudioSourceVolumeController*), "get_volume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController*), "get_volume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SongPreviewPlayer::AudioSourceVolumeController::get_maxVolume
+// Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::get_maxVolume
 // Il2CppName: get_maxVolume
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SongPreviewPlayer::AudioSourceVolumeController::*)()>(&SongPreviewPlayer::AudioSourceVolumeController::get_maxVolume)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::*)()>(&GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::get_maxVolume)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer::AudioSourceVolumeController*), "get_maxVolume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController*), "get_maxVolume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SongPreviewPlayer::AudioSourceVolumeController::set_maxVolume
+// Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::set_maxVolume
 // Il2CppName: set_maxVolume
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPreviewPlayer::AudioSourceVolumeController::*)(float)>(&SongPreviewPlayer::AudioSourceVolumeController::set_maxVolume)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::*)(float)>(&GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::set_maxVolume)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer::AudioSourceVolumeController*), "set_maxVolume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController*), "set_maxVolume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: SongPreviewPlayer::AudioSourceVolumeController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPreviewPlayer::AudioSourceVolumeController::*)(UnityEngine::AudioSource*)>(&SongPreviewPlayer::AudioSourceVolumeController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::*)(UnityEngine::AudioSource*)>(&GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer::AudioSourceVolumeController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioSource*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioSource*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPreviewPlayer::AudioSourceVolumeController::*)(UnityEngine::AudioSource*)>(&SongPreviewPlayer::AudioSourceVolumeController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::*)(UnityEngine::AudioSource*)>(&GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongPreviewPlayer::AudioSourceVolumeController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioSource*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioSource*>()});
   }
 };

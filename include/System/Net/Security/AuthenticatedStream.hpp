@@ -56,41 +56,41 @@ namespace System::Net::Security {
   static_assert(sizeof(AuthenticatedStream) == 0x31);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::AuthenticatedStream*, "System.Net.Security", "AuthenticatedStream");
-// Writing MetadataGetter for method: AuthenticatedStream::New_ctor
+// Writing MetadataGetter for method: System::Net::Security::AuthenticatedStream::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AuthenticatedStream::*)(System::IO::Stream*, bool)>(&AuthenticatedStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Security::AuthenticatedStream::*)(System::IO::Stream*, bool)>(&System::Net::Security::AuthenticatedStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticatedStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::AuthenticatedStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AuthenticatedStream::*)(System::IO::Stream*, bool)>(&AuthenticatedStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Security::AuthenticatedStream::*)(System::IO::Stream*, bool)>(&System::Net::Security::AuthenticatedStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticatedStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::AuthenticatedStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AuthenticatedStream::get_InnerStream
+// Writing MetadataGetter for method: System::Net::Security::AuthenticatedStream::get_InnerStream
 // Il2CppName: get_InnerStream
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (AuthenticatedStream::*)()>(&AuthenticatedStream::get_InnerStream)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (System::Net::Security::AuthenticatedStream::*)()>(&System::Net::Security::AuthenticatedStream::get_InnerStream)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticatedStream*), "get_InnerStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::AuthenticatedStream*), "get_InnerStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AuthenticatedStream::get_IsAuthenticated
+// Writing MetadataGetter for method: System::Net::Security::AuthenticatedStream::get_IsAuthenticated
 // Il2CppName: get_IsAuthenticated
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AuthenticatedStream::*)()>(&AuthenticatedStream::get_IsAuthenticated)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Security::AuthenticatedStream::*)()>(&System::Net::Security::AuthenticatedStream::get_IsAuthenticated)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticatedStream*), "get_IsAuthenticated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::AuthenticatedStream*), "get_IsAuthenticated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AuthenticatedStream::Dispose
+// Writing MetadataGetter for method: System::Net::Security::AuthenticatedStream::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AuthenticatedStream::*)(bool)>(&AuthenticatedStream::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Security::AuthenticatedStream::*)(bool)>(&System::Net::Security::AuthenticatedStream::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticatedStream*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Security::AuthenticatedStream*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };

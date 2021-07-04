@@ -869,769 +869,769 @@ namespace UnityEngine {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextEditor*, "UnityEngine", "TextEditor");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextEditor::DblClickSnapping, "UnityEngine", "TextEditor/DblClickSnapping");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextEditor::TextEditOp, "UnityEngine", "TextEditor/TextEditOp");
-// Writing MetadataGetter for method: TextEditor::get_text
+// Writing MetadataGetter for method: UnityEngine::TextEditor::get_text
 // Il2CppName: get_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TextEditor::*)()>(&TextEditor::get_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::get_text)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::set_text
+// Writing MetadataGetter for method: UnityEngine::TextEditor::set_text
 // Il2CppName: set_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)(::Il2CppString*)>(&TextEditor::set_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)(::Il2CppString*)>(&UnityEngine::TextEditor::set_text)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TextEditor::get_position
+// Writing MetadataGetter for method: UnityEngine::TextEditor::get_position
 // Il2CppName: get_position
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (TextEditor::*)()>(&TextEditor::get_position)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::get_position)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::set_position
+// Writing MetadataGetter for method: UnityEngine::TextEditor::set_position
 // Il2CppName: set_position
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)(UnityEngine::Rect)>(&TextEditor::set_position)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)(UnityEngine::Rect)>(&UnityEngine::TextEditor::set_position)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "set_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "set_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>()});
   }
 };
-// Writing MetadataGetter for method: TextEditor::get_localPosition
+// Writing MetadataGetter for method: UnityEngine::TextEditor::get_localPosition
 // Il2CppName: get_localPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (TextEditor::*)()>(&TextEditor::get_localPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::get_localPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "get_localPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "get_localPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::get_cursorIndex
+// Writing MetadataGetter for method: UnityEngine::TextEditor::get_cursorIndex
 // Il2CppName: get_cursorIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TextEditor::*)()>(&TextEditor::get_cursorIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::get_cursorIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "get_cursorIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "get_cursorIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::set_cursorIndex
+// Writing MetadataGetter for method: UnityEngine::TextEditor::set_cursorIndex
 // Il2CppName: set_cursorIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)(int)>(&TextEditor::set_cursorIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)(int)>(&UnityEngine::TextEditor::set_cursorIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "set_cursorIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "set_cursorIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TextEditor::get_selectIndex
+// Writing MetadataGetter for method: UnityEngine::TextEditor::get_selectIndex
 // Il2CppName: get_selectIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TextEditor::*)()>(&TextEditor::get_selectIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::get_selectIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "get_selectIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "get_selectIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::set_selectIndex
+// Writing MetadataGetter for method: UnityEngine::TextEditor::set_selectIndex
 // Il2CppName: set_selectIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)(int)>(&TextEditor::set_selectIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)(int)>(&UnityEngine::TextEditor::set_selectIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "set_selectIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "set_selectIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TextEditor::ClearCursorPos
+// Writing MetadataGetter for method: UnityEngine::TextEditor::ClearCursorPos
 // Il2CppName: ClearCursorPos
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::ClearCursorPos)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::ClearCursorPos)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "ClearCursorPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "ClearCursorPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::OnFocus
+// Writing MetadataGetter for method: UnityEngine::TextEditor::OnFocus
 // Il2CppName: OnFocus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::OnFocus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::OnFocus)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "OnFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "OnFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::OnLostFocus
+// Writing MetadataGetter for method: UnityEngine::TextEditor::OnLostFocus
 // Il2CppName: OnLostFocus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::OnLostFocus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::OnLostFocus)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "OnLostFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "OnLostFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::GrabGraphicalCursorPos
+// Writing MetadataGetter for method: UnityEngine::TextEditor::GrabGraphicalCursorPos
 // Il2CppName: GrabGraphicalCursorPos
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::GrabGraphicalCursorPos)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::GrabGraphicalCursorPos)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "GrabGraphicalCursorPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "GrabGraphicalCursorPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::HandleKeyEvent
+// Writing MetadataGetter for method: UnityEngine::TextEditor::HandleKeyEvent
 // Il2CppName: HandleKeyEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TextEditor::*)(UnityEngine::Event*)>(&TextEditor::HandleKeyEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextEditor::*)(UnityEngine::Event*)>(&UnityEngine::TextEditor::HandleKeyEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "HandleKeyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Event*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "HandleKeyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Event*>()});
   }
 };
-// Writing MetadataGetter for method: TextEditor::HandleKeyEvent
+// Writing MetadataGetter for method: UnityEngine::TextEditor::HandleKeyEvent
 // Il2CppName: HandleKeyEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TextEditor::*)(UnityEngine::Event*, bool)>(&TextEditor::HandleKeyEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextEditor::*)(UnityEngine::Event*, bool)>(&UnityEngine::TextEditor::HandleKeyEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "HandleKeyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Event*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "HandleKeyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Event*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: TextEditor::DeleteLineBack
+// Writing MetadataGetter for method: UnityEngine::TextEditor::DeleteLineBack
 // Il2CppName: DeleteLineBack
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TextEditor::*)()>(&TextEditor::DeleteLineBack)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::DeleteLineBack)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "DeleteLineBack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "DeleteLineBack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::DeleteWordBack
+// Writing MetadataGetter for method: UnityEngine::TextEditor::DeleteWordBack
 // Il2CppName: DeleteWordBack
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TextEditor::*)()>(&TextEditor::DeleteWordBack)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::DeleteWordBack)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "DeleteWordBack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "DeleteWordBack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::DeleteWordForward
+// Writing MetadataGetter for method: UnityEngine::TextEditor::DeleteWordForward
 // Il2CppName: DeleteWordForward
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TextEditor::*)()>(&TextEditor::DeleteWordForward)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::DeleteWordForward)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "DeleteWordForward", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "DeleteWordForward", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::Delete
+// Writing MetadataGetter for method: UnityEngine::TextEditor::Delete
 // Il2CppName: Delete
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TextEditor::*)()>(&TextEditor::Delete)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::Delete)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "Delete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "Delete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::Backspace
+// Writing MetadataGetter for method: UnityEngine::TextEditor::Backspace
 // Il2CppName: Backspace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TextEditor::*)()>(&TextEditor::Backspace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::Backspace)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "Backspace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "Backspace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::SelectAll
+// Writing MetadataGetter for method: UnityEngine::TextEditor::SelectAll
 // Il2CppName: SelectAll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::SelectAll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::SelectAll)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "SelectAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "SelectAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::SelectNone
+// Writing MetadataGetter for method: UnityEngine::TextEditor::SelectNone
 // Il2CppName: SelectNone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::SelectNone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::SelectNone)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "SelectNone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "SelectNone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::get_hasSelection
+// Writing MetadataGetter for method: UnityEngine::TextEditor::get_hasSelection
 // Il2CppName: get_hasSelection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TextEditor::*)()>(&TextEditor::get_hasSelection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::get_hasSelection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "get_hasSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "get_hasSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::DeleteSelection
+// Writing MetadataGetter for method: UnityEngine::TextEditor::DeleteSelection
 // Il2CppName: DeleteSelection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TextEditor::*)()>(&TextEditor::DeleteSelection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::DeleteSelection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "DeleteSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "DeleteSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::ReplaceSelection
+// Writing MetadataGetter for method: UnityEngine::TextEditor::ReplaceSelection
 // Il2CppName: ReplaceSelection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)(::Il2CppString*)>(&TextEditor::ReplaceSelection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)(::Il2CppString*)>(&UnityEngine::TextEditor::ReplaceSelection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "ReplaceSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "ReplaceSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TextEditor::Insert
+// Writing MetadataGetter for method: UnityEngine::TextEditor::Insert
 // Il2CppName: Insert
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)(::Il2CppChar)>(&TextEditor::Insert)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)(::Il2CppChar)>(&UnityEngine::TextEditor::Insert)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "Insert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "Insert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
   }
 };
-// Writing MetadataGetter for method: TextEditor::MoveRight
+// Writing MetadataGetter for method: UnityEngine::TextEditor::MoveRight
 // Il2CppName: MoveRight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::MoveRight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::MoveRight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "MoveRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "MoveRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::MoveLeft
+// Writing MetadataGetter for method: UnityEngine::TextEditor::MoveLeft
 // Il2CppName: MoveLeft
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::MoveLeft)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::MoveLeft)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "MoveLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "MoveLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::MoveUp
+// Writing MetadataGetter for method: UnityEngine::TextEditor::MoveUp
 // Il2CppName: MoveUp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::MoveUp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::MoveUp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "MoveUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "MoveUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::MoveDown
+// Writing MetadataGetter for method: UnityEngine::TextEditor::MoveDown
 // Il2CppName: MoveDown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::MoveDown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::MoveDown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "MoveDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "MoveDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::MoveLineStart
+// Writing MetadataGetter for method: UnityEngine::TextEditor::MoveLineStart
 // Il2CppName: MoveLineStart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::MoveLineStart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::MoveLineStart)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "MoveLineStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "MoveLineStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::MoveLineEnd
+// Writing MetadataGetter for method: UnityEngine::TextEditor::MoveLineEnd
 // Il2CppName: MoveLineEnd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::MoveLineEnd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::MoveLineEnd)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "MoveLineEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "MoveLineEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::MoveGraphicalLineStart
+// Writing MetadataGetter for method: UnityEngine::TextEditor::MoveGraphicalLineStart
 // Il2CppName: MoveGraphicalLineStart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::MoveGraphicalLineStart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::MoveGraphicalLineStart)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "MoveGraphicalLineStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "MoveGraphicalLineStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::MoveGraphicalLineEnd
+// Writing MetadataGetter for method: UnityEngine::TextEditor::MoveGraphicalLineEnd
 // Il2CppName: MoveGraphicalLineEnd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::MoveGraphicalLineEnd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::MoveGraphicalLineEnd)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "MoveGraphicalLineEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "MoveGraphicalLineEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::MoveTextStart
+// Writing MetadataGetter for method: UnityEngine::TextEditor::MoveTextStart
 // Il2CppName: MoveTextStart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::MoveTextStart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::MoveTextStart)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "MoveTextStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "MoveTextStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::MoveTextEnd
+// Writing MetadataGetter for method: UnityEngine::TextEditor::MoveTextEnd
 // Il2CppName: MoveTextEnd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::MoveTextEnd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::MoveTextEnd)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "MoveTextEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "MoveTextEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::IndexOfEndOfLine
+// Writing MetadataGetter for method: UnityEngine::TextEditor::IndexOfEndOfLine
 // Il2CppName: IndexOfEndOfLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TextEditor::*)(int)>(&TextEditor::IndexOfEndOfLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::TextEditor::*)(int)>(&UnityEngine::TextEditor::IndexOfEndOfLine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "IndexOfEndOfLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "IndexOfEndOfLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TextEditor::MoveParagraphForward
+// Writing MetadataGetter for method: UnityEngine::TextEditor::MoveParagraphForward
 // Il2CppName: MoveParagraphForward
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::MoveParagraphForward)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::MoveParagraphForward)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "MoveParagraphForward", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "MoveParagraphForward", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::MoveParagraphBackward
+// Writing MetadataGetter for method: UnityEngine::TextEditor::MoveParagraphBackward
 // Il2CppName: MoveParagraphBackward
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::MoveParagraphBackward)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::MoveParagraphBackward)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "MoveParagraphBackward", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "MoveParagraphBackward", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::MoveCursorToPosition
+// Writing MetadataGetter for method: UnityEngine::TextEditor::MoveCursorToPosition
 // Il2CppName: MoveCursorToPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)(UnityEngine::Vector2)>(&TextEditor::MoveCursorToPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)(UnityEngine::Vector2)>(&UnityEngine::TextEditor::MoveCursorToPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "MoveCursorToPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "MoveCursorToPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
   }
 };
-// Writing MetadataGetter for method: TextEditor::MoveCursorToPosition_Internal
+// Writing MetadataGetter for method: UnityEngine::TextEditor::MoveCursorToPosition_Internal
 // Il2CppName: MoveCursorToPosition_Internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)(UnityEngine::Vector2, bool)>(&TextEditor::MoveCursorToPosition_Internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)(UnityEngine::Vector2, bool)>(&UnityEngine::TextEditor::MoveCursorToPosition_Internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "MoveCursorToPosition_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "MoveCursorToPosition_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: TextEditor::SelectToPosition
+// Writing MetadataGetter for method: UnityEngine::TextEditor::SelectToPosition
 // Il2CppName: SelectToPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)(UnityEngine::Vector2)>(&TextEditor::SelectToPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)(UnityEngine::Vector2)>(&UnityEngine::TextEditor::SelectToPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "SelectToPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "SelectToPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
   }
 };
-// Writing MetadataGetter for method: TextEditor::SelectLeft
+// Writing MetadataGetter for method: UnityEngine::TextEditor::SelectLeft
 // Il2CppName: SelectLeft
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::SelectLeft)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::SelectLeft)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "SelectLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "SelectLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::SelectRight
+// Writing MetadataGetter for method: UnityEngine::TextEditor::SelectRight
 // Il2CppName: SelectRight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::SelectRight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::SelectRight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "SelectRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "SelectRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::SelectUp
+// Writing MetadataGetter for method: UnityEngine::TextEditor::SelectUp
 // Il2CppName: SelectUp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::SelectUp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::SelectUp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "SelectUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "SelectUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::SelectDown
+// Writing MetadataGetter for method: UnityEngine::TextEditor::SelectDown
 // Il2CppName: SelectDown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::SelectDown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::SelectDown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "SelectDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "SelectDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::SelectTextEnd
+// Writing MetadataGetter for method: UnityEngine::TextEditor::SelectTextEnd
 // Il2CppName: SelectTextEnd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::SelectTextEnd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::SelectTextEnd)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "SelectTextEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "SelectTextEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::SelectTextStart
+// Writing MetadataGetter for method: UnityEngine::TextEditor::SelectTextStart
 // Il2CppName: SelectTextStart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::SelectTextStart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::SelectTextStart)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "SelectTextStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "SelectTextStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::MouseDragSelectsWholeWords
+// Writing MetadataGetter for method: UnityEngine::TextEditor::MouseDragSelectsWholeWords
 // Il2CppName: MouseDragSelectsWholeWords
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)(bool)>(&TextEditor::MouseDragSelectsWholeWords)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)(bool)>(&UnityEngine::TextEditor::MouseDragSelectsWholeWords)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "MouseDragSelectsWholeWords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "MouseDragSelectsWholeWords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: TextEditor::DblClickSnap
+// Writing MetadataGetter for method: UnityEngine::TextEditor::DblClickSnap
 // Il2CppName: DblClickSnap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)(UnityEngine::TextEditor::DblClickSnapping)>(&TextEditor::DblClickSnap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)(UnityEngine::TextEditor::DblClickSnapping)>(&UnityEngine::TextEditor::DblClickSnap)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "DblClickSnap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextEditor::DblClickSnapping>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "DblClickSnap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextEditor::DblClickSnapping>()});
   }
 };
-// Writing MetadataGetter for method: TextEditor::GetGraphicalLineStart
+// Writing MetadataGetter for method: UnityEngine::TextEditor::GetGraphicalLineStart
 // Il2CppName: GetGraphicalLineStart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TextEditor::*)(int)>(&TextEditor::GetGraphicalLineStart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::TextEditor::*)(int)>(&UnityEngine::TextEditor::GetGraphicalLineStart)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "GetGraphicalLineStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "GetGraphicalLineStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TextEditor::GetGraphicalLineEnd
+// Writing MetadataGetter for method: UnityEngine::TextEditor::GetGraphicalLineEnd
 // Il2CppName: GetGraphicalLineEnd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TextEditor::*)(int)>(&TextEditor::GetGraphicalLineEnd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::TextEditor::*)(int)>(&UnityEngine::TextEditor::GetGraphicalLineEnd)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "GetGraphicalLineEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "GetGraphicalLineEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TextEditor::FindNextSeperator
+// Writing MetadataGetter for method: UnityEngine::TextEditor::FindNextSeperator
 // Il2CppName: FindNextSeperator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TextEditor::*)(int)>(&TextEditor::FindNextSeperator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::TextEditor::*)(int)>(&UnityEngine::TextEditor::FindNextSeperator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "FindNextSeperator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "FindNextSeperator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TextEditor::FindPrevSeperator
+// Writing MetadataGetter for method: UnityEngine::TextEditor::FindPrevSeperator
 // Il2CppName: FindPrevSeperator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TextEditor::*)(int)>(&TextEditor::FindPrevSeperator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::TextEditor::*)(int)>(&UnityEngine::TextEditor::FindPrevSeperator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "FindPrevSeperator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "FindPrevSeperator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TextEditor::MoveWordRight
+// Writing MetadataGetter for method: UnityEngine::TextEditor::MoveWordRight
 // Il2CppName: MoveWordRight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::MoveWordRight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::MoveWordRight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "MoveWordRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "MoveWordRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::MoveToStartOfNextWord
+// Writing MetadataGetter for method: UnityEngine::TextEditor::MoveToStartOfNextWord
 // Il2CppName: MoveToStartOfNextWord
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::MoveToStartOfNextWord)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::MoveToStartOfNextWord)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "MoveToStartOfNextWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "MoveToStartOfNextWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::MoveToEndOfPreviousWord
+// Writing MetadataGetter for method: UnityEngine::TextEditor::MoveToEndOfPreviousWord
 // Il2CppName: MoveToEndOfPreviousWord
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::MoveToEndOfPreviousWord)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::MoveToEndOfPreviousWord)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "MoveToEndOfPreviousWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "MoveToEndOfPreviousWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::SelectToStartOfNextWord
+// Writing MetadataGetter for method: UnityEngine::TextEditor::SelectToStartOfNextWord
 // Il2CppName: SelectToStartOfNextWord
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::SelectToStartOfNextWord)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::SelectToStartOfNextWord)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "SelectToStartOfNextWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "SelectToStartOfNextWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::SelectToEndOfPreviousWord
+// Writing MetadataGetter for method: UnityEngine::TextEditor::SelectToEndOfPreviousWord
 // Il2CppName: SelectToEndOfPreviousWord
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::SelectToEndOfPreviousWord)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::SelectToEndOfPreviousWord)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "SelectToEndOfPreviousWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "SelectToEndOfPreviousWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::ClassifyChar
+// Writing MetadataGetter for method: UnityEngine::TextEditor::ClassifyChar
 // Il2CppName: ClassifyChar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextEditor::CharacterType (TextEditor::*)(int)>(&TextEditor::ClassifyChar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextEditor::CharacterType (UnityEngine::TextEditor::*)(int)>(&UnityEngine::TextEditor::ClassifyChar)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "ClassifyChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "ClassifyChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TextEditor::FindStartOfNextWord
+// Writing MetadataGetter for method: UnityEngine::TextEditor::FindStartOfNextWord
 // Il2CppName: FindStartOfNextWord
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TextEditor::*)(int)>(&TextEditor::FindStartOfNextWord)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::TextEditor::*)(int)>(&UnityEngine::TextEditor::FindStartOfNextWord)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "FindStartOfNextWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "FindStartOfNextWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TextEditor::FindEndOfPreviousWord
+// Writing MetadataGetter for method: UnityEngine::TextEditor::FindEndOfPreviousWord
 // Il2CppName: FindEndOfPreviousWord
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TextEditor::*)(int)>(&TextEditor::FindEndOfPreviousWord)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::TextEditor::*)(int)>(&UnityEngine::TextEditor::FindEndOfPreviousWord)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "FindEndOfPreviousWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "FindEndOfPreviousWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TextEditor::MoveWordLeft
+// Writing MetadataGetter for method: UnityEngine::TextEditor::MoveWordLeft
 // Il2CppName: MoveWordLeft
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::MoveWordLeft)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::MoveWordLeft)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "MoveWordLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "MoveWordLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::SelectWordRight
+// Writing MetadataGetter for method: UnityEngine::TextEditor::SelectWordRight
 // Il2CppName: SelectWordRight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::SelectWordRight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::SelectWordRight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "SelectWordRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "SelectWordRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::SelectWordLeft
+// Writing MetadataGetter for method: UnityEngine::TextEditor::SelectWordLeft
 // Il2CppName: SelectWordLeft
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::SelectWordLeft)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::SelectWordLeft)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "SelectWordLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "SelectWordLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::ExpandSelectGraphicalLineStart
+// Writing MetadataGetter for method: UnityEngine::TextEditor::ExpandSelectGraphicalLineStart
 // Il2CppName: ExpandSelectGraphicalLineStart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::ExpandSelectGraphicalLineStart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::ExpandSelectGraphicalLineStart)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "ExpandSelectGraphicalLineStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "ExpandSelectGraphicalLineStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::ExpandSelectGraphicalLineEnd
+// Writing MetadataGetter for method: UnityEngine::TextEditor::ExpandSelectGraphicalLineEnd
 // Il2CppName: ExpandSelectGraphicalLineEnd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::ExpandSelectGraphicalLineEnd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::ExpandSelectGraphicalLineEnd)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "ExpandSelectGraphicalLineEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "ExpandSelectGraphicalLineEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::SelectGraphicalLineStart
+// Writing MetadataGetter for method: UnityEngine::TextEditor::SelectGraphicalLineStart
 // Il2CppName: SelectGraphicalLineStart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::SelectGraphicalLineStart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::SelectGraphicalLineStart)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "SelectGraphicalLineStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "SelectGraphicalLineStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::SelectGraphicalLineEnd
+// Writing MetadataGetter for method: UnityEngine::TextEditor::SelectGraphicalLineEnd
 // Il2CppName: SelectGraphicalLineEnd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::SelectGraphicalLineEnd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::SelectGraphicalLineEnd)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "SelectGraphicalLineEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "SelectGraphicalLineEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::SelectParagraphForward
+// Writing MetadataGetter for method: UnityEngine::TextEditor::SelectParagraphForward
 // Il2CppName: SelectParagraphForward
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::SelectParagraphForward)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::SelectParagraphForward)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "SelectParagraphForward", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "SelectParagraphForward", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::SelectParagraphBackward
+// Writing MetadataGetter for method: UnityEngine::TextEditor::SelectParagraphBackward
 // Il2CppName: SelectParagraphBackward
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::SelectParagraphBackward)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::SelectParagraphBackward)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "SelectParagraphBackward", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "SelectParagraphBackward", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::SelectCurrentWord
+// Writing MetadataGetter for method: UnityEngine::TextEditor::SelectCurrentWord
 // Il2CppName: SelectCurrentWord
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::SelectCurrentWord)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::SelectCurrentWord)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "SelectCurrentWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "SelectCurrentWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::FindEndOfClassification
+// Writing MetadataGetter for method: UnityEngine::TextEditor::FindEndOfClassification
 // Il2CppName: FindEndOfClassification
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TextEditor::*)(int, UnityEngine::TextEditor::Direction)>(&TextEditor::FindEndOfClassification)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::TextEditor::*)(int, UnityEngine::TextEditor::Direction)>(&UnityEngine::TextEditor::FindEndOfClassification)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "FindEndOfClassification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextEditor::Direction>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "FindEndOfClassification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextEditor::Direction>()});
   }
 };
-// Writing MetadataGetter for method: TextEditor::SelectCurrentParagraph
+// Writing MetadataGetter for method: UnityEngine::TextEditor::SelectCurrentParagraph
 // Il2CppName: SelectCurrentParagraph
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::SelectCurrentParagraph)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::SelectCurrentParagraph)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "SelectCurrentParagraph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "SelectCurrentParagraph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::UpdateScrollOffsetIfNeeded
+// Writing MetadataGetter for method: UnityEngine::TextEditor::UpdateScrollOffsetIfNeeded
 // Il2CppName: UpdateScrollOffsetIfNeeded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)(UnityEngine::Event*)>(&TextEditor::UpdateScrollOffsetIfNeeded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)(UnityEngine::Event*)>(&UnityEngine::TextEditor::UpdateScrollOffsetIfNeeded)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "UpdateScrollOffsetIfNeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Event*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "UpdateScrollOffsetIfNeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Event*>()});
   }
 };
-// Writing MetadataGetter for method: TextEditor::UpdateScrollOffset
+// Writing MetadataGetter for method: UnityEngine::TextEditor::UpdateScrollOffset
 // Il2CppName: UpdateScrollOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::UpdateScrollOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::UpdateScrollOffset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "UpdateScrollOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "UpdateScrollOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::DrawCursor
+// Writing MetadataGetter for method: UnityEngine::TextEditor::DrawCursor
 // Il2CppName: DrawCursor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)(::Il2CppString*)>(&TextEditor::DrawCursor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)(::Il2CppString*)>(&UnityEngine::TextEditor::DrawCursor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "DrawCursor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "DrawCursor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TextEditor::PerformOperation
+// Writing MetadataGetter for method: UnityEngine::TextEditor::PerformOperation
 // Il2CppName: PerformOperation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TextEditor::*)(UnityEngine::TextEditor::TextEditOp, bool)>(&TextEditor::PerformOperation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextEditor::*)(UnityEngine::TextEditor::TextEditOp, bool)>(&UnityEngine::TextEditor::PerformOperation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "PerformOperation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextEditor::TextEditOp>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "PerformOperation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextEditor::TextEditOp>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: TextEditor::SaveBackup
+// Writing MetadataGetter for method: UnityEngine::TextEditor::SaveBackup
 // Il2CppName: SaveBackup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::SaveBackup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::SaveBackup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "SaveBackup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "SaveBackup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::Cut
+// Writing MetadataGetter for method: UnityEngine::TextEditor::Cut
 // Il2CppName: Cut
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TextEditor::*)()>(&TextEditor::Cut)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::Cut)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "Cut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "Cut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::Copy
+// Writing MetadataGetter for method: UnityEngine::TextEditor::Copy
 // Il2CppName: Copy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::Copy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::Copy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "Copy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "Copy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::ReplaceNewlinesWithSpaces
+// Writing MetadataGetter for method: UnityEngine::TextEditor::ReplaceNewlinesWithSpaces
 // Il2CppName: ReplaceNewlinesWithSpaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&TextEditor::ReplaceNewlinesWithSpaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&UnityEngine::TextEditor::ReplaceNewlinesWithSpaces)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "ReplaceNewlinesWithSpaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "ReplaceNewlinesWithSpaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TextEditor::Paste
+// Writing MetadataGetter for method: UnityEngine::TextEditor::Paste
 // Il2CppName: Paste
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TextEditor::*)()>(&TextEditor::Paste)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::Paste)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "Paste", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "Paste", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::MapKey
+// Writing MetadataGetter for method: UnityEngine::TextEditor::MapKey
 // Il2CppName: MapKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::TextEditor::TextEditOp)>(&TextEditor::MapKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::TextEditor::TextEditOp)>(&UnityEngine::TextEditor::MapKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "MapKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextEditor::TextEditOp>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "MapKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextEditor::TextEditOp>()});
   }
 };
-// Writing MetadataGetter for method: TextEditor::InitKeyActions
+// Writing MetadataGetter for method: UnityEngine::TextEditor::InitKeyActions
 // Il2CppName: InitKeyActions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::InitKeyActions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::InitKeyActions)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "InitKeyActions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "InitKeyActions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::DetectFocusChange
+// Writing MetadataGetter for method: UnityEngine::TextEditor::DetectFocusChange
 // Il2CppName: DetectFocusChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::DetectFocusChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::DetectFocusChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "DetectFocusChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "DetectFocusChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::OnDetectFocusChange
+// Writing MetadataGetter for method: UnityEngine::TextEditor::OnDetectFocusChange
 // Il2CppName: OnDetectFocusChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::OnDetectFocusChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::OnDetectFocusChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "OnDetectFocusChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "OnDetectFocusChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::OnCursorIndexChange
+// Writing MetadataGetter for method: UnityEngine::TextEditor::OnCursorIndexChange
 // Il2CppName: OnCursorIndexChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::OnCursorIndexChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::OnCursorIndexChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "OnCursorIndexChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "OnCursorIndexChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::OnSelectIndexChange
+// Writing MetadataGetter for method: UnityEngine::TextEditor::OnSelectIndexChange
 // Il2CppName: OnSelectIndexChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::OnSelectIndexChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::OnSelectIndexChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "OnSelectIndexChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "OnSelectIndexChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextEditor::ClampTextIndex
+// Writing MetadataGetter for method: UnityEngine::TextEditor::ClampTextIndex
 // Il2CppName: ClampTextIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)(int&)>(&TextEditor::ClampTextIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)(int&)>(&UnityEngine::TextEditor::ClampTextIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "ClampTextIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "ClampTextIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: TextEditor::EnsureValidCodePointIndex
+// Writing MetadataGetter for method: UnityEngine::TextEditor::EnsureValidCodePointIndex
 // Il2CppName: EnsureValidCodePointIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)(int&)>(&TextEditor::EnsureValidCodePointIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)(int&)>(&UnityEngine::TextEditor::EnsureValidCodePointIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "EnsureValidCodePointIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "EnsureValidCodePointIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: TextEditor::IsValidCodePointIndex
+// Writing MetadataGetter for method: UnityEngine::TextEditor::IsValidCodePointIndex
 // Il2CppName: IsValidCodePointIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TextEditor::*)(int)>(&TextEditor::IsValidCodePointIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextEditor::*)(int)>(&UnityEngine::TextEditor::IsValidCodePointIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "IsValidCodePointIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "IsValidCodePointIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TextEditor::PreviousCodePointIndex
+// Writing MetadataGetter for method: UnityEngine::TextEditor::PreviousCodePointIndex
 // Il2CppName: PreviousCodePointIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TextEditor::*)(int)>(&TextEditor::PreviousCodePointIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::TextEditor::*)(int)>(&UnityEngine::TextEditor::PreviousCodePointIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "PreviousCodePointIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "PreviousCodePointIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TextEditor::NextCodePointIndex
+// Writing MetadataGetter for method: UnityEngine::TextEditor::NextCodePointIndex
 // Il2CppName: NextCodePointIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TextEditor::*)(int)>(&TextEditor::NextCodePointIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::TextEditor::*)(int)>(&UnityEngine::TextEditor::NextCodePointIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), "NextCodePointIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), "NextCodePointIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TextEditor::New_ctor
+// Writing MetadataGetter for method: UnityEngine::TextEditor::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextEditor::*)()>(&TextEditor::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextEditor::*)()>(&UnityEngine::TextEditor::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextEditor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextEditor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

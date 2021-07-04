@@ -107,105 +107,105 @@ namespace System::Net::Http::Headers {
   static_assert(sizeof(AuthenticationHeaderValue) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::AuthenticationHeaderValue*, "System.Net.Http.Headers", "AuthenticationHeaderValue");
-// Writing MetadataGetter for method: AuthenticationHeaderValue::get_Parameter
+// Writing MetadataGetter for method: System::Net::Http::Headers::AuthenticationHeaderValue::get_Parameter
 // Il2CppName: get_Parameter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AuthenticationHeaderValue::*)()>(&AuthenticationHeaderValue::get_Parameter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::AuthenticationHeaderValue::*)()>(&System::Net::Http::Headers::AuthenticationHeaderValue::get_Parameter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticationHeaderValue*), "get_Parameter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::AuthenticationHeaderValue*), "get_Parameter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AuthenticationHeaderValue::set_Parameter
+// Writing MetadataGetter for method: System::Net::Http::Headers::AuthenticationHeaderValue::set_Parameter
 // Il2CppName: set_Parameter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AuthenticationHeaderValue::*)(::Il2CppString*)>(&AuthenticationHeaderValue::set_Parameter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::AuthenticationHeaderValue::*)(::Il2CppString*)>(&System::Net::Http::Headers::AuthenticationHeaderValue::set_Parameter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticationHeaderValue*), "set_Parameter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::AuthenticationHeaderValue*), "set_Parameter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: AuthenticationHeaderValue::get_Scheme
+// Writing MetadataGetter for method: System::Net::Http::Headers::AuthenticationHeaderValue::get_Scheme
 // Il2CppName: get_Scheme
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AuthenticationHeaderValue::*)()>(&AuthenticationHeaderValue::get_Scheme)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::AuthenticationHeaderValue::*)()>(&System::Net::Http::Headers::AuthenticationHeaderValue::get_Scheme)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticationHeaderValue*), "get_Scheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::AuthenticationHeaderValue*), "get_Scheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AuthenticationHeaderValue::set_Scheme
+// Writing MetadataGetter for method: System::Net::Http::Headers::AuthenticationHeaderValue::set_Scheme
 // Il2CppName: set_Scheme
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AuthenticationHeaderValue::*)(::Il2CppString*)>(&AuthenticationHeaderValue::set_Scheme)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::AuthenticationHeaderValue::*)(::Il2CppString*)>(&System::Net::Http::Headers::AuthenticationHeaderValue::set_Scheme)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticationHeaderValue*), "set_Scheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::AuthenticationHeaderValue*), "set_Scheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: AuthenticationHeaderValue::System_ICloneable_Clone
+// Writing MetadataGetter for method: System::Net::Http::Headers::AuthenticationHeaderValue::System_ICloneable_Clone
 // Il2CppName: System.ICloneable.Clone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (AuthenticationHeaderValue::*)()>(&AuthenticationHeaderValue::System_ICloneable_Clone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Net::Http::Headers::AuthenticationHeaderValue::*)()>(&System::Net::Http::Headers::AuthenticationHeaderValue::System_ICloneable_Clone)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticationHeaderValue*), "System.ICloneable.Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::AuthenticationHeaderValue*), "System.ICloneable.Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AuthenticationHeaderValue::TryParse
+// Writing MetadataGetter for method: System::Net::Http::Headers::AuthenticationHeaderValue::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Net::Http::Headers::AuthenticationHeaderValue*&)>(&AuthenticationHeaderValue::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Net::Http::Headers::AuthenticationHeaderValue*&)>(&System::Net::Http::Headers::AuthenticationHeaderValue::TryParse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticationHeaderValue*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::AuthenticationHeaderValue*&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::AuthenticationHeaderValue*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::AuthenticationHeaderValue*&>()});
   }
 };
-// Writing MetadataGetter for method: AuthenticationHeaderValue::TryParse
+// Writing MetadataGetter for method: System::Net::Http::Headers::AuthenticationHeaderValue::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int, System::Collections::Generic::List_1<System::Net::Http::Headers::AuthenticationHeaderValue*>*&)>(&AuthenticationHeaderValue::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int, System::Collections::Generic::List_1<System::Net::Http::Headers::AuthenticationHeaderValue*>*&)>(&System::Net::Http::Headers::AuthenticationHeaderValue::TryParse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticationHeaderValue*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Net::Http::Headers::AuthenticationHeaderValue*>*&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::AuthenticationHeaderValue*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Net::Http::Headers::AuthenticationHeaderValue*>*&>()});
   }
 };
-// Writing MetadataGetter for method: AuthenticationHeaderValue::TryParseElement
+// Writing MetadataGetter for method: System::Net::Http::Headers::AuthenticationHeaderValue::TryParseElement
 // Il2CppName: TryParseElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Net::Http::Headers::Lexer*, System::Net::Http::Headers::AuthenticationHeaderValue*&, System::Net::Http::Headers::Token&)>(&AuthenticationHeaderValue::TryParseElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Net::Http::Headers::Lexer*, System::Net::Http::Headers::AuthenticationHeaderValue*&, System::Net::Http::Headers::Token&)>(&System::Net::Http::Headers::AuthenticationHeaderValue::TryParseElement)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticationHeaderValue*), "TryParseElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Lexer*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::AuthenticationHeaderValue*&>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::AuthenticationHeaderValue*), "TryParseElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Lexer*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::AuthenticationHeaderValue*&>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token&>()});
   }
 };
-// Writing MetadataGetter for method: AuthenticationHeaderValue::New_ctor
+// Writing MetadataGetter for method: System::Net::Http::Headers::AuthenticationHeaderValue::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AuthenticationHeaderValue::*)()>(&AuthenticationHeaderValue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::AuthenticationHeaderValue::*)()>(&System::Net::Http::Headers::AuthenticationHeaderValue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticationHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::AuthenticationHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AuthenticationHeaderValue::*)()>(&AuthenticationHeaderValue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::AuthenticationHeaderValue::*)()>(&System::Net::Http::Headers::AuthenticationHeaderValue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticationHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::AuthenticationHeaderValue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AuthenticationHeaderValue::Equals
+// Writing MetadataGetter for method: System::Net::Http::Headers::AuthenticationHeaderValue::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AuthenticationHeaderValue::*)(::Il2CppObject*)>(&AuthenticationHeaderValue::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::AuthenticationHeaderValue::*)(::Il2CppObject*)>(&System::Net::Http::Headers::AuthenticationHeaderValue::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticationHeaderValue*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::AuthenticationHeaderValue*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: AuthenticationHeaderValue::GetHashCode
+// Writing MetadataGetter for method: System::Net::Http::Headers::AuthenticationHeaderValue::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AuthenticationHeaderValue::*)()>(&AuthenticationHeaderValue::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Http::Headers::AuthenticationHeaderValue::*)()>(&System::Net::Http::Headers::AuthenticationHeaderValue::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticationHeaderValue*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::AuthenticationHeaderValue*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AuthenticationHeaderValue::ToString
+// Writing MetadataGetter for method: System::Net::Http::Headers::AuthenticationHeaderValue::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AuthenticationHeaderValue::*)()>(&AuthenticationHeaderValue::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::AuthenticationHeaderValue::*)()>(&System::Net::Http::Headers::AuthenticationHeaderValue::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticationHeaderValue*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::AuthenticationHeaderValue*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

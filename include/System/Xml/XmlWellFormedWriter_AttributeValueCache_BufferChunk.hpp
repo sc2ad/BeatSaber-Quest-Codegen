@@ -51,17 +51,17 @@ namespace System::Xml {
   static_assert(sizeof(XmlWellFormedWriter::AttributeValueCache::BufferChunk) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::AttributeValueCache::BufferChunk*, "System.Xml", "XmlWellFormedWriter/AttributeValueCache/BufferChunk");
-// Writing MetadataGetter for method: XmlWellFormedWriter::AttributeValueCache::BufferChunk::New_ctor
+// Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::AttributeValueCache::BufferChunk::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::AttributeValueCache::BufferChunk::*)(::Array<::Il2CppChar>*, int, int)>(&XmlWellFormedWriter::AttributeValueCache::BufferChunk::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::AttributeValueCache::BufferChunk::*)(::Array<::Il2CppChar>*, int, int)>(&System::Xml::XmlWellFormedWriter::AttributeValueCache::BufferChunk::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter::AttributeValueCache::BufferChunk*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter::AttributeValueCache::BufferChunk*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlWellFormedWriter::AttributeValueCache::BufferChunk::*)(::Array<::Il2CppChar>*, int, int)>(&XmlWellFormedWriter::AttributeValueCache::BufferChunk::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::AttributeValueCache::BufferChunk::*)(::Array<::Il2CppChar>*, int, int)>(&System::Xml::XmlWellFormedWriter::AttributeValueCache::BufferChunk::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlWellFormedWriter::AttributeValueCache::BufferChunk*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter::AttributeValueCache::BufferChunk*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };

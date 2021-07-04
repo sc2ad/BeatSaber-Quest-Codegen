@@ -97,89 +97,89 @@ namespace Org::BouncyCastle::Crypto {
   static_assert(sizeof(BufferedStreamCipher) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::BufferedStreamCipher*, "Org.BouncyCastle.Crypto", "BufferedStreamCipher");
-// Writing MetadataGetter for method: BufferedStreamCipher::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::BufferedStreamCipher::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BufferedStreamCipher::*)(Org::BouncyCastle::Crypto::IStreamCipher*)>(&BufferedStreamCipher::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::BufferedStreamCipher::*)(Org::BouncyCastle::Crypto::IStreamCipher*)>(&Org::BouncyCastle::Crypto::BufferedStreamCipher::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BufferedStreamCipher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IStreamCipher*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::BufferedStreamCipher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IStreamCipher*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BufferedStreamCipher::*)(Org::BouncyCastle::Crypto::IStreamCipher*)>(&BufferedStreamCipher::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::BufferedStreamCipher::*)(Org::BouncyCastle::Crypto::IStreamCipher*)>(&Org::BouncyCastle::Crypto::BufferedStreamCipher::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BufferedStreamCipher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IStreamCipher*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::BufferedStreamCipher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IStreamCipher*>()});
   }
 };
-// Writing MetadataGetter for method: BufferedStreamCipher::Init
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::BufferedStreamCipher::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BufferedStreamCipher::*)(bool, Org::BouncyCastle::Crypto::ICipherParameters*)>(&BufferedStreamCipher::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::BufferedStreamCipher::*)(bool, Org::BouncyCastle::Crypto::ICipherParameters*)>(&Org::BouncyCastle::Crypto::BufferedStreamCipher::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BufferedStreamCipher*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::ICipherParameters*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::BufferedStreamCipher*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::ICipherParameters*>()});
   }
 };
-// Writing MetadataGetter for method: BufferedStreamCipher::GetBlockSize
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::BufferedStreamCipher::GetBlockSize
 // Il2CppName: GetBlockSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BufferedStreamCipher::*)()>(&BufferedStreamCipher::GetBlockSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::BufferedStreamCipher::*)()>(&Org::BouncyCastle::Crypto::BufferedStreamCipher::GetBlockSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BufferedStreamCipher*), "GetBlockSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::BufferedStreamCipher*), "GetBlockSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BufferedStreamCipher::GetOutputSize
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::BufferedStreamCipher::GetOutputSize
 // Il2CppName: GetOutputSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BufferedStreamCipher::*)(int)>(&BufferedStreamCipher::GetOutputSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::BufferedStreamCipher::*)(int)>(&Org::BouncyCastle::Crypto::BufferedStreamCipher::GetOutputSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BufferedStreamCipher*), "GetOutputSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::BufferedStreamCipher*), "GetOutputSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: BufferedStreamCipher::GetUpdateOutputSize
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::BufferedStreamCipher::GetUpdateOutputSize
 // Il2CppName: GetUpdateOutputSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BufferedStreamCipher::*)(int)>(&BufferedStreamCipher::GetUpdateOutputSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::BufferedStreamCipher::*)(int)>(&Org::BouncyCastle::Crypto::BufferedStreamCipher::GetUpdateOutputSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BufferedStreamCipher*), "GetUpdateOutputSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::BufferedStreamCipher*), "GetUpdateOutputSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: BufferedStreamCipher::ProcessBytes
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::BufferedStreamCipher::ProcessBytes
 // Il2CppName: ProcessBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (BufferedStreamCipher::*)(::Array<uint8_t>*, int, int)>(&BufferedStreamCipher::ProcessBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::BufferedStreamCipher::*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Crypto::BufferedStreamCipher::ProcessBytes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BufferedStreamCipher*), "ProcessBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::BufferedStreamCipher*), "ProcessBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: BufferedStreamCipher::ProcessBytes
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::BufferedStreamCipher::ProcessBytes
 // Il2CppName: ProcessBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BufferedStreamCipher::*)(::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&BufferedStreamCipher::ProcessBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::BufferedStreamCipher::*)(::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::BufferedStreamCipher::ProcessBytes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BufferedStreamCipher*), "ProcessBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::BufferedStreamCipher*), "ProcessBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: BufferedStreamCipher::DoFinal
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::BufferedStreamCipher::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (BufferedStreamCipher::*)()>(&BufferedStreamCipher::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::BufferedStreamCipher::*)()>(&Org::BouncyCastle::Crypto::BufferedStreamCipher::DoFinal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BufferedStreamCipher*), "DoFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::BufferedStreamCipher*), "DoFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BufferedStreamCipher::DoFinal
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::BufferedStreamCipher::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (BufferedStreamCipher::*)(::Array<uint8_t>*, int, int)>(&BufferedStreamCipher::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::BufferedStreamCipher::*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Crypto::BufferedStreamCipher::DoFinal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BufferedStreamCipher*), "DoFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::BufferedStreamCipher*), "DoFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: BufferedStreamCipher::Reset
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::BufferedStreamCipher::Reset
 // Il2CppName: Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BufferedStreamCipher::*)()>(&BufferedStreamCipher::Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::BufferedStreamCipher::*)()>(&Org::BouncyCastle::Crypto::BufferedStreamCipher::Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BufferedStreamCipher*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::BufferedStreamCipher*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -67,49 +67,49 @@ namespace JetBrains::Annotations {
   static_assert(sizeof(AspChildControlTypeAttribute) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspChildControlTypeAttribute*, "JetBrains.Annotations", "AspChildControlTypeAttribute");
-// Writing MetadataGetter for method: AspChildControlTypeAttribute::New_ctor
+// Writing MetadataGetter for method: JetBrains::Annotations::AspChildControlTypeAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspChildControlTypeAttribute::*)(::Il2CppString*, System::Type*)>(&AspChildControlTypeAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::AspChildControlTypeAttribute::*)(::Il2CppString*, System::Type*)>(&JetBrains::Annotations::AspChildControlTypeAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AspChildControlTypeAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspChildControlTypeAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspChildControlTypeAttribute::*)(::Il2CppString*, System::Type*)>(&AspChildControlTypeAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::AspChildControlTypeAttribute::*)(::Il2CppString*, System::Type*)>(&JetBrains::Annotations::AspChildControlTypeAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AspChildControlTypeAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspChildControlTypeAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: AspChildControlTypeAttribute::get_TagName
+// Writing MetadataGetter for method: JetBrains::Annotations::AspChildControlTypeAttribute::get_TagName
 // Il2CppName: get_TagName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AspChildControlTypeAttribute::*)()>(&AspChildControlTypeAttribute::get_TagName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::AspChildControlTypeAttribute::*)()>(&JetBrains::Annotations::AspChildControlTypeAttribute::get_TagName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AspChildControlTypeAttribute*), "get_TagName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspChildControlTypeAttribute*), "get_TagName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AspChildControlTypeAttribute::set_TagName
+// Writing MetadataGetter for method: JetBrains::Annotations::AspChildControlTypeAttribute::set_TagName
 // Il2CppName: set_TagName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspChildControlTypeAttribute::*)(::Il2CppString*)>(&AspChildControlTypeAttribute::set_TagName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::AspChildControlTypeAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::AspChildControlTypeAttribute::set_TagName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AspChildControlTypeAttribute*), "set_TagName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspChildControlTypeAttribute*), "set_TagName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: AspChildControlTypeAttribute::get_ControlType
+// Writing MetadataGetter for method: JetBrains::Annotations::AspChildControlTypeAttribute::get_ControlType
 // Il2CppName: get_ControlType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (AspChildControlTypeAttribute::*)()>(&AspChildControlTypeAttribute::get_ControlType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (JetBrains::Annotations::AspChildControlTypeAttribute::*)()>(&JetBrains::Annotations::AspChildControlTypeAttribute::get_ControlType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AspChildControlTypeAttribute*), "get_ControlType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspChildControlTypeAttribute*), "get_ControlType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AspChildControlTypeAttribute::set_ControlType
+// Writing MetadataGetter for method: JetBrains::Annotations::AspChildControlTypeAttribute::set_ControlType
 // Il2CppName: set_ControlType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AspChildControlTypeAttribute::*)(System::Type*)>(&AspChildControlTypeAttribute::set_ControlType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::AspChildControlTypeAttribute::*)(System::Type*)>(&JetBrains::Annotations::AspChildControlTypeAttribute::set_ControlType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AspChildControlTypeAttribute*), "set_ControlType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspChildControlTypeAttribute*), "set_ControlType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };

@@ -67,49 +67,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(DeactivateOnInputFocusCapture) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DeactivateOnInputFocusCapture*, "", "DeactivateOnInputFocusCapture");
-// Writing MetadataGetter for method: DeactivateOnInputFocusCapture::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::DeactivateOnInputFocusCapture::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeactivateOnInputFocusCapture::*)()>(&DeactivateOnInputFocusCapture::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DeactivateOnInputFocusCapture::*)()>(&GlobalNamespace::DeactivateOnInputFocusCapture::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeactivateOnInputFocusCapture*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DeactivateOnInputFocusCapture*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DeactivateOnInputFocusCapture::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::DeactivateOnInputFocusCapture::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeactivateOnInputFocusCapture::*)()>(&DeactivateOnInputFocusCapture::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DeactivateOnInputFocusCapture::*)()>(&GlobalNamespace::DeactivateOnInputFocusCapture::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeactivateOnInputFocusCapture*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DeactivateOnInputFocusCapture*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DeactivateOnInputFocusCapture::HandleInputFocusCaptured
+// Writing MetadataGetter for method: GlobalNamespace::DeactivateOnInputFocusCapture::HandleInputFocusCaptured
 // Il2CppName: HandleInputFocusCaptured
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeactivateOnInputFocusCapture::*)()>(&DeactivateOnInputFocusCapture::HandleInputFocusCaptured)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DeactivateOnInputFocusCapture::*)()>(&GlobalNamespace::DeactivateOnInputFocusCapture::HandleInputFocusCaptured)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeactivateOnInputFocusCapture*), "HandleInputFocusCaptured", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DeactivateOnInputFocusCapture*), "HandleInputFocusCaptured", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DeactivateOnInputFocusCapture::HandleInputFocusReleased
+// Writing MetadataGetter for method: GlobalNamespace::DeactivateOnInputFocusCapture::HandleInputFocusReleased
 // Il2CppName: HandleInputFocusReleased
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeactivateOnInputFocusCapture::*)()>(&DeactivateOnInputFocusCapture::HandleInputFocusReleased)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DeactivateOnInputFocusCapture::*)()>(&GlobalNamespace::DeactivateOnInputFocusCapture::HandleInputFocusReleased)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeactivateOnInputFocusCapture*), "HandleInputFocusReleased", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DeactivateOnInputFocusCapture*), "HandleInputFocusReleased", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DeactivateOnInputFocusCapture::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::DeactivateOnInputFocusCapture::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeactivateOnInputFocusCapture::*)()>(&DeactivateOnInputFocusCapture::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DeactivateOnInputFocusCapture::*)()>(&GlobalNamespace::DeactivateOnInputFocusCapture::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeactivateOnInputFocusCapture*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DeactivateOnInputFocusCapture*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DeactivateOnInputFocusCapture::*)()>(&DeactivateOnInputFocusCapture::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DeactivateOnInputFocusCapture::*)()>(&GlobalNamespace::DeactivateOnInputFocusCapture::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DeactivateOnInputFocusCapture*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DeactivateOnInputFocusCapture*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

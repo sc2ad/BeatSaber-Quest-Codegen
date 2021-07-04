@@ -73,65 +73,65 @@ namespace GlobalNamespace {
   static_assert(sizeof(SongController) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongController*, "", "SongController");
-// Writing MetadataGetter for method: SongController::add_songDidFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::SongController::add_songDidFinishEvent
 // Il2CppName: add_songDidFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongController::*)(System::Action*)>(&SongController::add_songDidFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongController::*)(System::Action*)>(&GlobalNamespace::SongController::add_songDidFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongController*), "add_songDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongController*), "add_songDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: SongController::remove_songDidFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::SongController::remove_songDidFinishEvent
 // Il2CppName: remove_songDidFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongController::*)(System::Action*)>(&SongController::remove_songDidFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongController::*)(System::Action*)>(&GlobalNamespace::SongController::remove_songDidFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongController*), "remove_songDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongController*), "remove_songDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: SongController::SendSongDidFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::SongController::SendSongDidFinishEvent
 // Il2CppName: SendSongDidFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongController::*)()>(&SongController::SendSongDidFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongController::*)()>(&GlobalNamespace::SongController::SendSongDidFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongController*), "SendSongDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongController*), "SendSongDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SongController::StopSong
+// Writing MetadataGetter for method: GlobalNamespace::SongController::StopSong
 // Il2CppName: StopSong
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongController::*)()>(&SongController::StopSong)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongController::*)()>(&GlobalNamespace::SongController::StopSong)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongController*), "StopSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongController*), "StopSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SongController::PauseSong
+// Writing MetadataGetter for method: GlobalNamespace::SongController::PauseSong
 // Il2CppName: PauseSong
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongController::*)()>(&SongController::PauseSong)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongController::*)()>(&GlobalNamespace::SongController::PauseSong)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongController*), "PauseSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongController*), "PauseSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SongController::ResumeSong
+// Writing MetadataGetter for method: GlobalNamespace::SongController::ResumeSong
 // Il2CppName: ResumeSong
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongController::*)()>(&SongController::ResumeSong)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongController::*)()>(&GlobalNamespace::SongController::ResumeSong)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongController*), "ResumeSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongController*), "ResumeSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SongController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::SongController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongController::*)()>(&SongController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongController::*)()>(&GlobalNamespace::SongController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongController::*)()>(&SongController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongController::*)()>(&GlobalNamespace::SongController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

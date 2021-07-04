@@ -72,91 +72,91 @@ namespace UnityEngine::UI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutUtility*, "UnityEngine.UI", "LayoutUtility");
-// Writing MetadataGetter for method: LayoutUtility::GetMinSize
+// Writing MetadataGetter for method: UnityEngine::UI::LayoutUtility::GetMinSize
 // Il2CppName: GetMinSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::RectTransform*, int)>(&LayoutUtility::GetMinSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::RectTransform*, int)>(&UnityEngine::UI::LayoutUtility::GetMinSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LayoutUtility*), "GetMinSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutUtility*), "GetMinSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LayoutUtility::GetPreferredSize
+// Writing MetadataGetter for method: UnityEngine::UI::LayoutUtility::GetPreferredSize
 // Il2CppName: GetPreferredSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::RectTransform*, int)>(&LayoutUtility::GetPreferredSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::RectTransform*, int)>(&UnityEngine::UI::LayoutUtility::GetPreferredSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LayoutUtility*), "GetPreferredSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutUtility*), "GetPreferredSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LayoutUtility::GetFlexibleSize
+// Writing MetadataGetter for method: UnityEngine::UI::LayoutUtility::GetFlexibleSize
 // Il2CppName: GetFlexibleSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::RectTransform*, int)>(&LayoutUtility::GetFlexibleSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::RectTransform*, int)>(&UnityEngine::UI::LayoutUtility::GetFlexibleSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LayoutUtility*), "GetFlexibleSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutUtility*), "GetFlexibleSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LayoutUtility::GetMinWidth
+// Writing MetadataGetter for method: UnityEngine::UI::LayoutUtility::GetMinWidth
 // Il2CppName: GetMinWidth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::RectTransform*)>(&LayoutUtility::GetMinWidth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::RectTransform*)>(&UnityEngine::UI::LayoutUtility::GetMinWidth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LayoutUtility*), "GetMinWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutUtility*), "GetMinWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
   }
 };
-// Writing MetadataGetter for method: LayoutUtility::GetPreferredWidth
+// Writing MetadataGetter for method: UnityEngine::UI::LayoutUtility::GetPreferredWidth
 // Il2CppName: GetPreferredWidth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::RectTransform*)>(&LayoutUtility::GetPreferredWidth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::RectTransform*)>(&UnityEngine::UI::LayoutUtility::GetPreferredWidth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LayoutUtility*), "GetPreferredWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutUtility*), "GetPreferredWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
   }
 };
-// Writing MetadataGetter for method: LayoutUtility::GetFlexibleWidth
+// Writing MetadataGetter for method: UnityEngine::UI::LayoutUtility::GetFlexibleWidth
 // Il2CppName: GetFlexibleWidth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::RectTransform*)>(&LayoutUtility::GetFlexibleWidth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::RectTransform*)>(&UnityEngine::UI::LayoutUtility::GetFlexibleWidth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LayoutUtility*), "GetFlexibleWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutUtility*), "GetFlexibleWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
   }
 };
-// Writing MetadataGetter for method: LayoutUtility::GetMinHeight
+// Writing MetadataGetter for method: UnityEngine::UI::LayoutUtility::GetMinHeight
 // Il2CppName: GetMinHeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::RectTransform*)>(&LayoutUtility::GetMinHeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::RectTransform*)>(&UnityEngine::UI::LayoutUtility::GetMinHeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LayoutUtility*), "GetMinHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutUtility*), "GetMinHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
   }
 };
-// Writing MetadataGetter for method: LayoutUtility::GetPreferredHeight
+// Writing MetadataGetter for method: UnityEngine::UI::LayoutUtility::GetPreferredHeight
 // Il2CppName: GetPreferredHeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::RectTransform*)>(&LayoutUtility::GetPreferredHeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::RectTransform*)>(&UnityEngine::UI::LayoutUtility::GetPreferredHeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LayoutUtility*), "GetPreferredHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutUtility*), "GetPreferredHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
   }
 };
-// Writing MetadataGetter for method: LayoutUtility::GetFlexibleHeight
+// Writing MetadataGetter for method: UnityEngine::UI::LayoutUtility::GetFlexibleHeight
 // Il2CppName: GetFlexibleHeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::RectTransform*)>(&LayoutUtility::GetFlexibleHeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::RectTransform*)>(&UnityEngine::UI::LayoutUtility::GetFlexibleHeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LayoutUtility*), "GetFlexibleHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutUtility*), "GetFlexibleHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
   }
 };
-// Writing MetadataGetter for method: LayoutUtility::GetLayoutProperty
+// Writing MetadataGetter for method: UnityEngine::UI::LayoutUtility::GetLayoutProperty
 // Il2CppName: GetLayoutProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::RectTransform*, System::Func_2<UnityEngine::UI::ILayoutElement*, float>*, float)>(&LayoutUtility::GetLayoutProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::RectTransform*, System::Func_2<UnityEngine::UI::ILayoutElement*, float>*, float)>(&UnityEngine::UI::LayoutUtility::GetLayoutProperty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LayoutUtility*), "GetLayoutProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_2<UnityEngine::UI::ILayoutElement*, float>*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutUtility*), "GetLayoutProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_2<UnityEngine::UI::ILayoutElement*, float>*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: LayoutUtility::GetLayoutProperty
+// Writing MetadataGetter for method: UnityEngine::UI::LayoutUtility::GetLayoutProperty
 // Il2CppName: GetLayoutProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::RectTransform*, System::Func_2<UnityEngine::UI::ILayoutElement*, float>*, float, UnityEngine::UI::ILayoutElement*&)>(&LayoutUtility::GetLayoutProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::RectTransform*, System::Func_2<UnityEngine::UI::ILayoutElement*, float>*, float, UnityEngine::UI::ILayoutElement*&)>(&UnityEngine::UI::LayoutUtility::GetLayoutProperty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LayoutUtility*), "GetLayoutProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_2<UnityEngine::UI::ILayoutElement*, float>*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ILayoutElement*&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutUtility*), "GetLayoutProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_2<UnityEngine::UI::ILayoutElement*, float>*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ILayoutElement*&>()});
   }
 };

@@ -75,49 +75,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(CommandBufferOwners) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CommandBufferOwners*, "", "CommandBufferOwners");
-// Writing MetadataGetter for method: CommandBufferOwners::AddOwner
+// Writing MetadataGetter for method: GlobalNamespace::CommandBufferOwners::AddOwner
 // Il2CppName: AddOwner
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CommandBufferOwners::*)(UnityEngine::Object*)>(&CommandBufferOwners::AddOwner)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CommandBufferOwners::*)(UnityEngine::Object*)>(&GlobalNamespace::CommandBufferOwners::AddOwner)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CommandBufferOwners*), "AddOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferOwners*), "AddOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
   }
 };
-// Writing MetadataGetter for method: CommandBufferOwners::RemoveOwner
+// Writing MetadataGetter for method: GlobalNamespace::CommandBufferOwners::RemoveOwner
 // Il2CppName: RemoveOwner
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CommandBufferOwners::*)(UnityEngine::Object*)>(&CommandBufferOwners::RemoveOwner)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CommandBufferOwners::*)(UnityEngine::Object*)>(&GlobalNamespace::CommandBufferOwners::RemoveOwner)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CommandBufferOwners*), "RemoveOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferOwners*), "RemoveOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
   }
 };
-// Writing MetadataGetter for method: CommandBufferOwners::ContainsOwner
+// Writing MetadataGetter for method: GlobalNamespace::CommandBufferOwners::ContainsOwner
 // Il2CppName: ContainsOwner
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CommandBufferOwners::*)(UnityEngine::Object*)>(&CommandBufferOwners::ContainsOwner)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::CommandBufferOwners::*)(UnityEngine::Object*)>(&GlobalNamespace::CommandBufferOwners::ContainsOwner)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CommandBufferOwners*), "ContainsOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferOwners*), "ContainsOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
   }
 };
-// Writing MetadataGetter for method: CommandBufferOwners::get_NumberOfOwners
+// Writing MetadataGetter for method: GlobalNamespace::CommandBufferOwners::get_NumberOfOwners
 // Il2CppName: get_NumberOfOwners
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CommandBufferOwners::*)()>(&CommandBufferOwners::get_NumberOfOwners)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::CommandBufferOwners::*)()>(&GlobalNamespace::CommandBufferOwners::get_NumberOfOwners)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CommandBufferOwners*), "get_NumberOfOwners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferOwners*), "get_NumberOfOwners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CommandBufferOwners::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::CommandBufferOwners::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CommandBufferOwners::*)()>(&CommandBufferOwners::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CommandBufferOwners::*)()>(&GlobalNamespace::CommandBufferOwners::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CommandBufferOwners*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferOwners*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CommandBufferOwners::*)()>(&CommandBufferOwners::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CommandBufferOwners::*)()>(&GlobalNamespace::CommandBufferOwners::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CommandBufferOwners*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferOwners*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

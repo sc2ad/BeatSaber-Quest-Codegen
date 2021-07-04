@@ -117,33 +117,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(SpawnLaserAnimation) == 0x49);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnLaserAnimation*, "", "SpawnLaserAnimation");
-// Writing MetadataGetter for method: SpawnLaserAnimation::InitIfNeeded
+// Writing MetadataGetter for method: GlobalNamespace::SpawnLaserAnimation::InitIfNeeded
 // Il2CppName: InitIfNeeded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpawnLaserAnimation::*)()>(&SpawnLaserAnimation::InitIfNeeded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SpawnLaserAnimation::*)()>(&GlobalNamespace::SpawnLaserAnimation::InitIfNeeded)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SpawnLaserAnimation*), "InitIfNeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpawnLaserAnimation*), "InitIfNeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SpawnLaserAnimation::LateUpdate
+// Writing MetadataGetter for method: GlobalNamespace::SpawnLaserAnimation::LateUpdate
 // Il2CppName: LateUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpawnLaserAnimation::*)()>(&SpawnLaserAnimation::LateUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SpawnLaserAnimation::*)()>(&GlobalNamespace::SpawnLaserAnimation::LateUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SpawnLaserAnimation*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpawnLaserAnimation*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SpawnLaserAnimation::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::SpawnLaserAnimation::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpawnLaserAnimation::*)()>(&SpawnLaserAnimation::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SpawnLaserAnimation::*)()>(&GlobalNamespace::SpawnLaserAnimation::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SpawnLaserAnimation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpawnLaserAnimation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpawnLaserAnimation::*)()>(&SpawnLaserAnimation::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SpawnLaserAnimation::*)()>(&GlobalNamespace::SpawnLaserAnimation::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SpawnLaserAnimation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpawnLaserAnimation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

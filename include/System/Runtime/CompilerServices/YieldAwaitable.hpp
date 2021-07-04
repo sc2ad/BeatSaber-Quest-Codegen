@@ -35,11 +35,11 @@ namespace System::Runtime::CompilerServices {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::YieldAwaitable, "System.Runtime.CompilerServices", "YieldAwaitable");
-// Writing MetadataGetter for method: YieldAwaitable::GetAwaiter
+// Writing MetadataGetter for method: System::Runtime::CompilerServices::YieldAwaitable::GetAwaiter
 // Il2CppName: GetAwaiter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter (YieldAwaitable::*)()>(&YieldAwaitable::GetAwaiter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter (System::Runtime::CompilerServices::YieldAwaitable::*)()>(&System::Runtime::CompilerServices::YieldAwaitable::GetAwaiter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(YieldAwaitable), "GetAwaiter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::YieldAwaitable), "GetAwaiter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

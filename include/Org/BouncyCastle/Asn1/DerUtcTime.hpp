@@ -90,89 +90,89 @@ namespace Org::BouncyCastle::Asn1 {
   static_assert(sizeof(DerUtcTime) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerUtcTime*, "Org.BouncyCastle.Asn1", "DerUtcTime");
-// Writing MetadataGetter for method: DerUtcTime::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerUtcTime::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerUtcTime::*)(::Array<uint8_t>*)>(&DerUtcTime::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::DerUtcTime::*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Asn1::DerUtcTime::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerUtcTime*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerUtcTime*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerUtcTime::*)(::Array<uint8_t>*)>(&DerUtcTime::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::DerUtcTime::*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Asn1::DerUtcTime::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerUtcTime*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerUtcTime*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: DerUtcTime::ToAdjustedDateTime
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerUtcTime::ToAdjustedDateTime
 // Il2CppName: ToAdjustedDateTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (DerUtcTime::*)()>(&DerUtcTime::ToAdjustedDateTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (Org::BouncyCastle::Asn1::DerUtcTime::*)()>(&Org::BouncyCastle::Asn1::DerUtcTime::ToAdjustedDateTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerUtcTime*), "ToAdjustedDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerUtcTime*), "ToAdjustedDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DerUtcTime::ParseDateString
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerUtcTime::ParseDateString
 // Il2CppName: ParseDateString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (DerUtcTime::*)(::Il2CppString*, ::Il2CppString*)>(&DerUtcTime::ParseDateString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (Org::BouncyCastle::Asn1::DerUtcTime::*)(::Il2CppString*, ::Il2CppString*)>(&Org::BouncyCastle::Asn1::DerUtcTime::ParseDateString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerUtcTime*), "ParseDateString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerUtcTime*), "ParseDateString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: DerUtcTime::get_TimeString
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerUtcTime::get_TimeString
 // Il2CppName: get_TimeString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DerUtcTime::*)()>(&DerUtcTime::get_TimeString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Asn1::DerUtcTime::*)()>(&Org::BouncyCastle::Asn1::DerUtcTime::get_TimeString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerUtcTime*), "get_TimeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerUtcTime*), "get_TimeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DerUtcTime::get_AdjustedTimeString
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerUtcTime::get_AdjustedTimeString
 // Il2CppName: get_AdjustedTimeString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DerUtcTime::*)()>(&DerUtcTime::get_AdjustedTimeString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Asn1::DerUtcTime::*)()>(&Org::BouncyCastle::Asn1::DerUtcTime::get_AdjustedTimeString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerUtcTime*), "get_AdjustedTimeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerUtcTime*), "get_AdjustedTimeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DerUtcTime::GetOctets
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerUtcTime::GetOctets
 // Il2CppName: GetOctets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (DerUtcTime::*)()>(&DerUtcTime::GetOctets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Asn1::DerUtcTime::*)()>(&Org::BouncyCastle::Asn1::DerUtcTime::GetOctets)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerUtcTime*), "GetOctets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerUtcTime*), "GetOctets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DerUtcTime::Encode
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerUtcTime::Encode
 // Il2CppName: Encode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DerUtcTime::*)(Org::BouncyCastle::Asn1::DerOutputStream*)>(&DerUtcTime::Encode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::DerUtcTime::*)(Org::BouncyCastle::Asn1::DerOutputStream*)>(&Org::BouncyCastle::Asn1::DerUtcTime::Encode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerUtcTime*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerOutputStream*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerUtcTime*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerOutputStream*>()});
   }
 };
-// Writing MetadataGetter for method: DerUtcTime::Asn1Equals
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerUtcTime::Asn1Equals
 // Il2CppName: Asn1Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DerUtcTime::*)(Org::BouncyCastle::Asn1::Asn1Object*)>(&DerUtcTime::Asn1Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Asn1::DerUtcTime::*)(Org::BouncyCastle::Asn1::Asn1Object*)>(&Org::BouncyCastle::Asn1::DerUtcTime::Asn1Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerUtcTime*), "Asn1Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Object*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerUtcTime*), "Asn1Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Object*>()});
   }
 };
-// Writing MetadataGetter for method: DerUtcTime::Asn1GetHashCode
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerUtcTime::Asn1GetHashCode
 // Il2CppName: Asn1GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DerUtcTime::*)()>(&DerUtcTime::Asn1GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Asn1::DerUtcTime::*)()>(&Org::BouncyCastle::Asn1::DerUtcTime::Asn1GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerUtcTime*), "Asn1GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerUtcTime*), "Asn1GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DerUtcTime::ToString
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerUtcTime::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DerUtcTime::*)()>(&DerUtcTime::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Asn1::DerUtcTime::*)()>(&Org::BouncyCastle::Asn1::DerUtcTime::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DerUtcTime*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerUtcTime*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

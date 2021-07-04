@@ -57,41 +57,41 @@ namespace Valve::VR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRApplications::_SetDefaultApplicationForMimeType*, "Valve.VR", "IVRApplications/_SetDefaultApplicationForMimeType");
-// Writing MetadataGetter for method: IVRApplications::_SetDefaultApplicationForMimeType::New_ctor
+// Writing MetadataGetter for method: Valve::VR::IVRApplications::_SetDefaultApplicationForMimeType::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRApplications::_SetDefaultApplicationForMimeType::*)(::Il2CppObject*, System::IntPtr)>(&IVRApplications::_SetDefaultApplicationForMimeType::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRApplications::_SetDefaultApplicationForMimeType::*)(::Il2CppObject*, System::IntPtr)>(&Valve::VR::IVRApplications::_SetDefaultApplicationForMimeType::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRApplications::_SetDefaultApplicationForMimeType*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRApplications::_SetDefaultApplicationForMimeType*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRApplications::_SetDefaultApplicationForMimeType::*)(::Il2CppObject*, System::IntPtr)>(&IVRApplications::_SetDefaultApplicationForMimeType::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRApplications::_SetDefaultApplicationForMimeType::*)(::Il2CppObject*, System::IntPtr)>(&Valve::VR::IVRApplications::_SetDefaultApplicationForMimeType::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRApplications::_SetDefaultApplicationForMimeType*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRApplications::_SetDefaultApplicationForMimeType*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: IVRApplications::_SetDefaultApplicationForMimeType::Invoke
+// Writing MetadataGetter for method: Valve::VR::IVRApplications::_SetDefaultApplicationForMimeType::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationError (IVRApplications::_SetDefaultApplicationForMimeType::*)(::Il2CppString*, ::Il2CppString*)>(&IVRApplications::_SetDefaultApplicationForMimeType::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationError (Valve::VR::IVRApplications::_SetDefaultApplicationForMimeType::*)(::Il2CppString*, ::Il2CppString*)>(&Valve::VR::IVRApplications::_SetDefaultApplicationForMimeType::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRApplications::_SetDefaultApplicationForMimeType*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRApplications::_SetDefaultApplicationForMimeType*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: IVRApplications::_SetDefaultApplicationForMimeType::BeginInvoke
+// Writing MetadataGetter for method: Valve::VR::IVRApplications::_SetDefaultApplicationForMimeType::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRApplications::_SetDefaultApplicationForMimeType::*)(::Il2CppString*, ::Il2CppString*, System::AsyncCallback*, ::Il2CppObject*)>(&IVRApplications::_SetDefaultApplicationForMimeType::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRApplications::_SetDefaultApplicationForMimeType::*)(::Il2CppString*, ::Il2CppString*, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRApplications::_SetDefaultApplicationForMimeType::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRApplications::_SetDefaultApplicationForMimeType*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRApplications::_SetDefaultApplicationForMimeType*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IVRApplications::_SetDefaultApplicationForMimeType::EndInvoke
+// Writing MetadataGetter for method: Valve::VR::IVRApplications::_SetDefaultApplicationForMimeType::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationError (IVRApplications::_SetDefaultApplicationForMimeType::*)(System::IAsyncResult*)>(&IVRApplications::_SetDefaultApplicationForMimeType::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationError (Valve::VR::IVRApplications::_SetDefaultApplicationForMimeType::*)(System::IAsyncResult*)>(&Valve::VR::IVRApplications::_SetDefaultApplicationForMimeType::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRApplications::_SetDefaultApplicationForMimeType*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRApplications::_SetDefaultApplicationForMimeType*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

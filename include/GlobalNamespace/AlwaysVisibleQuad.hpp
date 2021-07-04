@@ -61,33 +61,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(AlwaysVisibleQuad) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlwaysVisibleQuad*, "", "AlwaysVisibleQuad");
-// Writing MetadataGetter for method: AlwaysVisibleQuad::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::AlwaysVisibleQuad::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AlwaysVisibleQuad::*)()>(&AlwaysVisibleQuad::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AlwaysVisibleQuad::*)()>(&GlobalNamespace::AlwaysVisibleQuad::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AlwaysVisibleQuad*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AlwaysVisibleQuad*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AlwaysVisibleQuad::OnDisable
+// Writing MetadataGetter for method: GlobalNamespace::AlwaysVisibleQuad::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AlwaysVisibleQuad::*)()>(&AlwaysVisibleQuad::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AlwaysVisibleQuad::*)()>(&GlobalNamespace::AlwaysVisibleQuad::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AlwaysVisibleQuad*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AlwaysVisibleQuad*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AlwaysVisibleQuad::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::AlwaysVisibleQuad::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AlwaysVisibleQuad::*)()>(&AlwaysVisibleQuad::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AlwaysVisibleQuad::*)()>(&GlobalNamespace::AlwaysVisibleQuad::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AlwaysVisibleQuad*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AlwaysVisibleQuad*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AlwaysVisibleQuad::*)()>(&AlwaysVisibleQuad::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AlwaysVisibleQuad::*)()>(&GlobalNamespace::AlwaysVisibleQuad::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AlwaysVisibleQuad*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AlwaysVisibleQuad*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

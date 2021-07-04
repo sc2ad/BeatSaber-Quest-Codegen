@@ -252,113 +252,113 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AdditionalContentModel*, "", "Additional
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AdditionalContentModel::EntitlementStatus, "", "AdditionalContentModel/EntitlementStatus");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AdditionalContentModel::OpenProductStoreResult, "", "AdditionalContentModel/OpenProductStoreResult");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AdditionalContentModel::IsPackBetterBuyThanLevelResult, "", "AdditionalContentModel/IsPackBetterBuyThanLevelResult");
-// Writing MetadataGetter for method: AdditionalContentModel::add_didInvalidateDataEvent
+// Writing MetadataGetter for method: GlobalNamespace::AdditionalContentModel::add_didInvalidateDataEvent
 // Il2CppName: add_didInvalidateDataEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AdditionalContentModel::*)(System::Action*)>(&AdditionalContentModel::add_didInvalidateDataEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AdditionalContentModel::*)(System::Action*)>(&GlobalNamespace::AdditionalContentModel::add_didInvalidateDataEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AdditionalContentModel*), "add_didInvalidateDataEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AdditionalContentModel*), "add_didInvalidateDataEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: AdditionalContentModel::remove_didInvalidateDataEvent
+// Writing MetadataGetter for method: GlobalNamespace::AdditionalContentModel::remove_didInvalidateDataEvent
 // Il2CppName: remove_didInvalidateDataEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AdditionalContentModel::*)(System::Action*)>(&AdditionalContentModel::remove_didInvalidateDataEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AdditionalContentModel::*)(System::Action*)>(&GlobalNamespace::AdditionalContentModel::remove_didInvalidateDataEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AdditionalContentModel*), "remove_didInvalidateDataEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AdditionalContentModel*), "remove_didInvalidateDataEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: AdditionalContentModel::OnApplicationFocus
+// Writing MetadataGetter for method: GlobalNamespace::AdditionalContentModel::OnApplicationFocus
 // Il2CppName: OnApplicationFocus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AdditionalContentModel::*)(bool)>(&AdditionalContentModel::OnApplicationFocus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AdditionalContentModel::*)(bool)>(&GlobalNamespace::AdditionalContentModel::OnApplicationFocus)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AdditionalContentModel*), "OnApplicationFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AdditionalContentModel*), "OnApplicationFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AdditionalContentModel::InvalidateData
+// Writing MetadataGetter for method: GlobalNamespace::AdditionalContentModel::InvalidateData
 // Il2CppName: InvalidateData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AdditionalContentModel::*)()>(&AdditionalContentModel::InvalidateData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AdditionalContentModel::*)()>(&GlobalNamespace::AdditionalContentModel::InvalidateData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AdditionalContentModel*), "InvalidateData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AdditionalContentModel*), "InvalidateData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AdditionalContentModel::GetLevelEntitlementStatusAsync
+// Writing MetadataGetter for method: GlobalNamespace::AdditionalContentModel::GetLevelEntitlementStatusAsync
 // Il2CppName: GetLevelEntitlementStatusAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>* (AdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&AdditionalContentModel::GetLevelEntitlementStatusAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>* (GlobalNamespace::AdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&GlobalNamespace::AdditionalContentModel::GetLevelEntitlementStatusAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AdditionalContentModel*), "GetLevelEntitlementStatusAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AdditionalContentModel*), "GetLevelEntitlementStatusAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: AdditionalContentModel::GetPackEntitlementStatusAsync
+// Writing MetadataGetter for method: GlobalNamespace::AdditionalContentModel::GetPackEntitlementStatusAsync
 // Il2CppName: GetPackEntitlementStatusAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>* (AdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&AdditionalContentModel::GetPackEntitlementStatusAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>* (GlobalNamespace::AdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&GlobalNamespace::AdditionalContentModel::GetPackEntitlementStatusAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AdditionalContentModel*), "GetPackEntitlementStatusAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AdditionalContentModel*), "GetPackEntitlementStatusAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: AdditionalContentModel::InvalidateDataInternal
+// Writing MetadataGetter for method: GlobalNamespace::AdditionalContentModel::InvalidateDataInternal
 // Il2CppName: InvalidateDataInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AdditionalContentModel::*)()>(&AdditionalContentModel::InvalidateDataInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AdditionalContentModel::*)()>(&GlobalNamespace::AdditionalContentModel::InvalidateDataInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AdditionalContentModel*), "InvalidateDataInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AdditionalContentModel*), "InvalidateDataInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AdditionalContentModel::GetLevelEntitlementStatusInternalAsync
+// Writing MetadataGetter for method: GlobalNamespace::AdditionalContentModel::GetLevelEntitlementStatusInternalAsync
 // Il2CppName: GetLevelEntitlementStatusInternalAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>* (AdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&AdditionalContentModel::GetLevelEntitlementStatusInternalAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>* (GlobalNamespace::AdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&GlobalNamespace::AdditionalContentModel::GetLevelEntitlementStatusInternalAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AdditionalContentModel*), "GetLevelEntitlementStatusInternalAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AdditionalContentModel*), "GetLevelEntitlementStatusInternalAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: AdditionalContentModel::GetPackEntitlementStatusInternalAsync
+// Writing MetadataGetter for method: GlobalNamespace::AdditionalContentModel::GetPackEntitlementStatusInternalAsync
 // Il2CppName: GetPackEntitlementStatusInternalAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>* (AdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&AdditionalContentModel::GetPackEntitlementStatusInternalAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus>* (GlobalNamespace::AdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&GlobalNamespace::AdditionalContentModel::GetPackEntitlementStatusInternalAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AdditionalContentModel*), "GetPackEntitlementStatusInternalAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AdditionalContentModel*), "GetPackEntitlementStatusInternalAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: AdditionalContentModel::IsPackBetterBuyThanLevelAsync
+// Writing MetadataGetter for method: GlobalNamespace::AdditionalContentModel::IsPackBetterBuyThanLevelAsync
 // Il2CppName: IsPackBetterBuyThanLevelAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::IsPackBetterBuyThanLevelResult>* (AdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&AdditionalContentModel::IsPackBetterBuyThanLevelAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::IsPackBetterBuyThanLevelResult>* (GlobalNamespace::AdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&GlobalNamespace::AdditionalContentModel::IsPackBetterBuyThanLevelAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AdditionalContentModel*), "IsPackBetterBuyThanLevelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AdditionalContentModel*), "IsPackBetterBuyThanLevelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: AdditionalContentModel::OpenLevelProductStoreAsync
+// Writing MetadataGetter for method: GlobalNamespace::AdditionalContentModel::OpenLevelProductStoreAsync
 // Il2CppName: OpenLevelProductStoreAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>* (AdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&AdditionalContentModel::OpenLevelProductStoreAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>* (GlobalNamespace::AdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&GlobalNamespace::AdditionalContentModel::OpenLevelProductStoreAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AdditionalContentModel*), "OpenLevelProductStoreAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AdditionalContentModel*), "OpenLevelProductStoreAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: AdditionalContentModel::OpenLevelPackProductStoreAsync
+// Writing MetadataGetter for method: GlobalNamespace::AdditionalContentModel::OpenLevelPackProductStoreAsync
 // Il2CppName: OpenLevelPackProductStoreAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>* (AdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&AdditionalContentModel::OpenLevelPackProductStoreAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AdditionalContentModel::OpenProductStoreResult>* (GlobalNamespace::AdditionalContentModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&GlobalNamespace::AdditionalContentModel::OpenLevelPackProductStoreAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AdditionalContentModel*), "OpenLevelPackProductStoreAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AdditionalContentModel*), "OpenLevelPackProductStoreAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: AdditionalContentModel::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::AdditionalContentModel::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AdditionalContentModel::*)()>(&AdditionalContentModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AdditionalContentModel::*)()>(&GlobalNamespace::AdditionalContentModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AdditionalContentModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AdditionalContentModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AdditionalContentModel::*)()>(&AdditionalContentModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AdditionalContentModel::*)()>(&GlobalNamespace::AdditionalContentModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AdditionalContentModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AdditionalContentModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

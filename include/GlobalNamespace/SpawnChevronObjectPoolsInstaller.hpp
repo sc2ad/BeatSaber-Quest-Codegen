@@ -59,25 +59,25 @@ namespace GlobalNamespace {
   static_assert(sizeof(SpawnChevronObjectPoolsInstaller) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnChevronObjectPoolsInstaller*, "", "SpawnChevronObjectPoolsInstaller");
-// Writing MetadataGetter for method: SpawnChevronObjectPoolsInstaller::InstallBindings
+// Writing MetadataGetter for method: GlobalNamespace::SpawnChevronObjectPoolsInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpawnChevronObjectPoolsInstaller::*)()>(&SpawnChevronObjectPoolsInstaller::InstallBindings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SpawnChevronObjectPoolsInstaller::*)()>(&GlobalNamespace::SpawnChevronObjectPoolsInstaller::InstallBindings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SpawnChevronObjectPoolsInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpawnChevronObjectPoolsInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SpawnChevronObjectPoolsInstaller::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::SpawnChevronObjectPoolsInstaller::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpawnChevronObjectPoolsInstaller::*)()>(&SpawnChevronObjectPoolsInstaller::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SpawnChevronObjectPoolsInstaller::*)()>(&GlobalNamespace::SpawnChevronObjectPoolsInstaller::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SpawnChevronObjectPoolsInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpawnChevronObjectPoolsInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpawnChevronObjectPoolsInstaller::*)()>(&SpawnChevronObjectPoolsInstaller::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SpawnChevronObjectPoolsInstaller::*)()>(&GlobalNamespace::SpawnChevronObjectPoolsInstaller::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SpawnChevronObjectPoolsInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpawnChevronObjectPoolsInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

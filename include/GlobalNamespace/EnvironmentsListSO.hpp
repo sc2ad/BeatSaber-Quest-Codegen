@@ -73,49 +73,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnvironmentsListSO) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentsListSO*, "", "EnvironmentsListSO");
-// Writing MetadataGetter for method: EnvironmentsListSO::get_environmentInfos
+// Writing MetadataGetter for method: GlobalNamespace::EnvironmentsListSO::get_environmentInfos
 // Il2CppName: get_environmentInfos
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::EnvironmentInfoSO*>* (EnvironmentsListSO::*)()>(&EnvironmentsListSO::get_environmentInfos)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::EnvironmentInfoSO*>* (GlobalNamespace::EnvironmentsListSO::*)()>(&GlobalNamespace::EnvironmentsListSO::get_environmentInfos)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnvironmentsListSO*), "get_environmentInfos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentsListSO*), "get_environmentInfos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EnvironmentsListSO::GetEnviromentInfoBySerializedName
+// Writing MetadataGetter for method: GlobalNamespace::EnvironmentsListSO::GetEnviromentInfoBySerializedName
 // Il2CppName: GetEnviromentInfoBySerializedName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentInfoSO* (EnvironmentsListSO::*)(::Il2CppString*)>(&EnvironmentsListSO::GetEnviromentInfoBySerializedName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentInfoSO* (GlobalNamespace::EnvironmentsListSO::*)(::Il2CppString*)>(&GlobalNamespace::EnvironmentsListSO::GetEnviromentInfoBySerializedName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnvironmentsListSO*), "GetEnviromentInfoBySerializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentsListSO*), "GetEnviromentInfoBySerializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: EnvironmentsListSO::GetAllEnvironmentInfosWithType
+// Writing MetadataGetter for method: GlobalNamespace::EnvironmentsListSO::GetAllEnvironmentInfosWithType
 // Il2CppName: GetAllEnvironmentInfosWithType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>* (EnvironmentsListSO::*)(GlobalNamespace::EnvironmentTypeSO*)>(&EnvironmentsListSO::GetAllEnvironmentInfosWithType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>* (GlobalNamespace::EnvironmentsListSO::*)(GlobalNamespace::EnvironmentTypeSO*)>(&GlobalNamespace::EnvironmentsListSO::GetAllEnvironmentInfosWithType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnvironmentsListSO*), "GetAllEnvironmentInfosWithType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EnvironmentTypeSO*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentsListSO*), "GetAllEnvironmentInfosWithType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EnvironmentTypeSO*>()});
   }
 };
-// Writing MetadataGetter for method: EnvironmentsListSO::GetFirstEnvironmentInfoWithType
+// Writing MetadataGetter for method: GlobalNamespace::EnvironmentsListSO::GetFirstEnvironmentInfoWithType
 // Il2CppName: GetFirstEnvironmentInfoWithType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentInfoSO* (EnvironmentsListSO::*)(GlobalNamespace::EnvironmentTypeSO*)>(&EnvironmentsListSO::GetFirstEnvironmentInfoWithType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentInfoSO* (GlobalNamespace::EnvironmentsListSO::*)(GlobalNamespace::EnvironmentTypeSO*)>(&GlobalNamespace::EnvironmentsListSO::GetFirstEnvironmentInfoWithType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnvironmentsListSO*), "GetFirstEnvironmentInfoWithType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EnvironmentTypeSO*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentsListSO*), "GetFirstEnvironmentInfoWithType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EnvironmentTypeSO*>()});
   }
 };
-// Writing MetadataGetter for method: EnvironmentsListSO::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::EnvironmentsListSO::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnvironmentsListSO::*)()>(&EnvironmentsListSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnvironmentsListSO::*)()>(&GlobalNamespace::EnvironmentsListSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnvironmentsListSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentsListSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnvironmentsListSO::*)()>(&EnvironmentsListSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnvironmentsListSO::*)()>(&GlobalNamespace::EnvironmentsListSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnvironmentsListSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentsListSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

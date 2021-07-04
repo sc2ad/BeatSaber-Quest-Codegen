@@ -99,27 +99,27 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeRawInfo, "System", "DateTimeRawInfo");
-// Writing MetadataGetter for method: DateTimeRawInfo::Init
+// Writing MetadataGetter for method: System::DateTimeRawInfo::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DateTimeRawInfo::*)(int*)>(&DateTimeRawInfo::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::DateTimeRawInfo::*)(int*)>(&System::DateTimeRawInfo::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DateTimeRawInfo), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::DateTimeRawInfo), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int*>()});
   }
 };
-// Writing MetadataGetter for method: DateTimeRawInfo::AddNumber
+// Writing MetadataGetter for method: System::DateTimeRawInfo::AddNumber
 // Il2CppName: AddNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DateTimeRawInfo::*)(int)>(&DateTimeRawInfo::AddNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::DateTimeRawInfo::*)(int)>(&System::DateTimeRawInfo::AddNumber)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DateTimeRawInfo), "AddNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::DateTimeRawInfo), "AddNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: DateTimeRawInfo::GetNumber
+// Writing MetadataGetter for method: System::DateTimeRawInfo::GetNumber
 // Il2CppName: GetNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DateTimeRawInfo::*)(int)>(&DateTimeRawInfo::GetNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::DateTimeRawInfo::*)(int)>(&System::DateTimeRawInfo::GetNumber)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DateTimeRawInfo), "GetNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::DateTimeRawInfo), "GetNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };

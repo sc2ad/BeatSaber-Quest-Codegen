@@ -55,17 +55,17 @@ namespace Zenject {
   static_assert(sizeof(InjectTypeInfo::InjectConstructorInfo) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectTypeInfo::InjectConstructorInfo*, "Zenject", "InjectTypeInfo/InjectConstructorInfo");
-// Writing MetadataGetter for method: InjectTypeInfo::InjectConstructorInfo::New_ctor
+// Writing MetadataGetter for method: Zenject::InjectTypeInfo::InjectConstructorInfo::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectTypeInfo::InjectConstructorInfo::*)(Zenject::ZenFactoryMethod*, ::Array<Zenject::InjectableInfo*>*)>(&InjectTypeInfo::InjectConstructorInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::InjectTypeInfo::InjectConstructorInfo::*)(Zenject::ZenFactoryMethod*, ::Array<Zenject::InjectableInfo*>*)>(&Zenject::InjectTypeInfo::InjectConstructorInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectTypeInfo::InjectConstructorInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ZenFactoryMethod*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Zenject::InjectableInfo*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectTypeInfo::InjectConstructorInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ZenFactoryMethod*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Zenject::InjectableInfo*>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectTypeInfo::InjectConstructorInfo::*)(Zenject::ZenFactoryMethod*, ::Array<Zenject::InjectableInfo*>*)>(&InjectTypeInfo::InjectConstructorInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::InjectTypeInfo::InjectConstructorInfo::*)(Zenject::ZenFactoryMethod*, ::Array<Zenject::InjectableInfo*>*)>(&Zenject::InjectTypeInfo::InjectConstructorInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectTypeInfo::InjectConstructorInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ZenFactoryMethod*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Zenject::InjectableInfo*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectTypeInfo::InjectConstructorInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ZenFactoryMethod*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Zenject::InjectableInfo*>*>()});
   }
 };

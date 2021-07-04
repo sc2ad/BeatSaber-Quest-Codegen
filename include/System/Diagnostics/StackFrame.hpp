@@ -149,119 +149,119 @@ namespace System::Diagnostics {
   static_assert(sizeof(StackFrame) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::StackFrame*, "System.Diagnostics", "StackFrame");
-// Writing MetadataGetter for method: StackFrame::get_frame_info
+// Writing MetadataGetter for method: System::Diagnostics::StackFrame::get_frame_info
 // Il2CppName: get_frame_info
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, bool, System::Reflection::MethodBase*&, int&, int&, ::Il2CppString*&, int&, int&)>(&StackFrame::get_frame_info)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, bool, System::Reflection::MethodBase*&, int&, int&, ::Il2CppString*&, int&, int&)>(&System::Diagnostics::StackFrame::get_frame_info)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StackFrame*), "get_frame_info", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackFrame*), "get_frame_info", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: StackFrame::New_ctor
+// Writing MetadataGetter for method: System::Diagnostics::StackFrame::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackFrame::*)(int, bool)>(&StackFrame::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::StackFrame::*)(int, bool)>(&System::Diagnostics::StackFrame::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StackFrame*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackFrame*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackFrame::*)(int, bool)>(&StackFrame::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::StackFrame::*)(int, bool)>(&System::Diagnostics::StackFrame::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StackFrame*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackFrame*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: StackFrame::GetFileLineNumber
+// Writing MetadataGetter for method: System::Diagnostics::StackFrame::GetFileLineNumber
 // Il2CppName: GetFileLineNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (StackFrame::*)()>(&StackFrame::GetFileLineNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Diagnostics::StackFrame::*)()>(&System::Diagnostics::StackFrame::GetFileLineNumber)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StackFrame*), "GetFileLineNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackFrame*), "GetFileLineNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StackFrame::GetFileName
+// Writing MetadataGetter for method: System::Diagnostics::StackFrame::GetFileName
 // Il2CppName: GetFileName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StackFrame::*)()>(&StackFrame::GetFileName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Diagnostics::StackFrame::*)()>(&System::Diagnostics::StackFrame::GetFileName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StackFrame*), "GetFileName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackFrame*), "GetFileName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StackFrame::GetSecureFileName
+// Writing MetadataGetter for method: System::Diagnostics::StackFrame::GetSecureFileName
 // Il2CppName: GetSecureFileName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StackFrame::*)()>(&StackFrame::GetSecureFileName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Diagnostics::StackFrame::*)()>(&System::Diagnostics::StackFrame::GetSecureFileName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StackFrame*), "GetSecureFileName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackFrame*), "GetSecureFileName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StackFrame::GetILOffset
+// Writing MetadataGetter for method: System::Diagnostics::StackFrame::GetILOffset
 // Il2CppName: GetILOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (StackFrame::*)()>(&StackFrame::GetILOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Diagnostics::StackFrame::*)()>(&System::Diagnostics::StackFrame::GetILOffset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StackFrame*), "GetILOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackFrame*), "GetILOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StackFrame::GetMethod
+// Writing MetadataGetter for method: System::Diagnostics::StackFrame::GetMethod
 // Il2CppName: GetMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (StackFrame::*)()>(&StackFrame::GetMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (System::Diagnostics::StackFrame::*)()>(&System::Diagnostics::StackFrame::GetMethod)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StackFrame*), "GetMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackFrame*), "GetMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StackFrame::GetNativeOffset
+// Writing MetadataGetter for method: System::Diagnostics::StackFrame::GetNativeOffset
 // Il2CppName: GetNativeOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (StackFrame::*)()>(&StackFrame::GetNativeOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Diagnostics::StackFrame::*)()>(&System::Diagnostics::StackFrame::GetNativeOffset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StackFrame*), "GetNativeOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackFrame*), "GetNativeOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StackFrame::GetMethodAddress
+// Writing MetadataGetter for method: System::Diagnostics::StackFrame::GetMethodAddress
 // Il2CppName: GetMethodAddress
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (StackFrame::*)()>(&StackFrame::GetMethodAddress)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Diagnostics::StackFrame::*)()>(&System::Diagnostics::StackFrame::GetMethodAddress)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StackFrame*), "GetMethodAddress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackFrame*), "GetMethodAddress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StackFrame::GetMethodIndex
+// Writing MetadataGetter for method: System::Diagnostics::StackFrame::GetMethodIndex
 // Il2CppName: GetMethodIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (StackFrame::*)()>(&StackFrame::GetMethodIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (System::Diagnostics::StackFrame::*)()>(&System::Diagnostics::StackFrame::GetMethodIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StackFrame*), "GetMethodIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackFrame*), "GetMethodIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StackFrame::GetInternalMethodName
+// Writing MetadataGetter for method: System::Diagnostics::StackFrame::GetInternalMethodName
 // Il2CppName: GetInternalMethodName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StackFrame::*)()>(&StackFrame::GetInternalMethodName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Diagnostics::StackFrame::*)()>(&System::Diagnostics::StackFrame::GetInternalMethodName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StackFrame*), "GetInternalMethodName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackFrame*), "GetInternalMethodName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StackFrame::New_ctor
+// Writing MetadataGetter for method: System::Diagnostics::StackFrame::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackFrame::*)()>(&StackFrame::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::StackFrame::*)()>(&System::Diagnostics::StackFrame::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StackFrame*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackFrame*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackFrame::*)()>(&StackFrame::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::StackFrame::*)()>(&System::Diagnostics::StackFrame::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StackFrame*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackFrame*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StackFrame::ToString
+// Writing MetadataGetter for method: System::Diagnostics::StackFrame::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StackFrame::*)()>(&StackFrame::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Diagnostics::StackFrame::*)()>(&System::Diagnostics::StackFrame::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StackFrame*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackFrame*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

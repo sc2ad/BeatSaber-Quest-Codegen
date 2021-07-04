@@ -172,57 +172,57 @@ namespace GlobalNamespace {
   static_assert(sizeof(LightPairSinMoveEventEffect) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightPairSinMoveEventEffect*, "", "LightPairSinMoveEventEffect");
-// Writing MetadataGetter for method: LightPairSinMoveEventEffect::Start
+// Writing MetadataGetter for method: GlobalNamespace::LightPairSinMoveEventEffect::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightPairSinMoveEventEffect::*)()>(&LightPairSinMoveEventEffect::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightPairSinMoveEventEffect::*)()>(&GlobalNamespace::LightPairSinMoveEventEffect::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightPairSinMoveEventEffect*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightPairSinMoveEventEffect*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LightPairSinMoveEventEffect::Update
+// Writing MetadataGetter for method: GlobalNamespace::LightPairSinMoveEventEffect::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightPairSinMoveEventEffect::*)()>(&LightPairSinMoveEventEffect::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightPairSinMoveEventEffect::*)()>(&GlobalNamespace::LightPairSinMoveEventEffect::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightPairSinMoveEventEffect*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightPairSinMoveEventEffect*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LightPairSinMoveEventEffect::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::LightPairSinMoveEventEffect::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightPairSinMoveEventEffect::*)()>(&LightPairSinMoveEventEffect::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightPairSinMoveEventEffect::*)()>(&GlobalNamespace::LightPairSinMoveEventEffect::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightPairSinMoveEventEffect*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightPairSinMoveEventEffect*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LightPairSinMoveEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
+// Writing MetadataGetter for method: GlobalNamespace::LightPairSinMoveEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
 // Il2CppName: HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightPairSinMoveEventEffect::*)(GlobalNamespace::BeatmapEventData*)>(&LightPairSinMoveEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightPairSinMoveEventEffect::*)(GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::LightPairSinMoveEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightPairSinMoveEventEffect*), "HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightPairSinMoveEventEffect*), "HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
   }
 };
-// Writing MetadataGetter for method: LightPairSinMoveEventEffect::UpdateMovementData
+// Writing MetadataGetter for method: GlobalNamespace::LightPairSinMoveEventEffect::UpdateMovementData
 // Il2CppName: UpdateMovementData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightPairSinMoveEventEffect::*)(int, GlobalNamespace::LightPairSinMoveEventEffect::MovementData*, float)>(&LightPairSinMoveEventEffect::UpdateMovementData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightPairSinMoveEventEffect::*)(int, GlobalNamespace::LightPairSinMoveEventEffect::MovementData*, float)>(&GlobalNamespace::LightPairSinMoveEventEffect::UpdateMovementData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightPairSinMoveEventEffect*), "UpdateMovementData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LightPairSinMoveEventEffect::MovementData*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightPairSinMoveEventEffect*), "UpdateMovementData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LightPairSinMoveEventEffect::MovementData*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: LightPairSinMoveEventEffect::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::LightPairSinMoveEventEffect::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightPairSinMoveEventEffect::*)()>(&LightPairSinMoveEventEffect::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightPairSinMoveEventEffect::*)()>(&GlobalNamespace::LightPairSinMoveEventEffect::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightPairSinMoveEventEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightPairSinMoveEventEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightPairSinMoveEventEffect::*)()>(&LightPairSinMoveEventEffect::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightPairSinMoveEventEffect::*)()>(&GlobalNamespace::LightPairSinMoveEventEffect::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightPairSinMoveEventEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightPairSinMoveEventEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

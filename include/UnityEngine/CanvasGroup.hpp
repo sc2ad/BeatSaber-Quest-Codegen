@@ -65,75 +65,75 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CanvasGroup*, "UnityEngine", "CanvasGroup");
-// Writing MetadataGetter for method: CanvasGroup::get_alpha
+// Writing MetadataGetter for method: UnityEngine::CanvasGroup::get_alpha
 // Il2CppName: get_alpha
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (CanvasGroup::*)()>(&CanvasGroup::get_alpha)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::CanvasGroup::*)()>(&UnityEngine::CanvasGroup::get_alpha)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CanvasGroup*), "get_alpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasGroup*), "get_alpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CanvasGroup::set_alpha
+// Writing MetadataGetter for method: UnityEngine::CanvasGroup::set_alpha
 // Il2CppName: set_alpha
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasGroup::*)(float)>(&CanvasGroup::set_alpha)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CanvasGroup::*)(float)>(&UnityEngine::CanvasGroup::set_alpha)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CanvasGroup*), "set_alpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasGroup*), "set_alpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: CanvasGroup::get_interactable
+// Writing MetadataGetter for method: UnityEngine::CanvasGroup::get_interactable
 // Il2CppName: get_interactable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CanvasGroup::*)()>(&CanvasGroup::get_interactable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::CanvasGroup::*)()>(&UnityEngine::CanvasGroup::get_interactable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CanvasGroup*), "get_interactable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasGroup*), "get_interactable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CanvasGroup::set_interactable
+// Writing MetadataGetter for method: UnityEngine::CanvasGroup::set_interactable
 // Il2CppName: set_interactable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasGroup::*)(bool)>(&CanvasGroup::set_interactable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CanvasGroup::*)(bool)>(&UnityEngine::CanvasGroup::set_interactable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CanvasGroup*), "set_interactable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasGroup*), "set_interactable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: CanvasGroup::get_blocksRaycasts
+// Writing MetadataGetter for method: UnityEngine::CanvasGroup::get_blocksRaycasts
 // Il2CppName: get_blocksRaycasts
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CanvasGroup::*)()>(&CanvasGroup::get_blocksRaycasts)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::CanvasGroup::*)()>(&UnityEngine::CanvasGroup::get_blocksRaycasts)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CanvasGroup*), "get_blocksRaycasts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasGroup*), "get_blocksRaycasts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CanvasGroup::set_blocksRaycasts
+// Writing MetadataGetter for method: UnityEngine::CanvasGroup::set_blocksRaycasts
 // Il2CppName: set_blocksRaycasts
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasGroup::*)(bool)>(&CanvasGroup::set_blocksRaycasts)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CanvasGroup::*)(bool)>(&UnityEngine::CanvasGroup::set_blocksRaycasts)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CanvasGroup*), "set_blocksRaycasts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasGroup*), "set_blocksRaycasts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: CanvasGroup::get_ignoreParentGroups
+// Writing MetadataGetter for method: UnityEngine::CanvasGroup::get_ignoreParentGroups
 // Il2CppName: get_ignoreParentGroups
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CanvasGroup::*)()>(&CanvasGroup::get_ignoreParentGroups)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::CanvasGroup::*)()>(&UnityEngine::CanvasGroup::get_ignoreParentGroups)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CanvasGroup*), "get_ignoreParentGroups", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasGroup*), "get_ignoreParentGroups", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CanvasGroup::set_ignoreParentGroups
+// Writing MetadataGetter for method: UnityEngine::CanvasGroup::set_ignoreParentGroups
 // Il2CppName: set_ignoreParentGroups
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasGroup::*)(bool)>(&CanvasGroup::set_ignoreParentGroups)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CanvasGroup::*)(bool)>(&UnityEngine::CanvasGroup::set_ignoreParentGroups)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CanvasGroup*), "set_ignoreParentGroups", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasGroup*), "set_ignoreParentGroups", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: CanvasGroup::IsRaycastLocationValid
+// Writing MetadataGetter for method: UnityEngine::CanvasGroup::IsRaycastLocationValid
 // Il2CppName: IsRaycastLocationValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CanvasGroup::*)(UnityEngine::Vector2, UnityEngine::Camera*)>(&CanvasGroup::IsRaycastLocationValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::CanvasGroup::*)(UnityEngine::Vector2, UnityEngine::Camera*)>(&UnityEngine::CanvasGroup::IsRaycastLocationValid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CanvasGroup*), "IsRaycastLocationValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasGroup*), "IsRaycastLocationValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
   }
 };

@@ -240,273 +240,273 @@ namespace LiteNetLib {
   static_assert(sizeof(EventBasedNetListener) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::EventBasedNetListener*, "LiteNetLib", "EventBasedNetListener");
-// Writing MetadataGetter for method: EventBasedNetListener::add_PeerConnectedEvent
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::add_PeerConnectedEvent
 // Il2CppName: add_PeerConnectedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)(LiteNetLib::EventBasedNetListener::OnPeerConnected*)>(&EventBasedNetListener::add_PeerConnectedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)(LiteNetLib::EventBasedNetListener::OnPeerConnected*)>(&LiteNetLib::EventBasedNetListener::add_PeerConnectedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), "add_PeerConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNetListener::OnPeerConnected*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), "add_PeerConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNetListener::OnPeerConnected*>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::remove_PeerConnectedEvent
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::remove_PeerConnectedEvent
 // Il2CppName: remove_PeerConnectedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)(LiteNetLib::EventBasedNetListener::OnPeerConnected*)>(&EventBasedNetListener::remove_PeerConnectedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)(LiteNetLib::EventBasedNetListener::OnPeerConnected*)>(&LiteNetLib::EventBasedNetListener::remove_PeerConnectedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), "remove_PeerConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNetListener::OnPeerConnected*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), "remove_PeerConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNetListener::OnPeerConnected*>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::add_PeerDisconnectedEvent
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::add_PeerDisconnectedEvent
 // Il2CppName: add_PeerDisconnectedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)(LiteNetLib::EventBasedNetListener::OnPeerDisconnected*)>(&EventBasedNetListener::add_PeerDisconnectedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)(LiteNetLib::EventBasedNetListener::OnPeerDisconnected*)>(&LiteNetLib::EventBasedNetListener::add_PeerDisconnectedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), "add_PeerDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNetListener::OnPeerDisconnected*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), "add_PeerDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNetListener::OnPeerDisconnected*>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::remove_PeerDisconnectedEvent
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::remove_PeerDisconnectedEvent
 // Il2CppName: remove_PeerDisconnectedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)(LiteNetLib::EventBasedNetListener::OnPeerDisconnected*)>(&EventBasedNetListener::remove_PeerDisconnectedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)(LiteNetLib::EventBasedNetListener::OnPeerDisconnected*)>(&LiteNetLib::EventBasedNetListener::remove_PeerDisconnectedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), "remove_PeerDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNetListener::OnPeerDisconnected*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), "remove_PeerDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNetListener::OnPeerDisconnected*>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::add_NetworkErrorEvent
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::add_NetworkErrorEvent
 // Il2CppName: add_NetworkErrorEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)(LiteNetLib::EventBasedNetListener::OnNetworkError*)>(&EventBasedNetListener::add_NetworkErrorEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)(LiteNetLib::EventBasedNetListener::OnNetworkError*)>(&LiteNetLib::EventBasedNetListener::add_NetworkErrorEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), "add_NetworkErrorEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNetListener::OnNetworkError*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), "add_NetworkErrorEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNetListener::OnNetworkError*>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::remove_NetworkErrorEvent
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::remove_NetworkErrorEvent
 // Il2CppName: remove_NetworkErrorEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)(LiteNetLib::EventBasedNetListener::OnNetworkError*)>(&EventBasedNetListener::remove_NetworkErrorEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)(LiteNetLib::EventBasedNetListener::OnNetworkError*)>(&LiteNetLib::EventBasedNetListener::remove_NetworkErrorEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), "remove_NetworkErrorEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNetListener::OnNetworkError*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), "remove_NetworkErrorEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNetListener::OnNetworkError*>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::add_NetworkReceiveEvent
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::add_NetworkReceiveEvent
 // Il2CppName: add_NetworkReceiveEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)(LiteNetLib::EventBasedNetListener::OnNetworkReceive*)>(&EventBasedNetListener::add_NetworkReceiveEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)(LiteNetLib::EventBasedNetListener::OnNetworkReceive*)>(&LiteNetLib::EventBasedNetListener::add_NetworkReceiveEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), "add_NetworkReceiveEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNetListener::OnNetworkReceive*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), "add_NetworkReceiveEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNetListener::OnNetworkReceive*>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::remove_NetworkReceiveEvent
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::remove_NetworkReceiveEvent
 // Il2CppName: remove_NetworkReceiveEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)(LiteNetLib::EventBasedNetListener::OnNetworkReceive*)>(&EventBasedNetListener::remove_NetworkReceiveEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)(LiteNetLib::EventBasedNetListener::OnNetworkReceive*)>(&LiteNetLib::EventBasedNetListener::remove_NetworkReceiveEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), "remove_NetworkReceiveEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNetListener::OnNetworkReceive*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), "remove_NetworkReceiveEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNetListener::OnNetworkReceive*>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::add_NetworkReceiveUnconnectedEvent
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::add_NetworkReceiveUnconnectedEvent
 // Il2CppName: add_NetworkReceiveUnconnectedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)(LiteNetLib::EventBasedNetListener::OnNetworkReceiveUnconnected*)>(&EventBasedNetListener::add_NetworkReceiveUnconnectedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)(LiteNetLib::EventBasedNetListener::OnNetworkReceiveUnconnected*)>(&LiteNetLib::EventBasedNetListener::add_NetworkReceiveUnconnectedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), "add_NetworkReceiveUnconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNetListener::OnNetworkReceiveUnconnected*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), "add_NetworkReceiveUnconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNetListener::OnNetworkReceiveUnconnected*>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::remove_NetworkReceiveUnconnectedEvent
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::remove_NetworkReceiveUnconnectedEvent
 // Il2CppName: remove_NetworkReceiveUnconnectedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)(LiteNetLib::EventBasedNetListener::OnNetworkReceiveUnconnected*)>(&EventBasedNetListener::remove_NetworkReceiveUnconnectedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)(LiteNetLib::EventBasedNetListener::OnNetworkReceiveUnconnected*)>(&LiteNetLib::EventBasedNetListener::remove_NetworkReceiveUnconnectedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), "remove_NetworkReceiveUnconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNetListener::OnNetworkReceiveUnconnected*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), "remove_NetworkReceiveUnconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNetListener::OnNetworkReceiveUnconnected*>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::add_NetworkLatencyUpdateEvent
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::add_NetworkLatencyUpdateEvent
 // Il2CppName: add_NetworkLatencyUpdateEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)(LiteNetLib::EventBasedNetListener::OnNetworkLatencyUpdate*)>(&EventBasedNetListener::add_NetworkLatencyUpdateEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)(LiteNetLib::EventBasedNetListener::OnNetworkLatencyUpdate*)>(&LiteNetLib::EventBasedNetListener::add_NetworkLatencyUpdateEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), "add_NetworkLatencyUpdateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNetListener::OnNetworkLatencyUpdate*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), "add_NetworkLatencyUpdateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNetListener::OnNetworkLatencyUpdate*>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::remove_NetworkLatencyUpdateEvent
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::remove_NetworkLatencyUpdateEvent
 // Il2CppName: remove_NetworkLatencyUpdateEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)(LiteNetLib::EventBasedNetListener::OnNetworkLatencyUpdate*)>(&EventBasedNetListener::remove_NetworkLatencyUpdateEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)(LiteNetLib::EventBasedNetListener::OnNetworkLatencyUpdate*)>(&LiteNetLib::EventBasedNetListener::remove_NetworkLatencyUpdateEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), "remove_NetworkLatencyUpdateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNetListener::OnNetworkLatencyUpdate*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), "remove_NetworkLatencyUpdateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNetListener::OnNetworkLatencyUpdate*>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::add_ConnectionRequestEvent
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::add_ConnectionRequestEvent
 // Il2CppName: add_ConnectionRequestEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)(LiteNetLib::EventBasedNetListener::OnConnectionRequest*)>(&EventBasedNetListener::add_ConnectionRequestEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)(LiteNetLib::EventBasedNetListener::OnConnectionRequest*)>(&LiteNetLib::EventBasedNetListener::add_ConnectionRequestEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), "add_ConnectionRequestEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNetListener::OnConnectionRequest*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), "add_ConnectionRequestEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNetListener::OnConnectionRequest*>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::remove_ConnectionRequestEvent
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::remove_ConnectionRequestEvent
 // Il2CppName: remove_ConnectionRequestEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)(LiteNetLib::EventBasedNetListener::OnConnectionRequest*)>(&EventBasedNetListener::remove_ConnectionRequestEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)(LiteNetLib::EventBasedNetListener::OnConnectionRequest*)>(&LiteNetLib::EventBasedNetListener::remove_ConnectionRequestEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), "remove_ConnectionRequestEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNetListener::OnConnectionRequest*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), "remove_ConnectionRequestEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNetListener::OnConnectionRequest*>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::add_DeliveryEvent
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::add_DeliveryEvent
 // Il2CppName: add_DeliveryEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)(LiteNetLib::EventBasedNetListener::OnDeliveryEvent*)>(&EventBasedNetListener::add_DeliveryEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)(LiteNetLib::EventBasedNetListener::OnDeliveryEvent*)>(&LiteNetLib::EventBasedNetListener::add_DeliveryEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), "add_DeliveryEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNetListener::OnDeliveryEvent*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), "add_DeliveryEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNetListener::OnDeliveryEvent*>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::remove_DeliveryEvent
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::remove_DeliveryEvent
 // Il2CppName: remove_DeliveryEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)(LiteNetLib::EventBasedNetListener::OnDeliveryEvent*)>(&EventBasedNetListener::remove_DeliveryEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)(LiteNetLib::EventBasedNetListener::OnDeliveryEvent*)>(&LiteNetLib::EventBasedNetListener::remove_DeliveryEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), "remove_DeliveryEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNetListener::OnDeliveryEvent*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), "remove_DeliveryEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::EventBasedNetListener::OnDeliveryEvent*>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::ClearPeerConnectedEvent
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::ClearPeerConnectedEvent
 // Il2CppName: ClearPeerConnectedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)()>(&EventBasedNetListener::ClearPeerConnectedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)()>(&LiteNetLib::EventBasedNetListener::ClearPeerConnectedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), "ClearPeerConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), "ClearPeerConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::ClearPeerDisconnectedEvent
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::ClearPeerDisconnectedEvent
 // Il2CppName: ClearPeerDisconnectedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)()>(&EventBasedNetListener::ClearPeerDisconnectedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)()>(&LiteNetLib::EventBasedNetListener::ClearPeerDisconnectedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), "ClearPeerDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), "ClearPeerDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::ClearNetworkErrorEvent
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::ClearNetworkErrorEvent
 // Il2CppName: ClearNetworkErrorEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)()>(&EventBasedNetListener::ClearNetworkErrorEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)()>(&LiteNetLib::EventBasedNetListener::ClearNetworkErrorEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), "ClearNetworkErrorEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), "ClearNetworkErrorEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::ClearNetworkReceiveEvent
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::ClearNetworkReceiveEvent
 // Il2CppName: ClearNetworkReceiveEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)()>(&EventBasedNetListener::ClearNetworkReceiveEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)()>(&LiteNetLib::EventBasedNetListener::ClearNetworkReceiveEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), "ClearNetworkReceiveEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), "ClearNetworkReceiveEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::ClearNetworkReceiveUnconnectedEvent
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::ClearNetworkReceiveUnconnectedEvent
 // Il2CppName: ClearNetworkReceiveUnconnectedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)()>(&EventBasedNetListener::ClearNetworkReceiveUnconnectedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)()>(&LiteNetLib::EventBasedNetListener::ClearNetworkReceiveUnconnectedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), "ClearNetworkReceiveUnconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), "ClearNetworkReceiveUnconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::ClearNetworkLatencyUpdateEvent
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::ClearNetworkLatencyUpdateEvent
 // Il2CppName: ClearNetworkLatencyUpdateEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)()>(&EventBasedNetListener::ClearNetworkLatencyUpdateEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)()>(&LiteNetLib::EventBasedNetListener::ClearNetworkLatencyUpdateEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), "ClearNetworkLatencyUpdateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), "ClearNetworkLatencyUpdateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::ClearConnectionRequestEvent
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::ClearConnectionRequestEvent
 // Il2CppName: ClearConnectionRequestEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)()>(&EventBasedNetListener::ClearConnectionRequestEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)()>(&LiteNetLib::EventBasedNetListener::ClearConnectionRequestEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), "ClearConnectionRequestEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), "ClearConnectionRequestEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::ClearDeliveryEvent
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::ClearDeliveryEvent
 // Il2CppName: ClearDeliveryEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)()>(&EventBasedNetListener::ClearDeliveryEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)()>(&LiteNetLib::EventBasedNetListener::ClearDeliveryEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), "ClearDeliveryEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), "ClearDeliveryEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::LiteNetLib_INetEventListener_OnPeerConnected
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::LiteNetLib_INetEventListener_OnPeerConnected
 // Il2CppName: LiteNetLib.INetEventListener.OnPeerConnected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)(LiteNetLib::NetPeer*)>(&EventBasedNetListener::LiteNetLib_INetEventListener_OnPeerConnected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)(LiteNetLib::NetPeer*)>(&LiteNetLib::EventBasedNetListener::LiteNetLib_INetEventListener_OnPeerConnected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), "LiteNetLib.INetEventListener.OnPeerConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), "LiteNetLib.INetEventListener.OnPeerConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::LiteNetLib_INetEventListener_OnPeerDisconnected
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::LiteNetLib_INetEventListener_OnPeerDisconnected
 // Il2CppName: LiteNetLib.INetEventListener.OnPeerDisconnected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)(LiteNetLib::NetPeer*, LiteNetLib::DisconnectInfo)>(&EventBasedNetListener::LiteNetLib_INetEventListener_OnPeerDisconnected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)(LiteNetLib::NetPeer*, LiteNetLib::DisconnectInfo)>(&LiteNetLib::EventBasedNetListener::LiteNetLib_INetEventListener_OnPeerDisconnected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), "LiteNetLib.INetEventListener.OnPeerDisconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DisconnectInfo>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), "LiteNetLib.INetEventListener.OnPeerDisconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DisconnectInfo>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::LiteNetLib_INetEventListener_OnNetworkError
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::LiteNetLib_INetEventListener_OnNetworkError
 // Il2CppName: LiteNetLib.INetEventListener.OnNetworkError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)(System::Net::IPEndPoint*, System::Net::Sockets::SocketError)>(&EventBasedNetListener::LiteNetLib_INetEventListener_OnNetworkError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)(System::Net::IPEndPoint*, System::Net::Sockets::SocketError)>(&LiteNetLib::EventBasedNetListener::LiteNetLib_INetEventListener_OnNetworkError)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), "LiteNetLib.INetEventListener.OnNetworkError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), "LiteNetLib.INetEventListener.OnNetworkError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::LiteNetLib_INetEventListener_OnNetworkReceive
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::LiteNetLib_INetEventListener_OnNetworkReceive
 // Il2CppName: LiteNetLib.INetEventListener.OnNetworkReceive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)(LiteNetLib::NetPeer*, LiteNetLib::NetPacketReader*, LiteNetLib::DeliveryMethod)>(&EventBasedNetListener::LiteNetLib_INetEventListener_OnNetworkReceive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)(LiteNetLib::NetPeer*, LiteNetLib::NetPacketReader*, LiteNetLib::DeliveryMethod)>(&LiteNetLib::EventBasedNetListener::LiteNetLib_INetEventListener_OnNetworkReceive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), "LiteNetLib.INetEventListener.OnNetworkReceive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacketReader*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), "LiteNetLib.INetEventListener.OnNetworkReceive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacketReader*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::LiteNetLib_INetEventListener_OnNetworkReceiveUnconnected
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::LiteNetLib_INetEventListener_OnNetworkReceiveUnconnected
 // Il2CppName: LiteNetLib.INetEventListener.OnNetworkReceiveUnconnected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)(System::Net::IPEndPoint*, LiteNetLib::NetPacketReader*, LiteNetLib::UnconnectedMessageType)>(&EventBasedNetListener::LiteNetLib_INetEventListener_OnNetworkReceiveUnconnected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)(System::Net::IPEndPoint*, LiteNetLib::NetPacketReader*, LiteNetLib::UnconnectedMessageType)>(&LiteNetLib::EventBasedNetListener::LiteNetLib_INetEventListener_OnNetworkReceiveUnconnected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), "LiteNetLib.INetEventListener.OnNetworkReceiveUnconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacketReader*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::UnconnectedMessageType>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), "LiteNetLib.INetEventListener.OnNetworkReceiveUnconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacketReader*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::UnconnectedMessageType>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::LiteNetLib_INetEventListener_OnNetworkLatencyUpdate
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::LiteNetLib_INetEventListener_OnNetworkLatencyUpdate
 // Il2CppName: LiteNetLib.INetEventListener.OnNetworkLatencyUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)(LiteNetLib::NetPeer*, int)>(&EventBasedNetListener::LiteNetLib_INetEventListener_OnNetworkLatencyUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)(LiteNetLib::NetPeer*, int)>(&LiteNetLib::EventBasedNetListener::LiteNetLib_INetEventListener_OnNetworkLatencyUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), "LiteNetLib.INetEventListener.OnNetworkLatencyUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), "LiteNetLib.INetEventListener.OnNetworkLatencyUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::LiteNetLib_INetEventListener_OnConnectionRequest
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::LiteNetLib_INetEventListener_OnConnectionRequest
 // Il2CppName: LiteNetLib.INetEventListener.OnConnectionRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)(LiteNetLib::ConnectionRequest*)>(&EventBasedNetListener::LiteNetLib_INetEventListener_OnConnectionRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)(LiteNetLib::ConnectionRequest*)>(&LiteNetLib::EventBasedNetListener::LiteNetLib_INetEventListener_OnConnectionRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), "LiteNetLib.INetEventListener.OnConnectionRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::ConnectionRequest*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), "LiteNetLib.INetEventListener.OnConnectionRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::ConnectionRequest*>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::LiteNetLib_IDeliveryEventListener_OnMessageDelivered
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::LiteNetLib_IDeliveryEventListener_OnMessageDelivered
 // Il2CppName: LiteNetLib.IDeliveryEventListener.OnMessageDelivered
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)(LiteNetLib::NetPeer*, ::Il2CppObject*)>(&EventBasedNetListener::LiteNetLib_IDeliveryEventListener_OnMessageDelivered)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)(LiteNetLib::NetPeer*, ::Il2CppObject*)>(&LiteNetLib::EventBasedNetListener::LiteNetLib_IDeliveryEventListener_OnMessageDelivered)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), "LiteNetLib.IDeliveryEventListener.OnMessageDelivered", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), "LiteNetLib.IDeliveryEventListener.OnMessageDelivered", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: EventBasedNetListener::New_ctor
+// Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)()>(&EventBasedNetListener::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)()>(&LiteNetLib::EventBasedNetListener::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventBasedNetListener::*)()>(&EventBasedNetListener::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::*)()>(&LiteNetLib::EventBasedNetListener::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventBasedNetListener*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

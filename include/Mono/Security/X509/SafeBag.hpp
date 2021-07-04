@@ -56,33 +56,33 @@ namespace Mono::Security::X509 {
   static_assert(sizeof(SafeBag) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::SafeBag*, "Mono.Security.X509", "SafeBag");
-// Writing MetadataGetter for method: SafeBag::New_ctor
+// Writing MetadataGetter for method: Mono::Security::X509::SafeBag::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeBag::*)(::Il2CppString*, Mono::Security::ASN1*)>(&SafeBag::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::SafeBag::*)(::Il2CppString*, Mono::Security::ASN1*)>(&Mono::Security::X509::SafeBag::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SafeBag*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::SafeBag*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeBag::*)(::Il2CppString*, Mono::Security::ASN1*)>(&SafeBag::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::SafeBag::*)(::Il2CppString*, Mono::Security::ASN1*)>(&Mono::Security::X509::SafeBag::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SafeBag*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::SafeBag*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>()});
   }
 };
-// Writing MetadataGetter for method: SafeBag::get_BagOID
+// Writing MetadataGetter for method: Mono::Security::X509::SafeBag::get_BagOID
 // Il2CppName: get_BagOID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SafeBag::*)()>(&SafeBag::get_BagOID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Security::X509::SafeBag::*)()>(&Mono::Security::X509::SafeBag::get_BagOID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SafeBag*), "get_BagOID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::SafeBag*), "get_BagOID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SafeBag::get_ASN1
+// Writing MetadataGetter for method: Mono::Security::X509::SafeBag::get_ASN1
 // Il2CppName: get_ASN1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (SafeBag::*)()>(&SafeBag::get_ASN1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (Mono::Security::X509::SafeBag::*)()>(&Mono::Security::X509::SafeBag::get_ASN1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SafeBag*), "get_ASN1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::SafeBag*), "get_ASN1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -28,11 +28,11 @@ namespace UnityEngine::TextCore::LowLevel {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::FontEngineUtilities, "UnityEngine.TextCore.LowLevel", "FontEngineUtilities");
-// Writing MetadataGetter for method: FontEngineUtilities::MaxValue
+// Writing MetadataGetter for method: UnityEngine::TextCore::LowLevel::FontEngineUtilities::MaxValue
 // Il2CppName: MaxValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int, int)>(&FontEngineUtilities::MaxValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int, int)>(&UnityEngine::TextCore::LowLevel::FontEngineUtilities::MaxValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FontEngineUtilities), "MaxValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::LowLevel::FontEngineUtilities), "MaxValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };

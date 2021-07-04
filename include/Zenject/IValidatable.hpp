@@ -21,11 +21,11 @@ namespace Zenject {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IValidatable*, "Zenject", "IValidatable");
-// Writing MetadataGetter for method: IValidatable::Validate
+// Writing MetadataGetter for method: Zenject::IValidatable::Validate
 // Il2CppName: Validate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IValidatable::*)()>(&IValidatable::Validate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::IValidatable::*)()>(&Zenject::IValidatable::Validate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IValidatable*), "Validate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::IValidatable*), "Validate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

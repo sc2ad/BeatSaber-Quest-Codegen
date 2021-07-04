@@ -104,49 +104,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(ShowHideAnimationController) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShowHideAnimationController*, "", "ShowHideAnimationController");
-// Writing MetadataGetter for method: ShowHideAnimationController::set_Show
+// Writing MetadataGetter for method: GlobalNamespace::ShowHideAnimationController::set_Show
 // Il2CppName: set_Show
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShowHideAnimationController::*)(bool)>(&ShowHideAnimationController::set_Show)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ShowHideAnimationController::*)(bool)>(&GlobalNamespace::ShowHideAnimationController::set_Show)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ShowHideAnimationController*), "set_Show", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShowHideAnimationController*), "set_Show", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ShowHideAnimationController::get_Show
+// Writing MetadataGetter for method: GlobalNamespace::ShowHideAnimationController::get_Show
 // Il2CppName: get_Show
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ShowHideAnimationController::*)()>(&ShowHideAnimationController::get_Show)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ShowHideAnimationController::*)()>(&GlobalNamespace::ShowHideAnimationController::get_Show)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ShowHideAnimationController*), "get_Show", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShowHideAnimationController*), "get_Show", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ShowHideAnimationController::Awake
+// Writing MetadataGetter for method: GlobalNamespace::ShowHideAnimationController::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShowHideAnimationController::*)()>(&ShowHideAnimationController::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ShowHideAnimationController::*)()>(&GlobalNamespace::ShowHideAnimationController::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ShowHideAnimationController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShowHideAnimationController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ShowHideAnimationController::DeactivateSelfAfterDelayCoroutine
+// Writing MetadataGetter for method: GlobalNamespace::ShowHideAnimationController::DeactivateSelfAfterDelayCoroutine
 // Il2CppName: DeactivateSelfAfterDelayCoroutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (ShowHideAnimationController::*)(float)>(&ShowHideAnimationController::DeactivateSelfAfterDelayCoroutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::ShowHideAnimationController::*)(float)>(&GlobalNamespace::ShowHideAnimationController::DeactivateSelfAfterDelayCoroutine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ShowHideAnimationController*), "DeactivateSelfAfterDelayCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShowHideAnimationController*), "DeactivateSelfAfterDelayCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: ShowHideAnimationController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::ShowHideAnimationController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShowHideAnimationController::*)()>(&ShowHideAnimationController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ShowHideAnimationController::*)()>(&GlobalNamespace::ShowHideAnimationController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ShowHideAnimationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShowHideAnimationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShowHideAnimationController::*)()>(&ShowHideAnimationController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ShowHideAnimationController::*)()>(&GlobalNamespace::ShowHideAnimationController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ShowHideAnimationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShowHideAnimationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

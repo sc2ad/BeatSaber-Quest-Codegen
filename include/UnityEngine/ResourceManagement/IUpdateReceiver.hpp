@@ -21,11 +21,11 @@ namespace UnityEngine::ResourceManagement {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::IUpdateReceiver*, "UnityEngine.ResourceManagement", "IUpdateReceiver");
-// Writing MetadataGetter for method: IUpdateReceiver::Update
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::IUpdateReceiver::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IUpdateReceiver::*)(float)>(&IUpdateReceiver::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::IUpdateReceiver::*)(float)>(&UnityEngine::ResourceManagement::IUpdateReceiver::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IUpdateReceiver*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::IUpdateReceiver*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };

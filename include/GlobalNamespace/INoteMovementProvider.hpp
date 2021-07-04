@@ -28,11 +28,11 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoteMovementProvider*, "", "INoteMovementProvider");
-// Writing MetadataGetter for method: INoteMovementProvider::get_noteMovement
+// Writing MetadataGetter for method: GlobalNamespace::INoteMovementProvider::get_noteMovement
 // Il2CppName: get_noteMovement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteMovement* (INoteMovementProvider::*)()>(&INoteMovementProvider::get_noteMovement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteMovement* (GlobalNamespace::INoteMovementProvider::*)()>(&GlobalNamespace::INoteMovementProvider::get_noteMovement)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INoteMovementProvider*), "get_noteMovement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INoteMovementProvider*), "get_noteMovement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

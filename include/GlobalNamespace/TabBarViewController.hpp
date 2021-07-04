@@ -120,89 +120,89 @@ namespace GlobalNamespace {
   static_assert(sizeof(TabBarViewController) == 0x91);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TabBarViewController*, "", "TabBarViewController");
-// Writing MetadataGetter for method: TabBarViewController::set_sizeToFit
+// Writing MetadataGetter for method: GlobalNamespace::TabBarViewController::set_sizeToFit
 // Il2CppName: set_sizeToFit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TabBarViewController::*)(bool)>(&TabBarViewController::set_sizeToFit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TabBarViewController::*)(bool)>(&GlobalNamespace::TabBarViewController::set_sizeToFit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TabBarViewController*), "set_sizeToFit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TabBarViewController*), "set_sizeToFit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: TabBarViewController::get_sizeToFit
+// Writing MetadataGetter for method: GlobalNamespace::TabBarViewController::get_sizeToFit
 // Il2CppName: get_sizeToFit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TabBarViewController::*)()>(&TabBarViewController::get_sizeToFit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::TabBarViewController::*)()>(&GlobalNamespace::TabBarViewController::get_sizeToFit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TabBarViewController*), "get_sizeToFit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TabBarViewController*), "get_sizeToFit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TabBarViewController::get_selectedCellNumber
+// Writing MetadataGetter for method: GlobalNamespace::TabBarViewController::get_selectedCellNumber
 // Il2CppName: get_selectedCellNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TabBarViewController::*)()>(&TabBarViewController::get_selectedCellNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::TabBarViewController::*)()>(&GlobalNamespace::TabBarViewController::get_selectedCellNumber)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TabBarViewController*), "get_selectedCellNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TabBarViewController*), "get_selectedCellNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TabBarViewController::Setup
+// Writing MetadataGetter for method: GlobalNamespace::TabBarViewController::Setup
 // Il2CppName: Setup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TabBarViewController::*)(::Array<GlobalNamespace::TabBarViewController::TabBarItem*>*)>(&TabBarViewController::Setup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TabBarViewController::*)(::Array<GlobalNamespace::TabBarViewController::TabBarItem*>*)>(&GlobalNamespace::TabBarViewController::Setup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TabBarViewController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::TabBarViewController::TabBarItem*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TabBarViewController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::TabBarViewController::TabBarItem*>*>()});
   }
 };
-// Writing MetadataGetter for method: TabBarViewController::SelectItem
+// Writing MetadataGetter for method: GlobalNamespace::TabBarViewController::SelectItem
 // Il2CppName: SelectItem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TabBarViewController::*)(int)>(&TabBarViewController::SelectItem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TabBarViewController::*)(int)>(&GlobalNamespace::TabBarViewController::SelectItem)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TabBarViewController*), "SelectItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TabBarViewController*), "SelectItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TabBarViewController::Clear
+// Writing MetadataGetter for method: GlobalNamespace::TabBarViewController::Clear
 // Il2CppName: Clear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TabBarViewController::*)()>(&TabBarViewController::Clear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TabBarViewController::*)()>(&GlobalNamespace::TabBarViewController::Clear)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TabBarViewController*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TabBarViewController*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TabBarViewController::HandleDidSelectCell
+// Writing MetadataGetter for method: GlobalNamespace::TabBarViewController::HandleDidSelectCell
 // Il2CppName: HandleDidSelectCell
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TabBarViewController::*)(HMUI::SegmentedControl*, int)>(&TabBarViewController::HandleDidSelectCell)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TabBarViewController::*)(HMUI::SegmentedControl*, int)>(&GlobalNamespace::TabBarViewController::HandleDidSelectCell)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TabBarViewController*), "HandleDidSelectCell", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SegmentedControl*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TabBarViewController*), "HandleDidSelectCell", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SegmentedControl*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TabBarViewController::DidActivate
+// Writing MetadataGetter for method: GlobalNamespace::TabBarViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TabBarViewController::*)(bool, bool, bool)>(&TabBarViewController::DidActivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TabBarViewController::*)(bool, bool, bool)>(&GlobalNamespace::TabBarViewController::DidActivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TabBarViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TabBarViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: TabBarViewController::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::TabBarViewController::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TabBarViewController::*)()>(&TabBarViewController::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TabBarViewController::*)()>(&GlobalNamespace::TabBarViewController::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TabBarViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TabBarViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TabBarViewController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::TabBarViewController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TabBarViewController::*)()>(&TabBarViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TabBarViewController::*)()>(&GlobalNamespace::TabBarViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TabBarViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TabBarViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TabBarViewController::*)()>(&TabBarViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TabBarViewController::*)()>(&GlobalNamespace::TabBarViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TabBarViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TabBarViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

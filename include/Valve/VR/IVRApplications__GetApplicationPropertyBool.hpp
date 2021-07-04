@@ -59,41 +59,41 @@ namespace Valve::VR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRApplications::_GetApplicationPropertyBool*, "Valve.VR", "IVRApplications/_GetApplicationPropertyBool");
-// Writing MetadataGetter for method: IVRApplications::_GetApplicationPropertyBool::New_ctor
+// Writing MetadataGetter for method: Valve::VR::IVRApplications::_GetApplicationPropertyBool::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRApplications::_GetApplicationPropertyBool::*)(::Il2CppObject*, System::IntPtr)>(&IVRApplications::_GetApplicationPropertyBool::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRApplications::_GetApplicationPropertyBool::*)(::Il2CppObject*, System::IntPtr)>(&Valve::VR::IVRApplications::_GetApplicationPropertyBool::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRApplications::_GetApplicationPropertyBool*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRApplications::_GetApplicationPropertyBool*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRApplications::_GetApplicationPropertyBool::*)(::Il2CppObject*, System::IntPtr)>(&IVRApplications::_GetApplicationPropertyBool::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRApplications::_GetApplicationPropertyBool::*)(::Il2CppObject*, System::IntPtr)>(&Valve::VR::IVRApplications::_GetApplicationPropertyBool::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRApplications::_GetApplicationPropertyBool*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRApplications::_GetApplicationPropertyBool*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: IVRApplications::_GetApplicationPropertyBool::Invoke
+// Writing MetadataGetter for method: Valve::VR::IVRApplications::_GetApplicationPropertyBool::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IVRApplications::_GetApplicationPropertyBool::*)(::Il2CppString*, Valve::VR::EVRApplicationProperty, Valve::VR::EVRApplicationError&)>(&IVRApplications::_GetApplicationPropertyBool::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::IVRApplications::_GetApplicationPropertyBool::*)(::Il2CppString*, Valve::VR::EVRApplicationProperty, Valve::VR::EVRApplicationError&)>(&Valve::VR::IVRApplications::_GetApplicationPropertyBool::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRApplications::_GetApplicationPropertyBool*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRApplicationProperty>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRApplicationError&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRApplications::_GetApplicationPropertyBool*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRApplicationProperty>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRApplicationError&>()});
   }
 };
-// Writing MetadataGetter for method: IVRApplications::_GetApplicationPropertyBool::BeginInvoke
+// Writing MetadataGetter for method: Valve::VR::IVRApplications::_GetApplicationPropertyBool::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRApplications::_GetApplicationPropertyBool::*)(::Il2CppString*, Valve::VR::EVRApplicationProperty, Valve::VR::EVRApplicationError&, System::AsyncCallback*, ::Il2CppObject*)>(&IVRApplications::_GetApplicationPropertyBool::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRApplications::_GetApplicationPropertyBool::*)(::Il2CppString*, Valve::VR::EVRApplicationProperty, Valve::VR::EVRApplicationError&, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRApplications::_GetApplicationPropertyBool::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRApplications::_GetApplicationPropertyBool*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRApplicationProperty>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRApplicationError&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRApplications::_GetApplicationPropertyBool*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRApplicationProperty>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRApplicationError&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IVRApplications::_GetApplicationPropertyBool::EndInvoke
+// Writing MetadataGetter for method: Valve::VR::IVRApplications::_GetApplicationPropertyBool::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IVRApplications::_GetApplicationPropertyBool::*)(Valve::VR::EVRApplicationError&, System::IAsyncResult*)>(&IVRApplications::_GetApplicationPropertyBool::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::IVRApplications::_GetApplicationPropertyBool::*)(Valve::VR::EVRApplicationError&, System::IAsyncResult*)>(&Valve::VR::IVRApplications::_GetApplicationPropertyBool::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRApplications::_GetApplicationPropertyBool*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRApplicationError&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRApplications::_GetApplicationPropertyBool*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRApplicationError&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

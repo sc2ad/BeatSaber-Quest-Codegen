@@ -82,43 +82,43 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerUnavailableReasonMethods*, "", "MultiplayerUnavailableReasonMethods");
-// Writing MetadataGetter for method: MultiplayerUnavailableReasonMethods::LocalizedKey
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerUnavailableReasonMethods::LocalizedKey
 // Il2CppName: LocalizedKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(GlobalNamespace::MultiplayerUnavailableReason)>(&MultiplayerUnavailableReasonMethods::LocalizedKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(GlobalNamespace::MultiplayerUnavailableReason)>(&GlobalNamespace::MultiplayerUnavailableReasonMethods::LocalizedKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerUnavailableReasonMethods*), "LocalizedKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerUnavailableReason>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerUnavailableReasonMethods*), "LocalizedKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerUnavailableReason>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerUnavailableReasonMethods::ErrorCode
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerUnavailableReasonMethods::ErrorCode
 // Il2CppName: ErrorCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(GlobalNamespace::MultiplayerUnavailableReason)>(&MultiplayerUnavailableReasonMethods::ErrorCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(GlobalNamespace::MultiplayerUnavailableReason)>(&GlobalNamespace::MultiplayerUnavailableReasonMethods::ErrorCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerUnavailableReasonMethods*), "ErrorCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerUnavailableReason>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerUnavailableReasonMethods*), "ErrorCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerUnavailableReason>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerUnavailableReasonMethods::TryGetMultiplayerUnavailableReason
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerUnavailableReasonMethods::TryGetMultiplayerUnavailableReason
 // Il2CppName: TryGetMultiplayerUnavailableReason
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::MasterServerAvailabilityData*, GlobalNamespace::MultiplayerUnavailableReason&)>(&MultiplayerUnavailableReasonMethods::TryGetMultiplayerUnavailableReason)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::MasterServerAvailabilityData*, GlobalNamespace::MultiplayerUnavailableReason&)>(&GlobalNamespace::MultiplayerUnavailableReasonMethods::TryGetMultiplayerUnavailableReason)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerUnavailableReasonMethods*), "TryGetMultiplayerUnavailableReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MasterServerAvailabilityData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerUnavailableReason&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerUnavailableReasonMethods*), "TryGetMultiplayerUnavailableReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MasterServerAvailabilityData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerUnavailableReason&>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerUnavailableReasonMethods::GetLocalizedMessage
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerUnavailableReasonMethods::GetLocalizedMessage
 // Il2CppName: GetLocalizedMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(GlobalNamespace::MasterServerAvailabilityData*, Polyglot::Language)>(&MultiplayerUnavailableReasonMethods::GetLocalizedMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(GlobalNamespace::MasterServerAvailabilityData*, Polyglot::Language)>(&GlobalNamespace::MultiplayerUnavailableReasonMethods::GetLocalizedMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerUnavailableReasonMethods*), "GetLocalizedMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MasterServerAvailabilityData*>(), ::il2cpp_utils::ExtractIndependentType<Polyglot::Language>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerUnavailableReasonMethods*), "GetLocalizedMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MasterServerAvailabilityData*>(), ::il2cpp_utils::ExtractIndependentType<Polyglot::Language>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerUnavailableReasonMethods::VersionLessThan
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerUnavailableReasonMethods::VersionLessThan
 // Il2CppName: VersionLessThan
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*)>(&MultiplayerUnavailableReasonMethods::VersionLessThan)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::MultiplayerUnavailableReasonMethods::VersionLessThan)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerUnavailableReasonMethods*), "VersionLessThan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerUnavailableReasonMethods*), "VersionLessThan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };

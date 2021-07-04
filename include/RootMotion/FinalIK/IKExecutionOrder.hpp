@@ -91,65 +91,65 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKExecutionOrder) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKExecutionOrder*, "RootMotion.FinalIK", "IKExecutionOrder");
-// Writing MetadataGetter for method: IKExecutionOrder::get_animatePhysics
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKExecutionOrder::get_animatePhysics
 // Il2CppName: get_animatePhysics
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IKExecutionOrder::*)()>(&IKExecutionOrder::get_animatePhysics)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::IKExecutionOrder::*)()>(&RootMotion::FinalIK::IKExecutionOrder::get_animatePhysics)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKExecutionOrder*), "get_animatePhysics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKExecutionOrder*), "get_animatePhysics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IKExecutionOrder::Start
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKExecutionOrder::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKExecutionOrder::*)()>(&IKExecutionOrder::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKExecutionOrder::*)()>(&RootMotion::FinalIK::IKExecutionOrder::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKExecutionOrder*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKExecutionOrder*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IKExecutionOrder::Update
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKExecutionOrder::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKExecutionOrder::*)()>(&IKExecutionOrder::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKExecutionOrder::*)()>(&RootMotion::FinalIK::IKExecutionOrder::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKExecutionOrder*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKExecutionOrder*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IKExecutionOrder::FixedUpdate
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKExecutionOrder::FixedUpdate
 // Il2CppName: FixedUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKExecutionOrder::*)()>(&IKExecutionOrder::FixedUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKExecutionOrder::*)()>(&RootMotion::FinalIK::IKExecutionOrder::FixedUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKExecutionOrder*), "FixedUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKExecutionOrder*), "FixedUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IKExecutionOrder::LateUpdate
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKExecutionOrder::LateUpdate
 // Il2CppName: LateUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKExecutionOrder::*)()>(&IKExecutionOrder::LateUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKExecutionOrder::*)()>(&RootMotion::FinalIK::IKExecutionOrder::LateUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKExecutionOrder*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKExecutionOrder*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IKExecutionOrder::FixTransforms
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKExecutionOrder::FixTransforms
 // Il2CppName: FixTransforms
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKExecutionOrder::*)()>(&IKExecutionOrder::FixTransforms)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKExecutionOrder::*)()>(&RootMotion::FinalIK::IKExecutionOrder::FixTransforms)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKExecutionOrder*), "FixTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKExecutionOrder*), "FixTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IKExecutionOrder::New_ctor
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKExecutionOrder::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKExecutionOrder::*)()>(&IKExecutionOrder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKExecutionOrder::*)()>(&RootMotion::FinalIK::IKExecutionOrder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKExecutionOrder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKExecutionOrder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKExecutionOrder::*)()>(&IKExecutionOrder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKExecutionOrder::*)()>(&RootMotion::FinalIK::IKExecutionOrder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKExecutionOrder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKExecutionOrder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

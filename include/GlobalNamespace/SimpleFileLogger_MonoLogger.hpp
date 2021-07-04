@@ -66,41 +66,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(SimpleFileLogger::MonoLogger) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleFileLogger::MonoLogger*, "", "SimpleFileLogger/MonoLogger");
-// Writing MetadataGetter for method: SimpleFileLogger::MonoLogger::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::SimpleFileLogger::MonoLogger::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleFileLogger::MonoLogger::*)()>(&SimpleFileLogger::MonoLogger::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleFileLogger::MonoLogger::*)()>(&GlobalNamespace::SimpleFileLogger::MonoLogger::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleFileLogger::MonoLogger*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleFileLogger::MonoLogger*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SimpleFileLogger::MonoLogger::Log
+// Writing MetadataGetter for method: GlobalNamespace::SimpleFileLogger::MonoLogger::Log
 // Il2CppName: Log
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleFileLogger::MonoLogger::*)(::Il2CppString*)>(&SimpleFileLogger::MonoLogger::Log)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleFileLogger::MonoLogger::*)(::Il2CppString*)>(&GlobalNamespace::SimpleFileLogger::MonoLogger::Log)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleFileLogger::MonoLogger*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleFileLogger::MonoLogger*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: SimpleFileLogger::MonoLogger::Clear
+// Writing MetadataGetter for method: GlobalNamespace::SimpleFileLogger::MonoLogger::Clear
 // Il2CppName: Clear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleFileLogger::MonoLogger::*)()>(&SimpleFileLogger::MonoLogger::Clear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleFileLogger::MonoLogger::*)()>(&GlobalNamespace::SimpleFileLogger::MonoLogger::Clear)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleFileLogger::MonoLogger*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleFileLogger::MonoLogger*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SimpleFileLogger::MonoLogger::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::SimpleFileLogger::MonoLogger::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleFileLogger::MonoLogger::*)()>(&SimpleFileLogger::MonoLogger::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleFileLogger::MonoLogger::*)()>(&GlobalNamespace::SimpleFileLogger::MonoLogger::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleFileLogger::MonoLogger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleFileLogger::MonoLogger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleFileLogger::MonoLogger::*)()>(&SimpleFileLogger::MonoLogger::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleFileLogger::MonoLogger::*)()>(&GlobalNamespace::SimpleFileLogger::MonoLogger::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleFileLogger::MonoLogger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleFileLogger::MonoLogger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

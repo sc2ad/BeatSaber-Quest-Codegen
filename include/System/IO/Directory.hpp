@@ -88,155 +88,155 @@ namespace System::IO {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Directory*, "System.IO", "Directory");
-// Writing MetadataGetter for method: Directory::GetFiles
+// Writing MetadataGetter for method: System::IO::Directory::GetFiles
 // Il2CppName: GetFiles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*)>(&Directory::GetFiles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*)>(&System::IO::Directory::GetFiles)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Directory*), "GetFiles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "GetFiles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Directory::GetFiles
+// Writing MetadataGetter for method: System::IO::Directory::GetFiles
 // Il2CppName: GetFiles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*, ::Il2CppString*)>(&Directory::GetFiles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*, ::Il2CppString*)>(&System::IO::Directory::GetFiles)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Directory*), "GetFiles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "GetFiles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Directory::InternalGetFiles
+// Writing MetadataGetter for method: System::IO::Directory::InternalGetFiles
 // Il2CppName: InternalGetFiles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*, ::Il2CppString*, System::IO::SearchOption)>(&Directory::InternalGetFiles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*, ::Il2CppString*, System::IO::SearchOption)>(&System::IO::Directory::InternalGetFiles)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Directory*), "InternalGetFiles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::SearchOption>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "InternalGetFiles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::SearchOption>()});
   }
 };
-// Writing MetadataGetter for method: Directory::GetDirectories
+// Writing MetadataGetter for method: System::IO::Directory::GetDirectories
 // Il2CppName: GetDirectories
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*)>(&Directory::GetDirectories)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*)>(&System::IO::Directory::GetDirectories)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Directory*), "GetDirectories", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "GetDirectories", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Directory::GetDirectories
+// Writing MetadataGetter for method: System::IO::Directory::GetDirectories
 // Il2CppName: GetDirectories
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*, ::Il2CppString*)>(&Directory::GetDirectories)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*, ::Il2CppString*)>(&System::IO::Directory::GetDirectories)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Directory*), "GetDirectories", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "GetDirectories", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Directory::InternalGetDirectories
+// Writing MetadataGetter for method: System::IO::Directory::InternalGetDirectories
 // Il2CppName: InternalGetDirectories
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*, ::Il2CppString*, System::IO::SearchOption)>(&Directory::InternalGetDirectories)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*, ::Il2CppString*, System::IO::SearchOption)>(&System::IO::Directory::InternalGetDirectories)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Directory*), "InternalGetDirectories", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::SearchOption>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "InternalGetDirectories", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::SearchOption>()});
   }
 };
-// Writing MetadataGetter for method: Directory::GetFileSystemEntries
+// Writing MetadataGetter for method: System::IO::Directory::GetFileSystemEntries
 // Il2CppName: GetFileSystemEntries
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*, ::Il2CppString*)>(&Directory::GetFileSystemEntries)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*, ::Il2CppString*)>(&System::IO::Directory::GetFileSystemEntries)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Directory*), "GetFileSystemEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "GetFileSystemEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Directory::InternalGetFileSystemEntries
+// Writing MetadataGetter for method: System::IO::Directory::InternalGetFileSystemEntries
 // Il2CppName: InternalGetFileSystemEntries
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*, ::Il2CppString*, System::IO::SearchOption)>(&Directory::InternalGetFileSystemEntries)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*, ::Il2CppString*, System::IO::SearchOption)>(&System::IO::Directory::InternalGetFileSystemEntries)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Directory*), "InternalGetFileSystemEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::SearchOption>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "InternalGetFileSystemEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::SearchOption>()});
   }
 };
-// Writing MetadataGetter for method: Directory::InternalGetFileDirectoryNames
+// Writing MetadataGetter for method: System::IO::Directory::InternalGetFileDirectoryNames
 // Il2CppName: InternalGetFileDirectoryNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, bool, bool, System::IO::SearchOption, bool)>(&Directory::InternalGetFileDirectoryNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, bool, bool, System::IO::SearchOption, bool)>(&System::IO::Directory::InternalGetFileDirectoryNames)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Directory*), "InternalGetFileDirectoryNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::IO::SearchOption>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "InternalGetFileDirectoryNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::IO::SearchOption>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Directory::CreateDirectory
+// Writing MetadataGetter for method: System::IO::Directory::CreateDirectory
 // Il2CppName: CreateDirectory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::DirectoryInfo* (*)(::Il2CppString*)>(&Directory::CreateDirectory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::DirectoryInfo* (*)(::Il2CppString*)>(&System::IO::Directory::CreateDirectory)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Directory*), "CreateDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "CreateDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Directory::CreateDirectoriesInternal
+// Writing MetadataGetter for method: System::IO::Directory::CreateDirectoriesInternal
 // Il2CppName: CreateDirectoriesInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::DirectoryInfo* (*)(::Il2CppString*)>(&Directory::CreateDirectoriesInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::DirectoryInfo* (*)(::Il2CppString*)>(&System::IO::Directory::CreateDirectoriesInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Directory*), "CreateDirectoriesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "CreateDirectoriesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Directory::Delete
+// Writing MetadataGetter for method: System::IO::Directory::Delete
 // Il2CppName: Delete
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Directory::Delete)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&System::IO::Directory::Delete)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Directory*), "Delete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "Delete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Directory::RecursiveDelete
+// Writing MetadataGetter for method: System::IO::Directory::RecursiveDelete
 // Il2CppName: RecursiveDelete
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&Directory::RecursiveDelete)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&System::IO::Directory::RecursiveDelete)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Directory*), "RecursiveDelete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "RecursiveDelete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Directory::Delete
+// Writing MetadataGetter for method: System::IO::Directory::Delete
 // Il2CppName: Delete
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, bool)>(&Directory::Delete)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, bool)>(&System::IO::Directory::Delete)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Directory*), "Delete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "Delete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Directory::Exists
+// Writing MetadataGetter for method: System::IO::Directory::Exists
 // Il2CppName: Exists
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Directory::Exists)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&System::IO::Directory::Exists)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Directory*), "Exists", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "Exists", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Directory::GetCurrentDirectory
+// Writing MetadataGetter for method: System::IO::Directory::GetCurrentDirectory
 // Il2CppName: GetCurrentDirectory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Directory::GetCurrentDirectory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::IO::Directory::GetCurrentDirectory)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Directory*), "GetCurrentDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "GetCurrentDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Directory::InsecureGetCurrentDirectory
+// Writing MetadataGetter for method: System::IO::Directory::InsecureGetCurrentDirectory
 // Il2CppName: InsecureGetCurrentDirectory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Directory::InsecureGetCurrentDirectory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::IO::Directory::InsecureGetCurrentDirectory)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Directory*), "InsecureGetCurrentDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "InsecureGetCurrentDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Directory::GetLogicalDrives
+// Writing MetadataGetter for method: System::IO::Directory::GetLogicalDrives
 // Il2CppName: GetLogicalDrives
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)()>(&Directory::GetLogicalDrives)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)()>(&System::IO::Directory::GetLogicalDrives)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Directory*), "GetLogicalDrives", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "GetLogicalDrives", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Directory::GetDemandDir
+// Writing MetadataGetter for method: System::IO::Directory::GetDemandDir
 // Il2CppName: GetDemandDir
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, bool)>(&Directory::GetDemandDir)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, bool)>(&System::IO::Directory::GetDemandDir)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Directory*), "GetDemandDir", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "GetDemandDir", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };

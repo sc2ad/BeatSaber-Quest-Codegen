@@ -89,65 +89,65 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(RC2CryptoServiceProvider) == 0x49);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RC2CryptoServiceProvider*, "System.Security.Cryptography", "RC2CryptoServiceProvider");
-// Writing MetadataGetter for method: RC2CryptoServiceProvider::New_ctor
+// Writing MetadataGetter for method: System::Security::Cryptography::RC2CryptoServiceProvider::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RC2CryptoServiceProvider::*)()>(&RC2CryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RC2CryptoServiceProvider::*)()>(&System::Security::Cryptography::RC2CryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RC2CryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RC2CryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RC2CryptoServiceProvider::*)()>(&RC2CryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RC2CryptoServiceProvider::*)()>(&System::Security::Cryptography::RC2CryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RC2CryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RC2CryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RC2CryptoServiceProvider::get_EffectiveKeySize
+// Writing MetadataGetter for method: System::Security::Cryptography::RC2CryptoServiceProvider::get_EffectiveKeySize
 // Il2CppName: get_EffectiveKeySize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RC2CryptoServiceProvider::*)()>(&RC2CryptoServiceProvider::get_EffectiveKeySize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Cryptography::RC2CryptoServiceProvider::*)()>(&System::Security::Cryptography::RC2CryptoServiceProvider::get_EffectiveKeySize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RC2CryptoServiceProvider*), "get_EffectiveKeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RC2CryptoServiceProvider*), "get_EffectiveKeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RC2CryptoServiceProvider::CreateEncryptor
+// Writing MetadataGetter for method: System::Security::Cryptography::RC2CryptoServiceProvider::CreateEncryptor
 // Il2CppName: CreateEncryptor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (RC2CryptoServiceProvider::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&RC2CryptoServiceProvider::CreateEncryptor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (System::Security::Cryptography::RC2CryptoServiceProvider::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&System::Security::Cryptography::RC2CryptoServiceProvider::CreateEncryptor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RC2CryptoServiceProvider*), "CreateEncryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RC2CryptoServiceProvider*), "CreateEncryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: RC2CryptoServiceProvider::CreateDecryptor
+// Writing MetadataGetter for method: System::Security::Cryptography::RC2CryptoServiceProvider::CreateDecryptor
 // Il2CppName: CreateDecryptor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (RC2CryptoServiceProvider::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&RC2CryptoServiceProvider::CreateDecryptor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (System::Security::Cryptography::RC2CryptoServiceProvider::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&System::Security::Cryptography::RC2CryptoServiceProvider::CreateDecryptor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RC2CryptoServiceProvider*), "CreateDecryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RC2CryptoServiceProvider*), "CreateDecryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: RC2CryptoServiceProvider::GenerateKey
+// Writing MetadataGetter for method: System::Security::Cryptography::RC2CryptoServiceProvider::GenerateKey
 // Il2CppName: GenerateKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RC2CryptoServiceProvider::*)()>(&RC2CryptoServiceProvider::GenerateKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RC2CryptoServiceProvider::*)()>(&System::Security::Cryptography::RC2CryptoServiceProvider::GenerateKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RC2CryptoServiceProvider*), "GenerateKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RC2CryptoServiceProvider*), "GenerateKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RC2CryptoServiceProvider::GenerateIV
+// Writing MetadataGetter for method: System::Security::Cryptography::RC2CryptoServiceProvider::GenerateIV
 // Il2CppName: GenerateIV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RC2CryptoServiceProvider::*)()>(&RC2CryptoServiceProvider::GenerateIV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RC2CryptoServiceProvider::*)()>(&System::Security::Cryptography::RC2CryptoServiceProvider::GenerateIV)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RC2CryptoServiceProvider*), "GenerateIV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RC2CryptoServiceProvider*), "GenerateIV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RC2CryptoServiceProvider::_cctor
+// Writing MetadataGetter for method: System::Security::Cryptography::RC2CryptoServiceProvider::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&RC2CryptoServiceProvider::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Security::Cryptography::RC2CryptoServiceProvider::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RC2CryptoServiceProvider*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RC2CryptoServiceProvider*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

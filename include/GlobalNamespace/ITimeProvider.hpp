@@ -21,11 +21,11 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ITimeProvider*, "", "ITimeProvider");
-// Writing MetadataGetter for method: ITimeProvider::get_time
+// Writing MetadataGetter for method: GlobalNamespace::ITimeProvider::get_time
 // Il2CppName: get_time
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (ITimeProvider::*)()>(&ITimeProvider::get_time)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ITimeProvider::*)()>(&GlobalNamespace::ITimeProvider::get_time)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ITimeProvider*), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ITimeProvider*), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

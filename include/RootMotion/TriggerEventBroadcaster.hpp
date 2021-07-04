@@ -65,41 +65,41 @@ namespace RootMotion {
   static_assert(sizeof(TriggerEventBroadcaster) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::TriggerEventBroadcaster*, "RootMotion", "TriggerEventBroadcaster");
-// Writing MetadataGetter for method: TriggerEventBroadcaster::OnTriggerEnter
+// Writing MetadataGetter for method: RootMotion::TriggerEventBroadcaster::OnTriggerEnter
 // Il2CppName: OnTriggerEnter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TriggerEventBroadcaster::*)(UnityEngine::Collider*)>(&TriggerEventBroadcaster::OnTriggerEnter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::TriggerEventBroadcaster::*)(UnityEngine::Collider*)>(&RootMotion::TriggerEventBroadcaster::OnTriggerEnter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TriggerEventBroadcaster*), "OnTriggerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Collider*>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::TriggerEventBroadcaster*), "OnTriggerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Collider*>()});
   }
 };
-// Writing MetadataGetter for method: TriggerEventBroadcaster::OnTriggerStay
+// Writing MetadataGetter for method: RootMotion::TriggerEventBroadcaster::OnTriggerStay
 // Il2CppName: OnTriggerStay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TriggerEventBroadcaster::*)(UnityEngine::Collider*)>(&TriggerEventBroadcaster::OnTriggerStay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::TriggerEventBroadcaster::*)(UnityEngine::Collider*)>(&RootMotion::TriggerEventBroadcaster::OnTriggerStay)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TriggerEventBroadcaster*), "OnTriggerStay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Collider*>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::TriggerEventBroadcaster*), "OnTriggerStay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Collider*>()});
   }
 };
-// Writing MetadataGetter for method: TriggerEventBroadcaster::OnTriggerExit
+// Writing MetadataGetter for method: RootMotion::TriggerEventBroadcaster::OnTriggerExit
 // Il2CppName: OnTriggerExit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TriggerEventBroadcaster::*)(UnityEngine::Collider*)>(&TriggerEventBroadcaster::OnTriggerExit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::TriggerEventBroadcaster::*)(UnityEngine::Collider*)>(&RootMotion::TriggerEventBroadcaster::OnTriggerExit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TriggerEventBroadcaster*), "OnTriggerExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Collider*>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::TriggerEventBroadcaster*), "OnTriggerExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Collider*>()});
   }
 };
-// Writing MetadataGetter for method: TriggerEventBroadcaster::New_ctor
+// Writing MetadataGetter for method: RootMotion::TriggerEventBroadcaster::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TriggerEventBroadcaster::*)()>(&TriggerEventBroadcaster::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::TriggerEventBroadcaster::*)()>(&RootMotion::TriggerEventBroadcaster::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TriggerEventBroadcaster*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::TriggerEventBroadcaster*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TriggerEventBroadcaster::*)()>(&TriggerEventBroadcaster::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::TriggerEventBroadcaster::*)()>(&RootMotion::TriggerEventBroadcaster::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TriggerEventBroadcaster*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::TriggerEventBroadcaster*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

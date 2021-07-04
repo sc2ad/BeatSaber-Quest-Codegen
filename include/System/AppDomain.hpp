@@ -355,305 +355,305 @@ namespace System {
   static_assert(sizeof(AppDomain) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::AppDomain*, "System", "AppDomain");
-// Writing MetadataGetter for method: AppDomain::getFriendlyName
+// Writing MetadataGetter for method: System::AppDomain::getFriendlyName
 // Il2CppName: getFriendlyName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AppDomain::*)()>(&AppDomain::getFriendlyName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::AppDomain::*)()>(&System::AppDomain::getFriendlyName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "getFriendlyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "getFriendlyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AppDomain::get_FriendlyName
+// Writing MetadataGetter for method: System::AppDomain::get_FriendlyName
 // Il2CppName: get_FriendlyName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AppDomain::*)()>(&AppDomain::get_FriendlyName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::AppDomain::*)()>(&System::AppDomain::get_FriendlyName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "get_FriendlyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "get_FriendlyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AppDomain::get_DefaultPrincipal
+// Writing MetadataGetter for method: System::AppDomain::get_DefaultPrincipal
 // Il2CppName: get_DefaultPrincipal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Principal::IPrincipal* (AppDomain::*)()>(&AppDomain::get_DefaultPrincipal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Principal::IPrincipal* (System::AppDomain::*)()>(&System::AppDomain::get_DefaultPrincipal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "get_DefaultPrincipal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "get_DefaultPrincipal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AppDomain::getCurDomain
+// Writing MetadataGetter for method: System::AppDomain::getCurDomain
 // Il2CppName: getCurDomain
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::AppDomain* (*)()>(&AppDomain::getCurDomain)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::AppDomain* (*)()>(&System::AppDomain::getCurDomain)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "getCurDomain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "getCurDomain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AppDomain::get_CurrentDomain
+// Writing MetadataGetter for method: System::AppDomain::get_CurrentDomain
 // Il2CppName: get_CurrentDomain
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::AppDomain* (*)()>(&AppDomain::get_CurrentDomain)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::AppDomain* (*)()>(&System::AppDomain::get_CurrentDomain)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "get_CurrentDomain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "get_CurrentDomain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AppDomain::GetAssemblies
+// Writing MetadataGetter for method: System::AppDomain::GetAssemblies
 // Il2CppName: GetAssemblies
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::Assembly*>* (AppDomain::*)(bool)>(&AppDomain::GetAssemblies)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::Assembly*>* (System::AppDomain::*)(bool)>(&System::AppDomain::GetAssemblies)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "GetAssemblies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "GetAssemblies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AppDomain::GetAssemblies
+// Writing MetadataGetter for method: System::AppDomain::GetAssemblies
 // Il2CppName: GetAssemblies
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::Assembly*>* (AppDomain::*)()>(&AppDomain::GetAssemblies)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::Assembly*>* (System::AppDomain::*)()>(&System::AppDomain::GetAssemblies)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "GetAssemblies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "GetAssemblies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AppDomain::GetData
+// Writing MetadataGetter for method: System::AppDomain::GetData
 // Il2CppName: GetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (AppDomain::*)(::Il2CppString*)>(&AppDomain::GetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::AppDomain::*)(::Il2CppString*)>(&System::AppDomain::GetData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: AppDomain::LoadAssembly
+// Writing MetadataGetter for method: System::AppDomain::LoadAssembly
 // Il2CppName: LoadAssembly
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (AppDomain::*)(::Il2CppString*, System::Security::Policy::Evidence*, bool)>(&AppDomain::LoadAssembly)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (System::AppDomain::*)(::Il2CppString*, System::Security::Policy::Evidence*, bool)>(&System::AppDomain::LoadAssembly)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "LoadAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Policy::Evidence*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "LoadAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Policy::Evidence*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AppDomain::Load
+// Writing MetadataGetter for method: System::AppDomain::Load
 // Il2CppName: Load
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (AppDomain::*)(::Il2CppString*)>(&AppDomain::Load)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (System::AppDomain::*)(::Il2CppString*)>(&System::AppDomain::Load)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: AppDomain::Load
+// Writing MetadataGetter for method: System::AppDomain::Load
 // Il2CppName: Load
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (AppDomain::*)(::Il2CppString*, System::Security::Policy::Evidence*, bool)>(&AppDomain::Load)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (System::AppDomain::*)(::Il2CppString*, System::Security::Policy::Evidence*, bool)>(&System::AppDomain::Load)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Policy::Evidence*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Policy::Evidence*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AppDomain::InternalSetDomainByID
+// Writing MetadataGetter for method: System::AppDomain::InternalSetDomainByID
 // Il2CppName: InternalSetDomainByID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::AppDomain* (*)(int)>(&AppDomain::InternalSetDomainByID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::AppDomain* (*)(int)>(&System::AppDomain::InternalSetDomainByID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "InternalSetDomainByID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "InternalSetDomainByID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: AppDomain::InternalSetDomain
+// Writing MetadataGetter for method: System::AppDomain::InternalSetDomain
 // Il2CppName: InternalSetDomain
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::AppDomain* (*)(System::AppDomain*)>(&AppDomain::InternalSetDomain)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::AppDomain* (*)(System::AppDomain*)>(&System::AppDomain::InternalSetDomain)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "InternalSetDomain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AppDomain*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "InternalSetDomain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AppDomain*>()});
   }
 };
-// Writing MetadataGetter for method: AppDomain::InternalPushDomainRefByID
+// Writing MetadataGetter for method: System::AppDomain::InternalPushDomainRefByID
 // Il2CppName: InternalPushDomainRefByID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&AppDomain::InternalPushDomainRefByID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&System::AppDomain::InternalPushDomainRefByID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "InternalPushDomainRefByID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "InternalPushDomainRefByID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: AppDomain::InternalPopDomainRef
+// Writing MetadataGetter for method: System::AppDomain::InternalPopDomainRef
 // Il2CppName: InternalPopDomainRef
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AppDomain::InternalPopDomainRef)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::AppDomain::InternalPopDomainRef)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "InternalPopDomainRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "InternalPopDomainRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AppDomain::InternalSetContext
+// Writing MetadataGetter for method: System::AppDomain::InternalSetContext
 // Il2CppName: InternalSetContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::Context* (*)(System::Runtime::Remoting::Contexts::Context*)>(&AppDomain::InternalSetContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::Context* (*)(System::Runtime::Remoting::Contexts::Context*)>(&System::AppDomain::InternalSetContext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "InternalSetContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "InternalSetContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::Context*>()});
   }
 };
-// Writing MetadataGetter for method: AppDomain::InternalGetContext
+// Writing MetadataGetter for method: System::AppDomain::InternalGetContext
 // Il2CppName: InternalGetContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::Context* (*)()>(&AppDomain::InternalGetContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::Context* (*)()>(&System::AppDomain::InternalGetContext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "InternalGetContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "InternalGetContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AppDomain::InternalGetDefaultContext
+// Writing MetadataGetter for method: System::AppDomain::InternalGetDefaultContext
 // Il2CppName: InternalGetDefaultContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::Context* (*)()>(&AppDomain::InternalGetDefaultContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::Context* (*)()>(&System::AppDomain::InternalGetDefaultContext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "InternalGetDefaultContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "InternalGetDefaultContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AppDomain::InternalGetProcessGuid
+// Writing MetadataGetter for method: System::AppDomain::InternalGetProcessGuid
 // Il2CppName: InternalGetProcessGuid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&AppDomain::InternalGetProcessGuid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::AppDomain::InternalGetProcessGuid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "InternalGetProcessGuid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "InternalGetProcessGuid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: AppDomain::InvokeInDomainByID
+// Writing MetadataGetter for method: System::AppDomain::InvokeInDomainByID
 // Il2CppName: InvokeInDomainByID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(int, System::Reflection::MethodInfo*, ::Il2CppObject*, ::Array<::Il2CppObject*>*)>(&AppDomain::InvokeInDomainByID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(int, System::Reflection::MethodInfo*, ::Il2CppObject*, ::Array<::Il2CppObject*>*)>(&System::AppDomain::InvokeInDomainByID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "InvokeInDomainByID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "InvokeInDomainByID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
   }
 };
-// Writing MetadataGetter for method: AppDomain::GetProcessGuid
+// Writing MetadataGetter for method: System::AppDomain::GetProcessGuid
 // Il2CppName: GetProcessGuid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&AppDomain::GetProcessGuid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::AppDomain::GetProcessGuid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "GetProcessGuid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "GetProcessGuid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AppDomain::InternalIsFinalizingForUnload
+// Writing MetadataGetter for method: System::AppDomain::InternalIsFinalizingForUnload
 // Il2CppName: InternalIsFinalizingForUnload
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&AppDomain::InternalIsFinalizingForUnload)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&System::AppDomain::InternalIsFinalizingForUnload)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "InternalIsFinalizingForUnload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "InternalIsFinalizingForUnload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: AppDomain::IsFinalizingForUnload
+// Writing MetadataGetter for method: System::AppDomain::IsFinalizingForUnload
 // Il2CppName: IsFinalizingForUnload
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AppDomain::*)()>(&AppDomain::IsFinalizingForUnload)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::AppDomain::*)()>(&System::AppDomain::IsFinalizingForUnload)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "IsFinalizingForUnload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "IsFinalizingForUnload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AppDomain::getDomainID
+// Writing MetadataGetter for method: System::AppDomain::getDomainID
 // Il2CppName: getDomainID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AppDomain::*)()>(&AppDomain::getDomainID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::AppDomain::*)()>(&System::AppDomain::getDomainID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "getDomainID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "getDomainID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AppDomain::DoAssemblyLoad
+// Writing MetadataGetter for method: System::AppDomain::DoAssemblyLoad
 // Il2CppName: DoAssemblyLoad
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppDomain::*)(System::Reflection::Assembly*)>(&AppDomain::DoAssemblyLoad)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::AppDomain::*)(System::Reflection::Assembly*)>(&System::AppDomain::DoAssemblyLoad)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "DoAssemblyLoad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "DoAssemblyLoad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>()});
   }
 };
-// Writing MetadataGetter for method: AppDomain::DoAssemblyResolve
+// Writing MetadataGetter for method: System::AppDomain::DoAssemblyResolve
 // Il2CppName: DoAssemblyResolve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (AppDomain::*)(::Il2CppString*, System::Reflection::Assembly*, bool)>(&AppDomain::DoAssemblyResolve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (System::AppDomain::*)(::Il2CppString*, System::Reflection::Assembly*, bool)>(&System::AppDomain::DoAssemblyResolve)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "DoAssemblyResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "DoAssemblyResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AppDomain::DoTypeResolve
+// Writing MetadataGetter for method: System::AppDomain::DoTypeResolve
 // Il2CppName: DoTypeResolve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (AppDomain::*)(::Il2CppObject*)>(&AppDomain::DoTypeResolve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (System::AppDomain::*)(::Il2CppObject*)>(&System::AppDomain::DoTypeResolve)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "DoTypeResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "DoTypeResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: AppDomain::DoDomainUnload
+// Writing MetadataGetter for method: System::AppDomain::DoDomainUnload
 // Il2CppName: DoDomainUnload
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppDomain::*)()>(&AppDomain::DoDomainUnload)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::AppDomain::*)()>(&System::AppDomain::DoDomainUnload)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "DoDomainUnload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "DoDomainUnload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AppDomain::GetMarshalledDomainObjRef
+// Writing MetadataGetter for method: System::AppDomain::GetMarshalledDomainObjRef
 // Il2CppName: GetMarshalledDomainObjRef
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (AppDomain::*)()>(&AppDomain::GetMarshalledDomainObjRef)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::AppDomain::*)()>(&System::AppDomain::GetMarshalledDomainObjRef)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "GetMarshalledDomainObjRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "GetMarshalledDomainObjRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AppDomain::ProcessMessageInDomain
+// Writing MetadataGetter for method: System::AppDomain::ProcessMessageInDomain
 // Il2CppName: ProcessMessageInDomain
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppDomain::*)(::Array<uint8_t>*, System::Runtime::Remoting::Messaging::CADMethodCallMessage*, ::Array<uint8_t>*&, System::Runtime::Remoting::Messaging::CADMethodReturnMessage*&)>(&AppDomain::ProcessMessageInDomain)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::AppDomain::*)(::Array<uint8_t>*, System::Runtime::Remoting::Messaging::CADMethodCallMessage*, ::Array<uint8_t>*&, System::Runtime::Remoting::Messaging::CADMethodReturnMessage*&)>(&System::AppDomain::ProcessMessageInDomain)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "ProcessMessageInDomain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::CADMethodCallMessage*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::CADMethodReturnMessage*&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "ProcessMessageInDomain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::CADMethodCallMessage*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::CADMethodReturnMessage*&>()});
   }
 };
-// Writing MetadataGetter for method: AppDomain::add_DomainUnload
+// Writing MetadataGetter for method: System::AppDomain::add_DomainUnload
 // Il2CppName: add_DomainUnload
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppDomain::*)(System::EventHandler*)>(&AppDomain::add_DomainUnload)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::AppDomain::*)(System::EventHandler*)>(&System::AppDomain::add_DomainUnload)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "add_DomainUnload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::EventHandler*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "add_DomainUnload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::EventHandler*>()});
   }
 };
-// Writing MetadataGetter for method: AppDomain::remove_DomainUnload
+// Writing MetadataGetter for method: System::AppDomain::remove_DomainUnload
 // Il2CppName: remove_DomainUnload
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppDomain::*)(System::EventHandler*)>(&AppDomain::remove_DomainUnload)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::AppDomain::*)(System::EventHandler*)>(&System::AppDomain::remove_DomainUnload)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "remove_DomainUnload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::EventHandler*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "remove_DomainUnload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::EventHandler*>()});
   }
 };
-// Writing MetadataGetter for method: AppDomain::add_UnhandledException
+// Writing MetadataGetter for method: System::AppDomain::add_UnhandledException
 // Il2CppName: add_UnhandledException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppDomain::*)(System::UnhandledExceptionEventHandler*)>(&AppDomain::add_UnhandledException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::AppDomain::*)(System::UnhandledExceptionEventHandler*)>(&System::AppDomain::add_UnhandledException)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "add_UnhandledException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::UnhandledExceptionEventHandler*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "add_UnhandledException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::UnhandledExceptionEventHandler*>()});
   }
 };
-// Writing MetadataGetter for method: AppDomain::remove_UnhandledException
+// Writing MetadataGetter for method: System::AppDomain::remove_UnhandledException
 // Il2CppName: remove_UnhandledException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppDomain::*)(System::UnhandledExceptionEventHandler*)>(&AppDomain::remove_UnhandledException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::AppDomain::*)(System::UnhandledExceptionEventHandler*)>(&System::AppDomain::remove_UnhandledException)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "remove_UnhandledException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::UnhandledExceptionEventHandler*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "remove_UnhandledException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::UnhandledExceptionEventHandler*>()});
   }
 };
-// Writing MetadataGetter for method: AppDomain::New_ctor
+// Writing MetadataGetter for method: System::AppDomain::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppDomain::*)()>(&AppDomain::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::AppDomain::*)()>(&System::AppDomain::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppDomain::*)()>(&AppDomain::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::AppDomain::*)()>(&System::AppDomain::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AppDomain::InitializeLifetimeService
+// Writing MetadataGetter for method: System::AppDomain::InitializeLifetimeService
 // Il2CppName: InitializeLifetimeService
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (AppDomain::*)()>(&AppDomain::InitializeLifetimeService)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::AppDomain::*)()>(&System::AppDomain::InitializeLifetimeService)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "InitializeLifetimeService", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "InitializeLifetimeService", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AppDomain::ToString
+// Writing MetadataGetter for method: System::AppDomain::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AppDomain::*)()>(&AppDomain::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::AppDomain::*)()>(&System::AppDomain::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppDomain*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -358,321 +358,321 @@ namespace TMPro {
   static_assert(sizeof(TMP_Settings) == 0xA8);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Settings*, "TMPro", "TMP_Settings");
-// Writing MetadataGetter for method: TMP_Settings::get_version
+// Writing MetadataGetter for method: TMPro::TMP_Settings::get_version
 // Il2CppName: get_version
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&TMP_Settings::get_version)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&TMPro::TMP_Settings::get_version)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "get_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::get_enableWordWrapping
+// Writing MetadataGetter for method: TMPro::TMP_Settings::get_enableWordWrapping
 // Il2CppName: get_enableWordWrapping
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TMP_Settings::get_enableWordWrapping)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TMPro::TMP_Settings::get_enableWordWrapping)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "get_enableWordWrapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_enableWordWrapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::get_enableKerning
+// Writing MetadataGetter for method: TMPro::TMP_Settings::get_enableKerning
 // Il2CppName: get_enableKerning
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TMP_Settings::get_enableKerning)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TMPro::TMP_Settings::get_enableKerning)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "get_enableKerning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_enableKerning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::get_enableExtraPadding
+// Writing MetadataGetter for method: TMPro::TMP_Settings::get_enableExtraPadding
 // Il2CppName: get_enableExtraPadding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TMP_Settings::get_enableExtraPadding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TMPro::TMP_Settings::get_enableExtraPadding)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "get_enableExtraPadding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_enableExtraPadding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::get_enableTintAllSprites
+// Writing MetadataGetter for method: TMPro::TMP_Settings::get_enableTintAllSprites
 // Il2CppName: get_enableTintAllSprites
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TMP_Settings::get_enableTintAllSprites)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TMPro::TMP_Settings::get_enableTintAllSprites)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "get_enableTintAllSprites", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_enableTintAllSprites", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::get_enableParseEscapeCharacters
+// Writing MetadataGetter for method: TMPro::TMP_Settings::get_enableParseEscapeCharacters
 // Il2CppName: get_enableParseEscapeCharacters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TMP_Settings::get_enableParseEscapeCharacters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TMPro::TMP_Settings::get_enableParseEscapeCharacters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "get_enableParseEscapeCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_enableParseEscapeCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::get_enableRaycastTarget
+// Writing MetadataGetter for method: TMPro::TMP_Settings::get_enableRaycastTarget
 // Il2CppName: get_enableRaycastTarget
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TMP_Settings::get_enableRaycastTarget)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TMPro::TMP_Settings::get_enableRaycastTarget)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "get_enableRaycastTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_enableRaycastTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::get_getFontFeaturesAtRuntime
+// Writing MetadataGetter for method: TMPro::TMP_Settings::get_getFontFeaturesAtRuntime
 // Il2CppName: get_getFontFeaturesAtRuntime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TMP_Settings::get_getFontFeaturesAtRuntime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TMPro::TMP_Settings::get_getFontFeaturesAtRuntime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "get_getFontFeaturesAtRuntime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_getFontFeaturesAtRuntime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::get_missingGlyphCharacter
+// Writing MetadataGetter for method: TMPro::TMP_Settings::get_missingGlyphCharacter
 // Il2CppName: get_missingGlyphCharacter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&TMP_Settings::get_missingGlyphCharacter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&TMPro::TMP_Settings::get_missingGlyphCharacter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "get_missingGlyphCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_missingGlyphCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::set_missingGlyphCharacter
+// Writing MetadataGetter for method: TMPro::TMP_Settings::set_missingGlyphCharacter
 // Il2CppName: set_missingGlyphCharacter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&TMP_Settings::set_missingGlyphCharacter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&TMPro::TMP_Settings::set_missingGlyphCharacter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "set_missingGlyphCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "set_missingGlyphCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::get_warningsDisabled
+// Writing MetadataGetter for method: TMPro::TMP_Settings::get_warningsDisabled
 // Il2CppName: get_warningsDisabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TMP_Settings::get_warningsDisabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TMPro::TMP_Settings::get_warningsDisabled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "get_warningsDisabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_warningsDisabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::get_defaultFontAsset
+// Writing MetadataGetter for method: TMPro::TMP_Settings::get_defaultFontAsset
 // Il2CppName: get_defaultFontAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_FontAsset* (*)()>(&TMP_Settings::get_defaultFontAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_FontAsset* (*)()>(&TMPro::TMP_Settings::get_defaultFontAsset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "get_defaultFontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_defaultFontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::get_defaultFontAssetPath
+// Writing MetadataGetter for method: TMPro::TMP_Settings::get_defaultFontAssetPath
 // Il2CppName: get_defaultFontAssetPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&TMP_Settings::get_defaultFontAssetPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&TMPro::TMP_Settings::get_defaultFontAssetPath)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "get_defaultFontAssetPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_defaultFontAssetPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::get_defaultFontSize
+// Writing MetadataGetter for method: TMPro::TMP_Settings::get_defaultFontSize
 // Il2CppName: get_defaultFontSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&TMP_Settings::get_defaultFontSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&TMPro::TMP_Settings::get_defaultFontSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "get_defaultFontSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_defaultFontSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::get_defaultTextAutoSizingMinRatio
+// Writing MetadataGetter for method: TMPro::TMP_Settings::get_defaultTextAutoSizingMinRatio
 // Il2CppName: get_defaultTextAutoSizingMinRatio
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&TMP_Settings::get_defaultTextAutoSizingMinRatio)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&TMPro::TMP_Settings::get_defaultTextAutoSizingMinRatio)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "get_defaultTextAutoSizingMinRatio", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_defaultTextAutoSizingMinRatio", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::get_defaultTextAutoSizingMaxRatio
+// Writing MetadataGetter for method: TMPro::TMP_Settings::get_defaultTextAutoSizingMaxRatio
 // Il2CppName: get_defaultTextAutoSizingMaxRatio
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&TMP_Settings::get_defaultTextAutoSizingMaxRatio)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&TMPro::TMP_Settings::get_defaultTextAutoSizingMaxRatio)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "get_defaultTextAutoSizingMaxRatio", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_defaultTextAutoSizingMaxRatio", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::get_defaultTextMeshProTextContainerSize
+// Writing MetadataGetter for method: TMPro::TMP_Settings::get_defaultTextMeshProTextContainerSize
 // Il2CppName: get_defaultTextMeshProTextContainerSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)()>(&TMP_Settings::get_defaultTextMeshProTextContainerSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)()>(&TMPro::TMP_Settings::get_defaultTextMeshProTextContainerSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "get_defaultTextMeshProTextContainerSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_defaultTextMeshProTextContainerSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::get_defaultTextMeshProUITextContainerSize
+// Writing MetadataGetter for method: TMPro::TMP_Settings::get_defaultTextMeshProUITextContainerSize
 // Il2CppName: get_defaultTextMeshProUITextContainerSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)()>(&TMP_Settings::get_defaultTextMeshProUITextContainerSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)()>(&TMPro::TMP_Settings::get_defaultTextMeshProUITextContainerSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "get_defaultTextMeshProUITextContainerSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_defaultTextMeshProUITextContainerSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::get_autoSizeTextContainer
+// Writing MetadataGetter for method: TMPro::TMP_Settings::get_autoSizeTextContainer
 // Il2CppName: get_autoSizeTextContainer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TMP_Settings::get_autoSizeTextContainer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TMPro::TMP_Settings::get_autoSizeTextContainer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "get_autoSizeTextContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_autoSizeTextContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::get_fallbackFontAssets
+// Writing MetadataGetter for method: TMPro::TMP_Settings::get_fallbackFontAssets
 // Il2CppName: get_fallbackFontAssets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<TMPro::TMP_FontAsset*>* (*)()>(&TMP_Settings::get_fallbackFontAssets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<TMPro::TMP_FontAsset*>* (*)()>(&TMPro::TMP_Settings::get_fallbackFontAssets)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "get_fallbackFontAssets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_fallbackFontAssets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::get_matchMaterialPreset
+// Writing MetadataGetter for method: TMPro::TMP_Settings::get_matchMaterialPreset
 // Il2CppName: get_matchMaterialPreset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TMP_Settings::get_matchMaterialPreset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TMPro::TMP_Settings::get_matchMaterialPreset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "get_matchMaterialPreset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_matchMaterialPreset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::get_defaultSpriteAsset
+// Writing MetadataGetter for method: TMPro::TMP_Settings::get_defaultSpriteAsset
 // Il2CppName: get_defaultSpriteAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)()>(&TMP_Settings::get_defaultSpriteAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)()>(&TMPro::TMP_Settings::get_defaultSpriteAsset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "get_defaultSpriteAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_defaultSpriteAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::get_defaultSpriteAssetPath
+// Writing MetadataGetter for method: TMPro::TMP_Settings::get_defaultSpriteAssetPath
 // Il2CppName: get_defaultSpriteAssetPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&TMP_Settings::get_defaultSpriteAssetPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&TMPro::TMP_Settings::get_defaultSpriteAssetPath)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "get_defaultSpriteAssetPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_defaultSpriteAssetPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::get_defaultColorGradientPresetsPath
+// Writing MetadataGetter for method: TMPro::TMP_Settings::get_defaultColorGradientPresetsPath
 // Il2CppName: get_defaultColorGradientPresetsPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&TMP_Settings::get_defaultColorGradientPresetsPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&TMPro::TMP_Settings::get_defaultColorGradientPresetsPath)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "get_defaultColorGradientPresetsPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_defaultColorGradientPresetsPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::get_enableEmojiSupport
+// Writing MetadataGetter for method: TMPro::TMP_Settings::get_enableEmojiSupport
 // Il2CppName: get_enableEmojiSupport
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TMP_Settings::get_enableEmojiSupport)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TMPro::TMP_Settings::get_enableEmojiSupport)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "get_enableEmojiSupport", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_enableEmojiSupport", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::set_enableEmojiSupport
+// Writing MetadataGetter for method: TMPro::TMP_Settings::set_enableEmojiSupport
 // Il2CppName: set_enableEmojiSupport
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&TMP_Settings::set_enableEmojiSupport)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&TMPro::TMP_Settings::set_enableEmojiSupport)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "set_enableEmojiSupport", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "set_enableEmojiSupport", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::get_defaultStyleSheet
+// Writing MetadataGetter for method: TMPro::TMP_Settings::get_defaultStyleSheet
 // Il2CppName: get_defaultStyleSheet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_StyleSheet* (*)()>(&TMP_Settings::get_defaultStyleSheet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_StyleSheet* (*)()>(&TMPro::TMP_Settings::get_defaultStyleSheet)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "get_defaultStyleSheet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_defaultStyleSheet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::get_leadingCharacters
+// Writing MetadataGetter for method: TMPro::TMP_Settings::get_leadingCharacters
 // Il2CppName: get_leadingCharacters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextAsset* (*)()>(&TMP_Settings::get_leadingCharacters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextAsset* (*)()>(&TMPro::TMP_Settings::get_leadingCharacters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "get_leadingCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_leadingCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::get_followingCharacters
+// Writing MetadataGetter for method: TMPro::TMP_Settings::get_followingCharacters
 // Il2CppName: get_followingCharacters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextAsset* (*)()>(&TMP_Settings::get_followingCharacters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextAsset* (*)()>(&TMPro::TMP_Settings::get_followingCharacters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "get_followingCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_followingCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::get_linebreakingRules
+// Writing MetadataGetter for method: TMPro::TMP_Settings::get_linebreakingRules
 // Il2CppName: get_linebreakingRules
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Settings::LineBreakingTable* (*)()>(&TMP_Settings::get_linebreakingRules)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Settings::LineBreakingTable* (*)()>(&TMPro::TMP_Settings::get_linebreakingRules)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "get_linebreakingRules", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_linebreakingRules", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::get_instance
+// Writing MetadataGetter for method: TMPro::TMP_Settings::get_instance
 // Il2CppName: get_instance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Settings* (*)()>(&TMP_Settings::get_instance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Settings* (*)()>(&TMPro::TMP_Settings::get_instance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::LoadDefaultSettings
+// Writing MetadataGetter for method: TMPro::TMP_Settings::LoadDefaultSettings
 // Il2CppName: LoadDefaultSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Settings* (*)()>(&TMP_Settings::LoadDefaultSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Settings* (*)()>(&TMPro::TMP_Settings::LoadDefaultSettings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "LoadDefaultSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "LoadDefaultSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::GetSettings
+// Writing MetadataGetter for method: TMPro::TMP_Settings::GetSettings
 // Il2CppName: GetSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Settings* (*)()>(&TMP_Settings::GetSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Settings* (*)()>(&TMPro::TMP_Settings::GetSettings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "GetSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "GetSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::GetFontAsset
+// Writing MetadataGetter for method: TMPro::TMP_Settings::GetFontAsset
 // Il2CppName: GetFontAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_FontAsset* (*)()>(&TMP_Settings::GetFontAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_FontAsset* (*)()>(&TMPro::TMP_Settings::GetFontAsset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "GetFontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "GetFontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::GetSpriteAsset
+// Writing MetadataGetter for method: TMPro::TMP_Settings::GetSpriteAsset
 // Il2CppName: GetSpriteAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)()>(&TMP_Settings::GetSpriteAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)()>(&TMPro::TMP_Settings::GetSpriteAsset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "GetSpriteAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "GetSpriteAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::GetStyleSheet
+// Writing MetadataGetter for method: TMPro::TMP_Settings::GetStyleSheet
 // Il2CppName: GetStyleSheet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_StyleSheet* (*)()>(&TMP_Settings::GetStyleSheet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_StyleSheet* (*)()>(&TMPro::TMP_Settings::GetStyleSheet)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "GetStyleSheet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "GetStyleSheet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::LoadLinebreakingRules
+// Writing MetadataGetter for method: TMPro::TMP_Settings::LoadLinebreakingRules
 // Il2CppName: LoadLinebreakingRules
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TMP_Settings::LoadLinebreakingRules)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TMPro::TMP_Settings::LoadLinebreakingRules)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "LoadLinebreakingRules", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "LoadLinebreakingRules", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::GetCharacters
+// Writing MetadataGetter for method: TMPro::TMP_Settings::GetCharacters
 // Il2CppName: GetCharacters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>* (*)(UnityEngine::TextAsset*)>(&TMP_Settings::GetCharacters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>* (*)(UnityEngine::TextAsset*)>(&TMPro::TMP_Settings::GetCharacters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), "GetCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextAsset*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "GetCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextAsset*>()});
   }
 };
-// Writing MetadataGetter for method: TMP_Settings::New_ctor
+// Writing MetadataGetter for method: TMPro::TMP_Settings::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_Settings::*)()>(&TMP_Settings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Settings::*)()>(&TMPro::TMP_Settings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_Settings::*)()>(&TMP_Settings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Settings::*)()>(&TMPro::TMP_Settings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_Settings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

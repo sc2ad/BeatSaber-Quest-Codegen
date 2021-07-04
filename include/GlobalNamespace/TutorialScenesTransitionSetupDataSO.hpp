@@ -138,49 +138,49 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialScenesTransitionSetupDataSO*, "", "TutorialScenesTransitionSetupDataSO");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType, "", "TutorialScenesTransitionSetupDataSO/TutorialEndStateType");
-// Writing MetadataGetter for method: TutorialScenesTransitionSetupDataSO::add_didFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::TutorialScenesTransitionSetupDataSO::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialScenesTransitionSetupDataSO::*)(System::Action_2<GlobalNamespace::TutorialScenesTransitionSetupDataSO*, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>*)>(&TutorialScenesTransitionSetupDataSO::add_didFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialScenesTransitionSetupDataSO::*)(System::Action_2<GlobalNamespace::TutorialScenesTransitionSetupDataSO*, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>*)>(&GlobalNamespace::TutorialScenesTransitionSetupDataSO::add_didFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialScenesTransitionSetupDataSO*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::TutorialScenesTransitionSetupDataSO*, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialScenesTransitionSetupDataSO*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::TutorialScenesTransitionSetupDataSO*, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>*>()});
   }
 };
-// Writing MetadataGetter for method: TutorialScenesTransitionSetupDataSO::remove_didFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::TutorialScenesTransitionSetupDataSO::remove_didFinishEvent
 // Il2CppName: remove_didFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialScenesTransitionSetupDataSO::*)(System::Action_2<GlobalNamespace::TutorialScenesTransitionSetupDataSO*, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>*)>(&TutorialScenesTransitionSetupDataSO::remove_didFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialScenesTransitionSetupDataSO::*)(System::Action_2<GlobalNamespace::TutorialScenesTransitionSetupDataSO*, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>*)>(&GlobalNamespace::TutorialScenesTransitionSetupDataSO::remove_didFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialScenesTransitionSetupDataSO*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::TutorialScenesTransitionSetupDataSO*, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialScenesTransitionSetupDataSO*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::TutorialScenesTransitionSetupDataSO*, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>*>()});
   }
 };
-// Writing MetadataGetter for method: TutorialScenesTransitionSetupDataSO::Init
+// Writing MetadataGetter for method: GlobalNamespace::TutorialScenesTransitionSetupDataSO::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialScenesTransitionSetupDataSO::*)()>(&TutorialScenesTransitionSetupDataSO::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialScenesTransitionSetupDataSO::*)()>(&GlobalNamespace::TutorialScenesTransitionSetupDataSO::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialScenesTransitionSetupDataSO*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialScenesTransitionSetupDataSO*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TutorialScenesTransitionSetupDataSO::Finish
+// Writing MetadataGetter for method: GlobalNamespace::TutorialScenesTransitionSetupDataSO::Finish
 // Il2CppName: Finish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialScenesTransitionSetupDataSO::*)(GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType)>(&TutorialScenesTransitionSetupDataSO::Finish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialScenesTransitionSetupDataSO::*)(GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType)>(&GlobalNamespace::TutorialScenesTransitionSetupDataSO::Finish)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialScenesTransitionSetupDataSO*), "Finish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialScenesTransitionSetupDataSO*), "Finish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType>()});
   }
 };
-// Writing MetadataGetter for method: TutorialScenesTransitionSetupDataSO::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::TutorialScenesTransitionSetupDataSO::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialScenesTransitionSetupDataSO::*)()>(&TutorialScenesTransitionSetupDataSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialScenesTransitionSetupDataSO::*)()>(&GlobalNamespace::TutorialScenesTransitionSetupDataSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialScenesTransitionSetupDataSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialScenesTransitionSetupDataSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialScenesTransitionSetupDataSO::*)()>(&TutorialScenesTransitionSetupDataSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialScenesTransitionSetupDataSO::*)()>(&GlobalNamespace::TutorialScenesTransitionSetupDataSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialScenesTransitionSetupDataSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialScenesTransitionSetupDataSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

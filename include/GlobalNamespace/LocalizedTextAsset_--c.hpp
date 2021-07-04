@@ -56,33 +56,33 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizedTextAsset::$$c*, "", "LocalizedTextAsset/<>c");
-// Writing MetadataGetter for method: LocalizedTextAsset::$$c::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::LocalizedTextAsset::$$c::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&LocalizedTextAsset::$$c::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::LocalizedTextAsset::$$c::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LocalizedTextAsset::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalizedTextAsset::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LocalizedTextAsset::$$c::$get_localizedText$b__6_0
+// Writing MetadataGetter for method: GlobalNamespace::LocalizedTextAsset::$$c::$get_localizedText$b__6_0
 // Il2CppName: <get_localizedText>b__6_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalizedTextAsset::$$c::*)(GlobalNamespace::LocalizedTextAsset::TextInfo*)>(&LocalizedTextAsset::$$c::$get_localizedText$b__6_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LocalizedTextAsset::$$c::*)(GlobalNamespace::LocalizedTextAsset::TextInfo*)>(&GlobalNamespace::LocalizedTextAsset::$$c::$get_localizedText$b__6_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LocalizedTextAsset::$$c*), "<get_localizedText>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalizedTextAsset::TextInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalizedTextAsset::$$c*), "<get_localizedText>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalizedTextAsset::TextInfo*>()});
   }
 };
-// Writing MetadataGetter for method: LocalizedTextAsset::$$c::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::LocalizedTextAsset::$$c::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalizedTextAsset::$$c::*)()>(&LocalizedTextAsset::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalizedTextAsset::$$c::*)()>(&GlobalNamespace::LocalizedTextAsset::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LocalizedTextAsset::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalizedTextAsset::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalizedTextAsset::$$c::*)()>(&LocalizedTextAsset::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalizedTextAsset::$$c::*)()>(&GlobalNamespace::LocalizedTextAsset::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LocalizedTextAsset::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalizedTextAsset::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

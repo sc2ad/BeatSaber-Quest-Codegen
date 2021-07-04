@@ -76,41 +76,41 @@ namespace Zenject {
   static_assert(sizeof(ProjectKernel) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ProjectKernel*, "Zenject", "ProjectKernel");
-// Writing MetadataGetter for method: ProjectKernel::OnApplicationQuit
+// Writing MetadataGetter for method: Zenject::ProjectKernel::OnApplicationQuit
 // Il2CppName: OnApplicationQuit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProjectKernel::*)()>(&ProjectKernel::OnApplicationQuit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProjectKernel::*)()>(&Zenject::ProjectKernel::OnApplicationQuit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProjectKernel*), "OnApplicationQuit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectKernel*), "OnApplicationQuit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ProjectKernel::DestroyEverythingInOrder
+// Writing MetadataGetter for method: Zenject::ProjectKernel::DestroyEverythingInOrder
 // Il2CppName: DestroyEverythingInOrder
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProjectKernel::*)()>(&ProjectKernel::DestroyEverythingInOrder)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProjectKernel::*)()>(&Zenject::ProjectKernel::DestroyEverythingInOrder)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProjectKernel*), "DestroyEverythingInOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectKernel*), "DestroyEverythingInOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ProjectKernel::ForceUnloadAllScenes
+// Writing MetadataGetter for method: Zenject::ProjectKernel::ForceUnloadAllScenes
 // Il2CppName: ForceUnloadAllScenes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProjectKernel::*)(bool)>(&ProjectKernel::ForceUnloadAllScenes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProjectKernel::*)(bool)>(&Zenject::ProjectKernel::ForceUnloadAllScenes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProjectKernel*), "ForceUnloadAllScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectKernel*), "ForceUnloadAllScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ProjectKernel::New_ctor
+// Writing MetadataGetter for method: Zenject::ProjectKernel::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProjectKernel::*)()>(&ProjectKernel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProjectKernel::*)()>(&Zenject::ProjectKernel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProjectKernel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectKernel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProjectKernel::*)()>(&ProjectKernel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProjectKernel::*)()>(&Zenject::ProjectKernel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProjectKernel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectKernel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

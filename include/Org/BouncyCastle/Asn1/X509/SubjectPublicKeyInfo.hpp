@@ -85,71 +85,71 @@ namespace Org::BouncyCastle::Asn1::X509 {
   static_assert(sizeof(SubjectPublicKeyInfo) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*, "Org.BouncyCastle.Asn1.X509", "SubjectPublicKeyInfo");
-// Writing MetadataGetter for method: SubjectPublicKeyInfo::GetInstance
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo::GetInstance
 // Il2CppName: GetInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* (*)(::Il2CppObject*)>(&SubjectPublicKeyInfo::GetInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* (*)(::Il2CppObject*)>(&Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo::GetInstance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubjectPublicKeyInfo*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: SubjectPublicKeyInfo::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubjectPublicKeyInfo::*)(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::Array<uint8_t>*)>(&SubjectPublicKeyInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo::*)(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::Array<uint8_t>*)>(&Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubjectPublicKeyInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubjectPublicKeyInfo::*)(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::Array<uint8_t>*)>(&SubjectPublicKeyInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo::*)(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::Array<uint8_t>*)>(&Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubjectPublicKeyInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: SubjectPublicKeyInfo::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubjectPublicKeyInfo::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&SubjectPublicKeyInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubjectPublicKeyInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubjectPublicKeyInfo::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&SubjectPublicKeyInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubjectPublicKeyInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
   }
 };
-// Writing MetadataGetter for method: SubjectPublicKeyInfo::get_AlgorithmID
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo::get_AlgorithmID
 // Il2CppName: get_AlgorithmID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (SubjectPublicKeyInfo::*)()>(&SubjectPublicKeyInfo::get_AlgorithmID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo::*)()>(&Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo::get_AlgorithmID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubjectPublicKeyInfo*), "get_AlgorithmID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*), "get_AlgorithmID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SubjectPublicKeyInfo::ParsePublicKey
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo::ParsePublicKey
 // Il2CppName: ParsePublicKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (SubjectPublicKeyInfo::*)()>(&SubjectPublicKeyInfo::ParsePublicKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo::*)()>(&Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo::ParsePublicKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubjectPublicKeyInfo*), "ParsePublicKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*), "ParsePublicKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SubjectPublicKeyInfo::get_PublicKeyData
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo::get_PublicKeyData
 // Il2CppName: get_PublicKeyData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerBitString* (SubjectPublicKeyInfo::*)()>(&SubjectPublicKeyInfo::get_PublicKeyData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerBitString* (Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo::*)()>(&Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo::get_PublicKeyData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubjectPublicKeyInfo*), "get_PublicKeyData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*), "get_PublicKeyData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SubjectPublicKeyInfo::ToAsn1Object
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo::ToAsn1Object
 // Il2CppName: ToAsn1Object
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (SubjectPublicKeyInfo::*)()>(&SubjectPublicKeyInfo::ToAsn1Object)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo::*)()>(&Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo::ToAsn1Object)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubjectPublicKeyInfo*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

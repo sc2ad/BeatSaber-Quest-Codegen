@@ -62,25 +62,25 @@ namespace GlobalNamespace {
   static_assert(sizeof(AchievementIdsModelSO) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AchievementIdsModelSO*, "", "AchievementIdsModelSO");
-// Writing MetadataGetter for method: AchievementIdsModelSO::get_achievementsIds
+// Writing MetadataGetter for method: GlobalNamespace::AchievementIdsModelSO::get_achievementsIds
 // Il2CppName: get_achievementsIds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::AchievementSO*>* (AchievementIdsModelSO::*)()>(&AchievementIdsModelSO::get_achievementsIds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::AchievementSO*>* (GlobalNamespace::AchievementIdsModelSO::*)()>(&GlobalNamespace::AchievementIdsModelSO::get_achievementsIds)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AchievementIdsModelSO*), "get_achievementsIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AchievementIdsModelSO*), "get_achievementsIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AchievementIdsModelSO::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::AchievementIdsModelSO::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AchievementIdsModelSO::*)()>(&AchievementIdsModelSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AchievementIdsModelSO::*)()>(&GlobalNamespace::AchievementIdsModelSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AchievementIdsModelSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AchievementIdsModelSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AchievementIdsModelSO::*)()>(&AchievementIdsModelSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AchievementIdsModelSO::*)()>(&GlobalNamespace::AchievementIdsModelSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AchievementIdsModelSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AchievementIdsModelSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

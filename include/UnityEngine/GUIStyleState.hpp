@@ -85,79 +85,79 @@ namespace UnityEngine {
   static_assert(sizeof(GUIStyleState) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIStyleState*, "UnityEngine", "GUIStyleState");
-// Writing MetadataGetter for method: GUIStyleState::set_textColor
+// Writing MetadataGetter for method: UnityEngine::GUIStyleState::set_textColor
 // Il2CppName: set_textColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GUIStyleState::*)(UnityEngine::Color)>(&GUIStyleState::set_textColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyleState::*)(UnityEngine::Color)>(&UnityEngine::GUIStyleState::set_textColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIStyleState*), "set_textColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyleState*), "set_textColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: GUIStyleState::Init
+// Writing MetadataGetter for method: UnityEngine::GUIStyleState::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&GUIStyleState::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&UnityEngine::GUIStyleState::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIStyleState*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyleState*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GUIStyleState::Cleanup
+// Writing MetadataGetter for method: UnityEngine::GUIStyleState::Cleanup
 // Il2CppName: Cleanup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GUIStyleState::*)()>(&GUIStyleState::Cleanup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyleState::*)()>(&UnityEngine::GUIStyleState::Cleanup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIStyleState*), "Cleanup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyleState*), "Cleanup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GUIStyleState::New_ctor
+// Writing MetadataGetter for method: UnityEngine::GUIStyleState::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GUIStyleState::*)(UnityEngine::GUIStyle*, System::IntPtr)>(&GUIStyleState::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyleState::*)(UnityEngine::GUIStyle*, System::IntPtr)>(&UnityEngine::GUIStyleState::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIStyleState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyleState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GUIStyleState::*)(UnityEngine::GUIStyle*, System::IntPtr)>(&GUIStyleState::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyleState::*)(UnityEngine::GUIStyle*, System::IntPtr)>(&UnityEngine::GUIStyleState::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIStyleState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyleState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: GUIStyleState::GetGUIStyleState
+// Writing MetadataGetter for method: UnityEngine::GUIStyleState::GetGUIStyleState
 // Il2CppName: GetGUIStyleState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyleState* (*)(UnityEngine::GUIStyle*, System::IntPtr)>(&GUIStyleState::GetGUIStyleState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyleState* (*)(UnityEngine::GUIStyle*, System::IntPtr)>(&UnityEngine::GUIStyleState::GetGUIStyleState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIStyleState*), "GetGUIStyleState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyleState*), "GetGUIStyleState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: GUIStyleState::set_textColor_Injected
+// Writing MetadataGetter for method: UnityEngine::GUIStyleState::set_textColor_Injected
 // Il2CppName: set_textColor_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GUIStyleState::*)(UnityEngine::Color&)>(&GUIStyleState::set_textColor_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyleState::*)(UnityEngine::Color&)>(&UnityEngine::GUIStyleState::set_textColor_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIStyleState*), "set_textColor_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyleState*), "set_textColor_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color&>()});
   }
 };
-// Writing MetadataGetter for method: GUIStyleState::New_ctor
+// Writing MetadataGetter for method: UnityEngine::GUIStyleState::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GUIStyleState::*)()>(&GUIStyleState::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyleState::*)()>(&UnityEngine::GUIStyleState::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIStyleState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyleState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GUIStyleState::*)()>(&GUIStyleState::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyleState::*)()>(&UnityEngine::GUIStyleState::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIStyleState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyleState*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GUIStyleState::Finalize
+// Writing MetadataGetter for method: UnityEngine::GUIStyleState::Finalize
 // Il2CppName: Finalize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GUIStyleState::*)()>(&GUIStyleState::Finalize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyleState::*)()>(&UnityEngine::GUIStyleState::Finalize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUIStyleState*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyleState*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

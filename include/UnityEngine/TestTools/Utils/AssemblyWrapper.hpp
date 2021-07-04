@@ -63,25 +63,25 @@ namespace UnityEngine::TestTools::Utils {
   static_assert(sizeof(AssemblyWrapper) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::AssemblyWrapper*, "UnityEngine.TestTools.Utils", "AssemblyWrapper");
-// Writing MetadataGetter for method: AssemblyWrapper::New_ctor
+// Writing MetadataGetter for method: UnityEngine::TestTools::Utils::AssemblyWrapper::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssemblyWrapper::*)(System::Reflection::Assembly*)>(&AssemblyWrapper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Utils::AssemblyWrapper::*)(System::Reflection::Assembly*)>(&UnityEngine::TestTools::Utils::AssemblyWrapper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssemblyWrapper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Utils::AssemblyWrapper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssemblyWrapper::*)(System::Reflection::Assembly*)>(&AssemblyWrapper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Utils::AssemblyWrapper::*)(System::Reflection::Assembly*)>(&UnityEngine::TestTools::Utils::AssemblyWrapper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssemblyWrapper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Utils::AssemblyWrapper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>()});
   }
 };
-// Writing MetadataGetter for method: AssemblyWrapper::get_Assembly
+// Writing MetadataGetter for method: UnityEngine::TestTools::Utils::AssemblyWrapper::get_Assembly
 // Il2CppName: get_Assembly
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (AssemblyWrapper::*)()>(&AssemblyWrapper::get_Assembly)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (UnityEngine::TestTools::Utils::AssemblyWrapper::*)()>(&UnityEngine::TestTools::Utils::AssemblyWrapper::get_Assembly)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssemblyWrapper*), "get_Assembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Utils::AssemblyWrapper*), "get_Assembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

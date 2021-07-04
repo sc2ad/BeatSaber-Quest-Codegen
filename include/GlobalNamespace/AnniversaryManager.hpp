@@ -78,57 +78,57 @@ namespace GlobalNamespace {
   static_assert(sizeof(AnniversaryManager) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnniversaryManager*, "", "AnniversaryManager");
-// Writing MetadataGetter for method: AnniversaryManager::Start
+// Writing MetadataGetter for method: GlobalNamespace::AnniversaryManager::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnniversaryManager::*)()>(&AnniversaryManager::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnniversaryManager::*)()>(&GlobalNamespace::AnniversaryManager::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnniversaryManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnniversaryManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AnniversaryManager::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::AnniversaryManager::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnniversaryManager::*)()>(&AnniversaryManager::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnniversaryManager::*)()>(&GlobalNamespace::AnniversaryManager::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnniversaryManager*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnniversaryManager*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AnniversaryManager::HandleMainMenuViewControllerDidFinish
+// Writing MetadataGetter for method: GlobalNamespace::AnniversaryManager::HandleMainMenuViewControllerDidFinish
 // Il2CppName: HandleMainMenuViewControllerDidFinish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnniversaryManager::*)(GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton)>(&AnniversaryManager::HandleMainMenuViewControllerDidFinish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnniversaryManager::*)(GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton)>(&GlobalNamespace::AnniversaryManager::HandleMainMenuViewControllerDidFinish)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnniversaryManager*), "HandleMainMenuViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MainMenuViewController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MainMenuViewController::MenuButton>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnniversaryManager*), "HandleMainMenuViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MainMenuViewController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MainMenuViewController::MenuButton>()});
   }
 };
-// Writing MetadataGetter for method: AnniversaryManager::StartFireworks
+// Writing MetadataGetter for method: GlobalNamespace::AnniversaryManager::StartFireworks
 // Il2CppName: StartFireworks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnniversaryManager::*)()>(&AnniversaryManager::StartFireworks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnniversaryManager::*)()>(&GlobalNamespace::AnniversaryManager::StartFireworks)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnniversaryManager*), "StartFireworks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnniversaryManager*), "StartFireworks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AnniversaryManager::StopFireworks
+// Writing MetadataGetter for method: GlobalNamespace::AnniversaryManager::StopFireworks
 // Il2CppName: StopFireworks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnniversaryManager::*)()>(&AnniversaryManager::StopFireworks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnniversaryManager::*)()>(&GlobalNamespace::AnniversaryManager::StopFireworks)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnniversaryManager*), "StopFireworks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnniversaryManager*), "StopFireworks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AnniversaryManager::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::AnniversaryManager::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnniversaryManager::*)()>(&AnniversaryManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnniversaryManager::*)()>(&GlobalNamespace::AnniversaryManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnniversaryManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnniversaryManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnniversaryManager::*)()>(&AnniversaryManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnniversaryManager::*)()>(&GlobalNamespace::AnniversaryManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnniversaryManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnniversaryManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

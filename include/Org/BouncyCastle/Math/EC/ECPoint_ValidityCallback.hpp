@@ -67,25 +67,25 @@ namespace Org::BouncyCastle::Math::EC {
   static_assert(sizeof(ECPoint::ValidityCallback) == 0x1A);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECPoint::ValidityCallback*, "Org.BouncyCastle.Math.EC", "ECPoint/ValidityCallback");
-// Writing MetadataGetter for method: ECPoint::ValidityCallback::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECPoint::ValidityCallback::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ECPoint::ValidityCallback::*)(Org::BouncyCastle::Math::EC::ECPoint*, bool, bool)>(&ECPoint::ValidityCallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::ECPoint::ValidityCallback::*)(Org::BouncyCastle::Math::EC::ECPoint*, bool, bool)>(&Org::BouncyCastle::Math::EC::ECPoint::ValidityCallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECPoint::ValidityCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECPoint::ValidityCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ECPoint::ValidityCallback::*)(Org::BouncyCastle::Math::EC::ECPoint*, bool, bool)>(&ECPoint::ValidityCallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::ECPoint::ValidityCallback::*)(Org::BouncyCastle::Math::EC::ECPoint*, bool, bool)>(&Org::BouncyCastle::Math::EC::ECPoint::ValidityCallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECPoint::ValidityCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECPoint::ValidityCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECPoint*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ECPoint::ValidityCallback::Precompute
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECPoint::ValidityCallback::Precompute
 // Il2CppName: Precompute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* (ECPoint::ValidityCallback::*)(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*)>(&ECPoint::ValidityCallback::Precompute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* (Org::BouncyCastle::Math::EC::ECPoint::ValidityCallback::*)(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*)>(&Org::BouncyCastle::Math::EC::ECPoint::ValidityCallback::Precompute)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECPoint::ValidityCallback*), "Precompute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECPoint::ValidityCallback*), "Precompute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>()});
   }
 };

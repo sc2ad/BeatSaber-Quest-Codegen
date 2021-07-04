@@ -31,11 +31,11 @@ namespace System::Net::Http::Headers {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser::TimeSpanSeconds*, "System.Net.Http.Headers", "Parser/TimeSpanSeconds");
-// Writing MetadataGetter for method: Parser::TimeSpanSeconds::TryParse
+// Writing MetadataGetter for method: System::Net::Http::Headers::Parser::TimeSpanSeconds::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::TimeSpan&)>(&Parser::TimeSpanSeconds::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::TimeSpan&)>(&System::Net::Http::Headers::Parser::TimeSpanSeconds::TryParse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Parser::TimeSpanSeconds*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::TimeSpan&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Parser::TimeSpanSeconds*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::TimeSpan&>()});
   }
 };

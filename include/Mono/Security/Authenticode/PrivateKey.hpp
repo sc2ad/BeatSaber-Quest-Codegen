@@ -81,57 +81,57 @@ namespace Mono::Security::Authenticode {
   static_assert(sizeof(PrivateKey) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Authenticode::PrivateKey*, "Mono.Security.Authenticode", "PrivateKey");
-// Writing MetadataGetter for method: PrivateKey::New_ctor
+// Writing MetadataGetter for method: Mono::Security::Authenticode::PrivateKey::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrivateKey::*)(::Array<uint8_t>*, ::Il2CppString*)>(&PrivateKey::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Authenticode::PrivateKey::*)(::Array<uint8_t>*, ::Il2CppString*)>(&Mono::Security::Authenticode::PrivateKey::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrivateKey*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Authenticode::PrivateKey*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PrivateKey::*)(::Array<uint8_t>*, ::Il2CppString*)>(&PrivateKey::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Authenticode::PrivateKey::*)(::Array<uint8_t>*, ::Il2CppString*)>(&Mono::Security::Authenticode::PrivateKey::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrivateKey*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Authenticode::PrivateKey*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: PrivateKey::get_RSA
+// Writing MetadataGetter for method: Mono::Security::Authenticode::PrivateKey::get_RSA
 // Il2CppName: get_RSA
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RSA* (PrivateKey::*)()>(&PrivateKey::get_RSA)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RSA* (Mono::Security::Authenticode::PrivateKey::*)()>(&Mono::Security::Authenticode::PrivateKey::get_RSA)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrivateKey*), "get_RSA", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Authenticode::PrivateKey*), "get_RSA", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PrivateKey::DeriveKey
+// Writing MetadataGetter for method: Mono::Security::Authenticode::PrivateKey::DeriveKey
 // Il2CppName: DeriveKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (PrivateKey::*)(::Array<uint8_t>*, ::Il2CppString*)>(&PrivateKey::DeriveKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::Authenticode::PrivateKey::*)(::Array<uint8_t>*, ::Il2CppString*)>(&Mono::Security::Authenticode::PrivateKey::DeriveKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrivateKey*), "DeriveKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Authenticode::PrivateKey*), "DeriveKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: PrivateKey::Decode
+// Writing MetadataGetter for method: Mono::Security::Authenticode::PrivateKey::Decode
 // Il2CppName: Decode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PrivateKey::*)(::Array<uint8_t>*, ::Il2CppString*)>(&PrivateKey::Decode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::Authenticode::PrivateKey::*)(::Array<uint8_t>*, ::Il2CppString*)>(&Mono::Security::Authenticode::PrivateKey::Decode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrivateKey*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Authenticode::PrivateKey*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: PrivateKey::CreateFromFile
+// Writing MetadataGetter for method: Mono::Security::Authenticode::PrivateKey::CreateFromFile
 // Il2CppName: CreateFromFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Authenticode::PrivateKey* (*)(::Il2CppString*)>(&PrivateKey::CreateFromFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Authenticode::PrivateKey* (*)(::Il2CppString*)>(&Mono::Security::Authenticode::PrivateKey::CreateFromFile)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrivateKey*), "CreateFromFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Authenticode::PrivateKey*), "CreateFromFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: PrivateKey::CreateFromFile
+// Writing MetadataGetter for method: Mono::Security::Authenticode::PrivateKey::CreateFromFile
 // Il2CppName: CreateFromFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Authenticode::PrivateKey* (*)(::Il2CppString*, ::Il2CppString*)>(&PrivateKey::CreateFromFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Authenticode::PrivateKey* (*)(::Il2CppString*, ::Il2CppString*)>(&Mono::Security::Authenticode::PrivateKey::CreateFromFile)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrivateKey*), "CreateFromFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Authenticode::PrivateKey*), "CreateFromFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };

@@ -81,147 +81,147 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TimeExtensions*, "", "TimeExtensions");
-// Writing MetadataGetter for method: TimeExtensions::MinSecDurationText
+// Writing MetadataGetter for method: GlobalNamespace::TimeExtensions::MinSecDurationText
 // Il2CppName: MinSecDurationText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(float)>(&TimeExtensions::MinSecDurationText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(float)>(&GlobalNamespace::TimeExtensions::MinSecDurationText)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeExtensions*), "MinSecDurationText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "MinSecDurationText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: TimeExtensions::MinSecMillisecDurationText
+// Writing MetadataGetter for method: GlobalNamespace::TimeExtensions::MinSecMillisecDurationText
 // Il2CppName: MinSecMillisecDurationText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(float)>(&TimeExtensions::MinSecMillisecDurationText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(float)>(&GlobalNamespace::TimeExtensions::MinSecMillisecDurationText)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeExtensions*), "MinSecMillisecDurationText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "MinSecMillisecDurationText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: TimeExtensions::SecondsToDays
+// Writing MetadataGetter for method: GlobalNamespace::TimeExtensions::SecondsToDays
 // Il2CppName: SecondsToDays
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&TimeExtensions::SecondsToDays)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&GlobalNamespace::TimeExtensions::SecondsToDays)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeExtensions*), "SecondsToDays", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "SecondsToDays", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TimeExtensions::SecondsToHours
+// Writing MetadataGetter for method: GlobalNamespace::TimeExtensions::SecondsToHours
 // Il2CppName: SecondsToHours
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&TimeExtensions::SecondsToHours)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&GlobalNamespace::TimeExtensions::SecondsToHours)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeExtensions*), "SecondsToHours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "SecondsToHours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TimeExtensions::SecondsToMinutes
+// Writing MetadataGetter for method: GlobalNamespace::TimeExtensions::SecondsToMinutes
 // Il2CppName: SecondsToMinutes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&TimeExtensions::SecondsToMinutes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&GlobalNamespace::TimeExtensions::SecondsToMinutes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeExtensions*), "SecondsToMinutes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "SecondsToMinutes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TimeExtensions::DaysToSeconds
+// Writing MetadataGetter for method: GlobalNamespace::TimeExtensions::DaysToSeconds
 // Il2CppName: DaysToSeconds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&TimeExtensions::DaysToSeconds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&GlobalNamespace::TimeExtensions::DaysToSeconds)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeExtensions*), "DaysToSeconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "DaysToSeconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TimeExtensions::HoursToSeconds
+// Writing MetadataGetter for method: GlobalNamespace::TimeExtensions::HoursToSeconds
 // Il2CppName: HoursToSeconds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&TimeExtensions::HoursToSeconds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&GlobalNamespace::TimeExtensions::HoursToSeconds)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeExtensions*), "HoursToSeconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "HoursToSeconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TimeExtensions::MinutesToSeconds
+// Writing MetadataGetter for method: GlobalNamespace::TimeExtensions::MinutesToSeconds
 // Il2CppName: MinutesToSeconds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&TimeExtensions::MinutesToSeconds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&GlobalNamespace::TimeExtensions::MinutesToSeconds)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeExtensions*), "MinutesToSeconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "MinutesToSeconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TimeExtensions::Hours
+// Writing MetadataGetter for method: GlobalNamespace::TimeExtensions::Hours
 // Il2CppName: Hours
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(float)>(&TimeExtensions::Hours)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(float)>(&GlobalNamespace::TimeExtensions::Hours)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeExtensions*), "Hours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "Hours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: TimeExtensions::Minutes
+// Writing MetadataGetter for method: GlobalNamespace::TimeExtensions::Minutes
 // Il2CppName: Minutes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(float)>(&TimeExtensions::Minutes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(float)>(&GlobalNamespace::TimeExtensions::Minutes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeExtensions*), "Minutes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "Minutes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: TimeExtensions::Seconds
+// Writing MetadataGetter for method: GlobalNamespace::TimeExtensions::Seconds
 // Il2CppName: Seconds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(float)>(&TimeExtensions::Seconds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(float)>(&GlobalNamespace::TimeExtensions::Seconds)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeExtensions*), "Seconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "Seconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: TimeExtensions::Milliseconds
+// Writing MetadataGetter for method: GlobalNamespace::TimeExtensions::Milliseconds
 // Il2CppName: Milliseconds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(float)>(&TimeExtensions::Milliseconds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(float)>(&GlobalNamespace::TimeExtensions::Milliseconds)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeExtensions*), "Milliseconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "Milliseconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: TimeExtensions::TotalDays
+// Writing MetadataGetter for method: GlobalNamespace::TimeExtensions::TotalDays
 // Il2CppName: TotalDays
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(float)>(&TimeExtensions::TotalDays)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(float)>(&GlobalNamespace::TimeExtensions::TotalDays)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeExtensions*), "TotalDays", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "TotalDays", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: TimeExtensions::TotalHours
+// Writing MetadataGetter for method: GlobalNamespace::TimeExtensions::TotalHours
 // Il2CppName: TotalHours
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(float)>(&TimeExtensions::TotalHours)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(float)>(&GlobalNamespace::TimeExtensions::TotalHours)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeExtensions*), "TotalHours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "TotalHours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: TimeExtensions::TotalMinutes
+// Writing MetadataGetter for method: GlobalNamespace::TimeExtensions::TotalMinutes
 // Il2CppName: TotalMinutes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(float)>(&TimeExtensions::TotalMinutes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(float)>(&GlobalNamespace::TimeExtensions::TotalMinutes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeExtensions*), "TotalMinutes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "TotalMinutes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: TimeExtensions::TotalSeconds
+// Writing MetadataGetter for method: GlobalNamespace::TimeExtensions::TotalSeconds
 // Il2CppName: TotalSeconds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(float)>(&TimeExtensions::TotalSeconds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(float)>(&GlobalNamespace::TimeExtensions::TotalSeconds)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeExtensions*), "TotalSeconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "TotalSeconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: TimeExtensions::ToUnixTime
+// Writing MetadataGetter for method: GlobalNamespace::TimeExtensions::ToUnixTime
 // Il2CppName: ToUnixTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::DateTime)>(&TimeExtensions::ToUnixTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::DateTime)>(&GlobalNamespace::TimeExtensions::ToUnixTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeExtensions*), "ToUnixTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "ToUnixTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
   }
 };
-// Writing MetadataGetter for method: TimeExtensions::AsUnixTime
+// Writing MetadataGetter for method: GlobalNamespace::TimeExtensions::AsUnixTime
 // Il2CppName: AsUnixTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(int64_t)>(&TimeExtensions::AsUnixTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(int64_t)>(&GlobalNamespace::TimeExtensions::AsUnixTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeExtensions*), "AsUnixTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "AsUnixTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
   }
 };

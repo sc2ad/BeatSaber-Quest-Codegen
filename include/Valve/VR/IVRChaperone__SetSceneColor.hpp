@@ -57,41 +57,41 @@ namespace Valve::VR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperone::_SetSceneColor*, "Valve.VR", "IVRChaperone/_SetSceneColor");
-// Writing MetadataGetter for method: IVRChaperone::_SetSceneColor::New_ctor
+// Writing MetadataGetter for method: Valve::VR::IVRChaperone::_SetSceneColor::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRChaperone::_SetSceneColor::*)(::Il2CppObject*, System::IntPtr)>(&IVRChaperone::_SetSceneColor::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRChaperone::_SetSceneColor::*)(::Il2CppObject*, System::IntPtr)>(&Valve::VR::IVRChaperone::_SetSceneColor::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRChaperone::_SetSceneColor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRChaperone::_SetSceneColor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRChaperone::_SetSceneColor::*)(::Il2CppObject*, System::IntPtr)>(&IVRChaperone::_SetSceneColor::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRChaperone::_SetSceneColor::*)(::Il2CppObject*, System::IntPtr)>(&Valve::VR::IVRChaperone::_SetSceneColor::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRChaperone::_SetSceneColor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRChaperone::_SetSceneColor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: IVRChaperone::_SetSceneColor::Invoke
+// Writing MetadataGetter for method: Valve::VR::IVRChaperone::_SetSceneColor::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRChaperone::_SetSceneColor::*)(Valve::VR::HmdColor_t)>(&IVRChaperone::_SetSceneColor::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRChaperone::_SetSceneColor::*)(Valve::VR::HmdColor_t)>(&Valve::VR::IVRChaperone::_SetSceneColor::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRChaperone::_SetSceneColor*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdColor_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRChaperone::_SetSceneColor*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdColor_t>()});
   }
 };
-// Writing MetadataGetter for method: IVRChaperone::_SetSceneColor::BeginInvoke
+// Writing MetadataGetter for method: Valve::VR::IVRChaperone::_SetSceneColor::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRChaperone::_SetSceneColor::*)(Valve::VR::HmdColor_t, System::AsyncCallback*, ::Il2CppObject*)>(&IVRChaperone::_SetSceneColor::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRChaperone::_SetSceneColor::*)(Valve::VR::HmdColor_t, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRChaperone::_SetSceneColor::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRChaperone::_SetSceneColor*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdColor_t>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRChaperone::_SetSceneColor*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdColor_t>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IVRChaperone::_SetSceneColor::EndInvoke
+// Writing MetadataGetter for method: Valve::VR::IVRChaperone::_SetSceneColor::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRChaperone::_SetSceneColor::*)(System::IAsyncResult*)>(&IVRChaperone::_SetSceneColor::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRChaperone::_SetSceneColor::*)(System::IAsyncResult*)>(&Valve::VR::IVRChaperone::_SetSceneColor::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRChaperone::_SetSceneColor*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRChaperone::_SetSceneColor*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

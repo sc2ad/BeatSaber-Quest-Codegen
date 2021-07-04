@@ -63,41 +63,41 @@ namespace UnityEngine::ProBuilder {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::TriggerBehaviour*, "UnityEngine.ProBuilder", "TriggerBehaviour");
-// Writing MetadataGetter for method: TriggerBehaviour::Initialize
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::TriggerBehaviour::Initialize
 // Il2CppName: Initialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TriggerBehaviour::*)()>(&TriggerBehaviour::Initialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::TriggerBehaviour::*)()>(&UnityEngine::ProBuilder::TriggerBehaviour::Initialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TriggerBehaviour*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::TriggerBehaviour*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TriggerBehaviour::OnEnterPlayMode
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::TriggerBehaviour::OnEnterPlayMode
 // Il2CppName: OnEnterPlayMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TriggerBehaviour::*)()>(&TriggerBehaviour::OnEnterPlayMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::TriggerBehaviour::*)()>(&UnityEngine::ProBuilder::TriggerBehaviour::OnEnterPlayMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TriggerBehaviour*), "OnEnterPlayMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::TriggerBehaviour*), "OnEnterPlayMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TriggerBehaviour::OnSceneLoaded
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::TriggerBehaviour::OnSceneLoaded
 // Il2CppName: OnSceneLoaded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TriggerBehaviour::*)(UnityEngine::SceneManagement::Scene, UnityEngine::SceneManagement::LoadSceneMode)>(&TriggerBehaviour::OnSceneLoaded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::TriggerBehaviour::*)(UnityEngine::SceneManagement::Scene, UnityEngine::SceneManagement::LoadSceneMode)>(&UnityEngine::ProBuilder::TriggerBehaviour::OnSceneLoaded)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TriggerBehaviour*), "OnSceneLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::Scene>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::TriggerBehaviour*), "OnSceneLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::Scene>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneMode>()});
   }
 };
-// Writing MetadataGetter for method: TriggerBehaviour::New_ctor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::TriggerBehaviour::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TriggerBehaviour::*)()>(&TriggerBehaviour::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::TriggerBehaviour::*)()>(&UnityEngine::ProBuilder::TriggerBehaviour::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TriggerBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::TriggerBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TriggerBehaviour::*)()>(&TriggerBehaviour::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::TriggerBehaviour::*)()>(&UnityEngine::ProBuilder::TriggerBehaviour::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TriggerBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::TriggerBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

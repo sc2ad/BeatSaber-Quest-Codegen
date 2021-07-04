@@ -178,73 +178,73 @@ namespace System::Net::Http::Headers {
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Token, "System.Net.Http.Headers", "Token");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Token::Type, "System.Net.Http.Headers", "Token/Type");
-// Writing MetadataGetter for method: Token::Token
+// Writing MetadataGetter for method: System::Net::Http::Headers::Token::Token
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Token::*)(System::Net::Http::Headers::Token::Type, int, int)>(&Token::Token<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::Token::*)(System::Net::Http::Headers::Token::Type, int, int)>(&System::Net::Http::Headers::Token::Token<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Token), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token::Type>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Token), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token::Type>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Token::*)(System::Net::Http::Headers::Token::Type, int, int)>(&Token::Token<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::Token::*)(System::Net::Http::Headers::Token::Type, int, int)>(&System::Net::Http::Headers::Token::Token<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Token), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token::Type>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Token), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::Token::Type>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Token::get_StartPosition
+// Writing MetadataGetter for method: System::Net::Http::Headers::Token::get_StartPosition
 // Il2CppName: get_StartPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Token::*)()>(&Token::get_StartPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Http::Headers::Token::*)()>(&System::Net::Http::Headers::Token::get_StartPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Token), "get_StartPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Token), "get_StartPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Token::set_StartPosition
+// Writing MetadataGetter for method: System::Net::Http::Headers::Token::set_StartPosition
 // Il2CppName: set_StartPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Token::*)(int)>(&Token::set_StartPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::Token::*)(int)>(&System::Net::Http::Headers::Token::set_StartPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Token), "set_StartPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Token), "set_StartPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Token::get_EndPosition
+// Writing MetadataGetter for method: System::Net::Http::Headers::Token::get_EndPosition
 // Il2CppName: get_EndPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Token::*)()>(&Token::get_EndPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Http::Headers::Token::*)()>(&System::Net::Http::Headers::Token::get_EndPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Token), "get_EndPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Token), "get_EndPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Token::set_EndPosition
+// Writing MetadataGetter for method: System::Net::Http::Headers::Token::set_EndPosition
 // Il2CppName: set_EndPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Token::*)(int)>(&Token::set_EndPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::Token::*)(int)>(&System::Net::Http::Headers::Token::set_EndPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Token), "set_EndPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Token), "set_EndPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Token::get_Kind
+// Writing MetadataGetter for method: System::Net::Http::Headers::Token::get_Kind
 // Il2CppName: get_Kind
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Http::Headers::Token::Type (Token::*)()>(&Token::get_Kind)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Http::Headers::Token::Type (System::Net::Http::Headers::Token::*)()>(&System::Net::Http::Headers::Token::get_Kind)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Token), "get_Kind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Token), "get_Kind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Token::_cctor
+// Writing MetadataGetter for method: System::Net::Http::Headers::Token::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Token::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Net::Http::Headers::Token::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Token), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Token), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Token::ToString
+// Writing MetadataGetter for method: System::Net::Http::Headers::Token::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Token::*)()>(&Token::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::Token::*)()>(&System::Net::Http::Headers::Token::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Token), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Token), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

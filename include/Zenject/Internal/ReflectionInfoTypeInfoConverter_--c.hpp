@@ -82,49 +82,49 @@ namespace Zenject::Internal {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c*, "Zenject.Internal", "ReflectionInfoTypeInfoConverter/<>c");
-// Writing MetadataGetter for method: ReflectionInfoTypeInfoConverter::$$c::_cctor
+// Writing MetadataGetter for method: Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ReflectionInfoTypeInfoConverter::$$c::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReflectionInfoTypeInfoConverter::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ReflectionInfoTypeInfoConverter::$$c::$ConvertMethod$b__0_1
+// Writing MetadataGetter for method: Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c::$ConvertMethod$b__0_1
 // Il2CppName: <ConvertMethod>b__0_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectableInfo* (ReflectionInfoTypeInfoConverter::$$c::*)(Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*)>(&ReflectionInfoTypeInfoConverter::$$c::$ConvertMethod$b__0_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectableInfo* (Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c::*)(Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*)>(&Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c::$ConvertMethod$b__0_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReflectionInfoTypeInfoConverter::$$c*), "<ConvertMethod>b__0_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c*), "<ConvertMethod>b__0_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>()});
   }
 };
-// Writing MetadataGetter for method: ReflectionInfoTypeInfoConverter::$$c::$ConvertConstructor$b__1_0
+// Writing MetadataGetter for method: Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c::$ConvertConstructor$b__1_0
 // Il2CppName: <ConvertConstructor>b__1_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectableInfo* (ReflectionInfoTypeInfoConverter::$$c::*)(Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*)>(&ReflectionInfoTypeInfoConverter::$$c::$ConvertConstructor$b__1_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectableInfo* (Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c::*)(Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*)>(&Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c::$ConvertConstructor$b__1_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReflectionInfoTypeInfoConverter::$$c*), "<ConvertConstructor>b__1_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c*), "<ConvertConstructor>b__1_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*>()});
   }
 };
-// Writing MetadataGetter for method: ReflectionInfoTypeInfoConverter::$$c::$GetOnlyPropertySetter$b__8_1
+// Writing MetadataGetter for method: Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c::$GetOnlyPropertySetter$b__8_1
 // Il2CppName: <GetOnlyPropertySetter>b__8_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ReflectionInfoTypeInfoConverter::$$c::*)(System::Reflection::FieldInfo*)>(&ReflectionInfoTypeInfoConverter::$$c::$GetOnlyPropertySetter$b__8_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c::*)(System::Reflection::FieldInfo*)>(&Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c::$GetOnlyPropertySetter$b__8_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReflectionInfoTypeInfoConverter::$$c*), "<GetOnlyPropertySetter>b__8_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::FieldInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c*), "<GetOnlyPropertySetter>b__8_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::FieldInfo*>()});
   }
 };
-// Writing MetadataGetter for method: ReflectionInfoTypeInfoConverter::$$c::New_ctor
+// Writing MetadataGetter for method: Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReflectionInfoTypeInfoConverter::$$c::*)()>(&ReflectionInfoTypeInfoConverter::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c::*)()>(&Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReflectionInfoTypeInfoConverter::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReflectionInfoTypeInfoConverter::$$c::*)()>(&ReflectionInfoTypeInfoConverter::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c::*)()>(&Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReflectionInfoTypeInfoConverter::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

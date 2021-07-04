@@ -68,33 +68,33 @@ namespace NUnit::Framework::Internal::Execution {
   static_assert(sizeof(CountdownEvent) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Execution::CountdownEvent*, "NUnit.Framework.Internal.Execution", "CountdownEvent");
-// Writing MetadataGetter for method: CountdownEvent::New_ctor
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Execution::CountdownEvent::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CountdownEvent::*)(int)>(&CountdownEvent::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Execution::CountdownEvent::*)(int)>(&NUnit::Framework::Internal::Execution::CountdownEvent::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CountdownEvent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Execution::CountdownEvent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CountdownEvent::*)(int)>(&CountdownEvent::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Execution::CountdownEvent::*)(int)>(&NUnit::Framework::Internal::Execution::CountdownEvent::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CountdownEvent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Execution::CountdownEvent*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: CountdownEvent::get_CurrentCount
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Execution::CountdownEvent::get_CurrentCount
 // Il2CppName: get_CurrentCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CountdownEvent::*)()>(&CountdownEvent::get_CurrentCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NUnit::Framework::Internal::Execution::CountdownEvent::*)()>(&NUnit::Framework::Internal::Execution::CountdownEvent::get_CurrentCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CountdownEvent*), "get_CurrentCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Execution::CountdownEvent*), "get_CurrentCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CountdownEvent::Signal
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Execution::CountdownEvent::Signal
 // Il2CppName: Signal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CountdownEvent::*)()>(&CountdownEvent::Signal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Execution::CountdownEvent::*)()>(&NUnit::Framework::Internal::Execution::CountdownEvent::Signal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CountdownEvent*), "Signal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Execution::CountdownEvent*), "Signal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

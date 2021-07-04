@@ -302,241 +302,241 @@ namespace System::Net {
   static_assert(sizeof(ServicePoint) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ServicePoint*, "System.Net", "ServicePoint");
-// Writing MetadataGetter for method: ServicePoint::New_ctor
+// Writing MetadataGetter for method: System::Net::ServicePoint::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServicePoint::*)(System::Uri*, int, int)>(&ServicePoint::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::ServicePoint::*)(System::Uri*, int, int)>(&System::Net::ServicePoint::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServicePoint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServicePoint::*)(System::Uri*, int, int)>(&ServicePoint::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::ServicePoint::*)(System::Uri*, int, int)>(&System::Net::ServicePoint::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServicePoint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ServicePoint::get_Address
+// Writing MetadataGetter for method: System::Net::ServicePoint::get_Address
 // Il2CppName: get_Address
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (ServicePoint::*)()>(&ServicePoint::get_Address)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (System::Net::ServicePoint::*)()>(&System::Net::ServicePoint::get_Address)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServicePoint*), "get_Address", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "get_Address", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ServicePoint::get_ConnectionLimit
+// Writing MetadataGetter for method: System::Net::ServicePoint::get_ConnectionLimit
 // Il2CppName: get_ConnectionLimit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ServicePoint::*)()>(&ServicePoint::get_ConnectionLimit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::ServicePoint::*)()>(&System::Net::ServicePoint::get_ConnectionLimit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServicePoint*), "get_ConnectionLimit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "get_ConnectionLimit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ServicePoint::get_ProtocolVersion
+// Writing MetadataGetter for method: System::Net::ServicePoint::get_ProtocolVersion
 // Il2CppName: get_ProtocolVersion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Version* (ServicePoint::*)()>(&ServicePoint::get_ProtocolVersion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Version* (System::Net::ServicePoint::*)()>(&System::Net::ServicePoint::get_ProtocolVersion)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServicePoint*), "get_ProtocolVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "get_ProtocolVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ServicePoint::set_Expect100Continue
+// Writing MetadataGetter for method: System::Net::ServicePoint::set_Expect100Continue
 // Il2CppName: set_Expect100Continue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServicePoint::*)(bool)>(&ServicePoint::set_Expect100Continue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::ServicePoint::*)(bool)>(&System::Net::ServicePoint::set_Expect100Continue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServicePoint*), "set_Expect100Continue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "set_Expect100Continue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ServicePoint::get_UseNagleAlgorithm
+// Writing MetadataGetter for method: System::Net::ServicePoint::get_UseNagleAlgorithm
 // Il2CppName: get_UseNagleAlgorithm
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ServicePoint::*)()>(&ServicePoint::get_UseNagleAlgorithm)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::ServicePoint::*)()>(&System::Net::ServicePoint::get_UseNagleAlgorithm)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServicePoint*), "get_UseNagleAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "get_UseNagleAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ServicePoint::set_UseNagleAlgorithm
+// Writing MetadataGetter for method: System::Net::ServicePoint::set_UseNagleAlgorithm
 // Il2CppName: set_UseNagleAlgorithm
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServicePoint::*)(bool)>(&ServicePoint::set_UseNagleAlgorithm)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::ServicePoint::*)(bool)>(&System::Net::ServicePoint::set_UseNagleAlgorithm)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServicePoint*), "set_UseNagleAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "set_UseNagleAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ServicePoint::get_SendContinue
+// Writing MetadataGetter for method: System::Net::ServicePoint::get_SendContinue
 // Il2CppName: get_SendContinue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ServicePoint::*)()>(&ServicePoint::get_SendContinue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::ServicePoint::*)()>(&System::Net::ServicePoint::get_SendContinue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServicePoint*), "get_SendContinue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "get_SendContinue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ServicePoint::set_SendContinue
+// Writing MetadataGetter for method: System::Net::ServicePoint::set_SendContinue
 // Il2CppName: set_SendContinue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServicePoint::*)(bool)>(&ServicePoint::set_SendContinue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::ServicePoint::*)(bool)>(&System::Net::ServicePoint::set_SendContinue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServicePoint*), "set_SendContinue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "set_SendContinue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ServicePoint::SetTcpKeepAlive
+// Writing MetadataGetter for method: System::Net::ServicePoint::SetTcpKeepAlive
 // Il2CppName: SetTcpKeepAlive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServicePoint::*)(bool, int, int)>(&ServicePoint::SetTcpKeepAlive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::ServicePoint::*)(bool, int, int)>(&System::Net::ServicePoint::SetTcpKeepAlive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServicePoint*), "SetTcpKeepAlive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "SetTcpKeepAlive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ServicePoint::KeepAliveSetup
+// Writing MetadataGetter for method: System::Net::ServicePoint::KeepAliveSetup
 // Il2CppName: KeepAliveSetup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServicePoint::*)(System::Net::Sockets::Socket*)>(&ServicePoint::KeepAliveSetup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::ServicePoint::*)(System::Net::Sockets::Socket*)>(&System::Net::ServicePoint::KeepAliveSetup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServicePoint*), "KeepAliveSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "KeepAliveSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>()});
   }
 };
-// Writing MetadataGetter for method: ServicePoint::PutBytes
+// Writing MetadataGetter for method: System::Net::ServicePoint::PutBytes
 // Il2CppName: PutBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, uint, int)>(&ServicePoint::PutBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, uint, int)>(&System::Net::ServicePoint::PutBytes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServicePoint*), "PutBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "PutBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ServicePoint::get_UsesProxy
+// Writing MetadataGetter for method: System::Net::ServicePoint::get_UsesProxy
 // Il2CppName: get_UsesProxy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ServicePoint::*)()>(&ServicePoint::get_UsesProxy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::ServicePoint::*)()>(&System::Net::ServicePoint::get_UsesProxy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServicePoint*), "get_UsesProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "get_UsesProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ServicePoint::set_UsesProxy
+// Writing MetadataGetter for method: System::Net::ServicePoint::set_UsesProxy
 // Il2CppName: set_UsesProxy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServicePoint::*)(bool)>(&ServicePoint::set_UsesProxy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::ServicePoint::*)(bool)>(&System::Net::ServicePoint::set_UsesProxy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServicePoint*), "set_UsesProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "set_UsesProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ServicePoint::get_UseConnect
+// Writing MetadataGetter for method: System::Net::ServicePoint::get_UseConnect
 // Il2CppName: get_UseConnect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ServicePoint::*)()>(&ServicePoint::get_UseConnect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::ServicePoint::*)()>(&System::Net::ServicePoint::get_UseConnect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServicePoint*), "get_UseConnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "get_UseConnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ServicePoint::set_UseConnect
+// Writing MetadataGetter for method: System::Net::ServicePoint::set_UseConnect
 // Il2CppName: set_UseConnect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServicePoint::*)(bool)>(&ServicePoint::set_UseConnect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::ServicePoint::*)(bool)>(&System::Net::ServicePoint::set_UseConnect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServicePoint*), "set_UseConnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "set_UseConnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ServicePoint::GetConnectionGroup
+// Writing MetadataGetter for method: System::Net::ServicePoint::GetConnectionGroup
 // Il2CppName: GetConnectionGroup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebConnectionGroup* (ServicePoint::*)(::Il2CppString*)>(&ServicePoint::GetConnectionGroup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebConnectionGroup* (System::Net::ServicePoint::*)(::Il2CppString*)>(&System::Net::ServicePoint::GetConnectionGroup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServicePoint*), "GetConnectionGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "GetConnectionGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: ServicePoint::RemoveConnectionGroup
+// Writing MetadataGetter for method: System::Net::ServicePoint::RemoveConnectionGroup
 // Il2CppName: RemoveConnectionGroup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServicePoint::*)(System::Net::WebConnectionGroup*)>(&ServicePoint::RemoveConnectionGroup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::ServicePoint::*)(System::Net::WebConnectionGroup*)>(&System::Net::ServicePoint::RemoveConnectionGroup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServicePoint*), "RemoveConnectionGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::WebConnectionGroup*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "RemoveConnectionGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::WebConnectionGroup*>()});
   }
 };
-// Writing MetadataGetter for method: ServicePoint::CheckAvailableForRecycling
+// Writing MetadataGetter for method: System::Net::ServicePoint::CheckAvailableForRecycling
 // Il2CppName: CheckAvailableForRecycling
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ServicePoint::*)(System::DateTime&)>(&ServicePoint::CheckAvailableForRecycling)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::ServicePoint::*)(System::DateTime&)>(&System::Net::ServicePoint::CheckAvailableForRecycling)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServicePoint*), "CheckAvailableForRecycling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "CheckAvailableForRecycling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime&>()});
   }
 };
-// Writing MetadataGetter for method: ServicePoint::IdleTimerCallback
+// Writing MetadataGetter for method: System::Net::ServicePoint::IdleTimerCallback
 // Il2CppName: IdleTimerCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServicePoint::*)(::Il2CppObject*)>(&ServicePoint::IdleTimerCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::ServicePoint::*)(::Il2CppObject*)>(&System::Net::ServicePoint::IdleTimerCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServicePoint*), "IdleTimerCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "IdleTimerCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: ServicePoint::get_HasTimedOut
+// Writing MetadataGetter for method: System::Net::ServicePoint::get_HasTimedOut
 // Il2CppName: get_HasTimedOut
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ServicePoint::*)()>(&ServicePoint::get_HasTimedOut)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::ServicePoint::*)()>(&System::Net::ServicePoint::get_HasTimedOut)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServicePoint*), "get_HasTimedOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "get_HasTimedOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ServicePoint::get_HostEntry
+// Writing MetadataGetter for method: System::Net::ServicePoint::get_HostEntry
 // Il2CppName: get_HostEntry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPHostEntry* (ServicePoint::*)()>(&ServicePoint::get_HostEntry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPHostEntry* (System::Net::ServicePoint::*)()>(&System::Net::ServicePoint::get_HostEntry)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServicePoint*), "get_HostEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "get_HostEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ServicePoint::SetVersion
+// Writing MetadataGetter for method: System::Net::ServicePoint::SetVersion
 // Il2CppName: SetVersion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServicePoint::*)(System::Version*)>(&ServicePoint::SetVersion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::ServicePoint::*)(System::Version*)>(&System::Net::ServicePoint::SetVersion)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServicePoint*), "SetVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Version*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "SetVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Version*>()});
   }
 };
-// Writing MetadataGetter for method: ServicePoint::SendRequest
+// Writing MetadataGetter for method: System::Net::ServicePoint::SendRequest
 // Il2CppName: SendRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::EventHandler* (ServicePoint::*)(System::Net::HttpWebRequest*, ::Il2CppString*)>(&ServicePoint::SendRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::EventHandler* (System::Net::ServicePoint::*)(System::Net::HttpWebRequest*, ::Il2CppString*)>(&System::Net::ServicePoint::SendRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServicePoint*), "SendRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "SendRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: ServicePoint::CloseConnectionGroup
+// Writing MetadataGetter for method: System::Net::ServicePoint::CloseConnectionGroup
 // Il2CppName: CloseConnectionGroup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ServicePoint::*)(::Il2CppString*)>(&ServicePoint::CloseConnectionGroup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::ServicePoint::*)(::Il2CppString*)>(&System::Net::ServicePoint::CloseConnectionGroup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServicePoint*), "CloseConnectionGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "CloseConnectionGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: ServicePoint::UpdateServerCertificate
+// Writing MetadataGetter for method: System::Net::ServicePoint::UpdateServerCertificate
 // Il2CppName: UpdateServerCertificate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServicePoint::*)(System::Security::Cryptography::X509Certificates::X509Certificate*)>(&ServicePoint::UpdateServerCertificate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::ServicePoint::*)(System::Security::Cryptography::X509Certificates::X509Certificate*)>(&System::Net::ServicePoint::UpdateServerCertificate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServicePoint*), "UpdateServerCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "UpdateServerCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>()});
   }
 };
-// Writing MetadataGetter for method: ServicePoint::UpdateClientCertificate
+// Writing MetadataGetter for method: System::Net::ServicePoint::UpdateClientCertificate
 // Il2CppName: UpdateClientCertificate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServicePoint::*)(System::Security::Cryptography::X509Certificates::X509Certificate*)>(&ServicePoint::UpdateClientCertificate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::ServicePoint::*)(System::Security::Cryptography::X509Certificates::X509Certificate*)>(&System::Net::ServicePoint::UpdateClientCertificate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServicePoint*), "UpdateClientCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "UpdateClientCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>()});
   }
 };
-// Writing MetadataGetter for method: ServicePoint::CallEndPointDelegate
+// Writing MetadataGetter for method: System::Net::ServicePoint::CallEndPointDelegate
 // Il2CppName: CallEndPointDelegate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ServicePoint::*)(System::Net::Sockets::Socket*, System::Net::IPEndPoint*)>(&ServicePoint::CallEndPointDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::ServicePoint::*)(System::Net::Sockets::Socket*, System::Net::IPEndPoint*)>(&System::Net::ServicePoint::CallEndPointDelegate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServicePoint*), "CallEndPointDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "CallEndPointDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
   }
 };
-// Writing MetadataGetter for method: ServicePoint::$GetConnectionGroup$b__66_0
+// Writing MetadataGetter for method: System::Net::ServicePoint::$GetConnectionGroup$b__66_0
 // Il2CppName: <GetConnectionGroup>b__66_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServicePoint::*)(::Il2CppObject*, System::EventArgs*)>(&ServicePoint::$GetConnectionGroup$b__66_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::ServicePoint::*)(::Il2CppObject*, System::EventArgs*)>(&System::Net::ServicePoint::$GetConnectionGroup$b__66_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServicePoint*), "<GetConnectionGroup>b__66_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::EventArgs*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ServicePoint*), "<GetConnectionGroup>b__66_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::EventArgs*>()});
   }
 };

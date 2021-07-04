@@ -47,33 +47,33 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithCalApplicationSuggestionList
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithCalApplicationSuggestionList*, "Oculus.Platform", "MessageWithCalApplicationSuggestionList");
-// Writing MetadataGetter for method: MessageWithCalApplicationSuggestionList::GetDataFromMessage
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithCalApplicationSuggestionList::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CalApplicationSuggestionList* (MessageWithCalApplicationSuggestionList::*)(System::IntPtr)>(&MessageWithCalApplicationSuggestionList::GetDataFromMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CalApplicationSuggestionList* (Oculus::Platform::MessageWithCalApplicationSuggestionList::*)(System::IntPtr)>(&Oculus::Platform::MessageWithCalApplicationSuggestionList::GetDataFromMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithCalApplicationSuggestionList*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithCalApplicationSuggestionList*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithCalApplicationSuggestionList::New_ctor
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithCalApplicationSuggestionList::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithCalApplicationSuggestionList::*)(System::IntPtr)>(&MessageWithCalApplicationSuggestionList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithCalApplicationSuggestionList::*)(System::IntPtr)>(&Oculus::Platform::MessageWithCalApplicationSuggestionList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithCalApplicationSuggestionList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithCalApplicationSuggestionList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithCalApplicationSuggestionList::*)(System::IntPtr)>(&MessageWithCalApplicationSuggestionList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithCalApplicationSuggestionList::*)(System::IntPtr)>(&Oculus::Platform::MessageWithCalApplicationSuggestionList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithCalApplicationSuggestionList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithCalApplicationSuggestionList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithCalApplicationSuggestionList::GetCalApplicationSuggestionList
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithCalApplicationSuggestionList::GetCalApplicationSuggestionList
 // Il2CppName: GetCalApplicationSuggestionList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CalApplicationSuggestionList* (MessageWithCalApplicationSuggestionList::*)()>(&MessageWithCalApplicationSuggestionList::GetCalApplicationSuggestionList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CalApplicationSuggestionList* (Oculus::Platform::MessageWithCalApplicationSuggestionList::*)()>(&Oculus::Platform::MessageWithCalApplicationSuggestionList::GetCalApplicationSuggestionList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithCalApplicationSuggestionList*), "GetCalApplicationSuggestionList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithCalApplicationSuggestionList*), "GetCalApplicationSuggestionList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

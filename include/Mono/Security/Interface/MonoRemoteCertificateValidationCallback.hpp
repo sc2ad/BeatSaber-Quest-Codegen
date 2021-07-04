@@ -61,41 +61,41 @@ namespace Mono::Security::Interface {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::MonoRemoteCertificateValidationCallback*, "Mono.Security.Interface", "MonoRemoteCertificateValidationCallback");
-// Writing MetadataGetter for method: MonoRemoteCertificateValidationCallback::New_ctor
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoRemoteCertificateValidationCallback::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoRemoteCertificateValidationCallback::*)(::Il2CppObject*, System::IntPtr)>(&MonoRemoteCertificateValidationCallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoRemoteCertificateValidationCallback::*)(::Il2CppObject*, System::IntPtr)>(&Mono::Security::Interface::MonoRemoteCertificateValidationCallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoRemoteCertificateValidationCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoRemoteCertificateValidationCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoRemoteCertificateValidationCallback::*)(::Il2CppObject*, System::IntPtr)>(&MonoRemoteCertificateValidationCallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoRemoteCertificateValidationCallback::*)(::Il2CppObject*, System::IntPtr)>(&Mono::Security::Interface::MonoRemoteCertificateValidationCallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoRemoteCertificateValidationCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoRemoteCertificateValidationCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MonoRemoteCertificateValidationCallback::Invoke
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoRemoteCertificateValidationCallback::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MonoRemoteCertificateValidationCallback::*)(::Il2CppString*, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509Chain*, Mono::Security::Interface::MonoSslPolicyErrors)>(&MonoRemoteCertificateValidationCallback::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::Interface::MonoRemoteCertificateValidationCallback::*)(::Il2CppString*, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509Chain*, Mono::Security::Interface::MonoSslPolicyErrors)>(&Mono::Security::Interface::MonoRemoteCertificateValidationCallback::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoRemoteCertificateValidationCallback*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Chain*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoSslPolicyErrors>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoRemoteCertificateValidationCallback*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Chain*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoSslPolicyErrors>()});
   }
 };
-// Writing MetadataGetter for method: MonoRemoteCertificateValidationCallback::BeginInvoke
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoRemoteCertificateValidationCallback::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (MonoRemoteCertificateValidationCallback::*)(::Il2CppString*, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509Chain*, Mono::Security::Interface::MonoSslPolicyErrors, System::AsyncCallback*, ::Il2CppObject*)>(&MonoRemoteCertificateValidationCallback::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Mono::Security::Interface::MonoRemoteCertificateValidationCallback::*)(::Il2CppString*, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509Chain*, Mono::Security::Interface::MonoSslPolicyErrors, System::AsyncCallback*, ::Il2CppObject*)>(&Mono::Security::Interface::MonoRemoteCertificateValidationCallback::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoRemoteCertificateValidationCallback*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Chain*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoSslPolicyErrors>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoRemoteCertificateValidationCallback*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Chain*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoSslPolicyErrors>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: MonoRemoteCertificateValidationCallback::EndInvoke
+// Writing MetadataGetter for method: Mono::Security::Interface::MonoRemoteCertificateValidationCallback::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MonoRemoteCertificateValidationCallback::*)(System::IAsyncResult*)>(&MonoRemoteCertificateValidationCallback::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::Interface::MonoRemoteCertificateValidationCallback::*)(System::IAsyncResult*)>(&Mono::Security::Interface::MonoRemoteCertificateValidationCallback::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoRemoteCertificateValidationCallback*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoRemoteCertificateValidationCallback*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

@@ -200,35 +200,35 @@ namespace System::Globalization {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::HebrewNumber*, "System.Globalization", "HebrewNumber");
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::HebrewNumber::HS, "System.Globalization", "HebrewNumber/HS");
-// Writing MetadataGetter for method: HebrewNumber::ToString
+// Writing MetadataGetter for method: System::Globalization::HebrewNumber::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&HebrewNumber::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&System::Globalization::HebrewNumber::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HebrewNumber*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::HebrewNumber*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: HebrewNumber::ParseByChar
+// Writing MetadataGetter for method: System::Globalization::HebrewNumber::ParseByChar
 // Il2CppName: ParseByChar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::HebrewNumberParsingState (*)(::Il2CppChar, System::Globalization::HebrewNumberParsingContext&)>(&HebrewNumber::ParseByChar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::HebrewNumberParsingState (*)(::Il2CppChar, System::Globalization::HebrewNumberParsingContext&)>(&System::Globalization::HebrewNumber::ParseByChar)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HebrewNumber*), "ParseByChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::HebrewNumberParsingContext&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::HebrewNumber*), "ParseByChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::HebrewNumberParsingContext&>()});
   }
 };
-// Writing MetadataGetter for method: HebrewNumber::IsDigit
+// Writing MetadataGetter for method: System::Globalization::HebrewNumber::IsDigit
 // Il2CppName: IsDigit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&HebrewNumber::IsDigit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&System::Globalization::HebrewNumber::IsDigit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HebrewNumber*), "IsDigit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::HebrewNumber*), "IsDigit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
   }
 };
-// Writing MetadataGetter for method: HebrewNumber::_cctor
+// Writing MetadataGetter for method: System::Globalization::HebrewNumber::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&HebrewNumber::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Globalization::HebrewNumber::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HebrewNumber*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::HebrewNumber*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

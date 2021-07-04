@@ -118,141 +118,141 @@ namespace Org::BouncyCastle::Asn1 {
   static_assert(sizeof(Asn1InputStream) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1InputStream*, "Org.BouncyCastle.Asn1", "Asn1InputStream");
-// Writing MetadataGetter for method: Asn1InputStream::FindLimit
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::FindLimit
 // Il2CppName: FindLimit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IO::Stream*)>(&Asn1InputStream::FindLimit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IO::Stream*)>(&Org::BouncyCastle::Asn1::Asn1InputStream::FindLimit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1InputStream*), "FindLimit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "FindLimit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
   }
 };
-// Writing MetadataGetter for method: Asn1InputStream::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Asn1InputStream::*)(System::IO::Stream*, int)>(&Asn1InputStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::Asn1InputStream::*)(System::IO::Stream*, int)>(&Org::BouncyCastle::Asn1::Asn1InputStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1InputStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Asn1InputStream::*)(System::IO::Stream*, int)>(&Asn1InputStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::Asn1InputStream::*)(System::IO::Stream*, int)>(&Org::BouncyCastle::Asn1::Asn1InputStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1InputStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Asn1InputStream::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Asn1InputStream::*)(::Array<uint8_t>*)>(&Asn1InputStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::Asn1InputStream::*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Asn1::Asn1InputStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1InputStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Asn1InputStream::*)(::Array<uint8_t>*)>(&Asn1InputStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::Asn1InputStream::*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Asn1::Asn1InputStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1InputStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: Asn1InputStream::BuildObject
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::BuildObject
 // Il2CppName: BuildObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Asn1InputStream::*)(int, int, int)>(&Asn1InputStream::BuildObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Org::BouncyCastle::Asn1::Asn1InputStream::*)(int, int, int)>(&Org::BouncyCastle::Asn1::Asn1InputStream::BuildObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1InputStream*), "BuildObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "BuildObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Asn1InputStream::ReadVector
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::ReadVector
 // Il2CppName: ReadVector
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1EncodableVector* (Asn1InputStream::*)(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*)>(&Asn1InputStream::ReadVector)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1EncodableVector* (Org::BouncyCastle::Asn1::Asn1InputStream::*)(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*)>(&Org::BouncyCastle::Asn1::Asn1InputStream::ReadVector)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1InputStream*), "ReadVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "ReadVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>()});
   }
 };
-// Writing MetadataGetter for method: Asn1InputStream::CreateDerSequence
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::CreateDerSequence
 // Il2CppName: CreateDerSequence
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerSequence* (Asn1InputStream::*)(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*)>(&Asn1InputStream::CreateDerSequence)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerSequence* (Org::BouncyCastle::Asn1::Asn1InputStream::*)(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*)>(&Org::BouncyCastle::Asn1::Asn1InputStream::CreateDerSequence)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1InputStream*), "CreateDerSequence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "CreateDerSequence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>()});
   }
 };
-// Writing MetadataGetter for method: Asn1InputStream::CreateDerSet
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::CreateDerSet
 // Il2CppName: CreateDerSet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerSet* (Asn1InputStream::*)(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*)>(&Asn1InputStream::CreateDerSet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerSet* (Org::BouncyCastle::Asn1::Asn1InputStream::*)(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*)>(&Org::BouncyCastle::Asn1::Asn1InputStream::CreateDerSet)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1InputStream*), "CreateDerSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "CreateDerSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>()});
   }
 };
-// Writing MetadataGetter for method: Asn1InputStream::ReadObject
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::ReadObject
 // Il2CppName: ReadObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Asn1InputStream::*)()>(&Asn1InputStream::ReadObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Org::BouncyCastle::Asn1::Asn1InputStream::*)()>(&Org::BouncyCastle::Asn1::Asn1InputStream::ReadObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1InputStream*), "ReadObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "ReadObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Asn1InputStream::get_Limit
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::get_Limit
 // Il2CppName: get_Limit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Asn1InputStream::*)()>(&Asn1InputStream::get_Limit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Asn1::Asn1InputStream::*)()>(&Org::BouncyCastle::Asn1::Asn1InputStream::get_Limit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1InputStream*), "get_Limit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "get_Limit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Asn1InputStream::ReadTagNumber
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::ReadTagNumber
 // Il2CppName: ReadTagNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IO::Stream*, int)>(&Asn1InputStream::ReadTagNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IO::Stream*, int)>(&Org::BouncyCastle::Asn1::Asn1InputStream::ReadTagNumber)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1InputStream*), "ReadTagNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "ReadTagNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Asn1InputStream::ReadLength
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::ReadLength
 // Il2CppName: ReadLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IO::Stream*, int, bool)>(&Asn1InputStream::ReadLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IO::Stream*, int, bool)>(&Org::BouncyCastle::Asn1::Asn1InputStream::ReadLength)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1InputStream*), "ReadLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "ReadLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Asn1InputStream::GetBuffer
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::GetBuffer
 // Il2CppName: GetBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*, ::Array<::Array<uint8_t>*>*)>(&Asn1InputStream::GetBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*, ::Array<::Array<uint8_t>*>*)>(&Org::BouncyCastle::Asn1::Asn1InputStream::GetBuffer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1InputStream*), "GetBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Array<uint8_t>*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "GetBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Array<uint8_t>*>*>()});
   }
 };
-// Writing MetadataGetter for method: Asn1InputStream::GetBmpCharBuffer
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::GetBmpCharBuffer
 // Il2CppName: GetBmpCharBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (*)(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*)>(&Asn1InputStream::GetBmpCharBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (*)(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*)>(&Org::BouncyCastle::Asn1::Asn1InputStream::GetBmpCharBuffer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1InputStream*), "GetBmpCharBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "GetBmpCharBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>()});
   }
 };
-// Writing MetadataGetter for method: Asn1InputStream::CreatePrimitiveDerObject
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::CreatePrimitiveDerObject
 // Il2CppName: CreatePrimitiveDerObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (*)(int, Org::BouncyCastle::Asn1::DefiniteLengthInputStream*, ::Array<::Array<uint8_t>*>*)>(&Asn1InputStream::CreatePrimitiveDerObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (*)(int, Org::BouncyCastle::Asn1::DefiniteLengthInputStream*, ::Array<::Array<uint8_t>*>*)>(&Org::BouncyCastle::Asn1::Asn1InputStream::CreatePrimitiveDerObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1InputStream*), "CreatePrimitiveDerObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Array<uint8_t>*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "CreatePrimitiveDerObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Array<uint8_t>*>*>()});
   }
 };
-// Writing MetadataGetter for method: Asn1InputStream::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Asn1InputStream::*)(System::IO::Stream*)>(&Asn1InputStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::Asn1InputStream::*)(System::IO::Stream*)>(&Org::BouncyCastle::Asn1::Asn1InputStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1InputStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Asn1InputStream::*)(System::IO::Stream*)>(&Asn1InputStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::Asn1InputStream::*)(System::IO::Stream*)>(&Org::BouncyCastle::Asn1::Asn1InputStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Asn1InputStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
   }
 };

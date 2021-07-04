@@ -66,33 +66,33 @@ namespace UnityEngine::TestTools::TestRunner {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$$c*, "UnityEngine.TestTools.TestRunner", "PlaymodeTestsController/<>c");
-// Writing MetadataGetter for method: PlaymodeTestsController::$$c::_cctor
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$$c::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&PlaymodeTestsController::$$c::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$$c::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlaymodeTestsController::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlaymodeTestsController::$$c::$Run$b__16_0
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$$c::$Run$b__16_0
 // Il2CppName: <Run>b__16_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (PlaymodeTestsController::$$c::*)(UnityEngine::TestTools::Utils::IAssemblyWrapper*)>(&PlaymodeTestsController::$$c::$Run$b__16_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$$c::*)(UnityEngine::TestTools::Utils::IAssemblyWrapper*)>(&UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$$c::$Run$b__16_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlaymodeTestsController::$$c*), "<Run>b__16_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::Utils::IAssemblyWrapper*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$$c*), "<Run>b__16_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::Utils::IAssemblyWrapper*>()});
   }
 };
-// Writing MetadataGetter for method: PlaymodeTestsController::$$c::New_ctor
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$$c::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlaymodeTestsController::$$c::*)()>(&PlaymodeTestsController::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$$c::*)()>(&UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlaymodeTestsController::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlaymodeTestsController::$$c::*)()>(&PlaymodeTestsController::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$$c::*)()>(&UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlaymodeTestsController::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

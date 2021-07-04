@@ -235,65 +235,65 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleVRNodeRecorder*, "", "SimpleVRNodeRecorder");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleVRNodeRecorder::SavedData*, "", "SimpleVRNodeRecorder/SavedData");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleVRNodeRecorder::RecordMode, "", "SimpleVRNodeRecorder/RecordMode");
-// Writing MetadataGetter for method: SimpleVRNodeRecorder::Awake
+// Writing MetadataGetter for method: GlobalNamespace::SimpleVRNodeRecorder::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleVRNodeRecorder::*)()>(&SimpleVRNodeRecorder::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleVRNodeRecorder::*)()>(&GlobalNamespace::SimpleVRNodeRecorder::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleVRNodeRecorder*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleVRNodeRecorder*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SimpleVRNodeRecorder::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::SimpleVRNodeRecorder::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleVRNodeRecorder::*)()>(&SimpleVRNodeRecorder::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleVRNodeRecorder::*)()>(&GlobalNamespace::SimpleVRNodeRecorder::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleVRNodeRecorder*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleVRNodeRecorder*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SimpleVRNodeRecorder::RecordNewKeyFrame
+// Writing MetadataGetter for method: GlobalNamespace::SimpleVRNodeRecorder::RecordNewKeyFrame
 // Il2CppName: RecordNewKeyFrame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleVRNodeRecorder::*)()>(&SimpleVRNodeRecorder::RecordNewKeyFrame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleVRNodeRecorder::*)()>(&GlobalNamespace::SimpleVRNodeRecorder::RecordNewKeyFrame)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleVRNodeRecorder*), "RecordNewKeyFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleVRNodeRecorder*), "RecordNewKeyFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SimpleVRNodeRecorder::Update
+// Writing MetadataGetter for method: GlobalNamespace::SimpleVRNodeRecorder::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleVRNodeRecorder::*)()>(&SimpleVRNodeRecorder::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleVRNodeRecorder::*)()>(&GlobalNamespace::SimpleVRNodeRecorder::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleVRNodeRecorder*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleVRNodeRecorder*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SimpleVRNodeRecorder::Save
+// Writing MetadataGetter for method: GlobalNamespace::SimpleVRNodeRecorder::Save
 // Il2CppName: Save
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleVRNodeRecorder::*)()>(&SimpleVRNodeRecorder::Save)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleVRNodeRecorder::*)()>(&GlobalNamespace::SimpleVRNodeRecorder::Save)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleVRNodeRecorder*), "Save", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleVRNodeRecorder*), "Save", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SimpleVRNodeRecorder::Load
+// Writing MetadataGetter for method: GlobalNamespace::SimpleVRNodeRecorder::Load
 // Il2CppName: Load
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleVRNodeRecorder::*)()>(&SimpleVRNodeRecorder::Load)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleVRNodeRecorder::*)()>(&GlobalNamespace::SimpleVRNodeRecorder::Load)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleVRNodeRecorder*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleVRNodeRecorder*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SimpleVRNodeRecorder::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::SimpleVRNodeRecorder::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleVRNodeRecorder::*)()>(&SimpleVRNodeRecorder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleVRNodeRecorder::*)()>(&GlobalNamespace::SimpleVRNodeRecorder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleVRNodeRecorder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleVRNodeRecorder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SimpleVRNodeRecorder::*)()>(&SimpleVRNodeRecorder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleVRNodeRecorder::*)()>(&GlobalNamespace::SimpleVRNodeRecorder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SimpleVRNodeRecorder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleVRNodeRecorder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

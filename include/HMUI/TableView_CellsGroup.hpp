@@ -66,33 +66,33 @@ namespace HMUI {
   static_assert(sizeof(TableView::CellsGroup) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableView::CellsGroup*, "HMUI", "TableView/CellsGroup");
-// Writing MetadataGetter for method: TableView::CellsGroup::get_reuseIdentifier
+// Writing MetadataGetter for method: HMUI::TableView::CellsGroup::get_reuseIdentifier
 // Il2CppName: get_reuseIdentifier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TableView::CellsGroup::*)()>(&TableView::CellsGroup::get_reuseIdentifier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HMUI::TableView::CellsGroup::*)()>(&HMUI::TableView::CellsGroup::get_reuseIdentifier)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TableView::CellsGroup*), "get_reuseIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView::CellsGroup*), "get_reuseIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TableView::CellsGroup::get_cells
+// Writing MetadataGetter for method: HMUI::TableView::CellsGroup::get_cells
 // Il2CppName: get_cells
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<HMUI::TableCell*>* (TableView::CellsGroup::*)()>(&TableView::CellsGroup::get_cells)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<HMUI::TableCell*>* (HMUI::TableView::CellsGroup::*)()>(&HMUI::TableView::CellsGroup::get_cells)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TableView::CellsGroup*), "get_cells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView::CellsGroup*), "get_cells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TableView::CellsGroup::New_ctor
+// Writing MetadataGetter for method: HMUI::TableView::CellsGroup::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableView::CellsGroup::*)()>(&TableView::CellsGroup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::CellsGroup::*)()>(&HMUI::TableView::CellsGroup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TableView::CellsGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView::CellsGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableView::CellsGroup::*)()>(&TableView::CellsGroup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableView::CellsGroup::*)()>(&HMUI::TableView::CellsGroup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TableView::CellsGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableView::CellsGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -93,35 +93,35 @@ namespace System::Xml::Xsl::Runtime {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::Xsl::Runtime::StringConcat, "System.Xml.Xsl.Runtime", "StringConcat");
-// Writing MetadataGetter for method: StringConcat::Clear
+// Writing MetadataGetter for method: System::Xml::Xsl::Runtime::StringConcat::Clear
 // Il2CppName: Clear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StringConcat::*)()>(&StringConcat::Clear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Xsl::Runtime::StringConcat::*)()>(&System::Xml::Xsl::Runtime::StringConcat::Clear)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StringConcat), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::Xsl::Runtime::StringConcat), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StringConcat::get_Count
+// Writing MetadataGetter for method: System::Xml::Xsl::Runtime::StringConcat::get_Count
 // Il2CppName: get_Count
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (StringConcat::*)()>(&StringConcat::get_Count)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::Xsl::Runtime::StringConcat::*)()>(&System::Xml::Xsl::Runtime::StringConcat::get_Count)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StringConcat), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::Xsl::Runtime::StringConcat), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StringConcat::GetResult
+// Writing MetadataGetter for method: System::Xml::Xsl::Runtime::StringConcat::GetResult
 // Il2CppName: GetResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StringConcat::*)()>(&StringConcat::GetResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::Xsl::Runtime::StringConcat::*)()>(&System::Xml::Xsl::Runtime::StringConcat::GetResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StringConcat), "GetResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::Xsl::Runtime::StringConcat), "GetResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StringConcat::ConcatNoDelimiter
+// Writing MetadataGetter for method: System::Xml::Xsl::Runtime::StringConcat::ConcatNoDelimiter
 // Il2CppName: ConcatNoDelimiter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StringConcat::*)(::Il2CppString*)>(&StringConcat::ConcatNoDelimiter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Xsl::Runtime::StringConcat::*)(::Il2CppString*)>(&System::Xml::Xsl::Runtime::StringConcat::ConcatNoDelimiter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StringConcat), "ConcatNoDelimiter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::Xsl::Runtime::StringConcat), "ConcatNoDelimiter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };

@@ -66,27 +66,27 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberSwingRating*, "", "SaberSwingRating");
-// Writing MetadataGetter for method: SaberSwingRating::NormalRating
+// Writing MetadataGetter for method: GlobalNamespace::SaberSwingRating::NormalRating
 // Il2CppName: NormalRating
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&SaberSwingRating::NormalRating)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&GlobalNamespace::SaberSwingRating::NormalRating)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberSwingRating*), "NormalRating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberSwingRating*), "NormalRating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: SaberSwingRating::BeforeCutStepRating
+// Writing MetadataGetter for method: GlobalNamespace::SaberSwingRating::BeforeCutStepRating
 // Il2CppName: BeforeCutStepRating
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float)>(&SaberSwingRating::BeforeCutStepRating)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float)>(&GlobalNamespace::SaberSwingRating::BeforeCutStepRating)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberSwingRating*), "BeforeCutStepRating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberSwingRating*), "BeforeCutStepRating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: SaberSwingRating::AfterCutStepRating
+// Writing MetadataGetter for method: GlobalNamespace::SaberSwingRating::AfterCutStepRating
 // Il2CppName: AfterCutStepRating
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float)>(&SaberSwingRating::AfterCutStepRating)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float)>(&GlobalNamespace::SaberSwingRating::AfterCutStepRating)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberSwingRating*), "AfterCutStepRating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberSwingRating*), "AfterCutStepRating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };

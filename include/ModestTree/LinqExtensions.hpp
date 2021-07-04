@@ -133,33 +133,33 @@ namespace ModestTree {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::LinqExtensions*, "ModestTree", "LinqExtensions");
-// Writing MetadataGetter for method: LinqExtensions::Yield
+// Writing MetadataGetter for method: ModestTree::LinqExtensions::Yield
 // Il2CppName: Yield
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: LinqExtensions::OnlyOrDefault
+// Writing MetadataGetter for method: ModestTree::LinqExtensions::OnlyOrDefault
 // Il2CppName: OnlyOrDefault
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: LinqExtensions::HasAtLeast
+// Writing MetadataGetter for method: ModestTree::LinqExtensions::HasAtLeast
 // Il2CppName: HasAtLeast
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: LinqExtensions::HasMoreThan
+// Writing MetadataGetter for method: ModestTree::LinqExtensions::HasMoreThan
 // Il2CppName: HasMoreThan
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: LinqExtensions::HasLessThan
+// Writing MetadataGetter for method: ModestTree::LinqExtensions::HasLessThan
 // Il2CppName: HasLessThan
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: LinqExtensions::HasAtMost
+// Writing MetadataGetter for method: ModestTree::LinqExtensions::HasAtMost
 // Il2CppName: HasAtMost
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: LinqExtensions::IsEmpty
+// Writing MetadataGetter for method: ModestTree::LinqExtensions::IsEmpty
 // Il2CppName: IsEmpty
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: LinqExtensions::GetDuplicates
+// Writing MetadataGetter for method: ModestTree::LinqExtensions::GetDuplicates
 // Il2CppName: GetDuplicates
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: LinqExtensions::Except
+// Writing MetadataGetter for method: ModestTree::LinqExtensions::Except
 // Il2CppName: Except
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: LinqExtensions::ContainsItem
+// Writing MetadataGetter for method: ModestTree::LinqExtensions::ContainsItem
 // Il2CppName: ContainsItem
 // Cannot write MetadataGetter for generic methods!

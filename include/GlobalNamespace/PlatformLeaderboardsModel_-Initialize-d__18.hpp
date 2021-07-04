@@ -71,19 +71,19 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardsModel::$Initialize$d__18, "", "PlatformLeaderboardsModel/<Initialize>d__18");
-// Writing MetadataGetter for method: PlatformLeaderboardsModel::$Initialize$d__18::MoveNext
+// Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardsModel::$Initialize$d__18::MoveNext
 // Il2CppName: MoveNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformLeaderboardsModel::$Initialize$d__18::*)()>(&PlatformLeaderboardsModel::$Initialize$d__18::MoveNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformLeaderboardsModel::$Initialize$d__18::*)()>(&GlobalNamespace::PlatformLeaderboardsModel::$Initialize$d__18::MoveNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardsModel::$Initialize$d__18), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformLeaderboardsModel::$Initialize$d__18), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlatformLeaderboardsModel::$Initialize$d__18::SetStateMachine
+// Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardsModel::$Initialize$d__18::SetStateMachine
 // Il2CppName: SetStateMachine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformLeaderboardsModel::$Initialize$d__18::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&PlatformLeaderboardsModel::$Initialize$d__18::SetStateMachine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformLeaderboardsModel::$Initialize$d__18::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&GlobalNamespace::PlatformLeaderboardsModel::$Initialize$d__18::SetStateMachine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardsModel::$Initialize$d__18), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformLeaderboardsModel::$Initialize$d__18), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
   }
 };

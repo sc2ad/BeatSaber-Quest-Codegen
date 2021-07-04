@@ -114,73 +114,73 @@ namespace GlobalNamespace {
   static_assert(sizeof(MainSettingsMenuViewController) == 0x94);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsMenuViewController*, "", "MainSettingsMenuViewController");
-// Writing MetadataGetter for method: MainSettingsMenuViewController::add_didSelectSettingsSubMenuEvent
+// Writing MetadataGetter for method: GlobalNamespace::MainSettingsMenuViewController::add_didSelectSettingsSubMenuEvent
 // Il2CppName: add_didSelectSettingsSubMenuEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsMenuViewController::*)(System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>*)>(&MainSettingsMenuViewController::add_didSelectSettingsSubMenuEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainSettingsMenuViewController::*)(System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>*)>(&GlobalNamespace::MainSettingsMenuViewController::add_didSelectSettingsSubMenuEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainSettingsMenuViewController*), "add_didSelectSettingsSubMenuEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsMenuViewController*), "add_didSelectSettingsSubMenuEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>*>()});
   }
 };
-// Writing MetadataGetter for method: MainSettingsMenuViewController::remove_didSelectSettingsSubMenuEvent
+// Writing MetadataGetter for method: GlobalNamespace::MainSettingsMenuViewController::remove_didSelectSettingsSubMenuEvent
 // Il2CppName: remove_didSelectSettingsSubMenuEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsMenuViewController::*)(System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>*)>(&MainSettingsMenuViewController::remove_didSelectSettingsSubMenuEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainSettingsMenuViewController::*)(System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>*)>(&GlobalNamespace::MainSettingsMenuViewController::remove_didSelectSettingsSubMenuEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainSettingsMenuViewController*), "remove_didSelectSettingsSubMenuEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsMenuViewController*), "remove_didSelectSettingsSubMenuEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>*>()});
   }
 };
-// Writing MetadataGetter for method: MainSettingsMenuViewController::get_numberOfSubMenus
+// Writing MetadataGetter for method: GlobalNamespace::MainSettingsMenuViewController::get_numberOfSubMenus
 // Il2CppName: get_numberOfSubMenus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MainSettingsMenuViewController::*)()>(&MainSettingsMenuViewController::get_numberOfSubMenus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MainSettingsMenuViewController::*)()>(&GlobalNamespace::MainSettingsMenuViewController::get_numberOfSubMenus)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainSettingsMenuViewController*), "get_numberOfSubMenus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsMenuViewController*), "get_numberOfSubMenus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MainSettingsMenuViewController::get_selectedSubMenuInfo
+// Writing MetadataGetter for method: GlobalNamespace::MainSettingsMenuViewController::get_selectedSubMenuInfo
 // Il2CppName: get_selectedSubMenuInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SettingsSubMenuInfo* (MainSettingsMenuViewController::*)()>(&MainSettingsMenuViewController::get_selectedSubMenuInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SettingsSubMenuInfo* (GlobalNamespace::MainSettingsMenuViewController::*)()>(&GlobalNamespace::MainSettingsMenuViewController::get_selectedSubMenuInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainSettingsMenuViewController*), "get_selectedSubMenuInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsMenuViewController*), "get_selectedSubMenuInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MainSettingsMenuViewController::Init
+// Writing MetadataGetter for method: GlobalNamespace::MainSettingsMenuViewController::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsMenuViewController::*)(int)>(&MainSettingsMenuViewController::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainSettingsMenuViewController::*)(int)>(&GlobalNamespace::MainSettingsMenuViewController::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainSettingsMenuViewController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsMenuViewController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: MainSettingsMenuViewController::HandleSettingsMenuSegmentedControlDidSelectCell
+// Writing MetadataGetter for method: GlobalNamespace::MainSettingsMenuViewController::HandleSettingsMenuSegmentedControlDidSelectCell
 // Il2CppName: HandleSettingsMenuSegmentedControlDidSelectCell
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsMenuViewController::*)(HMUI::SegmentedControl*, int)>(&MainSettingsMenuViewController::HandleSettingsMenuSegmentedControlDidSelectCell)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainSettingsMenuViewController::*)(HMUI::SegmentedControl*, int)>(&GlobalNamespace::MainSettingsMenuViewController::HandleSettingsMenuSegmentedControlDidSelectCell)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainSettingsMenuViewController*), "HandleSettingsMenuSegmentedControlDidSelectCell", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SegmentedControl*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsMenuViewController*), "HandleSettingsMenuSegmentedControlDidSelectCell", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SegmentedControl*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: MainSettingsMenuViewController::DidActivate
+// Writing MetadataGetter for method: GlobalNamespace::MainSettingsMenuViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsMenuViewController::*)(bool, bool, bool)>(&MainSettingsMenuViewController::DidActivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainSettingsMenuViewController::*)(bool, bool, bool)>(&GlobalNamespace::MainSettingsMenuViewController::DidActivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainSettingsMenuViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsMenuViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MainSettingsMenuViewController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MainSettingsMenuViewController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsMenuViewController::*)()>(&MainSettingsMenuViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainSettingsMenuViewController::*)()>(&GlobalNamespace::MainSettingsMenuViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainSettingsMenuViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsMenuViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsMenuViewController::*)()>(&MainSettingsMenuViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainSettingsMenuViewController::*)()>(&GlobalNamespace::MainSettingsMenuViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainSettingsMenuViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsMenuViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

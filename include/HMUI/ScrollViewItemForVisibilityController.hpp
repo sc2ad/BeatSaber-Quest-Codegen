@@ -41,25 +41,25 @@ namespace HMUI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollViewItemForVisibilityController*, "HMUI", "ScrollViewItemForVisibilityController");
-// Writing MetadataGetter for method: ScrollViewItemForVisibilityController::GetWorldCorners
+// Writing MetadataGetter for method: HMUI::ScrollViewItemForVisibilityController::GetWorldCorners
 // Il2CppName: GetWorldCorners
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollViewItemForVisibilityController::*)(::Array<UnityEngine::Vector3>*)>(&ScrollViewItemForVisibilityController::GetWorldCorners)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScrollViewItemForVisibilityController::*)(::Array<UnityEngine::Vector3>*)>(&HMUI::ScrollViewItemForVisibilityController::GetWorldCorners)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollViewItemForVisibilityController*), "GetWorldCorners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector3>*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollViewItemForVisibilityController*), "GetWorldCorners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector3>*>()});
   }
 };
-// Writing MetadataGetter for method: ScrollViewItemForVisibilityController::New_ctor
+// Writing MetadataGetter for method: HMUI::ScrollViewItemForVisibilityController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollViewItemForVisibilityController::*)()>(&ScrollViewItemForVisibilityController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScrollViewItemForVisibilityController::*)()>(&HMUI::ScrollViewItemForVisibilityController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollViewItemForVisibilityController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollViewItemForVisibilityController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScrollViewItemForVisibilityController::*)()>(&ScrollViewItemForVisibilityController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScrollViewItemForVisibilityController::*)()>(&HMUI::ScrollViewItemForVisibilityController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScrollViewItemForVisibilityController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollViewItemForVisibilityController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

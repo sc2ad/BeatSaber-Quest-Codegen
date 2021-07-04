@@ -41,27 +41,27 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_2_0*, "", "OVRPlugin/OVRP_1_2_0");
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_2_0::ovrp_SetSystemVSyncCount
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_2_0::ovrp_SetSystemVSyncCount
 // Il2CppName: ovrp_SetSystemVSyncCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(int)>(&OVRPlugin::OVRP_1_2_0::ovrp_SetSystemVSyncCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(int)>(&GlobalNamespace::OVRPlugin::OVRP_1_2_0::ovrp_SetSystemVSyncCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_2_0*), "ovrp_SetSystemVSyncCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_2_0*), "ovrp_SetSystemVSyncCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_2_0::ovrpi_SetTrackingCalibratedOrigin
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_2_0::ovrpi_SetTrackingCalibratedOrigin
 // Il2CppName: ovrpi_SetTrackingCalibratedOrigin
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&OVRPlugin::OVRP_1_2_0::ovrpi_SetTrackingCalibratedOrigin)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_2_0::ovrpi_SetTrackingCalibratedOrigin)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_2_0*), "ovrpi_SetTrackingCalibratedOrigin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_2_0*), "ovrpi_SetTrackingCalibratedOrigin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_2_0::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_2_0::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRPlugin::OVRP_1_2_0::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_2_0::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_2_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_2_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

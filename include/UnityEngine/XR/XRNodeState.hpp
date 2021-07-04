@@ -133,99 +133,99 @@ namespace UnityEngine::XR {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRNodeState, "UnityEngine.XR", "XRNodeState");
-// Writing MetadataGetter for method: XRNodeState::set_uniqueID
+// Writing MetadataGetter for method: UnityEngine::XR::XRNodeState::set_uniqueID
 // Il2CppName: set_uniqueID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XRNodeState::*)(uint64_t)>(&XRNodeState::set_uniqueID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::XR::XRNodeState::*)(uint64_t)>(&UnityEngine::XR::XRNodeState::set_uniqueID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRNodeState), "set_uniqueID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "set_uniqueID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: XRNodeState::get_nodeType
+// Writing MetadataGetter for method: UnityEngine::XR::XRNodeState::get_nodeType
 // Il2CppName: get_nodeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::XR::XRNode (XRNodeState::*)()>(&XRNodeState::get_nodeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::XR::XRNode (UnityEngine::XR::XRNodeState::*)()>(&UnityEngine::XR::XRNodeState::get_nodeType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRNodeState), "get_nodeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "get_nodeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: XRNodeState::set_nodeType
+// Writing MetadataGetter for method: UnityEngine::XR::XRNodeState::set_nodeType
 // Il2CppName: set_nodeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XRNodeState::*)(UnityEngine::XR::XRNode)>(&XRNodeState::set_nodeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::XR::XRNodeState::*)(UnityEngine::XR::XRNode)>(&UnityEngine::XR::XRNodeState::set_nodeType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRNodeState), "set_nodeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "set_nodeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
   }
 };
-// Writing MetadataGetter for method: XRNodeState::set_tracked
+// Writing MetadataGetter for method: UnityEngine::XR::XRNodeState::set_tracked
 // Il2CppName: set_tracked
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XRNodeState::*)(bool)>(&XRNodeState::set_tracked)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::XR::XRNodeState::*)(bool)>(&UnityEngine::XR::XRNodeState::set_tracked)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRNodeState), "set_tracked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "set_tracked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: XRNodeState::TryGetPosition
+// Writing MetadataGetter for method: UnityEngine::XR::XRNodeState::TryGetPosition
 // Il2CppName: TryGetPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (XRNodeState::*)(UnityEngine::Vector3&)>(&XRNodeState::TryGetPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::XRNodeState::*)(UnityEngine::Vector3&)>(&UnityEngine::XR::XRNodeState::TryGetPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRNodeState), "TryGetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "TryGetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: XRNodeState::TryGetRotation
+// Writing MetadataGetter for method: UnityEngine::XR::XRNodeState::TryGetRotation
 // Il2CppName: TryGetRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (XRNodeState::*)(UnityEngine::Quaternion&)>(&XRNodeState::TryGetRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::XRNodeState::*)(UnityEngine::Quaternion&)>(&UnityEngine::XR::XRNodeState::TryGetRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRNodeState), "TryGetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "TryGetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
   }
 };
-// Writing MetadataGetter for method: XRNodeState::TryGetVelocity
+// Writing MetadataGetter for method: UnityEngine::XR::XRNodeState::TryGetVelocity
 // Il2CppName: TryGetVelocity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (XRNodeState::*)(UnityEngine::Vector3&)>(&XRNodeState::TryGetVelocity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::XRNodeState::*)(UnityEngine::Vector3&)>(&UnityEngine::XR::XRNodeState::TryGetVelocity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRNodeState), "TryGetVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "TryGetVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: XRNodeState::TryGetAngularVelocity
+// Writing MetadataGetter for method: UnityEngine::XR::XRNodeState::TryGetAngularVelocity
 // Il2CppName: TryGetAngularVelocity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (XRNodeState::*)(UnityEngine::Vector3&)>(&XRNodeState::TryGetAngularVelocity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::XRNodeState::*)(UnityEngine::Vector3&)>(&UnityEngine::XR::XRNodeState::TryGetAngularVelocity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRNodeState), "TryGetAngularVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "TryGetAngularVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: XRNodeState::TryGetAcceleration
+// Writing MetadataGetter for method: UnityEngine::XR::XRNodeState::TryGetAcceleration
 // Il2CppName: TryGetAcceleration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (XRNodeState::*)(UnityEngine::Vector3&)>(&XRNodeState::TryGetAcceleration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::XRNodeState::*)(UnityEngine::Vector3&)>(&UnityEngine::XR::XRNodeState::TryGetAcceleration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRNodeState), "TryGetAcceleration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "TryGetAcceleration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: XRNodeState::TryGetAngularAcceleration
+// Writing MetadataGetter for method: UnityEngine::XR::XRNodeState::TryGetAngularAcceleration
 // Il2CppName: TryGetAngularAcceleration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (XRNodeState::*)(UnityEngine::Vector3&)>(&XRNodeState::TryGetAngularAcceleration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::XRNodeState::*)(UnityEngine::Vector3&)>(&UnityEngine::XR::XRNodeState::TryGetAngularAcceleration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRNodeState), "TryGetAngularAcceleration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "TryGetAngularAcceleration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: XRNodeState::TryGet
+// Writing MetadataGetter for method: UnityEngine::XR::XRNodeState::TryGet
 // Il2CppName: TryGet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (XRNodeState::*)(UnityEngine::Vector3, UnityEngine::XR::AvailableTrackingData, UnityEngine::Vector3&)>(&XRNodeState::TryGet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::XRNodeState::*)(UnityEngine::Vector3, UnityEngine::XR::AvailableTrackingData, UnityEngine::Vector3&)>(&UnityEngine::XR::XRNodeState::TryGet)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRNodeState), "TryGet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::AvailableTrackingData>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "TryGet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::AvailableTrackingData>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: XRNodeState::TryGet
+// Writing MetadataGetter for method: UnityEngine::XR::XRNodeState::TryGet
 // Il2CppName: TryGet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (XRNodeState::*)(UnityEngine::Quaternion, UnityEngine::XR::AvailableTrackingData, UnityEngine::Quaternion&)>(&XRNodeState::TryGet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::XRNodeState::*)(UnityEngine::Quaternion, UnityEngine::XR::AvailableTrackingData, UnityEngine::Quaternion&)>(&UnityEngine::XR::XRNodeState::TryGet)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRNodeState), "TryGet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::AvailableTrackingData>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "TryGet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::AvailableTrackingData>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>()});
   }
 };

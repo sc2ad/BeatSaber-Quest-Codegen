@@ -35,11 +35,11 @@ namespace System::Security::Cryptography::X509Certificates {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::RSACertificateExtensions*, "System.Security.Cryptography.X509Certificates", "RSACertificateExtensions");
-// Writing MetadataGetter for method: RSACertificateExtensions::GetRSAPublicKey
+// Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::RSACertificateExtensions::GetRSAPublicKey
 // Il2CppName: GetRSAPublicKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RSA* (*)(System::Security::Cryptography::X509Certificates::X509Certificate2*)>(&RSACertificateExtensions::GetRSAPublicKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RSA* (*)(System::Security::Cryptography::X509Certificates::X509Certificate2*)>(&System::Security::Cryptography::X509Certificates::RSACertificateExtensions::GetRSAPublicKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSACertificateExtensions*), "GetRSAPublicKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate2*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::RSACertificateExtensions*), "GetRSAPublicKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate2*>()});
   }
 };

@@ -64,41 +64,41 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_GetOverlayRenderModel*, "OVR.OpenVR", "IVROverlay/_GetOverlayRenderModel");
-// Writing MetadataGetter for method: IVROverlay::_GetOverlayRenderModel::New_ctor
+// Writing MetadataGetter for method: OVR::OpenVR::IVROverlay::_GetOverlayRenderModel::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVROverlay::_GetOverlayRenderModel::*)(::Il2CppObject*, System::IntPtr)>(&IVROverlay::_GetOverlayRenderModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVROverlay::_GetOverlayRenderModel::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVROverlay::_GetOverlayRenderModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVROverlay::_GetOverlayRenderModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVROverlay::_GetOverlayRenderModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVROverlay::_GetOverlayRenderModel::*)(::Il2CppObject*, System::IntPtr)>(&IVROverlay::_GetOverlayRenderModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVROverlay::_GetOverlayRenderModel::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVROverlay::_GetOverlayRenderModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVROverlay::_GetOverlayRenderModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVROverlay::_GetOverlayRenderModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: IVROverlay::_GetOverlayRenderModel::Invoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVROverlay::_GetOverlayRenderModel::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (IVROverlay::_GetOverlayRenderModel::*)(uint64_t, System::Text::StringBuilder*, uint, OVR::OpenVR::HmdColor_t&, OVR::OpenVR::EVROverlayError&)>(&IVROverlay::_GetOverlayRenderModel::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::IVROverlay::_GetOverlayRenderModel::*)(uint64_t, System::Text::StringBuilder*, uint, OVR::OpenVR::HmdColor_t&, OVR::OpenVR::EVROverlayError&)>(&OVR::OpenVR::IVROverlay::_GetOverlayRenderModel::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVROverlay::_GetOverlayRenderModel*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdColor_t&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVROverlayError&>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVROverlay::_GetOverlayRenderModel*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdColor_t&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVROverlayError&>()});
   }
 };
-// Writing MetadataGetter for method: IVROverlay::_GetOverlayRenderModel::BeginInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVROverlay::_GetOverlayRenderModel::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVROverlay::_GetOverlayRenderModel::*)(uint64_t, System::Text::StringBuilder*, uint, OVR::OpenVR::HmdColor_t&, OVR::OpenVR::EVROverlayError&, System::AsyncCallback*, ::Il2CppObject*)>(&IVROverlay::_GetOverlayRenderModel::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVROverlay::_GetOverlayRenderModel::*)(uint64_t, System::Text::StringBuilder*, uint, OVR::OpenVR::HmdColor_t&, OVR::OpenVR::EVROverlayError&, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVROverlay::_GetOverlayRenderModel::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVROverlay::_GetOverlayRenderModel*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdColor_t&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVROverlayError&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVROverlay::_GetOverlayRenderModel*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdColor_t&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVROverlayError&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IVROverlay::_GetOverlayRenderModel::EndInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVROverlay::_GetOverlayRenderModel::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (IVROverlay::_GetOverlayRenderModel::*)(OVR::OpenVR::HmdColor_t&, OVR::OpenVR::EVROverlayError&, System::IAsyncResult*)>(&IVROverlay::_GetOverlayRenderModel::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::IVROverlay::_GetOverlayRenderModel::*)(OVR::OpenVR::HmdColor_t&, OVR::OpenVR::EVROverlayError&, System::IAsyncResult*)>(&OVR::OpenVR::IVROverlay::_GetOverlayRenderModel::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVROverlay::_GetOverlayRenderModel*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdColor_t&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVROverlayError&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVROverlay::_GetOverlayRenderModel*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdColor_t&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVROverlayError&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

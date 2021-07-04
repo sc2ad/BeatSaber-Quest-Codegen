@@ -118,113 +118,113 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(FullBodyBipedIK) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FullBodyBipedIK*, "RootMotion.FinalIK", "FullBodyBipedIK");
-// Writing MetadataGetter for method: FullBodyBipedIK::OpenSetupTutorial
+// Writing MetadataGetter for method: RootMotion::FinalIK::FullBodyBipedIK::OpenSetupTutorial
 // Il2CppName: OpenSetupTutorial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FullBodyBipedIK::*)()>(&FullBodyBipedIK::OpenSetupTutorial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FullBodyBipedIK::*)()>(&RootMotion::FinalIK::FullBodyBipedIK::OpenSetupTutorial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FullBodyBipedIK*), "OpenSetupTutorial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FullBodyBipedIK*), "OpenSetupTutorial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FullBodyBipedIK::OpenInspectorTutorial
+// Writing MetadataGetter for method: RootMotion::FinalIK::FullBodyBipedIK::OpenInspectorTutorial
 // Il2CppName: OpenInspectorTutorial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FullBodyBipedIK::*)()>(&FullBodyBipedIK::OpenInspectorTutorial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FullBodyBipedIK::*)()>(&RootMotion::FinalIK::FullBodyBipedIK::OpenInspectorTutorial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FullBodyBipedIK*), "OpenInspectorTutorial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FullBodyBipedIK*), "OpenInspectorTutorial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FullBodyBipedIK::SupportGroup
+// Writing MetadataGetter for method: RootMotion::FinalIK::FullBodyBipedIK::SupportGroup
 // Il2CppName: SupportGroup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FullBodyBipedIK::*)()>(&FullBodyBipedIK::SupportGroup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FullBodyBipedIK::*)()>(&RootMotion::FinalIK::FullBodyBipedIK::SupportGroup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FullBodyBipedIK*), "SupportGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FullBodyBipedIK*), "SupportGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FullBodyBipedIK::ASThread
+// Writing MetadataGetter for method: RootMotion::FinalIK::FullBodyBipedIK::ASThread
 // Il2CppName: ASThread
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FullBodyBipedIK::*)()>(&FullBodyBipedIK::ASThread)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FullBodyBipedIK::*)()>(&RootMotion::FinalIK::FullBodyBipedIK::ASThread)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FullBodyBipedIK*), "ASThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FullBodyBipedIK*), "ASThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FullBodyBipedIK::SetReferences
+// Writing MetadataGetter for method: RootMotion::FinalIK::FullBodyBipedIK::SetReferences
 // Il2CppName: SetReferences
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FullBodyBipedIK::*)(RootMotion::BipedReferences*, UnityEngine::Transform*)>(&FullBodyBipedIK::SetReferences)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FullBodyBipedIK::*)(RootMotion::BipedReferences*, UnityEngine::Transform*)>(&RootMotion::FinalIK::FullBodyBipedIK::SetReferences)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FullBodyBipedIK*), "SetReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FullBodyBipedIK*), "SetReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
   }
 };
-// Writing MetadataGetter for method: FullBodyBipedIK::ReferencesError
+// Writing MetadataGetter for method: RootMotion::FinalIK::FullBodyBipedIK::ReferencesError
 // Il2CppName: ReferencesError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FullBodyBipedIK::*)(::Il2CppString*&)>(&FullBodyBipedIK::ReferencesError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::FullBodyBipedIK::*)(::Il2CppString*&)>(&RootMotion::FinalIK::FullBodyBipedIK::ReferencesError)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FullBodyBipedIK*), "ReferencesError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FullBodyBipedIK*), "ReferencesError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
   }
 };
-// Writing MetadataGetter for method: FullBodyBipedIK::ReferencesWarning
+// Writing MetadataGetter for method: RootMotion::FinalIK::FullBodyBipedIK::ReferencesWarning
 // Il2CppName: ReferencesWarning
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FullBodyBipedIK::*)(::Il2CppString*&)>(&FullBodyBipedIK::ReferencesWarning)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::FullBodyBipedIK::*)(::Il2CppString*&)>(&RootMotion::FinalIK::FullBodyBipedIK::ReferencesWarning)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FullBodyBipedIK*), "ReferencesWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FullBodyBipedIK*), "ReferencesWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
   }
 };
-// Writing MetadataGetter for method: FullBodyBipedIK::Reinitiate
+// Writing MetadataGetter for method: RootMotion::FinalIK::FullBodyBipedIK::Reinitiate
 // Il2CppName: Reinitiate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FullBodyBipedIK::*)()>(&FullBodyBipedIK::Reinitiate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FullBodyBipedIK::*)()>(&RootMotion::FinalIK::FullBodyBipedIK::Reinitiate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FullBodyBipedIK*), "Reinitiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FullBodyBipedIK*), "Reinitiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FullBodyBipedIK::AutoDetectReferences
+// Writing MetadataGetter for method: RootMotion::FinalIK::FullBodyBipedIK::AutoDetectReferences
 // Il2CppName: AutoDetectReferences
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FullBodyBipedIK::*)()>(&FullBodyBipedIK::AutoDetectReferences)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FullBodyBipedIK::*)()>(&RootMotion::FinalIK::FullBodyBipedIK::AutoDetectReferences)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FullBodyBipedIK*), "AutoDetectReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FullBodyBipedIK*), "AutoDetectReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FullBodyBipedIK::OpenUserManual
+// Writing MetadataGetter for method: RootMotion::FinalIK::FullBodyBipedIK::OpenUserManual
 // Il2CppName: OpenUserManual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FullBodyBipedIK::*)()>(&FullBodyBipedIK::OpenUserManual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FullBodyBipedIK::*)()>(&RootMotion::FinalIK::FullBodyBipedIK::OpenUserManual)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FullBodyBipedIK*), "OpenUserManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FullBodyBipedIK*), "OpenUserManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FullBodyBipedIK::OpenScriptReference
+// Writing MetadataGetter for method: RootMotion::FinalIK::FullBodyBipedIK::OpenScriptReference
 // Il2CppName: OpenScriptReference
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FullBodyBipedIK::*)()>(&FullBodyBipedIK::OpenScriptReference)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FullBodyBipedIK::*)()>(&RootMotion::FinalIK::FullBodyBipedIK::OpenScriptReference)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FullBodyBipedIK*), "OpenScriptReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FullBodyBipedIK*), "OpenScriptReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FullBodyBipedIK::GetIKSolver
+// Writing MetadataGetter for method: RootMotion::FinalIK::FullBodyBipedIK::GetIKSolver
 // Il2CppName: GetIKSolver
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolver* (FullBodyBipedIK::*)()>(&FullBodyBipedIK::GetIKSolver)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolver* (RootMotion::FinalIK::FullBodyBipedIK::*)()>(&RootMotion::FinalIK::FullBodyBipedIK::GetIKSolver)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FullBodyBipedIK*), "GetIKSolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FullBodyBipedIK*), "GetIKSolver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FullBodyBipedIK::New_ctor
+// Writing MetadataGetter for method: RootMotion::FinalIK::FullBodyBipedIK::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FullBodyBipedIK::*)()>(&FullBodyBipedIK::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FullBodyBipedIK::*)()>(&RootMotion::FinalIK::FullBodyBipedIK::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FullBodyBipedIK*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FullBodyBipedIK*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FullBodyBipedIK::*)()>(&FullBodyBipedIK::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FullBodyBipedIK::*)()>(&RootMotion::FinalIK::FullBodyBipedIK::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FullBodyBipedIK*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FullBodyBipedIK*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

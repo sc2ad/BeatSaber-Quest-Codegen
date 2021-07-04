@@ -59,41 +59,41 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_GetEyeToHeadTransform*, "OVR.OpenVR", "IVRSystem/_GetEyeToHeadTransform");
-// Writing MetadataGetter for method: IVRSystem::_GetEyeToHeadTransform::New_ctor
+// Writing MetadataGetter for method: OVR::OpenVR::IVRSystem::_GetEyeToHeadTransform::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSystem::_GetEyeToHeadTransform::*)(::Il2CppObject*, System::IntPtr)>(&IVRSystem::_GetEyeToHeadTransform::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRSystem::_GetEyeToHeadTransform::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVRSystem::_GetEyeToHeadTransform::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_GetEyeToHeadTransform*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_GetEyeToHeadTransform*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRSystem::_GetEyeToHeadTransform::*)(::Il2CppObject*, System::IntPtr)>(&IVRSystem::_GetEyeToHeadTransform::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRSystem::_GetEyeToHeadTransform::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVRSystem::_GetEyeToHeadTransform::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_GetEyeToHeadTransform*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_GetEyeToHeadTransform*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: IVRSystem::_GetEyeToHeadTransform::Invoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRSystem::_GetEyeToHeadTransform::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::HmdMatrix34_t (IVRSystem::_GetEyeToHeadTransform::*)(OVR::OpenVR::EVREye)>(&IVRSystem::_GetEyeToHeadTransform::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::HmdMatrix34_t (OVR::OpenVR::IVRSystem::_GetEyeToHeadTransform::*)(OVR::OpenVR::EVREye)>(&OVR::OpenVR::IVRSystem::_GetEyeToHeadTransform::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_GetEyeToHeadTransform*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVREye>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_GetEyeToHeadTransform*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVREye>()});
   }
 };
-// Writing MetadataGetter for method: IVRSystem::_GetEyeToHeadTransform::BeginInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRSystem::_GetEyeToHeadTransform::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRSystem::_GetEyeToHeadTransform::*)(OVR::OpenVR::EVREye, System::AsyncCallback*, ::Il2CppObject*)>(&IVRSystem::_GetEyeToHeadTransform::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRSystem::_GetEyeToHeadTransform::*)(OVR::OpenVR::EVREye, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRSystem::_GetEyeToHeadTransform::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_GetEyeToHeadTransform*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVREye>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_GetEyeToHeadTransform*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVREye>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IVRSystem::_GetEyeToHeadTransform::EndInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRSystem::_GetEyeToHeadTransform::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::HmdMatrix34_t (IVRSystem::_GetEyeToHeadTransform::*)(System::IAsyncResult*)>(&IVRSystem::_GetEyeToHeadTransform::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::HmdMatrix34_t (OVR::OpenVR::IVRSystem::_GetEyeToHeadTransform::*)(System::IAsyncResult*)>(&OVR::OpenVR::IVRSystem::_GetEyeToHeadTransform::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRSystem::_GetEyeToHeadTransform*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_GetEyeToHeadTransform*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

@@ -82,41 +82,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(SpawnRotationChevron) == 0x4C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnRotationChevron*, "", "SpawnRotationChevron");
-// Writing MetadataGetter for method: SpawnRotationChevron::SetLightAmount
+// Writing MetadataGetter for method: GlobalNamespace::SpawnRotationChevron::SetLightAmount
 // Il2CppName: SetLightAmount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpawnRotationChevron::*)(float)>(&SpawnRotationChevron::SetLightAmount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SpawnRotationChevron::*)(float)>(&GlobalNamespace::SpawnRotationChevron::SetLightAmount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SpawnRotationChevron*), "SetLightAmount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpawnRotationChevron*), "SetLightAmount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: SpawnRotationChevron::UpdateLights
+// Writing MetadataGetter for method: GlobalNamespace::SpawnRotationChevron::UpdateLights
 // Il2CppName: UpdateLights
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpawnRotationChevron::*)()>(&SpawnRotationChevron::UpdateLights)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SpawnRotationChevron::*)()>(&GlobalNamespace::SpawnRotationChevron::UpdateLights)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SpawnRotationChevron*), "UpdateLights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpawnRotationChevron*), "UpdateLights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SpawnRotationChevron::ColorWasSet
+// Writing MetadataGetter for method: GlobalNamespace::SpawnRotationChevron::ColorWasSet
 // Il2CppName: ColorWasSet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpawnRotationChevron::*)(UnityEngine::Color)>(&SpawnRotationChevron::ColorWasSet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SpawnRotationChevron::*)(UnityEngine::Color)>(&GlobalNamespace::SpawnRotationChevron::ColorWasSet)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SpawnRotationChevron*), "ColorWasSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpawnRotationChevron*), "ColorWasSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: SpawnRotationChevron::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::SpawnRotationChevron::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpawnRotationChevron::*)()>(&SpawnRotationChevron::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SpawnRotationChevron::*)()>(&GlobalNamespace::SpawnRotationChevron::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SpawnRotationChevron*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpawnRotationChevron*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpawnRotationChevron::*)()>(&SpawnRotationChevron::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SpawnRotationChevron::*)()>(&GlobalNamespace::SpawnRotationChevron::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SpawnRotationChevron*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpawnRotationChevron*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

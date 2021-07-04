@@ -60,41 +60,41 @@ namespace System::Threading::Tasks {
   static_assert(sizeof(StackGuard) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::StackGuard*, "System.Threading.Tasks", "StackGuard");
-// Writing MetadataGetter for method: StackGuard::TryBeginInliningScope
+// Writing MetadataGetter for method: System::Threading::Tasks::StackGuard::TryBeginInliningScope
 // Il2CppName: TryBeginInliningScope
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (StackGuard::*)()>(&StackGuard::TryBeginInliningScope)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::StackGuard::*)()>(&System::Threading::Tasks::StackGuard::TryBeginInliningScope)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StackGuard*), "TryBeginInliningScope", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::StackGuard*), "TryBeginInliningScope", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StackGuard::EndInliningScope
+// Writing MetadataGetter for method: System::Threading::Tasks::StackGuard::EndInliningScope
 // Il2CppName: EndInliningScope
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackGuard::*)()>(&StackGuard::EndInliningScope)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::StackGuard::*)()>(&System::Threading::Tasks::StackGuard::EndInliningScope)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StackGuard*), "EndInliningScope", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::StackGuard*), "EndInliningScope", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StackGuard::CheckForSufficientStack
+// Writing MetadataGetter for method: System::Threading::Tasks::StackGuard::CheckForSufficientStack
 // Il2CppName: CheckForSufficientStack
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (StackGuard::*)()>(&StackGuard::CheckForSufficientStack)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::StackGuard::*)()>(&System::Threading::Tasks::StackGuard::CheckForSufficientStack)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StackGuard*), "CheckForSufficientStack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::StackGuard*), "CheckForSufficientStack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StackGuard::New_ctor
+// Writing MetadataGetter for method: System::Threading::Tasks::StackGuard::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackGuard::*)()>(&StackGuard::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::StackGuard::*)()>(&System::Threading::Tasks::StackGuard::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StackGuard*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::StackGuard*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackGuard::*)()>(&StackGuard::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::StackGuard::*)()>(&System::Threading::Tasks::StackGuard::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StackGuard*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::StackGuard*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -87,65 +87,65 @@ namespace NUnit::Framework::Internal::Builders {
   static_assert(sizeof(NUnitTestFixtureBuilder) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*, "NUnit.Framework.Internal.Builders", "NUnitTestFixtureBuilder");
-// Writing MetadataGetter for method: NUnitTestFixtureBuilder::BuildFrom
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::BuildFrom
 // Il2CppName: BuildFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestSuite* (NUnitTestFixtureBuilder::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&NUnitTestFixtureBuilder::BuildFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestSuite* (NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::BuildFrom)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnitTestFixtureBuilder*), "BuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITypeInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*), "BuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITypeInfo*>()});
   }
 };
-// Writing MetadataGetter for method: NUnitTestFixtureBuilder::BuildFrom
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::BuildFrom
 // Il2CppName: BuildFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestSuite* (NUnitTestFixtureBuilder::*)(NUnit::Framework::Interfaces::ITypeInfo*, NUnit::Framework::Interfaces::ITestFixtureData*)>(&NUnitTestFixtureBuilder::BuildFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestSuite* (NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::*)(NUnit::Framework::Interfaces::ITypeInfo*, NUnit::Framework::Interfaces::ITestFixtureData*)>(&NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::BuildFrom)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnitTestFixtureBuilder*), "BuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITypeInfo*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestFixtureData*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*), "BuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITypeInfo*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestFixtureData*>()});
   }
 };
-// Writing MetadataGetter for method: NUnitTestFixtureBuilder::AddTestCasesToFixture
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::AddTestCasesToFixture
 // Il2CppName: AddTestCasesToFixture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnitTestFixtureBuilder::*)(NUnit::Framework::Internal::TestFixture*)>(&NUnitTestFixtureBuilder::AddTestCasesToFixture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::*)(NUnit::Framework::Internal::TestFixture*)>(&NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::AddTestCasesToFixture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnitTestFixtureBuilder*), "AddTestCasesToFixture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestFixture*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*), "AddTestCasesToFixture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestFixture*>()});
   }
 };
-// Writing MetadataGetter for method: NUnitTestFixtureBuilder::BuildTestCase
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::BuildTestCase
 // Il2CppName: BuildTestCase
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Test* (NUnitTestFixtureBuilder::*)(NUnit::Framework::Interfaces::IMethodInfo*, NUnit::Framework::Internal::TestSuite*)>(&NUnitTestFixtureBuilder::BuildTestCase)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Test* (NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::*)(NUnit::Framework::Interfaces::IMethodInfo*, NUnit::Framework::Internal::TestSuite*)>(&NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::BuildTestCase)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnitTestFixtureBuilder*), "BuildTestCase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::IMethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestSuite*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*), "BuildTestCase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::IMethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestSuite*>()});
   }
 };
-// Writing MetadataGetter for method: NUnitTestFixtureBuilder::CheckTestFixtureIsValid
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::CheckTestFixtureIsValid
 // Il2CppName: CheckTestFixtureIsValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NUnit::Framework::Internal::TestFixture*)>(&NUnitTestFixtureBuilder::CheckTestFixtureIsValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NUnit::Framework::Internal::TestFixture*)>(&NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::CheckTestFixtureIsValid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnitTestFixtureBuilder*), "CheckTestFixtureIsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestFixture*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*), "CheckTestFixtureIsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestFixture*>()});
   }
 };
-// Writing MetadataGetter for method: NUnitTestFixtureBuilder::_cctor
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NUnitTestFixtureBuilder::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnitTestFixtureBuilder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NUnitTestFixtureBuilder::New_ctor
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnitTestFixtureBuilder::*)()>(&NUnitTestFixtureBuilder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::*)()>(&NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnitTestFixtureBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnitTestFixtureBuilder::*)()>(&NUnitTestFixtureBuilder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::*)()>(&NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnitTestFixtureBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

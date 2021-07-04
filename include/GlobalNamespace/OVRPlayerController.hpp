@@ -379,233 +379,233 @@ namespace GlobalNamespace {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlayerController*, "", "OVRPlayerController");
-// Writing MetadataGetter for method: OVRPlayerController::add_TransformUpdated
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlayerController::add_TransformUpdated
 // Il2CppName: add_TransformUpdated
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlayerController::*)(System::Action_1<UnityEngine::Transform*>*)>(&OVRPlayerController::add_TransformUpdated)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRPlayerController::*)(System::Action_1<UnityEngine::Transform*>*)>(&GlobalNamespace::OVRPlayerController::add_TransformUpdated)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlayerController*), "add_TransformUpdated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Transform*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlayerController*), "add_TransformUpdated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Transform*>*>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlayerController::remove_TransformUpdated
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlayerController::remove_TransformUpdated
 // Il2CppName: remove_TransformUpdated
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlayerController::*)(System::Action_1<UnityEngine::Transform*>*)>(&OVRPlayerController::remove_TransformUpdated)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRPlayerController::*)(System::Action_1<UnityEngine::Transform*>*)>(&GlobalNamespace::OVRPlayerController::remove_TransformUpdated)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlayerController*), "remove_TransformUpdated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Transform*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlayerController*), "remove_TransformUpdated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Transform*>*>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlayerController::add_CameraUpdated
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlayerController::add_CameraUpdated
 // Il2CppName: add_CameraUpdated
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlayerController::*)(System::Action*)>(&OVRPlayerController::add_CameraUpdated)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRPlayerController::*)(System::Action*)>(&GlobalNamespace::OVRPlayerController::add_CameraUpdated)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlayerController*), "add_CameraUpdated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlayerController*), "add_CameraUpdated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlayerController::remove_CameraUpdated
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlayerController::remove_CameraUpdated
 // Il2CppName: remove_CameraUpdated
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlayerController::*)(System::Action*)>(&OVRPlayerController::remove_CameraUpdated)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRPlayerController::*)(System::Action*)>(&GlobalNamespace::OVRPlayerController::remove_CameraUpdated)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlayerController*), "remove_CameraUpdated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlayerController*), "remove_CameraUpdated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlayerController::add_PreCharacterMove
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlayerController::add_PreCharacterMove
 // Il2CppName: add_PreCharacterMove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlayerController::*)(System::Action*)>(&OVRPlayerController::add_PreCharacterMove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRPlayerController::*)(System::Action*)>(&GlobalNamespace::OVRPlayerController::add_PreCharacterMove)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlayerController*), "add_PreCharacterMove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlayerController*), "add_PreCharacterMove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlayerController::remove_PreCharacterMove
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlayerController::remove_PreCharacterMove
 // Il2CppName: remove_PreCharacterMove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlayerController::*)(System::Action*)>(&OVRPlayerController::remove_PreCharacterMove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRPlayerController::*)(System::Action*)>(&GlobalNamespace::OVRPlayerController::remove_PreCharacterMove)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlayerController*), "remove_PreCharacterMove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlayerController*), "remove_PreCharacterMove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlayerController::get_InitialYRotation
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlayerController::get_InitialYRotation
 // Il2CppName: get_InitialYRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVRPlayerController::*)()>(&OVRPlayerController::get_InitialYRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::OVRPlayerController::*)()>(&GlobalNamespace::OVRPlayerController::get_InitialYRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlayerController*), "get_InitialYRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlayerController*), "get_InitialYRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlayerController::set_InitialYRotation
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlayerController::set_InitialYRotation
 // Il2CppName: set_InitialYRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlayerController::*)(float)>(&OVRPlayerController::set_InitialYRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRPlayerController::*)(float)>(&GlobalNamespace::OVRPlayerController::set_InitialYRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlayerController*), "set_InitialYRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlayerController*), "set_InitialYRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlayerController::Start
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlayerController::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlayerController::*)()>(&OVRPlayerController::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRPlayerController::*)()>(&GlobalNamespace::OVRPlayerController::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlayerController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlayerController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlayerController::Awake
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlayerController::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlayerController::*)()>(&OVRPlayerController::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRPlayerController::*)()>(&GlobalNamespace::OVRPlayerController::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlayerController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlayerController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlayerController::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlayerController::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlayerController::*)()>(&OVRPlayerController::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRPlayerController::*)()>(&GlobalNamespace::OVRPlayerController::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlayerController*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlayerController*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlayerController::OnDisable
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlayerController::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlayerController::*)()>(&OVRPlayerController::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRPlayerController::*)()>(&GlobalNamespace::OVRPlayerController::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlayerController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlayerController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlayerController::Update
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlayerController::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlayerController::*)()>(&OVRPlayerController::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRPlayerController::*)()>(&GlobalNamespace::OVRPlayerController::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlayerController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlayerController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlayerController::UpdateController
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlayerController::UpdateController
 // Il2CppName: UpdateController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlayerController::*)()>(&OVRPlayerController::UpdateController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRPlayerController::*)()>(&GlobalNamespace::OVRPlayerController::UpdateController)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlayerController*), "UpdateController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlayerController*), "UpdateController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlayerController::UpdateMovement
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlayerController::UpdateMovement
 // Il2CppName: UpdateMovement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlayerController::*)()>(&OVRPlayerController::UpdateMovement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRPlayerController::*)()>(&GlobalNamespace::OVRPlayerController::UpdateMovement)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlayerController*), "UpdateMovement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlayerController*), "UpdateMovement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlayerController::UpdateTransform
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlayerController::UpdateTransform
 // Il2CppName: UpdateTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlayerController::*)(GlobalNamespace::OVRCameraRig*)>(&OVRPlayerController::UpdateTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRPlayerController::*)(GlobalNamespace::OVRCameraRig*)>(&GlobalNamespace::OVRPlayerController::UpdateTransform)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlayerController*), "UpdateTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRCameraRig*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlayerController*), "UpdateTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRCameraRig*>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlayerController::Jump
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlayerController::Jump
 // Il2CppName: Jump
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRPlayerController::*)()>(&OVRPlayerController::Jump)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRPlayerController::*)()>(&GlobalNamespace::OVRPlayerController::Jump)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlayerController*), "Jump", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlayerController*), "Jump", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlayerController::Stop
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlayerController::Stop
 // Il2CppName: Stop
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlayerController::*)()>(&OVRPlayerController::Stop)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRPlayerController::*)()>(&GlobalNamespace::OVRPlayerController::Stop)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlayerController*), "Stop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlayerController*), "Stop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlayerController::GetMoveScaleMultiplier
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlayerController::GetMoveScaleMultiplier
 // Il2CppName: GetMoveScaleMultiplier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlayerController::*)(float&)>(&OVRPlayerController::GetMoveScaleMultiplier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRPlayerController::*)(float&)>(&GlobalNamespace::OVRPlayerController::GetMoveScaleMultiplier)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlayerController*), "GetMoveScaleMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlayerController*), "GetMoveScaleMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float&>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlayerController::SetMoveScaleMultiplier
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlayerController::SetMoveScaleMultiplier
 // Il2CppName: SetMoveScaleMultiplier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlayerController::*)(float)>(&OVRPlayerController::SetMoveScaleMultiplier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRPlayerController::*)(float)>(&GlobalNamespace::OVRPlayerController::SetMoveScaleMultiplier)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlayerController*), "SetMoveScaleMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlayerController*), "SetMoveScaleMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlayerController::GetRotationScaleMultiplier
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlayerController::GetRotationScaleMultiplier
 // Il2CppName: GetRotationScaleMultiplier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlayerController::*)(float&)>(&OVRPlayerController::GetRotationScaleMultiplier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRPlayerController::*)(float&)>(&GlobalNamespace::OVRPlayerController::GetRotationScaleMultiplier)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlayerController*), "GetRotationScaleMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlayerController*), "GetRotationScaleMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float&>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlayerController::SetRotationScaleMultiplier
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlayerController::SetRotationScaleMultiplier
 // Il2CppName: SetRotationScaleMultiplier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlayerController::*)(float)>(&OVRPlayerController::SetRotationScaleMultiplier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRPlayerController::*)(float)>(&GlobalNamespace::OVRPlayerController::SetRotationScaleMultiplier)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlayerController*), "SetRotationScaleMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlayerController*), "SetRotationScaleMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlayerController::GetSkipMouseRotation
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlayerController::GetSkipMouseRotation
 // Il2CppName: GetSkipMouseRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlayerController::*)(bool&)>(&OVRPlayerController::GetSkipMouseRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRPlayerController::*)(bool&)>(&GlobalNamespace::OVRPlayerController::GetSkipMouseRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlayerController*), "GetSkipMouseRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlayerController*), "GetSkipMouseRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool&>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlayerController::SetSkipMouseRotation
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlayerController::SetSkipMouseRotation
 // Il2CppName: SetSkipMouseRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlayerController::*)(bool)>(&OVRPlayerController::SetSkipMouseRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRPlayerController::*)(bool)>(&GlobalNamespace::OVRPlayerController::SetSkipMouseRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlayerController*), "SetSkipMouseRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlayerController*), "SetSkipMouseRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlayerController::GetHaltUpdateMovement
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlayerController::GetHaltUpdateMovement
 // Il2CppName: GetHaltUpdateMovement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlayerController::*)(bool&)>(&OVRPlayerController::GetHaltUpdateMovement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRPlayerController::*)(bool&)>(&GlobalNamespace::OVRPlayerController::GetHaltUpdateMovement)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlayerController*), "GetHaltUpdateMovement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlayerController*), "GetHaltUpdateMovement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool&>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlayerController::SetHaltUpdateMovement
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlayerController::SetHaltUpdateMovement
 // Il2CppName: SetHaltUpdateMovement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlayerController::*)(bool)>(&OVRPlayerController::SetHaltUpdateMovement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRPlayerController::*)(bool)>(&GlobalNamespace::OVRPlayerController::SetHaltUpdateMovement)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlayerController*), "SetHaltUpdateMovement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlayerController*), "SetHaltUpdateMovement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlayerController::ResetOrientation
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlayerController::ResetOrientation
 // Il2CppName: ResetOrientation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlayerController::*)()>(&OVRPlayerController::ResetOrientation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRPlayerController::*)()>(&GlobalNamespace::OVRPlayerController::ResetOrientation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlayerController*), "ResetOrientation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlayerController*), "ResetOrientation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlayerController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlayerController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlayerController::*)()>(&OVRPlayerController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRPlayerController::*)()>(&GlobalNamespace::OVRPlayerController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlayerController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlayerController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPlayerController::*)()>(&OVRPlayerController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRPlayerController::*)()>(&GlobalNamespace::OVRPlayerController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlayerController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlayerController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

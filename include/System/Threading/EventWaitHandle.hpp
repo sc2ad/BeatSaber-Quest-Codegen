@@ -47,47 +47,47 @@ namespace System::Threading {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::EventWaitHandle*, "System.Threading", "EventWaitHandle");
-// Writing MetadataGetter for method: EventWaitHandle::New_ctor
+// Writing MetadataGetter for method: System::Threading::EventWaitHandle::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventWaitHandle::*)(bool, System::Threading::EventResetMode)>(&EventWaitHandle::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::EventWaitHandle::*)(bool, System::Threading::EventResetMode)>(&System::Threading::EventWaitHandle::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventWaitHandle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::EventResetMode>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::EventWaitHandle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::EventResetMode>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventWaitHandle::*)(bool, System::Threading::EventResetMode)>(&EventWaitHandle::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::EventWaitHandle::*)(bool, System::Threading::EventResetMode)>(&System::Threading::EventWaitHandle::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventWaitHandle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::EventResetMode>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::EventWaitHandle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::EventResetMode>()});
   }
 };
-// Writing MetadataGetter for method: EventWaitHandle::New_ctor
+// Writing MetadataGetter for method: System::Threading::EventWaitHandle::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventWaitHandle::*)(bool, System::Threading::EventResetMode, ::Il2CppString*)>(&EventWaitHandle::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::EventWaitHandle::*)(bool, System::Threading::EventResetMode, ::Il2CppString*)>(&System::Threading::EventWaitHandle::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventWaitHandle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::EventResetMode>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::EventWaitHandle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::EventResetMode>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventWaitHandle::*)(bool, System::Threading::EventResetMode, ::Il2CppString*)>(&EventWaitHandle::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::EventWaitHandle::*)(bool, System::Threading::EventResetMode, ::Il2CppString*)>(&System::Threading::EventWaitHandle::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventWaitHandle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::EventResetMode>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::EventWaitHandle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::EventResetMode>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: EventWaitHandle::Reset
+// Writing MetadataGetter for method: System::Threading::EventWaitHandle::Reset
 // Il2CppName: Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EventWaitHandle::*)()>(&EventWaitHandle::Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::EventWaitHandle::*)()>(&System::Threading::EventWaitHandle::Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventWaitHandle*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::EventWaitHandle*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EventWaitHandle::Set
+// Writing MetadataGetter for method: System::Threading::EventWaitHandle::Set
 // Il2CppName: Set
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EventWaitHandle::*)()>(&EventWaitHandle::Set)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::EventWaitHandle::*)()>(&System::Threading::EventWaitHandle::Set)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventWaitHandle*), "Set", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::EventWaitHandle*), "Set", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

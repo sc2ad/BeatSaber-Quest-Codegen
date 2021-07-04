@@ -90,57 +90,57 @@ namespace UnityEngine::AddressableAssets {
   static_assert(sizeof(DynamicResourceLocator) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::DynamicResourceLocator*, "UnityEngine.AddressableAssets", "DynamicResourceLocator");
-// Writing MetadataGetter for method: DynamicResourceLocator::get_LocatorId
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::DynamicResourceLocator::get_LocatorId
 // Il2CppName: get_LocatorId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DynamicResourceLocator::*)()>(&DynamicResourceLocator::get_LocatorId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::AddressableAssets::DynamicResourceLocator::*)()>(&UnityEngine::AddressableAssets::DynamicResourceLocator::get_LocatorId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DynamicResourceLocator*), "get_LocatorId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::DynamicResourceLocator*), "get_LocatorId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DynamicResourceLocator::get_Keys
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::DynamicResourceLocator::get_Keys
 // Il2CppName: get_Keys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* (DynamicResourceLocator::*)()>(&DynamicResourceLocator::get_Keys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* (UnityEngine::AddressableAssets::DynamicResourceLocator::*)()>(&UnityEngine::AddressableAssets::DynamicResourceLocator::get_Keys)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DynamicResourceLocator*), "get_Keys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::DynamicResourceLocator*), "get_Keys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DynamicResourceLocator::get_AtlasSpriteProviderId
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::DynamicResourceLocator::get_AtlasSpriteProviderId
 // Il2CppName: get_AtlasSpriteProviderId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DynamicResourceLocator::*)()>(&DynamicResourceLocator::get_AtlasSpriteProviderId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::AddressableAssets::DynamicResourceLocator::*)()>(&UnityEngine::AddressableAssets::DynamicResourceLocator::get_AtlasSpriteProviderId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DynamicResourceLocator*), "get_AtlasSpriteProviderId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::DynamicResourceLocator*), "get_AtlasSpriteProviderId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DynamicResourceLocator::New_ctor
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::DynamicResourceLocator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicResourceLocator::*)(UnityEngine::AddressableAssets::AddressablesImpl*)>(&DynamicResourceLocator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::DynamicResourceLocator::*)(UnityEngine::AddressableAssets::AddressablesImpl*)>(&UnityEngine::AddressableAssets::DynamicResourceLocator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DynamicResourceLocator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::AddressablesImpl*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::DynamicResourceLocator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::AddressablesImpl*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicResourceLocator::*)(UnityEngine::AddressableAssets::AddressablesImpl*)>(&DynamicResourceLocator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::DynamicResourceLocator::*)(UnityEngine::AddressableAssets::AddressablesImpl*)>(&UnityEngine::AddressableAssets::DynamicResourceLocator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DynamicResourceLocator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::AddressablesImpl*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::DynamicResourceLocator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::AddressablesImpl*>()});
   }
 };
-// Writing MetadataGetter for method: DynamicResourceLocator::Locate
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::DynamicResourceLocator::Locate
 // Il2CppName: Locate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DynamicResourceLocator::*)(::Il2CppObject*, System::Type*, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*&)>(&DynamicResourceLocator::Locate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AddressableAssets::DynamicResourceLocator::*)(::Il2CppObject*, System::Type*, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*&)>(&UnityEngine::AddressableAssets::DynamicResourceLocator::Locate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DynamicResourceLocator*), "Locate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::DynamicResourceLocator*), "Locate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*&>()});
   }
 };
-// Writing MetadataGetter for method: DynamicResourceLocator::CreateDynamicLocations
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::DynamicResourceLocator::CreateDynamicLocations
 // Il2CppName: CreateDynamicLocations
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DynamicResourceLocator::*)(System::Type*, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*, ::Il2CppString*, ::Il2CppString*, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&DynamicResourceLocator::CreateDynamicLocations)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::DynamicResourceLocator::*)(System::Type*, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*, ::Il2CppString*, ::Il2CppString*, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&UnityEngine::AddressableAssets::DynamicResourceLocator::CreateDynamicLocations)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DynamicResourceLocator*), "CreateDynamicLocations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::DynamicResourceLocator*), "CreateDynamicLocations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>()});
   }
 };

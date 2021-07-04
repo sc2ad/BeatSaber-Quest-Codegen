@@ -96,47 +96,47 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(ConstraintRotationOffset) == 0x6D);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::ConstraintRotationOffset*, "RootMotion.FinalIK", "ConstraintRotationOffset");
-// Writing MetadataGetter for method: ConstraintRotationOffset::New_ctor
+// Writing MetadataGetter for method: RootMotion::FinalIK::ConstraintRotationOffset::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstraintRotationOffset::*)(UnityEngine::Transform*)>(&ConstraintRotationOffset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::ConstraintRotationOffset::*)(UnityEngine::Transform*)>(&RootMotion::FinalIK::ConstraintRotationOffset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConstraintRotationOffset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::ConstraintRotationOffset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstraintRotationOffset::*)(UnityEngine::Transform*)>(&ConstraintRotationOffset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::ConstraintRotationOffset::*)(UnityEngine::Transform*)>(&RootMotion::FinalIK::ConstraintRotationOffset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConstraintRotationOffset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::ConstraintRotationOffset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
   }
 };
-// Writing MetadataGetter for method: ConstraintRotationOffset::get_rotationChanged
+// Writing MetadataGetter for method: RootMotion::FinalIK::ConstraintRotationOffset::get_rotationChanged
 // Il2CppName: get_rotationChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ConstraintRotationOffset::*)()>(&ConstraintRotationOffset::get_rotationChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::ConstraintRotationOffset::*)()>(&RootMotion::FinalIK::ConstraintRotationOffset::get_rotationChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConstraintRotationOffset*), "get_rotationChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::ConstraintRotationOffset*), "get_rotationChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ConstraintRotationOffset::UpdateConstraint
+// Writing MetadataGetter for method: RootMotion::FinalIK::ConstraintRotationOffset::UpdateConstraint
 // Il2CppName: UpdateConstraint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstraintRotationOffset::*)()>(&ConstraintRotationOffset::UpdateConstraint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::ConstraintRotationOffset::*)()>(&RootMotion::FinalIK::ConstraintRotationOffset::UpdateConstraint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConstraintRotationOffset*), "UpdateConstraint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::ConstraintRotationOffset*), "UpdateConstraint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ConstraintRotationOffset::New_ctor
+// Writing MetadataGetter for method: RootMotion::FinalIK::ConstraintRotationOffset::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstraintRotationOffset::*)()>(&ConstraintRotationOffset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::ConstraintRotationOffset::*)()>(&RootMotion::FinalIK::ConstraintRotationOffset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConstraintRotationOffset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::ConstraintRotationOffset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstraintRotationOffset::*)()>(&ConstraintRotationOffset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::ConstraintRotationOffset::*)()>(&RootMotion::FinalIK::ConstraintRotationOffset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConstraintRotationOffset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::ConstraintRotationOffset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

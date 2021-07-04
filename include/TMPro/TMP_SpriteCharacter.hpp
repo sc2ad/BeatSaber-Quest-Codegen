@@ -71,55 +71,55 @@ namespace TMPro {
   static_assert(sizeof(TMP_SpriteCharacter) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteCharacter*, "TMPro", "TMP_SpriteCharacter");
-// Writing MetadataGetter for method: TMP_SpriteCharacter::get_name
+// Writing MetadataGetter for method: TMPro::TMP_SpriteCharacter::get_name
 // Il2CppName: get_name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMP_SpriteCharacter::*)()>(&TMP_SpriteCharacter::get_name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMPro::TMP_SpriteCharacter::*)()>(&TMPro::TMP_SpriteCharacter::get_name)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteCharacter*), "get_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteCharacter*), "get_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_SpriteCharacter::set_name
+// Writing MetadataGetter for method: TMPro::TMP_SpriteCharacter::set_name
 // Il2CppName: set_name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteCharacter::*)(::Il2CppString*)>(&TMP_SpriteCharacter::set_name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SpriteCharacter::*)(::Il2CppString*)>(&TMPro::TMP_SpriteCharacter::set_name)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteCharacter*), "set_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteCharacter*), "set_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TMP_SpriteCharacter::get_hashCode
+// Writing MetadataGetter for method: TMPro::TMP_SpriteCharacter::get_hashCode
 // Il2CppName: get_hashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMP_SpriteCharacter::*)()>(&TMP_SpriteCharacter::get_hashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TMP_SpriteCharacter::*)()>(&TMPro::TMP_SpriteCharacter::get_hashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteCharacter*), "get_hashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteCharacter*), "get_hashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_SpriteCharacter::New_ctor
+// Writing MetadataGetter for method: TMPro::TMP_SpriteCharacter::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteCharacter::*)(uint, TMPro::TMP_SpriteGlyph*)>(&TMP_SpriteCharacter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SpriteCharacter::*)(uint, TMPro::TMP_SpriteGlyph*)>(&TMPro::TMP_SpriteCharacter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteCharacter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteGlyph*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteCharacter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteGlyph*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteCharacter::*)(uint, TMPro::TMP_SpriteGlyph*)>(&TMP_SpriteCharacter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SpriteCharacter::*)(uint, TMPro::TMP_SpriteGlyph*)>(&TMPro::TMP_SpriteCharacter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteCharacter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteGlyph*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteCharacter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteGlyph*>()});
   }
 };
-// Writing MetadataGetter for method: TMP_SpriteCharacter::New_ctor
+// Writing MetadataGetter for method: TMPro::TMP_SpriteCharacter::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteCharacter::*)()>(&TMP_SpriteCharacter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SpriteCharacter::*)()>(&TMPro::TMP_SpriteCharacter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteCharacter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteCharacter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_SpriteCharacter::*)()>(&TMP_SpriteCharacter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SpriteCharacter::*)()>(&TMPro::TMP_SpriteCharacter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_SpriteCharacter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteCharacter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

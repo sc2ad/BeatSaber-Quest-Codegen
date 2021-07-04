@@ -80,49 +80,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(NotesInTimeRowProcessor) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NotesInTimeRowProcessor*, "", "NotesInTimeRowProcessor");
-// Writing MetadataGetter for method: NotesInTimeRowProcessor::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::NotesInTimeRowProcessor::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NotesInTimeRowProcessor::*)(int)>(&NotesInTimeRowProcessor::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NotesInTimeRowProcessor::*)(int)>(&GlobalNamespace::NotesInTimeRowProcessor::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NotesInTimeRowProcessor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NotesInTimeRowProcessor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NotesInTimeRowProcessor::*)(int)>(&NotesInTimeRowProcessor::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NotesInTimeRowProcessor::*)(int)>(&GlobalNamespace::NotesInTimeRowProcessor::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NotesInTimeRowProcessor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NotesInTimeRowProcessor*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: NotesInTimeRowProcessor::ProcessNote
+// Writing MetadataGetter for method: GlobalNamespace::NotesInTimeRowProcessor::ProcessNote
 // Il2CppName: ProcessNote
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NotesInTimeRowProcessor::*)(GlobalNamespace::NoteData*)>(&NotesInTimeRowProcessor::ProcessNote)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NotesInTimeRowProcessor::*)(GlobalNamespace::NoteData*)>(&GlobalNamespace::NotesInTimeRowProcessor::ProcessNote)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NotesInTimeRowProcessor*), "ProcessNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NotesInTimeRowProcessor*), "ProcessNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>()});
   }
 };
-// Writing MetadataGetter for method: NotesInTimeRowProcessor::ProcessAllRemainingData
+// Writing MetadataGetter for method: GlobalNamespace::NotesInTimeRowProcessor::ProcessAllRemainingData
 // Il2CppName: ProcessAllRemainingData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NotesInTimeRowProcessor::*)()>(&NotesInTimeRowProcessor::ProcessAllRemainingData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NotesInTimeRowProcessor::*)()>(&GlobalNamespace::NotesInTimeRowProcessor::ProcessAllRemainingData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NotesInTimeRowProcessor*), "ProcessAllRemainingData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NotesInTimeRowProcessor*), "ProcessAllRemainingData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NotesInTimeRowProcessor::ProcessColorNotesInTimeRow
+// Writing MetadataGetter for method: GlobalNamespace::NotesInTimeRowProcessor::ProcessColorNotesInTimeRow
 // Il2CppName: ProcessColorNotesInTimeRow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NotesInTimeRowProcessor::*)(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*, float)>(&NotesInTimeRowProcessor::ProcessColorNotesInTimeRow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NotesInTimeRowProcessor::*)(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*, float)>(&GlobalNamespace::NotesInTimeRowProcessor::ProcessColorNotesInTimeRow)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NotesInTimeRowProcessor*), "ProcessColorNotesInTimeRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NotesInTimeRowProcessor*), "ProcessColorNotesInTimeRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: NotesInTimeRowProcessor::ProcessAllNotesInTimeRow
+// Writing MetadataGetter for method: GlobalNamespace::NotesInTimeRowProcessor::ProcessAllNotesInTimeRow
 // Il2CppName: ProcessAllNotesInTimeRow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NotesInTimeRowProcessor::*)(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*)>(&NotesInTimeRowProcessor::ProcessAllNotesInTimeRow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NotesInTimeRowProcessor::*)(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*)>(&GlobalNamespace::NotesInTimeRowProcessor::ProcessAllNotesInTimeRow)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NotesInTimeRowProcessor*), "ProcessAllNotesInTimeRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NotesInTimeRowProcessor*), "ProcessAllNotesInTimeRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*>()});
   }
 };

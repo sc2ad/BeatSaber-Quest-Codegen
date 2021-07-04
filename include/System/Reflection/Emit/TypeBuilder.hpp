@@ -226,259 +226,259 @@ namespace System::Reflection::Emit {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::TypeBuilder*, "System.Reflection.Emit", "TypeBuilder");
-// Writing MetadataGetter for method: TypeBuilder::get_Assembly
+// Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::get_Assembly
 // Il2CppName: get_Assembly
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (TypeBuilder::*)()>(&TypeBuilder::get_Assembly)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (System::Reflection::Emit::TypeBuilder::*)()>(&System::Reflection::Emit::TypeBuilder::get_Assembly)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeBuilder*), "get_Assembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilder*), "get_Assembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TypeBuilder::get_AssemblyQualifiedName
+// Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::get_AssemblyQualifiedName
 // Il2CppName: get_AssemblyQualifiedName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TypeBuilder::*)()>(&TypeBuilder::get_AssemblyQualifiedName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Reflection::Emit::TypeBuilder::*)()>(&System::Reflection::Emit::TypeBuilder::get_AssemblyQualifiedName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeBuilder*), "get_AssemblyQualifiedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilder*), "get_AssemblyQualifiedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TypeBuilder::get_BaseType
+// Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::get_BaseType
 // Il2CppName: get_BaseType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (TypeBuilder::*)()>(&TypeBuilder::get_BaseType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Reflection::Emit::TypeBuilder::*)()>(&System::Reflection::Emit::TypeBuilder::get_BaseType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeBuilder*), "get_BaseType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilder*), "get_BaseType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TypeBuilder::get_FullName
+// Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::get_FullName
 // Il2CppName: get_FullName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TypeBuilder::*)()>(&TypeBuilder::get_FullName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Reflection::Emit::TypeBuilder::*)()>(&System::Reflection::Emit::TypeBuilder::get_FullName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeBuilder*), "get_FullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilder*), "get_FullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TypeBuilder::get_GUID
+// Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::get_GUID
 // Il2CppName: get_GUID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (TypeBuilder::*)()>(&TypeBuilder::get_GUID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (System::Reflection::Emit::TypeBuilder::*)()>(&System::Reflection::Emit::TypeBuilder::get_GUID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeBuilder*), "get_GUID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilder*), "get_GUID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TypeBuilder::get_Module
+// Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::get_Module
 // Il2CppName: get_Module
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Module* (TypeBuilder::*)()>(&TypeBuilder::get_Module)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Module* (System::Reflection::Emit::TypeBuilder::*)()>(&System::Reflection::Emit::TypeBuilder::get_Module)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeBuilder*), "get_Module", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilder*), "get_Module", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TypeBuilder::get_Name
+// Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TypeBuilder::*)()>(&TypeBuilder::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Reflection::Emit::TypeBuilder::*)()>(&System::Reflection::Emit::TypeBuilder::get_Name)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeBuilder*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilder*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TypeBuilder::get_Namespace
+// Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::get_Namespace
 // Il2CppName: get_Namespace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TypeBuilder::*)()>(&TypeBuilder::get_Namespace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Reflection::Emit::TypeBuilder::*)()>(&System::Reflection::Emit::TypeBuilder::get_Namespace)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeBuilder*), "get_Namespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilder*), "get_Namespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TypeBuilder::GetElementType
+// Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::GetElementType
 // Il2CppName: GetElementType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (TypeBuilder::*)()>(&TypeBuilder::GetElementType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Reflection::Emit::TypeBuilder::*)()>(&System::Reflection::Emit::TypeBuilder::GetElementType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeBuilder*), "GetElementType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilder*), "GetElementType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TypeBuilder::get_UnderlyingSystemType
+// Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::get_UnderlyingSystemType
 // Il2CppName: get_UnderlyingSystemType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (TypeBuilder::*)()>(&TypeBuilder::get_UnderlyingSystemType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Reflection::Emit::TypeBuilder::*)()>(&System::Reflection::Emit::TypeBuilder::get_UnderlyingSystemType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeBuilder*), "get_UnderlyingSystemType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilder*), "get_UnderlyingSystemType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TypeBuilder::GetAttributeFlagsImpl
+// Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::GetAttributeFlagsImpl
 // Il2CppName: GetAttributeFlagsImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::TypeAttributes (TypeBuilder::*)()>(&TypeBuilder::GetAttributeFlagsImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::TypeAttributes (System::Reflection::Emit::TypeBuilder::*)()>(&System::Reflection::Emit::TypeBuilder::GetAttributeFlagsImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeBuilder*), "GetAttributeFlagsImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilder*), "GetAttributeFlagsImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TypeBuilder::GetConstructorImpl
+// Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::GetConstructorImpl
 // Il2CppName: GetConstructorImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::ConstructorInfo* (TypeBuilder::*)(System::Reflection::BindingFlags, System::Reflection::Binder*, System::Reflection::CallingConventions, ::Array<System::Type*>*, ::Array<System::Reflection::ParameterModifier>*)>(&TypeBuilder::GetConstructorImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::ConstructorInfo* (System::Reflection::Emit::TypeBuilder::*)(System::Reflection::BindingFlags, System::Reflection::Binder*, System::Reflection::CallingConventions, ::Array<System::Type*>*, ::Array<System::Reflection::ParameterModifier>*)>(&System::Reflection::Emit::TypeBuilder::GetConstructorImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeBuilder*), "GetConstructorImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Binder*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::CallingConventions>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilder*), "GetConstructorImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Binder*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::CallingConventions>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>()});
   }
 };
-// Writing MetadataGetter for method: TypeBuilder::GetConstructors
+// Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::GetConstructors
 // Il2CppName: GetConstructors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::ConstructorInfo*>* (TypeBuilder::*)(System::Reflection::BindingFlags)>(&TypeBuilder::GetConstructors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::ConstructorInfo*>* (System::Reflection::Emit::TypeBuilder::*)(System::Reflection::BindingFlags)>(&System::Reflection::Emit::TypeBuilder::GetConstructors)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeBuilder*), "GetConstructors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilder*), "GetConstructors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
   }
 };
-// Writing MetadataGetter for method: TypeBuilder::GetCustomAttributes
+// Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (TypeBuilder::*)(bool)>(&TypeBuilder::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Reflection::Emit::TypeBuilder::*)(bool)>(&System::Reflection::Emit::TypeBuilder::GetCustomAttributes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeBuilder*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilder*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: TypeBuilder::GetCustomAttributes
+// Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (TypeBuilder::*)(System::Type*, bool)>(&TypeBuilder::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Reflection::Emit::TypeBuilder::*)(System::Type*, bool)>(&System::Reflection::Emit::TypeBuilder::GetCustomAttributes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeBuilder*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilder*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: TypeBuilder::GetEvent
+// Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::GetEvent
 // Il2CppName: GetEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::EventInfo* (TypeBuilder::*)(::Il2CppString*, System::Reflection::BindingFlags)>(&TypeBuilder::GetEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::EventInfo* (System::Reflection::Emit::TypeBuilder::*)(::Il2CppString*, System::Reflection::BindingFlags)>(&System::Reflection::Emit::TypeBuilder::GetEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeBuilder*), "GetEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilder*), "GetEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
   }
 };
-// Writing MetadataGetter for method: TypeBuilder::GetField
+// Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::GetField
 // Il2CppName: GetField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::FieldInfo* (TypeBuilder::*)(::Il2CppString*, System::Reflection::BindingFlags)>(&TypeBuilder::GetField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::FieldInfo* (System::Reflection::Emit::TypeBuilder::*)(::Il2CppString*, System::Reflection::BindingFlags)>(&System::Reflection::Emit::TypeBuilder::GetField)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeBuilder*), "GetField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilder*), "GetField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
   }
 };
-// Writing MetadataGetter for method: TypeBuilder::GetFields
+// Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::GetFields
 // Il2CppName: GetFields
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::FieldInfo*>* (TypeBuilder::*)(System::Reflection::BindingFlags)>(&TypeBuilder::GetFields)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::FieldInfo*>* (System::Reflection::Emit::TypeBuilder::*)(System::Reflection::BindingFlags)>(&System::Reflection::Emit::TypeBuilder::GetFields)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeBuilder*), "GetFields", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilder*), "GetFields", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
   }
 };
-// Writing MetadataGetter for method: TypeBuilder::GetInterfaces
+// Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::GetInterfaces
 // Il2CppName: GetInterfaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (TypeBuilder::*)()>(&TypeBuilder::GetInterfaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (System::Reflection::Emit::TypeBuilder::*)()>(&System::Reflection::Emit::TypeBuilder::GetInterfaces)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeBuilder*), "GetInterfaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilder*), "GetInterfaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TypeBuilder::GetMethodImpl
+// Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::GetMethodImpl
 // Il2CppName: GetMethodImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (TypeBuilder::*)(::Il2CppString*, System::Reflection::BindingFlags, System::Reflection::Binder*, System::Reflection::CallingConventions, ::Array<System::Type*>*, ::Array<System::Reflection::ParameterModifier>*)>(&TypeBuilder::GetMethodImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (System::Reflection::Emit::TypeBuilder::*)(::Il2CppString*, System::Reflection::BindingFlags, System::Reflection::Binder*, System::Reflection::CallingConventions, ::Array<System::Type*>*, ::Array<System::Reflection::ParameterModifier>*)>(&System::Reflection::Emit::TypeBuilder::GetMethodImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeBuilder*), "GetMethodImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Binder*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::CallingConventions>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilder*), "GetMethodImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Binder*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::CallingConventions>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>()});
   }
 };
-// Writing MetadataGetter for method: TypeBuilder::GetMethods
+// Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::GetMethods
 // Il2CppName: GetMethods
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::MethodInfo*>* (TypeBuilder::*)(System::Reflection::BindingFlags)>(&TypeBuilder::GetMethods)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::MethodInfo*>* (System::Reflection::Emit::TypeBuilder::*)(System::Reflection::BindingFlags)>(&System::Reflection::Emit::TypeBuilder::GetMethods)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeBuilder*), "GetMethods", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilder*), "GetMethods", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
   }
 };
-// Writing MetadataGetter for method: TypeBuilder::GetNestedType
+// Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::GetNestedType
 // Il2CppName: GetNestedType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (TypeBuilder::*)(::Il2CppString*, System::Reflection::BindingFlags)>(&TypeBuilder::GetNestedType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Reflection::Emit::TypeBuilder::*)(::Il2CppString*, System::Reflection::BindingFlags)>(&System::Reflection::Emit::TypeBuilder::GetNestedType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeBuilder*), "GetNestedType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilder*), "GetNestedType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
   }
 };
-// Writing MetadataGetter for method: TypeBuilder::GetProperties
+// Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::GetProperties
 // Il2CppName: GetProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::PropertyInfo*>* (TypeBuilder::*)(System::Reflection::BindingFlags)>(&TypeBuilder::GetProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::PropertyInfo*>* (System::Reflection::Emit::TypeBuilder::*)(System::Reflection::BindingFlags)>(&System::Reflection::Emit::TypeBuilder::GetProperties)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeBuilder*), "GetProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilder*), "GetProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
   }
 };
-// Writing MetadataGetter for method: TypeBuilder::GetPropertyImpl
+// Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::GetPropertyImpl
 // Il2CppName: GetPropertyImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::PropertyInfo* (TypeBuilder::*)(::Il2CppString*, System::Reflection::BindingFlags, System::Reflection::Binder*, System::Type*, ::Array<System::Type*>*, ::Array<System::Reflection::ParameterModifier>*)>(&TypeBuilder::GetPropertyImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::PropertyInfo* (System::Reflection::Emit::TypeBuilder::*)(::Il2CppString*, System::Reflection::BindingFlags, System::Reflection::Binder*, System::Type*, ::Array<System::Type*>*, ::Array<System::Reflection::ParameterModifier>*)>(&System::Reflection::Emit::TypeBuilder::GetPropertyImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeBuilder*), "GetPropertyImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Binder*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilder*), "GetPropertyImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Binder*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>()});
   }
 };
-// Writing MetadataGetter for method: TypeBuilder::HasElementTypeImpl
+// Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::HasElementTypeImpl
 // Il2CppName: HasElementTypeImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TypeBuilder::*)()>(&TypeBuilder::HasElementTypeImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Reflection::Emit::TypeBuilder::*)()>(&System::Reflection::Emit::TypeBuilder::HasElementTypeImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeBuilder*), "HasElementTypeImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilder*), "HasElementTypeImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TypeBuilder::InvokeMember
+// Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::InvokeMember
 // Il2CppName: InvokeMember
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (TypeBuilder::*)(::Il2CppString*, System::Reflection::BindingFlags, System::Reflection::Binder*, ::Il2CppObject*, ::Array<::Il2CppObject*>*, ::Array<System::Reflection::ParameterModifier>*, System::Globalization::CultureInfo*, ::Array<::Il2CppString*>*)>(&TypeBuilder::InvokeMember)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Reflection::Emit::TypeBuilder::*)(::Il2CppString*, System::Reflection::BindingFlags, System::Reflection::Binder*, ::Il2CppObject*, ::Array<::Il2CppObject*>*, ::Array<System::Reflection::ParameterModifier>*, System::Globalization::CultureInfo*, ::Array<::Il2CppString*>*)>(&System::Reflection::Emit::TypeBuilder::InvokeMember)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeBuilder*), "InvokeMember", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Binder*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilder*), "InvokeMember", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Binder*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: TypeBuilder::IsArrayImpl
+// Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::IsArrayImpl
 // Il2CppName: IsArrayImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TypeBuilder::*)()>(&TypeBuilder::IsArrayImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Reflection::Emit::TypeBuilder::*)()>(&System::Reflection::Emit::TypeBuilder::IsArrayImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeBuilder*), "IsArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilder*), "IsArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TypeBuilder::IsByRefImpl
+// Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::IsByRefImpl
 // Il2CppName: IsByRefImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TypeBuilder::*)()>(&TypeBuilder::IsByRefImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Reflection::Emit::TypeBuilder::*)()>(&System::Reflection::Emit::TypeBuilder::IsByRefImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeBuilder*), "IsByRefImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilder*), "IsByRefImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TypeBuilder::IsCOMObjectImpl
+// Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::IsCOMObjectImpl
 // Il2CppName: IsCOMObjectImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TypeBuilder::*)()>(&TypeBuilder::IsCOMObjectImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Reflection::Emit::TypeBuilder::*)()>(&System::Reflection::Emit::TypeBuilder::IsCOMObjectImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeBuilder*), "IsCOMObjectImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilder*), "IsCOMObjectImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TypeBuilder::IsDefined
+// Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::IsDefined
 // Il2CppName: IsDefined
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TypeBuilder::*)(System::Type*, bool)>(&TypeBuilder::IsDefined)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Reflection::Emit::TypeBuilder::*)(System::Type*, bool)>(&System::Reflection::Emit::TypeBuilder::IsDefined)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeBuilder*), "IsDefined", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilder*), "IsDefined", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: TypeBuilder::IsPointerImpl
+// Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::IsPointerImpl
 // Il2CppName: IsPointerImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TypeBuilder::*)()>(&TypeBuilder::IsPointerImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Reflection::Emit::TypeBuilder::*)()>(&System::Reflection::Emit::TypeBuilder::IsPointerImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeBuilder*), "IsPointerImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilder*), "IsPointerImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TypeBuilder::IsPrimitiveImpl
+// Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilder::IsPrimitiveImpl
 // Il2CppName: IsPrimitiveImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TypeBuilder::*)()>(&TypeBuilder::IsPrimitiveImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Reflection::Emit::TypeBuilder::*)()>(&System::Reflection::Emit::TypeBuilder::IsPrimitiveImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeBuilder*), "IsPrimitiveImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilder*), "IsPrimitiveImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

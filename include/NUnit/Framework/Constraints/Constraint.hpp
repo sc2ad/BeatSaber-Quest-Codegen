@@ -134,121 +134,121 @@ namespace NUnit::Framework::Constraints {
   static_assert(sizeof(Constraint) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::Constraint*, "NUnit.Framework.Constraints", "Constraint");
-// Writing MetadataGetter for method: Constraint::New_ctor
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::Constraint::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Constraint::*)(::Array<::Il2CppObject*>*)>(&Constraint::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::Constraint::*)(::Array<::Il2CppObject*>*)>(&NUnit::Framework::Constraints::Constraint::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Constraint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Constraint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Constraint::*)(::Array<::Il2CppObject*>*)>(&Constraint::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::Constraint::*)(::Array<::Il2CppObject*>*)>(&NUnit::Framework::Constraints::Constraint::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Constraint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Constraint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
   }
 };
-// Writing MetadataGetter for method: Constraint::get_DisplayName
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::Constraint::get_DisplayName
 // Il2CppName: get_DisplayName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Constraint::*)()>(&Constraint::get_DisplayName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Constraints::Constraint::*)()>(&NUnit::Framework::Constraints::Constraint::get_DisplayName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Constraint*), "get_DisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Constraint*), "get_DisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Constraint::get_Description
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::Constraint::get_Description
 // Il2CppName: get_Description
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Constraint::*)()>(&Constraint::get_Description)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Constraints::Constraint::*)()>(&NUnit::Framework::Constraints::Constraint::get_Description)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Constraint*), "get_Description", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Constraint*), "get_Description", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Constraint::set_Description
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::Constraint::set_Description
 // Il2CppName: set_Description
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Constraint::*)(::Il2CppString*)>(&Constraint::set_Description)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::Constraint::*)(::Il2CppString*)>(&NUnit::Framework::Constraints::Constraint::set_Description)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Constraint*), "set_Description", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Constraint*), "set_Description", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Constraint::get_Arguments
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::Constraint::get_Arguments
 // Il2CppName: get_Arguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (Constraint::*)()>(&Constraint::get_Arguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (NUnit::Framework::Constraints::Constraint::*)()>(&NUnit::Framework::Constraints::Constraint::get_Arguments)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Constraint*), "get_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Constraint*), "get_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Constraint::set_Arguments
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::Constraint::set_Arguments
 // Il2CppName: set_Arguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Constraint::*)(::Array<::Il2CppObject*>*)>(&Constraint::set_Arguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::Constraint::*)(::Array<::Il2CppObject*>*)>(&NUnit::Framework::Constraints::Constraint::set_Arguments)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Constraint*), "set_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Constraint*), "set_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
   }
 };
-// Writing MetadataGetter for method: Constraint::get_Builder
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::Constraint::get_Builder
 // Il2CppName: get_Builder
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ConstraintBuilder* (Constraint::*)()>(&Constraint::get_Builder)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ConstraintBuilder* (NUnit::Framework::Constraints::Constraint::*)()>(&NUnit::Framework::Constraints::Constraint::get_Builder)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Constraint*), "get_Builder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Constraint*), "get_Builder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Constraint::set_Builder
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::Constraint::set_Builder
 // Il2CppName: set_Builder
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Constraint::*)(NUnit::Framework::Constraints::ConstraintBuilder*)>(&Constraint::set_Builder)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::Constraint::*)(NUnit::Framework::Constraints::ConstraintBuilder*)>(&NUnit::Framework::Constraints::Constraint::set_Builder)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Constraint*), "set_Builder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::ConstraintBuilder*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Constraint*), "set_Builder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::ConstraintBuilder*>()});
   }
 };
-// Writing MetadataGetter for method: Constraint::ApplyTo
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::Constraint::ApplyTo
 // Il2CppName: ApplyTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ConstraintResult* (Constraint::*)(::Il2CppObject*)>(&Constraint::ApplyTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ConstraintResult* (NUnit::Framework::Constraints::Constraint::*)(::Il2CppObject*)>(&NUnit::Framework::Constraints::Constraint::ApplyTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Constraint*), "ApplyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Constraint*), "ApplyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Constraint::GetStringRepresentation
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::Constraint::GetStringRepresentation
 // Il2CppName: GetStringRepresentation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Constraint::*)()>(&Constraint::GetStringRepresentation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Constraints::Constraint::*)()>(&NUnit::Framework::Constraints::Constraint::GetStringRepresentation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Constraint*), "GetStringRepresentation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Constraint*), "GetStringRepresentation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Constraint::_displayable
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::Constraint::_displayable
 // Il2CppName: _displayable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppObject*)>(&Constraint::_displayable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppObject*)>(&NUnit::Framework::Constraints::Constraint::_displayable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Constraint*), "_displayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Constraint*), "_displayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Constraint::NUnit_Framework_Constraints_IResolveConstraint_Resolve
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::Constraint::NUnit_Framework_Constraints_IResolveConstraint_Resolve
 // Il2CppName: NUnit.Framework.Constraints.IResolveConstraint.Resolve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::IConstraint* (Constraint::*)()>(&Constraint::NUnit_Framework_Constraints_IResolveConstraint_Resolve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::IConstraint* (NUnit::Framework::Constraints::Constraint::*)()>(&NUnit::Framework::Constraints::Constraint::NUnit_Framework_Constraints_IResolveConstraint_Resolve)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Constraint*), "NUnit.Framework.Constraints.IResolveConstraint.Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Constraint*), "NUnit.Framework.Constraints.IResolveConstraint.Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Constraint::$_ctor$b__1_0
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::Constraint::$_ctor$b__1_0
 // Il2CppName: <.ctor>b__1_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Constraint::*)()>(&Constraint::$_ctor$b__1_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Constraints::Constraint::*)()>(&NUnit::Framework::Constraints::Constraint::$_ctor$b__1_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Constraint*), "<.ctor>b__1_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Constraint*), "<.ctor>b__1_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Constraint::ToString
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::Constraint::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Constraint::*)()>(&Constraint::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Constraints::Constraint::*)()>(&NUnit::Framework::Constraints::Constraint::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Constraint*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Constraint*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

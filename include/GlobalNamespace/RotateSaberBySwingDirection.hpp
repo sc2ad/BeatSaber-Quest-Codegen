@@ -164,33 +164,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(RotateSaberBySwingDirection) == 0x74);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RotateSaberBySwingDirection*, "", "RotateSaberBySwingDirection");
-// Writing MetadataGetter for method: RotateSaberBySwingDirection::LateUpdate
+// Writing MetadataGetter for method: GlobalNamespace::RotateSaberBySwingDirection::LateUpdate
 // Il2CppName: LateUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotateSaberBySwingDirection::*)()>(&RotateSaberBySwingDirection::LateUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RotateSaberBySwingDirection::*)()>(&GlobalNamespace::RotateSaberBySwingDirection::LateUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RotateSaberBySwingDirection*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RotateSaberBySwingDirection*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RotateSaberBySwingDirection::OnDrawGizmosSelected
+// Writing MetadataGetter for method: GlobalNamespace::RotateSaberBySwingDirection::OnDrawGizmosSelected
 // Il2CppName: OnDrawGizmosSelected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotateSaberBySwingDirection::*)()>(&RotateSaberBySwingDirection::OnDrawGizmosSelected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RotateSaberBySwingDirection::*)()>(&GlobalNamespace::RotateSaberBySwingDirection::OnDrawGizmosSelected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RotateSaberBySwingDirection*), "OnDrawGizmosSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RotateSaberBySwingDirection*), "OnDrawGizmosSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RotateSaberBySwingDirection::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::RotateSaberBySwingDirection::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotateSaberBySwingDirection::*)()>(&RotateSaberBySwingDirection::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RotateSaberBySwingDirection::*)()>(&GlobalNamespace::RotateSaberBySwingDirection::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RotateSaberBySwingDirection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RotateSaberBySwingDirection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RotateSaberBySwingDirection::*)()>(&RotateSaberBySwingDirection::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RotateSaberBySwingDirection::*)()>(&GlobalNamespace::RotateSaberBySwingDirection::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RotateSaberBySwingDirection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RotateSaberBySwingDirection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

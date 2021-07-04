@@ -153,132 +153,132 @@ namespace GlobalNamespace {
   static_assert(sizeof(StandaloneMonobehavior) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandaloneMonobehavior*, "", "StandaloneMonobehavior");
-// Writing MetadataGetter for method: StandaloneMonobehavior::get_objectLifeTime
+// Writing MetadataGetter for method: GlobalNamespace::StandaloneMonobehavior::get_objectLifeTime
 // Il2CppName: get_objectLifeTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (StandaloneMonobehavior::*)()>(&StandaloneMonobehavior::get_objectLifeTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::StandaloneMonobehavior::*)()>(&GlobalNamespace::StandaloneMonobehavior::get_objectLifeTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandaloneMonobehavior*), "get_objectLifeTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandaloneMonobehavior*), "get_objectLifeTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandaloneMonobehavior::get_deltaTime
+// Writing MetadataGetter for method: GlobalNamespace::StandaloneMonobehavior::get_deltaTime
 // Il2CppName: get_deltaTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (StandaloneMonobehavior::*)()>(&StandaloneMonobehavior::get_deltaTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::StandaloneMonobehavior::*)()>(&GlobalNamespace::StandaloneMonobehavior::get_deltaTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandaloneMonobehavior*), "get_deltaTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandaloneMonobehavior*), "get_deltaTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandaloneMonobehavior::get_lastFrameTime
+// Writing MetadataGetter for method: GlobalNamespace::StandaloneMonobehavior::get_lastFrameTime
 // Il2CppName: get_lastFrameTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (StandaloneMonobehavior::*)()>(&StandaloneMonobehavior::get_lastFrameTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::StandaloneMonobehavior::*)()>(&GlobalNamespace::StandaloneMonobehavior::get_lastFrameTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandaloneMonobehavior*), "get_lastFrameTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandaloneMonobehavior*), "get_lastFrameTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandaloneMonobehavior::get_isReady
+// Writing MetadataGetter for method: GlobalNamespace::StandaloneMonobehavior::get_isReady
 // Il2CppName: get_isReady
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (StandaloneMonobehavior::*)()>(&StandaloneMonobehavior::get_isReady)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::StandaloneMonobehavior::*)()>(&GlobalNamespace::StandaloneMonobehavior::get_isReady)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandaloneMonobehavior*), "get_isReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandaloneMonobehavior*), "get_isReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandaloneMonobehavior::Awake
+// Writing MetadataGetter for method: GlobalNamespace::StandaloneMonobehavior::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandaloneMonobehavior::*)()>(&StandaloneMonobehavior::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandaloneMonobehavior::*)()>(&GlobalNamespace::StandaloneMonobehavior::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandaloneMonobehavior*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandaloneMonobehavior*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandaloneMonobehavior::Start
+// Writing MetadataGetter for method: GlobalNamespace::StandaloneMonobehavior::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandaloneMonobehavior::*)()>(&StandaloneMonobehavior::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandaloneMonobehavior::*)()>(&GlobalNamespace::StandaloneMonobehavior::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandaloneMonobehavior*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandaloneMonobehavior*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandaloneMonobehavior::Update
+// Writing MetadataGetter for method: GlobalNamespace::StandaloneMonobehavior::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandaloneMonobehavior::*)()>(&StandaloneMonobehavior::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandaloneMonobehavior::*)()>(&GlobalNamespace::StandaloneMonobehavior::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandaloneMonobehavior*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandaloneMonobehavior*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandaloneMonobehavior::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::StandaloneMonobehavior::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandaloneMonobehavior::*)()>(&StandaloneMonobehavior::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandaloneMonobehavior::*)()>(&GlobalNamespace::StandaloneMonobehavior::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandaloneMonobehavior*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandaloneMonobehavior*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandaloneMonobehavior::OnApplicationPause
+// Writing MetadataGetter for method: GlobalNamespace::StandaloneMonobehavior::OnApplicationPause
 // Il2CppName: OnApplicationPause
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandaloneMonobehavior::*)(bool)>(&StandaloneMonobehavior::OnApplicationPause)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandaloneMonobehavior::*)(bool)>(&GlobalNamespace::StandaloneMonobehavior::OnApplicationPause)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandaloneMonobehavior*), "OnApplicationPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandaloneMonobehavior*), "OnApplicationPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: StandaloneMonobehavior::WhenReady
+// Writing MetadataGetter for method: GlobalNamespace::StandaloneMonobehavior::WhenReady
 // Il2CppName: WhenReady
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandaloneMonobehavior::*)(System::Action*)>(&StandaloneMonobehavior::WhenReady)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandaloneMonobehavior::*)(System::Action*)>(&GlobalNamespace::StandaloneMonobehavior::WhenReady)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandaloneMonobehavior*), "WhenReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandaloneMonobehavior*), "WhenReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: StandaloneMonobehavior::AfterOneFrame
+// Writing MetadataGetter for method: GlobalNamespace::StandaloneMonobehavior::AfterOneFrame
 // Il2CppName: AfterOneFrame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (StandaloneMonobehavior::*)(System::Action*)>(&StandaloneMonobehavior::AfterOneFrame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::StandaloneMonobehavior::*)(System::Action*)>(&GlobalNamespace::StandaloneMonobehavior::AfterOneFrame)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandaloneMonobehavior*), "AfterOneFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandaloneMonobehavior*), "AfterOneFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: StandaloneMonobehavior::Create
+// Writing MetadataGetter for method: GlobalNamespace::StandaloneMonobehavior::Create
 // Il2CppName: Create
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: StandaloneMonobehavior::RunAsync
+// Writing MetadataGetter for method: GlobalNamespace::StandaloneMonobehavior::RunAsync
 // Il2CppName: RunAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (StandaloneMonobehavior::*)(System::Threading::CancellationToken)>(&StandaloneMonobehavior::RunAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (GlobalNamespace::StandaloneMonobehavior::*)(System::Threading::CancellationToken)>(&GlobalNamespace::StandaloneMonobehavior::RunAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandaloneMonobehavior*), "RunAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandaloneMonobehavior*), "RunAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: StandaloneMonobehavior::RunAsyncCoroutine
+// Writing MetadataGetter for method: GlobalNamespace::StandaloneMonobehavior::RunAsyncCoroutine
 // Il2CppName: RunAsyncCoroutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (StandaloneMonobehavior::*)(System::Threading::Tasks::TaskCompletionSource_1<bool>*, System::Threading::CancellationToken)>(&StandaloneMonobehavior::RunAsyncCoroutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::StandaloneMonobehavior::*)(System::Threading::Tasks::TaskCompletionSource_1<bool>*, System::Threading::CancellationToken)>(&GlobalNamespace::StandaloneMonobehavior::RunAsyncCoroutine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandaloneMonobehavior*), "RunAsyncCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::TaskCompletionSource_1<bool>*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandaloneMonobehavior*), "RunAsyncCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::TaskCompletionSource_1<bool>*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: StandaloneMonobehavior::GetLastFrameTime
+// Writing MetadataGetter for method: GlobalNamespace::StandaloneMonobehavior::GetLastFrameTime
 // Il2CppName: GetLastFrameTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (StandaloneMonobehavior::*)()>(&StandaloneMonobehavior::GetLastFrameTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::StandaloneMonobehavior::*)()>(&GlobalNamespace::StandaloneMonobehavior::GetLastFrameTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandaloneMonobehavior*), "GetLastFrameTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandaloneMonobehavior*), "GetLastFrameTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandaloneMonobehavior::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::StandaloneMonobehavior::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandaloneMonobehavior::*)()>(&StandaloneMonobehavior::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandaloneMonobehavior::*)()>(&GlobalNamespace::StandaloneMonobehavior::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandaloneMonobehavior*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandaloneMonobehavior*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandaloneMonobehavior::*)()>(&StandaloneMonobehavior::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandaloneMonobehavior::*)()>(&GlobalNamespace::StandaloneMonobehavior::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandaloneMonobehavior*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandaloneMonobehavior*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

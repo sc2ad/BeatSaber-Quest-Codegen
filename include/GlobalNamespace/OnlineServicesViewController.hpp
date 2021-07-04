@@ -89,57 +89,57 @@ namespace GlobalNamespace {
   static_assert(sizeof(OnlineServicesViewController) == 0x88);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OnlineServicesViewController*, "", "OnlineServicesViewController");
-// Writing MetadataGetter for method: OnlineServicesViewController::add_didFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::OnlineServicesViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServicesViewController::*)(System::Action_1<bool>*)>(&OnlineServicesViewController::add_didFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OnlineServicesViewController::*)(System::Action_1<bool>*)>(&GlobalNamespace::OnlineServicesViewController::add_didFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OnlineServicesViewController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OnlineServicesViewController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
   }
 };
-// Writing MetadataGetter for method: OnlineServicesViewController::remove_didFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::OnlineServicesViewController::remove_didFinishEvent
 // Il2CppName: remove_didFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServicesViewController::*)(System::Action_1<bool>*)>(&OnlineServicesViewController::remove_didFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OnlineServicesViewController::*)(System::Action_1<bool>*)>(&GlobalNamespace::OnlineServicesViewController::remove_didFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OnlineServicesViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OnlineServicesViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
   }
 };
-// Writing MetadataGetter for method: OnlineServicesViewController::$DidActivate$b__5_0
+// Writing MetadataGetter for method: GlobalNamespace::OnlineServicesViewController::$DidActivate$b__5_0
 // Il2CppName: <DidActivate>b__5_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServicesViewController::*)()>(&OnlineServicesViewController::$DidActivate$b__5_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OnlineServicesViewController::*)()>(&GlobalNamespace::OnlineServicesViewController::$DidActivate$b__5_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OnlineServicesViewController*), "<DidActivate>b__5_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OnlineServicesViewController*), "<DidActivate>b__5_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OnlineServicesViewController::$DidActivate$b__5_1
+// Writing MetadataGetter for method: GlobalNamespace::OnlineServicesViewController::$DidActivate$b__5_1
 // Il2CppName: <DidActivate>b__5_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServicesViewController::*)()>(&OnlineServicesViewController::$DidActivate$b__5_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OnlineServicesViewController::*)()>(&GlobalNamespace::OnlineServicesViewController::$DidActivate$b__5_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OnlineServicesViewController*), "<DidActivate>b__5_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OnlineServicesViewController*), "<DidActivate>b__5_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OnlineServicesViewController::DidActivate
+// Writing MetadataGetter for method: GlobalNamespace::OnlineServicesViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServicesViewController::*)(bool, bool, bool)>(&OnlineServicesViewController::DidActivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OnlineServicesViewController::*)(bool, bool, bool)>(&GlobalNamespace::OnlineServicesViewController::DidActivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OnlineServicesViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OnlineServicesViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: OnlineServicesViewController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::OnlineServicesViewController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServicesViewController::*)()>(&OnlineServicesViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OnlineServicesViewController::*)()>(&GlobalNamespace::OnlineServicesViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OnlineServicesViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OnlineServicesViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServicesViewController::*)()>(&OnlineServicesViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OnlineServicesViewController::*)()>(&GlobalNamespace::OnlineServicesViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OnlineServicesViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OnlineServicesViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

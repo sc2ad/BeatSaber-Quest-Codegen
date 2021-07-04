@@ -75,73 +75,73 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerIntroCountdownTextController) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerIntroCountdownTextController*, "", "MultiplayerIntroCountdownTextController");
-// Writing MetadataGetter for method: MultiplayerIntroCountdownTextController::SetText
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdownTextController::SetText
 // Il2CppName: SetText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerIntroCountdownTextController::*)(::Il2CppString*)>(&MultiplayerIntroCountdownTextController::SetText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerIntroCountdownTextController::*)(::Il2CppString*)>(&GlobalNamespace::MultiplayerIntroCountdownTextController::SetText)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroCountdownTextController*), "SetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerIntroCountdownTextController*), "SetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerIntroCountdownTextController::SetDistances
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdownTextController::SetDistances
 // Il2CppName: SetDistances
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerIntroCountdownTextController::*)(float)>(&MultiplayerIntroCountdownTextController::SetDistances)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerIntroCountdownTextController::*)(float)>(&GlobalNamespace::MultiplayerIntroCountdownTextController::SetDistances)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroCountdownTextController*), "SetDistances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerIntroCountdownTextController*), "SetDistances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerIntroCountdownTextController::set_hide
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdownTextController::set_hide
 // Il2CppName: set_hide
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerIntroCountdownTextController::*)(bool)>(&MultiplayerIntroCountdownTextController::set_hide)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerIntroCountdownTextController::*)(bool)>(&GlobalNamespace::MultiplayerIntroCountdownTextController::set_hide)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroCountdownTextController*), "set_hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerIntroCountdownTextController*), "set_hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerIntroCountdownTextController::set_fontSize
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdownTextController::set_fontSize
 // Il2CppName: set_fontSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerIntroCountdownTextController::*)(float)>(&MultiplayerIntroCountdownTextController::set_fontSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerIntroCountdownTextController::*)(float)>(&GlobalNamespace::MultiplayerIntroCountdownTextController::set_fontSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroCountdownTextController*), "set_fontSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerIntroCountdownTextController*), "set_fontSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerIntroCountdownTextController::get_fontSize
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdownTextController::get_fontSize
 // Il2CppName: get_fontSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (MultiplayerIntroCountdownTextController::*)()>(&MultiplayerIntroCountdownTextController::get_fontSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MultiplayerIntroCountdownTextController::*)()>(&GlobalNamespace::MultiplayerIntroCountdownTextController::get_fontSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroCountdownTextController*), "get_fontSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerIntroCountdownTextController*), "get_fontSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerIntroCountdownTextController::set_alpha
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdownTextController::set_alpha
 // Il2CppName: set_alpha
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerIntroCountdownTextController::*)(float)>(&MultiplayerIntroCountdownTextController::set_alpha)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerIntroCountdownTextController::*)(float)>(&GlobalNamespace::MultiplayerIntroCountdownTextController::set_alpha)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroCountdownTextController*), "set_alpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerIntroCountdownTextController*), "set_alpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerIntroCountdownTextController::get_alpha
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdownTextController::get_alpha
 // Il2CppName: get_alpha
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (MultiplayerIntroCountdownTextController::*)()>(&MultiplayerIntroCountdownTextController::get_alpha)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MultiplayerIntroCountdownTextController::*)()>(&GlobalNamespace::MultiplayerIntroCountdownTextController::get_alpha)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroCountdownTextController*), "get_alpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerIntroCountdownTextController*), "get_alpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerIntroCountdownTextController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdownTextController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerIntroCountdownTextController::*)()>(&MultiplayerIntroCountdownTextController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerIntroCountdownTextController::*)()>(&GlobalNamespace::MultiplayerIntroCountdownTextController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroCountdownTextController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerIntroCountdownTextController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerIntroCountdownTextController::*)()>(&MultiplayerIntroCountdownTextController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerIntroCountdownTextController::*)()>(&GlobalNamespace::MultiplayerIntroCountdownTextController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerIntroCountdownTextController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerIntroCountdownTextController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

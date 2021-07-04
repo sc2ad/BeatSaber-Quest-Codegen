@@ -55,33 +55,33 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UserCertificateValidator*, "", "UserCertificateValidator");
-// Writing MetadataGetter for method: UserCertificateValidator::ValidateCertificateChain
+// Writing MetadataGetter for method: GlobalNamespace::UserCertificateValidator::ValidateCertificateChain
 // Il2CppName: ValidateCertificateChain
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserCertificateValidator::*)(GlobalNamespace::MasterServerEndPoint*, System::Security::Cryptography::X509Certificates::X509Certificate2*, ::Array<::Array<uint8_t>*>*)>(&UserCertificateValidator::ValidateCertificateChain)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UserCertificateValidator::*)(GlobalNamespace::MasterServerEndPoint*, System::Security::Cryptography::X509Certificates::X509Certificate2*, ::Array<::Array<uint8_t>*>*)>(&GlobalNamespace::UserCertificateValidator::ValidateCertificateChain)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserCertificateValidator*), "ValidateCertificateChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MasterServerEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate2*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Array<uint8_t>*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UserCertificateValidator*), "ValidateCertificateChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MasterServerEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate2*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Array<uint8_t>*>*>()});
   }
 };
-// Writing MetadataGetter for method: UserCertificateValidator::ValidateCertificateChainInternal
+// Writing MetadataGetter for method: GlobalNamespace::UserCertificateValidator::ValidateCertificateChainInternal
 // Il2CppName: ValidateCertificateChainInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserCertificateValidator::*)(GlobalNamespace::MasterServerEndPoint*, System::Security::Cryptography::X509Certificates::X509Certificate2*, ::Array<::Array<uint8_t>*>*)>(&UserCertificateValidator::ValidateCertificateChainInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UserCertificateValidator::*)(GlobalNamespace::MasterServerEndPoint*, System::Security::Cryptography::X509Certificates::X509Certificate2*, ::Array<::Array<uint8_t>*>*)>(&GlobalNamespace::UserCertificateValidator::ValidateCertificateChainInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserCertificateValidator*), "ValidateCertificateChainInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MasterServerEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate2*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Array<uint8_t>*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UserCertificateValidator*), "ValidateCertificateChainInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MasterServerEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate2*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Array<uint8_t>*>*>()});
   }
 };
-// Writing MetadataGetter for method: UserCertificateValidator::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::UserCertificateValidator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserCertificateValidator::*)()>(&UserCertificateValidator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UserCertificateValidator::*)()>(&GlobalNamespace::UserCertificateValidator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserCertificateValidator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UserCertificateValidator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserCertificateValidator::*)()>(&UserCertificateValidator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UserCertificateValidator::*)()>(&GlobalNamespace::UserCertificateValidator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserCertificateValidator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UserCertificateValidator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

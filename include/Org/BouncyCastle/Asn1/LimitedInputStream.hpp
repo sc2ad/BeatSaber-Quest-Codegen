@@ -59,33 +59,33 @@ namespace Org::BouncyCastle::Asn1 {
   static_assert(sizeof(LimitedInputStream) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::LimitedInputStream*, "Org.BouncyCastle.Asn1", "LimitedInputStream");
-// Writing MetadataGetter for method: LimitedInputStream::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::LimitedInputStream::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LimitedInputStream::*)(System::IO::Stream*, int)>(&LimitedInputStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::LimitedInputStream::*)(System::IO::Stream*, int)>(&Org::BouncyCastle::Asn1::LimitedInputStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LimitedInputStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::LimitedInputStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LimitedInputStream::*)(System::IO::Stream*, int)>(&LimitedInputStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::LimitedInputStream::*)(System::IO::Stream*, int)>(&Org::BouncyCastle::Asn1::LimitedInputStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LimitedInputStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::LimitedInputStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LimitedInputStream::get_Limit
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::LimitedInputStream::get_Limit
 // Il2CppName: get_Limit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LimitedInputStream::*)()>(&LimitedInputStream::get_Limit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Asn1::LimitedInputStream::*)()>(&Org::BouncyCastle::Asn1::LimitedInputStream::get_Limit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LimitedInputStream*), "get_Limit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::LimitedInputStream*), "get_Limit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LimitedInputStream::SetParentEofDetect
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::LimitedInputStream::SetParentEofDetect
 // Il2CppName: SetParentEofDetect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LimitedInputStream::*)(bool)>(&LimitedInputStream::SetParentEofDetect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::LimitedInputStream::*)(bool)>(&Org::BouncyCastle::Asn1::LimitedInputStream::SetParentEofDetect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LimitedInputStream*), "SetParentEofDetect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::LimitedInputStream*), "SetParentEofDetect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };

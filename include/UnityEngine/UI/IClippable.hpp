@@ -49,51 +49,51 @@ namespace UnityEngine::UI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::IClippable*, "UnityEngine.UI", "IClippable");
-// Writing MetadataGetter for method: IClippable::get_gameObject
+// Writing MetadataGetter for method: UnityEngine::UI::IClippable::get_gameObject
 // Il2CppName: get_gameObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (IClippable::*)()>(&IClippable::get_gameObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (UnityEngine::UI::IClippable::*)()>(&UnityEngine::UI::IClippable::get_gameObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IClippable*), "get_gameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::IClippable*), "get_gameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IClippable::RecalculateClipping
+// Writing MetadataGetter for method: UnityEngine::UI::IClippable::RecalculateClipping
 // Il2CppName: RecalculateClipping
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IClippable::*)()>(&IClippable::RecalculateClipping)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::IClippable::*)()>(&UnityEngine::UI::IClippable::RecalculateClipping)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IClippable*), "RecalculateClipping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::IClippable*), "RecalculateClipping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IClippable::get_rectTransform
+// Writing MetadataGetter for method: UnityEngine::UI::IClippable::get_rectTransform
 // Il2CppName: get_rectTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (IClippable::*)()>(&IClippable::get_rectTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (UnityEngine::UI::IClippable::*)()>(&UnityEngine::UI::IClippable::get_rectTransform)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IClippable*), "get_rectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::IClippable*), "get_rectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IClippable::Cull
+// Writing MetadataGetter for method: UnityEngine::UI::IClippable::Cull
 // Il2CppName: Cull
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IClippable::*)(UnityEngine::Rect, bool)>(&IClippable::Cull)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::IClippable::*)(UnityEngine::Rect, bool)>(&UnityEngine::UI::IClippable::Cull)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IClippable*), "Cull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::IClippable*), "Cull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: IClippable::SetClipRect
+// Writing MetadataGetter for method: UnityEngine::UI::IClippable::SetClipRect
 // Il2CppName: SetClipRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IClippable::*)(UnityEngine::Rect, bool)>(&IClippable::SetClipRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::IClippable::*)(UnityEngine::Rect, bool)>(&UnityEngine::UI::IClippable::SetClipRect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IClippable*), "SetClipRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::IClippable*), "SetClipRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: IClippable::SetClipSoftness
+// Writing MetadataGetter for method: UnityEngine::UI::IClippable::SetClipSoftness
 // Il2CppName: SetClipSoftness
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IClippable::*)(UnityEngine::Vector2)>(&IClippable::SetClipSoftness)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::IClippable::*)(UnityEngine::Vector2)>(&UnityEngine::UI::IClippable::SetClipSoftness)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IClippable*), "SetClipSoftness", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::IClippable*), "SetClipSoftness", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
   }
 };

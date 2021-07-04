@@ -78,49 +78,49 @@ namespace Org::BouncyCastle::Math::EC {
   static_assert(sizeof(ECCurve::DefaultLookupTable) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable*, "Org.BouncyCastle.Math.EC", "ECCurve/DefaultLookupTable");
-// Writing MetadataGetter for method: ECCurve::DefaultLookupTable::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ECCurve::DefaultLookupTable::*)(Org::BouncyCastle::Math::EC::ECCurve*, ::Array<uint8_t>*, int)>(&ECCurve::DefaultLookupTable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable::*)(Org::BouncyCastle::Math::EC::ECCurve*, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECCurve::DefaultLookupTable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECCurve*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECCurve*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ECCurve::DefaultLookupTable::*)(Org::BouncyCastle::Math::EC::ECCurve*, ::Array<uint8_t>*, int)>(&ECCurve::DefaultLookupTable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable::*)(Org::BouncyCastle::Math::EC::ECCurve*, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECCurve::DefaultLookupTable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECCurve*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECCurve*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ECCurve::DefaultLookupTable::CreatePoint
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable::CreatePoint
 // Il2CppName: CreatePoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (ECCurve::DefaultLookupTable::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&ECCurve::DefaultLookupTable::CreatePoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable::CreatePoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECCurve::DefaultLookupTable*), "CreatePoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable*), "CreatePoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: ECCurve::DefaultLookupTable::get_Size
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable::get_Size
 // Il2CppName: get_Size
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ECCurve::DefaultLookupTable::*)()>(&ECCurve::DefaultLookupTable::get_Size)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable::*)()>(&Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable::get_Size)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECCurve::DefaultLookupTable*), "get_Size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable*), "get_Size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ECCurve::DefaultLookupTable::Lookup
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable::Lookup
 // Il2CppName: Lookup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (ECCurve::DefaultLookupTable::*)(int)>(&ECCurve::DefaultLookupTable::Lookup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable::*)(int)>(&Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable::Lookup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECCurve::DefaultLookupTable*), "Lookup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable*), "Lookup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ECCurve::DefaultLookupTable::LookupVar
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable::LookupVar
 // Il2CppName: LookupVar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (ECCurve::DefaultLookupTable::*)(int)>(&ECCurve::DefaultLookupTable::LookupVar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable::*)(int)>(&Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable::LookupVar)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ECCurve::DefaultLookupTable*), "LookupVar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECCurve::DefaultLookupTable*), "LookupVar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };

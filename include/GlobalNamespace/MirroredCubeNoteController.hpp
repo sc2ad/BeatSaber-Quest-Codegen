@@ -124,65 +124,65 @@ namespace GlobalNamespace {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirroredCubeNoteController*, "", "MirroredCubeNoteController");
-// Writing MetadataGetter for method: MirroredCubeNoteController::add_cubeNoteControllerDidInitEvent
+// Writing MetadataGetter for method: GlobalNamespace::MirroredCubeNoteController::add_cubeNoteControllerDidInitEvent
 // Il2CppName: add_cubeNoteControllerDidInitEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirroredCubeNoteController::*)(System::Action_1<GlobalNamespace::MirroredCubeNoteController*>*)>(&MirroredCubeNoteController::add_cubeNoteControllerDidInitEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MirroredCubeNoteController::*)(System::Action_1<GlobalNamespace::MirroredCubeNoteController*>*)>(&GlobalNamespace::MirroredCubeNoteController::add_cubeNoteControllerDidInitEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MirroredCubeNoteController*), "add_cubeNoteControllerDidInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MirroredCubeNoteController*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredCubeNoteController*), "add_cubeNoteControllerDidInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MirroredCubeNoteController*>*>()});
   }
 };
-// Writing MetadataGetter for method: MirroredCubeNoteController::remove_cubeNoteControllerDidInitEvent
+// Writing MetadataGetter for method: GlobalNamespace::MirroredCubeNoteController::remove_cubeNoteControllerDidInitEvent
 // Il2CppName: remove_cubeNoteControllerDidInitEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirroredCubeNoteController::*)(System::Action_1<GlobalNamespace::MirroredCubeNoteController*>*)>(&MirroredCubeNoteController::remove_cubeNoteControllerDidInitEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MirroredCubeNoteController::*)(System::Action_1<GlobalNamespace::MirroredCubeNoteController*>*)>(&GlobalNamespace::MirroredCubeNoteController::remove_cubeNoteControllerDidInitEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MirroredCubeNoteController*), "remove_cubeNoteControllerDidInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MirroredCubeNoteController*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredCubeNoteController*), "remove_cubeNoteControllerDidInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::MirroredCubeNoteController*>*>()});
   }
 };
-// Writing MetadataGetter for method: MirroredCubeNoteController::get_noteMovement
+// Writing MetadataGetter for method: GlobalNamespace::MirroredCubeNoteController::get_noteMovement
 // Il2CppName: get_noteMovement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteMovement* (MirroredCubeNoteController::*)()>(&MirroredCubeNoteController::get_noteMovement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteMovement* (GlobalNamespace::MirroredCubeNoteController::*)()>(&GlobalNamespace::MirroredCubeNoteController::get_noteMovement)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MirroredCubeNoteController*), "get_noteMovement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredCubeNoteController*), "get_noteMovement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MirroredCubeNoteController::get_gameNoteType
+// Writing MetadataGetter for method: GlobalNamespace::MirroredCubeNoteController::get_gameNoteType
 // Il2CppName: get_gameNoteType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameNoteController_GameNoteType (MirroredCubeNoteController::*)()>(&MirroredCubeNoteController::get_gameNoteType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameNoteController_GameNoteType (GlobalNamespace::MirroredCubeNoteController::*)()>(&GlobalNamespace::MirroredCubeNoteController::get_gameNoteType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MirroredCubeNoteController*), "get_gameNoteType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredCubeNoteController*), "get_gameNoteType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MirroredCubeNoteController::Mirror
+// Writing MetadataGetter for method: GlobalNamespace::MirroredCubeNoteController::Mirror
 // Il2CppName: Mirror
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirroredCubeNoteController::*)(GlobalNamespace::ICubeNoteMirrorable*)>(&MirroredCubeNoteController::Mirror)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MirroredCubeNoteController::*)(GlobalNamespace::ICubeNoteMirrorable*)>(&GlobalNamespace::MirroredCubeNoteController::Mirror)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MirroredCubeNoteController*), "Mirror", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ICubeNoteMirrorable*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredCubeNoteController*), "Mirror", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ICubeNoteMirrorable*>()});
   }
 };
-// Writing MetadataGetter for method: MirroredCubeNoteController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MirroredCubeNoteController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirroredCubeNoteController::*)()>(&MirroredCubeNoteController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MirroredCubeNoteController::*)()>(&GlobalNamespace::MirroredCubeNoteController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MirroredCubeNoteController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredCubeNoteController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MirroredCubeNoteController::*)()>(&MirroredCubeNoteController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MirroredCubeNoteController::*)()>(&GlobalNamespace::MirroredCubeNoteController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MirroredCubeNoteController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredCubeNoteController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MirroredCubeNoteController::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::MirroredCubeNoteController::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&MirroredCubeNoteController::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::MirroredCubeNoteController::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MirroredCubeNoteController*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredCubeNoteController*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

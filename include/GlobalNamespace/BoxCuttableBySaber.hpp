@@ -109,89 +109,89 @@ namespace GlobalNamespace {
   static_assert(sizeof(BoxCuttableBySaber) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BoxCuttableBySaber*, "", "BoxCuttableBySaber");
-// Writing MetadataGetter for method: BoxCuttableBySaber::set_colliderSize
+// Writing MetadataGetter for method: GlobalNamespace::BoxCuttableBySaber::set_colliderSize
 // Il2CppName: set_colliderSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BoxCuttableBySaber::*)(UnityEngine::Vector3)>(&BoxCuttableBySaber::set_colliderSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BoxCuttableBySaber::*)(UnityEngine::Vector3)>(&GlobalNamespace::BoxCuttableBySaber::set_colliderSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BoxCuttableBySaber*), "set_colliderSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BoxCuttableBySaber*), "set_colliderSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: BoxCuttableBySaber::get_colliderSize
+// Writing MetadataGetter for method: GlobalNamespace::BoxCuttableBySaber::get_colliderSize
 // Il2CppName: get_colliderSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (BoxCuttableBySaber::*)()>(&BoxCuttableBySaber::get_colliderSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::BoxCuttableBySaber::*)()>(&GlobalNamespace::BoxCuttableBySaber::get_colliderSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BoxCuttableBySaber*), "get_colliderSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BoxCuttableBySaber*), "get_colliderSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BoxCuttableBySaber::Awake
+// Writing MetadataGetter for method: GlobalNamespace::BoxCuttableBySaber::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BoxCuttableBySaber::*)()>(&BoxCuttableBySaber::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BoxCuttableBySaber::*)()>(&GlobalNamespace::BoxCuttableBySaber::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BoxCuttableBySaber*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BoxCuttableBySaber*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BoxCuttableBySaber::SetColliderCenterAndSize
+// Writing MetadataGetter for method: GlobalNamespace::BoxCuttableBySaber::SetColliderCenterAndSize
 // Il2CppName: SetColliderCenterAndSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BoxCuttableBySaber::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&BoxCuttableBySaber::SetColliderCenterAndSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BoxCuttableBySaber::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&GlobalNamespace::BoxCuttableBySaber::SetColliderCenterAndSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BoxCuttableBySaber*), "SetColliderCenterAndSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BoxCuttableBySaber*), "SetColliderCenterAndSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: BoxCuttableBySaber::RefreshRadius
+// Writing MetadataGetter for method: GlobalNamespace::BoxCuttableBySaber::RefreshRadius
 // Il2CppName: RefreshRadius
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BoxCuttableBySaber::*)()>(&BoxCuttableBySaber::RefreshRadius)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BoxCuttableBySaber::*)()>(&GlobalNamespace::BoxCuttableBySaber::RefreshRadius)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BoxCuttableBySaber*), "RefreshRadius", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BoxCuttableBySaber*), "RefreshRadius", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BoxCuttableBySaber::get_radius
+// Writing MetadataGetter for method: GlobalNamespace::BoxCuttableBySaber::get_radius
 // Il2CppName: get_radius
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BoxCuttableBySaber::*)()>(&BoxCuttableBySaber::get_radius)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BoxCuttableBySaber::*)()>(&GlobalNamespace::BoxCuttableBySaber::get_radius)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BoxCuttableBySaber*), "get_radius", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BoxCuttableBySaber*), "get_radius", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BoxCuttableBySaber::set_canBeCut
+// Writing MetadataGetter for method: GlobalNamespace::BoxCuttableBySaber::set_canBeCut
 // Il2CppName: set_canBeCut
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BoxCuttableBySaber::*)(bool)>(&BoxCuttableBySaber::set_canBeCut)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BoxCuttableBySaber::*)(bool)>(&GlobalNamespace::BoxCuttableBySaber::set_canBeCut)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BoxCuttableBySaber*), "set_canBeCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BoxCuttableBySaber*), "set_canBeCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: BoxCuttableBySaber::get_canBeCut
+// Writing MetadataGetter for method: GlobalNamespace::BoxCuttableBySaber::get_canBeCut
 // Il2CppName: get_canBeCut
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BoxCuttableBySaber::*)()>(&BoxCuttableBySaber::get_canBeCut)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BoxCuttableBySaber::*)()>(&GlobalNamespace::BoxCuttableBySaber::get_canBeCut)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BoxCuttableBySaber*), "get_canBeCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BoxCuttableBySaber*), "get_canBeCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BoxCuttableBySaber::Cut
+// Writing MetadataGetter for method: GlobalNamespace::BoxCuttableBySaber::Cut
 // Il2CppName: Cut
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BoxCuttableBySaber::*)(GlobalNamespace::Saber*, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Vector3)>(&BoxCuttableBySaber::Cut)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BoxCuttableBySaber::*)(GlobalNamespace::Saber*, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Vector3)>(&GlobalNamespace::BoxCuttableBySaber::Cut)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BoxCuttableBySaber*), "Cut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Saber*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BoxCuttableBySaber*), "Cut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Saber*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: BoxCuttableBySaber::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BoxCuttableBySaber::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BoxCuttableBySaber::*)()>(&BoxCuttableBySaber::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BoxCuttableBySaber::*)()>(&GlobalNamespace::BoxCuttableBySaber::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BoxCuttableBySaber*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BoxCuttableBySaber*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BoxCuttableBySaber::*)()>(&BoxCuttableBySaber::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BoxCuttableBySaber::*)()>(&GlobalNamespace::BoxCuttableBySaber::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BoxCuttableBySaber*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BoxCuttableBySaber*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

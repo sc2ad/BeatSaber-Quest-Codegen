@@ -40,35 +40,35 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ImageConversion*, "UnityEngine", "ImageConversion");
-// Writing MetadataGetter for method: ImageConversion::EncodeToPNG
+// Writing MetadataGetter for method: UnityEngine::ImageConversion::EncodeToPNG
 // Il2CppName: EncodeToPNG
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(UnityEngine::Texture2D*)>(&ImageConversion::EncodeToPNG)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(UnityEngine::Texture2D*)>(&UnityEngine::ImageConversion::EncodeToPNG)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ImageConversion*), "EncodeToPNG", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2D*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ImageConversion*), "EncodeToPNG", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2D*>()});
   }
 };
-// Writing MetadataGetter for method: ImageConversion::EncodeToJPG
+// Writing MetadataGetter for method: UnityEngine::ImageConversion::EncodeToJPG
 // Il2CppName: EncodeToJPG
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(UnityEngine::Texture2D*, int)>(&ImageConversion::EncodeToJPG)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(UnityEngine::Texture2D*, int)>(&UnityEngine::ImageConversion::EncodeToJPG)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ImageConversion*), "EncodeToJPG", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2D*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ImageConversion*), "EncodeToJPG", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2D*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ImageConversion::EncodeToJPG
+// Writing MetadataGetter for method: UnityEngine::ImageConversion::EncodeToJPG
 // Il2CppName: EncodeToJPG
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(UnityEngine::Texture2D*)>(&ImageConversion::EncodeToJPG)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(UnityEngine::Texture2D*)>(&UnityEngine::ImageConversion::EncodeToJPG)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ImageConversion*), "EncodeToJPG", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2D*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ImageConversion*), "EncodeToJPG", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2D*>()});
   }
 };
-// Writing MetadataGetter for method: ImageConversion::LoadImage
+// Writing MetadataGetter for method: UnityEngine::ImageConversion::LoadImage
 // Il2CppName: LoadImage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Texture2D*, ::Array<uint8_t>*, bool)>(&ImageConversion::LoadImage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Texture2D*, ::Array<uint8_t>*, bool)>(&UnityEngine::ImageConversion::LoadImage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ImageConversion*), "LoadImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2D*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ImageConversion*), "LoadImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2D*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };

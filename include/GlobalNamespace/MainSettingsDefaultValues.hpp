@@ -214,25 +214,25 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsDefaultValues*, "", "MainSettingsDefaultValues");
-// Writing MetadataGetter for method: MainSettingsDefaultValues::SetFixedDefaultValues
+// Writing MetadataGetter for method: GlobalNamespace::MainSettingsDefaultValues::SetFixedDefaultValues
 // Il2CppName: SetFixedDefaultValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::MainSettingsModelSO*)>(&MainSettingsDefaultValues::SetFixedDefaultValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::MainSettingsModelSO*)>(&GlobalNamespace::MainSettingsDefaultValues::SetFixedDefaultValues)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainSettingsDefaultValues*), "SetFixedDefaultValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MainSettingsModelSO*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsDefaultValues*), "SetFixedDefaultValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MainSettingsModelSO*>()});
   }
 };
-// Writing MetadataGetter for method: MainSettingsDefaultValues::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MainSettingsDefaultValues::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsDefaultValues::*)()>(&MainSettingsDefaultValues::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainSettingsDefaultValues::*)()>(&GlobalNamespace::MainSettingsDefaultValues::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainSettingsDefaultValues*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsDefaultValues*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MainSettingsDefaultValues::*)()>(&MainSettingsDefaultValues::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainSettingsDefaultValues::*)()>(&GlobalNamespace::MainSettingsDefaultValues::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MainSettingsDefaultValues*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsDefaultValues*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

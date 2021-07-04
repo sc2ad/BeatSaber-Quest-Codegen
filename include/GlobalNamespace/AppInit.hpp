@@ -128,97 +128,97 @@ namespace GlobalNamespace {
   static_assert(sizeof(AppInit) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppInit*, "", "AppInit");
-// Writing MetadataGetter for method: AppInit::get_gameScenesManager
+// Writing MetadataGetter for method: GlobalNamespace::AppInit::get_gameScenesManager
 // Il2CppName: get_gameScenesManager
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameScenesManager* (AppInit::*)()>(&AppInit::get_gameScenesManager)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameScenesManager* (GlobalNamespace::AppInit::*)()>(&GlobalNamespace::AppInit::get_gameScenesManager)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppInit*), "get_gameScenesManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AppInit*), "get_gameScenesManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AppInit::StartCoroutine
+// Writing MetadataGetter for method: GlobalNamespace::AppInit::StartCoroutine
 // Il2CppName: StartCoroutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (AppInit::*)()>(&AppInit::StartCoroutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::AppInit::*)()>(&GlobalNamespace::AppInit::StartCoroutine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppInit*), "StartCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AppInit*), "StartCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AppInit::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::AppInit::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppInit::*)()>(&AppInit::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AppInit::*)()>(&GlobalNamespace::AppInit::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppInit*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AppInit*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AppInit::HandleBeforeDismissingScenes
+// Writing MetadataGetter for method: GlobalNamespace::AppInit::HandleBeforeDismissingScenes
 // Il2CppName: HandleBeforeDismissingScenes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppInit::*)()>(&AppInit::HandleBeforeDismissingScenes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AppInit::*)()>(&GlobalNamespace::AppInit::HandleBeforeDismissingScenes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppInit*), "HandleBeforeDismissingScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AppInit*), "HandleBeforeDismissingScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AppInit::GetMockPlayersModel
+// Writing MetadataGetter for method: GlobalNamespace::AppInit::GetMockPlayersModel
 // Il2CppName: GetMockPlayersModel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockPlayersModel* (AppInit::*)()>(&AppInit::GetMockPlayersModel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockPlayersModel* (GlobalNamespace::AppInit::*)()>(&GlobalNamespace::AppInit::GetMockPlayersModel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppInit*), "GetMockPlayersModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AppInit*), "GetMockPlayersModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AppInit::GetAppStartType
+// Writing MetadataGetter for method: GlobalNamespace::AppInit::GetAppStartType
 // Il2CppName: GetAppStartType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AppInit::AppStartType (AppInit::*)()>(&AppInit::GetAppStartType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AppInit::AppStartType (GlobalNamespace::AppInit::*)()>(&GlobalNamespace::AppInit::GetAppStartType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppInit*), "GetAppStartType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AppInit*), "GetAppStartType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AppInit::AppStartAndMultiSceneEditorSetup
+// Writing MetadataGetter for method: GlobalNamespace::AppInit::AppStartAndMultiSceneEditorSetup
 // Il2CppName: AppStartAndMultiSceneEditorSetup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppInit::*)()>(&AppInit::AppStartAndMultiSceneEditorSetup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AppInit::*)()>(&GlobalNamespace::AppInit::AppStartAndMultiSceneEditorSetup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppInit*), "AppStartAndMultiSceneEditorSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AppInit*), "AppStartAndMultiSceneEditorSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AppInit::RepeatableSetup
+// Writing MetadataGetter for method: GlobalNamespace::AppInit::RepeatableSetup
 // Il2CppName: RepeatableSetup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppInit::*)()>(&AppInit::RepeatableSetup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AppInit::*)()>(&GlobalNamespace::AppInit::RepeatableSetup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppInit*), "RepeatableSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AppInit*), "RepeatableSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AppInit::TransitionToNextScene
+// Writing MetadataGetter for method: GlobalNamespace::AppInit::TransitionToNextScene
 // Il2CppName: TransitionToNextScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppInit::*)()>(&AppInit::TransitionToNextScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AppInit::*)()>(&GlobalNamespace::AppInit::TransitionToNextScene)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppInit*), "TransitionToNextScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AppInit*), "TransitionToNextScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AppInit::Start
+// Writing MetadataGetter for method: GlobalNamespace::AppInit::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppInit::*)()>(&AppInit::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AppInit::*)()>(&GlobalNamespace::AppInit::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppInit*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AppInit*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AppInit::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::AppInit::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppInit::*)()>(&AppInit::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AppInit::*)()>(&GlobalNamespace::AppInit::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AppInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AppInit::*)()>(&AppInit::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AppInit::*)()>(&GlobalNamespace::AppInit::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AppInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AppInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

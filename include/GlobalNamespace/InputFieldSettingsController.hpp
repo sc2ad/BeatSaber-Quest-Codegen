@@ -77,49 +77,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(InputFieldSettingsController) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::InputFieldSettingsController*, "", "InputFieldSettingsController");
-// Writing MetadataGetter for method: InputFieldSettingsController::Awake
+// Writing MetadataGetter for method: GlobalNamespace::InputFieldSettingsController::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputFieldSettingsController::*)()>(&InputFieldSettingsController::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::InputFieldSettingsController::*)()>(&GlobalNamespace::InputFieldSettingsController::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputFieldSettingsController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::InputFieldSettingsController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InputFieldSettingsController::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::InputFieldSettingsController::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputFieldSettingsController::*)()>(&InputFieldSettingsController::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::InputFieldSettingsController::*)()>(&GlobalNamespace::InputFieldSettingsController::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputFieldSettingsController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::InputFieldSettingsController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InputFieldSettingsController::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::InputFieldSettingsController::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputFieldSettingsController::*)()>(&InputFieldSettingsController::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::InputFieldSettingsController::*)()>(&GlobalNamespace::InputFieldSettingsController::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputFieldSettingsController*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::InputFieldSettingsController*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InputFieldSettingsController::HandleInputFieldDidChange
+// Writing MetadataGetter for method: GlobalNamespace::InputFieldSettingsController::HandleInputFieldDidChange
 // Il2CppName: HandleInputFieldDidChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputFieldSettingsController::*)(HMUI::InputFieldView*)>(&InputFieldSettingsController::HandleInputFieldDidChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::InputFieldSettingsController::*)(HMUI::InputFieldView*)>(&GlobalNamespace::InputFieldSettingsController::HandleInputFieldDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputFieldSettingsController*), "HandleInputFieldDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::InputFieldView*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::InputFieldSettingsController*), "HandleInputFieldDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::InputFieldView*>()});
   }
 };
-// Writing MetadataGetter for method: InputFieldSettingsController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::InputFieldSettingsController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputFieldSettingsController::*)()>(&InputFieldSettingsController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::InputFieldSettingsController::*)()>(&GlobalNamespace::InputFieldSettingsController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputFieldSettingsController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::InputFieldSettingsController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InputFieldSettingsController::*)()>(&InputFieldSettingsController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::InputFieldSettingsController::*)()>(&GlobalNamespace::InputFieldSettingsController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputFieldSettingsController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::InputFieldSettingsController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

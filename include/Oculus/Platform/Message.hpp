@@ -1541,705 +1541,705 @@ namespace Oculus::Platform {
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Message*, "Oculus.Platform", "Message");
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Message::MessageType, "Oculus.Platform", "Message/MessageType");
-// Writing MetadataGetter for method: Message::New_ctor
+// Writing MetadataGetter for method: Oculus::Platform::Message::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Message::*)(System::IntPtr)>(&Message::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::Message::*)(System::IntPtr)>(&Oculus::Platform::Message::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Message::*)(System::IntPtr)>(&Message::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::Message::*)(System::IntPtr)>(&Oculus::Platform::Message::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: Message::get_Type
+// Writing MetadataGetter for method: Oculus::Platform::Message::get_Type
 // Il2CppName: get_Type
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Message::MessageType (Message::*)()>(&Message::get_Type)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Message::MessageType (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::get_Type)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "get_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "get_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::get_IsError
+// Writing MetadataGetter for method: Oculus::Platform::Message::get_IsError
 // Il2CppName: get_IsError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Message::*)()>(&Message::get_IsError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::get_IsError)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "get_IsError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "get_IsError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::get_RequestID
+// Writing MetadataGetter for method: Oculus::Platform::Message::get_RequestID
 // Il2CppName: get_RequestID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (Message::*)()>(&Message::get_RequestID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::get_RequestID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "get_RequestID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "get_RequestID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetError
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetError
 // Il2CppName: GetError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::Error* (Message::*)()>(&Message::GetError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::Error* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetError)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetPingResult
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetPingResult
 // Il2CppName: GetPingResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::PingResult* (Message::*)()>(&Message::GetPingResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::PingResult* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetPingResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetPingResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetPingResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetNetworkingPeer
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetNetworkingPeer
 // Il2CppName: GetNetworkingPeer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::NetworkingPeer* (Message::*)()>(&Message::GetNetworkingPeer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::NetworkingPeer* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetNetworkingPeer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetNetworkingPeer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetNetworkingPeer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetHttpTransferUpdate
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetHttpTransferUpdate
 // Il2CppName: GetHttpTransferUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::HttpTransferUpdate* (Message::*)()>(&Message::GetHttpTransferUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::HttpTransferUpdate* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetHttpTransferUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetHttpTransferUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetHttpTransferUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetPlatformInitialize
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetPlatformInitialize
 // Il2CppName: GetPlatformInitialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::PlatformInitialize* (Message::*)()>(&Message::GetPlatformInitialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::PlatformInitialize* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetPlatformInitialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetPlatformInitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetPlatformInitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetAbuseReportRecording
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetAbuseReportRecording
 // Il2CppName: GetAbuseReportRecording
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AbuseReportRecording* (Message::*)()>(&Message::GetAbuseReportRecording)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AbuseReportRecording* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetAbuseReportRecording)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetAbuseReportRecording", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetAbuseReportRecording", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetAchievementDefinitions
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetAchievementDefinitions
 // Il2CppName: GetAchievementDefinitions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AchievementDefinitionList* (Message::*)()>(&Message::GetAchievementDefinitions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AchievementDefinitionList* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetAchievementDefinitions)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetAchievementDefinitions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetAchievementDefinitions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetAchievementProgressList
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetAchievementProgressList
 // Il2CppName: GetAchievementProgressList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AchievementProgressList* (Message::*)()>(&Message::GetAchievementProgressList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AchievementProgressList* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetAchievementProgressList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetAchievementProgressList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetAchievementProgressList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetAchievementUpdate
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetAchievementUpdate
 // Il2CppName: GetAchievementUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AchievementUpdate* (Message::*)()>(&Message::GetAchievementUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AchievementUpdate* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetAchievementUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetAchievementUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetAchievementUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetApplicationVersion
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetApplicationVersion
 // Il2CppName: GetApplicationVersion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::ApplicationVersion* (Message::*)()>(&Message::GetApplicationVersion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::ApplicationVersion* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetApplicationVersion)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetApplicationVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetApplicationVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetAssetDetails
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetAssetDetails
 // Il2CppName: GetAssetDetails
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AssetDetails* (Message::*)()>(&Message::GetAssetDetails)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AssetDetails* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetAssetDetails)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetAssetDetails", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetAssetDetails", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetAssetDetailsList
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetAssetDetailsList
 // Il2CppName: GetAssetDetailsList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AssetDetailsList* (Message::*)()>(&Message::GetAssetDetailsList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AssetDetailsList* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetAssetDetailsList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetAssetDetailsList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetAssetDetailsList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetAssetFileDeleteResult
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetAssetFileDeleteResult
 // Il2CppName: GetAssetFileDeleteResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AssetFileDeleteResult* (Message::*)()>(&Message::GetAssetFileDeleteResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AssetFileDeleteResult* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetAssetFileDeleteResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetAssetFileDeleteResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetAssetFileDeleteResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetAssetFileDownloadCancelResult
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetAssetFileDownloadCancelResult
 // Il2CppName: GetAssetFileDownloadCancelResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AssetFileDownloadCancelResult* (Message::*)()>(&Message::GetAssetFileDownloadCancelResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AssetFileDownloadCancelResult* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetAssetFileDownloadCancelResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetAssetFileDownloadCancelResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetAssetFileDownloadCancelResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetAssetFileDownloadResult
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetAssetFileDownloadResult
 // Il2CppName: GetAssetFileDownloadResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AssetFileDownloadResult* (Message::*)()>(&Message::GetAssetFileDownloadResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AssetFileDownloadResult* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetAssetFileDownloadResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetAssetFileDownloadResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetAssetFileDownloadResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetAssetFileDownloadUpdate
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetAssetFileDownloadUpdate
 // Il2CppName: GetAssetFileDownloadUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AssetFileDownloadUpdate* (Message::*)()>(&Message::GetAssetFileDownloadUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AssetFileDownloadUpdate* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetAssetFileDownloadUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetAssetFileDownloadUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetAssetFileDownloadUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetCalApplicationFinalized
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetCalApplicationFinalized
 // Il2CppName: GetCalApplicationFinalized
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CalApplicationFinalized* (Message::*)()>(&Message::GetCalApplicationFinalized)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CalApplicationFinalized* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetCalApplicationFinalized)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetCalApplicationFinalized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetCalApplicationFinalized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetCalApplicationProposed
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetCalApplicationProposed
 // Il2CppName: GetCalApplicationProposed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CalApplicationProposed* (Message::*)()>(&Message::GetCalApplicationProposed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CalApplicationProposed* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetCalApplicationProposed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetCalApplicationProposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetCalApplicationProposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetCalApplicationSuggestionList
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetCalApplicationSuggestionList
 // Il2CppName: GetCalApplicationSuggestionList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CalApplicationSuggestionList* (Message::*)()>(&Message::GetCalApplicationSuggestionList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CalApplicationSuggestionList* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetCalApplicationSuggestionList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetCalApplicationSuggestionList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetCalApplicationSuggestionList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetChallenge
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetChallenge
 // Il2CppName: GetChallenge
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::Challenge* (Message::*)()>(&Message::GetChallenge)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::Challenge* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetChallenge)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetChallenge", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetChallenge", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetChallengeEntryList
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetChallengeEntryList
 // Il2CppName: GetChallengeEntryList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::ChallengeEntryList* (Message::*)()>(&Message::GetChallengeEntryList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::ChallengeEntryList* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetChallengeEntryList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetChallengeEntryList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetChallengeEntryList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetChallengeList
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetChallengeList
 // Il2CppName: GetChallengeList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::ChallengeList* (Message::*)()>(&Message::GetChallengeList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::ChallengeList* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetChallengeList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetChallengeList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetChallengeList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetCloudStorageConflictMetadata
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetCloudStorageConflictMetadata
 // Il2CppName: GetCloudStorageConflictMetadata
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CloudStorageConflictMetadata* (Message::*)()>(&Message::GetCloudStorageConflictMetadata)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CloudStorageConflictMetadata* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetCloudStorageConflictMetadata)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetCloudStorageConflictMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetCloudStorageConflictMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetCloudStorageData
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetCloudStorageData
 // Il2CppName: GetCloudStorageData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CloudStorageData* (Message::*)()>(&Message::GetCloudStorageData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CloudStorageData* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetCloudStorageData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetCloudStorageData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetCloudStorageData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetCloudStorageMetadata
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetCloudStorageMetadata
 // Il2CppName: GetCloudStorageMetadata
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CloudStorageMetadata* (Message::*)()>(&Message::GetCloudStorageMetadata)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CloudStorageMetadata* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetCloudStorageMetadata)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetCloudStorageMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetCloudStorageMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetCloudStorageMetadataList
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetCloudStorageMetadataList
 // Il2CppName: GetCloudStorageMetadataList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CloudStorageMetadataList* (Message::*)()>(&Message::GetCloudStorageMetadataList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CloudStorageMetadataList* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetCloudStorageMetadataList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetCloudStorageMetadataList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetCloudStorageMetadataList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetCloudStorageUpdateResponse
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetCloudStorageUpdateResponse
 // Il2CppName: GetCloudStorageUpdateResponse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CloudStorageUpdateResponse* (Message::*)()>(&Message::GetCloudStorageUpdateResponse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CloudStorageUpdateResponse* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetCloudStorageUpdateResponse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetCloudStorageUpdateResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetCloudStorageUpdateResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetDataStore
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetDataStore
 // Il2CppName: GetDataStore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* (Message::*)()>(&Message::GetDataStore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetDataStore)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetDestinationList
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetDestinationList
 // Il2CppName: GetDestinationList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::DestinationList* (Message::*)()>(&Message::GetDestinationList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::DestinationList* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetDestinationList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetDestinationList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetDestinationList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetGroupPresenceLeaveIntent
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetGroupPresenceLeaveIntent
 // Il2CppName: GetGroupPresenceLeaveIntent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::GroupPresenceLeaveIntent* (Message::*)()>(&Message::GetGroupPresenceLeaveIntent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::GroupPresenceLeaveIntent* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetGroupPresenceLeaveIntent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetGroupPresenceLeaveIntent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetGroupPresenceLeaveIntent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetInstalledApplicationList
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetInstalledApplicationList
 // Il2CppName: GetInstalledApplicationList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::InstalledApplicationList* (Message::*)()>(&Message::GetInstalledApplicationList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::InstalledApplicationList* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetInstalledApplicationList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetInstalledApplicationList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetInstalledApplicationList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetInvitePanelResultInfo
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetInvitePanelResultInfo
 // Il2CppName: GetInvitePanelResultInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::InvitePanelResultInfo* (Message::*)()>(&Message::GetInvitePanelResultInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::InvitePanelResultInfo* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetInvitePanelResultInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetInvitePanelResultInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetInvitePanelResultInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetLaunchBlockFlowResult
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetLaunchBlockFlowResult
 // Il2CppName: GetLaunchBlockFlowResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LaunchBlockFlowResult* (Message::*)()>(&Message::GetLaunchBlockFlowResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LaunchBlockFlowResult* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetLaunchBlockFlowResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetLaunchBlockFlowResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetLaunchBlockFlowResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetLaunchFriendRequestFlowResult
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetLaunchFriendRequestFlowResult
 // Il2CppName: GetLaunchFriendRequestFlowResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LaunchFriendRequestFlowResult* (Message::*)()>(&Message::GetLaunchFriendRequestFlowResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LaunchFriendRequestFlowResult* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetLaunchFriendRequestFlowResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetLaunchFriendRequestFlowResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetLaunchFriendRequestFlowResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetLaunchInvitePanelFlowResult
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetLaunchInvitePanelFlowResult
 // Il2CppName: GetLaunchInvitePanelFlowResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LaunchInvitePanelFlowResult* (Message::*)()>(&Message::GetLaunchInvitePanelFlowResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LaunchInvitePanelFlowResult* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetLaunchInvitePanelFlowResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetLaunchInvitePanelFlowResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetLaunchInvitePanelFlowResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetLaunchReportFlowResult
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetLaunchReportFlowResult
 // Il2CppName: GetLaunchReportFlowResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LaunchReportFlowResult* (Message::*)()>(&Message::GetLaunchReportFlowResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LaunchReportFlowResult* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetLaunchReportFlowResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetLaunchReportFlowResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetLaunchReportFlowResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetLaunchUnblockFlowResult
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetLaunchUnblockFlowResult
 // Il2CppName: GetLaunchUnblockFlowResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LaunchUnblockFlowResult* (Message::*)()>(&Message::GetLaunchUnblockFlowResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LaunchUnblockFlowResult* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetLaunchUnblockFlowResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetLaunchUnblockFlowResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetLaunchUnblockFlowResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetLeaderboardDidUpdate
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetLeaderboardDidUpdate
 // Il2CppName: GetLeaderboardDidUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Message::*)()>(&Message::GetLeaderboardDidUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetLeaderboardDidUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetLeaderboardDidUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetLeaderboardDidUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetLeaderboardEntryList
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetLeaderboardEntryList
 // Il2CppName: GetLeaderboardEntryList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LeaderboardEntryList* (Message::*)()>(&Message::GetLeaderboardEntryList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LeaderboardEntryList* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetLeaderboardEntryList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetLeaderboardEntryList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetLeaderboardEntryList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetLeaderboardList
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetLeaderboardList
 // Il2CppName: GetLeaderboardList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LeaderboardList* (Message::*)()>(&Message::GetLeaderboardList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LeaderboardList* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetLeaderboardList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetLeaderboardList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetLeaderboardList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetLinkedAccountList
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetLinkedAccountList
 // Il2CppName: GetLinkedAccountList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LinkedAccountList* (Message::*)()>(&Message::GetLinkedAccountList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LinkedAccountList* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetLinkedAccountList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetLinkedAccountList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetLinkedAccountList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetLivestreamingApplicationStatus
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetLivestreamingApplicationStatus
 // Il2CppName: GetLivestreamingApplicationStatus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LivestreamingApplicationStatus* (Message::*)()>(&Message::GetLivestreamingApplicationStatus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LivestreamingApplicationStatus* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetLivestreamingApplicationStatus)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetLivestreamingApplicationStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetLivestreamingApplicationStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetLivestreamingStartResult
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetLivestreamingStartResult
 // Il2CppName: GetLivestreamingStartResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LivestreamingStartResult* (Message::*)()>(&Message::GetLivestreamingStartResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LivestreamingStartResult* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetLivestreamingStartResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetLivestreamingStartResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetLivestreamingStartResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetLivestreamingStatus
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetLivestreamingStatus
 // Il2CppName: GetLivestreamingStatus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LivestreamingStatus* (Message::*)()>(&Message::GetLivestreamingStatus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LivestreamingStatus* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetLivestreamingStatus)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetLivestreamingStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetLivestreamingStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetLivestreamingVideoStats
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetLivestreamingVideoStats
 // Il2CppName: GetLivestreamingVideoStats
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LivestreamingVideoStats* (Message::*)()>(&Message::GetLivestreamingVideoStats)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LivestreamingVideoStats* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetLivestreamingVideoStats)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetLivestreamingVideoStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetLivestreamingVideoStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetMatchmakingAdminSnapshot
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetMatchmakingAdminSnapshot
 // Il2CppName: GetMatchmakingAdminSnapshot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::MatchmakingAdminSnapshot* (Message::*)()>(&Message::GetMatchmakingAdminSnapshot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::MatchmakingAdminSnapshot* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetMatchmakingAdminSnapshot)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetMatchmakingAdminSnapshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetMatchmakingAdminSnapshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetMatchmakingBrowseResult
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetMatchmakingBrowseResult
 // Il2CppName: GetMatchmakingBrowseResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::MatchmakingBrowseResult* (Message::*)()>(&Message::GetMatchmakingBrowseResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::MatchmakingBrowseResult* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetMatchmakingBrowseResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetMatchmakingBrowseResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetMatchmakingBrowseResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetMatchmakingEnqueueResult
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetMatchmakingEnqueueResult
 // Il2CppName: GetMatchmakingEnqueueResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::MatchmakingEnqueueResult* (Message::*)()>(&Message::GetMatchmakingEnqueueResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::MatchmakingEnqueueResult* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetMatchmakingEnqueueResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetMatchmakingEnqueueResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetMatchmakingEnqueueResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetMatchmakingEnqueueResultAndRoom
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetMatchmakingEnqueueResultAndRoom
 // Il2CppName: GetMatchmakingEnqueueResultAndRoom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom* (Message::*)()>(&Message::GetMatchmakingEnqueueResultAndRoom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::MatchmakingEnqueueResultAndRoom* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetMatchmakingEnqueueResultAndRoom)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetMatchmakingEnqueueResultAndRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetMatchmakingEnqueueResultAndRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetMatchmakingStats
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetMatchmakingStats
 // Il2CppName: GetMatchmakingStats
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::MatchmakingStats* (Message::*)()>(&Message::GetMatchmakingStats)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::MatchmakingStats* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetMatchmakingStats)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetMatchmakingStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetMatchmakingStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetNetSyncConnection
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetNetSyncConnection
 // Il2CppName: GetNetSyncConnection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::NetSyncConnection* (Message::*)()>(&Message::GetNetSyncConnection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::NetSyncConnection* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetNetSyncConnection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetNetSyncConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetNetSyncConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetNetSyncSessionList
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetNetSyncSessionList
 // Il2CppName: GetNetSyncSessionList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::NetSyncSessionList* (Message::*)()>(&Message::GetNetSyncSessionList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::NetSyncSessionList* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetNetSyncSessionList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetNetSyncSessionList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetNetSyncSessionList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetNetSyncSessionsChangedNotification
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetNetSyncSessionsChangedNotification
 // Il2CppName: GetNetSyncSessionsChangedNotification
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::NetSyncSessionsChangedNotification* (Message::*)()>(&Message::GetNetSyncSessionsChangedNotification)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::NetSyncSessionsChangedNotification* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetNetSyncSessionsChangedNotification)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetNetSyncSessionsChangedNotification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetNetSyncSessionsChangedNotification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetNetSyncSetSessionPropertyResult
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetNetSyncSetSessionPropertyResult
 // Il2CppName: GetNetSyncSetSessionPropertyResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::NetSyncSetSessionPropertyResult* (Message::*)()>(&Message::GetNetSyncSetSessionPropertyResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::NetSyncSetSessionPropertyResult* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetNetSyncSetSessionPropertyResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetNetSyncSetSessionPropertyResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetNetSyncSetSessionPropertyResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetNetSyncVoipAttenuationValueList
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetNetSyncVoipAttenuationValueList
 // Il2CppName: GetNetSyncVoipAttenuationValueList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::NetSyncVoipAttenuationValueList* (Message::*)()>(&Message::GetNetSyncVoipAttenuationValueList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::NetSyncVoipAttenuationValueList* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetNetSyncVoipAttenuationValueList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetNetSyncVoipAttenuationValueList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetNetSyncVoipAttenuationValueList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetOrgScopedID
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetOrgScopedID
 // Il2CppName: GetOrgScopedID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::OrgScopedID* (Message::*)()>(&Message::GetOrgScopedID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::OrgScopedID* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetOrgScopedID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetOrgScopedID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetOrgScopedID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetParty
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetParty
 // Il2CppName: GetParty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::Party* (Message::*)()>(&Message::GetParty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::Party* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetParty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetParty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetParty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetPartyID
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetPartyID
 // Il2CppName: GetPartyID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::PartyID* (Message::*)()>(&Message::GetPartyID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::PartyID* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetPartyID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetPartyID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetPartyID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetPartyUpdateNotification
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetPartyUpdateNotification
 // Il2CppName: GetPartyUpdateNotification
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::PartyUpdateNotification* (Message::*)()>(&Message::GetPartyUpdateNotification)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::PartyUpdateNotification* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetPartyUpdateNotification)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetPartyUpdateNotification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetPartyUpdateNotification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetPidList
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetPidList
 // Il2CppName: GetPidList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::PidList* (Message::*)()>(&Message::GetPidList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::PidList* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetPidList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetPidList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetPidList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetProductList
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetProductList
 // Il2CppName: GetProductList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::ProductList* (Message::*)()>(&Message::GetProductList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::ProductList* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetProductList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetProductList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetProductList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetPurchase
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetPurchase
 // Il2CppName: GetPurchase
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::Purchase* (Message::*)()>(&Message::GetPurchase)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::Purchase* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetPurchase)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetPurchase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetPurchase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetPurchaseList
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetPurchaseList
 // Il2CppName: GetPurchaseList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::PurchaseList* (Message::*)()>(&Message::GetPurchaseList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::PurchaseList* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetPurchaseList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetPurchaseList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetPurchaseList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetRoom
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetRoom
 // Il2CppName: GetRoom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::Room* (Message::*)()>(&Message::GetRoom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::Room* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetRoom)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetRoomInviteNotification
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetRoomInviteNotification
 // Il2CppName: GetRoomInviteNotification
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::RoomInviteNotification* (Message::*)()>(&Message::GetRoomInviteNotification)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::RoomInviteNotification* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetRoomInviteNotification)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetRoomInviteNotification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetRoomInviteNotification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetRoomInviteNotificationList
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetRoomInviteNotificationList
 // Il2CppName: GetRoomInviteNotificationList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::RoomInviteNotificationList* (Message::*)()>(&Message::GetRoomInviteNotificationList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::RoomInviteNotificationList* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetRoomInviteNotificationList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetRoomInviteNotificationList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetRoomInviteNotificationList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetRoomList
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetRoomList
 // Il2CppName: GetRoomList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::RoomList* (Message::*)()>(&Message::GetRoomList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::RoomList* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetRoomList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetRoomList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetRoomList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetSdkAccountList
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetSdkAccountList
 // Il2CppName: GetSdkAccountList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::SdkAccountList* (Message::*)()>(&Message::GetSdkAccountList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::SdkAccountList* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetSdkAccountList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetSdkAccountList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetSdkAccountList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetShareMediaResult
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetShareMediaResult
 // Il2CppName: GetShareMediaResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::ShareMediaResult* (Message::*)()>(&Message::GetShareMediaResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::ShareMediaResult* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetShareMediaResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetShareMediaResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetShareMediaResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetString
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetString
 // Il2CppName: GetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Message::*)()>(&Message::GetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetSystemPermission
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetSystemPermission
 // Il2CppName: GetSystemPermission
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::SystemPermission* (Message::*)()>(&Message::GetSystemPermission)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::SystemPermission* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetSystemPermission)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetSystemPermission", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetSystemPermission", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetSystemVoipState
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetSystemVoipState
 // Il2CppName: GetSystemVoipState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::SystemVoipState* (Message::*)()>(&Message::GetSystemVoipState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::SystemVoipState* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetSystemVoipState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetSystemVoipState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetSystemVoipState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetUser
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetUser
 // Il2CppName: GetUser
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::User* (Message::*)()>(&Message::GetUser)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::User* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetUser)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetUserAndRoomList
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetUserAndRoomList
 // Il2CppName: GetUserAndRoomList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::UserAndRoomList* (Message::*)()>(&Message::GetUserAndRoomList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::UserAndRoomList* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetUserAndRoomList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetUserAndRoomList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetUserAndRoomList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetUserDataStoreUpdateResponse
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetUserDataStoreUpdateResponse
 // Il2CppName: GetUserDataStoreUpdateResponse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::UserDataStoreUpdateResponse* (Message::*)()>(&Message::GetUserDataStoreUpdateResponse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::UserDataStoreUpdateResponse* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetUserDataStoreUpdateResponse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetUserDataStoreUpdateResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetUserDataStoreUpdateResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetUserList
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetUserList
 // Il2CppName: GetUserList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::UserList* (Message::*)()>(&Message::GetUserList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::UserList* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetUserList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetUserList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetUserList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetUserProof
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetUserProof
 // Il2CppName: GetUserProof
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::UserProof* (Message::*)()>(&Message::GetUserProof)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::UserProof* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetUserProof)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetUserProof", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetUserProof", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::GetUserReportID
+// Writing MetadataGetter for method: Oculus::Platform::Message::GetUserReportID
 // Il2CppName: GetUserReportID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::UserReportID* (Message::*)()>(&Message::GetUserReportID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::UserReportID* (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::GetUserReportID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "GetUserReportID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "GetUserReportID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::ParseMessageHandle
+// Writing MetadataGetter for method: Oculus::Platform::Message::ParseMessageHandle
 // Il2CppName: ParseMessageHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Message* (*)(System::IntPtr)>(&Message::ParseMessageHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Message* (*)(System::IntPtr)>(&Oculus::Platform::Message::ParseMessageHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "ParseMessageHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "ParseMessageHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: Message::PopMessage
+// Writing MetadataGetter for method: Oculus::Platform::Message::PopMessage
 // Il2CppName: PopMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Message* (*)()>(&Message::PopMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Message* (*)()>(&Oculus::Platform::Message::PopMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "PopMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "PopMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::set_HandleExtraMessageTypes
+// Writing MetadataGetter for method: Oculus::Platform::Message::set_HandleExtraMessageTypes
 // Il2CppName: set_HandleExtraMessageTypes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Oculus::Platform::Message::ExtraMessageTypesHandler*)>(&Message::set_HandleExtraMessageTypes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Oculus::Platform::Message::ExtraMessageTypesHandler*)>(&Oculus::Platform::Message::set_HandleExtraMessageTypes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "set_HandleExtraMessageTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Message::ExtraMessageTypesHandler*>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "set_HandleExtraMessageTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Message::ExtraMessageTypesHandler*>()});
   }
 };
-// Writing MetadataGetter for method: Message::get_HandleExtraMessageTypes
+// Writing MetadataGetter for method: Oculus::Platform::Message::get_HandleExtraMessageTypes
 // Il2CppName: get_HandleExtraMessageTypes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Message::ExtraMessageTypesHandler* (*)()>(&Message::get_HandleExtraMessageTypes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Message::ExtraMessageTypesHandler* (*)()>(&Oculus::Platform::Message::get_HandleExtraMessageTypes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "get_HandleExtraMessageTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "get_HandleExtraMessageTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Message::Finalize
+// Writing MetadataGetter for method: Oculus::Platform::Message::Finalize
 // Il2CppName: Finalize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Message::*)()>(&Message::Finalize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::Message::*)()>(&Oculus::Platform::Message::Finalize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

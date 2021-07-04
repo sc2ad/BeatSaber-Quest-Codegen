@@ -130,73 +130,73 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(FBIKChain::ChildConstraint) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBIKChain::ChildConstraint*, "RootMotion.FinalIK", "FBIKChain/ChildConstraint");
-// Writing MetadataGetter for method: FBIKChain::ChildConstraint::get_nominalDistance
+// Writing MetadataGetter for method: RootMotion::FinalIK::FBIKChain::ChildConstraint::get_nominalDistance
 // Il2CppName: get_nominalDistance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (FBIKChain::ChildConstraint::*)()>(&FBIKChain::ChildConstraint::get_nominalDistance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RootMotion::FinalIK::FBIKChain::ChildConstraint::*)()>(&RootMotion::FinalIK::FBIKChain::ChildConstraint::get_nominalDistance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FBIKChain::ChildConstraint*), "get_nominalDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBIKChain::ChildConstraint*), "get_nominalDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FBIKChain::ChildConstraint::set_nominalDistance
+// Writing MetadataGetter for method: RootMotion::FinalIK::FBIKChain::ChildConstraint::set_nominalDistance
 // Il2CppName: set_nominalDistance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBIKChain::ChildConstraint::*)(float)>(&FBIKChain::ChildConstraint::set_nominalDistance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBIKChain::ChildConstraint::*)(float)>(&RootMotion::FinalIK::FBIKChain::ChildConstraint::set_nominalDistance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FBIKChain::ChildConstraint*), "set_nominalDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBIKChain::ChildConstraint*), "set_nominalDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: FBIKChain::ChildConstraint::get_isRigid
+// Writing MetadataGetter for method: RootMotion::FinalIK::FBIKChain::ChildConstraint::get_isRigid
 // Il2CppName: get_isRigid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FBIKChain::ChildConstraint::*)()>(&FBIKChain::ChildConstraint::get_isRigid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::FBIKChain::ChildConstraint::*)()>(&RootMotion::FinalIK::FBIKChain::ChildConstraint::get_isRigid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FBIKChain::ChildConstraint*), "get_isRigid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBIKChain::ChildConstraint*), "get_isRigid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FBIKChain::ChildConstraint::set_isRigid
+// Writing MetadataGetter for method: RootMotion::FinalIK::FBIKChain::ChildConstraint::set_isRigid
 // Il2CppName: set_isRigid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBIKChain::ChildConstraint::*)(bool)>(&FBIKChain::ChildConstraint::set_isRigid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBIKChain::ChildConstraint::*)(bool)>(&RootMotion::FinalIK::FBIKChain::ChildConstraint::set_isRigid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FBIKChain::ChildConstraint*), "set_isRigid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBIKChain::ChildConstraint*), "set_isRigid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: FBIKChain::ChildConstraint::New_ctor
+// Writing MetadataGetter for method: RootMotion::FinalIK::FBIKChain::ChildConstraint::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBIKChain::ChildConstraint::*)(UnityEngine::Transform*, UnityEngine::Transform*, float, float)>(&FBIKChain::ChildConstraint::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBIKChain::ChildConstraint::*)(UnityEngine::Transform*, UnityEngine::Transform*, float, float)>(&RootMotion::FinalIK::FBIKChain::ChildConstraint::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FBIKChain::ChildConstraint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBIKChain::ChildConstraint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBIKChain::ChildConstraint::*)(UnityEngine::Transform*, UnityEngine::Transform*, float, float)>(&FBIKChain::ChildConstraint::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBIKChain::ChildConstraint::*)(UnityEngine::Transform*, UnityEngine::Transform*, float, float)>(&RootMotion::FinalIK::FBIKChain::ChildConstraint::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FBIKChain::ChildConstraint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBIKChain::ChildConstraint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: FBIKChain::ChildConstraint::Initiate
+// Writing MetadataGetter for method: RootMotion::FinalIK::FBIKChain::ChildConstraint::Initiate
 // Il2CppName: Initiate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBIKChain::ChildConstraint::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&FBIKChain::ChildConstraint::Initiate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBIKChain::ChildConstraint::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&RootMotion::FinalIK::FBIKChain::ChildConstraint::Initiate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FBIKChain::ChildConstraint*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBIKChain::ChildConstraint*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>()});
   }
 };
-// Writing MetadataGetter for method: FBIKChain::ChildConstraint::OnPreSolve
+// Writing MetadataGetter for method: RootMotion::FinalIK::FBIKChain::ChildConstraint::OnPreSolve
 // Il2CppName: OnPreSolve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBIKChain::ChildConstraint::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&FBIKChain::ChildConstraint::OnPreSolve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBIKChain::ChildConstraint::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&RootMotion::FinalIK::FBIKChain::ChildConstraint::OnPreSolve)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FBIKChain::ChildConstraint*), "OnPreSolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBIKChain::ChildConstraint*), "OnPreSolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>()});
   }
 };
-// Writing MetadataGetter for method: FBIKChain::ChildConstraint::Solve
+// Writing MetadataGetter for method: RootMotion::FinalIK::FBIKChain::ChildConstraint::Solve
 // Il2CppName: Solve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBIKChain::ChildConstraint::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&FBIKChain::ChildConstraint::Solve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBIKChain::ChildConstraint::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&RootMotion::FinalIK::FBIKChain::ChildConstraint::Solve)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FBIKChain::ChildConstraint*), "Solve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBIKChain::ChildConstraint*), "Solve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>()});
   }
 };

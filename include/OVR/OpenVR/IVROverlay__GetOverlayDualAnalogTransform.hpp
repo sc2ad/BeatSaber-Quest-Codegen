@@ -61,41 +61,41 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_GetOverlayDualAnalogTransform*, "OVR.OpenVR", "IVROverlay/_GetOverlayDualAnalogTransform");
-// Writing MetadataGetter for method: IVROverlay::_GetOverlayDualAnalogTransform::New_ctor
+// Writing MetadataGetter for method: OVR::OpenVR::IVROverlay::_GetOverlayDualAnalogTransform::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVROverlay::_GetOverlayDualAnalogTransform::*)(::Il2CppObject*, System::IntPtr)>(&IVROverlay::_GetOverlayDualAnalogTransform::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVROverlay::_GetOverlayDualAnalogTransform::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVROverlay::_GetOverlayDualAnalogTransform::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVROverlay::_GetOverlayDualAnalogTransform*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVROverlay::_GetOverlayDualAnalogTransform*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVROverlay::_GetOverlayDualAnalogTransform::*)(::Il2CppObject*, System::IntPtr)>(&IVROverlay::_GetOverlayDualAnalogTransform::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVROverlay::_GetOverlayDualAnalogTransform::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVROverlay::_GetOverlayDualAnalogTransform::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVROverlay::_GetOverlayDualAnalogTransform*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVROverlay::_GetOverlayDualAnalogTransform*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: IVROverlay::_GetOverlayDualAnalogTransform::Invoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVROverlay::_GetOverlayDualAnalogTransform::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (IVROverlay::_GetOverlayDualAnalogTransform::*)(uint64_t, OVR::OpenVR::EDualAnalogWhich, OVR::OpenVR::HmdVector2_t&, float&)>(&IVROverlay::_GetOverlayDualAnalogTransform::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::IVROverlay::_GetOverlayDualAnalogTransform::*)(uint64_t, OVR::OpenVR::EDualAnalogWhich, OVR::OpenVR::HmdVector2_t&, float&)>(&OVR::OpenVR::IVROverlay::_GetOverlayDualAnalogTransform::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVROverlay::_GetOverlayDualAnalogTransform*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EDualAnalogWhich>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdVector2_t&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVROverlay::_GetOverlayDualAnalogTransform*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EDualAnalogWhich>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdVector2_t&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
   }
 };
-// Writing MetadataGetter for method: IVROverlay::_GetOverlayDualAnalogTransform::BeginInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVROverlay::_GetOverlayDualAnalogTransform::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVROverlay::_GetOverlayDualAnalogTransform::*)(uint64_t, OVR::OpenVR::EDualAnalogWhich, OVR::OpenVR::HmdVector2_t&, float&, System::AsyncCallback*, ::Il2CppObject*)>(&IVROverlay::_GetOverlayDualAnalogTransform::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVROverlay::_GetOverlayDualAnalogTransform::*)(uint64_t, OVR::OpenVR::EDualAnalogWhich, OVR::OpenVR::HmdVector2_t&, float&, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVROverlay::_GetOverlayDualAnalogTransform::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVROverlay::_GetOverlayDualAnalogTransform*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EDualAnalogWhich>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdVector2_t&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVROverlay::_GetOverlayDualAnalogTransform*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EDualAnalogWhich>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdVector2_t&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IVROverlay::_GetOverlayDualAnalogTransform::EndInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVROverlay::_GetOverlayDualAnalogTransform::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (IVROverlay::_GetOverlayDualAnalogTransform::*)(OVR::OpenVR::HmdVector2_t&, float&, System::IAsyncResult*)>(&IVROverlay::_GetOverlayDualAnalogTransform::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::IVROverlay::_GetOverlayDualAnalogTransform::*)(OVR::OpenVR::HmdVector2_t&, float&, System::IAsyncResult*)>(&OVR::OpenVR::IVROverlay::_GetOverlayDualAnalogTransform::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVROverlay::_GetOverlayDualAnalogTransform*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdVector2_t&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVROverlay::_GetOverlayDualAnalogTransform*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::HmdVector2_t&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

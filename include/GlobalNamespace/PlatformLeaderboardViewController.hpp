@@ -251,145 +251,145 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlatformLeaderboardViewController) == 0xE8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardViewController*, "", "PlatformLeaderboardViewController");
-// Writing MetadataGetter for method: PlatformLeaderboardViewController::get_leaderboardsModel
+// Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardViewController::get_leaderboardsModel
 // Il2CppName: get_leaderboardsModel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlatformLeaderboardsModel* (PlatformLeaderboardViewController::*)()>(&PlatformLeaderboardViewController::get_leaderboardsModel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlatformLeaderboardsModel* (GlobalNamespace::PlatformLeaderboardViewController::*)()>(&GlobalNamespace::PlatformLeaderboardViewController::get_leaderboardsModel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardViewController*), "get_leaderboardsModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformLeaderboardViewController*), "get_leaderboardsModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlatformLeaderboardViewController::ScoreScopeToScoreScopeIndex
+// Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardViewController::ScoreScopeToScoreScopeIndex
 // Il2CppName: ScoreScopeToScoreScopeIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PlatformLeaderboardViewController::*)(GlobalNamespace::PlatformLeaderboardsModel::ScoresScope)>(&PlatformLeaderboardViewController::ScoreScopeToScoreScopeIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::PlatformLeaderboardViewController::*)(GlobalNamespace::PlatformLeaderboardsModel::ScoresScope)>(&GlobalNamespace::PlatformLeaderboardViewController::ScoreScopeToScoreScopeIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardViewController*), "ScoreScopeToScoreScopeIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformLeaderboardsModel::ScoresScope>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformLeaderboardViewController*), "ScoreScopeToScoreScopeIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformLeaderboardsModel::ScoresScope>()});
   }
 };
-// Writing MetadataGetter for method: PlatformLeaderboardViewController::ScopeScopeIndexToScoreScope
+// Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardViewController::ScopeScopeIndexToScoreScope
 // Il2CppName: ScopeScopeIndexToScoreScope
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlatformLeaderboardsModel::ScoresScope (PlatformLeaderboardViewController::*)(int)>(&PlatformLeaderboardViewController::ScopeScopeIndexToScoreScope)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlatformLeaderboardsModel::ScoresScope (GlobalNamespace::PlatformLeaderboardViewController::*)(int)>(&GlobalNamespace::PlatformLeaderboardViewController::ScopeScopeIndexToScoreScope)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardViewController*), "ScopeScopeIndexToScoreScope", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformLeaderboardViewController*), "ScopeScopeIndexToScoreScope", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: PlatformLeaderboardViewController::HandleDidPressRefreshButton
+// Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardViewController::HandleDidPressRefreshButton
 // Il2CppName: HandleDidPressRefreshButton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformLeaderboardViewController::*)()>(&PlatformLeaderboardViewController::HandleDidPressRefreshButton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformLeaderboardViewController::*)()>(&GlobalNamespace::PlatformLeaderboardViewController::HandleDidPressRefreshButton)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardViewController*), "HandleDidPressRefreshButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformLeaderboardViewController*), "HandleDidPressRefreshButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlatformLeaderboardViewController::HandleLeaderboardsResultsReturned
+// Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardViewController::HandleLeaderboardsResultsReturned
 // Il2CppName: HandleLeaderboardsResultsReturned
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformLeaderboardViewController::*)(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult, ::Array<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*>*, int)>(&PlatformLeaderboardViewController::HandleLeaderboardsResultsReturned)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformLeaderboardViewController::*)(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult, ::Array<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*>*, int)>(&GlobalNamespace::PlatformLeaderboardViewController::HandleLeaderboardsResultsReturned)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardViewController*), "HandleLeaderboardsResultsReturned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformLeaderboardViewController*), "HandleLeaderboardsResultsReturned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: PlatformLeaderboardViewController::HandleScopeSegmentedControlDidSelectCell
+// Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardViewController::HandleScopeSegmentedControlDidSelectCell
 // Il2CppName: HandleScopeSegmentedControlDidSelectCell
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformLeaderboardViewController::*)(HMUI::SegmentedControl*, int)>(&PlatformLeaderboardViewController::HandleScopeSegmentedControlDidSelectCell)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformLeaderboardViewController::*)(HMUI::SegmentedControl*, int)>(&GlobalNamespace::PlatformLeaderboardViewController::HandleScopeSegmentedControlDidSelectCell)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardViewController*), "HandleScopeSegmentedControlDidSelectCell", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SegmentedControl*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformLeaderboardViewController*), "HandleScopeSegmentedControlDidSelectCell", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SegmentedControl*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: PlatformLeaderboardViewController::HandlePlatformLeaderboardsModelAllScoresDidUpload
+// Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardViewController::HandlePlatformLeaderboardsModelAllScoresDidUpload
 // Il2CppName: HandlePlatformLeaderboardsModelAllScoresDidUpload
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformLeaderboardViewController::*)()>(&PlatformLeaderboardViewController::HandlePlatformLeaderboardsModelAllScoresDidUpload)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformLeaderboardViewController::*)()>(&GlobalNamespace::PlatformLeaderboardViewController::HandlePlatformLeaderboardsModelAllScoresDidUpload)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardViewController*), "HandlePlatformLeaderboardsModelAllScoresDidUpload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformLeaderboardViewController*), "HandlePlatformLeaderboardsModelAllScoresDidUpload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlatformLeaderboardViewController::Refresh
+// Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardViewController::Refresh
 // Il2CppName: Refresh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformLeaderboardViewController::*)(bool, bool)>(&PlatformLeaderboardViewController::Refresh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformLeaderboardViewController::*)(bool, bool)>(&GlobalNamespace::PlatformLeaderboardViewController::Refresh)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardViewController*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformLeaderboardViewController*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: PlatformLeaderboardViewController::RefreshDelayed
+// Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardViewController::RefreshDelayed
 // Il2CppName: RefreshDelayed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (PlatformLeaderboardViewController::*)(bool, bool)>(&PlatformLeaderboardViewController::RefreshDelayed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::PlatformLeaderboardViewController::*)(bool, bool)>(&GlobalNamespace::PlatformLeaderboardViewController::RefreshDelayed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardViewController*), "RefreshDelayed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformLeaderboardViewController*), "RefreshDelayed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: PlatformLeaderboardViewController::ClearContent
+// Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardViewController::ClearContent
 // Il2CppName: ClearContent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformLeaderboardViewController::*)()>(&PlatformLeaderboardViewController::ClearContent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformLeaderboardViewController::*)()>(&GlobalNamespace::PlatformLeaderboardViewController::ClearContent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardViewController*), "ClearContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformLeaderboardViewController*), "ClearContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlatformLeaderboardViewController::SetData
+// Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardViewController::SetData
 // Il2CppName: SetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformLeaderboardViewController::*)(GlobalNamespace::IDifficultyBeatmap*)>(&PlatformLeaderboardViewController::SetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformLeaderboardViewController::*)(GlobalNamespace::IDifficultyBeatmap*)>(&GlobalNamespace::PlatformLeaderboardViewController::SetData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardViewController*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformLeaderboardViewController*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
   }
 };
-// Writing MetadataGetter for method: PlatformLeaderboardViewController::RefreshLevelStats
+// Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardViewController::RefreshLevelStats
 // Il2CppName: RefreshLevelStats
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformLeaderboardViewController::*)()>(&PlatformLeaderboardViewController::RefreshLevelStats)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformLeaderboardViewController::*)()>(&GlobalNamespace::PlatformLeaderboardViewController::RefreshLevelStats)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardViewController*), "RefreshLevelStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformLeaderboardViewController*), "RefreshLevelStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlatformLeaderboardViewController::DidActivate
+// Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformLeaderboardViewController::*)(bool, bool, bool)>(&PlatformLeaderboardViewController::DidActivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformLeaderboardViewController::*)(bool, bool, bool)>(&GlobalNamespace::PlatformLeaderboardViewController::DidActivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformLeaderboardViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: PlatformLeaderboardViewController::DidDeactivate
+// Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardViewController::DidDeactivate
 // Il2CppName: DidDeactivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformLeaderboardViewController::*)(bool, bool)>(&PlatformLeaderboardViewController::DidDeactivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformLeaderboardViewController::*)(bool, bool)>(&GlobalNamespace::PlatformLeaderboardViewController::DidDeactivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformLeaderboardViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: PlatformLeaderboardViewController::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardViewController::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformLeaderboardViewController::*)()>(&PlatformLeaderboardViewController::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformLeaderboardViewController::*)()>(&GlobalNamespace::PlatformLeaderboardViewController::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformLeaderboardViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlatformLeaderboardViewController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardViewController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformLeaderboardViewController::*)()>(&PlatformLeaderboardViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformLeaderboardViewController::*)()>(&GlobalNamespace::PlatformLeaderboardViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformLeaderboardViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformLeaderboardViewController::*)()>(&PlatformLeaderboardViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformLeaderboardViewController::*)()>(&GlobalNamespace::PlatformLeaderboardViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformLeaderboardViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlatformLeaderboardViewController::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardViewController::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&PlatformLeaderboardViewController::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::PlatformLeaderboardViewController::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformLeaderboardViewController*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformLeaderboardViewController*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

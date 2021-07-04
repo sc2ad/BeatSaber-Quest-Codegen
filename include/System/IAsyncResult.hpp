@@ -41,35 +41,35 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IAsyncResult*, "System", "IAsyncResult");
-// Writing MetadataGetter for method: IAsyncResult::get_IsCompleted
+// Writing MetadataGetter for method: System::IAsyncResult::get_IsCompleted
 // Il2CppName: get_IsCompleted
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IAsyncResult::*)()>(&IAsyncResult::get_IsCompleted)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::IAsyncResult::*)()>(&System::IAsyncResult::get_IsCompleted)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IAsyncResult*), "get_IsCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IAsyncResult*), "get_IsCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IAsyncResult::get_AsyncWaitHandle
+// Writing MetadataGetter for method: System::IAsyncResult::get_AsyncWaitHandle
 // Il2CppName: get_AsyncWaitHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::WaitHandle* (IAsyncResult::*)()>(&IAsyncResult::get_AsyncWaitHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::WaitHandle* (System::IAsyncResult::*)()>(&System::IAsyncResult::get_AsyncWaitHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IAsyncResult*), "get_AsyncWaitHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IAsyncResult*), "get_AsyncWaitHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IAsyncResult::get_AsyncState
+// Writing MetadataGetter for method: System::IAsyncResult::get_AsyncState
 // Il2CppName: get_AsyncState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (IAsyncResult::*)()>(&IAsyncResult::get_AsyncState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::IAsyncResult::*)()>(&System::IAsyncResult::get_AsyncState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IAsyncResult*), "get_AsyncState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IAsyncResult*), "get_AsyncState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IAsyncResult::get_CompletedSynchronously
+// Writing MetadataGetter for method: System::IAsyncResult::get_CompletedSynchronously
 // Il2CppName: get_CompletedSynchronously
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IAsyncResult::*)()>(&IAsyncResult::get_CompletedSynchronously)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::IAsyncResult::*)()>(&System::IAsyncResult::get_CompletedSynchronously)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IAsyncResult*), "get_CompletedSynchronously", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IAsyncResult*), "get_CompletedSynchronously", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

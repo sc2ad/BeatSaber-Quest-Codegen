@@ -55,25 +55,25 @@ namespace UnityEngine::XR {
   }; // UnityEngine.XR.XRMeshSubsystem
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRMeshSubsystem*, "UnityEngine.XR", "XRMeshSubsystem");
-// Writing MetadataGetter for method: XRMeshSubsystem::InvokeMeshReadyDelegate
+// Writing MetadataGetter for method: UnityEngine::XR::XRMeshSubsystem::InvokeMeshReadyDelegate
 // Il2CppName: InvokeMeshReadyDelegate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XRMeshSubsystem::*)(UnityEngine::XR::MeshGenerationResult, System::Action_1<UnityEngine::XR::MeshGenerationResult>*)>(&XRMeshSubsystem::InvokeMeshReadyDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::XR::XRMeshSubsystem::*)(UnityEngine::XR::MeshGenerationResult, System::Action_1<UnityEngine::XR::MeshGenerationResult>*)>(&UnityEngine::XR::XRMeshSubsystem::InvokeMeshReadyDelegate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRMeshSubsystem*), "InvokeMeshReadyDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::MeshGenerationResult>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::XR::MeshGenerationResult>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRMeshSubsystem*), "InvokeMeshReadyDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::MeshGenerationResult>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::XR::MeshGenerationResult>*>()});
   }
 };
-// Writing MetadataGetter for method: XRMeshSubsystem::New_ctor
+// Writing MetadataGetter for method: UnityEngine::XR::XRMeshSubsystem::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XRMeshSubsystem::*)()>(&XRMeshSubsystem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::XR::XRMeshSubsystem::*)()>(&UnityEngine::XR::XRMeshSubsystem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRMeshSubsystem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRMeshSubsystem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XRMeshSubsystem::*)()>(&XRMeshSubsystem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::XR::XRMeshSubsystem::*)()>(&UnityEngine::XR::XRMeshSubsystem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XRMeshSubsystem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRMeshSubsystem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

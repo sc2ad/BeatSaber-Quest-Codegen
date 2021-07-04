@@ -74,33 +74,33 @@ namespace HMUI {
   static_assert(sizeof(RaycastUITopLevelChecker) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::RaycastUITopLevelChecker*, "HMUI", "RaycastUITopLevelChecker");
-// Writing MetadataGetter for method: RaycastUITopLevelChecker::Awake
+// Writing MetadataGetter for method: HMUI::RaycastUITopLevelChecker::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RaycastUITopLevelChecker::*)()>(&RaycastUITopLevelChecker::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::RaycastUITopLevelChecker::*)()>(&HMUI::RaycastUITopLevelChecker::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RaycastUITopLevelChecker*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::RaycastUITopLevelChecker*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RaycastUITopLevelChecker::get_isOnTop
+// Writing MetadataGetter for method: HMUI::RaycastUITopLevelChecker::get_isOnTop
 // Il2CppName: get_isOnTop
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RaycastUITopLevelChecker::*)()>(&RaycastUITopLevelChecker::get_isOnTop)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI::RaycastUITopLevelChecker::*)()>(&HMUI::RaycastUITopLevelChecker::get_isOnTop)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RaycastUITopLevelChecker*), "get_isOnTop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::RaycastUITopLevelChecker*), "get_isOnTop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RaycastUITopLevelChecker::New_ctor
+// Writing MetadataGetter for method: HMUI::RaycastUITopLevelChecker::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RaycastUITopLevelChecker::*)()>(&RaycastUITopLevelChecker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::RaycastUITopLevelChecker::*)()>(&HMUI::RaycastUITopLevelChecker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RaycastUITopLevelChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::RaycastUITopLevelChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RaycastUITopLevelChecker::*)()>(&RaycastUITopLevelChecker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::RaycastUITopLevelChecker::*)()>(&HMUI::RaycastUITopLevelChecker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RaycastUITopLevelChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::RaycastUITopLevelChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

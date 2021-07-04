@@ -34,11 +34,11 @@ namespace UnityEngine::EventSystems {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::IScrollHandler*, "UnityEngine.EventSystems", "IScrollHandler");
-// Writing MetadataGetter for method: IScrollHandler::OnScroll
+// Writing MetadataGetter for method: UnityEngine::EventSystems::IScrollHandler::OnScroll
 // Il2CppName: OnScroll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IScrollHandler::*)(UnityEngine::EventSystems::PointerEventData*)>(&IScrollHandler::OnScroll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::IScrollHandler::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::IScrollHandler::OnScroll)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IScrollHandler*), "OnScroll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::IScrollHandler*), "OnScroll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };

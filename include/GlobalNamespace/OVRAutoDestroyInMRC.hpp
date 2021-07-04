@@ -43,33 +43,33 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRAutoDestroyInMRC*, "", "OVRAutoDestroyInMRC");
-// Writing MetadataGetter for method: OVRAutoDestroyInMRC::Start
+// Writing MetadataGetter for method: GlobalNamespace::OVRAutoDestroyInMRC::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRAutoDestroyInMRC::*)()>(&OVRAutoDestroyInMRC::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRAutoDestroyInMRC::*)()>(&GlobalNamespace::OVRAutoDestroyInMRC::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRAutoDestroyInMRC*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRAutoDestroyInMRC*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRAutoDestroyInMRC::Update
+// Writing MetadataGetter for method: GlobalNamespace::OVRAutoDestroyInMRC::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRAutoDestroyInMRC::*)()>(&OVRAutoDestroyInMRC::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRAutoDestroyInMRC::*)()>(&GlobalNamespace::OVRAutoDestroyInMRC::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRAutoDestroyInMRC*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRAutoDestroyInMRC*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRAutoDestroyInMRC::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::OVRAutoDestroyInMRC::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRAutoDestroyInMRC::*)()>(&OVRAutoDestroyInMRC::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRAutoDestroyInMRC::*)()>(&GlobalNamespace::OVRAutoDestroyInMRC::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRAutoDestroyInMRC*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRAutoDestroyInMRC*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRAutoDestroyInMRC::*)()>(&OVRAutoDestroyInMRC::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRAutoDestroyInMRC::*)()>(&GlobalNamespace::OVRAutoDestroyInMRC::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRAutoDestroyInMRC*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRAutoDestroyInMRC*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

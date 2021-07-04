@@ -146,105 +146,105 @@ namespace GlobalNamespace {
   static_assert(sizeof(SongStartHandler) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongStartHandler*, "", "SongStartHandler");
-// Writing MetadataGetter for method: SongStartHandler::get_songStartSyncTime
+// Writing MetadataGetter for method: GlobalNamespace::SongStartHandler::get_songStartSyncTime
 // Il2CppName: get_songStartSyncTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SongStartHandler::*)()>(&SongStartHandler::get_songStartSyncTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::SongStartHandler::*)()>(&GlobalNamespace::SongStartHandler::get_songStartSyncTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongStartHandler*), "get_songStartSyncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongStartHandler*), "get_songStartSyncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SongStartHandler::add_setSongStartSyncTimeEvent
+// Writing MetadataGetter for method: GlobalNamespace::SongStartHandler::add_setSongStartSyncTimeEvent
 // Il2CppName: add_setSongStartSyncTimeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongStartHandler::*)(System::Action_1<float>*)>(&SongStartHandler::add_setSongStartSyncTimeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongStartHandler::*)(System::Action_1<float>*)>(&GlobalNamespace::SongStartHandler::add_setSongStartSyncTimeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongStartHandler*), "add_setSongStartSyncTimeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongStartHandler*), "add_setSongStartSyncTimeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
   }
 };
-// Writing MetadataGetter for method: SongStartHandler::remove_setSongStartSyncTimeEvent
+// Writing MetadataGetter for method: GlobalNamespace::SongStartHandler::remove_setSongStartSyncTimeEvent
 // Il2CppName: remove_setSongStartSyncTimeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongStartHandler::*)(System::Action_1<float>*)>(&SongStartHandler::remove_setSongStartSyncTimeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongStartHandler::*)(System::Action_1<float>*)>(&GlobalNamespace::SongStartHandler::remove_setSongStartSyncTimeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongStartHandler*), "remove_setSongStartSyncTimeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongStartHandler*), "remove_setSongStartSyncTimeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<float>*>()});
   }
 };
-// Writing MetadataGetter for method: SongStartHandler::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::SongStartHandler::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongStartHandler::*)(GlobalNamespace::IMultiplayerSessionManager*, GlobalNamespace::IGameplayRpcManager*, GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*)>(&SongStartHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongStartHandler::*)(GlobalNamespace::IMultiplayerSessionManager*, GlobalNamespace::IGameplayRpcManager*, GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*)>(&GlobalNamespace::SongStartHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongStartHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IGameplayRpcManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongStartHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IGameplayRpcManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongStartHandler::*)(GlobalNamespace::IMultiplayerSessionManager*, GlobalNamespace::IGameplayRpcManager*, GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*)>(&SongStartHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongStartHandler::*)(GlobalNamespace::IMultiplayerSessionManager*, GlobalNamespace::IGameplayRpcManager*, GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*)>(&GlobalNamespace::SongStartHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongStartHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IGameplayRpcManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongStartHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IGameplayRpcManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*>()});
   }
 };
-// Writing MetadataGetter for method: SongStartHandler::GetLevelStartTimeOffset
+// Writing MetadataGetter for method: GlobalNamespace::SongStartHandler::GetLevelStartTimeOffset
 // Il2CppName: GetLevelStartTimeOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongStartHandler::*)()>(&SongStartHandler::GetLevelStartTimeOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongStartHandler::*)()>(&GlobalNamespace::SongStartHandler::GetLevelStartTimeOffset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongStartHandler*), "GetLevelStartTimeOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongStartHandler*), "GetLevelStartTimeOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SongStartHandler::Dispose
+// Writing MetadataGetter for method: GlobalNamespace::SongStartHandler::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongStartHandler::*)()>(&SongStartHandler::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongStartHandler::*)()>(&GlobalNamespace::SongStartHandler::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongStartHandler*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongStartHandler*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SongStartHandler::ForceStart
+// Writing MetadataGetter for method: GlobalNamespace::SongStartHandler::ForceStart
 // Il2CppName: ForceStart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongStartHandler::*)(::Il2CppString*)>(&SongStartHandler::ForceStart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongStartHandler::*)(::Il2CppString*)>(&GlobalNamespace::SongStartHandler::ForceStart)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongStartHandler*), "ForceStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongStartHandler*), "ForceStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: SongStartHandler::StartSong
+// Writing MetadataGetter for method: GlobalNamespace::SongStartHandler::StartSong
 // Il2CppName: StartSong
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongStartHandler::*)()>(&SongStartHandler::StartSong)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongStartHandler::*)()>(&GlobalNamespace::SongStartHandler::StartSong)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongStartHandler*), "StartSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongStartHandler*), "StartSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SongStartHandler::HandleSetGameplaySongReady
+// Writing MetadataGetter for method: GlobalNamespace::SongStartHandler::HandleSetGameplaySongReady
 // Il2CppName: HandleSetGameplaySongReady
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongStartHandler::*)(::Il2CppString*)>(&SongStartHandler::HandleSetGameplaySongReady)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongStartHandler::*)(::Il2CppString*)>(&GlobalNamespace::SongStartHandler::HandleSetGameplaySongReady)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongStartHandler*), "HandleSetGameplaySongReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongStartHandler*), "HandleSetGameplaySongReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: SongStartHandler::HandleGetGameplaySongReady
+// Writing MetadataGetter for method: GlobalNamespace::SongStartHandler::HandleGetGameplaySongReady
 // Il2CppName: HandleGetGameplaySongReady
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongStartHandler::*)(::Il2CppString*)>(&SongStartHandler::HandleGetGameplaySongReady)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongStartHandler::*)(::Il2CppString*)>(&GlobalNamespace::SongStartHandler::HandleGetGameplaySongReady)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongStartHandler*), "HandleGetGameplaySongReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongStartHandler*), "HandleGetGameplaySongReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: SongStartHandler::HandleSetSongStartTime
+// Writing MetadataGetter for method: GlobalNamespace::SongStartHandler::HandleSetSongStartTime
 // Il2CppName: HandleSetSongStartTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongStartHandler::*)(::Il2CppString*, float)>(&SongStartHandler::HandleSetSongStartTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongStartHandler::*)(::Il2CppString*, float)>(&GlobalNamespace::SongStartHandler::HandleSetSongStartTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongStartHandler*), "HandleSetSongStartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongStartHandler*), "HandleSetSongStartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: SongStartHandler::Log
+// Writing MetadataGetter for method: GlobalNamespace::SongStartHandler::Log
 // Il2CppName: Log
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongStartHandler::*)(::Il2CppString*)>(&SongStartHandler::Log)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongStartHandler::*)(::Il2CppString*)>(&GlobalNamespace::SongStartHandler::Log)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongStartHandler*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongStartHandler*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };

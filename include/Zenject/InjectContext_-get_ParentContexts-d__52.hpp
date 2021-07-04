@@ -110,81 +110,81 @@ namespace Zenject {
   static_assert(sizeof(InjectContext::$get_ParentContexts$d__52) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectContext::$get_ParentContexts$d__52*, "Zenject", "InjectContext/<get_ParentContexts>d__52");
-// Writing MetadataGetter for method: InjectContext::$get_ParentContexts$d__52::New_ctor
+// Writing MetadataGetter for method: Zenject::InjectContext::$get_ParentContexts$d__52::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::$get_ParentContexts$d__52::*)(int)>(&InjectContext::$get_ParentContexts$d__52::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::InjectContext::$get_ParentContexts$d__52::*)(int)>(&Zenject::InjectContext::$get_ParentContexts$d__52::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectContext::$get_ParentContexts$d__52*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectContext::$get_ParentContexts$d__52*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::$get_ParentContexts$d__52::*)(int)>(&InjectContext::$get_ParentContexts$d__52::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::InjectContext::$get_ParentContexts$d__52::*)(int)>(&Zenject::InjectContext::$get_ParentContexts$d__52::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectContext::$get_ParentContexts$d__52*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectContext::$get_ParentContexts$d__52*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: InjectContext::$get_ParentContexts$d__52::System_IDisposable_Dispose
+// Writing MetadataGetter for method: Zenject::InjectContext::$get_ParentContexts$d__52::System_IDisposable_Dispose
 // Il2CppName: System.IDisposable.Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::$get_ParentContexts$d__52::*)()>(&InjectContext::$get_ParentContexts$d__52::System_IDisposable_Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::InjectContext::$get_ParentContexts$d__52::*)()>(&Zenject::InjectContext::$get_ParentContexts$d__52::System_IDisposable_Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectContext::$get_ParentContexts$d__52*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectContext::$get_ParentContexts$d__52*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InjectContext::$get_ParentContexts$d__52::MoveNext
+// Writing MetadataGetter for method: Zenject::InjectContext::$get_ParentContexts$d__52::MoveNext
 // Il2CppName: MoveNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InjectContext::$get_ParentContexts$d__52::*)()>(&InjectContext::$get_ParentContexts$d__52::MoveNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::InjectContext::$get_ParentContexts$d__52::*)()>(&Zenject::InjectContext::$get_ParentContexts$d__52::MoveNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectContext::$get_ParentContexts$d__52*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectContext::$get_ParentContexts$d__52*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InjectContext::$get_ParentContexts$d__52::$$m__Finally1
+// Writing MetadataGetter for method: Zenject::InjectContext::$get_ParentContexts$d__52::$$m__Finally1
 // Il2CppName: <>m__Finally1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::$get_ParentContexts$d__52::*)()>(&InjectContext::$get_ParentContexts$d__52::$$m__Finally1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::InjectContext::$get_ParentContexts$d__52::*)()>(&Zenject::InjectContext::$get_ParentContexts$d__52::$$m__Finally1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectContext::$get_ParentContexts$d__52*), "<>m__Finally1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectContext::$get_ParentContexts$d__52*), "<>m__Finally1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InjectContext::$get_ParentContexts$d__52::System_Collections_Generic_IEnumerator$Zenject_InjectContext$_get_Current
+// Writing MetadataGetter for method: Zenject::InjectContext::$get_ParentContexts$d__52::System_Collections_Generic_IEnumerator$Zenject_InjectContext$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<Zenject.InjectContext>.get_Current
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectContext* (InjectContext::$get_ParentContexts$d__52::*)()>(&InjectContext::$get_ParentContexts$d__52::System_Collections_Generic_IEnumerator$Zenject_InjectContext$_get_Current)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectContext* (Zenject::InjectContext::$get_ParentContexts$d__52::*)()>(&Zenject::InjectContext::$get_ParentContexts$d__52::System_Collections_Generic_IEnumerator$Zenject_InjectContext$_get_Current)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectContext::$get_ParentContexts$d__52*), "System.Collections.Generic.IEnumerator<Zenject.InjectContext>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectContext::$get_ParentContexts$d__52*), "System.Collections.Generic.IEnumerator<Zenject.InjectContext>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InjectContext::$get_ParentContexts$d__52::System_Collections_IEnumerator_Reset
+// Writing MetadataGetter for method: Zenject::InjectContext::$get_ParentContexts$d__52::System_Collections_IEnumerator_Reset
 // Il2CppName: System.Collections.IEnumerator.Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InjectContext::$get_ParentContexts$d__52::*)()>(&InjectContext::$get_ParentContexts$d__52::System_Collections_IEnumerator_Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::InjectContext::$get_ParentContexts$d__52::*)()>(&Zenject::InjectContext::$get_ParentContexts$d__52::System_Collections_IEnumerator_Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectContext::$get_ParentContexts$d__52*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectContext::$get_ParentContexts$d__52*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InjectContext::$get_ParentContexts$d__52::System_Collections_IEnumerator_get_Current
+// Writing MetadataGetter for method: Zenject::InjectContext::$get_ParentContexts$d__52::System_Collections_IEnumerator_get_Current
 // Il2CppName: System.Collections.IEnumerator.get_Current
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (InjectContext::$get_ParentContexts$d__52::*)()>(&InjectContext::$get_ParentContexts$d__52::System_Collections_IEnumerator_get_Current)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::InjectContext::$get_ParentContexts$d__52::*)()>(&Zenject::InjectContext::$get_ParentContexts$d__52::System_Collections_IEnumerator_get_Current)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectContext::$get_ParentContexts$d__52*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectContext::$get_ParentContexts$d__52*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InjectContext::$get_ParentContexts$d__52::System_Collections_Generic_IEnumerable$Zenject_InjectContext$_GetEnumerator
+// Writing MetadataGetter for method: Zenject::InjectContext::$get_ParentContexts$d__52::System_Collections_Generic_IEnumerable$Zenject_InjectContext$_GetEnumerator
 // Il2CppName: System.Collections.Generic.IEnumerable<Zenject.InjectContext>.GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<Zenject::InjectContext*>* (InjectContext::$get_ParentContexts$d__52::*)()>(&InjectContext::$get_ParentContexts$d__52::System_Collections_Generic_IEnumerable$Zenject_InjectContext$_GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<Zenject::InjectContext*>* (Zenject::InjectContext::$get_ParentContexts$d__52::*)()>(&Zenject::InjectContext::$get_ParentContexts$d__52::System_Collections_Generic_IEnumerable$Zenject_InjectContext$_GetEnumerator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectContext::$get_ParentContexts$d__52*), "System.Collections.Generic.IEnumerable<Zenject.InjectContext>.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectContext::$get_ParentContexts$d__52*), "System.Collections.Generic.IEnumerable<Zenject.InjectContext>.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InjectContext::$get_ParentContexts$d__52::System_Collections_IEnumerable_GetEnumerator
+// Writing MetadataGetter for method: Zenject::InjectContext::$get_ParentContexts$d__52::System_Collections_IEnumerable_GetEnumerator
 // Il2CppName: System.Collections.IEnumerable.GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (InjectContext::$get_ParentContexts$d__52::*)()>(&InjectContext::$get_ParentContexts$d__52::System_Collections_IEnumerable_GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (Zenject::InjectContext::$get_ParentContexts$d__52::*)()>(&Zenject::InjectContext::$get_ParentContexts$d__52::System_Collections_IEnumerable_GetEnumerator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InjectContext::$get_ParentContexts$d__52*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::InjectContext::$get_ParentContexts$d__52*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

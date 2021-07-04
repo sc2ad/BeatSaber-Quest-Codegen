@@ -70,43 +70,43 @@ namespace System::Text {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::EncodingHelper*, "System.Text", "EncodingHelper");
-// Writing MetadataGetter for method: EncodingHelper::get_UTF8Unmarked
+// Writing MetadataGetter for method: System::Text::EncodingHelper::get_UTF8Unmarked
 // Il2CppName: get_UTF8Unmarked
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)()>(&EncodingHelper::get_UTF8Unmarked)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)()>(&System::Text::EncodingHelper::get_UTF8Unmarked)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EncodingHelper*), "get_UTF8Unmarked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::EncodingHelper*), "get_UTF8Unmarked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EncodingHelper::InternalCodePage
+// Writing MetadataGetter for method: System::Text::EncodingHelper::InternalCodePage
 // Il2CppName: InternalCodePage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int&)>(&EncodingHelper::InternalCodePage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int&)>(&System::Text::EncodingHelper::InternalCodePage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EncodingHelper*), "InternalCodePage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::EncodingHelper*), "InternalCodePage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: EncodingHelper::GetDefaultEncoding
+// Writing MetadataGetter for method: System::Text::EncodingHelper::GetDefaultEncoding
 // Il2CppName: GetDefaultEncoding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)()>(&EncodingHelper::GetDefaultEncoding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)()>(&System::Text::EncodingHelper::GetDefaultEncoding)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EncodingHelper*), "GetDefaultEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::EncodingHelper*), "GetDefaultEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EncodingHelper::InvokeI18N
+// Writing MetadataGetter for method: System::Text::EncodingHelper::InvokeI18N
 // Il2CppName: InvokeI18N
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&EncodingHelper::InvokeI18N)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&System::Text::EncodingHelper::InvokeI18N)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EncodingHelper*), "InvokeI18N", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::EncodingHelper*), "InvokeI18N", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
   }
 };
-// Writing MetadataGetter for method: EncodingHelper::_cctor
+// Writing MetadataGetter for method: System::Text::EncodingHelper::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&EncodingHelper::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Text::EncodingHelper::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EncodingHelper*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::EncodingHelper*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

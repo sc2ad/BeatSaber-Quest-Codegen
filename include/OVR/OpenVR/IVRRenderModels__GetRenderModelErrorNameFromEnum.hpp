@@ -57,41 +57,41 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum*, "OVR.OpenVR", "IVRRenderModels/_GetRenderModelErrorNameFromEnum");
-// Writing MetadataGetter for method: IVRRenderModels::_GetRenderModelErrorNameFromEnum::New_ctor
+// Writing MetadataGetter for method: OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRRenderModels::_GetRenderModelErrorNameFromEnum::*)(::Il2CppObject*, System::IntPtr)>(&IVRRenderModels::_GetRenderModelErrorNameFromEnum::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRRenderModels::_GetRenderModelErrorNameFromEnum*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRRenderModels::_GetRenderModelErrorNameFromEnum::*)(::Il2CppObject*, System::IntPtr)>(&IVRRenderModels::_GetRenderModelErrorNameFromEnum::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRRenderModels::_GetRenderModelErrorNameFromEnum*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: IVRRenderModels::_GetRenderModelErrorNameFromEnum::Invoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (IVRRenderModels::_GetRenderModelErrorNameFromEnum::*)(OVR::OpenVR::EVRRenderModelError)>(&IVRRenderModels::_GetRenderModelErrorNameFromEnum::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum::*)(OVR::OpenVR::EVRRenderModelError)>(&OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRRenderModels::_GetRenderModelErrorNameFromEnum*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRRenderModelError>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRRenderModelError>()});
   }
 };
-// Writing MetadataGetter for method: IVRRenderModels::_GetRenderModelErrorNameFromEnum::BeginInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRRenderModels::_GetRenderModelErrorNameFromEnum::*)(OVR::OpenVR::EVRRenderModelError, System::AsyncCallback*, ::Il2CppObject*)>(&IVRRenderModels::_GetRenderModelErrorNameFromEnum::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum::*)(OVR::OpenVR::EVRRenderModelError, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRRenderModels::_GetRenderModelErrorNameFromEnum*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRRenderModelError>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRRenderModelError>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IVRRenderModels::_GetRenderModelErrorNameFromEnum::EndInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (IVRRenderModels::_GetRenderModelErrorNameFromEnum::*)(System::IAsyncResult*)>(&IVRRenderModels::_GetRenderModelErrorNameFromEnum::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum::*)(System::IAsyncResult*)>(&OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRRenderModels::_GetRenderModelErrorNameFromEnum*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRRenderModels::_GetRenderModelErrorNameFromEnum*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

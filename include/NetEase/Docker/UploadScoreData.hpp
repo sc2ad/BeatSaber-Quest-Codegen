@@ -111,19 +111,19 @@ namespace NetEase::Docker {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::UploadScoreData, "NetEase.Docker", "UploadScoreData");
-// Writing MetadataGetter for method: UploadScoreData::set_Track
+// Writing MetadataGetter for method: NetEase::Docker::UploadScoreData::set_Track
 // Il2CppName: set_Track
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UploadScoreData::*)(::Il2CppString*)>(&UploadScoreData::set_Track)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::UploadScoreData::*)(::Il2CppString*)>(&NetEase::Docker::UploadScoreData::set_Track)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UploadScoreData), "set_Track", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::UploadScoreData), "set_Track", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: UploadScoreData::set_Score
+// Writing MetadataGetter for method: NetEase::Docker::UploadScoreData::set_Score
 // Il2CppName: set_Score
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UploadScoreData::*)(int)>(&UploadScoreData::set_Score)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::UploadScoreData::*)(int)>(&NetEase::Docker::UploadScoreData::set_Score)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UploadScoreData), "set_Score", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::UploadScoreData), "set_Score", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };

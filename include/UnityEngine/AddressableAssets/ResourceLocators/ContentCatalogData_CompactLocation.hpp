@@ -146,105 +146,105 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
   static_assert(sizeof(ContentCatalogData::CompactLocation) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation*, "UnityEngine.AddressableAssets.ResourceLocators", "ContentCatalogData/CompactLocation");
-// Writing MetadataGetter for method: ContentCatalogData::CompactLocation::get_InternalId
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::get_InternalId
 // Il2CppName: get_InternalId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ContentCatalogData::CompactLocation::*)()>(&ContentCatalogData::CompactLocation::get_InternalId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::*)()>(&UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::get_InternalId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContentCatalogData::CompactLocation*), "get_InternalId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation*), "get_InternalId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ContentCatalogData::CompactLocation::get_ProviderId
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::get_ProviderId
 // Il2CppName: get_ProviderId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ContentCatalogData::CompactLocation::*)()>(&ContentCatalogData::CompactLocation::get_ProviderId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::*)()>(&UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::get_ProviderId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContentCatalogData::CompactLocation*), "get_ProviderId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation*), "get_ProviderId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ContentCatalogData::CompactLocation::get_Dependencies
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::get_Dependencies
 // Il2CppName: get_Dependencies
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* (ContentCatalogData::CompactLocation::*)()>(&ContentCatalogData::CompactLocation::get_Dependencies)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* (UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::*)()>(&UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::get_Dependencies)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContentCatalogData::CompactLocation*), "get_Dependencies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation*), "get_Dependencies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ContentCatalogData::CompactLocation::get_HasDependencies
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::get_HasDependencies
 // Il2CppName: get_HasDependencies
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ContentCatalogData::CompactLocation::*)()>(&ContentCatalogData::CompactLocation::get_HasDependencies)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::*)()>(&UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::get_HasDependencies)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContentCatalogData::CompactLocation*), "get_HasDependencies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation*), "get_HasDependencies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ContentCatalogData::CompactLocation::get_DependencyHashCode
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::get_DependencyHashCode
 // Il2CppName: get_DependencyHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ContentCatalogData::CompactLocation::*)()>(&ContentCatalogData::CompactLocation::get_DependencyHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::*)()>(&UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::get_DependencyHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContentCatalogData::CompactLocation*), "get_DependencyHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation*), "get_DependencyHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ContentCatalogData::CompactLocation::get_Data
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::get_Data
 // Il2CppName: get_Data
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ContentCatalogData::CompactLocation::*)()>(&ContentCatalogData::CompactLocation::get_Data)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::*)()>(&UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::get_Data)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContentCatalogData::CompactLocation*), "get_Data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation*), "get_Data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ContentCatalogData::CompactLocation::get_PrimaryKey
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::get_PrimaryKey
 // Il2CppName: get_PrimaryKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ContentCatalogData::CompactLocation::*)()>(&ContentCatalogData::CompactLocation::get_PrimaryKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::*)()>(&UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::get_PrimaryKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContentCatalogData::CompactLocation*), "get_PrimaryKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation*), "get_PrimaryKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ContentCatalogData::CompactLocation::set_PrimaryKey
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::set_PrimaryKey
 // Il2CppName: set_PrimaryKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentCatalogData::CompactLocation::*)(::Il2CppString*)>(&ContentCatalogData::CompactLocation::set_PrimaryKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::*)(::Il2CppString*)>(&UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::set_PrimaryKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContentCatalogData::CompactLocation*), "set_PrimaryKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation*), "set_PrimaryKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: ContentCatalogData::CompactLocation::get_ResourceType
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::get_ResourceType
 // Il2CppName: get_ResourceType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (ContentCatalogData::CompactLocation::*)()>(&ContentCatalogData::CompactLocation::get_ResourceType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::*)()>(&UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::get_ResourceType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContentCatalogData::CompactLocation*), "get_ResourceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation*), "get_ResourceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ContentCatalogData::CompactLocation::Hash
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::Hash
 // Il2CppName: Hash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ContentCatalogData::CompactLocation::*)(System::Type*)>(&ContentCatalogData::CompactLocation::Hash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::*)(System::Type*)>(&UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::Hash)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContentCatalogData::CompactLocation*), "Hash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation*), "Hash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: ContentCatalogData::CompactLocation::New_ctor
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentCatalogData::CompactLocation::*)(UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*, ::Il2CppString*, ::Il2CppString*, ::Il2CppObject*, ::Il2CppObject*, int, ::Il2CppString*, System::Type*)>(&ContentCatalogData::CompactLocation::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::*)(UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*, ::Il2CppString*, ::Il2CppString*, ::Il2CppObject*, ::Il2CppObject*, int, ::Il2CppString*, System::Type*)>(&UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContentCatalogData::CompactLocation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ContentCatalogData::CompactLocation::*)(UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*, ::Il2CppString*, ::Il2CppString*, ::Il2CppObject*, ::Il2CppObject*, int, ::Il2CppString*, System::Type*)>(&ContentCatalogData::CompactLocation::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::*)(UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*, ::Il2CppString*, ::Il2CppString*, ::Il2CppObject*, ::Il2CppObject*, int, ::Il2CppString*, System::Type*)>(&UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContentCatalogData::CompactLocation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: ContentCatalogData::CompactLocation::ToString
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ContentCatalogData::CompactLocation::*)()>(&ContentCatalogData::CompactLocation::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::*)()>(&UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ContentCatalogData::CompactLocation*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::CompactLocation*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

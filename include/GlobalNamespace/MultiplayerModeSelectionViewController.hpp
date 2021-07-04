@@ -198,89 +198,89 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerModeSelectionViewController*, "", "MultiplayerModeSelectionViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton, "", "MultiplayerModeSelectionViewController/MenuButton");
-// Writing MetadataGetter for method: MultiplayerModeSelectionViewController::add_didFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerModeSelectionViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionViewController::*)(System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>*)>(&MultiplayerModeSelectionViewController::add_didFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerModeSelectionViewController::*)(System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>*)>(&GlobalNamespace::MultiplayerModeSelectionViewController::add_didFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionViewController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerModeSelectionViewController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerModeSelectionViewController::remove_didFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerModeSelectionViewController::remove_didFinishEvent
 // Il2CppName: remove_didFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionViewController::*)(System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>*)>(&MultiplayerModeSelectionViewController::remove_didFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerModeSelectionViewController::*)(System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>*)>(&GlobalNamespace::MultiplayerModeSelectionViewController::remove_didFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerModeSelectionViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerModeSelectionViewController::SetData
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerModeSelectionViewController::SetData
 // Il2CppName: SetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionViewController::*)(GlobalNamespace::MasterServerAvailabilityData*)>(&MultiplayerModeSelectionViewController::SetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerModeSelectionViewController::*)(GlobalNamespace::MasterServerAvailabilityData*)>(&GlobalNamespace::MultiplayerModeSelectionViewController::SetData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionViewController*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MasterServerAvailabilityData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerModeSelectionViewController*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MasterServerAvailabilityData*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerModeSelectionViewController::HandleMenuButton
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerModeSelectionViewController::HandleMenuButton
 // Il2CppName: HandleMenuButton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionViewController::*)(GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton)>(&MultiplayerModeSelectionViewController::HandleMenuButton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerModeSelectionViewController::*)(GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton)>(&GlobalNamespace::MultiplayerModeSelectionViewController::HandleMenuButton)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionViewController*), "HandleMenuButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerModeSelectionViewController*), "HandleMenuButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerModeSelectionViewController::$DidActivate$b__11_0
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerModeSelectionViewController::$DidActivate$b__11_0
 // Il2CppName: <DidActivate>b__11_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionViewController::*)()>(&MultiplayerModeSelectionViewController::$DidActivate$b__11_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerModeSelectionViewController::*)()>(&GlobalNamespace::MultiplayerModeSelectionViewController::$DidActivate$b__11_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionViewController*), "<DidActivate>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerModeSelectionViewController*), "<DidActivate>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerModeSelectionViewController::$DidActivate$b__11_1
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerModeSelectionViewController::$DidActivate$b__11_1
 // Il2CppName: <DidActivate>b__11_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionViewController::*)()>(&MultiplayerModeSelectionViewController::$DidActivate$b__11_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerModeSelectionViewController::*)()>(&GlobalNamespace::MultiplayerModeSelectionViewController::$DidActivate$b__11_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionViewController*), "<DidActivate>b__11_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerModeSelectionViewController*), "<DidActivate>b__11_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerModeSelectionViewController::$DidActivate$b__11_2
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerModeSelectionViewController::$DidActivate$b__11_2
 // Il2CppName: <DidActivate>b__11_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionViewController::*)()>(&MultiplayerModeSelectionViewController::$DidActivate$b__11_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerModeSelectionViewController::*)()>(&GlobalNamespace::MultiplayerModeSelectionViewController::$DidActivate$b__11_2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionViewController*), "<DidActivate>b__11_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerModeSelectionViewController*), "<DidActivate>b__11_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerModeSelectionViewController::$DidActivate$b__11_3
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerModeSelectionViewController::$DidActivate$b__11_3
 // Il2CppName: <DidActivate>b__11_3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionViewController::*)()>(&MultiplayerModeSelectionViewController::$DidActivate$b__11_3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerModeSelectionViewController::*)()>(&GlobalNamespace::MultiplayerModeSelectionViewController::$DidActivate$b__11_3)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionViewController*), "<DidActivate>b__11_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerModeSelectionViewController*), "<DidActivate>b__11_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerModeSelectionViewController::DidActivate
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerModeSelectionViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionViewController::*)(bool, bool, bool)>(&MultiplayerModeSelectionViewController::DidActivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerModeSelectionViewController::*)(bool, bool, bool)>(&GlobalNamespace::MultiplayerModeSelectionViewController::DidActivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerModeSelectionViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerModeSelectionViewController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerModeSelectionViewController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionViewController::*)()>(&MultiplayerModeSelectionViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerModeSelectionViewController::*)()>(&GlobalNamespace::MultiplayerModeSelectionViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerModeSelectionViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerModeSelectionViewController::*)()>(&MultiplayerModeSelectionViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerModeSelectionViewController::*)()>(&GlobalNamespace::MultiplayerModeSelectionViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerModeSelectionViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerModeSelectionViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -89,57 +89,57 @@ namespace GlobalNamespace {
   static_assert(sizeof(ConnectedPlayerManager::KickPlayerPacket) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket*, "", "ConnectedPlayerManager/KickPlayerPacket");
-// Writing MetadataGetter for method: ConnectedPlayerManager::KickPlayerPacket::get_pool
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket::get_pool
 // Il2CppName: get_pool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket*>* (*)()>(&ConnectedPlayerManager::KickPlayerPacket::get_pool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket*>* (*)()>(&GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket::get_pool)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::KickPlayerPacket*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ConnectedPlayerManager::KickPlayerPacket::Init
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket* (ConnectedPlayerManager::KickPlayerPacket::*)(GlobalNamespace::DisconnectedReason)>(&ConnectedPlayerManager::KickPlayerPacket::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket* (GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket::*)(GlobalNamespace::DisconnectedReason)>(&GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::KickPlayerPacket*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DisconnectedReason>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DisconnectedReason>()});
   }
 };
-// Writing MetadataGetter for method: ConnectedPlayerManager::KickPlayerPacket::Serialize
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket::Serialize
 // Il2CppName: Serialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectedPlayerManager::KickPlayerPacket::*)(LiteNetLib::Utils::NetDataWriter*)>(&ConnectedPlayerManager::KickPlayerPacket::Serialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket::*)(LiteNetLib::Utils::NetDataWriter*)>(&GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket::Serialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::KickPlayerPacket*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
   }
 };
-// Writing MetadataGetter for method: ConnectedPlayerManager::KickPlayerPacket::Deserialize
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket::Deserialize
 // Il2CppName: Deserialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectedPlayerManager::KickPlayerPacket::*)(LiteNetLib::Utils::NetDataReader*)>(&ConnectedPlayerManager::KickPlayerPacket::Deserialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket::*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket::Deserialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::KickPlayerPacket*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
   }
 };
-// Writing MetadataGetter for method: ConnectedPlayerManager::KickPlayerPacket::Release
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket::Release
 // Il2CppName: Release
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectedPlayerManager::KickPlayerPacket::*)()>(&ConnectedPlayerManager::KickPlayerPacket::Release)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket::*)()>(&GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket::Release)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::KickPlayerPacket*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ConnectedPlayerManager::KickPlayerPacket::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectedPlayerManager::KickPlayerPacket::*)()>(&ConnectedPlayerManager::KickPlayerPacket::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket::*)()>(&GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::KickPlayerPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConnectedPlayerManager::KickPlayerPacket::*)()>(&ConnectedPlayerManager::KickPlayerPacket::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket::*)()>(&GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConnectedPlayerManager::KickPlayerPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::KickPlayerPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

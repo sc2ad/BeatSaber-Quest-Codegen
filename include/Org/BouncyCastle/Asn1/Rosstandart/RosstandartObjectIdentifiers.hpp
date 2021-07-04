@@ -109,11 +109,11 @@ namespace Org::BouncyCastle::Asn1::Rosstandart {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Rosstandart::RosstandartObjectIdentifiers*, "Org.BouncyCastle.Asn1.Rosstandart", "RosstandartObjectIdentifiers");
-// Writing MetadataGetter for method: RosstandartObjectIdentifiers::_cctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Rosstandart::RosstandartObjectIdentifiers::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&RosstandartObjectIdentifiers::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::Asn1::Rosstandart::RosstandartObjectIdentifiers::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RosstandartObjectIdentifiers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Rosstandart::RosstandartObjectIdentifiers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

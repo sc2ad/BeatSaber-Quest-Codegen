@@ -56,41 +56,41 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CullingGroup::StateChanged*, "UnityEngine", "CullingGroup/StateChanged");
-// Writing MetadataGetter for method: CullingGroup::StateChanged::New_ctor
+// Writing MetadataGetter for method: UnityEngine::CullingGroup::StateChanged::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CullingGroup::StateChanged::*)(::Il2CppObject*, System::IntPtr)>(&CullingGroup::StateChanged::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CullingGroup::StateChanged::*)(::Il2CppObject*, System::IntPtr)>(&UnityEngine::CullingGroup::StateChanged::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CullingGroup::StateChanged*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CullingGroup::StateChanged*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CullingGroup::StateChanged::*)(::Il2CppObject*, System::IntPtr)>(&CullingGroup::StateChanged::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CullingGroup::StateChanged::*)(::Il2CppObject*, System::IntPtr)>(&UnityEngine::CullingGroup::StateChanged::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CullingGroup::StateChanged*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CullingGroup::StateChanged*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: CullingGroup::StateChanged::Invoke
+// Writing MetadataGetter for method: UnityEngine::CullingGroup::StateChanged::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CullingGroup::StateChanged::*)(UnityEngine::CullingGroupEvent)>(&CullingGroup::StateChanged::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CullingGroup::StateChanged::*)(UnityEngine::CullingGroupEvent)>(&UnityEngine::CullingGroup::StateChanged::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CullingGroup::StateChanged*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::CullingGroupEvent>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CullingGroup::StateChanged*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::CullingGroupEvent>()});
   }
 };
-// Writing MetadataGetter for method: CullingGroup::StateChanged::BeginInvoke
+// Writing MetadataGetter for method: UnityEngine::CullingGroup::StateChanged::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (CullingGroup::StateChanged::*)(UnityEngine::CullingGroupEvent, System::AsyncCallback*, ::Il2CppObject*)>(&CullingGroup::StateChanged::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (UnityEngine::CullingGroup::StateChanged::*)(UnityEngine::CullingGroupEvent, System::AsyncCallback*, ::Il2CppObject*)>(&UnityEngine::CullingGroup::StateChanged::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CullingGroup::StateChanged*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::CullingGroupEvent>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CullingGroup::StateChanged*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::CullingGroupEvent>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: CullingGroup::StateChanged::EndInvoke
+// Writing MetadataGetter for method: UnityEngine::CullingGroup::StateChanged::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CullingGroup::StateChanged::*)(System::IAsyncResult*)>(&CullingGroup::StateChanged::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CullingGroup::StateChanged::*)(System::IAsyncResult*)>(&UnityEngine::CullingGroup::StateChanged::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CullingGroup::StateChanged*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CullingGroup::StateChanged*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

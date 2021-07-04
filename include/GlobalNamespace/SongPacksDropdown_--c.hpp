@@ -56,33 +56,33 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPacksDropdown::$$c*, "", "SongPacksDropdown/<>c");
-// Writing MetadataGetter for method: SongPacksDropdown::$$c::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::SongPacksDropdown::$$c::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SongPacksDropdown::$$c::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::SongPacksDropdown::$$c::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongPacksDropdown::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPacksDropdown::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SongPacksDropdown::$$c::$LazyInit$b__7_0
+// Writing MetadataGetter for method: GlobalNamespace::SongPacksDropdown::$$c::$LazyInit$b__7_0
 // Il2CppName: <LazyInit>b__7_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SongPacksDropdown::$$c::*)(::Il2CppString*)>(&SongPacksDropdown::$$c::$LazyInit$b__7_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SongPacksDropdown::$$c::*)(::Il2CppString*)>(&GlobalNamespace::SongPacksDropdown::$$c::$LazyInit$b__7_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongPacksDropdown::$$c*), "<LazyInit>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPacksDropdown::$$c*), "<LazyInit>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: SongPacksDropdown::$$c::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::SongPacksDropdown::$$c::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPacksDropdown::$$c::*)()>(&SongPacksDropdown::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongPacksDropdown::$$c::*)()>(&GlobalNamespace::SongPacksDropdown::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongPacksDropdown::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPacksDropdown::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SongPacksDropdown::$$c::*)()>(&SongPacksDropdown::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongPacksDropdown::$$c::*)()>(&GlobalNamespace::SongPacksDropdown::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SongPacksDropdown::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPacksDropdown::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

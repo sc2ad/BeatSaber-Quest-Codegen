@@ -34,11 +34,11 @@ namespace UnityEngine::EventSystems {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::IInitializePotentialDragHandler*, "UnityEngine.EventSystems", "IInitializePotentialDragHandler");
-// Writing MetadataGetter for method: IInitializePotentialDragHandler::OnInitializePotentialDrag
+// Writing MetadataGetter for method: UnityEngine::EventSystems::IInitializePotentialDragHandler::OnInitializePotentialDrag
 // Il2CppName: OnInitializePotentialDrag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IInitializePotentialDragHandler::*)(UnityEngine::EventSystems::PointerEventData*)>(&IInitializePotentialDragHandler::OnInitializePotentialDrag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::IInitializePotentialDragHandler::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::IInitializePotentialDragHandler::OnInitializePotentialDrag)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IInitializePotentialDragHandler*), "OnInitializePotentialDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::IInitializePotentialDragHandler*), "OnInitializePotentialDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };

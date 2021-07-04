@@ -141,57 +141,57 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteCutCoreEffectsSpawner) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutCoreEffectsSpawner*, "", "NoteCutCoreEffectsSpawner");
-// Writing MetadataGetter for method: NoteCutCoreEffectsSpawner::Start
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutCoreEffectsSpawner::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteCutCoreEffectsSpawner::*)()>(&NoteCutCoreEffectsSpawner::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteCutCoreEffectsSpawner::*)()>(&GlobalNamespace::NoteCutCoreEffectsSpawner::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteCutCoreEffectsSpawner*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutCoreEffectsSpawner*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NoteCutCoreEffectsSpawner::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutCoreEffectsSpawner::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteCutCoreEffectsSpawner::*)()>(&NoteCutCoreEffectsSpawner::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteCutCoreEffectsSpawner::*)()>(&GlobalNamespace::NoteCutCoreEffectsSpawner::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteCutCoreEffectsSpawner*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutCoreEffectsSpawner*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NoteCutCoreEffectsSpawner::HandleNoteWasCut
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutCoreEffectsSpawner::HandleNoteWasCut
 // Il2CppName: HandleNoteWasCut
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteCutCoreEffectsSpawner::*)(GlobalNamespace::NoteController*, GlobalNamespace::NoteCutInfo&)>(&NoteCutCoreEffectsSpawner::HandleNoteWasCut)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteCutCoreEffectsSpawner::*)(GlobalNamespace::NoteController*, GlobalNamespace::NoteCutInfo&)>(&GlobalNamespace::NoteCutCoreEffectsSpawner::HandleNoteWasCut)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteCutCoreEffectsSpawner*), "HandleNoteWasCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutCoreEffectsSpawner*), "HandleNoteWasCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>()});
   }
 };
-// Writing MetadataGetter for method: NoteCutCoreEffectsSpawner::SpawnNoteCutEffect
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutCoreEffectsSpawner::SpawnNoteCutEffect
 // Il2CppName: SpawnNoteCutEffect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteCutCoreEffectsSpawner::*)(GlobalNamespace::NoteCutInfo&, GlobalNamespace::NoteController*)>(&NoteCutCoreEffectsSpawner::SpawnNoteCutEffect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteCutCoreEffectsSpawner::*)(GlobalNamespace::NoteCutInfo&, GlobalNamespace::NoteController*)>(&GlobalNamespace::NoteCutCoreEffectsSpawner::SpawnNoteCutEffect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteCutCoreEffectsSpawner*), "SpawnNoteCutEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutCoreEffectsSpawner*), "SpawnNoteCutEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>()});
   }
 };
-// Writing MetadataGetter for method: NoteCutCoreEffectsSpawner::SpawnBombCutEffect
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutCoreEffectsSpawner::SpawnBombCutEffect
 // Il2CppName: SpawnBombCutEffect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteCutCoreEffectsSpawner::*)(GlobalNamespace::NoteCutInfo&, GlobalNamespace::NoteController*)>(&NoteCutCoreEffectsSpawner::SpawnBombCutEffect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteCutCoreEffectsSpawner::*)(GlobalNamespace::NoteCutInfo&, GlobalNamespace::NoteController*)>(&GlobalNamespace::NoteCutCoreEffectsSpawner::SpawnBombCutEffect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteCutCoreEffectsSpawner*), "SpawnBombCutEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutCoreEffectsSpawner*), "SpawnBombCutEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>()});
   }
 };
-// Writing MetadataGetter for method: NoteCutCoreEffectsSpawner::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutCoreEffectsSpawner::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteCutCoreEffectsSpawner::*)()>(&NoteCutCoreEffectsSpawner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteCutCoreEffectsSpawner::*)()>(&GlobalNamespace::NoteCutCoreEffectsSpawner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteCutCoreEffectsSpawner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutCoreEffectsSpawner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteCutCoreEffectsSpawner::*)()>(&NoteCutCoreEffectsSpawner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteCutCoreEffectsSpawner::*)()>(&GlobalNamespace::NoteCutCoreEffectsSpawner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteCutCoreEffectsSpawner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutCoreEffectsSpawner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

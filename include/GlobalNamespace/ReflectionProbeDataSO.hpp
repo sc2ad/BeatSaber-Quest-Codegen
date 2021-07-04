@@ -71,49 +71,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(ReflectionProbeDataSO) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ReflectionProbeDataSO*, "", "ReflectionProbeDataSO");
-// Writing MetadataGetter for method: ReflectionProbeDataSO::get_reflectionProbeCubemap1
+// Writing MetadataGetter for method: GlobalNamespace::ReflectionProbeDataSO::get_reflectionProbeCubemap1
 // Il2CppName: get_reflectionProbeCubemap1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Cubemap* (ReflectionProbeDataSO::*)()>(&ReflectionProbeDataSO::get_reflectionProbeCubemap1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Cubemap* (GlobalNamespace::ReflectionProbeDataSO::*)()>(&GlobalNamespace::ReflectionProbeDataSO::get_reflectionProbeCubemap1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReflectionProbeDataSO*), "get_reflectionProbeCubemap1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ReflectionProbeDataSO*), "get_reflectionProbeCubemap1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ReflectionProbeDataSO::set_reflectionProbeCubemap1
+// Writing MetadataGetter for method: GlobalNamespace::ReflectionProbeDataSO::set_reflectionProbeCubemap1
 // Il2CppName: set_reflectionProbeCubemap1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReflectionProbeDataSO::*)(UnityEngine::Cubemap*)>(&ReflectionProbeDataSO::set_reflectionProbeCubemap1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ReflectionProbeDataSO::*)(UnityEngine::Cubemap*)>(&GlobalNamespace::ReflectionProbeDataSO::set_reflectionProbeCubemap1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReflectionProbeDataSO*), "set_reflectionProbeCubemap1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Cubemap*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ReflectionProbeDataSO*), "set_reflectionProbeCubemap1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Cubemap*>()});
   }
 };
-// Writing MetadataGetter for method: ReflectionProbeDataSO::get_reflectionProbeCubemap2
+// Writing MetadataGetter for method: GlobalNamespace::ReflectionProbeDataSO::get_reflectionProbeCubemap2
 // Il2CppName: get_reflectionProbeCubemap2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Cubemap* (ReflectionProbeDataSO::*)()>(&ReflectionProbeDataSO::get_reflectionProbeCubemap2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Cubemap* (GlobalNamespace::ReflectionProbeDataSO::*)()>(&GlobalNamespace::ReflectionProbeDataSO::get_reflectionProbeCubemap2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReflectionProbeDataSO*), "get_reflectionProbeCubemap2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ReflectionProbeDataSO*), "get_reflectionProbeCubemap2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ReflectionProbeDataSO::set_reflectionProbeCubemap2
+// Writing MetadataGetter for method: GlobalNamespace::ReflectionProbeDataSO::set_reflectionProbeCubemap2
 // Il2CppName: set_reflectionProbeCubemap2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReflectionProbeDataSO::*)(UnityEngine::Cubemap*)>(&ReflectionProbeDataSO::set_reflectionProbeCubemap2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ReflectionProbeDataSO::*)(UnityEngine::Cubemap*)>(&GlobalNamespace::ReflectionProbeDataSO::set_reflectionProbeCubemap2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReflectionProbeDataSO*), "set_reflectionProbeCubemap2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Cubemap*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ReflectionProbeDataSO*), "set_reflectionProbeCubemap2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Cubemap*>()});
   }
 };
-// Writing MetadataGetter for method: ReflectionProbeDataSO::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::ReflectionProbeDataSO::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReflectionProbeDataSO::*)()>(&ReflectionProbeDataSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ReflectionProbeDataSO::*)()>(&GlobalNamespace::ReflectionProbeDataSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReflectionProbeDataSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ReflectionProbeDataSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReflectionProbeDataSO::*)()>(&ReflectionProbeDataSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ReflectionProbeDataSO::*)()>(&GlobalNamespace::ReflectionProbeDataSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReflectionProbeDataSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ReflectionProbeDataSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

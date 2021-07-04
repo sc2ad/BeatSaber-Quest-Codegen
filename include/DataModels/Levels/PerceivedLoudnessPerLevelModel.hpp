@@ -86,49 +86,49 @@ namespace DataModels::Levels {
   static_assert(sizeof(PerceivedLoudnessPerLevelModel) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(DataModels::Levels::PerceivedLoudnessPerLevelModel*, "DataModels.Levels", "PerceivedLoudnessPerLevelModel");
-// Writing MetadataGetter for method: PerceivedLoudnessPerLevelModel::New_ctor
+// Writing MetadataGetter for method: DataModels::Levels::PerceivedLoudnessPerLevelModel::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PerceivedLoudnessPerLevelModel::*)(GlobalNamespace::PerceivedLoudnessPerLevelSO*)>(&PerceivedLoudnessPerLevelModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DataModels::Levels::PerceivedLoudnessPerLevelModel::*)(GlobalNamespace::PerceivedLoudnessPerLevelSO*)>(&DataModels::Levels::PerceivedLoudnessPerLevelModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PerceivedLoudnessPerLevelModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PerceivedLoudnessPerLevelSO*>()});
+    return ::il2cpp_utils::FindMethod(classof(DataModels::Levels::PerceivedLoudnessPerLevelModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PerceivedLoudnessPerLevelSO*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PerceivedLoudnessPerLevelModel::*)(GlobalNamespace::PerceivedLoudnessPerLevelSO*)>(&PerceivedLoudnessPerLevelModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DataModels::Levels::PerceivedLoudnessPerLevelModel::*)(GlobalNamespace::PerceivedLoudnessPerLevelSO*)>(&DataModels::Levels::PerceivedLoudnessPerLevelModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PerceivedLoudnessPerLevelModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PerceivedLoudnessPerLevelSO*>()});
+    return ::il2cpp_utils::FindMethod(classof(DataModels::Levels::PerceivedLoudnessPerLevelModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PerceivedLoudnessPerLevelSO*>()});
   }
 };
-// Writing MetadataGetter for method: PerceivedLoudnessPerLevelModel::ContainsLevelId
+// Writing MetadataGetter for method: DataModels::Levels::PerceivedLoudnessPerLevelModel::ContainsLevelId
 // Il2CppName: ContainsLevelId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PerceivedLoudnessPerLevelModel::*)(::Il2CppString*)>(&PerceivedLoudnessPerLevelModel::ContainsLevelId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DataModels::Levels::PerceivedLoudnessPerLevelModel::*)(::Il2CppString*)>(&DataModels::Levels::PerceivedLoudnessPerLevelModel::ContainsLevelId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PerceivedLoudnessPerLevelModel*), "ContainsLevelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(DataModels::Levels::PerceivedLoudnessPerLevelModel*), "ContainsLevelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: PerceivedLoudnessPerLevelModel::GetLoudnessCorrectionByLevelId
+// Writing MetadataGetter for method: DataModels::Levels::PerceivedLoudnessPerLevelModel::GetLoudnessCorrectionByLevelId
 // Il2CppName: GetLoudnessCorrectionByLevelId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (PerceivedLoudnessPerLevelModel::*)(::Il2CppString*)>(&PerceivedLoudnessPerLevelModel::GetLoudnessCorrectionByLevelId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (DataModels::Levels::PerceivedLoudnessPerLevelModel::*)(::Il2CppString*)>(&DataModels::Levels::PerceivedLoudnessPerLevelModel::GetLoudnessCorrectionByLevelId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PerceivedLoudnessPerLevelModel*), "GetLoudnessCorrectionByLevelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(DataModels::Levels::PerceivedLoudnessPerLevelModel*), "GetLoudnessCorrectionByLevelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: PerceivedLoudnessPerLevelModel::GetMaxSfxVolumeByLevelId
+// Writing MetadataGetter for method: DataModels::Levels::PerceivedLoudnessPerLevelModel::GetMaxSfxVolumeByLevelId
 // Il2CppName: GetMaxSfxVolumeByLevelId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (PerceivedLoudnessPerLevelModel::*)(::Il2CppString*)>(&PerceivedLoudnessPerLevelModel::GetMaxSfxVolumeByLevelId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (DataModels::Levels::PerceivedLoudnessPerLevelModel::*)(::Il2CppString*)>(&DataModels::Levels::PerceivedLoudnessPerLevelModel::GetMaxSfxVolumeByLevelId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PerceivedLoudnessPerLevelModel*), "GetMaxSfxVolumeByLevelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(DataModels::Levels::PerceivedLoudnessPerLevelModel*), "GetMaxSfxVolumeByLevelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: PerceivedLoudnessPerLevelModel::GetLoudnessByLevelId
+// Writing MetadataGetter for method: DataModels::Levels::PerceivedLoudnessPerLevelModel::GetLoudnessByLevelId
 // Il2CppName: GetLoudnessByLevelId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (PerceivedLoudnessPerLevelModel::*)(::Il2CppString*)>(&PerceivedLoudnessPerLevelModel::GetLoudnessByLevelId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (DataModels::Levels::PerceivedLoudnessPerLevelModel::*)(::Il2CppString*)>(&DataModels::Levels::PerceivedLoudnessPerLevelModel::GetLoudnessByLevelId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PerceivedLoudnessPerLevelModel*), "GetLoudnessByLevelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(DataModels::Levels::PerceivedLoudnessPerLevelModel*), "GetLoudnessByLevelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };

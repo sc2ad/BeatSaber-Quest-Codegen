@@ -67,17 +67,17 @@ namespace UnityEngine {
   static_assert(sizeof(GUILayoutUtility::LayoutCache) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayoutUtility::LayoutCache*, "UnityEngine", "GUILayoutUtility/LayoutCache");
-// Writing MetadataGetter for method: GUILayoutUtility::LayoutCache::New_ctor
+// Writing MetadataGetter for method: UnityEngine::GUILayoutUtility::LayoutCache::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GUILayoutUtility::LayoutCache::*)()>(&GUILayoutUtility::LayoutCache::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUILayoutUtility::LayoutCache::*)()>(&UnityEngine::GUILayoutUtility::LayoutCache::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility::LayoutCache*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayoutUtility::LayoutCache*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GUILayoutUtility::LayoutCache::*)()>(&GUILayoutUtility::LayoutCache::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUILayoutUtility::LayoutCache::*)()>(&UnityEngine::GUILayoutUtility::LayoutCache::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUILayoutUtility::LayoutCache*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayoutUtility::LayoutCache*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

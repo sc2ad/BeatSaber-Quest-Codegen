@@ -92,129 +92,129 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::StateMachineBehaviour*, "UnityEngine", "StateMachineBehaviour");
-// Writing MetadataGetter for method: StateMachineBehaviour::OnStateEnter
+// Writing MetadataGetter for method: UnityEngine::StateMachineBehaviour::OnStateEnter
 // Il2CppName: OnStateEnter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StateMachineBehaviour::*)(UnityEngine::Animator*, UnityEngine::AnimatorStateInfo, int)>(&StateMachineBehaviour::OnStateEnter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::StateMachineBehaviour::*)(UnityEngine::Animator*, UnityEngine::AnimatorStateInfo, int)>(&UnityEngine::StateMachineBehaviour::OnStateEnter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StateMachineBehaviour*), "OnStateEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimatorStateInfo>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::StateMachineBehaviour*), "OnStateEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimatorStateInfo>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: StateMachineBehaviour::OnStateUpdate
+// Writing MetadataGetter for method: UnityEngine::StateMachineBehaviour::OnStateUpdate
 // Il2CppName: OnStateUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StateMachineBehaviour::*)(UnityEngine::Animator*, UnityEngine::AnimatorStateInfo, int)>(&StateMachineBehaviour::OnStateUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::StateMachineBehaviour::*)(UnityEngine::Animator*, UnityEngine::AnimatorStateInfo, int)>(&UnityEngine::StateMachineBehaviour::OnStateUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StateMachineBehaviour*), "OnStateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimatorStateInfo>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::StateMachineBehaviour*), "OnStateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimatorStateInfo>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: StateMachineBehaviour::OnStateExit
+// Writing MetadataGetter for method: UnityEngine::StateMachineBehaviour::OnStateExit
 // Il2CppName: OnStateExit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StateMachineBehaviour::*)(UnityEngine::Animator*, UnityEngine::AnimatorStateInfo, int)>(&StateMachineBehaviour::OnStateExit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::StateMachineBehaviour::*)(UnityEngine::Animator*, UnityEngine::AnimatorStateInfo, int)>(&UnityEngine::StateMachineBehaviour::OnStateExit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StateMachineBehaviour*), "OnStateExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimatorStateInfo>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::StateMachineBehaviour*), "OnStateExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimatorStateInfo>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: StateMachineBehaviour::OnStateMove
+// Writing MetadataGetter for method: UnityEngine::StateMachineBehaviour::OnStateMove
 // Il2CppName: OnStateMove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StateMachineBehaviour::*)(UnityEngine::Animator*, UnityEngine::AnimatorStateInfo, int)>(&StateMachineBehaviour::OnStateMove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::StateMachineBehaviour::*)(UnityEngine::Animator*, UnityEngine::AnimatorStateInfo, int)>(&UnityEngine::StateMachineBehaviour::OnStateMove)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StateMachineBehaviour*), "OnStateMove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimatorStateInfo>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::StateMachineBehaviour*), "OnStateMove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimatorStateInfo>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: StateMachineBehaviour::OnStateIK
+// Writing MetadataGetter for method: UnityEngine::StateMachineBehaviour::OnStateIK
 // Il2CppName: OnStateIK
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StateMachineBehaviour::*)(UnityEngine::Animator*, UnityEngine::AnimatorStateInfo, int)>(&StateMachineBehaviour::OnStateIK)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::StateMachineBehaviour::*)(UnityEngine::Animator*, UnityEngine::AnimatorStateInfo, int)>(&UnityEngine::StateMachineBehaviour::OnStateIK)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StateMachineBehaviour*), "OnStateIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimatorStateInfo>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::StateMachineBehaviour*), "OnStateIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimatorStateInfo>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: StateMachineBehaviour::OnStateMachineEnter
+// Writing MetadataGetter for method: UnityEngine::StateMachineBehaviour::OnStateMachineEnter
 // Il2CppName: OnStateMachineEnter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StateMachineBehaviour::*)(UnityEngine::Animator*, int)>(&StateMachineBehaviour::OnStateMachineEnter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::StateMachineBehaviour::*)(UnityEngine::Animator*, int)>(&UnityEngine::StateMachineBehaviour::OnStateMachineEnter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StateMachineBehaviour*), "OnStateMachineEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::StateMachineBehaviour*), "OnStateMachineEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: StateMachineBehaviour::OnStateMachineExit
+// Writing MetadataGetter for method: UnityEngine::StateMachineBehaviour::OnStateMachineExit
 // Il2CppName: OnStateMachineExit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StateMachineBehaviour::*)(UnityEngine::Animator*, int)>(&StateMachineBehaviour::OnStateMachineExit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::StateMachineBehaviour::*)(UnityEngine::Animator*, int)>(&UnityEngine::StateMachineBehaviour::OnStateMachineExit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StateMachineBehaviour*), "OnStateMachineExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::StateMachineBehaviour*), "OnStateMachineExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: StateMachineBehaviour::OnStateEnter
+// Writing MetadataGetter for method: UnityEngine::StateMachineBehaviour::OnStateEnter
 // Il2CppName: OnStateEnter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StateMachineBehaviour::*)(UnityEngine::Animator*, UnityEngine::AnimatorStateInfo, int, UnityEngine::Animations::AnimatorControllerPlayable)>(&StateMachineBehaviour::OnStateEnter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::StateMachineBehaviour::*)(UnityEngine::Animator*, UnityEngine::AnimatorStateInfo, int, UnityEngine::Animations::AnimatorControllerPlayable)>(&UnityEngine::StateMachineBehaviour::OnStateEnter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StateMachineBehaviour*), "OnStateEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimatorStateInfo>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimatorControllerPlayable>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::StateMachineBehaviour*), "OnStateEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimatorStateInfo>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimatorControllerPlayable>()});
   }
 };
-// Writing MetadataGetter for method: StateMachineBehaviour::OnStateUpdate
+// Writing MetadataGetter for method: UnityEngine::StateMachineBehaviour::OnStateUpdate
 // Il2CppName: OnStateUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StateMachineBehaviour::*)(UnityEngine::Animator*, UnityEngine::AnimatorStateInfo, int, UnityEngine::Animations::AnimatorControllerPlayable)>(&StateMachineBehaviour::OnStateUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::StateMachineBehaviour::*)(UnityEngine::Animator*, UnityEngine::AnimatorStateInfo, int, UnityEngine::Animations::AnimatorControllerPlayable)>(&UnityEngine::StateMachineBehaviour::OnStateUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StateMachineBehaviour*), "OnStateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimatorStateInfo>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimatorControllerPlayable>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::StateMachineBehaviour*), "OnStateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimatorStateInfo>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimatorControllerPlayable>()});
   }
 };
-// Writing MetadataGetter for method: StateMachineBehaviour::OnStateExit
+// Writing MetadataGetter for method: UnityEngine::StateMachineBehaviour::OnStateExit
 // Il2CppName: OnStateExit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StateMachineBehaviour::*)(UnityEngine::Animator*, UnityEngine::AnimatorStateInfo, int, UnityEngine::Animations::AnimatorControllerPlayable)>(&StateMachineBehaviour::OnStateExit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::StateMachineBehaviour::*)(UnityEngine::Animator*, UnityEngine::AnimatorStateInfo, int, UnityEngine::Animations::AnimatorControllerPlayable)>(&UnityEngine::StateMachineBehaviour::OnStateExit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StateMachineBehaviour*), "OnStateExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimatorStateInfo>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimatorControllerPlayable>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::StateMachineBehaviour*), "OnStateExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimatorStateInfo>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimatorControllerPlayable>()});
   }
 };
-// Writing MetadataGetter for method: StateMachineBehaviour::OnStateMove
+// Writing MetadataGetter for method: UnityEngine::StateMachineBehaviour::OnStateMove
 // Il2CppName: OnStateMove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StateMachineBehaviour::*)(UnityEngine::Animator*, UnityEngine::AnimatorStateInfo, int, UnityEngine::Animations::AnimatorControllerPlayable)>(&StateMachineBehaviour::OnStateMove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::StateMachineBehaviour::*)(UnityEngine::Animator*, UnityEngine::AnimatorStateInfo, int, UnityEngine::Animations::AnimatorControllerPlayable)>(&UnityEngine::StateMachineBehaviour::OnStateMove)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StateMachineBehaviour*), "OnStateMove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimatorStateInfo>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimatorControllerPlayable>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::StateMachineBehaviour*), "OnStateMove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimatorStateInfo>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimatorControllerPlayable>()});
   }
 };
-// Writing MetadataGetter for method: StateMachineBehaviour::OnStateIK
+// Writing MetadataGetter for method: UnityEngine::StateMachineBehaviour::OnStateIK
 // Il2CppName: OnStateIK
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StateMachineBehaviour::*)(UnityEngine::Animator*, UnityEngine::AnimatorStateInfo, int, UnityEngine::Animations::AnimatorControllerPlayable)>(&StateMachineBehaviour::OnStateIK)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::StateMachineBehaviour::*)(UnityEngine::Animator*, UnityEngine::AnimatorStateInfo, int, UnityEngine::Animations::AnimatorControllerPlayable)>(&UnityEngine::StateMachineBehaviour::OnStateIK)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StateMachineBehaviour*), "OnStateIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimatorStateInfo>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimatorControllerPlayable>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::StateMachineBehaviour*), "OnStateIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimatorStateInfo>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimatorControllerPlayable>()});
   }
 };
-// Writing MetadataGetter for method: StateMachineBehaviour::OnStateMachineEnter
+// Writing MetadataGetter for method: UnityEngine::StateMachineBehaviour::OnStateMachineEnter
 // Il2CppName: OnStateMachineEnter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StateMachineBehaviour::*)(UnityEngine::Animator*, int, UnityEngine::Animations::AnimatorControllerPlayable)>(&StateMachineBehaviour::OnStateMachineEnter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::StateMachineBehaviour::*)(UnityEngine::Animator*, int, UnityEngine::Animations::AnimatorControllerPlayable)>(&UnityEngine::StateMachineBehaviour::OnStateMachineEnter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StateMachineBehaviour*), "OnStateMachineEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimatorControllerPlayable>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::StateMachineBehaviour*), "OnStateMachineEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimatorControllerPlayable>()});
   }
 };
-// Writing MetadataGetter for method: StateMachineBehaviour::OnStateMachineExit
+// Writing MetadataGetter for method: UnityEngine::StateMachineBehaviour::OnStateMachineExit
 // Il2CppName: OnStateMachineExit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StateMachineBehaviour::*)(UnityEngine::Animator*, int, UnityEngine::Animations::AnimatorControllerPlayable)>(&StateMachineBehaviour::OnStateMachineExit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::StateMachineBehaviour::*)(UnityEngine::Animator*, int, UnityEngine::Animations::AnimatorControllerPlayable)>(&UnityEngine::StateMachineBehaviour::OnStateMachineExit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StateMachineBehaviour*), "OnStateMachineExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimatorControllerPlayable>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::StateMachineBehaviour*), "OnStateMachineExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animator*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimatorControllerPlayable>()});
   }
 };
-// Writing MetadataGetter for method: StateMachineBehaviour::New_ctor
+// Writing MetadataGetter for method: UnityEngine::StateMachineBehaviour::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StateMachineBehaviour::*)()>(&StateMachineBehaviour::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::StateMachineBehaviour::*)()>(&UnityEngine::StateMachineBehaviour::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StateMachineBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::StateMachineBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StateMachineBehaviour::*)()>(&StateMachineBehaviour::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::StateMachineBehaviour::*)()>(&UnityEngine::StateMachineBehaviour::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StateMachineBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::StateMachineBehaviour*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

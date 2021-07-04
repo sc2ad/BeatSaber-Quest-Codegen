@@ -74,25 +74,25 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnableRendererWithLightId) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableRendererWithLightId*, "", "EnableRendererWithLightId");
-// Writing MetadataGetter for method: EnableRendererWithLightId::ColorWasSet
+// Writing MetadataGetter for method: GlobalNamespace::EnableRendererWithLightId::ColorWasSet
 // Il2CppName: ColorWasSet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnableRendererWithLightId::*)(UnityEngine::Color)>(&EnableRendererWithLightId::ColorWasSet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnableRendererWithLightId::*)(UnityEngine::Color)>(&GlobalNamespace::EnableRendererWithLightId::ColorWasSet)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnableRendererWithLightId*), "ColorWasSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnableRendererWithLightId*), "ColorWasSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: EnableRendererWithLightId::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::EnableRendererWithLightId::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnableRendererWithLightId::*)()>(&EnableRendererWithLightId::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnableRendererWithLightId::*)()>(&GlobalNamespace::EnableRendererWithLightId::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnableRendererWithLightId*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnableRendererWithLightId*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnableRendererWithLightId::*)()>(&EnableRendererWithLightId::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnableRendererWithLightId::*)()>(&GlobalNamespace::EnableRendererWithLightId::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnableRendererWithLightId*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnableRendererWithLightId*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

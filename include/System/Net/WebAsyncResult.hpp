@@ -168,157 +168,157 @@ namespace System::Net {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebAsyncResult*, "System.Net", "WebAsyncResult");
-// Writing MetadataGetter for method: WebAsyncResult::New_ctor
+// Writing MetadataGetter for method: System::Net::WebAsyncResult::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebAsyncResult::*)(System::Net::HttpWebRequest*, System::AsyncCallback*, ::Il2CppObject*)>(&WebAsyncResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebAsyncResult::*)(System::Net::HttpWebRequest*, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::WebAsyncResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebAsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebAsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebAsyncResult::*)(System::Net::HttpWebRequest*, System::AsyncCallback*, ::Il2CppObject*)>(&WebAsyncResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebAsyncResult::*)(System::Net::HttpWebRequest*, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::WebAsyncResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebAsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebAsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: WebAsyncResult::New_ctor
+// Writing MetadataGetter for method: System::Net::WebAsyncResult::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebAsyncResult::*)(System::AsyncCallback*, ::Il2CppObject*, ::Array<uint8_t>*, int, int)>(&WebAsyncResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebAsyncResult::*)(System::AsyncCallback*, ::Il2CppObject*, ::Array<uint8_t>*, int, int)>(&System::Net::WebAsyncResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebAsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebAsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebAsyncResult::*)(System::AsyncCallback*, ::Il2CppObject*, ::Array<uint8_t>*, int, int)>(&WebAsyncResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebAsyncResult::*)(System::AsyncCallback*, ::Il2CppObject*, ::Array<uint8_t>*, int, int)>(&System::Net::WebAsyncResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebAsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebAsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: WebAsyncResult::Reset
+// Writing MetadataGetter for method: System::Net::WebAsyncResult::Reset
 // Il2CppName: Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebAsyncResult::*)()>(&WebAsyncResult::Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebAsyncResult::*)()>(&System::Net::WebAsyncResult::Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebAsyncResult*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebAsyncResult*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WebAsyncResult::SetCompleted
+// Writing MetadataGetter for method: System::Net::WebAsyncResult::SetCompleted
 // Il2CppName: SetCompleted
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebAsyncResult::*)(bool, int)>(&WebAsyncResult::SetCompleted)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebAsyncResult::*)(bool, int)>(&System::Net::WebAsyncResult::SetCompleted)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebAsyncResult*), "SetCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebAsyncResult*), "SetCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: WebAsyncResult::SetCompleted
+// Writing MetadataGetter for method: System::Net::WebAsyncResult::SetCompleted
 // Il2CppName: SetCompleted
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebAsyncResult::*)(bool, System::IO::Stream*)>(&WebAsyncResult::SetCompleted)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebAsyncResult::*)(bool, System::IO::Stream*)>(&System::Net::WebAsyncResult::SetCompleted)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebAsyncResult*), "SetCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebAsyncResult*), "SetCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
   }
 };
-// Writing MetadataGetter for method: WebAsyncResult::SetCompleted
+// Writing MetadataGetter for method: System::Net::WebAsyncResult::SetCompleted
 // Il2CppName: SetCompleted
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebAsyncResult::*)(bool, System::Net::HttpWebResponse*)>(&WebAsyncResult::SetCompleted)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebAsyncResult::*)(bool, System::Net::HttpWebResponse*)>(&System::Net::WebAsyncResult::SetCompleted)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebAsyncResult*), "SetCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebResponse*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebAsyncResult*), "SetCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebResponse*>()});
   }
 };
-// Writing MetadataGetter for method: WebAsyncResult::DoCallback
+// Writing MetadataGetter for method: System::Net::WebAsyncResult::DoCallback
 // Il2CppName: DoCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebAsyncResult::*)()>(&WebAsyncResult::DoCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebAsyncResult::*)()>(&System::Net::WebAsyncResult::DoCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebAsyncResult*), "DoCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebAsyncResult*), "DoCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WebAsyncResult::get_NBytes
+// Writing MetadataGetter for method: System::Net::WebAsyncResult::get_NBytes
 // Il2CppName: get_NBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (WebAsyncResult::*)()>(&WebAsyncResult::get_NBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::WebAsyncResult::*)()>(&System::Net::WebAsyncResult::get_NBytes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebAsyncResult*), "get_NBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebAsyncResult*), "get_NBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WebAsyncResult::set_NBytes
+// Writing MetadataGetter for method: System::Net::WebAsyncResult::set_NBytes
 // Il2CppName: set_NBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebAsyncResult::*)(int)>(&WebAsyncResult::set_NBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebAsyncResult::*)(int)>(&System::Net::WebAsyncResult::set_NBytes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebAsyncResult*), "set_NBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebAsyncResult*), "set_NBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: WebAsyncResult::get_InnerAsyncResult
+// Writing MetadataGetter for method: System::Net::WebAsyncResult::get_InnerAsyncResult
 // Il2CppName: get_InnerAsyncResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (WebAsyncResult::*)()>(&WebAsyncResult::get_InnerAsyncResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::WebAsyncResult::*)()>(&System::Net::WebAsyncResult::get_InnerAsyncResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebAsyncResult*), "get_InnerAsyncResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebAsyncResult*), "get_InnerAsyncResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WebAsyncResult::set_InnerAsyncResult
+// Writing MetadataGetter for method: System::Net::WebAsyncResult::set_InnerAsyncResult
 // Il2CppName: set_InnerAsyncResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebAsyncResult::*)(System::IAsyncResult*)>(&WebAsyncResult::set_InnerAsyncResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebAsyncResult::*)(System::IAsyncResult*)>(&System::Net::WebAsyncResult::set_InnerAsyncResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebAsyncResult*), "set_InnerAsyncResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebAsyncResult*), "set_InnerAsyncResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };
-// Writing MetadataGetter for method: WebAsyncResult::get_WriteStream
+// Writing MetadataGetter for method: System::Net::WebAsyncResult::get_WriteStream
 // Il2CppName: get_WriteStream
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (WebAsyncResult::*)()>(&WebAsyncResult::get_WriteStream)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (System::Net::WebAsyncResult::*)()>(&System::Net::WebAsyncResult::get_WriteStream)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebAsyncResult*), "get_WriteStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebAsyncResult*), "get_WriteStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WebAsyncResult::get_Response
+// Writing MetadataGetter for method: System::Net::WebAsyncResult::get_Response
 // Il2CppName: get_Response
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpWebResponse* (WebAsyncResult::*)()>(&WebAsyncResult::get_Response)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpWebResponse* (System::Net::WebAsyncResult::*)()>(&System::Net::WebAsyncResult::get_Response)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebAsyncResult*), "get_Response", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebAsyncResult*), "get_Response", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WebAsyncResult::get_Buffer
+// Writing MetadataGetter for method: System::Net::WebAsyncResult::get_Buffer
 // Il2CppName: get_Buffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (WebAsyncResult::*)()>(&WebAsyncResult::get_Buffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Net::WebAsyncResult::*)()>(&System::Net::WebAsyncResult::get_Buffer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebAsyncResult*), "get_Buffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebAsyncResult*), "get_Buffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WebAsyncResult::get_Offset
+// Writing MetadataGetter for method: System::Net::WebAsyncResult::get_Offset
 // Il2CppName: get_Offset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (WebAsyncResult::*)()>(&WebAsyncResult::get_Offset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::WebAsyncResult::*)()>(&System::Net::WebAsyncResult::get_Offset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebAsyncResult*), "get_Offset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebAsyncResult*), "get_Offset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WebAsyncResult::get_Size
+// Writing MetadataGetter for method: System::Net::WebAsyncResult::get_Size
 // Il2CppName: get_Size
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (WebAsyncResult::*)()>(&WebAsyncResult::get_Size)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::WebAsyncResult::*)()>(&System::Net::WebAsyncResult::get_Size)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebAsyncResult*), "get_Size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebAsyncResult*), "get_Size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WebAsyncResult::New_ctor
+// Writing MetadataGetter for method: System::Net::WebAsyncResult::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebAsyncResult::*)(System::AsyncCallback*, ::Il2CppObject*)>(&WebAsyncResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebAsyncResult::*)(System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::WebAsyncResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebAsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebAsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WebAsyncResult::*)(System::AsyncCallback*, ::Il2CppObject*)>(&WebAsyncResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebAsyncResult::*)(System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::WebAsyncResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WebAsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebAsyncResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };

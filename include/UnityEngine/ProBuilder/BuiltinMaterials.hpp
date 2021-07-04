@@ -184,123 +184,123 @@ namespace UnityEngine::ProBuilder {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::BuiltinMaterials*, "UnityEngine.ProBuilder", "BuiltinMaterials");
-// Writing MetadataGetter for method: BuiltinMaterials::Init
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::BuiltinMaterials::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&BuiltinMaterials::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BuiltinMaterials*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BuiltinMaterials*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BuiltinMaterials::get_geometryShadersSupported
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::BuiltinMaterials::get_geometryShadersSupported
 // Il2CppName: get_geometryShadersSupported
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&BuiltinMaterials::get_geometryShadersSupported)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::get_geometryShadersSupported)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BuiltinMaterials*), "get_geometryShadersSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BuiltinMaterials*), "get_geometryShadersSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BuiltinMaterials::get_defaultMaterial
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::BuiltinMaterials::get_defaultMaterial
 // Il2CppName: get_defaultMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&BuiltinMaterials::get_defaultMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::get_defaultMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BuiltinMaterials*), "get_defaultMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BuiltinMaterials*), "get_defaultMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BuiltinMaterials::get_selectionPickerShader
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::BuiltinMaterials::get_selectionPickerShader
 // Il2CppName: get_selectionPickerShader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Shader* (*)()>(&BuiltinMaterials::get_selectionPickerShader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Shader* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::get_selectionPickerShader)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BuiltinMaterials*), "get_selectionPickerShader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BuiltinMaterials*), "get_selectionPickerShader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BuiltinMaterials::get_facePickerMaterial
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::BuiltinMaterials::get_facePickerMaterial
 // Il2CppName: get_facePickerMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&BuiltinMaterials::get_facePickerMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::get_facePickerMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BuiltinMaterials*), "get_facePickerMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BuiltinMaterials*), "get_facePickerMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BuiltinMaterials::get_vertexPickerMaterial
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::BuiltinMaterials::get_vertexPickerMaterial
 // Il2CppName: get_vertexPickerMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&BuiltinMaterials::get_vertexPickerMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::get_vertexPickerMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BuiltinMaterials*), "get_vertexPickerMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BuiltinMaterials*), "get_vertexPickerMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BuiltinMaterials::get_edgePickerMaterial
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::BuiltinMaterials::get_edgePickerMaterial
 // Il2CppName: get_edgePickerMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&BuiltinMaterials::get_edgePickerMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::get_edgePickerMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BuiltinMaterials*), "get_edgePickerMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BuiltinMaterials*), "get_edgePickerMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BuiltinMaterials::get_triggerMaterial
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::BuiltinMaterials::get_triggerMaterial
 // Il2CppName: get_triggerMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&BuiltinMaterials::get_triggerMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::get_triggerMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BuiltinMaterials*), "get_triggerMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BuiltinMaterials*), "get_triggerMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BuiltinMaterials::get_colliderMaterial
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::BuiltinMaterials::get_colliderMaterial
 // Il2CppName: get_colliderMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&BuiltinMaterials::get_colliderMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::get_colliderMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BuiltinMaterials*), "get_colliderMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BuiltinMaterials*), "get_colliderMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BuiltinMaterials::get_noDrawMaterial
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::BuiltinMaterials::get_noDrawMaterial
 // Il2CppName: get_noDrawMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&BuiltinMaterials::get_noDrawMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::get_noDrawMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BuiltinMaterials*), "get_noDrawMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BuiltinMaterials*), "get_noDrawMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BuiltinMaterials::GetLegacyDiffuse
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::BuiltinMaterials::GetLegacyDiffuse
 // Il2CppName: GetLegacyDiffuse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&BuiltinMaterials::GetLegacyDiffuse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::GetLegacyDiffuse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BuiltinMaterials*), "GetLegacyDiffuse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BuiltinMaterials*), "GetLegacyDiffuse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BuiltinMaterials::GetDefaultMaterial
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::BuiltinMaterials::GetDefaultMaterial
 // Il2CppName: GetDefaultMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&BuiltinMaterials::GetDefaultMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::GetDefaultMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BuiltinMaterials*), "GetDefaultMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BuiltinMaterials*), "GetDefaultMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BuiltinMaterials::get_unlitVertexColor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::BuiltinMaterials::get_unlitVertexColor
 // Il2CppName: get_unlitVertexColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&BuiltinMaterials::get_unlitVertexColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::get_unlitVertexColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BuiltinMaterials*), "get_unlitVertexColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BuiltinMaterials*), "get_unlitVertexColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BuiltinMaterials::get_ShapePreviewMaterial
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::BuiltinMaterials::get_ShapePreviewMaterial
 // Il2CppName: get_ShapePreviewMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&BuiltinMaterials::get_ShapePreviewMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::get_ShapePreviewMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BuiltinMaterials*), "get_ShapePreviewMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BuiltinMaterials*), "get_ShapePreviewMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BuiltinMaterials::_cctor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::BuiltinMaterials::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&BuiltinMaterials::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::ProBuilder::BuiltinMaterials::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BuiltinMaterials*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BuiltinMaterials*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -176,151 +176,151 @@ namespace System::Runtime::Remoting::Messaging {
   static_assert(sizeof(ConstructionCall) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ConstructionCall*, "System.Runtime.Remoting.Messaging", "ConstructionCall");
-// Writing MetadataGetter for method: ConstructionCall::New_ctor
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ConstructionCall::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstructionCall::*)(System::Type*)>(&ConstructionCall::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::ConstructionCall::*)(System::Type*)>(&System::Runtime::Remoting::Messaging::ConstructionCall::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConstructionCall*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ConstructionCall*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstructionCall::*)(System::Type*)>(&ConstructionCall::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::ConstructionCall::*)(System::Type*)>(&System::Runtime::Remoting::Messaging::ConstructionCall::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConstructionCall*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ConstructionCall*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: ConstructionCall::get_IsContextOk
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ConstructionCall::get_IsContextOk
 // Il2CppName: get_IsContextOk
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ConstructionCall::*)()>(&ConstructionCall::get_IsContextOk)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Remoting::Messaging::ConstructionCall::*)()>(&System::Runtime::Remoting::Messaging::ConstructionCall::get_IsContextOk)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConstructionCall*), "get_IsContextOk", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ConstructionCall*), "get_IsContextOk", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ConstructionCall::set_IsContextOk
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ConstructionCall::set_IsContextOk
 // Il2CppName: set_IsContextOk
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstructionCall::*)(bool)>(&ConstructionCall::set_IsContextOk)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::ConstructionCall::*)(bool)>(&System::Runtime::Remoting::Messaging::ConstructionCall::set_IsContextOk)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConstructionCall*), "set_IsContextOk", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ConstructionCall*), "set_IsContextOk", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ConstructionCall::get_ActivationType
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ConstructionCall::get_ActivationType
 // Il2CppName: get_ActivationType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (ConstructionCall::*)()>(&ConstructionCall::get_ActivationType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Runtime::Remoting::Messaging::ConstructionCall::*)()>(&System::Runtime::Remoting::Messaging::ConstructionCall::get_ActivationType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConstructionCall*), "get_ActivationType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ConstructionCall*), "get_ActivationType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ConstructionCall::get_ActivationTypeName
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ConstructionCall::get_ActivationTypeName
 // Il2CppName: get_ActivationTypeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ConstructionCall::*)()>(&ConstructionCall::get_ActivationTypeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Messaging::ConstructionCall::*)()>(&System::Runtime::Remoting::Messaging::ConstructionCall::get_ActivationTypeName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConstructionCall*), "get_ActivationTypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ConstructionCall*), "get_ActivationTypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ConstructionCall::get_Activator
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ConstructionCall::get_Activator
 // Il2CppName: get_Activator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Activation::IActivator* (ConstructionCall::*)()>(&ConstructionCall::get_Activator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Activation::IActivator* (System::Runtime::Remoting::Messaging::ConstructionCall::*)()>(&System::Runtime::Remoting::Messaging::ConstructionCall::get_Activator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConstructionCall*), "get_Activator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ConstructionCall*), "get_Activator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ConstructionCall::set_Activator
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ConstructionCall::set_Activator
 // Il2CppName: set_Activator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstructionCall::*)(System::Runtime::Remoting::Activation::IActivator*)>(&ConstructionCall::set_Activator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::ConstructionCall::*)(System::Runtime::Remoting::Activation::IActivator*)>(&System::Runtime::Remoting::Messaging::ConstructionCall::set_Activator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConstructionCall*), "set_Activator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Activation::IActivator*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ConstructionCall*), "set_Activator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Activation::IActivator*>()});
   }
 };
-// Writing MetadataGetter for method: ConstructionCall::get_CallSiteActivationAttributes
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ConstructionCall::get_CallSiteActivationAttributes
 // Il2CppName: get_CallSiteActivationAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (ConstructionCall::*)()>(&ConstructionCall::get_CallSiteActivationAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Runtime::Remoting::Messaging::ConstructionCall::*)()>(&System::Runtime::Remoting::Messaging::ConstructionCall::get_CallSiteActivationAttributes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConstructionCall*), "get_CallSiteActivationAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ConstructionCall*), "get_CallSiteActivationAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ConstructionCall::SetActivationAttributes
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ConstructionCall::SetActivationAttributes
 // Il2CppName: SetActivationAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstructionCall::*)(::Array<::Il2CppObject*>*)>(&ConstructionCall::SetActivationAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::ConstructionCall::*)(::Array<::Il2CppObject*>*)>(&System::Runtime::Remoting::Messaging::ConstructionCall::SetActivationAttributes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConstructionCall*), "SetActivationAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ConstructionCall*), "SetActivationAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
   }
 };
-// Writing MetadataGetter for method: ConstructionCall::get_ContextProperties
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ConstructionCall::get_ContextProperties
 // Il2CppName: get_ContextProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (ConstructionCall::*)()>(&ConstructionCall::get_ContextProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (System::Runtime::Remoting::Messaging::ConstructionCall::*)()>(&System::Runtime::Remoting::Messaging::ConstructionCall::get_ContextProperties)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConstructionCall*), "get_ContextProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ConstructionCall*), "get_ContextProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ConstructionCall::get_SourceProxy
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ConstructionCall::get_SourceProxy
 // Il2CppName: get_SourceProxy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Proxies::RemotingProxy* (ConstructionCall::*)()>(&ConstructionCall::get_SourceProxy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Proxies::RemotingProxy* (System::Runtime::Remoting::Messaging::ConstructionCall::*)()>(&System::Runtime::Remoting::Messaging::ConstructionCall::get_SourceProxy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConstructionCall*), "get_SourceProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ConstructionCall*), "get_SourceProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ConstructionCall::set_SourceProxy
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ConstructionCall::set_SourceProxy
 // Il2CppName: set_SourceProxy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstructionCall::*)(System::Runtime::Remoting::Proxies::RemotingProxy*)>(&ConstructionCall::set_SourceProxy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::ConstructionCall::*)(System::Runtime::Remoting::Proxies::RemotingProxy*)>(&System::Runtime::Remoting::Messaging::ConstructionCall::set_SourceProxy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConstructionCall*), "set_SourceProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Proxies::RemotingProxy*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ConstructionCall*), "set_SourceProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Proxies::RemotingProxy*>()});
   }
 };
-// Writing MetadataGetter for method: ConstructionCall::New_ctor
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ConstructionCall::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstructionCall::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&ConstructionCall::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::ConstructionCall::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Runtime::Remoting::Messaging::ConstructionCall::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConstructionCall*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ConstructionCall*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstructionCall::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&ConstructionCall::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::ConstructionCall::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Runtime::Remoting::Messaging::ConstructionCall::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConstructionCall*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ConstructionCall*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
   }
 };
-// Writing MetadataGetter for method: ConstructionCall::InitDictionary
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ConstructionCall::InitDictionary
 // Il2CppName: InitDictionary
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstructionCall::*)()>(&ConstructionCall::InitDictionary)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::ConstructionCall::*)()>(&System::Runtime::Remoting::Messaging::ConstructionCall::InitDictionary)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConstructionCall*), "InitDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ConstructionCall*), "InitDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ConstructionCall::InitMethodProperty
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ConstructionCall::InitMethodProperty
 // Il2CppName: InitMethodProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstructionCall::*)(::Il2CppString*, ::Il2CppObject*)>(&ConstructionCall::InitMethodProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::ConstructionCall::*)(::Il2CppString*, ::Il2CppObject*)>(&System::Runtime::Remoting::Messaging::ConstructionCall::InitMethodProperty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConstructionCall*), "InitMethodProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ConstructionCall*), "InitMethodProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: ConstructionCall::GetObjectData
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ConstructionCall::GetObjectData
 // Il2CppName: GetObjectData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstructionCall::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&ConstructionCall::GetObjectData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::ConstructionCall::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Runtime::Remoting::Messaging::ConstructionCall::GetObjectData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConstructionCall*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ConstructionCall*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
   }
 };
-// Writing MetadataGetter for method: ConstructionCall::get_Properties
+// Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ConstructionCall::get_Properties
 // Il2CppName: get_Properties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionary* (ConstructionCall::*)()>(&ConstructionCall::get_Properties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionary* (System::Runtime::Remoting::Messaging::ConstructionCall::*)()>(&System::Runtime::Remoting::Messaging::ConstructionCall::get_Properties)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConstructionCall*), "get_Properties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ConstructionCall*), "get_Properties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

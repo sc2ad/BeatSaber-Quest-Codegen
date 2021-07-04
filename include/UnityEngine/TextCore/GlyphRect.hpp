@@ -107,89 +107,89 @@ namespace UnityEngine::TextCore {
   static_assert(sizeof(GlyphRect) == 0x10);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::GlyphRect, "UnityEngine.TextCore", "GlyphRect");
-// Writing MetadataGetter for method: GlyphRect::get_x
+// Writing MetadataGetter for method: UnityEngine::TextCore::GlyphRect::get_x
 // Il2CppName: get_x
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlyphRect::*)()>(&GlyphRect::get_x)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::TextCore::GlyphRect::*)()>(&UnityEngine::TextCore::GlyphRect::get_x)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlyphRect), "get_x", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::GlyphRect), "get_x", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlyphRect::get_y
+// Writing MetadataGetter for method: UnityEngine::TextCore::GlyphRect::get_y
 // Il2CppName: get_y
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlyphRect::*)()>(&GlyphRect::get_y)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::TextCore::GlyphRect::*)()>(&UnityEngine::TextCore::GlyphRect::get_y)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlyphRect), "get_y", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::GlyphRect), "get_y", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlyphRect::get_width
+// Writing MetadataGetter for method: UnityEngine::TextCore::GlyphRect::get_width
 // Il2CppName: get_width
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlyphRect::*)()>(&GlyphRect::get_width)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::TextCore::GlyphRect::*)()>(&UnityEngine::TextCore::GlyphRect::get_width)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlyphRect), "get_width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::GlyphRect), "get_width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlyphRect::get_height
+// Writing MetadataGetter for method: UnityEngine::TextCore::GlyphRect::get_height
 // Il2CppName: get_height
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlyphRect::*)()>(&GlyphRect::get_height)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::TextCore::GlyphRect::*)()>(&UnityEngine::TextCore::GlyphRect::get_height)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlyphRect), "get_height", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::GlyphRect), "get_height", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlyphRect::get_zero
+// Writing MetadataGetter for method: UnityEngine::TextCore::GlyphRect::get_zero
 // Il2CppName: get_zero
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextCore::GlyphRect (*)()>(&GlyphRect::get_zero)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextCore::GlyphRect (*)()>(&UnityEngine::TextCore::GlyphRect::get_zero)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlyphRect), "get_zero", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::GlyphRect), "get_zero", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlyphRect::GlyphRect
+// Writing MetadataGetter for method: UnityEngine::TextCore::GlyphRect::GlyphRect
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlyphRect::*)(int, int, int, int)>(&GlyphRect::GlyphRect<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextCore::GlyphRect::*)(int, int, int, int)>(&UnityEngine::TextCore::GlyphRect::GlyphRect<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlyphRect), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::GlyphRect), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlyphRect::*)(int, int, int, int)>(&GlyphRect::GlyphRect<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextCore::GlyphRect::*)(int, int, int, int)>(&UnityEngine::TextCore::GlyphRect::GlyphRect<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlyphRect), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::GlyphRect), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: GlyphRect::Equals
+// Writing MetadataGetter for method: UnityEngine::TextCore::GlyphRect::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlyphRect::*)(UnityEngine::TextCore::GlyphRect)>(&GlyphRect::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextCore::GlyphRect::*)(UnityEngine::TextCore::GlyphRect)>(&UnityEngine::TextCore::GlyphRect::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlyphRect), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::GlyphRect>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::GlyphRect), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::GlyphRect>()});
   }
 };
-// Writing MetadataGetter for method: GlyphRect::_cctor
+// Writing MetadataGetter for method: UnityEngine::TextCore::GlyphRect::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlyphRect::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::TextCore::GlyphRect::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlyphRect), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::GlyphRect), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlyphRect::GetHashCode
+// Writing MetadataGetter for method: UnityEngine::TextCore::GlyphRect::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlyphRect::*)()>(&GlyphRect::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::TextCore::GlyphRect::*)()>(&UnityEngine::TextCore::GlyphRect::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlyphRect), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::GlyphRect), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlyphRect::Equals
+// Writing MetadataGetter for method: UnityEngine::TextCore::GlyphRect::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlyphRect::*)(::Il2CppObject*)>(&GlyphRect::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextCore::GlyphRect::*)(::Il2CppObject*)>(&UnityEngine::TextCore::GlyphRect::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlyphRect), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::GlyphRect), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };

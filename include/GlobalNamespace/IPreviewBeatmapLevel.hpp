@@ -101,139 +101,139 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IPreviewBeatmapLevel*, "", "IPreviewBeatmapLevel");
-// Writing MetadataGetter for method: IPreviewBeatmapLevel::get_levelID
+// Writing MetadataGetter for method: GlobalNamespace::IPreviewBeatmapLevel::get_levelID
 // Il2CppName: get_levelID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IPreviewBeatmapLevel::*)()>(&IPreviewBeatmapLevel::get_levelID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::IPreviewBeatmapLevel::*)()>(&GlobalNamespace::IPreviewBeatmapLevel::get_levelID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IPreviewBeatmapLevel*), "get_levelID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IPreviewBeatmapLevel*), "get_levelID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IPreviewBeatmapLevel::get_songName
+// Writing MetadataGetter for method: GlobalNamespace::IPreviewBeatmapLevel::get_songName
 // Il2CppName: get_songName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IPreviewBeatmapLevel::*)()>(&IPreviewBeatmapLevel::get_songName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::IPreviewBeatmapLevel::*)()>(&GlobalNamespace::IPreviewBeatmapLevel::get_songName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IPreviewBeatmapLevel*), "get_songName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IPreviewBeatmapLevel*), "get_songName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IPreviewBeatmapLevel::get_songSubName
+// Writing MetadataGetter for method: GlobalNamespace::IPreviewBeatmapLevel::get_songSubName
 // Il2CppName: get_songSubName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IPreviewBeatmapLevel::*)()>(&IPreviewBeatmapLevel::get_songSubName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::IPreviewBeatmapLevel::*)()>(&GlobalNamespace::IPreviewBeatmapLevel::get_songSubName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IPreviewBeatmapLevel*), "get_songSubName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IPreviewBeatmapLevel*), "get_songSubName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IPreviewBeatmapLevel::get_songAuthorName
+// Writing MetadataGetter for method: GlobalNamespace::IPreviewBeatmapLevel::get_songAuthorName
 // Il2CppName: get_songAuthorName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IPreviewBeatmapLevel::*)()>(&IPreviewBeatmapLevel::get_songAuthorName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::IPreviewBeatmapLevel::*)()>(&GlobalNamespace::IPreviewBeatmapLevel::get_songAuthorName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IPreviewBeatmapLevel*), "get_songAuthorName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IPreviewBeatmapLevel*), "get_songAuthorName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IPreviewBeatmapLevel::get_levelAuthorName
+// Writing MetadataGetter for method: GlobalNamespace::IPreviewBeatmapLevel::get_levelAuthorName
 // Il2CppName: get_levelAuthorName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IPreviewBeatmapLevel::*)()>(&IPreviewBeatmapLevel::get_levelAuthorName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::IPreviewBeatmapLevel::*)()>(&GlobalNamespace::IPreviewBeatmapLevel::get_levelAuthorName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IPreviewBeatmapLevel*), "get_levelAuthorName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IPreviewBeatmapLevel*), "get_levelAuthorName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IPreviewBeatmapLevel::get_beatsPerMinute
+// Writing MetadataGetter for method: GlobalNamespace::IPreviewBeatmapLevel::get_beatsPerMinute
 // Il2CppName: get_beatsPerMinute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (IPreviewBeatmapLevel::*)()>(&IPreviewBeatmapLevel::get_beatsPerMinute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::IPreviewBeatmapLevel::*)()>(&GlobalNamespace::IPreviewBeatmapLevel::get_beatsPerMinute)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IPreviewBeatmapLevel*), "get_beatsPerMinute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IPreviewBeatmapLevel*), "get_beatsPerMinute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IPreviewBeatmapLevel::get_songTimeOffset
+// Writing MetadataGetter for method: GlobalNamespace::IPreviewBeatmapLevel::get_songTimeOffset
 // Il2CppName: get_songTimeOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (IPreviewBeatmapLevel::*)()>(&IPreviewBeatmapLevel::get_songTimeOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::IPreviewBeatmapLevel::*)()>(&GlobalNamespace::IPreviewBeatmapLevel::get_songTimeOffset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IPreviewBeatmapLevel*), "get_songTimeOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IPreviewBeatmapLevel*), "get_songTimeOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IPreviewBeatmapLevel::get_shuffle
+// Writing MetadataGetter for method: GlobalNamespace::IPreviewBeatmapLevel::get_shuffle
 // Il2CppName: get_shuffle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (IPreviewBeatmapLevel::*)()>(&IPreviewBeatmapLevel::get_shuffle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::IPreviewBeatmapLevel::*)()>(&GlobalNamespace::IPreviewBeatmapLevel::get_shuffle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IPreviewBeatmapLevel*), "get_shuffle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IPreviewBeatmapLevel*), "get_shuffle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IPreviewBeatmapLevel::get_shufflePeriod
+// Writing MetadataGetter for method: GlobalNamespace::IPreviewBeatmapLevel::get_shufflePeriod
 // Il2CppName: get_shufflePeriod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (IPreviewBeatmapLevel::*)()>(&IPreviewBeatmapLevel::get_shufflePeriod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::IPreviewBeatmapLevel::*)()>(&GlobalNamespace::IPreviewBeatmapLevel::get_shufflePeriod)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IPreviewBeatmapLevel*), "get_shufflePeriod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IPreviewBeatmapLevel*), "get_shufflePeriod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IPreviewBeatmapLevel::get_previewStartTime
+// Writing MetadataGetter for method: GlobalNamespace::IPreviewBeatmapLevel::get_previewStartTime
 // Il2CppName: get_previewStartTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (IPreviewBeatmapLevel::*)()>(&IPreviewBeatmapLevel::get_previewStartTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::IPreviewBeatmapLevel::*)()>(&GlobalNamespace::IPreviewBeatmapLevel::get_previewStartTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IPreviewBeatmapLevel*), "get_previewStartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IPreviewBeatmapLevel*), "get_previewStartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IPreviewBeatmapLevel::get_previewDuration
+// Writing MetadataGetter for method: GlobalNamespace::IPreviewBeatmapLevel::get_previewDuration
 // Il2CppName: get_previewDuration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (IPreviewBeatmapLevel::*)()>(&IPreviewBeatmapLevel::get_previewDuration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::IPreviewBeatmapLevel::*)()>(&GlobalNamespace::IPreviewBeatmapLevel::get_previewDuration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IPreviewBeatmapLevel*), "get_previewDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IPreviewBeatmapLevel*), "get_previewDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IPreviewBeatmapLevel::get_songDuration
+// Writing MetadataGetter for method: GlobalNamespace::IPreviewBeatmapLevel::get_songDuration
 // Il2CppName: get_songDuration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (IPreviewBeatmapLevel::*)()>(&IPreviewBeatmapLevel::get_songDuration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::IPreviewBeatmapLevel::*)()>(&GlobalNamespace::IPreviewBeatmapLevel::get_songDuration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IPreviewBeatmapLevel*), "get_songDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IPreviewBeatmapLevel*), "get_songDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IPreviewBeatmapLevel::get_environmentInfo
+// Writing MetadataGetter for method: GlobalNamespace::IPreviewBeatmapLevel::get_environmentInfo
 // Il2CppName: get_environmentInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentInfoSO* (IPreviewBeatmapLevel::*)()>(&IPreviewBeatmapLevel::get_environmentInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentInfoSO* (GlobalNamespace::IPreviewBeatmapLevel::*)()>(&GlobalNamespace::IPreviewBeatmapLevel::get_environmentInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IPreviewBeatmapLevel*), "get_environmentInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IPreviewBeatmapLevel*), "get_environmentInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IPreviewBeatmapLevel::get_allDirectionsEnvironmentInfo
+// Writing MetadataGetter for method: GlobalNamespace::IPreviewBeatmapLevel::get_allDirectionsEnvironmentInfo
 // Il2CppName: get_allDirectionsEnvironmentInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentInfoSO* (IPreviewBeatmapLevel::*)()>(&IPreviewBeatmapLevel::get_allDirectionsEnvironmentInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentInfoSO* (GlobalNamespace::IPreviewBeatmapLevel::*)()>(&GlobalNamespace::IPreviewBeatmapLevel::get_allDirectionsEnvironmentInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IPreviewBeatmapLevel*), "get_allDirectionsEnvironmentInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IPreviewBeatmapLevel*), "get_allDirectionsEnvironmentInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IPreviewBeatmapLevel::get_previewDifficultyBeatmapSets
+// Writing MetadataGetter for method: GlobalNamespace::IPreviewBeatmapLevel::get_previewDifficultyBeatmapSets
 // Il2CppName: get_previewDifficultyBeatmapSets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* (IPreviewBeatmapLevel::*)()>(&IPreviewBeatmapLevel::get_previewDifficultyBeatmapSets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* (GlobalNamespace::IPreviewBeatmapLevel::*)()>(&GlobalNamespace::IPreviewBeatmapLevel::get_previewDifficultyBeatmapSets)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IPreviewBeatmapLevel*), "get_previewDifficultyBeatmapSets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IPreviewBeatmapLevel*), "get_previewDifficultyBeatmapSets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IPreviewBeatmapLevel::GetPreviewAudioClipAsync
+// Writing MetadataGetter for method: GlobalNamespace::IPreviewBeatmapLevel::GetPreviewAudioClipAsync
 // Il2CppName: GetPreviewAudioClipAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* (IPreviewBeatmapLevel::*)(System::Threading::CancellationToken)>(&IPreviewBeatmapLevel::GetPreviewAudioClipAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* (GlobalNamespace::IPreviewBeatmapLevel::*)(System::Threading::CancellationToken)>(&GlobalNamespace::IPreviewBeatmapLevel::GetPreviewAudioClipAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IPreviewBeatmapLevel*), "GetPreviewAudioClipAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IPreviewBeatmapLevel*), "GetPreviewAudioClipAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: IPreviewBeatmapLevel::GetCoverImageAsync
+// Writing MetadataGetter for method: GlobalNamespace::IPreviewBeatmapLevel::GetCoverImageAsync
 // Il2CppName: GetCoverImageAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* (IPreviewBeatmapLevel::*)(System::Threading::CancellationToken)>(&IPreviewBeatmapLevel::GetCoverImageAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* (GlobalNamespace::IPreviewBeatmapLevel::*)(System::Threading::CancellationToken)>(&GlobalNamespace::IPreviewBeatmapLevel::GetCoverImageAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IPreviewBeatmapLevel*), "GetCoverImageAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IPreviewBeatmapLevel*), "GetCoverImageAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };

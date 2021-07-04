@@ -75,65 +75,65 @@ namespace Zenject {
   static_assert(sizeof(MemoryPoolBindInfo) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::MemoryPoolBindInfo*, "Zenject", "MemoryPoolBindInfo");
-// Writing MetadataGetter for method: MemoryPoolBindInfo::get_ExpandMethod
+// Writing MetadataGetter for method: Zenject::MemoryPoolBindInfo::get_ExpandMethod
 // Il2CppName: get_ExpandMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::PoolExpandMethods (MemoryPoolBindInfo::*)()>(&MemoryPoolBindInfo::get_ExpandMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::PoolExpandMethods (Zenject::MemoryPoolBindInfo::*)()>(&Zenject::MemoryPoolBindInfo::get_ExpandMethod)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MemoryPoolBindInfo*), "get_ExpandMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MemoryPoolBindInfo*), "get_ExpandMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MemoryPoolBindInfo::set_ExpandMethod
+// Writing MetadataGetter for method: Zenject::MemoryPoolBindInfo::set_ExpandMethod
 // Il2CppName: set_ExpandMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MemoryPoolBindInfo::*)(Zenject::PoolExpandMethods)>(&MemoryPoolBindInfo::set_ExpandMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::MemoryPoolBindInfo::*)(Zenject::PoolExpandMethods)>(&Zenject::MemoryPoolBindInfo::set_ExpandMethod)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MemoryPoolBindInfo*), "set_ExpandMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::PoolExpandMethods>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MemoryPoolBindInfo*), "set_ExpandMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::PoolExpandMethods>()});
   }
 };
-// Writing MetadataGetter for method: MemoryPoolBindInfo::get_InitialSize
+// Writing MetadataGetter for method: Zenject::MemoryPoolBindInfo::get_InitialSize
 // Il2CppName: get_InitialSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MemoryPoolBindInfo::*)()>(&MemoryPoolBindInfo::get_InitialSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenject::MemoryPoolBindInfo::*)()>(&Zenject::MemoryPoolBindInfo::get_InitialSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MemoryPoolBindInfo*), "get_InitialSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MemoryPoolBindInfo*), "get_InitialSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MemoryPoolBindInfo::set_InitialSize
+// Writing MetadataGetter for method: Zenject::MemoryPoolBindInfo::set_InitialSize
 // Il2CppName: set_InitialSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MemoryPoolBindInfo::*)(int)>(&MemoryPoolBindInfo::set_InitialSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::MemoryPoolBindInfo::*)(int)>(&Zenject::MemoryPoolBindInfo::set_InitialSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MemoryPoolBindInfo*), "set_InitialSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MemoryPoolBindInfo*), "set_InitialSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: MemoryPoolBindInfo::get_MaxSize
+// Writing MetadataGetter for method: Zenject::MemoryPoolBindInfo::get_MaxSize
 // Il2CppName: get_MaxSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MemoryPoolBindInfo::*)()>(&MemoryPoolBindInfo::get_MaxSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenject::MemoryPoolBindInfo::*)()>(&Zenject::MemoryPoolBindInfo::get_MaxSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MemoryPoolBindInfo*), "get_MaxSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MemoryPoolBindInfo*), "get_MaxSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MemoryPoolBindInfo::set_MaxSize
+// Writing MetadataGetter for method: Zenject::MemoryPoolBindInfo::set_MaxSize
 // Il2CppName: set_MaxSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MemoryPoolBindInfo::*)(int)>(&MemoryPoolBindInfo::set_MaxSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::MemoryPoolBindInfo::*)(int)>(&Zenject::MemoryPoolBindInfo::set_MaxSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MemoryPoolBindInfo*), "set_MaxSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MemoryPoolBindInfo*), "set_MaxSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: MemoryPoolBindInfo::New_ctor
+// Writing MetadataGetter for method: Zenject::MemoryPoolBindInfo::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MemoryPoolBindInfo::*)()>(&MemoryPoolBindInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::MemoryPoolBindInfo::*)()>(&Zenject::MemoryPoolBindInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MemoryPoolBindInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MemoryPoolBindInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MemoryPoolBindInfo::*)()>(&MemoryPoolBindInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::MemoryPoolBindInfo::*)()>(&Zenject::MemoryPoolBindInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MemoryPoolBindInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MemoryPoolBindInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

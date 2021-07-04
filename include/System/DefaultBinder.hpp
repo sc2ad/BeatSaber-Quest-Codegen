@@ -137,177 +137,177 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::DefaultBinder*, "System", "DefaultBinder");
-// Writing MetadataGetter for method: DefaultBinder::ExactBinding
+// Writing MetadataGetter for method: System::DefaultBinder::ExactBinding
 // Il2CppName: ExactBinding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (*)(::Array<System::Reflection::MethodBase*>*, ::Array<System::Type*>*, ::Array<System::Reflection::ParameterModifier>*)>(&DefaultBinder::ExactBinding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (*)(::Array<System::Reflection::MethodBase*>*, ::Array<System::Type*>*, ::Array<System::Reflection::ParameterModifier>*)>(&System::DefaultBinder::ExactBinding)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultBinder*), "ExactBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::MethodBase*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), "ExactBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::MethodBase*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultBinder::ExactPropertyBinding
+// Writing MetadataGetter for method: System::DefaultBinder::ExactPropertyBinding
 // Il2CppName: ExactPropertyBinding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::PropertyInfo* (*)(::Array<System::Reflection::PropertyInfo*>*, System::Type*, ::Array<System::Type*>*, ::Array<System::Reflection::ParameterModifier>*)>(&DefaultBinder::ExactPropertyBinding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::PropertyInfo* (*)(::Array<System::Reflection::PropertyInfo*>*, System::Type*, ::Array<System::Type*>*, ::Array<System::Reflection::ParameterModifier>*)>(&System::DefaultBinder::ExactPropertyBinding)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultBinder*), "ExactPropertyBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::PropertyInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), "ExactPropertyBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::PropertyInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultBinder::FindMostSpecific
+// Writing MetadataGetter for method: System::DefaultBinder::FindMostSpecific
 // Il2CppName: FindMostSpecific
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<System::Reflection::ParameterInfo*>*, ::Array<int>*, System::Type*, ::Array<System::Reflection::ParameterInfo*>*, ::Array<int>*, System::Type*, ::Array<System::Type*>*, ::Array<::Il2CppObject*>*)>(&DefaultBinder::FindMostSpecific)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<System::Reflection::ParameterInfo*>*, ::Array<int>*, System::Type*, ::Array<System::Reflection::ParameterInfo*>*, ::Array<int>*, System::Type*, ::Array<System::Type*>*, ::Array<::Il2CppObject*>*)>(&System::DefaultBinder::FindMostSpecific)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultBinder*), "FindMostSpecific", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), "FindMostSpecific", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultBinder::FindMostSpecificType
+// Writing MetadataGetter for method: System::DefaultBinder::FindMostSpecificType
 // Il2CppName: FindMostSpecificType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Type*, System::Type*, System::Type*)>(&DefaultBinder::FindMostSpecificType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Type*, System::Type*, System::Type*)>(&System::DefaultBinder::FindMostSpecificType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultBinder*), "FindMostSpecificType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), "FindMostSpecificType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultBinder::FindMostSpecificMethod
+// Writing MetadataGetter for method: System::DefaultBinder::FindMostSpecificMethod
 // Il2CppName: FindMostSpecificMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Reflection::MethodBase*, ::Array<int>*, System::Type*, System::Reflection::MethodBase*, ::Array<int>*, System::Type*, ::Array<System::Type*>*, ::Array<::Il2CppObject*>*)>(&DefaultBinder::FindMostSpecificMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Reflection::MethodBase*, ::Array<int>*, System::Type*, System::Reflection::MethodBase*, ::Array<int>*, System::Type*, ::Array<System::Type*>*, ::Array<::Il2CppObject*>*)>(&System::DefaultBinder::FindMostSpecificMethod)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultBinder*), "FindMostSpecificMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), "FindMostSpecificMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultBinder::FindMostSpecificField
+// Writing MetadataGetter for method: System::DefaultBinder::FindMostSpecificField
 // Il2CppName: FindMostSpecificField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Reflection::FieldInfo*, System::Reflection::FieldInfo*)>(&DefaultBinder::FindMostSpecificField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Reflection::FieldInfo*, System::Reflection::FieldInfo*)>(&System::DefaultBinder::FindMostSpecificField)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultBinder*), "FindMostSpecificField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::FieldInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::FieldInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), "FindMostSpecificField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::FieldInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::FieldInfo*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultBinder::FindMostSpecificProperty
+// Writing MetadataGetter for method: System::DefaultBinder::FindMostSpecificProperty
 // Il2CppName: FindMostSpecificProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Reflection::PropertyInfo*, System::Reflection::PropertyInfo*)>(&DefaultBinder::FindMostSpecificProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Reflection::PropertyInfo*, System::Reflection::PropertyInfo*)>(&System::DefaultBinder::FindMostSpecificProperty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultBinder*), "FindMostSpecificProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::PropertyInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::PropertyInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), "FindMostSpecificProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::PropertyInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::PropertyInfo*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultBinder::CompareMethodSigAndName
+// Writing MetadataGetter for method: System::DefaultBinder::CompareMethodSigAndName
 // Il2CppName: CompareMethodSigAndName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::MethodBase*, System::Reflection::MethodBase*)>(&DefaultBinder::CompareMethodSigAndName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::MethodBase*, System::Reflection::MethodBase*)>(&System::DefaultBinder::CompareMethodSigAndName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultBinder*), "CompareMethodSigAndName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), "CompareMethodSigAndName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultBinder::GetHierarchyDepth
+// Writing MetadataGetter for method: System::DefaultBinder::GetHierarchyDepth
 // Il2CppName: GetHierarchyDepth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Type*)>(&DefaultBinder::GetHierarchyDepth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Type*)>(&System::DefaultBinder::GetHierarchyDepth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultBinder*), "GetHierarchyDepth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), "GetHierarchyDepth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultBinder::FindMostDerivedNewSlotMeth
+// Writing MetadataGetter for method: System::DefaultBinder::FindMostDerivedNewSlotMeth
 // Il2CppName: FindMostDerivedNewSlotMeth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (*)(::Array<System::Reflection::MethodBase*>*, int)>(&DefaultBinder::FindMostDerivedNewSlotMeth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (*)(::Array<System::Reflection::MethodBase*>*, int)>(&System::DefaultBinder::FindMostDerivedNewSlotMeth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultBinder*), "FindMostDerivedNewSlotMeth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::MethodBase*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), "FindMostDerivedNewSlotMeth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::MethodBase*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: DefaultBinder::ReorderParams
+// Writing MetadataGetter for method: System::DefaultBinder::ReorderParams
 // Il2CppName: ReorderParams
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<int>*, ::Array<::Il2CppObject*>*)>(&DefaultBinder::ReorderParams)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<int>*, ::Array<::Il2CppObject*>*)>(&System::DefaultBinder::ReorderParams)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultBinder*), "ReorderParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), "ReorderParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultBinder::CreateParamOrder
+// Writing MetadataGetter for method: System::DefaultBinder::CreateParamOrder
 // Il2CppName: CreateParamOrder
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<int>*, ::Array<System::Reflection::ParameterInfo*>*, ::Array<::Il2CppString*>*)>(&DefaultBinder::CreateParamOrder)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<int>*, ::Array<System::Reflection::ParameterInfo*>*, ::Array<::Il2CppString*>*)>(&System::DefaultBinder::CreateParamOrder)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultBinder*), "CreateParamOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), "CreateParamOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultBinder::CanConvertPrimitive
+// Writing MetadataGetter for method: System::DefaultBinder::CanConvertPrimitive
 // Il2CppName: CanConvertPrimitive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::RuntimeType*, System::RuntimeType*)>(&DefaultBinder::CanConvertPrimitive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::RuntimeType*, System::RuntimeType*)>(&System::DefaultBinder::CanConvertPrimitive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultBinder*), "CanConvertPrimitive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), "CanConvertPrimitive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultBinder::CanConvertPrimitiveObjectToType
+// Writing MetadataGetter for method: System::DefaultBinder::CanConvertPrimitiveObjectToType
 // Il2CppName: CanConvertPrimitiveObjectToType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*, System::RuntimeType*)>(&DefaultBinder::CanConvertPrimitiveObjectToType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*, System::RuntimeType*)>(&System::DefaultBinder::CanConvertPrimitiveObjectToType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultBinder*), "CanConvertPrimitiveObjectToType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), "CanConvertPrimitiveObjectToType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultBinder::BindToMethod
+// Writing MetadataGetter for method: System::DefaultBinder::BindToMethod
 // Il2CppName: BindToMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (DefaultBinder::*)(System::Reflection::BindingFlags, ::Array<System::Reflection::MethodBase*>*, ::Array<::Il2CppObject*>*&, ::Array<System::Reflection::ParameterModifier>*, System::Globalization::CultureInfo*, ::Array<::Il2CppString*>*, ::Il2CppObject*&)>(&DefaultBinder::BindToMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (System::DefaultBinder::*)(System::Reflection::BindingFlags, ::Array<System::Reflection::MethodBase*>*, ::Array<::Il2CppObject*>*&, ::Array<System::Reflection::ParameterModifier>*, System::Globalization::CultureInfo*, ::Array<::Il2CppString*>*, ::Il2CppObject*&)>(&System::DefaultBinder::BindToMethod)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultBinder*), "BindToMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::MethodBase*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), "BindToMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::MethodBase*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*&>()});
   }
 };
-// Writing MetadataGetter for method: DefaultBinder::BindToField
+// Writing MetadataGetter for method: System::DefaultBinder::BindToField
 // Il2CppName: BindToField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::FieldInfo* (DefaultBinder::*)(System::Reflection::BindingFlags, ::Array<System::Reflection::FieldInfo*>*, ::Il2CppObject*, System::Globalization::CultureInfo*)>(&DefaultBinder::BindToField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::FieldInfo* (System::DefaultBinder::*)(System::Reflection::BindingFlags, ::Array<System::Reflection::FieldInfo*>*, ::Il2CppObject*, System::Globalization::CultureInfo*)>(&System::DefaultBinder::BindToField)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultBinder*), "BindToField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::FieldInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), "BindToField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::FieldInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultBinder::SelectMethod
+// Writing MetadataGetter for method: System::DefaultBinder::SelectMethod
 // Il2CppName: SelectMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (DefaultBinder::*)(System::Reflection::BindingFlags, ::Array<System::Reflection::MethodBase*>*, ::Array<System::Type*>*, ::Array<System::Reflection::ParameterModifier>*)>(&DefaultBinder::SelectMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (System::DefaultBinder::*)(System::Reflection::BindingFlags, ::Array<System::Reflection::MethodBase*>*, ::Array<System::Type*>*, ::Array<System::Reflection::ParameterModifier>*)>(&System::DefaultBinder::SelectMethod)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultBinder*), "SelectMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::MethodBase*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), "SelectMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::MethodBase*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultBinder::SelectProperty
+// Writing MetadataGetter for method: System::DefaultBinder::SelectProperty
 // Il2CppName: SelectProperty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::PropertyInfo* (DefaultBinder::*)(System::Reflection::BindingFlags, ::Array<System::Reflection::PropertyInfo*>*, System::Type*, ::Array<System::Type*>*, ::Array<System::Reflection::ParameterModifier>*)>(&DefaultBinder::SelectProperty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::PropertyInfo* (System::DefaultBinder::*)(System::Reflection::BindingFlags, ::Array<System::Reflection::PropertyInfo*>*, System::Type*, ::Array<System::Type*>*, ::Array<System::Reflection::ParameterModifier>*)>(&System::DefaultBinder::SelectProperty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultBinder*), "SelectProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::PropertyInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), "SelectProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::PropertyInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultBinder::ChangeType
+// Writing MetadataGetter for method: System::DefaultBinder::ChangeType
 // Il2CppName: ChangeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (DefaultBinder::*)(::Il2CppObject*, System::Type*, System::Globalization::CultureInfo*)>(&DefaultBinder::ChangeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::DefaultBinder::*)(::Il2CppObject*, System::Type*, System::Globalization::CultureInfo*)>(&System::DefaultBinder::ChangeType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultBinder*), "ChangeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), "ChangeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultBinder::ReorderArgumentArray
+// Writing MetadataGetter for method: System::DefaultBinder::ReorderArgumentArray
 // Il2CppName: ReorderArgumentArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultBinder::*)(::Array<::Il2CppObject*>*&, ::Il2CppObject*)>(&DefaultBinder::ReorderArgumentArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::DefaultBinder::*)(::Array<::Il2CppObject*>*&, ::Il2CppObject*)>(&System::DefaultBinder::ReorderArgumentArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultBinder*), "ReorderArgumentArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), "ReorderArgumentArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultBinder::New_ctor
+// Writing MetadataGetter for method: System::DefaultBinder::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultBinder::*)()>(&DefaultBinder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::DefaultBinder::*)()>(&System::DefaultBinder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultBinder::*)()>(&DefaultBinder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::DefaultBinder::*)()>(&System::DefaultBinder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

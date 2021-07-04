@@ -90,99 +90,99 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Cache, "UnityEngine", "Cache");
-// Writing MetadataGetter for method: Cache::get_handle
+// Writing MetadataGetter for method: UnityEngine::Cache::get_handle
 // Il2CppName: get_handle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Cache::*)()>(&Cache::get_handle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Cache::*)()>(&UnityEngine::Cache::get_handle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Cache), "get_handle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cache), "get_handle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Cache::Equals
+// Writing MetadataGetter for method: UnityEngine::Cache::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Cache::*)(UnityEngine::Cache)>(&Cache::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Cache::*)(UnityEngine::Cache)>(&UnityEngine::Cache::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Cache), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Cache>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cache), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Cache>()});
   }
 };
-// Writing MetadataGetter for method: Cache::get_valid
+// Writing MetadataGetter for method: UnityEngine::Cache::get_valid
 // Il2CppName: get_valid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Cache::*)()>(&Cache::get_valid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Cache::*)()>(&UnityEngine::Cache::get_valid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Cache), "get_valid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cache), "get_valid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Cache::Cache_IsValid
+// Writing MetadataGetter for method: UnityEngine::Cache::Cache_IsValid
 // Il2CppName: Cache_IsValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&Cache::Cache_IsValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&UnityEngine::Cache::Cache_IsValid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Cache), "Cache_IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cache), "Cache_IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Cache::get_path
+// Writing MetadataGetter for method: UnityEngine::Cache::get_path
 // Il2CppName: get_path
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Cache::*)()>(&Cache::get_path)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Cache::*)()>(&UnityEngine::Cache::get_path)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Cache), "get_path", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cache), "get_path", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Cache::Cache_GetPath
+// Writing MetadataGetter for method: UnityEngine::Cache::Cache_GetPath
 // Il2CppName: Cache_GetPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&Cache::Cache_GetPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&UnityEngine::Cache::Cache_GetPath)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Cache), "Cache_GetPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cache), "Cache_GetPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Cache::set_maximumAvailableStorageSpace
+// Writing MetadataGetter for method: UnityEngine::Cache::set_maximumAvailableStorageSpace
 // Il2CppName: set_maximumAvailableStorageSpace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cache::*)(int64_t)>(&Cache::set_maximumAvailableStorageSpace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Cache::*)(int64_t)>(&UnityEngine::Cache::set_maximumAvailableStorageSpace)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Cache), "set_maximumAvailableStorageSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cache), "set_maximumAvailableStorageSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
   }
 };
-// Writing MetadataGetter for method: Cache::Cache_SetMaximumDiskSpaceAvailable
+// Writing MetadataGetter for method: UnityEngine::Cache::Cache_SetMaximumDiskSpaceAvailable
 // Il2CppName: Cache_SetMaximumDiskSpaceAvailable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, int64_t)>(&Cache::Cache_SetMaximumDiskSpaceAvailable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, int64_t)>(&UnityEngine::Cache::Cache_SetMaximumDiskSpaceAvailable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Cache), "Cache_SetMaximumDiskSpaceAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cache), "Cache_SetMaximumDiskSpaceAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
   }
 };
-// Writing MetadataGetter for method: Cache::set_expirationDelay
+// Writing MetadataGetter for method: UnityEngine::Cache::set_expirationDelay
 // Il2CppName: set_expirationDelay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cache::*)(int)>(&Cache::set_expirationDelay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Cache::*)(int)>(&UnityEngine::Cache::set_expirationDelay)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Cache), "set_expirationDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cache), "set_expirationDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Cache::Cache_SetExpirationDelay
+// Writing MetadataGetter for method: UnityEngine::Cache::Cache_SetExpirationDelay
 // Il2CppName: Cache_SetExpirationDelay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, int)>(&Cache::Cache_SetExpirationDelay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, int)>(&UnityEngine::Cache::Cache_SetExpirationDelay)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Cache), "Cache_SetExpirationDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cache), "Cache_SetExpirationDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Cache::GetHashCode
+// Writing MetadataGetter for method: UnityEngine::Cache::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Cache::*)()>(&Cache::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Cache::*)()>(&UnityEngine::Cache::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Cache), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cache), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Cache::Equals
+// Writing MetadataGetter for method: UnityEngine::Cache::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Cache::*)(::Il2CppObject*)>(&Cache::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Cache::*)(::Il2CppObject*)>(&UnityEngine::Cache::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Cache), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cache), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };

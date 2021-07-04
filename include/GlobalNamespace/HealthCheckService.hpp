@@ -102,41 +102,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(HealthCheckService) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthCheckService*, "", "HealthCheckService");
-// Writing MetadataGetter for method: HealthCheckService::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::HealthCheckService::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HealthCheckService::*)(int)>(&HealthCheckService::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HealthCheckService::*)(int)>(&GlobalNamespace::HealthCheckService::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HealthCheckService*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthCheckService*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HealthCheckService::*)(int)>(&HealthCheckService::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HealthCheckService::*)(int)>(&GlobalNamespace::HealthCheckService::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HealthCheckService*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthCheckService*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: HealthCheckService::Dispose
+// Writing MetadataGetter for method: GlobalNamespace::HealthCheckService::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HealthCheckService::*)()>(&HealthCheckService::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HealthCheckService::*)()>(&GlobalNamespace::HealthCheckService::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HealthCheckService*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthCheckService*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HealthCheckService::PollUpdate
+// Writing MetadataGetter for method: GlobalNamespace::HealthCheckService::PollUpdate
 // Il2CppName: PollUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HealthCheckService::*)()>(&HealthCheckService::PollUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HealthCheckService::*)()>(&GlobalNamespace::HealthCheckService::PollUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HealthCheckService*), "PollUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthCheckService*), "PollUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HealthCheckService::Run
+// Writing MetadataGetter for method: GlobalNamespace::HealthCheckService::Run
 // Il2CppName: Run
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HealthCheckService::*)()>(&HealthCheckService::Run)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HealthCheckService::*)()>(&GlobalNamespace::HealthCheckService::Run)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HealthCheckService*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthCheckService*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

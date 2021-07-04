@@ -146,155 +146,155 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BoneWeight, "UnityEngine", "BoneWeight");
-// Writing MetadataGetter for method: BoneWeight::get_weight0
+// Writing MetadataGetter for method: UnityEngine::BoneWeight::get_weight0
 // Il2CppName: get_weight0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BoneWeight::*)()>(&BoneWeight::get_weight0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::BoneWeight::*)()>(&UnityEngine::BoneWeight::get_weight0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BoneWeight), "get_weight0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::BoneWeight), "get_weight0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BoneWeight::set_weight0
+// Writing MetadataGetter for method: UnityEngine::BoneWeight::set_weight0
 // Il2CppName: set_weight0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BoneWeight::*)(float)>(&BoneWeight::set_weight0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::BoneWeight::*)(float)>(&UnityEngine::BoneWeight::set_weight0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BoneWeight), "set_weight0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::BoneWeight), "set_weight0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: BoneWeight::get_weight1
+// Writing MetadataGetter for method: UnityEngine::BoneWeight::get_weight1
 // Il2CppName: get_weight1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BoneWeight::*)()>(&BoneWeight::get_weight1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::BoneWeight::*)()>(&UnityEngine::BoneWeight::get_weight1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BoneWeight), "get_weight1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::BoneWeight), "get_weight1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BoneWeight::set_weight1
+// Writing MetadataGetter for method: UnityEngine::BoneWeight::set_weight1
 // Il2CppName: set_weight1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BoneWeight::*)(float)>(&BoneWeight::set_weight1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::BoneWeight::*)(float)>(&UnityEngine::BoneWeight::set_weight1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BoneWeight), "set_weight1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::BoneWeight), "set_weight1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: BoneWeight::get_weight2
+// Writing MetadataGetter for method: UnityEngine::BoneWeight::get_weight2
 // Il2CppName: get_weight2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BoneWeight::*)()>(&BoneWeight::get_weight2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::BoneWeight::*)()>(&UnityEngine::BoneWeight::get_weight2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BoneWeight), "get_weight2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::BoneWeight), "get_weight2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BoneWeight::set_weight2
+// Writing MetadataGetter for method: UnityEngine::BoneWeight::set_weight2
 // Il2CppName: set_weight2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BoneWeight::*)(float)>(&BoneWeight::set_weight2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::BoneWeight::*)(float)>(&UnityEngine::BoneWeight::set_weight2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BoneWeight), "set_weight2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::BoneWeight), "set_weight2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: BoneWeight::get_weight3
+// Writing MetadataGetter for method: UnityEngine::BoneWeight::get_weight3
 // Il2CppName: get_weight3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BoneWeight::*)()>(&BoneWeight::get_weight3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::BoneWeight::*)()>(&UnityEngine::BoneWeight::get_weight3)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BoneWeight), "get_weight3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::BoneWeight), "get_weight3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BoneWeight::set_weight3
+// Writing MetadataGetter for method: UnityEngine::BoneWeight::set_weight3
 // Il2CppName: set_weight3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BoneWeight::*)(float)>(&BoneWeight::set_weight3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::BoneWeight::*)(float)>(&UnityEngine::BoneWeight::set_weight3)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BoneWeight), "set_weight3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::BoneWeight), "set_weight3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: BoneWeight::get_boneIndex0
+// Writing MetadataGetter for method: UnityEngine::BoneWeight::get_boneIndex0
 // Il2CppName: get_boneIndex0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BoneWeight::*)()>(&BoneWeight::get_boneIndex0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::BoneWeight::*)()>(&UnityEngine::BoneWeight::get_boneIndex0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BoneWeight), "get_boneIndex0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::BoneWeight), "get_boneIndex0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BoneWeight::set_boneIndex0
+// Writing MetadataGetter for method: UnityEngine::BoneWeight::set_boneIndex0
 // Il2CppName: set_boneIndex0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BoneWeight::*)(int)>(&BoneWeight::set_boneIndex0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::BoneWeight::*)(int)>(&UnityEngine::BoneWeight::set_boneIndex0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BoneWeight), "set_boneIndex0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::BoneWeight), "set_boneIndex0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: BoneWeight::get_boneIndex1
+// Writing MetadataGetter for method: UnityEngine::BoneWeight::get_boneIndex1
 // Il2CppName: get_boneIndex1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BoneWeight::*)()>(&BoneWeight::get_boneIndex1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::BoneWeight::*)()>(&UnityEngine::BoneWeight::get_boneIndex1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BoneWeight), "get_boneIndex1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::BoneWeight), "get_boneIndex1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BoneWeight::set_boneIndex1
+// Writing MetadataGetter for method: UnityEngine::BoneWeight::set_boneIndex1
 // Il2CppName: set_boneIndex1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BoneWeight::*)(int)>(&BoneWeight::set_boneIndex1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::BoneWeight::*)(int)>(&UnityEngine::BoneWeight::set_boneIndex1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BoneWeight), "set_boneIndex1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::BoneWeight), "set_boneIndex1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: BoneWeight::get_boneIndex2
+// Writing MetadataGetter for method: UnityEngine::BoneWeight::get_boneIndex2
 // Il2CppName: get_boneIndex2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BoneWeight::*)()>(&BoneWeight::get_boneIndex2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::BoneWeight::*)()>(&UnityEngine::BoneWeight::get_boneIndex2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BoneWeight), "get_boneIndex2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::BoneWeight), "get_boneIndex2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BoneWeight::set_boneIndex2
+// Writing MetadataGetter for method: UnityEngine::BoneWeight::set_boneIndex2
 // Il2CppName: set_boneIndex2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BoneWeight::*)(int)>(&BoneWeight::set_boneIndex2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::BoneWeight::*)(int)>(&UnityEngine::BoneWeight::set_boneIndex2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BoneWeight), "set_boneIndex2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::BoneWeight), "set_boneIndex2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: BoneWeight::get_boneIndex3
+// Writing MetadataGetter for method: UnityEngine::BoneWeight::get_boneIndex3
 // Il2CppName: get_boneIndex3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BoneWeight::*)()>(&BoneWeight::get_boneIndex3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::BoneWeight::*)()>(&UnityEngine::BoneWeight::get_boneIndex3)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BoneWeight), "get_boneIndex3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::BoneWeight), "get_boneIndex3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BoneWeight::set_boneIndex3
+// Writing MetadataGetter for method: UnityEngine::BoneWeight::set_boneIndex3
 // Il2CppName: set_boneIndex3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BoneWeight::*)(int)>(&BoneWeight::set_boneIndex3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::BoneWeight::*)(int)>(&UnityEngine::BoneWeight::set_boneIndex3)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BoneWeight), "set_boneIndex3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::BoneWeight), "set_boneIndex3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: BoneWeight::Equals
+// Writing MetadataGetter for method: UnityEngine::BoneWeight::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BoneWeight::*)(UnityEngine::BoneWeight)>(&BoneWeight::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::BoneWeight::*)(UnityEngine::BoneWeight)>(&UnityEngine::BoneWeight::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BoneWeight), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::BoneWeight>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::BoneWeight), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::BoneWeight>()});
   }
 };
-// Writing MetadataGetter for method: BoneWeight::GetHashCode
+// Writing MetadataGetter for method: UnityEngine::BoneWeight::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BoneWeight::*)()>(&BoneWeight::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::BoneWeight::*)()>(&UnityEngine::BoneWeight::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BoneWeight), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::BoneWeight), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BoneWeight::Equals
+// Writing MetadataGetter for method: UnityEngine::BoneWeight::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BoneWeight::*)(::Il2CppObject*)>(&BoneWeight::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::BoneWeight::*)(::Il2CppObject*)>(&UnityEngine::BoneWeight::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BoneWeight), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::BoneWeight), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };

@@ -139,145 +139,145 @@ namespace Mono::Security::Cryptography {
   static_assert(sizeof(ARC4Managed) == 0x5B);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::ARC4Managed*, "Mono.Security.Cryptography", "ARC4Managed");
-// Writing MetadataGetter for method: ARC4Managed::get_CanTransformMultipleBlocks
+// Writing MetadataGetter for method: Mono::Security::Cryptography::ARC4Managed::get_CanTransformMultipleBlocks
 // Il2CppName: get_CanTransformMultipleBlocks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ARC4Managed::*)()>(&ARC4Managed::get_CanTransformMultipleBlocks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::Cryptography::ARC4Managed::*)()>(&Mono::Security::Cryptography::ARC4Managed::get_CanTransformMultipleBlocks)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ARC4Managed*), "get_CanTransformMultipleBlocks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::ARC4Managed*), "get_CanTransformMultipleBlocks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ARC4Managed::get_InputBlockSize
+// Writing MetadataGetter for method: Mono::Security::Cryptography::ARC4Managed::get_InputBlockSize
 // Il2CppName: get_InputBlockSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ARC4Managed::*)()>(&ARC4Managed::get_InputBlockSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Security::Cryptography::ARC4Managed::*)()>(&Mono::Security::Cryptography::ARC4Managed::get_InputBlockSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ARC4Managed*), "get_InputBlockSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::ARC4Managed*), "get_InputBlockSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ARC4Managed::get_OutputBlockSize
+// Writing MetadataGetter for method: Mono::Security::Cryptography::ARC4Managed::get_OutputBlockSize
 // Il2CppName: get_OutputBlockSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ARC4Managed::*)()>(&ARC4Managed::get_OutputBlockSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Security::Cryptography::ARC4Managed::*)()>(&Mono::Security::Cryptography::ARC4Managed::get_OutputBlockSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ARC4Managed*), "get_OutputBlockSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::ARC4Managed*), "get_OutputBlockSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ARC4Managed::KeySetup
+// Writing MetadataGetter for method: Mono::Security::Cryptography::ARC4Managed::KeySetup
 // Il2CppName: KeySetup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ARC4Managed::*)(::Array<uint8_t>*)>(&ARC4Managed::KeySetup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::ARC4Managed::*)(::Array<uint8_t>*)>(&Mono::Security::Cryptography::ARC4Managed::KeySetup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ARC4Managed*), "KeySetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::ARC4Managed*), "KeySetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: ARC4Managed::CheckInput
+// Writing MetadataGetter for method: Mono::Security::Cryptography::ARC4Managed::CheckInput
 // Il2CppName: CheckInput
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ARC4Managed::*)(::Array<uint8_t>*, int, int)>(&ARC4Managed::CheckInput)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::ARC4Managed::*)(::Array<uint8_t>*, int, int)>(&Mono::Security::Cryptography::ARC4Managed::CheckInput)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ARC4Managed*), "CheckInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::ARC4Managed*), "CheckInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ARC4Managed::TransformBlock
+// Writing MetadataGetter for method: Mono::Security::Cryptography::ARC4Managed::TransformBlock
 // Il2CppName: TransformBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ARC4Managed::*)(::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&ARC4Managed::TransformBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Security::Cryptography::ARC4Managed::*)(::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&Mono::Security::Cryptography::ARC4Managed::TransformBlock)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ARC4Managed*), "TransformBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::ARC4Managed*), "TransformBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ARC4Managed::InternalTransformBlock
+// Writing MetadataGetter for method: Mono::Security::Cryptography::ARC4Managed::InternalTransformBlock
 // Il2CppName: InternalTransformBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ARC4Managed::*)(::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&ARC4Managed::InternalTransformBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Security::Cryptography::ARC4Managed::*)(::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&Mono::Security::Cryptography::ARC4Managed::InternalTransformBlock)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ARC4Managed*), "InternalTransformBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::ARC4Managed*), "InternalTransformBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ARC4Managed::TransformFinalBlock
+// Writing MetadataGetter for method: Mono::Security::Cryptography::ARC4Managed::TransformFinalBlock
 // Il2CppName: TransformFinalBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (ARC4Managed::*)(::Array<uint8_t>*, int, int)>(&ARC4Managed::TransformFinalBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::Cryptography::ARC4Managed::*)(::Array<uint8_t>*, int, int)>(&Mono::Security::Cryptography::ARC4Managed::TransformFinalBlock)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ARC4Managed*), "TransformFinalBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::ARC4Managed*), "TransformFinalBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ARC4Managed::New_ctor
+// Writing MetadataGetter for method: Mono::Security::Cryptography::ARC4Managed::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ARC4Managed::*)()>(&ARC4Managed::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::ARC4Managed::*)()>(&Mono::Security::Cryptography::ARC4Managed::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ARC4Managed*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::ARC4Managed*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ARC4Managed::*)()>(&ARC4Managed::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::ARC4Managed::*)()>(&Mono::Security::Cryptography::ARC4Managed::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ARC4Managed*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::ARC4Managed*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ARC4Managed::Finalize
+// Writing MetadataGetter for method: Mono::Security::Cryptography::ARC4Managed::Finalize
 // Il2CppName: Finalize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ARC4Managed::*)()>(&ARC4Managed::Finalize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::ARC4Managed::*)()>(&Mono::Security::Cryptography::ARC4Managed::Finalize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ARC4Managed*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::ARC4Managed*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ARC4Managed::Dispose
+// Writing MetadataGetter for method: Mono::Security::Cryptography::ARC4Managed::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ARC4Managed::*)(bool)>(&ARC4Managed::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::ARC4Managed::*)(bool)>(&Mono::Security::Cryptography::ARC4Managed::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ARC4Managed*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::ARC4Managed*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ARC4Managed::get_Key
+// Writing MetadataGetter for method: Mono::Security::Cryptography::ARC4Managed::get_Key
 // Il2CppName: get_Key
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (ARC4Managed::*)()>(&ARC4Managed::get_Key)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::Cryptography::ARC4Managed::*)()>(&Mono::Security::Cryptography::ARC4Managed::get_Key)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ARC4Managed*), "get_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::ARC4Managed*), "get_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ARC4Managed::set_Key
+// Writing MetadataGetter for method: Mono::Security::Cryptography::ARC4Managed::set_Key
 // Il2CppName: set_Key
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ARC4Managed::*)(::Array<uint8_t>*)>(&ARC4Managed::set_Key)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::ARC4Managed::*)(::Array<uint8_t>*)>(&Mono::Security::Cryptography::ARC4Managed::set_Key)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ARC4Managed*), "set_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::ARC4Managed*), "set_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: ARC4Managed::CreateEncryptor
+// Writing MetadataGetter for method: Mono::Security::Cryptography::ARC4Managed::CreateEncryptor
 // Il2CppName: CreateEncryptor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (ARC4Managed::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&ARC4Managed::CreateEncryptor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (Mono::Security::Cryptography::ARC4Managed::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&Mono::Security::Cryptography::ARC4Managed::CreateEncryptor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ARC4Managed*), "CreateEncryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::ARC4Managed*), "CreateEncryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: ARC4Managed::CreateDecryptor
+// Writing MetadataGetter for method: Mono::Security::Cryptography::ARC4Managed::CreateDecryptor
 // Il2CppName: CreateDecryptor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (ARC4Managed::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&ARC4Managed::CreateDecryptor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (Mono::Security::Cryptography::ARC4Managed::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&Mono::Security::Cryptography::ARC4Managed::CreateDecryptor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ARC4Managed*), "CreateDecryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::ARC4Managed*), "CreateDecryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: ARC4Managed::GenerateIV
+// Writing MetadataGetter for method: Mono::Security::Cryptography::ARC4Managed::GenerateIV
 // Il2CppName: GenerateIV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ARC4Managed::*)()>(&ARC4Managed::GenerateIV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::ARC4Managed::*)()>(&Mono::Security::Cryptography::ARC4Managed::GenerateIV)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ARC4Managed*), "GenerateIV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::ARC4Managed*), "GenerateIV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ARC4Managed::GenerateKey
+// Writing MetadataGetter for method: Mono::Security::Cryptography::ARC4Managed::GenerateKey
 // Il2CppName: GenerateKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ARC4Managed::*)()>(&ARC4Managed::GenerateKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::ARC4Managed::*)()>(&Mono::Security::Cryptography::ARC4Managed::GenerateKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ARC4Managed*), "GenerateKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::ARC4Managed*), "GenerateKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -76,49 +76,49 @@ namespace System::Collections {
   static_assert(sizeof(ReadOnlyCollectionBase) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ReadOnlyCollectionBase*, "System.Collections", "ReadOnlyCollectionBase");
-// Writing MetadataGetter for method: ReadOnlyCollectionBase::get_InnerList
+// Writing MetadataGetter for method: System::Collections::ReadOnlyCollectionBase::get_InnerList
 // Il2CppName: get_InnerList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ArrayList* (ReadOnlyCollectionBase::*)()>(&ReadOnlyCollectionBase::get_InnerList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ArrayList* (System::Collections::ReadOnlyCollectionBase::*)()>(&System::Collections::ReadOnlyCollectionBase::get_InnerList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReadOnlyCollectionBase*), "get_InnerList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::ReadOnlyCollectionBase*), "get_InnerList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ReadOnlyCollectionBase::get_Count
+// Writing MetadataGetter for method: System::Collections::ReadOnlyCollectionBase::get_Count
 // Il2CppName: get_Count
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ReadOnlyCollectionBase::*)()>(&ReadOnlyCollectionBase::get_Count)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::ReadOnlyCollectionBase::*)()>(&System::Collections::ReadOnlyCollectionBase::get_Count)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReadOnlyCollectionBase*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::ReadOnlyCollectionBase*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ReadOnlyCollectionBase::System_Collections_ICollection_CopyTo
+// Writing MetadataGetter for method: System::Collections::ReadOnlyCollectionBase::System_Collections_ICollection_CopyTo
 // Il2CppName: System.Collections.ICollection.CopyTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReadOnlyCollectionBase::*)(System::Array*, int)>(&ReadOnlyCollectionBase::System_Collections_ICollection_CopyTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ReadOnlyCollectionBase::*)(System::Array*, int)>(&System::Collections::ReadOnlyCollectionBase::System_Collections_ICollection_CopyTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReadOnlyCollectionBase*), "System.Collections.ICollection.CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::ReadOnlyCollectionBase*), "System.Collections.ICollection.CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ReadOnlyCollectionBase::GetEnumerator
+// Writing MetadataGetter for method: System::Collections::ReadOnlyCollectionBase::GetEnumerator
 // Il2CppName: GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (ReadOnlyCollectionBase::*)()>(&ReadOnlyCollectionBase::GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::Collections::ReadOnlyCollectionBase::*)()>(&System::Collections::ReadOnlyCollectionBase::GetEnumerator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReadOnlyCollectionBase*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::ReadOnlyCollectionBase*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ReadOnlyCollectionBase::New_ctor
+// Writing MetadataGetter for method: System::Collections::ReadOnlyCollectionBase::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReadOnlyCollectionBase::*)()>(&ReadOnlyCollectionBase::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ReadOnlyCollectionBase::*)()>(&System::Collections::ReadOnlyCollectionBase::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReadOnlyCollectionBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::ReadOnlyCollectionBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReadOnlyCollectionBase::*)()>(&ReadOnlyCollectionBase::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::ReadOnlyCollectionBase::*)()>(&System::Collections::ReadOnlyCollectionBase::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReadOnlyCollectionBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::ReadOnlyCollectionBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

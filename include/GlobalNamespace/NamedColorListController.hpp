@@ -113,73 +113,73 @@ namespace GlobalNamespace {
   static_assert(sizeof(NamedColorListController) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedColorListController*, "", "NamedColorListController");
-// Writing MetadataGetter for method: NamedColorListController::add_valueChangedEvent
+// Writing MetadataGetter for method: GlobalNamespace::NamedColorListController::add_valueChangedEvent
 // Il2CppName: add_valueChangedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NamedColorListController::*)(System::Action_1<int>*)>(&NamedColorListController::add_valueChangedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NamedColorListController::*)(System::Action_1<int>*)>(&GlobalNamespace::NamedColorListController::add_valueChangedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NamedColorListController*), "add_valueChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NamedColorListController*), "add_valueChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
   }
 };
-// Writing MetadataGetter for method: NamedColorListController::remove_valueChangedEvent
+// Writing MetadataGetter for method: GlobalNamespace::NamedColorListController::remove_valueChangedEvent
 // Il2CppName: remove_valueChangedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NamedColorListController::*)(System::Action_1<int>*)>(&NamedColorListController::remove_valueChangedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NamedColorListController::*)(System::Action_1<int>*)>(&GlobalNamespace::NamedColorListController::remove_valueChangedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NamedColorListController*), "remove_valueChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NamedColorListController*), "remove_valueChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
   }
 };
-// Writing MetadataGetter for method: NamedColorListController::Init
+// Writing MetadataGetter for method: GlobalNamespace::NamedColorListController::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NamedColorListController::*)(::Array<GlobalNamespace::NamedColorListController::ColorValuePair*>*, int)>(&NamedColorListController::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NamedColorListController::*)(::Array<GlobalNamespace::NamedColorListController::ColorValuePair*>*, int)>(&GlobalNamespace::NamedColorListController::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NamedColorListController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::NamedColorListController::ColorValuePair*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NamedColorListController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::NamedColorListController::ColorValuePair*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: NamedColorListController::SetValue
+// Writing MetadataGetter for method: GlobalNamespace::NamedColorListController::SetValue
 // Il2CppName: SetValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NamedColorListController::*)(int)>(&NamedColorListController::SetValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NamedColorListController::*)(int)>(&GlobalNamespace::NamedColorListController::SetValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NamedColorListController*), "SetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NamedColorListController*), "SetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: NamedColorListController::GetInitValues
+// Writing MetadataGetter for method: GlobalNamespace::NamedColorListController::GetInitValues
 // Il2CppName: GetInitValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NamedColorListController::*)(int&, int&)>(&NamedColorListController::GetInitValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::NamedColorListController::*)(int&, int&)>(&GlobalNamespace::NamedColorListController::GetInitValues)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NamedColorListController*), "GetInitValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NamedColorListController*), "GetInitValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: NamedColorListController::ApplyValue
+// Writing MetadataGetter for method: GlobalNamespace::NamedColorListController::ApplyValue
 // Il2CppName: ApplyValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NamedColorListController::*)(int)>(&NamedColorListController::ApplyValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NamedColorListController::*)(int)>(&GlobalNamespace::NamedColorListController::ApplyValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NamedColorListController*), "ApplyValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NamedColorListController*), "ApplyValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: NamedColorListController::ColorForValue
+// Writing MetadataGetter for method: GlobalNamespace::NamedColorListController::ColorForValue
 // Il2CppName: ColorForValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (NamedColorListController::*)(int)>(&NamedColorListController::ColorForValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::NamedColorListController::*)(int)>(&GlobalNamespace::NamedColorListController::ColorForValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NamedColorListController*), "ColorForValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NamedColorListController*), "ColorForValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: NamedColorListController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::NamedColorListController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NamedColorListController::*)()>(&NamedColorListController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NamedColorListController::*)()>(&GlobalNamespace::NamedColorListController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NamedColorListController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NamedColorListController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NamedColorListController::*)()>(&NamedColorListController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NamedColorListController::*)()>(&GlobalNamespace::NamedColorListController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NamedColorListController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NamedColorListController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

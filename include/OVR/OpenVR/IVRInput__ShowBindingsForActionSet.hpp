@@ -59,41 +59,41 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRInput::_ShowBindingsForActionSet*, "OVR.OpenVR", "IVRInput/_ShowBindingsForActionSet");
-// Writing MetadataGetter for method: IVRInput::_ShowBindingsForActionSet::New_ctor
+// Writing MetadataGetter for method: OVR::OpenVR::IVRInput::_ShowBindingsForActionSet::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRInput::_ShowBindingsForActionSet::*)(::Il2CppObject*, System::IntPtr)>(&IVRInput::_ShowBindingsForActionSet::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRInput::_ShowBindingsForActionSet::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVRInput::_ShowBindingsForActionSet::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRInput::_ShowBindingsForActionSet*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRInput::_ShowBindingsForActionSet*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRInput::_ShowBindingsForActionSet::*)(::Il2CppObject*, System::IntPtr)>(&IVRInput::_ShowBindingsForActionSet::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRInput::_ShowBindingsForActionSet::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVRInput::_ShowBindingsForActionSet::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRInput::_ShowBindingsForActionSet*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRInput::_ShowBindingsForActionSet*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: IVRInput::_ShowBindingsForActionSet::Invoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRInput::_ShowBindingsForActionSet::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (IVRInput::_ShowBindingsForActionSet::*)(::Array<OVR::OpenVR::VRActiveActionSet_t>*&, uint, uint, uint64_t)>(&IVRInput::_ShowBindingsForActionSet::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::IVRInput::_ShowBindingsForActionSet::*)(::Array<OVR::OpenVR::VRActiveActionSet_t>*&, uint, uint, uint64_t)>(&OVR::OpenVR::IVRInput::_ShowBindingsForActionSet::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRInput::_ShowBindingsForActionSet*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::VRActiveActionSet_t>*&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRInput::_ShowBindingsForActionSet*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::VRActiveActionSet_t>*&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: IVRInput::_ShowBindingsForActionSet::BeginInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRInput::_ShowBindingsForActionSet::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRInput::_ShowBindingsForActionSet::*)(::Array<OVR::OpenVR::VRActiveActionSet_t>*&, uint, uint, uint64_t, System::AsyncCallback*, ::Il2CppObject*)>(&IVRInput::_ShowBindingsForActionSet::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRInput::_ShowBindingsForActionSet::*)(::Array<OVR::OpenVR::VRActiveActionSet_t>*&, uint, uint, uint64_t, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRInput::_ShowBindingsForActionSet::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRInput::_ShowBindingsForActionSet*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::VRActiveActionSet_t>*&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRInput::_ShowBindingsForActionSet*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OVR::OpenVR::VRActiveActionSet_t>*&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IVRInput::_ShowBindingsForActionSet::EndInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRInput::_ShowBindingsForActionSet::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (IVRInput::_ShowBindingsForActionSet::*)(System::IAsyncResult*)>(&IVRInput::_ShowBindingsForActionSet::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::IVRInput::_ShowBindingsForActionSet::*)(System::IAsyncResult*)>(&OVR::OpenVR::IVRInput::_ShowBindingsForActionSet::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRInput::_ShowBindingsForActionSet*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRInput::_ShowBindingsForActionSet*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

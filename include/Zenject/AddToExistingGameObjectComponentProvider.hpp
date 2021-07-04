@@ -82,33 +82,33 @@ namespace Zenject {
   static_assert(sizeof(AddToExistingGameObjectComponentProvider) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::AddToExistingGameObjectComponentProvider*, "Zenject", "AddToExistingGameObjectComponentProvider");
-// Writing MetadataGetter for method: AddToExistingGameObjectComponentProvider::New_ctor
+// Writing MetadataGetter for method: Zenject::AddToExistingGameObjectComponentProvider::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddToExistingGameObjectComponentProvider::*)(UnityEngine::GameObject*, Zenject::DiContainer*, System::Type*, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>*, ::Il2CppObject*, System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*)>(&AddToExistingGameObjectComponentProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::AddToExistingGameObjectComponentProvider::*)(UnityEngine::GameObject*, Zenject::DiContainer*, System::Type*, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>*, ::Il2CppObject*, System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*)>(&Zenject::AddToExistingGameObjectComponentProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AddToExistingGameObjectComponentProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::AddToExistingGameObjectComponentProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AddToExistingGameObjectComponentProvider::*)(UnityEngine::GameObject*, Zenject::DiContainer*, System::Type*, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>*, ::Il2CppObject*, System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*)>(&AddToExistingGameObjectComponentProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::AddToExistingGameObjectComponentProvider::*)(UnityEngine::GameObject*, Zenject::DiContainer*, System::Type*, System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>*, ::Il2CppObject*, System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*)>(&Zenject::AddToExistingGameObjectComponentProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AddToExistingGameObjectComponentProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::AddToExistingGameObjectComponentProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*>()});
   }
 };
-// Writing MetadataGetter for method: AddToExistingGameObjectComponentProvider::get_ShouldToggleActive
+// Writing MetadataGetter for method: Zenject::AddToExistingGameObjectComponentProvider::get_ShouldToggleActive
 // Il2CppName: get_ShouldToggleActive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AddToExistingGameObjectComponentProvider::*)()>(&AddToExistingGameObjectComponentProvider::get_ShouldToggleActive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::AddToExistingGameObjectComponentProvider::*)()>(&Zenject::AddToExistingGameObjectComponentProvider::get_ShouldToggleActive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AddToExistingGameObjectComponentProvider*), "get_ShouldToggleActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::AddToExistingGameObjectComponentProvider*), "get_ShouldToggleActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AddToExistingGameObjectComponentProvider::GetGameObject
+// Writing MetadataGetter for method: Zenject::AddToExistingGameObjectComponentProvider::GetGameObject
 // Il2CppName: GetGameObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (AddToExistingGameObjectComponentProvider::*)(Zenject::InjectContext*)>(&AddToExistingGameObjectComponentProvider::GetGameObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::AddToExistingGameObjectComponentProvider::*)(Zenject::InjectContext*)>(&Zenject::AddToExistingGameObjectComponentProvider::GetGameObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AddToExistingGameObjectComponentProvider*), "GetGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::AddToExistingGameObjectComponentProvider*), "GetGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
   }
 };

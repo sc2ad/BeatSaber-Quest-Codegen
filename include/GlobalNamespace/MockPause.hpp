@@ -94,89 +94,89 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockPause) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPause*, "", "MockPause");
-// Writing MetadataGetter for method: MockPause::add_didPauseEvent
+// Writing MetadataGetter for method: GlobalNamespace::MockPause::add_didPauseEvent
 // Il2CppName: add_didPauseEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPause::*)(System::Action*)>(&MockPause::add_didPauseEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPause::*)(System::Action*)>(&GlobalNamespace::MockPause::add_didPauseEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPause*), "add_didPauseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPause*), "add_didPauseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: MockPause::remove_didPauseEvent
+// Writing MetadataGetter for method: GlobalNamespace::MockPause::remove_didPauseEvent
 // Il2CppName: remove_didPauseEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPause::*)(System::Action*)>(&MockPause::remove_didPauseEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPause::*)(System::Action*)>(&GlobalNamespace::MockPause::remove_didPauseEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPause*), "remove_didPauseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPause*), "remove_didPauseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: MockPause::add_willResumeEvent
+// Writing MetadataGetter for method: GlobalNamespace::MockPause::add_willResumeEvent
 // Il2CppName: add_willResumeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPause::*)(System::Action*)>(&MockPause::add_willResumeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPause::*)(System::Action*)>(&GlobalNamespace::MockPause::add_willResumeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPause*), "add_willResumeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPause*), "add_willResumeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: MockPause::remove_willResumeEvent
+// Writing MetadataGetter for method: GlobalNamespace::MockPause::remove_willResumeEvent
 // Il2CppName: remove_willResumeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPause::*)(System::Action*)>(&MockPause::remove_willResumeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPause::*)(System::Action*)>(&GlobalNamespace::MockPause::remove_willResumeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPause*), "remove_willResumeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPause*), "remove_willResumeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: MockPause::add_didResumeEvent
+// Writing MetadataGetter for method: GlobalNamespace::MockPause::add_didResumeEvent
 // Il2CppName: add_didResumeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPause::*)(System::Action*)>(&MockPause::add_didResumeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPause::*)(System::Action*)>(&GlobalNamespace::MockPause::add_didResumeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPause*), "add_didResumeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPause*), "add_didResumeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: MockPause::remove_didResumeEvent
+// Writing MetadataGetter for method: GlobalNamespace::MockPause::remove_didResumeEvent
 // Il2CppName: remove_didResumeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPause::*)(System::Action*)>(&MockPause::remove_didResumeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPause::*)(System::Action*)>(&GlobalNamespace::MockPause::remove_didResumeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPause*), "remove_didResumeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPause*), "remove_didResumeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: MockPause::Pause
+// Writing MetadataGetter for method: GlobalNamespace::MockPause::Pause
 // Il2CppName: Pause
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPause::*)()>(&MockPause::Pause)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPause::*)()>(&GlobalNamespace::MockPause::Pause)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPause*), "Pause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPause*), "Pause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPause::WillResume
+// Writing MetadataGetter for method: GlobalNamespace::MockPause::WillResume
 // Il2CppName: WillResume
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPause::*)()>(&MockPause::WillResume)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPause::*)()>(&GlobalNamespace::MockPause::WillResume)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPause*), "WillResume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPause*), "WillResume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPause::Resume
+// Writing MetadataGetter for method: GlobalNamespace::MockPause::Resume
 // Il2CppName: Resume
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPause::*)()>(&MockPause::Resume)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPause::*)()>(&GlobalNamespace::MockPause::Resume)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPause*), "Resume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPause*), "Resume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPause::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MockPause::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPause::*)()>(&MockPause::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPause::*)()>(&GlobalNamespace::MockPause::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPause*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPause*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPause::*)()>(&MockPause::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPause::*)()>(&GlobalNamespace::MockPause::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPause*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPause*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

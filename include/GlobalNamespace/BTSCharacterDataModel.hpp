@@ -68,33 +68,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(BTSCharacterDataModel) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterDataModel*, "", "BTSCharacterDataModel");
-// Writing MetadataGetter for method: BTSCharacterDataModel::get_prefabsWithIds
+// Writing MetadataGetter for method: GlobalNamespace::BTSCharacterDataModel::get_prefabsWithIds
 // Il2CppName: get_prefabsWithIds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::BTSCharacterDataModel::PrefabWithId*>* (BTSCharacterDataModel::*)()>(&BTSCharacterDataModel::get_prefabsWithIds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::BTSCharacterDataModel::PrefabWithId*>* (GlobalNamespace::BTSCharacterDataModel::*)()>(&GlobalNamespace::BTSCharacterDataModel::get_prefabsWithIds)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BTSCharacterDataModel*), "get_prefabsWithIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterDataModel*), "get_prefabsWithIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BTSCharacterDataModel::get_animationClipsWithIds
+// Writing MetadataGetter for method: GlobalNamespace::BTSCharacterDataModel::get_animationClipsWithIds
 // Il2CppName: get_animationClipsWithIds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*>* (BTSCharacterDataModel::*)()>(&BTSCharacterDataModel::get_animationClipsWithIds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*>* (GlobalNamespace::BTSCharacterDataModel::*)()>(&GlobalNamespace::BTSCharacterDataModel::get_animationClipsWithIds)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BTSCharacterDataModel*), "get_animationClipsWithIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterDataModel*), "get_animationClipsWithIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BTSCharacterDataModel::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BTSCharacterDataModel::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterDataModel::*)()>(&BTSCharacterDataModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterDataModel::*)()>(&GlobalNamespace::BTSCharacterDataModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BTSCharacterDataModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterDataModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterDataModel::*)()>(&BTSCharacterDataModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterDataModel::*)()>(&GlobalNamespace::BTSCharacterDataModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BTSCharacterDataModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterDataModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

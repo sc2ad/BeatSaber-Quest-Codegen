@@ -100,57 +100,57 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteDebrisSimplePhysics) == 0x45);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteDebrisSimplePhysics*, "", "NoteDebrisSimplePhysics");
-// Writing MetadataGetter for method: NoteDebrisSimplePhysics::Start
+// Writing MetadataGetter for method: GlobalNamespace::NoteDebrisSimplePhysics::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteDebrisSimplePhysics::*)()>(&NoteDebrisSimplePhysics::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteDebrisSimplePhysics::*)()>(&GlobalNamespace::NoteDebrisSimplePhysics::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteDebrisSimplePhysics*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteDebrisSimplePhysics*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NoteDebrisSimplePhysics::LateUpdate
+// Writing MetadataGetter for method: GlobalNamespace::NoteDebrisSimplePhysics::LateUpdate
 // Il2CppName: LateUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteDebrisSimplePhysics::*)()>(&NoteDebrisSimplePhysics::LateUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteDebrisSimplePhysics::*)()>(&GlobalNamespace::NoteDebrisSimplePhysics::LateUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteDebrisSimplePhysics*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteDebrisSimplePhysics*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NoteDebrisSimplePhysics::get_position
+// Writing MetadataGetter for method: GlobalNamespace::NoteDebrisSimplePhysics::get_position
 // Il2CppName: get_position
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (NoteDebrisSimplePhysics::*)()>(&NoteDebrisSimplePhysics::get_position)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::NoteDebrisSimplePhysics::*)()>(&GlobalNamespace::NoteDebrisSimplePhysics::get_position)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteDebrisSimplePhysics*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteDebrisSimplePhysics*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NoteDebrisSimplePhysics::Init
+// Writing MetadataGetter for method: GlobalNamespace::NoteDebrisSimplePhysics::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteDebrisSimplePhysics::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&NoteDebrisSimplePhysics::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteDebrisSimplePhysics::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&GlobalNamespace::NoteDebrisSimplePhysics::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteDebrisSimplePhysics*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteDebrisSimplePhysics*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: NoteDebrisSimplePhysics::AddVelocity
+// Writing MetadataGetter for method: GlobalNamespace::NoteDebrisSimplePhysics::AddVelocity
 // Il2CppName: AddVelocity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteDebrisSimplePhysics::*)(UnityEngine::Vector3)>(&NoteDebrisSimplePhysics::AddVelocity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteDebrisSimplePhysics::*)(UnityEngine::Vector3)>(&GlobalNamespace::NoteDebrisSimplePhysics::AddVelocity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteDebrisSimplePhysics*), "AddVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteDebrisSimplePhysics*), "AddVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: NoteDebrisSimplePhysics::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::NoteDebrisSimplePhysics::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteDebrisSimplePhysics::*)()>(&NoteDebrisSimplePhysics::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteDebrisSimplePhysics::*)()>(&GlobalNamespace::NoteDebrisSimplePhysics::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteDebrisSimplePhysics*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteDebrisSimplePhysics*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteDebrisSimplePhysics::*)()>(&NoteDebrisSimplePhysics::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteDebrisSimplePhysics::*)()>(&GlobalNamespace::NoteDebrisSimplePhysics::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteDebrisSimplePhysics*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteDebrisSimplePhysics*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

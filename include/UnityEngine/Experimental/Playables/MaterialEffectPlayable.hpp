@@ -63,19 +63,19 @@ namespace UnityEngine::Experimental::Playables {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Playables::MaterialEffectPlayable, "UnityEngine.Experimental.Playables", "MaterialEffectPlayable");
-// Writing MetadataGetter for method: MaterialEffectPlayable::GetHandle
+// Writing MetadataGetter for method: UnityEngine::Experimental::Playables::MaterialEffectPlayable::GetHandle
 // Il2CppName: GetHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (MaterialEffectPlayable::*)()>(&MaterialEffectPlayable::GetHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (UnityEngine::Experimental::Playables::MaterialEffectPlayable::*)()>(&UnityEngine::Experimental::Playables::MaterialEffectPlayable::GetHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialEffectPlayable), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::Playables::MaterialEffectPlayable), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MaterialEffectPlayable::Equals
+// Writing MetadataGetter for method: UnityEngine::Experimental::Playables::MaterialEffectPlayable::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MaterialEffectPlayable::*)(UnityEngine::Experimental::Playables::MaterialEffectPlayable)>(&MaterialEffectPlayable::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Experimental::Playables::MaterialEffectPlayable::*)(UnityEngine::Experimental::Playables::MaterialEffectPlayable)>(&UnityEngine::Experimental::Playables::MaterialEffectPlayable::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialEffectPlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Playables::MaterialEffectPlayable>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::Playables::MaterialEffectPlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Playables::MaterialEffectPlayable>()});
   }
 };

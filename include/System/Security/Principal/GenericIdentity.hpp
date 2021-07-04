@@ -108,93 +108,93 @@ namespace System::Security::Principal {
   static_assert(sizeof(GenericIdentity) == 0x88);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::GenericIdentity*, "System.Security.Principal", "GenericIdentity");
-// Writing MetadataGetter for method: GenericIdentity::New_ctor
+// Writing MetadataGetter for method: System::Security::Principal::GenericIdentity::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericIdentity::*)(::Il2CppString*, ::Il2CppString*)>(&GenericIdentity::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Principal::GenericIdentity::*)(::Il2CppString*, ::Il2CppString*)>(&System::Security::Principal::GenericIdentity::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GenericIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::GenericIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericIdentity::*)(::Il2CppString*, ::Il2CppString*)>(&GenericIdentity::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Principal::GenericIdentity::*)(::Il2CppString*, ::Il2CppString*)>(&System::Security::Principal::GenericIdentity::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GenericIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::GenericIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: GenericIdentity::New_ctor
+// Writing MetadataGetter for method: System::Security::Principal::GenericIdentity::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericIdentity::*)(System::Security::Principal::GenericIdentity*)>(&GenericIdentity::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Principal::GenericIdentity::*)(System::Security::Principal::GenericIdentity*)>(&System::Security::Principal::GenericIdentity::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GenericIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Principal::GenericIdentity*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::GenericIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Principal::GenericIdentity*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericIdentity::*)(System::Security::Principal::GenericIdentity*)>(&GenericIdentity::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Principal::GenericIdentity::*)(System::Security::Principal::GenericIdentity*)>(&System::Security::Principal::GenericIdentity::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GenericIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Principal::GenericIdentity*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::GenericIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Principal::GenericIdentity*>()});
   }
 };
-// Writing MetadataGetter for method: GenericIdentity::AddNameClaim
+// Writing MetadataGetter for method: System::Security::Principal::GenericIdentity::AddNameClaim
 // Il2CppName: AddNameClaim
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericIdentity::*)()>(&GenericIdentity::AddNameClaim)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Principal::GenericIdentity::*)()>(&System::Security::Principal::GenericIdentity::AddNameClaim)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GenericIdentity*), "AddNameClaim", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::GenericIdentity*), "AddNameClaim", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GenericIdentity::New_ctor
+// Writing MetadataGetter for method: System::Security::Principal::GenericIdentity::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericIdentity::*)()>(&GenericIdentity::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Principal::GenericIdentity::*)()>(&System::Security::Principal::GenericIdentity::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GenericIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::GenericIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericIdentity::*)()>(&GenericIdentity::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Principal::GenericIdentity::*)()>(&System::Security::Principal::GenericIdentity::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GenericIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::GenericIdentity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GenericIdentity::Clone
+// Writing MetadataGetter for method: System::Security::Principal::GenericIdentity::Clone
 // Il2CppName: Clone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Claims::ClaimsIdentity* (GenericIdentity::*)()>(&GenericIdentity::Clone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Claims::ClaimsIdentity* (System::Security::Principal::GenericIdentity::*)()>(&System::Security::Principal::GenericIdentity::Clone)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GenericIdentity*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::GenericIdentity*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GenericIdentity::get_Claims
+// Writing MetadataGetter for method: System::Security::Principal::GenericIdentity::get_Claims
 // Il2CppName: get_Claims
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim*>* (GenericIdentity::*)()>(&GenericIdentity::get_Claims)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim*>* (System::Security::Principal::GenericIdentity::*)()>(&System::Security::Principal::GenericIdentity::get_Claims)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GenericIdentity*), "get_Claims", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::GenericIdentity*), "get_Claims", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GenericIdentity::get_Name
+// Writing MetadataGetter for method: System::Security::Principal::GenericIdentity::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GenericIdentity::*)()>(&GenericIdentity::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Principal::GenericIdentity::*)()>(&System::Security::Principal::GenericIdentity::get_Name)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GenericIdentity*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::GenericIdentity*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GenericIdentity::get_AuthenticationType
+// Writing MetadataGetter for method: System::Security::Principal::GenericIdentity::get_AuthenticationType
 // Il2CppName: get_AuthenticationType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GenericIdentity::*)()>(&GenericIdentity::get_AuthenticationType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Principal::GenericIdentity::*)()>(&System::Security::Principal::GenericIdentity::get_AuthenticationType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GenericIdentity*), "get_AuthenticationType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::GenericIdentity*), "get_AuthenticationType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GenericIdentity::OnDeserializedMethod
+// Writing MetadataGetter for method: System::Security::Principal::GenericIdentity::OnDeserializedMethod
 // Il2CppName: OnDeserializedMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericIdentity::*)(System::Runtime::Serialization::StreamingContext)>(&GenericIdentity::OnDeserializedMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Principal::GenericIdentity::*)(System::Runtime::Serialization::StreamingContext)>(&System::Security::Principal::GenericIdentity::OnDeserializedMethod)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GenericIdentity*), "OnDeserializedMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::GenericIdentity*), "OnDeserializedMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
   }
 };

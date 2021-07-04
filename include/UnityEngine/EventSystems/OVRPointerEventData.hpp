@@ -62,25 +62,25 @@ namespace UnityEngine::EventSystems {
   static_assert(sizeof(OVRPointerEventData) == 0x150);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::OVRPointerEventData*, "UnityEngine.EventSystems", "OVRPointerEventData");
-// Writing MetadataGetter for method: OVRPointerEventData::New_ctor
+// Writing MetadataGetter for method: UnityEngine::EventSystems::OVRPointerEventData::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPointerEventData::*)(UnityEngine::EventSystems::EventSystem*)>(&OVRPointerEventData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRPointerEventData::*)(UnityEngine::EventSystems::EventSystem*)>(&UnityEngine::EventSystems::OVRPointerEventData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPointerEventData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::EventSystem*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRPointerEventData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::EventSystem*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRPointerEventData::*)(UnityEngine::EventSystems::EventSystem*)>(&OVRPointerEventData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRPointerEventData::*)(UnityEngine::EventSystems::EventSystem*)>(&UnityEngine::EventSystems::OVRPointerEventData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPointerEventData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::EventSystem*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRPointerEventData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::EventSystem*>()});
   }
 };
-// Writing MetadataGetter for method: OVRPointerEventData::ToString
+// Writing MetadataGetter for method: UnityEngine::EventSystems::OVRPointerEventData::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OVRPointerEventData::*)()>(&OVRPointerEventData::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::EventSystems::OVRPointerEventData::*)()>(&UnityEngine::EventSystems::OVRPointerEventData::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPointerEventData*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRPointerEventData*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

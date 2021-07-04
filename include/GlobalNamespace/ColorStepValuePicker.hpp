@@ -131,113 +131,113 @@ namespace GlobalNamespace {
   static_assert(sizeof(ColorStepValuePicker) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorStepValuePicker*, "", "ColorStepValuePicker");
-// Writing MetadataGetter for method: ColorStepValuePicker::add_decButtonWasPressedEvent
+// Writing MetadataGetter for method: GlobalNamespace::ColorStepValuePicker::add_decButtonWasPressedEvent
 // Il2CppName: add_decButtonWasPressedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorStepValuePicker::*)(System::Action*)>(&ColorStepValuePicker::add_decButtonWasPressedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorStepValuePicker::*)(System::Action*)>(&GlobalNamespace::ColorStepValuePicker::add_decButtonWasPressedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorStepValuePicker*), "add_decButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorStepValuePicker*), "add_decButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: ColorStepValuePicker::remove_decButtonWasPressedEvent
+// Writing MetadataGetter for method: GlobalNamespace::ColorStepValuePicker::remove_decButtonWasPressedEvent
 // Il2CppName: remove_decButtonWasPressedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorStepValuePicker::*)(System::Action*)>(&ColorStepValuePicker::remove_decButtonWasPressedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorStepValuePicker::*)(System::Action*)>(&GlobalNamespace::ColorStepValuePicker::remove_decButtonWasPressedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorStepValuePicker*), "remove_decButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorStepValuePicker*), "remove_decButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: ColorStepValuePicker::add_incButtonWasPressedEvent
+// Writing MetadataGetter for method: GlobalNamespace::ColorStepValuePicker::add_incButtonWasPressedEvent
 // Il2CppName: add_incButtonWasPressedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorStepValuePicker::*)(System::Action*)>(&ColorStepValuePicker::add_incButtonWasPressedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorStepValuePicker::*)(System::Action*)>(&GlobalNamespace::ColorStepValuePicker::add_incButtonWasPressedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorStepValuePicker*), "add_incButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorStepValuePicker*), "add_incButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: ColorStepValuePicker::remove_incButtonWasPressedEvent
+// Writing MetadataGetter for method: GlobalNamespace::ColorStepValuePicker::remove_incButtonWasPressedEvent
 // Il2CppName: remove_incButtonWasPressedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorStepValuePicker::*)(System::Action*)>(&ColorStepValuePicker::remove_incButtonWasPressedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorStepValuePicker::*)(System::Action*)>(&GlobalNamespace::ColorStepValuePicker::remove_incButtonWasPressedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorStepValuePicker*), "remove_incButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorStepValuePicker*), "remove_incButtonWasPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: ColorStepValuePicker::get_color
+// Writing MetadataGetter for method: GlobalNamespace::ColorStepValuePicker::get_color
 // Il2CppName: get_color
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (ColorStepValuePicker::*)()>(&ColorStepValuePicker::get_color)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::ColorStepValuePicker::*)()>(&GlobalNamespace::ColorStepValuePicker::get_color)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorStepValuePicker*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorStepValuePicker*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ColorStepValuePicker::set_color
+// Writing MetadataGetter for method: GlobalNamespace::ColorStepValuePicker::set_color
 // Il2CppName: set_color
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorStepValuePicker::*)(UnityEngine::Color)>(&ColorStepValuePicker::set_color)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorStepValuePicker::*)(UnityEngine::Color)>(&GlobalNamespace::ColorStepValuePicker::set_color)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorStepValuePicker*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorStepValuePicker*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: ColorStepValuePicker::set_decButtonInteractable
+// Writing MetadataGetter for method: GlobalNamespace::ColorStepValuePicker::set_decButtonInteractable
 // Il2CppName: set_decButtonInteractable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorStepValuePicker::*)(bool)>(&ColorStepValuePicker::set_decButtonInteractable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorStepValuePicker::*)(bool)>(&GlobalNamespace::ColorStepValuePicker::set_decButtonInteractable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorStepValuePicker*), "set_decButtonInteractable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorStepValuePicker*), "set_decButtonInteractable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ColorStepValuePicker::set_incButtonInteractable
+// Writing MetadataGetter for method: GlobalNamespace::ColorStepValuePicker::set_incButtonInteractable
 // Il2CppName: set_incButtonInteractable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorStepValuePicker::*)(bool)>(&ColorStepValuePicker::set_incButtonInteractable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorStepValuePicker::*)(bool)>(&GlobalNamespace::ColorStepValuePicker::set_incButtonInteractable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorStepValuePicker*), "set_incButtonInteractable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorStepValuePicker*), "set_incButtonInteractable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ColorStepValuePicker::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::ColorStepValuePicker::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorStepValuePicker::*)()>(&ColorStepValuePicker::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorStepValuePicker::*)()>(&GlobalNamespace::ColorStepValuePicker::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorStepValuePicker*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorStepValuePicker*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ColorStepValuePicker::OnDisable
+// Writing MetadataGetter for method: GlobalNamespace::ColorStepValuePicker::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorStepValuePicker::*)()>(&ColorStepValuePicker::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorStepValuePicker::*)()>(&GlobalNamespace::ColorStepValuePicker::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorStepValuePicker*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorStepValuePicker*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ColorStepValuePicker::IncButtonPressed
+// Writing MetadataGetter for method: GlobalNamespace::ColorStepValuePicker::IncButtonPressed
 // Il2CppName: IncButtonPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorStepValuePicker::*)()>(&ColorStepValuePicker::IncButtonPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorStepValuePicker::*)()>(&GlobalNamespace::ColorStepValuePicker::IncButtonPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorStepValuePicker*), "IncButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorStepValuePicker*), "IncButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ColorStepValuePicker::DecButtonPressed
+// Writing MetadataGetter for method: GlobalNamespace::ColorStepValuePicker::DecButtonPressed
 // Il2CppName: DecButtonPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorStepValuePicker::*)()>(&ColorStepValuePicker::DecButtonPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorStepValuePicker::*)()>(&GlobalNamespace::ColorStepValuePicker::DecButtonPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorStepValuePicker*), "DecButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorStepValuePicker*), "DecButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ColorStepValuePicker::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::ColorStepValuePicker::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorStepValuePicker::*)()>(&ColorStepValuePicker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorStepValuePicker::*)()>(&GlobalNamespace::ColorStepValuePicker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorStepValuePicker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorStepValuePicker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorStepValuePicker::*)()>(&ColorStepValuePicker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorStepValuePicker::*)()>(&GlobalNamespace::ColorStepValuePicker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorStepValuePicker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorStepValuePicker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

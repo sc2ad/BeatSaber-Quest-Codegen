@@ -240,193 +240,193 @@ namespace UnityEngine::EventSystems {
   static_assert(sizeof(EventTrigger) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::EventTrigger*, "UnityEngine.EventSystems", "EventTrigger");
-// Writing MetadataGetter for method: EventTrigger::get_delegates
+// Writing MetadataGetter for method: UnityEngine::EventSystems::EventTrigger::get_delegates
 // Il2CppName: get_delegates
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::EventSystems::EventTrigger::Entry*>* (EventTrigger::*)()>(&EventTrigger::get_delegates)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::EventSystems::EventTrigger::Entry*>* (UnityEngine::EventSystems::EventTrigger::*)()>(&UnityEngine::EventSystems::EventTrigger::get_delegates)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventTrigger*), "get_delegates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::EventTrigger*), "get_delegates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EventTrigger::set_delegates
+// Writing MetadataGetter for method: UnityEngine::EventSystems::EventTrigger::set_delegates
 // Il2CppName: set_delegates
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventTrigger::*)(System::Collections::Generic::List_1<UnityEngine::EventSystems::EventTrigger::Entry*>*)>(&EventTrigger::set_delegates)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::EventTrigger::*)(System::Collections::Generic::List_1<UnityEngine::EventSystems::EventTrigger::Entry*>*)>(&UnityEngine::EventSystems::EventTrigger::set_delegates)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventTrigger*), "set_delegates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::EventSystems::EventTrigger::Entry*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::EventTrigger*), "set_delegates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::EventSystems::EventTrigger::Entry*>*>()});
   }
 };
-// Writing MetadataGetter for method: EventTrigger::get_triggers
+// Writing MetadataGetter for method: UnityEngine::EventSystems::EventTrigger::get_triggers
 // Il2CppName: get_triggers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::EventSystems::EventTrigger::Entry*>* (EventTrigger::*)()>(&EventTrigger::get_triggers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::EventSystems::EventTrigger::Entry*>* (UnityEngine::EventSystems::EventTrigger::*)()>(&UnityEngine::EventSystems::EventTrigger::get_triggers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventTrigger*), "get_triggers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::EventTrigger*), "get_triggers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EventTrigger::set_triggers
+// Writing MetadataGetter for method: UnityEngine::EventSystems::EventTrigger::set_triggers
 // Il2CppName: set_triggers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventTrigger::*)(System::Collections::Generic::List_1<UnityEngine::EventSystems::EventTrigger::Entry*>*)>(&EventTrigger::set_triggers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::EventTrigger::*)(System::Collections::Generic::List_1<UnityEngine::EventSystems::EventTrigger::Entry*>*)>(&UnityEngine::EventSystems::EventTrigger::set_triggers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventTrigger*), "set_triggers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::EventSystems::EventTrigger::Entry*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::EventTrigger*), "set_triggers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::EventSystems::EventTrigger::Entry*>*>()});
   }
 };
-// Writing MetadataGetter for method: EventTrigger::Execute
+// Writing MetadataGetter for method: UnityEngine::EventSystems::EventTrigger::Execute
 // Il2CppName: Execute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventTrigger::*)(UnityEngine::EventSystems::EventTriggerType, UnityEngine::EventSystems::BaseEventData*)>(&EventTrigger::Execute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::EventTrigger::*)(UnityEngine::EventSystems::EventTriggerType, UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::EventTrigger::Execute)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventTrigger*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::EventTriggerType>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::EventTrigger*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::EventTriggerType>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
   }
 };
-// Writing MetadataGetter for method: EventTrigger::OnPointerEnter
+// Writing MetadataGetter for method: UnityEngine::EventSystems::EventTrigger::OnPointerEnter
 // Il2CppName: OnPointerEnter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventTrigger::*)(UnityEngine::EventSystems::PointerEventData*)>(&EventTrigger::OnPointerEnter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::EventTrigger::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::EventTrigger::OnPointerEnter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventTrigger*), "OnPointerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::EventTrigger*), "OnPointerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: EventTrigger::OnPointerExit
+// Writing MetadataGetter for method: UnityEngine::EventSystems::EventTrigger::OnPointerExit
 // Il2CppName: OnPointerExit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventTrigger::*)(UnityEngine::EventSystems::PointerEventData*)>(&EventTrigger::OnPointerExit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::EventTrigger::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::EventTrigger::OnPointerExit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventTrigger*), "OnPointerExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::EventTrigger*), "OnPointerExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: EventTrigger::OnDrag
+// Writing MetadataGetter for method: UnityEngine::EventSystems::EventTrigger::OnDrag
 // Il2CppName: OnDrag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventTrigger::*)(UnityEngine::EventSystems::PointerEventData*)>(&EventTrigger::OnDrag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::EventTrigger::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::EventTrigger::OnDrag)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventTrigger*), "OnDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::EventTrigger*), "OnDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: EventTrigger::OnDrop
+// Writing MetadataGetter for method: UnityEngine::EventSystems::EventTrigger::OnDrop
 // Il2CppName: OnDrop
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventTrigger::*)(UnityEngine::EventSystems::PointerEventData*)>(&EventTrigger::OnDrop)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::EventTrigger::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::EventTrigger::OnDrop)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventTrigger*), "OnDrop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::EventTrigger*), "OnDrop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: EventTrigger::OnPointerDown
+// Writing MetadataGetter for method: UnityEngine::EventSystems::EventTrigger::OnPointerDown
 // Il2CppName: OnPointerDown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventTrigger::*)(UnityEngine::EventSystems::PointerEventData*)>(&EventTrigger::OnPointerDown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::EventTrigger::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::EventTrigger::OnPointerDown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventTrigger*), "OnPointerDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::EventTrigger*), "OnPointerDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: EventTrigger::OnPointerUp
+// Writing MetadataGetter for method: UnityEngine::EventSystems::EventTrigger::OnPointerUp
 // Il2CppName: OnPointerUp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventTrigger::*)(UnityEngine::EventSystems::PointerEventData*)>(&EventTrigger::OnPointerUp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::EventTrigger::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::EventTrigger::OnPointerUp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventTrigger*), "OnPointerUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::EventTrigger*), "OnPointerUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: EventTrigger::OnPointerClick
+// Writing MetadataGetter for method: UnityEngine::EventSystems::EventTrigger::OnPointerClick
 // Il2CppName: OnPointerClick
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventTrigger::*)(UnityEngine::EventSystems::PointerEventData*)>(&EventTrigger::OnPointerClick)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::EventTrigger::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::EventTrigger::OnPointerClick)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventTrigger*), "OnPointerClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::EventTrigger*), "OnPointerClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: EventTrigger::OnSelect
+// Writing MetadataGetter for method: UnityEngine::EventSystems::EventTrigger::OnSelect
 // Il2CppName: OnSelect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventTrigger::*)(UnityEngine::EventSystems::BaseEventData*)>(&EventTrigger::OnSelect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::EventTrigger::*)(UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::EventTrigger::OnSelect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventTrigger*), "OnSelect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::EventTrigger*), "OnSelect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
   }
 };
-// Writing MetadataGetter for method: EventTrigger::OnDeselect
+// Writing MetadataGetter for method: UnityEngine::EventSystems::EventTrigger::OnDeselect
 // Il2CppName: OnDeselect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventTrigger::*)(UnityEngine::EventSystems::BaseEventData*)>(&EventTrigger::OnDeselect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::EventTrigger::*)(UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::EventTrigger::OnDeselect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventTrigger*), "OnDeselect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::EventTrigger*), "OnDeselect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
   }
 };
-// Writing MetadataGetter for method: EventTrigger::OnScroll
+// Writing MetadataGetter for method: UnityEngine::EventSystems::EventTrigger::OnScroll
 // Il2CppName: OnScroll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventTrigger::*)(UnityEngine::EventSystems::PointerEventData*)>(&EventTrigger::OnScroll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::EventTrigger::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::EventTrigger::OnScroll)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventTrigger*), "OnScroll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::EventTrigger*), "OnScroll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: EventTrigger::OnMove
+// Writing MetadataGetter for method: UnityEngine::EventSystems::EventTrigger::OnMove
 // Il2CppName: OnMove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventTrigger::*)(UnityEngine::EventSystems::AxisEventData*)>(&EventTrigger::OnMove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::EventTrigger::*)(UnityEngine::EventSystems::AxisEventData*)>(&UnityEngine::EventSystems::EventTrigger::OnMove)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventTrigger*), "OnMove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::AxisEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::EventTrigger*), "OnMove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::AxisEventData*>()});
   }
 };
-// Writing MetadataGetter for method: EventTrigger::OnUpdateSelected
+// Writing MetadataGetter for method: UnityEngine::EventSystems::EventTrigger::OnUpdateSelected
 // Il2CppName: OnUpdateSelected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventTrigger::*)(UnityEngine::EventSystems::BaseEventData*)>(&EventTrigger::OnUpdateSelected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::EventTrigger::*)(UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::EventTrigger::OnUpdateSelected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventTrigger*), "OnUpdateSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::EventTrigger*), "OnUpdateSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
   }
 };
-// Writing MetadataGetter for method: EventTrigger::OnInitializePotentialDrag
+// Writing MetadataGetter for method: UnityEngine::EventSystems::EventTrigger::OnInitializePotentialDrag
 // Il2CppName: OnInitializePotentialDrag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventTrigger::*)(UnityEngine::EventSystems::PointerEventData*)>(&EventTrigger::OnInitializePotentialDrag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::EventTrigger::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::EventTrigger::OnInitializePotentialDrag)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventTrigger*), "OnInitializePotentialDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::EventTrigger*), "OnInitializePotentialDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: EventTrigger::OnBeginDrag
+// Writing MetadataGetter for method: UnityEngine::EventSystems::EventTrigger::OnBeginDrag
 // Il2CppName: OnBeginDrag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventTrigger::*)(UnityEngine::EventSystems::PointerEventData*)>(&EventTrigger::OnBeginDrag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::EventTrigger::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::EventTrigger::OnBeginDrag)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventTrigger*), "OnBeginDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::EventTrigger*), "OnBeginDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: EventTrigger::OnEndDrag
+// Writing MetadataGetter for method: UnityEngine::EventSystems::EventTrigger::OnEndDrag
 // Il2CppName: OnEndDrag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventTrigger::*)(UnityEngine::EventSystems::PointerEventData*)>(&EventTrigger::OnEndDrag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::EventTrigger::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::EventTrigger::OnEndDrag)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventTrigger*), "OnEndDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::EventTrigger*), "OnEndDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: EventTrigger::OnSubmit
+// Writing MetadataGetter for method: UnityEngine::EventSystems::EventTrigger::OnSubmit
 // Il2CppName: OnSubmit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventTrigger::*)(UnityEngine::EventSystems::BaseEventData*)>(&EventTrigger::OnSubmit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::EventTrigger::*)(UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::EventTrigger::OnSubmit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventTrigger*), "OnSubmit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::EventTrigger*), "OnSubmit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
   }
 };
-// Writing MetadataGetter for method: EventTrigger::OnCancel
+// Writing MetadataGetter for method: UnityEngine::EventSystems::EventTrigger::OnCancel
 // Il2CppName: OnCancel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventTrigger::*)(UnityEngine::EventSystems::BaseEventData*)>(&EventTrigger::OnCancel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::EventTrigger::*)(UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::EventTrigger::OnCancel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventTrigger*), "OnCancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::EventTrigger*), "OnCancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
   }
 };
-// Writing MetadataGetter for method: EventTrigger::New_ctor
+// Writing MetadataGetter for method: UnityEngine::EventSystems::EventTrigger::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventTrigger::*)()>(&EventTrigger::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::EventTrigger::*)()>(&UnityEngine::EventSystems::EventTrigger::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventTrigger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::EventTrigger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EventTrigger::*)()>(&EventTrigger::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::EventTrigger::*)()>(&UnityEngine::EventSystems::EventTrigger::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventTrigger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::EventTrigger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -79,107 +79,107 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Net*, "Oculus.Platform", "Net");
-// Writing MetadataGetter for method: Net::ReadPacket
+// Writing MetadataGetter for method: Oculus::Platform::Net::ReadPacket
 // Il2CppName: ReadPacket
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Packet* (*)()>(&Net::ReadPacket)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Packet* (*)()>(&Oculus::Platform::Net::ReadPacket)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Net*), "ReadPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Net*), "ReadPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Net::SendPacket
+// Writing MetadataGetter for method: Oculus::Platform::Net::SendPacket
 // Il2CppName: SendPacket
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, ::Array<uint8_t>*, Oculus::Platform::SendPolicy)>(&Net::SendPacket)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, ::Array<uint8_t>*, Oculus::Platform::SendPolicy)>(&Oculus::Platform::Net::SendPacket)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Net*), "SendPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::SendPolicy>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Net*), "SendPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::SendPolicy>()});
   }
 };
-// Writing MetadataGetter for method: Net::Connect
+// Writing MetadataGetter for method: Oculus::Platform::Net::Connect
 // Il2CppName: Connect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&Net::Connect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&Oculus::Platform::Net::Connect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Net*), "Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Net*), "Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: Net::Accept
+// Writing MetadataGetter for method: Oculus::Platform::Net::Accept
 // Il2CppName: Accept
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&Net::Accept)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&Oculus::Platform::Net::Accept)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Net*), "Accept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Net*), "Accept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: Net::Close
+// Writing MetadataGetter for method: Oculus::Platform::Net::Close
 // Il2CppName: Close
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&Net::Close)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&Oculus::Platform::Net::Close)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Net*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Net*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: Net::IsConnected
+// Writing MetadataGetter for method: Oculus::Platform::Net::IsConnected
 // Il2CppName: IsConnected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t)>(&Net::IsConnected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t)>(&Oculus::Platform::Net::IsConnected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Net*), "IsConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Net*), "IsConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: Net::SendPacketToCurrentRoom
+// Writing MetadataGetter for method: Oculus::Platform::Net::SendPacketToCurrentRoom
 // Il2CppName: SendPacketToCurrentRoom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<uint8_t>*, Oculus::Platform::SendPolicy)>(&Net::SendPacketToCurrentRoom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<uint8_t>*, Oculus::Platform::SendPolicy)>(&Oculus::Platform::Net::SendPacketToCurrentRoom)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Net*), "SendPacketToCurrentRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::SendPolicy>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Net*), "SendPacketToCurrentRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::SendPolicy>()});
   }
 };
-// Writing MetadataGetter for method: Net::AcceptForCurrentRoom
+// Writing MetadataGetter for method: Oculus::Platform::Net::AcceptForCurrentRoom
 // Il2CppName: AcceptForCurrentRoom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Net::AcceptForCurrentRoom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Oculus::Platform::Net::AcceptForCurrentRoom)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Net*), "AcceptForCurrentRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Net*), "AcceptForCurrentRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Net::CloseForCurrentRoom
+// Writing MetadataGetter for method: Oculus::Platform::Net::CloseForCurrentRoom
 // Il2CppName: CloseForCurrentRoom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Net::CloseForCurrentRoom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Oculus::Platform::Net::CloseForCurrentRoom)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Net*), "CloseForCurrentRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Net*), "CloseForCurrentRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Net::Ping
+// Writing MetadataGetter for method: Oculus::Platform::Net::Ping
 // Il2CppName: Ping
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::PingResult*>* (*)(uint64_t)>(&Net::Ping)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::PingResult*>* (*)(uint64_t)>(&Oculus::Platform::Net::Ping)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Net*), "Ping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Net*), "Ping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: Net::SetConnectionStateChangedCallback
+// Writing MetadataGetter for method: Oculus::Platform::Net::SetConnectionStateChangedCallback
 // Il2CppName: SetConnectionStateChangedCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer*>::Callback*)>(&Net::SetConnectionStateChangedCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer*>::Callback*)>(&Oculus::Platform::Net::SetConnectionStateChangedCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Net*), "SetConnectionStateChangedCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer*>::Callback*>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Net*), "SetConnectionStateChangedCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer*>::Callback*>()});
   }
 };
-// Writing MetadataGetter for method: Net::SetPeerConnectRequestCallback
+// Writing MetadataGetter for method: Oculus::Platform::Net::SetPeerConnectRequestCallback
 // Il2CppName: SetPeerConnectRequestCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer*>::Callback*)>(&Net::SetPeerConnectRequestCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer*>::Callback*)>(&Oculus::Platform::Net::SetPeerConnectRequestCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Net*), "SetPeerConnectRequestCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer*>::Callback*>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Net*), "SetPeerConnectRequestCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<Oculus::Platform::Models::NetworkingPeer*>::Callback*>()});
   }
 };
-// Writing MetadataGetter for method: Net::SetPingResultNotificationCallback
+// Writing MetadataGetter for method: Oculus::Platform::Net::SetPingResultNotificationCallback
 // Il2CppName: SetPingResultNotificationCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<Oculus::Platform::Models::PingResult*>::Callback*)>(&Net::SetPingResultNotificationCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<Oculus::Platform::Models::PingResult*>::Callback*)>(&Oculus::Platform::Net::SetPingResultNotificationCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Net*), "SetPingResultNotificationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<Oculus::Platform::Models::PingResult*>::Callback*>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Net*), "SetPingResultNotificationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<Oculus::Platform::Models::PingResult*>::Callback*>()});
   }
 };

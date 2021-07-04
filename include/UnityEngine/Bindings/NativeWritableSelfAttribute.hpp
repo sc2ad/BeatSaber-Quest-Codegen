@@ -53,25 +53,25 @@ namespace UnityEngine::Bindings {
   static_assert(sizeof(NativeWritableSelfAttribute) == 0x11);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeWritableSelfAttribute*, "UnityEngine.Bindings", "NativeWritableSelfAttribute");
-// Writing MetadataGetter for method: NativeWritableSelfAttribute::set_WritableSelf
+// Writing MetadataGetter for method: UnityEngine::Bindings::NativeWritableSelfAttribute::set_WritableSelf
 // Il2CppName: set_WritableSelf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeWritableSelfAttribute::*)(bool)>(&NativeWritableSelfAttribute::set_WritableSelf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeWritableSelfAttribute::*)(bool)>(&UnityEngine::Bindings::NativeWritableSelfAttribute::set_WritableSelf)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NativeWritableSelfAttribute*), "set_WritableSelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeWritableSelfAttribute*), "set_WritableSelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: NativeWritableSelfAttribute::New_ctor
+// Writing MetadataGetter for method: UnityEngine::Bindings::NativeWritableSelfAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeWritableSelfAttribute::*)()>(&NativeWritableSelfAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeWritableSelfAttribute::*)()>(&UnityEngine::Bindings::NativeWritableSelfAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NativeWritableSelfAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeWritableSelfAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeWritableSelfAttribute::*)()>(&NativeWritableSelfAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeWritableSelfAttribute::*)()>(&UnityEngine::Bindings::NativeWritableSelfAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NativeWritableSelfAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeWritableSelfAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -814,11 +814,11 @@ namespace OVR::OpenVR {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::InputOriginInfo_t, "OVR.OpenVR", "InputOriginInfo_t");
-// Writing MetadataGetter for method: InputOriginInfo_t::get_rchRenderModelComponentName
+// Writing MetadataGetter for method: OVR::OpenVR::InputOriginInfo_t::get_rchRenderModelComponentName
 // Il2CppName: get_rchRenderModelComponentName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (InputOriginInfo_t::*)()>(&InputOriginInfo_t::get_rchRenderModelComponentName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OVR::OpenVR::InputOriginInfo_t::*)()>(&OVR::OpenVR::InputOriginInfo_t::get_rchRenderModelComponentName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InputOriginInfo_t), "get_rchRenderModelComponentName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::InputOriginInfo_t), "get_rchRenderModelComponentName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

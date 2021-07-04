@@ -96,57 +96,57 @@ namespace UnityEngine::UI {
   static_assert(sizeof(Scrollbar::$ClickRepeat$d__58) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Scrollbar::$ClickRepeat$d__58*, "UnityEngine.UI", "Scrollbar/<ClickRepeat>d__58");
-// Writing MetadataGetter for method: Scrollbar::$ClickRepeat$d__58::New_ctor
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::$ClickRepeat$d__58::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scrollbar::$ClickRepeat$d__58::*)(int)>(&Scrollbar::$ClickRepeat$d__58::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Scrollbar::$ClickRepeat$d__58::*)(int)>(&UnityEngine::UI::Scrollbar::$ClickRepeat$d__58::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar::$ClickRepeat$d__58*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar::$ClickRepeat$d__58*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scrollbar::$ClickRepeat$d__58::*)(int)>(&Scrollbar::$ClickRepeat$d__58::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Scrollbar::$ClickRepeat$d__58::*)(int)>(&UnityEngine::UI::Scrollbar::$ClickRepeat$d__58::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar::$ClickRepeat$d__58*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar::$ClickRepeat$d__58*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::$ClickRepeat$d__58::System_IDisposable_Dispose
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::$ClickRepeat$d__58::System_IDisposable_Dispose
 // Il2CppName: System.IDisposable.Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scrollbar::$ClickRepeat$d__58::*)()>(&Scrollbar::$ClickRepeat$d__58::System_IDisposable_Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Scrollbar::$ClickRepeat$d__58::*)()>(&UnityEngine::UI::Scrollbar::$ClickRepeat$d__58::System_IDisposable_Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar::$ClickRepeat$d__58*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar::$ClickRepeat$d__58*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::$ClickRepeat$d__58::MoveNext
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::$ClickRepeat$d__58::MoveNext
 // Il2CppName: MoveNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Scrollbar::$ClickRepeat$d__58::*)()>(&Scrollbar::$ClickRepeat$d__58::MoveNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::Scrollbar::$ClickRepeat$d__58::*)()>(&UnityEngine::UI::Scrollbar::$ClickRepeat$d__58::MoveNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar::$ClickRepeat$d__58*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar::$ClickRepeat$d__58*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::$ClickRepeat$d__58::System_Collections_Generic_IEnumerator$System_Object$_get_Current
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::$ClickRepeat$d__58::System_Collections_Generic_IEnumerator$System_Object$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Scrollbar::$ClickRepeat$d__58::*)()>(&Scrollbar::$ClickRepeat$d__58::System_Collections_Generic_IEnumerator$System_Object$_get_Current)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (UnityEngine::UI::Scrollbar::$ClickRepeat$d__58::*)()>(&UnityEngine::UI::Scrollbar::$ClickRepeat$d__58::System_Collections_Generic_IEnumerator$System_Object$_get_Current)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar::$ClickRepeat$d__58*), "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar::$ClickRepeat$d__58*), "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::$ClickRepeat$d__58::System_Collections_IEnumerator_Reset
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::$ClickRepeat$d__58::System_Collections_IEnumerator_Reset
 // Il2CppName: System.Collections.IEnumerator.Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scrollbar::$ClickRepeat$d__58::*)()>(&Scrollbar::$ClickRepeat$d__58::System_Collections_IEnumerator_Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Scrollbar::$ClickRepeat$d__58::*)()>(&UnityEngine::UI::Scrollbar::$ClickRepeat$d__58::System_Collections_IEnumerator_Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar::$ClickRepeat$d__58*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar::$ClickRepeat$d__58*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::$ClickRepeat$d__58::System_Collections_IEnumerator_get_Current
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::$ClickRepeat$d__58::System_Collections_IEnumerator_get_Current
 // Il2CppName: System.Collections.IEnumerator.get_Current
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Scrollbar::$ClickRepeat$d__58::*)()>(&Scrollbar::$ClickRepeat$d__58::System_Collections_IEnumerator_get_Current)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (UnityEngine::UI::Scrollbar::$ClickRepeat$d__58::*)()>(&UnityEngine::UI::Scrollbar::$ClickRepeat$d__58::System_Collections_IEnumerator_get_Current)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar::$ClickRepeat$d__58*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar::$ClickRepeat$d__58*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

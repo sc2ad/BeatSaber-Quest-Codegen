@@ -47,25 +47,25 @@ namespace Mono::Net::Security {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncReadRequest*, "Mono.Net.Security", "AsyncReadRequest");
-// Writing MetadataGetter for method: AsyncReadRequest::New_ctor
+// Writing MetadataGetter for method: Mono::Net::Security::AsyncReadRequest::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncReadRequest::*)(Mono::Net::Security::MobileAuthenticatedStream*, bool, ::Array<uint8_t>*, int, int)>(&AsyncReadRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::AsyncReadRequest::*)(Mono::Net::Security::MobileAuthenticatedStream*, bool, ::Array<uint8_t>*, int, int)>(&Mono::Net::Security::AsyncReadRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncReadRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::MobileAuthenticatedStream*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::AsyncReadRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::MobileAuthenticatedStream*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncReadRequest::*)(Mono::Net::Security::MobileAuthenticatedStream*, bool, ::Array<uint8_t>*, int, int)>(&AsyncReadRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::AsyncReadRequest::*)(Mono::Net::Security::MobileAuthenticatedStream*, bool, ::Array<uint8_t>*, int, int)>(&Mono::Net::Security::AsyncReadRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncReadRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::MobileAuthenticatedStream*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::AsyncReadRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::MobileAuthenticatedStream*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: AsyncReadRequest::Run
+// Writing MetadataGetter for method: Mono::Net::Security::AsyncReadRequest::Run
 // Il2CppName: Run
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::Security::AsyncOperationStatus (AsyncReadRequest::*)(Mono::Net::Security::AsyncOperationStatus)>(&AsyncReadRequest::Run)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::Security::AsyncOperationStatus (Mono::Net::Security::AsyncReadRequest::*)(Mono::Net::Security::AsyncOperationStatus)>(&Mono::Net::Security::AsyncReadRequest::Run)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncReadRequest*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::AsyncOperationStatus>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::AsyncReadRequest*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::AsyncOperationStatus>()});
   }
 };

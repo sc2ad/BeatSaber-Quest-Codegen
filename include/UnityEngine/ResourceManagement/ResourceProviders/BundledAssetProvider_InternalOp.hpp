@@ -90,57 +90,57 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   static_assert(sizeof(BundledAssetProvider::InternalOp) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp*, "UnityEngine.ResourceManagement.ResourceProviders", "BundledAssetProvider/InternalOp");
-// Writing MetadataGetter for method: BundledAssetProvider::InternalOp::LoadBundleFromDependecies
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::LoadBundleFromDependecies
 // Il2CppName: LoadBundleFromDependecies
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource* (*)(System::Collections::Generic::IList_1<::Il2CppObject*>*)>(&BundledAssetProvider::InternalOp::LoadBundleFromDependecies)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource* (*)(System::Collections::Generic::IList_1<::Il2CppObject*>*)>(&UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::LoadBundleFromDependecies)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BundledAssetProvider::InternalOp*), "LoadBundleFromDependecies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<::Il2CppObject*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp*), "LoadBundleFromDependecies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<::Il2CppObject*>*>()});
   }
 };
-// Writing MetadataGetter for method: BundledAssetProvider::InternalOp::Start
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BundledAssetProvider::InternalOp::*)(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle)>(&BundledAssetProvider::InternalOp::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::*)(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle)>(&UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BundledAssetProvider::InternalOp*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle>()});
   }
 };
-// Writing MetadataGetter for method: BundledAssetProvider::InternalOp::WaitForCompletionHandler
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::WaitForCompletionHandler
 // Il2CppName: WaitForCompletionHandler
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BundledAssetProvider::InternalOp::*)()>(&BundledAssetProvider::InternalOp::WaitForCompletionHandler)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::WaitForCompletionHandler)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BundledAssetProvider::InternalOp*), "WaitForCompletionHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp*), "WaitForCompletionHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BundledAssetProvider::InternalOp::ActionComplete
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::ActionComplete
 // Il2CppName: ActionComplete
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BundledAssetProvider::InternalOp::*)(UnityEngine::AsyncOperation*)>(&BundledAssetProvider::InternalOp::ActionComplete)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::*)(UnityEngine::AsyncOperation*)>(&UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::ActionComplete)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BundledAssetProvider::InternalOp*), "ActionComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AsyncOperation*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp*), "ActionComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AsyncOperation*>()});
   }
 };
-// Writing MetadataGetter for method: BundledAssetProvider::InternalOp::ProgressCallback
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::ProgressCallback
 // Il2CppName: ProgressCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BundledAssetProvider::InternalOp::*)()>(&BundledAssetProvider::InternalOp::ProgressCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::ProgressCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BundledAssetProvider::InternalOp*), "ProgressCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp*), "ProgressCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BundledAssetProvider::InternalOp::New_ctor
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BundledAssetProvider::InternalOp::*)()>(&BundledAssetProvider::InternalOp::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BundledAssetProvider::InternalOp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BundledAssetProvider::InternalOp::*)()>(&BundledAssetProvider::InternalOp::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BundledAssetProvider::InternalOp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

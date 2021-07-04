@@ -63,49 +63,49 @@ namespace Oculus::Platform {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::WindowsPlatform*, "Oculus.Platform", "WindowsPlatform");
-// Writing MetadataGetter for method: WindowsPlatform::CPPLogCallback
+// Writing MetadataGetter for method: Oculus::Platform::WindowsPlatform::CPPLogCallback
 // Il2CppName: CPPLogCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WindowsPlatform::*)(System::IntPtr, System::IntPtr)>(&WindowsPlatform::CPPLogCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::WindowsPlatform::*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::WindowsPlatform::CPPLogCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WindowsPlatform*), "CPPLogCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::WindowsPlatform*), "CPPLogCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: WindowsPlatform::getCallbackPointer
+// Writing MetadataGetter for method: Oculus::Platform::WindowsPlatform::getCallbackPointer
 // Il2CppName: getCallbackPointer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (WindowsPlatform::*)()>(&WindowsPlatform::getCallbackPointer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Oculus::Platform::WindowsPlatform::*)()>(&Oculus::Platform::WindowsPlatform::getCallbackPointer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WindowsPlatform*), "getCallbackPointer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::WindowsPlatform*), "getCallbackPointer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WindowsPlatform::Initialize
+// Writing MetadataGetter for method: Oculus::Platform::WindowsPlatform::Initialize
 // Il2CppName: Initialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WindowsPlatform::*)(::Il2CppString*)>(&WindowsPlatform::Initialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Oculus::Platform::WindowsPlatform::*)(::Il2CppString*)>(&Oculus::Platform::WindowsPlatform::Initialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WindowsPlatform*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::WindowsPlatform*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: WindowsPlatform::AsyncInitialize
+// Writing MetadataGetter for method: Oculus::Platform::WindowsPlatform::AsyncInitialize
 // Il2CppName: AsyncInitialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::PlatformInitialize*>* (WindowsPlatform::*)(::Il2CppString*)>(&WindowsPlatform::AsyncInitialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::PlatformInitialize*>* (Oculus::Platform::WindowsPlatform::*)(::Il2CppString*)>(&Oculus::Platform::WindowsPlatform::AsyncInitialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WindowsPlatform*), "AsyncInitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::WindowsPlatform*), "AsyncInitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: WindowsPlatform::New_ctor
+// Writing MetadataGetter for method: Oculus::Platform::WindowsPlatform::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WindowsPlatform::*)()>(&WindowsPlatform::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::WindowsPlatform::*)()>(&Oculus::Platform::WindowsPlatform::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WindowsPlatform*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::WindowsPlatform*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WindowsPlatform::*)()>(&WindowsPlatform::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::WindowsPlatform::*)()>(&Oculus::Platform::WindowsPlatform::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WindowsPlatform*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::WindowsPlatform*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

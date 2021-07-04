@@ -68,49 +68,49 @@ namespace LiteNetLib {
   static_assert(sizeof(NatPunchModule::NatIntroduceRequestPacket) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule::NatIntroduceRequestPacket*, "LiteNetLib", "NatPunchModule/NatIntroduceRequestPacket");
-// Writing MetadataGetter for method: NatPunchModule::NatIntroduceRequestPacket::get_Internal
+// Writing MetadataGetter for method: LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::get_Internal
 // Il2CppName: get_Internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPEndPoint* (NatPunchModule::NatIntroduceRequestPacket::*)()>(&NatPunchModule::NatIntroduceRequestPacket::get_Internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPEndPoint* (LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::*)()>(&LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::get_Internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NatPunchModule::NatIntroduceRequestPacket*), "get_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NatPunchModule::NatIntroduceRequestPacket*), "get_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NatPunchModule::NatIntroduceRequestPacket::set_Internal
+// Writing MetadataGetter for method: LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::set_Internal
 // Il2CppName: set_Internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NatPunchModule::NatIntroduceRequestPacket::*)(System::Net::IPEndPoint*)>(&NatPunchModule::NatIntroduceRequestPacket::set_Internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::*)(System::Net::IPEndPoint*)>(&LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::set_Internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NatPunchModule::NatIntroduceRequestPacket*), "set_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NatPunchModule::NatIntroduceRequestPacket*), "set_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
   }
 };
-// Writing MetadataGetter for method: NatPunchModule::NatIntroduceRequestPacket::get_Token
+// Writing MetadataGetter for method: LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::get_Token
 // Il2CppName: get_Token
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NatPunchModule::NatIntroduceRequestPacket::*)()>(&NatPunchModule::NatIntroduceRequestPacket::get_Token)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::*)()>(&LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::get_Token)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NatPunchModule::NatIntroduceRequestPacket*), "get_Token", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NatPunchModule::NatIntroduceRequestPacket*), "get_Token", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NatPunchModule::NatIntroduceRequestPacket::set_Token
+// Writing MetadataGetter for method: LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::set_Token
 // Il2CppName: set_Token
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NatPunchModule::NatIntroduceRequestPacket::*)(::Il2CppString*)>(&NatPunchModule::NatIntroduceRequestPacket::set_Token)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::*)(::Il2CppString*)>(&LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::set_Token)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NatPunchModule::NatIntroduceRequestPacket*), "set_Token", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NatPunchModule::NatIntroduceRequestPacket*), "set_Token", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: NatPunchModule::NatIntroduceRequestPacket::New_ctor
+// Writing MetadataGetter for method: LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NatPunchModule::NatIntroduceRequestPacket::*)()>(&NatPunchModule::NatIntroduceRequestPacket::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::*)()>(&LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NatPunchModule::NatIntroduceRequestPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NatPunchModule::NatIntroduceRequestPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NatPunchModule::NatIntroduceRequestPacket::*)()>(&NatPunchModule::NatIntroduceRequestPacket::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::*)()>(&LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NatPunchModule::NatIntroduceRequestPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NatPunchModule::NatIntroduceRequestPacket*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

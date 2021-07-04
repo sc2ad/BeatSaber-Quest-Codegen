@@ -66,49 +66,49 @@ namespace Oculus::Platform {
   static_assert(sizeof(AbuseReportOptions) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::AbuseReportOptions*, "Oculus.Platform", "AbuseReportOptions");
-// Writing MetadataGetter for method: AbuseReportOptions::SetPreventPeopleChooser
+// Writing MetadataGetter for method: Oculus::Platform::AbuseReportOptions::SetPreventPeopleChooser
 // Il2CppName: SetPreventPeopleChooser
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AbuseReportOptions::*)(bool)>(&AbuseReportOptions::SetPreventPeopleChooser)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::AbuseReportOptions::*)(bool)>(&Oculus::Platform::AbuseReportOptions::SetPreventPeopleChooser)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AbuseReportOptions*), "SetPreventPeopleChooser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AbuseReportOptions*), "SetPreventPeopleChooser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AbuseReportOptions::SetReportType
+// Writing MetadataGetter for method: Oculus::Platform::AbuseReportOptions::SetReportType
 // Il2CppName: SetReportType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AbuseReportOptions::*)(Oculus::Platform::AbuseReportType)>(&AbuseReportOptions::SetReportType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::AbuseReportOptions::*)(Oculus::Platform::AbuseReportType)>(&Oculus::Platform::AbuseReportOptions::SetReportType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AbuseReportOptions*), "SetReportType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::AbuseReportType>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AbuseReportOptions*), "SetReportType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::AbuseReportType>()});
   }
 };
-// Writing MetadataGetter for method: AbuseReportOptions::operator System::IntPtr
+// Writing MetadataGetter for method: Oculus::Platform::AbuseReportOptions::operator System::IntPtr
 // Il2CppName: op_Explicit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&AbuseReportOptions::operator System::IntPtr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&Oculus::Platform::AbuseReportOptions::operator System::IntPtr)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AbuseReportOptions*), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AbuseReportOptions*), "op_Explicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AbuseReportOptions::New_ctor
+// Writing MetadataGetter for method: Oculus::Platform::AbuseReportOptions::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AbuseReportOptions::*)()>(&AbuseReportOptions::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::AbuseReportOptions::*)()>(&Oculus::Platform::AbuseReportOptions::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AbuseReportOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AbuseReportOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AbuseReportOptions::*)()>(&AbuseReportOptions::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::AbuseReportOptions::*)()>(&Oculus::Platform::AbuseReportOptions::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AbuseReportOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AbuseReportOptions*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AbuseReportOptions::Finalize
+// Writing MetadataGetter for method: Oculus::Platform::AbuseReportOptions::Finalize
 // Il2CppName: Finalize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AbuseReportOptions::*)()>(&AbuseReportOptions::Finalize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::AbuseReportOptions::*)()>(&Oculus::Platform::AbuseReportOptions::Finalize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AbuseReportOptions*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AbuseReportOptions*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

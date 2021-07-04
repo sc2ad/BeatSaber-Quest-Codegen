@@ -250,161 +250,161 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRGrabber) == 0xC1);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRGrabber*, "", "OVRGrabber");
-// Writing MetadataGetter for method: OVRGrabber::get_grabbedObject
+// Writing MetadataGetter for method: GlobalNamespace::OVRGrabber::get_grabbedObject
 // Il2CppName: get_grabbedObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRGrabbable* (OVRGrabber::*)()>(&OVRGrabber::get_grabbedObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRGrabbable* (GlobalNamespace::OVRGrabber::*)()>(&GlobalNamespace::OVRGrabber::get_grabbedObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRGrabber*), "get_grabbedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGrabber*), "get_grabbedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRGrabber::ForceRelease
+// Writing MetadataGetter for method: GlobalNamespace::OVRGrabber::ForceRelease
 // Il2CppName: ForceRelease
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGrabber::*)(GlobalNamespace::OVRGrabbable*)>(&OVRGrabber::ForceRelease)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRGrabber::*)(GlobalNamespace::OVRGrabbable*)>(&GlobalNamespace::OVRGrabber::ForceRelease)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRGrabber*), "ForceRelease", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRGrabbable*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGrabber*), "ForceRelease", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRGrabbable*>()});
   }
 };
-// Writing MetadataGetter for method: OVRGrabber::Awake
+// Writing MetadataGetter for method: GlobalNamespace::OVRGrabber::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGrabber::*)()>(&OVRGrabber::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRGrabber::*)()>(&GlobalNamespace::OVRGrabber::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRGrabber*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGrabber*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRGrabber::Start
+// Writing MetadataGetter for method: GlobalNamespace::OVRGrabber::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGrabber::*)()>(&OVRGrabber::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRGrabber::*)()>(&GlobalNamespace::OVRGrabber::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRGrabber*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGrabber*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRGrabber::Update
+// Writing MetadataGetter for method: GlobalNamespace::OVRGrabber::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGrabber::*)()>(&OVRGrabber::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRGrabber::*)()>(&GlobalNamespace::OVRGrabber::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRGrabber*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGrabber*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRGrabber::OnUpdatedAnchors
+// Writing MetadataGetter for method: GlobalNamespace::OVRGrabber::OnUpdatedAnchors
 // Il2CppName: OnUpdatedAnchors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGrabber::*)()>(&OVRGrabber::OnUpdatedAnchors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRGrabber::*)()>(&GlobalNamespace::OVRGrabber::OnUpdatedAnchors)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRGrabber*), "OnUpdatedAnchors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGrabber*), "OnUpdatedAnchors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRGrabber::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::OVRGrabber::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGrabber::*)()>(&OVRGrabber::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRGrabber::*)()>(&GlobalNamespace::OVRGrabber::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRGrabber*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGrabber*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRGrabber::OnTriggerEnter
+// Writing MetadataGetter for method: GlobalNamespace::OVRGrabber::OnTriggerEnter
 // Il2CppName: OnTriggerEnter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGrabber::*)(UnityEngine::Collider*)>(&OVRGrabber::OnTriggerEnter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRGrabber::*)(UnityEngine::Collider*)>(&GlobalNamespace::OVRGrabber::OnTriggerEnter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRGrabber*), "OnTriggerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Collider*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGrabber*), "OnTriggerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Collider*>()});
   }
 };
-// Writing MetadataGetter for method: OVRGrabber::OnTriggerExit
+// Writing MetadataGetter for method: GlobalNamespace::OVRGrabber::OnTriggerExit
 // Il2CppName: OnTriggerExit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGrabber::*)(UnityEngine::Collider*)>(&OVRGrabber::OnTriggerExit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRGrabber::*)(UnityEngine::Collider*)>(&GlobalNamespace::OVRGrabber::OnTriggerExit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRGrabber*), "OnTriggerExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Collider*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGrabber*), "OnTriggerExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Collider*>()});
   }
 };
-// Writing MetadataGetter for method: OVRGrabber::CheckForGrabOrRelease
+// Writing MetadataGetter for method: GlobalNamespace::OVRGrabber::CheckForGrabOrRelease
 // Il2CppName: CheckForGrabOrRelease
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGrabber::*)(float)>(&OVRGrabber::CheckForGrabOrRelease)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRGrabber::*)(float)>(&GlobalNamespace::OVRGrabber::CheckForGrabOrRelease)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRGrabber*), "CheckForGrabOrRelease", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGrabber*), "CheckForGrabOrRelease", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: OVRGrabber::GrabBegin
+// Writing MetadataGetter for method: GlobalNamespace::OVRGrabber::GrabBegin
 // Il2CppName: GrabBegin
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGrabber::*)()>(&OVRGrabber::GrabBegin)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRGrabber::*)()>(&GlobalNamespace::OVRGrabber::GrabBegin)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRGrabber*), "GrabBegin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGrabber*), "GrabBegin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRGrabber::MoveGrabbedObject
+// Writing MetadataGetter for method: GlobalNamespace::OVRGrabber::MoveGrabbedObject
 // Il2CppName: MoveGrabbedObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGrabber::*)(UnityEngine::Vector3, UnityEngine::Quaternion, bool)>(&OVRGrabber::MoveGrabbedObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRGrabber::*)(UnityEngine::Vector3, UnityEngine::Quaternion, bool)>(&GlobalNamespace::OVRGrabber::MoveGrabbedObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRGrabber*), "MoveGrabbedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGrabber*), "MoveGrabbedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: OVRGrabber::GrabEnd
+// Writing MetadataGetter for method: GlobalNamespace::OVRGrabber::GrabEnd
 // Il2CppName: GrabEnd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGrabber::*)()>(&OVRGrabber::GrabEnd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRGrabber::*)()>(&GlobalNamespace::OVRGrabber::GrabEnd)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRGrabber*), "GrabEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGrabber*), "GrabEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRGrabber::GrabbableRelease
+// Writing MetadataGetter for method: GlobalNamespace::OVRGrabber::GrabbableRelease
 // Il2CppName: GrabbableRelease
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGrabber::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&OVRGrabber::GrabbableRelease)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRGrabber::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&GlobalNamespace::OVRGrabber::GrabbableRelease)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRGrabber*), "GrabbableRelease", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGrabber*), "GrabbableRelease", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: OVRGrabber::GrabVolumeEnable
+// Writing MetadataGetter for method: GlobalNamespace::OVRGrabber::GrabVolumeEnable
 // Il2CppName: GrabVolumeEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGrabber::*)(bool)>(&OVRGrabber::GrabVolumeEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRGrabber::*)(bool)>(&GlobalNamespace::OVRGrabber::GrabVolumeEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRGrabber*), "GrabVolumeEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGrabber*), "GrabVolumeEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: OVRGrabber::OffhandGrabbed
+// Writing MetadataGetter for method: GlobalNamespace::OVRGrabber::OffhandGrabbed
 // Il2CppName: OffhandGrabbed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGrabber::*)(GlobalNamespace::OVRGrabbable*)>(&OVRGrabber::OffhandGrabbed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRGrabber::*)(GlobalNamespace::OVRGrabbable*)>(&GlobalNamespace::OVRGrabber::OffhandGrabbed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRGrabber*), "OffhandGrabbed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRGrabbable*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGrabber*), "OffhandGrabbed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRGrabbable*>()});
   }
 };
-// Writing MetadataGetter for method: OVRGrabber::SetPlayerIgnoreCollision
+// Writing MetadataGetter for method: GlobalNamespace::OVRGrabber::SetPlayerIgnoreCollision
 // Il2CppName: SetPlayerIgnoreCollision
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGrabber::*)(UnityEngine::GameObject*, bool)>(&OVRGrabber::SetPlayerIgnoreCollision)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRGrabber::*)(UnityEngine::GameObject*, bool)>(&GlobalNamespace::OVRGrabber::SetPlayerIgnoreCollision)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRGrabber*), "SetPlayerIgnoreCollision", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGrabber*), "SetPlayerIgnoreCollision", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: OVRGrabber::$Awake$b__23_0
+// Writing MetadataGetter for method: GlobalNamespace::OVRGrabber::$Awake$b__23_0
 // Il2CppName: <Awake>b__23_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGrabber::*)(GlobalNamespace::OVRCameraRig*)>(&OVRGrabber::$Awake$b__23_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRGrabber::*)(GlobalNamespace::OVRCameraRig*)>(&GlobalNamespace::OVRGrabber::$Awake$b__23_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRGrabber*), "<Awake>b__23_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRCameraRig*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGrabber*), "<Awake>b__23_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRCameraRig*>()});
   }
 };
-// Writing MetadataGetter for method: OVRGrabber::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::OVRGrabber::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGrabber::*)()>(&OVRGrabber::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRGrabber::*)()>(&GlobalNamespace::OVRGrabber::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRGrabber*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGrabber*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRGrabber::*)()>(&OVRGrabber::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRGrabber::*)()>(&GlobalNamespace::OVRGrabber::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRGrabber*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGrabber*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

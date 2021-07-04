@@ -89,33 +89,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayerHeadAndObstacleInteraction) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerHeadAndObstacleInteraction*, "", "PlayerHeadAndObstacleInteraction");
-// Writing MetadataGetter for method: PlayerHeadAndObstacleInteraction::get_intersectingObstacles
+// Writing MetadataGetter for method: GlobalNamespace::PlayerHeadAndObstacleInteraction::get_intersectingObstacles
 // Il2CppName: get_intersectingObstacles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* (PlayerHeadAndObstacleInteraction::*)()>(&PlayerHeadAndObstacleInteraction::get_intersectingObstacles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* (GlobalNamespace::PlayerHeadAndObstacleInteraction::*)()>(&GlobalNamespace::PlayerHeadAndObstacleInteraction::get_intersectingObstacles)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerHeadAndObstacleInteraction*), "get_intersectingObstacles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerHeadAndObstacleInteraction*), "get_intersectingObstacles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayerHeadAndObstacleInteraction::GetObstaclesContainingPoint
+// Writing MetadataGetter for method: GlobalNamespace::PlayerHeadAndObstacleInteraction::GetObstaclesContainingPoint
 // Il2CppName: GetObstaclesContainingPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerHeadAndObstacleInteraction::*)(UnityEngine::Vector3, System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>*)>(&PlayerHeadAndObstacleInteraction::GetObstaclesContainingPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerHeadAndObstacleInteraction::*)(UnityEngine::Vector3, System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>*)>(&GlobalNamespace::PlayerHeadAndObstacleInteraction::GetObstaclesContainingPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerHeadAndObstacleInteraction*), "GetObstaclesContainingPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerHeadAndObstacleInteraction*), "GetObstaclesContainingPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>*>()});
   }
 };
-// Writing MetadataGetter for method: PlayerHeadAndObstacleInteraction::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::PlayerHeadAndObstacleInteraction::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerHeadAndObstacleInteraction::*)()>(&PlayerHeadAndObstacleInteraction::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerHeadAndObstacleInteraction::*)()>(&GlobalNamespace::PlayerHeadAndObstacleInteraction::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerHeadAndObstacleInteraction*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerHeadAndObstacleInteraction*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayerHeadAndObstacleInteraction::*)()>(&PlayerHeadAndObstacleInteraction::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerHeadAndObstacleInteraction::*)()>(&GlobalNamespace::PlayerHeadAndObstacleInteraction::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerHeadAndObstacleInteraction*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerHeadAndObstacleInteraction*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

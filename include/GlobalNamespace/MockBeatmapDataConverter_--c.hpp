@@ -139,113 +139,113 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockBeatmapDataConverter::$$c*, "", "MockBeatmapDataConverter/<>c");
-// Writing MetadataGetter for method: MockBeatmapDataConverter::$$c::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::MockBeatmapDataConverter::$$c::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&MockBeatmapDataConverter::$$c::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::MockBeatmapDataConverter::$$c::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockBeatmapDataConverter::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapDataConverter::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_0
+// Writing MetadataGetter for method: GlobalNamespace::MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_0
 // Il2CppName: <ToMockBeatmapData>b__0_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockBeatmapDataConverter::$$c::*)(GlobalNamespace::BeatmapObjectData*)>(&MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockBeatmapDataConverter::$$c::*)(GlobalNamespace::BeatmapObjectData*)>(&GlobalNamespace::MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockBeatmapDataConverter::$$c*), "<ToMockBeatmapData>b__0_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapDataConverter::$$c*), "<ToMockBeatmapData>b__0_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectData*>()});
   }
 };
-// Writing MetadataGetter for method: MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_1
+// Writing MetadataGetter for method: GlobalNamespace::MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_1
 // Il2CppName: <ToMockBeatmapData>b__0_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockBeatmapDataConverter::$$c::*)(GlobalNamespace::NoteData*)>(&MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockBeatmapDataConverter::$$c::*)(GlobalNamespace::NoteData*)>(&GlobalNamespace::MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockBeatmapDataConverter::$$c*), "<ToMockBeatmapData>b__0_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapDataConverter::$$c*), "<ToMockBeatmapData>b__0_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>()});
   }
 };
-// Writing MetadataGetter for method: MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_2
+// Writing MetadataGetter for method: GlobalNamespace::MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_2
 // Il2CppName: <ToMockBeatmapData>b__0_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockNoteData* (MockBeatmapDataConverter::$$c::*)(GlobalNamespace::NoteData*)>(&MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockNoteData* (GlobalNamespace::MockBeatmapDataConverter::$$c::*)(GlobalNamespace::NoteData*)>(&GlobalNamespace::MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockBeatmapDataConverter::$$c*), "<ToMockBeatmapData>b__0_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapDataConverter::$$c*), "<ToMockBeatmapData>b__0_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>()});
   }
 };
-// Writing MetadataGetter for method: MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_3
+// Writing MetadataGetter for method: GlobalNamespace::MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_3
 // Il2CppName: <ToMockBeatmapData>b__0_3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockBeatmapDataConverter::$$c::*)(GlobalNamespace::BeatmapObjectData*)>(&MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockBeatmapDataConverter::$$c::*)(GlobalNamespace::BeatmapObjectData*)>(&GlobalNamespace::MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_3)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockBeatmapDataConverter::$$c*), "<ToMockBeatmapData>b__0_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapDataConverter::$$c*), "<ToMockBeatmapData>b__0_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectData*>()});
   }
 };
-// Writing MetadataGetter for method: MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_4
+// Writing MetadataGetter for method: GlobalNamespace::MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_4
 // Il2CppName: <ToMockBeatmapData>b__0_4
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockBeatmapDataConverter::$$c::*)(GlobalNamespace::NoteData*)>(&MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_4)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockBeatmapDataConverter::$$c::*)(GlobalNamespace::NoteData*)>(&GlobalNamespace::MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_4)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockBeatmapDataConverter::$$c*), "<ToMockBeatmapData>b__0_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapDataConverter::$$c*), "<ToMockBeatmapData>b__0_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>()});
   }
 };
-// Writing MetadataGetter for method: MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_5
+// Writing MetadataGetter for method: GlobalNamespace::MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_5
 // Il2CppName: <ToMockBeatmapData>b__0_5
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockNoteData* (MockBeatmapDataConverter::$$c::*)(GlobalNamespace::NoteData*)>(&MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_5)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockNoteData* (GlobalNamespace::MockBeatmapDataConverter::$$c::*)(GlobalNamespace::NoteData*)>(&GlobalNamespace::MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_5)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockBeatmapDataConverter::$$c*), "<ToMockBeatmapData>b__0_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapDataConverter::$$c*), "<ToMockBeatmapData>b__0_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>()});
   }
 };
-// Writing MetadataGetter for method: MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_6
+// Writing MetadataGetter for method: GlobalNamespace::MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_6
 // Il2CppName: <ToMockBeatmapData>b__0_6
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockBeatmapDataConverter::$$c::*)(GlobalNamespace::BeatmapObjectData*)>(&MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_6)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockBeatmapDataConverter::$$c::*)(GlobalNamespace::BeatmapObjectData*)>(&GlobalNamespace::MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_6)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockBeatmapDataConverter::$$c*), "<ToMockBeatmapData>b__0_6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapDataConverter::$$c*), "<ToMockBeatmapData>b__0_6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectData*>()});
   }
 };
-// Writing MetadataGetter for method: MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_7
+// Writing MetadataGetter for method: GlobalNamespace::MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_7
 // Il2CppName: <ToMockBeatmapData>b__0_7
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockBeatmapDataConverter::$$c::*)(GlobalNamespace::NoteData*)>(&MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_7)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockBeatmapDataConverter::$$c::*)(GlobalNamespace::NoteData*)>(&GlobalNamespace::MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_7)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockBeatmapDataConverter::$$c*), "<ToMockBeatmapData>b__0_7", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapDataConverter::$$c*), "<ToMockBeatmapData>b__0_7", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>()});
   }
 };
-// Writing MetadataGetter for method: MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_8
+// Writing MetadataGetter for method: GlobalNamespace::MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_8
 // Il2CppName: <ToMockBeatmapData>b__0_8
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockNoteData* (MockBeatmapDataConverter::$$c::*)(GlobalNamespace::NoteData*)>(&MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_8)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockNoteData* (GlobalNamespace::MockBeatmapDataConverter::$$c::*)(GlobalNamespace::NoteData*)>(&GlobalNamespace::MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_8)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockBeatmapDataConverter::$$c*), "<ToMockBeatmapData>b__0_8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapDataConverter::$$c*), "<ToMockBeatmapData>b__0_8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>()});
   }
 };
-// Writing MetadataGetter for method: MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_9
+// Writing MetadataGetter for method: GlobalNamespace::MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_9
 // Il2CppName: <ToMockBeatmapData>b__0_9
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockBeatmapDataConverter::$$c::*)(GlobalNamespace::BeatmapObjectData*)>(&MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_9)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockBeatmapDataConverter::$$c::*)(GlobalNamespace::BeatmapObjectData*)>(&GlobalNamespace::MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_9)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockBeatmapDataConverter::$$c*), "<ToMockBeatmapData>b__0_9", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapDataConverter::$$c*), "<ToMockBeatmapData>b__0_9", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectData*>()});
   }
 };
-// Writing MetadataGetter for method: MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_10
+// Writing MetadataGetter for method: GlobalNamespace::MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_10
 // Il2CppName: <ToMockBeatmapData>b__0_10
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockObstacleData* (MockBeatmapDataConverter::$$c::*)(GlobalNamespace::ObstacleData*)>(&MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_10)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockObstacleData* (GlobalNamespace::MockBeatmapDataConverter::$$c::*)(GlobalNamespace::ObstacleData*)>(&GlobalNamespace::MockBeatmapDataConverter::$$c::$ToMockBeatmapData$b__0_10)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockBeatmapDataConverter::$$c*), "<ToMockBeatmapData>b__0_10", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapDataConverter::$$c*), "<ToMockBeatmapData>b__0_10", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleData*>()});
   }
 };
-// Writing MetadataGetter for method: MockBeatmapDataConverter::$$c::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MockBeatmapDataConverter::$$c::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockBeatmapDataConverter::$$c::*)()>(&MockBeatmapDataConverter::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockBeatmapDataConverter::$$c::*)()>(&GlobalNamespace::MockBeatmapDataConverter::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockBeatmapDataConverter::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapDataConverter::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockBeatmapDataConverter::$$c::*)()>(&MockBeatmapDataConverter::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockBeatmapDataConverter::$$c::*)()>(&GlobalNamespace::MockBeatmapDataConverter::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockBeatmapDataConverter::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapDataConverter::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

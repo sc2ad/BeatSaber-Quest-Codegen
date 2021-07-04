@@ -28,11 +28,11 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ICutScoreBufferDidFinishEvent*, "", "ICutScoreBufferDidFinishEvent");
-// Writing MetadataGetter for method: ICutScoreBufferDidFinishEvent::HandleCutScoreBufferDidFinish
+// Writing MetadataGetter for method: GlobalNamespace::ICutScoreBufferDidFinishEvent::HandleCutScoreBufferDidFinish
 // Il2CppName: HandleCutScoreBufferDidFinish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ICutScoreBufferDidFinishEvent::*)(GlobalNamespace::CutScoreBuffer*)>(&ICutScoreBufferDidFinishEvent::HandleCutScoreBufferDidFinish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ICutScoreBufferDidFinishEvent::*)(GlobalNamespace::CutScoreBuffer*)>(&GlobalNamespace::ICutScoreBufferDidFinishEvent::HandleCutScoreBufferDidFinish)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ICutScoreBufferDidFinishEvent*), "HandleCutScoreBufferDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::CutScoreBuffer*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ICutScoreBufferDidFinishEvent*), "HandleCutScoreBufferDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::CutScoreBuffer*>()});
   }
 };

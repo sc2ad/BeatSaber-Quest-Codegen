@@ -108,41 +108,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(ScreenCaptureAfterDelay) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenCaptureAfterDelay*, "", "ScreenCaptureAfterDelay");
-// Writing MetadataGetter for method: ScreenCaptureAfterDelay::Start
+// Writing MetadataGetter for method: GlobalNamespace::ScreenCaptureAfterDelay::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (ScreenCaptureAfterDelay::*)()>(&ScreenCaptureAfterDelay::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::ScreenCaptureAfterDelay::*)()>(&GlobalNamespace::ScreenCaptureAfterDelay::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScreenCaptureAfterDelay*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScreenCaptureAfterDelay*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ScreenCaptureAfterDelay::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::ScreenCaptureAfterDelay::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenCaptureAfterDelay::*)()>(&ScreenCaptureAfterDelay::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScreenCaptureAfterDelay::*)()>(&GlobalNamespace::ScreenCaptureAfterDelay::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScreenCaptureAfterDelay*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScreenCaptureAfterDelay*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ScreenCaptureAfterDelay::HandleMainEffectControllerAfterImageEffectEvent
+// Writing MetadataGetter for method: GlobalNamespace::ScreenCaptureAfterDelay::HandleMainEffectControllerAfterImageEffectEvent
 // Il2CppName: HandleMainEffectControllerAfterImageEffectEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenCaptureAfterDelay::*)(UnityEngine::RenderTexture*)>(&ScreenCaptureAfterDelay::HandleMainEffectControllerAfterImageEffectEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScreenCaptureAfterDelay::*)(UnityEngine::RenderTexture*)>(&GlobalNamespace::ScreenCaptureAfterDelay::HandleMainEffectControllerAfterImageEffectEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScreenCaptureAfterDelay*), "HandleMainEffectControllerAfterImageEffectEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScreenCaptureAfterDelay*), "HandleMainEffectControllerAfterImageEffectEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>()});
   }
 };
-// Writing MetadataGetter for method: ScreenCaptureAfterDelay::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::ScreenCaptureAfterDelay::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenCaptureAfterDelay::*)()>(&ScreenCaptureAfterDelay::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScreenCaptureAfterDelay::*)()>(&GlobalNamespace::ScreenCaptureAfterDelay::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScreenCaptureAfterDelay*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScreenCaptureAfterDelay*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScreenCaptureAfterDelay::*)()>(&ScreenCaptureAfterDelay::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScreenCaptureAfterDelay::*)()>(&GlobalNamespace::ScreenCaptureAfterDelay::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScreenCaptureAfterDelay*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScreenCaptureAfterDelay*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

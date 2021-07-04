@@ -184,107 +184,107 @@ namespace Zenject::Internal {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ZenPools*, "Zenject.Internal", "ZenPools");
-// Writing MetadataGetter for method: ZenPools::SpawnHashSet
+// Writing MetadataGetter for method: Zenject::Internal::ZenPools::SpawnHashSet
 // Il2CppName: SpawnHashSet
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ZenPools::SpawnDictionary
+// Writing MetadataGetter for method: Zenject::Internal::ZenPools::SpawnDictionary
 // Il2CppName: SpawnDictionary
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ZenPools::SpawnStatement
+// Writing MetadataGetter for method: Zenject::Internal::ZenPools::SpawnStatement
 // Il2CppName: SpawnStatement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindStatement* (*)()>(&ZenPools::SpawnStatement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindStatement* (*)()>(&Zenject::Internal::ZenPools::SpawnStatement)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenPools*), "SpawnStatement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), "SpawnStatement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ZenPools::DespawnStatement
+// Writing MetadataGetter for method: Zenject::Internal::ZenPools::DespawnStatement
 // Il2CppName: DespawnStatement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::BindStatement*)>(&ZenPools::DespawnStatement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::BindStatement*)>(&Zenject::Internal::ZenPools::DespawnStatement)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenPools*), "DespawnStatement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindStatement*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), "DespawnStatement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindStatement*>()});
   }
 };
-// Writing MetadataGetter for method: ZenPools::SpawnBindInfo
+// Writing MetadataGetter for method: Zenject::Internal::ZenPools::SpawnBindInfo
 // Il2CppName: SpawnBindInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindInfo* (*)()>(&ZenPools::SpawnBindInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindInfo* (*)()>(&Zenject::Internal::ZenPools::SpawnBindInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenPools*), "SpawnBindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), "SpawnBindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ZenPools::DespawnBindInfo
+// Writing MetadataGetter for method: Zenject::Internal::ZenPools::DespawnBindInfo
 // Il2CppName: DespawnBindInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::BindInfo*)>(&ZenPools::DespawnBindInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::BindInfo*)>(&Zenject::Internal::ZenPools::DespawnBindInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenPools*), "DespawnBindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), "DespawnBindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
   }
 };
-// Writing MetadataGetter for method: ZenPools::DespawnDictionary
+// Writing MetadataGetter for method: Zenject::Internal::ZenPools::DespawnDictionary
 // Il2CppName: DespawnDictionary
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ZenPools::DespawnHashSet
+// Writing MetadataGetter for method: Zenject::Internal::ZenPools::DespawnHashSet
 // Il2CppName: DespawnHashSet
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ZenPools::SpawnLookupId
+// Writing MetadataGetter for method: Zenject::Internal::ZenPools::SpawnLookupId
 // Il2CppName: SpawnLookupId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Internal::LookupId* (*)(Zenject::IProvider*, Zenject::BindingId)>(&ZenPools::SpawnLookupId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Internal::LookupId* (*)(Zenject::IProvider*, Zenject::BindingId)>(&Zenject::Internal::ZenPools::SpawnLookupId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenPools*), "SpawnLookupId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::IProvider*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::BindingId>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), "SpawnLookupId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::IProvider*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::BindingId>()});
   }
 };
-// Writing MetadataGetter for method: ZenPools::DespawnLookupId
+// Writing MetadataGetter for method: Zenject::Internal::ZenPools::DespawnLookupId
 // Il2CppName: DespawnLookupId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::Internal::LookupId*)>(&ZenPools::DespawnLookupId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::Internal::LookupId*)>(&Zenject::Internal::ZenPools::DespawnLookupId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenPools*), "DespawnLookupId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::Internal::LookupId*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), "DespawnLookupId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::Internal::LookupId*>()});
   }
 };
-// Writing MetadataGetter for method: ZenPools::SpawnList
+// Writing MetadataGetter for method: Zenject::Internal::ZenPools::SpawnList
 // Il2CppName: SpawnList
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ZenPools::DespawnList
+// Writing MetadataGetter for method: Zenject::Internal::ZenPools::DespawnList
 // Il2CppName: DespawnList
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ZenPools::DespawnArray
+// Writing MetadataGetter for method: Zenject::Internal::ZenPools::DespawnArray
 // Il2CppName: DespawnArray
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ZenPools::SpawnArray
+// Writing MetadataGetter for method: Zenject::Internal::ZenPools::SpawnArray
 // Il2CppName: SpawnArray
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ZenPools::SpawnInjectContext
+// Writing MetadataGetter for method: Zenject::Internal::ZenPools::SpawnInjectContext
 // Il2CppName: SpawnInjectContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectContext* (*)(Zenject::DiContainer*, System::Type*)>(&ZenPools::SpawnInjectContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectContext* (*)(Zenject::DiContainer*, System::Type*)>(&Zenject::Internal::ZenPools::SpawnInjectContext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenPools*), "SpawnInjectContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), "SpawnInjectContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: ZenPools::DespawnInjectContext
+// Writing MetadataGetter for method: Zenject::Internal::ZenPools::DespawnInjectContext
 // Il2CppName: DespawnInjectContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::InjectContext*)>(&ZenPools::DespawnInjectContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::InjectContext*)>(&Zenject::Internal::ZenPools::DespawnInjectContext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenPools*), "DespawnInjectContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), "DespawnInjectContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
   }
 };
-// Writing MetadataGetter for method: ZenPools::SpawnInjectContext
+// Writing MetadataGetter for method: Zenject::Internal::ZenPools::SpawnInjectContext
 // Il2CppName: SpawnInjectContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectContext* (*)(Zenject::DiContainer*, Zenject::InjectableInfo*, Zenject::InjectContext*, ::Il2CppObject*, System::Type*, ::Il2CppObject*)>(&ZenPools::SpawnInjectContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectContext* (*)(Zenject::DiContainer*, Zenject::InjectableInfo*, Zenject::InjectContext*, ::Il2CppObject*, System::Type*, ::Il2CppObject*)>(&Zenject::Internal::ZenPools::SpawnInjectContext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenPools*), "SpawnInjectContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectableInfo*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), "SpawnInjectContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectableInfo*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: ZenPools::_cctor
+// Writing MetadataGetter for method: Zenject::Internal::ZenPools::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ZenPools::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Zenject::Internal::ZenPools::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenPools*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

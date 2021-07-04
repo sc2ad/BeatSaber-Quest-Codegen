@@ -418,121 +418,121 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(FBBIKHeadEffector) == 0x170);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBBIKHeadEffector*, "RootMotion.FinalIK", "FBBIKHeadEffector");
-// Writing MetadataGetter for method: FBBIKHeadEffector::Start
+// Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKHeadEffector::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::*)()>(&FBBIKHeadEffector::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBBIKHeadEffector::*)()>(&RootMotion::FinalIK::FBBIKHeadEffector::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBBIKHeadEffector*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FBBIKHeadEffector::OnStoreDefaultLocalState
+// Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKHeadEffector::OnStoreDefaultLocalState
 // Il2CppName: OnStoreDefaultLocalState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::*)()>(&FBBIKHeadEffector::OnStoreDefaultLocalState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBBIKHeadEffector::*)()>(&RootMotion::FinalIK::FBBIKHeadEffector::OnStoreDefaultLocalState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector*), "OnStoreDefaultLocalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBBIKHeadEffector*), "OnStoreDefaultLocalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FBBIKHeadEffector::OnFixTransforms
+// Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKHeadEffector::OnFixTransforms
 // Il2CppName: OnFixTransforms
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::*)()>(&FBBIKHeadEffector::OnFixTransforms)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBBIKHeadEffector::*)()>(&RootMotion::FinalIK::FBBIKHeadEffector::OnFixTransforms)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector*), "OnFixTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBBIKHeadEffector*), "OnFixTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FBBIKHeadEffector::OnPreRead
+// Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKHeadEffector::OnPreRead
 // Il2CppName: OnPreRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::*)()>(&FBBIKHeadEffector::OnPreRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBBIKHeadEffector::*)()>(&RootMotion::FinalIK::FBBIKHeadEffector::OnPreRead)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector*), "OnPreRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBBIKHeadEffector*), "OnPreRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FBBIKHeadEffector::SpineBend
+// Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKHeadEffector::SpineBend
 // Il2CppName: SpineBend
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::*)()>(&FBBIKHeadEffector::SpineBend)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBBIKHeadEffector::*)()>(&RootMotion::FinalIK::FBBIKHeadEffector::SpineBend)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector*), "SpineBend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBBIKHeadEffector*), "SpineBend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FBBIKHeadEffector::CCDPass
+// Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKHeadEffector::CCDPass
 // Il2CppName: CCDPass
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::*)()>(&FBBIKHeadEffector::CCDPass)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBBIKHeadEffector::*)()>(&RootMotion::FinalIK::FBBIKHeadEffector::CCDPass)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector*), "CCDPass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBBIKHeadEffector*), "CCDPass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FBBIKHeadEffector::Iterate
+// Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKHeadEffector::Iterate
 // Il2CppName: Iterate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::*)(int)>(&FBBIKHeadEffector::Iterate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBBIKHeadEffector::*)(int)>(&RootMotion::FinalIK::FBBIKHeadEffector::Iterate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector*), "Iterate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBBIKHeadEffector*), "Iterate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: FBBIKHeadEffector::OnPostUpdate
+// Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKHeadEffector::OnPostUpdate
 // Il2CppName: OnPostUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::*)()>(&FBBIKHeadEffector::OnPostUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBBIKHeadEffector::*)()>(&RootMotion::FinalIK::FBBIKHeadEffector::OnPostUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector*), "OnPostUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBBIKHeadEffector*), "OnPostUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FBBIKHeadEffector::ChestDirection
+// Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKHeadEffector::ChestDirection
 // Il2CppName: ChestDirection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::*)()>(&FBBIKHeadEffector::ChestDirection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBBIKHeadEffector::*)()>(&RootMotion::FinalIK::FBBIKHeadEffector::ChestDirection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector*), "ChestDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBBIKHeadEffector*), "ChestDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FBBIKHeadEffector::PostStretching
+// Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKHeadEffector::PostStretching
 // Il2CppName: PostStretching
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::*)()>(&FBBIKHeadEffector::PostStretching)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBBIKHeadEffector::*)()>(&RootMotion::FinalIK::FBBIKHeadEffector::PostStretching)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector*), "PostStretching", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBBIKHeadEffector*), "PostStretching", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FBBIKHeadEffector::LerpSolverPosition
+// Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKHeadEffector::LerpSolverPosition
 // Il2CppName: LerpSolverPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::*)(RootMotion::FinalIK::IKEffector*, UnityEngine::Vector3, float, UnityEngine::Vector3)>(&FBBIKHeadEffector::LerpSolverPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBBIKHeadEffector::*)(RootMotion::FinalIK::IKEffector*, UnityEngine::Vector3, float, UnityEngine::Vector3)>(&RootMotion::FinalIK::FBBIKHeadEffector::LerpSolverPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector*), "LerpSolverPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKEffector*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBBIKHeadEffector*), "LerpSolverPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKEffector*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: FBBIKHeadEffector::Solve
+// Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKHeadEffector::Solve
 // Il2CppName: Solve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::*)(UnityEngine::Vector3&, UnityEngine::Vector3&, float)>(&FBBIKHeadEffector::Solve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBBIKHeadEffector::*)(UnityEngine::Vector3&, UnityEngine::Vector3&, float)>(&RootMotion::FinalIK::FBBIKHeadEffector::Solve)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector*), "Solve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBBIKHeadEffector*), "Solve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: FBBIKHeadEffector::OnDestroy
+// Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKHeadEffector::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::*)()>(&FBBIKHeadEffector::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBBIKHeadEffector::*)()>(&RootMotion::FinalIK::FBBIKHeadEffector::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBBIKHeadEffector*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FBBIKHeadEffector::New_ctor
+// Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKHeadEffector::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::*)()>(&FBBIKHeadEffector::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBBIKHeadEffector::*)()>(&RootMotion::FinalIK::FBBIKHeadEffector::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBBIKHeadEffector*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKHeadEffector::*)()>(&FBBIKHeadEffector::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBBIKHeadEffector::*)()>(&RootMotion::FinalIK::FBBIKHeadEffector::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FBBIKHeadEffector*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBBIKHeadEffector*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

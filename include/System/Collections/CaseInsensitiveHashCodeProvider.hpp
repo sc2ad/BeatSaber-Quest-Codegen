@@ -73,47 +73,47 @@ namespace System::Collections {
   static_assert(sizeof(CaseInsensitiveHashCodeProvider) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::CaseInsensitiveHashCodeProvider*, "System.Collections", "CaseInsensitiveHashCodeProvider");
-// Writing MetadataGetter for method: CaseInsensitiveHashCodeProvider::New_ctor
+// Writing MetadataGetter for method: System::Collections::CaseInsensitiveHashCodeProvider::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaseInsensitiveHashCodeProvider::*)(System::Globalization::CultureInfo*)>(&CaseInsensitiveHashCodeProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::CaseInsensitiveHashCodeProvider::*)(System::Globalization::CultureInfo*)>(&System::Collections::CaseInsensitiveHashCodeProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CaseInsensitiveHashCodeProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::CaseInsensitiveHashCodeProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaseInsensitiveHashCodeProvider::*)(System::Globalization::CultureInfo*)>(&CaseInsensitiveHashCodeProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::CaseInsensitiveHashCodeProvider::*)(System::Globalization::CultureInfo*)>(&System::Collections::CaseInsensitiveHashCodeProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CaseInsensitiveHashCodeProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::CaseInsensitiveHashCodeProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
   }
 };
-// Writing MetadataGetter for method: CaseInsensitiveHashCodeProvider::get_Default
+// Writing MetadataGetter for method: System::Collections::CaseInsensitiveHashCodeProvider::get_Default
 // Il2CppName: get_Default
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::CaseInsensitiveHashCodeProvider* (*)()>(&CaseInsensitiveHashCodeProvider::get_Default)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::CaseInsensitiveHashCodeProvider* (*)()>(&System::Collections::CaseInsensitiveHashCodeProvider::get_Default)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CaseInsensitiveHashCodeProvider*), "get_Default", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::CaseInsensitiveHashCodeProvider*), "get_Default", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CaseInsensitiveHashCodeProvider::GetHashCode
+// Writing MetadataGetter for method: System::Collections::CaseInsensitiveHashCodeProvider::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CaseInsensitiveHashCodeProvider::*)(::Il2CppObject*)>(&CaseInsensitiveHashCodeProvider::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::CaseInsensitiveHashCodeProvider::*)(::Il2CppObject*)>(&System::Collections::CaseInsensitiveHashCodeProvider::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CaseInsensitiveHashCodeProvider*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::CaseInsensitiveHashCodeProvider*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: CaseInsensitiveHashCodeProvider::New_ctor
+// Writing MetadataGetter for method: System::Collections::CaseInsensitiveHashCodeProvider::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaseInsensitiveHashCodeProvider::*)()>(&CaseInsensitiveHashCodeProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::CaseInsensitiveHashCodeProvider::*)()>(&System::Collections::CaseInsensitiveHashCodeProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CaseInsensitiveHashCodeProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::CaseInsensitiveHashCodeProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CaseInsensitiveHashCodeProvider::*)()>(&CaseInsensitiveHashCodeProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::CaseInsensitiveHashCodeProvider::*)()>(&System::Collections::CaseInsensitiveHashCodeProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CaseInsensitiveHashCodeProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::CaseInsensitiveHashCodeProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

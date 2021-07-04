@@ -57,25 +57,25 @@ namespace NUnit::Framework::Internal {
   static_assert(sizeof(TestNameGenerator::ArgListFragment) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestNameGenerator::ArgListFragment*, "NUnit.Framework.Internal", "TestNameGenerator/ArgListFragment");
-// Writing MetadataGetter for method: TestNameGenerator::ArgListFragment::New_ctor
+// Writing MetadataGetter for method: NUnit::Framework::Internal::TestNameGenerator::ArgListFragment::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestNameGenerator::ArgListFragment::*)(int)>(&TestNameGenerator::ArgListFragment::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestNameGenerator::ArgListFragment::*)(int)>(&NUnit::Framework::Internal::TestNameGenerator::ArgListFragment::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestNameGenerator::ArgListFragment*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestNameGenerator::ArgListFragment*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestNameGenerator::ArgListFragment::*)(int)>(&TestNameGenerator::ArgListFragment::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestNameGenerator::ArgListFragment::*)(int)>(&NUnit::Framework::Internal::TestNameGenerator::ArgListFragment::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestNameGenerator::ArgListFragment*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestNameGenerator::ArgListFragment*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TestNameGenerator::ArgListFragment::GetText
+// Writing MetadataGetter for method: NUnit::Framework::Internal::TestNameGenerator::ArgListFragment::GetText
 // Il2CppName: GetText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TestNameGenerator::ArgListFragment::*)(System::Reflection::MethodInfo*, ::Array<::Il2CppObject*>*)>(&TestNameGenerator::ArgListFragment::GetText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::TestNameGenerator::ArgListFragment::*)(System::Reflection::MethodInfo*, ::Array<::Il2CppObject*>*)>(&NUnit::Framework::Internal::TestNameGenerator::ArgListFragment::GetText)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestNameGenerator::ArgListFragment*), "GetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestNameGenerator::ArgListFragment*), "GetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
   }
 };

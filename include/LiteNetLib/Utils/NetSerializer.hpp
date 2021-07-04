@@ -256,58 +256,58 @@ namespace LiteNetLib::Utils {
   static_assert(sizeof(NetSerializer) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetSerializer*, "LiteNetLib.Utils", "NetSerializer");
-// Writing MetadataGetter for method: NetSerializer::RegisterNestedType
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetSerializer::RegisterNestedType
 // Il2CppName: RegisterNestedType
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: NetSerializer::RegisterNestedType
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetSerializer::RegisterNestedType
 // Il2CppName: RegisterNestedType
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: NetSerializer::RegisterNestedType
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetSerializer::RegisterNestedType
 // Il2CppName: RegisterNestedType
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: NetSerializer::New_ctor
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetSerializer::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetSerializer::*)(int)>(&NetSerializer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetSerializer::*)(int)>(&LiteNetLib::Utils::NetSerializer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetSerializer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetSerializer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetSerializer::*)(int)>(&NetSerializer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetSerializer::*)(int)>(&LiteNetLib::Utils::NetSerializer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetSerializer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetSerializer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: NetSerializer::RegisterInternal
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetSerializer::RegisterInternal
 // Il2CppName: RegisterInternal
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: NetSerializer::Register
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetSerializer::Register
 // Il2CppName: Register
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: NetSerializer::Deserialize
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetSerializer::Deserialize
 // Il2CppName: Deserialize
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: NetSerializer::Deserialize
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetSerializer::Deserialize
 // Il2CppName: Deserialize
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: NetSerializer::Serialize
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetSerializer::Serialize
 // Il2CppName: Serialize
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: NetSerializer::Serialize
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetSerializer::Serialize
 // Il2CppName: Serialize
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: NetSerializer::New_ctor
+// Writing MetadataGetter for method: LiteNetLib::Utils::NetSerializer::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetSerializer::*)()>(&NetSerializer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetSerializer::*)()>(&LiteNetLib::Utils::NetSerializer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetSerializer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetSerializer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetSerializer::*)()>(&NetSerializer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetSerializer::*)()>(&LiteNetLib::Utils::NetSerializer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetSerializer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetSerializer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

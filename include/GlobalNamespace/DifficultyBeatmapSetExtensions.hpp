@@ -52,9 +52,9 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DifficultyBeatmapSetExtensions*, "", "DifficultyBeatmapSetExtensions");
-// Writing MetadataGetter for method: DifficultyBeatmapSetExtensions::GetDifficultyBeatmapSetsWithout360Movement
+// Writing MetadataGetter for method: GlobalNamespace::DifficultyBeatmapSetExtensions::GetDifficultyBeatmapSetsWithout360Movement
 // Il2CppName: GetDifficultyBeatmapSetsWithout360Movement
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: DifficultyBeatmapSetExtensions::GetPreviewDifficultyBeatmapSets
+// Writing MetadataGetter for method: GlobalNamespace::DifficultyBeatmapSetExtensions::GetPreviewDifficultyBeatmapSets
 // Il2CppName: GetPreviewDifficultyBeatmapSets
 // Cannot write MetadataGetter for generic methods!

@@ -40,27 +40,27 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IDeeplinkManager*, "", "IDeeplinkManager");
-// Writing MetadataGetter for method: IDeeplinkManager::add_didReceiveDeeplinkEvent
+// Writing MetadataGetter for method: GlobalNamespace::IDeeplinkManager::add_didReceiveDeeplinkEvent
 // Il2CppName: add_didReceiveDeeplinkEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IDeeplinkManager::*)(System::Action_1<GlobalNamespace::Deeplink*>*)>(&IDeeplinkManager::add_didReceiveDeeplinkEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IDeeplinkManager::*)(System::Action_1<GlobalNamespace::Deeplink*>*)>(&GlobalNamespace::IDeeplinkManager::add_didReceiveDeeplinkEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IDeeplinkManager*), "add_didReceiveDeeplinkEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::Deeplink*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IDeeplinkManager*), "add_didReceiveDeeplinkEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::Deeplink*>*>()});
   }
 };
-// Writing MetadataGetter for method: IDeeplinkManager::remove_didReceiveDeeplinkEvent
+// Writing MetadataGetter for method: GlobalNamespace::IDeeplinkManager::remove_didReceiveDeeplinkEvent
 // Il2CppName: remove_didReceiveDeeplinkEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IDeeplinkManager::*)(System::Action_1<GlobalNamespace::Deeplink*>*)>(&IDeeplinkManager::remove_didReceiveDeeplinkEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IDeeplinkManager::*)(System::Action_1<GlobalNamespace::Deeplink*>*)>(&GlobalNamespace::IDeeplinkManager::remove_didReceiveDeeplinkEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IDeeplinkManager*), "remove_didReceiveDeeplinkEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::Deeplink*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IDeeplinkManager*), "remove_didReceiveDeeplinkEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::Deeplink*>*>()});
   }
 };
-// Writing MetadataGetter for method: IDeeplinkManager::get_currentDeeplink
+// Writing MetadataGetter for method: GlobalNamespace::IDeeplinkManager::get_currentDeeplink
 // Il2CppName: get_currentDeeplink
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::Deeplink* (IDeeplinkManager::*)()>(&IDeeplinkManager::get_currentDeeplink)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::Deeplink* (GlobalNamespace::IDeeplinkManager::*)()>(&GlobalNamespace::IDeeplinkManager::get_currentDeeplink)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IDeeplinkManager*), "get_currentDeeplink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IDeeplinkManager*), "get_currentDeeplink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -125,65 +125,65 @@ namespace Zenject {
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenAutoInjecter*, "Zenject", "ZenAutoInjecter");
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenAutoInjecter::ContainerSources, "Zenject", "ZenAutoInjecter/ContainerSources");
-// Writing MetadataGetter for method: ZenAutoInjecter::get_ContainerSource
+// Writing MetadataGetter for method: Zenject::ZenAutoInjecter::get_ContainerSource
 // Il2CppName: get_ContainerSource
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenAutoInjecter::ContainerSources (ZenAutoInjecter::*)()>(&ZenAutoInjecter::get_ContainerSource)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenAutoInjecter::ContainerSources (Zenject::ZenAutoInjecter::*)()>(&Zenject::ZenAutoInjecter::get_ContainerSource)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenAutoInjecter*), "get_ContainerSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenAutoInjecter*), "get_ContainerSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ZenAutoInjecter::set_ContainerSource
+// Writing MetadataGetter for method: Zenject::ZenAutoInjecter::set_ContainerSource
 // Il2CppName: set_ContainerSource
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenAutoInjecter::*)(Zenject::ZenAutoInjecter::ContainerSources)>(&ZenAutoInjecter::set_ContainerSource)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenAutoInjecter::*)(Zenject::ZenAutoInjecter::ContainerSources)>(&Zenject::ZenAutoInjecter::set_ContainerSource)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenAutoInjecter*), "set_ContainerSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ZenAutoInjecter::ContainerSources>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenAutoInjecter*), "set_ContainerSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ZenAutoInjecter::ContainerSources>()});
   }
 };
-// Writing MetadataGetter for method: ZenAutoInjecter::Construct
+// Writing MetadataGetter for method: Zenject::ZenAutoInjecter::Construct
 // Il2CppName: Construct
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenAutoInjecter::*)()>(&ZenAutoInjecter::Construct)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenAutoInjecter::*)()>(&Zenject::ZenAutoInjecter::Construct)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenAutoInjecter*), "Construct", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenAutoInjecter*), "Construct", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ZenAutoInjecter::Awake
+// Writing MetadataGetter for method: Zenject::ZenAutoInjecter::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenAutoInjecter::*)()>(&ZenAutoInjecter::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenAutoInjecter::*)()>(&Zenject::ZenAutoInjecter::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenAutoInjecter*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenAutoInjecter*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ZenAutoInjecter::LookupContainer
+// Writing MetadataGetter for method: Zenject::ZenAutoInjecter::LookupContainer
 // Il2CppName: LookupContainer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (ZenAutoInjecter::*)()>(&ZenAutoInjecter::LookupContainer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (Zenject::ZenAutoInjecter::*)()>(&Zenject::ZenAutoInjecter::LookupContainer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenAutoInjecter*), "LookupContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenAutoInjecter*), "LookupContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ZenAutoInjecter::GetContainerForCurrentScene
+// Writing MetadataGetter for method: Zenject::ZenAutoInjecter::GetContainerForCurrentScene
 // Il2CppName: GetContainerForCurrentScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (ZenAutoInjecter::*)()>(&ZenAutoInjecter::GetContainerForCurrentScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (Zenject::ZenAutoInjecter::*)()>(&Zenject::ZenAutoInjecter::GetContainerForCurrentScene)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenAutoInjecter*), "GetContainerForCurrentScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenAutoInjecter*), "GetContainerForCurrentScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ZenAutoInjecter::New_ctor
+// Writing MetadataGetter for method: Zenject::ZenAutoInjecter::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenAutoInjecter::*)()>(&ZenAutoInjecter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenAutoInjecter::*)()>(&Zenject::ZenAutoInjecter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenAutoInjecter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenAutoInjecter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenAutoInjecter::*)()>(&ZenAutoInjecter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenAutoInjecter::*)()>(&Zenject::ZenAutoInjecter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenAutoInjecter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenAutoInjecter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

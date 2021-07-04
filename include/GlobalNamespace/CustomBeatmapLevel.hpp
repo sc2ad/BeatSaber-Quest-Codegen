@@ -69,33 +69,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(CustomBeatmapLevel) == 0xB0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomBeatmapLevel*, "", "CustomBeatmapLevel");
-// Writing MetadataGetter for method: CustomBeatmapLevel::get_beatmapLevelData
+// Writing MetadataGetter for method: GlobalNamespace::CustomBeatmapLevel::get_beatmapLevelData
 // Il2CppName: get_beatmapLevelData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelData* (CustomBeatmapLevel::*)()>(&CustomBeatmapLevel::get_beatmapLevelData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelData* (GlobalNamespace::CustomBeatmapLevel::*)()>(&GlobalNamespace::CustomBeatmapLevel::get_beatmapLevelData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomBeatmapLevel*), "get_beatmapLevelData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomBeatmapLevel*), "get_beatmapLevelData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CustomBeatmapLevel::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::CustomBeatmapLevel::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomBeatmapLevel::*)(GlobalNamespace::CustomPreviewBeatmapLevel*, UnityEngine::AudioClip*)>(&CustomBeatmapLevel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CustomBeatmapLevel::*)(GlobalNamespace::CustomPreviewBeatmapLevel*, UnityEngine::AudioClip*)>(&GlobalNamespace::CustomBeatmapLevel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomBeatmapLevel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::CustomPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomBeatmapLevel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::CustomPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomBeatmapLevel::*)(GlobalNamespace::CustomPreviewBeatmapLevel*, UnityEngine::AudioClip*)>(&CustomBeatmapLevel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CustomBeatmapLevel::*)(GlobalNamespace::CustomPreviewBeatmapLevel*, UnityEngine::AudioClip*)>(&GlobalNamespace::CustomBeatmapLevel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomBeatmapLevel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::CustomPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomBeatmapLevel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::CustomPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip*>()});
   }
 };
-// Writing MetadataGetter for method: CustomBeatmapLevel::SetBeatmapLevelData
+// Writing MetadataGetter for method: GlobalNamespace::CustomBeatmapLevel::SetBeatmapLevelData
 // Il2CppName: SetBeatmapLevelData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomBeatmapLevel::*)(GlobalNamespace::BeatmapLevelData*)>(&CustomBeatmapLevel::SetBeatmapLevelData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CustomBeatmapLevel::*)(GlobalNamespace::BeatmapLevelData*)>(&GlobalNamespace::CustomBeatmapLevel::SetBeatmapLevelData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomBeatmapLevel*), "SetBeatmapLevelData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapLevelData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomBeatmapLevel*), "SetBeatmapLevelData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapLevelData*>()});
   }
 };

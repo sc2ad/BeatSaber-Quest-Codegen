@@ -194,73 +194,73 @@ namespace RootMotion {
   static_assert(sizeof(HumanoidBaker) == 0x118);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::HumanoidBaker*, "RootMotion", "HumanoidBaker");
-// Writing MetadataGetter for method: HumanoidBaker::Awake
+// Writing MetadataGetter for method: RootMotion::HumanoidBaker::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HumanoidBaker::*)()>(&HumanoidBaker::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::HumanoidBaker::*)()>(&RootMotion::HumanoidBaker::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HumanoidBaker*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::HumanoidBaker*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HumanoidBaker::UpdateHumanPose
+// Writing MetadataGetter for method: RootMotion::HumanoidBaker::UpdateHumanPose
 // Il2CppName: UpdateHumanPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HumanoidBaker::*)()>(&HumanoidBaker::UpdateHumanPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::HumanoidBaker::*)()>(&RootMotion::HumanoidBaker::UpdateHumanPose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HumanoidBaker*), "UpdateHumanPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::HumanoidBaker*), "UpdateHumanPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HumanoidBaker::GetCharacterRoot
+// Writing MetadataGetter for method: RootMotion::HumanoidBaker::GetCharacterRoot
 // Il2CppName: GetCharacterRoot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (HumanoidBaker::*)()>(&HumanoidBaker::GetCharacterRoot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (RootMotion::HumanoidBaker::*)()>(&RootMotion::HumanoidBaker::GetCharacterRoot)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HumanoidBaker*), "GetCharacterRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::HumanoidBaker*), "GetCharacterRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HumanoidBaker::OnStartBaking
+// Writing MetadataGetter for method: RootMotion::HumanoidBaker::OnStartBaking
 // Il2CppName: OnStartBaking
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HumanoidBaker::*)()>(&HumanoidBaker::OnStartBaking)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::HumanoidBaker::*)()>(&RootMotion::HumanoidBaker::OnStartBaking)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HumanoidBaker*), "OnStartBaking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::HumanoidBaker*), "OnStartBaking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HumanoidBaker::OnSetLoopFrame
+// Writing MetadataGetter for method: RootMotion::HumanoidBaker::OnSetLoopFrame
 // Il2CppName: OnSetLoopFrame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HumanoidBaker::*)(float)>(&HumanoidBaker::OnSetLoopFrame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::HumanoidBaker::*)(float)>(&RootMotion::HumanoidBaker::OnSetLoopFrame)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HumanoidBaker*), "OnSetLoopFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::HumanoidBaker*), "OnSetLoopFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: HumanoidBaker::OnSetCurves
+// Writing MetadataGetter for method: RootMotion::HumanoidBaker::OnSetCurves
 // Il2CppName: OnSetCurves
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HumanoidBaker::*)(UnityEngine::AnimationClip*&)>(&HumanoidBaker::OnSetCurves)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::HumanoidBaker::*)(UnityEngine::AnimationClip*&)>(&RootMotion::HumanoidBaker::OnSetCurves)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HumanoidBaker*), "OnSetCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*&>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::HumanoidBaker*), "OnSetCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*&>()});
   }
 };
-// Writing MetadataGetter for method: HumanoidBaker::OnSetKeyframes
+// Writing MetadataGetter for method: RootMotion::HumanoidBaker::OnSetKeyframes
 // Il2CppName: OnSetKeyframes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HumanoidBaker::*)(float, bool)>(&HumanoidBaker::OnSetKeyframes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::HumanoidBaker::*)(float, bool)>(&RootMotion::HumanoidBaker::OnSetKeyframes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HumanoidBaker*), "OnSetKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::HumanoidBaker*), "OnSetKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: HumanoidBaker::New_ctor
+// Writing MetadataGetter for method: RootMotion::HumanoidBaker::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HumanoidBaker::*)()>(&HumanoidBaker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::HumanoidBaker::*)()>(&RootMotion::HumanoidBaker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HumanoidBaker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::HumanoidBaker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HumanoidBaker::*)()>(&HumanoidBaker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::HumanoidBaker::*)()>(&RootMotion::HumanoidBaker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HumanoidBaker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::HumanoidBaker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

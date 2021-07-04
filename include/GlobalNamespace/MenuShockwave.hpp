@@ -99,57 +99,57 @@ namespace GlobalNamespace {
   static_assert(sizeof(MenuShockwave) == 0xBF);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuShockwave*, "", "MenuShockwave");
-// Writing MetadataGetter for method: MenuShockwave::Awake
+// Writing MetadataGetter for method: GlobalNamespace::MenuShockwave::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuShockwave::*)()>(&MenuShockwave::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuShockwave::*)()>(&GlobalNamespace::MenuShockwave::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MenuShockwave*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuShockwave*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MenuShockwave::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::MenuShockwave::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuShockwave::*)()>(&MenuShockwave::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuShockwave::*)()>(&GlobalNamespace::MenuShockwave::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MenuShockwave*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuShockwave*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MenuShockwave::OnDisable
+// Writing MetadataGetter for method: GlobalNamespace::MenuShockwave::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuShockwave::*)()>(&MenuShockwave::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuShockwave::*)()>(&GlobalNamespace::MenuShockwave::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MenuShockwave*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuShockwave*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MenuShockwave::HandleButtonClickEvent
+// Writing MetadataGetter for method: GlobalNamespace::MenuShockwave::HandleButtonClickEvent
 // Il2CppName: HandleButtonClickEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuShockwave::*)()>(&MenuShockwave::HandleButtonClickEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuShockwave::*)()>(&GlobalNamespace::MenuShockwave::HandleButtonClickEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MenuShockwave*), "HandleButtonClickEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuShockwave*), "HandleButtonClickEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MenuShockwave::SpawnShockwave
+// Writing MetadataGetter for method: GlobalNamespace::MenuShockwave::SpawnShockwave
 // Il2CppName: SpawnShockwave
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuShockwave::*)(UnityEngine::Vector3)>(&MenuShockwave::SpawnShockwave)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuShockwave::*)(UnityEngine::Vector3)>(&GlobalNamespace::MenuShockwave::SpawnShockwave)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MenuShockwave*), "SpawnShockwave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuShockwave*), "SpawnShockwave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: MenuShockwave::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MenuShockwave::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuShockwave::*)()>(&MenuShockwave::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuShockwave::*)()>(&GlobalNamespace::MenuShockwave::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MenuShockwave*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuShockwave*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuShockwave::*)()>(&MenuShockwave::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuShockwave::*)()>(&GlobalNamespace::MenuShockwave::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MenuShockwave*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuShockwave*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

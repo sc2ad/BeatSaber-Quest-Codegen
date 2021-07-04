@@ -84,71 +84,71 @@ namespace UnityEngine {
   bool operator ==(const UnityEngine::PropertyName& lhs, const UnityEngine::PropertyName& rhs);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PropertyName, "UnityEngine", "PropertyName");
-// Writing MetadataGetter for method: PropertyName::PropertyName
+// Writing MetadataGetter for method: UnityEngine::PropertyName::PropertyName
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PropertyName::*)(::Il2CppString*)>(&PropertyName::PropertyName<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::PropertyName::*)(::Il2CppString*)>(&UnityEngine::PropertyName::PropertyName<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PropertyName), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PropertyName), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PropertyName::*)(::Il2CppString*)>(&PropertyName::PropertyName<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::PropertyName::*)(::Il2CppString*)>(&UnityEngine::PropertyName::PropertyName<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PropertyName), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PropertyName), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: PropertyName::PropertyName
+// Writing MetadataGetter for method: UnityEngine::PropertyName::PropertyName
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PropertyName::*)(UnityEngine::PropertyName)>(&PropertyName::PropertyName<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::PropertyName::*)(UnityEngine::PropertyName)>(&UnityEngine::PropertyName::PropertyName<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PropertyName), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PropertyName>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PropertyName), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PropertyName>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PropertyName::*)(UnityEngine::PropertyName)>(&PropertyName::PropertyName<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::PropertyName::*)(UnityEngine::PropertyName)>(&UnityEngine::PropertyName::PropertyName<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PropertyName), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PropertyName>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PropertyName), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PropertyName>()});
   }
 };
-// Writing MetadataGetter for method: PropertyName::Equals
+// Writing MetadataGetter for method: UnityEngine::PropertyName::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PropertyName::*)(UnityEngine::PropertyName)>(&PropertyName::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::PropertyName::*)(UnityEngine::PropertyName)>(&UnityEngine::PropertyName::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PropertyName), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PropertyName>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PropertyName), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PropertyName>()});
   }
 };
-// Writing MetadataGetter for method: PropertyName::GetHashCode
+// Writing MetadataGetter for method: UnityEngine::PropertyName::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PropertyName::*)()>(&PropertyName::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::PropertyName::*)()>(&UnityEngine::PropertyName::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PropertyName), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PropertyName), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PropertyName::Equals
+// Writing MetadataGetter for method: UnityEngine::PropertyName::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PropertyName::*)(::Il2CppObject*)>(&PropertyName::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::PropertyName::*)(::Il2CppObject*)>(&UnityEngine::PropertyName::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PropertyName), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PropertyName), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: PropertyName::ToString
+// Writing MetadataGetter for method: UnityEngine::PropertyName::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PropertyName::*)()>(&PropertyName::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::PropertyName::*)()>(&UnityEngine::PropertyName::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PropertyName), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PropertyName), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PropertyName::operator ==
+// Writing MetadataGetter for method: UnityEngine::PropertyName::operator ==
 // Il2CppName: op_Equality
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const UnityEngine::PropertyName&, const UnityEngine::PropertyName&)>(&PropertyName::operator ==)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const UnityEngine::PropertyName&, const UnityEngine::PropertyName&)>(&UnityEngine::PropertyName::operator ==)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PropertyName), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::PropertyName&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::PropertyName&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PropertyName), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::PropertyName&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::PropertyName&>()});
   }
 };

@@ -210,73 +210,73 @@ namespace HMUI {
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NavigationController*, "HMUI", "NavigationController");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NavigationController::Orientation, "HMUI", "NavigationController/Orientation");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NavigationController::Alignment, "HMUI", "NavigationController/Alignment");
-// Writing MetadataGetter for method: NavigationController::PushViewController
+// Writing MetadataGetter for method: HMUI::NavigationController::PushViewController
 // Il2CppName: PushViewController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NavigationController::*)(HMUI::ViewController*, System::Action*, bool)>(&NavigationController::PushViewController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::NavigationController::*)(HMUI::ViewController*, System::Action*, bool)>(&HMUI::NavigationController::PushViewController)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NavigationController*), "PushViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::NavigationController*), "PushViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: NavigationController::PopViewController
+// Writing MetadataGetter for method: HMUI::NavigationController::PopViewController
 // Il2CppName: PopViewController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NavigationController::*)(System::Action*, bool)>(&NavigationController::PopViewController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::NavigationController::*)(System::Action*, bool)>(&HMUI::NavigationController::PopViewController)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NavigationController*), "PopViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::NavigationController*), "PopViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: NavigationController::PopViewControllers
+// Writing MetadataGetter for method: HMUI::NavigationController::PopViewControllers
 // Il2CppName: PopViewControllers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NavigationController::*)(int, System::Action*, bool)>(&NavigationController::PopViewControllers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::NavigationController::*)(int, System::Action*, bool)>(&HMUI::NavigationController::PopViewControllers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NavigationController*), "PopViewControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::NavigationController*), "PopViewControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: NavigationController::PositionVector
+// Writing MetadataGetter for method: HMUI::NavigationController::PositionVector
 // Il2CppName: PositionVector
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (NavigationController::*)(float)>(&NavigationController::PositionVector)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (HMUI::NavigationController::*)(float)>(&HMUI::NavigationController::PositionVector)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NavigationController*), "PositionVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::NavigationController*), "PositionVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: NavigationController::SetupViewControllerRect
+// Writing MetadataGetter for method: HMUI::NavigationController::SetupViewControllerRect
 // Il2CppName: SetupViewControllerRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NavigationController::*)(HMUI::ViewController*)>(&NavigationController::SetupViewControllerRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::NavigationController::*)(HMUI::ViewController*)>(&HMUI::NavigationController::SetupViewControllerRect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NavigationController*), "SetupViewControllerRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::NavigationController*), "SetupViewControllerRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>()});
   }
 };
-// Writing MetadataGetter for method: NavigationController::GetNewPositionsForViewControllers
+// Writing MetadataGetter for method: HMUI::NavigationController::GetNewPositionsForViewControllers
 // Il2CppName: GetNewPositionsForViewControllers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<float>* (NavigationController::*)(System::Collections::Generic::List_1<HMUI::ViewController*>*, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*, float)>(&NavigationController::GetNewPositionsForViewControllers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<float>* (HMUI::NavigationController::*)(System::Collections::Generic::List_1<HMUI::ViewController*>*, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*, float)>(&HMUI::NavigationController::GetNewPositionsForViewControllers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NavigationController*), "GetNewPositionsForViewControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<HMUI::ViewController*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::NavigationController*), "GetNewPositionsForViewControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<HMUI::ViewController*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: NavigationController::LayoutViewControllers
+// Writing MetadataGetter for method: HMUI::NavigationController::LayoutViewControllers
 // Il2CppName: LayoutViewControllers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NavigationController::*)(System::Collections::Generic::List_1<HMUI::ViewController*>*)>(&NavigationController::LayoutViewControllers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::NavigationController::*)(System::Collections::Generic::List_1<HMUI::ViewController*>*)>(&HMUI::NavigationController::LayoutViewControllers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NavigationController*), "LayoutViewControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<HMUI::ViewController*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::NavigationController*), "LayoutViewControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<HMUI::ViewController*>*>()});
   }
 };
-// Writing MetadataGetter for method: NavigationController::New_ctor
+// Writing MetadataGetter for method: HMUI::NavigationController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NavigationController::*)()>(&NavigationController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::NavigationController::*)()>(&HMUI::NavigationController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NavigationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::NavigationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NavigationController::*)()>(&NavigationController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::NavigationController::*)()>(&HMUI::NavigationController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NavigationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::NavigationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

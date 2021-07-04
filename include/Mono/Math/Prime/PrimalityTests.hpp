@@ -37,19 +37,19 @@ namespace Mono::Math::Prime {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::Prime::PrimalityTests*, "Mono.Math.Prime", "PrimalityTests");
-// Writing MetadataGetter for method: PrimalityTests::GetSPPRounds
+// Writing MetadataGetter for method: Mono::Math::Prime::PrimalityTests::GetSPPRounds
 // Il2CppName: GetSPPRounds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Mono::Math::BigInteger*, Mono::Math::Prime::ConfidenceFactor)>(&PrimalityTests::GetSPPRounds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Mono::Math::BigInteger*, Mono::Math::Prime::ConfidenceFactor)>(&Mono::Math::Prime::PrimalityTests::GetSPPRounds)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrimalityTests*), "GetSPPRounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::Prime::ConfidenceFactor>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::Prime::PrimalityTests*), "GetSPPRounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::Prime::ConfidenceFactor>()});
   }
 };
-// Writing MetadataGetter for method: PrimalityTests::RabinMillerTest
+// Writing MetadataGetter for method: Mono::Math::Prime::PrimalityTests::RabinMillerTest
 // Il2CppName: RabinMillerTest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Mono::Math::BigInteger*, Mono::Math::Prime::ConfidenceFactor)>(&PrimalityTests::RabinMillerTest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Mono::Math::BigInteger*, Mono::Math::Prime::ConfidenceFactor)>(&Mono::Math::Prime::PrimalityTests::RabinMillerTest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrimalityTests*), "RabinMillerTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::Prime::ConfidenceFactor>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::Prime::PrimalityTests*), "RabinMillerTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::Prime::ConfidenceFactor>()});
   }
 };

@@ -75,41 +75,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(VisualEffectsController) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VisualEffectsController*, "", "VisualEffectsController");
-// Writing MetadataGetter for method: VisualEffectsController::Awake
+// Writing MetadataGetter for method: GlobalNamespace::VisualEffectsController::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VisualEffectsController::*)()>(&VisualEffectsController::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VisualEffectsController::*)()>(&GlobalNamespace::VisualEffectsController::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VisualEffectsController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VisualEffectsController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VisualEffectsController::OnPreRender
+// Writing MetadataGetter for method: GlobalNamespace::VisualEffectsController::OnPreRender
 // Il2CppName: OnPreRender
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VisualEffectsController::*)()>(&VisualEffectsController::OnPreRender)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VisualEffectsController::*)()>(&GlobalNamespace::VisualEffectsController::OnPreRender)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VisualEffectsController*), "OnPreRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VisualEffectsController*), "OnPreRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VisualEffectsController::SetShaderKeyword
+// Writing MetadataGetter for method: GlobalNamespace::VisualEffectsController::SetShaderKeyword
 // Il2CppName: SetShaderKeyword
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VisualEffectsController::*)(::Il2CppString*, bool)>(&VisualEffectsController::SetShaderKeyword)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VisualEffectsController::*)(::Il2CppString*, bool)>(&GlobalNamespace::VisualEffectsController::SetShaderKeyword)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VisualEffectsController*), "SetShaderKeyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VisualEffectsController*), "SetShaderKeyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: VisualEffectsController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::VisualEffectsController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VisualEffectsController::*)()>(&VisualEffectsController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VisualEffectsController::*)()>(&GlobalNamespace::VisualEffectsController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VisualEffectsController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VisualEffectsController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VisualEffectsController::*)()>(&VisualEffectsController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VisualEffectsController::*)()>(&GlobalNamespace::VisualEffectsController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VisualEffectsController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VisualEffectsController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

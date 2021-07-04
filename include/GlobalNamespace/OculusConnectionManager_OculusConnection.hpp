@@ -131,105 +131,105 @@ namespace GlobalNamespace {
   static_assert(sizeof(OculusConnectionManager::OculusConnection) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusConnectionManager::OculusConnection*, "", "OculusConnectionManager/OculusConnection");
-// Writing MetadataGetter for method: OculusConnectionManager::OculusConnection::get_id
+// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::get_id
 // Il2CppName: get_id
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (OculusConnectionManager::OculusConnection::*)()>(&OculusConnectionManager::OculusConnection::get_id)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (GlobalNamespace::OculusConnectionManager::OculusConnection::*)()>(&GlobalNamespace::OculusConnectionManager::OculusConnection::get_id)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusConnectionManager::OculusConnection*), "get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager::OculusConnection*), "get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OculusConnectionManager::OculusConnection::get_userId
+// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::get_userId
 // Il2CppName: get_userId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OculusConnectionManager::OculusConnection::*)()>(&OculusConnectionManager::OculusConnection::get_userId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::OculusConnectionManager::OculusConnection::*)()>(&GlobalNamespace::OculusConnectionManager::OculusConnection::get_userId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusConnectionManager::OculusConnection*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager::OculusConnection*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OculusConnectionManager::OculusConnection::get_userName
+// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::get_userName
 // Il2CppName: get_userName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OculusConnectionManager::OculusConnection::*)()>(&OculusConnectionManager::OculusConnection::get_userName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::OculusConnectionManager::OculusConnection::*)()>(&GlobalNamespace::OculusConnectionManager::OculusConnection::get_userName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusConnectionManager::OculusConnection*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager::OculusConnection*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OculusConnectionManager::OculusConnection::get_isConnectionOwner
+// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::get_isConnectionOwner
 // Il2CppName: get_isConnectionOwner
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusConnectionManager::OculusConnection::*)()>(&OculusConnectionManager::OculusConnection::get_isConnectionOwner)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OculusConnectionManager::OculusConnection::*)()>(&GlobalNamespace::OculusConnectionManager::OculusConnection::get_isConnectionOwner)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusConnectionManager::OculusConnection*), "get_isConnectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager::OculusConnection*), "get_isConnectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OculusConnectionManager::OculusConnection::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusConnectionManager::OculusConnection::*)(uint64_t, ::Il2CppString*, bool)>(&OculusConnectionManager::OculusConnection::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusConnectionManager::OculusConnection::*)(uint64_t, ::Il2CppString*, bool)>(&GlobalNamespace::OculusConnectionManager::OculusConnection::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusConnectionManager::OculusConnection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager::OculusConnection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusConnectionManager::OculusConnection::*)(uint64_t, ::Il2CppString*, bool)>(&OculusConnectionManager::OculusConnection::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusConnectionManager::OculusConnection::*)(uint64_t, ::Il2CppString*, bool)>(&GlobalNamespace::OculusConnectionManager::OculusConnection::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusConnectionManager::OculusConnection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager::OculusConnection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: OculusConnectionManager::OculusConnection::Send
+// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::Send
 // Il2CppName: Send
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusConnectionManager::OculusConnection::*)(LiteNetLib::Utils::NetDataWriter*, LiteNetLib::DeliveryMethod)>(&OculusConnectionManager::OculusConnection::Send)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusConnectionManager::OculusConnection::*)(LiteNetLib::Utils::NetDataWriter*, LiteNetLib::DeliveryMethod)>(&GlobalNamespace::OculusConnectionManager::OculusConnection::Send)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusConnectionManager::OculusConnection*), "Send", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager::OculusConnection*), "Send", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>()});
   }
 };
-// Writing MetadataGetter for method: OculusConnectionManager::OculusConnection::Disconnect
+// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::Disconnect
 // Il2CppName: Disconnect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusConnectionManager::OculusConnection::*)()>(&OculusConnectionManager::OculusConnection::Disconnect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusConnectionManager::OculusConnection::*)()>(&GlobalNamespace::OculusConnectionManager::OculusConnection::Disconnect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusConnectionManager::OculusConnection*), "Disconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager::OculusConnection*), "Disconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OculusConnectionManager::OculusConnection::Ping
+// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::Ping
 // Il2CppName: Ping
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusConnectionManager::OculusConnection::*)(System::Action_2<GlobalNamespace::OculusConnectionManager::OculusConnection*, float>*)>(&OculusConnectionManager::OculusConnection::Ping)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusConnectionManager::OculusConnection::*)(System::Action_2<GlobalNamespace::OculusConnectionManager::OculusConnection*, float>*)>(&GlobalNamespace::OculusConnectionManager::OculusConnection::Ping)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusConnectionManager::OculusConnection*), "Ping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::OculusConnectionManager::OculusConnection*, float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager::OculusConnection*), "Ping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::OculusConnectionManager::OculusConnection*, float>*>()});
   }
 };
-// Writing MetadataGetter for method: OculusConnectionManager::OculusConnection::Equals
+// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusConnectionManager::OculusConnection::*)(GlobalNamespace::OculusConnectionManager::OculusConnection*)>(&OculusConnectionManager::OculusConnection::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OculusConnectionManager::OculusConnection::*)(GlobalNamespace::OculusConnectionManager::OculusConnection*)>(&GlobalNamespace::OculusConnectionManager::OculusConnection::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusConnectionManager::OculusConnection*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OculusConnectionManager::OculusConnection*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager::OculusConnection*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OculusConnectionManager::OculusConnection*>()});
   }
 };
-// Writing MetadataGetter for method: OculusConnectionManager::OculusConnection::Equals
+// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OculusConnectionManager::OculusConnection::*)(::Il2CppObject*)>(&OculusConnectionManager::OculusConnection::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OculusConnectionManager::OculusConnection::*)(::Il2CppObject*)>(&GlobalNamespace::OculusConnectionManager::OculusConnection::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusConnectionManager::OculusConnection*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager::OculusConnection*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: OculusConnectionManager::OculusConnection::GetHashCode
+// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OculusConnectionManager::OculusConnection::*)()>(&OculusConnectionManager::OculusConnection::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::OculusConnectionManager::OculusConnection::*)()>(&GlobalNamespace::OculusConnectionManager::OculusConnection::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusConnectionManager::OculusConnection*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager::OculusConnection*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OculusConnectionManager::OculusConnection::ToString
+// Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::OculusConnection::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OculusConnectionManager::OculusConnection::*)()>(&OculusConnectionManager::OculusConnection::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::OculusConnectionManager::OculusConnection::*)()>(&GlobalNamespace::OculusConnectionManager::OculusConnection::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusConnectionManager::OculusConnection*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager::OculusConnection*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

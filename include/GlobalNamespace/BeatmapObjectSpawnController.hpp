@@ -255,233 +255,233 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapObjectSpawnController) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnController*, "", "BeatmapObjectSpawnController");
-// Writing MetadataGetter for method: BeatmapObjectSpawnController::get_jumpOffsetY
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::get_jumpOffsetY
 // Il2CppName: get_jumpOffsetY
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BeatmapObjectSpawnController::*)()>(&BeatmapObjectSpawnController::get_jumpOffsetY)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnController::*)()>(&GlobalNamespace::BeatmapObjectSpawnController::get_jumpOffsetY)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnController*), "get_jumpOffsetY", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnController*), "get_jumpOffsetY", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnController::set_jumpOffsetY
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::set_jumpOffsetY
 // Il2CppName: set_jumpOffsetY
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnController::*)(float)>(&BeatmapObjectSpawnController::set_jumpOffsetY)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnController::*)(float)>(&GlobalNamespace::BeatmapObjectSpawnController::set_jumpOffsetY)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnController*), "set_jumpOffsetY", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnController*), "set_jumpOffsetY", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnController::get_currentBpm
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::get_currentBpm
 // Il2CppName: get_currentBpm
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BeatmapObjectSpawnController::*)()>(&BeatmapObjectSpawnController::get_currentBpm)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnController::*)()>(&GlobalNamespace::BeatmapObjectSpawnController::get_currentBpm)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnController*), "get_currentBpm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnController*), "get_currentBpm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnController::get_moveDuration
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::get_moveDuration
 // Il2CppName: get_moveDuration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BeatmapObjectSpawnController::*)()>(&BeatmapObjectSpawnController::get_moveDuration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnController::*)()>(&GlobalNamespace::BeatmapObjectSpawnController::get_moveDuration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnController*), "get_moveDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnController*), "get_moveDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnController::get_jumpDuration
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::get_jumpDuration
 // Il2CppName: get_jumpDuration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BeatmapObjectSpawnController::*)()>(&BeatmapObjectSpawnController::get_jumpDuration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnController::*)()>(&GlobalNamespace::BeatmapObjectSpawnController::get_jumpDuration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnController*), "get_jumpDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnController*), "get_jumpDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnController::get_jumpDistance
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::get_jumpDistance
 // Il2CppName: get_jumpDistance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BeatmapObjectSpawnController::*)()>(&BeatmapObjectSpawnController::get_jumpDistance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnController::*)()>(&GlobalNamespace::BeatmapObjectSpawnController::get_jumpDistance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnController*), "get_jumpDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnController*), "get_jumpDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnController::get_verticalLayerDistance
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::get_verticalLayerDistance
 // Il2CppName: get_verticalLayerDistance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BeatmapObjectSpawnController::*)()>(&BeatmapObjectSpawnController::get_verticalLayerDistance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnController::*)()>(&GlobalNamespace::BeatmapObjectSpawnController::get_verticalLayerDistance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnController*), "get_verticalLayerDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnController*), "get_verticalLayerDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnController::get_noteJumpMovementSpeed
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::get_noteJumpMovementSpeed
 // Il2CppName: get_noteJumpMovementSpeed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BeatmapObjectSpawnController::*)()>(&BeatmapObjectSpawnController::get_noteJumpMovementSpeed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnController::*)()>(&GlobalNamespace::BeatmapObjectSpawnController::get_noteJumpMovementSpeed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnController*), "get_noteJumpMovementSpeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnController*), "get_noteJumpMovementSpeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnController::get_noteLinesDistance
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::get_noteLinesDistance
 // Il2CppName: get_noteLinesDistance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BeatmapObjectSpawnController::*)()>(&BeatmapObjectSpawnController::get_noteLinesDistance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnController::*)()>(&GlobalNamespace::BeatmapObjectSpawnController::get_noteLinesDistance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnController*), "get_noteLinesDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnController*), "get_noteLinesDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnController::get_beatmapObjectSpawnMovementData
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::get_beatmapObjectSpawnMovementData
 // Il2CppName: get_beatmapObjectSpawnMovementData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapObjectSpawnMovementData* (BeatmapObjectSpawnController::*)()>(&BeatmapObjectSpawnController::get_beatmapObjectSpawnMovementData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapObjectSpawnMovementData* (GlobalNamespace::BeatmapObjectSpawnController::*)()>(&GlobalNamespace::BeatmapObjectSpawnController::get_beatmapObjectSpawnMovementData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnController*), "get_beatmapObjectSpawnMovementData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnController*), "get_beatmapObjectSpawnMovementData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnController::get_isInitialized
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::get_isInitialized
 // Il2CppName: get_isInitialized
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BeatmapObjectSpawnController::*)()>(&BeatmapObjectSpawnController::get_isInitialized)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BeatmapObjectSpawnController::*)()>(&GlobalNamespace::BeatmapObjectSpawnController::get_isInitialized)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnController*), "get_isInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnController*), "get_isInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnController::add_didInitEvent
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::add_didInitEvent
 // Il2CppName: add_didInitEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnController::*)(System::Action*)>(&BeatmapObjectSpawnController::add_didInitEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnController::*)(System::Action*)>(&GlobalNamespace::BeatmapObjectSpawnController::add_didInitEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnController*), "add_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnController*), "add_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnController::remove_didInitEvent
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::remove_didInitEvent
 // Il2CppName: remove_didInitEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnController::*)(System::Action*)>(&BeatmapObjectSpawnController::remove_didInitEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnController::*)(System::Action*)>(&GlobalNamespace::BeatmapObjectSpawnController::remove_didInitEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnController*), "remove_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnController*), "remove_didInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnController::Start
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnController::*)()>(&BeatmapObjectSpawnController::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnController::*)()>(&GlobalNamespace::BeatmapObjectSpawnController::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnController::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnController::*)()>(&BeatmapObjectSpawnController::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnController::*)()>(&GlobalNamespace::BeatmapObjectSpawnController::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnController::SpawnObstacle
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::SpawnObstacle
 // Il2CppName: SpawnObstacle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnController::*)(GlobalNamespace::ObstacleData*)>(&BeatmapObjectSpawnController::SpawnObstacle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnController::*)(GlobalNamespace::ObstacleData*)>(&GlobalNamespace::BeatmapObjectSpawnController::SpawnObstacle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnController*), "SpawnObstacle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnController*), "SpawnObstacle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleData*>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnController::SpawnBasicNote
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::SpawnBasicNote
 // Il2CppName: SpawnBasicNote
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnController::*)(GlobalNamespace::NoteData*, float)>(&BeatmapObjectSpawnController::SpawnBasicNote)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnController::*)(GlobalNamespace::NoteData*, float)>(&GlobalNamespace::BeatmapObjectSpawnController::SpawnBasicNote)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnController*), "SpawnBasicNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnController*), "SpawnBasicNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnController::SpawnBombNote
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::SpawnBombNote
 // Il2CppName: SpawnBombNote
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnController::*)(GlobalNamespace::NoteData*)>(&BeatmapObjectSpawnController::SpawnBombNote)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnController::*)(GlobalNamespace::NoteData*)>(&GlobalNamespace::BeatmapObjectSpawnController::SpawnBombNote)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnController*), "SpawnBombNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnController*), "SpawnBombNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnController::ProcessEarlyBeatmapEventData
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::ProcessEarlyBeatmapEventData
 // Il2CppName: ProcessEarlyBeatmapEventData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnController::*)(GlobalNamespace::BeatmapEventData*)>(&BeatmapObjectSpawnController::ProcessEarlyBeatmapEventData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnController::*)(GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::BeatmapObjectSpawnController::ProcessEarlyBeatmapEventData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnController*), "ProcessEarlyBeatmapEventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnController*), "ProcessEarlyBeatmapEventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnController::EarlyEventsWereProcessed
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::EarlyEventsWereProcessed
 // Il2CppName: EarlyEventsWereProcessed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnController::*)()>(&BeatmapObjectSpawnController::EarlyEventsWereProcessed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnController::*)()>(&GlobalNamespace::BeatmapObjectSpawnController::EarlyEventsWereProcessed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnController*), "EarlyEventsWereProcessed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnController*), "EarlyEventsWereProcessed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnController::ProcessLateBeatmapEventData
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::ProcessLateBeatmapEventData
 // Il2CppName: ProcessLateBeatmapEventData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnController::*)(GlobalNamespace::BeatmapEventData*)>(&BeatmapObjectSpawnController::ProcessLateBeatmapEventData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnController::*)(GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::BeatmapObjectSpawnController::ProcessLateBeatmapEventData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnController*), "ProcessLateBeatmapEventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnController*), "ProcessLateBeatmapEventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnController::HandleBeatmapObjectCallback
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::HandleBeatmapObjectCallback
 // Il2CppName: HandleBeatmapObjectCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnController::*)(GlobalNamespace::BeatmapObjectData*)>(&BeatmapObjectSpawnController::HandleBeatmapObjectCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnController::*)(GlobalNamespace::BeatmapObjectData*)>(&GlobalNamespace::BeatmapObjectSpawnController::HandleBeatmapObjectCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnController*), "HandleBeatmapObjectCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnController*), "HandleBeatmapObjectCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectData*>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnController::HandleBeatmapEventCallback
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::HandleBeatmapEventCallback
 // Il2CppName: HandleBeatmapEventCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnController::*)(GlobalNamespace::BeatmapEventData*)>(&BeatmapObjectSpawnController::HandleBeatmapEventCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnController::*)(GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::BeatmapObjectSpawnController::HandleBeatmapEventCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnController*), "HandleBeatmapEventCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnController*), "HandleBeatmapEventCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnController::HandleCallbacksForThisFrameWereProcessed
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::HandleCallbacksForThisFrameWereProcessed
 // Il2CppName: HandleCallbacksForThisFrameWereProcessed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnController::*)()>(&BeatmapObjectSpawnController::HandleCallbacksForThisFrameWereProcessed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnController::*)()>(&GlobalNamespace::BeatmapObjectSpawnController::HandleCallbacksForThisFrameWereProcessed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnController*), "HandleCallbacksForThisFrameWereProcessed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnController*), "HandleCallbacksForThisFrameWereProcessed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnController::StopSpawning
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::StopSpawning
 // Il2CppName: StopSpawning
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnController::*)()>(&BeatmapObjectSpawnController::StopSpawning)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnController::*)()>(&GlobalNamespace::BeatmapObjectSpawnController::StopSpawning)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnController*), "StopSpawning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnController*), "StopSpawning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnController::Get2DNoteOffset
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::Get2DNoteOffset
 // Il2CppName: Get2DNoteOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (BeatmapObjectSpawnController::*)(int, GlobalNamespace::NoteLineLayer)>(&BeatmapObjectSpawnController::Get2DNoteOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (GlobalNamespace::BeatmapObjectSpawnController::*)(int, GlobalNamespace::NoteLineLayer)>(&GlobalNamespace::BeatmapObjectSpawnController::Get2DNoteOffset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnController*), "Get2DNoteOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnController*), "Get2DNoteOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnController::JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset
 // Il2CppName: JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BeatmapObjectSpawnController::*)(GlobalNamespace::NoteLineLayer, float)>(&BeatmapObjectSpawnController::JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnController::*)(GlobalNamespace::NoteLineLayer, float)>(&GlobalNamespace::BeatmapObjectSpawnController::JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnController*), "JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnController*), "JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapObjectSpawnController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnController::*)()>(&BeatmapObjectSpawnController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnController::*)()>(&GlobalNamespace::BeatmapObjectSpawnController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapObjectSpawnController::*)()>(&BeatmapObjectSpawnController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnController::*)()>(&GlobalNamespace::BeatmapObjectSpawnController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapObjectSpawnController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

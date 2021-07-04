@@ -117,75 +117,75 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEventTypeExtensions*, "", "BeatmapEventTypeExtensions");
-// Writing MetadataGetter for method: BeatmapEventTypeExtensions::GetEventsValidForAllBeatmaps
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapEventTypeExtensions::GetEventsValidForAllBeatmaps
 // Il2CppName: GetEventsValidForAllBeatmaps
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>* (*)()>(&BeatmapEventTypeExtensions::GetEventsValidForAllBeatmaps)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>* (*)()>(&GlobalNamespace::BeatmapEventTypeExtensions::GetEventsValidForAllBeatmaps)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapEventTypeExtensions*), "GetEventsValidForAllBeatmaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventTypeExtensions*), "GetEventsValidForAllBeatmaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapEventTypeExtensions::IsBPMChangeEvent
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapEventTypeExtensions::IsBPMChangeEvent
 // Il2CppName: IsBPMChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::BeatmapEventType)>(&BeatmapEventTypeExtensions::IsBPMChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::BeatmapEventType)>(&GlobalNamespace::BeatmapEventTypeExtensions::IsBPMChangeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapEventTypeExtensions*), "IsBPMChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventType>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventTypeExtensions*), "IsBPMChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventType>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapEventTypeExtensions::IsRotationEvent
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapEventTypeExtensions::IsRotationEvent
 // Il2CppName: IsRotationEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::BeatmapEventType)>(&BeatmapEventTypeExtensions::IsRotationEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::BeatmapEventType)>(&GlobalNamespace::BeatmapEventTypeExtensions::IsRotationEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapEventTypeExtensions*), "IsRotationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventType>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventTypeExtensions*), "IsRotationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventType>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapEventTypeExtensions::IsSpecialEvent
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapEventTypeExtensions::IsSpecialEvent
 // Il2CppName: IsSpecialEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::BeatmapEventType)>(&BeatmapEventTypeExtensions::IsSpecialEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::BeatmapEventType)>(&GlobalNamespace::BeatmapEventTypeExtensions::IsSpecialEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapEventTypeExtensions*), "IsSpecialEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventType>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventTypeExtensions*), "IsSpecialEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventType>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapEventTypeExtensions::IsLightIntensityChangeEvent
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapEventTypeExtensions::IsLightIntensityChangeEvent
 // Il2CppName: IsLightIntensityChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::BeatmapEventType)>(&BeatmapEventTypeExtensions::IsLightIntensityChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::BeatmapEventType)>(&GlobalNamespace::BeatmapEventTypeExtensions::IsLightIntensityChangeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapEventTypeExtensions*), "IsLightIntensityChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventType>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventTypeExtensions*), "IsLightIntensityChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventType>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapEventTypeExtensions::IsEarlyRotationEvent
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapEventTypeExtensions::IsEarlyRotationEvent
 // Il2CppName: IsEarlyRotationEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::BeatmapEventType)>(&BeatmapEventTypeExtensions::IsEarlyRotationEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::BeatmapEventType)>(&GlobalNamespace::BeatmapEventTypeExtensions::IsEarlyRotationEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapEventTypeExtensions*), "IsEarlyRotationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventType>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventTypeExtensions*), "IsEarlyRotationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventType>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapEventTypeExtensions::IsLateRotationEvent
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapEventTypeExtensions::IsLateRotationEvent
 // Il2CppName: IsLateRotationEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::BeatmapEventType)>(&BeatmapEventTypeExtensions::IsLateRotationEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::BeatmapEventType)>(&GlobalNamespace::BeatmapEventTypeExtensions::IsLateRotationEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapEventTypeExtensions*), "IsLateRotationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventType>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventTypeExtensions*), "IsLateRotationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventType>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapEventTypeExtensions::IsEarlyEvent
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapEventTypeExtensions::IsEarlyEvent
 // Il2CppName: IsEarlyEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::BeatmapEventType)>(&BeatmapEventTypeExtensions::IsEarlyEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::BeatmapEventType)>(&GlobalNamespace::BeatmapEventTypeExtensions::IsEarlyEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapEventTypeExtensions*), "IsEarlyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventType>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventTypeExtensions*), "IsEarlyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventType>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapEventTypeExtensions::IsSpawnAffectingEvent
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapEventTypeExtensions::IsSpawnAffectingEvent
 // Il2CppName: IsSpawnAffectingEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::BeatmapEventType)>(&BeatmapEventTypeExtensions::IsSpawnAffectingEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::BeatmapEventType)>(&GlobalNamespace::BeatmapEventTypeExtensions::IsSpawnAffectingEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapEventTypeExtensions*), "IsSpawnAffectingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventType>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventTypeExtensions*), "IsSpawnAffectingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventType>()});
   }
 };

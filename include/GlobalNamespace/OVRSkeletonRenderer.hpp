@@ -327,137 +327,137 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeletonRenderer*, "", "OVRSkeletonRenderer");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeletonRenderer::ConfidenceBehavior, "", "OVRSkeletonRenderer/ConfidenceBehavior");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeletonRenderer::SystemGestureBehavior, "", "OVRSkeletonRenderer/SystemGestureBehavior");
-// Writing MetadataGetter for method: OVRSkeletonRenderer::get_IsInitialized
+// Writing MetadataGetter for method: GlobalNamespace::OVRSkeletonRenderer::get_IsInitialized
 // Il2CppName: get_IsInitialized
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRSkeletonRenderer::*)()>(&OVRSkeletonRenderer::get_IsInitialized)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRSkeletonRenderer::*)()>(&GlobalNamespace::OVRSkeletonRenderer::get_IsInitialized)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSkeletonRenderer*), "get_IsInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSkeletonRenderer*), "get_IsInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRSkeletonRenderer::set_IsInitialized
+// Writing MetadataGetter for method: GlobalNamespace::OVRSkeletonRenderer::set_IsInitialized
 // Il2CppName: set_IsInitialized
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSkeletonRenderer::*)(bool)>(&OVRSkeletonRenderer::set_IsInitialized)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRSkeletonRenderer::*)(bool)>(&GlobalNamespace::OVRSkeletonRenderer::set_IsInitialized)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSkeletonRenderer*), "set_IsInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSkeletonRenderer*), "set_IsInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: OVRSkeletonRenderer::get_IsDataValid
+// Writing MetadataGetter for method: GlobalNamespace::OVRSkeletonRenderer::get_IsDataValid
 // Il2CppName: get_IsDataValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRSkeletonRenderer::*)()>(&OVRSkeletonRenderer::get_IsDataValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRSkeletonRenderer::*)()>(&GlobalNamespace::OVRSkeletonRenderer::get_IsDataValid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSkeletonRenderer*), "get_IsDataValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSkeletonRenderer*), "get_IsDataValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRSkeletonRenderer::set_IsDataValid
+// Writing MetadataGetter for method: GlobalNamespace::OVRSkeletonRenderer::set_IsDataValid
 // Il2CppName: set_IsDataValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSkeletonRenderer::*)(bool)>(&OVRSkeletonRenderer::set_IsDataValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRSkeletonRenderer::*)(bool)>(&GlobalNamespace::OVRSkeletonRenderer::set_IsDataValid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSkeletonRenderer*), "set_IsDataValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSkeletonRenderer*), "set_IsDataValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: OVRSkeletonRenderer::get_IsDataHighConfidence
+// Writing MetadataGetter for method: GlobalNamespace::OVRSkeletonRenderer::get_IsDataHighConfidence
 // Il2CppName: get_IsDataHighConfidence
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRSkeletonRenderer::*)()>(&OVRSkeletonRenderer::get_IsDataHighConfidence)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRSkeletonRenderer::*)()>(&GlobalNamespace::OVRSkeletonRenderer::get_IsDataHighConfidence)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSkeletonRenderer*), "get_IsDataHighConfidence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSkeletonRenderer*), "get_IsDataHighConfidence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRSkeletonRenderer::set_IsDataHighConfidence
+// Writing MetadataGetter for method: GlobalNamespace::OVRSkeletonRenderer::set_IsDataHighConfidence
 // Il2CppName: set_IsDataHighConfidence
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSkeletonRenderer::*)(bool)>(&OVRSkeletonRenderer::set_IsDataHighConfidence)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRSkeletonRenderer::*)(bool)>(&GlobalNamespace::OVRSkeletonRenderer::set_IsDataHighConfidence)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSkeletonRenderer*), "set_IsDataHighConfidence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSkeletonRenderer*), "set_IsDataHighConfidence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: OVRSkeletonRenderer::get_ShouldUseSystemGestureMaterial
+// Writing MetadataGetter for method: GlobalNamespace::OVRSkeletonRenderer::get_ShouldUseSystemGestureMaterial
 // Il2CppName: get_ShouldUseSystemGestureMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRSkeletonRenderer::*)()>(&OVRSkeletonRenderer::get_ShouldUseSystemGestureMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRSkeletonRenderer::*)()>(&GlobalNamespace::OVRSkeletonRenderer::get_ShouldUseSystemGestureMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSkeletonRenderer*), "get_ShouldUseSystemGestureMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSkeletonRenderer*), "get_ShouldUseSystemGestureMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRSkeletonRenderer::set_ShouldUseSystemGestureMaterial
+// Writing MetadataGetter for method: GlobalNamespace::OVRSkeletonRenderer::set_ShouldUseSystemGestureMaterial
 // Il2CppName: set_ShouldUseSystemGestureMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSkeletonRenderer::*)(bool)>(&OVRSkeletonRenderer::set_ShouldUseSystemGestureMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRSkeletonRenderer::*)(bool)>(&GlobalNamespace::OVRSkeletonRenderer::set_ShouldUseSystemGestureMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSkeletonRenderer*), "set_ShouldUseSystemGestureMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSkeletonRenderer*), "set_ShouldUseSystemGestureMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: OVRSkeletonRenderer::Awake
+// Writing MetadataGetter for method: GlobalNamespace::OVRSkeletonRenderer::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSkeletonRenderer::*)()>(&OVRSkeletonRenderer::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRSkeletonRenderer::*)()>(&GlobalNamespace::OVRSkeletonRenderer::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSkeletonRenderer*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSkeletonRenderer*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRSkeletonRenderer::Start
+// Writing MetadataGetter for method: GlobalNamespace::OVRSkeletonRenderer::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSkeletonRenderer::*)()>(&OVRSkeletonRenderer::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRSkeletonRenderer::*)()>(&GlobalNamespace::OVRSkeletonRenderer::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSkeletonRenderer*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSkeletonRenderer*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRSkeletonRenderer::ShouldInitialize
+// Writing MetadataGetter for method: GlobalNamespace::OVRSkeletonRenderer::ShouldInitialize
 // Il2CppName: ShouldInitialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRSkeletonRenderer::*)()>(&OVRSkeletonRenderer::ShouldInitialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRSkeletonRenderer::*)()>(&GlobalNamespace::OVRSkeletonRenderer::ShouldInitialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSkeletonRenderer*), "ShouldInitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSkeletonRenderer*), "ShouldInitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRSkeletonRenderer::Initialize
+// Writing MetadataGetter for method: GlobalNamespace::OVRSkeletonRenderer::Initialize
 // Il2CppName: Initialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSkeletonRenderer::*)()>(&OVRSkeletonRenderer::Initialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRSkeletonRenderer::*)()>(&GlobalNamespace::OVRSkeletonRenderer::Initialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSkeletonRenderer*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSkeletonRenderer*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRSkeletonRenderer::Update
+// Writing MetadataGetter for method: GlobalNamespace::OVRSkeletonRenderer::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSkeletonRenderer::*)()>(&OVRSkeletonRenderer::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRSkeletonRenderer::*)()>(&GlobalNamespace::OVRSkeletonRenderer::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSkeletonRenderer*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSkeletonRenderer*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRSkeletonRenderer::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::OVRSkeletonRenderer::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSkeletonRenderer::*)()>(&OVRSkeletonRenderer::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRSkeletonRenderer::*)()>(&GlobalNamespace::OVRSkeletonRenderer::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSkeletonRenderer*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSkeletonRenderer*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRSkeletonRenderer::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::OVRSkeletonRenderer::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSkeletonRenderer::*)()>(&OVRSkeletonRenderer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRSkeletonRenderer::*)()>(&GlobalNamespace::OVRSkeletonRenderer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSkeletonRenderer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSkeletonRenderer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSkeletonRenderer::*)()>(&OVRSkeletonRenderer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRSkeletonRenderer::*)()>(&GlobalNamespace::OVRSkeletonRenderer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSkeletonRenderer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSkeletonRenderer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRSkeletonRenderer::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::OVRSkeletonRenderer::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRSkeletonRenderer::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRSkeletonRenderer::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSkeletonRenderer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSkeletonRenderer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

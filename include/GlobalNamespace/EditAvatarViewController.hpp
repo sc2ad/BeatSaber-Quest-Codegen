@@ -563,351 +563,351 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarViewController*, "", "EditAvatarViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarViewController::AvatarEditPart, "", "EditAvatarViewController/AvatarEditPart");
-// Writing MetadataGetter for method: EditAvatarViewController::add_didFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(System::Action*)>(&EditAvatarViewController::add_didFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)(System::Action*)>(&GlobalNamespace::EditAvatarViewController::add_didFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::remove_didFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::remove_didFinishEvent
 // Il2CppName: remove_didFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(System::Action*)>(&EditAvatarViewController::remove_didFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)(System::Action*)>(&GlobalNamespace::EditAvatarViewController::remove_didFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::add_didRequestColorChangeEvent
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::add_didRequestColorChangeEvent
 // Il2CppName: add_didRequestColorChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(System::Action_4<System::Action_1<UnityEngine::Color>*, UnityEngine::Color, GlobalNamespace::EditAvatarViewController::AvatarEditPart, int>*)>(&EditAvatarViewController::add_didRequestColorChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)(System::Action_4<System::Action_1<UnityEngine::Color>*, UnityEngine::Color, GlobalNamespace::EditAvatarViewController::AvatarEditPart, int>*)>(&GlobalNamespace::EditAvatarViewController::add_didRequestColorChangeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "add_didRequestColorChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_4<System::Action_1<UnityEngine::Color>*, UnityEngine::Color, GlobalNamespace::EditAvatarViewController::AvatarEditPart, int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "add_didRequestColorChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_4<System::Action_1<UnityEngine::Color>*, UnityEngine::Color, GlobalNamespace::EditAvatarViewController::AvatarEditPart, int>*>()});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::remove_didRequestColorChangeEvent
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::remove_didRequestColorChangeEvent
 // Il2CppName: remove_didRequestColorChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(System::Action_4<System::Action_1<UnityEngine::Color>*, UnityEngine::Color, GlobalNamespace::EditAvatarViewController::AvatarEditPart, int>*)>(&EditAvatarViewController::remove_didRequestColorChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)(System::Action_4<System::Action_1<UnityEngine::Color>*, UnityEngine::Color, GlobalNamespace::EditAvatarViewController::AvatarEditPart, int>*)>(&GlobalNamespace::EditAvatarViewController::remove_didRequestColorChangeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "remove_didRequestColorChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_4<System::Action_1<UnityEngine::Color>*, UnityEngine::Color, GlobalNamespace::EditAvatarViewController::AvatarEditPart, int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "remove_didRequestColorChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_4<System::Action_1<UnityEngine::Color>*, UnityEngine::Color, GlobalNamespace::EditAvatarViewController::AvatarEditPart, int>*>()});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::add_didChangedAvatarPartEvent
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::add_didChangedAvatarPartEvent
 // Il2CppName: add_didChangedAvatarPartEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(System::Action_1<GlobalNamespace::EditAvatarViewController::AvatarEditPart>*)>(&EditAvatarViewController::add_didChangedAvatarPartEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)(System::Action_1<GlobalNamespace::EditAvatarViewController::AvatarEditPart>*)>(&GlobalNamespace::EditAvatarViewController::add_didChangedAvatarPartEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "add_didChangedAvatarPartEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::EditAvatarViewController::AvatarEditPart>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "add_didChangedAvatarPartEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::EditAvatarViewController::AvatarEditPart>*>()});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::remove_didChangedAvatarPartEvent
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::remove_didChangedAvatarPartEvent
 // Il2CppName: remove_didChangedAvatarPartEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(System::Action_1<GlobalNamespace::EditAvatarViewController::AvatarEditPart>*)>(&EditAvatarViewController::remove_didChangedAvatarPartEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)(System::Action_1<GlobalNamespace::EditAvatarViewController::AvatarEditPart>*)>(&GlobalNamespace::EditAvatarViewController::remove_didChangedAvatarPartEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "remove_didChangedAvatarPartEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::EditAvatarViewController::AvatarEditPart>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "remove_didChangedAvatarPartEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::EditAvatarViewController::AvatarEditPart>*>()});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::Setup
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::Setup
 // Il2CppName: Setup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(bool)>(&EditAvatarViewController::Setup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)(bool)>(&GlobalNamespace::EditAvatarViewController::Setup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::InitHistory
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::InitHistory
 // Il2CppName: InitHistory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)()>(&EditAvatarViewController::InitHistory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)()>(&GlobalNamespace::EditAvatarViewController::InitHistory)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "InitHistory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "InitHistory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::DiscardLastEdit
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::DiscardLastEdit
 // Il2CppName: DiscardLastEdit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)()>(&EditAvatarViewController::DiscardLastEdit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)()>(&GlobalNamespace::EditAvatarViewController::DiscardLastEdit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "DiscardLastEdit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "DiscardLastEdit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::Update
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)()>(&EditAvatarViewController::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)()>(&GlobalNamespace::EditAvatarViewController::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::RefreshUi
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::RefreshUi
 // Il2CppName: RefreshUi
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)()>(&EditAvatarViewController::RefreshUi)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)()>(&GlobalNamespace::EditAvatarViewController::RefreshUi)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "RefreshUi", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "RefreshUi", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::UpdateButtons
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::UpdateButtons
 // Il2CppName: UpdateButtons
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)()>(&EditAvatarViewController::UpdateButtons)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)()>(&GlobalNamespace::EditAvatarViewController::UpdateButtons)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "UpdateButtons", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "UpdateButtons", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::HandleSkinColorDidChanged
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::HandleSkinColorDidChanged
 // Il2CppName: HandleSkinColorDidChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(int)>(&EditAvatarViewController::HandleSkinColorDidChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)(int)>(&GlobalNamespace::EditAvatarViewController::HandleSkinColorDidChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "HandleSkinColorDidChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "HandleSkinColorDidChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::EyesValuePickerHasChanged
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::EyesValuePickerHasChanged
 // Il2CppName: EyesValuePickerHasChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(::Il2CppString*)>(&EditAvatarViewController::EyesValuePickerHasChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)(::Il2CppString*)>(&GlobalNamespace::EditAvatarViewController::EyesValuePickerHasChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "EyesValuePickerHasChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "EyesValuePickerHasChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::HandleUndoButtonWasPressed
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::HandleUndoButtonWasPressed
 // Il2CppName: HandleUndoButtonWasPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)()>(&EditAvatarViewController::HandleUndoButtonWasPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)()>(&GlobalNamespace::EditAvatarViewController::HandleUndoButtonWasPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "HandleUndoButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "HandleUndoButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::HandleRedoButtonWasPressed
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::HandleRedoButtonWasPressed
 // Il2CppName: HandleRedoButtonWasPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)()>(&EditAvatarViewController::HandleRedoButtonWasPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)()>(&GlobalNamespace::EditAvatarViewController::HandleRedoButtonWasPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "HandleRedoButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "HandleRedoButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::HandleRandomizeAllButtonWasPressed
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::HandleRandomizeAllButtonWasPressed
 // Il2CppName: HandleRandomizeAllButtonWasPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)()>(&EditAvatarViewController::HandleRandomizeAllButtonWasPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)()>(&GlobalNamespace::EditAvatarViewController::HandleRandomizeAllButtonWasPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "HandleRandomizeAllButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "HandleRandomizeAllButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::HandleRandomizeModelsButtonWasPressed
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::HandleRandomizeModelsButtonWasPressed
 // Il2CppName: HandleRandomizeModelsButtonWasPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)()>(&EditAvatarViewController::HandleRandomizeModelsButtonWasPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)()>(&GlobalNamespace::EditAvatarViewController::HandleRandomizeModelsButtonWasPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "HandleRandomizeModelsButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "HandleRandomizeModelsButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::HandleRandomizeColorsButtonWasPressed
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::HandleRandomizeColorsButtonWasPressed
 // Il2CppName: HandleRandomizeColorsButtonWasPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)()>(&EditAvatarViewController::HandleRandomizeColorsButtonWasPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)()>(&GlobalNamespace::EditAvatarViewController::HandleRandomizeColorsButtonWasPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "HandleRandomizeColorsButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "HandleRandomizeColorsButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::ReportAllChangedAndUpdate
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::ReportAllChangedAndUpdate
 // Il2CppName: ReportAllChangedAndUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)()>(&EditAvatarViewController::ReportAllChangedAndUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)()>(&GlobalNamespace::EditAvatarViewController::ReportAllChangedAndUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "ReportAllChangedAndUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "ReportAllChangedAndUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::HandleApplyButtonWasPressed
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::HandleApplyButtonWasPressed
 // Il2CppName: HandleApplyButtonWasPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)()>(&EditAvatarViewController::HandleApplyButtonWasPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)()>(&GlobalNamespace::EditAvatarViewController::HandleApplyButtonWasPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "HandleApplyButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "HandleApplyButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::SaveAvatarAndFinish
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::SaveAvatarAndFinish
 // Il2CppName: SaveAvatarAndFinish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)()>(&EditAvatarViewController::SaveAvatarAndFinish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)()>(&GlobalNamespace::EditAvatarViewController::SaveAvatarAndFinish)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "SaveAvatarAndFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "SaveAvatarAndFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::HandleCancelButtonWasPressed
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::HandleCancelButtonWasPressed
 // Il2CppName: HandleCancelButtonWasPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)()>(&EditAvatarViewController::HandleCancelButtonWasPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)()>(&GlobalNamespace::EditAvatarViewController::HandleCancelButtonWasPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "HandleCancelButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "HandleCancelButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::CreateTextValuePairsForAvatarPartCollection
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::CreateTextValuePairsForAvatarPartCollection
 // Il2CppName: CreateTextValuePairsForAvatarPartCollection
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: EditAvatarViewController::CreateColorValuePairsForAvatarPartCollection
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::CreateColorValuePairsForAvatarPartCollection
 // Il2CppName: CreateColorValuePairsForAvatarPartCollection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::NamedColorListController::ColorValuePair*>* (EditAvatarViewController::*)(::Array<GlobalNamespace::SkinColorSO*>*)>(&EditAvatarViewController::CreateColorValuePairsForAvatarPartCollection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::NamedColorListController::ColorValuePair*>* (GlobalNamespace::EditAvatarViewController::*)(::Array<GlobalNamespace::SkinColorSO*>*)>(&GlobalNamespace::EditAvatarViewController::CreateColorValuePairsForAvatarPartCollection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "CreateColorValuePairsForAvatarPartCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::SkinColorSO*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "CreateColorValuePairsForAvatarPartCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::SkinColorSO*>*>()});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::SetupColorButton
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::SetupColorButton
 // Il2CppName: SetupColorButton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(UnityEngine::UI::Button*, System::Action_1<UnityEngine::Color>*, System::Func_1<UnityEngine::Color>*, GlobalNamespace::EditAvatarViewController::AvatarEditPart, int)>(&EditAvatarViewController::SetupColorButton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)(UnityEngine::UI::Button*, System::Action_1<UnityEngine::Color>*, System::Func_1<UnityEngine::Color>*, GlobalNamespace::EditAvatarViewController::AvatarEditPart, int)>(&GlobalNamespace::EditAvatarViewController::SetupColorButton)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "SetupColorButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Button*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Color>*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_1<UnityEngine::Color>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EditAvatarViewController::AvatarEditPart>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "SetupColorButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Button*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Color>*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_1<UnityEngine::Color>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EditAvatarViewController::AvatarEditPart>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::SetupValuePicker
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::SetupValuePicker
 // Il2CppName: SetupValuePicker
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: EditAvatarViewController::$DidActivate$b__40_0
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::$DidActivate$b__40_0
 // Il2CppName: <DidActivate>b__40_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(UnityEngine::Color)>(&EditAvatarViewController::$DidActivate$b__40_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)(UnityEngine::Color)>(&GlobalNamespace::EditAvatarViewController::$DidActivate$b__40_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "<DidActivate>b__40_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "<DidActivate>b__40_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::$DidActivate$b__40_1
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::$DidActivate$b__40_1
 // Il2CppName: <DidActivate>b__40_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (EditAvatarViewController::*)()>(&EditAvatarViewController::$DidActivate$b__40_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::EditAvatarViewController::*)()>(&GlobalNamespace::EditAvatarViewController::$DidActivate$b__40_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "<DidActivate>b__40_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "<DidActivate>b__40_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::$DidActivate$b__40_2
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::$DidActivate$b__40_2
 // Il2CppName: <DidActivate>b__40_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(UnityEngine::Color)>(&EditAvatarViewController::$DidActivate$b__40_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)(UnityEngine::Color)>(&GlobalNamespace::EditAvatarViewController::$DidActivate$b__40_2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "<DidActivate>b__40_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "<DidActivate>b__40_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::$DidActivate$b__40_3
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::$DidActivate$b__40_3
 // Il2CppName: <DidActivate>b__40_3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (EditAvatarViewController::*)()>(&EditAvatarViewController::$DidActivate$b__40_3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::EditAvatarViewController::*)()>(&GlobalNamespace::EditAvatarViewController::$DidActivate$b__40_3)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "<DidActivate>b__40_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "<DidActivate>b__40_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::$DidActivate$b__40_4
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::$DidActivate$b__40_4
 // Il2CppName: <DidActivate>b__40_4
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(UnityEngine::Color)>(&EditAvatarViewController::$DidActivate$b__40_4)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)(UnityEngine::Color)>(&GlobalNamespace::EditAvatarViewController::$DidActivate$b__40_4)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "<DidActivate>b__40_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "<DidActivate>b__40_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::$DidActivate$b__40_5
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::$DidActivate$b__40_5
 // Il2CppName: <DidActivate>b__40_5
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (EditAvatarViewController::*)()>(&EditAvatarViewController::$DidActivate$b__40_5)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::EditAvatarViewController::*)()>(&GlobalNamespace::EditAvatarViewController::$DidActivate$b__40_5)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "<DidActivate>b__40_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "<DidActivate>b__40_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::$DidActivate$b__40_6
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::$DidActivate$b__40_6
 // Il2CppName: <DidActivate>b__40_6
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(UnityEngine::Color)>(&EditAvatarViewController::$DidActivate$b__40_6)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)(UnityEngine::Color)>(&GlobalNamespace::EditAvatarViewController::$DidActivate$b__40_6)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "<DidActivate>b__40_6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "<DidActivate>b__40_6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::$DidActivate$b__40_7
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::$DidActivate$b__40_7
 // Il2CppName: <DidActivate>b__40_7
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (EditAvatarViewController::*)()>(&EditAvatarViewController::$DidActivate$b__40_7)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::EditAvatarViewController::*)()>(&GlobalNamespace::EditAvatarViewController::$DidActivate$b__40_7)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "<DidActivate>b__40_7", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "<DidActivate>b__40_7", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::$DidActivate$b__40_8
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::$DidActivate$b__40_8
 // Il2CppName: <DidActivate>b__40_8
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(UnityEngine::Color)>(&EditAvatarViewController::$DidActivate$b__40_8)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)(UnityEngine::Color)>(&GlobalNamespace::EditAvatarViewController::$DidActivate$b__40_8)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "<DidActivate>b__40_8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "<DidActivate>b__40_8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::$DidActivate$b__40_9
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::$DidActivate$b__40_9
 // Il2CppName: <DidActivate>b__40_9
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (EditAvatarViewController::*)()>(&EditAvatarViewController::$DidActivate$b__40_9)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::EditAvatarViewController::*)()>(&GlobalNamespace::EditAvatarViewController::$DidActivate$b__40_9)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "<DidActivate>b__40_9", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "<DidActivate>b__40_9", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::$DidActivate$b__40_10
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::$DidActivate$b__40_10
 // Il2CppName: <DidActivate>b__40_10
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(UnityEngine::Color)>(&EditAvatarViewController::$DidActivate$b__40_10)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)(UnityEngine::Color)>(&GlobalNamespace::EditAvatarViewController::$DidActivate$b__40_10)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "<DidActivate>b__40_10", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "<DidActivate>b__40_10", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::$DidActivate$b__40_11
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::$DidActivate$b__40_11
 // Il2CppName: <DidActivate>b__40_11
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (EditAvatarViewController::*)()>(&EditAvatarViewController::$DidActivate$b__40_11)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::EditAvatarViewController::*)()>(&GlobalNamespace::EditAvatarViewController::$DidActivate$b__40_11)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "<DidActivate>b__40_11", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "<DidActivate>b__40_11", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::$DidActivate$b__40_12
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::$DidActivate$b__40_12
 // Il2CppName: <DidActivate>b__40_12
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(::Il2CppString*)>(&EditAvatarViewController::$DidActivate$b__40_12)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)(::Il2CppString*)>(&GlobalNamespace::EditAvatarViewController::$DidActivate$b__40_12)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "<DidActivate>b__40_12", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "<DidActivate>b__40_12", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::$DidActivate$b__40_13
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::$DidActivate$b__40_13
 // Il2CppName: <DidActivate>b__40_13
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(::Il2CppString*)>(&EditAvatarViewController::$DidActivate$b__40_13)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)(::Il2CppString*)>(&GlobalNamespace::EditAvatarViewController::$DidActivate$b__40_13)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "<DidActivate>b__40_13", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "<DidActivate>b__40_13", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::$DidActivate$b__40_14
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::$DidActivate$b__40_14
 // Il2CppName: <DidActivate>b__40_14
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(::Il2CppString*)>(&EditAvatarViewController::$DidActivate$b__40_14)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)(::Il2CppString*)>(&GlobalNamespace::EditAvatarViewController::$DidActivate$b__40_14)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "<DidActivate>b__40_14", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "<DidActivate>b__40_14", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::DidActivate
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)(bool, bool, bool)>(&EditAvatarViewController::DidActivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)(bool, bool, bool)>(&GlobalNamespace::EditAvatarViewController::DidActivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: EditAvatarViewController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)()>(&EditAvatarViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)()>(&GlobalNamespace::EditAvatarViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditAvatarViewController::*)()>(&EditAvatarViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarViewController::*)()>(&GlobalNamespace::EditAvatarViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditAvatarViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

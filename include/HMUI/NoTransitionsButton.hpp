@@ -133,49 +133,49 @@ namespace HMUI {
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NoTransitionsButton*, "HMUI", "NoTransitionsButton");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NoTransitionsButton::SelectionState, "HMUI", "NoTransitionsButton/SelectionState");
-// Writing MetadataGetter for method: NoTransitionsButton::get_selectionState
+// Writing MetadataGetter for method: HMUI::NoTransitionsButton::get_selectionState
 // Il2CppName: get_selectionState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::NoTransitionsButton::SelectionState (NoTransitionsButton::*)()>(&NoTransitionsButton::get_selectionState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::NoTransitionsButton::SelectionState (HMUI::NoTransitionsButton::*)()>(&HMUI::NoTransitionsButton::get_selectionState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoTransitionsButton*), "get_selectionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::NoTransitionsButton*), "get_selectionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NoTransitionsButton::add_selectionStateDidChangeEvent
+// Writing MetadataGetter for method: HMUI::NoTransitionsButton::add_selectionStateDidChangeEvent
 // Il2CppName: add_selectionStateDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoTransitionsButton::*)(System::Action_1<HMUI::NoTransitionsButton::SelectionState>*)>(&NoTransitionsButton::add_selectionStateDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::NoTransitionsButton::*)(System::Action_1<HMUI::NoTransitionsButton::SelectionState>*)>(&HMUI::NoTransitionsButton::add_selectionStateDidChangeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoTransitionsButton*), "add_selectionStateDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<HMUI::NoTransitionsButton::SelectionState>*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::NoTransitionsButton*), "add_selectionStateDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<HMUI::NoTransitionsButton::SelectionState>*>()});
   }
 };
-// Writing MetadataGetter for method: NoTransitionsButton::remove_selectionStateDidChangeEvent
+// Writing MetadataGetter for method: HMUI::NoTransitionsButton::remove_selectionStateDidChangeEvent
 // Il2CppName: remove_selectionStateDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoTransitionsButton::*)(System::Action_1<HMUI::NoTransitionsButton::SelectionState>*)>(&NoTransitionsButton::remove_selectionStateDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::NoTransitionsButton::*)(System::Action_1<HMUI::NoTransitionsButton::SelectionState>*)>(&HMUI::NoTransitionsButton::remove_selectionStateDidChangeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoTransitionsButton*), "remove_selectionStateDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<HMUI::NoTransitionsButton::SelectionState>*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::NoTransitionsButton*), "remove_selectionStateDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<HMUI::NoTransitionsButton::SelectionState>*>()});
   }
 };
-// Writing MetadataGetter for method: NoTransitionsButton::DoStateTransition
+// Writing MetadataGetter for method: HMUI::NoTransitionsButton::DoStateTransition
 // Il2CppName: DoStateTransition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoTransitionsButton::*)(UnityEngine::UI::Selectable::SelectionState, bool)>(&NoTransitionsButton::DoStateTransition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::NoTransitionsButton::*)(UnityEngine::UI::Selectable::SelectionState, bool)>(&HMUI::NoTransitionsButton::DoStateTransition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoTransitionsButton*), "DoStateTransition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Selectable::SelectionState>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::NoTransitionsButton*), "DoStateTransition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Selectable::SelectionState>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: NoTransitionsButton::New_ctor
+// Writing MetadataGetter for method: HMUI::NoTransitionsButton::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoTransitionsButton::*)()>(&NoTransitionsButton::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::NoTransitionsButton::*)()>(&HMUI::NoTransitionsButton::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoTransitionsButton*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::NoTransitionsButton*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoTransitionsButton::*)()>(&NoTransitionsButton::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::NoTransitionsButton::*)()>(&HMUI::NoTransitionsButton::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoTransitionsButton*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::NoTransitionsButton*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -59,25 +59,25 @@ namespace SabersHotSwapping {
   static_assert(sizeof(SaberModelInstaller) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(SabersHotSwapping::SaberModelInstaller*, "SabersHotSwapping", "SaberModelInstaller");
-// Writing MetadataGetter for method: SaberModelInstaller::InstallBindings
+// Writing MetadataGetter for method: SabersHotSwapping::SaberModelInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberModelInstaller::*)()>(&SaberModelInstaller::InstallBindings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SabersHotSwapping::SaberModelInstaller::*)()>(&SabersHotSwapping::SaberModelInstaller::InstallBindings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberModelInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(SabersHotSwapping::SaberModelInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SaberModelInstaller::New_ctor
+// Writing MetadataGetter for method: SabersHotSwapping::SaberModelInstaller::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberModelInstaller::*)()>(&SaberModelInstaller::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SabersHotSwapping::SaberModelInstaller::*)()>(&SabersHotSwapping::SaberModelInstaller::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberModelInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(SabersHotSwapping::SaberModelInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberModelInstaller::*)()>(&SaberModelInstaller::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SabersHotSwapping::SaberModelInstaller::*)()>(&SabersHotSwapping::SaberModelInstaller::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberModelInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(SabersHotSwapping::SaberModelInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

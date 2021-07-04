@@ -90,33 +90,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameServersFilterText) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServersFilterText*, "", "GameServersFilterText");
-// Writing MetadataGetter for method: GameServersFilterText::Setup
+// Writing MetadataGetter for method: GlobalNamespace::GameServersFilterText::Setup
 // Il2CppName: Setup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServersFilterText::*)(GlobalNamespace::GameServersFilter*)>(&GameServersFilterText::Setup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServersFilterText::*)(GlobalNamespace::GameServersFilter*)>(&GlobalNamespace::GameServersFilterText::Setup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameServersFilterText*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameServersFilter*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServersFilterText*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameServersFilter*>()});
   }
 };
-// Writing MetadataGetter for method: GameServersFilterText::Setup
+// Writing MetadataGetter for method: GlobalNamespace::GameServersFilterText::Setup
 // Il2CppName: Setup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServersFilterText::*)(GlobalNamespace::BeatmapDifficultyMask, GlobalNamespace::SongPackMask)>(&GameServersFilterText::Setup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServersFilterText::*)(GlobalNamespace::BeatmapDifficultyMask, GlobalNamespace::SongPackMask)>(&GlobalNamespace::GameServersFilterText::Setup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameServersFilterText*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficultyMask>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServersFilterText*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficultyMask>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask>()});
   }
 };
-// Writing MetadataGetter for method: GameServersFilterText::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::GameServersFilterText::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServersFilterText::*)()>(&GameServersFilterText::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServersFilterText::*)()>(&GlobalNamespace::GameServersFilterText::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameServersFilterText*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServersFilterText*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameServersFilterText::*)()>(&GameServersFilterText::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServersFilterText::*)()>(&GlobalNamespace::GameServersFilterText::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameServersFilterText*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServersFilterText*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

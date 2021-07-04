@@ -84,57 +84,57 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerDuelConnectedPlayerGameplayAnimator) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator*, "", "MultiplayerDuelConnectedPlayerGameplayAnimator");
-// Writing MetadataGetter for method: MultiplayerDuelConnectedPlayerGameplayAnimator::TransitionIntoFailedState
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::TransitionIntoFailedState
 // Il2CppName: TransitionIntoFailedState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerDuelConnectedPlayerGameplayAnimator::*)()>(&MultiplayerDuelConnectedPlayerGameplayAnimator::TransitionIntoFailedState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::*)()>(&GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::TransitionIntoFailedState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerDuelConnectedPlayerGameplayAnimator*), "TransitionIntoFailedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator*), "TransitionIntoFailedState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerDuelConnectedPlayerGameplayAnimator::HandlePlayerDidFail
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::HandlePlayerDidFail
 // Il2CppName: HandlePlayerDidFail
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerDuelConnectedPlayerGameplayAnimator::*)()>(&MultiplayerDuelConnectedPlayerGameplayAnimator::HandlePlayerDidFail)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::*)()>(&GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::HandlePlayerDidFail)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerDuelConnectedPlayerGameplayAnimator*), "HandlePlayerDidFail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator*), "HandlePlayerDidFail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerDuelConnectedPlayerGameplayAnimator::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerDuelConnectedPlayerGameplayAnimator::*)()>(&MultiplayerDuelConnectedPlayerGameplayAnimator::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::*)()>(&GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerDuelConnectedPlayerGameplayAnimator*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerDuelConnectedPlayerGameplayAnimator::AnimateNewLeaderSelected
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::AnimateNewLeaderSelected
 // Il2CppName: AnimateNewLeaderSelected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerDuelConnectedPlayerGameplayAnimator::*)(bool)>(&MultiplayerDuelConnectedPlayerGameplayAnimator::AnimateNewLeaderSelected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::*)(bool)>(&GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::AnimateNewLeaderSelected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerDuelConnectedPlayerGameplayAnimator*), "AnimateNewLeaderSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator*), "AnimateNewLeaderSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerDuelConnectedPlayerGameplayAnimator::HandleStateChanged
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::HandleStateChanged
 // Il2CppName: HandleStateChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerDuelConnectedPlayerGameplayAnimator::*)(GlobalNamespace::MultiplayerController::State)>(&MultiplayerDuelConnectedPlayerGameplayAnimator::HandleStateChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::*)(GlobalNamespace::MultiplayerController::State)>(&GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::HandleStateChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerDuelConnectedPlayerGameplayAnimator*), "HandleStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerController::State>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator*), "HandleStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerController::State>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerDuelConnectedPlayerGameplayAnimator::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerDuelConnectedPlayerGameplayAnimator::*)()>(&MultiplayerDuelConnectedPlayerGameplayAnimator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::*)()>(&GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerDuelConnectedPlayerGameplayAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerDuelConnectedPlayerGameplayAnimator::*)()>(&MultiplayerDuelConnectedPlayerGameplayAnimator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::*)()>(&GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerDuelConnectedPlayerGameplayAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

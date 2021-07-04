@@ -48,33 +48,33 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataObstaclesAndBombsTransform*, "", "BeatmapDataObstaclesAndBombsTransform");
-// Writing MetadataGetter for method: BeatmapDataObstaclesAndBombsTransform::CreateTransformedData
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::CreateTransformedData
 // Il2CppName: CreateTransformedData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IReadonlyBeatmapData* (*)(GlobalNamespace::IReadonlyBeatmapData*, GlobalNamespace::GameplayModifiers::EnabledObstacleType, bool)>(&BeatmapDataObstaclesAndBombsTransform::CreateTransformedData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IReadonlyBeatmapData* (*)(GlobalNamespace::IReadonlyBeatmapData*, GlobalNamespace::GameplayModifiers::EnabledObstacleType, bool)>(&GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::CreateTransformedData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapDataObstaclesAndBombsTransform*), "CreateTransformedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IReadonlyBeatmapData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers::EnabledObstacleType>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataObstaclesAndBombsTransform*), "CreateTransformedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IReadonlyBeatmapData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers::EnabledObstacleType>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapDataObstaclesAndBombsTransform::ShouldUseBeatmapObject
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::ShouldUseBeatmapObject
 // Il2CppName: ShouldUseBeatmapObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::BeatmapObjectData*, GlobalNamespace::GameplayModifiers::EnabledObstacleType, bool)>(&BeatmapDataObstaclesAndBombsTransform::ShouldUseBeatmapObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::BeatmapObjectData*, GlobalNamespace::GameplayModifiers::EnabledObstacleType, bool)>(&GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::ShouldUseBeatmapObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapDataObstaclesAndBombsTransform*), "ShouldUseBeatmapObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers::EnabledObstacleType>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataObstaclesAndBombsTransform*), "ShouldUseBeatmapObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapObjectData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers::EnabledObstacleType>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapDataObstaclesAndBombsTransform::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapDataObstaclesAndBombsTransform::*)()>(&BeatmapDataObstaclesAndBombsTransform::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::*)()>(&GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapDataObstaclesAndBombsTransform*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataObstaclesAndBombsTransform*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapDataObstaclesAndBombsTransform::*)()>(&BeatmapDataObstaclesAndBombsTransform::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::*)()>(&GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapDataObstaclesAndBombsTransform*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataObstaclesAndBombsTransform*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

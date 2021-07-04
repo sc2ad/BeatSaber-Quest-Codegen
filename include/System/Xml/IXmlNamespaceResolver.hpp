@@ -27,19 +27,19 @@ namespace System::Xml {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::IXmlNamespaceResolver*, "System.Xml", "IXmlNamespaceResolver");
-// Writing MetadataGetter for method: IXmlNamespaceResolver::LookupNamespace
+// Writing MetadataGetter for method: System::Xml::IXmlNamespaceResolver::LookupNamespace
 // Il2CppName: LookupNamespace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IXmlNamespaceResolver::*)(::Il2CppString*)>(&IXmlNamespaceResolver::LookupNamespace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::IXmlNamespaceResolver::*)(::Il2CppString*)>(&System::Xml::IXmlNamespaceResolver::LookupNamespace)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IXmlNamespaceResolver*), "LookupNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::IXmlNamespaceResolver*), "LookupNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: IXmlNamespaceResolver::LookupPrefix
+// Writing MetadataGetter for method: System::Xml::IXmlNamespaceResolver::LookupPrefix
 // Il2CppName: LookupPrefix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IXmlNamespaceResolver::*)(::Il2CppString*)>(&IXmlNamespaceResolver::LookupPrefix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::IXmlNamespaceResolver::*)(::Il2CppString*)>(&System::Xml::IXmlNamespaceResolver::LookupPrefix)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IXmlNamespaceResolver*), "LookupPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::IXmlNamespaceResolver*), "LookupPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };

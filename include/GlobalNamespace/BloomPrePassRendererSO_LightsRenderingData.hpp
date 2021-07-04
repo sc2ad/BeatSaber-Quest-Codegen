@@ -72,17 +72,17 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomPrePassRendererSO::LightsRenderingData) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassRendererSO::LightsRenderingData*, "", "BloomPrePassRendererSO/LightsRenderingData");
-// Writing MetadataGetter for method: BloomPrePassRendererSO::LightsRenderingData::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassRendererSO::LightsRenderingData::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassRendererSO::LightsRenderingData::*)()>(&BloomPrePassRendererSO::LightsRenderingData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePassRendererSO::LightsRenderingData::*)()>(&GlobalNamespace::BloomPrePassRendererSO::LightsRenderingData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO::LightsRenderingData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassRendererSO::LightsRenderingData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassRendererSO::LightsRenderingData::*)()>(&BloomPrePassRendererSO::LightsRenderingData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePassRendererSO::LightsRenderingData::*)()>(&GlobalNamespace::BloomPrePassRendererSO::LightsRenderingData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassRendererSO::LightsRenderingData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassRendererSO::LightsRenderingData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

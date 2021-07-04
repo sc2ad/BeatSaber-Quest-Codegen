@@ -53,17 +53,17 @@ namespace System::Collections::Specialized {
   static_assert(sizeof(ListDictionary::DictionaryNode) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::ListDictionary::DictionaryNode*, "System.Collections.Specialized", "ListDictionary/DictionaryNode");
-// Writing MetadataGetter for method: ListDictionary::DictionaryNode::New_ctor
+// Writing MetadataGetter for method: System::Collections::Specialized::ListDictionary::DictionaryNode::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ListDictionary::DictionaryNode::*)()>(&ListDictionary::DictionaryNode::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Specialized::ListDictionary::DictionaryNode::*)()>(&System::Collections::Specialized::ListDictionary::DictionaryNode::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ListDictionary::DictionaryNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::ListDictionary::DictionaryNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ListDictionary::DictionaryNode::*)()>(&ListDictionary::DictionaryNode::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Specialized::ListDictionary::DictionaryNode::*)()>(&System::Collections::Specialized::ListDictionary::DictionaryNode::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ListDictionary::DictionaryNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::ListDictionary::DictionaryNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

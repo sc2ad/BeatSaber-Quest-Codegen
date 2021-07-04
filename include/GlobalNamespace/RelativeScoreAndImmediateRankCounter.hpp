@@ -130,97 +130,97 @@ namespace GlobalNamespace {
   static_assert(sizeof(RelativeScoreAndImmediateRankCounter) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RelativeScoreAndImmediateRankCounter*, "", "RelativeScoreAndImmediateRankCounter");
-// Writing MetadataGetter for method: RelativeScoreAndImmediateRankCounter::add_relativeScoreOrImmediateRankDidChangeEvent
+// Writing MetadataGetter for method: GlobalNamespace::RelativeScoreAndImmediateRankCounter::add_relativeScoreOrImmediateRankDidChangeEvent
 // Il2CppName: add_relativeScoreOrImmediateRankDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RelativeScoreAndImmediateRankCounter::*)(System::Action*)>(&RelativeScoreAndImmediateRankCounter::add_relativeScoreOrImmediateRankDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)(System::Action*)>(&GlobalNamespace::RelativeScoreAndImmediateRankCounter::add_relativeScoreOrImmediateRankDidChangeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RelativeScoreAndImmediateRankCounter*), "add_relativeScoreOrImmediateRankDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RelativeScoreAndImmediateRankCounter*), "add_relativeScoreOrImmediateRankDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: RelativeScoreAndImmediateRankCounter::remove_relativeScoreOrImmediateRankDidChangeEvent
+// Writing MetadataGetter for method: GlobalNamespace::RelativeScoreAndImmediateRankCounter::remove_relativeScoreOrImmediateRankDidChangeEvent
 // Il2CppName: remove_relativeScoreOrImmediateRankDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RelativeScoreAndImmediateRankCounter::*)(System::Action*)>(&RelativeScoreAndImmediateRankCounter::remove_relativeScoreOrImmediateRankDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)(System::Action*)>(&GlobalNamespace::RelativeScoreAndImmediateRankCounter::remove_relativeScoreOrImmediateRankDidChangeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RelativeScoreAndImmediateRankCounter*), "remove_relativeScoreOrImmediateRankDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RelativeScoreAndImmediateRankCounter*), "remove_relativeScoreOrImmediateRankDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: RelativeScoreAndImmediateRankCounter::get_relativeScore
+// Writing MetadataGetter for method: GlobalNamespace::RelativeScoreAndImmediateRankCounter::get_relativeScore
 // Il2CppName: get_relativeScore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RelativeScoreAndImmediateRankCounter::*)()>(&RelativeScoreAndImmediateRankCounter::get_relativeScore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)()>(&GlobalNamespace::RelativeScoreAndImmediateRankCounter::get_relativeScore)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RelativeScoreAndImmediateRankCounter*), "get_relativeScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RelativeScoreAndImmediateRankCounter*), "get_relativeScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RelativeScoreAndImmediateRankCounter::set_relativeScore
+// Writing MetadataGetter for method: GlobalNamespace::RelativeScoreAndImmediateRankCounter::set_relativeScore
 // Il2CppName: set_relativeScore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RelativeScoreAndImmediateRankCounter::*)(float)>(&RelativeScoreAndImmediateRankCounter::set_relativeScore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)(float)>(&GlobalNamespace::RelativeScoreAndImmediateRankCounter::set_relativeScore)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RelativeScoreAndImmediateRankCounter*), "set_relativeScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RelativeScoreAndImmediateRankCounter*), "set_relativeScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: RelativeScoreAndImmediateRankCounter::get_immediateRank
+// Writing MetadataGetter for method: GlobalNamespace::RelativeScoreAndImmediateRankCounter::get_immediateRank
 // Il2CppName: get_immediateRank
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::RankModel::Rank (RelativeScoreAndImmediateRankCounter::*)()>(&RelativeScoreAndImmediateRankCounter::get_immediateRank)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::RankModel::Rank (GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)()>(&GlobalNamespace::RelativeScoreAndImmediateRankCounter::get_immediateRank)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RelativeScoreAndImmediateRankCounter*), "get_immediateRank", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RelativeScoreAndImmediateRankCounter*), "get_immediateRank", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RelativeScoreAndImmediateRankCounter::set_immediateRank
+// Writing MetadataGetter for method: GlobalNamespace::RelativeScoreAndImmediateRankCounter::set_immediateRank
 // Il2CppName: set_immediateRank
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RelativeScoreAndImmediateRankCounter::*)(GlobalNamespace::RankModel::Rank)>(&RelativeScoreAndImmediateRankCounter::set_immediateRank)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)(GlobalNamespace::RankModel::Rank)>(&GlobalNamespace::RelativeScoreAndImmediateRankCounter::set_immediateRank)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RelativeScoreAndImmediateRankCounter*), "set_immediateRank", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::RankModel::Rank>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RelativeScoreAndImmediateRankCounter*), "set_immediateRank", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::RankModel::Rank>()});
   }
 };
-// Writing MetadataGetter for method: RelativeScoreAndImmediateRankCounter::Start
+// Writing MetadataGetter for method: GlobalNamespace::RelativeScoreAndImmediateRankCounter::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RelativeScoreAndImmediateRankCounter::*)()>(&RelativeScoreAndImmediateRankCounter::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)()>(&GlobalNamespace::RelativeScoreAndImmediateRankCounter::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RelativeScoreAndImmediateRankCounter*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RelativeScoreAndImmediateRankCounter*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RelativeScoreAndImmediateRankCounter::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::RelativeScoreAndImmediateRankCounter::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RelativeScoreAndImmediateRankCounter::*)()>(&RelativeScoreAndImmediateRankCounter::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)()>(&GlobalNamespace::RelativeScoreAndImmediateRankCounter::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RelativeScoreAndImmediateRankCounter*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RelativeScoreAndImmediateRankCounter*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RelativeScoreAndImmediateRankCounter::HandleScoreControllerImmediateMaxPossibleScoreDidChange
+// Writing MetadataGetter for method: GlobalNamespace::RelativeScoreAndImmediateRankCounter::HandleScoreControllerImmediateMaxPossibleScoreDidChange
 // Il2CppName: HandleScoreControllerImmediateMaxPossibleScoreDidChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RelativeScoreAndImmediateRankCounter::*)(int, int)>(&RelativeScoreAndImmediateRankCounter::HandleScoreControllerImmediateMaxPossibleScoreDidChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)(int, int)>(&GlobalNamespace::RelativeScoreAndImmediateRankCounter::HandleScoreControllerImmediateMaxPossibleScoreDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RelativeScoreAndImmediateRankCounter*), "HandleScoreControllerImmediateMaxPossibleScoreDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RelativeScoreAndImmediateRankCounter*), "HandleScoreControllerImmediateMaxPossibleScoreDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: RelativeScoreAndImmediateRankCounter::UpdateRelativeScoreAndImmediateRank
+// Writing MetadataGetter for method: GlobalNamespace::RelativeScoreAndImmediateRankCounter::UpdateRelativeScoreAndImmediateRank
 // Il2CppName: UpdateRelativeScoreAndImmediateRank
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RelativeScoreAndImmediateRankCounter::*)(int, int, int, int)>(&RelativeScoreAndImmediateRankCounter::UpdateRelativeScoreAndImmediateRank)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)(int, int, int, int)>(&GlobalNamespace::RelativeScoreAndImmediateRankCounter::UpdateRelativeScoreAndImmediateRank)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RelativeScoreAndImmediateRankCounter*), "UpdateRelativeScoreAndImmediateRank", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RelativeScoreAndImmediateRankCounter*), "UpdateRelativeScoreAndImmediateRank", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: RelativeScoreAndImmediateRankCounter::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::RelativeScoreAndImmediateRankCounter::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RelativeScoreAndImmediateRankCounter::*)()>(&RelativeScoreAndImmediateRankCounter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)()>(&GlobalNamespace::RelativeScoreAndImmediateRankCounter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RelativeScoreAndImmediateRankCounter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RelativeScoreAndImmediateRankCounter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RelativeScoreAndImmediateRankCounter::*)()>(&RelativeScoreAndImmediateRankCounter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RelativeScoreAndImmediateRankCounter::*)()>(&GlobalNamespace::RelativeScoreAndImmediateRankCounter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RelativeScoreAndImmediateRankCounter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RelativeScoreAndImmediateRankCounter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

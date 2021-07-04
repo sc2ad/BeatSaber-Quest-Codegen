@@ -114,67 +114,67 @@ namespace UnityEngine::Rendering {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::SubMeshDescriptor, "UnityEngine.Rendering", "SubMeshDescriptor");
-// Writing MetadataGetter for method: SubMeshDescriptor::get_bounds
+// Writing MetadataGetter for method: UnityEngine::Rendering::SubMeshDescriptor::get_bounds
 // Il2CppName: get_bounds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (SubMeshDescriptor::*)()>(&SubMeshDescriptor::get_bounds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (UnityEngine::Rendering::SubMeshDescriptor::*)()>(&UnityEngine::Rendering::SubMeshDescriptor::get_bounds)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubMeshDescriptor), "get_bounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::SubMeshDescriptor), "get_bounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SubMeshDescriptor::get_topology
+// Writing MetadataGetter for method: UnityEngine::Rendering::SubMeshDescriptor::get_topology
 // Il2CppName: get_topology
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::MeshTopology (SubMeshDescriptor::*)()>(&SubMeshDescriptor::get_topology)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::MeshTopology (UnityEngine::Rendering::SubMeshDescriptor::*)()>(&UnityEngine::Rendering::SubMeshDescriptor::get_topology)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubMeshDescriptor), "get_topology", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::SubMeshDescriptor), "get_topology", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SubMeshDescriptor::get_indexStart
+// Writing MetadataGetter for method: UnityEngine::Rendering::SubMeshDescriptor::get_indexStart
 // Il2CppName: get_indexStart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SubMeshDescriptor::*)()>(&SubMeshDescriptor::get_indexStart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Rendering::SubMeshDescriptor::*)()>(&UnityEngine::Rendering::SubMeshDescriptor::get_indexStart)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubMeshDescriptor), "get_indexStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::SubMeshDescriptor), "get_indexStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SubMeshDescriptor::get_indexCount
+// Writing MetadataGetter for method: UnityEngine::Rendering::SubMeshDescriptor::get_indexCount
 // Il2CppName: get_indexCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SubMeshDescriptor::*)()>(&SubMeshDescriptor::get_indexCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Rendering::SubMeshDescriptor::*)()>(&UnityEngine::Rendering::SubMeshDescriptor::get_indexCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubMeshDescriptor), "get_indexCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::SubMeshDescriptor), "get_indexCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SubMeshDescriptor::get_baseVertex
+// Writing MetadataGetter for method: UnityEngine::Rendering::SubMeshDescriptor::get_baseVertex
 // Il2CppName: get_baseVertex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SubMeshDescriptor::*)()>(&SubMeshDescriptor::get_baseVertex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Rendering::SubMeshDescriptor::*)()>(&UnityEngine::Rendering::SubMeshDescriptor::get_baseVertex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubMeshDescriptor), "get_baseVertex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::SubMeshDescriptor), "get_baseVertex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SubMeshDescriptor::get_firstVertex
+// Writing MetadataGetter for method: UnityEngine::Rendering::SubMeshDescriptor::get_firstVertex
 // Il2CppName: get_firstVertex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SubMeshDescriptor::*)()>(&SubMeshDescriptor::get_firstVertex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Rendering::SubMeshDescriptor::*)()>(&UnityEngine::Rendering::SubMeshDescriptor::get_firstVertex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubMeshDescriptor), "get_firstVertex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::SubMeshDescriptor), "get_firstVertex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SubMeshDescriptor::get_vertexCount
+// Writing MetadataGetter for method: UnityEngine::Rendering::SubMeshDescriptor::get_vertexCount
 // Il2CppName: get_vertexCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SubMeshDescriptor::*)()>(&SubMeshDescriptor::get_vertexCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Rendering::SubMeshDescriptor::*)()>(&UnityEngine::Rendering::SubMeshDescriptor::get_vertexCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubMeshDescriptor), "get_vertexCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::SubMeshDescriptor), "get_vertexCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SubMeshDescriptor::ToString
+// Writing MetadataGetter for method: UnityEngine::Rendering::SubMeshDescriptor::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SubMeshDescriptor::*)()>(&SubMeshDescriptor::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Rendering::SubMeshDescriptor::*)()>(&UnityEngine::Rendering::SubMeshDescriptor::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubMeshDescriptor), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::SubMeshDescriptor), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

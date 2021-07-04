@@ -106,65 +106,65 @@ namespace MasterServer {
   static_assert(sizeof(ServerCertificateRequest) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ServerCertificateRequest*, "MasterServer", "ServerCertificateRequest");
-// Writing MetadataGetter for method: ServerCertificateRequest::get_pool
+// Writing MetadataGetter for method: MasterServer::ServerCertificateRequest::get_pool
 // Il2CppName: get_pool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::ServerCertificateRequest*>* (*)()>(&ServerCertificateRequest::get_pool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::ServerCertificateRequest*>* (*)()>(&MasterServer::ServerCertificateRequest::get_pool)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerCertificateRequest*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::ServerCertificateRequest*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ServerCertificateRequest::get_certificateList
+// Writing MetadataGetter for method: MasterServer::ServerCertificateRequest::get_certificateList
 // Il2CppName: get_certificateList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Array<uint8_t>*>* (ServerCertificateRequest::*)()>(&ServerCertificateRequest::get_certificateList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Array<uint8_t>*>* (MasterServer::ServerCertificateRequest::*)()>(&MasterServer::ServerCertificateRequest::get_certificateList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerCertificateRequest*), "get_certificateList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::ServerCertificateRequest*), "get_certificateList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ServerCertificateRequest::Init
+// Writing MetadataGetter for method: MasterServer::ServerCertificateRequest::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ServerCertificateRequest* (ServerCertificateRequest::*)(System::Collections::Generic::IEnumerable_1<::Array<uint8_t>*>*)>(&ServerCertificateRequest::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ServerCertificateRequest* (MasterServer::ServerCertificateRequest::*)(System::Collections::Generic::IEnumerable_1<::Array<uint8_t>*>*)>(&MasterServer::ServerCertificateRequest::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerCertificateRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Array<uint8_t>*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::ServerCertificateRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Array<uint8_t>*>*>()});
   }
 };
-// Writing MetadataGetter for method: ServerCertificateRequest::Serialize
+// Writing MetadataGetter for method: MasterServer::ServerCertificateRequest::Serialize
 // Il2CppName: Serialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerCertificateRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&ServerCertificateRequest::Serialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::ServerCertificateRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&MasterServer::ServerCertificateRequest::Serialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerCertificateRequest*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::ServerCertificateRequest*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
   }
 };
-// Writing MetadataGetter for method: ServerCertificateRequest::Deserialize
+// Writing MetadataGetter for method: MasterServer::ServerCertificateRequest::Deserialize
 // Il2CppName: Deserialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerCertificateRequest::*)(LiteNetLib::Utils::NetDataReader*)>(&ServerCertificateRequest::Deserialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::ServerCertificateRequest::*)(LiteNetLib::Utils::NetDataReader*)>(&MasterServer::ServerCertificateRequest::Deserialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerCertificateRequest*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::ServerCertificateRequest*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
   }
 };
-// Writing MetadataGetter for method: ServerCertificateRequest::Release
+// Writing MetadataGetter for method: MasterServer::ServerCertificateRequest::Release
 // Il2CppName: Release
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerCertificateRequest::*)()>(&ServerCertificateRequest::Release)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::ServerCertificateRequest::*)()>(&MasterServer::ServerCertificateRequest::Release)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerCertificateRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::ServerCertificateRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ServerCertificateRequest::New_ctor
+// Writing MetadataGetter for method: MasterServer::ServerCertificateRequest::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerCertificateRequest::*)()>(&ServerCertificateRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::ServerCertificateRequest::*)()>(&MasterServer::ServerCertificateRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerCertificateRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::ServerCertificateRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerCertificateRequest::*)()>(&ServerCertificateRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::ServerCertificateRequest::*)()>(&MasterServer::ServerCertificateRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerCertificateRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::ServerCertificateRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

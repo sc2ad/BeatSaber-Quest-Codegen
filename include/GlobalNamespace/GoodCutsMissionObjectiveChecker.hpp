@@ -72,41 +72,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(GoodCutsMissionObjectiveChecker) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GoodCutsMissionObjectiveChecker*, "", "GoodCutsMissionObjectiveChecker");
-// Writing MetadataGetter for method: GoodCutsMissionObjectiveChecker::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::GoodCutsMissionObjectiveChecker::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GoodCutsMissionObjectiveChecker::*)()>(&GoodCutsMissionObjectiveChecker::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GoodCutsMissionObjectiveChecker::*)()>(&GlobalNamespace::GoodCutsMissionObjectiveChecker::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GoodCutsMissionObjectiveChecker*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GoodCutsMissionObjectiveChecker*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GoodCutsMissionObjectiveChecker::HandleNoteWasCut
+// Writing MetadataGetter for method: GlobalNamespace::GoodCutsMissionObjectiveChecker::HandleNoteWasCut
 // Il2CppName: HandleNoteWasCut
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GoodCutsMissionObjectiveChecker::*)(GlobalNamespace::NoteController*, GlobalNamespace::NoteCutInfo&)>(&GoodCutsMissionObjectiveChecker::HandleNoteWasCut)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GoodCutsMissionObjectiveChecker::*)(GlobalNamespace::NoteController*, GlobalNamespace::NoteCutInfo&)>(&GlobalNamespace::GoodCutsMissionObjectiveChecker::HandleNoteWasCut)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GoodCutsMissionObjectiveChecker*), "HandleNoteWasCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GoodCutsMissionObjectiveChecker*), "HandleNoteWasCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>()});
   }
 };
-// Writing MetadataGetter for method: GoodCutsMissionObjectiveChecker::Init
+// Writing MetadataGetter for method: GlobalNamespace::GoodCutsMissionObjectiveChecker::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GoodCutsMissionObjectiveChecker::*)()>(&GoodCutsMissionObjectiveChecker::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GoodCutsMissionObjectiveChecker::*)()>(&GlobalNamespace::GoodCutsMissionObjectiveChecker::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GoodCutsMissionObjectiveChecker*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GoodCutsMissionObjectiveChecker*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GoodCutsMissionObjectiveChecker::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::GoodCutsMissionObjectiveChecker::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GoodCutsMissionObjectiveChecker::*)()>(&GoodCutsMissionObjectiveChecker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GoodCutsMissionObjectiveChecker::*)()>(&GlobalNamespace::GoodCutsMissionObjectiveChecker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GoodCutsMissionObjectiveChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GoodCutsMissionObjectiveChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GoodCutsMissionObjectiveChecker::*)()>(&GoodCutsMissionObjectiveChecker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GoodCutsMissionObjectiveChecker::*)()>(&GlobalNamespace::GoodCutsMissionObjectiveChecker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GoodCutsMissionObjectiveChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GoodCutsMissionObjectiveChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

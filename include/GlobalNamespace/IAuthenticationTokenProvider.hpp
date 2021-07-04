@@ -35,19 +35,19 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IAuthenticationTokenProvider*, "", "IAuthenticationTokenProvider");
-// Writing MetadataGetter for method: IAuthenticationTokenProvider::GetAuthenticationToken
+// Writing MetadataGetter for method: GlobalNamespace::IAuthenticationTokenProvider::GetAuthenticationToken
 // Il2CppName: GetAuthenticationToken
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AuthenticationToken>* (IAuthenticationTokenProvider::*)()>(&IAuthenticationTokenProvider::GetAuthenticationToken)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::AuthenticationToken>* (GlobalNamespace::IAuthenticationTokenProvider::*)()>(&GlobalNamespace::IAuthenticationTokenProvider::GetAuthenticationToken)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IAuthenticationTokenProvider*), "GetAuthenticationToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IAuthenticationTokenProvider*), "GetAuthenticationToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IAuthenticationTokenProvider::get_hashedUserId
+// Writing MetadataGetter for method: GlobalNamespace::IAuthenticationTokenProvider::get_hashedUserId
 // Il2CppName: get_hashedUserId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IAuthenticationTokenProvider::*)()>(&IAuthenticationTokenProvider::get_hashedUserId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::IAuthenticationTokenProvider::*)()>(&GlobalNamespace::IAuthenticationTokenProvider::get_hashedUserId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IAuthenticationTokenProvider*), "get_hashedUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IAuthenticationTokenProvider*), "get_hashedUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

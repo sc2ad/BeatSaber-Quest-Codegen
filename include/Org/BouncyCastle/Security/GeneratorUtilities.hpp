@@ -99,75 +99,75 @@ namespace Org::BouncyCastle::Security {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::GeneratorUtilities*, "Org.BouncyCastle.Security", "GeneratorUtilities");
-// Writing MetadataGetter for method: GeneratorUtilities::_cctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Security::GeneratorUtilities::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GeneratorUtilities::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::Security::GeneratorUtilities::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneratorUtilities*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::GeneratorUtilities*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GeneratorUtilities::AddDefaultKeySizeEntries
+// Writing MetadataGetter for method: Org::BouncyCastle::Security::GeneratorUtilities::AddDefaultKeySizeEntries
 // Il2CppName: AddDefaultKeySizeEntries
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Array<::Il2CppString*>*)>(&GeneratorUtilities::AddDefaultKeySizeEntries)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Array<::Il2CppString*>*)>(&Org::BouncyCastle::Security::GeneratorUtilities::AddDefaultKeySizeEntries)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneratorUtilities*), "AddDefaultKeySizeEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::GeneratorUtilities*), "AddDefaultKeySizeEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: GeneratorUtilities::AddKgAlgorithm
+// Writing MetadataGetter for method: Org::BouncyCastle::Security::GeneratorUtilities::AddKgAlgorithm
 // Il2CppName: AddKgAlgorithm
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&GeneratorUtilities::AddKgAlgorithm)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&Org::BouncyCastle::Security::GeneratorUtilities::AddKgAlgorithm)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneratorUtilities*), "AddKgAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::GeneratorUtilities*), "AddKgAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
   }
 };
-// Writing MetadataGetter for method: GeneratorUtilities::AddKpgAlgorithm
+// Writing MetadataGetter for method: Org::BouncyCastle::Security::GeneratorUtilities::AddKpgAlgorithm
 // Il2CppName: AddKpgAlgorithm
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&GeneratorUtilities::AddKpgAlgorithm)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&Org::BouncyCastle::Security::GeneratorUtilities::AddKpgAlgorithm)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneratorUtilities*), "AddKpgAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::GeneratorUtilities*), "AddKpgAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
   }
 };
-// Writing MetadataGetter for method: GeneratorUtilities::AddHMacKeyGenerator
+// Writing MetadataGetter for method: Org::BouncyCastle::Security::GeneratorUtilities::AddHMacKeyGenerator
 // Il2CppName: AddHMacKeyGenerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&GeneratorUtilities::AddHMacKeyGenerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&Org::BouncyCastle::Security::GeneratorUtilities::AddHMacKeyGenerator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneratorUtilities*), "AddHMacKeyGenerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::GeneratorUtilities*), "AddHMacKeyGenerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
   }
 };
-// Writing MetadataGetter for method: GeneratorUtilities::GetCanonicalKeyGeneratorAlgorithm
+// Writing MetadataGetter for method: Org::BouncyCastle::Security::GeneratorUtilities::GetCanonicalKeyGeneratorAlgorithm
 // Il2CppName: GetCanonicalKeyGeneratorAlgorithm
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&GeneratorUtilities::GetCanonicalKeyGeneratorAlgorithm)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&Org::BouncyCastle::Security::GeneratorUtilities::GetCanonicalKeyGeneratorAlgorithm)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneratorUtilities*), "GetCanonicalKeyGeneratorAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::GeneratorUtilities*), "GetCanonicalKeyGeneratorAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: GeneratorUtilities::GetDefaultKeySize
+// Writing MetadataGetter for method: Org::BouncyCastle::Security::GeneratorUtilities::GetDefaultKeySize
 // Il2CppName: GetDefaultKeySize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&GeneratorUtilities::GetDefaultKeySize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&Org::BouncyCastle::Security::GeneratorUtilities::GetDefaultKeySize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneratorUtilities*), "GetDefaultKeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::GeneratorUtilities*), "GetDefaultKeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>()});
   }
 };
-// Writing MetadataGetter for method: GeneratorUtilities::GetDefaultKeySize
+// Writing MetadataGetter for method: Org::BouncyCastle::Security::GeneratorUtilities::GetDefaultKeySize
 // Il2CppName: GetDefaultKeySize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&GeneratorUtilities::GetDefaultKeySize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&Org::BouncyCastle::Security::GeneratorUtilities::GetDefaultKeySize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneratorUtilities*), "GetDefaultKeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::GeneratorUtilities*), "GetDefaultKeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: GeneratorUtilities::FindDefaultKeySize
+// Writing MetadataGetter for method: Org::BouncyCastle::Security::GeneratorUtilities::FindDefaultKeySize
 // Il2CppName: FindDefaultKeySize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&GeneratorUtilities::FindDefaultKeySize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&Org::BouncyCastle::Security::GeneratorUtilities::FindDefaultKeySize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GeneratorUtilities*), "FindDefaultKeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::GeneratorUtilities*), "FindDefaultKeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };

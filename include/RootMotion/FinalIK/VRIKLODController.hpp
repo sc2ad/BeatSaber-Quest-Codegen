@@ -88,41 +88,41 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(VRIKLODController) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIKLODController*, "RootMotion.FinalIK", "VRIKLODController");
-// Writing MetadataGetter for method: VRIKLODController::Start
+// Writing MetadataGetter for method: RootMotion::FinalIK::VRIKLODController::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRIKLODController::*)()>(&VRIKLODController::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::VRIKLODController::*)()>(&RootMotion::FinalIK::VRIKLODController::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRIKLODController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIKLODController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRIKLODController::Update
+// Writing MetadataGetter for method: RootMotion::FinalIK::VRIKLODController::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRIKLODController::*)()>(&VRIKLODController::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::VRIKLODController::*)()>(&RootMotion::FinalIK::VRIKLODController::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRIKLODController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIKLODController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRIKLODController::GetLODLevel
+// Writing MetadataGetter for method: RootMotion::FinalIK::VRIKLODController::GetLODLevel
 // Il2CppName: GetLODLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (VRIKLODController::*)()>(&VRIKLODController::GetLODLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RootMotion::FinalIK::VRIKLODController::*)()>(&RootMotion::FinalIK::VRIKLODController::GetLODLevel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRIKLODController*), "GetLODLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIKLODController*), "GetLODLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRIKLODController::New_ctor
+// Writing MetadataGetter for method: RootMotion::FinalIK::VRIKLODController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRIKLODController::*)()>(&VRIKLODController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::VRIKLODController::*)()>(&RootMotion::FinalIK::VRIKLODController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRIKLODController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIKLODController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRIKLODController::*)()>(&VRIKLODController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::VRIKLODController::*)()>(&RootMotion::FinalIK::VRIKLODController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRIKLODController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIKLODController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -78,73 +78,73 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(RuntimeElement) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::RuntimeElement*, "UnityEngine.Timeline", "RuntimeElement");
-// Writing MetadataGetter for method: RuntimeElement::get_intervalStart
+// Writing MetadataGetter for method: UnityEngine::Timeline::RuntimeElement::get_intervalStart
 // Il2CppName: get_intervalStart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (RuntimeElement::*)()>(&RuntimeElement::get_intervalStart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (UnityEngine::Timeline::RuntimeElement::*)()>(&UnityEngine::Timeline::RuntimeElement::get_intervalStart)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RuntimeElement*), "get_intervalStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::RuntimeElement*), "get_intervalStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RuntimeElement::get_intervalEnd
+// Writing MetadataGetter for method: UnityEngine::Timeline::RuntimeElement::get_intervalEnd
 // Il2CppName: get_intervalEnd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (RuntimeElement::*)()>(&RuntimeElement::get_intervalEnd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (UnityEngine::Timeline::RuntimeElement::*)()>(&UnityEngine::Timeline::RuntimeElement::get_intervalEnd)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RuntimeElement*), "get_intervalEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::RuntimeElement*), "get_intervalEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RuntimeElement::get_intervalBit
+// Writing MetadataGetter for method: UnityEngine::Timeline::RuntimeElement::get_intervalBit
 // Il2CppName: get_intervalBit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RuntimeElement::*)()>(&RuntimeElement::get_intervalBit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Timeline::RuntimeElement::*)()>(&UnityEngine::Timeline::RuntimeElement::get_intervalBit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RuntimeElement*), "get_intervalBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::RuntimeElement*), "get_intervalBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RuntimeElement::set_intervalBit
+// Writing MetadataGetter for method: UnityEngine::Timeline::RuntimeElement::set_intervalBit
 // Il2CppName: set_intervalBit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeElement::*)(int)>(&RuntimeElement::set_intervalBit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::RuntimeElement::*)(int)>(&UnityEngine::Timeline::RuntimeElement::set_intervalBit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RuntimeElement*), "set_intervalBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::RuntimeElement*), "set_intervalBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: RuntimeElement::set_enable
+// Writing MetadataGetter for method: UnityEngine::Timeline::RuntimeElement::set_enable
 // Il2CppName: set_enable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeElement::*)(bool)>(&RuntimeElement::set_enable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::RuntimeElement::*)(bool)>(&UnityEngine::Timeline::RuntimeElement::set_enable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RuntimeElement*), "set_enable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::RuntimeElement*), "set_enable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: RuntimeElement::EvaluateAt
+// Writing MetadataGetter for method: UnityEngine::Timeline::RuntimeElement::EvaluateAt
 // Il2CppName: EvaluateAt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeElement::*)(double, UnityEngine::Playables::FrameData)>(&RuntimeElement::EvaluateAt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::RuntimeElement::*)(double, UnityEngine::Playables::FrameData)>(&UnityEngine::Timeline::RuntimeElement::EvaluateAt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RuntimeElement*), "EvaluateAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::RuntimeElement*), "EvaluateAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
   }
 };
-// Writing MetadataGetter for method: RuntimeElement::DisableAt
+// Writing MetadataGetter for method: UnityEngine::Timeline::RuntimeElement::DisableAt
 // Il2CppName: DisableAt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeElement::*)(double, double, UnityEngine::Playables::FrameData)>(&RuntimeElement::DisableAt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::RuntimeElement::*)(double, double, UnityEngine::Playables::FrameData)>(&UnityEngine::Timeline::RuntimeElement::DisableAt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RuntimeElement*), "DisableAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::RuntimeElement*), "DisableAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::FrameData>()});
   }
 };
-// Writing MetadataGetter for method: RuntimeElement::New_ctor
+// Writing MetadataGetter for method: UnityEngine::Timeline::RuntimeElement::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeElement::*)()>(&RuntimeElement::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::RuntimeElement::*)()>(&UnityEngine::Timeline::RuntimeElement::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RuntimeElement*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::RuntimeElement*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RuntimeElement::*)()>(&RuntimeElement::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::RuntimeElement::*)()>(&UnityEngine::Timeline::RuntimeElement::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RuntimeElement*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::RuntimeElement*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

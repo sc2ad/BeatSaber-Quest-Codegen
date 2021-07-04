@@ -36,19 +36,19 @@ namespace System::Runtime::Remoting {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::IRemotingTypeInfo*, "System.Runtime.Remoting", "IRemotingTypeInfo");
-// Writing MetadataGetter for method: IRemotingTypeInfo::get_TypeName
+// Writing MetadataGetter for method: System::Runtime::Remoting::IRemotingTypeInfo::get_TypeName
 // Il2CppName: get_TypeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IRemotingTypeInfo::*)()>(&IRemotingTypeInfo::get_TypeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::IRemotingTypeInfo::*)()>(&System::Runtime::Remoting::IRemotingTypeInfo::get_TypeName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IRemotingTypeInfo*), "get_TypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::IRemotingTypeInfo*), "get_TypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IRemotingTypeInfo::CanCastTo
+// Writing MetadataGetter for method: System::Runtime::Remoting::IRemotingTypeInfo::CanCastTo
 // Il2CppName: CanCastTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IRemotingTypeInfo::*)(System::Type*, ::Il2CppObject*)>(&IRemotingTypeInfo::CanCastTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Remoting::IRemotingTypeInfo::*)(System::Type*, ::Il2CppObject*)>(&System::Runtime::Remoting::IRemotingTypeInfo::CanCastTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IRemotingTypeInfo*), "CanCastTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::IRemotingTypeInfo*), "CanCastTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };

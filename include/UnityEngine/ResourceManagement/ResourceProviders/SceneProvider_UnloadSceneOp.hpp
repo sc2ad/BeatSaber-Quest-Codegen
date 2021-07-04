@@ -78,65 +78,65 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp*, "UnityEngine.ResourceManagement.ResourceProviders", "SceneProvider/UnloadSceneOp");
-// Writing MetadataGetter for method: SceneProvider::UnloadSceneOp::Init
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneProvider::UnloadSceneOp::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>)>(&SceneProvider::UnloadSceneOp::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>)>(&UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SceneProvider::UnloadSceneOp*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>>()});
   }
 };
-// Writing MetadataGetter for method: SceneProvider::UnloadSceneOp::UnloadSceneCompleted
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp::UnloadSceneCompleted
 // Il2CppName: UnloadSceneCompleted
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneProvider::UnloadSceneOp::*)(UnityEngine::AsyncOperation*)>(&SceneProvider::UnloadSceneOp::UnloadSceneCompleted)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp::*)(UnityEngine::AsyncOperation*)>(&UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp::UnloadSceneCompleted)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SceneProvider::UnloadSceneOp*), "UnloadSceneCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AsyncOperation*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp*), "UnloadSceneCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AsyncOperation*>()});
   }
 };
-// Writing MetadataGetter for method: SceneProvider::UnloadSceneOp::UnloadSceneCompletedNoRelease
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp::UnloadSceneCompletedNoRelease
 // Il2CppName: UnloadSceneCompletedNoRelease
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneProvider::UnloadSceneOp::*)(UnityEngine::AsyncOperation*)>(&SceneProvider::UnloadSceneOp::UnloadSceneCompletedNoRelease)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp::*)(UnityEngine::AsyncOperation*)>(&UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp::UnloadSceneCompletedNoRelease)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SceneProvider::UnloadSceneOp*), "UnloadSceneCompletedNoRelease", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AsyncOperation*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp*), "UnloadSceneCompletedNoRelease", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AsyncOperation*>()});
   }
 };
-// Writing MetadataGetter for method: SceneProvider::UnloadSceneOp::Execute
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp::Execute
 // Il2CppName: Execute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneProvider::UnloadSceneOp::*)()>(&SceneProvider::UnloadSceneOp::Execute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp::Execute)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SceneProvider::UnloadSceneOp*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SceneProvider::UnloadSceneOp::InvokeWaitForCompletion
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp::InvokeWaitForCompletion
 // Il2CppName: InvokeWaitForCompletion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SceneProvider::UnloadSceneOp::*)()>(&SceneProvider::UnloadSceneOp::InvokeWaitForCompletion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp::InvokeWaitForCompletion)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SceneProvider::UnloadSceneOp*), "InvokeWaitForCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp*), "InvokeWaitForCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SceneProvider::UnloadSceneOp::get_Progress
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp::get_Progress
 // Il2CppName: get_Progress
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (SceneProvider::UnloadSceneOp::*)()>(&SceneProvider::UnloadSceneOp::get_Progress)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp::get_Progress)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SceneProvider::UnloadSceneOp*), "get_Progress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp*), "get_Progress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SceneProvider::UnloadSceneOp::New_ctor
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneProvider::UnloadSceneOp::*)()>(&SceneProvider::UnloadSceneOp::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SceneProvider::UnloadSceneOp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneProvider::UnloadSceneOp::*)()>(&SceneProvider::UnloadSceneOp::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SceneProvider::UnloadSceneOp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnloadSceneOp*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

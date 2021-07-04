@@ -178,121 +178,121 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRScreenFade) == 0x59);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRScreenFade*, "", "OVRScreenFade");
-// Writing MetadataGetter for method: OVRScreenFade::get_instance
+// Writing MetadataGetter for method: GlobalNamespace::OVRScreenFade::get_instance
 // Il2CppName: get_instance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRScreenFade* (*)()>(&OVRScreenFade::get_instance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRScreenFade* (*)()>(&GlobalNamespace::OVRScreenFade::get_instance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRScreenFade*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRScreenFade*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRScreenFade::set_instance
+// Writing MetadataGetter for method: GlobalNamespace::OVRScreenFade::set_instance
 // Il2CppName: set_instance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::OVRScreenFade*)>(&OVRScreenFade::set_instance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::OVRScreenFade*)>(&GlobalNamespace::OVRScreenFade::set_instance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRScreenFade*), "set_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRScreenFade*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRScreenFade*), "set_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRScreenFade*>()});
   }
 };
-// Writing MetadataGetter for method: OVRScreenFade::get_currentAlpha
+// Writing MetadataGetter for method: GlobalNamespace::OVRScreenFade::get_currentAlpha
 // Il2CppName: get_currentAlpha
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVRScreenFade::*)()>(&OVRScreenFade::get_currentAlpha)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::OVRScreenFade::*)()>(&GlobalNamespace::OVRScreenFade::get_currentAlpha)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRScreenFade*), "get_currentAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRScreenFade*), "get_currentAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRScreenFade::Start
+// Writing MetadataGetter for method: GlobalNamespace::OVRScreenFade::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRScreenFade::*)()>(&OVRScreenFade::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRScreenFade::*)()>(&GlobalNamespace::OVRScreenFade::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRScreenFade*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRScreenFade*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRScreenFade::FadeIn
+// Writing MetadataGetter for method: GlobalNamespace::OVRScreenFade::FadeIn
 // Il2CppName: FadeIn
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRScreenFade::*)()>(&OVRScreenFade::FadeIn)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRScreenFade::*)()>(&GlobalNamespace::OVRScreenFade::FadeIn)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRScreenFade*), "FadeIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRScreenFade*), "FadeIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRScreenFade::FadeOut
+// Writing MetadataGetter for method: GlobalNamespace::OVRScreenFade::FadeOut
 // Il2CppName: FadeOut
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRScreenFade::*)()>(&OVRScreenFade::FadeOut)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRScreenFade::*)()>(&GlobalNamespace::OVRScreenFade::FadeOut)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRScreenFade*), "FadeOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRScreenFade*), "FadeOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRScreenFade::OnLevelFinishedLoading
+// Writing MetadataGetter for method: GlobalNamespace::OVRScreenFade::OnLevelFinishedLoading
 // Il2CppName: OnLevelFinishedLoading
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRScreenFade::*)(int)>(&OVRScreenFade::OnLevelFinishedLoading)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRScreenFade::*)(int)>(&GlobalNamespace::OVRScreenFade::OnLevelFinishedLoading)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRScreenFade*), "OnLevelFinishedLoading", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRScreenFade*), "OnLevelFinishedLoading", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: OVRScreenFade::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::OVRScreenFade::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRScreenFade::*)()>(&OVRScreenFade::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRScreenFade::*)()>(&GlobalNamespace::OVRScreenFade::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRScreenFade*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRScreenFade*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRScreenFade::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::OVRScreenFade::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRScreenFade::*)()>(&OVRScreenFade::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRScreenFade::*)()>(&GlobalNamespace::OVRScreenFade::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRScreenFade*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRScreenFade*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRScreenFade::SetUIFade
+// Writing MetadataGetter for method: GlobalNamespace::OVRScreenFade::SetUIFade
 // Il2CppName: SetUIFade
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRScreenFade::*)(float)>(&OVRScreenFade::SetUIFade)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRScreenFade::*)(float)>(&GlobalNamespace::OVRScreenFade::SetUIFade)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRScreenFade*), "SetUIFade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRScreenFade*), "SetUIFade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: OVRScreenFade::SetExplicitFade
+// Writing MetadataGetter for method: GlobalNamespace::OVRScreenFade::SetExplicitFade
 // Il2CppName: SetExplicitFade
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRScreenFade::*)(float)>(&OVRScreenFade::SetExplicitFade)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRScreenFade::*)(float)>(&GlobalNamespace::OVRScreenFade::SetExplicitFade)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRScreenFade*), "SetExplicitFade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRScreenFade*), "SetExplicitFade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: OVRScreenFade::Fade
+// Writing MetadataGetter for method: GlobalNamespace::OVRScreenFade::Fade
 // Il2CppName: Fade
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (OVRScreenFade::*)(float, float)>(&OVRScreenFade::Fade)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::OVRScreenFade::*)(float, float)>(&GlobalNamespace::OVRScreenFade::Fade)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRScreenFade*), "Fade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRScreenFade*), "Fade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: OVRScreenFade::SetMaterialAlpha
+// Writing MetadataGetter for method: GlobalNamespace::OVRScreenFade::SetMaterialAlpha
 // Il2CppName: SetMaterialAlpha
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRScreenFade::*)()>(&OVRScreenFade::SetMaterialAlpha)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRScreenFade::*)()>(&GlobalNamespace::OVRScreenFade::SetMaterialAlpha)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRScreenFade*), "SetMaterialAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRScreenFade*), "SetMaterialAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRScreenFade::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::OVRScreenFade::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRScreenFade::*)()>(&OVRScreenFade::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRScreenFade::*)()>(&GlobalNamespace::OVRScreenFade::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRScreenFade*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRScreenFade*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRScreenFade::*)()>(&OVRScreenFade::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRScreenFade::*)()>(&GlobalNamespace::OVRScreenFade::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRScreenFade*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRScreenFade*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

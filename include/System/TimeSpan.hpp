@@ -240,357 +240,357 @@ namespace System {
   bool operator >=(const System::TimeSpan& t1, const System::TimeSpan& t2);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::TimeSpan, "System", "TimeSpan");
-// Writing MetadataGetter for method: TimeSpan::TimeSpan
+// Writing MetadataGetter for method: System::TimeSpan::TimeSpan
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeSpan::*)(int64_t)>(&TimeSpan::TimeSpan<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TimeSpan::*)(int64_t)>(&System::TimeSpan::TimeSpan<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeSpan::*)(int64_t)>(&TimeSpan::TimeSpan<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TimeSpan::*)(int64_t)>(&System::TimeSpan::TimeSpan<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::TimeSpan
+// Writing MetadataGetter for method: System::TimeSpan::TimeSpan
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeSpan::*)(int, int, int)>(&TimeSpan::TimeSpan<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TimeSpan::*)(int, int, int)>(&System::TimeSpan::TimeSpan<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeSpan::*)(int, int, int)>(&TimeSpan::TimeSpan<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TimeSpan::*)(int, int, int)>(&System::TimeSpan::TimeSpan<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::TimeSpan
+// Writing MetadataGetter for method: System::TimeSpan::TimeSpan
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeSpan::*)(int, int, int, int, int)>(&TimeSpan::TimeSpan<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TimeSpan::*)(int, int, int, int, int)>(&System::TimeSpan::TimeSpan<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeSpan::*)(int, int, int, int, int)>(&TimeSpan::TimeSpan<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TimeSpan::*)(int, int, int, int, int)>(&System::TimeSpan::TimeSpan<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::get_Ticks
+// Writing MetadataGetter for method: System::TimeSpan::get_Ticks
 // Il2CppName: get_Ticks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (TimeSpan::*)()>(&TimeSpan::get_Ticks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::TimeSpan::*)()>(&System::TimeSpan::get_Ticks)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "get_Ticks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "get_Ticks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::get_Hours
+// Writing MetadataGetter for method: System::TimeSpan::get_Hours
 // Il2CppName: get_Hours
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TimeSpan::*)()>(&TimeSpan::get_Hours)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::TimeSpan::*)()>(&System::TimeSpan::get_Hours)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "get_Hours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "get_Hours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::get_Minutes
+// Writing MetadataGetter for method: System::TimeSpan::get_Minutes
 // Il2CppName: get_Minutes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TimeSpan::*)()>(&TimeSpan::get_Minutes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::TimeSpan::*)()>(&System::TimeSpan::get_Minutes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "get_Minutes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "get_Minutes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::get_Seconds
+// Writing MetadataGetter for method: System::TimeSpan::get_Seconds
 // Il2CppName: get_Seconds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TimeSpan::*)()>(&TimeSpan::get_Seconds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::TimeSpan::*)()>(&System::TimeSpan::get_Seconds)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "get_Seconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "get_Seconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::get_TotalHours
+// Writing MetadataGetter for method: System::TimeSpan::get_TotalHours
 // Il2CppName: get_TotalHours
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimeSpan::*)()>(&TimeSpan::get_TotalHours)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (System::TimeSpan::*)()>(&System::TimeSpan::get_TotalHours)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "get_TotalHours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "get_TotalHours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::get_TotalMilliseconds
+// Writing MetadataGetter for method: System::TimeSpan::get_TotalMilliseconds
 // Il2CppName: get_TotalMilliseconds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimeSpan::*)()>(&TimeSpan::get_TotalMilliseconds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (System::TimeSpan::*)()>(&System::TimeSpan::get_TotalMilliseconds)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "get_TotalMilliseconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "get_TotalMilliseconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::get_TotalMinutes
+// Writing MetadataGetter for method: System::TimeSpan::get_TotalMinutes
 // Il2CppName: get_TotalMinutes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimeSpan::*)()>(&TimeSpan::get_TotalMinutes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (System::TimeSpan::*)()>(&System::TimeSpan::get_TotalMinutes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "get_TotalMinutes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "get_TotalMinutes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::get_TotalSeconds
+// Writing MetadataGetter for method: System::TimeSpan::get_TotalSeconds
 // Il2CppName: get_TotalSeconds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TimeSpan::*)()>(&TimeSpan::get_TotalSeconds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (System::TimeSpan::*)()>(&System::TimeSpan::get_TotalSeconds)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "get_TotalSeconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "get_TotalSeconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::Add
+// Writing MetadataGetter for method: System::TimeSpan::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (TimeSpan::*)(System::TimeSpan)>(&TimeSpan::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (System::TimeSpan::*)(System::TimeSpan)>(&System::TimeSpan::Add)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::CompareTo
+// Writing MetadataGetter for method: System::TimeSpan::CompareTo
 // Il2CppName: CompareTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TimeSpan::*)(::Il2CppObject*)>(&TimeSpan::CompareTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::TimeSpan::*)(::Il2CppObject*)>(&System::TimeSpan::CompareTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::CompareTo
+// Writing MetadataGetter for method: System::TimeSpan::CompareTo
 // Il2CppName: CompareTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TimeSpan::*)(System::TimeSpan)>(&TimeSpan::CompareTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::TimeSpan::*)(System::TimeSpan)>(&System::TimeSpan::CompareTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::FromDays
+// Writing MetadataGetter for method: System::TimeSpan::FromDays
 // Il2CppName: FromDays
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(double)>(&TimeSpan::FromDays)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(double)>(&System::TimeSpan::FromDays)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "FromDays", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "FromDays", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::Duration
+// Writing MetadataGetter for method: System::TimeSpan::Duration
 // Il2CppName: Duration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (TimeSpan::*)()>(&TimeSpan::Duration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (System::TimeSpan::*)()>(&System::TimeSpan::Duration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "Duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "Duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::Equals
+// Writing MetadataGetter for method: System::TimeSpan::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimeSpan::*)(System::TimeSpan)>(&TimeSpan::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::TimeSpan::*)(System::TimeSpan)>(&System::TimeSpan::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::FromHours
+// Writing MetadataGetter for method: System::TimeSpan::FromHours
 // Il2CppName: FromHours
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(double)>(&TimeSpan::FromHours)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(double)>(&System::TimeSpan::FromHours)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "FromHours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "FromHours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::Interval
+// Writing MetadataGetter for method: System::TimeSpan::Interval
 // Il2CppName: Interval
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(double, int)>(&TimeSpan::Interval)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(double, int)>(&System::TimeSpan::Interval)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "Interval", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "Interval", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::FromMilliseconds
+// Writing MetadataGetter for method: System::TimeSpan::FromMilliseconds
 // Il2CppName: FromMilliseconds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(double)>(&TimeSpan::FromMilliseconds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(double)>(&System::TimeSpan::FromMilliseconds)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "FromMilliseconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "FromMilliseconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::FromMinutes
+// Writing MetadataGetter for method: System::TimeSpan::FromMinutes
 // Il2CppName: FromMinutes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(double)>(&TimeSpan::FromMinutes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(double)>(&System::TimeSpan::FromMinutes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "FromMinutes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "FromMinutes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::Negate
+// Writing MetadataGetter for method: System::TimeSpan::Negate
 // Il2CppName: Negate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (TimeSpan::*)()>(&TimeSpan::Negate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (System::TimeSpan::*)()>(&System::TimeSpan::Negate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "Negate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "Negate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::FromSeconds
+// Writing MetadataGetter for method: System::TimeSpan::FromSeconds
 // Il2CppName: FromSeconds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(double)>(&TimeSpan::FromSeconds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(double)>(&System::TimeSpan::FromSeconds)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "FromSeconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "FromSeconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::Subtract
+// Writing MetadataGetter for method: System::TimeSpan::Subtract
 // Il2CppName: Subtract
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (TimeSpan::*)(System::TimeSpan)>(&TimeSpan::Subtract)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (System::TimeSpan::*)(System::TimeSpan)>(&System::TimeSpan::Subtract)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "Subtract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "Subtract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::FromTicks
+// Writing MetadataGetter for method: System::TimeSpan::FromTicks
 // Il2CppName: FromTicks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(int64_t)>(&TimeSpan::FromTicks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(int64_t)>(&System::TimeSpan::FromTicks)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "FromTicks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "FromTicks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::TimeToTicks
+// Writing MetadataGetter for method: System::TimeSpan::TimeToTicks
 // Il2CppName: TimeToTicks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int, int, int)>(&TimeSpan::TimeToTicks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int, int, int)>(&System::TimeSpan::TimeToTicks)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "TimeToTicks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "TimeToTicks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::ToString
+// Writing MetadataGetter for method: System::TimeSpan::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TimeSpan::*)(::Il2CppString*)>(&TimeSpan::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TimeSpan::*)(::Il2CppString*)>(&System::TimeSpan::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::ToString
+// Writing MetadataGetter for method: System::TimeSpan::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TimeSpan::*)(::Il2CppString*, System::IFormatProvider*)>(&TimeSpan::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TimeSpan::*)(::Il2CppString*, System::IFormatProvider*)>(&System::TimeSpan::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::GetLegacyFormatMode
+// Writing MetadataGetter for method: System::TimeSpan::GetLegacyFormatMode
 // Il2CppName: GetLegacyFormatMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TimeSpan::GetLegacyFormatMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::TimeSpan::GetLegacyFormatMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "GetLegacyFormatMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "GetLegacyFormatMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::get_LegacyMode
+// Writing MetadataGetter for method: System::TimeSpan::get_LegacyMode
 // Il2CppName: get_LegacyMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&TimeSpan::get_LegacyMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::TimeSpan::get_LegacyMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "get_LegacyMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "get_LegacyMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::_cctor
+// Writing MetadataGetter for method: System::TimeSpan::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TimeSpan::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::TimeSpan::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::Equals
+// Writing MetadataGetter for method: System::TimeSpan::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimeSpan::*)(::Il2CppObject*)>(&TimeSpan::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::TimeSpan::*)(::Il2CppObject*)>(&System::TimeSpan::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::GetHashCode
+// Writing MetadataGetter for method: System::TimeSpan::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TimeSpan::*)()>(&TimeSpan::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::TimeSpan::*)()>(&System::TimeSpan::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::ToString
+// Writing MetadataGetter for method: System::TimeSpan::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TimeSpan::*)()>(&TimeSpan::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TimeSpan::*)()>(&System::TimeSpan::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::operator-
+// Writing MetadataGetter for method: System::TimeSpan::operator-
 // Il2CppName: op_Subtraction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(const System::TimeSpan&, const System::TimeSpan&)>(&TimeSpan::operator-)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(const System::TimeSpan&, const System::TimeSpan&)>(&System::TimeSpan::operator-)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "op_Subtraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::TimeSpan&>(), ::il2cpp_utils::ExtractIndependentType<const System::TimeSpan&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "op_Subtraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::TimeSpan&>(), ::il2cpp_utils::ExtractIndependentType<const System::TimeSpan&>()});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::operator+
+// Writing MetadataGetter for method: System::TimeSpan::operator+
 // Il2CppName: op_Addition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(const System::TimeSpan&, const System::TimeSpan&)>(&TimeSpan::operator+)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (*)(const System::TimeSpan&, const System::TimeSpan&)>(&System::TimeSpan::operator+)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "op_Addition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::TimeSpan&>(), ::il2cpp_utils::ExtractIndependentType<const System::TimeSpan&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "op_Addition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::TimeSpan&>(), ::il2cpp_utils::ExtractIndependentType<const System::TimeSpan&>()});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::operator ==
+// Writing MetadataGetter for method: System::TimeSpan::operator ==
 // Il2CppName: op_Equality
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const System::TimeSpan&, const System::TimeSpan&)>(&TimeSpan::operator ==)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const System::TimeSpan&, const System::TimeSpan&)>(&System::TimeSpan::operator ==)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::TimeSpan&>(), ::il2cpp_utils::ExtractIndependentType<const System::TimeSpan&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::TimeSpan&>(), ::il2cpp_utils::ExtractIndependentType<const System::TimeSpan&>()});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::operator !=
+// Writing MetadataGetter for method: System::TimeSpan::operator !=
 // Il2CppName: op_Inequality
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const System::TimeSpan&, const System::TimeSpan&)>(&TimeSpan::operator !=)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const System::TimeSpan&, const System::TimeSpan&)>(&System::TimeSpan::operator !=)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::TimeSpan&>(), ::il2cpp_utils::ExtractIndependentType<const System::TimeSpan&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::TimeSpan&>(), ::il2cpp_utils::ExtractIndependentType<const System::TimeSpan&>()});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::operator <
+// Writing MetadataGetter for method: System::TimeSpan::operator <
 // Il2CppName: op_LessThan
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const System::TimeSpan&, const System::TimeSpan&)>(&TimeSpan::operator <)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const System::TimeSpan&, const System::TimeSpan&)>(&System::TimeSpan::operator <)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "op_LessThan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::TimeSpan&>(), ::il2cpp_utils::ExtractIndependentType<const System::TimeSpan&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "op_LessThan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::TimeSpan&>(), ::il2cpp_utils::ExtractIndependentType<const System::TimeSpan&>()});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::operator <=
+// Writing MetadataGetter for method: System::TimeSpan::operator <=
 // Il2CppName: op_LessThanOrEqual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const System::TimeSpan&, const System::TimeSpan&)>(&TimeSpan::operator <=)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const System::TimeSpan&, const System::TimeSpan&)>(&System::TimeSpan::operator <=)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "op_LessThanOrEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::TimeSpan&>(), ::il2cpp_utils::ExtractIndependentType<const System::TimeSpan&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "op_LessThanOrEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::TimeSpan&>(), ::il2cpp_utils::ExtractIndependentType<const System::TimeSpan&>()});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::operator >
+// Writing MetadataGetter for method: System::TimeSpan::operator >
 // Il2CppName: op_GreaterThan
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const System::TimeSpan&, const System::TimeSpan&)>(&TimeSpan::operator >)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const System::TimeSpan&, const System::TimeSpan&)>(&System::TimeSpan::operator >)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "op_GreaterThan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::TimeSpan&>(), ::il2cpp_utils::ExtractIndependentType<const System::TimeSpan&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "op_GreaterThan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::TimeSpan&>(), ::il2cpp_utils::ExtractIndependentType<const System::TimeSpan&>()});
   }
 };
-// Writing MetadataGetter for method: TimeSpan::operator >=
+// Writing MetadataGetter for method: System::TimeSpan::operator >=
 // Il2CppName: op_GreaterThanOrEqual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const System::TimeSpan&, const System::TimeSpan&)>(&TimeSpan::operator >=)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const System::TimeSpan&, const System::TimeSpan&)>(&System::TimeSpan::operator >=)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpan), "op_GreaterThanOrEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::TimeSpan&>(), ::il2cpp_utils::ExtractIndependentType<const System::TimeSpan&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::TimeSpan), "op_GreaterThanOrEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const System::TimeSpan&>(), ::il2cpp_utils::ExtractIndependentType<const System::TimeSpan&>()});
   }
 };

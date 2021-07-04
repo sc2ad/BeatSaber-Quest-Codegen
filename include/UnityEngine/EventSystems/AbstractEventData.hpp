@@ -52,41 +52,41 @@ namespace UnityEngine::EventSystems {
   static_assert(sizeof(AbstractEventData) == 0x11);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::AbstractEventData*, "UnityEngine.EventSystems", "AbstractEventData");
-// Writing MetadataGetter for method: AbstractEventData::Reset
+// Writing MetadataGetter for method: UnityEngine::EventSystems::AbstractEventData::Reset
 // Il2CppName: Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AbstractEventData::*)()>(&AbstractEventData::Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::AbstractEventData::*)()>(&UnityEngine::EventSystems::AbstractEventData::Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AbstractEventData*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::AbstractEventData*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AbstractEventData::Use
+// Writing MetadataGetter for method: UnityEngine::EventSystems::AbstractEventData::Use
 // Il2CppName: Use
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AbstractEventData::*)()>(&AbstractEventData::Use)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::AbstractEventData::*)()>(&UnityEngine::EventSystems::AbstractEventData::Use)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AbstractEventData*), "Use", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::AbstractEventData*), "Use", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AbstractEventData::get_used
+// Writing MetadataGetter for method: UnityEngine::EventSystems::AbstractEventData::get_used
 // Il2CppName: get_used
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AbstractEventData::*)()>(&AbstractEventData::get_used)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::EventSystems::AbstractEventData::*)()>(&UnityEngine::EventSystems::AbstractEventData::get_used)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AbstractEventData*), "get_used", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::AbstractEventData*), "get_used", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AbstractEventData::New_ctor
+// Writing MetadataGetter for method: UnityEngine::EventSystems::AbstractEventData::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AbstractEventData::*)()>(&AbstractEventData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::AbstractEventData::*)()>(&UnityEngine::EventSystems::AbstractEventData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AbstractEventData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::AbstractEventData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AbstractEventData::*)()>(&AbstractEventData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::AbstractEventData::*)()>(&UnityEngine::EventSystems::AbstractEventData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AbstractEventData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::AbstractEventData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

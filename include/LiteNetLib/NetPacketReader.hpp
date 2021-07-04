@@ -73,41 +73,41 @@ namespace LiteNetLib {
   static_assert(sizeof(NetPacketReader) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPacketReader*, "LiteNetLib", "NetPacketReader");
-// Writing MetadataGetter for method: NetPacketReader::New_ctor
+// Writing MetadataGetter for method: LiteNetLib::NetPacketReader::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetPacketReader::*)(LiteNetLib::NetManager*, LiteNetLib::NetEvent*)>(&NetPacketReader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPacketReader::*)(LiteNetLib::NetManager*, LiteNetLib::NetEvent*)>(&LiteNetLib::NetPacketReader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetPacketReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetManager*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetEvent*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacketReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetManager*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetEvent*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetPacketReader::*)(LiteNetLib::NetManager*, LiteNetLib::NetEvent*)>(&NetPacketReader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPacketReader::*)(LiteNetLib::NetManager*, LiteNetLib::NetEvent*)>(&LiteNetLib::NetPacketReader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetPacketReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetManager*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetEvent*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacketReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetManager*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetEvent*>()});
   }
 };
-// Writing MetadataGetter for method: NetPacketReader::SetSource
+// Writing MetadataGetter for method: LiteNetLib::NetPacketReader::SetSource
 // Il2CppName: SetSource
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetPacketReader::*)(LiteNetLib::NetPacket*)>(&NetPacketReader::SetSource)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPacketReader::*)(LiteNetLib::NetPacket*)>(&LiteNetLib::NetPacketReader::SetSource)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetPacketReader*), "SetSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacketReader*), "SetSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>()});
   }
 };
-// Writing MetadataGetter for method: NetPacketReader::RecycleInternal
+// Writing MetadataGetter for method: LiteNetLib::NetPacketReader::RecycleInternal
 // Il2CppName: RecycleInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetPacketReader::*)()>(&NetPacketReader::RecycleInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPacketReader::*)()>(&LiteNetLib::NetPacketReader::RecycleInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetPacketReader*), "RecycleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacketReader*), "RecycleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetPacketReader::Recycle
+// Writing MetadataGetter for method: LiteNetLib::NetPacketReader::Recycle
 // Il2CppName: Recycle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetPacketReader::*)()>(&NetPacketReader::Recycle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPacketReader::*)()>(&LiteNetLib::NetPacketReader::Recycle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetPacketReader*), "Recycle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacketReader*), "Recycle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

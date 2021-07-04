@@ -84,97 +84,97 @@ namespace TMPro {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextParsingUtilities*, "TMPro", "TMP_TextParsingUtilities");
-// Writing MetadataGetter for method: TMP_TextParsingUtilities::_cctor
+// Writing MetadataGetter for method: TMPro::TMP_TextParsingUtilities::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TMP_TextParsingUtilities::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TMPro::TMP_TextParsingUtilities::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextParsingUtilities*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextParsingUtilities*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_TextParsingUtilities::get_instance
+// Writing MetadataGetter for method: TMPro::TMP_TextParsingUtilities::get_instance
 // Il2CppName: get_instance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_TextParsingUtilities* (*)()>(&TMP_TextParsingUtilities::get_instance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_TextParsingUtilities* (*)()>(&TMPro::TMP_TextParsingUtilities::get_instance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextParsingUtilities*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextParsingUtilities*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_TextParsingUtilities::GetHashCode
+// Writing MetadataGetter for method: TMPro::TMP_TextParsingUtilities::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Il2CppString*)>(&TMP_TextParsingUtilities::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Il2CppString*)>(&TMPro::TMP_TextParsingUtilities::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextParsingUtilities*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextParsingUtilities*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextParsingUtilities::GetHashCodeCaseSensitive
+// Writing MetadataGetter for method: TMPro::TMP_TextParsingUtilities::GetHashCodeCaseSensitive
 // Il2CppName: GetHashCodeCaseSensitive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&TMP_TextParsingUtilities::GetHashCodeCaseSensitive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&TMPro::TMP_TextParsingUtilities::GetHashCodeCaseSensitive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextParsingUtilities*), "GetHashCodeCaseSensitive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextParsingUtilities*), "GetHashCodeCaseSensitive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextParsingUtilities::ToLowerASCIIFast
+// Writing MetadataGetter for method: TMPro::TMP_TextParsingUtilities::ToLowerASCIIFast
 // Il2CppName: ToLowerASCIIFast
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::Il2CppChar)>(&TMP_TextParsingUtilities::ToLowerASCIIFast)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::Il2CppChar)>(&TMPro::TMP_TextParsingUtilities::ToLowerASCIIFast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextParsingUtilities*), "ToLowerASCIIFast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextParsingUtilities*), "ToLowerASCIIFast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextParsingUtilities::ToUpperASCIIFast
+// Writing MetadataGetter for method: TMPro::TMP_TextParsingUtilities::ToUpperASCIIFast
 // Il2CppName: ToUpperASCIIFast
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::Il2CppChar)>(&TMP_TextParsingUtilities::ToUpperASCIIFast)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::Il2CppChar)>(&TMPro::TMP_TextParsingUtilities::ToUpperASCIIFast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextParsingUtilities*), "ToUpperASCIIFast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextParsingUtilities*), "ToUpperASCIIFast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextParsingUtilities::ToUpperASCIIFast
+// Writing MetadataGetter for method: TMPro::TMP_TextParsingUtilities::ToUpperASCIIFast
 // Il2CppName: ToUpperASCIIFast
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint)>(&TMP_TextParsingUtilities::ToUpperASCIIFast)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint)>(&TMPro::TMP_TextParsingUtilities::ToUpperASCIIFast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextParsingUtilities*), "ToUpperASCIIFast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextParsingUtilities*), "ToUpperASCIIFast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextParsingUtilities::ToLowerASCIIFast
+// Writing MetadataGetter for method: TMPro::TMP_TextParsingUtilities::ToLowerASCIIFast
 // Il2CppName: ToLowerASCIIFast
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint)>(&TMP_TextParsingUtilities::ToLowerASCIIFast)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint)>(&TMPro::TMP_TextParsingUtilities::ToLowerASCIIFast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextParsingUtilities*), "ToLowerASCIIFast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextParsingUtilities*), "ToLowerASCIIFast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextParsingUtilities::IsHighSurrogate
+// Writing MetadataGetter for method: TMPro::TMP_TextParsingUtilities::IsHighSurrogate
 // Il2CppName: IsHighSurrogate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint)>(&TMP_TextParsingUtilities::IsHighSurrogate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint)>(&TMPro::TMP_TextParsingUtilities::IsHighSurrogate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextParsingUtilities*), "IsHighSurrogate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextParsingUtilities*), "IsHighSurrogate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextParsingUtilities::IsLowSurrogate
+// Writing MetadataGetter for method: TMPro::TMP_TextParsingUtilities::IsLowSurrogate
 // Il2CppName: IsLowSurrogate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint)>(&TMP_TextParsingUtilities::IsLowSurrogate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint)>(&TMPro::TMP_TextParsingUtilities::IsLowSurrogate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextParsingUtilities*), "IsLowSurrogate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextParsingUtilities*), "IsLowSurrogate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextParsingUtilities::New_ctor
+// Writing MetadataGetter for method: TMPro::TMP_TextParsingUtilities::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_TextParsingUtilities::*)()>(&TMP_TextParsingUtilities::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_TextParsingUtilities::*)()>(&TMPro::TMP_TextParsingUtilities::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextParsingUtilities*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextParsingUtilities*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_TextParsingUtilities::*)()>(&TMP_TextParsingUtilities::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_TextParsingUtilities::*)()>(&TMPro::TMP_TextParsingUtilities::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextParsingUtilities*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextParsingUtilities*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

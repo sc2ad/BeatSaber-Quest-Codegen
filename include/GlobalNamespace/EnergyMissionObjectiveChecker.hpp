@@ -70,49 +70,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnergyMissionObjectiveChecker) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnergyMissionObjectiveChecker*, "", "EnergyMissionObjectiveChecker");
-// Writing MetadataGetter for method: EnergyMissionObjectiveChecker::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::EnergyMissionObjectiveChecker::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnergyMissionObjectiveChecker::*)()>(&EnergyMissionObjectiveChecker::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnergyMissionObjectiveChecker::*)()>(&GlobalNamespace::EnergyMissionObjectiveChecker::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnergyMissionObjectiveChecker*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnergyMissionObjectiveChecker*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EnergyMissionObjectiveChecker::HandleEnergyDidChange
+// Writing MetadataGetter for method: GlobalNamespace::EnergyMissionObjectiveChecker::HandleEnergyDidChange
 // Il2CppName: HandleEnergyDidChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnergyMissionObjectiveChecker::*)(float)>(&EnergyMissionObjectiveChecker::HandleEnergyDidChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnergyMissionObjectiveChecker::*)(float)>(&GlobalNamespace::EnergyMissionObjectiveChecker::HandleEnergyDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnergyMissionObjectiveChecker*), "HandleEnergyDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnergyMissionObjectiveChecker*), "HandleEnergyDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: EnergyMissionObjectiveChecker::CheckAndUpdateStatus
+// Writing MetadataGetter for method: GlobalNamespace::EnergyMissionObjectiveChecker::CheckAndUpdateStatus
 // Il2CppName: CheckAndUpdateStatus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnergyMissionObjectiveChecker::*)()>(&EnergyMissionObjectiveChecker::CheckAndUpdateStatus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnergyMissionObjectiveChecker::*)()>(&GlobalNamespace::EnergyMissionObjectiveChecker::CheckAndUpdateStatus)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnergyMissionObjectiveChecker*), "CheckAndUpdateStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnergyMissionObjectiveChecker*), "CheckAndUpdateStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EnergyMissionObjectiveChecker::Init
+// Writing MetadataGetter for method: GlobalNamespace::EnergyMissionObjectiveChecker::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnergyMissionObjectiveChecker::*)()>(&EnergyMissionObjectiveChecker::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnergyMissionObjectiveChecker::*)()>(&GlobalNamespace::EnergyMissionObjectiveChecker::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnergyMissionObjectiveChecker*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnergyMissionObjectiveChecker*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EnergyMissionObjectiveChecker::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::EnergyMissionObjectiveChecker::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnergyMissionObjectiveChecker::*)()>(&EnergyMissionObjectiveChecker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnergyMissionObjectiveChecker::*)()>(&GlobalNamespace::EnergyMissionObjectiveChecker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnergyMissionObjectiveChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnergyMissionObjectiveChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnergyMissionObjectiveChecker::*)()>(&EnergyMissionObjectiveChecker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnergyMissionObjectiveChecker::*)()>(&GlobalNamespace::EnergyMissionObjectiveChecker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnergyMissionObjectiveChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnergyMissionObjectiveChecker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

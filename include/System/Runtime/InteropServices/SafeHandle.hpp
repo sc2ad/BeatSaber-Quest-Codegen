@@ -127,137 +127,137 @@ namespace System::Runtime::InteropServices {
   static_assert(sizeof(SafeHandle) == 0x1E);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::SafeHandle*, "System.Runtime.InteropServices", "SafeHandle");
-// Writing MetadataGetter for method: SafeHandle::New_ctor
+// Writing MetadataGetter for method: System::Runtime::InteropServices::SafeHandle::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeHandle::*)(System::IntPtr, bool)>(&SafeHandle::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::InteropServices::SafeHandle::*)(System::IntPtr, bool)>(&System::Runtime::InteropServices::SafeHandle::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SafeHandle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::SafeHandle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeHandle::*)(System::IntPtr, bool)>(&SafeHandle::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::InteropServices::SafeHandle::*)(System::IntPtr, bool)>(&System::Runtime::InteropServices::SafeHandle::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SafeHandle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::SafeHandle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: SafeHandle::SetHandle
+// Writing MetadataGetter for method: System::Runtime::InteropServices::SafeHandle::SetHandle
 // Il2CppName: SetHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeHandle::*)(System::IntPtr)>(&SafeHandle::SetHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::InteropServices::SafeHandle::*)(System::IntPtr)>(&System::Runtime::InteropServices::SafeHandle::SetHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SafeHandle*), "SetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::SafeHandle*), "SetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: SafeHandle::DangerousGetHandle
+// Writing MetadataGetter for method: System::Runtime::InteropServices::SafeHandle::DangerousGetHandle
 // Il2CppName: DangerousGetHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (SafeHandle::*)()>(&SafeHandle::DangerousGetHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (System::Runtime::InteropServices::SafeHandle::*)()>(&System::Runtime::InteropServices::SafeHandle::DangerousGetHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SafeHandle*), "DangerousGetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::SafeHandle*), "DangerousGetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SafeHandle::get_IsClosed
+// Writing MetadataGetter for method: System::Runtime::InteropServices::SafeHandle::get_IsClosed
 // Il2CppName: get_IsClosed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SafeHandle::*)()>(&SafeHandle::get_IsClosed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::InteropServices::SafeHandle::*)()>(&System::Runtime::InteropServices::SafeHandle::get_IsClosed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SafeHandle*), "get_IsClosed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::SafeHandle*), "get_IsClosed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SafeHandle::get_IsInvalid
+// Writing MetadataGetter for method: System::Runtime::InteropServices::SafeHandle::get_IsInvalid
 // Il2CppName: get_IsInvalid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SafeHandle::*)()>(&SafeHandle::get_IsInvalid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::InteropServices::SafeHandle::*)()>(&System::Runtime::InteropServices::SafeHandle::get_IsInvalid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SafeHandle*), "get_IsInvalid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::SafeHandle*), "get_IsInvalid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SafeHandle::Close
+// Writing MetadataGetter for method: System::Runtime::InteropServices::SafeHandle::Close
 // Il2CppName: Close
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeHandle::*)()>(&SafeHandle::Close)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::InteropServices::SafeHandle::*)()>(&System::Runtime::InteropServices::SafeHandle::Close)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SafeHandle*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::SafeHandle*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SafeHandle::Dispose
+// Writing MetadataGetter for method: System::Runtime::InteropServices::SafeHandle::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeHandle::*)()>(&SafeHandle::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::InteropServices::SafeHandle::*)()>(&System::Runtime::InteropServices::SafeHandle::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SafeHandle*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::SafeHandle*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SafeHandle::Dispose
+// Writing MetadataGetter for method: System::Runtime::InteropServices::SafeHandle::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeHandle::*)(bool)>(&SafeHandle::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::InteropServices::SafeHandle::*)(bool)>(&System::Runtime::InteropServices::SafeHandle::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SafeHandle*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::SafeHandle*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: SafeHandle::ReleaseHandle
+// Writing MetadataGetter for method: System::Runtime::InteropServices::SafeHandle::ReleaseHandle
 // Il2CppName: ReleaseHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SafeHandle::*)()>(&SafeHandle::ReleaseHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::InteropServices::SafeHandle::*)()>(&System::Runtime::InteropServices::SafeHandle::ReleaseHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SafeHandle*), "ReleaseHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::SafeHandle*), "ReleaseHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SafeHandle::SetHandleAsInvalid
+// Writing MetadataGetter for method: System::Runtime::InteropServices::SafeHandle::SetHandleAsInvalid
 // Il2CppName: SetHandleAsInvalid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeHandle::*)()>(&SafeHandle::SetHandleAsInvalid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::InteropServices::SafeHandle::*)()>(&System::Runtime::InteropServices::SafeHandle::SetHandleAsInvalid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SafeHandle*), "SetHandleAsInvalid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::SafeHandle*), "SetHandleAsInvalid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SafeHandle::DangerousAddRef
+// Writing MetadataGetter for method: System::Runtime::InteropServices::SafeHandle::DangerousAddRef
 // Il2CppName: DangerousAddRef
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeHandle::*)(bool&)>(&SafeHandle::DangerousAddRef)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::InteropServices::SafeHandle::*)(bool&)>(&System::Runtime::InteropServices::SafeHandle::DangerousAddRef)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SafeHandle*), "DangerousAddRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::SafeHandle*), "DangerousAddRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool&>()});
   }
 };
-// Writing MetadataGetter for method: SafeHandle::DangerousRelease
+// Writing MetadataGetter for method: System::Runtime::InteropServices::SafeHandle::DangerousRelease
 // Il2CppName: DangerousRelease
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeHandle::*)()>(&SafeHandle::DangerousRelease)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::InteropServices::SafeHandle::*)()>(&System::Runtime::InteropServices::SafeHandle::DangerousRelease)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SafeHandle*), "DangerousRelease", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::SafeHandle*), "DangerousRelease", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SafeHandle::InternalDispose
+// Writing MetadataGetter for method: System::Runtime::InteropServices::SafeHandle::InternalDispose
 // Il2CppName: InternalDispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeHandle::*)()>(&SafeHandle::InternalDispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::InteropServices::SafeHandle::*)()>(&System::Runtime::InteropServices::SafeHandle::InternalDispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SafeHandle*), "InternalDispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::SafeHandle*), "InternalDispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SafeHandle::InternalFinalize
+// Writing MetadataGetter for method: System::Runtime::InteropServices::SafeHandle::InternalFinalize
 // Il2CppName: InternalFinalize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeHandle::*)()>(&SafeHandle::InternalFinalize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::InteropServices::SafeHandle::*)()>(&System::Runtime::InteropServices::SafeHandle::InternalFinalize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SafeHandle*), "InternalFinalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::SafeHandle*), "InternalFinalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SafeHandle::DangerousReleaseInternal
+// Writing MetadataGetter for method: System::Runtime::InteropServices::SafeHandle::DangerousReleaseInternal
 // Il2CppName: DangerousReleaseInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeHandle::*)(bool)>(&SafeHandle::DangerousReleaseInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::InteropServices::SafeHandle::*)(bool)>(&System::Runtime::InteropServices::SafeHandle::DangerousReleaseInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SafeHandle*), "DangerousReleaseInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::SafeHandle*), "DangerousReleaseInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: SafeHandle::Finalize
+// Writing MetadataGetter for method: System::Runtime::InteropServices::SafeHandle::Finalize
 // Il2CppName: Finalize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeHandle::*)()>(&SafeHandle::Finalize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::InteropServices::SafeHandle::*)()>(&System::Runtime::InteropServices::SafeHandle::Finalize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SafeHandle*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::SafeHandle*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

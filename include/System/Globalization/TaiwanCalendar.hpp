@@ -158,153 +158,153 @@ namespace System::Globalization {
   static_assert(sizeof(TaiwanCalendar) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TaiwanCalendar*, "System.Globalization", "TaiwanCalendar");
-// Writing MetadataGetter for method: TaiwanCalendar::GetDefaultInstance
+// Writing MetadataGetter for method: System::Globalization::TaiwanCalendar::GetDefaultInstance
 // Il2CppName: GetDefaultInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::Calendar* (*)()>(&TaiwanCalendar::GetDefaultInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::Calendar* (*)()>(&System::Globalization::TaiwanCalendar::GetDefaultInstance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaiwanCalendar*), "GetDefaultInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TaiwanCalendar*), "GetDefaultInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TaiwanCalendar::_cctor
+// Writing MetadataGetter for method: System::Globalization::TaiwanCalendar::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TaiwanCalendar::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Globalization::TaiwanCalendar::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaiwanCalendar*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TaiwanCalendar*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TaiwanCalendar::get_MinSupportedDateTime
+// Writing MetadataGetter for method: System::Globalization::TaiwanCalendar::get_MinSupportedDateTime
 // Il2CppName: get_MinSupportedDateTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (TaiwanCalendar::*)()>(&TaiwanCalendar::get_MinSupportedDateTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (System::Globalization::TaiwanCalendar::*)()>(&System::Globalization::TaiwanCalendar::get_MinSupportedDateTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaiwanCalendar*), "get_MinSupportedDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TaiwanCalendar*), "get_MinSupportedDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TaiwanCalendar::get_MaxSupportedDateTime
+// Writing MetadataGetter for method: System::Globalization::TaiwanCalendar::get_MaxSupportedDateTime
 // Il2CppName: get_MaxSupportedDateTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (TaiwanCalendar::*)()>(&TaiwanCalendar::get_MaxSupportedDateTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (System::Globalization::TaiwanCalendar::*)()>(&System::Globalization::TaiwanCalendar::get_MaxSupportedDateTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaiwanCalendar*), "get_MaxSupportedDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TaiwanCalendar*), "get_MaxSupportedDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TaiwanCalendar::New_ctor
+// Writing MetadataGetter for method: System::Globalization::TaiwanCalendar::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TaiwanCalendar::*)()>(&TaiwanCalendar::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::TaiwanCalendar::*)()>(&System::Globalization::TaiwanCalendar::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaiwanCalendar*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TaiwanCalendar*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TaiwanCalendar::*)()>(&TaiwanCalendar::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::TaiwanCalendar::*)()>(&System::Globalization::TaiwanCalendar::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaiwanCalendar*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TaiwanCalendar*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TaiwanCalendar::get_ID
+// Writing MetadataGetter for method: System::Globalization::TaiwanCalendar::get_ID
 // Il2CppName: get_ID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TaiwanCalendar::*)()>(&TaiwanCalendar::get_ID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::TaiwanCalendar::*)()>(&System::Globalization::TaiwanCalendar::get_ID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaiwanCalendar*), "get_ID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TaiwanCalendar*), "get_ID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TaiwanCalendar::GetDaysInMonth
+// Writing MetadataGetter for method: System::Globalization::TaiwanCalendar::GetDaysInMonth
 // Il2CppName: GetDaysInMonth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TaiwanCalendar::*)(int, int, int)>(&TaiwanCalendar::GetDaysInMonth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::TaiwanCalendar::*)(int, int, int)>(&System::Globalization::TaiwanCalendar::GetDaysInMonth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaiwanCalendar*), "GetDaysInMonth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TaiwanCalendar*), "GetDaysInMonth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TaiwanCalendar::GetDayOfMonth
+// Writing MetadataGetter for method: System::Globalization::TaiwanCalendar::GetDayOfMonth
 // Il2CppName: GetDayOfMonth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TaiwanCalendar::*)(System::DateTime)>(&TaiwanCalendar::GetDayOfMonth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::TaiwanCalendar::*)(System::DateTime)>(&System::Globalization::TaiwanCalendar::GetDayOfMonth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaiwanCalendar*), "GetDayOfMonth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TaiwanCalendar*), "GetDayOfMonth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
   }
 };
-// Writing MetadataGetter for method: TaiwanCalendar::GetDayOfWeek
+// Writing MetadataGetter for method: System::Globalization::TaiwanCalendar::GetDayOfWeek
 // Il2CppName: GetDayOfWeek
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DayOfWeek (TaiwanCalendar::*)(System::DateTime)>(&TaiwanCalendar::GetDayOfWeek)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DayOfWeek (System::Globalization::TaiwanCalendar::*)(System::DateTime)>(&System::Globalization::TaiwanCalendar::GetDayOfWeek)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaiwanCalendar*), "GetDayOfWeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TaiwanCalendar*), "GetDayOfWeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
   }
 };
-// Writing MetadataGetter for method: TaiwanCalendar::GetMonthsInYear
+// Writing MetadataGetter for method: System::Globalization::TaiwanCalendar::GetMonthsInYear
 // Il2CppName: GetMonthsInYear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TaiwanCalendar::*)(int, int)>(&TaiwanCalendar::GetMonthsInYear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::TaiwanCalendar::*)(int, int)>(&System::Globalization::TaiwanCalendar::GetMonthsInYear)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaiwanCalendar*), "GetMonthsInYear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TaiwanCalendar*), "GetMonthsInYear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TaiwanCalendar::GetEra
+// Writing MetadataGetter for method: System::Globalization::TaiwanCalendar::GetEra
 // Il2CppName: GetEra
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TaiwanCalendar::*)(System::DateTime)>(&TaiwanCalendar::GetEra)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::TaiwanCalendar::*)(System::DateTime)>(&System::Globalization::TaiwanCalendar::GetEra)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaiwanCalendar*), "GetEra", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TaiwanCalendar*), "GetEra", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
   }
 };
-// Writing MetadataGetter for method: TaiwanCalendar::GetMonth
+// Writing MetadataGetter for method: System::Globalization::TaiwanCalendar::GetMonth
 // Il2CppName: GetMonth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TaiwanCalendar::*)(System::DateTime)>(&TaiwanCalendar::GetMonth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::TaiwanCalendar::*)(System::DateTime)>(&System::Globalization::TaiwanCalendar::GetMonth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaiwanCalendar*), "GetMonth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TaiwanCalendar*), "GetMonth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
   }
 };
-// Writing MetadataGetter for method: TaiwanCalendar::GetYear
+// Writing MetadataGetter for method: System::Globalization::TaiwanCalendar::GetYear
 // Il2CppName: GetYear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TaiwanCalendar::*)(System::DateTime)>(&TaiwanCalendar::GetYear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::TaiwanCalendar::*)(System::DateTime)>(&System::Globalization::TaiwanCalendar::GetYear)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaiwanCalendar*), "GetYear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TaiwanCalendar*), "GetYear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
   }
 };
-// Writing MetadataGetter for method: TaiwanCalendar::IsLeapYear
+// Writing MetadataGetter for method: System::Globalization::TaiwanCalendar::IsLeapYear
 // Il2CppName: IsLeapYear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TaiwanCalendar::*)(int, int)>(&TaiwanCalendar::IsLeapYear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::TaiwanCalendar::*)(int, int)>(&System::Globalization::TaiwanCalendar::IsLeapYear)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaiwanCalendar*), "IsLeapYear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TaiwanCalendar*), "IsLeapYear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TaiwanCalendar::ToDateTime
+// Writing MetadataGetter for method: System::Globalization::TaiwanCalendar::ToDateTime
 // Il2CppName: ToDateTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (TaiwanCalendar::*)(int, int, int, int, int, int, int, int)>(&TaiwanCalendar::ToDateTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (System::Globalization::TaiwanCalendar::*)(int, int, int, int, int, int, int, int)>(&System::Globalization::TaiwanCalendar::ToDateTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaiwanCalendar*), "ToDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TaiwanCalendar*), "ToDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TaiwanCalendar::get_Eras
+// Writing MetadataGetter for method: System::Globalization::TaiwanCalendar::get_Eras
 // Il2CppName: get_Eras
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (TaiwanCalendar::*)()>(&TaiwanCalendar::get_Eras)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (System::Globalization::TaiwanCalendar::*)()>(&System::Globalization::TaiwanCalendar::get_Eras)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaiwanCalendar*), "get_Eras", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TaiwanCalendar*), "get_Eras", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TaiwanCalendar::get_TwoDigitYearMax
+// Writing MetadataGetter for method: System::Globalization::TaiwanCalendar::get_TwoDigitYearMax
 // Il2CppName: get_TwoDigitYearMax
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TaiwanCalendar::*)()>(&TaiwanCalendar::get_TwoDigitYearMax)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::TaiwanCalendar::*)()>(&System::Globalization::TaiwanCalendar::get_TwoDigitYearMax)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaiwanCalendar*), "get_TwoDigitYearMax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TaiwanCalendar*), "get_TwoDigitYearMax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TaiwanCalendar::ToFourDigitYear
+// Writing MetadataGetter for method: System::Globalization::TaiwanCalendar::ToFourDigitYear
 // Il2CppName: ToFourDigitYear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TaiwanCalendar::*)(int)>(&TaiwanCalendar::ToFourDigitYear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::TaiwanCalendar::*)(int)>(&System::Globalization::TaiwanCalendar::ToFourDigitYear)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TaiwanCalendar*), "ToFourDigitYear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TaiwanCalendar*), "ToFourDigitYear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };

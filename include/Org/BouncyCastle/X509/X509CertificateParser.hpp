@@ -115,89 +115,89 @@ namespace Org::BouncyCastle::X509 {
   static_assert(sizeof(X509CertificateParser) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509CertificateParser*, "Org.BouncyCastle.X509", "X509CertificateParser");
-// Writing MetadataGetter for method: X509CertificateParser::ReadDerCertificate
+// Writing MetadataGetter for method: Org::BouncyCastle::X509::X509CertificateParser::ReadDerCertificate
 // Il2CppName: ReadDerCertificate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::X509::X509Certificate* (X509CertificateParser::*)(Org::BouncyCastle::Asn1::Asn1InputStream*)>(&X509CertificateParser::ReadDerCertificate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::X509::X509Certificate* (Org::BouncyCastle::X509::X509CertificateParser::*)(Org::BouncyCastle::Asn1::Asn1InputStream*)>(&Org::BouncyCastle::X509::X509CertificateParser::ReadDerCertificate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509CertificateParser*), "ReadDerCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1InputStream*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509CertificateParser*), "ReadDerCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1InputStream*>()});
   }
 };
-// Writing MetadataGetter for method: X509CertificateParser::GetCertificate
+// Writing MetadataGetter for method: Org::BouncyCastle::X509::X509CertificateParser::GetCertificate
 // Il2CppName: GetCertificate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::X509::X509Certificate* (X509CertificateParser::*)()>(&X509CertificateParser::GetCertificate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::X509::X509Certificate* (Org::BouncyCastle::X509::X509CertificateParser::*)()>(&Org::BouncyCastle::X509::X509CertificateParser::GetCertificate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509CertificateParser*), "GetCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509CertificateParser*), "GetCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: X509CertificateParser::ReadPemCertificate
+// Writing MetadataGetter for method: Org::BouncyCastle::X509::X509CertificateParser::ReadPemCertificate
 // Il2CppName: ReadPemCertificate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::X509::X509Certificate* (X509CertificateParser::*)(System::IO::Stream*)>(&X509CertificateParser::ReadPemCertificate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::X509::X509Certificate* (Org::BouncyCastle::X509::X509CertificateParser::*)(System::IO::Stream*)>(&Org::BouncyCastle::X509::X509CertificateParser::ReadPemCertificate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509CertificateParser*), "ReadPemCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509CertificateParser*), "ReadPemCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
   }
 };
-// Writing MetadataGetter for method: X509CertificateParser::CreateX509Certificate
+// Writing MetadataGetter for method: Org::BouncyCastle::X509::X509CertificateParser::CreateX509Certificate
 // Il2CppName: CreateX509Certificate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::X509::X509Certificate* (X509CertificateParser::*)(Org::BouncyCastle::Asn1::X509::X509CertificateStructure*)>(&X509CertificateParser::CreateX509Certificate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::X509::X509Certificate* (Org::BouncyCastle::X509::X509CertificateParser::*)(Org::BouncyCastle::Asn1::X509::X509CertificateStructure*)>(&Org::BouncyCastle::X509::X509CertificateParser::CreateX509Certificate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509CertificateParser*), "CreateX509Certificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509CertificateParser*), "CreateX509Certificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>()});
   }
 };
-// Writing MetadataGetter for method: X509CertificateParser::ReadCertificate
+// Writing MetadataGetter for method: Org::BouncyCastle::X509::X509CertificateParser::ReadCertificate
 // Il2CppName: ReadCertificate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::X509::X509Certificate* (X509CertificateParser::*)(::Array<uint8_t>*)>(&X509CertificateParser::ReadCertificate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::X509::X509Certificate* (Org::BouncyCastle::X509::X509CertificateParser::*)(::Array<uint8_t>*)>(&Org::BouncyCastle::X509::X509CertificateParser::ReadCertificate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509CertificateParser*), "ReadCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509CertificateParser*), "ReadCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: X509CertificateParser::ReadCertificates
+// Writing MetadataGetter for method: Org::BouncyCastle::X509::X509CertificateParser::ReadCertificates
 // Il2CppName: ReadCertificates
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ICollection* (X509CertificateParser::*)(::Array<uint8_t>*)>(&X509CertificateParser::ReadCertificates)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ICollection* (Org::BouncyCastle::X509::X509CertificateParser::*)(::Array<uint8_t>*)>(&Org::BouncyCastle::X509::X509CertificateParser::ReadCertificates)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509CertificateParser*), "ReadCertificates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509CertificateParser*), "ReadCertificates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: X509CertificateParser::ReadCertificate
+// Writing MetadataGetter for method: Org::BouncyCastle::X509::X509CertificateParser::ReadCertificate
 // Il2CppName: ReadCertificate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::X509::X509Certificate* (X509CertificateParser::*)(System::IO::Stream*)>(&X509CertificateParser::ReadCertificate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::X509::X509Certificate* (Org::BouncyCastle::X509::X509CertificateParser::*)(System::IO::Stream*)>(&Org::BouncyCastle::X509::X509CertificateParser::ReadCertificate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509CertificateParser*), "ReadCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509CertificateParser*), "ReadCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
   }
 };
-// Writing MetadataGetter for method: X509CertificateParser::ReadCertificates
+// Writing MetadataGetter for method: Org::BouncyCastle::X509::X509CertificateParser::ReadCertificates
 // Il2CppName: ReadCertificates
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ICollection* (X509CertificateParser::*)(System::IO::Stream*)>(&X509CertificateParser::ReadCertificates)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ICollection* (Org::BouncyCastle::X509::X509CertificateParser::*)(System::IO::Stream*)>(&Org::BouncyCastle::X509::X509CertificateParser::ReadCertificates)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509CertificateParser*), "ReadCertificates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509CertificateParser*), "ReadCertificates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
   }
 };
-// Writing MetadataGetter for method: X509CertificateParser::_cctor
+// Writing MetadataGetter for method: Org::BouncyCastle::X509::X509CertificateParser::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&X509CertificateParser::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::X509::X509CertificateParser::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509CertificateParser*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509CertificateParser*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: X509CertificateParser::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::X509::X509CertificateParser::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509CertificateParser::*)()>(&X509CertificateParser::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::X509::X509CertificateParser::*)()>(&Org::BouncyCastle::X509::X509CertificateParser::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509CertificateParser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509CertificateParser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509CertificateParser::*)()>(&X509CertificateParser::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::X509::X509CertificateParser::*)()>(&Org::BouncyCastle::X509::X509CertificateParser::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509CertificateParser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509CertificateParser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

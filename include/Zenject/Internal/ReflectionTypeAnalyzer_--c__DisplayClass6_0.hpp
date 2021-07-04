@@ -63,25 +63,25 @@ namespace Zenject::Internal {
   static_assert(sizeof(ReflectionTypeAnalyzer::$$c__DisplayClass6_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass6_0*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c__DisplayClass6_0");
-// Writing MetadataGetter for method: ReflectionTypeAnalyzer::$$c__DisplayClass6_0::$GetFieldInfos$b__1
+// Writing MetadataGetter for method: Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass6_0::$GetFieldInfos$b__1
 // Il2CppName: <GetFieldInfos>b__1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Internal::ReflectionTypeInfo::InjectFieldInfo* (ReflectionTypeAnalyzer::$$c__DisplayClass6_0::*)(System::Reflection::FieldInfo*)>(&ReflectionTypeAnalyzer::$$c__DisplayClass6_0::$GetFieldInfos$b__1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Internal::ReflectionTypeInfo::InjectFieldInfo* (Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass6_0::*)(System::Reflection::FieldInfo*)>(&Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass6_0::$GetFieldInfos$b__1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReflectionTypeAnalyzer::$$c__DisplayClass6_0*), "<GetFieldInfos>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::FieldInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass6_0*), "<GetFieldInfos>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::FieldInfo*>()});
   }
 };
-// Writing MetadataGetter for method: ReflectionTypeAnalyzer::$$c__DisplayClass6_0::New_ctor
+// Writing MetadataGetter for method: Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass6_0::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReflectionTypeAnalyzer::$$c__DisplayClass6_0::*)()>(&ReflectionTypeAnalyzer::$$c__DisplayClass6_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass6_0::*)()>(&Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass6_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReflectionTypeAnalyzer::$$c__DisplayClass6_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass6_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReflectionTypeAnalyzer::$$c__DisplayClass6_0::*)()>(&ReflectionTypeAnalyzer::$$c__DisplayClass6_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass6_0::*)()>(&Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass6_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReflectionTypeAnalyzer::$$c__DisplayClass6_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass6_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -77,19 +77,19 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelSO::$GetCoverImageAsync$d__65, "", "BeatmapLevelSO/<GetCoverImageAsync>d__65");
-// Writing MetadataGetter for method: BeatmapLevelSO::$GetCoverImageAsync$d__65::MoveNext
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSO::$GetCoverImageAsync$d__65::MoveNext
 // Il2CppName: MoveNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapLevelSO::$GetCoverImageAsync$d__65::*)()>(&BeatmapLevelSO::$GetCoverImageAsync$d__65::MoveNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelSO::$GetCoverImageAsync$d__65::*)()>(&GlobalNamespace::BeatmapLevelSO::$GetCoverImageAsync$d__65::MoveNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapLevelSO::$GetCoverImageAsync$d__65), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelSO::$GetCoverImageAsync$d__65), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapLevelSO::$GetCoverImageAsync$d__65::SetStateMachine
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSO::$GetCoverImageAsync$d__65::SetStateMachine
 // Il2CppName: SetStateMachine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapLevelSO::$GetCoverImageAsync$d__65::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&BeatmapLevelSO::$GetCoverImageAsync$d__65::SetStateMachine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelSO::$GetCoverImageAsync$d__65::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&GlobalNamespace::BeatmapLevelSO::$GetCoverImageAsync$d__65::SetStateMachine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapLevelSO::$GetCoverImageAsync$d__65), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelSO::$GetCoverImageAsync$d__65), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
   }
 };

@@ -62,25 +62,25 @@ namespace HMUI {
   static_assert(sizeof(StackedController::$$c__DisplayClass5_0) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::StackedController::$$c__DisplayClass5_0*, "HMUI", "StackedController/<>c__DisplayClass5_0");
-// Writing MetadataGetter for method: StackedController::$$c__DisplayClass5_0::$PopViewControllers$g__AnimationLayouter_0
+// Writing MetadataGetter for method: HMUI::StackedController::$$c__DisplayClass5_0::$PopViewControllers$g__AnimationLayouter_0
 // Il2CppName: <PopViewControllers>g__AnimationLayouter|0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackedController::$$c__DisplayClass5_0::*)(float, ::Array<HMUI::ViewController*>*, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*)>(&StackedController::$$c__DisplayClass5_0::$PopViewControllers$g__AnimationLayouter_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackedController::$$c__DisplayClass5_0::*)(float, ::Array<HMUI::ViewController*>*, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*)>(&HMUI::StackedController::$$c__DisplayClass5_0::$PopViewControllers$g__AnimationLayouter_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StackedController::$$c__DisplayClass5_0*), "<PopViewControllers>g__AnimationLayouter|0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Array<HMUI::ViewController*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::StackedController::$$c__DisplayClass5_0*), "<PopViewControllers>g__AnimationLayouter|0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Array<HMUI::ViewController*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>()});
   }
 };
-// Writing MetadataGetter for method: StackedController::$$c__DisplayClass5_0::New_ctor
+// Writing MetadataGetter for method: HMUI::StackedController::$$c__DisplayClass5_0::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackedController::$$c__DisplayClass5_0::*)()>(&StackedController::$$c__DisplayClass5_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackedController::$$c__DisplayClass5_0::*)()>(&HMUI::StackedController::$$c__DisplayClass5_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StackedController::$$c__DisplayClass5_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::StackedController::$$c__DisplayClass5_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StackedController::$$c__DisplayClass5_0::*)()>(&StackedController::$$c__DisplayClass5_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackedController::$$c__DisplayClass5_0::*)()>(&HMUI::StackedController::$$c__DisplayClass5_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StackedController::$$c__DisplayClass5_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::StackedController::$$c__DisplayClass5_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

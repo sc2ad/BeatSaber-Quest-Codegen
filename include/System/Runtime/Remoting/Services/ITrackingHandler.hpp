@@ -38,27 +38,27 @@ namespace System::Runtime::Remoting::Services {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Services::ITrackingHandler*, "System.Runtime.Remoting.Services", "ITrackingHandler");
-// Writing MetadataGetter for method: ITrackingHandler::DisconnectedObject
+// Writing MetadataGetter for method: System::Runtime::Remoting::Services::ITrackingHandler::DisconnectedObject
 // Il2CppName: DisconnectedObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ITrackingHandler::*)(::Il2CppObject*)>(&ITrackingHandler::DisconnectedObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Services::ITrackingHandler::*)(::Il2CppObject*)>(&System::Runtime::Remoting::Services::ITrackingHandler::DisconnectedObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ITrackingHandler*), "DisconnectedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Services::ITrackingHandler*), "DisconnectedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: ITrackingHandler::MarshaledObject
+// Writing MetadataGetter for method: System::Runtime::Remoting::Services::ITrackingHandler::MarshaledObject
 // Il2CppName: MarshaledObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ITrackingHandler::*)(::Il2CppObject*, System::Runtime::Remoting::ObjRef*)>(&ITrackingHandler::MarshaledObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Services::ITrackingHandler::*)(::Il2CppObject*, System::Runtime::Remoting::ObjRef*)>(&System::Runtime::Remoting::Services::ITrackingHandler::MarshaledObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ITrackingHandler*), "MarshaledObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ObjRef*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Services::ITrackingHandler*), "MarshaledObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ObjRef*>()});
   }
 };
-// Writing MetadataGetter for method: ITrackingHandler::UnmarshaledObject
+// Writing MetadataGetter for method: System::Runtime::Remoting::Services::ITrackingHandler::UnmarshaledObject
 // Il2CppName: UnmarshaledObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ITrackingHandler::*)(::Il2CppObject*, System::Runtime::Remoting::ObjRef*)>(&ITrackingHandler::UnmarshaledObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Services::ITrackingHandler::*)(::Il2CppObject*, System::Runtime::Remoting::ObjRef*)>(&System::Runtime::Remoting::Services::ITrackingHandler::UnmarshaledObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ITrackingHandler*), "UnmarshaledObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ObjRef*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Services::ITrackingHandler*), "UnmarshaledObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ObjRef*>()});
   }
 };

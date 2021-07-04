@@ -37,25 +37,25 @@ namespace System::Runtime::ConstrainedExecution {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ConstrainedExecution::CriticalFinalizerObject*, "System.Runtime.ConstrainedExecution", "CriticalFinalizerObject");
-// Writing MetadataGetter for method: CriticalFinalizerObject::New_ctor
+// Writing MetadataGetter for method: System::Runtime::ConstrainedExecution::CriticalFinalizerObject::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CriticalFinalizerObject::*)()>(&CriticalFinalizerObject::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::ConstrainedExecution::CriticalFinalizerObject::*)()>(&System::Runtime::ConstrainedExecution::CriticalFinalizerObject::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CriticalFinalizerObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::ConstrainedExecution::CriticalFinalizerObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CriticalFinalizerObject::*)()>(&CriticalFinalizerObject::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::ConstrainedExecution::CriticalFinalizerObject::*)()>(&System::Runtime::ConstrainedExecution::CriticalFinalizerObject::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CriticalFinalizerObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::ConstrainedExecution::CriticalFinalizerObject*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CriticalFinalizerObject::Finalize
+// Writing MetadataGetter for method: System::Runtime::ConstrainedExecution::CriticalFinalizerObject::Finalize
 // Il2CppName: Finalize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CriticalFinalizerObject::*)()>(&CriticalFinalizerObject::Finalize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::ConstrainedExecution::CriticalFinalizerObject::*)()>(&System::Runtime::ConstrainedExecution::CriticalFinalizerObject::Finalize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CriticalFinalizerObject*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::ConstrainedExecution::CriticalFinalizerObject*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -54,25 +54,25 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapSaveData::SpecialEventKeywordFiltersData) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData*, "", "BeatmapSaveData/SpecialEventKeywordFiltersData");
-// Writing MetadataGetter for method: BeatmapSaveData::SpecialEventKeywordFiltersData::get_keywords
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData::get_keywords
 // Il2CppName: get_keywords
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*>* (BeatmapSaveData::SpecialEventKeywordFiltersData::*)()>(&BeatmapSaveData::SpecialEventKeywordFiltersData::get_keywords)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*>* (GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData::*)()>(&GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData::get_keywords)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapSaveData::SpecialEventKeywordFiltersData*), "get_keywords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData*), "get_keywords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapSaveData::SpecialEventKeywordFiltersData::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapSaveData::SpecialEventKeywordFiltersData::*)(System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*>*)>(&BeatmapSaveData::SpecialEventKeywordFiltersData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData::*)(System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*>*)>(&GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapSaveData::SpecialEventKeywordFiltersData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapSaveData::SpecialEventKeywordFiltersData::*)(System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*>*)>(&BeatmapSaveData::SpecialEventKeywordFiltersData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData::*)(System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*>*)>(&GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapSaveData::SpecialEventKeywordFiltersData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*>*>()});
   }
 };

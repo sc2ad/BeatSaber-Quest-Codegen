@@ -51,17 +51,17 @@ namespace System::Security::Principal {
   static_assert(sizeof(WindowsPrincipal) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::WindowsPrincipal*, "System.Security.Principal", "WindowsPrincipal");
-// Writing MetadataGetter for method: WindowsPrincipal::New_ctor
+// Writing MetadataGetter for method: System::Security::Principal::WindowsPrincipal::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WindowsPrincipal::*)(System::Security::Principal::WindowsIdentity*)>(&WindowsPrincipal::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Principal::WindowsPrincipal::*)(System::Security::Principal::WindowsIdentity*)>(&System::Security::Principal::WindowsPrincipal::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WindowsPrincipal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Principal::WindowsIdentity*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::WindowsPrincipal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Principal::WindowsIdentity*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WindowsPrincipal::*)(System::Security::Principal::WindowsIdentity*)>(&WindowsPrincipal::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Principal::WindowsPrincipal::*)(System::Security::Principal::WindowsIdentity*)>(&System::Security::Principal::WindowsPrincipal::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WindowsPrincipal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Principal::WindowsIdentity*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::WindowsPrincipal*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Principal::WindowsIdentity*>()});
   }
 };

@@ -70,41 +70,41 @@ namespace System::Collections {
   static_assert(sizeof(Hashtable::KeyCollection) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Hashtable::KeyCollection*, "System.Collections", "Hashtable/KeyCollection");
-// Writing MetadataGetter for method: Hashtable::KeyCollection::New_ctor
+// Writing MetadataGetter for method: System::Collections::Hashtable::KeyCollection::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Hashtable::KeyCollection::*)(System::Collections::Hashtable*)>(&Hashtable::KeyCollection::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Hashtable::KeyCollection::*)(System::Collections::Hashtable*)>(&System::Collections::Hashtable::KeyCollection::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Hashtable::KeyCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Hashtable*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Hashtable::KeyCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Hashtable*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Hashtable::KeyCollection::*)(System::Collections::Hashtable*)>(&Hashtable::KeyCollection::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Hashtable::KeyCollection::*)(System::Collections::Hashtable*)>(&System::Collections::Hashtable::KeyCollection::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Hashtable::KeyCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Hashtable*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Hashtable::KeyCollection*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Hashtable*>()});
   }
 };
-// Writing MetadataGetter for method: Hashtable::KeyCollection::CopyTo
+// Writing MetadataGetter for method: System::Collections::Hashtable::KeyCollection::CopyTo
 // Il2CppName: CopyTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Hashtable::KeyCollection::*)(System::Array*, int)>(&Hashtable::KeyCollection::CopyTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Hashtable::KeyCollection::*)(System::Array*, int)>(&System::Collections::Hashtable::KeyCollection::CopyTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Hashtable::KeyCollection*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Hashtable::KeyCollection*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Hashtable::KeyCollection::GetEnumerator
+// Writing MetadataGetter for method: System::Collections::Hashtable::KeyCollection::GetEnumerator
 // Il2CppName: GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (Hashtable::KeyCollection::*)()>(&Hashtable::KeyCollection::GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::Collections::Hashtable::KeyCollection::*)()>(&System::Collections::Hashtable::KeyCollection::GetEnumerator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Hashtable::KeyCollection*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Hashtable::KeyCollection*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Hashtable::KeyCollection::get_Count
+// Writing MetadataGetter for method: System::Collections::Hashtable::KeyCollection::get_Count
 // Il2CppName: get_Count
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Hashtable::KeyCollection::*)()>(&Hashtable::KeyCollection::get_Count)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::Hashtable::KeyCollection::*)()>(&System::Collections::Hashtable::KeyCollection::get_Count)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Hashtable::KeyCollection*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Hashtable::KeyCollection*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

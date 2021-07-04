@@ -105,41 +105,41 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(FBBIKArmBending) == 0x71);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBBIKArmBending*, "RootMotion.FinalIK", "FBBIKArmBending");
-// Writing MetadataGetter for method: FBBIKArmBending::LateUpdate
+// Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKArmBending::LateUpdate
 // Il2CppName: LateUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKArmBending::*)()>(&FBBIKArmBending::LateUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBBIKArmBending::*)()>(&RootMotion::FinalIK::FBBIKArmBending::LateUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FBBIKArmBending*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBBIKArmBending*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FBBIKArmBending::OnPostFBBIK
+// Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKArmBending::OnPostFBBIK
 // Il2CppName: OnPostFBBIK
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKArmBending::*)()>(&FBBIKArmBending::OnPostFBBIK)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBBIKArmBending::*)()>(&RootMotion::FinalIK::FBBIKArmBending::OnPostFBBIK)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FBBIKArmBending*), "OnPostFBBIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBBIKArmBending*), "OnPostFBBIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FBBIKArmBending::OnDestroy
+// Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKArmBending::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKArmBending::*)()>(&FBBIKArmBending::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBBIKArmBending::*)()>(&RootMotion::FinalIK::FBBIKArmBending::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FBBIKArmBending*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBBIKArmBending*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FBBIKArmBending::New_ctor
+// Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKArmBending::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKArmBending::*)()>(&FBBIKArmBending::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBBIKArmBending::*)()>(&RootMotion::FinalIK::FBBIKArmBending::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FBBIKArmBending*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBBIKArmBending*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FBBIKArmBending::*)()>(&FBBIKArmBending::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBBIKArmBending::*)()>(&RootMotion::FinalIK::FBBIKArmBending::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FBBIKArmBending*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBBIKArmBending*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

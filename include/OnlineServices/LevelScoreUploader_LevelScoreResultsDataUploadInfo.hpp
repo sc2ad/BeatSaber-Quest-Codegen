@@ -49,17 +49,17 @@ namespace OnlineServices {
   static_assert(sizeof(LevelScoreUploader::LevelScoreResultsDataUploadInfo) == 0x44);
 }
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*, "OnlineServices", "LevelScoreUploader/LevelScoreResultsDataUploadInfo");
-// Writing MetadataGetter for method: LevelScoreUploader::LevelScoreResultsDataUploadInfo::New_ctor
+// Writing MetadataGetter for method: OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelScoreUploader::LevelScoreResultsDataUploadInfo::*)()>(&LevelScoreUploader::LevelScoreResultsDataUploadInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo::*)()>(&OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelScoreUploader::LevelScoreResultsDataUploadInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelScoreUploader::LevelScoreResultsDataUploadInfo::*)()>(&LevelScoreUploader::LevelScoreResultsDataUploadInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo::*)()>(&OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelScoreUploader::LevelScoreResultsDataUploadInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

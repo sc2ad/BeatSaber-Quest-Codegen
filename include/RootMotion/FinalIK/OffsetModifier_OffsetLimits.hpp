@@ -137,41 +137,41 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(OffsetModifier::OffsetLimits) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetModifier::OffsetLimits*, "RootMotion.FinalIK", "OffsetModifier/OffsetLimits");
-// Writing MetadataGetter for method: OffsetModifier::OffsetLimits::Apply
+// Writing MetadataGetter for method: RootMotion::FinalIK::OffsetModifier::OffsetLimits::Apply
 // Il2CppName: Apply
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OffsetModifier::OffsetLimits::*)(RootMotion::FinalIK::IKEffector*, UnityEngine::Quaternion)>(&OffsetModifier::OffsetLimits::Apply)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::OffsetModifier::OffsetLimits::*)(RootMotion::FinalIK::IKEffector*, UnityEngine::Quaternion)>(&RootMotion::FinalIK::OffsetModifier::OffsetLimits::Apply)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OffsetModifier::OffsetLimits*), "Apply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKEffector*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::OffsetModifier::OffsetLimits*), "Apply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKEffector*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
   }
 };
-// Writing MetadataGetter for method: OffsetModifier::OffsetLimits::SpringAxis
+// Writing MetadataGetter for method: RootMotion::FinalIK::OffsetModifier::OffsetLimits::SpringAxis
 // Il2CppName: SpringAxis
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OffsetModifier::OffsetLimits::*)(float, float, float)>(&OffsetModifier::OffsetLimits::SpringAxis)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RootMotion::FinalIK::OffsetModifier::OffsetLimits::*)(float, float, float)>(&RootMotion::FinalIK::OffsetModifier::OffsetLimits::SpringAxis)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OffsetModifier::OffsetLimits*), "SpringAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::OffsetModifier::OffsetLimits*), "SpringAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: OffsetModifier::OffsetLimits::Spring
+// Writing MetadataGetter for method: RootMotion::FinalIK::OffsetModifier::OffsetLimits::Spring
 // Il2CppName: Spring
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OffsetModifier::OffsetLimits::*)(float, float, bool)>(&OffsetModifier::OffsetLimits::Spring)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RootMotion::FinalIK::OffsetModifier::OffsetLimits::*)(float, float, bool)>(&RootMotion::FinalIK::OffsetModifier::OffsetLimits::Spring)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OffsetModifier::OffsetLimits*), "Spring", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::OffsetModifier::OffsetLimits*), "Spring", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: OffsetModifier::OffsetLimits::New_ctor
+// Writing MetadataGetter for method: RootMotion::FinalIK::OffsetModifier::OffsetLimits::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OffsetModifier::OffsetLimits::*)()>(&OffsetModifier::OffsetLimits::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::OffsetModifier::OffsetLimits::*)()>(&RootMotion::FinalIK::OffsetModifier::OffsetLimits::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OffsetModifier::OffsetLimits*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::OffsetModifier::OffsetLimits*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OffsetModifier::OffsetLimits::*)()>(&OffsetModifier::OffsetLimits::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::OffsetModifier::OffsetLimits::*)()>(&RootMotion::FinalIK::OffsetModifier::OffsetLimits::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OffsetModifier::OffsetLimits*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::OffsetModifier::OffsetLimits*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

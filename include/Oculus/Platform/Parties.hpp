@@ -42,19 +42,19 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Parties*, "Oculus.Platform", "Parties");
-// Writing MetadataGetter for method: Parties::GetCurrent
+// Writing MetadataGetter for method: Oculus::Platform::Parties::GetCurrent
 // Il2CppName: GetCurrent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Party*>* (*)()>(&Parties::GetCurrent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Party*>* (*)()>(&Oculus::Platform::Parties::GetCurrent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Parties*), "GetCurrent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Parties*), "GetCurrent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Parties::SetPartyUpdateNotificationCallback
+// Writing MetadataGetter for method: Oculus::Platform::Parties::SetPartyUpdateNotificationCallback
 // Il2CppName: SetPartyUpdateNotificationCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<Oculus::Platform::Models::PartyUpdateNotification*>::Callback*)>(&Parties::SetPartyUpdateNotificationCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<Oculus::Platform::Models::PartyUpdateNotification*>::Callback*)>(&Oculus::Platform::Parties::SetPartyUpdateNotificationCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Parties*), "SetPartyUpdateNotificationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<Oculus::Platform::Models::PartyUpdateNotification*>::Callback*>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Parties*), "SetPartyUpdateNotificationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<Oculus::Platform::Models::PartyUpdateNotification*>::Callback*>()});
   }
 };

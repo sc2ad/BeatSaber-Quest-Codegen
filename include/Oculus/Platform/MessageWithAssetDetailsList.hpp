@@ -47,33 +47,33 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithAssetDetailsList
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithAssetDetailsList*, "Oculus.Platform", "MessageWithAssetDetailsList");
-// Writing MetadataGetter for method: MessageWithAssetDetailsList::GetDataFromMessage
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithAssetDetailsList::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AssetDetailsList* (MessageWithAssetDetailsList::*)(System::IntPtr)>(&MessageWithAssetDetailsList::GetDataFromMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AssetDetailsList* (Oculus::Platform::MessageWithAssetDetailsList::*)(System::IntPtr)>(&Oculus::Platform::MessageWithAssetDetailsList::GetDataFromMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithAssetDetailsList*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithAssetDetailsList*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithAssetDetailsList::New_ctor
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithAssetDetailsList::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithAssetDetailsList::*)(System::IntPtr)>(&MessageWithAssetDetailsList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithAssetDetailsList::*)(System::IntPtr)>(&Oculus::Platform::MessageWithAssetDetailsList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithAssetDetailsList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithAssetDetailsList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithAssetDetailsList::*)(System::IntPtr)>(&MessageWithAssetDetailsList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithAssetDetailsList::*)(System::IntPtr)>(&Oculus::Platform::MessageWithAssetDetailsList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithAssetDetailsList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithAssetDetailsList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithAssetDetailsList::GetAssetDetailsList
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithAssetDetailsList::GetAssetDetailsList
 // Il2CppName: GetAssetDetailsList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AssetDetailsList* (MessageWithAssetDetailsList::*)()>(&MessageWithAssetDetailsList::GetAssetDetailsList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AssetDetailsList* (Oculus::Platform::MessageWithAssetDetailsList::*)()>(&Oculus::Platform::MessageWithAssetDetailsList::GetAssetDetailsList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithAssetDetailsList*), "GetAssetDetailsList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithAssetDetailsList*), "GetAssetDetailsList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

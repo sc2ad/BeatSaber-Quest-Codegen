@@ -68,33 +68,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(OverrideEnvironmentSettings) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OverrideEnvironmentSettings*, "", "OverrideEnvironmentSettings");
-// Writing MetadataGetter for method: OverrideEnvironmentSettings::SetEnvironmentInfoForType
+// Writing MetadataGetter for method: GlobalNamespace::OverrideEnvironmentSettings::SetEnvironmentInfoForType
 // Il2CppName: SetEnvironmentInfoForType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OverrideEnvironmentSettings::*)(GlobalNamespace::EnvironmentTypeSO*, GlobalNamespace::EnvironmentInfoSO*)>(&OverrideEnvironmentSettings::SetEnvironmentInfoForType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OverrideEnvironmentSettings::*)(GlobalNamespace::EnvironmentTypeSO*, GlobalNamespace::EnvironmentInfoSO*)>(&GlobalNamespace::OverrideEnvironmentSettings::SetEnvironmentInfoForType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OverrideEnvironmentSettings*), "SetEnvironmentInfoForType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EnvironmentTypeSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EnvironmentInfoSO*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OverrideEnvironmentSettings*), "SetEnvironmentInfoForType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EnvironmentTypeSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EnvironmentInfoSO*>()});
   }
 };
-// Writing MetadataGetter for method: OverrideEnvironmentSettings::GetOverrideEnvironmentInfoForType
+// Writing MetadataGetter for method: GlobalNamespace::OverrideEnvironmentSettings::GetOverrideEnvironmentInfoForType
 // Il2CppName: GetOverrideEnvironmentInfoForType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentInfoSO* (OverrideEnvironmentSettings::*)(GlobalNamespace::EnvironmentTypeSO*)>(&OverrideEnvironmentSettings::GetOverrideEnvironmentInfoForType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentInfoSO* (GlobalNamespace::OverrideEnvironmentSettings::*)(GlobalNamespace::EnvironmentTypeSO*)>(&GlobalNamespace::OverrideEnvironmentSettings::GetOverrideEnvironmentInfoForType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OverrideEnvironmentSettings*), "GetOverrideEnvironmentInfoForType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EnvironmentTypeSO*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OverrideEnvironmentSettings*), "GetOverrideEnvironmentInfoForType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EnvironmentTypeSO*>()});
   }
 };
-// Writing MetadataGetter for method: OverrideEnvironmentSettings::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::OverrideEnvironmentSettings::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OverrideEnvironmentSettings::*)()>(&OverrideEnvironmentSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OverrideEnvironmentSettings::*)()>(&GlobalNamespace::OverrideEnvironmentSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OverrideEnvironmentSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OverrideEnvironmentSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OverrideEnvironmentSettings::*)()>(&OverrideEnvironmentSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OverrideEnvironmentSettings::*)()>(&GlobalNamespace::OverrideEnvironmentSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OverrideEnvironmentSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OverrideEnvironmentSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

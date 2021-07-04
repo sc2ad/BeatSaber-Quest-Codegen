@@ -72,41 +72,41 @@ namespace System::Net {
   static_assert(sizeof(CookieCollection::CookieCollectionEnumerator) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieCollection::CookieCollectionEnumerator*, "System.Net", "CookieCollection/CookieCollectionEnumerator");
-// Writing MetadataGetter for method: CookieCollection::CookieCollectionEnumerator::New_ctor
+// Writing MetadataGetter for method: System::Net::CookieCollection::CookieCollectionEnumerator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CookieCollection::CookieCollectionEnumerator::*)(System::Net::CookieCollection*)>(&CookieCollection::CookieCollectionEnumerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::CookieCollection::CookieCollectionEnumerator::*)(System::Net::CookieCollection*)>(&System::Net::CookieCollection::CookieCollectionEnumerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CookieCollection::CookieCollectionEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::CookieCollection*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::CookieCollection::CookieCollectionEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::CookieCollection*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CookieCollection::CookieCollectionEnumerator::*)(System::Net::CookieCollection*)>(&CookieCollection::CookieCollectionEnumerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::CookieCollection::CookieCollectionEnumerator::*)(System::Net::CookieCollection*)>(&System::Net::CookieCollection::CookieCollectionEnumerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CookieCollection::CookieCollectionEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::CookieCollection*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::CookieCollection::CookieCollectionEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::CookieCollection*>()});
   }
 };
-// Writing MetadataGetter for method: CookieCollection::CookieCollectionEnumerator::System_Collections_IEnumerator_get_Current
+// Writing MetadataGetter for method: System::Net::CookieCollection::CookieCollectionEnumerator::System_Collections_IEnumerator_get_Current
 // Il2CppName: System.Collections.IEnumerator.get_Current
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (CookieCollection::CookieCollectionEnumerator::*)()>(&CookieCollection::CookieCollectionEnumerator::System_Collections_IEnumerator_get_Current)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Net::CookieCollection::CookieCollectionEnumerator::*)()>(&System::Net::CookieCollection::CookieCollectionEnumerator::System_Collections_IEnumerator_get_Current)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CookieCollection::CookieCollectionEnumerator*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::CookieCollection::CookieCollectionEnumerator*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CookieCollection::CookieCollectionEnumerator::System_Collections_IEnumerator_MoveNext
+// Writing MetadataGetter for method: System::Net::CookieCollection::CookieCollectionEnumerator::System_Collections_IEnumerator_MoveNext
 // Il2CppName: System.Collections.IEnumerator.MoveNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CookieCollection::CookieCollectionEnumerator::*)()>(&CookieCollection::CookieCollectionEnumerator::System_Collections_IEnumerator_MoveNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::CookieCollection::CookieCollectionEnumerator::*)()>(&System::Net::CookieCollection::CookieCollectionEnumerator::System_Collections_IEnumerator_MoveNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CookieCollection::CookieCollectionEnumerator*), "System.Collections.IEnumerator.MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::CookieCollection::CookieCollectionEnumerator*), "System.Collections.IEnumerator.MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CookieCollection::CookieCollectionEnumerator::System_Collections_IEnumerator_Reset
+// Writing MetadataGetter for method: System::Net::CookieCollection::CookieCollectionEnumerator::System_Collections_IEnumerator_Reset
 // Il2CppName: System.Collections.IEnumerator.Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CookieCollection::CookieCollectionEnumerator::*)()>(&CookieCollection::CookieCollectionEnumerator::System_Collections_IEnumerator_Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::CookieCollection::CookieCollectionEnumerator::*)()>(&System::Net::CookieCollection::CookieCollectionEnumerator::System_Collections_IEnumerator_Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CookieCollection::CookieCollectionEnumerator*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::CookieCollection::CookieCollectionEnumerator*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

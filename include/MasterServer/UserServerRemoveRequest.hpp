@@ -107,89 +107,89 @@ namespace MasterServer {
   static_assert(sizeof(UserServerRemoveRequest) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserServerRemoveRequest*, "MasterServer", "UserServerRemoveRequest");
-// Writing MetadataGetter for method: UserServerRemoveRequest::get_pool
+// Writing MetadataGetter for method: MasterServer::UserServerRemoveRequest::get_pool
 // Il2CppName: get_pool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::UserServerRemoveRequest*>* (*)()>(&UserServerRemoveRequest::get_pool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::UserServerRemoveRequest*>* (*)()>(&MasterServer::UserServerRemoveRequest::get_pool)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserServerRemoveRequest*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserServerRemoveRequest*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UserServerRemoveRequest::get_userId
+// Writing MetadataGetter for method: MasterServer::UserServerRemoveRequest::get_userId
 // Il2CppName: get_userId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UserServerRemoveRequest::*)()>(&UserServerRemoveRequest::get_userId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MasterServer::UserServerRemoveRequest::*)()>(&MasterServer::UserServerRemoveRequest::get_userId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserServerRemoveRequest*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserServerRemoveRequest*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UserServerRemoveRequest::set_userId
+// Writing MetadataGetter for method: MasterServer::UserServerRemoveRequest::set_userId
 // Il2CppName: set_userId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserServerRemoveRequest::*)(::Il2CppString*)>(&UserServerRemoveRequest::set_userId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::UserServerRemoveRequest::*)(::Il2CppString*)>(&MasterServer::UserServerRemoveRequest::set_userId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserServerRemoveRequest*), "set_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserServerRemoveRequest*), "set_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: UserServerRemoveRequest::get_userName
+// Writing MetadataGetter for method: MasterServer::UserServerRemoveRequest::get_userName
 // Il2CppName: get_userName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UserServerRemoveRequest::*)()>(&UserServerRemoveRequest::get_userName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MasterServer::UserServerRemoveRequest::*)()>(&MasterServer::UserServerRemoveRequest::get_userName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserServerRemoveRequest*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserServerRemoveRequest*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UserServerRemoveRequest::set_userName
+// Writing MetadataGetter for method: MasterServer::UserServerRemoveRequest::set_userName
 // Il2CppName: set_userName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserServerRemoveRequest::*)(::Il2CppString*)>(&UserServerRemoveRequest::set_userName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::UserServerRemoveRequest::*)(::Il2CppString*)>(&MasterServer::UserServerRemoveRequest::set_userName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserServerRemoveRequest*), "set_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserServerRemoveRequest*), "set_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: UserServerRemoveRequest::Init
+// Writing MetadataGetter for method: MasterServer::UserServerRemoveRequest::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::UserServerRemoveRequest* (UserServerRemoveRequest::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&UserServerRemoveRequest::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::UserServerRemoveRequest* (MasterServer::UserServerRemoveRequest::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&MasterServer::UserServerRemoveRequest::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserServerRemoveRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserServerRemoveRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: UserServerRemoveRequest::Serialize
+// Writing MetadataGetter for method: MasterServer::UserServerRemoveRequest::Serialize
 // Il2CppName: Serialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserServerRemoveRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&UserServerRemoveRequest::Serialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::UserServerRemoveRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&MasterServer::UserServerRemoveRequest::Serialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserServerRemoveRequest*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserServerRemoveRequest*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
   }
 };
-// Writing MetadataGetter for method: UserServerRemoveRequest::Deserialize
+// Writing MetadataGetter for method: MasterServer::UserServerRemoveRequest::Deserialize
 // Il2CppName: Deserialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserServerRemoveRequest::*)(LiteNetLib::Utils::NetDataReader*)>(&UserServerRemoveRequest::Deserialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::UserServerRemoveRequest::*)(LiteNetLib::Utils::NetDataReader*)>(&MasterServer::UserServerRemoveRequest::Deserialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserServerRemoveRequest*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserServerRemoveRequest*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
   }
 };
-// Writing MetadataGetter for method: UserServerRemoveRequest::Release
+// Writing MetadataGetter for method: MasterServer::UserServerRemoveRequest::Release
 // Il2CppName: Release
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserServerRemoveRequest::*)()>(&UserServerRemoveRequest::Release)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::UserServerRemoveRequest::*)()>(&MasterServer::UserServerRemoveRequest::Release)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserServerRemoveRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserServerRemoveRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UserServerRemoveRequest::New_ctor
+// Writing MetadataGetter for method: MasterServer::UserServerRemoveRequest::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserServerRemoveRequest::*)()>(&UserServerRemoveRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::UserServerRemoveRequest::*)()>(&MasterServer::UserServerRemoveRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserServerRemoveRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserServerRemoveRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UserServerRemoveRequest::*)()>(&UserServerRemoveRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::UserServerRemoveRequest::*)()>(&MasterServer::UserServerRemoveRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UserServerRemoveRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserServerRemoveRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

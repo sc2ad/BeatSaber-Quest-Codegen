@@ -71,25 +71,25 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockMasterServerQuickPlaySetupModel) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockMasterServerQuickPlaySetupModel*, "", "MockMasterServerQuickPlaySetupModel");
-// Writing MetadataGetter for method: MockMasterServerQuickPlaySetupModel::GetQuickPlaySetupAsync
+// Writing MetadataGetter for method: GlobalNamespace::MockMasterServerQuickPlaySetupModel::GetQuickPlaySetupAsync
 // Il2CppName: GetQuickPlaySetupAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerQuickPlaySetupData*>* (MockMasterServerQuickPlaySetupModel::*)(System::Threading::CancellationToken)>(&MockMasterServerQuickPlaySetupModel::GetQuickPlaySetupAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerQuickPlaySetupData*>* (GlobalNamespace::MockMasterServerQuickPlaySetupModel::*)(System::Threading::CancellationToken)>(&GlobalNamespace::MockMasterServerQuickPlaySetupModel::GetQuickPlaySetupAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockMasterServerQuickPlaySetupModel*), "GetQuickPlaySetupAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockMasterServerQuickPlaySetupModel*), "GetQuickPlaySetupAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: MockMasterServerQuickPlaySetupModel::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MockMasterServerQuickPlaySetupModel::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMasterServerQuickPlaySetupModel::*)()>(&MockMasterServerQuickPlaySetupModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockMasterServerQuickPlaySetupModel::*)()>(&GlobalNamespace::MockMasterServerQuickPlaySetupModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockMasterServerQuickPlaySetupModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockMasterServerQuickPlaySetupModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockMasterServerQuickPlaySetupModel::*)()>(&MockMasterServerQuickPlaySetupModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockMasterServerQuickPlaySetupModel::*)()>(&GlobalNamespace::MockMasterServerQuickPlaySetupModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockMasterServerQuickPlaySetupModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockMasterServerQuickPlaySetupModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

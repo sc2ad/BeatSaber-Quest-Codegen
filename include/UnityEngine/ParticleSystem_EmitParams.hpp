@@ -134,35 +134,35 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::EmitParams, "UnityEngine", "ParticleSystem/EmitParams");
-// Writing MetadataGetter for method: ParticleSystem::EmitParams::set_position
+// Writing MetadataGetter for method: UnityEngine::ParticleSystem::EmitParams::set_position
 // Il2CppName: set_position
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystem::EmitParams::*)(UnityEngine::Vector3)>(&ParticleSystem::EmitParams::set_position)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::EmitParams::*)(UnityEngine::Vector3)>(&UnityEngine::ParticleSystem::EmitParams::set_position)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParticleSystem::EmitParams), "set_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::EmitParams), "set_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: ParticleSystem::EmitParams::set_applyShapeToPosition
+// Writing MetadataGetter for method: UnityEngine::ParticleSystem::EmitParams::set_applyShapeToPosition
 // Il2CppName: set_applyShapeToPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystem::EmitParams::*)(bool)>(&ParticleSystem::EmitParams::set_applyShapeToPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::EmitParams::*)(bool)>(&UnityEngine::ParticleSystem::EmitParams::set_applyShapeToPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParticleSystem::EmitParams), "set_applyShapeToPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::EmitParams), "set_applyShapeToPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ParticleSystem::EmitParams::set_rotation3D
+// Writing MetadataGetter for method: UnityEngine::ParticleSystem::EmitParams::set_rotation3D
 // Il2CppName: set_rotation3D
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystem::EmitParams::*)(UnityEngine::Vector3)>(&ParticleSystem::EmitParams::set_rotation3D)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::EmitParams::*)(UnityEngine::Vector3)>(&UnityEngine::ParticleSystem::EmitParams::set_rotation3D)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParticleSystem::EmitParams), "set_rotation3D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::EmitParams), "set_rotation3D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: ParticleSystem::EmitParams::set_startColor
+// Writing MetadataGetter for method: UnityEngine::ParticleSystem::EmitParams::set_startColor
 // Il2CppName: set_startColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystem::EmitParams::*)(UnityEngine::Color32)>(&ParticleSystem::EmitParams::set_startColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::EmitParams::*)(UnityEngine::Color32)>(&UnityEngine::ParticleSystem::EmitParams::set_startColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParticleSystem::EmitParams), "set_startColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::EmitParams), "set_startColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color32>()});
   }
 };

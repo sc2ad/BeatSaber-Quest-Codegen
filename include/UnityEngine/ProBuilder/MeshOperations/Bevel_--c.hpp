@@ -99,65 +99,65 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::Bevel::$$c*, "UnityEngine.ProBuilder.MeshOperations", "Bevel/<>c");
-// Writing MetadataGetter for method: Bevel::$$c::_cctor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::Bevel::$$c::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Bevel::$$c::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::ProBuilder::MeshOperations::Bevel::$$c::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Bevel::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::Bevel::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Bevel::$$c::$BevelEdges$b__0_0
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::Bevel::$$c::$BevelEdges$b__0_0
 // Il2CppName: <BevelEdges>b__0_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Face* (Bevel::$$c::*)(UnityEngine::ProBuilder::FaceRebuildData*)>(&Bevel::$$c::$BevelEdges$b__0_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Face* (UnityEngine::ProBuilder::MeshOperations::Bevel::$$c::*)(UnityEngine::ProBuilder::FaceRebuildData*)>(&UnityEngine::ProBuilder::MeshOperations::Bevel::$$c::$BevelEdges$b__0_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Bevel::$$c*), "<BevelEdges>b__0_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::FaceRebuildData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::Bevel::$$c*), "<BevelEdges>b__0_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::FaceRebuildData*>()});
   }
 };
-// Writing MetadataGetter for method: Bevel::$$c::$BevelEdges$b__0_6
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::Bevel::$$c::$BevelEdges$b__0_6
 // Il2CppName: <BevelEdges>b__0_6
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Bevel::$$c::*)(UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::FaceRebuildData*, System::Collections::Generic::List_1<int>*>)>(&Bevel::$$c::$BevelEdges$b__0_6)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::MeshOperations::Bevel::$$c::*)(UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::FaceRebuildData*, System::Collections::Generic::List_1<int>*>)>(&UnityEngine::ProBuilder::MeshOperations::Bevel::$$c::$BevelEdges$b__0_6)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Bevel::$$c*), "<BevelEdges>b__0_6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::FaceRebuildData*, System::Collections::Generic::List_1<int>*>>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::Bevel::$$c*), "<BevelEdges>b__0_6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::FaceRebuildData*, System::Collections::Generic::List_1<int>*>>()});
   }
 };
-// Writing MetadataGetter for method: Bevel::$$c::$BevelEdges$b__0_1
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::Bevel::$$c::$BevelEdges$b__0_1
 // Il2CppName: <BevelEdges>b__0_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Face* (Bevel::$$c::*)(UnityEngine::ProBuilder::FaceRebuildData*)>(&Bevel::$$c::$BevelEdges$b__0_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Face* (UnityEngine::ProBuilder::MeshOperations::Bevel::$$c::*)(UnityEngine::ProBuilder::FaceRebuildData*)>(&UnityEngine::ProBuilder::MeshOperations::Bevel::$$c::$BevelEdges$b__0_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Bevel::$$c*), "<BevelEdges>b__0_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::FaceRebuildData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::Bevel::$$c*), "<BevelEdges>b__0_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::FaceRebuildData*>()});
   }
 };
-// Writing MetadataGetter for method: Bevel::$$c::$BevelEdges$b__0_2
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::Bevel::$$c::$BevelEdges$b__0_2
 // Il2CppName: <BevelEdges>b__0_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Face* (Bevel::$$c::*)(UnityEngine::ProBuilder::FaceRebuildData*)>(&Bevel::$$c::$BevelEdges$b__0_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Face* (UnityEngine::ProBuilder::MeshOperations::Bevel::$$c::*)(UnityEngine::ProBuilder::FaceRebuildData*)>(&UnityEngine::ProBuilder::MeshOperations::Bevel::$$c::$BevelEdges$b__0_2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Bevel::$$c*), "<BevelEdges>b__0_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::FaceRebuildData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::Bevel::$$c*), "<BevelEdges>b__0_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::FaceRebuildData*>()});
   }
 };
-// Writing MetadataGetter for method: Bevel::$$c::$BevelEdges$b__0_3
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::Bevel::$$c::$BevelEdges$b__0_3
 // Il2CppName: <BevelEdges>b__0_3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Face* (Bevel::$$c::*)(UnityEngine::ProBuilder::FaceRebuildData*)>(&Bevel::$$c::$BevelEdges$b__0_3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Face* (UnityEngine::ProBuilder::MeshOperations::Bevel::$$c::*)(UnityEngine::ProBuilder::FaceRebuildData*)>(&UnityEngine::ProBuilder::MeshOperations::Bevel::$$c::$BevelEdges$b__0_3)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Bevel::$$c*), "<BevelEdges>b__0_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::FaceRebuildData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::Bevel::$$c*), "<BevelEdges>b__0_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::FaceRebuildData*>()});
   }
 };
-// Writing MetadataGetter for method: Bevel::$$c::New_ctor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::Bevel::$$c::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Bevel::$$c::*)()>(&Bevel::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::MeshOperations::Bevel::$$c::*)()>(&UnityEngine::ProBuilder::MeshOperations::Bevel::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Bevel::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::Bevel::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Bevel::$$c::*)()>(&Bevel::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::MeshOperations::Bevel::$$c::*)()>(&UnityEngine::ProBuilder::MeshOperations::Bevel::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Bevel::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::Bevel::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

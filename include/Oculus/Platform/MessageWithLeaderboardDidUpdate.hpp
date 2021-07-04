@@ -40,33 +40,33 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithLeaderboardDidUpdate
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithLeaderboardDidUpdate*, "Oculus.Platform", "MessageWithLeaderboardDidUpdate");
-// Writing MetadataGetter for method: MessageWithLeaderboardDidUpdate::GetDataFromMessage
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithLeaderboardDidUpdate::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MessageWithLeaderboardDidUpdate::*)(System::IntPtr)>(&MessageWithLeaderboardDidUpdate::GetDataFromMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Oculus::Platform::MessageWithLeaderboardDidUpdate::*)(System::IntPtr)>(&Oculus::Platform::MessageWithLeaderboardDidUpdate::GetDataFromMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithLeaderboardDidUpdate*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithLeaderboardDidUpdate*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithLeaderboardDidUpdate::New_ctor
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithLeaderboardDidUpdate::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithLeaderboardDidUpdate::*)(System::IntPtr)>(&MessageWithLeaderboardDidUpdate::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithLeaderboardDidUpdate::*)(System::IntPtr)>(&Oculus::Platform::MessageWithLeaderboardDidUpdate::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithLeaderboardDidUpdate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithLeaderboardDidUpdate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithLeaderboardDidUpdate::*)(System::IntPtr)>(&MessageWithLeaderboardDidUpdate::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithLeaderboardDidUpdate::*)(System::IntPtr)>(&Oculus::Platform::MessageWithLeaderboardDidUpdate::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithLeaderboardDidUpdate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithLeaderboardDidUpdate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithLeaderboardDidUpdate::GetLeaderboardDidUpdate
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithLeaderboardDidUpdate::GetLeaderboardDidUpdate
 // Il2CppName: GetLeaderboardDidUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MessageWithLeaderboardDidUpdate::*)()>(&MessageWithLeaderboardDidUpdate::GetLeaderboardDidUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Oculus::Platform::MessageWithLeaderboardDidUpdate::*)()>(&Oculus::Platform::MessageWithLeaderboardDidUpdate::GetLeaderboardDidUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithLeaderboardDidUpdate*), "GetLeaderboardDidUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithLeaderboardDidUpdate*), "GetLeaderboardDidUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

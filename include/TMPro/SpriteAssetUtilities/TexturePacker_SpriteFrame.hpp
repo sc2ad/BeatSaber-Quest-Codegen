@@ -59,11 +59,11 @@ namespace TMPro::SpriteAssetUtilities {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::SpriteAssetUtilities::TexturePacker::SpriteFrame, "TMPro.SpriteAssetUtilities", "TexturePacker/SpriteFrame");
-// Writing MetadataGetter for method: TexturePacker::SpriteFrame::ToString
+// Writing MetadataGetter for method: TMPro::SpriteAssetUtilities::TexturePacker::SpriteFrame::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TexturePacker::SpriteFrame::*)()>(&TexturePacker::SpriteFrame::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMPro::SpriteAssetUtilities::TexturePacker::SpriteFrame::*)()>(&TMPro::SpriteAssetUtilities::TexturePacker::SpriteFrame::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TexturePacker::SpriteFrame), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::SpriteAssetUtilities::TexturePacker::SpriteFrame), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

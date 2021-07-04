@@ -22,11 +22,11 @@ namespace HMUI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::EventSystemHelpers*, "HMUI", "EventSystemHelpers");
-// Writing MetadataGetter for method: EventSystemHelpers::IsInputFieldSelected
+// Writing MetadataGetter for method: HMUI::EventSystemHelpers::IsInputFieldSelected
 // Il2CppName: IsInputFieldSelected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&EventSystemHelpers::IsInputFieldSelected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&HMUI::EventSystemHelpers::IsInputFieldSelected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EventSystemHelpers*), "IsInputFieldSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::EventSystemHelpers*), "IsInputFieldSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

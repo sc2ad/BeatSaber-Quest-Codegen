@@ -89,49 +89,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerResultsData) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsData*, "", "MultiplayerResultsData");
-// Writing MetadataGetter for method: MultiplayerResultsData::get_gameId
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsData::get_gameId
 // Il2CppName: get_gameId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MultiplayerResultsData::*)()>(&MultiplayerResultsData::get_gameId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MultiplayerResultsData::*)()>(&GlobalNamespace::MultiplayerResultsData::get_gameId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerResultsData*), "get_gameId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsData*), "get_gameId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerResultsData::get_localPlayerResultData
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsData::get_localPlayerResultData
 // Il2CppName: get_localPlayerResultData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerPlayerResultsData* (MultiplayerResultsData::*)()>(&MultiplayerResultsData::get_localPlayerResultData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerPlayerResultsData* (GlobalNamespace::MultiplayerResultsData::*)()>(&GlobalNamespace::MultiplayerResultsData::get_localPlayerResultData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerResultsData*), "get_localPlayerResultData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsData*), "get_localPlayerResultData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerResultsData::get_otherPlayersData
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsData::get_otherPlayersData
 // Il2CppName: get_otherPlayersData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* (MultiplayerResultsData::*)()>(&MultiplayerResultsData::get_otherPlayersData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* (GlobalNamespace::MultiplayerResultsData::*)()>(&GlobalNamespace::MultiplayerResultsData::get_otherPlayersData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerResultsData*), "get_otherPlayersData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsData*), "get_otherPlayersData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerResultsData::get_allPlayersSortedData
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsData::get_allPlayersSortedData
 // Il2CppName: get_allPlayersSortedData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* (MultiplayerResultsData::*)()>(&MultiplayerResultsData::get_allPlayersSortedData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* (GlobalNamespace::MultiplayerResultsData::*)()>(&GlobalNamespace::MultiplayerResultsData::get_allPlayersSortedData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerResultsData*), "get_allPlayersSortedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsData*), "get_allPlayersSortedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerResultsData::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsData::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerResultsData::*)(::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*, GlobalNamespace::MultiplayerBadgesProvider*, GlobalNamespace::IMultiplayerSessionManager*)>(&MultiplayerResultsData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerResultsData::*)(::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*, GlobalNamespace::MultiplayerBadgesProvider*, GlobalNamespace::IMultiplayerSessionManager*)>(&GlobalNamespace::MultiplayerResultsData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerResultsData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLevelCompletionResults*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerBadgesProvider*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLevelCompletionResults*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerBadgesProvider*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerResultsData::*)(::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*, GlobalNamespace::MultiplayerBadgesProvider*, GlobalNamespace::IMultiplayerSessionManager*)>(&MultiplayerResultsData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerResultsData::*)(::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*, GlobalNamespace::MultiplayerBadgesProvider*, GlobalNamespace::IMultiplayerSessionManager*)>(&GlobalNamespace::MultiplayerResultsData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerResultsData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLevelCompletionResults*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerBadgesProvider*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLevelCompletionResults*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerBadgesProvider*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>()});
   }
 };

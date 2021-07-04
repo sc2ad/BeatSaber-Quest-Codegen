@@ -65,33 +65,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(CreditsData::Text) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsData::Text*, "", "CreditsData/Text");
-// Writing MetadataGetter for method: CreditsData::Text::IsEmpty
+// Writing MetadataGetter for method: GlobalNamespace::CreditsData::Text::IsEmpty
 // Il2CppName: IsEmpty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CreditsData::Text::*)()>(&CreditsData::Text::IsEmpty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::CreditsData::Text::*)()>(&GlobalNamespace::CreditsData::Text::IsEmpty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CreditsData::Text*), "IsEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsData::Text*), "IsEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CreditsData::Text::ToString
+// Writing MetadataGetter for method: GlobalNamespace::CreditsData::Text::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CreditsData::Text::*)()>(&CreditsData::Text::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::CreditsData::Text::*)()>(&GlobalNamespace::CreditsData::Text::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CreditsData::Text*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsData::Text*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CreditsData::Text::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::CreditsData::Text::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreditsData::Text::*)()>(&CreditsData::Text::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CreditsData::Text::*)()>(&GlobalNamespace::CreditsData::Text::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CreditsData::Text*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsData::Text*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CreditsData::Text::*)()>(&CreditsData::Text::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CreditsData::Text::*)()>(&GlobalNamespace::CreditsData::Text::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CreditsData::Text*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsData::Text*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

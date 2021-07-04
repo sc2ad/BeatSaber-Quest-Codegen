@@ -51,9 +51,9 @@ namespace Unity::Collections::LowLevel::Unsafe {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::LowLevel::Unsafe::NativeArrayUnsafeUtility*, "Unity.Collections.LowLevel.Unsafe", "NativeArrayUnsafeUtility");
-// Writing MetadataGetter for method: NativeArrayUnsafeUtility::ConvertExistingDataToNativeArray
+// Writing MetadataGetter for method: Unity::Collections::LowLevel::Unsafe::NativeArrayUnsafeUtility::ConvertExistingDataToNativeArray
 // Il2CppName: ConvertExistingDataToNativeArray
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: NativeArrayUnsafeUtility::GetUnsafeReadOnlyPtr
+// Writing MetadataGetter for method: Unity::Collections::LowLevel::Unsafe::NativeArrayUnsafeUtility::GetUnsafeReadOnlyPtr
 // Il2CppName: GetUnsafeReadOnlyPtr
 // Cannot write MetadataGetter for generic methods!

@@ -485,649 +485,649 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockPlayer) == 0xD0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayer*, "", "MockPlayer");
-// Writing MetadataGetter for method: MockPlayer::get_isReady
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_isReady
 // Il2CppName: get_isReady
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockPlayer::*)()>(&MockPlayer::get_isReady)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_isReady)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_isReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_isReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::set_isReady
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::set_isReady
 // Il2CppName: set_isReady
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(bool)>(&MockPlayer::set_isReady)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(bool)>(&GlobalNamespace::MockPlayer::set_isReady)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "set_isReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "set_isReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_isMe
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_isMe
 // Il2CppName: get_isMe
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockPlayer::*)()>(&MockPlayer::get_isMe)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_isMe)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_isMe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_isMe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_userId
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_userId
 // Il2CppName: get_userId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MockPlayer::*)()>(&MockPlayer::get_userId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_userId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_userName
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_userName
 // Il2CppName: get_userName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MockPlayer::*)()>(&MockPlayer::get_userName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_userName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_sortIndex
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_sortIndex
 // Il2CppName: get_sortIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MockPlayer::*)()>(&MockPlayer::get_sortIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_sortIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_sortIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_sortIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_autoConnect
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_autoConnect
 // Il2CppName: get_autoConnect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockPlayer::*)()>(&MockPlayer::get_autoConnect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_autoConnect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_autoConnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_autoConnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_inactiveByDefault
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_inactiveByDefault
 // Il2CppName: get_inactiveByDefault
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockPlayer::*)()>(&MockPlayer::get_inactiveByDefault)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_inactiveByDefault)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_inactiveByDefault", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_inactiveByDefault", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_isConnected
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_isConnected
 // Il2CppName: get_isConnected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockPlayer::*)()>(&MockPlayer::get_isConnected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_isConnected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_isConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_isConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::set_isConnected
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::set_isConnected
 // Il2CppName: set_isConnected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(bool)>(&MockPlayer::set_isConnected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(bool)>(&GlobalNamespace::MockPlayer::set_isConnected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "set_isConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "set_isConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_multiplayerAvatarData
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_multiplayerAvatarData
 // Il2CppName: get_multiplayerAvatarData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerAvatarData (MockPlayer::*)()>(&MockPlayer::get_multiplayerAvatarData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerAvatarData (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_multiplayerAvatarData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_multiplayerAvatarData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_multiplayerAvatarData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::set_multiplayerAvatarData
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::set_multiplayerAvatarData
 // Il2CppName: set_multiplayerAvatarData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(GlobalNamespace::MultiplayerAvatarData)>(&MockPlayer::set_multiplayerAvatarData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(GlobalNamespace::MultiplayerAvatarData)>(&GlobalNamespace::MockPlayer::set_multiplayerAvatarData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "set_multiplayerAvatarData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerAvatarData>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "set_multiplayerAvatarData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerAvatarData>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_isConnectionOwner
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_isConnectionOwner
 // Il2CppName: get_isConnectionOwner
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockPlayer::*)()>(&MockPlayer::get_isConnectionOwner)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_isConnectionOwner)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_isConnectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_isConnectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::set_isConnectionOwner
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::set_isConnectionOwner
 // Il2CppName: set_isConnectionOwner
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(bool)>(&MockPlayer::set_isConnectionOwner)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(bool)>(&GlobalNamespace::MockPlayer::set_isConnectionOwner)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "set_isConnectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "set_isConnectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_disconnectedReason
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_disconnectedReason
 // Il2CppName: get_disconnectedReason
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::DisconnectedReason (MockPlayer::*)()>(&MockPlayer::get_disconnectedReason)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::DisconnectedReason (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_disconnectedReason)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_disconnectedReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_disconnectedReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_offsetSyncTime
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_offsetSyncTime
 // Il2CppName: get_offsetSyncTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (MockPlayer::*)()>(&MockPlayer::get_offsetSyncTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_offsetSyncTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_offsetSyncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_offsetSyncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_currentLatency
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_currentLatency
 // Il2CppName: get_currentLatency
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (MockPlayer::*)()>(&MockPlayer::get_currentLatency)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_currentLatency)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_currentLatency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_currentLatency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_isKicked
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_isKicked
 // Il2CppName: get_isKicked
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockPlayer::*)()>(&MockPlayer::get_isKicked)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_isKicked)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_isKicked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_isKicked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::set_isKicked
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::set_isKicked
 // Il2CppName: set_isKicked
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(bool)>(&MockPlayer::set_isKicked)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(bool)>(&GlobalNamespace::MockPlayer::set_isKicked)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "set_isKicked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "set_isKicked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_currentPartySize
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_currentPartySize
 // Il2CppName: get_currentPartySize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MockPlayer::*)()>(&MockPlayer::get_currentPartySize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_currentPartySize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_currentPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_currentPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::set_currentPartySize
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::set_currentPartySize
 // Il2CppName: set_currentPartySize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(int)>(&MockPlayer::set_currentPartySize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(int)>(&GlobalNamespace::MockPlayer::set_currentPartySize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "set_currentPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "set_currentPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_maxPartySize
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_maxPartySize
 // Il2CppName: get_maxPartySize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MockPlayer::*)()>(&MockPlayer::get_maxPartySize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_maxPartySize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_maxPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_maxPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::set_maxPartySize
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::set_maxPartySize
 // Il2CppName: set_maxPartySize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(int)>(&MockPlayer::set_maxPartySize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(int)>(&GlobalNamespace::MockPlayer::set_maxPartySize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "set_maxPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "set_maxPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_difficulties
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_difficulties
 // Il2CppName: get_difficulties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapDifficultyMask (MockPlayer::*)()>(&MockPlayer::get_difficulties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapDifficultyMask (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_difficulties)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_difficulties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_difficulties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::set_difficulties
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::set_difficulties
 // Il2CppName: set_difficulties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(GlobalNamespace::BeatmapDifficultyMask)>(&MockPlayer::set_difficulties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(GlobalNamespace::BeatmapDifficultyMask)>(&GlobalNamespace::MockPlayer::set_difficulties)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "set_difficulties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficultyMask>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "set_difficulties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficultyMask>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_modifiers
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_modifiers
 // Il2CppName: get_modifiers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifierMask (MockPlayer::*)()>(&MockPlayer::get_modifiers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifierMask (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_modifiers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_modifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_modifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::set_modifiers
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::set_modifiers
 // Il2CppName: set_modifiers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(GlobalNamespace::GameplayModifierMask)>(&MockPlayer::set_modifiers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(GlobalNamespace::GameplayModifierMask)>(&GlobalNamespace::MockPlayer::set_modifiers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "set_modifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifierMask>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "set_modifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifierMask>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_songPacks
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_songPacks
 // Il2CppName: get_songPacks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SongPackMask (MockPlayer::*)()>(&MockPlayer::get_songPacks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SongPackMask (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_songPacks)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_songPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_songPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::set_songPacks
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::set_songPacks
 // Il2CppName: set_songPacks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(GlobalNamespace::SongPackMask)>(&MockPlayer::set_songPacks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(GlobalNamespace::SongPackMask)>(&GlobalNamespace::MockPlayer::set_songPacks)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "set_songPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "set_songPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_isMyPartyOwner
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_isMyPartyOwner
 // Il2CppName: get_isMyPartyOwner
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockPlayer::*)()>(&MockPlayer::get_isMyPartyOwner)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_isMyPartyOwner)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_isMyPartyOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_isMyPartyOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::set_isMyPartyOwner
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::set_isMyPartyOwner
 // Il2CppName: set_isMyPartyOwner
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(bool)>(&MockPlayer::set_isMyPartyOwner)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(bool)>(&GlobalNamespace::MockPlayer::set_isMyPartyOwner)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "set_isMyPartyOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "set_isMyPartyOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_isOpenParty
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_isOpenParty
 // Il2CppName: get_isOpenParty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockPlayer::*)()>(&MockPlayer::get_isOpenParty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_isOpenParty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_isOpenParty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_isOpenParty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::set_isOpenParty
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::set_isOpenParty
 // Il2CppName: set_isOpenParty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(bool)>(&MockPlayer::set_isOpenParty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(bool)>(&GlobalNamespace::MockPlayer::set_isOpenParty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "set_isOpenParty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "set_isOpenParty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_isPlayer
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_isPlayer
 // Il2CppName: get_isPlayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockPlayer::*)()>(&MockPlayer::get_isPlayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_isPlayer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_isPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_isPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::set_isPlayer
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::set_isPlayer
 // Il2CppName: set_isPlayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(bool)>(&MockPlayer::set_isPlayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(bool)>(&GlobalNamespace::MockPlayer::set_isPlayer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "set_isPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "set_isPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_isDedicatedServer
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_isDedicatedServer
 // Il2CppName: get_isDedicatedServer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockPlayer::*)()>(&MockPlayer::get_isDedicatedServer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_isDedicatedServer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_isDedicatedServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_isDedicatedServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::set_isDedicatedServer
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::set_isDedicatedServer
 // Il2CppName: set_isDedicatedServer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(bool)>(&MockPlayer::set_isDedicatedServer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(bool)>(&GlobalNamespace::MockPlayer::set_isDedicatedServer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "set_isDedicatedServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "set_isDedicatedServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_isSpectating
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_isSpectating
 // Il2CppName: get_isSpectating
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockPlayer::*)()>(&MockPlayer::get_isSpectating)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_isSpectating)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_isSpectating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_isSpectating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::set_isSpectating
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::set_isSpectating
 // Il2CppName: set_isSpectating
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(bool)>(&MockPlayer::set_isSpectating)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(bool)>(&GlobalNamespace::MockPlayer::set_isSpectating)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "set_isSpectating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "set_isSpectating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_canJoin
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_canJoin
 // Il2CppName: get_canJoin
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockPlayer::*)()>(&MockPlayer::get_canJoin)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_canJoin)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_canJoin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_canJoin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_requiresPassword
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_requiresPassword
 // Il2CppName: get_requiresPassword
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockPlayer::*)()>(&MockPlayer::get_requiresPassword)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_requiresPassword)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_requiresPassword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_requiresPassword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::set_requiresPassword
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::set_requiresPassword
 // Il2CppName: set_requiresPassword
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(bool)>(&MockPlayer::set_requiresPassword)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(bool)>(&GlobalNamespace::MockPlayer::set_requiresPassword)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "set_requiresPassword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "set_requiresPassword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_isWaitingOnJoin
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_isWaitingOnJoin
 // Il2CppName: get_isWaitingOnJoin
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockPlayer::*)()>(&MockPlayer::get_isWaitingOnJoin)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_isWaitingOnJoin)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_isWaitingOnJoin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_isWaitingOnJoin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::set_isWaitingOnJoin
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::set_isWaitingOnJoin
 // Il2CppName: set_isWaitingOnJoin
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(bool)>(&MockPlayer::set_isWaitingOnJoin)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(bool)>(&GlobalNamespace::MockPlayer::set_isWaitingOnJoin)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "set_isWaitingOnJoin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "set_isWaitingOnJoin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_canInvite
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_canInvite
 // Il2CppName: get_canInvite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockPlayer::*)()>(&MockPlayer::get_canInvite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_canInvite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_canInvite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_canInvite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::set_canInvite
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::set_canInvite
 // Il2CppName: set_canInvite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(bool)>(&MockPlayer::set_canInvite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(bool)>(&GlobalNamespace::MockPlayer::set_canInvite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "set_canInvite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "set_canInvite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_isWaitingOnInvite
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_isWaitingOnInvite
 // Il2CppName: get_isWaitingOnInvite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockPlayer::*)()>(&MockPlayer::get_isWaitingOnInvite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_isWaitingOnInvite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_isWaitingOnInvite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_isWaitingOnInvite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::set_isWaitingOnInvite
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::set_isWaitingOnInvite
 // Il2CppName: set_isWaitingOnInvite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(bool)>(&MockPlayer::set_isWaitingOnInvite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(bool)>(&GlobalNamespace::MockPlayer::set_isWaitingOnInvite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "set_isWaitingOnInvite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "set_isWaitingOnInvite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_canKick
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_canKick
 // Il2CppName: get_canKick
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockPlayer::*)()>(&MockPlayer::get_canKick)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_canKick)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_canKick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_canKick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::set_canKick
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::set_canKick
 // Il2CppName: set_canKick
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(bool)>(&MockPlayer::set_canKick)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(bool)>(&GlobalNamespace::MockPlayer::set_canKick)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "set_canKick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "set_canKick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_canLeave
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_canLeave
 // Il2CppName: get_canLeave
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockPlayer::*)()>(&MockPlayer::get_canLeave)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_canLeave)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_canLeave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_canLeave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::set_canLeave
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::set_canLeave
 // Il2CppName: set_canLeave
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(bool)>(&MockPlayer::set_canLeave)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(bool)>(&GlobalNamespace::MockPlayer::set_canLeave)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "set_canLeave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "set_canLeave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_canBlock
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_canBlock
 // Il2CppName: get_canBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockPlayer::*)()>(&MockPlayer::get_canBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_canBlock)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_canBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_canBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::set_canBlock
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::set_canBlock
 // Il2CppName: set_canBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(bool)>(&MockPlayer::set_canBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(bool)>(&GlobalNamespace::MockPlayer::set_canBlock)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "set_canBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "set_canBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_canUnblock
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_canUnblock
 // Il2CppName: get_canUnblock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockPlayer::*)()>(&MockPlayer::get_canUnblock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_canUnblock)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_canUnblock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_canUnblock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::set_canUnblock
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::set_canUnblock
 // Il2CppName: set_canUnblock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(bool)>(&MockPlayer::set_canUnblock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(bool)>(&GlobalNamespace::MockPlayer::set_canUnblock)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "set_canUnblock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "set_canUnblock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_wantsToPlayNextLevel
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_wantsToPlayNextLevel
 // Il2CppName: get_wantsToPlayNextLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockPlayer::*)()>(&MockPlayer::get_wantsToPlayNextLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_wantsToPlayNextLevel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_wantsToPlayNextLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_wantsToPlayNextLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::set_wantsToPlayNextLevel
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::set_wantsToPlayNextLevel
 // Il2CppName: set_wantsToPlayNextLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(bool)>(&MockPlayer::set_wantsToPlayNextLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(bool)>(&GlobalNamespace::MockPlayer::set_wantsToPlayNextLevel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "set_wantsToPlayNextLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "set_wantsToPlayNextLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_wasActiveAtLevelStart
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_wasActiveAtLevelStart
 // Il2CppName: get_wasActiveAtLevelStart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockPlayer::*)()>(&MockPlayer::get_wasActiveAtLevelStart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_wasActiveAtLevelStart)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_wasActiveAtLevelStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_wasActiveAtLevelStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::set_wasActiveAtLevelStart
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::set_wasActiveAtLevelStart
 // Il2CppName: set_wasActiveAtLevelStart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(bool)>(&MockPlayer::set_wasActiveAtLevelStart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(bool)>(&GlobalNamespace::MockPlayer::set_wasActiveAtLevelStart)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "set_wasActiveAtLevelStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "set_wasActiveAtLevelStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_isActive
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_isActive
 // Il2CppName: get_isActive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockPlayer::*)()>(&MockPlayer::get_isActive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_isActive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_isActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_isActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::set_isActive
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::set_isActive
 // Il2CppName: set_isActive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(bool)>(&MockPlayer::set_isActive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(bool)>(&GlobalNamespace::MockPlayer::set_isActive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "set_isActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "set_isActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::get_finishedLevel
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_finishedLevel
 // Il2CppName: get_finishedLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockPlayer::*)()>(&MockPlayer::get_finishedLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::get_finishedLevel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "get_finishedLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "get_finishedLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::set_finishedLevel
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::set_finishedLevel
 // Il2CppName: set_finishedLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(bool)>(&MockPlayer::set_finishedLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(bool)>(&GlobalNamespace::MockPlayer::set_finishedLevel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "set_finishedLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "set_finishedLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(GlobalNamespace::MockPlayerSettings*, bool)>(&MockPlayer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(GlobalNamespace::MockPlayerSettings*, bool)>(&GlobalNamespace::MockPlayer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayerSettings*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayerSettings*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(GlobalNamespace::MockPlayerSettings*, bool)>(&MockPlayer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(GlobalNamespace::MockPlayerSettings*, bool)>(&GlobalNamespace::MockPlayer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayerSettings*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayerSettings*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::SetState
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::SetState
 // Il2CppName: SetState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(::Il2CppString*, bool)>(&MockPlayer::SetState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(::Il2CppString*, bool)>(&GlobalNamespace::MockPlayer::SetState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "SetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "SetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::HasState
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::HasState
 // Il2CppName: HasState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockPlayer::*)(::Il2CppString*)>(&MockPlayer::HasState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayer::*)(::Il2CppString*)>(&GlobalNamespace::MockPlayer::HasState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "HasState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "HasState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::Connect
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::Connect
 // Il2CppName: Connect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(GlobalNamespace::IMultiplayerSessionManager*, GlobalNamespace::AvatarPartsModel*, GlobalNamespace::BeatmapLevelsModel*, GlobalNamespace::NodePoseSyncStateManager*)>(&MockPlayer::Connect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(GlobalNamespace::IMultiplayerSessionManager*, GlobalNamespace::AvatarPartsModel*, GlobalNamespace::BeatmapLevelsModel*, GlobalNamespace::NodePoseSyncStateManager*)>(&GlobalNamespace::MockPlayer::Connect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AvatarPartsModel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapLevelsModel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NodePoseSyncStateManager*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AvatarPartsModel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapLevelsModel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NodePoseSyncStateManager*>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::Disconnect
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::Disconnect
 // Il2CppName: Disconnect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)()>(&MockPlayer::Disconnect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::Disconnect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "Disconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "Disconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::Unblock
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::Unblock
 // Il2CppName: Unblock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)()>(&MockPlayer::Unblock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::Unblock)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "Unblock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "Unblock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::SendJoinResponse
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::SendJoinResponse
 // Il2CppName: SendJoinResponse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(bool)>(&MockPlayer::SendJoinResponse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(bool)>(&GlobalNamespace::MockPlayer::SendJoinResponse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "SendJoinResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "SendJoinResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::SendInviteResponse
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::SendInviteResponse
 // Il2CppName: SendInviteResponse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(bool)>(&MockPlayer::SendInviteResponse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(bool)>(&GlobalNamespace::MockPlayer::SendInviteResponse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "SendInviteResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "SendInviteResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::Block
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::Block
 // Il2CppName: Block
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)()>(&MockPlayer::Block)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::Block)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "Block", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "Block", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::Leave
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::Leave
 // Il2CppName: Leave
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)()>(&MockPlayer::Leave)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::Leave)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "Leave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "Leave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::Kick
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::Kick
 // Il2CppName: Kick
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)()>(&MockPlayer::Kick)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::Kick)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "Kick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "Kick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::Invite
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::Invite
 // Il2CppName: Invite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)()>(&MockPlayer::Invite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::Invite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "Invite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "Invite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::Join
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::Join
 // Il2CppName: Join
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)(::Il2CppString*)>(&MockPlayer::Join)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)(::Il2CppString*)>(&GlobalNamespace::MockPlayer::Join)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::Join
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::Join
 // Il2CppName: Join
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)()>(&MockPlayer::Join)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::Join)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::SimulateFail
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::SimulateFail
 // Il2CppName: SimulateFail
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)()>(&MockPlayer::SimulateFail)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::SimulateFail)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "SimulateFail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "SimulateFail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockPlayer::SimulateGiveUp
+// Writing MetadataGetter for method: GlobalNamespace::MockPlayer::SimulateGiveUp
 // Il2CppName: SimulateGiveUp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockPlayer::*)()>(&MockPlayer::SimulateGiveUp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayer::*)()>(&GlobalNamespace::MockPlayer::SimulateGiveUp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockPlayer*), "SimulateGiveUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayer*), "SimulateGiveUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

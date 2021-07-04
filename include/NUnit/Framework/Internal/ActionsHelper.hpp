@@ -64,51 +64,51 @@ namespace NUnit::Framework::Internal {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::ActionsHelper*, "NUnit.Framework.Internal", "ActionsHelper");
-// Writing MetadataGetter for method: ActionsHelper::GetActionsFromTestAssembly
+// Writing MetadataGetter for method: NUnit::Framework::Internal::ActionsHelper::GetActionsFromTestAssembly
 // Il2CppName: GetActionsFromTestAssembly
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<NUnit::Framework::ITestAction*>* (*)(NUnit::Framework::Internal::TestAssembly*)>(&ActionsHelper::GetActionsFromTestAssembly)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<NUnit::Framework::ITestAction*>* (*)(NUnit::Framework::Internal::TestAssembly*)>(&NUnit::Framework::Internal::ActionsHelper::GetActionsFromTestAssembly)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ActionsHelper*), "GetActionsFromTestAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestAssembly*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ActionsHelper*), "GetActionsFromTestAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::TestAssembly*>()});
   }
 };
-// Writing MetadataGetter for method: ActionsHelper::GetActionsFromTestMethodInfo
+// Writing MetadataGetter for method: NUnit::Framework::Internal::ActionsHelper::GetActionsFromTestMethodInfo
 // Il2CppName: GetActionsFromTestMethodInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<NUnit::Framework::ITestAction*>* (*)(NUnit::Framework::Interfaces::IMethodInfo*)>(&ActionsHelper::GetActionsFromTestMethodInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<NUnit::Framework::ITestAction*>* (*)(NUnit::Framework::Interfaces::IMethodInfo*)>(&NUnit::Framework::Internal::ActionsHelper::GetActionsFromTestMethodInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ActionsHelper*), "GetActionsFromTestMethodInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::IMethodInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ActionsHelper*), "GetActionsFromTestMethodInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::IMethodInfo*>()});
   }
 };
-// Writing MetadataGetter for method: ActionsHelper::GetActionsFromAttributeProvider
+// Writing MetadataGetter for method: NUnit::Framework::Internal::ActionsHelper::GetActionsFromAttributeProvider
 // Il2CppName: GetActionsFromAttributeProvider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<NUnit::Framework::ITestAction*>* (*)(System::Reflection::ICustomAttributeProvider*)>(&ActionsHelper::GetActionsFromAttributeProvider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<NUnit::Framework::ITestAction*>* (*)(System::Reflection::ICustomAttributeProvider*)>(&NUnit::Framework::Internal::ActionsHelper::GetActionsFromAttributeProvider)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ActionsHelper*), "GetActionsFromAttributeProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ICustomAttributeProvider*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ActionsHelper*), "GetActionsFromAttributeProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ICustomAttributeProvider*>()});
   }
 };
-// Writing MetadataGetter for method: ActionsHelper::GetActionsFromTypesAttributes
+// Writing MetadataGetter for method: NUnit::Framework::Internal::ActionsHelper::GetActionsFromTypesAttributes
 // Il2CppName: GetActionsFromTypesAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<NUnit::Framework::ITestAction*>* (*)(System::Type*)>(&ActionsHelper::GetActionsFromTypesAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<NUnit::Framework::ITestAction*>* (*)(System::Type*)>(&NUnit::Framework::Internal::ActionsHelper::GetActionsFromTypesAttributes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ActionsHelper*), "GetActionsFromTypesAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ActionsHelper*), "GetActionsFromTypesAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: ActionsHelper::GetDeclaredInterfaces
+// Writing MetadataGetter for method: NUnit::Framework::Internal::ActionsHelper::GetDeclaredInterfaces
 // Il2CppName: GetDeclaredInterfaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (*)(System::Type*)>(&ActionsHelper::GetDeclaredInterfaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (*)(System::Type*)>(&NUnit::Framework::Internal::ActionsHelper::GetDeclaredInterfaces)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ActionsHelper*), "GetDeclaredInterfaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ActionsHelper*), "GetDeclaredInterfaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: ActionsHelper::SortByTargetDescending
+// Writing MetadataGetter for method: NUnit::Framework::Internal::ActionsHelper::SortByTargetDescending
 // Il2CppName: SortByTargetDescending
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(NUnit::Framework::ITestAction*, NUnit::Framework::ITestAction*)>(&ActionsHelper::SortByTargetDescending)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(NUnit::Framework::ITestAction*, NUnit::Framework::ITestAction*)>(&NUnit::Framework::Internal::ActionsHelper::SortByTargetDescending)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ActionsHelper*), "SortByTargetDescending", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::ITestAction*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::ITestAction*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ActionsHelper*), "SortByTargetDescending", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::ITestAction*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::ITestAction*>()});
   }
 };

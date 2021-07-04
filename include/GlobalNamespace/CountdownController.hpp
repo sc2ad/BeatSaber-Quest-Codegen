@@ -133,57 +133,57 @@ namespace GlobalNamespace {
   static_assert(sizeof(CountdownController) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CountdownController*, "", "CountdownController");
-// Writing MetadataGetter for method: CountdownController::Awake
+// Writing MetadataGetter for method: GlobalNamespace::CountdownController::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CountdownController::*)()>(&CountdownController::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CountdownController::*)()>(&GlobalNamespace::CountdownController::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CountdownController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CountdownController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CountdownController::Update
+// Writing MetadataGetter for method: GlobalNamespace::CountdownController::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CountdownController::*)()>(&CountdownController::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CountdownController::*)()>(&GlobalNamespace::CountdownController::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CountdownController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CountdownController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CountdownController::StartCountdown
+// Writing MetadataGetter for method: GlobalNamespace::CountdownController::StartCountdown
 // Il2CppName: StartCountdown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CountdownController::*)(float)>(&CountdownController::StartCountdown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CountdownController::*)(float)>(&GlobalNamespace::CountdownController::StartCountdown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CountdownController*), "StartCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CountdownController*), "StartCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: CountdownController::UpdateCountdown
+// Writing MetadataGetter for method: GlobalNamespace::CountdownController::UpdateCountdown
 // Il2CppName: UpdateCountdown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CountdownController::*)(float)>(&CountdownController::UpdateCountdown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CountdownController::*)(float)>(&GlobalNamespace::CountdownController::UpdateCountdown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CountdownController*), "UpdateCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CountdownController*), "UpdateCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: CountdownController::StopCountdown
+// Writing MetadataGetter for method: GlobalNamespace::CountdownController::StopCountdown
 // Il2CppName: StopCountdown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CountdownController::*)()>(&CountdownController::StopCountdown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CountdownController::*)()>(&GlobalNamespace::CountdownController::StopCountdown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CountdownController*), "StopCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CountdownController*), "StopCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CountdownController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::CountdownController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CountdownController::*)()>(&CountdownController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CountdownController::*)()>(&GlobalNamespace::CountdownController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CountdownController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CountdownController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CountdownController::*)()>(&CountdownController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CountdownController::*)()>(&GlobalNamespace::CountdownController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CountdownController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CountdownController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

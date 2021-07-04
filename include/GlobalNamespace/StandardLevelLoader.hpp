@@ -29,11 +29,11 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelLoader*, "", "StandardLevelLoader");
-// Writing MetadataGetter for method: StandardLevelLoader::LoadStandardLevelSaveData
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelLoader::LoadStandardLevelSaveData
 // Il2CppName: LoadStandardLevelSaveData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::StandardLevelInfoSaveData* (*)(::Il2CppString*)>(&StandardLevelLoader::LoadStandardLevelSaveData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::StandardLevelInfoSaveData* (*)(::Il2CppString*)>(&GlobalNamespace::StandardLevelLoader::LoadStandardLevelSaveData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelLoader*), "LoadStandardLevelSaveData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelLoader*), "LoadStandardLevelSaveData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };

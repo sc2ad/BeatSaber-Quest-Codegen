@@ -54,41 +54,41 @@ namespace NUnit::Framework::Constraints {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ValueFormatterFactory*, "NUnit.Framework.Constraints", "ValueFormatterFactory");
-// Writing MetadataGetter for method: ValueFormatterFactory::New_ctor
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::ValueFormatterFactory::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ValueFormatterFactory::*)(::Il2CppObject*, System::IntPtr)>(&ValueFormatterFactory::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::ValueFormatterFactory::*)(::Il2CppObject*, System::IntPtr)>(&NUnit::Framework::Constraints::ValueFormatterFactory::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ValueFormatterFactory*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ValueFormatterFactory*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ValueFormatterFactory::*)(::Il2CppObject*, System::IntPtr)>(&ValueFormatterFactory::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::ValueFormatterFactory::*)(::Il2CppObject*, System::IntPtr)>(&NUnit::Framework::Constraints::ValueFormatterFactory::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ValueFormatterFactory*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ValueFormatterFactory*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: ValueFormatterFactory::Invoke
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::ValueFormatterFactory::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ValueFormatter* (ValueFormatterFactory::*)(NUnit::Framework::Constraints::ValueFormatter*)>(&ValueFormatterFactory::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ValueFormatter* (NUnit::Framework::Constraints::ValueFormatterFactory::*)(NUnit::Framework::Constraints::ValueFormatter*)>(&NUnit::Framework::Constraints::ValueFormatterFactory::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ValueFormatterFactory*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::ValueFormatter*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ValueFormatterFactory*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::ValueFormatter*>()});
   }
 };
-// Writing MetadataGetter for method: ValueFormatterFactory::BeginInvoke
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::ValueFormatterFactory::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (ValueFormatterFactory::*)(NUnit::Framework::Constraints::ValueFormatter*, System::AsyncCallback*, ::Il2CppObject*)>(&ValueFormatterFactory::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (NUnit::Framework::Constraints::ValueFormatterFactory::*)(NUnit::Framework::Constraints::ValueFormatter*, System::AsyncCallback*, ::Il2CppObject*)>(&NUnit::Framework::Constraints::ValueFormatterFactory::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ValueFormatterFactory*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::ValueFormatter*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ValueFormatterFactory*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::ValueFormatter*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: ValueFormatterFactory::EndInvoke
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::ValueFormatterFactory::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ValueFormatter* (ValueFormatterFactory::*)(System::IAsyncResult*)>(&ValueFormatterFactory::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ValueFormatter* (NUnit::Framework::Constraints::ValueFormatterFactory::*)(System::IAsyncResult*)>(&NUnit::Framework::Constraints::ValueFormatterFactory::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ValueFormatterFactory*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ValueFormatterFactory*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

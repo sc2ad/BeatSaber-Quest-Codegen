@@ -125,97 +125,97 @@ namespace System::Net {
   static_assert(sizeof(HttpListenerContext) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerContext*, "System.Net", "HttpListenerContext");
-// Writing MetadataGetter for method: HttpListenerContext::New_ctor
+// Writing MetadataGetter for method: System::Net::HttpListenerContext::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerContext::*)(System::Net::HttpConnection*)>(&HttpListenerContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerContext::*)(System::Net::HttpConnection*)>(&System::Net::HttpListenerContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpListenerContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpConnection*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpConnection*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerContext::*)(System::Net::HttpConnection*)>(&HttpListenerContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerContext::*)(System::Net::HttpConnection*)>(&System::Net::HttpListenerContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpListenerContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpConnection*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpConnection*>()});
   }
 };
-// Writing MetadataGetter for method: HttpListenerContext::get_ErrorStatus
+// Writing MetadataGetter for method: System::Net::HttpListenerContext::get_ErrorStatus
 // Il2CppName: get_ErrorStatus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HttpListenerContext::*)()>(&HttpListenerContext::get_ErrorStatus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::HttpListenerContext::*)()>(&System::Net::HttpListenerContext::get_ErrorStatus)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpListenerContext*), "get_ErrorStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerContext*), "get_ErrorStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HttpListenerContext::set_ErrorStatus
+// Writing MetadataGetter for method: System::Net::HttpListenerContext::set_ErrorStatus
 // Il2CppName: set_ErrorStatus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerContext::*)(int)>(&HttpListenerContext::set_ErrorStatus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerContext::*)(int)>(&System::Net::HttpListenerContext::set_ErrorStatus)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpListenerContext*), "set_ErrorStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerContext*), "set_ErrorStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: HttpListenerContext::get_ErrorMessage
+// Writing MetadataGetter for method: System::Net::HttpListenerContext::get_ErrorMessage
 // Il2CppName: get_ErrorMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HttpListenerContext::*)()>(&HttpListenerContext::get_ErrorMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::HttpListenerContext::*)()>(&System::Net::HttpListenerContext::get_ErrorMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpListenerContext*), "get_ErrorMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerContext*), "get_ErrorMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HttpListenerContext::set_ErrorMessage
+// Writing MetadataGetter for method: System::Net::HttpListenerContext::set_ErrorMessage
 // Il2CppName: set_ErrorMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerContext::*)(::Il2CppString*)>(&HttpListenerContext::set_ErrorMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerContext::*)(::Il2CppString*)>(&System::Net::HttpListenerContext::set_ErrorMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpListenerContext*), "set_ErrorMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerContext*), "set_ErrorMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: HttpListenerContext::get_HaveError
+// Writing MetadataGetter for method: System::Net::HttpListenerContext::get_HaveError
 // Il2CppName: get_HaveError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HttpListenerContext::*)()>(&HttpListenerContext::get_HaveError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpListenerContext::*)()>(&System::Net::HttpListenerContext::get_HaveError)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpListenerContext*), "get_HaveError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerContext*), "get_HaveError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HttpListenerContext::get_Connection
+// Writing MetadataGetter for method: System::Net::HttpListenerContext::get_Connection
 // Il2CppName: get_Connection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpConnection* (HttpListenerContext::*)()>(&HttpListenerContext::get_Connection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpConnection* (System::Net::HttpListenerContext::*)()>(&System::Net::HttpListenerContext::get_Connection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpListenerContext*), "get_Connection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerContext*), "get_Connection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HttpListenerContext::get_Request
+// Writing MetadataGetter for method: System::Net::HttpListenerContext::get_Request
 // Il2CppName: get_Request
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpListenerRequest* (HttpListenerContext::*)()>(&HttpListenerContext::get_Request)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpListenerRequest* (System::Net::HttpListenerContext::*)()>(&System::Net::HttpListenerContext::get_Request)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpListenerContext*), "get_Request", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerContext*), "get_Request", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HttpListenerContext::get_Response
+// Writing MetadataGetter for method: System::Net::HttpListenerContext::get_Response
 // Il2CppName: get_Response
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpListenerResponse* (HttpListenerContext::*)()>(&HttpListenerContext::get_Response)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpListenerResponse* (System::Net::HttpListenerContext::*)()>(&System::Net::HttpListenerContext::get_Response)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpListenerContext*), "get_Response", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerContext*), "get_Response", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HttpListenerContext::ParseAuthentication
+// Writing MetadataGetter for method: System::Net::HttpListenerContext::ParseAuthentication
 // Il2CppName: ParseAuthentication
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpListenerContext::*)(System::Net::AuthenticationSchemes)>(&HttpListenerContext::ParseAuthentication)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerContext::*)(System::Net::AuthenticationSchemes)>(&System::Net::HttpListenerContext::ParseAuthentication)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpListenerContext*), "ParseAuthentication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::AuthenticationSchemes>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerContext*), "ParseAuthentication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::AuthenticationSchemes>()});
   }
 };
-// Writing MetadataGetter for method: HttpListenerContext::ParseBasicAuthentication
+// Writing MetadataGetter for method: System::Net::HttpListenerContext::ParseBasicAuthentication
 // Il2CppName: ParseBasicAuthentication
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Principal::IPrincipal* (HttpListenerContext::*)(::Il2CppString*)>(&HttpListenerContext::ParseBasicAuthentication)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Principal::IPrincipal* (System::Net::HttpListenerContext::*)(::Il2CppString*)>(&System::Net::HttpListenerContext::ParseBasicAuthentication)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpListenerContext*), "ParseBasicAuthentication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerContext*), "ParseBasicAuthentication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };

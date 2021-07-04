@@ -94,57 +94,57 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlatformAchievementsModelSO) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformAchievementsModelSO*, "", "PlatformAchievementsModelSO");
-// Writing MetadataGetter for method: PlatformAchievementsModelSO::get_platformAchievementsHandler
+// Writing MetadataGetter for method: GlobalNamespace::PlatformAchievementsModelSO::get_platformAchievementsHandler
 // Il2CppName: get_platformAchievementsHandler
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlatformAchievementsHandler* (PlatformAchievementsModelSO::*)()>(&PlatformAchievementsModelSO::get_platformAchievementsHandler)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlatformAchievementsHandler* (GlobalNamespace::PlatformAchievementsModelSO::*)()>(&GlobalNamespace::PlatformAchievementsModelSO::get_platformAchievementsHandler)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformAchievementsModelSO*), "get_platformAchievementsHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformAchievementsModelSO*), "get_platformAchievementsHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlatformAchievementsModelSO::Initialize
+// Writing MetadataGetter for method: GlobalNamespace::PlatformAchievementsModelSO::Initialize
 // Il2CppName: Initialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformAchievementsModelSO::*)()>(&PlatformAchievementsModelSO::Initialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformAchievementsModelSO::*)()>(&GlobalNamespace::PlatformAchievementsModelSO::Initialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformAchievementsModelSO*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformAchievementsModelSO*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlatformAchievementsModelSO::CreatePlatformAchievementsHandler
+// Writing MetadataGetter for method: GlobalNamespace::PlatformAchievementsModelSO::CreatePlatformAchievementsHandler
 // Il2CppName: CreatePlatformAchievementsHandler
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformAchievementsModelSO::*)()>(&PlatformAchievementsModelSO::CreatePlatformAchievementsHandler)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformAchievementsModelSO::*)()>(&GlobalNamespace::PlatformAchievementsModelSO::CreatePlatformAchievementsHandler)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformAchievementsModelSO*), "CreatePlatformAchievementsHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformAchievementsModelSO*), "CreatePlatformAchievementsHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlatformAchievementsModelSO::UnlockAchievement
+// Writing MetadataGetter for method: GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievement
 // Il2CppName: UnlockAchievement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::HMAsyncRequest* (PlatformAchievementsModelSO::*)(::Il2CppString*, GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler*)>(&PlatformAchievementsModelSO::UnlockAchievement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::HMAsyncRequest* (GlobalNamespace::PlatformAchievementsModelSO::*)(::Il2CppString*, GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler*)>(&GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievement)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformAchievementsModelSO*), "UnlockAchievement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformAchievementsModelSO*), "UnlockAchievement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler*>()});
   }
 };
-// Writing MetadataGetter for method: PlatformAchievementsModelSO::GetUnlockedAchievements
+// Writing MetadataGetter for method: GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievements
 // Il2CppName: GetUnlockedAchievements
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::HMAsyncRequest* (PlatformAchievementsModelSO::*)(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler*)>(&PlatformAchievementsModelSO::GetUnlockedAchievements)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::HMAsyncRequest* (GlobalNamespace::PlatformAchievementsModelSO::*)(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler*)>(&GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievements)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformAchievementsModelSO*), "GetUnlockedAchievements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformAchievementsModelSO*), "GetUnlockedAchievements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler*>()});
   }
 };
-// Writing MetadataGetter for method: PlatformAchievementsModelSO::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::PlatformAchievementsModelSO::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformAchievementsModelSO::*)()>(&PlatformAchievementsModelSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformAchievementsModelSO::*)()>(&GlobalNamespace::PlatformAchievementsModelSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformAchievementsModelSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformAchievementsModelSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformAchievementsModelSO::*)()>(&PlatformAchievementsModelSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformAchievementsModelSO::*)()>(&GlobalNamespace::PlatformAchievementsModelSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformAchievementsModelSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformAchievementsModelSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

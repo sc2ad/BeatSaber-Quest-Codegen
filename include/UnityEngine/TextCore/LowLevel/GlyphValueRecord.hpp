@@ -90,59 +90,59 @@ namespace UnityEngine::TextCore::LowLevel {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphValueRecord, "UnityEngine.TextCore.LowLevel", "GlyphValueRecord");
-// Writing MetadataGetter for method: GlyphValueRecord::get_xPlacement
+// Writing MetadataGetter for method: UnityEngine::TextCore::LowLevel::GlyphValueRecord::get_xPlacement
 // Il2CppName: get_xPlacement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlyphValueRecord::*)()>(&GlyphValueRecord::get_xPlacement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::TextCore::LowLevel::GlyphValueRecord::*)()>(&UnityEngine::TextCore::LowLevel::GlyphValueRecord::get_xPlacement)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlyphValueRecord), "get_xPlacement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::LowLevel::GlyphValueRecord), "get_xPlacement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlyphValueRecord::get_yPlacement
+// Writing MetadataGetter for method: UnityEngine::TextCore::LowLevel::GlyphValueRecord::get_yPlacement
 // Il2CppName: get_yPlacement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlyphValueRecord::*)()>(&GlyphValueRecord::get_yPlacement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::TextCore::LowLevel::GlyphValueRecord::*)()>(&UnityEngine::TextCore::LowLevel::GlyphValueRecord::get_yPlacement)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlyphValueRecord), "get_yPlacement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::LowLevel::GlyphValueRecord), "get_yPlacement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlyphValueRecord::get_xAdvance
+// Writing MetadataGetter for method: UnityEngine::TextCore::LowLevel::GlyphValueRecord::get_xAdvance
 // Il2CppName: get_xAdvance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlyphValueRecord::*)()>(&GlyphValueRecord::get_xAdvance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::TextCore::LowLevel::GlyphValueRecord::*)()>(&UnityEngine::TextCore::LowLevel::GlyphValueRecord::get_xAdvance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlyphValueRecord), "get_xAdvance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::LowLevel::GlyphValueRecord), "get_xAdvance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlyphValueRecord::get_yAdvance
+// Writing MetadataGetter for method: UnityEngine::TextCore::LowLevel::GlyphValueRecord::get_yAdvance
 // Il2CppName: get_yAdvance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlyphValueRecord::*)()>(&GlyphValueRecord::get_yAdvance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::TextCore::LowLevel::GlyphValueRecord::*)()>(&UnityEngine::TextCore::LowLevel::GlyphValueRecord::get_yAdvance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlyphValueRecord), "get_yAdvance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::LowLevel::GlyphValueRecord), "get_yAdvance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlyphValueRecord::Equals
+// Writing MetadataGetter for method: UnityEngine::TextCore::LowLevel::GlyphValueRecord::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlyphValueRecord::*)(UnityEngine::TextCore::LowLevel::GlyphValueRecord)>(&GlyphValueRecord::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextCore::LowLevel::GlyphValueRecord::*)(UnityEngine::TextCore::LowLevel::GlyphValueRecord)>(&UnityEngine::TextCore::LowLevel::GlyphValueRecord::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlyphValueRecord), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphValueRecord>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::LowLevel::GlyphValueRecord), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphValueRecord>()});
   }
 };
-// Writing MetadataGetter for method: GlyphValueRecord::GetHashCode
+// Writing MetadataGetter for method: UnityEngine::TextCore::LowLevel::GlyphValueRecord::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlyphValueRecord::*)()>(&GlyphValueRecord::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::TextCore::LowLevel::GlyphValueRecord::*)()>(&UnityEngine::TextCore::LowLevel::GlyphValueRecord::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlyphValueRecord), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::LowLevel::GlyphValueRecord), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GlyphValueRecord::Equals
+// Writing MetadataGetter for method: UnityEngine::TextCore::LowLevel::GlyphValueRecord::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlyphValueRecord::*)(::Il2CppObject*)>(&GlyphValueRecord::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextCore::LowLevel::GlyphValueRecord::*)(::Il2CppObject*)>(&UnityEngine::TextCore::LowLevel::GlyphValueRecord::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlyphValueRecord), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::LowLevel::GlyphValueRecord), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };

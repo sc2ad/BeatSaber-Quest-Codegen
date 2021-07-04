@@ -70,41 +70,41 @@ namespace UnityEngine::TestTools::TestRunner {
   static_assert(sizeof(UnhandledLogMessageException) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::UnhandledLogMessageException*, "UnityEngine.TestTools.TestRunner", "UnhandledLogMessageException");
-// Writing MetadataGetter for method: UnhandledLogMessageException::New_ctor
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::UnhandledLogMessageException::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnhandledLogMessageException::*)(UnityEngine::TestTools::Logging::LogEvent*)>(&UnhandledLogMessageException::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestRunner::UnhandledLogMessageException::*)(UnityEngine::TestTools::Logging::LogEvent*)>(&UnityEngine::TestTools::TestRunner::UnhandledLogMessageException::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnhandledLogMessageException*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::Logging::LogEvent*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::UnhandledLogMessageException*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::Logging::LogEvent*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnhandledLogMessageException::*)(UnityEngine::TestTools::Logging::LogEvent*)>(&UnhandledLogMessageException::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestRunner::UnhandledLogMessageException::*)(UnityEngine::TestTools::Logging::LogEvent*)>(&UnityEngine::TestTools::TestRunner::UnhandledLogMessageException::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnhandledLogMessageException*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::Logging::LogEvent*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::UnhandledLogMessageException*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::Logging::LogEvent*>()});
   }
 };
-// Writing MetadataGetter for method: UnhandledLogMessageException::BuildMessage
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::UnhandledLogMessageException::BuildMessage
 // Il2CppName: BuildMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::TestTools::Logging::LogEvent*)>(&UnhandledLogMessageException::BuildMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::TestTools::Logging::LogEvent*)>(&UnityEngine::TestTools::TestRunner::UnhandledLogMessageException::BuildMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnhandledLogMessageException*), "BuildMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::Logging::LogEvent*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::UnhandledLogMessageException*), "BuildMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::Logging::LogEvent*>()});
   }
 };
-// Writing MetadataGetter for method: UnhandledLogMessageException::get_ResultState
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::UnhandledLogMessageException::get_ResultState
 // Il2CppName: get_ResultState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ResultState* (UnhandledLogMessageException::*)()>(&UnhandledLogMessageException::get_ResultState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ResultState* (UnityEngine::TestTools::TestRunner::UnhandledLogMessageException::*)()>(&UnityEngine::TestTools::TestRunner::UnhandledLogMessageException::get_ResultState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnhandledLogMessageException*), "get_ResultState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::UnhandledLogMessageException*), "get_ResultState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnhandledLogMessageException::get_StackTrace
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::UnhandledLogMessageException::get_StackTrace
 // Il2CppName: get_StackTrace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnhandledLogMessageException::*)()>(&UnhandledLogMessageException::get_StackTrace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::TestTools::TestRunner::UnhandledLogMessageException::*)()>(&UnityEngine::TestTools::TestRunner::UnhandledLogMessageException::get_StackTrace)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnhandledLogMessageException*), "get_StackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::UnhandledLogMessageException*), "get_StackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

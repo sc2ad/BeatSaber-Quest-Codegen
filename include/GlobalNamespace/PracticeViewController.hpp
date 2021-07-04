@@ -221,105 +221,105 @@ namespace GlobalNamespace {
   static_assert(sizeof(PracticeViewController) == 0xD4);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PracticeViewController*, "", "PracticeViewController");
-// Writing MetadataGetter for method: PracticeViewController::add_didPressPlayButtonEvent
+// Writing MetadataGetter for method: GlobalNamespace::PracticeViewController::add_didPressPlayButtonEvent
 // Il2CppName: add_didPressPlayButtonEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PracticeViewController::*)(System::Action*)>(&PracticeViewController::add_didPressPlayButtonEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PracticeViewController::*)(System::Action*)>(&GlobalNamespace::PracticeViewController::add_didPressPlayButtonEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PracticeViewController*), "add_didPressPlayButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PracticeViewController*), "add_didPressPlayButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: PracticeViewController::remove_didPressPlayButtonEvent
+// Writing MetadataGetter for method: GlobalNamespace::PracticeViewController::remove_didPressPlayButtonEvent
 // Il2CppName: remove_didPressPlayButtonEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PracticeViewController::*)(System::Action*)>(&PracticeViewController::remove_didPressPlayButtonEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PracticeViewController::*)(System::Action*)>(&GlobalNamespace::PracticeViewController::remove_didPressPlayButtonEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PracticeViewController*), "remove_didPressPlayButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PracticeViewController*), "remove_didPressPlayButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: PracticeViewController::get_practiceSettings
+// Writing MetadataGetter for method: GlobalNamespace::PracticeViewController::get_practiceSettings
 // Il2CppName: get_practiceSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PracticeSettings* (PracticeViewController::*)()>(&PracticeViewController::get_practiceSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PracticeSettings* (GlobalNamespace::PracticeViewController::*)()>(&GlobalNamespace::PracticeViewController::get_practiceSettings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PracticeViewController*), "get_practiceSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PracticeViewController*), "get_practiceSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PracticeViewController::Init
+// Writing MetadataGetter for method: GlobalNamespace::PracticeViewController::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PracticeViewController::*)(GlobalNamespace::IBeatmapLevel*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty)>(&PracticeViewController::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PracticeViewController::*)(GlobalNamespace::IBeatmapLevel*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty)>(&GlobalNamespace::PracticeViewController::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PracticeViewController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PracticeViewController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>()});
   }
 };
-// Writing MetadataGetter for method: PracticeViewController::PlayPreview
+// Writing MetadataGetter for method: GlobalNamespace::PracticeViewController::PlayPreview
 // Il2CppName: PlayPreview
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PracticeViewController::*)()>(&PracticeViewController::PlayPreview)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PracticeViewController::*)()>(&GlobalNamespace::PracticeViewController::PlayPreview)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PracticeViewController*), "PlayPreview", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PracticeViewController*), "PlayPreview", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PracticeViewController::RefreshUI
+// Writing MetadataGetter for method: GlobalNamespace::PracticeViewController::RefreshUI
 // Il2CppName: RefreshUI
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PracticeViewController::*)()>(&PracticeViewController::RefreshUI)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PracticeViewController::*)()>(&GlobalNamespace::PracticeViewController::RefreshUI)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PracticeViewController*), "RefreshUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PracticeViewController*), "RefreshUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PracticeViewController::HandleSpeedSliderValueDidChange
+// Writing MetadataGetter for method: GlobalNamespace::PracticeViewController::HandleSpeedSliderValueDidChange
 // Il2CppName: HandleSpeedSliderValueDidChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PracticeViewController::*)(HMUI::RangeValuesTextSlider*, float)>(&PracticeViewController::HandleSpeedSliderValueDidChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PracticeViewController::*)(HMUI::RangeValuesTextSlider*, float)>(&GlobalNamespace::PracticeViewController::HandleSpeedSliderValueDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PracticeViewController*), "HandleSpeedSliderValueDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::RangeValuesTextSlider*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PracticeViewController*), "HandleSpeedSliderValueDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::RangeValuesTextSlider*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: PracticeViewController::HandleSongStartSliderValueDidChange
+// Writing MetadataGetter for method: GlobalNamespace::PracticeViewController::HandleSongStartSliderValueDidChange
 // Il2CppName: HandleSongStartSliderValueDidChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PracticeViewController::*)(HMUI::RangeValuesTextSlider*, float)>(&PracticeViewController::HandleSongStartSliderValueDidChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PracticeViewController::*)(HMUI::RangeValuesTextSlider*, float)>(&GlobalNamespace::PracticeViewController::HandleSongStartSliderValueDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PracticeViewController*), "HandleSongStartSliderValueDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::RangeValuesTextSlider*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PracticeViewController*), "HandleSongStartSliderValueDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::RangeValuesTextSlider*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: PracticeViewController::PlayButtonPressed
+// Writing MetadataGetter for method: GlobalNamespace::PracticeViewController::PlayButtonPressed
 // Il2CppName: PlayButtonPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PracticeViewController::*)()>(&PracticeViewController::PlayButtonPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PracticeViewController::*)()>(&GlobalNamespace::PracticeViewController::PlayButtonPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PracticeViewController*), "PlayButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PracticeViewController*), "PlayButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PracticeViewController::DidActivate
+// Writing MetadataGetter for method: GlobalNamespace::PracticeViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PracticeViewController::*)(bool, bool, bool)>(&PracticeViewController::DidActivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PracticeViewController::*)(bool, bool, bool)>(&GlobalNamespace::PracticeViewController::DidActivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PracticeViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PracticeViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: PracticeViewController::DidDeactivate
+// Writing MetadataGetter for method: GlobalNamespace::PracticeViewController::DidDeactivate
 // Il2CppName: DidDeactivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PracticeViewController::*)(bool, bool)>(&PracticeViewController::DidDeactivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PracticeViewController::*)(bool, bool)>(&GlobalNamespace::PracticeViewController::DidDeactivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PracticeViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PracticeViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: PracticeViewController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::PracticeViewController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PracticeViewController::*)()>(&PracticeViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PracticeViewController::*)()>(&GlobalNamespace::PracticeViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PracticeViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PracticeViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PracticeViewController::*)()>(&PracticeViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PracticeViewController::*)()>(&GlobalNamespace::PracticeViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PracticeViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PracticeViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

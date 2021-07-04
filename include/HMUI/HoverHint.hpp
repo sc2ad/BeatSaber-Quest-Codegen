@@ -110,73 +110,73 @@ namespace HMUI {
   static_assert(sizeof(HoverHint) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverHint*, "HMUI", "HoverHint");
-// Writing MetadataGetter for method: HoverHint::get_text
+// Writing MetadataGetter for method: HMUI::HoverHint::get_text
 // Il2CppName: get_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HoverHint::*)()>(&HoverHint::get_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HMUI::HoverHint::*)()>(&HMUI::HoverHint::get_text)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HoverHint*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::HoverHint*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HoverHint::set_text
+// Writing MetadataGetter for method: HMUI::HoverHint::set_text
 // Il2CppName: set_text
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoverHint::*)(::Il2CppString*)>(&HoverHint::set_text)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::HoverHint::*)(::Il2CppString*)>(&HMUI::HoverHint::set_text)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HoverHint*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::HoverHint*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: HoverHint::get_size
+// Writing MetadataGetter for method: HMUI::HoverHint::get_size
 // Il2CppName: get_size
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (HoverHint::*)()>(&HoverHint::get_size)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (HMUI::HoverHint::*)()>(&HMUI::HoverHint::get_size)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HoverHint*), "get_size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::HoverHint*), "get_size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HoverHint::get_worldCenter
+// Writing MetadataGetter for method: HMUI::HoverHint::get_worldCenter
 // Il2CppName: get_worldCenter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (HoverHint::*)()>(&HoverHint::get_worldCenter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (HMUI::HoverHint::*)()>(&HMUI::HoverHint::get_worldCenter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HoverHint*), "get_worldCenter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::HoverHint*), "get_worldCenter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HoverHint::OnPointerEnter
+// Writing MetadataGetter for method: HMUI::HoverHint::OnPointerEnter
 // Il2CppName: OnPointerEnter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoverHint::*)(UnityEngine::EventSystems::PointerEventData*)>(&HoverHint::OnPointerEnter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::HoverHint::*)(UnityEngine::EventSystems::PointerEventData*)>(&HMUI::HoverHint::OnPointerEnter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HoverHint*), "OnPointerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::HoverHint*), "OnPointerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: HoverHint::OnPointerExit
+// Writing MetadataGetter for method: HMUI::HoverHint::OnPointerExit
 // Il2CppName: OnPointerExit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoverHint::*)(UnityEngine::EventSystems::PointerEventData*)>(&HoverHint::OnPointerExit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::HoverHint::*)(UnityEngine::EventSystems::PointerEventData*)>(&HMUI::HoverHint::OnPointerExit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HoverHint*), "OnPointerExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::HoverHint*), "OnPointerExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: HoverHint::OnDisable
+// Writing MetadataGetter for method: HMUI::HoverHint::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoverHint::*)()>(&HoverHint::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::HoverHint::*)()>(&HMUI::HoverHint::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HoverHint*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::HoverHint*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HoverHint::New_ctor
+// Writing MetadataGetter for method: HMUI::HoverHint::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoverHint::*)()>(&HoverHint::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::HoverHint::*)()>(&HMUI::HoverHint::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HoverHint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::HoverHint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoverHint::*)()>(&HoverHint::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::HoverHint::*)()>(&HMUI::HoverHint::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HoverHint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::HoverHint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

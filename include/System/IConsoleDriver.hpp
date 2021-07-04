@@ -28,11 +28,11 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IConsoleDriver*, "System", "IConsoleDriver");
-// Writing MetadataGetter for method: IConsoleDriver::ReadKey
+// Writing MetadataGetter for method: System::IConsoleDriver::ReadKey
 // Il2CppName: ReadKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ConsoleKeyInfo (IConsoleDriver::*)(bool)>(&IConsoleDriver::ReadKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ConsoleKeyInfo (System::IConsoleDriver::*)(bool)>(&System::IConsoleDriver::ReadKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IConsoleDriver*), "ReadKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IConsoleDriver*), "ReadKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };

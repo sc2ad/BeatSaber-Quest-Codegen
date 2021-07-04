@@ -74,55 +74,55 @@ namespace System::Text {
   static_assert(sizeof(UTF8Encoding::UTF8Decoder) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF8Encoding::UTF8Decoder*, "System.Text", "UTF8Encoding/UTF8Decoder");
-// Writing MetadataGetter for method: UTF8Encoding::UTF8Decoder::New_ctor
+// Writing MetadataGetter for method: System::Text::UTF8Encoding::UTF8Decoder::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UTF8Encoding::UTF8Decoder::*)(System::Text::UTF8Encoding*)>(&UTF8Encoding::UTF8Decoder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::UTF8Encoding::UTF8Decoder::*)(System::Text::UTF8Encoding*)>(&System::Text::UTF8Encoding::UTF8Decoder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UTF8Encoding::UTF8Decoder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::UTF8Encoding*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::UTF8Encoding::UTF8Decoder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::UTF8Encoding*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UTF8Encoding::UTF8Decoder::*)(System::Text::UTF8Encoding*)>(&UTF8Encoding::UTF8Decoder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::UTF8Encoding::UTF8Decoder::*)(System::Text::UTF8Encoding*)>(&System::Text::UTF8Encoding::UTF8Decoder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UTF8Encoding::UTF8Decoder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::UTF8Encoding*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::UTF8Encoding::UTF8Decoder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::UTF8Encoding*>()});
   }
 };
-// Writing MetadataGetter for method: UTF8Encoding::UTF8Decoder::System_Runtime_Serialization_ISerializable_GetObjectData
+// Writing MetadataGetter for method: System::Text::UTF8Encoding::UTF8Decoder::System_Runtime_Serialization_ISerializable_GetObjectData
 // Il2CppName: System.Runtime.Serialization.ISerializable.GetObjectData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UTF8Encoding::UTF8Decoder::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&UTF8Encoding::UTF8Decoder::System_Runtime_Serialization_ISerializable_GetObjectData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::UTF8Encoding::UTF8Decoder::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Text::UTF8Encoding::UTF8Decoder::System_Runtime_Serialization_ISerializable_GetObjectData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UTF8Encoding::UTF8Decoder*), "System.Runtime.Serialization.ISerializable.GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::UTF8Encoding::UTF8Decoder*), "System.Runtime.Serialization.ISerializable.GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
   }
 };
-// Writing MetadataGetter for method: UTF8Encoding::UTF8Decoder::New_ctor
+// Writing MetadataGetter for method: System::Text::UTF8Encoding::UTF8Decoder::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UTF8Encoding::UTF8Decoder::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&UTF8Encoding::UTF8Decoder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::UTF8Encoding::UTF8Decoder::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Text::UTF8Encoding::UTF8Decoder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UTF8Encoding::UTF8Decoder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::UTF8Encoding::UTF8Decoder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UTF8Encoding::UTF8Decoder::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&UTF8Encoding::UTF8Decoder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::UTF8Encoding::UTF8Decoder::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Text::UTF8Encoding::UTF8Decoder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UTF8Encoding::UTF8Decoder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::UTF8Encoding::UTF8Decoder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
   }
 };
-// Writing MetadataGetter for method: UTF8Encoding::UTF8Decoder::Reset
+// Writing MetadataGetter for method: System::Text::UTF8Encoding::UTF8Decoder::Reset
 // Il2CppName: Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UTF8Encoding::UTF8Decoder::*)()>(&UTF8Encoding::UTF8Decoder::Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::UTF8Encoding::UTF8Decoder::*)()>(&System::Text::UTF8Encoding::UTF8Decoder::Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UTF8Encoding::UTF8Decoder*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::UTF8Encoding::UTF8Decoder*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UTF8Encoding::UTF8Decoder::get_HasState
+// Writing MetadataGetter for method: System::Text::UTF8Encoding::UTF8Decoder::get_HasState
 // Il2CppName: get_HasState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UTF8Encoding::UTF8Decoder::*)()>(&UTF8Encoding::UTF8Decoder::get_HasState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::UTF8Encoding::UTF8Decoder::*)()>(&System::Text::UTF8Encoding::UTF8Decoder::get_HasState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UTF8Encoding::UTF8Decoder*), "get_HasState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::UTF8Encoding::UTF8Decoder*), "get_HasState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

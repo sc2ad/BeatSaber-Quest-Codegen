@@ -80,49 +80,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(MarkableUIButton) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MarkableUIButton*, "", "MarkableUIButton");
-// Writing MetadataGetter for method: MarkableUIButton::get_marked
+// Writing MetadataGetter for method: GlobalNamespace::MarkableUIButton::get_marked
 // Il2CppName: get_marked
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MarkableUIButton::*)()>(&MarkableUIButton::get_marked)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MarkableUIButton::*)()>(&GlobalNamespace::MarkableUIButton::get_marked)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MarkableUIButton*), "get_marked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MarkableUIButton*), "get_marked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MarkableUIButton::set_marked
+// Writing MetadataGetter for method: GlobalNamespace::MarkableUIButton::set_marked
 // Il2CppName: set_marked
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MarkableUIButton::*)(bool)>(&MarkableUIButton::set_marked)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MarkableUIButton::*)(bool)>(&GlobalNamespace::MarkableUIButton::set_marked)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MarkableUIButton*), "set_marked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MarkableUIButton*), "set_marked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MarkableUIButton::Awake
+// Writing MetadataGetter for method: GlobalNamespace::MarkableUIButton::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MarkableUIButton::*)()>(&MarkableUIButton::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MarkableUIButton::*)()>(&GlobalNamespace::MarkableUIButton::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MarkableUIButton*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MarkableUIButton*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MarkableUIButton::ToggleMarked
+// Writing MetadataGetter for method: GlobalNamespace::MarkableUIButton::ToggleMarked
 // Il2CppName: ToggleMarked
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MarkableUIButton::*)()>(&MarkableUIButton::ToggleMarked)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MarkableUIButton::*)()>(&GlobalNamespace::MarkableUIButton::ToggleMarked)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MarkableUIButton*), "ToggleMarked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MarkableUIButton*), "ToggleMarked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MarkableUIButton::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MarkableUIButton::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MarkableUIButton::*)()>(&MarkableUIButton::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MarkableUIButton::*)()>(&GlobalNamespace::MarkableUIButton::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MarkableUIButton*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MarkableUIButton*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MarkableUIButton::*)()>(&MarkableUIButton::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MarkableUIButton::*)()>(&GlobalNamespace::MarkableUIButton::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MarkableUIButton*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MarkableUIButton*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

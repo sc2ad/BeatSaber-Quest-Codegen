@@ -60,33 +60,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerConnectedPlayerObservable) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerObservable*, "", "MultiplayerConnectedPlayerObservable");
-// Writing MetadataGetter for method: MultiplayerConnectedPlayerObservable::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerObservable::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerObservable::*)(GlobalNamespace::IConnectedPlayer*)>(&MultiplayerConnectedPlayerObservable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerObservable::*)(GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::MultiplayerConnectedPlayerObservable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerObservable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerObservable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerConnectedPlayerObservable::*)(GlobalNamespace::IConnectedPlayer*)>(&MultiplayerConnectedPlayerObservable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerObservable::*)(GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::MultiplayerConnectedPlayerObservable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerObservable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerObservable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerConnectedPlayerObservable::get_offsetSyncTime
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerObservable::get_offsetSyncTime
 // Il2CppName: get_offsetSyncTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (MultiplayerConnectedPlayerObservable::*)()>(&MultiplayerConnectedPlayerObservable::get_offsetSyncTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MultiplayerConnectedPlayerObservable::*)()>(&GlobalNamespace::MultiplayerConnectedPlayerObservable::get_offsetSyncTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerObservable*), "get_offsetSyncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerObservable*), "get_offsetSyncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerConnectedPlayerObservable::get_isFailed
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerObservable::get_isFailed
 // Il2CppName: get_isFailed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MultiplayerConnectedPlayerObservable::*)()>(&MultiplayerConnectedPlayerObservable::get_isFailed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerConnectedPlayerObservable::*)()>(&GlobalNamespace::MultiplayerConnectedPlayerObservable::get_isFailed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerConnectedPlayerObservable*), "get_isFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerObservable*), "get_isFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

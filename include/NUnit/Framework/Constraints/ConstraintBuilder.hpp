@@ -56,19 +56,19 @@ namespace NUnit::Framework::Constraints {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintBuilder*, "NUnit.Framework.Constraints", "ConstraintBuilder");
-// Writing MetadataGetter for method: ConstraintBuilder::Resolve
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::ConstraintBuilder::Resolve
 // Il2CppName: Resolve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::IConstraint* (ConstraintBuilder::*)()>(&ConstraintBuilder::Resolve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::IConstraint* (NUnit::Framework::Constraints::ConstraintBuilder::*)()>(&NUnit::Framework::Constraints::ConstraintBuilder::Resolve)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConstraintBuilder*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ConstraintBuilder*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ConstraintBuilder::get_IsResolvable
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::ConstraintBuilder::get_IsResolvable
 // Il2CppName: get_IsResolvable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ConstraintBuilder::*)()>(&ConstraintBuilder::get_IsResolvable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::ConstraintBuilder::*)()>(&NUnit::Framework::Constraints::ConstraintBuilder::get_IsResolvable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConstraintBuilder*), "get_IsResolvable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ConstraintBuilder*), "get_IsResolvable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

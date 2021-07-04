@@ -207,89 +207,89 @@ namespace GlobalNamespace {
   static_assert(sizeof(Parametric3SliceSpriteController) == 0x59);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Parametric3SliceSpriteController*, "", "Parametric3SliceSpriteController");
-// Writing MetadataGetter for method: Parametric3SliceSpriteController::Awake
+// Writing MetadataGetter for method: GlobalNamespace::Parametric3SliceSpriteController::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Parametric3SliceSpriteController::*)()>(&Parametric3SliceSpriteController::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::Parametric3SliceSpriteController::*)()>(&GlobalNamespace::Parametric3SliceSpriteController::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Parametric3SliceSpriteController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Parametric3SliceSpriteController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Parametric3SliceSpriteController::Start
+// Writing MetadataGetter for method: GlobalNamespace::Parametric3SliceSpriteController::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Parametric3SliceSpriteController::*)()>(&Parametric3SliceSpriteController::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::Parametric3SliceSpriteController::*)()>(&GlobalNamespace::Parametric3SliceSpriteController::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Parametric3SliceSpriteController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Parametric3SliceSpriteController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Parametric3SliceSpriteController::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::Parametric3SliceSpriteController::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Parametric3SliceSpriteController::*)()>(&Parametric3SliceSpriteController::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::Parametric3SliceSpriteController::*)()>(&GlobalNamespace::Parametric3SliceSpriteController::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Parametric3SliceSpriteController*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Parametric3SliceSpriteController*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Parametric3SliceSpriteController::OnDisable
+// Writing MetadataGetter for method: GlobalNamespace::Parametric3SliceSpriteController::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Parametric3SliceSpriteController::*)()>(&Parametric3SliceSpriteController::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::Parametric3SliceSpriteController::*)()>(&GlobalNamespace::Parametric3SliceSpriteController::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Parametric3SliceSpriteController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Parametric3SliceSpriteController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Parametric3SliceSpriteController::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::Parametric3SliceSpriteController::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Parametric3SliceSpriteController::*)()>(&Parametric3SliceSpriteController::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::Parametric3SliceSpriteController::*)()>(&GlobalNamespace::Parametric3SliceSpriteController::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Parametric3SliceSpriteController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Parametric3SliceSpriteController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Parametric3SliceSpriteController::Init
+// Writing MetadataGetter for method: GlobalNamespace::Parametric3SliceSpriteController::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Parametric3SliceSpriteController::*)()>(&Parametric3SliceSpriteController::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::Parametric3SliceSpriteController::*)()>(&GlobalNamespace::Parametric3SliceSpriteController::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Parametric3SliceSpriteController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Parametric3SliceSpriteController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Parametric3SliceSpriteController::CreateMesh
+// Writing MetadataGetter for method: GlobalNamespace::Parametric3SliceSpriteController::CreateMesh
 // Il2CppName: CreateMesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (Parametric3SliceSpriteController::*)()>(&Parametric3SliceSpriteController::CreateMesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (GlobalNamespace::Parametric3SliceSpriteController::*)()>(&GlobalNamespace::Parametric3SliceSpriteController::CreateMesh)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Parametric3SliceSpriteController*), "CreateMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Parametric3SliceSpriteController*), "CreateMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Parametric3SliceSpriteController::Refresh
+// Writing MetadataGetter for method: GlobalNamespace::Parametric3SliceSpriteController::Refresh
 // Il2CppName: Refresh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Parametric3SliceSpriteController::*)()>(&Parametric3SliceSpriteController::Refresh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::Parametric3SliceSpriteController::*)()>(&GlobalNamespace::Parametric3SliceSpriteController::Refresh)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Parametric3SliceSpriteController*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Parametric3SliceSpriteController*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Parametric3SliceSpriteController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::Parametric3SliceSpriteController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Parametric3SliceSpriteController::*)()>(&Parametric3SliceSpriteController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::Parametric3SliceSpriteController::*)()>(&GlobalNamespace::Parametric3SliceSpriteController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Parametric3SliceSpriteController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Parametric3SliceSpriteController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Parametric3SliceSpriteController::*)()>(&Parametric3SliceSpriteController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::Parametric3SliceSpriteController::*)()>(&GlobalNamespace::Parametric3SliceSpriteController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Parametric3SliceSpriteController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Parametric3SliceSpriteController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Parametric3SliceSpriteController::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::Parametric3SliceSpriteController::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Parametric3SliceSpriteController::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::Parametric3SliceSpriteController::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Parametric3SliceSpriteController*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Parametric3SliceSpriteController*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

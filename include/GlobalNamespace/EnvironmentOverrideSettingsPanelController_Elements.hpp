@@ -91,33 +91,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnvironmentOverrideSettingsPanelController::Elements) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*, "", "EnvironmentOverrideSettingsPanelController/Elements");
-// Writing MetadataGetter for method: EnvironmentOverrideSettingsPanelController::Elements::get_environmentInfos
+// Writing MetadataGetter for method: GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements::get_environmentInfos
 // Il2CppName: get_environmentInfos
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>* (EnvironmentOverrideSettingsPanelController::Elements::*)()>(&EnvironmentOverrideSettingsPanelController::Elements::get_environmentInfos)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>* (GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements::*)()>(&GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements::get_environmentInfos)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnvironmentOverrideSettingsPanelController::Elements*), "get_environmentInfos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*), "get_environmentInfos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EnvironmentOverrideSettingsPanelController::Elements::set_environmentInfos
+// Writing MetadataGetter for method: GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements::set_environmentInfos
 // Il2CppName: set_environmentInfos
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnvironmentOverrideSettingsPanelController::Elements::*)(System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>*)>(&EnvironmentOverrideSettingsPanelController::Elements::set_environmentInfos)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements::*)(System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>*)>(&GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements::set_environmentInfos)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnvironmentOverrideSettingsPanelController::Elements*), "set_environmentInfos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*), "set_environmentInfos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>*>()});
   }
 };
-// Writing MetadataGetter for method: EnvironmentOverrideSettingsPanelController::Elements::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnvironmentOverrideSettingsPanelController::Elements::*)()>(&EnvironmentOverrideSettingsPanelController::Elements::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements::*)()>(&GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnvironmentOverrideSettingsPanelController::Elements*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnvironmentOverrideSettingsPanelController::Elements::*)()>(&EnvironmentOverrideSettingsPanelController::Elements::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements::*)()>(&GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnvironmentOverrideSettingsPanelController::Elements*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

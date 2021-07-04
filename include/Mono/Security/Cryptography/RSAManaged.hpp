@@ -134,43 +134,43 @@ namespace Mono::Security::Cryptography {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::RSAManaged*, "Mono.Security.Cryptography", "RSAManaged");
-// Writing MetadataGetter for method: RSAManaged::GenerateKeyPair
+// Writing MetadataGetter for method: Mono::Security::Cryptography::RSAManaged::GenerateKeyPair
 // Il2CppName: GenerateKeyPair
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSAManaged::*)()>(&RSAManaged::GenerateKeyPair)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::RSAManaged::*)()>(&Mono::Security::Cryptography::RSAManaged::GenerateKeyPair)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSAManaged*), "GenerateKeyPair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::RSAManaged*), "GenerateKeyPair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RSAManaged::get_PublicOnly
+// Writing MetadataGetter for method: Mono::Security::Cryptography::RSAManaged::get_PublicOnly
 // Il2CppName: get_PublicOnly
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RSAManaged::*)()>(&RSAManaged::get_PublicOnly)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::Cryptography::RSAManaged::*)()>(&Mono::Security::Cryptography::RSAManaged::get_PublicOnly)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSAManaged*), "get_PublicOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::RSAManaged*), "get_PublicOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RSAManaged::GetPaddedValue
+// Writing MetadataGetter for method: Mono::Security::Cryptography::RSAManaged::GetPaddedValue
 // Il2CppName: GetPaddedValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (RSAManaged::*)(Mono::Math::BigInteger*, int)>(&RSAManaged::GetPaddedValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::Cryptography::RSAManaged::*)(Mono::Math::BigInteger*, int)>(&Mono::Security::Cryptography::RSAManaged::GetPaddedValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSAManaged*), "GetPaddedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::RSAManaged*), "GetPaddedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: RSAManaged::ExportParameters
+// Writing MetadataGetter for method: Mono::Security::Cryptography::RSAManaged::ExportParameters
 // Il2CppName: ExportParameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RSAParameters (RSAManaged::*)(bool)>(&RSAManaged::ExportParameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RSAParameters (Mono::Security::Cryptography::RSAManaged::*)(bool)>(&Mono::Security::Cryptography::RSAManaged::ExportParameters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSAManaged*), "ExportParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::RSAManaged*), "ExportParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: RSAManaged::ImportParameters
+// Writing MetadataGetter for method: Mono::Security::Cryptography::RSAManaged::ImportParameters
 // Il2CppName: ImportParameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSAManaged::*)(System::Security::Cryptography::RSAParameters)>(&RSAManaged::ImportParameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::RSAManaged::*)(System::Security::Cryptography::RSAParameters)>(&Mono::Security::Cryptography::RSAManaged::ImportParameters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSAManaged*), "ImportParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RSAParameters>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::RSAManaged*), "ImportParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RSAParameters>()});
   }
 };

@@ -57,41 +57,41 @@ namespace Valve::VR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_SetTrackingSpace*, "Valve.VR", "IVRCompositor/_SetTrackingSpace");
-// Writing MetadataGetter for method: IVRCompositor::_SetTrackingSpace::New_ctor
+// Writing MetadataGetter for method: Valve::VR::IVRCompositor::_SetTrackingSpace::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRCompositor::_SetTrackingSpace::*)(::Il2CppObject*, System::IntPtr)>(&IVRCompositor::_SetTrackingSpace::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRCompositor::_SetTrackingSpace::*)(::Il2CppObject*, System::IntPtr)>(&Valve::VR::IVRCompositor::_SetTrackingSpace::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_SetTrackingSpace*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_SetTrackingSpace*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRCompositor::_SetTrackingSpace::*)(::Il2CppObject*, System::IntPtr)>(&IVRCompositor::_SetTrackingSpace::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRCompositor::_SetTrackingSpace::*)(::Il2CppObject*, System::IntPtr)>(&Valve::VR::IVRCompositor::_SetTrackingSpace::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_SetTrackingSpace*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_SetTrackingSpace*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: IVRCompositor::_SetTrackingSpace::Invoke
+// Writing MetadataGetter for method: Valve::VR::IVRCompositor::_SetTrackingSpace::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRCompositor::_SetTrackingSpace::*)(Valve::VR::ETrackingUniverseOrigin)>(&IVRCompositor::_SetTrackingSpace::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRCompositor::_SetTrackingSpace::*)(Valve::VR::ETrackingUniverseOrigin)>(&Valve::VR::IVRCompositor::_SetTrackingSpace::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_SetTrackingSpace*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackingUniverseOrigin>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_SetTrackingSpace*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackingUniverseOrigin>()});
   }
 };
-// Writing MetadataGetter for method: IVRCompositor::_SetTrackingSpace::BeginInvoke
+// Writing MetadataGetter for method: Valve::VR::IVRCompositor::_SetTrackingSpace::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRCompositor::_SetTrackingSpace::*)(Valve::VR::ETrackingUniverseOrigin, System::AsyncCallback*, ::Il2CppObject*)>(&IVRCompositor::_SetTrackingSpace::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRCompositor::_SetTrackingSpace::*)(Valve::VR::ETrackingUniverseOrigin, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRCompositor::_SetTrackingSpace::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_SetTrackingSpace*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackingUniverseOrigin>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_SetTrackingSpace*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackingUniverseOrigin>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IVRCompositor::_SetTrackingSpace::EndInvoke
+// Writing MetadataGetter for method: Valve::VR::IVRCompositor::_SetTrackingSpace::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRCompositor::_SetTrackingSpace::*)(System::IAsyncResult*)>(&IVRCompositor::_SetTrackingSpace::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRCompositor::_SetTrackingSpace::*)(System::IAsyncResult*)>(&Valve::VR::IVRCompositor::_SetTrackingSpace::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRCompositor::_SetTrackingSpace*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_SetTrackingSpace*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

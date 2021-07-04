@@ -62,57 +62,57 @@ namespace System::Threading {
   static_assert(sizeof(AtomicBoolean) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::AtomicBoolean*, "System.Threading", "AtomicBoolean");
-// Writing MetadataGetter for method: AtomicBoolean::TryRelaxedSet
+// Writing MetadataGetter for method: System::Threading::AtomicBoolean::TryRelaxedSet
 // Il2CppName: TryRelaxedSet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AtomicBoolean::*)()>(&AtomicBoolean::TryRelaxedSet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::AtomicBoolean::*)()>(&System::Threading::AtomicBoolean::TryRelaxedSet)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AtomicBoolean*), "TryRelaxedSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::AtomicBoolean*), "TryRelaxedSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AtomicBoolean::Exchange
+// Writing MetadataGetter for method: System::Threading::AtomicBoolean::Exchange
 // Il2CppName: Exchange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AtomicBoolean::*)(bool)>(&AtomicBoolean::Exchange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::AtomicBoolean::*)(bool)>(&System::Threading::AtomicBoolean::Exchange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AtomicBoolean*), "Exchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::AtomicBoolean*), "Exchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AtomicBoolean::Equals
+// Writing MetadataGetter for method: System::Threading::AtomicBoolean::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AtomicBoolean::*)(System::Threading::AtomicBoolean*)>(&AtomicBoolean::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::AtomicBoolean::*)(System::Threading::AtomicBoolean*)>(&System::Threading::AtomicBoolean::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AtomicBoolean*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::AtomicBoolean*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::AtomicBoolean*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::AtomicBoolean*>()});
   }
 };
-// Writing MetadataGetter for method: AtomicBoolean::Equals
+// Writing MetadataGetter for method: System::Threading::AtomicBoolean::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AtomicBoolean::*)(::Il2CppObject*)>(&AtomicBoolean::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::AtomicBoolean::*)(::Il2CppObject*)>(&System::Threading::AtomicBoolean::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AtomicBoolean*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::AtomicBoolean*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: AtomicBoolean::GetHashCode
+// Writing MetadataGetter for method: System::Threading::AtomicBoolean::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AtomicBoolean::*)()>(&AtomicBoolean::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Threading::AtomicBoolean::*)()>(&System::Threading::AtomicBoolean::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AtomicBoolean*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::AtomicBoolean*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AtomicBoolean::New_ctor
+// Writing MetadataGetter for method: System::Threading::AtomicBoolean::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AtomicBoolean::*)()>(&AtomicBoolean::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::AtomicBoolean::*)()>(&System::Threading::AtomicBoolean::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AtomicBoolean*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::AtomicBoolean*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AtomicBoolean::*)()>(&AtomicBoolean::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::AtomicBoolean::*)()>(&System::Threading::AtomicBoolean::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AtomicBoolean*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::AtomicBoolean*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

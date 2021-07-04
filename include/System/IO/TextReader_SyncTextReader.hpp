@@ -76,73 +76,73 @@ namespace System::IO {
   static_assert(sizeof(TextReader::SyncTextReader) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::TextReader::SyncTextReader*, "System.IO", "TextReader/SyncTextReader");
-// Writing MetadataGetter for method: TextReader::SyncTextReader::New_ctor
+// Writing MetadataGetter for method: System::IO::TextReader::SyncTextReader::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextReader::SyncTextReader::*)(System::IO::TextReader*)>(&TextReader::SyncTextReader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextReader::SyncTextReader::*)(System::IO::TextReader*)>(&System::IO::TextReader::SyncTextReader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextReader::SyncTextReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::TextReader*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextReader::SyncTextReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::TextReader*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextReader::SyncTextReader::*)(System::IO::TextReader*)>(&TextReader::SyncTextReader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextReader::SyncTextReader::*)(System::IO::TextReader*)>(&System::IO::TextReader::SyncTextReader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextReader::SyncTextReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::TextReader*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextReader::SyncTextReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::TextReader*>()});
   }
 };
-// Writing MetadataGetter for method: TextReader::SyncTextReader::Close
+// Writing MetadataGetter for method: System::IO::TextReader::SyncTextReader::Close
 // Il2CppName: Close
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextReader::SyncTextReader::*)()>(&TextReader::SyncTextReader::Close)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextReader::SyncTextReader::*)()>(&System::IO::TextReader::SyncTextReader::Close)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextReader::SyncTextReader*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextReader::SyncTextReader*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextReader::SyncTextReader::Dispose
+// Writing MetadataGetter for method: System::IO::TextReader::SyncTextReader::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextReader::SyncTextReader::*)(bool)>(&TextReader::SyncTextReader::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextReader::SyncTextReader::*)(bool)>(&System::IO::TextReader::SyncTextReader::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextReader::SyncTextReader*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextReader::SyncTextReader*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: TextReader::SyncTextReader::Peek
+// Writing MetadataGetter for method: System::IO::TextReader::SyncTextReader::Peek
 // Il2CppName: Peek
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TextReader::SyncTextReader::*)()>(&TextReader::SyncTextReader::Peek)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::TextReader::SyncTextReader::*)()>(&System::IO::TextReader::SyncTextReader::Peek)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextReader::SyncTextReader*), "Peek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextReader::SyncTextReader*), "Peek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextReader::SyncTextReader::Read
+// Writing MetadataGetter for method: System::IO::TextReader::SyncTextReader::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TextReader::SyncTextReader::*)()>(&TextReader::SyncTextReader::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::TextReader::SyncTextReader::*)()>(&System::IO::TextReader::SyncTextReader::Read)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextReader::SyncTextReader*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextReader::SyncTextReader*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextReader::SyncTextReader::Read
+// Writing MetadataGetter for method: System::IO::TextReader::SyncTextReader::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TextReader::SyncTextReader::*)(::Array<::Il2CppChar>*&, int, int)>(&TextReader::SyncTextReader::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::TextReader::SyncTextReader::*)(::Array<::Il2CppChar>*&, int, int)>(&System::IO::TextReader::SyncTextReader::Read)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextReader::SyncTextReader*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextReader::SyncTextReader*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TextReader::SyncTextReader::ReadLine
+// Writing MetadataGetter for method: System::IO::TextReader::SyncTextReader::ReadLine
 // Il2CppName: ReadLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TextReader::SyncTextReader::*)()>(&TextReader::SyncTextReader::ReadLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::TextReader::SyncTextReader::*)()>(&System::IO::TextReader::SyncTextReader::ReadLine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextReader::SyncTextReader*), "ReadLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextReader::SyncTextReader*), "ReadLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextReader::SyncTextReader::ReadToEnd
+// Writing MetadataGetter for method: System::IO::TextReader::SyncTextReader::ReadToEnd
 // Il2CppName: ReadToEnd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TextReader::SyncTextReader::*)()>(&TextReader::SyncTextReader::ReadToEnd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::TextReader::SyncTextReader::*)()>(&System::IO::TextReader::SyncTextReader::ReadToEnd)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextReader::SyncTextReader*), "ReadToEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::TextReader::SyncTextReader*), "ReadToEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

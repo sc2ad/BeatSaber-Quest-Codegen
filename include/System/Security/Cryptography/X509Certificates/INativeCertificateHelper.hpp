@@ -30,11 +30,11 @@ namespace System::Security::Cryptography::X509Certificates {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::INativeCertificateHelper*, "System.Security.Cryptography.X509Certificates", "INativeCertificateHelper");
-// Writing MetadataGetter for method: INativeCertificateHelper::Import
+// Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::INativeCertificateHelper::Import
 // Il2CppName: Import
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509CertificateImpl* (INativeCertificateHelper::*)(System::Security::Cryptography::X509Certificates::X509Certificate*)>(&INativeCertificateHelper::Import)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509CertificateImpl* (System::Security::Cryptography::X509Certificates::INativeCertificateHelper::*)(System::Security::Cryptography::X509Certificates::X509Certificate*)>(&System::Security::Cryptography::X509Certificates::INativeCertificateHelper::Import)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INativeCertificateHelper*), "Import", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::INativeCertificateHelper*), "Import", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>()});
   }
 };

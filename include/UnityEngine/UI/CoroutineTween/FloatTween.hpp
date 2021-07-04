@@ -115,107 +115,107 @@ namespace UnityEngine::UI::CoroutineTween {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::FloatTween, "UnityEngine.UI.CoroutineTween", "FloatTween");
-// Writing MetadataGetter for method: FloatTween::get_startValue
+// Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::FloatTween::get_startValue
 // Il2CppName: get_startValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (FloatTween::*)()>(&FloatTween::get_startValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::CoroutineTween::FloatTween::*)()>(&UnityEngine::UI::CoroutineTween::FloatTween::get_startValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FloatTween), "get_startValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CoroutineTween::FloatTween), "get_startValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FloatTween::set_startValue
+// Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::FloatTween::set_startValue
 // Il2CppName: set_startValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FloatTween::*)(float)>(&FloatTween::set_startValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CoroutineTween::FloatTween::*)(float)>(&UnityEngine::UI::CoroutineTween::FloatTween::set_startValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FloatTween), "set_startValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CoroutineTween::FloatTween), "set_startValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: FloatTween::get_targetValue
+// Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::FloatTween::get_targetValue
 // Il2CppName: get_targetValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (FloatTween::*)()>(&FloatTween::get_targetValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::CoroutineTween::FloatTween::*)()>(&UnityEngine::UI::CoroutineTween::FloatTween::get_targetValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FloatTween), "get_targetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CoroutineTween::FloatTween), "get_targetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FloatTween::set_targetValue
+// Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::FloatTween::set_targetValue
 // Il2CppName: set_targetValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FloatTween::*)(float)>(&FloatTween::set_targetValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CoroutineTween::FloatTween::*)(float)>(&UnityEngine::UI::CoroutineTween::FloatTween::set_targetValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FloatTween), "set_targetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CoroutineTween::FloatTween), "set_targetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: FloatTween::get_duration
+// Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::FloatTween::get_duration
 // Il2CppName: get_duration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (FloatTween::*)()>(&FloatTween::get_duration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::CoroutineTween::FloatTween::*)()>(&UnityEngine::UI::CoroutineTween::FloatTween::get_duration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FloatTween), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CoroutineTween::FloatTween), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FloatTween::set_duration
+// Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::FloatTween::set_duration
 // Il2CppName: set_duration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FloatTween::*)(float)>(&FloatTween::set_duration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CoroutineTween::FloatTween::*)(float)>(&UnityEngine::UI::CoroutineTween::FloatTween::set_duration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FloatTween), "set_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CoroutineTween::FloatTween), "set_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: FloatTween::get_ignoreTimeScale
+// Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::FloatTween::get_ignoreTimeScale
 // Il2CppName: get_ignoreTimeScale
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FloatTween::*)()>(&FloatTween::get_ignoreTimeScale)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::CoroutineTween::FloatTween::*)()>(&UnityEngine::UI::CoroutineTween::FloatTween::get_ignoreTimeScale)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FloatTween), "get_ignoreTimeScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CoroutineTween::FloatTween), "get_ignoreTimeScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FloatTween::set_ignoreTimeScale
+// Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::FloatTween::set_ignoreTimeScale
 // Il2CppName: set_ignoreTimeScale
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FloatTween::*)(bool)>(&FloatTween::set_ignoreTimeScale)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CoroutineTween::FloatTween::*)(bool)>(&UnityEngine::UI::CoroutineTween::FloatTween::set_ignoreTimeScale)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FloatTween), "set_ignoreTimeScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CoroutineTween::FloatTween), "set_ignoreTimeScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: FloatTween::TweenValue
+// Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::FloatTween::TweenValue
 // Il2CppName: TweenValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FloatTween::*)(float)>(&FloatTween::TweenValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CoroutineTween::FloatTween::*)(float)>(&UnityEngine::UI::CoroutineTween::FloatTween::TweenValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FloatTween), "TweenValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CoroutineTween::FloatTween), "TweenValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: FloatTween::AddOnChangedCallback
+// Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::FloatTween::AddOnChangedCallback
 // Il2CppName: AddOnChangedCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FloatTween::*)(UnityEngine::Events::UnityAction_1<float>*)>(&FloatTween::AddOnChangedCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CoroutineTween::FloatTween::*)(UnityEngine::Events::UnityAction_1<float>*)>(&UnityEngine::UI::CoroutineTween::FloatTween::AddOnChangedCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FloatTween), "AddOnChangedCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_1<float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CoroutineTween::FloatTween), "AddOnChangedCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_1<float>*>()});
   }
 };
-// Writing MetadataGetter for method: FloatTween::GetIgnoreTimescale
+// Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::FloatTween::GetIgnoreTimescale
 // Il2CppName: GetIgnoreTimescale
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FloatTween::*)()>(&FloatTween::GetIgnoreTimescale)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::CoroutineTween::FloatTween::*)()>(&UnityEngine::UI::CoroutineTween::FloatTween::GetIgnoreTimescale)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FloatTween), "GetIgnoreTimescale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CoroutineTween::FloatTween), "GetIgnoreTimescale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FloatTween::GetDuration
+// Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::FloatTween::GetDuration
 // Il2CppName: GetDuration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (FloatTween::*)()>(&FloatTween::GetDuration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::CoroutineTween::FloatTween::*)()>(&UnityEngine::UI::CoroutineTween::FloatTween::GetDuration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FloatTween), "GetDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CoroutineTween::FloatTween), "GetDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FloatTween::ValidTarget
+// Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::FloatTween::ValidTarget
 // Il2CppName: ValidTarget
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (FloatTween::*)()>(&FloatTween::ValidTarget)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::CoroutineTween::FloatTween::*)()>(&UnityEngine::UI::CoroutineTween::FloatTween::ValidTarget)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FloatTween), "ValidTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CoroutineTween::FloatTween), "ValidTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

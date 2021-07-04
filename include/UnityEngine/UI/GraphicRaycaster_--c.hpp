@@ -61,33 +61,33 @@ namespace UnityEngine::UI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GraphicRaycaster::$$c*, "UnityEngine.UI", "GraphicRaycaster/<>c");
-// Writing MetadataGetter for method: GraphicRaycaster::$$c::_cctor
+// Writing MetadataGetter for method: UnityEngine::UI::GraphicRaycaster::$$c::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GraphicRaycaster::$$c::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::UI::GraphicRaycaster::$$c::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GraphicRaycaster::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRaycaster::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GraphicRaycaster::$$c::$Raycast$b__24_0
+// Writing MetadataGetter for method: UnityEngine::UI::GraphicRaycaster::$$c::$Raycast$b__24_0
 // Il2CppName: <Raycast>b__24_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GraphicRaycaster::$$c::*)(UnityEngine::UI::Graphic*, UnityEngine::UI::Graphic*)>(&GraphicRaycaster::$$c::$Raycast$b__24_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::UI::GraphicRaycaster::$$c::*)(UnityEngine::UI::Graphic*, UnityEngine::UI::Graphic*)>(&UnityEngine::UI::GraphicRaycaster::$$c::$Raycast$b__24_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GraphicRaycaster::$$c*), "<Raycast>b__24_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Graphic*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Graphic*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRaycaster::$$c*), "<Raycast>b__24_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Graphic*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Graphic*>()});
   }
 };
-// Writing MetadataGetter for method: GraphicRaycaster::$$c::New_ctor
+// Writing MetadataGetter for method: UnityEngine::UI::GraphicRaycaster::$$c::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GraphicRaycaster::$$c::*)()>(&GraphicRaycaster::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::GraphicRaycaster::$$c::*)()>(&UnityEngine::UI::GraphicRaycaster::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GraphicRaycaster::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRaycaster::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GraphicRaycaster::$$c::*)()>(&GraphicRaycaster::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::GraphicRaycaster::$$c::*)()>(&UnityEngine::UI::GraphicRaycaster::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GraphicRaycaster::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRaycaster::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

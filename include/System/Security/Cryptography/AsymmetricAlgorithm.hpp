@@ -82,73 +82,73 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(AsymmetricAlgorithm) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AsymmetricAlgorithm*, "System.Security.Cryptography", "AsymmetricAlgorithm");
-// Writing MetadataGetter for method: AsymmetricAlgorithm::Dispose
+// Writing MetadataGetter for method: System::Security::Cryptography::AsymmetricAlgorithm::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsymmetricAlgorithm::*)()>(&AsymmetricAlgorithm::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::AsymmetricAlgorithm::*)()>(&System::Security::Cryptography::AsymmetricAlgorithm::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsymmetricAlgorithm*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::AsymmetricAlgorithm*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AsymmetricAlgorithm::Clear
+// Writing MetadataGetter for method: System::Security::Cryptography::AsymmetricAlgorithm::Clear
 // Il2CppName: Clear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsymmetricAlgorithm::*)()>(&AsymmetricAlgorithm::Clear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::AsymmetricAlgorithm::*)()>(&System::Security::Cryptography::AsymmetricAlgorithm::Clear)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsymmetricAlgorithm*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::AsymmetricAlgorithm*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AsymmetricAlgorithm::Dispose
+// Writing MetadataGetter for method: System::Security::Cryptography::AsymmetricAlgorithm::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsymmetricAlgorithm::*)(bool)>(&AsymmetricAlgorithm::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::AsymmetricAlgorithm::*)(bool)>(&System::Security::Cryptography::AsymmetricAlgorithm::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsymmetricAlgorithm*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::AsymmetricAlgorithm*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AsymmetricAlgorithm::get_KeySize
+// Writing MetadataGetter for method: System::Security::Cryptography::AsymmetricAlgorithm::get_KeySize
 // Il2CppName: get_KeySize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AsymmetricAlgorithm::*)()>(&AsymmetricAlgorithm::get_KeySize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Cryptography::AsymmetricAlgorithm::*)()>(&System::Security::Cryptography::AsymmetricAlgorithm::get_KeySize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsymmetricAlgorithm*), "get_KeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::AsymmetricAlgorithm*), "get_KeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AsymmetricAlgorithm::set_KeySize
+// Writing MetadataGetter for method: System::Security::Cryptography::AsymmetricAlgorithm::set_KeySize
 // Il2CppName: set_KeySize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsymmetricAlgorithm::*)(int)>(&AsymmetricAlgorithm::set_KeySize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::AsymmetricAlgorithm::*)(int)>(&System::Security::Cryptography::AsymmetricAlgorithm::set_KeySize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsymmetricAlgorithm*), "set_KeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::AsymmetricAlgorithm*), "set_KeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: AsymmetricAlgorithm::FromXmlString
+// Writing MetadataGetter for method: System::Security::Cryptography::AsymmetricAlgorithm::FromXmlString
 // Il2CppName: FromXmlString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsymmetricAlgorithm::*)(::Il2CppString*)>(&AsymmetricAlgorithm::FromXmlString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::AsymmetricAlgorithm::*)(::Il2CppString*)>(&System::Security::Cryptography::AsymmetricAlgorithm::FromXmlString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsymmetricAlgorithm*), "FromXmlString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::AsymmetricAlgorithm*), "FromXmlString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: AsymmetricAlgorithm::ToXmlString
+// Writing MetadataGetter for method: System::Security::Cryptography::AsymmetricAlgorithm::ToXmlString
 // Il2CppName: ToXmlString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AsymmetricAlgorithm::*)(bool)>(&AsymmetricAlgorithm::ToXmlString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Cryptography::AsymmetricAlgorithm::*)(bool)>(&System::Security::Cryptography::AsymmetricAlgorithm::ToXmlString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsymmetricAlgorithm*), "ToXmlString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::AsymmetricAlgorithm*), "ToXmlString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AsymmetricAlgorithm::New_ctor
+// Writing MetadataGetter for method: System::Security::Cryptography::AsymmetricAlgorithm::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsymmetricAlgorithm::*)()>(&AsymmetricAlgorithm::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::AsymmetricAlgorithm::*)()>(&System::Security::Cryptography::AsymmetricAlgorithm::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsymmetricAlgorithm*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::AsymmetricAlgorithm*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsymmetricAlgorithm::*)()>(&AsymmetricAlgorithm::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::AsymmetricAlgorithm::*)()>(&System::Security::Cryptography::AsymmetricAlgorithm::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsymmetricAlgorithm*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::AsymmetricAlgorithm*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -378,185 +378,185 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelsModel*, "", "BeatmapLevelsM
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelResult, "", "BeatmapLevelsModel/GetBeatmapLevelResult");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate, "", "BeatmapLevelsModel/LevelDownloadingUpdate");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState, "", "BeatmapLevelsModel/LevelDownloadingUpdate/DownloadingState");
-// Writing MetadataGetter for method: BeatmapLevelsModel::add_levelDownloadingUpdateEvent
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::add_levelDownloadingUpdateEvent
 // Il2CppName: add_levelDownloadingUpdateEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapLevelsModel::*)(System::Action_1<GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate>*)>(&BeatmapLevelsModel::add_levelDownloadingUpdateEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelsModel::*)(System::Action_1<GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate>*)>(&GlobalNamespace::BeatmapLevelsModel::add_levelDownloadingUpdateEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapLevelsModel*), "add_levelDownloadingUpdateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "add_levelDownloadingUpdateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate>*>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapLevelsModel::remove_levelDownloadingUpdateEvent
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::remove_levelDownloadingUpdateEvent
 // Il2CppName: remove_levelDownloadingUpdateEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapLevelsModel::*)(System::Action_1<GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate>*)>(&BeatmapLevelsModel::remove_levelDownloadingUpdateEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelsModel::*)(System::Action_1<GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate>*)>(&GlobalNamespace::BeatmapLevelsModel::remove_levelDownloadingUpdateEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapLevelsModel*), "remove_levelDownloadingUpdateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "remove_levelDownloadingUpdateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate>*>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapLevelsModel::get_ostAndExtrasPackCollection
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::get_ostAndExtrasPackCollection
 // Il2CppName: get_ostAndExtrasPackCollection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapLevelPackCollectionSO* (BeatmapLevelsModel::*)()>(&BeatmapLevelsModel::get_ostAndExtrasPackCollection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapLevelPackCollectionSO* (GlobalNamespace::BeatmapLevelsModel::*)()>(&GlobalNamespace::BeatmapLevelsModel::get_ostAndExtrasPackCollection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapLevelsModel*), "get_ostAndExtrasPackCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "get_ostAndExtrasPackCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapLevelsModel::get_dlcBeatmapLevelPackCollection
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::get_dlcBeatmapLevelPackCollection
 // Il2CppName: get_dlcBeatmapLevelPackCollection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelPackCollection* (BeatmapLevelsModel::*)()>(&BeatmapLevelsModel::get_dlcBeatmapLevelPackCollection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelPackCollection* (GlobalNamespace::BeatmapLevelsModel::*)()>(&GlobalNamespace::BeatmapLevelsModel::get_dlcBeatmapLevelPackCollection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapLevelsModel*), "get_dlcBeatmapLevelPackCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "get_dlcBeatmapLevelPackCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapLevelsModel::get_allLoadedBeatmapLevelPackCollection
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::get_allLoadedBeatmapLevelPackCollection
 // Il2CppName: get_allLoadedBeatmapLevelPackCollection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelPackCollection* (BeatmapLevelsModel::*)()>(&BeatmapLevelsModel::get_allLoadedBeatmapLevelPackCollection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelPackCollection* (GlobalNamespace::BeatmapLevelsModel::*)()>(&GlobalNamespace::BeatmapLevelsModel::get_allLoadedBeatmapLevelPackCollection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapLevelsModel*), "get_allLoadedBeatmapLevelPackCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "get_allLoadedBeatmapLevelPackCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapLevelsModel::get_allLoadedBeatmapLevelWithoutCustomLevelPackCollection
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::get_allLoadedBeatmapLevelWithoutCustomLevelPackCollection
 // Il2CppName: get_allLoadedBeatmapLevelWithoutCustomLevelPackCollection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelPackCollection* (BeatmapLevelsModel::*)()>(&BeatmapLevelsModel::get_allLoadedBeatmapLevelWithoutCustomLevelPackCollection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelPackCollection* (GlobalNamespace::BeatmapLevelsModel::*)()>(&GlobalNamespace::BeatmapLevelsModel::get_allLoadedBeatmapLevelWithoutCustomLevelPackCollection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapLevelsModel*), "get_allLoadedBeatmapLevelWithoutCustomLevelPackCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "get_allLoadedBeatmapLevelWithoutCustomLevelPackCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapLevelsModel::get_customLevelPackCollection
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::get_customLevelPackCollection
 // Il2CppName: get_customLevelPackCollection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelPackCollection* (BeatmapLevelsModel::*)()>(&BeatmapLevelsModel::get_customLevelPackCollection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelPackCollection* (GlobalNamespace::BeatmapLevelsModel::*)()>(&GlobalNamespace::BeatmapLevelsModel::get_customLevelPackCollection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapLevelsModel*), "get_customLevelPackCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "get_customLevelPackCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapLevelsModel::Init
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapLevelsModel::*)()>(&BeatmapLevelsModel::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelsModel::*)()>(&GlobalNamespace::BeatmapLevelsModel::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapLevelsModel*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapLevelsModel::Start
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapLevelsModel::*)()>(&BeatmapLevelsModel::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelsModel::*)()>(&GlobalNamespace::BeatmapLevelsModel::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapLevelsModel*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapLevelsModel::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapLevelsModel::*)()>(&BeatmapLevelsModel::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelsModel::*)()>(&GlobalNamespace::BeatmapLevelsModel::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapLevelsModel*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapLevelsModel::ClearLoadedBeatmapLevelsCaches
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::ClearLoadedBeatmapLevelsCaches
 // Il2CppName: ClearLoadedBeatmapLevelsCaches
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapLevelsModel::*)()>(&BeatmapLevelsModel::ClearLoadedBeatmapLevelsCaches)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelsModel::*)()>(&GlobalNamespace::BeatmapLevelsModel::ClearLoadedBeatmapLevelsCaches)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapLevelsModel*), "ClearLoadedBeatmapLevelsCaches", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "ClearLoadedBeatmapLevelsCaches", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapLevelsModel::ReloadCustomLevelPackCollectionAsync
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::ReloadCustomLevelPackCollectionAsync
 // Il2CppName: ReloadCustomLevelPackCollectionAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::IBeatmapLevelPackCollection*>* (BeatmapLevelsModel::*)(System::Threading::CancellationToken)>(&BeatmapLevelsModel::ReloadCustomLevelPackCollectionAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::IBeatmapLevelPackCollection*>* (GlobalNamespace::BeatmapLevelsModel::*)(System::Threading::CancellationToken)>(&GlobalNamespace::BeatmapLevelsModel::ReloadCustomLevelPackCollectionAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapLevelsModel*), "ReloadCustomLevelPackCollectionAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "ReloadCustomLevelPackCollectionAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapLevelsModel::GetLevelPackForLevelId
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::GetLevelPackForLevelId
 // Il2CppName: GetLevelPackForLevelId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelPack* (BeatmapLevelsModel::*)(::Il2CppString*)>(&BeatmapLevelsModel::GetLevelPackForLevelId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelPack* (GlobalNamespace::BeatmapLevelsModel::*)(::Il2CppString*)>(&GlobalNamespace::BeatmapLevelsModel::GetLevelPackForLevelId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapLevelsModel*), "GetLevelPackForLevelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "GetLevelPackForLevelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapLevelsModel::GetLevelPack
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::GetLevelPack
 // Il2CppName: GetLevelPack
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelPack* (BeatmapLevelsModel::*)(::Il2CppString*)>(&BeatmapLevelsModel::GetLevelPack)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelPack* (GlobalNamespace::BeatmapLevelsModel::*)(::Il2CppString*)>(&GlobalNamespace::BeatmapLevelsModel::GetLevelPack)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapLevelsModel*), "GetLevelPack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "GetLevelPack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapLevelsModel::GetLevelPreviewForLevelId
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::GetLevelPreviewForLevelId
 // Il2CppName: GetLevelPreviewForLevelId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IPreviewBeatmapLevel* (BeatmapLevelsModel::*)(::Il2CppString*)>(&BeatmapLevelsModel::GetLevelPreviewForLevelId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IPreviewBeatmapLevel* (GlobalNamespace::BeatmapLevelsModel::*)(::Il2CppString*)>(&GlobalNamespace::BeatmapLevelsModel::GetLevelPreviewForLevelId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapLevelsModel*), "GetLevelPreviewForLevelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "GetLevelPreviewForLevelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapLevelsModel::IsBeatmapLevelLoaded
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::IsBeatmapLevelLoaded
 // Il2CppName: IsBeatmapLevelLoaded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BeatmapLevelsModel::*)(::Il2CppString*)>(&BeatmapLevelsModel::IsBeatmapLevelLoaded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BeatmapLevelsModel::*)(::Il2CppString*)>(&GlobalNamespace::BeatmapLevelsModel::IsBeatmapLevelLoaded)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapLevelsModel*), "IsBeatmapLevelLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "IsBeatmapLevelLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapLevelsModel::GetBeatmapLevelIfLoaded
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelIfLoaded
 // Il2CppName: GetBeatmapLevelIfLoaded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevel* (BeatmapLevelsModel::*)(::Il2CppString*)>(&BeatmapLevelsModel::GetBeatmapLevelIfLoaded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevel* (GlobalNamespace::BeatmapLevelsModel::*)(::Il2CppString*)>(&GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelIfLoaded)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapLevelsModel*), "GetBeatmapLevelIfLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "GetBeatmapLevelIfLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapLevelsModel::GetBeatmapLevelAsync
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelAsync
 // Il2CppName: GetBeatmapLevelAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelResult>* (BeatmapLevelsModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&BeatmapLevelsModel::GetBeatmapLevelAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelResult>* (GlobalNamespace::BeatmapLevelsModel::*)(::Il2CppString*, System::Threading::CancellationToken)>(&GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapLevelsModel*), "GetBeatmapLevelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "GetBeatmapLevelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapLevelsModel::HandleLevelDataAssetDownloadUpdate
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::HandleLevelDataAssetDownloadUpdate
 // Il2CppName: HandleLevelDataAssetDownloadUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapLevelsModel::*)(GlobalNamespace::LevelDataAssetDownloadUpdate)>(&BeatmapLevelsModel::HandleLevelDataAssetDownloadUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelsModel::*)(GlobalNamespace::LevelDataAssetDownloadUpdate)>(&GlobalNamespace::BeatmapLevelsModel::HandleLevelDataAssetDownloadUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapLevelsModel*), "HandleLevelDataAssetDownloadUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelDataAssetDownloadUpdate>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "HandleLevelDataAssetDownloadUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelDataAssetDownloadUpdate>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapLevelsModel::UpdateLoadedPreviewLevels
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::UpdateLoadedPreviewLevels
 // Il2CppName: UpdateLoadedPreviewLevels
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapLevelsModel::*)()>(&BeatmapLevelsModel::UpdateLoadedPreviewLevels)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelsModel::*)()>(&GlobalNamespace::BeatmapLevelsModel::UpdateLoadedPreviewLevels)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapLevelsModel*), "UpdateLoadedPreviewLevels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "UpdateLoadedPreviewLevels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapLevelsModel::UpdateAllLoadedBeatmapLevelPacks
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::UpdateAllLoadedBeatmapLevelPacks
 // Il2CppName: UpdateAllLoadedBeatmapLevelPacks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapLevelsModel::*)()>(&BeatmapLevelsModel::UpdateAllLoadedBeatmapLevelPacks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelsModel::*)()>(&GlobalNamespace::BeatmapLevelsModel::UpdateAllLoadedBeatmapLevelPacks)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapLevelsModel*), "UpdateAllLoadedBeatmapLevelPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), "UpdateAllLoadedBeatmapLevelPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapLevelsModel::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapLevelsModel::*)()>(&BeatmapLevelsModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelsModel::*)()>(&GlobalNamespace::BeatmapLevelsModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapLevelsModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapLevelsModel::*)()>(&BeatmapLevelsModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelsModel::*)()>(&GlobalNamespace::BeatmapLevelsModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapLevelsModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

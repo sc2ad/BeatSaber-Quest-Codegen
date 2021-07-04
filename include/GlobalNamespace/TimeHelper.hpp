@@ -100,105 +100,105 @@ namespace GlobalNamespace {
   static_assert(sizeof(TimeHelper) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TimeHelper*, "", "TimeHelper");
-// Writing MetadataGetter for method: TimeHelper::get_time
+// Writing MetadataGetter for method: GlobalNamespace::TimeHelper::get_time
 // Il2CppName: get_time
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&TimeHelper::get_time)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&GlobalNamespace::TimeHelper::get_time)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeHelper*), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeHelper*), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimeHelper::set_time
+// Writing MetadataGetter for method: GlobalNamespace::TimeHelper::set_time
 // Il2CppName: set_time
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float)>(&TimeHelper::set_time)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float)>(&GlobalNamespace::TimeHelper::set_time)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeHelper*), "set_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeHelper*), "set_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: TimeHelper::get_deltaTime
+// Writing MetadataGetter for method: GlobalNamespace::TimeHelper::get_deltaTime
 // Il2CppName: get_deltaTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&TimeHelper::get_deltaTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&GlobalNamespace::TimeHelper::get_deltaTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeHelper*), "get_deltaTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeHelper*), "get_deltaTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimeHelper::set_deltaTime
+// Writing MetadataGetter for method: GlobalNamespace::TimeHelper::set_deltaTime
 // Il2CppName: set_deltaTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float)>(&TimeHelper::set_deltaTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float)>(&GlobalNamespace::TimeHelper::set_deltaTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeHelper*), "set_deltaTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeHelper*), "set_deltaTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: TimeHelper::get_fixedDeltaTime
+// Writing MetadataGetter for method: GlobalNamespace::TimeHelper::get_fixedDeltaTime
 // Il2CppName: get_fixedDeltaTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&TimeHelper::get_fixedDeltaTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&GlobalNamespace::TimeHelper::get_fixedDeltaTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeHelper*), "get_fixedDeltaTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeHelper*), "get_fixedDeltaTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimeHelper::set_fixedDeltaTime
+// Writing MetadataGetter for method: GlobalNamespace::TimeHelper::set_fixedDeltaTime
 // Il2CppName: set_fixedDeltaTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float)>(&TimeHelper::set_fixedDeltaTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float)>(&GlobalNamespace::TimeHelper::set_fixedDeltaTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeHelper*), "set_fixedDeltaTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeHelper*), "set_fixedDeltaTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: TimeHelper::get_interpolationFactor
+// Writing MetadataGetter for method: GlobalNamespace::TimeHelper::get_interpolationFactor
 // Il2CppName: get_interpolationFactor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&TimeHelper::get_interpolationFactor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&GlobalNamespace::TimeHelper::get_interpolationFactor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeHelper*), "get_interpolationFactor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeHelper*), "get_interpolationFactor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimeHelper::set_interpolationFactor
+// Writing MetadataGetter for method: GlobalNamespace::TimeHelper::set_interpolationFactor
 // Il2CppName: set_interpolationFactor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float)>(&TimeHelper::set_interpolationFactor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float)>(&GlobalNamespace::TimeHelper::set_interpolationFactor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeHelper*), "set_interpolationFactor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeHelper*), "set_interpolationFactor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: TimeHelper::Awake
+// Writing MetadataGetter for method: GlobalNamespace::TimeHelper::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeHelper::*)()>(&TimeHelper::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TimeHelper::*)()>(&GlobalNamespace::TimeHelper::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeHelper*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeHelper*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimeHelper::FixedUpdate
+// Writing MetadataGetter for method: GlobalNamespace::TimeHelper::FixedUpdate
 // Il2CppName: FixedUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeHelper::*)()>(&TimeHelper::FixedUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TimeHelper::*)()>(&GlobalNamespace::TimeHelper::FixedUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeHelper*), "FixedUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeHelper*), "FixedUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimeHelper::Update
+// Writing MetadataGetter for method: GlobalNamespace::TimeHelper::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeHelper::*)()>(&TimeHelper::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TimeHelper::*)()>(&GlobalNamespace::TimeHelper::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeHelper*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeHelper*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimeHelper::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::TimeHelper::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeHelper::*)()>(&TimeHelper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TimeHelper::*)()>(&GlobalNamespace::TimeHelper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimeHelper::*)()>(&TimeHelper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TimeHelper::*)()>(&GlobalNamespace::TimeHelper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

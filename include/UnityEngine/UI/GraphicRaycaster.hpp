@@ -220,105 +220,105 @@ namespace UnityEngine::UI {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GraphicRaycaster*, "UnityEngine.UI", "GraphicRaycaster");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GraphicRaycaster::BlockingObjects, "UnityEngine.UI", "GraphicRaycaster/BlockingObjects");
-// Writing MetadataGetter for method: GraphicRaycaster::get_ignoreReversedGraphics
+// Writing MetadataGetter for method: UnityEngine::UI::GraphicRaycaster::get_ignoreReversedGraphics
 // Il2CppName: get_ignoreReversedGraphics
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GraphicRaycaster::*)()>(&GraphicRaycaster::get_ignoreReversedGraphics)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::GraphicRaycaster::*)()>(&UnityEngine::UI::GraphicRaycaster::get_ignoreReversedGraphics)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GraphicRaycaster*), "get_ignoreReversedGraphics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRaycaster*), "get_ignoreReversedGraphics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GraphicRaycaster::set_ignoreReversedGraphics
+// Writing MetadataGetter for method: UnityEngine::UI::GraphicRaycaster::set_ignoreReversedGraphics
 // Il2CppName: set_ignoreReversedGraphics
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GraphicRaycaster::*)(bool)>(&GraphicRaycaster::set_ignoreReversedGraphics)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::GraphicRaycaster::*)(bool)>(&UnityEngine::UI::GraphicRaycaster::set_ignoreReversedGraphics)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GraphicRaycaster*), "set_ignoreReversedGraphics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRaycaster*), "set_ignoreReversedGraphics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: GraphicRaycaster::get_blockingObjects
+// Writing MetadataGetter for method: UnityEngine::UI::GraphicRaycaster::get_blockingObjects
 // Il2CppName: get_blockingObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::GraphicRaycaster::BlockingObjects (GraphicRaycaster::*)()>(&GraphicRaycaster::get_blockingObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::GraphicRaycaster::BlockingObjects (UnityEngine::UI::GraphicRaycaster::*)()>(&UnityEngine::UI::GraphicRaycaster::get_blockingObjects)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GraphicRaycaster*), "get_blockingObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRaycaster*), "get_blockingObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GraphicRaycaster::set_blockingObjects
+// Writing MetadataGetter for method: UnityEngine::UI::GraphicRaycaster::set_blockingObjects
 // Il2CppName: set_blockingObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GraphicRaycaster::*)(UnityEngine::UI::GraphicRaycaster::BlockingObjects)>(&GraphicRaycaster::set_blockingObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::GraphicRaycaster::*)(UnityEngine::UI::GraphicRaycaster::BlockingObjects)>(&UnityEngine::UI::GraphicRaycaster::set_blockingObjects)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GraphicRaycaster*), "set_blockingObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::GraphicRaycaster::BlockingObjects>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRaycaster*), "set_blockingObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::GraphicRaycaster::BlockingObjects>()});
   }
 };
-// Writing MetadataGetter for method: GraphicRaycaster::get_canvas
+// Writing MetadataGetter for method: UnityEngine::UI::GraphicRaycaster::get_canvas
 // Il2CppName: get_canvas
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Canvas* (GraphicRaycaster::*)()>(&GraphicRaycaster::get_canvas)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Canvas* (UnityEngine::UI::GraphicRaycaster::*)()>(&UnityEngine::UI::GraphicRaycaster::get_canvas)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GraphicRaycaster*), "get_canvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRaycaster*), "get_canvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GraphicRaycaster::Raycast
+// Writing MetadataGetter for method: UnityEngine::UI::GraphicRaycaster::Raycast
 // Il2CppName: Raycast
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Canvas*, UnityEngine::Camera*, UnityEngine::Vector2, System::Collections::Generic::IList_1<UnityEngine::UI::Graphic*>*, System::Collections::Generic::List_1<UnityEngine::UI::Graphic*>*)>(&GraphicRaycaster::Raycast)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Canvas*, UnityEngine::Camera*, UnityEngine::Vector2, System::Collections::Generic::IList_1<UnityEngine::UI::Graphic*>*, System::Collections::Generic::List_1<UnityEngine::UI::Graphic*>*)>(&UnityEngine::UI::GraphicRaycaster::Raycast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GraphicRaycaster*), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Canvas*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::UI::Graphic*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::UI::Graphic*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRaycaster*), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Canvas*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::UI::Graphic*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::UI::Graphic*>*>()});
   }
 };
-// Writing MetadataGetter for method: GraphicRaycaster::get_sortOrderPriority
+// Writing MetadataGetter for method: UnityEngine::UI::GraphicRaycaster::get_sortOrderPriority
 // Il2CppName: get_sortOrderPriority
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GraphicRaycaster::*)()>(&GraphicRaycaster::get_sortOrderPriority)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::UI::GraphicRaycaster::*)()>(&UnityEngine::UI::GraphicRaycaster::get_sortOrderPriority)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GraphicRaycaster*), "get_sortOrderPriority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRaycaster*), "get_sortOrderPriority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GraphicRaycaster::get_renderOrderPriority
+// Writing MetadataGetter for method: UnityEngine::UI::GraphicRaycaster::get_renderOrderPriority
 // Il2CppName: get_renderOrderPriority
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GraphicRaycaster::*)()>(&GraphicRaycaster::get_renderOrderPriority)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::UI::GraphicRaycaster::*)()>(&UnityEngine::UI::GraphicRaycaster::get_renderOrderPriority)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GraphicRaycaster*), "get_renderOrderPriority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRaycaster*), "get_renderOrderPriority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GraphicRaycaster::New_ctor
+// Writing MetadataGetter for method: UnityEngine::UI::GraphicRaycaster::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GraphicRaycaster::*)()>(&GraphicRaycaster::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::GraphicRaycaster::*)()>(&UnityEngine::UI::GraphicRaycaster::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GraphicRaycaster*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRaycaster*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GraphicRaycaster::*)()>(&GraphicRaycaster::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::GraphicRaycaster::*)()>(&UnityEngine::UI::GraphicRaycaster::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GraphicRaycaster*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRaycaster*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GraphicRaycaster::Raycast
+// Writing MetadataGetter for method: UnityEngine::UI::GraphicRaycaster::Raycast
 // Il2CppName: Raycast
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GraphicRaycaster::*)(UnityEngine::EventSystems::PointerEventData*, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>*)>(&GraphicRaycaster::Raycast)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::GraphicRaycaster::*)(UnityEngine::EventSystems::PointerEventData*, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>*)>(&UnityEngine::UI::GraphicRaycaster::Raycast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GraphicRaycaster*), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRaycaster*), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>*>()});
   }
 };
-// Writing MetadataGetter for method: GraphicRaycaster::get_eventCamera
+// Writing MetadataGetter for method: UnityEngine::UI::GraphicRaycaster::get_eventCamera
 // Il2CppName: get_eventCamera
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (GraphicRaycaster::*)()>(&GraphicRaycaster::get_eventCamera)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (UnityEngine::UI::GraphicRaycaster::*)()>(&UnityEngine::UI::GraphicRaycaster::get_eventCamera)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GraphicRaycaster*), "get_eventCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRaycaster*), "get_eventCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GraphicRaycaster::_cctor
+// Writing MetadataGetter for method: UnityEngine::UI::GraphicRaycaster::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GraphicRaycaster::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::UI::GraphicRaycaster::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GraphicRaycaster*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRaycaster*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

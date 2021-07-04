@@ -101,73 +101,73 @@ namespace GlobalNamespace {
   static_assert(sizeof(BitMaskSparse) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BitMaskSparse*, "", "BitMaskSparse");
-// Writing MetadataGetter for method: BitMaskSparse::get_bitCount
+// Writing MetadataGetter for method: GlobalNamespace::BitMaskSparse::get_bitCount
 // Il2CppName: get_bitCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BitMaskSparse::*)()>(&BitMaskSparse::get_bitCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::BitMaskSparse::*)()>(&GlobalNamespace::BitMaskSparse::get_bitCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BitMaskSparse*), "get_bitCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BitMaskSparse*), "get_bitCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BitMaskSparse::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BitMaskSparse::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BitMaskSparse::*)(int)>(&BitMaskSparse::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BitMaskSparse::*)(int)>(&GlobalNamespace::BitMaskSparse::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BitMaskSparse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BitMaskSparse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BitMaskSparse::*)(int)>(&BitMaskSparse::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BitMaskSparse::*)(int)>(&GlobalNamespace::BitMaskSparse::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BitMaskSparse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BitMaskSparse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: BitMaskSparse::Equals
+// Writing MetadataGetter for method: GlobalNamespace::BitMaskSparse::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BitMaskSparse::*)(GlobalNamespace::BitMaskSparse*)>(&BitMaskSparse::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BitMaskSparse::*)(GlobalNamespace::BitMaskSparse*)>(&GlobalNamespace::BitMaskSparse::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BitMaskSparse*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BitMaskSparse*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BitMaskSparse*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BitMaskSparse*>()});
   }
 };
-// Writing MetadataGetter for method: BitMaskSparse::SetBits
+// Writing MetadataGetter for method: GlobalNamespace::BitMaskSparse::SetBits
 // Il2CppName: SetBits
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BitMaskSparse* (BitMaskSparse::*)(int, uint64_t)>(&BitMaskSparse::SetBits)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BitMaskSparse* (GlobalNamespace::BitMaskSparse::*)(int, uint64_t)>(&GlobalNamespace::BitMaskSparse::SetBits)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BitMaskSparse*), "SetBits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BitMaskSparse*), "SetBits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: BitMaskSparse::GetBits
+// Writing MetadataGetter for method: GlobalNamespace::BitMaskSparse::GetBits
 // Il2CppName: GetBits
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (BitMaskSparse::*)(int, int)>(&BitMaskSparse::GetBits)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (GlobalNamespace::BitMaskSparse::*)(int, int)>(&GlobalNamespace::BitMaskSparse::GetBits)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BitMaskSparse*), "GetBits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BitMaskSparse*), "GetBits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: BitMaskSparse::Serialize
+// Writing MetadataGetter for method: GlobalNamespace::BitMaskSparse::Serialize
 // Il2CppName: Serialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BitMaskSparse::*)(LiteNetLib::Utils::NetDataWriter*)>(&BitMaskSparse::Serialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BitMaskSparse::*)(LiteNetLib::Utils::NetDataWriter*)>(&GlobalNamespace::BitMaskSparse::Serialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BitMaskSparse*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BitMaskSparse*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
   }
 };
-// Writing MetadataGetter for method: BitMaskSparse::Deserialize
+// Writing MetadataGetter for method: GlobalNamespace::BitMaskSparse::Deserialize
 // Il2CppName: Deserialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BitMaskSparse::*)(LiteNetLib::Utils::NetDataReader*)>(&BitMaskSparse::Deserialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BitMaskSparse::*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::BitMaskSparse::Deserialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BitMaskSparse*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BitMaskSparse*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
   }
 };
-// Writing MetadataGetter for method: BitMaskSparse::ToString
+// Writing MetadataGetter for method: GlobalNamespace::BitMaskSparse::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BitMaskSparse::*)()>(&BitMaskSparse::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BitMaskSparse::*)()>(&GlobalNamespace::BitMaskSparse::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BitMaskSparse*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BitMaskSparse*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

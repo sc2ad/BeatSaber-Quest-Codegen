@@ -93,73 +93,73 @@ namespace GlobalNamespace {
   static_assert(sizeof(FeverModeUIPanel) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FeverModeUIPanel*, "", "FeverModeUIPanel");
-// Writing MetadataGetter for method: FeverModeUIPanel::Start
+// Writing MetadataGetter for method: GlobalNamespace::FeverModeUIPanel::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FeverModeUIPanel::*)()>(&FeverModeUIPanel::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FeverModeUIPanel::*)()>(&GlobalNamespace::FeverModeUIPanel::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FeverModeUIPanel*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FeverModeUIPanel*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FeverModeUIPanel::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::FeverModeUIPanel::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FeverModeUIPanel::*)()>(&FeverModeUIPanel::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FeverModeUIPanel::*)()>(&GlobalNamespace::FeverModeUIPanel::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FeverModeUIPanel*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FeverModeUIPanel*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FeverModeUIPanel::Update
+// Writing MetadataGetter for method: GlobalNamespace::FeverModeUIPanel::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FeverModeUIPanel::*)()>(&FeverModeUIPanel::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FeverModeUIPanel::*)()>(&GlobalNamespace::FeverModeUIPanel::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FeverModeUIPanel*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FeverModeUIPanel*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FeverModeUIPanel::SetProgress
+// Writing MetadataGetter for method: GlobalNamespace::FeverModeUIPanel::SetProgress
 // Il2CppName: SetProgress
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FeverModeUIPanel::*)(float)>(&FeverModeUIPanel::SetProgress)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FeverModeUIPanel::*)(float)>(&GlobalNamespace::FeverModeUIPanel::SetProgress)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FeverModeUIPanel*), "SetProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FeverModeUIPanel*), "SetProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: FeverModeUIPanel::HandleFeverModeDidStart
+// Writing MetadataGetter for method: GlobalNamespace::FeverModeUIPanel::HandleFeverModeDidStart
 // Il2CppName: HandleFeverModeDidStart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FeverModeUIPanel::*)()>(&FeverModeUIPanel::HandleFeverModeDidStart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FeverModeUIPanel::*)()>(&GlobalNamespace::FeverModeUIPanel::HandleFeverModeDidStart)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FeverModeUIPanel*), "HandleFeverModeDidStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FeverModeUIPanel*), "HandleFeverModeDidStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FeverModeUIPanel::HandleFeverModeDidFinish
+// Writing MetadataGetter for method: GlobalNamespace::FeverModeUIPanel::HandleFeverModeDidFinish
 // Il2CppName: HandleFeverModeDidFinish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FeverModeUIPanel::*)()>(&FeverModeUIPanel::HandleFeverModeDidFinish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FeverModeUIPanel::*)()>(&GlobalNamespace::FeverModeUIPanel::HandleFeverModeDidFinish)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FeverModeUIPanel*), "HandleFeverModeDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FeverModeUIPanel*), "HandleFeverModeDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FeverModeUIPanel::HandleFeverModeChargeProgressDidChange
+// Writing MetadataGetter for method: GlobalNamespace::FeverModeUIPanel::HandleFeverModeChargeProgressDidChange
 // Il2CppName: HandleFeverModeChargeProgressDidChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FeverModeUIPanel::*)(float)>(&FeverModeUIPanel::HandleFeverModeChargeProgressDidChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FeverModeUIPanel::*)(float)>(&GlobalNamespace::FeverModeUIPanel::HandleFeverModeChargeProgressDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FeverModeUIPanel*), "HandleFeverModeChargeProgressDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FeverModeUIPanel*), "HandleFeverModeChargeProgressDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: FeverModeUIPanel::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::FeverModeUIPanel::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FeverModeUIPanel::*)()>(&FeverModeUIPanel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FeverModeUIPanel::*)()>(&GlobalNamespace::FeverModeUIPanel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FeverModeUIPanel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FeverModeUIPanel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FeverModeUIPanel::*)()>(&FeverModeUIPanel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FeverModeUIPanel::*)()>(&GlobalNamespace::FeverModeUIPanel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FeverModeUIPanel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FeverModeUIPanel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

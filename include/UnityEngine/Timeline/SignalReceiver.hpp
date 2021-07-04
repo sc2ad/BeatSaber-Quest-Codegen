@@ -119,121 +119,121 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(SignalReceiver) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SignalReceiver*, "UnityEngine.Timeline", "SignalReceiver");
-// Writing MetadataGetter for method: SignalReceiver::OnNotify
+// Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::OnNotify
 // Il2CppName: OnNotify
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalReceiver::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::INotification*, ::Il2CppObject*)>(&SignalReceiver::OnNotify)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::SignalReceiver::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::INotification*, ::Il2CppObject*)>(&UnityEngine::Timeline::SignalReceiver::OnNotify)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignalReceiver*), "OnNotify", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::INotification*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "OnNotify", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::INotification*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: SignalReceiver::AddReaction
+// Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::AddReaction
 // Il2CppName: AddReaction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalReceiver::*)(UnityEngine::Timeline::SignalAsset*, UnityEngine::Events::UnityEvent*)>(&SignalReceiver::AddReaction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::SignalReceiver::*)(UnityEngine::Timeline::SignalAsset*, UnityEngine::Events::UnityEvent*)>(&UnityEngine::Timeline::SignalReceiver::AddReaction)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignalReceiver*), "AddReaction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::SignalAsset*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityEvent*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "AddReaction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::SignalAsset*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityEvent*>()});
   }
 };
-// Writing MetadataGetter for method: SignalReceiver::AddEmptyReaction
+// Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::AddEmptyReaction
 // Il2CppName: AddEmptyReaction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SignalReceiver::*)(UnityEngine::Events::UnityEvent*)>(&SignalReceiver::AddEmptyReaction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Timeline::SignalReceiver::*)(UnityEngine::Events::UnityEvent*)>(&UnityEngine::Timeline::SignalReceiver::AddEmptyReaction)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignalReceiver*), "AddEmptyReaction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityEvent*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "AddEmptyReaction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityEvent*>()});
   }
 };
-// Writing MetadataGetter for method: SignalReceiver::Remove
+// Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::Remove
 // Il2CppName: Remove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalReceiver::*)(UnityEngine::Timeline::SignalAsset*)>(&SignalReceiver::Remove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::SignalReceiver::*)(UnityEngine::Timeline::SignalAsset*)>(&UnityEngine::Timeline::SignalReceiver::Remove)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignalReceiver*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::SignalAsset*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::SignalAsset*>()});
   }
 };
-// Writing MetadataGetter for method: SignalReceiver::GetRegisteredSignals
+// Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::GetRegisteredSignals
 // Il2CppName: GetRegisteredSignals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::SignalAsset*>* (SignalReceiver::*)()>(&SignalReceiver::GetRegisteredSignals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::SignalAsset*>* (UnityEngine::Timeline::SignalReceiver::*)()>(&UnityEngine::Timeline::SignalReceiver::GetRegisteredSignals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignalReceiver*), "GetRegisteredSignals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "GetRegisteredSignals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SignalReceiver::GetReaction
+// Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::GetReaction
 // Il2CppName: GetReaction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::UnityEvent* (SignalReceiver::*)(UnityEngine::Timeline::SignalAsset*)>(&SignalReceiver::GetReaction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::UnityEvent* (UnityEngine::Timeline::SignalReceiver::*)(UnityEngine::Timeline::SignalAsset*)>(&UnityEngine::Timeline::SignalReceiver::GetReaction)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignalReceiver*), "GetReaction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::SignalAsset*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "GetReaction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::SignalAsset*>()});
   }
 };
-// Writing MetadataGetter for method: SignalReceiver::Count
+// Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::Count
 // Il2CppName: Count
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SignalReceiver::*)()>(&SignalReceiver::Count)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Timeline::SignalReceiver::*)()>(&UnityEngine::Timeline::SignalReceiver::Count)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignalReceiver*), "Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SignalReceiver::ChangeSignalAtIndex
+// Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::ChangeSignalAtIndex
 // Il2CppName: ChangeSignalAtIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalReceiver::*)(int, UnityEngine::Timeline::SignalAsset*)>(&SignalReceiver::ChangeSignalAtIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::SignalReceiver::*)(int, UnityEngine::Timeline::SignalAsset*)>(&UnityEngine::Timeline::SignalReceiver::ChangeSignalAtIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignalReceiver*), "ChangeSignalAtIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::SignalAsset*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "ChangeSignalAtIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::SignalAsset*>()});
   }
 };
-// Writing MetadataGetter for method: SignalReceiver::RemoveAtIndex
+// Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::RemoveAtIndex
 // Il2CppName: RemoveAtIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalReceiver::*)(int)>(&SignalReceiver::RemoveAtIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::SignalReceiver::*)(int)>(&UnityEngine::Timeline::SignalReceiver::RemoveAtIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignalReceiver*), "RemoveAtIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "RemoveAtIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SignalReceiver::ChangeReactionAtIndex
+// Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::ChangeReactionAtIndex
 // Il2CppName: ChangeReactionAtIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalReceiver::*)(int, UnityEngine::Events::UnityEvent*)>(&SignalReceiver::ChangeReactionAtIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::SignalReceiver::*)(int, UnityEngine::Events::UnityEvent*)>(&UnityEngine::Timeline::SignalReceiver::ChangeReactionAtIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignalReceiver*), "ChangeReactionAtIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityEvent*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "ChangeReactionAtIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityEvent*>()});
   }
 };
-// Writing MetadataGetter for method: SignalReceiver::GetReactionAtIndex
+// Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::GetReactionAtIndex
 // Il2CppName: GetReactionAtIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::UnityEvent* (SignalReceiver::*)(int)>(&SignalReceiver::GetReactionAtIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::UnityEvent* (UnityEngine::Timeline::SignalReceiver::*)(int)>(&UnityEngine::Timeline::SignalReceiver::GetReactionAtIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignalReceiver*), "GetReactionAtIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "GetReactionAtIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SignalReceiver::GetSignalAssetAtIndex
+// Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::GetSignalAssetAtIndex
 // Il2CppName: GetSignalAssetAtIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::SignalAsset* (SignalReceiver::*)(int)>(&SignalReceiver::GetSignalAssetAtIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::SignalAsset* (UnityEngine::Timeline::SignalReceiver::*)(int)>(&UnityEngine::Timeline::SignalReceiver::GetSignalAssetAtIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignalReceiver*), "GetSignalAssetAtIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "GetSignalAssetAtIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SignalReceiver::OnEnable
+// Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalReceiver::*)()>(&SignalReceiver::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::SignalReceiver::*)()>(&UnityEngine::Timeline::SignalReceiver::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignalReceiver*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SignalReceiver::New_ctor
+// Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalReceiver::*)()>(&SignalReceiver::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::SignalReceiver::*)()>(&UnityEngine::Timeline::SignalReceiver::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignalReceiver*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SignalReceiver::*)()>(&SignalReceiver::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::SignalReceiver::*)()>(&UnityEngine::Timeline::SignalReceiver::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SignalReceiver*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

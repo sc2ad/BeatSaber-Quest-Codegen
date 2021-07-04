@@ -61,47 +61,47 @@ namespace JetBrains::Annotations {
   static_assert(sizeof(LocalizationRequiredAttribute) == 0x11);
 }
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::LocalizationRequiredAttribute*, "JetBrains.Annotations", "LocalizationRequiredAttribute");
-// Writing MetadataGetter for method: LocalizationRequiredAttribute::New_ctor
+// Writing MetadataGetter for method: JetBrains::Annotations::LocalizationRequiredAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalizationRequiredAttribute::*)(bool)>(&LocalizationRequiredAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::LocalizationRequiredAttribute::*)(bool)>(&JetBrains::Annotations::LocalizationRequiredAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LocalizationRequiredAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::LocalizationRequiredAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalizationRequiredAttribute::*)(bool)>(&LocalizationRequiredAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::LocalizationRequiredAttribute::*)(bool)>(&JetBrains::Annotations::LocalizationRequiredAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LocalizationRequiredAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::LocalizationRequiredAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: LocalizationRequiredAttribute::get_Required
+// Writing MetadataGetter for method: JetBrains::Annotations::LocalizationRequiredAttribute::get_Required
 // Il2CppName: get_Required
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LocalizationRequiredAttribute::*)()>(&LocalizationRequiredAttribute::get_Required)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (JetBrains::Annotations::LocalizationRequiredAttribute::*)()>(&JetBrains::Annotations::LocalizationRequiredAttribute::get_Required)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LocalizationRequiredAttribute*), "get_Required", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::LocalizationRequiredAttribute*), "get_Required", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LocalizationRequiredAttribute::set_Required
+// Writing MetadataGetter for method: JetBrains::Annotations::LocalizationRequiredAttribute::set_Required
 // Il2CppName: set_Required
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalizationRequiredAttribute::*)(bool)>(&LocalizationRequiredAttribute::set_Required)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::LocalizationRequiredAttribute::*)(bool)>(&JetBrains::Annotations::LocalizationRequiredAttribute::set_Required)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LocalizationRequiredAttribute*), "set_Required", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::LocalizationRequiredAttribute*), "set_Required", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: LocalizationRequiredAttribute::New_ctor
+// Writing MetadataGetter for method: JetBrains::Annotations::LocalizationRequiredAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalizationRequiredAttribute::*)()>(&LocalizationRequiredAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::LocalizationRequiredAttribute::*)()>(&JetBrains::Annotations::LocalizationRequiredAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LocalizationRequiredAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::LocalizationRequiredAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LocalizationRequiredAttribute::*)()>(&LocalizationRequiredAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::LocalizationRequiredAttribute::*)()>(&JetBrains::Annotations::LocalizationRequiredAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LocalizationRequiredAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::LocalizationRequiredAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

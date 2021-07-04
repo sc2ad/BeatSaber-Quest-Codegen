@@ -47,33 +47,33 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithHttpTransferUpdate
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithHttpTransferUpdate*, "Oculus.Platform", "MessageWithHttpTransferUpdate");
-// Writing MetadataGetter for method: MessageWithHttpTransferUpdate::GetDataFromMessage
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithHttpTransferUpdate::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::HttpTransferUpdate* (MessageWithHttpTransferUpdate::*)(System::IntPtr)>(&MessageWithHttpTransferUpdate::GetDataFromMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::HttpTransferUpdate* (Oculus::Platform::MessageWithHttpTransferUpdate::*)(System::IntPtr)>(&Oculus::Platform::MessageWithHttpTransferUpdate::GetDataFromMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithHttpTransferUpdate*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithHttpTransferUpdate*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithHttpTransferUpdate::New_ctor
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithHttpTransferUpdate::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithHttpTransferUpdate::*)(System::IntPtr)>(&MessageWithHttpTransferUpdate::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithHttpTransferUpdate::*)(System::IntPtr)>(&Oculus::Platform::MessageWithHttpTransferUpdate::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithHttpTransferUpdate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithHttpTransferUpdate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithHttpTransferUpdate::*)(System::IntPtr)>(&MessageWithHttpTransferUpdate::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithHttpTransferUpdate::*)(System::IntPtr)>(&Oculus::Platform::MessageWithHttpTransferUpdate::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithHttpTransferUpdate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithHttpTransferUpdate*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithHttpTransferUpdate::GetHttpTransferUpdate
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithHttpTransferUpdate::GetHttpTransferUpdate
 // Il2CppName: GetHttpTransferUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::HttpTransferUpdate* (MessageWithHttpTransferUpdate::*)()>(&MessageWithHttpTransferUpdate::GetHttpTransferUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::HttpTransferUpdate* (Oculus::Platform::MessageWithHttpTransferUpdate::*)()>(&Oculus::Platform::MessageWithHttpTransferUpdate::GetHttpTransferUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithHttpTransferUpdate*), "GetHttpTransferUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithHttpTransferUpdate*), "GetHttpTransferUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

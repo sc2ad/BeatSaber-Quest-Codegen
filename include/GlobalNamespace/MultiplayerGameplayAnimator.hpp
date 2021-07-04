@@ -144,57 +144,57 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerGameplayAnimator) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerGameplayAnimator*, "", "MultiplayerGameplayAnimator");
-// Writing MetadataGetter for method: MultiplayerGameplayAnimator::Start
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerGameplayAnimator::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerGameplayAnimator::*)()>(&MultiplayerGameplayAnimator::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerGameplayAnimator::*)()>(&GlobalNamespace::MultiplayerGameplayAnimator::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerGameplayAnimator*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerGameplayAnimator*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerGameplayAnimator::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerGameplayAnimator::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerGameplayAnimator::*)()>(&MultiplayerGameplayAnimator::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerGameplayAnimator::*)()>(&GlobalNamespace::MultiplayerGameplayAnimator::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerGameplayAnimator*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerGameplayAnimator*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerGameplayAnimator::AnimateNewLeaderSelected
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerGameplayAnimator::AnimateNewLeaderSelected
 // Il2CppName: AnimateNewLeaderSelected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerGameplayAnimator::*)(bool)>(&MultiplayerGameplayAnimator::AnimateNewLeaderSelected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerGameplayAnimator::*)(bool)>(&GlobalNamespace::MultiplayerGameplayAnimator::AnimateNewLeaderSelected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerGameplayAnimator*), "AnimateNewLeaderSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerGameplayAnimator*), "AnimateNewLeaderSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerGameplayAnimator::HandleStateChanged
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerGameplayAnimator::HandleStateChanged
 // Il2CppName: HandleStateChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerGameplayAnimator::*)(GlobalNamespace::MultiplayerController::State)>(&MultiplayerGameplayAnimator::HandleStateChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerGameplayAnimator::*)(GlobalNamespace::MultiplayerController::State)>(&GlobalNamespace::MultiplayerGameplayAnimator::HandleStateChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerGameplayAnimator*), "HandleStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerController::State>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerGameplayAnimator*), "HandleStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerController::State>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerGameplayAnimator::HandleNewLeaderWasSelected
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerGameplayAnimator::HandleNewLeaderWasSelected
 // Il2CppName: HandleNewLeaderWasSelected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerGameplayAnimator::*)(::Il2CppString*)>(&MultiplayerGameplayAnimator::HandleNewLeaderWasSelected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerGameplayAnimator::*)(::Il2CppString*)>(&GlobalNamespace::MultiplayerGameplayAnimator::HandleNewLeaderWasSelected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerGameplayAnimator*), "HandleNewLeaderWasSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerGameplayAnimator*), "HandleNewLeaderWasSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerGameplayAnimator::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerGameplayAnimator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerGameplayAnimator::*)()>(&MultiplayerGameplayAnimator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerGameplayAnimator::*)()>(&GlobalNamespace::MultiplayerGameplayAnimator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerGameplayAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerGameplayAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerGameplayAnimator::*)()>(&MultiplayerGameplayAnimator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerGameplayAnimator::*)()>(&GlobalNamespace::MultiplayerGameplayAnimator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerGameplayAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerGameplayAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

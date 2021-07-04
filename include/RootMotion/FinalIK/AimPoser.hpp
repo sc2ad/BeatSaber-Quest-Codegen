@@ -72,33 +72,33 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(AimPoser) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimPoser*, "RootMotion.FinalIK", "AimPoser");
-// Writing MetadataGetter for method: AimPoser::GetPose
+// Writing MetadataGetter for method: RootMotion::FinalIK::AimPoser::GetPose
 // Il2CppName: GetPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::AimPoser::Pose* (AimPoser::*)(UnityEngine::Vector3)>(&AimPoser::GetPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::AimPoser::Pose* (RootMotion::FinalIK::AimPoser::*)(UnityEngine::Vector3)>(&RootMotion::FinalIK::AimPoser::GetPose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AimPoser*), "GetPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::AimPoser*), "GetPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: AimPoser::SetPoseActive
+// Writing MetadataGetter for method: RootMotion::FinalIK::AimPoser::SetPoseActive
 // Il2CppName: SetPoseActive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AimPoser::*)(RootMotion::FinalIK::AimPoser::Pose*)>(&AimPoser::SetPoseActive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::AimPoser::*)(RootMotion::FinalIK::AimPoser::Pose*)>(&RootMotion::FinalIK::AimPoser::SetPoseActive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AimPoser*), "SetPoseActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::AimPoser::Pose*>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::AimPoser*), "SetPoseActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::AimPoser::Pose*>()});
   }
 };
-// Writing MetadataGetter for method: AimPoser::New_ctor
+// Writing MetadataGetter for method: RootMotion::FinalIK::AimPoser::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AimPoser::*)()>(&AimPoser::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::AimPoser::*)()>(&RootMotion::FinalIK::AimPoser::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AimPoser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::AimPoser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AimPoser::*)()>(&AimPoser::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::AimPoser::*)()>(&RootMotion::FinalIK::AimPoser::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AimPoser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::AimPoser*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

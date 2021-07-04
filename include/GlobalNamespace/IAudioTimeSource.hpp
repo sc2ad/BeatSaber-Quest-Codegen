@@ -27,27 +27,27 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IAudioTimeSource*, "", "IAudioTimeSource");
-// Writing MetadataGetter for method: IAudioTimeSource::get_songTime
+// Writing MetadataGetter for method: GlobalNamespace::IAudioTimeSource::get_songTime
 // Il2CppName: get_songTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (IAudioTimeSource::*)()>(&IAudioTimeSource::get_songTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::IAudioTimeSource::*)()>(&GlobalNamespace::IAudioTimeSource::get_songTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IAudioTimeSource*), "get_songTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IAudioTimeSource*), "get_songTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IAudioTimeSource::get_songEndTime
+// Writing MetadataGetter for method: GlobalNamespace::IAudioTimeSource::get_songEndTime
 // Il2CppName: get_songEndTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (IAudioTimeSource::*)()>(&IAudioTimeSource::get_songEndTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::IAudioTimeSource::*)()>(&GlobalNamespace::IAudioTimeSource::get_songEndTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IAudioTimeSource*), "get_songEndTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IAudioTimeSource*), "get_songEndTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IAudioTimeSource::get_isReady
+// Writing MetadataGetter for method: GlobalNamespace::IAudioTimeSource::get_isReady
 // Il2CppName: get_isReady
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IAudioTimeSource::*)()>(&IAudioTimeSource::get_isReady)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::IAudioTimeSource::*)()>(&GlobalNamespace::IAudioTimeSource::get_isReady)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IAudioTimeSource*), "get_isReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IAudioTimeSource*), "get_isReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -116,89 +116,89 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteJumpStartBeatOffsetDropdown) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteJumpStartBeatOffsetDropdown*, "", "NoteJumpStartBeatOffsetDropdown");
-// Writing MetadataGetter for method: NoteJumpStartBeatOffsetDropdown::add_didSelectCellWithIdxEvent
+// Writing MetadataGetter for method: GlobalNamespace::NoteJumpStartBeatOffsetDropdown::add_didSelectCellWithIdxEvent
 // Il2CppName: add_didSelectCellWithIdxEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteJumpStartBeatOffsetDropdown::*)(System::Action_1<int>*)>(&NoteJumpStartBeatOffsetDropdown::add_didSelectCellWithIdxEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteJumpStartBeatOffsetDropdown::*)(System::Action_1<int>*)>(&GlobalNamespace::NoteJumpStartBeatOffsetDropdown::add_didSelectCellWithIdxEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteJumpStartBeatOffsetDropdown*), "add_didSelectCellWithIdxEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJumpStartBeatOffsetDropdown*), "add_didSelectCellWithIdxEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
   }
 };
-// Writing MetadataGetter for method: NoteJumpStartBeatOffsetDropdown::remove_didSelectCellWithIdxEvent
+// Writing MetadataGetter for method: GlobalNamespace::NoteJumpStartBeatOffsetDropdown::remove_didSelectCellWithIdxEvent
 // Il2CppName: remove_didSelectCellWithIdxEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteJumpStartBeatOffsetDropdown::*)(System::Action_1<int>*)>(&NoteJumpStartBeatOffsetDropdown::remove_didSelectCellWithIdxEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteJumpStartBeatOffsetDropdown::*)(System::Action_1<int>*)>(&GlobalNamespace::NoteJumpStartBeatOffsetDropdown::remove_didSelectCellWithIdxEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteJumpStartBeatOffsetDropdown*), "remove_didSelectCellWithIdxEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJumpStartBeatOffsetDropdown*), "remove_didSelectCellWithIdxEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<int>*>()});
   }
 };
-// Writing MetadataGetter for method: NoteJumpStartBeatOffsetDropdown::get_noteJumpStartBeatOffsetData
+// Writing MetadataGetter for method: GlobalNamespace::NoteJumpStartBeatOffsetDropdown::get_noteJumpStartBeatOffsetData
 // Il2CppName: get_noteJumpStartBeatOffsetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<float, ::Il2CppString*>*>* (NoteJumpStartBeatOffsetDropdown::*)()>(&NoteJumpStartBeatOffsetDropdown::get_noteJumpStartBeatOffsetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<float, ::Il2CppString*>*>* (GlobalNamespace::NoteJumpStartBeatOffsetDropdown::*)()>(&GlobalNamespace::NoteJumpStartBeatOffsetDropdown::get_noteJumpStartBeatOffsetData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteJumpStartBeatOffsetDropdown*), "get_noteJumpStartBeatOffsetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJumpStartBeatOffsetDropdown*), "get_noteJumpStartBeatOffsetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NoteJumpStartBeatOffsetDropdown::Start
+// Writing MetadataGetter for method: GlobalNamespace::NoteJumpStartBeatOffsetDropdown::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteJumpStartBeatOffsetDropdown::*)()>(&NoteJumpStartBeatOffsetDropdown::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteJumpStartBeatOffsetDropdown::*)()>(&GlobalNamespace::NoteJumpStartBeatOffsetDropdown::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteJumpStartBeatOffsetDropdown*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJumpStartBeatOffsetDropdown*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NoteJumpStartBeatOffsetDropdown::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::NoteJumpStartBeatOffsetDropdown::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteJumpStartBeatOffsetDropdown::*)()>(&NoteJumpStartBeatOffsetDropdown::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteJumpStartBeatOffsetDropdown::*)()>(&GlobalNamespace::NoteJumpStartBeatOffsetDropdown::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteJumpStartBeatOffsetDropdown*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJumpStartBeatOffsetDropdown*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NoteJumpStartBeatOffsetDropdown::GetSelectedOffset
+// Writing MetadataGetter for method: GlobalNamespace::NoteJumpStartBeatOffsetDropdown::GetSelectedOffset
 // Il2CppName: GetSelectedOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (NoteJumpStartBeatOffsetDropdown::*)()>(&NoteJumpStartBeatOffsetDropdown::GetSelectedOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::NoteJumpStartBeatOffsetDropdown::*)()>(&GlobalNamespace::NoteJumpStartBeatOffsetDropdown::GetSelectedOffset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteJumpStartBeatOffsetDropdown*), "GetSelectedOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJumpStartBeatOffsetDropdown*), "GetSelectedOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NoteJumpStartBeatOffsetDropdown::SelectCellWithOffset
+// Writing MetadataGetter for method: GlobalNamespace::NoteJumpStartBeatOffsetDropdown::SelectCellWithOffset
 // Il2CppName: SelectCellWithOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteJumpStartBeatOffsetDropdown::*)(float)>(&NoteJumpStartBeatOffsetDropdown::SelectCellWithOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteJumpStartBeatOffsetDropdown::*)(float)>(&GlobalNamespace::NoteJumpStartBeatOffsetDropdown::SelectCellWithOffset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteJumpStartBeatOffsetDropdown*), "SelectCellWithOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJumpStartBeatOffsetDropdown*), "SelectCellWithOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: NoteJumpStartBeatOffsetDropdown::GetIdxForOffset
+// Writing MetadataGetter for method: GlobalNamespace::NoteJumpStartBeatOffsetDropdown::GetIdxForOffset
 // Il2CppName: GetIdxForOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NoteJumpStartBeatOffsetDropdown::*)(float)>(&NoteJumpStartBeatOffsetDropdown::GetIdxForOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::NoteJumpStartBeatOffsetDropdown::*)(float)>(&GlobalNamespace::NoteJumpStartBeatOffsetDropdown::GetIdxForOffset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteJumpStartBeatOffsetDropdown*), "GetIdxForOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJumpStartBeatOffsetDropdown*), "GetIdxForOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: NoteJumpStartBeatOffsetDropdown::HandleSimpleTextDropdownDidSelectCellWithIdx
+// Writing MetadataGetter for method: GlobalNamespace::NoteJumpStartBeatOffsetDropdown::HandleSimpleTextDropdownDidSelectCellWithIdx
 // Il2CppName: HandleSimpleTextDropdownDidSelectCellWithIdx
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteJumpStartBeatOffsetDropdown::*)(HMUI::DropdownWithTableView*, int)>(&NoteJumpStartBeatOffsetDropdown::HandleSimpleTextDropdownDidSelectCellWithIdx)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteJumpStartBeatOffsetDropdown::*)(HMUI::DropdownWithTableView*, int)>(&GlobalNamespace::NoteJumpStartBeatOffsetDropdown::HandleSimpleTextDropdownDidSelectCellWithIdx)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteJumpStartBeatOffsetDropdown*), "HandleSimpleTextDropdownDidSelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::DropdownWithTableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJumpStartBeatOffsetDropdown*), "HandleSimpleTextDropdownDidSelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::DropdownWithTableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: NoteJumpStartBeatOffsetDropdown::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::NoteJumpStartBeatOffsetDropdown::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteJumpStartBeatOffsetDropdown::*)()>(&NoteJumpStartBeatOffsetDropdown::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteJumpStartBeatOffsetDropdown::*)()>(&GlobalNamespace::NoteJumpStartBeatOffsetDropdown::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteJumpStartBeatOffsetDropdown*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJumpStartBeatOffsetDropdown*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteJumpStartBeatOffsetDropdown::*)()>(&NoteJumpStartBeatOffsetDropdown::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteJumpStartBeatOffsetDropdown::*)()>(&GlobalNamespace::NoteJumpStartBeatOffsetDropdown::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteJumpStartBeatOffsetDropdown*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJumpStartBeatOffsetDropdown*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

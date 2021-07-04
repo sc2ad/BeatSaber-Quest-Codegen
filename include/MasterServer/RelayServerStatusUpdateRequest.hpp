@@ -120,89 +120,89 @@ namespace MasterServer {
   static_assert(sizeof(RelayServerStatusUpdateRequest) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::RelayServerStatusUpdateRequest*, "MasterServer", "RelayServerStatusUpdateRequest");
-// Writing MetadataGetter for method: RelayServerStatusUpdateRequest::get_pool
+// Writing MetadataGetter for method: MasterServer::RelayServerStatusUpdateRequest::get_pool
 // Il2CppName: get_pool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::RelayServerStatusUpdateRequest*>* (*)()>(&RelayServerStatusUpdateRequest::get_pool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::RelayServerStatusUpdateRequest*>* (*)()>(&MasterServer::RelayServerStatusUpdateRequest::get_pool)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RelayServerStatusUpdateRequest*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::RelayServerStatusUpdateRequest*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RelayServerStatusUpdateRequest::get_dedicatedServerId
+// Writing MetadataGetter for method: MasterServer::RelayServerStatusUpdateRequest::get_dedicatedServerId
 // Il2CppName: get_dedicatedServerId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RelayServerStatusUpdateRequest::*)()>(&RelayServerStatusUpdateRequest::get_dedicatedServerId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MasterServer::RelayServerStatusUpdateRequest::*)()>(&MasterServer::RelayServerStatusUpdateRequest::get_dedicatedServerId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RelayServerStatusUpdateRequest*), "get_dedicatedServerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::RelayServerStatusUpdateRequest*), "get_dedicatedServerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RelayServerStatusUpdateRequest::set_dedicatedServerId
+// Writing MetadataGetter for method: MasterServer::RelayServerStatusUpdateRequest::set_dedicatedServerId
 // Il2CppName: set_dedicatedServerId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RelayServerStatusUpdateRequest::*)(::Il2CppString*)>(&RelayServerStatusUpdateRequest::set_dedicatedServerId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::RelayServerStatusUpdateRequest::*)(::Il2CppString*)>(&MasterServer::RelayServerStatusUpdateRequest::set_dedicatedServerId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RelayServerStatusUpdateRequest*), "set_dedicatedServerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::RelayServerStatusUpdateRequest*), "set_dedicatedServerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: RelayServerStatusUpdateRequest::get_dedicatedServerCreationTime
+// Writing MetadataGetter for method: MasterServer::RelayServerStatusUpdateRequest::get_dedicatedServerCreationTime
 // Il2CppName: get_dedicatedServerCreationTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (RelayServerStatusUpdateRequest::*)()>(&RelayServerStatusUpdateRequest::get_dedicatedServerCreationTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (MasterServer::RelayServerStatusUpdateRequest::*)()>(&MasterServer::RelayServerStatusUpdateRequest::get_dedicatedServerCreationTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RelayServerStatusUpdateRequest*), "get_dedicatedServerCreationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::RelayServerStatusUpdateRequest*), "get_dedicatedServerCreationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RelayServerStatusUpdateRequest::set_dedicatedServerCreationTime
+// Writing MetadataGetter for method: MasterServer::RelayServerStatusUpdateRequest::set_dedicatedServerCreationTime
 // Il2CppName: set_dedicatedServerCreationTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RelayServerStatusUpdateRequest::*)(int64_t)>(&RelayServerStatusUpdateRequest::set_dedicatedServerCreationTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::RelayServerStatusUpdateRequest::*)(int64_t)>(&MasterServer::RelayServerStatusUpdateRequest::set_dedicatedServerCreationTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RelayServerStatusUpdateRequest*), "set_dedicatedServerCreationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::RelayServerStatusUpdateRequest*), "set_dedicatedServerCreationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
   }
 };
-// Writing MetadataGetter for method: RelayServerStatusUpdateRequest::Init
+// Writing MetadataGetter for method: MasterServer::RelayServerStatusUpdateRequest::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::RelayServerStatusUpdateRequest* (RelayServerStatusUpdateRequest::*)(::Il2CppString*, int64_t, ::Il2CppString*, int)>(&RelayServerStatusUpdateRequest::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::RelayServerStatusUpdateRequest* (MasterServer::RelayServerStatusUpdateRequest::*)(::Il2CppString*, int64_t, ::Il2CppString*, int)>(&MasterServer::RelayServerStatusUpdateRequest::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RelayServerStatusUpdateRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::RelayServerStatusUpdateRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: RelayServerStatusUpdateRequest::Serialize
+// Writing MetadataGetter for method: MasterServer::RelayServerStatusUpdateRequest::Serialize
 // Il2CppName: Serialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RelayServerStatusUpdateRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&RelayServerStatusUpdateRequest::Serialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::RelayServerStatusUpdateRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&MasterServer::RelayServerStatusUpdateRequest::Serialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RelayServerStatusUpdateRequest*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::RelayServerStatusUpdateRequest*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
   }
 };
-// Writing MetadataGetter for method: RelayServerStatusUpdateRequest::Deserialize
+// Writing MetadataGetter for method: MasterServer::RelayServerStatusUpdateRequest::Deserialize
 // Il2CppName: Deserialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RelayServerStatusUpdateRequest::*)(LiteNetLib::Utils::NetDataReader*)>(&RelayServerStatusUpdateRequest::Deserialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::RelayServerStatusUpdateRequest::*)(LiteNetLib::Utils::NetDataReader*)>(&MasterServer::RelayServerStatusUpdateRequest::Deserialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RelayServerStatusUpdateRequest*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::RelayServerStatusUpdateRequest*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
   }
 };
-// Writing MetadataGetter for method: RelayServerStatusUpdateRequest::Release
+// Writing MetadataGetter for method: MasterServer::RelayServerStatusUpdateRequest::Release
 // Il2CppName: Release
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RelayServerStatusUpdateRequest::*)()>(&RelayServerStatusUpdateRequest::Release)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::RelayServerStatusUpdateRequest::*)()>(&MasterServer::RelayServerStatusUpdateRequest::Release)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RelayServerStatusUpdateRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::RelayServerStatusUpdateRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RelayServerStatusUpdateRequest::New_ctor
+// Writing MetadataGetter for method: MasterServer::RelayServerStatusUpdateRequest::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RelayServerStatusUpdateRequest::*)()>(&RelayServerStatusUpdateRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::RelayServerStatusUpdateRequest::*)()>(&MasterServer::RelayServerStatusUpdateRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RelayServerStatusUpdateRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::RelayServerStatusUpdateRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RelayServerStatusUpdateRequest::*)()>(&RelayServerStatusUpdateRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::RelayServerStatusUpdateRequest::*)()>(&MasterServer::RelayServerStatusUpdateRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RelayServerStatusUpdateRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::RelayServerStatusUpdateRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

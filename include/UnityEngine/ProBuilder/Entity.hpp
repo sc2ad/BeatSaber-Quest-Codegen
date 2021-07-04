@@ -62,41 +62,41 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(Entity) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Entity*, "UnityEngine.ProBuilder", "Entity");
-// Writing MetadataGetter for method: Entity::get_entityType
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Entity::get_entityType
 // Il2CppName: get_entityType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::EntityType (Entity::*)()>(&Entity::get_entityType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::EntityType (UnityEngine::ProBuilder::Entity::*)()>(&UnityEngine::ProBuilder::Entity::get_entityType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Entity*), "get_entityType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Entity*), "get_entityType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Entity::Awake
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Entity::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Entity::*)()>(&Entity::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Entity::*)()>(&UnityEngine::ProBuilder::Entity::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Entity*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Entity*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Entity::SetEntity
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Entity::SetEntity
 // Il2CppName: SetEntity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Entity::*)(UnityEngine::ProBuilder::EntityType)>(&Entity::SetEntity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Entity::*)(UnityEngine::ProBuilder::EntityType)>(&UnityEngine::ProBuilder::Entity::SetEntity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Entity*), "SetEntity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::EntityType>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Entity*), "SetEntity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::EntityType>()});
   }
 };
-// Writing MetadataGetter for method: Entity::New_ctor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Entity::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Entity::*)()>(&Entity::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Entity::*)()>(&UnityEngine::ProBuilder::Entity::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Entity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Entity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Entity::*)()>(&Entity::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Entity::*)()>(&UnityEngine::ProBuilder::Entity::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Entity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Entity*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

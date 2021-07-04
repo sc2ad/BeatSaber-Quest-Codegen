@@ -28,11 +28,11 @@ namespace UnityEngine::Timeline {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::INotificationOptionProvider*, "UnityEngine.Timeline", "INotificationOptionProvider");
-// Writing MetadataGetter for method: INotificationOptionProvider::get_flags
+// Writing MetadataGetter for method: UnityEngine::Timeline::INotificationOptionProvider::get_flags
 // Il2CppName: get_flags
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::NotificationFlags (INotificationOptionProvider::*)()>(&INotificationOptionProvider::get_flags)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::NotificationFlags (UnityEngine::Timeline::INotificationOptionProvider::*)()>(&UnityEngine::Timeline::INotificationOptionProvider::get_flags)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INotificationOptionProvider*), "get_flags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::INotificationOptionProvider*), "get_flags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

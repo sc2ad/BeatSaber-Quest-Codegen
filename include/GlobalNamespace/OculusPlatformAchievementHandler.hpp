@@ -68,33 +68,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(OculusPlatformAchievementHandler) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformAchievementHandler*, "", "OculusPlatformAchievementHandler");
-// Writing MetadataGetter for method: OculusPlatformAchievementHandler::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::OculusPlatformAchievementHandler::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusPlatformAchievementHandler::*)(GlobalNamespace::AchievementIdsModelSO*)>(&OculusPlatformAchievementHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusPlatformAchievementHandler::*)(GlobalNamespace::AchievementIdsModelSO*)>(&GlobalNamespace::OculusPlatformAchievementHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusPlatformAchievementHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AchievementIdsModelSO*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusPlatformAchievementHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AchievementIdsModelSO*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusPlatformAchievementHandler::*)(GlobalNamespace::AchievementIdsModelSO*)>(&OculusPlatformAchievementHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusPlatformAchievementHandler::*)(GlobalNamespace::AchievementIdsModelSO*)>(&GlobalNamespace::OculusPlatformAchievementHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusPlatformAchievementHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AchievementIdsModelSO*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusPlatformAchievementHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AchievementIdsModelSO*>()});
   }
 };
-// Writing MetadataGetter for method: OculusPlatformAchievementHandler::UnlockAchievement
+// Writing MetadataGetter for method: GlobalNamespace::OculusPlatformAchievementHandler::UnlockAchievement
 // Il2CppName: UnlockAchievement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::HMAsyncRequest* (OculusPlatformAchievementHandler::*)(::Il2CppString*, GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler*)>(&OculusPlatformAchievementHandler::UnlockAchievement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::HMAsyncRequest* (GlobalNamespace::OculusPlatformAchievementHandler::*)(::Il2CppString*, GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler*)>(&GlobalNamespace::OculusPlatformAchievementHandler::UnlockAchievement)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusPlatformAchievementHandler*), "UnlockAchievement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusPlatformAchievementHandler*), "UnlockAchievement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler*>()});
   }
 };
-// Writing MetadataGetter for method: OculusPlatformAchievementHandler::GetUnlockedAchievements
+// Writing MetadataGetter for method: GlobalNamespace::OculusPlatformAchievementHandler::GetUnlockedAchievements
 // Il2CppName: GetUnlockedAchievements
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::HMAsyncRequest* (OculusPlatformAchievementHandler::*)(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler*)>(&OculusPlatformAchievementHandler::GetUnlockedAchievements)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::HMAsyncRequest* (GlobalNamespace::OculusPlatformAchievementHandler::*)(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler*)>(&GlobalNamespace::OculusPlatformAchievementHandler::GetUnlockedAchievements)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusPlatformAchievementHandler*), "GetUnlockedAchievements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusPlatformAchievementHandler*), "GetUnlockedAchievements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler*>()});
   }
 };

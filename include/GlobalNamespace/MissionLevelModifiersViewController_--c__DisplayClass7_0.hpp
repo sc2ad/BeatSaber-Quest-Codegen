@@ -64,25 +64,25 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionLevelModifiersViewController::$$c__DisplayClass7_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelModifiersViewController::$$c__DisplayClass7_0*, "", "MissionLevelModifiersViewController/<>c__DisplayClass7_0");
-// Writing MetadataGetter for method: MissionLevelModifiersViewController::$$c__DisplayClass7_0::$RefreshContent$b__0
+// Writing MetadataGetter for method: GlobalNamespace::MissionLevelModifiersViewController::$$c__DisplayClass7_0::$RefreshContent$b__0
 // Il2CppName: <RefreshContent>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionLevelModifiersViewController::$$c__DisplayClass7_0::*)(int, GlobalNamespace::GameplayModifierInfoListItem*)>(&MissionLevelModifiersViewController::$$c__DisplayClass7_0::$RefreshContent$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionLevelModifiersViewController::$$c__DisplayClass7_0::*)(int, GlobalNamespace::GameplayModifierInfoListItem*)>(&GlobalNamespace::MissionLevelModifiersViewController::$$c__DisplayClass7_0::$RefreshContent$b__0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionLevelModifiersViewController::$$c__DisplayClass7_0*), "<RefreshContent>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifierInfoListItem*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionLevelModifiersViewController::$$c__DisplayClass7_0*), "<RefreshContent>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifierInfoListItem*>()});
   }
 };
-// Writing MetadataGetter for method: MissionLevelModifiersViewController::$$c__DisplayClass7_0::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MissionLevelModifiersViewController::$$c__DisplayClass7_0::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionLevelModifiersViewController::$$c__DisplayClass7_0::*)()>(&MissionLevelModifiersViewController::$$c__DisplayClass7_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionLevelModifiersViewController::$$c__DisplayClass7_0::*)()>(&GlobalNamespace::MissionLevelModifiersViewController::$$c__DisplayClass7_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionLevelModifiersViewController::$$c__DisplayClass7_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionLevelModifiersViewController::$$c__DisplayClass7_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionLevelModifiersViewController::$$c__DisplayClass7_0::*)()>(&MissionLevelModifiersViewController::$$c__DisplayClass7_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionLevelModifiersViewController::$$c__DisplayClass7_0::*)()>(&GlobalNamespace::MissionLevelModifiersViewController::$$c__DisplayClass7_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionLevelModifiersViewController::$$c__DisplayClass7_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionLevelModifiersViewController::$$c__DisplayClass7_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

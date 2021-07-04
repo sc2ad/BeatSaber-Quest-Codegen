@@ -110,76 +110,76 @@ namespace NUnit::Framework::Constraints {
   static_assert(sizeof(EqualConstraint) == 0x49);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::EqualConstraint*, "NUnit.Framework.Constraints", "EqualConstraint");
-// Writing MetadataGetter for method: EqualConstraint::New_ctor
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraint::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EqualConstraint::*)(::Il2CppObject*)>(&EqualConstraint::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::EqualConstraint::*)(::Il2CppObject*)>(&NUnit::Framework::Constraints::EqualConstraint::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EqualConstraint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::EqualConstraint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EqualConstraint::*)(::Il2CppObject*)>(&EqualConstraint::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::EqualConstraint::*)(::Il2CppObject*)>(&NUnit::Framework::Constraints::EqualConstraint::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EqualConstraint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::EqualConstraint*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: EqualConstraint::get_Tolerance
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraint::get_Tolerance
 // Il2CppName: get_Tolerance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::Tolerance* (EqualConstraint::*)()>(&EqualConstraint::get_Tolerance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::Tolerance* (NUnit::Framework::Constraints::EqualConstraint::*)()>(&NUnit::Framework::Constraints::EqualConstraint::get_Tolerance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EqualConstraint*), "get_Tolerance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::EqualConstraint*), "get_Tolerance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EqualConstraint::get_CaseInsensitive
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraint::get_CaseInsensitive
 // Il2CppName: get_CaseInsensitive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EqualConstraint::*)()>(&EqualConstraint::get_CaseInsensitive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::EqualConstraint::*)()>(&NUnit::Framework::Constraints::EqualConstraint::get_CaseInsensitive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EqualConstraint*), "get_CaseInsensitive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::EqualConstraint*), "get_CaseInsensitive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EqualConstraint::get_ClipStrings
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraint::get_ClipStrings
 // Il2CppName: get_ClipStrings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EqualConstraint::*)()>(&EqualConstraint::get_ClipStrings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::EqualConstraint::*)()>(&NUnit::Framework::Constraints::EqualConstraint::get_ClipStrings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EqualConstraint*), "get_ClipStrings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::EqualConstraint*), "get_ClipStrings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EqualConstraint::set_ClipStrings
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraint::set_ClipStrings
 // Il2CppName: set_ClipStrings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EqualConstraint::*)(bool)>(&EqualConstraint::set_ClipStrings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::EqualConstraint::*)(bool)>(&NUnit::Framework::Constraints::EqualConstraint::set_ClipStrings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EqualConstraint*), "set_ClipStrings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::EqualConstraint*), "set_ClipStrings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: EqualConstraint::get_FailurePoints
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraint::get_FailurePoints
 // Il2CppName: get_FailurePoints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>* (EqualConstraint::*)()>(&EqualConstraint::get_FailurePoints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>* (NUnit::Framework::Constraints::EqualConstraint::*)()>(&NUnit::Framework::Constraints::EqualConstraint::get_FailurePoints)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EqualConstraint*), "get_FailurePoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::EqualConstraint*), "get_FailurePoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EqualConstraint::AdjustArgumentIfNeeded
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraint::AdjustArgumentIfNeeded
 // Il2CppName: AdjustArgumentIfNeeded
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: EqualConstraint::ApplyTo
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraint::ApplyTo
 // Il2CppName: ApplyTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ConstraintResult* (EqualConstraint::*)(::Il2CppObject*)>(&EqualConstraint::ApplyTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ConstraintResult* (NUnit::Framework::Constraints::EqualConstraint::*)(::Il2CppObject*)>(&NUnit::Framework::Constraints::EqualConstraint::ApplyTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EqualConstraint*), "ApplyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::EqualConstraint*), "ApplyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: EqualConstraint::get_Description
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::EqualConstraint::get_Description
 // Il2CppName: get_Description
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (EqualConstraint::*)()>(&EqualConstraint::get_Description)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Constraints::EqualConstraint::*)()>(&NUnit::Framework::Constraints::EqualConstraint::get_Description)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EqualConstraint*), "get_Description", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::EqualConstraint*), "get_Description", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

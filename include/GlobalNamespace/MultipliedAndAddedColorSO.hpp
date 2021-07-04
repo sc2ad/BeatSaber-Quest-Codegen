@@ -73,25 +73,25 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultipliedAndAddedColorSO) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultipliedAndAddedColorSO*, "", "MultipliedAndAddedColorSO");
-// Writing MetadataGetter for method: MultipliedAndAddedColorSO::get_color
+// Writing MetadataGetter for method: GlobalNamespace::MultipliedAndAddedColorSO::get_color
 // Il2CppName: get_color
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (MultipliedAndAddedColorSO::*)()>(&MultipliedAndAddedColorSO::get_color)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::MultipliedAndAddedColorSO::*)()>(&GlobalNamespace::MultipliedAndAddedColorSO::get_color)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultipliedAndAddedColorSO*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultipliedAndAddedColorSO*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultipliedAndAddedColorSO::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MultipliedAndAddedColorSO::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultipliedAndAddedColorSO::*)()>(&MultipliedAndAddedColorSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultipliedAndAddedColorSO::*)()>(&GlobalNamespace::MultipliedAndAddedColorSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultipliedAndAddedColorSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultipliedAndAddedColorSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultipliedAndAddedColorSO::*)()>(&MultipliedAndAddedColorSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultipliedAndAddedColorSO::*)()>(&GlobalNamespace::MultipliedAndAddedColorSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultipliedAndAddedColorSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultipliedAndAddedColorSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

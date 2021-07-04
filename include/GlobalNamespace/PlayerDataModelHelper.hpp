@@ -44,51 +44,51 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerDataModelHelper*, "", "PlayerDataModelHelper");
-// Writing MetadataGetter for method: PlayerDataModelHelper::ToPlayerAllOverallStatsData
+// Writing MetadataGetter for method: GlobalNamespace::PlayerDataModelHelper::ToPlayerAllOverallStatsData
 // Il2CppName: ToPlayerAllOverallStatsData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerAllOverallStatsData* (*)(GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData*)>(&PlayerDataModelHelper::ToPlayerAllOverallStatsData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerAllOverallStatsData* (*)(GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData*)>(&GlobalNamespace::PlayerDataModelHelper::ToPlayerAllOverallStatsData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerDataModelHelper*), "ToPlayerAllOverallStatsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerDataModelHelper*), "ToPlayerAllOverallStatsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData*>()});
   }
 };
-// Writing MetadataGetter for method: PlayerDataModelHelper::ToPlayerAllOverallStatsData
+// Writing MetadataGetter for method: GlobalNamespace::PlayerDataModelHelper::ToPlayerAllOverallStatsData
 // Il2CppName: ToPlayerAllOverallStatsData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerAllOverallStatsData* (*)(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerAllOverallStatsData*)>(&PlayerDataModelHelper::ToPlayerAllOverallStatsData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerAllOverallStatsData* (*)(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerAllOverallStatsData*)>(&GlobalNamespace::PlayerDataModelHelper::ToPlayerAllOverallStatsData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerDataModelHelper*), "ToPlayerAllOverallStatsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSaveDataV1_0_1::PlayerAllOverallStatsData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerDataModelHelper*), "ToPlayerAllOverallStatsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSaveDataV1_0_1::PlayerAllOverallStatsData*>()});
   }
 };
-// Writing MetadataGetter for method: PlayerDataModelHelper::ToPlayerOverallStats
+// Writing MetadataGetter for method: GlobalNamespace::PlayerDataModelHelper::ToPlayerOverallStats
 // Il2CppName: ToPlayerOverallStats
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* (*)(GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*)>(&PlayerDataModelHelper::ToPlayerOverallStats)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* (*)(GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*)>(&GlobalNamespace::PlayerDataModelHelper::ToPlayerOverallStats)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerDataModelHelper*), "ToPlayerOverallStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerDataModelHelper*), "ToPlayerOverallStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*>()});
   }
 };
-// Writing MetadataGetter for method: PlayerDataModelHelper::ToPlayerOverallStats
+// Writing MetadataGetter for method: GlobalNamespace::PlayerDataModelHelper::ToPlayerOverallStats
 // Il2CppName: ToPlayerOverallStats
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* (*)(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData*)>(&PlayerDataModelHelper::ToPlayerOverallStats)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* (*)(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData*)>(&GlobalNamespace::PlayerDataModelHelper::ToPlayerOverallStats)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerDataModelHelper*), "ToPlayerOverallStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerDataModelHelper*), "ToPlayerOverallStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerSaveDataV1_0_1::PlayerOverallStatsData*>()});
   }
 };
-// Writing MetadataGetter for method: PlayerDataModelHelper::ToPlayerAllOverallStatsData
+// Writing MetadataGetter for method: GlobalNamespace::PlayerDataModelHelper::ToPlayerAllOverallStatsData
 // Il2CppName: ToPlayerAllOverallStatsData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData* (*)(GlobalNamespace::PlayerAllOverallStatsData*)>(&PlayerDataModelHelper::ToPlayerAllOverallStatsData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerSaveData::PlayerAllOverallStatsData* (*)(GlobalNamespace::PlayerAllOverallStatsData*)>(&GlobalNamespace::PlayerDataModelHelper::ToPlayerAllOverallStatsData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerDataModelHelper*), "ToPlayerAllOverallStatsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerAllOverallStatsData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerDataModelHelper*), "ToPlayerAllOverallStatsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerAllOverallStatsData*>()});
   }
 };
-// Writing MetadataGetter for method: PlayerDataModelHelper::ToPlayerOverallStatsData
+// Writing MetadataGetter for method: GlobalNamespace::PlayerDataModelHelper::ToPlayerOverallStatsData
 // Il2CppName: ToPlayerOverallStatsData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* (*)(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*)>(&PlayerDataModelHelper::ToPlayerOverallStatsData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* (*)(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*)>(&GlobalNamespace::PlayerDataModelHelper::ToPlayerOverallStatsData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayerDataModelHelper*), "ToPlayerOverallStatsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerDataModelHelper*), "ToPlayerOverallStatsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>()});
   }
 };

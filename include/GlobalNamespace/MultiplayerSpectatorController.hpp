@@ -162,121 +162,121 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerSpectatorController) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSpectatorController*, "", "MultiplayerSpectatorController");
-// Writing MetadataGetter for method: MultiplayerSpectatorController::add_spectatingSpotDidChangeEvent
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatorController::add_spectatingSpotDidChangeEvent
 // Il2CppName: add_spectatingSpotDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSpectatorController::*)(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*)>(&MultiplayerSpectatorController::add_spectatingSpotDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerSpectatorController::*)(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*)>(&GlobalNamespace::MultiplayerSpectatorController::add_spectatingSpotDidChangeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerSpectatorController*), "add_spectatingSpotDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSpectatorController*), "add_spectatingSpotDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerSpectatorController::remove_spectatingSpotDidChangeEvent
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatorController::remove_spectatingSpotDidChangeEvent
 // Il2CppName: remove_spectatingSpotDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSpectatorController::*)(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*)>(&MultiplayerSpectatorController::remove_spectatingSpotDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerSpectatorController::*)(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*)>(&GlobalNamespace::MultiplayerSpectatorController::remove_spectatingSpotDidChangeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerSpectatorController*), "remove_spectatingSpotDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSpectatorController*), "remove_spectatingSpotDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerSpectatorController::get_currentSpot
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatorController::get_currentSpot
 // Il2CppName: get_currentSpot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IMultiplayerSpectatingSpot* (MultiplayerSpectatorController::*)()>(&MultiplayerSpectatorController::get_currentSpot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IMultiplayerSpectatingSpot* (GlobalNamespace::MultiplayerSpectatorController::*)()>(&GlobalNamespace::MultiplayerSpectatorController::get_currentSpot)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerSpectatorController*), "get_currentSpot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSpectatorController*), "get_currentSpot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerSpectatorController::Awake
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatorController::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSpectatorController::*)()>(&MultiplayerSpectatorController::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerSpectatorController::*)()>(&GlobalNamespace::MultiplayerSpectatorController::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerSpectatorController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSpectatorController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerSpectatorController::Start
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatorController::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSpectatorController::*)()>(&MultiplayerSpectatorController::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerSpectatorController::*)()>(&GlobalNamespace::MultiplayerSpectatorController::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerSpectatorController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSpectatorController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerSpectatorController::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatorController::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSpectatorController::*)()>(&MultiplayerSpectatorController::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerSpectatorController::*)()>(&GlobalNamespace::MultiplayerSpectatorController::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerSpectatorController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSpectatorController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerSpectatorController::SwitchToDefaultSpot
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatorController::SwitchToDefaultSpot
 // Il2CppName: SwitchToDefaultSpot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSpectatorController::*)()>(&MultiplayerSpectatorController::SwitchToDefaultSpot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerSpectatorController::*)()>(&GlobalNamespace::MultiplayerSpectatorController::SwitchToDefaultSpot)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerSpectatorController*), "SwitchToDefaultSpot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSpectatorController*), "SwitchToDefaultSpot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerSpectatorController::SwitchToPrev
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatorController::SwitchToPrev
 // Il2CppName: SwitchToPrev
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSpectatorController::*)()>(&MultiplayerSpectatorController::SwitchToPrev)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerSpectatorController::*)()>(&GlobalNamespace::MultiplayerSpectatorController::SwitchToPrev)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerSpectatorController*), "SwitchToPrev", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSpectatorController*), "SwitchToPrev", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerSpectatorController::SwitchToNext
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatorController::SwitchToNext
 // Il2CppName: SwitchToNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSpectatorController::*)()>(&MultiplayerSpectatorController::SwitchToNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerSpectatorController::*)()>(&GlobalNamespace::MultiplayerSpectatorController::SwitchToNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerSpectatorController*), "SwitchToNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSpectatorController*), "SwitchToNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerSpectatorController::SwitchToDefaultSpotWithFadeCoroutine
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatorController::SwitchToDefaultSpotWithFadeCoroutine
 // Il2CppName: SwitchToDefaultSpotWithFadeCoroutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (MultiplayerSpectatorController::*)()>(&MultiplayerSpectatorController::SwitchToDefaultSpotWithFadeCoroutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::MultiplayerSpectatorController::*)()>(&GlobalNamespace::MultiplayerSpectatorController::SwitchToDefaultSpotWithFadeCoroutine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerSpectatorController*), "SwitchToDefaultSpotWithFadeCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSpectatorController*), "SwitchToDefaultSpotWithFadeCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerSpectatorController::SwitchToDefaultSpotCoroutine
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatorController::SwitchToDefaultSpotCoroutine
 // Il2CppName: SwitchToDefaultSpotCoroutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (MultiplayerSpectatorController::*)()>(&MultiplayerSpectatorController::SwitchToDefaultSpotCoroutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::MultiplayerSpectatorController::*)()>(&GlobalNamespace::MultiplayerSpectatorController::SwitchToDefaultSpotCoroutine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerSpectatorController*), "SwitchToDefaultSpotCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSpectatorController*), "SwitchToDefaultSpotCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerSpectatorController::SwitchToSpectatingSpot
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatorController::SwitchToSpectatingSpot
 // Il2CppName: SwitchToSpectatingSpot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSpectatorController::*)(GlobalNamespace::IMultiplayerSpectatingSpot*)>(&MultiplayerSpectatorController::SwitchToSpectatingSpot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerSpectatorController::*)(GlobalNamespace::IMultiplayerSpectatingSpot*)>(&GlobalNamespace::MultiplayerSpectatorController::SwitchToSpectatingSpot)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerSpectatorController*), "SwitchToSpectatingSpot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSpectatingSpot*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSpectatorController*), "SwitchToSpectatingSpot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSpectatingSpot*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerSpectatorController::HandleStateChanged
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatorController::HandleStateChanged
 // Il2CppName: HandleStateChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSpectatorController::*)(GlobalNamespace::MultiplayerController::State)>(&MultiplayerSpectatorController::HandleStateChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerSpectatorController::*)(GlobalNamespace::MultiplayerController::State)>(&GlobalNamespace::MultiplayerSpectatorController::HandleStateChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerSpectatorController*), "HandleStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerController::State>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSpectatorController*), "HandleStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerController::State>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerSpectatorController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatorController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSpectatorController::*)()>(&MultiplayerSpectatorController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerSpectatorController::*)()>(&GlobalNamespace::MultiplayerSpectatorController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerSpectatorController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSpectatorController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSpectatorController::*)()>(&MultiplayerSpectatorController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerSpectatorController::*)()>(&GlobalNamespace::MultiplayerSpectatorController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerSpectatorController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSpectatorController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

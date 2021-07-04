@@ -132,81 +132,81 @@ namespace Zenject {
   static_assert(sizeof(DiContainer::$GetDependencyContracts$d__96) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer::$GetDependencyContracts$d__96*, "Zenject", "DiContainer/<GetDependencyContracts>d__96");
-// Writing MetadataGetter for method: DiContainer::$GetDependencyContracts$d__96::New_ctor
+// Writing MetadataGetter for method: Zenject::DiContainer::$GetDependencyContracts$d__96::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DiContainer::$GetDependencyContracts$d__96::*)(int)>(&DiContainer::$GetDependencyContracts$d__96::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::$GetDependencyContracts$d__96::*)(int)>(&Zenject::DiContainer::$GetDependencyContracts$d__96::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DiContainer::$GetDependencyContracts$d__96*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$GetDependencyContracts$d__96*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DiContainer::$GetDependencyContracts$d__96::*)(int)>(&DiContainer::$GetDependencyContracts$d__96::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::$GetDependencyContracts$d__96::*)(int)>(&Zenject::DiContainer::$GetDependencyContracts$d__96::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DiContainer::$GetDependencyContracts$d__96*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$GetDependencyContracts$d__96*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: DiContainer::$GetDependencyContracts$d__96::System_IDisposable_Dispose
+// Writing MetadataGetter for method: Zenject::DiContainer::$GetDependencyContracts$d__96::System_IDisposable_Dispose
 // Il2CppName: System.IDisposable.Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DiContainer::$GetDependencyContracts$d__96::*)()>(&DiContainer::$GetDependencyContracts$d__96::System_IDisposable_Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::$GetDependencyContracts$d__96::*)()>(&Zenject::DiContainer::$GetDependencyContracts$d__96::System_IDisposable_Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DiContainer::$GetDependencyContracts$d__96*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$GetDependencyContracts$d__96*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DiContainer::$GetDependencyContracts$d__96::MoveNext
+// Writing MetadataGetter for method: Zenject::DiContainer::$GetDependencyContracts$d__96::MoveNext
 // Il2CppName: MoveNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DiContainer::$GetDependencyContracts$d__96::*)()>(&DiContainer::$GetDependencyContracts$d__96::MoveNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::$GetDependencyContracts$d__96::*)()>(&Zenject::DiContainer::$GetDependencyContracts$d__96::MoveNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DiContainer::$GetDependencyContracts$d__96*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$GetDependencyContracts$d__96*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DiContainer::$GetDependencyContracts$d__96::$$m__Finally1
+// Writing MetadataGetter for method: Zenject::DiContainer::$GetDependencyContracts$d__96::$$m__Finally1
 // Il2CppName: <>m__Finally1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DiContainer::$GetDependencyContracts$d__96::*)()>(&DiContainer::$GetDependencyContracts$d__96::$$m__Finally1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::$GetDependencyContracts$d__96::*)()>(&Zenject::DiContainer::$GetDependencyContracts$d__96::$$m__Finally1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DiContainer::$GetDependencyContracts$d__96*), "<>m__Finally1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$GetDependencyContracts$d__96*), "<>m__Finally1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DiContainer::$GetDependencyContracts$d__96::System_Collections_Generic_IEnumerator$System_Type$_get_Current
+// Writing MetadataGetter for method: Zenject::DiContainer::$GetDependencyContracts$d__96::System_Collections_Generic_IEnumerator$System_Type$_get_Current
 // Il2CppName: System.Collections.Generic.IEnumerator<System.Type>.get_Current
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (DiContainer::$GetDependencyContracts$d__96::*)()>(&DiContainer::$GetDependencyContracts$d__96::System_Collections_Generic_IEnumerator$System_Type$_get_Current)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Zenject::DiContainer::$GetDependencyContracts$d__96::*)()>(&Zenject::DiContainer::$GetDependencyContracts$d__96::System_Collections_Generic_IEnumerator$System_Type$_get_Current)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DiContainer::$GetDependencyContracts$d__96*), "System.Collections.Generic.IEnumerator<System.Type>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$GetDependencyContracts$d__96*), "System.Collections.Generic.IEnumerator<System.Type>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DiContainer::$GetDependencyContracts$d__96::System_Collections_IEnumerator_Reset
+// Writing MetadataGetter for method: Zenject::DiContainer::$GetDependencyContracts$d__96::System_Collections_IEnumerator_Reset
 // Il2CppName: System.Collections.IEnumerator.Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DiContainer::$GetDependencyContracts$d__96::*)()>(&DiContainer::$GetDependencyContracts$d__96::System_Collections_IEnumerator_Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::$GetDependencyContracts$d__96::*)()>(&Zenject::DiContainer::$GetDependencyContracts$d__96::System_Collections_IEnumerator_Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DiContainer::$GetDependencyContracts$d__96*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$GetDependencyContracts$d__96*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DiContainer::$GetDependencyContracts$d__96::System_Collections_IEnumerator_get_Current
+// Writing MetadataGetter for method: Zenject::DiContainer::$GetDependencyContracts$d__96::System_Collections_IEnumerator_get_Current
 // Il2CppName: System.Collections.IEnumerator.get_Current
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (DiContainer::$GetDependencyContracts$d__96::*)()>(&DiContainer::$GetDependencyContracts$d__96::System_Collections_IEnumerator_get_Current)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::$GetDependencyContracts$d__96::*)()>(&Zenject::DiContainer::$GetDependencyContracts$d__96::System_Collections_IEnumerator_get_Current)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DiContainer::$GetDependencyContracts$d__96*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$GetDependencyContracts$d__96*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DiContainer::$GetDependencyContracts$d__96::System_Collections_Generic_IEnumerable$System_Type$_GetEnumerator
+// Writing MetadataGetter for method: Zenject::DiContainer::$GetDependencyContracts$d__96::System_Collections_Generic_IEnumerable$System_Type$_GetEnumerator
 // Il2CppName: System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<System::Type*>* (DiContainer::$GetDependencyContracts$d__96::*)()>(&DiContainer::$GetDependencyContracts$d__96::System_Collections_Generic_IEnumerable$System_Type$_GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<System::Type*>* (Zenject::DiContainer::$GetDependencyContracts$d__96::*)()>(&Zenject::DiContainer::$GetDependencyContracts$d__96::System_Collections_Generic_IEnumerable$System_Type$_GetEnumerator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DiContainer::$GetDependencyContracts$d__96*), "System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$GetDependencyContracts$d__96*), "System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DiContainer::$GetDependencyContracts$d__96::System_Collections_IEnumerable_GetEnumerator
+// Writing MetadataGetter for method: Zenject::DiContainer::$GetDependencyContracts$d__96::System_Collections_IEnumerable_GetEnumerator
 // Il2CppName: System.Collections.IEnumerable.GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (DiContainer::$GetDependencyContracts$d__96::*)()>(&DiContainer::$GetDependencyContracts$d__96::System_Collections_IEnumerable_GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (Zenject::DiContainer::$GetDependencyContracts$d__96::*)()>(&Zenject::DiContainer::$GetDependencyContracts$d__96::System_Collections_IEnumerable_GetEnumerator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DiContainer::$GetDependencyContracts$d__96*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer::$GetDependencyContracts$d__96*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

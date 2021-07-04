@@ -34,11 +34,11 @@ namespace UnityEngine::EventSystems {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::ICancelHandler*, "UnityEngine.EventSystems", "ICancelHandler");
-// Writing MetadataGetter for method: ICancelHandler::OnCancel
+// Writing MetadataGetter for method: UnityEngine::EventSystems::ICancelHandler::OnCancel
 // Il2CppName: OnCancel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ICancelHandler::*)(UnityEngine::EventSystems::BaseEventData*)>(&ICancelHandler::OnCancel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::ICancelHandler::*)(UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ICancelHandler::OnCancel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ICancelHandler*), "OnCancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::ICancelHandler*), "OnCancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
   }
 };

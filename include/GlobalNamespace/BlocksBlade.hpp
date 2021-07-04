@@ -223,73 +223,73 @@ namespace GlobalNamespace {
   static_assert(sizeof(BlocksBlade) == 0x8C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlocksBlade*, "", "BlocksBlade");
-// Writing MetadataGetter for method: BlocksBlade::get_color
+// Writing MetadataGetter for method: GlobalNamespace::BlocksBlade::get_color
 // Il2CppName: get_color
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (BlocksBlade::*)()>(&BlocksBlade::get_color)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::BlocksBlade::*)()>(&GlobalNamespace::BlocksBlade::get_color)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BlocksBlade*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BlocksBlade*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BlocksBlade::set_color
+// Writing MetadataGetter for method: GlobalNamespace::BlocksBlade::set_color
 // Il2CppName: set_color
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BlocksBlade::*)(UnityEngine::Color)>(&BlocksBlade::set_color)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BlocksBlade::*)(UnityEngine::Color)>(&GlobalNamespace::BlocksBlade::set_color)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BlocksBlade*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BlocksBlade*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: BlocksBlade::Start
+// Writing MetadataGetter for method: GlobalNamespace::BlocksBlade::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BlocksBlade::*)()>(&BlocksBlade::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BlocksBlade::*)()>(&GlobalNamespace::BlocksBlade::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BlocksBlade*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BlocksBlade*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BlocksBlade::Update
+// Writing MetadataGetter for method: GlobalNamespace::BlocksBlade::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BlocksBlade::*)()>(&BlocksBlade::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BlocksBlade::*)()>(&GlobalNamespace::BlocksBlade::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BlocksBlade*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BlocksBlade*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BlocksBlade::SetUpElement
+// Writing MetadataGetter for method: GlobalNamespace::BlocksBlade::SetUpElement
 // Il2CppName: SetUpElement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BlocksBlade::*)(GlobalNamespace::BlocksBlade::Element*, float, UnityEngine::Color)>(&BlocksBlade::SetUpElement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BlocksBlade::*)(GlobalNamespace::BlocksBlade::Element*, float, UnityEngine::Color)>(&GlobalNamespace::BlocksBlade::SetUpElement)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BlocksBlade*), "SetUpElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BlocksBlade::Element*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BlocksBlade*), "SetUpElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BlocksBlade::Element*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: BlocksBlade::RandomPointOnCircle
+// Writing MetadataGetter for method: GlobalNamespace::BlocksBlade::RandomPointOnCircle
 // Il2CppName: RandomPointOnCircle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (BlocksBlade::*)(float)>(&BlocksBlade::RandomPointOnCircle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (GlobalNamespace::BlocksBlade::*)(float)>(&GlobalNamespace::BlocksBlade::RandomPointOnCircle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BlocksBlade*), "RandomPointOnCircle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BlocksBlade*), "RandomPointOnCircle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: BlocksBlade::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BlocksBlade::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BlocksBlade::*)()>(&BlocksBlade::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BlocksBlade::*)()>(&GlobalNamespace::BlocksBlade::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BlocksBlade*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BlocksBlade*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BlocksBlade::*)()>(&BlocksBlade::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BlocksBlade::*)()>(&GlobalNamespace::BlocksBlade::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BlocksBlade*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BlocksBlade*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BlocksBlade::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::BlocksBlade::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&BlocksBlade::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::BlocksBlade::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BlocksBlade*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BlocksBlade*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

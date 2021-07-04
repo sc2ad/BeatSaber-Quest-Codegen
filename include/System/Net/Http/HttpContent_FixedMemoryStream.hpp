@@ -54,41 +54,41 @@ namespace System::Net::Http {
   static_assert(sizeof(HttpContent::FixedMemoryStream) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpContent::FixedMemoryStream*, "System.Net.Http", "HttpContent/FixedMemoryStream");
-// Writing MetadataGetter for method: HttpContent::FixedMemoryStream::New_ctor
+// Writing MetadataGetter for method: System::Net::Http::HttpContent::FixedMemoryStream::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpContent::FixedMemoryStream::*)(int64_t)>(&HttpContent::FixedMemoryStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpContent::FixedMemoryStream::*)(int64_t)>(&System::Net::Http::HttpContent::FixedMemoryStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpContent::FixedMemoryStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpContent::FixedMemoryStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpContent::FixedMemoryStream::*)(int64_t)>(&HttpContent::FixedMemoryStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpContent::FixedMemoryStream::*)(int64_t)>(&System::Net::Http::HttpContent::FixedMemoryStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpContent::FixedMemoryStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpContent::FixedMemoryStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
   }
 };
-// Writing MetadataGetter for method: HttpContent::FixedMemoryStream::CheckOverflow
+// Writing MetadataGetter for method: System::Net::Http::HttpContent::FixedMemoryStream::CheckOverflow
 // Il2CppName: CheckOverflow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpContent::FixedMemoryStream::*)(int)>(&HttpContent::FixedMemoryStream::CheckOverflow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpContent::FixedMemoryStream::*)(int)>(&System::Net::Http::HttpContent::FixedMemoryStream::CheckOverflow)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpContent::FixedMemoryStream*), "CheckOverflow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpContent::FixedMemoryStream*), "CheckOverflow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: HttpContent::FixedMemoryStream::WriteByte
+// Writing MetadataGetter for method: System::Net::Http::HttpContent::FixedMemoryStream::WriteByte
 // Il2CppName: WriteByte
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpContent::FixedMemoryStream::*)(uint8_t)>(&HttpContent::FixedMemoryStream::WriteByte)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpContent::FixedMemoryStream::*)(uint8_t)>(&System::Net::Http::HttpContent::FixedMemoryStream::WriteByte)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpContent::FixedMemoryStream*), "WriteByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpContent::FixedMemoryStream*), "WriteByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
   }
 };
-// Writing MetadataGetter for method: HttpContent::FixedMemoryStream::Write
+// Writing MetadataGetter for method: System::Net::Http::HttpContent::FixedMemoryStream::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpContent::FixedMemoryStream::*)(::Array<uint8_t>*, int, int)>(&HttpContent::FixedMemoryStream::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpContent::FixedMemoryStream::*)(::Array<uint8_t>*, int, int)>(&System::Net::Http::HttpContent::FixedMemoryStream::Write)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpContent::FixedMemoryStream*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpContent::FixedMemoryStream*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };

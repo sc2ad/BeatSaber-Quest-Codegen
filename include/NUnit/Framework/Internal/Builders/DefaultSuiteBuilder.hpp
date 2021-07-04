@@ -89,57 +89,57 @@ namespace NUnit::Framework::Internal::Builders {
   static_assert(sizeof(DefaultSuiteBuilder) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::DefaultSuiteBuilder*, "NUnit.Framework.Internal.Builders", "DefaultSuiteBuilder");
-// Writing MetadataGetter for method: DefaultSuiteBuilder::CanBuildFrom
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::CanBuildFrom
 // Il2CppName: CanBuildFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DefaultSuiteBuilder::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&DefaultSuiteBuilder::CanBuildFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::CanBuildFrom)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultSuiteBuilder*), "CanBuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITypeInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::DefaultSuiteBuilder*), "CanBuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITypeInfo*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultSuiteBuilder::BuildFrom
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::BuildFrom
 // Il2CppName: BuildFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestSuite* (DefaultSuiteBuilder::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&DefaultSuiteBuilder::BuildFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestSuite* (NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::BuildFrom)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultSuiteBuilder*), "BuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITypeInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::DefaultSuiteBuilder*), "BuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITypeInfo*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultSuiteBuilder::BuildMultipleFixtures
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::BuildMultipleFixtures
 // Il2CppName: BuildMultipleFixtures
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestSuite* (DefaultSuiteBuilder::*)(NUnit::Framework::Interfaces::ITypeInfo*, System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestSuite*>*)>(&DefaultSuiteBuilder::BuildMultipleFixtures)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestSuite* (NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::*)(NUnit::Framework::Interfaces::ITypeInfo*, System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestSuite*>*)>(&NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::BuildMultipleFixtures)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultSuiteBuilder*), "BuildMultipleFixtures", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITypeInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestSuite*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::DefaultSuiteBuilder*), "BuildMultipleFixtures", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITypeInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestSuite*>*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultSuiteBuilder::GetFixtureBuilderAttributes
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::GetFixtureBuilderAttributes
 // Il2CppName: GetFixtureBuilderAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<NUnit::Framework::Interfaces::IFixtureBuilder*>* (DefaultSuiteBuilder::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&DefaultSuiteBuilder::GetFixtureBuilderAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<NUnit::Framework::Interfaces::IFixtureBuilder*>* (NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::GetFixtureBuilderAttributes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultSuiteBuilder*), "GetFixtureBuilderAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITypeInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::DefaultSuiteBuilder*), "GetFixtureBuilderAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITypeInfo*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultSuiteBuilder::HasArguments
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::HasArguments
 // Il2CppName: HasArguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DefaultSuiteBuilder::*)(NUnit::Framework::Interfaces::IFixtureBuilder*)>(&DefaultSuiteBuilder::HasArguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::*)(NUnit::Framework::Interfaces::IFixtureBuilder*)>(&NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::HasArguments)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultSuiteBuilder*), "HasArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::IFixtureBuilder*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::DefaultSuiteBuilder*), "HasArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::IFixtureBuilder*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultSuiteBuilder::New_ctor
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultSuiteBuilder::*)()>(&DefaultSuiteBuilder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::*)()>(&NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultSuiteBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::DefaultSuiteBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultSuiteBuilder::*)()>(&DefaultSuiteBuilder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::*)()>(&NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultSuiteBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::DefaultSuiteBuilder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

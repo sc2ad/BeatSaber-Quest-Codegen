@@ -129,97 +129,97 @@ namespace GlobalNamespace {
   static_assert(sizeof(ScaleAnimator) == 0x41);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScaleAnimator*, "", "ScaleAnimator");
-// Writing MetadataGetter for method: ScaleAnimator::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::ScaleAnimator::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScaleAnimator::*)()>(&ScaleAnimator::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScaleAnimator::*)()>(&GlobalNamespace::ScaleAnimator::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScaleAnimator*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScaleAnimator*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ScaleAnimator::InitIfNeeded
+// Writing MetadataGetter for method: GlobalNamespace::ScaleAnimator::InitIfNeeded
 // Il2CppName: InitIfNeeded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScaleAnimator::*)()>(&ScaleAnimator::InitIfNeeded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScaleAnimator::*)()>(&GlobalNamespace::ScaleAnimator::InitIfNeeded)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScaleAnimator*), "InitIfNeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScaleAnimator*), "InitIfNeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ScaleAnimator::SetPositionAndRotation
+// Writing MetadataGetter for method: GlobalNamespace::ScaleAnimator::SetPositionAndRotation
 // Il2CppName: SetPositionAndRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScaleAnimator::*)(UnityEngine::Vector3, UnityEngine::Quaternion)>(&ScaleAnimator::SetPositionAndRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScaleAnimator::*)(UnityEngine::Vector3, UnityEngine::Quaternion)>(&GlobalNamespace::ScaleAnimator::SetPositionAndRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScaleAnimator*), "SetPositionAndRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScaleAnimator*), "SetPositionAndRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
   }
 };
-// Writing MetadataGetter for method: ScaleAnimator::HideInstant
+// Writing MetadataGetter for method: GlobalNamespace::ScaleAnimator::HideInstant
 // Il2CppName: HideInstant
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScaleAnimator::*)()>(&ScaleAnimator::HideInstant)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScaleAnimator::*)()>(&GlobalNamespace::ScaleAnimator::HideInstant)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScaleAnimator*), "HideInstant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScaleAnimator*), "HideInstant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ScaleAnimator::ShowInstant
+// Writing MetadataGetter for method: GlobalNamespace::ScaleAnimator::ShowInstant
 // Il2CppName: ShowInstant
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScaleAnimator::*)()>(&ScaleAnimator::ShowInstant)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScaleAnimator::*)()>(&GlobalNamespace::ScaleAnimator::ShowInstant)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScaleAnimator*), "ShowInstant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScaleAnimator*), "ShowInstant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ScaleAnimator::Animate
+// Writing MetadataGetter for method: GlobalNamespace::ScaleAnimator::Animate
 // Il2CppName: Animate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScaleAnimator::*)(bool, float, Tweening::EaseType, float)>(&ScaleAnimator::Animate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScaleAnimator::*)(bool, float, Tweening::EaseType, float)>(&GlobalNamespace::ScaleAnimator::Animate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScaleAnimator*), "Animate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<Tweening::EaseType>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScaleAnimator*), "Animate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<Tweening::EaseType>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: ScaleAnimator::$InitIfNeeded$b__7_0
+// Writing MetadataGetter for method: GlobalNamespace::ScaleAnimator::$InitIfNeeded$b__7_0
 // Il2CppName: <InitIfNeeded>b__7_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScaleAnimator::*)(float)>(&ScaleAnimator::$InitIfNeeded$b__7_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScaleAnimator::*)(float)>(&GlobalNamespace::ScaleAnimator::$InitIfNeeded$b__7_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScaleAnimator*), "<InitIfNeeded>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScaleAnimator*), "<InitIfNeeded>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: ScaleAnimator::$InitIfNeeded$b__7_2
+// Writing MetadataGetter for method: GlobalNamespace::ScaleAnimator::$InitIfNeeded$b__7_2
 // Il2CppName: <InitIfNeeded>b__7_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScaleAnimator::*)()>(&ScaleAnimator::$InitIfNeeded$b__7_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScaleAnimator::*)()>(&GlobalNamespace::ScaleAnimator::$InitIfNeeded$b__7_2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScaleAnimator*), "<InitIfNeeded>b__7_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScaleAnimator*), "<InitIfNeeded>b__7_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ScaleAnimator::$InitIfNeeded$b__7_1
+// Writing MetadataGetter for method: GlobalNamespace::ScaleAnimator::$InitIfNeeded$b__7_1
 // Il2CppName: <InitIfNeeded>b__7_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScaleAnimator::*)(float)>(&ScaleAnimator::$InitIfNeeded$b__7_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScaleAnimator::*)(float)>(&GlobalNamespace::ScaleAnimator::$InitIfNeeded$b__7_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScaleAnimator*), "<InitIfNeeded>b__7_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScaleAnimator*), "<InitIfNeeded>b__7_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: ScaleAnimator::$InitIfNeeded$b__7_3
+// Writing MetadataGetter for method: GlobalNamespace::ScaleAnimator::$InitIfNeeded$b__7_3
 // Il2CppName: <InitIfNeeded>b__7_3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScaleAnimator::*)()>(&ScaleAnimator::$InitIfNeeded$b__7_3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScaleAnimator::*)()>(&GlobalNamespace::ScaleAnimator::$InitIfNeeded$b__7_3)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScaleAnimator*), "<InitIfNeeded>b__7_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScaleAnimator*), "<InitIfNeeded>b__7_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ScaleAnimator::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::ScaleAnimator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScaleAnimator::*)()>(&ScaleAnimator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScaleAnimator::*)()>(&GlobalNamespace::ScaleAnimator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScaleAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScaleAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ScaleAnimator::*)()>(&ScaleAnimator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScaleAnimator::*)()>(&GlobalNamespace::ScaleAnimator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ScaleAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScaleAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

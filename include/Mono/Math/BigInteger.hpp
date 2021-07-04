@@ -251,345 +251,345 @@ namespace Mono::Math {
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::BigInteger*, "Mono.Math", "BigInteger");
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::BigInteger::Sign, "Mono.Math", "BigInteger/Sign");
-// Writing MetadataGetter for method: BigInteger::New_ctor
+// Writing MetadataGetter for method: Mono::Math::BigInteger::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BigInteger::*)(Mono::Math::BigInteger::Sign, uint)>(&BigInteger::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Math::BigInteger::*)(Mono::Math::BigInteger::Sign, uint)>(&Mono::Math::BigInteger::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger::Sign>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger::Sign>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BigInteger::*)(Mono::Math::BigInteger::Sign, uint)>(&BigInteger::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Math::BigInteger::*)(Mono::Math::BigInteger::Sign, uint)>(&Mono::Math::BigInteger::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger::Sign>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger::Sign>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: BigInteger::New_ctor
+// Writing MetadataGetter for method: Mono::Math::BigInteger::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BigInteger::*)(Mono::Math::BigInteger*)>(&BigInteger::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Math::BigInteger::*)(Mono::Math::BigInteger*)>(&Mono::Math::BigInteger::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BigInteger::*)(Mono::Math::BigInteger*)>(&BigInteger::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Math::BigInteger::*)(Mono::Math::BigInteger*)>(&Mono::Math::BigInteger::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>()});
   }
 };
-// Writing MetadataGetter for method: BigInteger::New_ctor
+// Writing MetadataGetter for method: Mono::Math::BigInteger::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BigInteger::*)(Mono::Math::BigInteger*, uint)>(&BigInteger::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Math::BigInteger::*)(Mono::Math::BigInteger*, uint)>(&Mono::Math::BigInteger::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BigInteger::*)(Mono::Math::BigInteger*, uint)>(&BigInteger::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Math::BigInteger::*)(Mono::Math::BigInteger*, uint)>(&Mono::Math::BigInteger::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: BigInteger::New_ctor
+// Writing MetadataGetter for method: Mono::Math::BigInteger::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BigInteger::*)(::Array<uint8_t>*)>(&BigInteger::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Math::BigInteger::*)(::Array<uint8_t>*)>(&Mono::Math::BigInteger::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BigInteger::*)(::Array<uint8_t>*)>(&BigInteger::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Math::BigInteger::*)(::Array<uint8_t>*)>(&Mono::Math::BigInteger::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: BigInteger::New_ctor
+// Writing MetadataGetter for method: Mono::Math::BigInteger::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BigInteger::*)(uint)>(&BigInteger::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Math::BigInteger::*)(uint)>(&Mono::Math::BigInteger::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BigInteger::*)(uint)>(&BigInteger::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Math::BigInteger::*)(uint)>(&Mono::Math::BigInteger::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: BigInteger::get_Rng
+// Writing MetadataGetter for method: Mono::Math::BigInteger::get_Rng
 // Il2CppName: get_Rng
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RandomNumberGenerator* (*)()>(&BigInteger::get_Rng)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RandomNumberGenerator* (*)()>(&Mono::Math::BigInteger::get_Rng)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "get_Rng", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "get_Rng", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BigInteger::GenerateRandom
+// Writing MetadataGetter for method: Mono::Math::BigInteger::GenerateRandom
 // Il2CppName: GenerateRandom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (*)(int, System::Security::Cryptography::RandomNumberGenerator*)>(&BigInteger::GenerateRandom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (*)(int, System::Security::Cryptography::RandomNumberGenerator*)>(&Mono::Math::BigInteger::GenerateRandom)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "GenerateRandom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RandomNumberGenerator*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "GenerateRandom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RandomNumberGenerator*>()});
   }
 };
-// Writing MetadataGetter for method: BigInteger::GenerateRandom
+// Writing MetadataGetter for method: Mono::Math::BigInteger::GenerateRandom
 // Il2CppName: GenerateRandom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (*)(int)>(&BigInteger::GenerateRandom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (*)(int)>(&Mono::Math::BigInteger::GenerateRandom)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "GenerateRandom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "GenerateRandom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: BigInteger::BitCount
+// Writing MetadataGetter for method: Mono::Math::BigInteger::BitCount
 // Il2CppName: BitCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BigInteger::*)()>(&BigInteger::BitCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Math::BigInteger::*)()>(&Mono::Math::BigInteger::BitCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "BitCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "BitCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BigInteger::TestBit
+// Writing MetadataGetter for method: Mono::Math::BigInteger::TestBit
 // Il2CppName: TestBit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BigInteger::*)(int)>(&BigInteger::TestBit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Math::BigInteger::*)(int)>(&Mono::Math::BigInteger::TestBit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "TestBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "TestBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: BigInteger::SetBit
+// Writing MetadataGetter for method: Mono::Math::BigInteger::SetBit
 // Il2CppName: SetBit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BigInteger::*)(uint)>(&BigInteger::SetBit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Math::BigInteger::*)(uint)>(&Mono::Math::BigInteger::SetBit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "SetBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "SetBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: BigInteger::SetBit
+// Writing MetadataGetter for method: Mono::Math::BigInteger::SetBit
 // Il2CppName: SetBit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BigInteger::*)(uint, bool)>(&BigInteger::SetBit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Math::BigInteger::*)(uint, bool)>(&Mono::Math::BigInteger::SetBit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "SetBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "SetBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: BigInteger::LowestSetBit
+// Writing MetadataGetter for method: Mono::Math::BigInteger::LowestSetBit
 // Il2CppName: LowestSetBit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BigInteger::*)()>(&BigInteger::LowestSetBit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Math::BigInteger::*)()>(&Mono::Math::BigInteger::LowestSetBit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "LowestSetBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "LowestSetBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BigInteger::GetBytes
+// Writing MetadataGetter for method: Mono::Math::BigInteger::GetBytes
 // Il2CppName: GetBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (BigInteger::*)()>(&BigInteger::GetBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Math::BigInteger::*)()>(&Mono::Math::BigInteger::GetBytes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BigInteger::ToString
+// Writing MetadataGetter for method: Mono::Math::BigInteger::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BigInteger::*)(uint)>(&BigInteger::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Math::BigInteger::*)(uint)>(&Mono::Math::BigInteger::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: BigInteger::ToString
+// Writing MetadataGetter for method: Mono::Math::BigInteger::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BigInteger::*)(uint, ::Il2CppString*)>(&BigInteger::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Math::BigInteger::*)(uint, ::Il2CppString*)>(&Mono::Math::BigInteger::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: BigInteger::Normalize
+// Writing MetadataGetter for method: Mono::Math::BigInteger::Normalize
 // Il2CppName: Normalize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BigInteger::*)()>(&BigInteger::Normalize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Math::BigInteger::*)()>(&Mono::Math::BigInteger::Normalize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "Normalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "Normalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BigInteger::ModInverse
+// Writing MetadataGetter for method: Mono::Math::BigInteger::ModInverse
 // Il2CppName: ModInverse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (BigInteger::*)(Mono::Math::BigInteger*)>(&BigInteger::ModInverse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (Mono::Math::BigInteger::*)(Mono::Math::BigInteger*)>(&Mono::Math::BigInteger::ModInverse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "ModInverse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "ModInverse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>()});
   }
 };
-// Writing MetadataGetter for method: BigInteger::GeneratePseudoPrime
+// Writing MetadataGetter for method: Mono::Math::BigInteger::GeneratePseudoPrime
 // Il2CppName: GeneratePseudoPrime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (*)(int)>(&BigInteger::GeneratePseudoPrime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (*)(int)>(&Mono::Math::BigInteger::GeneratePseudoPrime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "GeneratePseudoPrime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "GeneratePseudoPrime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: BigInteger::Incr2
+// Writing MetadataGetter for method: Mono::Math::BigInteger::Incr2
 // Il2CppName: Incr2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BigInteger::*)()>(&BigInteger::Incr2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Math::BigInteger::*)()>(&Mono::Math::BigInteger::Incr2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "Incr2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "Incr2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BigInteger::_cctor
+// Writing MetadataGetter for method: Mono::Math::BigInteger::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&BigInteger::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Mono::Math::BigInteger::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BigInteger::GetHashCode
+// Writing MetadataGetter for method: Mono::Math::BigInteger::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BigInteger::*)()>(&BigInteger::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Math::BigInteger::*)()>(&Mono::Math::BigInteger::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BigInteger::ToString
+// Writing MetadataGetter for method: Mono::Math::BigInteger::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BigInteger::*)()>(&BigInteger::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Math::BigInteger::*)()>(&Mono::Math::BigInteger::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BigInteger::Equals
+// Writing MetadataGetter for method: Mono::Math::BigInteger::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BigInteger::*)(::Il2CppObject*)>(&BigInteger::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Math::BigInteger::*)(::Il2CppObject*)>(&Mono::Math::BigInteger::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: BigInteger::operator-
+// Writing MetadataGetter for method: Mono::Math::BigInteger::operator-
 // Il2CppName: op_Subtraction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (*)(Mono::Math::BigInteger*, Mono::Math::BigInteger&)>(&BigInteger::operator-)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (*)(Mono::Math::BigInteger*, Mono::Math::BigInteger&)>(&Mono::Math::BigInteger::operator-)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "op_Subtraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger&>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "op_Subtraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger&>()});
   }
 };
-// Writing MetadataGetter for method: BigInteger::operator%
+// Writing MetadataGetter for method: Mono::Math::BigInteger::operator%
 // Il2CppName: op_Modulus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(Mono::Math::BigInteger&, const uint&)>(&BigInteger::operator%)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(Mono::Math::BigInteger&, const uint&)>(&Mono::Math::BigInteger::operator%)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "op_Modulus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger&>(), ::il2cpp_utils::ExtractIndependentType<const uint&>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "op_Modulus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger&>(), ::il2cpp_utils::ExtractIndependentType<const uint&>()});
   }
 };
-// Writing MetadataGetter for method: BigInteger::operator%
+// Writing MetadataGetter for method: Mono::Math::BigInteger::operator%
 // Il2CppName: op_Modulus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (*)(Mono::Math::BigInteger*, Mono::Math::BigInteger&)>(&BigInteger::operator%)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (*)(Mono::Math::BigInteger*, Mono::Math::BigInteger&)>(&Mono::Math::BigInteger::operator%)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "op_Modulus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger&>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "op_Modulus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger&>()});
   }
 };
-// Writing MetadataGetter for method: BigInteger::operator/
+// Writing MetadataGetter for method: Mono::Math::BigInteger::operator/
 // Il2CppName: op_Division
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (*)(Mono::Math::BigInteger*, Mono::Math::BigInteger&)>(&BigInteger::operator/)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (*)(Mono::Math::BigInteger*, Mono::Math::BigInteger&)>(&Mono::Math::BigInteger::operator/)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "op_Division", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger&>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "op_Division", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger&>()});
   }
 };
-// Writing MetadataGetter for method: BigInteger::operator*
+// Writing MetadataGetter for method: Mono::Math::BigInteger::operator*
 // Il2CppName: op_Multiply
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (*)(Mono::Math::BigInteger*, Mono::Math::BigInteger&)>(&BigInteger::operator*)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (*)(Mono::Math::BigInteger*, Mono::Math::BigInteger&)>(&Mono::Math::BigInteger::operator*)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "op_Multiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger&>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "op_Multiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger&>()});
   }
 };
-// Writing MetadataGetter for method: BigInteger::operator<<
+// Writing MetadataGetter for method: Mono::Math::BigInteger::operator<<
 // Il2CppName: op_LeftShift
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (*)(Mono::Math::BigInteger&, const int&)>(&BigInteger::operator<<)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (*)(Mono::Math::BigInteger&, const int&)>(&Mono::Math::BigInteger::operator<<)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "op_LeftShift", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger&>(), ::il2cpp_utils::ExtractIndependentType<const int&>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "op_LeftShift", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger&>(), ::il2cpp_utils::ExtractIndependentType<const int&>()});
   }
 };
-// Writing MetadataGetter for method: BigInteger::operator>>
+// Writing MetadataGetter for method: Mono::Math::BigInteger::operator>>
 // Il2CppName: op_RightShift
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (*)(Mono::Math::BigInteger&, const int&)>(&BigInteger::operator>>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (*)(Mono::Math::BigInteger&, const int&)>(&Mono::Math::BigInteger::operator>>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "op_RightShift", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger&>(), ::il2cpp_utils::ExtractIndependentType<const int&>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "op_RightShift", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger&>(), ::il2cpp_utils::ExtractIndependentType<const int&>()});
   }
 };
-// Writing MetadataGetter for method: BigInteger::operator ==
+// Writing MetadataGetter for method: Mono::Math::BigInteger::operator ==
 // Il2CppName: op_Equality
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Mono::Math::BigInteger&, const uint&)>(&BigInteger::operator ==)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Mono::Math::BigInteger&, const uint&)>(&Mono::Math::BigInteger::operator ==)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger&>(), ::il2cpp_utils::ExtractIndependentType<const uint&>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger&>(), ::il2cpp_utils::ExtractIndependentType<const uint&>()});
   }
 };
-// Writing MetadataGetter for method: BigInteger::operator !=
+// Writing MetadataGetter for method: Mono::Math::BigInteger::operator !=
 // Il2CppName: op_Inequality
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Mono::Math::BigInteger&, const uint&)>(&BigInteger::operator !=)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Mono::Math::BigInteger&, const uint&)>(&Mono::Math::BigInteger::operator !=)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger&>(), ::il2cpp_utils::ExtractIndependentType<const uint&>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger&>(), ::il2cpp_utils::ExtractIndependentType<const uint&>()});
   }
 };
-// Writing MetadataGetter for method: BigInteger::operator ==
+// Writing MetadataGetter for method: Mono::Math::BigInteger::operator ==
 // Il2CppName: op_Equality
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Mono::Math::BigInteger*, Mono::Math::BigInteger&)>(&BigInteger::operator ==)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Mono::Math::BigInteger*, Mono::Math::BigInteger&)>(&Mono::Math::BigInteger::operator ==)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger&>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger&>()});
   }
 };
-// Writing MetadataGetter for method: BigInteger::operator !=
+// Writing MetadataGetter for method: Mono::Math::BigInteger::operator !=
 // Il2CppName: op_Inequality
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Mono::Math::BigInteger*, Mono::Math::BigInteger&)>(&BigInteger::operator !=)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Mono::Math::BigInteger*, Mono::Math::BigInteger&)>(&Mono::Math::BigInteger::operator !=)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger&>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger&>()});
   }
 };
-// Writing MetadataGetter for method: BigInteger::operator >
+// Writing MetadataGetter for method: Mono::Math::BigInteger::operator >
 // Il2CppName: op_GreaterThan
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Mono::Math::BigInteger*, Mono::Math::BigInteger&)>(&BigInteger::operator >)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Mono::Math::BigInteger*, Mono::Math::BigInteger&)>(&Mono::Math::BigInteger::operator >)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "op_GreaterThan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger&>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "op_GreaterThan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger&>()});
   }
 };
-// Writing MetadataGetter for method: BigInteger::operator <
+// Writing MetadataGetter for method: Mono::Math::BigInteger::operator <
 // Il2CppName: op_LessThan
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Mono::Math::BigInteger*, Mono::Math::BigInteger&)>(&BigInteger::operator <)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Mono::Math::BigInteger*, Mono::Math::BigInteger&)>(&Mono::Math::BigInteger::operator <)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "op_LessThan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger&>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "op_LessThan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger&>()});
   }
 };
-// Writing MetadataGetter for method: BigInteger::operator >=
+// Writing MetadataGetter for method: Mono::Math::BigInteger::operator >=
 // Il2CppName: op_GreaterThanOrEqual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Mono::Math::BigInteger*, Mono::Math::BigInteger&)>(&BigInteger::operator >=)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Mono::Math::BigInteger*, Mono::Math::BigInteger&)>(&Mono::Math::BigInteger::operator >=)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "op_GreaterThanOrEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger&>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "op_GreaterThanOrEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger&>()});
   }
 };
-// Writing MetadataGetter for method: BigInteger::operator <=
+// Writing MetadataGetter for method: Mono::Math::BigInteger::operator <=
 // Il2CppName: op_LessThanOrEqual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Mono::Math::BigInteger*, Mono::Math::BigInteger&)>(&BigInteger::operator <=)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Mono::Math::BigInteger*, Mono::Math::BigInteger&)>(&Mono::Math::BigInteger::operator <=)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BigInteger*), "op_LessThanOrEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger&>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "op_LessThanOrEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger&>()});
   }
 };

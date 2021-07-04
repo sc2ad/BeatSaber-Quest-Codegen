@@ -36,17 +36,17 @@ namespace GlobalNamespace {
   }; // TutorialNoteController/Pool
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialNoteController::Pool*, "", "TutorialNoteController/Pool");
-// Writing MetadataGetter for method: TutorialNoteController::Pool::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::TutorialNoteController::Pool::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialNoteController::Pool::*)()>(&TutorialNoteController::Pool::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialNoteController::Pool::*)()>(&GlobalNamespace::TutorialNoteController::Pool::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialNoteController::Pool*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialNoteController::Pool*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialNoteController::Pool::*)()>(&TutorialNoteController::Pool::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialNoteController::Pool::*)()>(&GlobalNamespace::TutorialNoteController::Pool::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialNoteController::Pool*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialNoteController::Pool*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

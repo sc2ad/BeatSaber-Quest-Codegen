@@ -51,33 +51,33 @@ namespace UnityEngine::AddressableAssets {
   }; // UnityEngine.AddressableAssets.AssetReferenceAtlasedSprite
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite*, "UnityEngine.AddressableAssets", "AssetReferenceAtlasedSprite");
-// Writing MetadataGetter for method: AssetReferenceAtlasedSprite::New_ctor
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetReferenceAtlasedSprite::*)(::Il2CppString*)>(&AssetReferenceAtlasedSprite::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::*)(::Il2CppString*)>(&UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetReferenceAtlasedSprite*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AssetReferenceAtlasedSprite::*)(::Il2CppString*)>(&AssetReferenceAtlasedSprite::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::*)(::Il2CppString*)>(&UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetReferenceAtlasedSprite*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: AssetReferenceAtlasedSprite::ValidateAsset
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::ValidateAsset
 // Il2CppName: ValidateAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AssetReferenceAtlasedSprite::*)(UnityEngine::Object*)>(&AssetReferenceAtlasedSprite::ValidateAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::*)(UnityEngine::Object*)>(&UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::ValidateAsset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetReferenceAtlasedSprite*), "ValidateAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite*), "ValidateAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
   }
 };
-// Writing MetadataGetter for method: AssetReferenceAtlasedSprite::ValidateAsset
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::ValidateAsset
 // Il2CppName: ValidateAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AssetReferenceAtlasedSprite::*)(::Il2CppString*)>(&AssetReferenceAtlasedSprite::ValidateAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::*)(::Il2CppString*)>(&UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::ValidateAsset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssetReferenceAtlasedSprite*), "ValidateAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite*), "ValidateAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };

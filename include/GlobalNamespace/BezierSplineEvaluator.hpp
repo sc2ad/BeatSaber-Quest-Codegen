@@ -106,97 +106,97 @@ namespace GlobalNamespace {
   static_assert(sizeof(BezierSplineEvaluator) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BezierSplineEvaluator*, "", "BezierSplineEvaluator");
-// Writing MetadataGetter for method: BezierSplineEvaluator::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BezierSplineEvaluator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BezierSplineEvaluator::*)(GlobalNamespace::BezierSpline*)>(&BezierSplineEvaluator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BezierSplineEvaluator::*)(GlobalNamespace::BezierSpline*)>(&GlobalNamespace::BezierSplineEvaluator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BezierSplineEvaluator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BezierSpline*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSplineEvaluator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BezierSpline*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BezierSplineEvaluator::*)(GlobalNamespace::BezierSpline*)>(&BezierSplineEvaluator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BezierSplineEvaluator::*)(GlobalNamespace::BezierSpline*)>(&GlobalNamespace::BezierSplineEvaluator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BezierSplineEvaluator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BezierSpline*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSplineEvaluator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BezierSpline*>()});
   }
 };
-// Writing MetadataGetter for method: BezierSplineEvaluator::EvaluatePosition
+// Writing MetadataGetter for method: GlobalNamespace::BezierSplineEvaluator::EvaluatePosition
 // Il2CppName: EvaluatePosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (BezierSplineEvaluator::*)(float)>(&BezierSplineEvaluator::EvaluatePosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::BezierSplineEvaluator::*)(float)>(&GlobalNamespace::BezierSplineEvaluator::EvaluatePosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BezierSplineEvaluator*), "EvaluatePosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSplineEvaluator*), "EvaluatePosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: BezierSplineEvaluator::Evaluate
+// Writing MetadataGetter for method: GlobalNamespace::BezierSplineEvaluator::Evaluate
 // Il2CppName: Evaluate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (BezierSplineEvaluator::*)(float)>(&BezierSplineEvaluator::Evaluate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::BezierSplineEvaluator::*)(float)>(&GlobalNamespace::BezierSplineEvaluator::Evaluate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BezierSplineEvaluator*), "Evaluate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSplineEvaluator*), "Evaluate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: BezierSplineEvaluator::EvaluateFirstDerivation
+// Writing MetadataGetter for method: GlobalNamespace::BezierSplineEvaluator::EvaluateFirstDerivation
 // Il2CppName: EvaluateFirstDerivation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (BezierSplineEvaluator::*)(float)>(&BezierSplineEvaluator::EvaluateFirstDerivation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::BezierSplineEvaluator::*)(float)>(&GlobalNamespace::BezierSplineEvaluator::EvaluateFirstDerivation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BezierSplineEvaluator*), "EvaluateFirstDerivation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSplineEvaluator*), "EvaluateFirstDerivation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: BezierSplineEvaluator::EvaluateSecondDerivation
+// Writing MetadataGetter for method: GlobalNamespace::BezierSplineEvaluator::EvaluateSecondDerivation
 // Il2CppName: EvaluateSecondDerivation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (BezierSplineEvaluator::*)(float)>(&BezierSplineEvaluator::EvaluateSecondDerivation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::BezierSplineEvaluator::*)(float)>(&GlobalNamespace::BezierSplineEvaluator::EvaluateSecondDerivation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BezierSplineEvaluator*), "EvaluateSecondDerivation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSplineEvaluator*), "EvaluateSecondDerivation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: BezierSplineEvaluator::OffsetSegmentAndGetT
+// Writing MetadataGetter for method: GlobalNamespace::BezierSplineEvaluator::OffsetSegmentAndGetT
 // Il2CppName: OffsetSegmentAndGetT
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BezierSplineEvaluator::*)(float)>(&BezierSplineEvaluator::OffsetSegmentAndGetT)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BezierSplineEvaluator::*)(float)>(&GlobalNamespace::BezierSplineEvaluator::OffsetSegmentAndGetT)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BezierSplineEvaluator*), "OffsetSegmentAndGetT", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSplineEvaluator*), "OffsetSegmentAndGetT", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: BezierSplineEvaluator::GetTForSegment
+// Writing MetadataGetter for method: GlobalNamespace::BezierSplineEvaluator::GetTForSegment
 // Il2CppName: GetTForSegment
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BezierSplineEvaluator::*)(int, float)>(&BezierSplineEvaluator::GetTForSegment)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BezierSplineEvaluator::*)(int, float)>(&GlobalNamespace::BezierSplineEvaluator::GetTForSegment)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BezierSplineEvaluator*), "GetTForSegment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSplineEvaluator*), "GetTForSegment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: BezierSplineEvaluator::GetTimeValuesForSegment
+// Writing MetadataGetter for method: GlobalNamespace::BezierSplineEvaluator::GetTimeValuesForSegment
 // Il2CppName: GetTimeValuesForSegment
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BezierSplineEvaluator::*)(int, float&, float&)>(&BezierSplineEvaluator::GetTimeValuesForSegment)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BezierSplineEvaluator::*)(int, float&, float&)>(&GlobalNamespace::BezierSplineEvaluator::GetTimeValuesForSegment)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BezierSplineEvaluator*), "GetTimeValuesForSegment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSplineEvaluator*), "GetTimeValuesForSegment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
   }
 };
-// Writing MetadataGetter for method: BezierSplineEvaluator::OffsetStartIndexToDistance
+// Writing MetadataGetter for method: GlobalNamespace::BezierSplineEvaluator::OffsetStartIndexToDistance
 // Il2CppName: OffsetStartIndexToDistance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BezierSplineEvaluator::*)(float)>(&BezierSplineEvaluator::OffsetStartIndexToDistance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BezierSplineEvaluator::*)(float)>(&GlobalNamespace::BezierSplineEvaluator::OffsetStartIndexToDistance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BezierSplineEvaluator*), "OffsetStartIndexToDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSplineEvaluator*), "OffsetStartIndexToDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: BezierSplineEvaluator::CubeRoot
+// Writing MetadataGetter for method: GlobalNamespace::BezierSplineEvaluator::CubeRoot
 // Il2CppName: CubeRoot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&BezierSplineEvaluator::CubeRoot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&GlobalNamespace::BezierSplineEvaluator::CubeRoot)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BezierSplineEvaluator*), "CubeRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSplineEvaluator*), "CubeRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: BezierSplineEvaluator::SolveCubic
+// Writing MetadataGetter for method: GlobalNamespace::BezierSplineEvaluator::SolveCubic
 // Il2CppName: SolveCubic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BezierSplineEvaluator::CubicSolveResult (*)(float, float, float, float)>(&BezierSplineEvaluator::SolveCubic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BezierSplineEvaluator::CubicSolveResult (*)(float, float, float, float)>(&GlobalNamespace::BezierSplineEvaluator::SolveCubic)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BezierSplineEvaluator*), "SolveCubic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BezierSplineEvaluator*), "SolveCubic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };

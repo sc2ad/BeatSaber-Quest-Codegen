@@ -114,89 +114,89 @@ namespace UnityEngine::Events {
   static_assert(sizeof(ArgumentCache) == 0x31);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::ArgumentCache*, "UnityEngine.Events", "ArgumentCache");
-// Writing MetadataGetter for method: ArgumentCache::get_unityObjectArgument
+// Writing MetadataGetter for method: UnityEngine::Events::ArgumentCache::get_unityObjectArgument
 // Il2CppName: get_unityObjectArgument
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (ArgumentCache::*)()>(&ArgumentCache::get_unityObjectArgument)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (UnityEngine::Events::ArgumentCache::*)()>(&UnityEngine::Events::ArgumentCache::get_unityObjectArgument)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArgumentCache*), "get_unityObjectArgument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::ArgumentCache*), "get_unityObjectArgument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ArgumentCache::get_unityObjectArgumentAssemblyTypeName
+// Writing MetadataGetter for method: UnityEngine::Events::ArgumentCache::get_unityObjectArgumentAssemblyTypeName
 // Il2CppName: get_unityObjectArgumentAssemblyTypeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ArgumentCache::*)()>(&ArgumentCache::get_unityObjectArgumentAssemblyTypeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Events::ArgumentCache::*)()>(&UnityEngine::Events::ArgumentCache::get_unityObjectArgumentAssemblyTypeName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArgumentCache*), "get_unityObjectArgumentAssemblyTypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::ArgumentCache*), "get_unityObjectArgumentAssemblyTypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ArgumentCache::get_intArgument
+// Writing MetadataGetter for method: UnityEngine::Events::ArgumentCache::get_intArgument
 // Il2CppName: get_intArgument
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ArgumentCache::*)()>(&ArgumentCache::get_intArgument)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Events::ArgumentCache::*)()>(&UnityEngine::Events::ArgumentCache::get_intArgument)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArgumentCache*), "get_intArgument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::ArgumentCache*), "get_intArgument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ArgumentCache::get_floatArgument
+// Writing MetadataGetter for method: UnityEngine::Events::ArgumentCache::get_floatArgument
 // Il2CppName: get_floatArgument
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (ArgumentCache::*)()>(&ArgumentCache::get_floatArgument)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Events::ArgumentCache::*)()>(&UnityEngine::Events::ArgumentCache::get_floatArgument)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArgumentCache*), "get_floatArgument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::ArgumentCache*), "get_floatArgument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ArgumentCache::get_stringArgument
+// Writing MetadataGetter for method: UnityEngine::Events::ArgumentCache::get_stringArgument
 // Il2CppName: get_stringArgument
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ArgumentCache::*)()>(&ArgumentCache::get_stringArgument)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Events::ArgumentCache::*)()>(&UnityEngine::Events::ArgumentCache::get_stringArgument)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArgumentCache*), "get_stringArgument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::ArgumentCache*), "get_stringArgument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ArgumentCache::get_boolArgument
+// Writing MetadataGetter for method: UnityEngine::Events::ArgumentCache::get_boolArgument
 // Il2CppName: get_boolArgument
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ArgumentCache::*)()>(&ArgumentCache::get_boolArgument)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Events::ArgumentCache::*)()>(&UnityEngine::Events::ArgumentCache::get_boolArgument)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArgumentCache*), "get_boolArgument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::ArgumentCache*), "get_boolArgument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ArgumentCache::TidyAssemblyTypeName
+// Writing MetadataGetter for method: UnityEngine::Events::ArgumentCache::TidyAssemblyTypeName
 // Il2CppName: TidyAssemblyTypeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArgumentCache::*)()>(&ArgumentCache::TidyAssemblyTypeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::ArgumentCache::*)()>(&UnityEngine::Events::ArgumentCache::TidyAssemblyTypeName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArgumentCache*), "TidyAssemblyTypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::ArgumentCache*), "TidyAssemblyTypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ArgumentCache::OnBeforeSerialize
+// Writing MetadataGetter for method: UnityEngine::Events::ArgumentCache::OnBeforeSerialize
 // Il2CppName: OnBeforeSerialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArgumentCache::*)()>(&ArgumentCache::OnBeforeSerialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::ArgumentCache::*)()>(&UnityEngine::Events::ArgumentCache::OnBeforeSerialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArgumentCache*), "OnBeforeSerialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::ArgumentCache*), "OnBeforeSerialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ArgumentCache::OnAfterDeserialize
+// Writing MetadataGetter for method: UnityEngine::Events::ArgumentCache::OnAfterDeserialize
 // Il2CppName: OnAfterDeserialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArgumentCache::*)()>(&ArgumentCache::OnAfterDeserialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::ArgumentCache::*)()>(&UnityEngine::Events::ArgumentCache::OnAfterDeserialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArgumentCache*), "OnAfterDeserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::ArgumentCache*), "OnAfterDeserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ArgumentCache::New_ctor
+// Writing MetadataGetter for method: UnityEngine::Events::ArgumentCache::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArgumentCache::*)()>(&ArgumentCache::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::ArgumentCache::*)()>(&UnityEngine::Events::ArgumentCache::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArgumentCache*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::ArgumentCache*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArgumentCache::*)()>(&ArgumentCache::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::ArgumentCache::*)()>(&UnityEngine::Events::ArgumentCache::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArgumentCache*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::ArgumentCache*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

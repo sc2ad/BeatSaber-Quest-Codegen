@@ -66,25 +66,25 @@ namespace UnityEngine {
   static_assert(sizeof(IntegratedSubsystem) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::IntegratedSubsystem*, "UnityEngine", "IntegratedSubsystem");
-// Writing MetadataGetter for method: IntegratedSubsystem::SetHandle
+// Writing MetadataGetter for method: UnityEngine::IntegratedSubsystem::SetHandle
 // Il2CppName: SetHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntegratedSubsystem::*)(UnityEngine::IntegratedSubsystem*)>(&IntegratedSubsystem::SetHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::IntegratedSubsystem::*)(UnityEngine::IntegratedSubsystem*)>(&UnityEngine::IntegratedSubsystem::SetHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntegratedSubsystem*), "SetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::IntegratedSubsystem*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::IntegratedSubsystem*), "SetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::IntegratedSubsystem*>()});
   }
 };
-// Writing MetadataGetter for method: IntegratedSubsystem::New_ctor
+// Writing MetadataGetter for method: UnityEngine::IntegratedSubsystem::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntegratedSubsystem::*)()>(&IntegratedSubsystem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::IntegratedSubsystem::*)()>(&UnityEngine::IntegratedSubsystem::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntegratedSubsystem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::IntegratedSubsystem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntegratedSubsystem::*)()>(&IntegratedSubsystem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::IntegratedSubsystem::*)()>(&UnityEngine::IntegratedSubsystem::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntegratedSubsystem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::IntegratedSubsystem*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

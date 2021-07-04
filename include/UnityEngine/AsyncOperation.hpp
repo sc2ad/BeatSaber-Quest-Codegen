@@ -94,97 +94,97 @@ namespace UnityEngine {
   static_assert(sizeof(AsyncOperation) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AsyncOperation*, "UnityEngine", "AsyncOperation");
-// Writing MetadataGetter for method: AsyncOperation::InternalDestroy
+// Writing MetadataGetter for method: UnityEngine::AsyncOperation::InternalDestroy
 // Il2CppName: InternalDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&AsyncOperation::InternalDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&UnityEngine::AsyncOperation::InternalDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncOperation*), "InternalDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AsyncOperation*), "InternalDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: AsyncOperation::get_isDone
+// Writing MetadataGetter for method: UnityEngine::AsyncOperation::get_isDone
 // Il2CppName: get_isDone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AsyncOperation::*)()>(&AsyncOperation::get_isDone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AsyncOperation::*)()>(&UnityEngine::AsyncOperation::get_isDone)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncOperation*), "get_isDone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AsyncOperation*), "get_isDone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AsyncOperation::get_progress
+// Writing MetadataGetter for method: UnityEngine::AsyncOperation::get_progress
 // Il2CppName: get_progress
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AsyncOperation::*)()>(&AsyncOperation::get_progress)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::AsyncOperation::*)()>(&UnityEngine::AsyncOperation::get_progress)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncOperation*), "get_progress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AsyncOperation*), "get_progress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AsyncOperation::set_priority
+// Writing MetadataGetter for method: UnityEngine::AsyncOperation::set_priority
 // Il2CppName: set_priority
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncOperation::*)(int)>(&AsyncOperation::set_priority)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AsyncOperation::*)(int)>(&UnityEngine::AsyncOperation::set_priority)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncOperation*), "set_priority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AsyncOperation*), "set_priority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: AsyncOperation::get_allowSceneActivation
+// Writing MetadataGetter for method: UnityEngine::AsyncOperation::get_allowSceneActivation
 // Il2CppName: get_allowSceneActivation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AsyncOperation::*)()>(&AsyncOperation::get_allowSceneActivation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AsyncOperation::*)()>(&UnityEngine::AsyncOperation::get_allowSceneActivation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncOperation*), "get_allowSceneActivation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AsyncOperation*), "get_allowSceneActivation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AsyncOperation::set_allowSceneActivation
+// Writing MetadataGetter for method: UnityEngine::AsyncOperation::set_allowSceneActivation
 // Il2CppName: set_allowSceneActivation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncOperation::*)(bool)>(&AsyncOperation::set_allowSceneActivation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AsyncOperation::*)(bool)>(&UnityEngine::AsyncOperation::set_allowSceneActivation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncOperation*), "set_allowSceneActivation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AsyncOperation*), "set_allowSceneActivation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AsyncOperation::InvokeCompletionEvent
+// Writing MetadataGetter for method: UnityEngine::AsyncOperation::InvokeCompletionEvent
 // Il2CppName: InvokeCompletionEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncOperation::*)()>(&AsyncOperation::InvokeCompletionEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AsyncOperation::*)()>(&UnityEngine::AsyncOperation::InvokeCompletionEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncOperation*), "InvokeCompletionEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AsyncOperation*), "InvokeCompletionEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AsyncOperation::add_completed
+// Writing MetadataGetter for method: UnityEngine::AsyncOperation::add_completed
 // Il2CppName: add_completed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncOperation::*)(System::Action_1<UnityEngine::AsyncOperation*>*)>(&AsyncOperation::add_completed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AsyncOperation::*)(System::Action_1<UnityEngine::AsyncOperation*>*)>(&UnityEngine::AsyncOperation::add_completed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncOperation*), "add_completed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::AsyncOperation*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AsyncOperation*), "add_completed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::AsyncOperation*>*>()});
   }
 };
-// Writing MetadataGetter for method: AsyncOperation::remove_completed
+// Writing MetadataGetter for method: UnityEngine::AsyncOperation::remove_completed
 // Il2CppName: remove_completed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncOperation::*)(System::Action_1<UnityEngine::AsyncOperation*>*)>(&AsyncOperation::remove_completed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AsyncOperation::*)(System::Action_1<UnityEngine::AsyncOperation*>*)>(&UnityEngine::AsyncOperation::remove_completed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncOperation*), "remove_completed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::AsyncOperation*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AsyncOperation*), "remove_completed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::AsyncOperation*>*>()});
   }
 };
-// Writing MetadataGetter for method: AsyncOperation::Finalize
+// Writing MetadataGetter for method: UnityEngine::AsyncOperation::Finalize
 // Il2CppName: Finalize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncOperation::*)()>(&AsyncOperation::Finalize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AsyncOperation::*)()>(&UnityEngine::AsyncOperation::Finalize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncOperation*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AsyncOperation*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AsyncOperation::New_ctor
+// Writing MetadataGetter for method: UnityEngine::AsyncOperation::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncOperation::*)()>(&AsyncOperation::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AsyncOperation::*)()>(&UnityEngine::AsyncOperation::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncOperation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AsyncOperation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncOperation::*)()>(&AsyncOperation::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AsyncOperation::*)()>(&UnityEngine::AsyncOperation::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncOperation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AsyncOperation*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

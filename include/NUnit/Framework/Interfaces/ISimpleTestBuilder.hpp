@@ -35,11 +35,11 @@ namespace NUnit::Framework::Interfaces {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ISimpleTestBuilder*, "NUnit.Framework.Interfaces", "ISimpleTestBuilder");
-// Writing MetadataGetter for method: ISimpleTestBuilder::BuildFrom
+// Writing MetadataGetter for method: NUnit::Framework::Interfaces::ISimpleTestBuilder::BuildFrom
 // Il2CppName: BuildFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestMethod* (ISimpleTestBuilder::*)(NUnit::Framework::Interfaces::IMethodInfo*, NUnit::Framework::Internal::Test*)>(&ISimpleTestBuilder::BuildFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestMethod* (NUnit::Framework::Interfaces::ISimpleTestBuilder::*)(NUnit::Framework::Interfaces::IMethodInfo*, NUnit::Framework::Internal::Test*)>(&NUnit::Framework::Interfaces::ISimpleTestBuilder::BuildFrom)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ISimpleTestBuilder*), "BuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::IMethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ISimpleTestBuilder*), "BuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::IMethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
   }
 };

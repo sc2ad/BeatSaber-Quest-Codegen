@@ -71,33 +71,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(BlueNoiseDithering) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlueNoiseDithering*, "", "BlueNoiseDithering");
-// Writing MetadataGetter for method: BlueNoiseDithering::SetBlueNoiseShaderParams
+// Writing MetadataGetter for method: GlobalNamespace::BlueNoiseDithering::SetBlueNoiseShaderParams
 // Il2CppName: SetBlueNoiseShaderParams
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BlueNoiseDithering::*)(int, int)>(&BlueNoiseDithering::SetBlueNoiseShaderParams)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BlueNoiseDithering::*)(int, int)>(&GlobalNamespace::BlueNoiseDithering::SetBlueNoiseShaderParams)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BlueNoiseDithering*), "SetBlueNoiseShaderParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BlueNoiseDithering*), "SetBlueNoiseShaderParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: BlueNoiseDithering::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BlueNoiseDithering::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BlueNoiseDithering::*)()>(&BlueNoiseDithering::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BlueNoiseDithering::*)()>(&GlobalNamespace::BlueNoiseDithering::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BlueNoiseDithering*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BlueNoiseDithering*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BlueNoiseDithering::*)()>(&BlueNoiseDithering::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BlueNoiseDithering::*)()>(&GlobalNamespace::BlueNoiseDithering::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BlueNoiseDithering*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BlueNoiseDithering*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BlueNoiseDithering::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::BlueNoiseDithering::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&BlueNoiseDithering::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::BlueNoiseDithering::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BlueNoiseDithering*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BlueNoiseDithering*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

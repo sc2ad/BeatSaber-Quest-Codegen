@@ -51,33 +51,33 @@ namespace JetBrains::Annotations {
   static_assert(sizeof(StringFormatMethodAttribute) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::StringFormatMethodAttribute*, "JetBrains.Annotations", "StringFormatMethodAttribute");
-// Writing MetadataGetter for method: StringFormatMethodAttribute::New_ctor
+// Writing MetadataGetter for method: JetBrains::Annotations::StringFormatMethodAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StringFormatMethodAttribute::*)(::Il2CppString*)>(&StringFormatMethodAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::StringFormatMethodAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::StringFormatMethodAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StringFormatMethodAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::StringFormatMethodAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StringFormatMethodAttribute::*)(::Il2CppString*)>(&StringFormatMethodAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::StringFormatMethodAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::StringFormatMethodAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StringFormatMethodAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::StringFormatMethodAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: StringFormatMethodAttribute::get_FormatParameterName
+// Writing MetadataGetter for method: JetBrains::Annotations::StringFormatMethodAttribute::get_FormatParameterName
 // Il2CppName: get_FormatParameterName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (StringFormatMethodAttribute::*)()>(&StringFormatMethodAttribute::get_FormatParameterName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::StringFormatMethodAttribute::*)()>(&JetBrains::Annotations::StringFormatMethodAttribute::get_FormatParameterName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StringFormatMethodAttribute*), "get_FormatParameterName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::StringFormatMethodAttribute*), "get_FormatParameterName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StringFormatMethodAttribute::set_FormatParameterName
+// Writing MetadataGetter for method: JetBrains::Annotations::StringFormatMethodAttribute::set_FormatParameterName
 // Il2CppName: set_FormatParameterName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StringFormatMethodAttribute::*)(::Il2CppString*)>(&StringFormatMethodAttribute::set_FormatParameterName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::StringFormatMethodAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::StringFormatMethodAttribute::set_FormatParameterName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StringFormatMethodAttribute*), "set_FormatParameterName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::StringFormatMethodAttribute*), "set_FormatParameterName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };

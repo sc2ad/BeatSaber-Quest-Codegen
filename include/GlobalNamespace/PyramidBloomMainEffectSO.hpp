@@ -214,73 +214,73 @@ namespace GlobalNamespace {
   static_assert(sizeof(PyramidBloomMainEffectSO) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PyramidBloomMainEffectSO*, "", "PyramidBloomMainEffectSO");
-// Writing MetadataGetter for method: PyramidBloomMainEffectSO::OnDisable
+// Writing MetadataGetter for method: GlobalNamespace::PyramidBloomMainEffectSO::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PyramidBloomMainEffectSO::*)()>(&PyramidBloomMainEffectSO::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PyramidBloomMainEffectSO::*)()>(&GlobalNamespace::PyramidBloomMainEffectSO::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PyramidBloomMainEffectSO*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PyramidBloomMainEffectSO*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PyramidBloomMainEffectSO::LazyInitializeMaterials
+// Writing MetadataGetter for method: GlobalNamespace::PyramidBloomMainEffectSO::LazyInitializeMaterials
 // Il2CppName: LazyInitializeMaterials
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PyramidBloomMainEffectSO::*)()>(&PyramidBloomMainEffectSO::LazyInitializeMaterials)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PyramidBloomMainEffectSO::*)()>(&GlobalNamespace::PyramidBloomMainEffectSO::LazyInitializeMaterials)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PyramidBloomMainEffectSO*), "LazyInitializeMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PyramidBloomMainEffectSO*), "LazyInitializeMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PyramidBloomMainEffectSO::get_hasPostProcessEffect
+// Writing MetadataGetter for method: GlobalNamespace::PyramidBloomMainEffectSO::get_hasPostProcessEffect
 // Il2CppName: get_hasPostProcessEffect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PyramidBloomMainEffectSO::*)()>(&PyramidBloomMainEffectSO::get_hasPostProcessEffect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PyramidBloomMainEffectSO::*)()>(&GlobalNamespace::PyramidBloomMainEffectSO::get_hasPostProcessEffect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PyramidBloomMainEffectSO*), "get_hasPostProcessEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PyramidBloomMainEffectSO*), "get_hasPostProcessEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PyramidBloomMainEffectSO::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::PyramidBloomMainEffectSO::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PyramidBloomMainEffectSO::*)()>(&PyramidBloomMainEffectSO::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PyramidBloomMainEffectSO::*)()>(&GlobalNamespace::PyramidBloomMainEffectSO::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PyramidBloomMainEffectSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PyramidBloomMainEffectSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PyramidBloomMainEffectSO::PreRender
+// Writing MetadataGetter for method: GlobalNamespace::PyramidBloomMainEffectSO::PreRender
 // Il2CppName: PreRender
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PyramidBloomMainEffectSO::*)()>(&PyramidBloomMainEffectSO::PreRender)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PyramidBloomMainEffectSO::*)()>(&GlobalNamespace::PyramidBloomMainEffectSO::PreRender)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PyramidBloomMainEffectSO*), "PreRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PyramidBloomMainEffectSO*), "PreRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PyramidBloomMainEffectSO::Render
+// Writing MetadataGetter for method: GlobalNamespace::PyramidBloomMainEffectSO::Render
 // Il2CppName: Render
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PyramidBloomMainEffectSO::*)(UnityEngine::RenderTexture*, UnityEngine::RenderTexture*, float)>(&PyramidBloomMainEffectSO::Render)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PyramidBloomMainEffectSO::*)(UnityEngine::RenderTexture*, UnityEngine::RenderTexture*, float)>(&GlobalNamespace::PyramidBloomMainEffectSO::Render)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PyramidBloomMainEffectSO*), "Render", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PyramidBloomMainEffectSO*), "Render", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: PyramidBloomMainEffectSO::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::PyramidBloomMainEffectSO::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PyramidBloomMainEffectSO::*)()>(&PyramidBloomMainEffectSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PyramidBloomMainEffectSO::*)()>(&GlobalNamespace::PyramidBloomMainEffectSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PyramidBloomMainEffectSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PyramidBloomMainEffectSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PyramidBloomMainEffectSO::*)()>(&PyramidBloomMainEffectSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PyramidBloomMainEffectSO::*)()>(&GlobalNamespace::PyramidBloomMainEffectSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PyramidBloomMainEffectSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PyramidBloomMainEffectSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PyramidBloomMainEffectSO::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::PyramidBloomMainEffectSO::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&PyramidBloomMainEffectSO::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::PyramidBloomMainEffectSO::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PyramidBloomMainEffectSO*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PyramidBloomMainEffectSO*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

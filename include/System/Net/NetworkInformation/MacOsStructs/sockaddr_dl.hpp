@@ -90,11 +90,11 @@ namespace System::Net::NetworkInformation::MacOsStructs {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsStructs::sockaddr_dl, "System.Net.NetworkInformation.MacOsStructs", "sockaddr_dl");
-// Writing MetadataGetter for method: sockaddr_dl::Read
+// Writing MetadataGetter for method: System::Net::NetworkInformation::MacOsStructs::sockaddr_dl::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (sockaddr_dl::*)(System::IntPtr)>(&sockaddr_dl::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::MacOsStructs::sockaddr_dl::*)(System::IntPtr)>(&System::Net::NetworkInformation::MacOsStructs::sockaddr_dl::Read)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(sockaddr_dl), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::MacOsStructs::sockaddr_dl), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };

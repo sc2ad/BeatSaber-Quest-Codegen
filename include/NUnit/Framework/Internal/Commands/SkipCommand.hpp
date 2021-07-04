@@ -55,41 +55,41 @@ namespace NUnit::Framework::Internal::Commands {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::SkipCommand*, "NUnit.Framework.Internal.Commands", "SkipCommand");
-// Writing MetadataGetter for method: SkipCommand::GetSkipReason
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::SkipCommand::GetSkipReason
 // Il2CppName: GetSkipReason
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SkipCommand::*)()>(&SkipCommand::GetSkipReason)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::Commands::SkipCommand::*)()>(&NUnit::Framework::Internal::Commands::SkipCommand::GetSkipReason)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SkipCommand*), "GetSkipReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::SkipCommand*), "GetSkipReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SkipCommand::GetProviderStackTrace
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::SkipCommand::GetProviderStackTrace
 // Il2CppName: GetProviderStackTrace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SkipCommand::*)()>(&SkipCommand::GetProviderStackTrace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::Commands::SkipCommand::*)()>(&NUnit::Framework::Internal::Commands::SkipCommand::GetProviderStackTrace)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SkipCommand*), "GetProviderStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::SkipCommand*), "GetProviderStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SkipCommand::New_ctor
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::SkipCommand::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkipCommand::*)(NUnit::Framework::Internal::Test*)>(&SkipCommand::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Commands::SkipCommand::*)(NUnit::Framework::Internal::Test*)>(&NUnit::Framework::Internal::Commands::SkipCommand::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SkipCommand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::SkipCommand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SkipCommand::*)(NUnit::Framework::Internal::Test*)>(&SkipCommand::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Commands::SkipCommand::*)(NUnit::Framework::Internal::Test*)>(&NUnit::Framework::Internal::Commands::SkipCommand::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SkipCommand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::SkipCommand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Test*>()});
   }
 };
-// Writing MetadataGetter for method: SkipCommand::Execute
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::SkipCommand::Execute
 // Il2CppName: Execute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (SkipCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&SkipCommand::Execute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (NUnit::Framework::Internal::Commands::SkipCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&NUnit::Framework::Internal::Commands::SkipCommand::Execute)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SkipCommand*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::SkipCommand*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
   }
 };

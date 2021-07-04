@@ -174,222 +174,222 @@ namespace UnityEngine::Playables {
   bool operator ==(const UnityEngine::Playables::PlayableOutputHandle& lhs, const UnityEngine::Playables::PlayableOutputHandle& rhs);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableOutputHandle, "UnityEngine.Playables", "PlayableOutputHandle");
-// Writing MetadataGetter for method: PlayableOutputHandle::get_Null
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputHandle::get_Null
 // Il2CppName: get_Null
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableOutputHandle (*)()>(&PlayableOutputHandle::get_Null)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableOutputHandle (*)()>(&UnityEngine::Playables::PlayableOutputHandle::get_Null)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableOutputHandle), "get_Null", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableOutputHandle), "get_Null", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableOutputHandle::IsPlayableOutputOfType
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputHandle::IsPlayableOutputOfType
 // Il2CppName: IsPlayableOutputOfType
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: PlayableOutputHandle::Equals
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputHandle::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayableOutputHandle::*)(UnityEngine::Playables::PlayableOutputHandle)>(&PlayableOutputHandle::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Playables::PlayableOutputHandle::*)(UnityEngine::Playables::PlayableOutputHandle)>(&UnityEngine::Playables::PlayableOutputHandle::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableOutputHandle), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableOutputHandle), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle>()});
   }
 };
-// Writing MetadataGetter for method: PlayableOutputHandle::CompareVersion
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputHandle::CompareVersion
 // Il2CppName: CompareVersion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableOutputHandle, UnityEngine::Playables::PlayableOutputHandle)>(&PlayableOutputHandle::CompareVersion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableOutputHandle, UnityEngine::Playables::PlayableOutputHandle)>(&UnityEngine::Playables::PlayableOutputHandle::CompareVersion)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableOutputHandle), "CompareVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableOutputHandle), "CompareVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle>()});
   }
 };
-// Writing MetadataGetter for method: PlayableOutputHandle::IsValid
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputHandle::IsValid
 // Il2CppName: IsValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayableOutputHandle::*)()>(&PlayableOutputHandle::IsValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Playables::PlayableOutputHandle::*)()>(&UnityEngine::Playables::PlayableOutputHandle::IsValid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableOutputHandle), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableOutputHandle), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableOutputHandle::GetPlayableOutputType
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputHandle::GetPlayableOutputType
 // Il2CppName: GetPlayableOutputType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (PlayableOutputHandle::*)()>(&PlayableOutputHandle::GetPlayableOutputType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (UnityEngine::Playables::PlayableOutputHandle::*)()>(&UnityEngine::Playables::PlayableOutputHandle::GetPlayableOutputType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableOutputHandle), "GetPlayableOutputType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableOutputHandle), "GetPlayableOutputType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableOutputHandle::SetReferenceObject
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputHandle::SetReferenceObject
 // Il2CppName: SetReferenceObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableOutputHandle::*)(UnityEngine::Object*)>(&PlayableOutputHandle::SetReferenceObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableOutputHandle::*)(UnityEngine::Object*)>(&UnityEngine::Playables::PlayableOutputHandle::SetReferenceObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableOutputHandle), "SetReferenceObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableOutputHandle), "SetReferenceObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
   }
 };
-// Writing MetadataGetter for method: PlayableOutputHandle::SetUserData
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputHandle::SetUserData
 // Il2CppName: SetUserData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableOutputHandle::*)(UnityEngine::Object*)>(&PlayableOutputHandle::SetUserData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableOutputHandle::*)(UnityEngine::Object*)>(&UnityEngine::Playables::PlayableOutputHandle::SetUserData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableOutputHandle), "SetUserData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableOutputHandle), "SetUserData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
   }
 };
-// Writing MetadataGetter for method: PlayableOutputHandle::GetSourcePlayable
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputHandle::GetSourcePlayable
 // Il2CppName: GetSourcePlayable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (PlayableOutputHandle::*)()>(&PlayableOutputHandle::GetSourcePlayable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (UnityEngine::Playables::PlayableOutputHandle::*)()>(&UnityEngine::Playables::PlayableOutputHandle::GetSourcePlayable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableOutputHandle), "GetSourcePlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableOutputHandle), "GetSourcePlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableOutputHandle::SetSourcePlayable
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputHandle::SetSourcePlayable
 // Il2CppName: SetSourcePlayable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableOutputHandle::*)(UnityEngine::Playables::PlayableHandle, int)>(&PlayableOutputHandle::SetSourcePlayable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableOutputHandle::*)(UnityEngine::Playables::PlayableHandle, int)>(&UnityEngine::Playables::PlayableOutputHandle::SetSourcePlayable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableOutputHandle), "SetSourcePlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableOutputHandle), "SetSourcePlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: PlayableOutputHandle::GetSourceOutputPort
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputHandle::GetSourceOutputPort
 // Il2CppName: GetSourceOutputPort
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PlayableOutputHandle::*)()>(&PlayableOutputHandle::GetSourceOutputPort)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Playables::PlayableOutputHandle::*)()>(&UnityEngine::Playables::PlayableOutputHandle::GetSourceOutputPort)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableOutputHandle), "GetSourceOutputPort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableOutputHandle), "GetSourceOutputPort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableOutputHandle::SetWeight
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputHandle::SetWeight
 // Il2CppName: SetWeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableOutputHandle::*)(float)>(&PlayableOutputHandle::SetWeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableOutputHandle::*)(float)>(&UnityEngine::Playables::PlayableOutputHandle::SetWeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableOutputHandle), "SetWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableOutputHandle), "SetWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: PlayableOutputHandle::PushNotification
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputHandle::PushNotification
 // Il2CppName: PushNotification
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableOutputHandle::*)(UnityEngine::Playables::PlayableHandle, UnityEngine::Playables::INotification*, ::Il2CppObject*)>(&PlayableOutputHandle::PushNotification)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableOutputHandle::*)(UnityEngine::Playables::PlayableHandle, UnityEngine::Playables::INotification*, ::Il2CppObject*)>(&UnityEngine::Playables::PlayableOutputHandle::PushNotification)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableOutputHandle), "PushNotification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::INotification*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableOutputHandle), "PushNotification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::INotification*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: PlayableOutputHandle::AddNotificationReceiver
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputHandle::AddNotificationReceiver
 // Il2CppName: AddNotificationReceiver
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableOutputHandle::*)(UnityEngine::Playables::INotificationReceiver*)>(&PlayableOutputHandle::AddNotificationReceiver)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableOutputHandle::*)(UnityEngine::Playables::INotificationReceiver*)>(&UnityEngine::Playables::PlayableOutputHandle::AddNotificationReceiver)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableOutputHandle), "AddNotificationReceiver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::INotificationReceiver*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableOutputHandle), "AddNotificationReceiver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::INotificationReceiver*>()});
   }
 };
-// Writing MetadataGetter for method: PlayableOutputHandle::_cctor
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputHandle::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&PlayableOutputHandle::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Playables::PlayableOutputHandle::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableOutputHandle), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableOutputHandle), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableOutputHandle::IsValid_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputHandle::IsValid_Injected
 // Il2CppName: IsValid_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableOutputHandle&)>(&PlayableOutputHandle::IsValid_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableOutputHandle&)>(&UnityEngine::Playables::PlayableOutputHandle::IsValid_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableOutputHandle), "IsValid_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableOutputHandle), "IsValid_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>()});
   }
 };
-// Writing MetadataGetter for method: PlayableOutputHandle::GetPlayableOutputType_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputHandle::GetPlayableOutputType_Injected
 // Il2CppName: GetPlayableOutputType_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(UnityEngine::Playables::PlayableOutputHandle&)>(&PlayableOutputHandle::GetPlayableOutputType_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(UnityEngine::Playables::PlayableOutputHandle&)>(&UnityEngine::Playables::PlayableOutputHandle::GetPlayableOutputType_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableOutputHandle), "GetPlayableOutputType_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableOutputHandle), "GetPlayableOutputType_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>()});
   }
 };
-// Writing MetadataGetter for method: PlayableOutputHandle::SetReferenceObject_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputHandle::SetReferenceObject_Injected
 // Il2CppName: SetReferenceObject_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableOutputHandle&, UnityEngine::Object*)>(&PlayableOutputHandle::SetReferenceObject_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableOutputHandle&, UnityEngine::Object*)>(&UnityEngine::Playables::PlayableOutputHandle::SetReferenceObject_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableOutputHandle), "SetReferenceObject_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableOutputHandle), "SetReferenceObject_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
   }
 };
-// Writing MetadataGetter for method: PlayableOutputHandle::SetUserData_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputHandle::SetUserData_Injected
 // Il2CppName: SetUserData_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableOutputHandle&, UnityEngine::Object*)>(&PlayableOutputHandle::SetUserData_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableOutputHandle&, UnityEngine::Object*)>(&UnityEngine::Playables::PlayableOutputHandle::SetUserData_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableOutputHandle), "SetUserData_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableOutputHandle), "SetUserData_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
   }
 };
-// Writing MetadataGetter for method: PlayableOutputHandle::GetSourcePlayable_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputHandle::GetSourcePlayable_Injected
 // Il2CppName: GetSourcePlayable_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableOutputHandle&, UnityEngine::Playables::PlayableHandle&)>(&PlayableOutputHandle::GetSourcePlayable_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableOutputHandle&, UnityEngine::Playables::PlayableHandle&)>(&UnityEngine::Playables::PlayableOutputHandle::GetSourcePlayable_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableOutputHandle), "GetSourcePlayable_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableOutputHandle), "GetSourcePlayable_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
   }
 };
-// Writing MetadataGetter for method: PlayableOutputHandle::SetSourcePlayable_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputHandle::SetSourcePlayable_Injected
 // Il2CppName: SetSourcePlayable_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableOutputHandle&, UnityEngine::Playables::PlayableHandle&, int)>(&PlayableOutputHandle::SetSourcePlayable_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableOutputHandle&, UnityEngine::Playables::PlayableHandle&, int)>(&UnityEngine::Playables::PlayableOutputHandle::SetSourcePlayable_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableOutputHandle), "SetSourcePlayable_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableOutputHandle), "SetSourcePlayable_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: PlayableOutputHandle::GetSourceOutputPort_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputHandle::GetSourceOutputPort_Injected
 // Il2CppName: GetSourceOutputPort_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Playables::PlayableOutputHandle&)>(&PlayableOutputHandle::GetSourceOutputPort_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Playables::PlayableOutputHandle&)>(&UnityEngine::Playables::PlayableOutputHandle::GetSourceOutputPort_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableOutputHandle), "GetSourceOutputPort_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableOutputHandle), "GetSourceOutputPort_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>()});
   }
 };
-// Writing MetadataGetter for method: PlayableOutputHandle::SetWeight_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputHandle::SetWeight_Injected
 // Il2CppName: SetWeight_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableOutputHandle&, float)>(&PlayableOutputHandle::SetWeight_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableOutputHandle&, float)>(&UnityEngine::Playables::PlayableOutputHandle::SetWeight_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableOutputHandle), "SetWeight_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableOutputHandle), "SetWeight_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: PlayableOutputHandle::PushNotification_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputHandle::PushNotification_Injected
 // Il2CppName: PushNotification_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableOutputHandle&, UnityEngine::Playables::PlayableHandle&, UnityEngine::Playables::INotification*, ::Il2CppObject*)>(&PlayableOutputHandle::PushNotification_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableOutputHandle&, UnityEngine::Playables::PlayableHandle&, UnityEngine::Playables::INotification*, ::Il2CppObject*)>(&UnityEngine::Playables::PlayableOutputHandle::PushNotification_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableOutputHandle), "PushNotification_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::INotification*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableOutputHandle), "PushNotification_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::INotification*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: PlayableOutputHandle::AddNotificationReceiver_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputHandle::AddNotificationReceiver_Injected
 // Il2CppName: AddNotificationReceiver_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableOutputHandle&, UnityEngine::Playables::INotificationReceiver*)>(&PlayableOutputHandle::AddNotificationReceiver_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableOutputHandle&, UnityEngine::Playables::INotificationReceiver*)>(&UnityEngine::Playables::PlayableOutputHandle::AddNotificationReceiver_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableOutputHandle), "AddNotificationReceiver_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::INotificationReceiver*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableOutputHandle), "AddNotificationReceiver_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::INotificationReceiver*>()});
   }
 };
-// Writing MetadataGetter for method: PlayableOutputHandle::GetHashCode
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputHandle::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PlayableOutputHandle::*)()>(&PlayableOutputHandle::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Playables::PlayableOutputHandle::*)()>(&UnityEngine::Playables::PlayableOutputHandle::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableOutputHandle), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableOutputHandle), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableOutputHandle::Equals
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputHandle::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayableOutputHandle::*)(::Il2CppObject*)>(&PlayableOutputHandle::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Playables::PlayableOutputHandle::*)(::Il2CppObject*)>(&UnityEngine::Playables::PlayableOutputHandle::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableOutputHandle), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableOutputHandle), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: PlayableOutputHandle::operator ==
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputHandle::operator ==
 // Il2CppName: op_Equality
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const UnityEngine::Playables::PlayableOutputHandle&, const UnityEngine::Playables::PlayableOutputHandle&)>(&PlayableOutputHandle::operator ==)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const UnityEngine::Playables::PlayableOutputHandle&, const UnityEngine::Playables::PlayableOutputHandle&)>(&UnityEngine::Playables::PlayableOutputHandle::operator ==)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableOutputHandle), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Playables::PlayableOutputHandle&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::Playables::PlayableOutputHandle&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableOutputHandle), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Playables::PlayableOutputHandle&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::Playables::PlayableOutputHandle&>()});
   }
 };

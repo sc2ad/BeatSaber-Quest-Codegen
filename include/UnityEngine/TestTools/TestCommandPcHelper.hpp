@@ -44,33 +44,33 @@ namespace UnityEngine::TestTools {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestCommandPcHelper*, "UnityEngine.TestTools", "TestCommandPcHelper");
-// Writing MetadataGetter for method: TestCommandPcHelper::SetEnumeratorPC
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestCommandPcHelper::SetEnumeratorPC
 // Il2CppName: SetEnumeratorPC
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestCommandPcHelper::*)(System::Collections::IEnumerator*, int)>(&TestCommandPcHelper::SetEnumeratorPC)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestCommandPcHelper::*)(System::Collections::IEnumerator*, int)>(&UnityEngine::TestTools::TestCommandPcHelper::SetEnumeratorPC)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestCommandPcHelper*), "SetEnumeratorPC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerator*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestCommandPcHelper*), "SetEnumeratorPC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerator*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TestCommandPcHelper::GetEnumeratorPC
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestCommandPcHelper::GetEnumeratorPC
 // Il2CppName: GetEnumeratorPC
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TestCommandPcHelper::*)(System::Collections::IEnumerator*)>(&TestCommandPcHelper::GetEnumeratorPC)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::TestTools::TestCommandPcHelper::*)(System::Collections::IEnumerator*)>(&UnityEngine::TestTools::TestCommandPcHelper::GetEnumeratorPC)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestCommandPcHelper*), "GetEnumeratorPC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerator*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestCommandPcHelper*), "GetEnumeratorPC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerator*>()});
   }
 };
-// Writing MetadataGetter for method: TestCommandPcHelper::New_ctor
+// Writing MetadataGetter for method: UnityEngine::TestTools::TestCommandPcHelper::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestCommandPcHelper::*)()>(&TestCommandPcHelper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestCommandPcHelper::*)()>(&UnityEngine::TestTools::TestCommandPcHelper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestCommandPcHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestCommandPcHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestCommandPcHelper::*)()>(&TestCommandPcHelper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::TestCommandPcHelper::*)()>(&UnityEngine::TestTools::TestCommandPcHelper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestCommandPcHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestCommandPcHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -45,51 +45,51 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ISaberSwingRatingCounter*, "", "ISaberSwingRatingCounter");
-// Writing MetadataGetter for method: ISaberSwingRatingCounter::get_beforeCutRating
+// Writing MetadataGetter for method: GlobalNamespace::ISaberSwingRatingCounter::get_beforeCutRating
 // Il2CppName: get_beforeCutRating
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (ISaberSwingRatingCounter::*)()>(&ISaberSwingRatingCounter::get_beforeCutRating)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ISaberSwingRatingCounter::*)()>(&GlobalNamespace::ISaberSwingRatingCounter::get_beforeCutRating)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ISaberSwingRatingCounter*), "get_beforeCutRating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ISaberSwingRatingCounter*), "get_beforeCutRating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ISaberSwingRatingCounter::get_afterCutRating
+// Writing MetadataGetter for method: GlobalNamespace::ISaberSwingRatingCounter::get_afterCutRating
 // Il2CppName: get_afterCutRating
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (ISaberSwingRatingCounter::*)()>(&ISaberSwingRatingCounter::get_afterCutRating)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ISaberSwingRatingCounter::*)()>(&GlobalNamespace::ISaberSwingRatingCounter::get_afterCutRating)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ISaberSwingRatingCounter*), "get_afterCutRating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ISaberSwingRatingCounter*), "get_afterCutRating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ISaberSwingRatingCounter::RegisterDidChangeReceiver
+// Writing MetadataGetter for method: GlobalNamespace::ISaberSwingRatingCounter::RegisterDidChangeReceiver
 // Il2CppName: RegisterDidChangeReceiver
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ISaberSwingRatingCounter::*)(GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*)>(&ISaberSwingRatingCounter::RegisterDidChangeReceiver)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ISaberSwingRatingCounter::*)(GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*)>(&GlobalNamespace::ISaberSwingRatingCounter::RegisterDidChangeReceiver)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ISaberSwingRatingCounter*), "RegisterDidChangeReceiver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ISaberSwingRatingCounter*), "RegisterDidChangeReceiver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>()});
   }
 };
-// Writing MetadataGetter for method: ISaberSwingRatingCounter::RegisterDidFinishReceiver
+// Writing MetadataGetter for method: GlobalNamespace::ISaberSwingRatingCounter::RegisterDidFinishReceiver
 // Il2CppName: RegisterDidFinishReceiver
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ISaberSwingRatingCounter::*)(GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*)>(&ISaberSwingRatingCounter::RegisterDidFinishReceiver)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ISaberSwingRatingCounter::*)(GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*)>(&GlobalNamespace::ISaberSwingRatingCounter::RegisterDidFinishReceiver)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ISaberSwingRatingCounter*), "RegisterDidFinishReceiver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ISaberSwingRatingCounter*), "RegisterDidFinishReceiver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>()});
   }
 };
-// Writing MetadataGetter for method: ISaberSwingRatingCounter::UnregisterDidChangeReceiver
+// Writing MetadataGetter for method: GlobalNamespace::ISaberSwingRatingCounter::UnregisterDidChangeReceiver
 // Il2CppName: UnregisterDidChangeReceiver
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ISaberSwingRatingCounter::*)(GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*)>(&ISaberSwingRatingCounter::UnregisterDidChangeReceiver)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ISaberSwingRatingCounter::*)(GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*)>(&GlobalNamespace::ISaberSwingRatingCounter::UnregisterDidChangeReceiver)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ISaberSwingRatingCounter*), "UnregisterDidChangeReceiver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ISaberSwingRatingCounter*), "UnregisterDidChangeReceiver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>()});
   }
 };
-// Writing MetadataGetter for method: ISaberSwingRatingCounter::UnregisterDidFinishReceiver
+// Writing MetadataGetter for method: GlobalNamespace::ISaberSwingRatingCounter::UnregisterDidFinishReceiver
 // Il2CppName: UnregisterDidFinishReceiver
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ISaberSwingRatingCounter::*)(GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*)>(&ISaberSwingRatingCounter::UnregisterDidFinishReceiver)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ISaberSwingRatingCounter::*)(GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*)>(&GlobalNamespace::ISaberSwingRatingCounter::UnregisterDidFinishReceiver)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ISaberSwingRatingCounter*), "UnregisterDidFinishReceiver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ISaberSwingRatingCounter*), "UnregisterDidFinishReceiver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>()});
   }
 };

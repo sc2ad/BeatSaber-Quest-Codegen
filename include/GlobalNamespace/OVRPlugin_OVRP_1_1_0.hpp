@@ -181,395 +181,395 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_1_0*, "", "OVRPlugin/OVRP_1_1_0");
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetInitialized
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetInitialized
 // Il2CppName: ovrp_GetInitialized
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&OVRPlugin::OVRP_1_1_0::ovrp_GetInitialized)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetInitialized)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::_ovrp_GetVersion
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::_ovrp_GetVersion
 // Il2CppName: _ovrp_GetVersion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&OVRPlugin::OVRP_1_1_0::_ovrp_GetVersion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::_ovrp_GetVersion)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "_ovrp_GetVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "_ovrp_GetVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetVersion
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetVersion
 // Il2CppName: ovrp_GetVersion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&OVRPlugin::OVRP_1_1_0::ovrp_GetVersion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetVersion)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::_ovrp_GetNativeSDKVersion
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::_ovrp_GetNativeSDKVersion
 // Il2CppName: _ovrp_GetNativeSDKVersion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&OVRPlugin::OVRP_1_1_0::_ovrp_GetNativeSDKVersion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::_ovrp_GetNativeSDKVersion)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "_ovrp_GetNativeSDKVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "_ovrp_GetNativeSDKVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetNativeSDKVersion
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetNativeSDKVersion
 // Il2CppName: ovrp_GetNativeSDKVersion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&OVRPlugin::OVRP_1_1_0::ovrp_GetNativeSDKVersion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetNativeSDKVersion)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetNativeSDKVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetNativeSDKVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetAudioOutId
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetAudioOutId
 // Il2CppName: ovrp_GetAudioOutId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&OVRPlugin::OVRP_1_1_0::ovrp_GetAudioOutId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetAudioOutId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetAudioOutId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetAudioOutId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetAudioInId
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetAudioInId
 // Il2CppName: ovrp_GetAudioInId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&OVRPlugin::OVRP_1_1_0::ovrp_GetAudioInId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetAudioInId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetAudioInId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetAudioInId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetEyeTextureScale
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetEyeTextureScale
 // Il2CppName: ovrp_GetEyeTextureScale
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&OVRPlugin::OVRP_1_1_0::ovrp_GetEyeTextureScale)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetEyeTextureScale)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetEyeTextureScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetEyeTextureScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_SetEyeTextureScale
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_SetEyeTextureScale
 // Il2CppName: ovrp_SetEyeTextureScale
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(float)>(&OVRPlugin::OVRP_1_1_0::ovrp_SetEyeTextureScale)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(float)>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_SetEyeTextureScale)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_SetEyeTextureScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_SetEyeTextureScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetTrackingOrientationSupported
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetTrackingOrientationSupported
 // Il2CppName: ovrp_GetTrackingOrientationSupported
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&OVRPlugin::OVRP_1_1_0::ovrp_GetTrackingOrientationSupported)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetTrackingOrientationSupported)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetTrackingOrientationSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetTrackingOrientationSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetTrackingOrientationEnabled
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetTrackingOrientationEnabled
 // Il2CppName: ovrp_GetTrackingOrientationEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&OVRPlugin::OVRP_1_1_0::ovrp_GetTrackingOrientationEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetTrackingOrientationEnabled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetTrackingOrientationEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetTrackingOrientationEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_SetTrackingOrientationEnabled
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_SetTrackingOrientationEnabled
 // Il2CppName: ovrp_SetTrackingOrientationEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(GlobalNamespace::OVRPlugin::Bool)>(&OVRPlugin::OVRP_1_1_0::ovrp_SetTrackingOrientationEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(GlobalNamespace::OVRPlugin::Bool)>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_SetTrackingOrientationEnabled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_SetTrackingOrientationEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_SetTrackingOrientationEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Bool>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetTrackingPositionSupported
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetTrackingPositionSupported
 // Il2CppName: ovrp_GetTrackingPositionSupported
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&OVRPlugin::OVRP_1_1_0::ovrp_GetTrackingPositionSupported)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetTrackingPositionSupported)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetTrackingPositionSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetTrackingPositionSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetTrackingPositionEnabled
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetTrackingPositionEnabled
 // Il2CppName: ovrp_GetTrackingPositionEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&OVRPlugin::OVRP_1_1_0::ovrp_GetTrackingPositionEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetTrackingPositionEnabled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetTrackingPositionEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetTrackingPositionEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_SetTrackingPositionEnabled
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_SetTrackingPositionEnabled
 // Il2CppName: ovrp_SetTrackingPositionEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(GlobalNamespace::OVRPlugin::Bool)>(&OVRPlugin::OVRP_1_1_0::ovrp_SetTrackingPositionEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(GlobalNamespace::OVRPlugin::Bool)>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_SetTrackingPositionEnabled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_SetTrackingPositionEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_SetTrackingPositionEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Bool>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetNodePresent
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetNodePresent
 // Il2CppName: ovrp_GetNodePresent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(GlobalNamespace::OVRPlugin::Node)>(&OVRPlugin::OVRP_1_1_0::ovrp_GetNodePresent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetNodePresent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetNodePresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Node>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetNodePresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Node>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetNodeOrientationTracked
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetNodeOrientationTracked
 // Il2CppName: ovrp_GetNodeOrientationTracked
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(GlobalNamespace::OVRPlugin::Node)>(&OVRPlugin::OVRP_1_1_0::ovrp_GetNodeOrientationTracked)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetNodeOrientationTracked)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetNodeOrientationTracked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Node>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetNodeOrientationTracked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Node>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetNodePositionTracked
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetNodePositionTracked
 // Il2CppName: ovrp_GetNodePositionTracked
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(GlobalNamespace::OVRPlugin::Node)>(&OVRPlugin::OVRP_1_1_0::ovrp_GetNodePositionTracked)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetNodePositionTracked)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetNodePositionTracked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Node>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetNodePositionTracked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Node>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetNodeFrustum
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetNodeFrustum
 // Il2CppName: ovrp_GetNodeFrustum
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Frustumf (*)(GlobalNamespace::OVRPlugin::Node)>(&OVRPlugin::OVRP_1_1_0::ovrp_GetNodeFrustum)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Frustumf (*)(GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetNodeFrustum)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetNodeFrustum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Node>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetNodeFrustum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Node>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetControllerState
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetControllerState
 // Il2CppName: ovrp_GetControllerState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::ControllerState (*)(uint)>(&OVRPlugin::OVRP_1_1_0::ovrp_GetControllerState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::ControllerState (*)(uint)>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetControllerState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetControllerState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetControllerState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetSystemCpuLevel
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetSystemCpuLevel
 // Il2CppName: ovrp_GetSystemCpuLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&OVRPlugin::OVRP_1_1_0::ovrp_GetSystemCpuLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetSystemCpuLevel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetSystemCpuLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetSystemCpuLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_SetSystemCpuLevel
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_SetSystemCpuLevel
 // Il2CppName: ovrp_SetSystemCpuLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(int)>(&OVRPlugin::OVRP_1_1_0::ovrp_SetSystemCpuLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(int)>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_SetSystemCpuLevel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_SetSystemCpuLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_SetSystemCpuLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetSystemGpuLevel
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetSystemGpuLevel
 // Il2CppName: ovrp_GetSystemGpuLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&OVRPlugin::OVRP_1_1_0::ovrp_GetSystemGpuLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetSystemGpuLevel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetSystemGpuLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetSystemGpuLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_SetSystemGpuLevel
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_SetSystemGpuLevel
 // Il2CppName: ovrp_SetSystemGpuLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(int)>(&OVRPlugin::OVRP_1_1_0::ovrp_SetSystemGpuLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(int)>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_SetSystemGpuLevel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_SetSystemGpuLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_SetSystemGpuLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetSystemPowerSavingMode
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetSystemPowerSavingMode
 // Il2CppName: ovrp_GetSystemPowerSavingMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&OVRPlugin::OVRP_1_1_0::ovrp_GetSystemPowerSavingMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetSystemPowerSavingMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetSystemPowerSavingMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetSystemPowerSavingMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetSystemDisplayFrequency
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetSystemDisplayFrequency
 // Il2CppName: ovrp_GetSystemDisplayFrequency
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&OVRPlugin::OVRP_1_1_0::ovrp_GetSystemDisplayFrequency)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetSystemDisplayFrequency)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetSystemDisplayFrequency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetSystemDisplayFrequency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetSystemVSyncCount
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetSystemVSyncCount
 // Il2CppName: ovrp_GetSystemVSyncCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&OVRPlugin::OVRP_1_1_0::ovrp_GetSystemVSyncCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetSystemVSyncCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetSystemVSyncCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetSystemVSyncCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetSystemVolume
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetSystemVolume
 // Il2CppName: ovrp_GetSystemVolume
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&OVRPlugin::OVRP_1_1_0::ovrp_GetSystemVolume)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetSystemVolume)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetSystemVolume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetSystemVolume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetSystemBatteryStatus
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetSystemBatteryStatus
 // Il2CppName: ovrp_GetSystemBatteryStatus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::BatteryStatus (*)()>(&OVRPlugin::OVRP_1_1_0::ovrp_GetSystemBatteryStatus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::BatteryStatus (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetSystemBatteryStatus)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetSystemBatteryStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetSystemBatteryStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetSystemBatteryLevel
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetSystemBatteryLevel
 // Il2CppName: ovrp_GetSystemBatteryLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&OVRPlugin::OVRP_1_1_0::ovrp_GetSystemBatteryLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetSystemBatteryLevel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetSystemBatteryLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetSystemBatteryLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetSystemBatteryTemperature
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetSystemBatteryTemperature
 // Il2CppName: ovrp_GetSystemBatteryTemperature
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&OVRPlugin::OVRP_1_1_0::ovrp_GetSystemBatteryTemperature)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetSystemBatteryTemperature)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetSystemBatteryTemperature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetSystemBatteryTemperature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::_ovrp_GetSystemProductName
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::_ovrp_GetSystemProductName
 // Il2CppName: _ovrp_GetSystemProductName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&OVRPlugin::OVRP_1_1_0::_ovrp_GetSystemProductName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::_ovrp_GetSystemProductName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "_ovrp_GetSystemProductName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "_ovrp_GetSystemProductName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetSystemProductName
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetSystemProductName
 // Il2CppName: ovrp_GetSystemProductName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&OVRPlugin::OVRP_1_1_0::ovrp_GetSystemProductName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetSystemProductName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetSystemProductName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetSystemProductName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_ShowSystemUI
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_ShowSystemUI
 // Il2CppName: ovrp_ShowSystemUI
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(GlobalNamespace::OVRPlugin::PlatformUI)>(&OVRPlugin::OVRP_1_1_0::ovrp_ShowSystemUI)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(GlobalNamespace::OVRPlugin::PlatformUI)>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_ShowSystemUI)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_ShowSystemUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::PlatformUI>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_ShowSystemUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::PlatformUI>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetAppMonoscopic
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetAppMonoscopic
 // Il2CppName: ovrp_GetAppMonoscopic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&OVRPlugin::OVRP_1_1_0::ovrp_GetAppMonoscopic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetAppMonoscopic)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetAppMonoscopic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetAppMonoscopic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_SetAppMonoscopic
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_SetAppMonoscopic
 // Il2CppName: ovrp_SetAppMonoscopic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(GlobalNamespace::OVRPlugin::Bool)>(&OVRPlugin::OVRP_1_1_0::ovrp_SetAppMonoscopic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(GlobalNamespace::OVRPlugin::Bool)>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_SetAppMonoscopic)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_SetAppMonoscopic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_SetAppMonoscopic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Bool>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetAppHasVrFocus
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetAppHasVrFocus
 // Il2CppName: ovrp_GetAppHasVrFocus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&OVRPlugin::OVRP_1_1_0::ovrp_GetAppHasVrFocus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetAppHasVrFocus)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetAppHasVrFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetAppHasVrFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetAppShouldQuit
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetAppShouldQuit
 // Il2CppName: ovrp_GetAppShouldQuit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&OVRPlugin::OVRP_1_1_0::ovrp_GetAppShouldQuit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetAppShouldQuit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetAppShouldQuit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetAppShouldQuit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetAppShouldRecenter
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetAppShouldRecenter
 // Il2CppName: ovrp_GetAppShouldRecenter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&OVRPlugin::OVRP_1_1_0::ovrp_GetAppShouldRecenter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetAppShouldRecenter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetAppShouldRecenter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetAppShouldRecenter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::_ovrp_GetAppLatencyTimings
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::_ovrp_GetAppLatencyTimings
 // Il2CppName: _ovrp_GetAppLatencyTimings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&OVRPlugin::OVRP_1_1_0::_ovrp_GetAppLatencyTimings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::_ovrp_GetAppLatencyTimings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "_ovrp_GetAppLatencyTimings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "_ovrp_GetAppLatencyTimings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetAppLatencyTimings
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetAppLatencyTimings
 // Il2CppName: ovrp_GetAppLatencyTimings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&OVRPlugin::OVRP_1_1_0::ovrp_GetAppLatencyTimings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetAppLatencyTimings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetAppLatencyTimings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetAppLatencyTimings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetUserPresent
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetUserPresent
 // Il2CppName: ovrp_GetUserPresent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&OVRPlugin::OVRP_1_1_0::ovrp_GetUserPresent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetUserPresent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetUserPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetUserPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetUserIPD
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetUserIPD
 // Il2CppName: ovrp_GetUserIPD
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&OVRPlugin::OVRP_1_1_0::ovrp_GetUserIPD)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetUserIPD)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetUserIPD", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetUserIPD", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_SetUserIPD
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_SetUserIPD
 // Il2CppName: ovrp_SetUserIPD
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(float)>(&OVRPlugin::OVRP_1_1_0::ovrp_SetUserIPD)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(float)>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_SetUserIPD)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_SetUserIPD", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_SetUserIPD", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetUserEyeDepth
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetUserEyeDepth
 // Il2CppName: ovrp_GetUserEyeDepth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&OVRPlugin::OVRP_1_1_0::ovrp_GetUserEyeDepth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetUserEyeDepth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetUserEyeDepth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetUserEyeDepth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_SetUserEyeDepth
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_SetUserEyeDepth
 // Il2CppName: ovrp_SetUserEyeDepth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(float)>(&OVRPlugin::OVRP_1_1_0::ovrp_SetUserEyeDepth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(float)>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_SetUserEyeDepth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_SetUserEyeDepth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_SetUserEyeDepth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_GetUserEyeHeight
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetUserEyeHeight
 // Il2CppName: ovrp_GetUserEyeHeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&OVRPlugin::OVRP_1_1_0::ovrp_GetUserEyeHeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetUserEyeHeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_GetUserEyeHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_GetUserEyeHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::ovrp_SetUserEyeHeight
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_SetUserEyeHeight
 // Il2CppName: ovrp_SetUserEyeHeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(float)>(&OVRPlugin::OVRP_1_1_0::ovrp_SetUserEyeHeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(float)>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_SetUserEyeHeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), "ovrp_SetUserEyeHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), "ovrp_SetUserEyeHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: OVRPlugin::OVRP_1_1_0::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_1_0::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&OVRPlugin::OVRP_1_1_0::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_1_0::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPlugin::OVRP_1_1_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_1_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

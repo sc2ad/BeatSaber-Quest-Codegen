@@ -108,41 +108,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(TrackLaneRingsPositionStepEffectSpawner) == 0x39);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner*, "", "TrackLaneRingsPositionStepEffectSpawner");
-// Writing MetadataGetter for method: TrackLaneRingsPositionStepEffectSpawner::Start
+// Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackLaneRingsPositionStepEffectSpawner::*)()>(&TrackLaneRingsPositionStepEffectSpawner::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::*)()>(&GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackLaneRingsPositionStepEffectSpawner*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackLaneRingsPositionStepEffectSpawner::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackLaneRingsPositionStepEffectSpawner::*)()>(&TrackLaneRingsPositionStepEffectSpawner::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::*)()>(&GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackLaneRingsPositionStepEffectSpawner*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackLaneRingsPositionStepEffectSpawner::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
+// Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
 // Il2CppName: HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackLaneRingsPositionStepEffectSpawner::*)(GlobalNamespace::BeatmapEventData*)>(&TrackLaneRingsPositionStepEffectSpawner::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::*)(GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackLaneRingsPositionStepEffectSpawner*), "HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner*), "HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
   }
 };
-// Writing MetadataGetter for method: TrackLaneRingsPositionStepEffectSpawner::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackLaneRingsPositionStepEffectSpawner::*)()>(&TrackLaneRingsPositionStepEffectSpawner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::*)()>(&GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackLaneRingsPositionStepEffectSpawner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackLaneRingsPositionStepEffectSpawner::*)()>(&TrackLaneRingsPositionStepEffectSpawner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::*)()>(&GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackLaneRingsPositionStepEffectSpawner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRingsPositionStepEffectSpawner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

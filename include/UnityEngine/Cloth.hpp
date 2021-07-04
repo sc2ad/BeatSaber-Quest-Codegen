@@ -56,19 +56,19 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Cloth*, "UnityEngine", "Cloth");
-// Writing MetadataGetter for method: Cloth::set_externalAcceleration
+// Writing MetadataGetter for method: UnityEngine::Cloth::set_externalAcceleration
 // Il2CppName: set_externalAcceleration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cloth::*)(UnityEngine::Vector3)>(&Cloth::set_externalAcceleration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Cloth::*)(UnityEngine::Vector3)>(&UnityEngine::Cloth::set_externalAcceleration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Cloth*), "set_externalAcceleration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cloth*), "set_externalAcceleration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: Cloth::set_externalAcceleration_Injected
+// Writing MetadataGetter for method: UnityEngine::Cloth::set_externalAcceleration_Injected
 // Il2CppName: set_externalAcceleration_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Cloth::*)(UnityEngine::Vector3&)>(&Cloth::set_externalAcceleration_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Cloth::*)(UnityEngine::Vector3&)>(&UnityEngine::Cloth::set_externalAcceleration_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Cloth*), "set_externalAcceleration_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cloth*), "set_externalAcceleration_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };

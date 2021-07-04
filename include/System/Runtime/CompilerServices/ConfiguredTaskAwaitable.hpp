@@ -120,25 +120,25 @@ namespace System::Runtime::CompilerServices {
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::ConfiguredTaskAwaitable, "System.Runtime.CompilerServices", "ConfiguredTaskAwaitable");
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter, "System.Runtime.CompilerServices", "ConfiguredTaskAwaitable/ConfiguredTaskAwaiter");
-// Writing MetadataGetter for method: ConfiguredTaskAwaitable::ConfiguredTaskAwaitable
+// Writing MetadataGetter for method: System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaitable
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfiguredTaskAwaitable::*)(System::Threading::Tasks::Task*, bool)>(&ConfiguredTaskAwaitable::ConfiguredTaskAwaitable<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::CompilerServices::ConfiguredTaskAwaitable::*)(System::Threading::Tasks::Task*, bool)>(&System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaitable<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConfiguredTaskAwaitable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConfiguredTaskAwaitable::*)(System::Threading::Tasks::Task*, bool)>(&ConfiguredTaskAwaitable::ConfiguredTaskAwaitable<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::CompilerServices::ConfiguredTaskAwaitable::*)(System::Threading::Tasks::Task*, bool)>(&System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaitable<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConfiguredTaskAwaitable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ConfiguredTaskAwaitable::GetAwaiter
+// Writing MetadataGetter for method: System::Runtime::CompilerServices::ConfiguredTaskAwaitable::GetAwaiter
 // Il2CppName: GetAwaiter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter (ConfiguredTaskAwaitable::*)()>(&ConfiguredTaskAwaitable::GetAwaiter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter (System::Runtime::CompilerServices::ConfiguredTaskAwaitable::*)()>(&System::Runtime::CompilerServices::ConfiguredTaskAwaitable::GetAwaiter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConfiguredTaskAwaitable), "GetAwaiter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable), "GetAwaiter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

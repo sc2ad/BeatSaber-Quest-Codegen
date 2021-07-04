@@ -256,289 +256,289 @@ namespace TMPro {
   static_assert(sizeof(TextContainer) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TextContainer*, "TMPro", "TextContainer");
-// Writing MetadataGetter for method: TextContainer::get_hasChanged
+// Writing MetadataGetter for method: TMPro::TextContainer::get_hasChanged
 // Il2CppName: get_hasChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TextContainer::*)()>(&TextContainer::get_hasChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_hasChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "get_hasChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "get_hasChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextContainer::set_hasChanged
+// Writing MetadataGetter for method: TMPro::TextContainer::set_hasChanged
 // Il2CppName: set_hasChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextContainer::*)(bool)>(&TextContainer::set_hasChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextContainer::*)(bool)>(&TMPro::TextContainer::set_hasChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "set_hasChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "set_hasChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: TextContainer::get_pivot
+// Writing MetadataGetter for method: TMPro::TextContainer::get_pivot
 // Il2CppName: get_pivot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (TextContainer::*)()>(&TextContainer::get_pivot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_pivot)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "get_pivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "get_pivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextContainer::set_pivot
+// Writing MetadataGetter for method: TMPro::TextContainer::set_pivot
 // Il2CppName: set_pivot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextContainer::*)(UnityEngine::Vector2)>(&TextContainer::set_pivot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextContainer::*)(UnityEngine::Vector2)>(&TMPro::TextContainer::set_pivot)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "set_pivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "set_pivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
   }
 };
-// Writing MetadataGetter for method: TextContainer::get_anchorPosition
+// Writing MetadataGetter for method: TMPro::TextContainer::get_anchorPosition
 // Il2CppName: get_anchorPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TextContainerAnchors (TextContainer::*)()>(&TextContainer::get_anchorPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TextContainerAnchors (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_anchorPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "get_anchorPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "get_anchorPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextContainer::set_anchorPosition
+// Writing MetadataGetter for method: TMPro::TextContainer::set_anchorPosition
 // Il2CppName: set_anchorPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextContainer::*)(TMPro::TextContainerAnchors)>(&TextContainer::set_anchorPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextContainer::*)(TMPro::TextContainerAnchors)>(&TMPro::TextContainer::set_anchorPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "set_anchorPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TextContainerAnchors>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "set_anchorPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TextContainerAnchors>()});
   }
 };
-// Writing MetadataGetter for method: TextContainer::get_rect
+// Writing MetadataGetter for method: TMPro::TextContainer::get_rect
 // Il2CppName: get_rect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (TextContainer::*)()>(&TextContainer::get_rect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_rect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "get_rect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "get_rect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextContainer::set_rect
+// Writing MetadataGetter for method: TMPro::TextContainer::set_rect
 // Il2CppName: set_rect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextContainer::*)(UnityEngine::Rect)>(&TextContainer::set_rect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextContainer::*)(UnityEngine::Rect)>(&TMPro::TextContainer::set_rect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "set_rect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "set_rect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>()});
   }
 };
-// Writing MetadataGetter for method: TextContainer::get_size
+// Writing MetadataGetter for method: TMPro::TextContainer::get_size
 // Il2CppName: get_size
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (TextContainer::*)()>(&TextContainer::get_size)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_size)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "get_size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "get_size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextContainer::set_size
+// Writing MetadataGetter for method: TMPro::TextContainer::set_size
 // Il2CppName: set_size
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextContainer::*)(UnityEngine::Vector2)>(&TextContainer::set_size)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextContainer::*)(UnityEngine::Vector2)>(&TMPro::TextContainer::set_size)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "set_size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "set_size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
   }
 };
-// Writing MetadataGetter for method: TextContainer::get_width
+// Writing MetadataGetter for method: TMPro::TextContainer::get_width
 // Il2CppName: get_width
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TextContainer::*)()>(&TextContainer::get_width)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_width)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "get_width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "get_width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextContainer::set_width
+// Writing MetadataGetter for method: TMPro::TextContainer::set_width
 // Il2CppName: set_width
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextContainer::*)(float)>(&TextContainer::set_width)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextContainer::*)(float)>(&TMPro::TextContainer::set_width)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "set_width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "set_width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: TextContainer::get_height
+// Writing MetadataGetter for method: TMPro::TextContainer::get_height
 // Il2CppName: get_height
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TextContainer::*)()>(&TextContainer::get_height)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_height)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "get_height", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "get_height", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextContainer::set_height
+// Writing MetadataGetter for method: TMPro::TextContainer::set_height
 // Il2CppName: set_height
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextContainer::*)(float)>(&TextContainer::set_height)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextContainer::*)(float)>(&TMPro::TextContainer::set_height)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "set_height", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "set_height", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: TextContainer::get_isDefaultWidth
+// Writing MetadataGetter for method: TMPro::TextContainer::get_isDefaultWidth
 // Il2CppName: get_isDefaultWidth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TextContainer::*)()>(&TextContainer::get_isDefaultWidth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_isDefaultWidth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "get_isDefaultWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "get_isDefaultWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextContainer::get_isDefaultHeight
+// Writing MetadataGetter for method: TMPro::TextContainer::get_isDefaultHeight
 // Il2CppName: get_isDefaultHeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TextContainer::*)()>(&TextContainer::get_isDefaultHeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_isDefaultHeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "get_isDefaultHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "get_isDefaultHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextContainer::get_isAutoFitting
+// Writing MetadataGetter for method: TMPro::TextContainer::get_isAutoFitting
 // Il2CppName: get_isAutoFitting
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TextContainer::*)()>(&TextContainer::get_isAutoFitting)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_isAutoFitting)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "get_isAutoFitting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "get_isAutoFitting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextContainer::set_isAutoFitting
+// Writing MetadataGetter for method: TMPro::TextContainer::set_isAutoFitting
 // Il2CppName: set_isAutoFitting
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextContainer::*)(bool)>(&TextContainer::set_isAutoFitting)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextContainer::*)(bool)>(&TMPro::TextContainer::set_isAutoFitting)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "set_isAutoFitting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "set_isAutoFitting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: TextContainer::get_corners
+// Writing MetadataGetter for method: TMPro::TextContainer::get_corners
 // Il2CppName: get_corners
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (TextContainer::*)()>(&TextContainer::get_corners)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_corners)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "get_corners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "get_corners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextContainer::get_worldCorners
+// Writing MetadataGetter for method: TMPro::TextContainer::get_worldCorners
 // Il2CppName: get_worldCorners
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (TextContainer::*)()>(&TextContainer::get_worldCorners)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_worldCorners)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "get_worldCorners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "get_worldCorners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextContainer::get_margins
+// Writing MetadataGetter for method: TMPro::TextContainer::get_margins
 // Il2CppName: get_margins
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (TextContainer::*)()>(&TextContainer::get_margins)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_margins)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "get_margins", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "get_margins", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextContainer::set_margins
+// Writing MetadataGetter for method: TMPro::TextContainer::set_margins
 // Il2CppName: set_margins
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextContainer::*)(UnityEngine::Vector4)>(&TextContainer::set_margins)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextContainer::*)(UnityEngine::Vector4)>(&TMPro::TextContainer::set_margins)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "set_margins", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "set_margins", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
   }
 };
-// Writing MetadataGetter for method: TextContainer::get_rectTransform
+// Writing MetadataGetter for method: TMPro::TextContainer::get_rectTransform
 // Il2CppName: get_rectTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (TextContainer::*)()>(&TextContainer::get_rectTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_rectTransform)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "get_rectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "get_rectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextContainer::get_textMeshPro
+// Writing MetadataGetter for method: TMPro::TextContainer::get_textMeshPro
 // Il2CppName: get_textMeshPro
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TextMeshPro* (TextContainer::*)()>(&TextContainer::get_textMeshPro)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TextMeshPro* (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_textMeshPro)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "get_textMeshPro", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "get_textMeshPro", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextContainer::OnContainerChanged
+// Writing MetadataGetter for method: TMPro::TextContainer::OnContainerChanged
 // Il2CppName: OnContainerChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextContainer::*)()>(&TextContainer::OnContainerChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextContainer::*)()>(&TMPro::TextContainer::OnContainerChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "OnContainerChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "OnContainerChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextContainer::SetRect
+// Writing MetadataGetter for method: TMPro::TextContainer::SetRect
 // Il2CppName: SetRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextContainer::*)(UnityEngine::Vector2)>(&TextContainer::SetRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextContainer::*)(UnityEngine::Vector2)>(&TMPro::TextContainer::SetRect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "SetRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "SetRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
   }
 };
-// Writing MetadataGetter for method: TextContainer::UpdateCorners
+// Writing MetadataGetter for method: TMPro::TextContainer::UpdateCorners
 // Il2CppName: UpdateCorners
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextContainer::*)()>(&TextContainer::UpdateCorners)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextContainer::*)()>(&TMPro::TextContainer::UpdateCorners)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "UpdateCorners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "UpdateCorners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextContainer::GetPivot
+// Writing MetadataGetter for method: TMPro::TextContainer::GetPivot
 // Il2CppName: GetPivot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (TextContainer::*)(TMPro::TextContainerAnchors)>(&TextContainer::GetPivot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (TMPro::TextContainer::*)(TMPro::TextContainerAnchors)>(&TMPro::TextContainer::GetPivot)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "GetPivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TextContainerAnchors>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "GetPivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TextContainerAnchors>()});
   }
 };
-// Writing MetadataGetter for method: TextContainer::GetAnchorPosition
+// Writing MetadataGetter for method: TMPro::TextContainer::GetAnchorPosition
 // Il2CppName: GetAnchorPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TextContainerAnchors (TextContainer::*)(UnityEngine::Vector2)>(&TextContainer::GetAnchorPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TextContainerAnchors (TMPro::TextContainer::*)(UnityEngine::Vector2)>(&TMPro::TextContainer::GetAnchorPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "GetAnchorPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "GetAnchorPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
   }
 };
-// Writing MetadataGetter for method: TextContainer::Awake
+// Writing MetadataGetter for method: TMPro::TextContainer::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextContainer::*)()>(&TextContainer::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextContainer::*)()>(&TMPro::TextContainer::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextContainer::OnEnable
+// Writing MetadataGetter for method: TMPro::TextContainer::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextContainer::*)()>(&TextContainer::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextContainer::*)()>(&TMPro::TextContainer::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextContainer::OnDisable
+// Writing MetadataGetter for method: TMPro::TextContainer::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextContainer::*)()>(&TextContainer::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextContainer::*)()>(&TMPro::TextContainer::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextContainer::OnRectTransformDimensionsChange
+// Writing MetadataGetter for method: TMPro::TextContainer::OnRectTransformDimensionsChange
 // Il2CppName: OnRectTransformDimensionsChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextContainer::*)()>(&TextContainer::OnRectTransformDimensionsChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextContainer::*)()>(&TMPro::TextContainer::OnRectTransformDimensionsChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), "OnRectTransformDimensionsChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "OnRectTransformDimensionsChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextContainer::New_ctor
+// Writing MetadataGetter for method: TMPro::TextContainer::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextContainer::*)()>(&TextContainer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextContainer::*)()>(&TMPro::TextContainer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TextContainer::*)()>(&TextContainer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextContainer::*)()>(&TMPro::TextContainer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TextContainer::_cctor
+// Writing MetadataGetter for method: TMPro::TextContainer::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TextContainer::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TMPro::TextContainer::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TextContainer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

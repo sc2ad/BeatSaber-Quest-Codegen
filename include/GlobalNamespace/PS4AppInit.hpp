@@ -116,49 +116,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(PS4AppInit) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4AppInit*, "", "PS4AppInit");
-// Writing MetadataGetter for method: PS4AppInit::AppStartAndMultiSceneEditorSetup
+// Writing MetadataGetter for method: GlobalNamespace::PS4AppInit::AppStartAndMultiSceneEditorSetup
 // Il2CppName: AppStartAndMultiSceneEditorSetup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PS4AppInit::*)()>(&PS4AppInit::AppStartAndMultiSceneEditorSetup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PS4AppInit::*)()>(&GlobalNamespace::PS4AppInit::AppStartAndMultiSceneEditorSetup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PS4AppInit*), "AppStartAndMultiSceneEditorSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4AppInit*), "AppStartAndMultiSceneEditorSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PS4AppInit::RepeatableSetup
+// Writing MetadataGetter for method: GlobalNamespace::PS4AppInit::RepeatableSetup
 // Il2CppName: RepeatableSetup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PS4AppInit::*)()>(&PS4AppInit::RepeatableSetup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PS4AppInit::*)()>(&GlobalNamespace::PS4AppInit::RepeatableSetup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PS4AppInit*), "RepeatableSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4AppInit*), "RepeatableSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PS4AppInit::TransitionToNextScene
+// Writing MetadataGetter for method: GlobalNamespace::PS4AppInit::TransitionToNextScene
 // Il2CppName: TransitionToNextScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PS4AppInit::*)()>(&PS4AppInit::TransitionToNextScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PS4AppInit::*)()>(&GlobalNamespace::PS4AppInit::TransitionToNextScene)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PS4AppInit*), "TransitionToNextScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4AppInit*), "TransitionToNextScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PS4AppInit::InstallBindings
+// Writing MetadataGetter for method: GlobalNamespace::PS4AppInit::InstallBindings
 // Il2CppName: InstallBindings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PS4AppInit::*)()>(&PS4AppInit::InstallBindings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PS4AppInit::*)()>(&GlobalNamespace::PS4AppInit::InstallBindings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PS4AppInit*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4AppInit*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PS4AppInit::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::PS4AppInit::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PS4AppInit::*)()>(&PS4AppInit::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PS4AppInit::*)()>(&GlobalNamespace::PS4AppInit::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PS4AppInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4AppInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PS4AppInit::*)()>(&PS4AppInit::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PS4AppInit::*)()>(&GlobalNamespace::PS4AppInit::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PS4AppInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4AppInit*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

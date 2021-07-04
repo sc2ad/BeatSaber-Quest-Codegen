@@ -85,35 +85,35 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SerializationHelpers*, "", "SerializationHelpers");
-// Writing MetadataGetter for method: SerializationHelpers::DeserializeData
+// Writing MetadataGetter for method: GlobalNamespace::SerializationHelpers::DeserializeData
 // Il2CppName: DeserializeData
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: SerializationHelpers::SerializeObject
+// Writing MetadataGetter for method: GlobalNamespace::SerializationHelpers::SerializeObject
 // Il2CppName: SerializeObject
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: SerializationHelpers::DeserializeDataFromPlayerPrefs
+// Writing MetadataGetter for method: GlobalNamespace::SerializationHelpers::DeserializeDataFromPlayerPrefs
 // Il2CppName: DeserializeDataFromPlayerPrefs
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: SerializationHelpers::SerializeObjectIntoPlayerPrefs
+// Writing MetadataGetter for method: GlobalNamespace::SerializationHelpers::SerializeObjectIntoPlayerPrefs
 // Il2CppName: SerializeObjectIntoPlayerPrefs
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: SerializationHelpers::DeserializeDataFromFile
+// Writing MetadataGetter for method: GlobalNamespace::SerializationHelpers::DeserializeDataFromFile
 // Il2CppName: DeserializeDataFromFile
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: SerializationHelpers::SerializeObjectToFile
+// Writing MetadataGetter for method: GlobalNamespace::SerializationHelpers::SerializeObjectToFile
 // Il2CppName: SerializeObjectToFile
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: SerializationHelpers::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::SerializationHelpers::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SerializationHelpers::*)()>(&SerializationHelpers::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SerializationHelpers::*)()>(&GlobalNamespace::SerializationHelpers::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SerializationHelpers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SerializationHelpers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SerializationHelpers::*)()>(&SerializationHelpers::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SerializationHelpers::*)()>(&GlobalNamespace::SerializationHelpers::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SerializationHelpers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SerializationHelpers*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

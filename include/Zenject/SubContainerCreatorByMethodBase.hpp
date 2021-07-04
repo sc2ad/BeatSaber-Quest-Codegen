@@ -73,33 +73,33 @@ namespace Zenject {
   static_assert(sizeof(SubContainerCreatorByMethodBase) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByMethodBase*, "Zenject", "SubContainerCreatorByMethodBase");
-// Writing MetadataGetter for method: SubContainerCreatorByMethodBase::New_ctor
+// Writing MetadataGetter for method: Zenject::SubContainerCreatorByMethodBase::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerCreatorByMethodBase::*)(Zenject::DiContainer*, Zenject::SubContainerCreatorBindInfo*)>(&SubContainerCreatorByMethodBase::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SubContainerCreatorByMethodBase::*)(Zenject::DiContainer*, Zenject::SubContainerCreatorBindInfo*)>(&Zenject::SubContainerCreatorByMethodBase::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubContainerCreatorByMethodBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::SubContainerCreatorBindInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorByMethodBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::SubContainerCreatorBindInfo*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SubContainerCreatorByMethodBase::*)(Zenject::DiContainer*, Zenject::SubContainerCreatorBindInfo*)>(&SubContainerCreatorByMethodBase::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SubContainerCreatorByMethodBase::*)(Zenject::DiContainer*, Zenject::SubContainerCreatorBindInfo*)>(&Zenject::SubContainerCreatorByMethodBase::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubContainerCreatorByMethodBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::SubContainerCreatorBindInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorByMethodBase*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::SubContainerCreatorBindInfo*>()});
   }
 };
-// Writing MetadataGetter for method: SubContainerCreatorByMethodBase::CreateSubContainer
+// Writing MetadataGetter for method: Zenject::SubContainerCreatorByMethodBase::CreateSubContainer
 // Il2CppName: CreateSubContainer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (SubContainerCreatorByMethodBase::*)(System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::InjectContext*)>(&SubContainerCreatorByMethodBase::CreateSubContainer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (Zenject::SubContainerCreatorByMethodBase::*)(System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::InjectContext*)>(&Zenject::SubContainerCreatorByMethodBase::CreateSubContainer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubContainerCreatorByMethodBase*), "CreateSubContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorByMethodBase*), "CreateSubContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
   }
 };
-// Writing MetadataGetter for method: SubContainerCreatorByMethodBase::CreateEmptySubContainer
+// Writing MetadataGetter for method: Zenject::SubContainerCreatorByMethodBase::CreateEmptySubContainer
 // Il2CppName: CreateEmptySubContainer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (SubContainerCreatorByMethodBase::*)()>(&SubContainerCreatorByMethodBase::CreateEmptySubContainer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (Zenject::SubContainerCreatorByMethodBase::*)()>(&Zenject::SubContainerCreatorByMethodBase::CreateEmptySubContainer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SubContainerCreatorByMethodBase*), "CreateEmptySubContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorByMethodBase*), "CreateEmptySubContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

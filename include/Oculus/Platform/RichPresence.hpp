@@ -48,35 +48,35 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::RichPresence*, "Oculus.Platform", "RichPresence");
-// Writing MetadataGetter for method: RichPresence::Clear
+// Writing MetadataGetter for method: Oculus::Platform::RichPresence::Clear
 // Il2CppName: Clear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request* (*)()>(&RichPresence::Clear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request* (*)()>(&Oculus::Platform::RichPresence::Clear)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RichPresence*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::RichPresence*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RichPresence::GetDestinations
+// Writing MetadataGetter for method: Oculus::Platform::RichPresence::GetDestinations
 // Il2CppName: GetDestinations
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::DestinationList*>* (*)()>(&RichPresence::GetDestinations)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::DestinationList*>* (*)()>(&Oculus::Platform::RichPresence::GetDestinations)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RichPresence*), "GetDestinations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::RichPresence*), "GetDestinations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RichPresence::Set
+// Writing MetadataGetter for method: Oculus::Platform::RichPresence::Set
 // Il2CppName: Set
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request* (*)(Oculus::Platform::RichPresenceOptions*)>(&RichPresence::Set)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request* (*)(Oculus::Platform::RichPresenceOptions*)>(&Oculus::Platform::RichPresence::Set)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RichPresence*), "Set", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::RichPresenceOptions*>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::RichPresence*), "Set", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::RichPresenceOptions*>()});
   }
 };
-// Writing MetadataGetter for method: RichPresence::GetNextDestinationListPage
+// Writing MetadataGetter for method: Oculus::Platform::RichPresence::GetNextDestinationListPage
 // Il2CppName: GetNextDestinationListPage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::DestinationList*>* (*)(Oculus::Platform::Models::DestinationList*)>(&RichPresence::GetNextDestinationListPage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::DestinationList*>* (*)(Oculus::Platform::Models::DestinationList*)>(&Oculus::Platform::RichPresence::GetNextDestinationListPage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RichPresence*), "GetNextDestinationListPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Models::DestinationList*>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::RichPresence*), "GetNextDestinationListPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Models::DestinationList*>()});
   }
 };

@@ -71,19 +71,19 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusBeatmapDataAssetFileModel::$ReloadAssetDetailsForAllLevelsAsync$d__15, "", "OculusBeatmapDataAssetFileModel/<ReloadAssetDetailsForAllLevelsAsync>d__15");
-// Writing MetadataGetter for method: OculusBeatmapDataAssetFileModel::$ReloadAssetDetailsForAllLevelsAsync$d__15::MoveNext
+// Writing MetadataGetter for method: GlobalNamespace::OculusBeatmapDataAssetFileModel::$ReloadAssetDetailsForAllLevelsAsync$d__15::MoveNext
 // Il2CppName: MoveNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusBeatmapDataAssetFileModel::$ReloadAssetDetailsForAllLevelsAsync$d__15::*)()>(&OculusBeatmapDataAssetFileModel::$ReloadAssetDetailsForAllLevelsAsync$d__15::MoveNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusBeatmapDataAssetFileModel::$ReloadAssetDetailsForAllLevelsAsync$d__15::*)()>(&GlobalNamespace::OculusBeatmapDataAssetFileModel::$ReloadAssetDetailsForAllLevelsAsync$d__15::MoveNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusBeatmapDataAssetFileModel::$ReloadAssetDetailsForAllLevelsAsync$d__15), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusBeatmapDataAssetFileModel::$ReloadAssetDetailsForAllLevelsAsync$d__15), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OculusBeatmapDataAssetFileModel::$ReloadAssetDetailsForAllLevelsAsync$d__15::SetStateMachine
+// Writing MetadataGetter for method: GlobalNamespace::OculusBeatmapDataAssetFileModel::$ReloadAssetDetailsForAllLevelsAsync$d__15::SetStateMachine
 // Il2CppName: SetStateMachine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusBeatmapDataAssetFileModel::$ReloadAssetDetailsForAllLevelsAsync$d__15::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&OculusBeatmapDataAssetFileModel::$ReloadAssetDetailsForAllLevelsAsync$d__15::SetStateMachine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusBeatmapDataAssetFileModel::$ReloadAssetDetailsForAllLevelsAsync$d__15::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&GlobalNamespace::OculusBeatmapDataAssetFileModel::$ReloadAssetDetailsForAllLevelsAsync$d__15::SetStateMachine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusBeatmapDataAssetFileModel::$ReloadAssetDetailsForAllLevelsAsync$d__15), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusBeatmapDataAssetFileModel::$ReloadAssetDetailsForAllLevelsAsync$d__15), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
   }
 };

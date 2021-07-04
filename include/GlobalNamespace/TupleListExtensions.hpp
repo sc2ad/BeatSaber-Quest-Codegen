@@ -70,12 +70,12 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TupleListExtensions*, "", "TupleListExtensions");
-// Writing MetadataGetter for method: TupleListExtensions::Add
+// Writing MetadataGetter for method: GlobalNamespace::TupleListExtensions::Add
 // Il2CppName: Add
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: TupleListExtensions::Add
+// Writing MetadataGetter for method: GlobalNamespace::TupleListExtensions::Add
 // Il2CppName: Add
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: TupleListExtensions::Add
+// Writing MetadataGetter for method: GlobalNamespace::TupleListExtensions::Add
 // Il2CppName: Add
 // Cannot write MetadataGetter for generic methods!

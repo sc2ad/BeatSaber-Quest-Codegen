@@ -66,25 +66,25 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   static_assert(sizeof(WTauNafMultiplier::WTauNafCallback) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::WTauNafCallback*, "Org.BouncyCastle.Math.EC.Multiplier", "WTauNafMultiplier/WTauNafCallback");
-// Writing MetadataGetter for method: WTauNafMultiplier::WTauNafCallback::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::WTauNafCallback::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WTauNafMultiplier::WTauNafCallback::*)(Org::BouncyCastle::Math::EC::AbstractF2mPoint*, int8_t)>(&WTauNafMultiplier::WTauNafCallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::WTauNafCallback::*)(Org::BouncyCastle::Math::EC::AbstractF2mPoint*, int8_t)>(&Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::WTauNafCallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WTauNafMultiplier::WTauNafCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>(), ::il2cpp_utils::ExtractIndependentType<int8_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::WTauNafCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>(), ::il2cpp_utils::ExtractIndependentType<int8_t>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WTauNafMultiplier::WTauNafCallback::*)(Org::BouncyCastle::Math::EC::AbstractF2mPoint*, int8_t)>(&WTauNafMultiplier::WTauNafCallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::WTauNafCallback::*)(Org::BouncyCastle::Math::EC::AbstractF2mPoint*, int8_t)>(&Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::WTauNafCallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WTauNafMultiplier::WTauNafCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>(), ::il2cpp_utils::ExtractIndependentType<int8_t>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::WTauNafCallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>(), ::il2cpp_utils::ExtractIndependentType<int8_t>()});
   }
 };
-// Writing MetadataGetter for method: WTauNafMultiplier::WTauNafCallback::Precompute
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::WTauNafCallback::Precompute
 // Il2CppName: Precompute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* (WTauNafMultiplier::WTauNafCallback::*)(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*)>(&WTauNafMultiplier::WTauNafCallback::Precompute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* (Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::WTauNafCallback::*)(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*)>(&Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::WTauNafCallback::Precompute)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WTauNafMultiplier::WTauNafCallback*), "Precompute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::WTauNafCallback*), "Precompute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>()});
   }
 };

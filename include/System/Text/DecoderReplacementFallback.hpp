@@ -83,71 +83,71 @@ namespace System::Text {
   static_assert(sizeof(DecoderReplacementFallback) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderReplacementFallback*, "System.Text", "DecoderReplacementFallback");
-// Writing MetadataGetter for method: DecoderReplacementFallback::New_ctor
+// Writing MetadataGetter for method: System::Text::DecoderReplacementFallback::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DecoderReplacementFallback::*)(::Il2CppString*)>(&DecoderReplacementFallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::DecoderReplacementFallback::*)(::Il2CppString*)>(&System::Text::DecoderReplacementFallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DecoderReplacementFallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::DecoderReplacementFallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DecoderReplacementFallback::*)(::Il2CppString*)>(&DecoderReplacementFallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::DecoderReplacementFallback::*)(::Il2CppString*)>(&System::Text::DecoderReplacementFallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DecoderReplacementFallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::DecoderReplacementFallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: DecoderReplacementFallback::get_DefaultString
+// Writing MetadataGetter for method: System::Text::DecoderReplacementFallback::get_DefaultString
 // Il2CppName: get_DefaultString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (DecoderReplacementFallback::*)()>(&DecoderReplacementFallback::get_DefaultString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Text::DecoderReplacementFallback::*)()>(&System::Text::DecoderReplacementFallback::get_DefaultString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DecoderReplacementFallback*), "get_DefaultString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::DecoderReplacementFallback*), "get_DefaultString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DecoderReplacementFallback::New_ctor
+// Writing MetadataGetter for method: System::Text::DecoderReplacementFallback::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DecoderReplacementFallback::*)()>(&DecoderReplacementFallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::DecoderReplacementFallback::*)()>(&System::Text::DecoderReplacementFallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DecoderReplacementFallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::DecoderReplacementFallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DecoderReplacementFallback::*)()>(&DecoderReplacementFallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::DecoderReplacementFallback::*)()>(&System::Text::DecoderReplacementFallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DecoderReplacementFallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::DecoderReplacementFallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DecoderReplacementFallback::CreateFallbackBuffer
+// Writing MetadataGetter for method: System::Text::DecoderReplacementFallback::CreateFallbackBuffer
 // Il2CppName: CreateFallbackBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::DecoderFallbackBuffer* (DecoderReplacementFallback::*)()>(&DecoderReplacementFallback::CreateFallbackBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::DecoderFallbackBuffer* (System::Text::DecoderReplacementFallback::*)()>(&System::Text::DecoderReplacementFallback::CreateFallbackBuffer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DecoderReplacementFallback*), "CreateFallbackBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::DecoderReplacementFallback*), "CreateFallbackBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DecoderReplacementFallback::get_MaxCharCount
+// Writing MetadataGetter for method: System::Text::DecoderReplacementFallback::get_MaxCharCount
 // Il2CppName: get_MaxCharCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DecoderReplacementFallback::*)()>(&DecoderReplacementFallback::get_MaxCharCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::DecoderReplacementFallback::*)()>(&System::Text::DecoderReplacementFallback::get_MaxCharCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DecoderReplacementFallback*), "get_MaxCharCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::DecoderReplacementFallback*), "get_MaxCharCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DecoderReplacementFallback::Equals
+// Writing MetadataGetter for method: System::Text::DecoderReplacementFallback::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DecoderReplacementFallback::*)(::Il2CppObject*)>(&DecoderReplacementFallback::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::DecoderReplacementFallback::*)(::Il2CppObject*)>(&System::Text::DecoderReplacementFallback::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DecoderReplacementFallback*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::DecoderReplacementFallback*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: DecoderReplacementFallback::GetHashCode
+// Writing MetadataGetter for method: System::Text::DecoderReplacementFallback::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DecoderReplacementFallback::*)()>(&DecoderReplacementFallback::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::DecoderReplacementFallback::*)()>(&System::Text::DecoderReplacementFallback::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DecoderReplacementFallback*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::DecoderReplacementFallback*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

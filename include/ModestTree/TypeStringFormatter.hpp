@@ -54,35 +54,35 @@ namespace ModestTree {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::TypeStringFormatter*, "ModestTree", "TypeStringFormatter");
-// Writing MetadataGetter for method: TypeStringFormatter::PrettyName
+// Writing MetadataGetter for method: ModestTree::TypeStringFormatter::PrettyName
 // Il2CppName: PrettyName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Type*)>(&TypeStringFormatter::PrettyName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Type*)>(&ModestTree::TypeStringFormatter::PrettyName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeStringFormatter*), "PrettyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeStringFormatter*), "PrettyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: TypeStringFormatter::PrettyNameInternal
+// Writing MetadataGetter for method: ModestTree::TypeStringFormatter::PrettyNameInternal
 // Il2CppName: PrettyNameInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Type*)>(&TypeStringFormatter::PrettyNameInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Type*)>(&ModestTree::TypeStringFormatter::PrettyNameInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeStringFormatter*), "PrettyNameInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeStringFormatter*), "PrettyNameInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: TypeStringFormatter::GetCSharpTypeName
+// Writing MetadataGetter for method: ModestTree::TypeStringFormatter::GetCSharpTypeName
 // Il2CppName: GetCSharpTypeName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&TypeStringFormatter::GetCSharpTypeName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&ModestTree::TypeStringFormatter::GetCSharpTypeName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeStringFormatter*), "GetCSharpTypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeStringFormatter*), "GetCSharpTypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TypeStringFormatter::_cctor
+// Writing MetadataGetter for method: ModestTree::TypeStringFormatter::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TypeStringFormatter::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ModestTree::TypeStringFormatter::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TypeStringFormatter*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeStringFormatter*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

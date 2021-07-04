@@ -72,75 +72,75 @@ namespace UnityEngine::ProBuilder {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::EdgeUtility*, "UnityEngine.ProBuilder", "EdgeUtility");
-// Writing MetadataGetter for method: EdgeUtility::GetSharedVertexHandleEdges
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeUtility::GetSharedVertexHandleEdges
 // Il2CppName: GetSharedVertexHandleEdges
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>*)>(&EdgeUtility::GetSharedVertexHandleEdges)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>*)>(&UnityEngine::ProBuilder::EdgeUtility::GetSharedVertexHandleEdges)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EdgeUtility*), "GetSharedVertexHandleEdges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::EdgeUtility*), "GetSharedVertexHandleEdges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>*>()});
   }
 };
-// Writing MetadataGetter for method: EdgeUtility::GetSharedVertexHandleEdge
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeUtility::GetSharedVertexHandleEdge
 // Il2CppName: GetSharedVertexHandleEdge
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Edge)>(&EdgeUtility::GetSharedVertexHandleEdge)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Edge)>(&UnityEngine::ProBuilder::EdgeUtility::GetSharedVertexHandleEdge)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EdgeUtility*), "GetSharedVertexHandleEdge", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::EdgeUtility*), "GetSharedVertexHandleEdge", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>()});
   }
 };
-// Writing MetadataGetter for method: EdgeUtility::GetEdgeWithSharedVertexHandles
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeUtility::GetEdgeWithSharedVertexHandles
 // Il2CppName: GetEdgeWithSharedVertexHandles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Edge)>(&EdgeUtility::GetEdgeWithSharedVertexHandles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Edge)>(&UnityEngine::ProBuilder::EdgeUtility::GetEdgeWithSharedVertexHandles)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EdgeUtility*), "GetEdgeWithSharedVertexHandles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::EdgeUtility*), "GetEdgeWithSharedVertexHandles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>()});
   }
 };
-// Writing MetadataGetter for method: EdgeUtility::ValidateEdge
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeUtility::ValidateEdge
 // Il2CppName: ValidateEdge
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Edge, UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::Face*, UnityEngine::ProBuilder::Edge>&)>(&EdgeUtility::ValidateEdge)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Edge, UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::Face*, UnityEngine::ProBuilder::Edge>&)>(&UnityEngine::ProBuilder::EdgeUtility::ValidateEdge)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EdgeUtility*), "ValidateEdge", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::Face*, UnityEngine::ProBuilder::Edge>&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::EdgeUtility*), "ValidateEdge", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::Face*, UnityEngine::ProBuilder::Edge>&>()});
   }
 };
-// Writing MetadataGetter for method: EdgeUtility::Contains
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeUtility::Contains
 // Il2CppName: Contains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<UnityEngine::ProBuilder::Edge>*, UnityEngine::ProBuilder::Edge)>(&EdgeUtility::Contains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<UnityEngine::ProBuilder::Edge>*, UnityEngine::ProBuilder::Edge)>(&UnityEngine::ProBuilder::EdgeUtility::Contains)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EdgeUtility*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::ProBuilder::Edge>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::EdgeUtility*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::ProBuilder::Edge>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>()});
   }
 };
-// Writing MetadataGetter for method: EdgeUtility::Contains
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeUtility::Contains
 // Il2CppName: Contains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<UnityEngine::ProBuilder::Edge>*, int, int)>(&EdgeUtility::Contains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<UnityEngine::ProBuilder::Edge>*, int, int)>(&UnityEngine::ProBuilder::EdgeUtility::Contains)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EdgeUtility*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::ProBuilder::Edge>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::EdgeUtility*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::ProBuilder::Edge>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: EdgeUtility::IndexOf
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeUtility::IndexOf
 // Il2CppName: IndexOf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Edge>*, UnityEngine::ProBuilder::Edge)>(&EdgeUtility::IndexOf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Edge>*, UnityEngine::ProBuilder::Edge)>(&UnityEngine::ProBuilder::EdgeUtility::IndexOf)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EdgeUtility*), "IndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Edge>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::EdgeUtility*), "IndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Edge>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>()});
   }
 };
-// Writing MetadataGetter for method: EdgeUtility::AllTriangles
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeUtility::AllTriangles
 // Il2CppName: AllTriangles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(::Array<UnityEngine::ProBuilder::Edge>*)>(&EdgeUtility::AllTriangles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(::Array<UnityEngine::ProBuilder::Edge>*)>(&UnityEngine::ProBuilder::EdgeUtility::AllTriangles)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EdgeUtility*), "AllTriangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::ProBuilder::Edge>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::EdgeUtility*), "AllTriangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::ProBuilder::Edge>*>()});
   }
 };
-// Writing MetadataGetter for method: EdgeUtility::GetFace
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeUtility::GetFace
 // Il2CppName: GetFace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Face* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Edge)>(&EdgeUtility::GetFace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Face* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Edge)>(&UnityEngine::ProBuilder::EdgeUtility::GetFace)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EdgeUtility*), "GetFace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::EdgeUtility*), "GetFace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>()});
   }
 };

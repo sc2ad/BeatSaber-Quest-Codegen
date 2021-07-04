@@ -142,105 +142,105 @@ namespace GlobalNamespace {
   static_assert(sizeof(AnnotatedBeatmapLevelCollectionsViewController) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController*, "", "AnnotatedBeatmapLevelCollectionsViewController");
-// Writing MetadataGetter for method: AnnotatedBeatmapLevelCollectionsViewController::add_didSelectAnnotatedBeatmapLevelCollectionEvent
+// Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::add_didSelectAnnotatedBeatmapLevelCollectionEvent
 // Il2CppName: add_didSelectAnnotatedBeatmapLevelCollectionEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnnotatedBeatmapLevelCollectionsViewController::*)(System::Action_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>*)>(&AnnotatedBeatmapLevelCollectionsViewController::add_didSelectAnnotatedBeatmapLevelCollectionEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::*)(System::Action_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>*)>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::add_didSelectAnnotatedBeatmapLevelCollectionEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnnotatedBeatmapLevelCollectionsViewController*), "add_didSelectAnnotatedBeatmapLevelCollectionEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController*), "add_didSelectAnnotatedBeatmapLevelCollectionEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>*>()});
   }
 };
-// Writing MetadataGetter for method: AnnotatedBeatmapLevelCollectionsViewController::remove_didSelectAnnotatedBeatmapLevelCollectionEvent
+// Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::remove_didSelectAnnotatedBeatmapLevelCollectionEvent
 // Il2CppName: remove_didSelectAnnotatedBeatmapLevelCollectionEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnnotatedBeatmapLevelCollectionsViewController::*)(System::Action_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>*)>(&AnnotatedBeatmapLevelCollectionsViewController::remove_didSelectAnnotatedBeatmapLevelCollectionEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::*)(System::Action_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>*)>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::remove_didSelectAnnotatedBeatmapLevelCollectionEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnnotatedBeatmapLevelCollectionsViewController*), "remove_didSelectAnnotatedBeatmapLevelCollectionEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController*), "remove_didSelectAnnotatedBeatmapLevelCollectionEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>*>()});
   }
 };
-// Writing MetadataGetter for method: AnnotatedBeatmapLevelCollectionsViewController::get_selectedAnnotatedBeatmapLevelCollection
+// Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::get_selectedAnnotatedBeatmapLevelCollection
 // Il2CppName: get_selectedAnnotatedBeatmapLevelCollection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IAnnotatedBeatmapLevelCollection* (AnnotatedBeatmapLevelCollectionsViewController::*)()>(&AnnotatedBeatmapLevelCollectionsViewController::get_selectedAnnotatedBeatmapLevelCollection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IAnnotatedBeatmapLevelCollection* (GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::*)()>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::get_selectedAnnotatedBeatmapLevelCollection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnnotatedBeatmapLevelCollectionsViewController*), "get_selectedAnnotatedBeatmapLevelCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController*), "get_selectedAnnotatedBeatmapLevelCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AnnotatedBeatmapLevelCollectionsViewController::get_selectedItemIndex
+// Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::get_selectedItemIndex
 // Il2CppName: get_selectedItemIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AnnotatedBeatmapLevelCollectionsViewController::*)()>(&AnnotatedBeatmapLevelCollectionsViewController::get_selectedItemIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::*)()>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::get_selectedItemIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnnotatedBeatmapLevelCollectionsViewController*), "get_selectedItemIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController*), "get_selectedItemIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AnnotatedBeatmapLevelCollectionsViewController::RefreshAvailability
+// Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::RefreshAvailability
 // Il2CppName: RefreshAvailability
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnnotatedBeatmapLevelCollectionsViewController::*)()>(&AnnotatedBeatmapLevelCollectionsViewController::RefreshAvailability)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::*)()>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::RefreshAvailability)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnnotatedBeatmapLevelCollectionsViewController*), "RefreshAvailability", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController*), "RefreshAvailability", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AnnotatedBeatmapLevelCollectionsViewController::SetData
+// Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::SetData
 // Il2CppName: SetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnnotatedBeatmapLevelCollectionsViewController::*)(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>*, int, bool)>(&AnnotatedBeatmapLevelCollectionsViewController::SetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::*)(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>*, int, bool)>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::SetData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnnotatedBeatmapLevelCollectionsViewController*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AnnotatedBeatmapLevelCollectionsViewController::ShowLoading
+// Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::ShowLoading
 // Il2CppName: ShowLoading
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnnotatedBeatmapLevelCollectionsViewController::*)()>(&AnnotatedBeatmapLevelCollectionsViewController::ShowLoading)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::*)()>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::ShowLoading)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnnotatedBeatmapLevelCollectionsViewController*), "ShowLoading", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController*), "ShowLoading", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AnnotatedBeatmapLevelCollectionsViewController::HandleAdditionalContentModelDidInvalidateData
+// Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::HandleAdditionalContentModelDidInvalidateData
 // Il2CppName: HandleAdditionalContentModelDidInvalidateData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnnotatedBeatmapLevelCollectionsViewController::*)()>(&AnnotatedBeatmapLevelCollectionsViewController::HandleAdditionalContentModelDidInvalidateData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::*)()>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::HandleAdditionalContentModelDidInvalidateData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnnotatedBeatmapLevelCollectionsViewController*), "HandleAdditionalContentModelDidInvalidateData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController*), "HandleAdditionalContentModelDidInvalidateData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AnnotatedBeatmapLevelCollectionsViewController::HandleDidSelectAnnotatedBeatmapLevelCollection
+// Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::HandleDidSelectAnnotatedBeatmapLevelCollection
 // Il2CppName: HandleDidSelectAnnotatedBeatmapLevelCollection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnnotatedBeatmapLevelCollectionsViewController::*)(GlobalNamespace::AnnotatedBeatmapLevelCollectionsTableView*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*)>(&AnnotatedBeatmapLevelCollectionsViewController::HandleDidSelectAnnotatedBeatmapLevelCollection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::*)(GlobalNamespace::AnnotatedBeatmapLevelCollectionsTableView*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*)>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::HandleDidSelectAnnotatedBeatmapLevelCollection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnnotatedBeatmapLevelCollectionsViewController*), "HandleDidSelectAnnotatedBeatmapLevelCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AnnotatedBeatmapLevelCollectionsTableView*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController*), "HandleDidSelectAnnotatedBeatmapLevelCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AnnotatedBeatmapLevelCollectionsTableView*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>()});
   }
 };
-// Writing MetadataGetter for method: AnnotatedBeatmapLevelCollectionsViewController::DidActivate
+// Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnnotatedBeatmapLevelCollectionsViewController::*)(bool, bool, bool)>(&AnnotatedBeatmapLevelCollectionsViewController::DidActivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::*)(bool, bool, bool)>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::DidActivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnnotatedBeatmapLevelCollectionsViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AnnotatedBeatmapLevelCollectionsViewController::DidDeactivate
+// Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::DidDeactivate
 // Il2CppName: DidDeactivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnnotatedBeatmapLevelCollectionsViewController::*)(bool, bool)>(&AnnotatedBeatmapLevelCollectionsViewController::DidDeactivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::*)(bool, bool)>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::DidDeactivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnnotatedBeatmapLevelCollectionsViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AnnotatedBeatmapLevelCollectionsViewController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnnotatedBeatmapLevelCollectionsViewController::*)()>(&AnnotatedBeatmapLevelCollectionsViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::*)()>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnnotatedBeatmapLevelCollectionsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AnnotatedBeatmapLevelCollectionsViewController::*)()>(&AnnotatedBeatmapLevelCollectionsViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::*)()>(&GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnnotatedBeatmapLevelCollectionsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

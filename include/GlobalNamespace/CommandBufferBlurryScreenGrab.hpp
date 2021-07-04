@@ -117,49 +117,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(CommandBufferBlurryScreenGrab) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CommandBufferBlurryScreenGrab*, "", "CommandBufferBlurryScreenGrab");
-// Writing MetadataGetter for method: CommandBufferBlurryScreenGrab::CreateCommandBuffer
+// Writing MetadataGetter for method: GlobalNamespace::CommandBufferBlurryScreenGrab::CreateCommandBuffer
 // Il2CppName: CreateCommandBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::CommandBuffer* (CommandBufferBlurryScreenGrab::*)(UnityEngine::Camera*)>(&CommandBufferBlurryScreenGrab::CreateCommandBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::CommandBuffer* (GlobalNamespace::CommandBufferBlurryScreenGrab::*)(UnityEngine::Camera*)>(&GlobalNamespace::CommandBufferBlurryScreenGrab::CreateCommandBuffer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CommandBufferBlurryScreenGrab*), "CreateCommandBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferBlurryScreenGrab*), "CreateCommandBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
   }
 };
-// Writing MetadataGetter for method: CommandBufferBlurryScreenGrab::CamerasDict
+// Writing MetadataGetter for method: GlobalNamespace::CommandBufferBlurryScreenGrab::CamerasDict
 // Il2CppName: CamerasDict
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CommandBufferOwners*>* (CommandBufferBlurryScreenGrab::*)()>(&CommandBufferBlurryScreenGrab::CamerasDict)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CommandBufferOwners*>* (GlobalNamespace::CommandBufferBlurryScreenGrab::*)()>(&GlobalNamespace::CommandBufferBlurryScreenGrab::CamerasDict)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CommandBufferBlurryScreenGrab*), "CamerasDict", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferBlurryScreenGrab*), "CamerasDict", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CommandBufferBlurryScreenGrab::CommandBufferCameraEvent
+// Writing MetadataGetter for method: GlobalNamespace::CommandBufferBlurryScreenGrab::CommandBufferCameraEvent
 // Il2CppName: CommandBufferCameraEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::CameraEvent (CommandBufferBlurryScreenGrab::*)()>(&CommandBufferBlurryScreenGrab::CommandBufferCameraEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::CameraEvent (GlobalNamespace::CommandBufferBlurryScreenGrab::*)()>(&GlobalNamespace::CommandBufferBlurryScreenGrab::CommandBufferCameraEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CommandBufferBlurryScreenGrab*), "CommandBufferCameraEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferBlurryScreenGrab*), "CommandBufferCameraEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CommandBufferBlurryScreenGrab::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::CommandBufferBlurryScreenGrab::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CommandBufferBlurryScreenGrab::*)()>(&CommandBufferBlurryScreenGrab::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CommandBufferBlurryScreenGrab::*)()>(&GlobalNamespace::CommandBufferBlurryScreenGrab::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CommandBufferBlurryScreenGrab*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferBlurryScreenGrab*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CommandBufferBlurryScreenGrab::*)()>(&CommandBufferBlurryScreenGrab::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CommandBufferBlurryScreenGrab::*)()>(&GlobalNamespace::CommandBufferBlurryScreenGrab::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CommandBufferBlurryScreenGrab*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferBlurryScreenGrab*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CommandBufferBlurryScreenGrab::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::CommandBufferBlurryScreenGrab::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CommandBufferBlurryScreenGrab::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::CommandBufferBlurryScreenGrab::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CommandBufferBlurryScreenGrab*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferBlurryScreenGrab*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

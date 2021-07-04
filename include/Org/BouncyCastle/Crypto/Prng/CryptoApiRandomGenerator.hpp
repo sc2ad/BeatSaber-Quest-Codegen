@@ -66,39 +66,39 @@ namespace Org::BouncyCastle::Crypto::Prng {
   static_assert(sizeof(CryptoApiRandomGenerator) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator*, "Org.BouncyCastle.Crypto.Prng", "CryptoApiRandomGenerator");
-// Writing MetadataGetter for method: CryptoApiRandomGenerator::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CryptoApiRandomGenerator::*)(System::Security::Cryptography::RandomNumberGenerator*)>(&CryptoApiRandomGenerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::*)(System::Security::Cryptography::RandomNumberGenerator*)>(&Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CryptoApiRandomGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RandomNumberGenerator*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RandomNumberGenerator*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CryptoApiRandomGenerator::*)(System::Security::Cryptography::RandomNumberGenerator*)>(&CryptoApiRandomGenerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::*)(System::Security::Cryptography::RandomNumberGenerator*)>(&Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CryptoApiRandomGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RandomNumberGenerator*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RandomNumberGenerator*>()});
   }
 };
-// Writing MetadataGetter for method: CryptoApiRandomGenerator::NextBytes
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::NextBytes
 // Il2CppName: NextBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CryptoApiRandomGenerator::*)(::Array<uint8_t>*)>(&CryptoApiRandomGenerator::NextBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::NextBytes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CryptoApiRandomGenerator*), "NextBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator*), "NextBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: CryptoApiRandomGenerator::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CryptoApiRandomGenerator::*)()>(&CryptoApiRandomGenerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::*)()>(&Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CryptoApiRandomGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CryptoApiRandomGenerator::*)()>(&CryptoApiRandomGenerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::*)()>(&Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CryptoApiRandomGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

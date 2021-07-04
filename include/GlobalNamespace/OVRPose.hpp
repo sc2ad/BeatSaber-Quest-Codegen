@@ -80,83 +80,83 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPose, "", "OVRPose");
-// Writing MetadataGetter for method: OVRPose::get_identity
+// Writing MetadataGetter for method: GlobalNamespace::OVRPose::get_identity
 // Il2CppName: get_identity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPose (*)()>(&OVRPose::get_identity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPose (*)()>(&GlobalNamespace::OVRPose::get_identity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPose), "get_identity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPose), "get_identity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPose::Inverse
+// Writing MetadataGetter for method: GlobalNamespace::OVRPose::Inverse
 // Il2CppName: Inverse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPose (OVRPose::*)()>(&OVRPose::Inverse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPose (GlobalNamespace::OVRPose::*)()>(&GlobalNamespace::OVRPose::Inverse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPose), "Inverse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPose), "Inverse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPose::flipZ
+// Writing MetadataGetter for method: GlobalNamespace::OVRPose::flipZ
 // Il2CppName: flipZ
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPose (OVRPose::*)()>(&OVRPose::flipZ)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPose (GlobalNamespace::OVRPose::*)()>(&GlobalNamespace::OVRPose::flipZ)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPose), "flipZ", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPose), "flipZ", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPose::ToPosef_Legacy
+// Writing MetadataGetter for method: GlobalNamespace::OVRPose::ToPosef_Legacy
 // Il2CppName: ToPosef_Legacy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Posef (OVRPose::*)()>(&OVRPose::ToPosef_Legacy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Posef (GlobalNamespace::OVRPose::*)()>(&GlobalNamespace::OVRPose::ToPosef_Legacy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPose), "ToPosef_Legacy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPose), "ToPosef_Legacy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPose::ToPosef
+// Writing MetadataGetter for method: GlobalNamespace::OVRPose::ToPosef
 // Il2CppName: ToPosef
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Posef (OVRPose::*)()>(&OVRPose::ToPosef)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Posef (GlobalNamespace::OVRPose::*)()>(&GlobalNamespace::OVRPose::ToPosef)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPose), "ToPosef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPose), "ToPosef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPose::Equals
+// Writing MetadataGetter for method: GlobalNamespace::OVRPose::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRPose::*)(::Il2CppObject*)>(&OVRPose::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRPose::*)(::Il2CppObject*)>(&GlobalNamespace::OVRPose::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPose), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPose), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: OVRPose::GetHashCode
+// Writing MetadataGetter for method: GlobalNamespace::OVRPose::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OVRPose::*)()>(&OVRPose::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::OVRPose::*)()>(&GlobalNamespace::OVRPose::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPose), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPose), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRPose::operator ==
+// Writing MetadataGetter for method: GlobalNamespace::OVRPose::operator ==
 // Il2CppName: op_Equality
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const GlobalNamespace::OVRPose&, const GlobalNamespace::OVRPose&)>(&OVRPose::operator ==)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const GlobalNamespace::OVRPose&, const GlobalNamespace::OVRPose&)>(&GlobalNamespace::OVRPose::operator ==)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPose), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::OVRPose&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::OVRPose&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPose), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::OVRPose&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::OVRPose&>()});
   }
 };
-// Writing MetadataGetter for method: OVRPose::operator !=
+// Writing MetadataGetter for method: GlobalNamespace::OVRPose::operator !=
 // Il2CppName: op_Inequality
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const GlobalNamespace::OVRPose&, const GlobalNamespace::OVRPose&)>(&OVRPose::operator !=)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const GlobalNamespace::OVRPose&, const GlobalNamespace::OVRPose&)>(&GlobalNamespace::OVRPose::operator !=)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPose), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::OVRPose&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::OVRPose&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPose), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::OVRPose&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::OVRPose&>()});
   }
 };
-// Writing MetadataGetter for method: OVRPose::operator*
+// Writing MetadataGetter for method: GlobalNamespace::OVRPose::operator*
 // Il2CppName: op_Multiply
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPose (*)(const GlobalNamespace::OVRPose&, const GlobalNamespace::OVRPose&)>(&OVRPose::operator*)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPose (*)(const GlobalNamespace::OVRPose&, const GlobalNamespace::OVRPose&)>(&GlobalNamespace::OVRPose::operator*)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRPose), "op_Multiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::OVRPose&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::OVRPose&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPose), "op_Multiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::OVRPose&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::OVRPose&>()});
   }
 };

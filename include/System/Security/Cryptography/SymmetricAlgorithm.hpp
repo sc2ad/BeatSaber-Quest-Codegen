@@ -182,217 +182,217 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(SymmetricAlgorithm) == 0x44);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SymmetricAlgorithm*, "System.Security.Cryptography", "SymmetricAlgorithm");
-// Writing MetadataGetter for method: SymmetricAlgorithm::Dispose
+// Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricAlgorithm::*)()>(&SymmetricAlgorithm::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SymmetricAlgorithm::*)()>(&System::Security::Cryptography::SymmetricAlgorithm::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricAlgorithm*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SymmetricAlgorithm::Clear
+// Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::Clear
 // Il2CppName: Clear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricAlgorithm::*)()>(&SymmetricAlgorithm::Clear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SymmetricAlgorithm::*)()>(&System::Security::Cryptography::SymmetricAlgorithm::Clear)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricAlgorithm*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SymmetricAlgorithm::Dispose
+// Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricAlgorithm::*)(bool)>(&SymmetricAlgorithm::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SymmetricAlgorithm::*)(bool)>(&System::Security::Cryptography::SymmetricAlgorithm::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricAlgorithm*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: SymmetricAlgorithm::get_BlockSize
+// Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::get_BlockSize
 // Il2CppName: get_BlockSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SymmetricAlgorithm::*)()>(&SymmetricAlgorithm::get_BlockSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Cryptography::SymmetricAlgorithm::*)()>(&System::Security::Cryptography::SymmetricAlgorithm::get_BlockSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricAlgorithm*), "get_BlockSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), "get_BlockSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SymmetricAlgorithm::set_BlockSize
+// Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::set_BlockSize
 // Il2CppName: set_BlockSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricAlgorithm::*)(int)>(&SymmetricAlgorithm::set_BlockSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SymmetricAlgorithm::*)(int)>(&System::Security::Cryptography::SymmetricAlgorithm::set_BlockSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricAlgorithm*), "set_BlockSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), "set_BlockSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SymmetricAlgorithm::get_FeedbackSize
+// Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::get_FeedbackSize
 // Il2CppName: get_FeedbackSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SymmetricAlgorithm::*)()>(&SymmetricAlgorithm::get_FeedbackSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Cryptography::SymmetricAlgorithm::*)()>(&System::Security::Cryptography::SymmetricAlgorithm::get_FeedbackSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricAlgorithm*), "get_FeedbackSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), "get_FeedbackSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SymmetricAlgorithm::get_IV
+// Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::get_IV
 // Il2CppName: get_IV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (SymmetricAlgorithm::*)()>(&SymmetricAlgorithm::get_IV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Security::Cryptography::SymmetricAlgorithm::*)()>(&System::Security::Cryptography::SymmetricAlgorithm::get_IV)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricAlgorithm*), "get_IV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), "get_IV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SymmetricAlgorithm::set_IV
+// Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::set_IV
 // Il2CppName: set_IV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricAlgorithm::*)(::Array<uint8_t>*)>(&SymmetricAlgorithm::set_IV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SymmetricAlgorithm::*)(::Array<uint8_t>*)>(&System::Security::Cryptography::SymmetricAlgorithm::set_IV)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricAlgorithm*), "set_IV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), "set_IV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: SymmetricAlgorithm::get_Key
+// Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::get_Key
 // Il2CppName: get_Key
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (SymmetricAlgorithm::*)()>(&SymmetricAlgorithm::get_Key)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Security::Cryptography::SymmetricAlgorithm::*)()>(&System::Security::Cryptography::SymmetricAlgorithm::get_Key)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricAlgorithm*), "get_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), "get_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SymmetricAlgorithm::set_Key
+// Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::set_Key
 // Il2CppName: set_Key
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricAlgorithm::*)(::Array<uint8_t>*)>(&SymmetricAlgorithm::set_Key)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SymmetricAlgorithm::*)(::Array<uint8_t>*)>(&System::Security::Cryptography::SymmetricAlgorithm::set_Key)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricAlgorithm*), "set_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), "set_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: SymmetricAlgorithm::get_LegalKeySizes
+// Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::get_LegalKeySizes
 // Il2CppName: get_LegalKeySizes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Security::Cryptography::KeySizes*>* (SymmetricAlgorithm::*)()>(&SymmetricAlgorithm::get_LegalKeySizes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Security::Cryptography::KeySizes*>* (System::Security::Cryptography::SymmetricAlgorithm::*)()>(&System::Security::Cryptography::SymmetricAlgorithm::get_LegalKeySizes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricAlgorithm*), "get_LegalKeySizes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), "get_LegalKeySizes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SymmetricAlgorithm::get_KeySize
+// Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::get_KeySize
 // Il2CppName: get_KeySize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SymmetricAlgorithm::*)()>(&SymmetricAlgorithm::get_KeySize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Cryptography::SymmetricAlgorithm::*)()>(&System::Security::Cryptography::SymmetricAlgorithm::get_KeySize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricAlgorithm*), "get_KeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), "get_KeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SymmetricAlgorithm::set_KeySize
+// Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::set_KeySize
 // Il2CppName: set_KeySize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricAlgorithm::*)(int)>(&SymmetricAlgorithm::set_KeySize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SymmetricAlgorithm::*)(int)>(&System::Security::Cryptography::SymmetricAlgorithm::set_KeySize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricAlgorithm*), "set_KeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), "set_KeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SymmetricAlgorithm::get_Mode
+// Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::get_Mode
 // Il2CppName: get_Mode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::CipherMode (SymmetricAlgorithm::*)()>(&SymmetricAlgorithm::get_Mode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::CipherMode (System::Security::Cryptography::SymmetricAlgorithm::*)()>(&System::Security::Cryptography::SymmetricAlgorithm::get_Mode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricAlgorithm*), "get_Mode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), "get_Mode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SymmetricAlgorithm::set_Mode
+// Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::set_Mode
 // Il2CppName: set_Mode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricAlgorithm::*)(System::Security::Cryptography::CipherMode)>(&SymmetricAlgorithm::set_Mode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SymmetricAlgorithm::*)(System::Security::Cryptography::CipherMode)>(&System::Security::Cryptography::SymmetricAlgorithm::set_Mode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricAlgorithm*), "set_Mode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::CipherMode>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), "set_Mode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::CipherMode>()});
   }
 };
-// Writing MetadataGetter for method: SymmetricAlgorithm::get_Padding
+// Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::get_Padding
 // Il2CppName: get_Padding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::PaddingMode (SymmetricAlgorithm::*)()>(&SymmetricAlgorithm::get_Padding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::PaddingMode (System::Security::Cryptography::SymmetricAlgorithm::*)()>(&System::Security::Cryptography::SymmetricAlgorithm::get_Padding)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricAlgorithm*), "get_Padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), "get_Padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SymmetricAlgorithm::set_Padding
+// Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::set_Padding
 // Il2CppName: set_Padding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricAlgorithm::*)(System::Security::Cryptography::PaddingMode)>(&SymmetricAlgorithm::set_Padding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SymmetricAlgorithm::*)(System::Security::Cryptography::PaddingMode)>(&System::Security::Cryptography::SymmetricAlgorithm::set_Padding)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricAlgorithm*), "set_Padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::PaddingMode>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), "set_Padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::PaddingMode>()});
   }
 };
-// Writing MetadataGetter for method: SymmetricAlgorithm::ValidKeySize
+// Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::ValidKeySize
 // Il2CppName: ValidKeySize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SymmetricAlgorithm::*)(int)>(&SymmetricAlgorithm::ValidKeySize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::SymmetricAlgorithm::*)(int)>(&System::Security::Cryptography::SymmetricAlgorithm::ValidKeySize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricAlgorithm*), "ValidKeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), "ValidKeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SymmetricAlgorithm::Create
+// Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::SymmetricAlgorithm* (*)(::Il2CppString*)>(&SymmetricAlgorithm::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::SymmetricAlgorithm* (*)(::Il2CppString*)>(&System::Security::Cryptography::SymmetricAlgorithm::Create)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricAlgorithm*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: SymmetricAlgorithm::CreateEncryptor
+// Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::CreateEncryptor
 // Il2CppName: CreateEncryptor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (SymmetricAlgorithm::*)()>(&SymmetricAlgorithm::CreateEncryptor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (System::Security::Cryptography::SymmetricAlgorithm::*)()>(&System::Security::Cryptography::SymmetricAlgorithm::CreateEncryptor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricAlgorithm*), "CreateEncryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), "CreateEncryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SymmetricAlgorithm::CreateEncryptor
+// Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::CreateEncryptor
 // Il2CppName: CreateEncryptor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (SymmetricAlgorithm::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&SymmetricAlgorithm::CreateEncryptor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (System::Security::Cryptography::SymmetricAlgorithm::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&System::Security::Cryptography::SymmetricAlgorithm::CreateEncryptor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricAlgorithm*), "CreateEncryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), "CreateEncryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: SymmetricAlgorithm::CreateDecryptor
+// Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::CreateDecryptor
 // Il2CppName: CreateDecryptor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (SymmetricAlgorithm::*)()>(&SymmetricAlgorithm::CreateDecryptor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (System::Security::Cryptography::SymmetricAlgorithm::*)()>(&System::Security::Cryptography::SymmetricAlgorithm::CreateDecryptor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricAlgorithm*), "CreateDecryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), "CreateDecryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SymmetricAlgorithm::CreateDecryptor
+// Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::CreateDecryptor
 // Il2CppName: CreateDecryptor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (SymmetricAlgorithm::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&SymmetricAlgorithm::CreateDecryptor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (System::Security::Cryptography::SymmetricAlgorithm::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&System::Security::Cryptography::SymmetricAlgorithm::CreateDecryptor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricAlgorithm*), "CreateDecryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), "CreateDecryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: SymmetricAlgorithm::GenerateKey
+// Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::GenerateKey
 // Il2CppName: GenerateKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricAlgorithm::*)()>(&SymmetricAlgorithm::GenerateKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SymmetricAlgorithm::*)()>(&System::Security::Cryptography::SymmetricAlgorithm::GenerateKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricAlgorithm*), "GenerateKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), "GenerateKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SymmetricAlgorithm::GenerateIV
+// Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::GenerateIV
 // Il2CppName: GenerateIV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricAlgorithm::*)()>(&SymmetricAlgorithm::GenerateIV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SymmetricAlgorithm::*)()>(&System::Security::Cryptography::SymmetricAlgorithm::GenerateIV)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricAlgorithm*), "GenerateIV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), "GenerateIV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SymmetricAlgorithm::New_ctor
+// Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricAlgorithm::*)()>(&SymmetricAlgorithm::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SymmetricAlgorithm::*)()>(&System::Security::Cryptography::SymmetricAlgorithm::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricAlgorithm*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SymmetricAlgorithm::*)()>(&SymmetricAlgorithm::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SymmetricAlgorithm::*)()>(&System::Security::Cryptography::SymmetricAlgorithm::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SymmetricAlgorithm*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

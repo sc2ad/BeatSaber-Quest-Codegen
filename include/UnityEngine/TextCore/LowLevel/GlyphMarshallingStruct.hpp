@@ -80,17 +80,17 @@ namespace UnityEngine::TextCore::LowLevel {
   static_assert(sizeof(GlyphMarshallingStruct) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, "UnityEngine.TextCore.LowLevel", "GlyphMarshallingStruct");
-// Writing MetadataGetter for method: GlyphMarshallingStruct::GlyphMarshallingStruct
+// Writing MetadataGetter for method: UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct::GlyphMarshallingStruct
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlyphMarshallingStruct::*)(UnityEngine::TextCore::Glyph*)>(&GlyphMarshallingStruct::GlyphMarshallingStruct<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct::*)(UnityEngine::TextCore::Glyph*)>(&UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct::GlyphMarshallingStruct<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlyphMarshallingStruct), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::Glyph*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::Glyph*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlyphMarshallingStruct::*)(UnityEngine::TextCore::Glyph*)>(&GlyphMarshallingStruct::GlyphMarshallingStruct<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct::*)(UnityEngine::TextCore::Glyph*)>(&UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct::GlyphMarshallingStruct<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlyphMarshallingStruct), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::Glyph*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::Glyph*>()});
   }
 };

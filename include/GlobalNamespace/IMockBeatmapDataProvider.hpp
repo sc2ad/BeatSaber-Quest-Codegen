@@ -47,11 +47,11 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMockBeatmapDataProvider*, "", "IMockBeatmapDataProvider");
-// Writing MetadataGetter for method: IMockBeatmapDataProvider::GetBeatmapData
+// Writing MetadataGetter for method: GlobalNamespace::IMockBeatmapDataProvider::GetBeatmapData
 // Il2CppName: GetBeatmapData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::MockBeatmapData*>* (IMockBeatmapDataProvider::*)(GlobalNamespace::BeatmapIdentifierNetSerializable*, System::Threading::CancellationToken)>(&IMockBeatmapDataProvider::GetBeatmapData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::MockBeatmapData*>* (GlobalNamespace::IMockBeatmapDataProvider::*)(GlobalNamespace::BeatmapIdentifierNetSerializable*, System::Threading::CancellationToken)>(&GlobalNamespace::IMockBeatmapDataProvider::GetBeatmapData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IMockBeatmapDataProvider*), "GetBeatmapData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapIdentifierNetSerializable*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMockBeatmapDataProvider*), "GetBeatmapData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapIdentifierNetSerializable*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };

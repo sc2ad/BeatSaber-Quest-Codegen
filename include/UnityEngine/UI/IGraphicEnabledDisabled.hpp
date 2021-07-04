@@ -22,11 +22,11 @@ namespace UnityEngine::UI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::IGraphicEnabledDisabled*, "UnityEngine.UI", "IGraphicEnabledDisabled");
-// Writing MetadataGetter for method: IGraphicEnabledDisabled::OnSiblingGraphicEnabledDisabled
+// Writing MetadataGetter for method: UnityEngine::UI::IGraphicEnabledDisabled::OnSiblingGraphicEnabledDisabled
 // Il2CppName: OnSiblingGraphicEnabledDisabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IGraphicEnabledDisabled::*)()>(&IGraphicEnabledDisabled::OnSiblingGraphicEnabledDisabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::IGraphicEnabledDisabled::*)()>(&UnityEngine::UI::IGraphicEnabledDisabled::OnSiblingGraphicEnabledDisabled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IGraphicEnabledDisabled*), "OnSiblingGraphicEnabledDisabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::IGraphicEnabledDisabled*), "OnSiblingGraphicEnabledDisabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

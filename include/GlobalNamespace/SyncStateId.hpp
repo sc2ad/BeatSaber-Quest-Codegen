@@ -120,121 +120,121 @@ namespace GlobalNamespace {
   bool operator !=(const GlobalNamespace::SyncStateId& a, const GlobalNamespace::SyncStateId& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SyncStateId, "", "SyncStateId");
-// Writing MetadataGetter for method: SyncStateId::SyncStateId
+// Writing MetadataGetter for method: GlobalNamespace::SyncStateId::SyncStateId
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SyncStateId::*)(uint8_t)>(&SyncStateId::SyncStateId<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SyncStateId::*)(uint8_t)>(&GlobalNamespace::SyncStateId::SyncStateId<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SyncStateId), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SyncStateId), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SyncStateId::*)(uint8_t)>(&SyncStateId::SyncStateId<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SyncStateId::*)(uint8_t)>(&GlobalNamespace::SyncStateId::SyncStateId<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SyncStateId), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SyncStateId), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
   }
 };
-// Writing MetadataGetter for method: SyncStateId::Equals
+// Writing MetadataGetter for method: GlobalNamespace::SyncStateId::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SyncStateId::*)(GlobalNamespace::SyncStateId)>(&SyncStateId::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SyncStateId::*)(GlobalNamespace::SyncStateId)>(&GlobalNamespace::SyncStateId::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SyncStateId), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SyncStateId>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SyncStateId), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SyncStateId>()});
   }
 };
-// Writing MetadataGetter for method: SyncStateId::Increment
+// Writing MetadataGetter for method: GlobalNamespace::SyncStateId::Increment
 // Il2CppName: Increment
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SyncStateId (SyncStateId::*)()>(&SyncStateId::Increment)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SyncStateId (GlobalNamespace::SyncStateId::*)()>(&GlobalNamespace::SyncStateId::Increment)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SyncStateId), "Increment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SyncStateId), "Increment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SyncStateId::Serialize
+// Writing MetadataGetter for method: GlobalNamespace::SyncStateId::Serialize
 // Il2CppName: Serialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SyncStateId::*)(LiteNetLib::Utils::NetDataWriter*)>(&SyncStateId::Serialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SyncStateId::*)(LiteNetLib::Utils::NetDataWriter*)>(&GlobalNamespace::SyncStateId::Serialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SyncStateId), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SyncStateId), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
   }
 };
-// Writing MetadataGetter for method: SyncStateId::SerializeWithFlag
+// Writing MetadataGetter for method: GlobalNamespace::SyncStateId::SerializeWithFlag
 // Il2CppName: SerializeWithFlag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SyncStateId::*)(LiteNetLib::Utils::NetDataWriter*, bool)>(&SyncStateId::SerializeWithFlag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SyncStateId::*)(LiteNetLib::Utils::NetDataWriter*, bool)>(&GlobalNamespace::SyncStateId::SerializeWithFlag)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SyncStateId), "SerializeWithFlag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SyncStateId), "SerializeWithFlag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: SyncStateId::Deserialize
+// Writing MetadataGetter for method: GlobalNamespace::SyncStateId::Deserialize
 // Il2CppName: Deserialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SyncStateId (*)(LiteNetLib::Utils::NetDataReader*)>(&SyncStateId::Deserialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SyncStateId (*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::SyncStateId::Deserialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SyncStateId), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SyncStateId), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
   }
 };
-// Writing MetadataGetter for method: SyncStateId::DeserializeWithFlag
+// Writing MetadataGetter for method: GlobalNamespace::SyncStateId::DeserializeWithFlag
 // Il2CppName: DeserializeWithFlag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SyncStateId (*)(LiteNetLib::Utils::NetDataReader*, bool&)>(&SyncStateId::DeserializeWithFlag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SyncStateId (*)(LiteNetLib::Utils::NetDataReader*, bool&)>(&GlobalNamespace::SyncStateId::DeserializeWithFlag)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SyncStateId), "DeserializeWithFlag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SyncStateId), "DeserializeWithFlag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
   }
 };
-// Writing MetadataGetter for method: SyncStateId::CreateFromSerializedData
+// Writing MetadataGetter for method: GlobalNamespace::SyncStateId::CreateFromSerializedData
 // Il2CppName: CreateFromSerializedData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SyncStateId (SyncStateId::*)(LiteNetLib::Utils::NetDataReader*)>(&SyncStateId::CreateFromSerializedData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SyncStateId (GlobalNamespace::SyncStateId::*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::SyncStateId::CreateFromSerializedData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SyncStateId), "CreateFromSerializedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SyncStateId), "CreateFromSerializedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
   }
 };
-// Writing MetadataGetter for method: SyncStateId::WithinRange
+// Writing MetadataGetter for method: GlobalNamespace::SyncStateId::WithinRange
 // Il2CppName: WithinRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::SyncStateId, GlobalNamespace::SyncStateId, int)>(&SyncStateId::WithinRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::SyncStateId, GlobalNamespace::SyncStateId, int)>(&GlobalNamespace::SyncStateId::WithinRange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SyncStateId), "WithinRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SyncStateId>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SyncStateId>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SyncStateId), "WithinRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SyncStateId>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SyncStateId>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SyncStateId::Equals
+// Writing MetadataGetter for method: GlobalNamespace::SyncStateId::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SyncStateId::*)(::Il2CppObject*)>(&SyncStateId::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SyncStateId::*)(::Il2CppObject*)>(&GlobalNamespace::SyncStateId::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SyncStateId), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SyncStateId), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: SyncStateId::GetHashCode
+// Writing MetadataGetter for method: GlobalNamespace::SyncStateId::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SyncStateId::*)()>(&SyncStateId::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::SyncStateId::*)()>(&GlobalNamespace::SyncStateId::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SyncStateId), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SyncStateId), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SyncStateId::ToString
+// Writing MetadataGetter for method: GlobalNamespace::SyncStateId::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (SyncStateId::*)()>(&SyncStateId::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SyncStateId::*)()>(&GlobalNamespace::SyncStateId::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SyncStateId), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SyncStateId), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SyncStateId::operator ==
+// Writing MetadataGetter for method: GlobalNamespace::SyncStateId::operator ==
 // Il2CppName: op_Equality
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const GlobalNamespace::SyncStateId&, const GlobalNamespace::SyncStateId&)>(&SyncStateId::operator ==)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const GlobalNamespace::SyncStateId&, const GlobalNamespace::SyncStateId&)>(&GlobalNamespace::SyncStateId::operator ==)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SyncStateId), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::SyncStateId&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::SyncStateId&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SyncStateId), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::SyncStateId&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::SyncStateId&>()});
   }
 };
-// Writing MetadataGetter for method: SyncStateId::operator !=
+// Writing MetadataGetter for method: GlobalNamespace::SyncStateId::operator !=
 // Il2CppName: op_Inequality
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const GlobalNamespace::SyncStateId&, const GlobalNamespace::SyncStateId&)>(&SyncStateId::operator !=)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const GlobalNamespace::SyncStateId&, const GlobalNamespace::SyncStateId&)>(&GlobalNamespace::SyncStateId::operator !=)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SyncStateId), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::SyncStateId&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::SyncStateId&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SyncStateId), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::SyncStateId&>(), ::il2cpp_utils::ExtractIndependentType<const GlobalNamespace::SyncStateId&>()});
   }
 };

@@ -147,121 +147,121 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomFogSO) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFogSO*, "", "BloomFogSO");
-// Writing MetadataGetter for method: BloomFogSO::set_transition
+// Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::set_transition
 // Il2CppName: set_transition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomFogSO::*)(float)>(&BloomFogSO::set_transition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomFogSO::*)(float)>(&GlobalNamespace::BloomFogSO::set_transition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomFogSO*), "set_transition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogSO*), "set_transition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: BloomFogSO::get_transition
+// Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::get_transition
 // Il2CppName: get_transition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BloomFogSO::*)()>(&BloomFogSO::get_transition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BloomFogSO::*)()>(&GlobalNamespace::BloomFogSO::get_transition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomFogSO*), "get_transition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogSO*), "get_transition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomFogSO::get_defaultForParams
+// Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::get_defaultForParams
 // Il2CppName: get_defaultForParams
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BloomFogEnvironmentParams* (BloomFogSO::*)()>(&BloomFogSO::get_defaultForParams)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BloomFogEnvironmentParams* (GlobalNamespace::BloomFogSO::*)()>(&GlobalNamespace::BloomFogSO::get_defaultForParams)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomFogSO*), "get_defaultForParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogSO*), "get_defaultForParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomFogSO::set_defaultForParams
+// Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::set_defaultForParams
 // Il2CppName: set_defaultForParams
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomFogSO::*)(GlobalNamespace::BloomFogEnvironmentParams*)>(&BloomFogSO::set_defaultForParams)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomFogSO::*)(GlobalNamespace::BloomFogEnvironmentParams*)>(&GlobalNamespace::BloomFogSO::set_defaultForParams)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomFogSO*), "set_defaultForParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BloomFogEnvironmentParams*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogSO*), "set_defaultForParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BloomFogEnvironmentParams*>()});
   }
 };
-// Writing MetadataGetter for method: BloomFogSO::get_transitionFogParams
+// Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::get_transitionFogParams
 // Il2CppName: get_transitionFogParams
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BloomFogEnvironmentParams* (BloomFogSO::*)()>(&BloomFogSO::get_transitionFogParams)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BloomFogEnvironmentParams* (GlobalNamespace::BloomFogSO::*)()>(&GlobalNamespace::BloomFogSO::get_transitionFogParams)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomFogSO*), "get_transitionFogParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogSO*), "get_transitionFogParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomFogSO::set_transitionFogParams
+// Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::set_transitionFogParams
 // Il2CppName: set_transitionFogParams
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomFogSO::*)(GlobalNamespace::BloomFogEnvironmentParams*)>(&BloomFogSO::set_transitionFogParams)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomFogSO::*)(GlobalNamespace::BloomFogEnvironmentParams*)>(&GlobalNamespace::BloomFogSO::set_transitionFogParams)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomFogSO*), "set_transitionFogParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BloomFogEnvironmentParams*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogSO*), "set_transitionFogParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BloomFogEnvironmentParams*>()});
   }
 };
-// Writing MetadataGetter for method: BloomFogSO::set_bloomFogEnabled
+// Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::set_bloomFogEnabled
 // Il2CppName: set_bloomFogEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomFogSO::*)(bool)>(&BloomFogSO::set_bloomFogEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomFogSO::*)(bool)>(&GlobalNamespace::BloomFogSO::set_bloomFogEnabled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomFogSO*), "set_bloomFogEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogSO*), "set_bloomFogEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: BloomFogSO::get_bloomFogEnabled
+// Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::get_bloomFogEnabled
 // Il2CppName: get_bloomFogEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BloomFogSO::*)()>(&BloomFogSO::get_bloomFogEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BloomFogSO::*)()>(&GlobalNamespace::BloomFogSO::get_bloomFogEnabled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomFogSO*), "get_bloomFogEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogSO*), "get_bloomFogEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomFogSO::Setup
+// Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::Setup
 // Il2CppName: Setup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomFogSO::*)(GlobalNamespace::BloomFogEnvironmentParams*)>(&BloomFogSO::Setup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomFogSO::*)(GlobalNamespace::BloomFogEnvironmentParams*)>(&GlobalNamespace::BloomFogSO::Setup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomFogSO*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BloomFogEnvironmentParams*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogSO*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BloomFogEnvironmentParams*>()});
   }
 };
-// Writing MetadataGetter for method: BloomFogSO::UpdateShaderParams
+// Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::UpdateShaderParams
 // Il2CppName: UpdateShaderParams
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomFogSO::*)()>(&BloomFogSO::UpdateShaderParams)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomFogSO::*)()>(&GlobalNamespace::BloomFogSO::UpdateShaderParams)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomFogSO*), "UpdateShaderParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogSO*), "UpdateShaderParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomFogSO::SetParams
+// Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::SetParams
 // Il2CppName: SetParams
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, float, float, float)>(&BloomFogSO::SetParams)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, float, float, float)>(&GlobalNamespace::BloomFogSO::SetParams)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomFogSO*), "SetParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogSO*), "SetParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: BloomFogSO::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomFogSO::*)()>(&BloomFogSO::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomFogSO::*)()>(&GlobalNamespace::BloomFogSO::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomFogSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomFogSO::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomFogSO::*)()>(&BloomFogSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomFogSO::*)()>(&GlobalNamespace::BloomFogSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomFogSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomFogSO::*)()>(&BloomFogSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomFogSO::*)()>(&GlobalNamespace::BloomFogSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomFogSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomFogSO::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::BloomFogSO::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&BloomFogSO::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::BloomFogSO::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomFogSO*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogSO*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -75,51 +75,51 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::SceneInstance, "UnityEngine.ResourceManagement.ResourceProviders", "SceneInstance");
-// Writing MetadataGetter for method: SceneInstance::get_Scene
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::get_Scene
 // Il2CppName: get_Scene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::SceneManagement::Scene (SceneInstance::*)()>(&SceneInstance::get_Scene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::SceneManagement::Scene (UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::get_Scene)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SceneInstance), "get_Scene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::SceneInstance), "get_Scene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SceneInstance::set_Scene
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::set_Scene
 // Il2CppName: set_Scene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneInstance::*)(UnityEngine::SceneManagement::Scene)>(&SceneInstance::set_Scene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::*)(UnityEngine::SceneManagement::Scene)>(&UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::set_Scene)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SceneInstance), "set_Scene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::Scene>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::SceneInstance), "set_Scene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::Scene>()});
   }
 };
-// Writing MetadataGetter for method: SceneInstance::Activate
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::Activate
 // Il2CppName: Activate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SceneInstance::*)()>(&SceneInstance::Activate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::Activate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SceneInstance), "Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::SceneInstance), "Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SceneInstance::ActivateAsync
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::ActivateAsync
 // Il2CppName: ActivateAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (SceneInstance::*)()>(&SceneInstance::ActivateAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::ActivateAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SceneInstance), "ActivateAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::SceneInstance), "ActivateAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SceneInstance::GetHashCode
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SceneInstance::*)()>(&SceneInstance::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SceneInstance), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::SceneInstance), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SceneInstance::Equals
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SceneInstance::*)(::Il2CppObject*)>(&SceneInstance::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::*)(::Il2CppObject*)>(&UnityEngine::ResourceManagement::ResourceProviders::SceneInstance::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SceneInstance), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::SceneInstance), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };

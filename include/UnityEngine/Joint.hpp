@@ -41,27 +41,27 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Joint*, "UnityEngine", "Joint");
-// Writing MetadataGetter for method: Joint::get_connectedBody
+// Writing MetadataGetter for method: UnityEngine::Joint::get_connectedBody
 // Il2CppName: get_connectedBody
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rigidbody* (Joint::*)()>(&Joint::get_connectedBody)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rigidbody* (UnityEngine::Joint::*)()>(&UnityEngine::Joint::get_connectedBody)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Joint*), "get_connectedBody", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Joint*), "get_connectedBody", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Joint::set_connectedAnchor
+// Writing MetadataGetter for method: UnityEngine::Joint::set_connectedAnchor
 // Il2CppName: set_connectedAnchor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Joint::*)(UnityEngine::Vector3)>(&Joint::set_connectedAnchor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Joint::*)(UnityEngine::Vector3)>(&UnityEngine::Joint::set_connectedAnchor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Joint*), "set_connectedAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Joint*), "set_connectedAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: Joint::set_connectedAnchor_Injected
+// Writing MetadataGetter for method: UnityEngine::Joint::set_connectedAnchor_Injected
 // Il2CppName: set_connectedAnchor_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Joint::*)(UnityEngine::Vector3&)>(&Joint::set_connectedAnchor_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Joint::*)(UnityEngine::Vector3&)>(&UnityEngine::Joint::set_connectedAnchor_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Joint*), "set_connectedAnchor_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Joint*), "set_connectedAnchor_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };

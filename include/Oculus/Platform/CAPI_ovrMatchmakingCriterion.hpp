@@ -71,17 +71,17 @@ namespace Oculus::Platform {
   static_assert(sizeof(CAPI::ovrMatchmakingCriterion) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::ovrMatchmakingCriterion, "Oculus.Platform", "CAPI/ovrMatchmakingCriterion");
-// Writing MetadataGetter for method: CAPI::ovrMatchmakingCriterion::ovrMatchmakingCriterion
+// Writing MetadataGetter for method: Oculus::Platform::CAPI::ovrMatchmakingCriterion::ovrMatchmakingCriterion
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CAPI::ovrMatchmakingCriterion::*)(::Il2CppString*, Oculus::Platform::MatchmakingCriterionImportance)>(&CAPI::ovrMatchmakingCriterion::ovrMatchmakingCriterion<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::CAPI::ovrMatchmakingCriterion::*)(::Il2CppString*, Oculus::Platform::MatchmakingCriterionImportance)>(&Oculus::Platform::CAPI::ovrMatchmakingCriterion::ovrMatchmakingCriterion<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CAPI::ovrMatchmakingCriterion), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::MatchmakingCriterionImportance>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI::ovrMatchmakingCriterion), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::MatchmakingCriterionImportance>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CAPI::ovrMatchmakingCriterion::*)(::Il2CppString*, Oculus::Platform::MatchmakingCriterionImportance)>(&CAPI::ovrMatchmakingCriterion::ovrMatchmakingCriterion<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::CAPI::ovrMatchmakingCriterion::*)(::Il2CppString*, Oculus::Platform::MatchmakingCriterionImportance)>(&Oculus::Platform::CAPI::ovrMatchmakingCriterion::ovrMatchmakingCriterion<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CAPI::ovrMatchmakingCriterion), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::MatchmakingCriterionImportance>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI::ovrMatchmakingCriterion), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::MatchmakingCriterionImportance>()});
   }
 };

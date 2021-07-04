@@ -53,25 +53,25 @@ namespace UnityEngine::Bindings {
   static_assert(sizeof(IgnoreAttribute) == 0x11);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::IgnoreAttribute*, "UnityEngine.Bindings", "IgnoreAttribute");
-// Writing MetadataGetter for method: IgnoreAttribute::set_DoesNotContributeToSize
+// Writing MetadataGetter for method: UnityEngine::Bindings::IgnoreAttribute::set_DoesNotContributeToSize
 // Il2CppName: set_DoesNotContributeToSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IgnoreAttribute::*)(bool)>(&IgnoreAttribute::set_DoesNotContributeToSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::IgnoreAttribute::*)(bool)>(&UnityEngine::Bindings::IgnoreAttribute::set_DoesNotContributeToSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IgnoreAttribute*), "set_DoesNotContributeToSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::IgnoreAttribute*), "set_DoesNotContributeToSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: IgnoreAttribute::New_ctor
+// Writing MetadataGetter for method: UnityEngine::Bindings::IgnoreAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IgnoreAttribute::*)()>(&IgnoreAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::IgnoreAttribute::*)()>(&UnityEngine::Bindings::IgnoreAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IgnoreAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::IgnoreAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IgnoreAttribute::*)()>(&IgnoreAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::IgnoreAttribute::*)()>(&UnityEngine::Bindings::IgnoreAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IgnoreAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::IgnoreAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

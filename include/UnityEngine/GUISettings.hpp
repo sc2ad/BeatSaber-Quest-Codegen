@@ -86,65 +86,65 @@ namespace UnityEngine {
   static_assert(sizeof(GUISettings) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUISettings*, "UnityEngine", "GUISettings");
-// Writing MetadataGetter for method: GUISettings::Internal_GetCursorFlashSpeed
+// Writing MetadataGetter for method: UnityEngine::GUISettings::Internal_GetCursorFlashSpeed
 // Il2CppName: Internal_GetCursorFlashSpeed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&GUISettings::Internal_GetCursorFlashSpeed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)()>(&UnityEngine::GUISettings::Internal_GetCursorFlashSpeed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUISettings*), "Internal_GetCursorFlashSpeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISettings*), "Internal_GetCursorFlashSpeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GUISettings::get_doubleClickSelectsWord
+// Writing MetadataGetter for method: UnityEngine::GUISettings::get_doubleClickSelectsWord
 // Il2CppName: get_doubleClickSelectsWord
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GUISettings::*)()>(&GUISettings::get_doubleClickSelectsWord)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::GUISettings::*)()>(&UnityEngine::GUISettings::get_doubleClickSelectsWord)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUISettings*), "get_doubleClickSelectsWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISettings*), "get_doubleClickSelectsWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GUISettings::get_tripleClickSelectsLine
+// Writing MetadataGetter for method: UnityEngine::GUISettings::get_tripleClickSelectsLine
 // Il2CppName: get_tripleClickSelectsLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GUISettings::*)()>(&GUISettings::get_tripleClickSelectsLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::GUISettings::*)()>(&UnityEngine::GUISettings::get_tripleClickSelectsLine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUISettings*), "get_tripleClickSelectsLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISettings*), "get_tripleClickSelectsLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GUISettings::get_cursorColor
+// Writing MetadataGetter for method: UnityEngine::GUISettings::get_cursorColor
 // Il2CppName: get_cursorColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GUISettings::*)()>(&GUISettings::get_cursorColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (UnityEngine::GUISettings::*)()>(&UnityEngine::GUISettings::get_cursorColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUISettings*), "get_cursorColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISettings*), "get_cursorColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GUISettings::get_cursorFlashSpeed
+// Writing MetadataGetter for method: UnityEngine::GUISettings::get_cursorFlashSpeed
 // Il2CppName: get_cursorFlashSpeed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GUISettings::*)()>(&GUISettings::get_cursorFlashSpeed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::GUISettings::*)()>(&UnityEngine::GUISettings::get_cursorFlashSpeed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUISettings*), "get_cursorFlashSpeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISettings*), "get_cursorFlashSpeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GUISettings::get_selectionColor
+// Writing MetadataGetter for method: UnityEngine::GUISettings::get_selectionColor
 // Il2CppName: get_selectionColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GUISettings::*)()>(&GUISettings::get_selectionColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (UnityEngine::GUISettings::*)()>(&UnityEngine::GUISettings::get_selectionColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUISettings*), "get_selectionColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISettings*), "get_selectionColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GUISettings::New_ctor
+// Writing MetadataGetter for method: UnityEngine::GUISettings::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GUISettings::*)()>(&GUISettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISettings::*)()>(&UnityEngine::GUISettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUISettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GUISettings::*)()>(&GUISettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISettings::*)()>(&UnityEngine::GUISettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GUISettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

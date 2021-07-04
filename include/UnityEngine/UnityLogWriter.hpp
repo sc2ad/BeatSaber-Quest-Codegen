@@ -72,73 +72,73 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityLogWriter*, "UnityEngine", "UnityLogWriter");
-// Writing MetadataGetter for method: UnityLogWriter::WriteStringToUnityLog
+// Writing MetadataGetter for method: UnityEngine::UnityLogWriter::WriteStringToUnityLog
 // Il2CppName: WriteStringToUnityLog
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&UnityLogWriter::WriteStringToUnityLog)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&UnityEngine::UnityLogWriter::WriteStringToUnityLog)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityLogWriter*), "WriteStringToUnityLog", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UnityLogWriter*), "WriteStringToUnityLog", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: UnityLogWriter::WriteStringToUnityLogImpl
+// Writing MetadataGetter for method: UnityEngine::UnityLogWriter::WriteStringToUnityLogImpl
 // Il2CppName: WriteStringToUnityLogImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&UnityLogWriter::WriteStringToUnityLogImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&UnityEngine::UnityLogWriter::WriteStringToUnityLogImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityLogWriter*), "WriteStringToUnityLogImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UnityLogWriter*), "WriteStringToUnityLogImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: UnityLogWriter::Init
+// Writing MetadataGetter for method: UnityEngine::UnityLogWriter::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityLogWriter::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::UnityLogWriter::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityLogWriter*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UnityLogWriter*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityLogWriter::get_Encoding
+// Writing MetadataGetter for method: UnityEngine::UnityLogWriter::get_Encoding
 // Il2CppName: get_Encoding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (UnityLogWriter::*)()>(&UnityLogWriter::get_Encoding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (UnityEngine::UnityLogWriter::*)()>(&UnityEngine::UnityLogWriter::get_Encoding)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityLogWriter*), "get_Encoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UnityLogWriter*), "get_Encoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityLogWriter::Write
+// Writing MetadataGetter for method: UnityEngine::UnityLogWriter::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityLogWriter::*)(::Il2CppChar)>(&UnityLogWriter::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UnityLogWriter::*)(::Il2CppChar)>(&UnityEngine::UnityLogWriter::Write)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityLogWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UnityLogWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
   }
 };
-// Writing MetadataGetter for method: UnityLogWriter::Write
+// Writing MetadataGetter for method: UnityEngine::UnityLogWriter::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityLogWriter::*)(::Il2CppString*)>(&UnityLogWriter::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UnityLogWriter::*)(::Il2CppString*)>(&UnityEngine::UnityLogWriter::Write)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityLogWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UnityLogWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: UnityLogWriter::Write
+// Writing MetadataGetter for method: UnityEngine::UnityLogWriter::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityLogWriter::*)(::Array<::Il2CppChar>*, int, int)>(&UnityLogWriter::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UnityLogWriter::*)(::Array<::Il2CppChar>*, int, int)>(&UnityEngine::UnityLogWriter::Write)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityLogWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UnityLogWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: UnityLogWriter::New_ctor
+// Writing MetadataGetter for method: UnityEngine::UnityLogWriter::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityLogWriter::*)()>(&UnityLogWriter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UnityLogWriter::*)()>(&UnityEngine::UnityLogWriter::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityLogWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UnityLogWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityLogWriter::*)()>(&UnityLogWriter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UnityLogWriter::*)()>(&UnityEngine::UnityLogWriter::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityLogWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UnityLogWriter*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

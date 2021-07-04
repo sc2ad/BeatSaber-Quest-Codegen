@@ -232,201 +232,201 @@ namespace Zenject {
   static_assert(sizeof(ProjectContext) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ProjectContext*, "Zenject", "ProjectContext");
-// Writing MetadataGetter for method: ProjectContext::add_PreInstall
+// Writing MetadataGetter for method: Zenject::ProjectContext::add_PreInstall
 // Il2CppName: add_PreInstall
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProjectContext::*)(System::Action*)>(&ProjectContext::add_PreInstall)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProjectContext::*)(System::Action*)>(&Zenject::ProjectContext::add_PreInstall)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProjectContext*), "add_PreInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectContext*), "add_PreInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: ProjectContext::remove_PreInstall
+// Writing MetadataGetter for method: Zenject::ProjectContext::remove_PreInstall
 // Il2CppName: remove_PreInstall
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProjectContext::*)(System::Action*)>(&ProjectContext::remove_PreInstall)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProjectContext::*)(System::Action*)>(&Zenject::ProjectContext::remove_PreInstall)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProjectContext*), "remove_PreInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectContext*), "remove_PreInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: ProjectContext::add_PostInstall
+// Writing MetadataGetter for method: Zenject::ProjectContext::add_PostInstall
 // Il2CppName: add_PostInstall
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProjectContext::*)(System::Action*)>(&ProjectContext::add_PostInstall)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProjectContext::*)(System::Action*)>(&Zenject::ProjectContext::add_PostInstall)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProjectContext*), "add_PostInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectContext*), "add_PostInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: ProjectContext::remove_PostInstall
+// Writing MetadataGetter for method: Zenject::ProjectContext::remove_PostInstall
 // Il2CppName: remove_PostInstall
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProjectContext::*)(System::Action*)>(&ProjectContext::remove_PostInstall)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProjectContext::*)(System::Action*)>(&Zenject::ProjectContext::remove_PostInstall)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProjectContext*), "remove_PostInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectContext*), "remove_PostInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: ProjectContext::add_PreResolve
+// Writing MetadataGetter for method: Zenject::ProjectContext::add_PreResolve
 // Il2CppName: add_PreResolve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProjectContext::*)(System::Action*)>(&ProjectContext::add_PreResolve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProjectContext::*)(System::Action*)>(&Zenject::ProjectContext::add_PreResolve)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProjectContext*), "add_PreResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectContext*), "add_PreResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: ProjectContext::remove_PreResolve
+// Writing MetadataGetter for method: Zenject::ProjectContext::remove_PreResolve
 // Il2CppName: remove_PreResolve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProjectContext::*)(System::Action*)>(&ProjectContext::remove_PreResolve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProjectContext::*)(System::Action*)>(&Zenject::ProjectContext::remove_PreResolve)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProjectContext*), "remove_PreResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectContext*), "remove_PreResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: ProjectContext::add_PostResolve
+// Writing MetadataGetter for method: Zenject::ProjectContext::add_PostResolve
 // Il2CppName: add_PostResolve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProjectContext::*)(System::Action*)>(&ProjectContext::add_PostResolve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProjectContext::*)(System::Action*)>(&Zenject::ProjectContext::add_PostResolve)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProjectContext*), "add_PostResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectContext*), "add_PostResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: ProjectContext::remove_PostResolve
+// Writing MetadataGetter for method: Zenject::ProjectContext::remove_PostResolve
 // Il2CppName: remove_PostResolve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProjectContext::*)(System::Action*)>(&ProjectContext::remove_PostResolve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProjectContext::*)(System::Action*)>(&Zenject::ProjectContext::remove_PostResolve)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProjectContext*), "remove_PostResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectContext*), "remove_PostResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: ProjectContext::get_HasInstance
+// Writing MetadataGetter for method: Zenject::ProjectContext::get_HasInstance
 // Il2CppName: get_HasInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&ProjectContext::get_HasInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Zenject::ProjectContext::get_HasInstance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProjectContext*), "get_HasInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectContext*), "get_HasInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ProjectContext::get_Instance
+// Writing MetadataGetter for method: Zenject::ProjectContext::get_Instance
 // Il2CppName: get_Instance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ProjectContext* (*)()>(&ProjectContext::get_Instance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ProjectContext* (*)()>(&Zenject::ProjectContext::get_Instance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProjectContext*), "get_Instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectContext*), "get_Instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ProjectContext::get_ValidateOnNextRun
+// Writing MetadataGetter for method: Zenject::ProjectContext::get_ValidateOnNextRun
 // Il2CppName: get_ValidateOnNextRun
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&ProjectContext::get_ValidateOnNextRun)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Zenject::ProjectContext::get_ValidateOnNextRun)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProjectContext*), "get_ValidateOnNextRun", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectContext*), "get_ValidateOnNextRun", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ProjectContext::set_ValidateOnNextRun
+// Writing MetadataGetter for method: Zenject::ProjectContext::set_ValidateOnNextRun
 // Il2CppName: set_ValidateOnNextRun
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&ProjectContext::set_ValidateOnNextRun)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&Zenject::ProjectContext::set_ValidateOnNextRun)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProjectContext*), "set_ValidateOnNextRun", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectContext*), "set_ValidateOnNextRun", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ProjectContext::TryGetPrefab
+// Writing MetadataGetter for method: Zenject::ProjectContext::TryGetPrefab
 // Il2CppName: TryGetPrefab
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)()>(&ProjectContext::TryGetPrefab)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)()>(&Zenject::ProjectContext::TryGetPrefab)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProjectContext*), "TryGetPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectContext*), "TryGetPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ProjectContext::InstantiateAndInitialize
+// Writing MetadataGetter for method: Zenject::ProjectContext::InstantiateAndInitialize
 // Il2CppName: InstantiateAndInitialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ProjectContext::InstantiateAndInitialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Zenject::ProjectContext::InstantiateAndInitialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProjectContext*), "InstantiateAndInitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectContext*), "InstantiateAndInitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ProjectContext::get_ParentNewObjectsUnderContext
+// Writing MetadataGetter for method: Zenject::ProjectContext::get_ParentNewObjectsUnderContext
 // Il2CppName: get_ParentNewObjectsUnderContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ProjectContext::*)()>(&ProjectContext::get_ParentNewObjectsUnderContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::ProjectContext::*)()>(&Zenject::ProjectContext::get_ParentNewObjectsUnderContext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProjectContext*), "get_ParentNewObjectsUnderContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectContext*), "get_ParentNewObjectsUnderContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ProjectContext::set_ParentNewObjectsUnderContext
+// Writing MetadataGetter for method: Zenject::ProjectContext::set_ParentNewObjectsUnderContext
 // Il2CppName: set_ParentNewObjectsUnderContext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProjectContext::*)(bool)>(&ProjectContext::set_ParentNewObjectsUnderContext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProjectContext::*)(bool)>(&Zenject::ProjectContext::set_ParentNewObjectsUnderContext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProjectContext*), "set_ParentNewObjectsUnderContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectContext*), "set_ParentNewObjectsUnderContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ProjectContext::EnsureIsInitialized
+// Writing MetadataGetter for method: Zenject::ProjectContext::EnsureIsInitialized
 // Il2CppName: EnsureIsInitialized
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProjectContext::*)()>(&ProjectContext::EnsureIsInitialized)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProjectContext::*)()>(&Zenject::ProjectContext::EnsureIsInitialized)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProjectContext*), "EnsureIsInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectContext*), "EnsureIsInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ProjectContext::Awake
+// Writing MetadataGetter for method: Zenject::ProjectContext::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProjectContext::*)()>(&ProjectContext::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProjectContext::*)()>(&Zenject::ProjectContext::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProjectContext*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectContext*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ProjectContext::Initialize
+// Writing MetadataGetter for method: Zenject::ProjectContext::Initialize
 // Il2CppName: Initialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProjectContext::*)()>(&ProjectContext::Initialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProjectContext::*)()>(&Zenject::ProjectContext::Initialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProjectContext*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectContext*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ProjectContext::InstallBindings
+// Writing MetadataGetter for method: Zenject::ProjectContext::InstallBindings
 // Il2CppName: InstallBindings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProjectContext::*)(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*)>(&ProjectContext::InstallBindings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProjectContext::*)(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*)>(&Zenject::ProjectContext::InstallBindings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProjectContext*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectContext*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>()});
   }
 };
-// Writing MetadataGetter for method: ProjectContext::get_Container
+// Writing MetadataGetter for method: Zenject::ProjectContext::get_Container
 // Il2CppName: get_Container
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (ProjectContext::*)()>(&ProjectContext::get_Container)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (Zenject::ProjectContext::*)()>(&Zenject::ProjectContext::get_Container)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProjectContext*), "get_Container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectContext*), "get_Container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ProjectContext::GetRootGameObjects
+// Writing MetadataGetter for method: Zenject::ProjectContext::GetRootGameObjects
 // Il2CppName: GetRootGameObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* (ProjectContext::*)()>(&ProjectContext::GetRootGameObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* (Zenject::ProjectContext::*)()>(&Zenject::ProjectContext::GetRootGameObjects)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProjectContext*), "GetRootGameObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectContext*), "GetRootGameObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ProjectContext::GetInjectableMonoBehaviours
+// Writing MetadataGetter for method: Zenject::ProjectContext::GetInjectableMonoBehaviours
 // Il2CppName: GetInjectableMonoBehaviours
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProjectContext::*)(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*)>(&ProjectContext::GetInjectableMonoBehaviours)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProjectContext::*)(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*)>(&Zenject::ProjectContext::GetInjectableMonoBehaviours)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProjectContext*), "GetInjectableMonoBehaviours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectContext*), "GetInjectableMonoBehaviours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>()});
   }
 };
-// Writing MetadataGetter for method: ProjectContext::New_ctor
+// Writing MetadataGetter for method: Zenject::ProjectContext::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProjectContext::*)()>(&ProjectContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProjectContext::*)()>(&Zenject::ProjectContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProjectContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ProjectContext::*)()>(&ProjectContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProjectContext::*)()>(&Zenject::ProjectContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ProjectContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

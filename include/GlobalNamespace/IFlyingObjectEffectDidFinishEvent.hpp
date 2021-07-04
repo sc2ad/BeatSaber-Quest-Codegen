@@ -28,11 +28,11 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IFlyingObjectEffectDidFinishEvent*, "", "IFlyingObjectEffectDidFinishEvent");
-// Writing MetadataGetter for method: IFlyingObjectEffectDidFinishEvent::HandleFlyingObjectEffectDidFinish
+// Writing MetadataGetter for method: GlobalNamespace::IFlyingObjectEffectDidFinishEvent::HandleFlyingObjectEffectDidFinish
 // Il2CppName: HandleFlyingObjectEffectDidFinish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IFlyingObjectEffectDidFinishEvent::*)(GlobalNamespace::FlyingObjectEffect*)>(&IFlyingObjectEffectDidFinishEvent::HandleFlyingObjectEffectDidFinish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IFlyingObjectEffectDidFinishEvent::*)(GlobalNamespace::FlyingObjectEffect*)>(&GlobalNamespace::IFlyingObjectEffectDidFinishEvent::HandleFlyingObjectEffectDidFinish)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IFlyingObjectEffectDidFinishEvent*), "HandleFlyingObjectEffectDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::FlyingObjectEffect*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IFlyingObjectEffectDidFinishEvent*), "HandleFlyingObjectEffectDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::FlyingObjectEffect*>()});
   }
 };

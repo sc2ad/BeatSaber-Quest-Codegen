@@ -56,25 +56,25 @@ namespace Zenject {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ExecutionOrderInstaller*, "Zenject", "ExecutionOrderInstaller");
-// Writing MetadataGetter for method: ExecutionOrderInstaller::New_ctor
+// Writing MetadataGetter for method: Zenject::ExecutionOrderInstaller::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExecutionOrderInstaller::*)(System::Collections::Generic::List_1<System::Type*>*)>(&ExecutionOrderInstaller::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ExecutionOrderInstaller::*)(System::Collections::Generic::List_1<System::Type*>*)>(&Zenject::ExecutionOrderInstaller::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ExecutionOrderInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Type*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ExecutionOrderInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Type*>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExecutionOrderInstaller::*)(System::Collections::Generic::List_1<System::Type*>*)>(&ExecutionOrderInstaller::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ExecutionOrderInstaller::*)(System::Collections::Generic::List_1<System::Type*>*)>(&Zenject::ExecutionOrderInstaller::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ExecutionOrderInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Type*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ExecutionOrderInstaller*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Type*>*>()});
   }
 };
-// Writing MetadataGetter for method: ExecutionOrderInstaller::InstallBindings
+// Writing MetadataGetter for method: Zenject::ExecutionOrderInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ExecutionOrderInstaller::*)()>(&ExecutionOrderInstaller::InstallBindings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ExecutionOrderInstaller::*)()>(&Zenject::ExecutionOrderInstaller::InstallBindings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ExecutionOrderInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ExecutionOrderInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

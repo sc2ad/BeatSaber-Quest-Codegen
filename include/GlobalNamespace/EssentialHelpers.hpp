@@ -49,22 +49,22 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EssentialHelpers*, "", "EssentialHelpers");
-// Writing MetadataGetter for method: EssentialHelpers::get_CurrentTimeStamp
+// Writing MetadataGetter for method: GlobalNamespace::EssentialHelpers::get_CurrentTimeStamp
 // Il2CppName: get_CurrentTimeStamp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)()>(&EssentialHelpers::get_CurrentTimeStamp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)()>(&GlobalNamespace::EssentialHelpers::get_CurrentTimeStamp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EssentialHelpers*), "get_CurrentTimeStamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EssentialHelpers*), "get_CurrentTimeStamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EssentialHelpers::SafeDestroy
+// Writing MetadataGetter for method: GlobalNamespace::EssentialHelpers::SafeDestroy
 // Il2CppName: SafeDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*)>(&EssentialHelpers::SafeDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*)>(&GlobalNamespace::EssentialHelpers::SafeDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EssentialHelpers*), "SafeDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EssentialHelpers*), "SafeDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
   }
 };
-// Writing MetadataGetter for method: EssentialHelpers::GetOrAddComponent
+// Writing MetadataGetter for method: GlobalNamespace::EssentialHelpers::GetOrAddComponent
 // Il2CppName: GetOrAddComponent
 // Cannot write MetadataGetter for generic methods!

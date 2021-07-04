@@ -100,97 +100,97 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockObstacleData) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockObstacleData*, "", "MockObstacleData");
-// Writing MetadataGetter for method: MockObstacleData::get_time
+// Writing MetadataGetter for method: GlobalNamespace::MockObstacleData::get_time
 // Il2CppName: get_time
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (MockObstacleData::*)()>(&MockObstacleData::get_time)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MockObstacleData::*)()>(&GlobalNamespace::MockObstacleData::get_time)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockObstacleData*), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockObstacleData*), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockObstacleData::set_time
+// Writing MetadataGetter for method: GlobalNamespace::MockObstacleData::set_time
 // Il2CppName: set_time
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockObstacleData::*)(float)>(&MockObstacleData::set_time)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockObstacleData::*)(float)>(&GlobalNamespace::MockObstacleData::set_time)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockObstacleData*), "set_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockObstacleData*), "set_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: MockObstacleData::get_lineIndex
+// Writing MetadataGetter for method: GlobalNamespace::MockObstacleData::get_lineIndex
 // Il2CppName: get_lineIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MockObstacleData::*)()>(&MockObstacleData::get_lineIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MockObstacleData::*)()>(&GlobalNamespace::MockObstacleData::get_lineIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockObstacleData*), "get_lineIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockObstacleData*), "get_lineIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockObstacleData::set_lineIndex
+// Writing MetadataGetter for method: GlobalNamespace::MockObstacleData::set_lineIndex
 // Il2CppName: set_lineIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockObstacleData::*)(int)>(&MockObstacleData::set_lineIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockObstacleData::*)(int)>(&GlobalNamespace::MockObstacleData::set_lineIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockObstacleData*), "set_lineIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockObstacleData*), "set_lineIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: MockObstacleData::get_obstacleType
+// Writing MetadataGetter for method: GlobalNamespace::MockObstacleData::get_obstacleType
 // Il2CppName: get_obstacleType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ObstacleType (MockObstacleData::*)()>(&MockObstacleData::get_obstacleType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ObstacleType (GlobalNamespace::MockObstacleData::*)()>(&GlobalNamespace::MockObstacleData::get_obstacleType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockObstacleData*), "get_obstacleType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockObstacleData*), "get_obstacleType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockObstacleData::set_obstacleType
+// Writing MetadataGetter for method: GlobalNamespace::MockObstacleData::set_obstacleType
 // Il2CppName: set_obstacleType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockObstacleData::*)(GlobalNamespace::ObstacleType)>(&MockObstacleData::set_obstacleType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockObstacleData::*)(GlobalNamespace::ObstacleType)>(&GlobalNamespace::MockObstacleData::set_obstacleType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockObstacleData*), "set_obstacleType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleType>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockObstacleData*), "set_obstacleType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleType>()});
   }
 };
-// Writing MetadataGetter for method: MockObstacleData::get_duration
+// Writing MetadataGetter for method: GlobalNamespace::MockObstacleData::get_duration
 // Il2CppName: get_duration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (MockObstacleData::*)()>(&MockObstacleData::get_duration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MockObstacleData::*)()>(&GlobalNamespace::MockObstacleData::get_duration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockObstacleData*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockObstacleData*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockObstacleData::set_duration
+// Writing MetadataGetter for method: GlobalNamespace::MockObstacleData::set_duration
 // Il2CppName: set_duration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockObstacleData::*)(float)>(&MockObstacleData::set_duration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockObstacleData::*)(float)>(&GlobalNamespace::MockObstacleData::set_duration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockObstacleData*), "set_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockObstacleData*), "set_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: MockObstacleData::get_width
+// Writing MetadataGetter for method: GlobalNamespace::MockObstacleData::get_width
 // Il2CppName: get_width
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MockObstacleData::*)()>(&MockObstacleData::get_width)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MockObstacleData::*)()>(&GlobalNamespace::MockObstacleData::get_width)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockObstacleData*), "get_width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockObstacleData*), "get_width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockObstacleData::set_width
+// Writing MetadataGetter for method: GlobalNamespace::MockObstacleData::set_width
 // Il2CppName: set_width
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockObstacleData::*)(int)>(&MockObstacleData::set_width)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockObstacleData::*)(int)>(&GlobalNamespace::MockObstacleData::set_width)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockObstacleData*), "set_width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockObstacleData*), "set_width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: MockObstacleData::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MockObstacleData::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockObstacleData::*)()>(&MockObstacleData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockObstacleData::*)()>(&GlobalNamespace::MockObstacleData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockObstacleData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockObstacleData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockObstacleData::*)()>(&MockObstacleData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockObstacleData::*)()>(&GlobalNamespace::MockObstacleData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockObstacleData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockObstacleData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

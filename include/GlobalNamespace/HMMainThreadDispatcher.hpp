@@ -83,57 +83,57 @@ namespace GlobalNamespace {
   }; // HMMainThreadDispatcher
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMMainThreadDispatcher*, "", "HMMainThreadDispatcher");
-// Writing MetadataGetter for method: HMMainThreadDispatcher::Update
+// Writing MetadataGetter for method: GlobalNamespace::HMMainThreadDispatcher::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMMainThreadDispatcher::*)()>(&HMMainThreadDispatcher::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HMMainThreadDispatcher::*)()>(&GlobalNamespace::HMMainThreadDispatcher::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMMainThreadDispatcher*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMMainThreadDispatcher*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HMMainThreadDispatcher::Enqueue
+// Writing MetadataGetter for method: GlobalNamespace::HMMainThreadDispatcher::Enqueue
 // Il2CppName: Enqueue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMMainThreadDispatcher::*)(System::Collections::IEnumerator*)>(&HMMainThreadDispatcher::Enqueue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HMMainThreadDispatcher::*)(System::Collections::IEnumerator*)>(&GlobalNamespace::HMMainThreadDispatcher::Enqueue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMMainThreadDispatcher*), "Enqueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerator*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMMainThreadDispatcher*), "Enqueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerator*>()});
   }
 };
-// Writing MetadataGetter for method: HMMainThreadDispatcher::Enqueue
+// Writing MetadataGetter for method: GlobalNamespace::HMMainThreadDispatcher::Enqueue
 // Il2CppName: Enqueue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMMainThreadDispatcher::*)(System::Action*)>(&HMMainThreadDispatcher::Enqueue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HMMainThreadDispatcher::*)(System::Action*)>(&GlobalNamespace::HMMainThreadDispatcher::Enqueue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMMainThreadDispatcher*), "Enqueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMMainThreadDispatcher*), "Enqueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: HMMainThreadDispatcher::ActionCoroutine
+// Writing MetadataGetter for method: GlobalNamespace::HMMainThreadDispatcher::ActionCoroutine
 // Il2CppName: ActionCoroutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (HMMainThreadDispatcher::*)(System::Action*)>(&HMMainThreadDispatcher::ActionCoroutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::HMMainThreadDispatcher::*)(System::Action*)>(&GlobalNamespace::HMMainThreadDispatcher::ActionCoroutine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMMainThreadDispatcher*), "ActionCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMMainThreadDispatcher*), "ActionCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: HMMainThreadDispatcher::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::HMMainThreadDispatcher::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMMainThreadDispatcher::*)()>(&HMMainThreadDispatcher::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HMMainThreadDispatcher::*)()>(&GlobalNamespace::HMMainThreadDispatcher::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMMainThreadDispatcher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMMainThreadDispatcher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMMainThreadDispatcher::*)()>(&HMMainThreadDispatcher::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HMMainThreadDispatcher::*)()>(&GlobalNamespace::HMMainThreadDispatcher::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMMainThreadDispatcher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMMainThreadDispatcher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HMMainThreadDispatcher::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::HMMainThreadDispatcher::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&HMMainThreadDispatcher::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::HMMainThreadDispatcher::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMMainThreadDispatcher*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMMainThreadDispatcher*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

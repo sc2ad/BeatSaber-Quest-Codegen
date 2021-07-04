@@ -59,33 +59,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomPrePassEffectContainerSO) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassEffectContainerSO*, "", "BloomPrePassEffectContainerSO");
-// Writing MetadataGetter for method: BloomPrePassEffectContainerSO::get_bloomPrePassEffect
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassEffectContainerSO::get_bloomPrePassEffect
 // Il2CppName: get_bloomPrePassEffect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BloomPrePassEffectSO* (BloomPrePassEffectContainerSO::*)()>(&BloomPrePassEffectContainerSO::get_bloomPrePassEffect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BloomPrePassEffectSO* (GlobalNamespace::BloomPrePassEffectContainerSO::*)()>(&GlobalNamespace::BloomPrePassEffectContainerSO::get_bloomPrePassEffect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassEffectContainerSO*), "get_bloomPrePassEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassEffectContainerSO*), "get_bloomPrePassEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BloomPrePassEffectContainerSO::Init
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassEffectContainerSO::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassEffectContainerSO::*)(GlobalNamespace::BloomPrePassEffectSO*)>(&BloomPrePassEffectContainerSO::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePassEffectContainerSO::*)(GlobalNamespace::BloomPrePassEffectSO*)>(&GlobalNamespace::BloomPrePassEffectContainerSO::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassEffectContainerSO*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BloomPrePassEffectSO*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassEffectContainerSO*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BloomPrePassEffectSO*>()});
   }
 };
-// Writing MetadataGetter for method: BloomPrePassEffectContainerSO::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BloomPrePassEffectContainerSO::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassEffectContainerSO::*)()>(&BloomPrePassEffectContainerSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePassEffectContainerSO::*)()>(&GlobalNamespace::BloomPrePassEffectContainerSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassEffectContainerSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassEffectContainerSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BloomPrePassEffectContainerSO::*)()>(&BloomPrePassEffectContainerSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePassEffectContainerSO::*)()>(&GlobalNamespace::BloomPrePassEffectContainerSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BloomPrePassEffectContainerSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassEffectContainerSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -141,81 +141,81 @@ namespace OnlineServices::API {
   static_assert(sizeof(HTTPLeaderboardsOathHelper) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPLeaderboardsOathHelper*, "OnlineServices.API", "HTTPLeaderboardsOathHelper");
-// Writing MetadataGetter for method: HTTPLeaderboardsOathHelper::SendWebRequestWithOathAsync
+// Writing MetadataGetter for method: OnlineServices::API::HTTPLeaderboardsOathHelper::SendWebRequestWithOathAsync
 // Il2CppName: SendWebRequestWithOathAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Il2CppString*>* (HTTPLeaderboardsOathHelper::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppObject*, System::Threading::CancellationToken)>(&HTTPLeaderboardsOathHelper::SendWebRequestWithOathAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Il2CppString*>* (OnlineServices::API::HTTPLeaderboardsOathHelper::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppObject*, System::Threading::CancellationToken)>(&OnlineServices::API::HTTPLeaderboardsOathHelper::SendWebRequestWithOathAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HTTPLeaderboardsOathHelper*), "SendWebRequestWithOathAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPLeaderboardsOathHelper*), "SendWebRequestWithOathAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: HTTPLeaderboardsOathHelper::LogOut
+// Writing MetadataGetter for method: OnlineServices::API::HTTPLeaderboardsOathHelper::LogOut
 // Il2CppName: LogOut
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (HTTPLeaderboardsOathHelper::*)()>(&HTTPLeaderboardsOathHelper::LogOut)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (OnlineServices::API::HTTPLeaderboardsOathHelper::*)()>(&OnlineServices::API::HTTPLeaderboardsOathHelper::LogOut)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HTTPLeaderboardsOathHelper*), "LogOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPLeaderboardsOathHelper*), "LogOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HTTPLeaderboardsOathHelper::LoginIfNeededAsync
+// Writing MetadataGetter for method: OnlineServices::API::HTTPLeaderboardsOathHelper::LoginIfNeededAsync
 // Il2CppName: LoginIfNeededAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (HTTPLeaderboardsOathHelper::*)(System::Threading::CancellationToken)>(&HTTPLeaderboardsOathHelper::LoginIfNeededAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (OnlineServices::API::HTTPLeaderboardsOathHelper::*)(System::Threading::CancellationToken)>(&OnlineServices::API::HTTPLeaderboardsOathHelper::LoginIfNeededAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HTTPLeaderboardsOathHelper*), "LoginIfNeededAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPLeaderboardsOathHelper*), "LoginIfNeededAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: HTTPLeaderboardsOathHelper::IsUserLoggedIn
+// Writing MetadataGetter for method: OnlineServices::API::HTTPLeaderboardsOathHelper::IsUserLoggedIn
 // Il2CppName: IsUserLoggedIn
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HTTPLeaderboardsOathHelper::*)()>(&HTTPLeaderboardsOathHelper::IsUserLoggedIn)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OnlineServices::API::HTTPLeaderboardsOathHelper::*)()>(&OnlineServices::API::HTTPLeaderboardsOathHelper::IsUserLoggedIn)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HTTPLeaderboardsOathHelper*), "IsUserLoggedIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPLeaderboardsOathHelper*), "IsUserLoggedIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HTTPLeaderboardsOathHelper::GetAccessTokenAsync
+// Writing MetadataGetter for method: OnlineServices::API::HTTPLeaderboardsOathHelper::GetAccessTokenAsync
 // Il2CppName: GetAccessTokenAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<BeatSaberAPI::DataTransferObjects::AccessToken*>* (HTTPLeaderboardsOathHelper::*)(System::Threading::CancellationToken)>(&HTTPLeaderboardsOathHelper::GetAccessTokenAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<BeatSaberAPI::DataTransferObjects::AccessToken*>* (OnlineServices::API::HTTPLeaderboardsOathHelper::*)(System::Threading::CancellationToken)>(&OnlineServices::API::HTTPLeaderboardsOathHelper::GetAccessTokenAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HTTPLeaderboardsOathHelper*), "GetAccessTokenAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPLeaderboardsOathHelper*), "GetAccessTokenAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: HTTPLeaderboardsOathHelper::SendWebRequestAsync
+// Writing MetadataGetter for method: OnlineServices::API::HTTPLeaderboardsOathHelper::SendWebRequestAsync
 // Il2CppName: SendWebRequestAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Il2CppString*>* (HTTPLeaderboardsOathHelper::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&HTTPLeaderboardsOathHelper::SendWebRequestAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Il2CppString*>* (OnlineServices::API::HTTPLeaderboardsOathHelper::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&OnlineServices::API::HTTPLeaderboardsOathHelper::SendWebRequestAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HTTPLeaderboardsOathHelper*), "SendWebRequestAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPLeaderboardsOathHelper*), "SendWebRequestAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: HTTPLeaderboardsOathHelper::SendAndWaitAsync
+// Writing MetadataGetter for method: OnlineServices::API::HTTPLeaderboardsOathHelper::SendAndWaitAsync
 // Il2CppName: SendAndWaitAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (HTTPLeaderboardsOathHelper::*)(UnityEngine::Networking::UnityWebRequest*, System::Threading::CancellationToken)>(&HTTPLeaderboardsOathHelper::SendAndWaitAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (OnlineServices::API::HTTPLeaderboardsOathHelper::*)(UnityEngine::Networking::UnityWebRequest*, System::Threading::CancellationToken)>(&OnlineServices::API::HTTPLeaderboardsOathHelper::SendAndWaitAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HTTPLeaderboardsOathHelper*), "SendAndWaitAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UnityWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPLeaderboardsOathHelper*), "SendAndWaitAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UnityWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: HTTPLeaderboardsOathHelper::Log
+// Writing MetadataGetter for method: OnlineServices::API::HTTPLeaderboardsOathHelper::Log
 // Il2CppName: Log
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HTTPLeaderboardsOathHelper::Log)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&OnlineServices::API::HTTPLeaderboardsOathHelper::Log)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HTTPLeaderboardsOathHelper*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPLeaderboardsOathHelper*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: HTTPLeaderboardsOathHelper::New_ctor
+// Writing MetadataGetter for method: OnlineServices::API::HTTPLeaderboardsOathHelper::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HTTPLeaderboardsOathHelper::*)()>(&HTTPLeaderboardsOathHelper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::API::HTTPLeaderboardsOathHelper::*)()>(&OnlineServices::API::HTTPLeaderboardsOathHelper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HTTPLeaderboardsOathHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPLeaderboardsOathHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HTTPLeaderboardsOathHelper::*)()>(&HTTPLeaderboardsOathHelper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::API::HTTPLeaderboardsOathHelper::*)()>(&OnlineServices::API::HTTPLeaderboardsOathHelper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HTTPLeaderboardsOathHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPLeaderboardsOathHelper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -73,41 +73,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(ResultsEnvironmentManager) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsEnvironmentManager*, "", "ResultsEnvironmentManager");
-// Writing MetadataGetter for method: ResultsEnvironmentManager::GetResultEnvironmentControllerForKeyword
+// Writing MetadataGetter for method: GlobalNamespace::ResultsEnvironmentManager::GetResultEnvironmentControllerForKeyword
 // Il2CppName: GetResultEnvironmentControllerForKeyword
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BaseResultsEnvironmentController* (ResultsEnvironmentManager::*)(::Il2CppString*)>(&ResultsEnvironmentManager::GetResultEnvironmentControllerForKeyword)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BaseResultsEnvironmentController* (GlobalNamespace::ResultsEnvironmentManager::*)(::Il2CppString*)>(&GlobalNamespace::ResultsEnvironmentManager::GetResultEnvironmentControllerForKeyword)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResultsEnvironmentManager*), "GetResultEnvironmentControllerForKeyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsEnvironmentManager*), "GetResultEnvironmentControllerForKeyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: ResultsEnvironmentManager::ShowResultForKeyword
+// Writing MetadataGetter for method: GlobalNamespace::ResultsEnvironmentManager::ShowResultForKeyword
 // Il2CppName: ShowResultForKeyword
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultsEnvironmentManager::*)(::Il2CppString*, bool)>(&ResultsEnvironmentManager::ShowResultForKeyword)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultsEnvironmentManager::*)(::Il2CppString*, bool)>(&GlobalNamespace::ResultsEnvironmentManager::ShowResultForKeyword)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResultsEnvironmentManager*), "ShowResultForKeyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsEnvironmentManager*), "ShowResultForKeyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ResultsEnvironmentManager::HideResultForKeyword
+// Writing MetadataGetter for method: GlobalNamespace::ResultsEnvironmentManager::HideResultForKeyword
 // Il2CppName: HideResultForKeyword
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultsEnvironmentManager::*)(::Il2CppString*, bool)>(&ResultsEnvironmentManager::HideResultForKeyword)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultsEnvironmentManager::*)(::Il2CppString*, bool)>(&GlobalNamespace::ResultsEnvironmentManager::HideResultForKeyword)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResultsEnvironmentManager*), "HideResultForKeyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsEnvironmentManager*), "HideResultForKeyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ResultsEnvironmentManager::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::ResultsEnvironmentManager::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultsEnvironmentManager::*)()>(&ResultsEnvironmentManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultsEnvironmentManager::*)()>(&GlobalNamespace::ResultsEnvironmentManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResultsEnvironmentManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsEnvironmentManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultsEnvironmentManager::*)()>(&ResultsEnvironmentManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultsEnvironmentManager::*)()>(&GlobalNamespace::ResultsEnvironmentManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResultsEnvironmentManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsEnvironmentManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

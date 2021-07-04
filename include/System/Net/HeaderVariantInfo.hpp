@@ -55,33 +55,33 @@ namespace System::Net {
   static_assert(sizeof(HeaderVariantInfo) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HeaderVariantInfo, "System.Net", "HeaderVariantInfo");
-// Writing MetadataGetter for method: HeaderVariantInfo::HeaderVariantInfo
+// Writing MetadataGetter for method: System::Net::HeaderVariantInfo::HeaderVariantInfo
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HeaderVariantInfo::*)(::Il2CppString*, System::Net::CookieVariant)>(&HeaderVariantInfo::HeaderVariantInfo<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HeaderVariantInfo::*)(::Il2CppString*, System::Net::CookieVariant)>(&System::Net::HeaderVariantInfo::HeaderVariantInfo<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HeaderVariantInfo), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::CookieVariant>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::HeaderVariantInfo), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::CookieVariant>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HeaderVariantInfo::*)(::Il2CppString*, System::Net::CookieVariant)>(&HeaderVariantInfo::HeaderVariantInfo<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HeaderVariantInfo::*)(::Il2CppString*, System::Net::CookieVariant)>(&System::Net::HeaderVariantInfo::HeaderVariantInfo<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HeaderVariantInfo), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::CookieVariant>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::HeaderVariantInfo), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::CookieVariant>()});
   }
 };
-// Writing MetadataGetter for method: HeaderVariantInfo::get_Name
+// Writing MetadataGetter for method: System::Net::HeaderVariantInfo::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HeaderVariantInfo::*)()>(&HeaderVariantInfo::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::HeaderVariantInfo::*)()>(&System::Net::HeaderVariantInfo::get_Name)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HeaderVariantInfo), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::HeaderVariantInfo), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HeaderVariantInfo::get_Variant
+// Writing MetadataGetter for method: System::Net::HeaderVariantInfo::get_Variant
 // Il2CppName: get_Variant
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::CookieVariant (HeaderVariantInfo::*)()>(&HeaderVariantInfo::get_Variant)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::CookieVariant (System::Net::HeaderVariantInfo::*)()>(&System::Net::HeaderVariantInfo::get_Variant)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HeaderVariantInfo), "get_Variant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::HeaderVariantInfo), "get_Variant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

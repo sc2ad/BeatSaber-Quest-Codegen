@@ -101,65 +101,65 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKSolver::Point) == 0x54);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolver::Point*, "RootMotion.FinalIK", "IKSolver/Point");
-// Writing MetadataGetter for method: IKSolver::Point::StoreDefaultLocalState
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolver::Point::StoreDefaultLocalState
 // Il2CppName: StoreDefaultLocalState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Point::*)()>(&IKSolver::Point::StoreDefaultLocalState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolver::Point::*)()>(&RootMotion::FinalIK::IKSolver::Point::StoreDefaultLocalState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolver::Point*), "StoreDefaultLocalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolver::Point*), "StoreDefaultLocalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IKSolver::Point::FixTransform
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolver::Point::FixTransform
 // Il2CppName: FixTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Point::*)()>(&IKSolver::Point::FixTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolver::Point::*)()>(&RootMotion::FinalIK::IKSolver::Point::FixTransform)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolver::Point*), "FixTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolver::Point*), "FixTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IKSolver::Point::UpdateSolverPosition
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolver::Point::UpdateSolverPosition
 // Il2CppName: UpdateSolverPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Point::*)()>(&IKSolver::Point::UpdateSolverPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolver::Point::*)()>(&RootMotion::FinalIK::IKSolver::Point::UpdateSolverPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolver::Point*), "UpdateSolverPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolver::Point*), "UpdateSolverPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IKSolver::Point::UpdateSolverLocalPosition
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolver::Point::UpdateSolverLocalPosition
 // Il2CppName: UpdateSolverLocalPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Point::*)()>(&IKSolver::Point::UpdateSolverLocalPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolver::Point::*)()>(&RootMotion::FinalIK::IKSolver::Point::UpdateSolverLocalPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolver::Point*), "UpdateSolverLocalPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolver::Point*), "UpdateSolverLocalPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IKSolver::Point::UpdateSolverState
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolver::Point::UpdateSolverState
 // Il2CppName: UpdateSolverState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Point::*)()>(&IKSolver::Point::UpdateSolverState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolver::Point::*)()>(&RootMotion::FinalIK::IKSolver::Point::UpdateSolverState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolver::Point*), "UpdateSolverState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolver::Point*), "UpdateSolverState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IKSolver::Point::UpdateSolverLocalState
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolver::Point::UpdateSolverLocalState
 // Il2CppName: UpdateSolverLocalState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Point::*)()>(&IKSolver::Point::UpdateSolverLocalState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolver::Point::*)()>(&RootMotion::FinalIK::IKSolver::Point::UpdateSolverLocalState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolver::Point*), "UpdateSolverLocalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolver::Point*), "UpdateSolverLocalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IKSolver::Point::New_ctor
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKSolver::Point::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Point::*)()>(&IKSolver::Point::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolver::Point::*)()>(&RootMotion::FinalIK::IKSolver::Point::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolver::Point*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolver::Point*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKSolver::Point::*)()>(&IKSolver::Point::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolver::Point::*)()>(&RootMotion::FinalIK::IKSolver::Point::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKSolver::Point*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolver::Point*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

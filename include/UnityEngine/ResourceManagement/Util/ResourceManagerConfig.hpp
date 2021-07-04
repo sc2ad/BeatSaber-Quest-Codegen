@@ -83,52 +83,52 @@ namespace UnityEngine::ResourceManagement::Util {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::ResourceManagerConfig*, "UnityEngine.ResourceManagement.Util", "ResourceManagerConfig");
-// Writing MetadataGetter for method: ResourceManagerConfig::ExtractKeyAndSubKey
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::ResourceManagerConfig::ExtractKeyAndSubKey
 // Il2CppName: ExtractKeyAndSubKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*, ::Il2CppString*&, ::Il2CppString*&)>(&ResourceManagerConfig::ExtractKeyAndSubKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*, ::Il2CppString*&, ::Il2CppString*&)>(&UnityEngine::ResourceManagement::Util::ResourceManagerConfig::ExtractKeyAndSubKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResourceManagerConfig*), "ExtractKeyAndSubKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::ResourceManagerConfig*), "ExtractKeyAndSubKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
   }
 };
-// Writing MetadataGetter for method: ResourceManagerConfig::IsPathRemote
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::ResourceManagerConfig::IsPathRemote
 // Il2CppName: IsPathRemote
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&ResourceManagerConfig::IsPathRemote)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&UnityEngine::ResourceManagement::Util::ResourceManagerConfig::IsPathRemote)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResourceManagerConfig*), "IsPathRemote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::ResourceManagerConfig*), "IsPathRemote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: ResourceManagerConfig::ShouldPathUseWebRequest
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::ResourceManagerConfig::ShouldPathUseWebRequest
 // Il2CppName: ShouldPathUseWebRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&ResourceManagerConfig::ShouldPathUseWebRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&UnityEngine::ResourceManagement::Util::ResourceManagerConfig::ShouldPathUseWebRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResourceManagerConfig*), "ShouldPathUseWebRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::ResourceManagerConfig*), "ShouldPathUseWebRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: ResourceManagerConfig::CreateArrayResult
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateArrayResult
 // Il2CppName: CreateArrayResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(System::Type*, ::Array<UnityEngine::Object*>*)>(&ResourceManagerConfig::CreateArrayResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(System::Type*, ::Array<UnityEngine::Object*>*)>(&UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateArrayResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResourceManagerConfig*), "CreateArrayResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Object*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::ResourceManagerConfig*), "CreateArrayResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Object*>*>()});
   }
 };
-// Writing MetadataGetter for method: ResourceManagerConfig::CreateArrayResult
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateArrayResult
 // Il2CppName: CreateArrayResult
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ResourceManagerConfig::CreateListResult
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateListResult
 // Il2CppName: CreateListResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (*)(System::Type*, ::Array<UnityEngine::Object*>*)>(&ResourceManagerConfig::CreateListResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (*)(System::Type*, ::Array<UnityEngine::Object*>*)>(&UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateListResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResourceManagerConfig*), "CreateListResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Object*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::ResourceManagerConfig*), "CreateListResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Object*>*>()});
   }
 };
-// Writing MetadataGetter for method: ResourceManagerConfig::CreateListResult
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateListResult
 // Il2CppName: CreateListResult
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ResourceManagerConfig::IsInstance
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::ResourceManagerConfig::IsInstance
 // Il2CppName: IsInstance
 // Cannot write MetadataGetter for generic methods!

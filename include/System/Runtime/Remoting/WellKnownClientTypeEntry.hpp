@@ -73,49 +73,49 @@ namespace System::Runtime::Remoting {
   static_assert(sizeof(WellKnownClientTypeEntry) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::WellKnownClientTypeEntry*, "System.Runtime.Remoting", "WellKnownClientTypeEntry");
-// Writing MetadataGetter for method: WellKnownClientTypeEntry::New_ctor
+// Writing MetadataGetter for method: System::Runtime::Remoting::WellKnownClientTypeEntry::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WellKnownClientTypeEntry::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&WellKnownClientTypeEntry::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::WellKnownClientTypeEntry::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&System::Runtime::Remoting::WellKnownClientTypeEntry::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WellKnownClientTypeEntry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::WellKnownClientTypeEntry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WellKnownClientTypeEntry::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&WellKnownClientTypeEntry::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::WellKnownClientTypeEntry::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&System::Runtime::Remoting::WellKnownClientTypeEntry::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WellKnownClientTypeEntry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::WellKnownClientTypeEntry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: WellKnownClientTypeEntry::get_ApplicationUrl
+// Writing MetadataGetter for method: System::Runtime::Remoting::WellKnownClientTypeEntry::get_ApplicationUrl
 // Il2CppName: get_ApplicationUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (WellKnownClientTypeEntry::*)()>(&WellKnownClientTypeEntry::get_ApplicationUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::WellKnownClientTypeEntry::*)()>(&System::Runtime::Remoting::WellKnownClientTypeEntry::get_ApplicationUrl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WellKnownClientTypeEntry*), "get_ApplicationUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::WellKnownClientTypeEntry*), "get_ApplicationUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WellKnownClientTypeEntry::get_ObjectType
+// Writing MetadataGetter for method: System::Runtime::Remoting::WellKnownClientTypeEntry::get_ObjectType
 // Il2CppName: get_ObjectType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (WellKnownClientTypeEntry::*)()>(&WellKnownClientTypeEntry::get_ObjectType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Runtime::Remoting::WellKnownClientTypeEntry::*)()>(&System::Runtime::Remoting::WellKnownClientTypeEntry::get_ObjectType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WellKnownClientTypeEntry*), "get_ObjectType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::WellKnownClientTypeEntry*), "get_ObjectType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WellKnownClientTypeEntry::get_ObjectUrl
+// Writing MetadataGetter for method: System::Runtime::Remoting::WellKnownClientTypeEntry::get_ObjectUrl
 // Il2CppName: get_ObjectUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (WellKnownClientTypeEntry::*)()>(&WellKnownClientTypeEntry::get_ObjectUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::WellKnownClientTypeEntry::*)()>(&System::Runtime::Remoting::WellKnownClientTypeEntry::get_ObjectUrl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WellKnownClientTypeEntry*), "get_ObjectUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::WellKnownClientTypeEntry*), "get_ObjectUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WellKnownClientTypeEntry::ToString
+// Writing MetadataGetter for method: System::Runtime::Remoting::WellKnownClientTypeEntry::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (WellKnownClientTypeEntry::*)()>(&WellKnownClientTypeEntry::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::WellKnownClientTypeEntry::*)()>(&System::Runtime::Remoting::WellKnownClientTypeEntry::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WellKnownClientTypeEntry*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::WellKnownClientTypeEntry*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

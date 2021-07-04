@@ -65,17 +65,17 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ListExtensions*, "", "ListExtensions");
-// Writing MetadataGetter for method: ListExtensions::IndexOf
+// Writing MetadataGetter for method: GlobalNamespace::ListExtensions::IndexOf
 // Il2CppName: IndexOf
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ListExtensions::ShuffleInPlace
+// Writing MetadataGetter for method: GlobalNamespace::ListExtensions::ShuffleInPlace
 // Il2CppName: ShuffleInPlace
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ListExtensions::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::ListExtensions::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ListExtensions::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::ListExtensions::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ListExtensions*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ListExtensions*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

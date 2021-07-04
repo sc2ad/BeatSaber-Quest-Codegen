@@ -63,41 +63,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(ActivateOnVisible) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ActivateOnVisible*, "", "ActivateOnVisible");
-// Writing MetadataGetter for method: ActivateOnVisible::Awake
+// Writing MetadataGetter for method: GlobalNamespace::ActivateOnVisible::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActivateOnVisible::*)()>(&ActivateOnVisible::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ActivateOnVisible::*)()>(&GlobalNamespace::ActivateOnVisible::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ActivateOnVisible*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ActivateOnVisible*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ActivateOnVisible::OnBecameVisible
+// Writing MetadataGetter for method: GlobalNamespace::ActivateOnVisible::OnBecameVisible
 // Il2CppName: OnBecameVisible
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActivateOnVisible::*)()>(&ActivateOnVisible::OnBecameVisible)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ActivateOnVisible::*)()>(&GlobalNamespace::ActivateOnVisible::OnBecameVisible)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ActivateOnVisible*), "OnBecameVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ActivateOnVisible*), "OnBecameVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ActivateOnVisible::OnBecameInvisible
+// Writing MetadataGetter for method: GlobalNamespace::ActivateOnVisible::OnBecameInvisible
 // Il2CppName: OnBecameInvisible
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActivateOnVisible::*)()>(&ActivateOnVisible::OnBecameInvisible)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ActivateOnVisible::*)()>(&GlobalNamespace::ActivateOnVisible::OnBecameInvisible)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ActivateOnVisible*), "OnBecameInvisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ActivateOnVisible*), "OnBecameInvisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ActivateOnVisible::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::ActivateOnVisible::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActivateOnVisible::*)()>(&ActivateOnVisible::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ActivateOnVisible::*)()>(&GlobalNamespace::ActivateOnVisible::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ActivateOnVisible*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ActivateOnVisible*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActivateOnVisible::*)()>(&ActivateOnVisible::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ActivateOnVisible::*)()>(&GlobalNamespace::ActivateOnVisible::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ActivateOnVisible*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ActivateOnVisible*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

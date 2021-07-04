@@ -86,41 +86,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(StartMiddleEndButtonBackgroundController) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StartMiddleEndButtonBackgroundController*, "", "StartMiddleEndButtonBackgroundController");
-// Writing MetadataGetter for method: StartMiddleEndButtonBackgroundController::SetStartSprite
+// Writing MetadataGetter for method: GlobalNamespace::StartMiddleEndButtonBackgroundController::SetStartSprite
 // Il2CppName: SetStartSprite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StartMiddleEndButtonBackgroundController::*)()>(&StartMiddleEndButtonBackgroundController::SetStartSprite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StartMiddleEndButtonBackgroundController::*)()>(&GlobalNamespace::StartMiddleEndButtonBackgroundController::SetStartSprite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StartMiddleEndButtonBackgroundController*), "SetStartSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StartMiddleEndButtonBackgroundController*), "SetStartSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StartMiddleEndButtonBackgroundController::SetMiddleSprite
+// Writing MetadataGetter for method: GlobalNamespace::StartMiddleEndButtonBackgroundController::SetMiddleSprite
 // Il2CppName: SetMiddleSprite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StartMiddleEndButtonBackgroundController::*)()>(&StartMiddleEndButtonBackgroundController::SetMiddleSprite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StartMiddleEndButtonBackgroundController::*)()>(&GlobalNamespace::StartMiddleEndButtonBackgroundController::SetMiddleSprite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StartMiddleEndButtonBackgroundController*), "SetMiddleSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StartMiddleEndButtonBackgroundController*), "SetMiddleSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StartMiddleEndButtonBackgroundController::SetEndSprite
+// Writing MetadataGetter for method: GlobalNamespace::StartMiddleEndButtonBackgroundController::SetEndSprite
 // Il2CppName: SetEndSprite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StartMiddleEndButtonBackgroundController::*)()>(&StartMiddleEndButtonBackgroundController::SetEndSprite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StartMiddleEndButtonBackgroundController::*)()>(&GlobalNamespace::StartMiddleEndButtonBackgroundController::SetEndSprite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StartMiddleEndButtonBackgroundController*), "SetEndSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StartMiddleEndButtonBackgroundController*), "SetEndSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StartMiddleEndButtonBackgroundController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::StartMiddleEndButtonBackgroundController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StartMiddleEndButtonBackgroundController::*)()>(&StartMiddleEndButtonBackgroundController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StartMiddleEndButtonBackgroundController::*)()>(&GlobalNamespace::StartMiddleEndButtonBackgroundController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StartMiddleEndButtonBackgroundController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StartMiddleEndButtonBackgroundController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StartMiddleEndButtonBackgroundController::*)()>(&StartMiddleEndButtonBackgroundController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StartMiddleEndButtonBackgroundController::*)()>(&GlobalNamespace::StartMiddleEndButtonBackgroundController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StartMiddleEndButtonBackgroundController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StartMiddleEndButtonBackgroundController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

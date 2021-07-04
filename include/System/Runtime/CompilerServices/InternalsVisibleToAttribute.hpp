@@ -55,41 +55,41 @@ namespace System::Runtime::CompilerServices {
   static_assert(sizeof(InternalsVisibleToAttribute) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::InternalsVisibleToAttribute*, "System.Runtime.CompilerServices", "InternalsVisibleToAttribute");
-// Writing MetadataGetter for method: InternalsVisibleToAttribute::New_ctor
+// Writing MetadataGetter for method: System::Runtime::CompilerServices::InternalsVisibleToAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InternalsVisibleToAttribute::*)(::Il2CppString*)>(&InternalsVisibleToAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::CompilerServices::InternalsVisibleToAttribute::*)(::Il2CppString*)>(&System::Runtime::CompilerServices::InternalsVisibleToAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InternalsVisibleToAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::InternalsVisibleToAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InternalsVisibleToAttribute::*)(::Il2CppString*)>(&InternalsVisibleToAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::CompilerServices::InternalsVisibleToAttribute::*)(::Il2CppString*)>(&System::Runtime::CompilerServices::InternalsVisibleToAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InternalsVisibleToAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::InternalsVisibleToAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: InternalsVisibleToAttribute::get_AssemblyName
+// Writing MetadataGetter for method: System::Runtime::CompilerServices::InternalsVisibleToAttribute::get_AssemblyName
 // Il2CppName: get_AssemblyName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (InternalsVisibleToAttribute::*)()>(&InternalsVisibleToAttribute::get_AssemblyName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::CompilerServices::InternalsVisibleToAttribute::*)()>(&System::Runtime::CompilerServices::InternalsVisibleToAttribute::get_AssemblyName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InternalsVisibleToAttribute*), "get_AssemblyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::InternalsVisibleToAttribute*), "get_AssemblyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InternalsVisibleToAttribute::get_AllInternalsVisible
+// Writing MetadataGetter for method: System::Runtime::CompilerServices::InternalsVisibleToAttribute::get_AllInternalsVisible
 // Il2CppName: get_AllInternalsVisible
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InternalsVisibleToAttribute::*)()>(&InternalsVisibleToAttribute::get_AllInternalsVisible)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::CompilerServices::InternalsVisibleToAttribute::*)()>(&System::Runtime::CompilerServices::InternalsVisibleToAttribute::get_AllInternalsVisible)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InternalsVisibleToAttribute*), "get_AllInternalsVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::InternalsVisibleToAttribute*), "get_AllInternalsVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InternalsVisibleToAttribute::set_AllInternalsVisible
+// Writing MetadataGetter for method: System::Runtime::CompilerServices::InternalsVisibleToAttribute::set_AllInternalsVisible
 // Il2CppName: set_AllInternalsVisible
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InternalsVisibleToAttribute::*)(bool)>(&InternalsVisibleToAttribute::set_AllInternalsVisible)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::CompilerServices::InternalsVisibleToAttribute::*)(bool)>(&System::Runtime::CompilerServices::InternalsVisibleToAttribute::set_AllInternalsVisible)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InternalsVisibleToAttribute*), "set_AllInternalsVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::InternalsVisibleToAttribute*), "set_AllInternalsVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };

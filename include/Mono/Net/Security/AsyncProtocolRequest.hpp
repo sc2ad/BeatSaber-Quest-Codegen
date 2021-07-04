@@ -150,113 +150,113 @@ namespace Mono::Net::Security {
   static_assert(sizeof(AsyncProtocolRequest) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncProtocolRequest*, "Mono.Net.Security", "AsyncProtocolRequest");
-// Writing MetadataGetter for method: AsyncProtocolRequest::get_Parent
+// Writing MetadataGetter for method: Mono::Net::Security::AsyncProtocolRequest::get_Parent
 // Il2CppName: get_Parent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::Security::MobileAuthenticatedStream* (AsyncProtocolRequest::*)()>(&AsyncProtocolRequest::get_Parent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::Security::MobileAuthenticatedStream* (Mono::Net::Security::AsyncProtocolRequest::*)()>(&Mono::Net::Security::AsyncProtocolRequest::get_Parent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncProtocolRequest*), "get_Parent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::AsyncProtocolRequest*), "get_Parent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AsyncProtocolRequest::get_RunSynchronously
+// Writing MetadataGetter for method: Mono::Net::Security::AsyncProtocolRequest::get_RunSynchronously
 // Il2CppName: get_RunSynchronously
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AsyncProtocolRequest::*)()>(&AsyncProtocolRequest::get_RunSynchronously)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Net::Security::AsyncProtocolRequest::*)()>(&Mono::Net::Security::AsyncProtocolRequest::get_RunSynchronously)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncProtocolRequest*), "get_RunSynchronously", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::AsyncProtocolRequest*), "get_RunSynchronously", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AsyncProtocolRequest::get_Name
+// Writing MetadataGetter for method: Mono::Net::Security::AsyncProtocolRequest::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AsyncProtocolRequest::*)()>(&AsyncProtocolRequest::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Net::Security::AsyncProtocolRequest::*)()>(&Mono::Net::Security::AsyncProtocolRequest::get_Name)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncProtocolRequest*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::AsyncProtocolRequest*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AsyncProtocolRequest::get_UserResult
+// Writing MetadataGetter for method: Mono::Net::Security::AsyncProtocolRequest::get_UserResult
 // Il2CppName: get_UserResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AsyncProtocolRequest::*)()>(&AsyncProtocolRequest::get_UserResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Net::Security::AsyncProtocolRequest::*)()>(&Mono::Net::Security::AsyncProtocolRequest::get_UserResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncProtocolRequest*), "get_UserResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::AsyncProtocolRequest*), "get_UserResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AsyncProtocolRequest::set_UserResult
+// Writing MetadataGetter for method: Mono::Net::Security::AsyncProtocolRequest::set_UserResult
 // Il2CppName: set_UserResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncProtocolRequest::*)(int)>(&AsyncProtocolRequest::set_UserResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::AsyncProtocolRequest::*)(int)>(&Mono::Net::Security::AsyncProtocolRequest::set_UserResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncProtocolRequest*), "set_UserResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::AsyncProtocolRequest*), "set_UserResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: AsyncProtocolRequest::New_ctor
+// Writing MetadataGetter for method: Mono::Net::Security::AsyncProtocolRequest::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncProtocolRequest::*)(Mono::Net::Security::MobileAuthenticatedStream*, bool)>(&AsyncProtocolRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::AsyncProtocolRequest::*)(Mono::Net::Security::MobileAuthenticatedStream*, bool)>(&Mono::Net::Security::AsyncProtocolRequest::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncProtocolRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::MobileAuthenticatedStream*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::AsyncProtocolRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::MobileAuthenticatedStream*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncProtocolRequest::*)(Mono::Net::Security::MobileAuthenticatedStream*, bool)>(&AsyncProtocolRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::AsyncProtocolRequest::*)(Mono::Net::Security::MobileAuthenticatedStream*, bool)>(&Mono::Net::Security::AsyncProtocolRequest::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncProtocolRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::MobileAuthenticatedStream*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::AsyncProtocolRequest*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::MobileAuthenticatedStream*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AsyncProtocolRequest::RequestRead
+// Writing MetadataGetter for method: Mono::Net::Security::AsyncProtocolRequest::RequestRead
 // Il2CppName: RequestRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncProtocolRequest::*)(int)>(&AsyncProtocolRequest::RequestRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::AsyncProtocolRequest::*)(int)>(&Mono::Net::Security::AsyncProtocolRequest::RequestRead)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncProtocolRequest*), "RequestRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::AsyncProtocolRequest*), "RequestRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: AsyncProtocolRequest::RequestWrite
+// Writing MetadataGetter for method: Mono::Net::Security::AsyncProtocolRequest::RequestWrite
 // Il2CppName: RequestWrite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncProtocolRequest::*)()>(&AsyncProtocolRequest::RequestWrite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::AsyncProtocolRequest::*)()>(&Mono::Net::Security::AsyncProtocolRequest::RequestWrite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncProtocolRequest*), "RequestWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::AsyncProtocolRequest*), "RequestWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AsyncProtocolRequest::StartOperation
+// Writing MetadataGetter for method: Mono::Net::Security::AsyncProtocolRequest::StartOperation
 // Il2CppName: StartOperation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<Mono::Net::Security::AsyncProtocolResult*>* (AsyncProtocolRequest::*)(System::Threading::CancellationToken)>(&AsyncProtocolRequest::StartOperation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<Mono::Net::Security::AsyncProtocolResult*>* (Mono::Net::Security::AsyncProtocolRequest::*)(System::Threading::CancellationToken)>(&Mono::Net::Security::AsyncProtocolRequest::StartOperation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncProtocolRequest*), "StartOperation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::AsyncProtocolRequest*), "StartOperation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: AsyncProtocolRequest::ProcessOperation
+// Writing MetadataGetter for method: Mono::Net::Security::AsyncProtocolRequest::ProcessOperation
 // Il2CppName: ProcessOperation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (AsyncProtocolRequest::*)(System::Threading::CancellationToken)>(&AsyncProtocolRequest::ProcessOperation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (Mono::Net::Security::AsyncProtocolRequest::*)(System::Threading::CancellationToken)>(&Mono::Net::Security::AsyncProtocolRequest::ProcessOperation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncProtocolRequest*), "ProcessOperation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::AsyncProtocolRequest*), "ProcessOperation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: AsyncProtocolRequest::InnerRead
+// Writing MetadataGetter for method: Mono::Net::Security::AsyncProtocolRequest::InnerRead
 // Il2CppName: InnerRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<System::Nullable_1<int>>* (AsyncProtocolRequest::*)(System::Threading::CancellationToken)>(&AsyncProtocolRequest::InnerRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<System::Nullable_1<int>>* (Mono::Net::Security::AsyncProtocolRequest::*)(System::Threading::CancellationToken)>(&Mono::Net::Security::AsyncProtocolRequest::InnerRead)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncProtocolRequest*), "InnerRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::AsyncProtocolRequest*), "InnerRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: AsyncProtocolRequest::Run
+// Writing MetadataGetter for method: Mono::Net::Security::AsyncProtocolRequest::Run
 // Il2CppName: Run
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::Security::AsyncOperationStatus (AsyncProtocolRequest::*)(Mono::Net::Security::AsyncOperationStatus)>(&AsyncProtocolRequest::Run)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::Security::AsyncOperationStatus (Mono::Net::Security::AsyncProtocolRequest::*)(Mono::Net::Security::AsyncOperationStatus)>(&Mono::Net::Security::AsyncProtocolRequest::Run)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncProtocolRequest*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::AsyncOperationStatus>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::AsyncProtocolRequest*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::AsyncOperationStatus>()});
   }
 };
-// Writing MetadataGetter for method: AsyncProtocolRequest::ToString
+// Writing MetadataGetter for method: Mono::Net::Security::AsyncProtocolRequest::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AsyncProtocolRequest::*)()>(&AsyncProtocolRequest::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Net::Security::AsyncProtocolRequest::*)()>(&Mono::Net::Security::AsyncProtocolRequest::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncProtocolRequest*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::AsyncProtocolRequest*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

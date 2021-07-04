@@ -92,25 +92,25 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRSkeletonRenderer::CapsuleVisualization) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeletonRenderer::CapsuleVisualization*, "", "OVRSkeletonRenderer/CapsuleVisualization");
-// Writing MetadataGetter for method: OVRSkeletonRenderer::CapsuleVisualization::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::OVRSkeletonRenderer::CapsuleVisualization::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSkeletonRenderer::CapsuleVisualization::*)(UnityEngine::GameObject*, UnityEngine::Material*, UnityEngine::Material*, float, GlobalNamespace::OVRBoneCapsule*)>(&OVRSkeletonRenderer::CapsuleVisualization::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRSkeletonRenderer::CapsuleVisualization::*)(UnityEngine::GameObject*, UnityEngine::Material*, UnityEngine::Material*, float, GlobalNamespace::OVRBoneCapsule*)>(&GlobalNamespace::OVRSkeletonRenderer::CapsuleVisualization::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSkeletonRenderer::CapsuleVisualization*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRBoneCapsule*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSkeletonRenderer::CapsuleVisualization*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRBoneCapsule*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSkeletonRenderer::CapsuleVisualization::*)(UnityEngine::GameObject*, UnityEngine::Material*, UnityEngine::Material*, float, GlobalNamespace::OVRBoneCapsule*)>(&OVRSkeletonRenderer::CapsuleVisualization::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRSkeletonRenderer::CapsuleVisualization::*)(UnityEngine::GameObject*, UnityEngine::Material*, UnityEngine::Material*, float, GlobalNamespace::OVRBoneCapsule*)>(&GlobalNamespace::OVRSkeletonRenderer::CapsuleVisualization::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSkeletonRenderer::CapsuleVisualization*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRBoneCapsule*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSkeletonRenderer::CapsuleVisualization*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRBoneCapsule*>()});
   }
 };
-// Writing MetadataGetter for method: OVRSkeletonRenderer::CapsuleVisualization::Update
+// Writing MetadataGetter for method: GlobalNamespace::OVRSkeletonRenderer::CapsuleVisualization::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSkeletonRenderer::CapsuleVisualization::*)(float, bool, bool, GlobalNamespace::OVRSkeletonRenderer::ConfidenceBehavior, GlobalNamespace::OVRSkeletonRenderer::SystemGestureBehavior)>(&OVRSkeletonRenderer::CapsuleVisualization::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRSkeletonRenderer::CapsuleVisualization::*)(float, bool, bool, GlobalNamespace::OVRSkeletonRenderer::ConfidenceBehavior, GlobalNamespace::OVRSkeletonRenderer::SystemGestureBehavior)>(&GlobalNamespace::OVRSkeletonRenderer::CapsuleVisualization::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRSkeletonRenderer::CapsuleVisualization*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRSkeletonRenderer::ConfidenceBehavior>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRSkeletonRenderer::SystemGestureBehavior>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSkeletonRenderer::CapsuleVisualization*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRSkeletonRenderer::ConfidenceBehavior>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRSkeletonRenderer::SystemGestureBehavior>()});
   }
 };

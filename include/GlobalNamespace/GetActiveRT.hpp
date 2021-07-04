@@ -65,41 +65,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(GetActiveRT) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GetActiveRT*, "", "GetActiveRT");
-// Writing MetadataGetter for method: GetActiveRT::get_ColorBuffer
+// Writing MetadataGetter for method: GlobalNamespace::GetActiveRT::get_ColorBuffer
 // Il2CppName: get_ColorBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderBuffer (GetActiveRT::*)()>(&GetActiveRT::get_ColorBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderBuffer (GlobalNamespace::GetActiveRT::*)()>(&GlobalNamespace::GetActiveRT::get_ColorBuffer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GetActiveRT*), "get_ColorBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GetActiveRT*), "get_ColorBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GetActiveRT::get_DepthBuffer
+// Writing MetadataGetter for method: GlobalNamespace::GetActiveRT::get_DepthBuffer
 // Il2CppName: get_DepthBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderBuffer (GetActiveRT::*)()>(&GetActiveRT::get_DepthBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderBuffer (GlobalNamespace::GetActiveRT::*)()>(&GlobalNamespace::GetActiveRT::get_DepthBuffer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GetActiveRT*), "get_DepthBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GetActiveRT*), "get_DepthBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GetActiveRT::OnPreRender
+// Writing MetadataGetter for method: GlobalNamespace::GetActiveRT::OnPreRender
 // Il2CppName: OnPreRender
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GetActiveRT::*)()>(&GetActiveRT::OnPreRender)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GetActiveRT::*)()>(&GlobalNamespace::GetActiveRT::OnPreRender)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GetActiveRT*), "OnPreRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GetActiveRT*), "OnPreRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GetActiveRT::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::GetActiveRT::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GetActiveRT::*)()>(&GetActiveRT::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GetActiveRT::*)()>(&GlobalNamespace::GetActiveRT::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GetActiveRT*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GetActiveRT*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GetActiveRT::*)()>(&GetActiveRT::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GetActiveRT::*)()>(&GlobalNamespace::GetActiveRT::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GetActiveRT*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GetActiveRT*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

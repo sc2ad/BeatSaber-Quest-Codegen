@@ -78,65 +78,65 @@ namespace JetBrains::Annotations {
   static_assert(sizeof(MacroAttribute) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::MacroAttribute*, "JetBrains.Annotations", "MacroAttribute");
-// Writing MetadataGetter for method: MacroAttribute::get_Expression
+// Writing MetadataGetter for method: JetBrains::Annotations::MacroAttribute::get_Expression
 // Il2CppName: get_Expression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MacroAttribute::*)()>(&MacroAttribute::get_Expression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::MacroAttribute::*)()>(&JetBrains::Annotations::MacroAttribute::get_Expression)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MacroAttribute*), "get_Expression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MacroAttribute*), "get_Expression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MacroAttribute::set_Expression
+// Writing MetadataGetter for method: JetBrains::Annotations::MacroAttribute::set_Expression
 // Il2CppName: set_Expression
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MacroAttribute::*)(::Il2CppString*)>(&MacroAttribute::set_Expression)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::MacroAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::MacroAttribute::set_Expression)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MacroAttribute*), "set_Expression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MacroAttribute*), "set_Expression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: MacroAttribute::get_Editable
+// Writing MetadataGetter for method: JetBrains::Annotations::MacroAttribute::get_Editable
 // Il2CppName: get_Editable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MacroAttribute::*)()>(&MacroAttribute::get_Editable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (JetBrains::Annotations::MacroAttribute::*)()>(&JetBrains::Annotations::MacroAttribute::get_Editable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MacroAttribute*), "get_Editable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MacroAttribute*), "get_Editable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MacroAttribute::set_Editable
+// Writing MetadataGetter for method: JetBrains::Annotations::MacroAttribute::set_Editable
 // Il2CppName: set_Editable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MacroAttribute::*)(int)>(&MacroAttribute::set_Editable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::MacroAttribute::*)(int)>(&JetBrains::Annotations::MacroAttribute::set_Editable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MacroAttribute*), "set_Editable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MacroAttribute*), "set_Editable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: MacroAttribute::get_Target
+// Writing MetadataGetter for method: JetBrains::Annotations::MacroAttribute::get_Target
 // Il2CppName: get_Target
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MacroAttribute::*)()>(&MacroAttribute::get_Target)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::MacroAttribute::*)()>(&JetBrains::Annotations::MacroAttribute::get_Target)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MacroAttribute*), "get_Target", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MacroAttribute*), "get_Target", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MacroAttribute::set_Target
+// Writing MetadataGetter for method: JetBrains::Annotations::MacroAttribute::set_Target
 // Il2CppName: set_Target
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MacroAttribute::*)(::Il2CppString*)>(&MacroAttribute::set_Target)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::MacroAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::MacroAttribute::set_Target)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MacroAttribute*), "set_Target", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MacroAttribute*), "set_Target", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: MacroAttribute::New_ctor
+// Writing MetadataGetter for method: JetBrains::Annotations::MacroAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MacroAttribute::*)()>(&MacroAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::MacroAttribute::*)()>(&JetBrains::Annotations::MacroAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MacroAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MacroAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MacroAttribute::*)()>(&MacroAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::MacroAttribute::*)()>(&JetBrains::Annotations::MacroAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MacroAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::MacroAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

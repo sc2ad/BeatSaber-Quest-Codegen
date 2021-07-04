@@ -168,155 +168,155 @@ namespace UnityEngine::UI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::DefaultControls*, "UnityEngine.UI", "DefaultControls");
-// Writing MetadataGetter for method: DefaultControls::get_factory
+// Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::get_factory
 // Il2CppName: get_factory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::DefaultControls::IFactoryControls* (*)()>(&DefaultControls::get_factory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::DefaultControls::IFactoryControls* (*)()>(&UnityEngine::UI::DefaultControls::get_factory)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultControls*), "get_factory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "get_factory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DefaultControls::CreateUIElementRoot
+// Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateUIElementRoot
 // Il2CppName: CreateUIElementRoot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::Il2CppString*, UnityEngine::Vector2, ::Array<System::Type*>*)>(&DefaultControls::CreateUIElementRoot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::Il2CppString*, UnityEngine::Vector2, ::Array<System::Type*>*)>(&UnityEngine::UI::DefaultControls::CreateUIElementRoot)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultControls*), "CreateUIElementRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateUIElementRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultControls::CreateUIObject
+// Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateUIObject
 // Il2CppName: CreateUIObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::Il2CppString*, UnityEngine::GameObject*, ::Array<System::Type*>*)>(&DefaultControls::CreateUIObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::Il2CppString*, UnityEngine::GameObject*, ::Array<System::Type*>*)>(&UnityEngine::UI::DefaultControls::CreateUIObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultControls*), "CreateUIObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateUIObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultControls::SetDefaultTextValues
+// Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::SetDefaultTextValues
 // Il2CppName: SetDefaultTextValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::Text*)>(&DefaultControls::SetDefaultTextValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::Text*)>(&UnityEngine::UI::DefaultControls::SetDefaultTextValues)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultControls*), "SetDefaultTextValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Text*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "SetDefaultTextValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Text*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultControls::SetDefaultColorTransitionValues
+// Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::SetDefaultColorTransitionValues
 // Il2CppName: SetDefaultColorTransitionValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::Selectable*)>(&DefaultControls::SetDefaultColorTransitionValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::Selectable*)>(&UnityEngine::UI::DefaultControls::SetDefaultColorTransitionValues)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultControls*), "SetDefaultColorTransitionValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Selectable*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "SetDefaultColorTransitionValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Selectable*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultControls::SetParentAndAlign
+// Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::SetParentAndAlign
 // Il2CppName: SetParentAndAlign
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, UnityEngine::GameObject*)>(&DefaultControls::SetParentAndAlign)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, UnityEngine::GameObject*)>(&UnityEngine::UI::DefaultControls::SetParentAndAlign)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultControls*), "SetParentAndAlign", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "SetParentAndAlign", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultControls::SetLayerRecursively
+// Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::SetLayerRecursively
 // Il2CppName: SetLayerRecursively
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, int)>(&DefaultControls::SetLayerRecursively)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, int)>(&UnityEngine::UI::DefaultControls::SetLayerRecursively)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultControls*), "SetLayerRecursively", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "SetLayerRecursively", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: DefaultControls::CreatePanel
+// Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreatePanel
 // Il2CppName: CreatePanel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&DefaultControls::CreatePanel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreatePanel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultControls*), "CreatePanel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreatePanel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
   }
 };
-// Writing MetadataGetter for method: DefaultControls::CreateButton
+// Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateButton
 // Il2CppName: CreateButton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&DefaultControls::CreateButton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateButton)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultControls*), "CreateButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
   }
 };
-// Writing MetadataGetter for method: DefaultControls::CreateText
+// Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateText
 // Il2CppName: CreateText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&DefaultControls::CreateText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateText)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultControls*), "CreateText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
   }
 };
-// Writing MetadataGetter for method: DefaultControls::CreateImage
+// Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateImage
 // Il2CppName: CreateImage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&DefaultControls::CreateImage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateImage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultControls*), "CreateImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
   }
 };
-// Writing MetadataGetter for method: DefaultControls::CreateRawImage
+// Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateRawImage
 // Il2CppName: CreateRawImage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&DefaultControls::CreateRawImage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateRawImage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultControls*), "CreateRawImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateRawImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
   }
 };
-// Writing MetadataGetter for method: DefaultControls::CreateSlider
+// Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateSlider
 // Il2CppName: CreateSlider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&DefaultControls::CreateSlider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateSlider)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultControls*), "CreateSlider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateSlider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
   }
 };
-// Writing MetadataGetter for method: DefaultControls::CreateScrollbar
+// Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateScrollbar
 // Il2CppName: CreateScrollbar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&DefaultControls::CreateScrollbar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateScrollbar)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultControls*), "CreateScrollbar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateScrollbar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
   }
 };
-// Writing MetadataGetter for method: DefaultControls::CreateToggle
+// Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateToggle
 // Il2CppName: CreateToggle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&DefaultControls::CreateToggle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateToggle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultControls*), "CreateToggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateToggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
   }
 };
-// Writing MetadataGetter for method: DefaultControls::CreateInputField
+// Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateInputField
 // Il2CppName: CreateInputField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&DefaultControls::CreateInputField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateInputField)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultControls*), "CreateInputField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateInputField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
   }
 };
-// Writing MetadataGetter for method: DefaultControls::CreateDropdown
+// Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateDropdown
 // Il2CppName: CreateDropdown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&DefaultControls::CreateDropdown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateDropdown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultControls*), "CreateDropdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateDropdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
   }
 };
-// Writing MetadataGetter for method: DefaultControls::CreateScrollView
+// Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateScrollView
 // Il2CppName: CreateScrollView
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&DefaultControls::CreateScrollView)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::UI::DefaultControls::Resources)>(&UnityEngine::UI::DefaultControls::CreateScrollView)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultControls*), "CreateScrollView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), "CreateScrollView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::DefaultControls::Resources>()});
   }
 };
-// Writing MetadataGetter for method: DefaultControls::_cctor
+// Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&DefaultControls::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::UI::DefaultControls::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultControls*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::DefaultControls*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

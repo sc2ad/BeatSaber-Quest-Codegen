@@ -161,65 +161,65 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectableStateController*, "", "SelectableStateController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectableStateController::ViewState, "", "SelectableStateController/ViewState");
-// Writing MetadataGetter for method: SelectableStateController::add_stateDidChangeEvent
+// Writing MetadataGetter for method: GlobalNamespace::SelectableStateController::add_stateDidChangeEvent
 // Il2CppName: add_stateDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableStateController::*)(System::Action_1<GlobalNamespace::SelectableStateController::ViewState>*)>(&SelectableStateController::add_stateDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SelectableStateController::*)(System::Action_1<GlobalNamespace::SelectableStateController::ViewState>*)>(&GlobalNamespace::SelectableStateController::add_stateDidChangeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectableStateController*), "add_stateDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::SelectableStateController::ViewState>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectableStateController*), "add_stateDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::SelectableStateController::ViewState>*>()});
   }
 };
-// Writing MetadataGetter for method: SelectableStateController::remove_stateDidChangeEvent
+// Writing MetadataGetter for method: GlobalNamespace::SelectableStateController::remove_stateDidChangeEvent
 // Il2CppName: remove_stateDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableStateController::*)(System::Action_1<GlobalNamespace::SelectableStateController::ViewState>*)>(&SelectableStateController::remove_stateDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SelectableStateController::*)(System::Action_1<GlobalNamespace::SelectableStateController::ViewState>*)>(&GlobalNamespace::SelectableStateController::remove_stateDidChangeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectableStateController*), "remove_stateDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::SelectableStateController::ViewState>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectableStateController*), "remove_stateDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::SelectableStateController::ViewState>*>()});
   }
 };
-// Writing MetadataGetter for method: SelectableStateController::get_tweeningManager
+// Writing MetadataGetter for method: GlobalNamespace::SelectableStateController::get_tweeningManager
 // Il2CppName: get_tweeningManager
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Tweening::TweeningManager* (SelectableStateController::*)()>(&SelectableStateController::get_tweeningManager)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Tweening::TweeningManager* (GlobalNamespace::SelectableStateController::*)()>(&GlobalNamespace::SelectableStateController::get_tweeningManager)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectableStateController*), "get_tweeningManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectableStateController*), "get_tweeningManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SelectableStateController::get_currentViewState
+// Writing MetadataGetter for method: GlobalNamespace::SelectableStateController::get_currentViewState
 // Il2CppName: get_currentViewState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SelectableStateController::ViewState (SelectableStateController::*)()>(&SelectableStateController::get_currentViewState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SelectableStateController::ViewState (GlobalNamespace::SelectableStateController::*)()>(&GlobalNamespace::SelectableStateController::get_currentViewState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectableStateController*), "get_currentViewState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectableStateController*), "get_currentViewState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SelectableStateController::set_currentViewState
+// Writing MetadataGetter for method: GlobalNamespace::SelectableStateController::set_currentViewState
 // Il2CppName: set_currentViewState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableStateController::*)(GlobalNamespace::SelectableStateController::ViewState)>(&SelectableStateController::set_currentViewState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SelectableStateController::*)(GlobalNamespace::SelectableStateController::ViewState)>(&GlobalNamespace::SelectableStateController::set_currentViewState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectableStateController*), "set_currentViewState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SelectableStateController::ViewState>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectableStateController*), "set_currentViewState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SelectableStateController::ViewState>()});
   }
 };
-// Writing MetadataGetter for method: SelectableStateController::SetState
+// Writing MetadataGetter for method: GlobalNamespace::SelectableStateController::SetState
 // Il2CppName: SetState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableStateController::*)(GlobalNamespace::SelectableStateController::ViewState)>(&SelectableStateController::SetState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SelectableStateController::*)(GlobalNamespace::SelectableStateController::ViewState)>(&GlobalNamespace::SelectableStateController::SetState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectableStateController*), "SetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SelectableStateController::ViewState>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectableStateController*), "SetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SelectableStateController::ViewState>()});
   }
 };
-// Writing MetadataGetter for method: SelectableStateController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::SelectableStateController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableStateController::*)()>(&SelectableStateController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SelectableStateController::*)()>(&GlobalNamespace::SelectableStateController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectableStateController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectableStateController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectableStateController::*)()>(&SelectableStateController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SelectableStateController::*)()>(&GlobalNamespace::SelectableStateController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectableStateController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectableStateController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

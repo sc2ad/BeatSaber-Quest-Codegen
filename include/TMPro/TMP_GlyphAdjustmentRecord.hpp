@@ -70,63 +70,63 @@ namespace TMPro {
   static_assert(sizeof(TMP_GlyphAdjustmentRecord) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_GlyphAdjustmentRecord, "TMPro", "TMP_GlyphAdjustmentRecord");
-// Writing MetadataGetter for method: TMP_GlyphAdjustmentRecord::get_glyphIndex
+// Writing MetadataGetter for method: TMPro::TMP_GlyphAdjustmentRecord::get_glyphIndex
 // Il2CppName: get_glyphIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMP_GlyphAdjustmentRecord::*)()>(&TMP_GlyphAdjustmentRecord::get_glyphIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMPro::TMP_GlyphAdjustmentRecord::*)()>(&TMPro::TMP_GlyphAdjustmentRecord::get_glyphIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_GlyphAdjustmentRecord), "get_glyphIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_GlyphAdjustmentRecord), "get_glyphIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_GlyphAdjustmentRecord::set_glyphIndex
+// Writing MetadataGetter for method: TMPro::TMP_GlyphAdjustmentRecord::set_glyphIndex
 // Il2CppName: set_glyphIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_GlyphAdjustmentRecord::*)(uint)>(&TMP_GlyphAdjustmentRecord::set_glyphIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_GlyphAdjustmentRecord::*)(uint)>(&TMPro::TMP_GlyphAdjustmentRecord::set_glyphIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_GlyphAdjustmentRecord), "set_glyphIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_GlyphAdjustmentRecord), "set_glyphIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: TMP_GlyphAdjustmentRecord::get_glyphValueRecord
+// Writing MetadataGetter for method: TMPro::TMP_GlyphAdjustmentRecord::get_glyphValueRecord
 // Il2CppName: get_glyphValueRecord
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_GlyphValueRecord (TMP_GlyphAdjustmentRecord::*)()>(&TMP_GlyphAdjustmentRecord::get_glyphValueRecord)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_GlyphValueRecord (TMPro::TMP_GlyphAdjustmentRecord::*)()>(&TMPro::TMP_GlyphAdjustmentRecord::get_glyphValueRecord)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_GlyphAdjustmentRecord), "get_glyphValueRecord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_GlyphAdjustmentRecord), "get_glyphValueRecord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TMP_GlyphAdjustmentRecord::set_glyphValueRecord
+// Writing MetadataGetter for method: TMPro::TMP_GlyphAdjustmentRecord::set_glyphValueRecord
 // Il2CppName: set_glyphValueRecord
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_GlyphAdjustmentRecord::*)(TMPro::TMP_GlyphValueRecord)>(&TMP_GlyphAdjustmentRecord::set_glyphValueRecord)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_GlyphAdjustmentRecord::*)(TMPro::TMP_GlyphValueRecord)>(&TMPro::TMP_GlyphAdjustmentRecord::set_glyphValueRecord)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_GlyphAdjustmentRecord), "set_glyphValueRecord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_GlyphValueRecord>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_GlyphAdjustmentRecord), "set_glyphValueRecord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_GlyphValueRecord>()});
   }
 };
-// Writing MetadataGetter for method: TMP_GlyphAdjustmentRecord::TMP_GlyphAdjustmentRecord
+// Writing MetadataGetter for method: TMPro::TMP_GlyphAdjustmentRecord::TMP_GlyphAdjustmentRecord
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_GlyphAdjustmentRecord::*)(uint, TMPro::TMP_GlyphValueRecord)>(&TMP_GlyphAdjustmentRecord::TMP_GlyphAdjustmentRecord<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_GlyphAdjustmentRecord::*)(uint, TMPro::TMP_GlyphValueRecord)>(&TMPro::TMP_GlyphAdjustmentRecord::TMP_GlyphAdjustmentRecord<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_GlyphAdjustmentRecord), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_GlyphValueRecord>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_GlyphAdjustmentRecord), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_GlyphValueRecord>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_GlyphAdjustmentRecord::*)(uint, TMPro::TMP_GlyphValueRecord)>(&TMP_GlyphAdjustmentRecord::TMP_GlyphAdjustmentRecord<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_GlyphAdjustmentRecord::*)(uint, TMPro::TMP_GlyphValueRecord)>(&TMPro::TMP_GlyphAdjustmentRecord::TMP_GlyphAdjustmentRecord<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_GlyphAdjustmentRecord), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_GlyphValueRecord>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_GlyphAdjustmentRecord), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_GlyphValueRecord>()});
   }
 };
-// Writing MetadataGetter for method: TMP_GlyphAdjustmentRecord::TMP_GlyphAdjustmentRecord
+// Writing MetadataGetter for method: TMPro::TMP_GlyphAdjustmentRecord::TMP_GlyphAdjustmentRecord
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_GlyphAdjustmentRecord::*)(UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord)>(&TMP_GlyphAdjustmentRecord::TMP_GlyphAdjustmentRecord<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_GlyphAdjustmentRecord::*)(UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord)>(&TMPro::TMP_GlyphAdjustmentRecord::TMP_GlyphAdjustmentRecord<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_GlyphAdjustmentRecord), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_GlyphAdjustmentRecord), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMP_GlyphAdjustmentRecord::*)(UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord)>(&TMP_GlyphAdjustmentRecord::TMP_GlyphAdjustmentRecord<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_GlyphAdjustmentRecord::*)(UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord)>(&TMPro::TMP_GlyphAdjustmentRecord::TMP_GlyphAdjustmentRecord<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_GlyphAdjustmentRecord), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_GlyphAdjustmentRecord), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>()});
   }
 };

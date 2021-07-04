@@ -61,41 +61,41 @@ namespace Valve::VR {
   static_assert(sizeof(CVRExtendedDisplay) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRExtendedDisplay*, "Valve.VR", "CVRExtendedDisplay");
-// Writing MetadataGetter for method: CVRExtendedDisplay::New_ctor
+// Writing MetadataGetter for method: Valve::VR::CVRExtendedDisplay::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRExtendedDisplay::*)(System::IntPtr)>(&CVRExtendedDisplay::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRExtendedDisplay::*)(System::IntPtr)>(&Valve::VR::CVRExtendedDisplay::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRExtendedDisplay*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRExtendedDisplay*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRExtendedDisplay::*)(System::IntPtr)>(&CVRExtendedDisplay::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRExtendedDisplay::*)(System::IntPtr)>(&Valve::VR::CVRExtendedDisplay::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRExtendedDisplay*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRExtendedDisplay*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: CVRExtendedDisplay::GetWindowBounds
+// Writing MetadataGetter for method: Valve::VR::CVRExtendedDisplay::GetWindowBounds
 // Il2CppName: GetWindowBounds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRExtendedDisplay::*)(int&, int&, uint&, uint&)>(&CVRExtendedDisplay::GetWindowBounds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRExtendedDisplay::*)(int&, int&, uint&, uint&)>(&Valve::VR::CVRExtendedDisplay::GetWindowBounds)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRExtendedDisplay*), "GetWindowBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRExtendedDisplay*), "GetWindowBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
   }
 };
-// Writing MetadataGetter for method: CVRExtendedDisplay::GetEyeOutputViewport
+// Writing MetadataGetter for method: Valve::VR::CVRExtendedDisplay::GetEyeOutputViewport
 // Il2CppName: GetEyeOutputViewport
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRExtendedDisplay::*)(Valve::VR::EVREye, uint&, uint&, uint&, uint&)>(&CVRExtendedDisplay::GetEyeOutputViewport)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRExtendedDisplay::*)(Valve::VR::EVREye, uint&, uint&, uint&, uint&)>(&Valve::VR::CVRExtendedDisplay::GetEyeOutputViewport)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRExtendedDisplay*), "GetEyeOutputViewport", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVREye>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRExtendedDisplay*), "GetEyeOutputViewport", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVREye>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
   }
 };
-// Writing MetadataGetter for method: CVRExtendedDisplay::GetDXGIOutputInfo
+// Writing MetadataGetter for method: Valve::VR::CVRExtendedDisplay::GetDXGIOutputInfo
 // Il2CppName: GetDXGIOutputInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRExtendedDisplay::*)(int&, int&)>(&CVRExtendedDisplay::GetDXGIOutputInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRExtendedDisplay::*)(int&, int&)>(&Valve::VR::CVRExtendedDisplay::GetDXGIOutputInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRExtendedDisplay*), "GetDXGIOutputInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRExtendedDisplay*), "GetDXGIOutputInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };

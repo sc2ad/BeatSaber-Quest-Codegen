@@ -134,81 +134,81 @@ namespace GlobalNamespace {
   static_assert(sizeof(TrackLaneRing) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRing*, "", "TrackLaneRing");
-// Writing MetadataGetter for method: TrackLaneRing::get_destRotZ
+// Writing MetadataGetter for method: GlobalNamespace::TrackLaneRing::get_destRotZ
 // Il2CppName: get_destRotZ
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TrackLaneRing::*)()>(&TrackLaneRing::get_destRotZ)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::TrackLaneRing::*)()>(&GlobalNamespace::TrackLaneRing::get_destRotZ)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackLaneRing*), "get_destRotZ", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRing*), "get_destRotZ", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackLaneRing::Init
+// Writing MetadataGetter for method: GlobalNamespace::TrackLaneRing::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackLaneRing::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&TrackLaneRing::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrackLaneRing::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&GlobalNamespace::TrackLaneRing::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackLaneRing*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRing*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: TrackLaneRing::FixedUpdateRing
+// Writing MetadataGetter for method: GlobalNamespace::TrackLaneRing::FixedUpdateRing
 // Il2CppName: FixedUpdateRing
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackLaneRing::*)(float)>(&TrackLaneRing::FixedUpdateRing)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrackLaneRing::*)(float)>(&GlobalNamespace::TrackLaneRing::FixedUpdateRing)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackLaneRing*), "FixedUpdateRing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRing*), "FixedUpdateRing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: TrackLaneRing::LateUpdateRing
+// Writing MetadataGetter for method: GlobalNamespace::TrackLaneRing::LateUpdateRing
 // Il2CppName: LateUpdateRing
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackLaneRing::*)(float)>(&TrackLaneRing::LateUpdateRing)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrackLaneRing::*)(float)>(&GlobalNamespace::TrackLaneRing::LateUpdateRing)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackLaneRing*), "LateUpdateRing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRing*), "LateUpdateRing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: TrackLaneRing::SetDestRotation
+// Writing MetadataGetter for method: GlobalNamespace::TrackLaneRing::SetDestRotation
 // Il2CppName: SetDestRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackLaneRing::*)(float, float)>(&TrackLaneRing::SetDestRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrackLaneRing::*)(float, float)>(&GlobalNamespace::TrackLaneRing::SetDestRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackLaneRing*), "SetDestRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRing*), "SetDestRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: TrackLaneRing::GetRotation
+// Writing MetadataGetter for method: GlobalNamespace::TrackLaneRing::GetRotation
 // Il2CppName: GetRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TrackLaneRing::*)()>(&TrackLaneRing::GetRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::TrackLaneRing::*)()>(&GlobalNamespace::TrackLaneRing::GetRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackLaneRing*), "GetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRing*), "GetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackLaneRing::GetDestinationRotation
+// Writing MetadataGetter for method: GlobalNamespace::TrackLaneRing::GetDestinationRotation
 // Il2CppName: GetDestinationRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TrackLaneRing::*)()>(&TrackLaneRing::GetDestinationRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::TrackLaneRing::*)()>(&GlobalNamespace::TrackLaneRing::GetDestinationRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackLaneRing*), "GetDestinationRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRing*), "GetDestinationRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackLaneRing::SetPosition
+// Writing MetadataGetter for method: GlobalNamespace::TrackLaneRing::SetPosition
 // Il2CppName: SetPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackLaneRing::*)(float, float)>(&TrackLaneRing::SetPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrackLaneRing::*)(float, float)>(&GlobalNamespace::TrackLaneRing::SetPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackLaneRing*), "SetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRing*), "SetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: TrackLaneRing::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::TrackLaneRing::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackLaneRing::*)()>(&TrackLaneRing::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrackLaneRing::*)()>(&GlobalNamespace::TrackLaneRing::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackLaneRing*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRing*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackLaneRing::*)()>(&TrackLaneRing::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrackLaneRing::*)()>(&GlobalNamespace::TrackLaneRing::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackLaneRing*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRing*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

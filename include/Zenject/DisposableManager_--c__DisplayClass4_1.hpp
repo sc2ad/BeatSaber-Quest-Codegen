@@ -67,25 +67,25 @@ namespace Zenject {
   static_assert(sizeof(DisposableManager::$$c__DisplayClass4_1) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposableManager::$$c__DisplayClass4_1*, "Zenject", "DisposableManager/<>c__DisplayClass4_1");
-// Writing MetadataGetter for method: DisposableManager::$$c__DisplayClass4_1::$_ctor$b__2
+// Writing MetadataGetter for method: Zenject::DisposableManager::$$c__DisplayClass4_1::$_ctor$b__2
 // Il2CppName: <.ctor>b__2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DisposableManager::$$c__DisplayClass4_1::*)(ModestTree::Util::ValuePair_2<System::Type*, int>*)>(&DisposableManager::$$c__DisplayClass4_1::$_ctor$b__2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DisposableManager::$$c__DisplayClass4_1::*)(ModestTree::Util::ValuePair_2<System::Type*, int>*)>(&Zenject::DisposableManager::$$c__DisplayClass4_1::$_ctor$b__2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DisposableManager::$$c__DisplayClass4_1*), "<.ctor>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<ModestTree::Util::ValuePair_2<System::Type*, int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DisposableManager::$$c__DisplayClass4_1*), "<.ctor>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<ModestTree::Util::ValuePair_2<System::Type*, int>*>()});
   }
 };
-// Writing MetadataGetter for method: DisposableManager::$$c__DisplayClass4_1::New_ctor
+// Writing MetadataGetter for method: Zenject::DisposableManager::$$c__DisplayClass4_1::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisposableManager::$$c__DisplayClass4_1::*)()>(&DisposableManager::$$c__DisplayClass4_1::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DisposableManager::$$c__DisplayClass4_1::*)()>(&Zenject::DisposableManager::$$c__DisplayClass4_1::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DisposableManager::$$c__DisplayClass4_1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DisposableManager::$$c__DisplayClass4_1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisposableManager::$$c__DisplayClass4_1::*)()>(&DisposableManager::$$c__DisplayClass4_1::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DisposableManager::$$c__DisplayClass4_1::*)()>(&Zenject::DisposableManager::$$c__DisplayClass4_1::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DisposableManager::$$c__DisplayClass4_1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DisposableManager::$$c__DisplayClass4_1*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

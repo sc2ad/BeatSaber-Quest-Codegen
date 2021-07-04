@@ -63,9 +63,9 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectMoqExtensions*, "Zenject", "ZenjectMoqExtensions");
-// Writing MetadataGetter for method: ZenjectMoqExtensions::FromMock
+// Writing MetadataGetter for method: Zenject::ZenjectMoqExtensions::FromMock
 // Il2CppName: FromMock
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ZenjectMoqExtensions::FromMock
+// Writing MetadataGetter for method: Zenject::ZenjectMoqExtensions::FromMock
 // Il2CppName: FromMock
 // Cannot write MetadataGetter for generic methods!

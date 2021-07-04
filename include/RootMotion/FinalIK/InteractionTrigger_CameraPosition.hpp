@@ -92,33 +92,33 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(InteractionTrigger::CameraPosition) == 0x2D);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTrigger::CameraPosition*, "RootMotion.FinalIK", "InteractionTrigger/CameraPosition");
-// Writing MetadataGetter for method: InteractionTrigger::CameraPosition::GetRotation
+// Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTrigger::CameraPosition::GetRotation
 // Il2CppName: GetRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (InteractionTrigger::CameraPosition::*)()>(&InteractionTrigger::CameraPosition::GetRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (RootMotion::FinalIK::InteractionTrigger::CameraPosition::*)()>(&RootMotion::FinalIK::InteractionTrigger::CameraPosition::GetRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InteractionTrigger::CameraPosition*), "GetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionTrigger::CameraPosition*), "GetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InteractionTrigger::CameraPosition::IsInRange
+// Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTrigger::CameraPosition::IsInRange
 // Il2CppName: IsInRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InteractionTrigger::CameraPosition::*)(UnityEngine::Transform*, UnityEngine::RaycastHit, UnityEngine::Transform*, float&)>(&InteractionTrigger::CameraPosition::IsInRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::InteractionTrigger::CameraPosition::*)(UnityEngine::Transform*, UnityEngine::RaycastHit, UnityEngine::Transform*, float&)>(&RootMotion::FinalIK::InteractionTrigger::CameraPosition::IsInRange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InteractionTrigger::CameraPosition*), "IsInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionTrigger::CameraPosition*), "IsInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
   }
 };
-// Writing MetadataGetter for method: InteractionTrigger::CameraPosition::New_ctor
+// Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTrigger::CameraPosition::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionTrigger::CameraPosition::*)()>(&InteractionTrigger::CameraPosition::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionTrigger::CameraPosition::*)()>(&RootMotion::FinalIK::InteractionTrigger::CameraPosition::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InteractionTrigger::CameraPosition*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionTrigger::CameraPosition*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InteractionTrigger::CameraPosition::*)()>(&InteractionTrigger::CameraPosition::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionTrigger::CameraPosition::*)()>(&RootMotion::FinalIK::InteractionTrigger::CameraPosition::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InteractionTrigger::CameraPosition*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionTrigger::CameraPosition*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

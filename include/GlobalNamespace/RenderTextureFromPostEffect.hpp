@@ -71,41 +71,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(RenderTextureFromPostEffect) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RenderTextureFromPostEffect*, "", "RenderTextureFromPostEffect");
-// Writing MetadataGetter for method: RenderTextureFromPostEffect::get_targetTexture
+// Writing MetadataGetter for method: GlobalNamespace::RenderTextureFromPostEffect::get_targetTexture
 // Il2CppName: get_targetTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (RenderTextureFromPostEffect::*)()>(&RenderTextureFromPostEffect::get_targetTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (GlobalNamespace::RenderTextureFromPostEffect::*)()>(&GlobalNamespace::RenderTextureFromPostEffect::get_targetTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RenderTextureFromPostEffect*), "get_targetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RenderTextureFromPostEffect*), "get_targetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RenderTextureFromPostEffect::Awake
+// Writing MetadataGetter for method: GlobalNamespace::RenderTextureFromPostEffect::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RenderTextureFromPostEffect::*)()>(&RenderTextureFromPostEffect::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RenderTextureFromPostEffect::*)()>(&GlobalNamespace::RenderTextureFromPostEffect::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RenderTextureFromPostEffect*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RenderTextureFromPostEffect*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RenderTextureFromPostEffect::OnRenderImage
+// Writing MetadataGetter for method: GlobalNamespace::RenderTextureFromPostEffect::OnRenderImage
 // Il2CppName: OnRenderImage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RenderTextureFromPostEffect::*)(UnityEngine::RenderTexture*, UnityEngine::RenderTexture*)>(&RenderTextureFromPostEffect::OnRenderImage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RenderTextureFromPostEffect::*)(UnityEngine::RenderTexture*, UnityEngine::RenderTexture*)>(&GlobalNamespace::RenderTextureFromPostEffect::OnRenderImage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RenderTextureFromPostEffect*), "OnRenderImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RenderTextureFromPostEffect*), "OnRenderImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>()});
   }
 };
-// Writing MetadataGetter for method: RenderTextureFromPostEffect::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::RenderTextureFromPostEffect::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RenderTextureFromPostEffect::*)()>(&RenderTextureFromPostEffect::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RenderTextureFromPostEffect::*)()>(&GlobalNamespace::RenderTextureFromPostEffect::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RenderTextureFromPostEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RenderTextureFromPostEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RenderTextureFromPostEffect::*)()>(&RenderTextureFromPostEffect::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RenderTextureFromPostEffect::*)()>(&GlobalNamespace::RenderTextureFromPostEffect::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RenderTextureFromPostEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RenderTextureFromPostEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -87,81 +87,81 @@ namespace System::Security::Cryptography {
   bool operator !=(System::Security::Cryptography::RSASignaturePadding* left, System::Security::Cryptography::RSASignaturePadding& right);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSASignaturePadding*, "System.Security.Cryptography", "RSASignaturePadding");
-// Writing MetadataGetter for method: RSASignaturePadding::New_ctor
+// Writing MetadataGetter for method: System::Security::Cryptography::RSASignaturePadding::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSASignaturePadding::*)(System::Security::Cryptography::RSASignaturePaddingMode)>(&RSASignaturePadding::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RSASignaturePadding::*)(System::Security::Cryptography::RSASignaturePaddingMode)>(&System::Security::Cryptography::RSASignaturePadding::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSASignaturePadding*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RSASignaturePaddingMode>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSASignaturePadding*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RSASignaturePaddingMode>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSASignaturePadding::*)(System::Security::Cryptography::RSASignaturePaddingMode)>(&RSASignaturePadding::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RSASignaturePadding::*)(System::Security::Cryptography::RSASignaturePaddingMode)>(&System::Security::Cryptography::RSASignaturePadding::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSASignaturePadding*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RSASignaturePaddingMode>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSASignaturePadding*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RSASignaturePaddingMode>()});
   }
 };
-// Writing MetadataGetter for method: RSASignaturePadding::get_Pkcs1
+// Writing MetadataGetter for method: System::Security::Cryptography::RSASignaturePadding::get_Pkcs1
 // Il2CppName: get_Pkcs1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RSASignaturePadding* (*)()>(&RSASignaturePadding::get_Pkcs1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RSASignaturePadding* (*)()>(&System::Security::Cryptography::RSASignaturePadding::get_Pkcs1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSASignaturePadding*), "get_Pkcs1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSASignaturePadding*), "get_Pkcs1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RSASignaturePadding::Equals
+// Writing MetadataGetter for method: System::Security::Cryptography::RSASignaturePadding::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RSASignaturePadding::*)(System::Security::Cryptography::RSASignaturePadding*)>(&RSASignaturePadding::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::RSASignaturePadding::*)(System::Security::Cryptography::RSASignaturePadding*)>(&System::Security::Cryptography::RSASignaturePadding::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSASignaturePadding*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RSASignaturePadding*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSASignaturePadding*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RSASignaturePadding*>()});
   }
 };
-// Writing MetadataGetter for method: RSASignaturePadding::_cctor
+// Writing MetadataGetter for method: System::Security::Cryptography::RSASignaturePadding::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&RSASignaturePadding::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Security::Cryptography::RSASignaturePadding::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSASignaturePadding*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSASignaturePadding*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RSASignaturePadding::GetHashCode
+// Writing MetadataGetter for method: System::Security::Cryptography::RSASignaturePadding::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RSASignaturePadding::*)()>(&RSASignaturePadding::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Cryptography::RSASignaturePadding::*)()>(&System::Security::Cryptography::RSASignaturePadding::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSASignaturePadding*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSASignaturePadding*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RSASignaturePadding::Equals
+// Writing MetadataGetter for method: System::Security::Cryptography::RSASignaturePadding::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RSASignaturePadding::*)(::Il2CppObject*)>(&RSASignaturePadding::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::RSASignaturePadding::*)(::Il2CppObject*)>(&System::Security::Cryptography::RSASignaturePadding::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSASignaturePadding*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSASignaturePadding*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: RSASignaturePadding::ToString
+// Writing MetadataGetter for method: System::Security::Cryptography::RSASignaturePadding::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RSASignaturePadding::*)()>(&RSASignaturePadding::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Cryptography::RSASignaturePadding::*)()>(&System::Security::Cryptography::RSASignaturePadding::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSASignaturePadding*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSASignaturePadding*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RSASignaturePadding::operator ==
+// Writing MetadataGetter for method: System::Security::Cryptography::RSASignaturePadding::operator ==
 // Il2CppName: op_Equality
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Security::Cryptography::RSASignaturePadding*, System::Security::Cryptography::RSASignaturePadding&)>(&RSASignaturePadding::operator ==)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Security::Cryptography::RSASignaturePadding*, System::Security::Cryptography::RSASignaturePadding&)>(&System::Security::Cryptography::RSASignaturePadding::operator ==)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSASignaturePadding*), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RSASignaturePadding*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RSASignaturePadding&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSASignaturePadding*), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RSASignaturePadding*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RSASignaturePadding&>()});
   }
 };
-// Writing MetadataGetter for method: RSASignaturePadding::operator !=
+// Writing MetadataGetter for method: System::Security::Cryptography::RSASignaturePadding::operator !=
 // Il2CppName: op_Inequality
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Security::Cryptography::RSASignaturePadding*, System::Security::Cryptography::RSASignaturePadding&)>(&RSASignaturePadding::operator !=)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Security::Cryptography::RSASignaturePadding*, System::Security::Cryptography::RSASignaturePadding&)>(&System::Security::Cryptography::RSASignaturePadding::operator !=)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSASignaturePadding*), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RSASignaturePadding*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RSASignaturePadding&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSASignaturePadding*), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RSASignaturePadding*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RSASignaturePadding&>()});
   }
 };

@@ -50,17 +50,17 @@ namespace System::Runtime::ConstrainedExecution {
   static_assert(sizeof(ReliabilityContractAttribute) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ConstrainedExecution::ReliabilityContractAttribute*, "System.Runtime.ConstrainedExecution", "ReliabilityContractAttribute");
-// Writing MetadataGetter for method: ReliabilityContractAttribute::New_ctor
+// Writing MetadataGetter for method: System::Runtime::ConstrainedExecution::ReliabilityContractAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReliabilityContractAttribute::*)(System::Runtime::ConstrainedExecution::Consistency, System::Runtime::ConstrainedExecution::Cer)>(&ReliabilityContractAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::ConstrainedExecution::ReliabilityContractAttribute::*)(System::Runtime::ConstrainedExecution::Consistency, System::Runtime::ConstrainedExecution::Cer)>(&System::Runtime::ConstrainedExecution::ReliabilityContractAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReliabilityContractAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::ConstrainedExecution::Consistency>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::ConstrainedExecution::Cer>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::ConstrainedExecution::ReliabilityContractAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::ConstrainedExecution::Consistency>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::ConstrainedExecution::Cer>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ReliabilityContractAttribute::*)(System::Runtime::ConstrainedExecution::Consistency, System::Runtime::ConstrainedExecution::Cer)>(&ReliabilityContractAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::ConstrainedExecution::ReliabilityContractAttribute::*)(System::Runtime::ConstrainedExecution::Consistency, System::Runtime::ConstrainedExecution::Cer)>(&System::Runtime::ConstrainedExecution::ReliabilityContractAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ReliabilityContractAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::ConstrainedExecution::Consistency>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::ConstrainedExecution::Cer>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::ConstrainedExecution::ReliabilityContractAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::ConstrainedExecution::Consistency>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::ConstrainedExecution::Cer>()});
   }
 };

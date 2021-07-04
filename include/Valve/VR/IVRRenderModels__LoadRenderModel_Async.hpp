@@ -57,41 +57,41 @@ namespace Valve::VR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRRenderModels::_LoadRenderModel_Async*, "Valve.VR", "IVRRenderModels/_LoadRenderModel_Async");
-// Writing MetadataGetter for method: IVRRenderModels::_LoadRenderModel_Async::New_ctor
+// Writing MetadataGetter for method: Valve::VR::IVRRenderModels::_LoadRenderModel_Async::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRRenderModels::_LoadRenderModel_Async::*)(::Il2CppObject*, System::IntPtr)>(&IVRRenderModels::_LoadRenderModel_Async::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRRenderModels::_LoadRenderModel_Async::*)(::Il2CppObject*, System::IntPtr)>(&Valve::VR::IVRRenderModels::_LoadRenderModel_Async::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRRenderModels::_LoadRenderModel_Async*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRRenderModels::_LoadRenderModel_Async*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRRenderModels::_LoadRenderModel_Async::*)(::Il2CppObject*, System::IntPtr)>(&IVRRenderModels::_LoadRenderModel_Async::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRRenderModels::_LoadRenderModel_Async::*)(::Il2CppObject*, System::IntPtr)>(&Valve::VR::IVRRenderModels::_LoadRenderModel_Async::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRRenderModels::_LoadRenderModel_Async*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRRenderModels::_LoadRenderModel_Async*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: IVRRenderModels::_LoadRenderModel_Async::Invoke
+// Writing MetadataGetter for method: Valve::VR::IVRRenderModels::_LoadRenderModel_Async::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRRenderModelError (IVRRenderModels::_LoadRenderModel_Async::*)(::Il2CppString*, System::IntPtr&)>(&IVRRenderModels::_LoadRenderModel_Async::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRRenderModelError (Valve::VR::IVRRenderModels::_LoadRenderModel_Async::*)(::Il2CppString*, System::IntPtr&)>(&Valve::VR::IVRRenderModels::_LoadRenderModel_Async::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRRenderModels::_LoadRenderModel_Async*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRRenderModels::_LoadRenderModel_Async*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>()});
   }
 };
-// Writing MetadataGetter for method: IVRRenderModels::_LoadRenderModel_Async::BeginInvoke
+// Writing MetadataGetter for method: Valve::VR::IVRRenderModels::_LoadRenderModel_Async::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRRenderModels::_LoadRenderModel_Async::*)(::Il2CppString*, System::IntPtr&, System::AsyncCallback*, ::Il2CppObject*)>(&IVRRenderModels::_LoadRenderModel_Async::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRRenderModels::_LoadRenderModel_Async::*)(::Il2CppString*, System::IntPtr&, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRRenderModels::_LoadRenderModel_Async::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRRenderModels::_LoadRenderModel_Async*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRRenderModels::_LoadRenderModel_Async*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IVRRenderModels::_LoadRenderModel_Async::EndInvoke
+// Writing MetadataGetter for method: Valve::VR::IVRRenderModels::_LoadRenderModel_Async::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRRenderModelError (IVRRenderModels::_LoadRenderModel_Async::*)(System::IntPtr&, System::IAsyncResult*)>(&IVRRenderModels::_LoadRenderModel_Async::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRRenderModelError (Valve::VR::IVRRenderModels::_LoadRenderModel_Async::*)(System::IntPtr&, System::IAsyncResult*)>(&Valve::VR::IVRRenderModels::_LoadRenderModel_Async::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRRenderModels::_LoadRenderModel_Async*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRRenderModels::_LoadRenderModel_Async*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

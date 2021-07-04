@@ -106,59 +106,59 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RaycastHit, "UnityEngine", "RaycastHit");
-// Writing MetadataGetter for method: RaycastHit::get_collider
+// Writing MetadataGetter for method: UnityEngine::RaycastHit::get_collider
 // Il2CppName: get_collider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Collider* (RaycastHit::*)()>(&RaycastHit::get_collider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Collider* (UnityEngine::RaycastHit::*)()>(&UnityEngine::RaycastHit::get_collider)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RaycastHit), "get_collider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RaycastHit), "get_collider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RaycastHit::get_point
+// Writing MetadataGetter for method: UnityEngine::RaycastHit::get_point
 // Il2CppName: get_point
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RaycastHit::*)()>(&RaycastHit::get_point)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::RaycastHit::*)()>(&UnityEngine::RaycastHit::get_point)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RaycastHit), "get_point", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RaycastHit), "get_point", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RaycastHit::set_point
+// Writing MetadataGetter for method: UnityEngine::RaycastHit::set_point
 // Il2CppName: set_point
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RaycastHit::*)(UnityEngine::Vector3)>(&RaycastHit::set_point)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RaycastHit::*)(UnityEngine::Vector3)>(&UnityEngine::RaycastHit::set_point)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RaycastHit), "set_point", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RaycastHit), "set_point", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: RaycastHit::get_normal
+// Writing MetadataGetter for method: UnityEngine::RaycastHit::get_normal
 // Il2CppName: get_normal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RaycastHit::*)()>(&RaycastHit::get_normal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::RaycastHit::*)()>(&UnityEngine::RaycastHit::get_normal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RaycastHit), "get_normal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RaycastHit), "get_normal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RaycastHit::set_normal
+// Writing MetadataGetter for method: UnityEngine::RaycastHit::set_normal
 // Il2CppName: set_normal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RaycastHit::*)(UnityEngine::Vector3)>(&RaycastHit::set_normal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RaycastHit::*)(UnityEngine::Vector3)>(&UnityEngine::RaycastHit::set_normal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RaycastHit), "set_normal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RaycastHit), "set_normal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: RaycastHit::get_distance
+// Writing MetadataGetter for method: UnityEngine::RaycastHit::get_distance
 // Il2CppName: get_distance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RaycastHit::*)()>(&RaycastHit::get_distance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::RaycastHit::*)()>(&UnityEngine::RaycastHit::get_distance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RaycastHit), "get_distance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RaycastHit), "get_distance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RaycastHit::set_distance
+// Writing MetadataGetter for method: UnityEngine::RaycastHit::set_distance
 // Il2CppName: set_distance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RaycastHit::*)(float)>(&RaycastHit::set_distance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RaycastHit::*)(float)>(&UnityEngine::RaycastHit::set_distance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RaycastHit), "set_distance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RaycastHit), "set_distance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };

@@ -276,129 +276,129 @@ namespace GlobalNamespace {
   static_assert(sizeof(ResultsViewController) == 0x112);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsViewController*, "", "ResultsViewController");
-// Writing MetadataGetter for method: ResultsViewController::add_continueButtonPressedEvent
+// Writing MetadataGetter for method: GlobalNamespace::ResultsViewController::add_continueButtonPressedEvent
 // Il2CppName: add_continueButtonPressedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultsViewController::*)(System::Action_1<GlobalNamespace::ResultsViewController*>*)>(&ResultsViewController::add_continueButtonPressedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultsViewController::*)(System::Action_1<GlobalNamespace::ResultsViewController*>*)>(&GlobalNamespace::ResultsViewController::add_continueButtonPressedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResultsViewController*), "add_continueButtonPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::ResultsViewController*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsViewController*), "add_continueButtonPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::ResultsViewController*>*>()});
   }
 };
-// Writing MetadataGetter for method: ResultsViewController::remove_continueButtonPressedEvent
+// Writing MetadataGetter for method: GlobalNamespace::ResultsViewController::remove_continueButtonPressedEvent
 // Il2CppName: remove_continueButtonPressedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultsViewController::*)(System::Action_1<GlobalNamespace::ResultsViewController*>*)>(&ResultsViewController::remove_continueButtonPressedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultsViewController::*)(System::Action_1<GlobalNamespace::ResultsViewController*>*)>(&GlobalNamespace::ResultsViewController::remove_continueButtonPressedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResultsViewController*), "remove_continueButtonPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::ResultsViewController*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsViewController*), "remove_continueButtonPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::ResultsViewController*>*>()});
   }
 };
-// Writing MetadataGetter for method: ResultsViewController::add_restartButtonPressedEvent
+// Writing MetadataGetter for method: GlobalNamespace::ResultsViewController::add_restartButtonPressedEvent
 // Il2CppName: add_restartButtonPressedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultsViewController::*)(System::Action_1<GlobalNamespace::ResultsViewController*>*)>(&ResultsViewController::add_restartButtonPressedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultsViewController::*)(System::Action_1<GlobalNamespace::ResultsViewController*>*)>(&GlobalNamespace::ResultsViewController::add_restartButtonPressedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResultsViewController*), "add_restartButtonPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::ResultsViewController*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsViewController*), "add_restartButtonPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::ResultsViewController*>*>()});
   }
 };
-// Writing MetadataGetter for method: ResultsViewController::remove_restartButtonPressedEvent
+// Writing MetadataGetter for method: GlobalNamespace::ResultsViewController::remove_restartButtonPressedEvent
 // Il2CppName: remove_restartButtonPressedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultsViewController::*)(System::Action_1<GlobalNamespace::ResultsViewController*>*)>(&ResultsViewController::remove_restartButtonPressedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultsViewController::*)(System::Action_1<GlobalNamespace::ResultsViewController*>*)>(&GlobalNamespace::ResultsViewController::remove_restartButtonPressedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResultsViewController*), "remove_restartButtonPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::ResultsViewController*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsViewController*), "remove_restartButtonPressedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::ResultsViewController*>*>()});
   }
 };
-// Writing MetadataGetter for method: ResultsViewController::get_practice
+// Writing MetadataGetter for method: GlobalNamespace::ResultsViewController::get_practice
 // Il2CppName: get_practice
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ResultsViewController::*)()>(&ResultsViewController::get_practice)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ResultsViewController::*)()>(&GlobalNamespace::ResultsViewController::get_practice)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResultsViewController*), "get_practice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsViewController*), "get_practice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ResultsViewController::Init
+// Writing MetadataGetter for method: GlobalNamespace::ResultsViewController::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultsViewController::*)(GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*, bool, bool)>(&ResultsViewController::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultsViewController::*)(GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*, bool, bool)>(&GlobalNamespace::ResultsViewController::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResultsViewController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsViewController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ResultsViewController::StartFireworksAfterDelay
+// Writing MetadataGetter for method: GlobalNamespace::ResultsViewController::StartFireworksAfterDelay
 // Il2CppName: StartFireworksAfterDelay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (ResultsViewController::*)(float)>(&ResultsViewController::StartFireworksAfterDelay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::ResultsViewController::*)(float)>(&GlobalNamespace::ResultsViewController::StartFireworksAfterDelay)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResultsViewController*), "StartFireworksAfterDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsViewController*), "StartFireworksAfterDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: ResultsViewController::SetDataToUI
+// Writing MetadataGetter for method: GlobalNamespace::ResultsViewController::SetDataToUI
 // Il2CppName: SetDataToUI
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultsViewController::*)()>(&ResultsViewController::SetDataToUI)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultsViewController::*)()>(&GlobalNamespace::ResultsViewController::SetDataToUI)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResultsViewController*), "SetDataToUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsViewController*), "SetDataToUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ResultsViewController::EnableResultsEnvironmentController
+// Writing MetadataGetter for method: GlobalNamespace::ResultsViewController::EnableResultsEnvironmentController
 // Il2CppName: EnableResultsEnvironmentController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultsViewController::*)()>(&ResultsViewController::EnableResultsEnvironmentController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultsViewController::*)()>(&GlobalNamespace::ResultsViewController::EnableResultsEnvironmentController)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResultsViewController*), "EnableResultsEnvironmentController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsViewController*), "EnableResultsEnvironmentController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ResultsViewController::DisableResultEnvironmentController
+// Writing MetadataGetter for method: GlobalNamespace::ResultsViewController::DisableResultEnvironmentController
 // Il2CppName: DisableResultEnvironmentController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultsViewController::*)()>(&ResultsViewController::DisableResultEnvironmentController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultsViewController::*)()>(&GlobalNamespace::ResultsViewController::DisableResultEnvironmentController)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResultsViewController*), "DisableResultEnvironmentController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsViewController*), "DisableResultEnvironmentController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ResultsViewController::ContinueButtonPressed
+// Writing MetadataGetter for method: GlobalNamespace::ResultsViewController::ContinueButtonPressed
 // Il2CppName: ContinueButtonPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultsViewController::*)()>(&ResultsViewController::ContinueButtonPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultsViewController::*)()>(&GlobalNamespace::ResultsViewController::ContinueButtonPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResultsViewController*), "ContinueButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsViewController*), "ContinueButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ResultsViewController::RestartButtonPressed
+// Writing MetadataGetter for method: GlobalNamespace::ResultsViewController::RestartButtonPressed
 // Il2CppName: RestartButtonPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultsViewController::*)()>(&ResultsViewController::RestartButtonPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultsViewController::*)()>(&GlobalNamespace::ResultsViewController::RestartButtonPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResultsViewController*), "RestartButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsViewController*), "RestartButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ResultsViewController::DidActivate
+// Writing MetadataGetter for method: GlobalNamespace::ResultsViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultsViewController::*)(bool, bool, bool)>(&ResultsViewController::DidActivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultsViewController::*)(bool, bool, bool)>(&GlobalNamespace::ResultsViewController::DidActivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResultsViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ResultsViewController::DidDeactivate
+// Writing MetadataGetter for method: GlobalNamespace::ResultsViewController::DidDeactivate
 // Il2CppName: DidDeactivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultsViewController::*)(bool, bool)>(&ResultsViewController::DidDeactivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultsViewController::*)(bool, bool)>(&GlobalNamespace::ResultsViewController::DidDeactivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResultsViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ResultsViewController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::ResultsViewController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultsViewController::*)()>(&ResultsViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultsViewController::*)()>(&GlobalNamespace::ResultsViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResultsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResultsViewController::*)()>(&ResultsViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultsViewController::*)()>(&GlobalNamespace::ResultsViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResultsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

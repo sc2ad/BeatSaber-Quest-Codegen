@@ -62,49 +62,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRHaptics::OVRHapticsChannel) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHaptics::OVRHapticsChannel*, "", "OVRHaptics/OVRHapticsChannel");
-// Writing MetadataGetter for method: OVRHaptics::OVRHapticsChannel::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::OVRHaptics::OVRHapticsChannel::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRHaptics::OVRHapticsChannel::*)(uint)>(&OVRHaptics::OVRHapticsChannel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRHaptics::OVRHapticsChannel::*)(uint)>(&GlobalNamespace::OVRHaptics::OVRHapticsChannel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRHaptics::OVRHapticsChannel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHaptics::OVRHapticsChannel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRHaptics::OVRHapticsChannel::*)(uint)>(&OVRHaptics::OVRHapticsChannel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRHaptics::OVRHapticsChannel::*)(uint)>(&GlobalNamespace::OVRHaptics::OVRHapticsChannel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRHaptics::OVRHapticsChannel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHaptics::OVRHapticsChannel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: OVRHaptics::OVRHapticsChannel::Preempt
+// Writing MetadataGetter for method: GlobalNamespace::OVRHaptics::OVRHapticsChannel::Preempt
 // Il2CppName: Preempt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRHaptics::OVRHapticsChannel::*)(GlobalNamespace::OVRHapticsClip*)>(&OVRHaptics::OVRHapticsChannel::Preempt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRHaptics::OVRHapticsChannel::*)(GlobalNamespace::OVRHapticsClip*)>(&GlobalNamespace::OVRHaptics::OVRHapticsChannel::Preempt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRHaptics::OVRHapticsChannel*), "Preempt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRHapticsClip*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHaptics::OVRHapticsChannel*), "Preempt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRHapticsClip*>()});
   }
 };
-// Writing MetadataGetter for method: OVRHaptics::OVRHapticsChannel::Queue
+// Writing MetadataGetter for method: GlobalNamespace::OVRHaptics::OVRHapticsChannel::Queue
 // Il2CppName: Queue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRHaptics::OVRHapticsChannel::*)(GlobalNamespace::OVRHapticsClip*)>(&OVRHaptics::OVRHapticsChannel::Queue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRHaptics::OVRHapticsChannel::*)(GlobalNamespace::OVRHapticsClip*)>(&GlobalNamespace::OVRHaptics::OVRHapticsChannel::Queue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRHaptics::OVRHapticsChannel*), "Queue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRHapticsClip*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHaptics::OVRHapticsChannel*), "Queue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRHapticsClip*>()});
   }
 };
-// Writing MetadataGetter for method: OVRHaptics::OVRHapticsChannel::Mix
+// Writing MetadataGetter for method: GlobalNamespace::OVRHaptics::OVRHapticsChannel::Mix
 // Il2CppName: Mix
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRHaptics::OVRHapticsChannel::*)(GlobalNamespace::OVRHapticsClip*)>(&OVRHaptics::OVRHapticsChannel::Mix)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRHaptics::OVRHapticsChannel::*)(GlobalNamespace::OVRHapticsClip*)>(&GlobalNamespace::OVRHaptics::OVRHapticsChannel::Mix)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRHaptics::OVRHapticsChannel*), "Mix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRHapticsClip*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHaptics::OVRHapticsChannel*), "Mix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRHapticsClip*>()});
   }
 };
-// Writing MetadataGetter for method: OVRHaptics::OVRHapticsChannel::Clear
+// Writing MetadataGetter for method: GlobalNamespace::OVRHaptics::OVRHapticsChannel::Clear
 // Il2CppName: Clear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRHaptics::OVRHapticsChannel::*)()>(&OVRHaptics::OVRHapticsChannel::Clear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRHaptics::OVRHapticsChannel::*)()>(&GlobalNamespace::OVRHaptics::OVRHapticsChannel::Clear)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRHaptics::OVRHapticsChannel*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHaptics::OVRHapticsChannel*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

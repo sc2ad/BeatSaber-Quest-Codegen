@@ -174,137 +174,137 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c*, "UnityEngine.ProBuilder.MeshOperations", "ElementSelection/<>c");
-// Writing MetadataGetter for method: ElementSelection::$$c::_cctor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ElementSelection::$$c::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ElementSelection::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ElementSelection::$$c::$GetPerimeterEdges$b__4_0
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::$GetPerimeterEdges$b__4_0
 // Il2CppName: <GetPerimeterEdges>b__4_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* (ElementSelection::$$c::*)(UnityEngine::ProBuilder::Face*)>(&ElementSelection::$$c::$GetPerimeterEdges$b__4_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* (UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::*)(UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::$GetPerimeterEdges$b__4_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ElementSelection::$$c*), "<GetPerimeterEdges>b__4_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c*), "<GetPerimeterEdges>b__4_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
   }
 };
-// Writing MetadataGetter for method: ElementSelection::$$c::$GetPerimeterEdges$b__4_1
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::$GetPerimeterEdges$b__4_1
 // Il2CppName: <GetPerimeterEdges>b__4_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ElementSelection::$$c::*)(System::Collections::Generic::KeyValuePair_2<UnityEngine::ProBuilder::Edge, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge>*>)>(&ElementSelection::$$c::$GetPerimeterEdges$b__4_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::*)(System::Collections::Generic::KeyValuePair_2<UnityEngine::ProBuilder::Edge, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge>*>)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::$GetPerimeterEdges$b__4_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ElementSelection::$$c*), "<GetPerimeterEdges>b__4_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::KeyValuePair_2<UnityEngine::ProBuilder::Edge, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge>*>>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c*), "<GetPerimeterEdges>b__4_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::KeyValuePair_2<UnityEngine::ProBuilder::Edge, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge>*>>()});
   }
 };
-// Writing MetadataGetter for method: ElementSelection::$$c::$GetPerimeterEdges$b__4_2
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::$GetPerimeterEdges$b__4_2
 // Il2CppName: <GetPerimeterEdges>b__4_2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (ElementSelection::$$c::*)(System::Collections::Generic::KeyValuePair_2<UnityEngine::ProBuilder::Edge, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge>*>)>(&ElementSelection::$$c::$GetPerimeterEdges$b__4_2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::*)(System::Collections::Generic::KeyValuePair_2<UnityEngine::ProBuilder::Edge, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge>*>)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::$GetPerimeterEdges$b__4_2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ElementSelection::$$c*), "<GetPerimeterEdges>b__4_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::KeyValuePair_2<UnityEngine::ProBuilder::Edge, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge>*>>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c*), "<GetPerimeterEdges>b__4_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::KeyValuePair_2<UnityEngine::ProBuilder::Edge, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge>*>>()});
   }
 };
-// Writing MetadataGetter for method: ElementSelection::$$c::$GetPerimeterFaces$b__6_0
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::$GetPerimeterFaces$b__6_0
 // Il2CppName: <GetPerimeterFaces>b__6_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ElementSelection::$$c::*)(System::Collections::Generic::KeyValuePair_2<UnityEngine::ProBuilder::Edge, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>*>)>(&ElementSelection::$$c::$GetPerimeterFaces$b__6_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::*)(System::Collections::Generic::KeyValuePair_2<UnityEngine::ProBuilder::Edge, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>*>)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::$GetPerimeterFaces$b__6_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ElementSelection::$$c*), "<GetPerimeterFaces>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::KeyValuePair_2<UnityEngine::ProBuilder::Edge, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>*>>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c*), "<GetPerimeterFaces>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::KeyValuePair_2<UnityEngine::ProBuilder::Edge, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>*>>()});
   }
 };
-// Writing MetadataGetter for method: ElementSelection::$$c::$GetPerimeterFaces$b__6_1
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::$GetPerimeterFaces$b__6_1
 // Il2CppName: <GetPerimeterFaces>b__6_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Face* (ElementSelection::$$c::*)(System::Collections::Generic::KeyValuePair_2<UnityEngine::ProBuilder::Edge, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>*>)>(&ElementSelection::$$c::$GetPerimeterFaces$b__6_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Face* (UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::*)(System::Collections::Generic::KeyValuePair_2<UnityEngine::ProBuilder::Edge, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>*>)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::$GetPerimeterFaces$b__6_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ElementSelection::$$c*), "<GetPerimeterFaces>b__6_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::KeyValuePair_2<UnityEngine::ProBuilder::Edge, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>*>>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c*), "<GetPerimeterFaces>b__6_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::KeyValuePair_2<UnityEngine::ProBuilder::Edge, System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>*>>()});
   }
 };
-// Writing MetadataGetter for method: ElementSelection::$$c::$GetEdgeRing$b__9_0
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::$GetEdgeRing$b__9_0
 // Il2CppName: <GetEdgeRing>b__9_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (ElementSelection::$$c::*)(UnityEngine::ProBuilder::EdgeLookup)>(&ElementSelection::$$c::$GetEdgeRing$b__9_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::*)(UnityEngine::ProBuilder::EdgeLookup)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::$GetEdgeRing$b__9_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ElementSelection::$$c*), "<GetEdgeRing>b__9_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::EdgeLookup>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c*), "<GetEdgeRing>b__9_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::EdgeLookup>()});
   }
 };
-// Writing MetadataGetter for method: ElementSelection::$$c::$GetEdgeRingIterative$b__10_0
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::$GetEdgeRingIterative$b__10_0
 // Il2CppName: <GetEdgeRingIterative>b__10_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (ElementSelection::$$c::*)(UnityEngine::ProBuilder::EdgeLookup)>(&ElementSelection::$$c::$GetEdgeRingIterative$b__10_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::*)(UnityEngine::ProBuilder::EdgeLookup)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::$GetEdgeRingIterative$b__10_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ElementSelection::$$c*), "<GetEdgeRingIterative>b__10_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::EdgeLookup>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c*), "<GetEdgeRingIterative>b__10_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::EdgeLookup>()});
   }
 };
-// Writing MetadataGetter for method: ElementSelection::$$c::$GetEdgeLoop$b__11_0
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::$GetEdgeLoop$b__11_0
 // Il2CppName: <GetEdgeLoop>b__11_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (ElementSelection::$$c::*)(UnityEngine::ProBuilder::EdgeLookup)>(&ElementSelection::$$c::$GetEdgeLoop$b__11_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::*)(UnityEngine::ProBuilder::EdgeLookup)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::$GetEdgeLoop$b__11_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ElementSelection::$$c*), "<GetEdgeLoop>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::EdgeLookup>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c*), "<GetEdgeLoop>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::EdgeLookup>()});
   }
 };
-// Writing MetadataGetter for method: ElementSelection::$$c::$GetEdgeLoopIterative$b__12_0
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::$GetEdgeLoopIterative$b__12_0
 // Il2CppName: <GetEdgeLoopIterative>b__12_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (ElementSelection::$$c::*)(UnityEngine::ProBuilder::EdgeLookup)>(&ElementSelection::$$c::$GetEdgeLoopIterative$b__12_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::*)(UnityEngine::ProBuilder::EdgeLookup)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::$GetEdgeLoopIterative$b__12_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ElementSelection::$$c*), "<GetEdgeLoopIterative>b__12_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::EdgeLookup>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c*), "<GetEdgeLoopIterative>b__12_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::EdgeLookup>()});
   }
 };
-// Writing MetadataGetter for method: ElementSelection::$$c::$GetEdgeLoopInternal$b__13_0
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::$GetEdgeLoopInternal$b__13_0
 // Il2CppName: <GetEdgeLoopInternal>b__13_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (ElementSelection::$$c::*)(UnityEngine::ProBuilder::WingedEdge*)>(&ElementSelection::$$c::$GetEdgeLoopInternal$b__13_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::*)(UnityEngine::ProBuilder::WingedEdge*)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::$GetEdgeLoopInternal$b__13_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ElementSelection::$$c*), "<GetEdgeLoopInternal>b__13_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::WingedEdge*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c*), "<GetEdgeLoopInternal>b__13_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::WingedEdge*>()});
   }
 };
-// Writing MetadataGetter for method: ElementSelection::$$c::$GetEdgeLoopInternalIterative$b__14_0
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::$GetEdgeLoopInternalIterative$b__14_0
 // Il2CppName: <GetEdgeLoopInternalIterative>b__14_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (ElementSelection::$$c::*)(UnityEngine::ProBuilder::WingedEdge*)>(&ElementSelection::$$c::$GetEdgeLoopInternalIterative$b__14_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::*)(UnityEngine::ProBuilder::WingedEdge*)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::$GetEdgeLoopInternalIterative$b__14_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ElementSelection::$$c*), "<GetEdgeLoopInternalIterative>b__14_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::WingedEdge*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c*), "<GetEdgeLoopInternalIterative>b__14_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::WingedEdge*>()});
   }
 };
-// Writing MetadataGetter for method: ElementSelection::$$c::$GetEdgeLoopInternalIterative$b__14_1
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::$GetEdgeLoopInternalIterative$b__14_1
 // Il2CppName: <GetEdgeLoopInternalIterative>b__14_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (ElementSelection::$$c::*)(UnityEngine::ProBuilder::WingedEdge*)>(&ElementSelection::$$c::$GetEdgeLoopInternalIterative$b__14_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::*)(UnityEngine::ProBuilder::WingedEdge*)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::$GetEdgeLoopInternalIterative$b__14_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ElementSelection::$$c*), "<GetEdgeLoopInternalIterative>b__14_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::WingedEdge*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c*), "<GetEdgeLoopInternalIterative>b__14_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::WingedEdge*>()});
   }
 };
-// Writing MetadataGetter for method: ElementSelection::$$c::$FindHoles$b__25_0
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::$FindHoles$b__25_0
 // Il2CppName: <FindHoles>b__25_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (ElementSelection::$$c::*)(UnityEngine::ProBuilder::WingedEdge*)>(&ElementSelection::$$c::$FindHoles$b__25_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::*)(UnityEngine::ProBuilder::WingedEdge*)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::$FindHoles$b__25_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ElementSelection::$$c*), "<FindHoles>b__25_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::WingedEdge*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c*), "<FindHoles>b__25_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::WingedEdge*>()});
   }
 };
-// Writing MetadataGetter for method: ElementSelection::$$c::$FindHoles$b__26_0
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::$FindHoles$b__26_0
 // Il2CppName: <FindHoles>b__26_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ElementSelection::$$c::*)(UnityEngine::ProBuilder::SimpleTuple_2<int, int>, UnityEngine::ProBuilder::SimpleTuple_2<int, int>)>(&ElementSelection::$$c::$FindHoles$b__26_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::*)(UnityEngine::ProBuilder::SimpleTuple_2<int, int>, UnityEngine::ProBuilder::SimpleTuple_2<int, int>)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::$FindHoles$b__26_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ElementSelection::$$c*), "<FindHoles>b__26_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::SimpleTuple_2<int, int>>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::SimpleTuple_2<int, int>>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c*), "<FindHoles>b__26_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::SimpleTuple_2<int, int>>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::SimpleTuple_2<int, int>>()});
   }
 };
-// Writing MetadataGetter for method: ElementSelection::$$c::New_ctor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ElementSelection::$$c::*)()>(&ElementSelection::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::*)()>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ElementSelection::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ElementSelection::$$c::*)()>(&ElementSelection::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::*)()>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ElementSelection::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

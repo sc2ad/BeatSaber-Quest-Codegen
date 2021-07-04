@@ -77,41 +77,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(TimelinePauseReceiver) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TimelinePauseReceiver*, "", "TimelinePauseReceiver");
-// Writing MetadataGetter for method: TimelinePauseReceiver::add_timelinePauseEvent
+// Writing MetadataGetter for method: GlobalNamespace::TimelinePauseReceiver::add_timelinePauseEvent
 // Il2CppName: add_timelinePauseEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelinePauseReceiver::*)(System::Action*)>(&TimelinePauseReceiver::add_timelinePauseEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TimelinePauseReceiver::*)(System::Action*)>(&GlobalNamespace::TimelinePauseReceiver::add_timelinePauseEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelinePauseReceiver*), "add_timelinePauseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimelinePauseReceiver*), "add_timelinePauseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: TimelinePauseReceiver::remove_timelinePauseEvent
+// Writing MetadataGetter for method: GlobalNamespace::TimelinePauseReceiver::remove_timelinePauseEvent
 // Il2CppName: remove_timelinePauseEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelinePauseReceiver::*)(System::Action*)>(&TimelinePauseReceiver::remove_timelinePauseEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TimelinePauseReceiver::*)(System::Action*)>(&GlobalNamespace::TimelinePauseReceiver::remove_timelinePauseEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelinePauseReceiver*), "remove_timelinePauseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimelinePauseReceiver*), "remove_timelinePauseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: TimelinePauseReceiver::OnNotify
+// Writing MetadataGetter for method: GlobalNamespace::TimelinePauseReceiver::OnNotify
 // Il2CppName: OnNotify
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelinePauseReceiver::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::INotification*, ::Il2CppObject*)>(&TimelinePauseReceiver::OnNotify)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TimelinePauseReceiver::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::INotification*, ::Il2CppObject*)>(&GlobalNamespace::TimelinePauseReceiver::OnNotify)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelinePauseReceiver*), "OnNotify", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::INotification*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimelinePauseReceiver*), "OnNotify", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::INotification*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: TimelinePauseReceiver::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::TimelinePauseReceiver::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelinePauseReceiver::*)()>(&TimelinePauseReceiver::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TimelinePauseReceiver::*)()>(&GlobalNamespace::TimelinePauseReceiver::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelinePauseReceiver*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimelinePauseReceiver*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelinePauseReceiver::*)()>(&TimelinePauseReceiver::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TimelinePauseReceiver::*)()>(&GlobalNamespace::TimelinePauseReceiver::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelinePauseReceiver*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimelinePauseReceiver*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

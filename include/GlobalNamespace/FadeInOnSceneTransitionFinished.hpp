@@ -77,33 +77,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(FadeInOnSceneTransitionFinished) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FadeInOnSceneTransitionFinished*, "", "FadeInOnSceneTransitionFinished");
-// Writing MetadataGetter for method: FadeInOnSceneTransitionFinished::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::FadeInOnSceneTransitionFinished::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeInOnSceneTransitionFinished::*)()>(&FadeInOnSceneTransitionFinished::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FadeInOnSceneTransitionFinished::*)()>(&GlobalNamespace::FadeInOnSceneTransitionFinished::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FadeInOnSceneTransitionFinished*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FadeInOnSceneTransitionFinished*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FadeInOnSceneTransitionFinished::FadeInAfterSceneTransitionCoroutine
+// Writing MetadataGetter for method: GlobalNamespace::FadeInOnSceneTransitionFinished::FadeInAfterSceneTransitionCoroutine
 // Il2CppName: FadeInAfterSceneTransitionCoroutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (FadeInOnSceneTransitionFinished::*)()>(&FadeInOnSceneTransitionFinished::FadeInAfterSceneTransitionCoroutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::FadeInOnSceneTransitionFinished::*)()>(&GlobalNamespace::FadeInOnSceneTransitionFinished::FadeInAfterSceneTransitionCoroutine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FadeInOnSceneTransitionFinished*), "FadeInAfterSceneTransitionCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FadeInOnSceneTransitionFinished*), "FadeInAfterSceneTransitionCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FadeInOnSceneTransitionFinished::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::FadeInOnSceneTransitionFinished::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeInOnSceneTransitionFinished::*)()>(&FadeInOnSceneTransitionFinished::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FadeInOnSceneTransitionFinished::*)()>(&GlobalNamespace::FadeInOnSceneTransitionFinished::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FadeInOnSceneTransitionFinished*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FadeInOnSceneTransitionFinished*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeInOnSceneTransitionFinished::*)()>(&FadeInOnSceneTransitionFinished::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FadeInOnSceneTransitionFinished::*)()>(&GlobalNamespace::FadeInOnSceneTransitionFinished::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FadeInOnSceneTransitionFinished*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FadeInOnSceneTransitionFinished*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

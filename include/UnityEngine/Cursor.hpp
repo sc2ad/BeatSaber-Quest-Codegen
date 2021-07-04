@@ -39,35 +39,35 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Cursor*, "UnityEngine", "Cursor");
-// Writing MetadataGetter for method: Cursor::get_visible
+// Writing MetadataGetter for method: UnityEngine::Cursor::get_visible
 // Il2CppName: get_visible
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Cursor::get_visible)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::Cursor::get_visible)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Cursor*), "get_visible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cursor*), "get_visible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Cursor::set_visible
+// Writing MetadataGetter for method: UnityEngine::Cursor::set_visible
 // Il2CppName: set_visible
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&Cursor::set_visible)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&UnityEngine::Cursor::set_visible)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Cursor*), "set_visible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cursor*), "set_visible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Cursor::get_lockState
+// Writing MetadataGetter for method: UnityEngine::Cursor::get_lockState
 // Il2CppName: get_lockState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::CursorLockMode (*)()>(&Cursor::get_lockState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::CursorLockMode (*)()>(&UnityEngine::Cursor::get_lockState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Cursor*), "get_lockState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cursor*), "get_lockState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Cursor::set_lockState
+// Writing MetadataGetter for method: UnityEngine::Cursor::set_lockState
 // Il2CppName: set_lockState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::CursorLockMode)>(&Cursor::set_lockState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::CursorLockMode)>(&UnityEngine::Cursor::set_lockState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Cursor*), "set_lockState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::CursorLockMode>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cursor*), "set_lockState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::CursorLockMode>()});
   }
 };

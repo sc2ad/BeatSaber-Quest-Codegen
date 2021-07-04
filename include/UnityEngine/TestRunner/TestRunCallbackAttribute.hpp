@@ -49,11 +49,11 @@ namespace UnityEngine::TestRunner {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestRunCallbackAttribute*, "UnityEngine.TestRunner", "TestRunCallbackAttribute");
-// Writing MetadataGetter for method: TestRunCallbackAttribute::ConstructCallback
+// Writing MetadataGetter for method: UnityEngine::TestRunner::TestRunCallbackAttribute::ConstructCallback
 // Il2CppName: ConstructCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestRunner::ITestRunCallback* (TestRunCallbackAttribute::*)()>(&TestRunCallbackAttribute::ConstructCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestRunner::ITestRunCallback* (UnityEngine::TestRunner::TestRunCallbackAttribute::*)()>(&UnityEngine::TestRunner::TestRunCallbackAttribute::ConstructCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestRunCallbackAttribute*), "ConstructCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::TestRunCallbackAttribute*), "ConstructCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

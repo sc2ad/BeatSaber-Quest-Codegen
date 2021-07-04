@@ -73,33 +73,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(JumpMarker) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::JumpMarker*, "", "JumpMarker");
-// Writing MetadataGetter for method: JumpMarker::get_id
+// Writing MetadataGetter for method: GlobalNamespace::JumpMarker::get_id
 // Il2CppName: get_id
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::PropertyName (JumpMarker::*)()>(&JumpMarker::get_id)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::PropertyName (GlobalNamespace::JumpMarker::*)()>(&GlobalNamespace::JumpMarker::get_id)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JumpMarker*), "get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JumpMarker*), "get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: JumpMarker::get_jumpDestination
+// Writing MetadataGetter for method: GlobalNamespace::JumpMarker::get_jumpDestination
 // Il2CppName: get_jumpDestination
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::JumpDestinationMarker* (JumpMarker::*)()>(&JumpMarker::get_jumpDestination)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::JumpDestinationMarker* (GlobalNamespace::JumpMarker::*)()>(&GlobalNamespace::JumpMarker::get_jumpDestination)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JumpMarker*), "get_jumpDestination", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JumpMarker*), "get_jumpDestination", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: JumpMarker::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::JumpMarker::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JumpMarker::*)()>(&JumpMarker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::JumpMarker::*)()>(&GlobalNamespace::JumpMarker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JumpMarker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JumpMarker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JumpMarker::*)()>(&JumpMarker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::JumpMarker::*)()>(&GlobalNamespace::JumpMarker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JumpMarker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JumpMarker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

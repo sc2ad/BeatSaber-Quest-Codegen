@@ -108,73 +108,73 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(VRIKRootController) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIKRootController*, "RootMotion.FinalIK", "VRIKRootController");
-// Writing MetadataGetter for method: VRIKRootController::get_pelvisTargetRight
+// Writing MetadataGetter for method: RootMotion::FinalIK::VRIKRootController::get_pelvisTargetRight
 // Il2CppName: get_pelvisTargetRight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (VRIKRootController::*)()>(&VRIKRootController::get_pelvisTargetRight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::VRIKRootController::*)()>(&RootMotion::FinalIK::VRIKRootController::get_pelvisTargetRight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRIKRootController*), "get_pelvisTargetRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIKRootController*), "get_pelvisTargetRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRIKRootController::set_pelvisTargetRight
+// Writing MetadataGetter for method: RootMotion::FinalIK::VRIKRootController::set_pelvisTargetRight
 // Il2CppName: set_pelvisTargetRight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRIKRootController::*)(UnityEngine::Vector3)>(&VRIKRootController::set_pelvisTargetRight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::VRIKRootController::*)(UnityEngine::Vector3)>(&RootMotion::FinalIK::VRIKRootController::set_pelvisTargetRight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRIKRootController*), "set_pelvisTargetRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIKRootController*), "set_pelvisTargetRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: VRIKRootController::Awake
+// Writing MetadataGetter for method: RootMotion::FinalIK::VRIKRootController::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRIKRootController::*)()>(&VRIKRootController::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::VRIKRootController::*)()>(&RootMotion::FinalIK::VRIKRootController::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRIKRootController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIKRootController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRIKRootController::Calibrate
+// Writing MetadataGetter for method: RootMotion::FinalIK::VRIKRootController::Calibrate
 // Il2CppName: Calibrate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRIKRootController::*)()>(&VRIKRootController::Calibrate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::VRIKRootController::*)()>(&RootMotion::FinalIK::VRIKRootController::Calibrate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRIKRootController*), "Calibrate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIKRootController*), "Calibrate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRIKRootController::Calibrate
+// Writing MetadataGetter for method: RootMotion::FinalIK::VRIKRootController::Calibrate
 // Il2CppName: Calibrate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRIKRootController::*)(RootMotion::FinalIK::VRIKCalibrator::CalibrationData*)>(&VRIKRootController::Calibrate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::VRIKRootController::*)(RootMotion::FinalIK::VRIKCalibrator::CalibrationData*)>(&RootMotion::FinalIK::VRIKRootController::Calibrate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRIKRootController*), "Calibrate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIKCalibrator::CalibrationData*>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIKRootController*), "Calibrate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIKCalibrator::CalibrationData*>()});
   }
 };
-// Writing MetadataGetter for method: VRIKRootController::OnPreUpdate
+// Writing MetadataGetter for method: RootMotion::FinalIK::VRIKRootController::OnPreUpdate
 // Il2CppName: OnPreUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRIKRootController::*)()>(&VRIKRootController::OnPreUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::VRIKRootController::*)()>(&RootMotion::FinalIK::VRIKRootController::OnPreUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRIKRootController*), "OnPreUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIKRootController*), "OnPreUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRIKRootController::OnDestroy
+// Writing MetadataGetter for method: RootMotion::FinalIK::VRIKRootController::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRIKRootController::*)()>(&VRIKRootController::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::VRIKRootController::*)()>(&RootMotion::FinalIK::VRIKRootController::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRIKRootController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIKRootController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRIKRootController::New_ctor
+// Writing MetadataGetter for method: RootMotion::FinalIK::VRIKRootController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRIKRootController::*)()>(&VRIKRootController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::VRIKRootController::*)()>(&RootMotion::FinalIK::VRIKRootController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRIKRootController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIKRootController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRIKRootController::*)()>(&VRIKRootController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::VRIKRootController::*)()>(&RootMotion::FinalIK::VRIKRootController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRIKRootController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIKRootController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -135,49 +135,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(ControllersTransformSettingsViewController) == 0xB0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ControllersTransformSettingsViewController*, "", "ControllersTransformSettingsViewController");
-// Writing MetadataGetter for method: ControllersTransformSettingsViewController::HandlePositionSliderValueDidChange
+// Writing MetadataGetter for method: GlobalNamespace::ControllersTransformSettingsViewController::HandlePositionSliderValueDidChange
 // Il2CppName: HandlePositionSliderValueDidChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ControllersTransformSettingsViewController::*)(HMUI::RangeValuesTextSlider*, float)>(&ControllersTransformSettingsViewController::HandlePositionSliderValueDidChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ControllersTransformSettingsViewController::*)(HMUI::RangeValuesTextSlider*, float)>(&GlobalNamespace::ControllersTransformSettingsViewController::HandlePositionSliderValueDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ControllersTransformSettingsViewController*), "HandlePositionSliderValueDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::RangeValuesTextSlider*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ControllersTransformSettingsViewController*), "HandlePositionSliderValueDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::RangeValuesTextSlider*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: ControllersTransformSettingsViewController::HandleRotationSliderValueDidChange
+// Writing MetadataGetter for method: GlobalNamespace::ControllersTransformSettingsViewController::HandleRotationSliderValueDidChange
 // Il2CppName: HandleRotationSliderValueDidChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ControllersTransformSettingsViewController::*)(HMUI::RangeValuesTextSlider*, float)>(&ControllersTransformSettingsViewController::HandleRotationSliderValueDidChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ControllersTransformSettingsViewController::*)(HMUI::RangeValuesTextSlider*, float)>(&GlobalNamespace::ControllersTransformSettingsViewController::HandleRotationSliderValueDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ControllersTransformSettingsViewController*), "HandleRotationSliderValueDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::RangeValuesTextSlider*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ControllersTransformSettingsViewController*), "HandleRotationSliderValueDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::RangeValuesTextSlider*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: ControllersTransformSettingsViewController::DidActivate
+// Writing MetadataGetter for method: GlobalNamespace::ControllersTransformSettingsViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ControllersTransformSettingsViewController::*)(bool, bool, bool)>(&ControllersTransformSettingsViewController::DidActivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ControllersTransformSettingsViewController::*)(bool, bool, bool)>(&GlobalNamespace::ControllersTransformSettingsViewController::DidActivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ControllersTransformSettingsViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ControllersTransformSettingsViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ControllersTransformSettingsViewController::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::ControllersTransformSettingsViewController::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ControllersTransformSettingsViewController::*)()>(&ControllersTransformSettingsViewController::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ControllersTransformSettingsViewController::*)()>(&GlobalNamespace::ControllersTransformSettingsViewController::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ControllersTransformSettingsViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ControllersTransformSettingsViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ControllersTransformSettingsViewController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::ControllersTransformSettingsViewController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ControllersTransformSettingsViewController::*)()>(&ControllersTransformSettingsViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ControllersTransformSettingsViewController::*)()>(&GlobalNamespace::ControllersTransformSettingsViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ControllersTransformSettingsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ControllersTransformSettingsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ControllersTransformSettingsViewController::*)()>(&ControllersTransformSettingsViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ControllersTransformSettingsViewController::*)()>(&GlobalNamespace::ControllersTransformSettingsViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ControllersTransformSettingsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ControllersTransformSettingsViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

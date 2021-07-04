@@ -51,41 +51,41 @@ namespace Oculus::Platform {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Message::ExtraMessageTypesHandler*, "Oculus.Platform", "Message/ExtraMessageTypesHandler");
-// Writing MetadataGetter for method: Message::ExtraMessageTypesHandler::New_ctor
+// Writing MetadataGetter for method: Oculus::Platform::Message::ExtraMessageTypesHandler::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Message::ExtraMessageTypesHandler::*)(::Il2CppObject*, System::IntPtr)>(&Message::ExtraMessageTypesHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::Message::ExtraMessageTypesHandler::*)(::Il2CppObject*, System::IntPtr)>(&Oculus::Platform::Message::ExtraMessageTypesHandler::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message::ExtraMessageTypesHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message::ExtraMessageTypesHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Message::ExtraMessageTypesHandler::*)(::Il2CppObject*, System::IntPtr)>(&Message::ExtraMessageTypesHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::Message::ExtraMessageTypesHandler::*)(::Il2CppObject*, System::IntPtr)>(&Oculus::Platform::Message::ExtraMessageTypesHandler::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message::ExtraMessageTypesHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message::ExtraMessageTypesHandler*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: Message::ExtraMessageTypesHandler::Invoke
+// Writing MetadataGetter for method: Oculus::Platform::Message::ExtraMessageTypesHandler::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Message* (Message::ExtraMessageTypesHandler::*)(System::IntPtr, Oculus::Platform::Message::MessageType)>(&Message::ExtraMessageTypesHandler::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Message* (Oculus::Platform::Message::ExtraMessageTypesHandler::*)(System::IntPtr, Oculus::Platform::Message::MessageType)>(&Oculus::Platform::Message::ExtraMessageTypesHandler::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message::ExtraMessageTypesHandler*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Message::MessageType>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message::ExtraMessageTypesHandler*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Message::MessageType>()});
   }
 };
-// Writing MetadataGetter for method: Message::ExtraMessageTypesHandler::BeginInvoke
+// Writing MetadataGetter for method: Oculus::Platform::Message::ExtraMessageTypesHandler::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Message::ExtraMessageTypesHandler::*)(System::IntPtr, Oculus::Platform::Message::MessageType, System::AsyncCallback*, ::Il2CppObject*)>(&Message::ExtraMessageTypesHandler::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Oculus::Platform::Message::ExtraMessageTypesHandler::*)(System::IntPtr, Oculus::Platform::Message::MessageType, System::AsyncCallback*, ::Il2CppObject*)>(&Oculus::Platform::Message::ExtraMessageTypesHandler::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message::ExtraMessageTypesHandler*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Message::MessageType>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message::ExtraMessageTypesHandler*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Message::MessageType>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Message::ExtraMessageTypesHandler::EndInvoke
+// Writing MetadataGetter for method: Oculus::Platform::Message::ExtraMessageTypesHandler::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Message* (Message::ExtraMessageTypesHandler::*)(System::IAsyncResult*)>(&Message::ExtraMessageTypesHandler::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Message* (Oculus::Platform::Message::ExtraMessageTypesHandler::*)(System::IAsyncResult*)>(&Oculus::Platform::Message::ExtraMessageTypesHandler::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Message::ExtraMessageTypesHandler*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message::ExtraMessageTypesHandler*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

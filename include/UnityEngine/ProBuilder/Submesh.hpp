@@ -110,111 +110,111 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(Submesh) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Submesh*, "UnityEngine.ProBuilder", "Submesh");
-// Writing MetadataGetter for method: Submesh::get_indexes
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Submesh::get_indexes
 // Il2CppName: get_indexes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<int>* (Submesh::*)()>(&Submesh::get_indexes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<int>* (UnityEngine::ProBuilder::Submesh::*)()>(&UnityEngine::ProBuilder::Submesh::get_indexes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Submesh*), "get_indexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Submesh*), "get_indexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Submesh::set_indexes
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Submesh::set_indexes
 // Il2CppName: set_indexes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Submesh::*)(System::Collections::Generic::IEnumerable_1<int>*)>(&Submesh::set_indexes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Submesh::*)(System::Collections::Generic::IEnumerable_1<int>*)>(&UnityEngine::ProBuilder::Submesh::set_indexes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Submesh*), "set_indexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Submesh*), "set_indexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
   }
 };
-// Writing MetadataGetter for method: Submesh::get_topology
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Submesh::get_topology
 // Il2CppName: get_topology
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::MeshTopology (Submesh::*)()>(&Submesh::get_topology)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::MeshTopology (UnityEngine::ProBuilder::Submesh::*)()>(&UnityEngine::ProBuilder::Submesh::get_topology)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Submesh*), "get_topology", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Submesh*), "get_topology", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Submesh::set_topology
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Submesh::set_topology
 // Il2CppName: set_topology
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Submesh::*)(UnityEngine::MeshTopology)>(&Submesh::set_topology)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Submesh::*)(UnityEngine::MeshTopology)>(&UnityEngine::ProBuilder::Submesh::set_topology)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Submesh*), "set_topology", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MeshTopology>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Submesh*), "set_topology", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MeshTopology>()});
   }
 };
-// Writing MetadataGetter for method: Submesh::get_submeshIndex
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Submesh::get_submeshIndex
 // Il2CppName: get_submeshIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Submesh::*)()>(&Submesh::get_submeshIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::Submesh::*)()>(&UnityEngine::ProBuilder::Submesh::get_submeshIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Submesh*), "get_submeshIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Submesh*), "get_submeshIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Submesh::set_submeshIndex
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Submesh::set_submeshIndex
 // Il2CppName: set_submeshIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Submesh::*)(int)>(&Submesh::set_submeshIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Submesh::*)(int)>(&UnityEngine::ProBuilder::Submesh::set_submeshIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Submesh*), "set_submeshIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Submesh*), "set_submeshIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Submesh::New_ctor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Submesh::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Submesh::*)(int, UnityEngine::MeshTopology, System::Collections::Generic::IEnumerable_1<int>*)>(&Submesh::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Submesh::*)(int, UnityEngine::MeshTopology, System::Collections::Generic::IEnumerable_1<int>*)>(&UnityEngine::ProBuilder::Submesh::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Submesh*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::MeshTopology>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Submesh*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::MeshTopology>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Submesh::*)(int, UnityEngine::MeshTopology, System::Collections::Generic::IEnumerable_1<int>*)>(&Submesh::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Submesh::*)(int, UnityEngine::MeshTopology, System::Collections::Generic::IEnumerable_1<int>*)>(&UnityEngine::ProBuilder::Submesh::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Submesh*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::MeshTopology>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Submesh*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::MeshTopology>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
   }
 };
-// Writing MetadataGetter for method: Submesh::New_ctor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Submesh::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Submesh::*)(UnityEngine::Mesh*, int)>(&Submesh::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Submesh::*)(UnityEngine::Mesh*, int)>(&UnityEngine::ProBuilder::Submesh::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Submesh*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Submesh*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Submesh::*)(UnityEngine::Mesh*, int)>(&Submesh::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Submesh::*)(UnityEngine::Mesh*, int)>(&UnityEngine::ProBuilder::Submesh::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Submesh*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Submesh*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Submesh::GetSubmeshCount
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Submesh::GetSubmeshCount
 // Il2CppName: GetSubmeshCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&Submesh::GetSubmeshCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&UnityEngine::ProBuilder::Submesh::GetSubmeshCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Submesh*), "GetSubmeshCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Submesh*), "GetSubmeshCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>()});
   }
 };
-// Writing MetadataGetter for method: Submesh::GetSubmeshes
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Submesh::GetSubmeshes
 // Il2CppName: GetSubmeshes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::ProBuilder::Submesh*>* (*)(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*, int, UnityEngine::MeshTopology)>(&Submesh::GetSubmeshes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::ProBuilder::Submesh*>* (*)(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*, int, UnityEngine::MeshTopology)>(&UnityEngine::ProBuilder::Submesh::GetSubmeshes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Submesh*), "GetSubmeshes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::MeshTopology>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Submesh*), "GetSubmeshes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::MeshTopology>()});
   }
 };
-// Writing MetadataGetter for method: Submesh::MapFaceMaterialsToSubmeshIndex
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Submesh::MapFaceMaterialsToSubmeshIndex
 // Il2CppName: MapFaceMaterialsToSubmeshIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&Submesh::MapFaceMaterialsToSubmeshIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&UnityEngine::ProBuilder::Submesh::MapFaceMaterialsToSubmeshIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Submesh*), "MapFaceMaterialsToSubmeshIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Submesh*), "MapFaceMaterialsToSubmeshIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>()});
   }
 };
-// Writing MetadataGetter for method: Submesh::ToString
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Submesh::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Submesh::*)()>(&Submesh::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ProBuilder::Submesh::*)()>(&UnityEngine::ProBuilder::Submesh::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Submesh*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Submesh*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

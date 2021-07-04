@@ -57,25 +57,25 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformNetworkPlayerModel*, "", "PlatformNetworkPlayerModel");
-// Writing MetadataGetter for method: PlatformNetworkPlayerModel::get_friends
+// Writing MetadataGetter for method: GlobalNamespace::PlatformNetworkPlayerModel::get_friends
 // Il2CppName: get_friends
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* (PlatformNetworkPlayerModel::*)()>(&PlatformNetworkPlayerModel::get_friends)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* (GlobalNamespace::PlatformNetworkPlayerModel::*)()>(&GlobalNamespace::PlatformNetworkPlayerModel::get_friends)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformNetworkPlayerModel*), "get_friends", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformNetworkPlayerModel*), "get_friends", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlatformNetworkPlayerModel::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::PlatformNetworkPlayerModel::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformNetworkPlayerModel::*)()>(&PlatformNetworkPlayerModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformNetworkPlayerModel::*)()>(&GlobalNamespace::PlatformNetworkPlayerModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformNetworkPlayerModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformNetworkPlayerModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlatformNetworkPlayerModel::*)()>(&PlatformNetworkPlayerModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformNetworkPlayerModel::*)()>(&GlobalNamespace::PlatformNetworkPlayerModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformNetworkPlayerModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformNetworkPlayerModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

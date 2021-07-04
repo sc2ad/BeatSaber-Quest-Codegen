@@ -88,65 +88,65 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionStagesManager) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionStagesManager*, "", "MissionStagesManager");
-// Writing MetadataGetter for method: MissionStagesManager::get_firstLockedMissionStage
+// Writing MetadataGetter for method: GlobalNamespace::MissionStagesManager::get_firstLockedMissionStage
 // Il2CppName: get_firstLockedMissionStage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionStage* (MissionStagesManager::*)()>(&MissionStagesManager::get_firstLockedMissionStage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionStage* (GlobalNamespace::MissionStagesManager::*)()>(&GlobalNamespace::MissionStagesManager::get_firstLockedMissionStage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionStagesManager*), "get_firstLockedMissionStage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionStagesManager*), "get_firstLockedMissionStage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionStagesManager::UpdateFirtsLockedMissionStage
+// Writing MetadataGetter for method: GlobalNamespace::MissionStagesManager::UpdateFirtsLockedMissionStage
 // Il2CppName: UpdateFirtsLockedMissionStage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionStagesManager::*)(int)>(&MissionStagesManager::UpdateFirtsLockedMissionStage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionStagesManager::*)(int)>(&GlobalNamespace::MissionStagesManager::UpdateFirtsLockedMissionStage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionStagesManager*), "UpdateFirtsLockedMissionStage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionStagesManager*), "UpdateFirtsLockedMissionStage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: MissionStagesManager::InitStages
+// Writing MetadataGetter for method: GlobalNamespace::MissionStagesManager::InitStages
 // Il2CppName: InitStages
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionStagesManager::*)()>(&MissionStagesManager::InitStages)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionStagesManager::*)()>(&GlobalNamespace::MissionStagesManager::InitStages)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionStagesManager*), "InitStages", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionStagesManager*), "InitStages", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionStagesManager::UpdateStageLockPosition
+// Writing MetadataGetter for method: GlobalNamespace::MissionStagesManager::UpdateStageLockPosition
 // Il2CppName: UpdateStageLockPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionStagesManager::*)()>(&MissionStagesManager::UpdateStageLockPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionStagesManager::*)()>(&GlobalNamespace::MissionStagesManager::UpdateStageLockPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionStagesManager*), "UpdateStageLockPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionStagesManager*), "UpdateStageLockPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissionStagesManager::UpdateStageLockPositionAnimated
+// Writing MetadataGetter for method: GlobalNamespace::MissionStagesManager::UpdateStageLockPositionAnimated
 // Il2CppName: UpdateStageLockPositionAnimated
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionStagesManager::*)(bool, float)>(&MissionStagesManager::UpdateStageLockPositionAnimated)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionStagesManager::*)(bool, float)>(&GlobalNamespace::MissionStagesManager::UpdateStageLockPositionAnimated)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionStagesManager*), "UpdateStageLockPositionAnimated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionStagesManager*), "UpdateStageLockPositionAnimated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: MissionStagesManager::UpdateStageLockText
+// Writing MetadataGetter for method: GlobalNamespace::MissionStagesManager::UpdateStageLockText
 // Il2CppName: UpdateStageLockText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionStagesManager::*)(int)>(&MissionStagesManager::UpdateStageLockText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionStagesManager::*)(int)>(&GlobalNamespace::MissionStagesManager::UpdateStageLockText)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionStagesManager*), "UpdateStageLockText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionStagesManager*), "UpdateStageLockText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: MissionStagesManager::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MissionStagesManager::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionStagesManager::*)()>(&MissionStagesManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionStagesManager::*)()>(&GlobalNamespace::MissionStagesManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionStagesManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionStagesManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissionStagesManager::*)()>(&MissionStagesManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionStagesManager::*)()>(&GlobalNamespace::MissionStagesManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissionStagesManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionStagesManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

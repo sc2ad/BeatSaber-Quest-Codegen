@@ -254,73 +254,73 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteCutSoundEffectManager) == 0xA8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutSoundEffectManager*, "", "NoteCutSoundEffectManager");
-// Writing MetadataGetter for method: NoteCutSoundEffectManager::get_handleWrongSaberTypeAsGood
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutSoundEffectManager::get_handleWrongSaberTypeAsGood
 // Il2CppName: get_handleWrongSaberTypeAsGood
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NoteCutSoundEffectManager::*)()>(&NoteCutSoundEffectManager::get_handleWrongSaberTypeAsGood)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::NoteCutSoundEffectManager::*)()>(&GlobalNamespace::NoteCutSoundEffectManager::get_handleWrongSaberTypeAsGood)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteCutSoundEffectManager*), "get_handleWrongSaberTypeAsGood", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutSoundEffectManager*), "get_handleWrongSaberTypeAsGood", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NoteCutSoundEffectManager::set_handleWrongSaberTypeAsGood
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutSoundEffectManager::set_handleWrongSaberTypeAsGood
 // Il2CppName: set_handleWrongSaberTypeAsGood
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteCutSoundEffectManager::*)(bool)>(&NoteCutSoundEffectManager::set_handleWrongSaberTypeAsGood)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteCutSoundEffectManager::*)(bool)>(&GlobalNamespace::NoteCutSoundEffectManager::set_handleWrongSaberTypeAsGood)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteCutSoundEffectManager*), "set_handleWrongSaberTypeAsGood", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutSoundEffectManager*), "set_handleWrongSaberTypeAsGood", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: NoteCutSoundEffectManager::Start
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutSoundEffectManager::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteCutSoundEffectManager::*)()>(&NoteCutSoundEffectManager::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteCutSoundEffectManager::*)()>(&GlobalNamespace::NoteCutSoundEffectManager::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteCutSoundEffectManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutSoundEffectManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NoteCutSoundEffectManager::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutSoundEffectManager::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteCutSoundEffectManager::*)()>(&NoteCutSoundEffectManager::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteCutSoundEffectManager::*)()>(&GlobalNamespace::NoteCutSoundEffectManager::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteCutSoundEffectManager*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutSoundEffectManager*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NoteCutSoundEffectManager::HandleNoteWasSpawned
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutSoundEffectManager::HandleNoteWasSpawned
 // Il2CppName: HandleNoteWasSpawned
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteCutSoundEffectManager::*)(GlobalNamespace::NoteController*)>(&NoteCutSoundEffectManager::HandleNoteWasSpawned)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteCutSoundEffectManager::*)(GlobalNamespace::NoteController*)>(&GlobalNamespace::NoteCutSoundEffectManager::HandleNoteWasSpawned)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteCutSoundEffectManager*), "HandleNoteWasSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutSoundEffectManager*), "HandleNoteWasSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>()});
   }
 };
-// Writing MetadataGetter for method: NoteCutSoundEffectManager::HandleNoteWasCut
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutSoundEffectManager::HandleNoteWasCut
 // Il2CppName: HandleNoteWasCut
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteCutSoundEffectManager::*)(GlobalNamespace::NoteController*, GlobalNamespace::NoteCutInfo&)>(&NoteCutSoundEffectManager::HandleNoteWasCut)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteCutSoundEffectManager::*)(GlobalNamespace::NoteController*, GlobalNamespace::NoteCutInfo&)>(&GlobalNamespace::NoteCutSoundEffectManager::HandleNoteWasCut)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteCutSoundEffectManager*), "HandleNoteWasCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutSoundEffectManager*), "HandleNoteWasCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>()});
   }
 };
-// Writing MetadataGetter for method: NoteCutSoundEffectManager::HandleNoteCutSoundEffectDidFinish
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutSoundEffectManager::HandleNoteCutSoundEffectDidFinish
 // Il2CppName: HandleNoteCutSoundEffectDidFinish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteCutSoundEffectManager::*)(GlobalNamespace::NoteCutSoundEffect*)>(&NoteCutSoundEffectManager::HandleNoteCutSoundEffectDidFinish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteCutSoundEffectManager::*)(GlobalNamespace::NoteCutSoundEffect*)>(&GlobalNamespace::NoteCutSoundEffectManager::HandleNoteCutSoundEffectDidFinish)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteCutSoundEffectManager*), "HandleNoteCutSoundEffectDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutSoundEffect*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutSoundEffectManager*), "HandleNoteCutSoundEffectDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutSoundEffect*>()});
   }
 };
-// Writing MetadataGetter for method: NoteCutSoundEffectManager::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutSoundEffectManager::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteCutSoundEffectManager::*)()>(&NoteCutSoundEffectManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteCutSoundEffectManager::*)()>(&GlobalNamespace::NoteCutSoundEffectManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteCutSoundEffectManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutSoundEffectManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteCutSoundEffectManager::*)()>(&NoteCutSoundEffectManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteCutSoundEffectManager::*)()>(&GlobalNamespace::NoteCutSoundEffectManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteCutSoundEffectManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutSoundEffectManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

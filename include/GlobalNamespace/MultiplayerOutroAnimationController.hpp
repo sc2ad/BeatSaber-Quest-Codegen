@@ -240,89 +240,89 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerOutroAnimationController) == 0xB8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerOutroAnimationController*, "", "MultiplayerOutroAnimationController");
-// Writing MetadataGetter for method: MultiplayerOutroAnimationController::Start
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerOutroAnimationController::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOutroAnimationController::*)()>(&MultiplayerOutroAnimationController::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerOutroAnimationController::*)()>(&GlobalNamespace::MultiplayerOutroAnimationController::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerOutroAnimationController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerOutroAnimationController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerOutroAnimationController::OnValidate
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerOutroAnimationController::OnValidate
 // Il2CppName: OnValidate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOutroAnimationController::*)()>(&MultiplayerOutroAnimationController::OnValidate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerOutroAnimationController::*)()>(&GlobalNamespace::MultiplayerOutroAnimationController::OnValidate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerOutroAnimationController*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerOutroAnimationController*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerOutroAnimationController::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerOutroAnimationController::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOutroAnimationController::*)()>(&MultiplayerOutroAnimationController::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerOutroAnimationController::*)()>(&GlobalNamespace::MultiplayerOutroAnimationController::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerOutroAnimationController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerOutroAnimationController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerOutroAnimationController::AnimateOutro
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerOutroAnimationController::AnimateOutro
 // Il2CppName: AnimateOutro
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOutroAnimationController::*)(GlobalNamespace::MultiplayerResultsData*, System::Action*)>(&MultiplayerOutroAnimationController::AnimateOutro)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerOutroAnimationController::*)(GlobalNamespace::MultiplayerResultsData*, System::Action*)>(&GlobalNamespace::MultiplayerOutroAnimationController::AnimateOutro)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerOutroAnimationController*), "AnimateOutro", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerResultsData*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerOutroAnimationController*), "AnimateOutro", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerResultsData*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerOutroAnimationController::BindOutroTimeline
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerOutroAnimationController::BindOutroTimeline
 // Il2CppName: BindOutroTimeline
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOutroAnimationController::*)()>(&MultiplayerOutroAnimationController::BindOutroTimeline)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerOutroAnimationController::*)()>(&GlobalNamespace::MultiplayerOutroAnimationController::BindOutroTimeline)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerOutroAnimationController*), "BindOutroTimeline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerOutroAnimationController*), "BindOutroTimeline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerOutroAnimationController::BindRingsAndAudio
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerOutroAnimationController::BindRingsAndAudio
 // Il2CppName: BindRingsAndAudio
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOutroAnimationController::*)(::Array<UnityEngine::GameObject*>*, bool, bool, GlobalNamespace::MultiplayerTimelineMock*)>(&MultiplayerOutroAnimationController::BindRingsAndAudio)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerOutroAnimationController::*)(::Array<UnityEngine::GameObject*>*, bool, bool, GlobalNamespace::MultiplayerTimelineMock*)>(&GlobalNamespace::MultiplayerOutroAnimationController::BindRingsAndAudio)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerOutroAnimationController*), "BindRingsAndAudio", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GameObject*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerTimelineMock*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerOutroAnimationController*), "BindRingsAndAudio", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::GameObject*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerTimelineMock*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerOutroAnimationController::SetTimelineMock
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerOutroAnimationController::SetTimelineMock
 // Il2CppName: SetTimelineMock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOutroAnimationController::*)(GlobalNamespace::MultiplayerTimelineMock*, bool)>(&MultiplayerOutroAnimationController::SetTimelineMock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerOutroAnimationController::*)(GlobalNamespace::MultiplayerTimelineMock*, bool)>(&GlobalNamespace::MultiplayerOutroAnimationController::SetTimelineMock)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerOutroAnimationController*), "SetTimelineMock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerTimelineMock*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerOutroAnimationController*), "SetTimelineMock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerTimelineMock*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerOutroAnimationController::Completed
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerOutroAnimationController::Completed
 // Il2CppName: Completed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOutroAnimationController::*)()>(&MultiplayerOutroAnimationController::Completed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerOutroAnimationController::*)()>(&GlobalNamespace::MultiplayerOutroAnimationController::Completed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerOutroAnimationController*), "Completed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerOutroAnimationController*), "Completed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerOutroAnimationController::HandlePlayerSpawningDidFinish
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerOutroAnimationController::HandlePlayerSpawningDidFinish
 // Il2CppName: HandlePlayerSpawningDidFinish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOutroAnimationController::*)()>(&MultiplayerOutroAnimationController::HandlePlayerSpawningDidFinish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerOutroAnimationController::*)()>(&GlobalNamespace::MultiplayerOutroAnimationController::HandlePlayerSpawningDidFinish)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerOutroAnimationController*), "HandlePlayerSpawningDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerOutroAnimationController*), "HandlePlayerSpawningDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerOutroAnimationController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerOutroAnimationController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOutroAnimationController::*)()>(&MultiplayerOutroAnimationController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerOutroAnimationController::*)()>(&GlobalNamespace::MultiplayerOutroAnimationController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerOutroAnimationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerOutroAnimationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerOutroAnimationController::*)()>(&MultiplayerOutroAnimationController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerOutroAnimationController::*)()>(&GlobalNamespace::MultiplayerOutroAnimationController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerOutroAnimationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerOutroAnimationController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

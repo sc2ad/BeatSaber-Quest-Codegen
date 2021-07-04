@@ -52,25 +52,25 @@ namespace RootMotion {
   static_assert(sizeof(BipedReferences::AutoDetectParams) == 0x2);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedReferences::AutoDetectParams, "RootMotion", "BipedReferences/AutoDetectParams");
-// Writing MetadataGetter for method: BipedReferences::AutoDetectParams::AutoDetectParams
+// Writing MetadataGetter for method: RootMotion::BipedReferences::AutoDetectParams::AutoDetectParams
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedReferences::AutoDetectParams::*)(bool, bool)>(&BipedReferences::AutoDetectParams::AutoDetectParams<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BipedReferences::AutoDetectParams::*)(bool, bool)>(&RootMotion::BipedReferences::AutoDetectParams::AutoDetectParams<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BipedReferences::AutoDetectParams), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedReferences::AutoDetectParams), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BipedReferences::AutoDetectParams::*)(bool, bool)>(&BipedReferences::AutoDetectParams::AutoDetectParams<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BipedReferences::AutoDetectParams::*)(bool, bool)>(&RootMotion::BipedReferences::AutoDetectParams::AutoDetectParams<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BipedReferences::AutoDetectParams), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedReferences::AutoDetectParams), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: BipedReferences::AutoDetectParams::get_Default
+// Writing MetadataGetter for method: RootMotion::BipedReferences::AutoDetectParams::get_Default
 // Il2CppName: get_Default
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::BipedReferences::AutoDetectParams (*)()>(&BipedReferences::AutoDetectParams::get_Default)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::BipedReferences::AutoDetectParams (*)()>(&RootMotion::BipedReferences::AutoDetectParams::get_Default)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BipedReferences::AutoDetectParams), "get_Default", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedReferences::AutoDetectParams), "get_Default", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

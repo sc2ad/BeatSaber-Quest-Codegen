@@ -107,57 +107,57 @@ namespace GlobalNamespace {
   static_assert(sizeof(EditableModifiersSelectionView) == 0x51);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditableModifiersSelectionView*, "", "EditableModifiersSelectionView");
-// Writing MetadataGetter for method: EditableModifiersSelectionView::get_editButton
+// Writing MetadataGetter for method: GlobalNamespace::EditableModifiersSelectionView::get_editButton
 // Il2CppName: get_editButton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Button* (EditableModifiersSelectionView::*)()>(&EditableModifiersSelectionView::get_editButton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Button* (GlobalNamespace::EditableModifiersSelectionView::*)()>(&GlobalNamespace::EditableModifiersSelectionView::get_editButton)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditableModifiersSelectionView*), "get_editButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditableModifiersSelectionView*), "get_editButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EditableModifiersSelectionView::get_clearButton
+// Writing MetadataGetter for method: GlobalNamespace::EditableModifiersSelectionView::get_clearButton
 // Il2CppName: get_clearButton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Button* (EditableModifiersSelectionView::*)()>(&EditableModifiersSelectionView::get_clearButton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Button* (GlobalNamespace::EditableModifiersSelectionView::*)()>(&GlobalNamespace::EditableModifiersSelectionView::get_clearButton)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditableModifiersSelectionView*), "get_clearButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditableModifiersSelectionView*), "get_clearButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EditableModifiersSelectionView::get_interactable
+// Writing MetadataGetter for method: GlobalNamespace::EditableModifiersSelectionView::get_interactable
 // Il2CppName: get_interactable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (EditableModifiersSelectionView::*)()>(&EditableModifiersSelectionView::get_interactable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::EditableModifiersSelectionView::*)()>(&GlobalNamespace::EditableModifiersSelectionView::get_interactable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditableModifiersSelectionView*), "get_interactable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditableModifiersSelectionView*), "get_interactable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EditableModifiersSelectionView::set_interactable
+// Writing MetadataGetter for method: GlobalNamespace::EditableModifiersSelectionView::set_interactable
 // Il2CppName: set_interactable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditableModifiersSelectionView::*)(bool)>(&EditableModifiersSelectionView::set_interactable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditableModifiersSelectionView::*)(bool)>(&GlobalNamespace::EditableModifiersSelectionView::set_interactable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditableModifiersSelectionView*), "set_interactable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditableModifiersSelectionView*), "set_interactable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: EditableModifiersSelectionView::SetGameplayModifiers
+// Writing MetadataGetter for method: GlobalNamespace::EditableModifiersSelectionView::SetGameplayModifiers
 // Il2CppName: SetGameplayModifiers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditableModifiersSelectionView::*)(GlobalNamespace::GameplayModifiers*)>(&EditableModifiersSelectionView::SetGameplayModifiers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditableModifiersSelectionView::*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::EditableModifiersSelectionView::SetGameplayModifiers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditableModifiersSelectionView*), "SetGameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditableModifiersSelectionView*), "SetGameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>()});
   }
 };
-// Writing MetadataGetter for method: EditableModifiersSelectionView::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::EditableModifiersSelectionView::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditableModifiersSelectionView::*)()>(&EditableModifiersSelectionView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditableModifiersSelectionView::*)()>(&GlobalNamespace::EditableModifiersSelectionView::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditableModifiersSelectionView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditableModifiersSelectionView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditableModifiersSelectionView::*)()>(&EditableModifiersSelectionView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditableModifiersSelectionView::*)()>(&GlobalNamespace::EditableModifiersSelectionView::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditableModifiersSelectionView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditableModifiersSelectionView*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

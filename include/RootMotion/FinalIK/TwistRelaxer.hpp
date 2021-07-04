@@ -136,57 +136,57 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(TwistRelaxer) == 0x6C);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::TwistRelaxer*, "RootMotion.FinalIK", "TwistRelaxer");
-// Writing MetadataGetter for method: TwistRelaxer::Relax
+// Writing MetadataGetter for method: RootMotion::FinalIK::TwistRelaxer::Relax
 // Il2CppName: Relax
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TwistRelaxer::*)()>(&TwistRelaxer::Relax)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::TwistRelaxer::*)()>(&RootMotion::FinalIK::TwistRelaxer::Relax)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwistRelaxer*), "Relax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::TwistRelaxer*), "Relax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TwistRelaxer::Start
+// Writing MetadataGetter for method: RootMotion::FinalIK::TwistRelaxer::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TwistRelaxer::*)()>(&TwistRelaxer::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::TwistRelaxer::*)()>(&RootMotion::FinalIK::TwistRelaxer::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwistRelaxer*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::TwistRelaxer*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TwistRelaxer::OnPostUpdate
+// Writing MetadataGetter for method: RootMotion::FinalIK::TwistRelaxer::OnPostUpdate
 // Il2CppName: OnPostUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TwistRelaxer::*)()>(&TwistRelaxer::OnPostUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::TwistRelaxer::*)()>(&RootMotion::FinalIK::TwistRelaxer::OnPostUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwistRelaxer*), "OnPostUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::TwistRelaxer*), "OnPostUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TwistRelaxer::LateUpdate
+// Writing MetadataGetter for method: RootMotion::FinalIK::TwistRelaxer::LateUpdate
 // Il2CppName: LateUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TwistRelaxer::*)()>(&TwistRelaxer::LateUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::TwistRelaxer::*)()>(&RootMotion::FinalIK::TwistRelaxer::LateUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwistRelaxer*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::TwistRelaxer*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TwistRelaxer::OnDestroy
+// Writing MetadataGetter for method: RootMotion::FinalIK::TwistRelaxer::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TwistRelaxer::*)()>(&TwistRelaxer::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::TwistRelaxer::*)()>(&RootMotion::FinalIK::TwistRelaxer::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwistRelaxer*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::TwistRelaxer*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TwistRelaxer::New_ctor
+// Writing MetadataGetter for method: RootMotion::FinalIK::TwistRelaxer::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TwistRelaxer::*)()>(&TwistRelaxer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::TwistRelaxer::*)()>(&RootMotion::FinalIK::TwistRelaxer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwistRelaxer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::TwistRelaxer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TwistRelaxer::*)()>(&TwistRelaxer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::TwistRelaxer::*)()>(&RootMotion::FinalIK::TwistRelaxer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TwistRelaxer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::TwistRelaxer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

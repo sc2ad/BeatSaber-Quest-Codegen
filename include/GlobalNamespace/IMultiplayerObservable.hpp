@@ -24,19 +24,19 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMultiplayerObservable*, "", "IMultiplayerObservable");
-// Writing MetadataGetter for method: IMultiplayerObservable::get_offsetSyncTime
+// Writing MetadataGetter for method: GlobalNamespace::IMultiplayerObservable::get_offsetSyncTime
 // Il2CppName: get_offsetSyncTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (IMultiplayerObservable::*)()>(&IMultiplayerObservable::get_offsetSyncTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::IMultiplayerObservable::*)()>(&GlobalNamespace::IMultiplayerObservable::get_offsetSyncTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IMultiplayerObservable*), "get_offsetSyncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMultiplayerObservable*), "get_offsetSyncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IMultiplayerObservable::get_isFailed
+// Writing MetadataGetter for method: GlobalNamespace::IMultiplayerObservable::get_isFailed
 // Il2CppName: get_isFailed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IMultiplayerObservable::*)()>(&IMultiplayerObservable::get_isFailed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::IMultiplayerObservable::*)()>(&GlobalNamespace::IMultiplayerObservable::get_isFailed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IMultiplayerObservable*), "get_isFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMultiplayerObservable*), "get_isFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

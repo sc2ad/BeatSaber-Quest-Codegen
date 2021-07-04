@@ -100,65 +100,65 @@ namespace GlobalNamespace {
   static_assert(sizeof(SpriteSwapTransitionSO) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpriteSwapTransitionSO*, "", "SpriteSwapTransitionSO");
-// Writing MetadataGetter for method: SpriteSwapTransitionSO::get_normalSprite
+// Writing MetadataGetter for method: GlobalNamespace::SpriteSwapTransitionSO::get_normalSprite
 // Il2CppName: get_normalSprite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (SpriteSwapTransitionSO::*)()>(&SpriteSwapTransitionSO::get_normalSprite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (GlobalNamespace::SpriteSwapTransitionSO::*)()>(&GlobalNamespace::SpriteSwapTransitionSO::get_normalSprite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SpriteSwapTransitionSO*), "get_normalSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpriteSwapTransitionSO*), "get_normalSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SpriteSwapTransitionSO::get_highlightedSprite
+// Writing MetadataGetter for method: GlobalNamespace::SpriteSwapTransitionSO::get_highlightedSprite
 // Il2CppName: get_highlightedSprite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (SpriteSwapTransitionSO::*)()>(&SpriteSwapTransitionSO::get_highlightedSprite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (GlobalNamespace::SpriteSwapTransitionSO::*)()>(&GlobalNamespace::SpriteSwapTransitionSO::get_highlightedSprite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SpriteSwapTransitionSO*), "get_highlightedSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpriteSwapTransitionSO*), "get_highlightedSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SpriteSwapTransitionSO::get_pressedSprite
+// Writing MetadataGetter for method: GlobalNamespace::SpriteSwapTransitionSO::get_pressedSprite
 // Il2CppName: get_pressedSprite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (SpriteSwapTransitionSO::*)()>(&SpriteSwapTransitionSO::get_pressedSprite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (GlobalNamespace::SpriteSwapTransitionSO::*)()>(&GlobalNamespace::SpriteSwapTransitionSO::get_pressedSprite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SpriteSwapTransitionSO*), "get_pressedSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpriteSwapTransitionSO*), "get_pressedSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SpriteSwapTransitionSO::get_disabledSprite
+// Writing MetadataGetter for method: GlobalNamespace::SpriteSwapTransitionSO::get_disabledSprite
 // Il2CppName: get_disabledSprite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (SpriteSwapTransitionSO::*)()>(&SpriteSwapTransitionSO::get_disabledSprite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (GlobalNamespace::SpriteSwapTransitionSO::*)()>(&GlobalNamespace::SpriteSwapTransitionSO::get_disabledSprite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SpriteSwapTransitionSO*), "get_disabledSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpriteSwapTransitionSO*), "get_disabledSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SpriteSwapTransitionSO::get_selectedSprite
+// Writing MetadataGetter for method: GlobalNamespace::SpriteSwapTransitionSO::get_selectedSprite
 // Il2CppName: get_selectedSprite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (SpriteSwapTransitionSO::*)()>(&SpriteSwapTransitionSO::get_selectedSprite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (GlobalNamespace::SpriteSwapTransitionSO::*)()>(&GlobalNamespace::SpriteSwapTransitionSO::get_selectedSprite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SpriteSwapTransitionSO*), "get_selectedSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpriteSwapTransitionSO*), "get_selectedSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SpriteSwapTransitionSO::get_selectedAndHighlightedSprite
+// Writing MetadataGetter for method: GlobalNamespace::SpriteSwapTransitionSO::get_selectedAndHighlightedSprite
 // Il2CppName: get_selectedAndHighlightedSprite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (SpriteSwapTransitionSO::*)()>(&SpriteSwapTransitionSO::get_selectedAndHighlightedSprite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (GlobalNamespace::SpriteSwapTransitionSO::*)()>(&GlobalNamespace::SpriteSwapTransitionSO::get_selectedAndHighlightedSprite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SpriteSwapTransitionSO*), "get_selectedAndHighlightedSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpriteSwapTransitionSO*), "get_selectedAndHighlightedSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SpriteSwapTransitionSO::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::SpriteSwapTransitionSO::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpriteSwapTransitionSO::*)()>(&SpriteSwapTransitionSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SpriteSwapTransitionSO::*)()>(&GlobalNamespace::SpriteSwapTransitionSO::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SpriteSwapTransitionSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpriteSwapTransitionSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SpriteSwapTransitionSO::*)()>(&SpriteSwapTransitionSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SpriteSwapTransitionSO::*)()>(&GlobalNamespace::SpriteSwapTransitionSO::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SpriteSwapTransitionSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpriteSwapTransitionSO*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

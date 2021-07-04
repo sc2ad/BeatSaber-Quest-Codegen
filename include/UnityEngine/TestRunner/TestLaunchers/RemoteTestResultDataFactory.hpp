@@ -67,49 +67,49 @@ namespace UnityEngine::TestRunner::TestLaunchers {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory*, "UnityEngine.TestRunner.TestLaunchers", "RemoteTestResultDataFactory");
-// Writing MetadataGetter for method: RemoteTestResultDataFactory::CreateFromTestResult
+// Writing MetadataGetter for method: UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::CreateFromTestResult
 // Il2CppName: CreateFromTestResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* (RemoteTestResultDataFactory::*)(NUnit::Framework::Interfaces::ITestResult*)>(&RemoteTestResultDataFactory::CreateFromTestResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* (UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::*)(NUnit::Framework::Interfaces::ITestResult*)>(&UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::CreateFromTestResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemoteTestResultDataFactory*), "CreateFromTestResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory*), "CreateFromTestResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestResult*>()});
   }
 };
-// Writing MetadataGetter for method: RemoteTestResultDataFactory::CreateFromTest
+// Writing MetadataGetter for method: UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::CreateFromTest
 // Il2CppName: CreateFromTest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* (RemoteTestResultDataFactory::*)(NUnit::Framework::Interfaces::ITest*)>(&RemoteTestResultDataFactory::CreateFromTest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* (UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::*)(NUnit::Framework::Interfaces::ITest*)>(&UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::CreateFromTest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemoteTestResultDataFactory*), "CreateFromTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory*), "CreateFromTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
   }
 };
-// Writing MetadataGetter for method: RemoteTestResultDataFactory::CreateTestDataList
+// Writing MetadataGetter for method: UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::CreateTestDataList
 // Il2CppName: CreateTestDataList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>* (RemoteTestResultDataFactory::*)(NUnit::Framework::Interfaces::ITest*)>(&RemoteTestResultDataFactory::CreateTestDataList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>* (UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::*)(NUnit::Framework::Interfaces::ITest*)>(&UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::CreateTestDataList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemoteTestResultDataFactory*), "CreateTestDataList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory*), "CreateTestDataList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
   }
 };
-// Writing MetadataGetter for method: RemoteTestResultDataFactory::CreateTestResultDataList
+// Writing MetadataGetter for method: UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::CreateTestResultDataList
 // Il2CppName: CreateTestResultDataList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*>* (*)(NUnit::Framework::Interfaces::ITestResult*)>(&RemoteTestResultDataFactory::CreateTestResultDataList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*>* (*)(NUnit::Framework::Interfaces::ITestResult*)>(&UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::CreateTestResultDataList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemoteTestResultDataFactory*), "CreateTestResultDataList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory*), "CreateTestResultDataList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestResult*>()});
   }
 };
-// Writing MetadataGetter for method: RemoteTestResultDataFactory::New_ctor
+// Writing MetadataGetter for method: UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RemoteTestResultDataFactory::*)()>(&RemoteTestResultDataFactory::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::*)()>(&UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemoteTestResultDataFactory*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RemoteTestResultDataFactory::*)()>(&RemoteTestResultDataFactory::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::*)()>(&UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RemoteTestResultDataFactory*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -57,33 +57,33 @@ namespace MasterServer {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::HandshakeMultipartMessage*, "MasterServer", "HandshakeMultipartMessage");
-// Writing MetadataGetter for method: HandshakeMultipartMessage::get_pool
+// Writing MetadataGetter for method: MasterServer::HandshakeMultipartMessage::get_pool
 // Il2CppName: get_pool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::HandshakeMultipartMessage*>* (*)()>(&HandshakeMultipartMessage::get_pool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::HandshakeMultipartMessage*>* (*)()>(&MasterServer::HandshakeMultipartMessage::get_pool)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HandshakeMultipartMessage*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::HandshakeMultipartMessage*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HandshakeMultipartMessage::Release
+// Writing MetadataGetter for method: MasterServer::HandshakeMultipartMessage::Release
 // Il2CppName: Release
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HandshakeMultipartMessage::*)()>(&HandshakeMultipartMessage::Release)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::HandshakeMultipartMessage::*)()>(&MasterServer::HandshakeMultipartMessage::Release)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HandshakeMultipartMessage*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::HandshakeMultipartMessage*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HandshakeMultipartMessage::New_ctor
+// Writing MetadataGetter for method: MasterServer::HandshakeMultipartMessage::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HandshakeMultipartMessage::*)()>(&HandshakeMultipartMessage::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::HandshakeMultipartMessage::*)()>(&MasterServer::HandshakeMultipartMessage::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HandshakeMultipartMessage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::HandshakeMultipartMessage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HandshakeMultipartMessage::*)()>(&HandshakeMultipartMessage::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::HandshakeMultipartMessage::*)()>(&MasterServer::HandshakeMultipartMessage::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HandshakeMultipartMessage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::HandshakeMultipartMessage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

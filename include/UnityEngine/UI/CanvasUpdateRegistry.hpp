@@ -159,161 +159,161 @@ namespace UnityEngine::UI {
   static_assert(sizeof(CanvasUpdateRegistry) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasUpdateRegistry*, "UnityEngine.UI", "CanvasUpdateRegistry");
-// Writing MetadataGetter for method: CanvasUpdateRegistry::get_instance
+// Writing MetadataGetter for method: UnityEngine::UI::CanvasUpdateRegistry::get_instance
 // Il2CppName: get_instance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::CanvasUpdateRegistry* (*)()>(&CanvasUpdateRegistry::get_instance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::CanvasUpdateRegistry* (*)()>(&UnityEngine::UI::CanvasUpdateRegistry::get_instance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CanvasUpdateRegistry*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasUpdateRegistry*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CanvasUpdateRegistry::ObjectValidForUpdate
+// Writing MetadataGetter for method: UnityEngine::UI::CanvasUpdateRegistry::ObjectValidForUpdate
 // Il2CppName: ObjectValidForUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CanvasUpdateRegistry::*)(UnityEngine::UI::ICanvasElement*)>(&CanvasUpdateRegistry::ObjectValidForUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::CanvasUpdateRegistry::*)(UnityEngine::UI::ICanvasElement*)>(&UnityEngine::UI::CanvasUpdateRegistry::ObjectValidForUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CanvasUpdateRegistry*), "ObjectValidForUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ICanvasElement*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasUpdateRegistry*), "ObjectValidForUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ICanvasElement*>()});
   }
 };
-// Writing MetadataGetter for method: CanvasUpdateRegistry::CleanInvalidItems
+// Writing MetadataGetter for method: UnityEngine::UI::CanvasUpdateRegistry::CleanInvalidItems
 // Il2CppName: CleanInvalidItems
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasUpdateRegistry::*)()>(&CanvasUpdateRegistry::CleanInvalidItems)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CanvasUpdateRegistry::*)()>(&UnityEngine::UI::CanvasUpdateRegistry::CleanInvalidItems)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CanvasUpdateRegistry*), "CleanInvalidItems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasUpdateRegistry*), "CleanInvalidItems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CanvasUpdateRegistry::PerformUpdate
+// Writing MetadataGetter for method: UnityEngine::UI::CanvasUpdateRegistry::PerformUpdate
 // Il2CppName: PerformUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasUpdateRegistry::*)()>(&CanvasUpdateRegistry::PerformUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CanvasUpdateRegistry::*)()>(&UnityEngine::UI::CanvasUpdateRegistry::PerformUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CanvasUpdateRegistry*), "PerformUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasUpdateRegistry*), "PerformUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CanvasUpdateRegistry::ParentCount
+// Writing MetadataGetter for method: UnityEngine::UI::CanvasUpdateRegistry::ParentCount
 // Il2CppName: ParentCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Transform*)>(&CanvasUpdateRegistry::ParentCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Transform*)>(&UnityEngine::UI::CanvasUpdateRegistry::ParentCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CanvasUpdateRegistry*), "ParentCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasUpdateRegistry*), "ParentCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
   }
 };
-// Writing MetadataGetter for method: CanvasUpdateRegistry::SortLayoutList
+// Writing MetadataGetter for method: UnityEngine::UI::CanvasUpdateRegistry::SortLayoutList
 // Il2CppName: SortLayoutList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::UI::ICanvasElement*, UnityEngine::UI::ICanvasElement*)>(&CanvasUpdateRegistry::SortLayoutList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::UI::ICanvasElement*, UnityEngine::UI::ICanvasElement*)>(&UnityEngine::UI::CanvasUpdateRegistry::SortLayoutList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CanvasUpdateRegistry*), "SortLayoutList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ICanvasElement*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ICanvasElement*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasUpdateRegistry*), "SortLayoutList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ICanvasElement*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ICanvasElement*>()});
   }
 };
-// Writing MetadataGetter for method: CanvasUpdateRegistry::RegisterCanvasElementForLayoutRebuild
+// Writing MetadataGetter for method: UnityEngine::UI::CanvasUpdateRegistry::RegisterCanvasElementForLayoutRebuild
 // Il2CppName: RegisterCanvasElementForLayoutRebuild
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::ICanvasElement*)>(&CanvasUpdateRegistry::RegisterCanvasElementForLayoutRebuild)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::ICanvasElement*)>(&UnityEngine::UI::CanvasUpdateRegistry::RegisterCanvasElementForLayoutRebuild)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CanvasUpdateRegistry*), "RegisterCanvasElementForLayoutRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ICanvasElement*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasUpdateRegistry*), "RegisterCanvasElementForLayoutRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ICanvasElement*>()});
   }
 };
-// Writing MetadataGetter for method: CanvasUpdateRegistry::TryRegisterCanvasElementForLayoutRebuild
+// Writing MetadataGetter for method: UnityEngine::UI::CanvasUpdateRegistry::TryRegisterCanvasElementForLayoutRebuild
 // Il2CppName: TryRegisterCanvasElementForLayoutRebuild
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::UI::ICanvasElement*)>(&CanvasUpdateRegistry::TryRegisterCanvasElementForLayoutRebuild)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::UI::ICanvasElement*)>(&UnityEngine::UI::CanvasUpdateRegistry::TryRegisterCanvasElementForLayoutRebuild)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CanvasUpdateRegistry*), "TryRegisterCanvasElementForLayoutRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ICanvasElement*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasUpdateRegistry*), "TryRegisterCanvasElementForLayoutRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ICanvasElement*>()});
   }
 };
-// Writing MetadataGetter for method: CanvasUpdateRegistry::InternalRegisterCanvasElementForLayoutRebuild
+// Writing MetadataGetter for method: UnityEngine::UI::CanvasUpdateRegistry::InternalRegisterCanvasElementForLayoutRebuild
 // Il2CppName: InternalRegisterCanvasElementForLayoutRebuild
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CanvasUpdateRegistry::*)(UnityEngine::UI::ICanvasElement*)>(&CanvasUpdateRegistry::InternalRegisterCanvasElementForLayoutRebuild)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::CanvasUpdateRegistry::*)(UnityEngine::UI::ICanvasElement*)>(&UnityEngine::UI::CanvasUpdateRegistry::InternalRegisterCanvasElementForLayoutRebuild)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CanvasUpdateRegistry*), "InternalRegisterCanvasElementForLayoutRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ICanvasElement*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasUpdateRegistry*), "InternalRegisterCanvasElementForLayoutRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ICanvasElement*>()});
   }
 };
-// Writing MetadataGetter for method: CanvasUpdateRegistry::RegisterCanvasElementForGraphicRebuild
+// Writing MetadataGetter for method: UnityEngine::UI::CanvasUpdateRegistry::RegisterCanvasElementForGraphicRebuild
 // Il2CppName: RegisterCanvasElementForGraphicRebuild
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::ICanvasElement*)>(&CanvasUpdateRegistry::RegisterCanvasElementForGraphicRebuild)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::ICanvasElement*)>(&UnityEngine::UI::CanvasUpdateRegistry::RegisterCanvasElementForGraphicRebuild)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CanvasUpdateRegistry*), "RegisterCanvasElementForGraphicRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ICanvasElement*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasUpdateRegistry*), "RegisterCanvasElementForGraphicRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ICanvasElement*>()});
   }
 };
-// Writing MetadataGetter for method: CanvasUpdateRegistry::TryRegisterCanvasElementForGraphicRebuild
+// Writing MetadataGetter for method: UnityEngine::UI::CanvasUpdateRegistry::TryRegisterCanvasElementForGraphicRebuild
 // Il2CppName: TryRegisterCanvasElementForGraphicRebuild
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::UI::ICanvasElement*)>(&CanvasUpdateRegistry::TryRegisterCanvasElementForGraphicRebuild)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::UI::ICanvasElement*)>(&UnityEngine::UI::CanvasUpdateRegistry::TryRegisterCanvasElementForGraphicRebuild)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CanvasUpdateRegistry*), "TryRegisterCanvasElementForGraphicRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ICanvasElement*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasUpdateRegistry*), "TryRegisterCanvasElementForGraphicRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ICanvasElement*>()});
   }
 };
-// Writing MetadataGetter for method: CanvasUpdateRegistry::InternalRegisterCanvasElementForGraphicRebuild
+// Writing MetadataGetter for method: UnityEngine::UI::CanvasUpdateRegistry::InternalRegisterCanvasElementForGraphicRebuild
 // Il2CppName: InternalRegisterCanvasElementForGraphicRebuild
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CanvasUpdateRegistry::*)(UnityEngine::UI::ICanvasElement*)>(&CanvasUpdateRegistry::InternalRegisterCanvasElementForGraphicRebuild)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::CanvasUpdateRegistry::*)(UnityEngine::UI::ICanvasElement*)>(&UnityEngine::UI::CanvasUpdateRegistry::InternalRegisterCanvasElementForGraphicRebuild)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CanvasUpdateRegistry*), "InternalRegisterCanvasElementForGraphicRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ICanvasElement*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasUpdateRegistry*), "InternalRegisterCanvasElementForGraphicRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ICanvasElement*>()});
   }
 };
-// Writing MetadataGetter for method: CanvasUpdateRegistry::UnRegisterCanvasElementForRebuild
+// Writing MetadataGetter for method: UnityEngine::UI::CanvasUpdateRegistry::UnRegisterCanvasElementForRebuild
 // Il2CppName: UnRegisterCanvasElementForRebuild
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::ICanvasElement*)>(&CanvasUpdateRegistry::UnRegisterCanvasElementForRebuild)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::ICanvasElement*)>(&UnityEngine::UI::CanvasUpdateRegistry::UnRegisterCanvasElementForRebuild)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CanvasUpdateRegistry*), "UnRegisterCanvasElementForRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ICanvasElement*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasUpdateRegistry*), "UnRegisterCanvasElementForRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ICanvasElement*>()});
   }
 };
-// Writing MetadataGetter for method: CanvasUpdateRegistry::InternalUnRegisterCanvasElementForLayoutRebuild
+// Writing MetadataGetter for method: UnityEngine::UI::CanvasUpdateRegistry::InternalUnRegisterCanvasElementForLayoutRebuild
 // Il2CppName: InternalUnRegisterCanvasElementForLayoutRebuild
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasUpdateRegistry::*)(UnityEngine::UI::ICanvasElement*)>(&CanvasUpdateRegistry::InternalUnRegisterCanvasElementForLayoutRebuild)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CanvasUpdateRegistry::*)(UnityEngine::UI::ICanvasElement*)>(&UnityEngine::UI::CanvasUpdateRegistry::InternalUnRegisterCanvasElementForLayoutRebuild)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CanvasUpdateRegistry*), "InternalUnRegisterCanvasElementForLayoutRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ICanvasElement*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasUpdateRegistry*), "InternalUnRegisterCanvasElementForLayoutRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ICanvasElement*>()});
   }
 };
-// Writing MetadataGetter for method: CanvasUpdateRegistry::InternalUnRegisterCanvasElementForGraphicRebuild
+// Writing MetadataGetter for method: UnityEngine::UI::CanvasUpdateRegistry::InternalUnRegisterCanvasElementForGraphicRebuild
 // Il2CppName: InternalUnRegisterCanvasElementForGraphicRebuild
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasUpdateRegistry::*)(UnityEngine::UI::ICanvasElement*)>(&CanvasUpdateRegistry::InternalUnRegisterCanvasElementForGraphicRebuild)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CanvasUpdateRegistry::*)(UnityEngine::UI::ICanvasElement*)>(&UnityEngine::UI::CanvasUpdateRegistry::InternalUnRegisterCanvasElementForGraphicRebuild)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CanvasUpdateRegistry*), "InternalUnRegisterCanvasElementForGraphicRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ICanvasElement*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasUpdateRegistry*), "InternalUnRegisterCanvasElementForGraphicRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ICanvasElement*>()});
   }
 };
-// Writing MetadataGetter for method: CanvasUpdateRegistry::IsRebuildingLayout
+// Writing MetadataGetter for method: UnityEngine::UI::CanvasUpdateRegistry::IsRebuildingLayout
 // Il2CppName: IsRebuildingLayout
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&CanvasUpdateRegistry::IsRebuildingLayout)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::UI::CanvasUpdateRegistry::IsRebuildingLayout)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CanvasUpdateRegistry*), "IsRebuildingLayout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasUpdateRegistry*), "IsRebuildingLayout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CanvasUpdateRegistry::IsRebuildingGraphics
+// Writing MetadataGetter for method: UnityEngine::UI::CanvasUpdateRegistry::IsRebuildingGraphics
 // Il2CppName: IsRebuildingGraphics
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&CanvasUpdateRegistry::IsRebuildingGraphics)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::UI::CanvasUpdateRegistry::IsRebuildingGraphics)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CanvasUpdateRegistry*), "IsRebuildingGraphics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasUpdateRegistry*), "IsRebuildingGraphics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CanvasUpdateRegistry::_cctor
+// Writing MetadataGetter for method: UnityEngine::UI::CanvasUpdateRegistry::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&CanvasUpdateRegistry::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::UI::CanvasUpdateRegistry::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CanvasUpdateRegistry*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasUpdateRegistry*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CanvasUpdateRegistry::New_ctor
+// Writing MetadataGetter for method: UnityEngine::UI::CanvasUpdateRegistry::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasUpdateRegistry::*)()>(&CanvasUpdateRegistry::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CanvasUpdateRegistry::*)()>(&UnityEngine::UI::CanvasUpdateRegistry::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CanvasUpdateRegistry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasUpdateRegistry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CanvasUpdateRegistry::*)()>(&CanvasUpdateRegistry::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::CanvasUpdateRegistry::*)()>(&UnityEngine::UI::CanvasUpdateRegistry::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CanvasUpdateRegistry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::CanvasUpdateRegistry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

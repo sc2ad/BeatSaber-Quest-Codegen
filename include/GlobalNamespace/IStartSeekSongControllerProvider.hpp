@@ -28,11 +28,11 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IStartSeekSongControllerProvider*, "", "IStartSeekSongControllerProvider");
-// Writing MetadataGetter for method: IStartSeekSongControllerProvider::get_songController
+// Writing MetadataGetter for method: GlobalNamespace::IStartSeekSongControllerProvider::get_songController
 // Il2CppName: get_songController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IStartSeekSongController* (IStartSeekSongControllerProvider::*)()>(&IStartSeekSongControllerProvider::get_songController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IStartSeekSongController* (GlobalNamespace::IStartSeekSongControllerProvider::*)()>(&GlobalNamespace::IStartSeekSongControllerProvider::get_songController)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IStartSeekSongControllerProvider*), "get_songController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IStartSeekSongControllerProvider*), "get_songController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

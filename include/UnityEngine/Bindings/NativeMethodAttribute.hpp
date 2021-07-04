@@ -114,99 +114,99 @@ namespace UnityEngine::Bindings {
   static_assert(sizeof(NativeMethodAttribute) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeMethodAttribute*, "UnityEngine.Bindings", "NativeMethodAttribute");
-// Writing MetadataGetter for method: NativeMethodAttribute::set_Name
+// Writing MetadataGetter for method: UnityEngine::Bindings::NativeMethodAttribute::set_Name
 // Il2CppName: set_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeMethodAttribute::*)(::Il2CppString*)>(&NativeMethodAttribute::set_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeMethodAttribute::*)(::Il2CppString*)>(&UnityEngine::Bindings::NativeMethodAttribute::set_Name)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NativeMethodAttribute*), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeMethodAttribute*), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: NativeMethodAttribute::set_IsThreadSafe
+// Writing MetadataGetter for method: UnityEngine::Bindings::NativeMethodAttribute::set_IsThreadSafe
 // Il2CppName: set_IsThreadSafe
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeMethodAttribute::*)(bool)>(&NativeMethodAttribute::set_IsThreadSafe)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeMethodAttribute::*)(bool)>(&UnityEngine::Bindings::NativeMethodAttribute::set_IsThreadSafe)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NativeMethodAttribute*), "set_IsThreadSafe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeMethodAttribute*), "set_IsThreadSafe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: NativeMethodAttribute::set_IsFreeFunction
+// Writing MetadataGetter for method: UnityEngine::Bindings::NativeMethodAttribute::set_IsFreeFunction
 // Il2CppName: set_IsFreeFunction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeMethodAttribute::*)(bool)>(&NativeMethodAttribute::set_IsFreeFunction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeMethodAttribute::*)(bool)>(&UnityEngine::Bindings::NativeMethodAttribute::set_IsFreeFunction)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NativeMethodAttribute*), "set_IsFreeFunction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeMethodAttribute*), "set_IsFreeFunction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: NativeMethodAttribute::set_ThrowsException
+// Writing MetadataGetter for method: UnityEngine::Bindings::NativeMethodAttribute::set_ThrowsException
 // Il2CppName: set_ThrowsException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeMethodAttribute::*)(bool)>(&NativeMethodAttribute::set_ThrowsException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeMethodAttribute::*)(bool)>(&UnityEngine::Bindings::NativeMethodAttribute::set_ThrowsException)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NativeMethodAttribute*), "set_ThrowsException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeMethodAttribute*), "set_ThrowsException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: NativeMethodAttribute::set_HasExplicitThis
+// Writing MetadataGetter for method: UnityEngine::Bindings::NativeMethodAttribute::set_HasExplicitThis
 // Il2CppName: set_HasExplicitThis
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeMethodAttribute::*)(bool)>(&NativeMethodAttribute::set_HasExplicitThis)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeMethodAttribute::*)(bool)>(&UnityEngine::Bindings::NativeMethodAttribute::set_HasExplicitThis)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NativeMethodAttribute*), "set_HasExplicitThis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeMethodAttribute*), "set_HasExplicitThis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: NativeMethodAttribute::New_ctor
+// Writing MetadataGetter for method: UnityEngine::Bindings::NativeMethodAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeMethodAttribute::*)(::Il2CppString*)>(&NativeMethodAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeMethodAttribute::*)(::Il2CppString*)>(&UnityEngine::Bindings::NativeMethodAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NativeMethodAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeMethodAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeMethodAttribute::*)(::Il2CppString*)>(&NativeMethodAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeMethodAttribute::*)(::Il2CppString*)>(&UnityEngine::Bindings::NativeMethodAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NativeMethodAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeMethodAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: NativeMethodAttribute::New_ctor
+// Writing MetadataGetter for method: UnityEngine::Bindings::NativeMethodAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeMethodAttribute::*)(::Il2CppString*, bool)>(&NativeMethodAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeMethodAttribute::*)(::Il2CppString*, bool)>(&UnityEngine::Bindings::NativeMethodAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NativeMethodAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeMethodAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeMethodAttribute::*)(::Il2CppString*, bool)>(&NativeMethodAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeMethodAttribute::*)(::Il2CppString*, bool)>(&UnityEngine::Bindings::NativeMethodAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NativeMethodAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeMethodAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: NativeMethodAttribute::New_ctor
+// Writing MetadataGetter for method: UnityEngine::Bindings::NativeMethodAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeMethodAttribute::*)(::Il2CppString*, bool, bool)>(&NativeMethodAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeMethodAttribute::*)(::Il2CppString*, bool, bool)>(&UnityEngine::Bindings::NativeMethodAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NativeMethodAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeMethodAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeMethodAttribute::*)(::Il2CppString*, bool, bool)>(&NativeMethodAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeMethodAttribute::*)(::Il2CppString*, bool, bool)>(&UnityEngine::Bindings::NativeMethodAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NativeMethodAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeMethodAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: NativeMethodAttribute::New_ctor
+// Writing MetadataGetter for method: UnityEngine::Bindings::NativeMethodAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeMethodAttribute::*)()>(&NativeMethodAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeMethodAttribute::*)()>(&UnityEngine::Bindings::NativeMethodAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NativeMethodAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeMethodAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NativeMethodAttribute::*)()>(&NativeMethodAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeMethodAttribute::*)()>(&UnityEngine::Bindings::NativeMethodAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NativeMethodAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeMethodAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

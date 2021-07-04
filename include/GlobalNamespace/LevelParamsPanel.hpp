@@ -84,49 +84,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(LevelParamsPanel) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelParamsPanel*, "", "LevelParamsPanel");
-// Writing MetadataGetter for method: LevelParamsPanel::set_notesPerSecond
+// Writing MetadataGetter for method: GlobalNamespace::LevelParamsPanel::set_notesPerSecond
 // Il2CppName: set_notesPerSecond
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelParamsPanel::*)(float)>(&LevelParamsPanel::set_notesPerSecond)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelParamsPanel::*)(float)>(&GlobalNamespace::LevelParamsPanel::set_notesPerSecond)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelParamsPanel*), "set_notesPerSecond", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelParamsPanel*), "set_notesPerSecond", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: LevelParamsPanel::set_notesCount
+// Writing MetadataGetter for method: GlobalNamespace::LevelParamsPanel::set_notesCount
 // Il2CppName: set_notesCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelParamsPanel::*)(int)>(&LevelParamsPanel::set_notesCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelParamsPanel::*)(int)>(&GlobalNamespace::LevelParamsPanel::set_notesCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelParamsPanel*), "set_notesCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelParamsPanel*), "set_notesCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LevelParamsPanel::set_obstaclesCount
+// Writing MetadataGetter for method: GlobalNamespace::LevelParamsPanel::set_obstaclesCount
 // Il2CppName: set_obstaclesCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelParamsPanel::*)(int)>(&LevelParamsPanel::set_obstaclesCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelParamsPanel::*)(int)>(&GlobalNamespace::LevelParamsPanel::set_obstaclesCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelParamsPanel*), "set_obstaclesCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelParamsPanel*), "set_obstaclesCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LevelParamsPanel::set_bombsCount
+// Writing MetadataGetter for method: GlobalNamespace::LevelParamsPanel::set_bombsCount
 // Il2CppName: set_bombsCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelParamsPanel::*)(int)>(&LevelParamsPanel::set_bombsCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelParamsPanel::*)(int)>(&GlobalNamespace::LevelParamsPanel::set_bombsCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelParamsPanel*), "set_bombsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelParamsPanel*), "set_bombsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LevelParamsPanel::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::LevelParamsPanel::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelParamsPanel::*)()>(&LevelParamsPanel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelParamsPanel::*)()>(&GlobalNamespace::LevelParamsPanel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelParamsPanel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelParamsPanel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LevelParamsPanel::*)()>(&LevelParamsPanel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelParamsPanel::*)()>(&GlobalNamespace::LevelParamsPanel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LevelParamsPanel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelParamsPanel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

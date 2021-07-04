@@ -146,185 +146,185 @@ namespace TMPro {
   static_assert(sizeof(MaterialReferenceManager) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::MaterialReferenceManager*, "TMPro", "MaterialReferenceManager");
-// Writing MetadataGetter for method: MaterialReferenceManager::get_instance
+// Writing MetadataGetter for method: TMPro::MaterialReferenceManager::get_instance
 // Il2CppName: get_instance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::MaterialReferenceManager* (*)()>(&MaterialReferenceManager::get_instance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::MaterialReferenceManager* (*)()>(&TMPro::MaterialReferenceManager::get_instance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialReferenceManager*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MaterialReferenceManager::AddFontAsset
+// Writing MetadataGetter for method: TMPro::MaterialReferenceManager::AddFontAsset
 // Il2CppName: AddFontAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(TMPro::TMP_FontAsset*)>(&MaterialReferenceManager::AddFontAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(TMPro::TMP_FontAsset*)>(&TMPro::MaterialReferenceManager::AddFontAsset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialReferenceManager*), "AddFontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_FontAsset*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "AddFontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_FontAsset*>()});
   }
 };
-// Writing MetadataGetter for method: MaterialReferenceManager::AddFontAssetInternal
+// Writing MetadataGetter for method: TMPro::MaterialReferenceManager::AddFontAssetInternal
 // Il2CppName: AddFontAssetInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialReferenceManager::*)(TMPro::TMP_FontAsset*)>(&MaterialReferenceManager::AddFontAssetInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::MaterialReferenceManager::*)(TMPro::TMP_FontAsset*)>(&TMPro::MaterialReferenceManager::AddFontAssetInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialReferenceManager*), "AddFontAssetInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_FontAsset*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "AddFontAssetInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_FontAsset*>()});
   }
 };
-// Writing MetadataGetter for method: MaterialReferenceManager::AddSpriteAsset
+// Writing MetadataGetter for method: TMPro::MaterialReferenceManager::AddSpriteAsset
 // Il2CppName: AddSpriteAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(TMPro::TMP_SpriteAsset*)>(&MaterialReferenceManager::AddSpriteAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(TMPro::TMP_SpriteAsset*)>(&TMPro::MaterialReferenceManager::AddSpriteAsset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialReferenceManager*), "AddSpriteAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "AddSpriteAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>()});
   }
 };
-// Writing MetadataGetter for method: MaterialReferenceManager::AddSpriteAssetInternal
+// Writing MetadataGetter for method: TMPro::MaterialReferenceManager::AddSpriteAssetInternal
 // Il2CppName: AddSpriteAssetInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialReferenceManager::*)(TMPro::TMP_SpriteAsset*)>(&MaterialReferenceManager::AddSpriteAssetInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::MaterialReferenceManager::*)(TMPro::TMP_SpriteAsset*)>(&TMPro::MaterialReferenceManager::AddSpriteAssetInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialReferenceManager*), "AddSpriteAssetInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "AddSpriteAssetInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>()});
   }
 };
-// Writing MetadataGetter for method: MaterialReferenceManager::AddSpriteAsset
+// Writing MetadataGetter for method: TMPro::MaterialReferenceManager::AddSpriteAsset
 // Il2CppName: AddSpriteAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, TMPro::TMP_SpriteAsset*)>(&MaterialReferenceManager::AddSpriteAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, TMPro::TMP_SpriteAsset*)>(&TMPro::MaterialReferenceManager::AddSpriteAsset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialReferenceManager*), "AddSpriteAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "AddSpriteAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>()});
   }
 };
-// Writing MetadataGetter for method: MaterialReferenceManager::AddSpriteAssetInternal
+// Writing MetadataGetter for method: TMPro::MaterialReferenceManager::AddSpriteAssetInternal
 // Il2CppName: AddSpriteAssetInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialReferenceManager::*)(int, TMPro::TMP_SpriteAsset*)>(&MaterialReferenceManager::AddSpriteAssetInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::MaterialReferenceManager::*)(int, TMPro::TMP_SpriteAsset*)>(&TMPro::MaterialReferenceManager::AddSpriteAssetInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialReferenceManager*), "AddSpriteAssetInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "AddSpriteAssetInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>()});
   }
 };
-// Writing MetadataGetter for method: MaterialReferenceManager::AddFontMaterial
+// Writing MetadataGetter for method: TMPro::MaterialReferenceManager::AddFontMaterial
 // Il2CppName: AddFontMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Material*)>(&MaterialReferenceManager::AddFontMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Material*)>(&TMPro::MaterialReferenceManager::AddFontMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialReferenceManager*), "AddFontMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "AddFontMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
   }
 };
-// Writing MetadataGetter for method: MaterialReferenceManager::AddFontMaterialInternal
+// Writing MetadataGetter for method: TMPro::MaterialReferenceManager::AddFontMaterialInternal
 // Il2CppName: AddFontMaterialInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialReferenceManager::*)(int, UnityEngine::Material*)>(&MaterialReferenceManager::AddFontMaterialInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::MaterialReferenceManager::*)(int, UnityEngine::Material*)>(&TMPro::MaterialReferenceManager::AddFontMaterialInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialReferenceManager*), "AddFontMaterialInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "AddFontMaterialInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
   }
 };
-// Writing MetadataGetter for method: MaterialReferenceManager::AddColorGradientPreset
+// Writing MetadataGetter for method: TMPro::MaterialReferenceManager::AddColorGradientPreset
 // Il2CppName: AddColorGradientPreset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, TMPro::TMP_ColorGradient*)>(&MaterialReferenceManager::AddColorGradientPreset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, TMPro::TMP_ColorGradient*)>(&TMPro::MaterialReferenceManager::AddColorGradientPreset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialReferenceManager*), "AddColorGradientPreset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_ColorGradient*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "AddColorGradientPreset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_ColorGradient*>()});
   }
 };
-// Writing MetadataGetter for method: MaterialReferenceManager::AddColorGradientPreset_Internal
+// Writing MetadataGetter for method: TMPro::MaterialReferenceManager::AddColorGradientPreset_Internal
 // Il2CppName: AddColorGradientPreset_Internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialReferenceManager::*)(int, TMPro::TMP_ColorGradient*)>(&MaterialReferenceManager::AddColorGradientPreset_Internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::MaterialReferenceManager::*)(int, TMPro::TMP_ColorGradient*)>(&TMPro::MaterialReferenceManager::AddColorGradientPreset_Internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialReferenceManager*), "AddColorGradientPreset_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_ColorGradient*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "AddColorGradientPreset_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_ColorGradient*>()});
   }
 };
-// Writing MetadataGetter for method: MaterialReferenceManager::Contains
+// Writing MetadataGetter for method: TMPro::MaterialReferenceManager::Contains
 // Il2CppName: Contains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MaterialReferenceManager::*)(TMPro::TMP_FontAsset*)>(&MaterialReferenceManager::Contains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::MaterialReferenceManager::*)(TMPro::TMP_FontAsset*)>(&TMPro::MaterialReferenceManager::Contains)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialReferenceManager*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_FontAsset*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_FontAsset*>()});
   }
 };
-// Writing MetadataGetter for method: MaterialReferenceManager::Contains
+// Writing MetadataGetter for method: TMPro::MaterialReferenceManager::Contains
 // Il2CppName: Contains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MaterialReferenceManager::*)(TMPro::TMP_SpriteAsset*)>(&MaterialReferenceManager::Contains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::MaterialReferenceManager::*)(TMPro::TMP_SpriteAsset*)>(&TMPro::MaterialReferenceManager::Contains)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialReferenceManager*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>()});
   }
 };
-// Writing MetadataGetter for method: MaterialReferenceManager::TryGetFontAsset
+// Writing MetadataGetter for method: TMPro::MaterialReferenceManager::TryGetFontAsset
 // Il2CppName: TryGetFontAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, TMPro::TMP_FontAsset*&)>(&MaterialReferenceManager::TryGetFontAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, TMPro::TMP_FontAsset*&)>(&TMPro::MaterialReferenceManager::TryGetFontAsset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialReferenceManager*), "TryGetFontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_FontAsset*&>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "TryGetFontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_FontAsset*&>()});
   }
 };
-// Writing MetadataGetter for method: MaterialReferenceManager::TryGetFontAssetInternal
+// Writing MetadataGetter for method: TMPro::MaterialReferenceManager::TryGetFontAssetInternal
 // Il2CppName: TryGetFontAssetInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MaterialReferenceManager::*)(int, TMPro::TMP_FontAsset*&)>(&MaterialReferenceManager::TryGetFontAssetInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::MaterialReferenceManager::*)(int, TMPro::TMP_FontAsset*&)>(&TMPro::MaterialReferenceManager::TryGetFontAssetInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialReferenceManager*), "TryGetFontAssetInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_FontAsset*&>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "TryGetFontAssetInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_FontAsset*&>()});
   }
 };
-// Writing MetadataGetter for method: MaterialReferenceManager::TryGetSpriteAsset
+// Writing MetadataGetter for method: TMPro::MaterialReferenceManager::TryGetSpriteAsset
 // Il2CppName: TryGetSpriteAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, TMPro::TMP_SpriteAsset*&)>(&MaterialReferenceManager::TryGetSpriteAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, TMPro::TMP_SpriteAsset*&)>(&TMPro::MaterialReferenceManager::TryGetSpriteAsset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialReferenceManager*), "TryGetSpriteAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*&>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "TryGetSpriteAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*&>()});
   }
 };
-// Writing MetadataGetter for method: MaterialReferenceManager::TryGetSpriteAssetInternal
+// Writing MetadataGetter for method: TMPro::MaterialReferenceManager::TryGetSpriteAssetInternal
 // Il2CppName: TryGetSpriteAssetInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MaterialReferenceManager::*)(int, TMPro::TMP_SpriteAsset*&)>(&MaterialReferenceManager::TryGetSpriteAssetInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::MaterialReferenceManager::*)(int, TMPro::TMP_SpriteAsset*&)>(&TMPro::MaterialReferenceManager::TryGetSpriteAssetInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialReferenceManager*), "TryGetSpriteAssetInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*&>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "TryGetSpriteAssetInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*&>()});
   }
 };
-// Writing MetadataGetter for method: MaterialReferenceManager::TryGetColorGradientPreset
+// Writing MetadataGetter for method: TMPro::MaterialReferenceManager::TryGetColorGradientPreset
 // Il2CppName: TryGetColorGradientPreset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, TMPro::TMP_ColorGradient*&)>(&MaterialReferenceManager::TryGetColorGradientPreset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, TMPro::TMP_ColorGradient*&)>(&TMPro::MaterialReferenceManager::TryGetColorGradientPreset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialReferenceManager*), "TryGetColorGradientPreset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_ColorGradient*&>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "TryGetColorGradientPreset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_ColorGradient*&>()});
   }
 };
-// Writing MetadataGetter for method: MaterialReferenceManager::TryGetColorGradientPresetInternal
+// Writing MetadataGetter for method: TMPro::MaterialReferenceManager::TryGetColorGradientPresetInternal
 // Il2CppName: TryGetColorGradientPresetInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MaterialReferenceManager::*)(int, TMPro::TMP_ColorGradient*&)>(&MaterialReferenceManager::TryGetColorGradientPresetInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::MaterialReferenceManager::*)(int, TMPro::TMP_ColorGradient*&)>(&TMPro::MaterialReferenceManager::TryGetColorGradientPresetInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialReferenceManager*), "TryGetColorGradientPresetInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_ColorGradient*&>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "TryGetColorGradientPresetInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_ColorGradient*&>()});
   }
 };
-// Writing MetadataGetter for method: MaterialReferenceManager::TryGetMaterial
+// Writing MetadataGetter for method: TMPro::MaterialReferenceManager::TryGetMaterial
 // Il2CppName: TryGetMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, UnityEngine::Material*&)>(&MaterialReferenceManager::TryGetMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, UnityEngine::Material*&)>(&TMPro::MaterialReferenceManager::TryGetMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialReferenceManager*), "TryGetMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*&>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "TryGetMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*&>()});
   }
 };
-// Writing MetadataGetter for method: MaterialReferenceManager::TryGetMaterialInternal
+// Writing MetadataGetter for method: TMPro::MaterialReferenceManager::TryGetMaterialInternal
 // Il2CppName: TryGetMaterialInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MaterialReferenceManager::*)(int, UnityEngine::Material*&)>(&MaterialReferenceManager::TryGetMaterialInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::MaterialReferenceManager::*)(int, UnityEngine::Material*&)>(&TMPro::MaterialReferenceManager::TryGetMaterialInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialReferenceManager*), "TryGetMaterialInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*&>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), "TryGetMaterialInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*&>()});
   }
 };
-// Writing MetadataGetter for method: MaterialReferenceManager::New_ctor
+// Writing MetadataGetter for method: TMPro::MaterialReferenceManager::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialReferenceManager::*)()>(&MaterialReferenceManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::MaterialReferenceManager::*)()>(&TMPro::MaterialReferenceManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialReferenceManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MaterialReferenceManager::*)()>(&MaterialReferenceManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::MaterialReferenceManager::*)()>(&TMPro::MaterialReferenceManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MaterialReferenceManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReferenceManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

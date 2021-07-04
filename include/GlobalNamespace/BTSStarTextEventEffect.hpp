@@ -143,57 +143,57 @@ namespace GlobalNamespace {
   static_assert(sizeof(BTSStarTextEventEffect) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEventEffect*, "", "BTSStarTextEventEffect");
-// Writing MetadataGetter for method: BTSStarTextEventEffect::add_startStarTextAnimationEvent
+// Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEventEffect::add_startStarTextAnimationEvent
 // Il2CppName: add_startStarTextAnimationEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSStarTextEventEffect::*)(System::Action_3<UnityEngine::Sprite*, UnityEngine::Transform*, float>*)>(&BTSStarTextEventEffect::add_startStarTextAnimationEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSStarTextEventEffect::*)(System::Action_3<UnityEngine::Sprite*, UnityEngine::Transform*, float>*)>(&GlobalNamespace::BTSStarTextEventEffect::add_startStarTextAnimationEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BTSStarTextEventEffect*), "add_startStarTextAnimationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<UnityEngine::Sprite*, UnityEngine::Transform*, float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSStarTextEventEffect*), "add_startStarTextAnimationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<UnityEngine::Sprite*, UnityEngine::Transform*, float>*>()});
   }
 };
-// Writing MetadataGetter for method: BTSStarTextEventEffect::remove_startStarTextAnimationEvent
+// Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEventEffect::remove_startStarTextAnimationEvent
 // Il2CppName: remove_startStarTextAnimationEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSStarTextEventEffect::*)(System::Action_3<UnityEngine::Sprite*, UnityEngine::Transform*, float>*)>(&BTSStarTextEventEffect::remove_startStarTextAnimationEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSStarTextEventEffect::*)(System::Action_3<UnityEngine::Sprite*, UnityEngine::Transform*, float>*)>(&GlobalNamespace::BTSStarTextEventEffect::remove_startStarTextAnimationEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BTSStarTextEventEffect*), "remove_startStarTextAnimationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<UnityEngine::Sprite*, UnityEngine::Transform*, float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSStarTextEventEffect*), "remove_startStarTextAnimationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<UnityEngine::Sprite*, UnityEngine::Transform*, float>*>()});
   }
 };
-// Writing MetadataGetter for method: BTSStarTextEventEffect::Start
+// Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEventEffect::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSStarTextEventEffect::*)()>(&BTSStarTextEventEffect::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSStarTextEventEffect::*)()>(&GlobalNamespace::BTSStarTextEventEffect::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BTSStarTextEventEffect*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSStarTextEventEffect*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BTSStarTextEventEffect::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEventEffect::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSStarTextEventEffect::*)()>(&BTSStarTextEventEffect::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSStarTextEventEffect::*)()>(&GlobalNamespace::BTSStarTextEventEffect::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BTSStarTextEventEffect*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSStarTextEventEffect*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BTSStarTextEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
+// Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
 // Il2CppName: HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSStarTextEventEffect::*)(GlobalNamespace::BeatmapEventData*)>(&BTSStarTextEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSStarTextEventEffect::*)(GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::BTSStarTextEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BTSStarTextEventEffect*), "HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSStarTextEventEffect*), "HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
   }
 };
-// Writing MetadataGetter for method: BTSStarTextEventEffect::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEventEffect::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSStarTextEventEffect::*)()>(&BTSStarTextEventEffect::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSStarTextEventEffect::*)()>(&GlobalNamespace::BTSStarTextEventEffect::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BTSStarTextEventEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSStarTextEventEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSStarTextEventEffect::*)()>(&BTSStarTextEventEffect::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSStarTextEventEffect::*)()>(&GlobalNamespace::BTSStarTextEventEffect::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BTSStarTextEventEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSStarTextEventEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

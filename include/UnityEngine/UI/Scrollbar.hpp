@@ -388,361 +388,361 @@ namespace UnityEngine::UI {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Scrollbar*, "UnityEngine.UI", "Scrollbar");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Scrollbar::Direction, "UnityEngine.UI", "Scrollbar/Direction");
-// Writing MetadataGetter for method: Scrollbar::get_handleRect
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::get_handleRect
 // Il2CppName: get_handleRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (Scrollbar::*)()>(&Scrollbar::get_handleRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (UnityEngine::UI::Scrollbar::*)()>(&UnityEngine::UI::Scrollbar::get_handleRect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "get_handleRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "get_handleRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::set_handleRect
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::set_handleRect
 // Il2CppName: set_handleRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scrollbar::*)(UnityEngine::RectTransform*)>(&Scrollbar::set_handleRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Scrollbar::*)(UnityEngine::RectTransform*)>(&UnityEngine::UI::Scrollbar::set_handleRect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "set_handleRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "set_handleRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::get_direction
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::get_direction
 // Il2CppName: get_direction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Scrollbar::Direction (Scrollbar::*)()>(&Scrollbar::get_direction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Scrollbar::Direction (UnityEngine::UI::Scrollbar::*)()>(&UnityEngine::UI::Scrollbar::get_direction)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "get_direction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "get_direction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::set_direction
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::set_direction
 // Il2CppName: set_direction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scrollbar::*)(UnityEngine::UI::Scrollbar::Direction)>(&Scrollbar::set_direction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Scrollbar::*)(UnityEngine::UI::Scrollbar::Direction)>(&UnityEngine::UI::Scrollbar::set_direction)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "set_direction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Scrollbar::Direction>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "set_direction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Scrollbar::Direction>()});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::get_value
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::get_value
 // Il2CppName: get_value
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Scrollbar::*)()>(&Scrollbar::get_value)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::Scrollbar::*)()>(&UnityEngine::UI::Scrollbar::get_value)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "get_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "get_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::set_value
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::set_value
 // Il2CppName: set_value
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scrollbar::*)(float)>(&Scrollbar::set_value)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Scrollbar::*)(float)>(&UnityEngine::UI::Scrollbar::set_value)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "set_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "set_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::SetValueWithoutNotify
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::SetValueWithoutNotify
 // Il2CppName: SetValueWithoutNotify
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scrollbar::*)(float)>(&Scrollbar::SetValueWithoutNotify)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Scrollbar::*)(float)>(&UnityEngine::UI::Scrollbar::SetValueWithoutNotify)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "SetValueWithoutNotify", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "SetValueWithoutNotify", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::get_size
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::get_size
 // Il2CppName: get_size
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Scrollbar::*)()>(&Scrollbar::get_size)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::Scrollbar::*)()>(&UnityEngine::UI::Scrollbar::get_size)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "get_size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "get_size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::set_size
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::set_size
 // Il2CppName: set_size
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scrollbar::*)(float)>(&Scrollbar::set_size)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Scrollbar::*)(float)>(&UnityEngine::UI::Scrollbar::set_size)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "set_size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "set_size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::get_numberOfSteps
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::get_numberOfSteps
 // Il2CppName: get_numberOfSteps
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Scrollbar::*)()>(&Scrollbar::get_numberOfSteps)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::UI::Scrollbar::*)()>(&UnityEngine::UI::Scrollbar::get_numberOfSteps)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "get_numberOfSteps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "get_numberOfSteps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::set_numberOfSteps
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::set_numberOfSteps
 // Il2CppName: set_numberOfSteps
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scrollbar::*)(int)>(&Scrollbar::set_numberOfSteps)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Scrollbar::*)(int)>(&UnityEngine::UI::Scrollbar::set_numberOfSteps)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "set_numberOfSteps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "set_numberOfSteps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::get_onValueChanged
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::get_onValueChanged
 // Il2CppName: get_onValueChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Scrollbar::ScrollEvent* (Scrollbar::*)()>(&Scrollbar::get_onValueChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Scrollbar::ScrollEvent* (UnityEngine::UI::Scrollbar::*)()>(&UnityEngine::UI::Scrollbar::get_onValueChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "get_onValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "get_onValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::set_onValueChanged
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::set_onValueChanged
 // Il2CppName: set_onValueChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scrollbar::*)(UnityEngine::UI::Scrollbar::ScrollEvent*)>(&Scrollbar::set_onValueChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Scrollbar::*)(UnityEngine::UI::Scrollbar::ScrollEvent*)>(&UnityEngine::UI::Scrollbar::set_onValueChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "set_onValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Scrollbar::ScrollEvent*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "set_onValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Scrollbar::ScrollEvent*>()});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::get_stepSize
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::get_stepSize
 // Il2CppName: get_stepSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Scrollbar::*)()>(&Scrollbar::get_stepSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::Scrollbar::*)()>(&UnityEngine::UI::Scrollbar::get_stepSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "get_stepSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "get_stepSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::Rebuild
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::Rebuild
 // Il2CppName: Rebuild
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scrollbar::*)(UnityEngine::UI::CanvasUpdate)>(&Scrollbar::Rebuild)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Scrollbar::*)(UnityEngine::UI::CanvasUpdate)>(&UnityEngine::UI::Scrollbar::Rebuild)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "Rebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::CanvasUpdate>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "Rebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::CanvasUpdate>()});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::LayoutComplete
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::LayoutComplete
 // Il2CppName: LayoutComplete
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scrollbar::*)()>(&Scrollbar::LayoutComplete)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Scrollbar::*)()>(&UnityEngine::UI::Scrollbar::LayoutComplete)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "LayoutComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "LayoutComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::GraphicUpdateComplete
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::GraphicUpdateComplete
 // Il2CppName: GraphicUpdateComplete
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scrollbar::*)()>(&Scrollbar::GraphicUpdateComplete)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Scrollbar::*)()>(&UnityEngine::UI::Scrollbar::GraphicUpdateComplete)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "GraphicUpdateComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "GraphicUpdateComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::Update
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scrollbar::*)()>(&Scrollbar::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Scrollbar::*)()>(&UnityEngine::UI::Scrollbar::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::UpdateCachedReferences
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::UpdateCachedReferences
 // Il2CppName: UpdateCachedReferences
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scrollbar::*)()>(&Scrollbar::UpdateCachedReferences)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Scrollbar::*)()>(&UnityEngine::UI::Scrollbar::UpdateCachedReferences)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "UpdateCachedReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "UpdateCachedReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::Set
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::Set
 // Il2CppName: Set
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scrollbar::*)(float, bool)>(&Scrollbar::Set)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Scrollbar::*)(float, bool)>(&UnityEngine::UI::Scrollbar::Set)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "Set", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "Set", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::get_axis
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::get_axis
 // Il2CppName: get_axis
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Scrollbar::Axis (Scrollbar::*)()>(&Scrollbar::get_axis)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Scrollbar::Axis (UnityEngine::UI::Scrollbar::*)()>(&UnityEngine::UI::Scrollbar::get_axis)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "get_axis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "get_axis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::get_reverseValue
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::get_reverseValue
 // Il2CppName: get_reverseValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Scrollbar::*)()>(&Scrollbar::get_reverseValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::Scrollbar::*)()>(&UnityEngine::UI::Scrollbar::get_reverseValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "get_reverseValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "get_reverseValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::UpdateVisuals
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::UpdateVisuals
 // Il2CppName: UpdateVisuals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scrollbar::*)()>(&Scrollbar::UpdateVisuals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Scrollbar::*)()>(&UnityEngine::UI::Scrollbar::UpdateVisuals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "UpdateVisuals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "UpdateVisuals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::UpdateDrag
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::UpdateDrag
 // Il2CppName: UpdateDrag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scrollbar::*)(UnityEngine::EventSystems::PointerEventData*)>(&Scrollbar::UpdateDrag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Scrollbar::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::UI::Scrollbar::UpdateDrag)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "UpdateDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "UpdateDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::DoUpdateDrag
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::DoUpdateDrag
 // Il2CppName: DoUpdateDrag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scrollbar::*)(UnityEngine::Vector2, float)>(&Scrollbar::DoUpdateDrag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Scrollbar::*)(UnityEngine::Vector2, float)>(&UnityEngine::UI::Scrollbar::DoUpdateDrag)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "DoUpdateDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "DoUpdateDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::MayDrag
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::MayDrag
 // Il2CppName: MayDrag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Scrollbar::*)(UnityEngine::EventSystems::PointerEventData*)>(&Scrollbar::MayDrag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::Scrollbar::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::UI::Scrollbar::MayDrag)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "MayDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "MayDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::OnBeginDrag
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::OnBeginDrag
 // Il2CppName: OnBeginDrag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scrollbar::*)(UnityEngine::EventSystems::PointerEventData*)>(&Scrollbar::OnBeginDrag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Scrollbar::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::UI::Scrollbar::OnBeginDrag)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "OnBeginDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "OnBeginDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::OnDrag
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::OnDrag
 // Il2CppName: OnDrag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scrollbar::*)(UnityEngine::EventSystems::PointerEventData*)>(&Scrollbar::OnDrag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Scrollbar::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::UI::Scrollbar::OnDrag)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "OnDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "OnDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::ClickRepeat
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::ClickRepeat
 // Il2CppName: ClickRepeat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (Scrollbar::*)(UnityEngine::EventSystems::PointerEventData*)>(&Scrollbar::ClickRepeat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (UnityEngine::UI::Scrollbar::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::UI::Scrollbar::ClickRepeat)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "ClickRepeat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "ClickRepeat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::ClickRepeat
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::ClickRepeat
 // Il2CppName: ClickRepeat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (Scrollbar::*)(UnityEngine::Vector2, UnityEngine::Camera*)>(&Scrollbar::ClickRepeat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (UnityEngine::UI::Scrollbar::*)(UnityEngine::Vector2, UnityEngine::Camera*)>(&UnityEngine::UI::Scrollbar::ClickRepeat)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "ClickRepeat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "ClickRepeat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::OnInitializePotentialDrag
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::OnInitializePotentialDrag
 // Il2CppName: OnInitializePotentialDrag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scrollbar::*)(UnityEngine::EventSystems::PointerEventData*)>(&Scrollbar::OnInitializePotentialDrag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Scrollbar::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::UI::Scrollbar::OnInitializePotentialDrag)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "OnInitializePotentialDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "OnInitializePotentialDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::SetDirection
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::SetDirection
 // Il2CppName: SetDirection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scrollbar::*)(UnityEngine::UI::Scrollbar::Direction, bool)>(&Scrollbar::SetDirection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Scrollbar::*)(UnityEngine::UI::Scrollbar::Direction, bool)>(&UnityEngine::UI::Scrollbar::SetDirection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "SetDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Scrollbar::Direction>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "SetDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Scrollbar::Direction>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::UnityEngine_UI_ICanvasElement_get_transform
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::UnityEngine_UI_ICanvasElement_get_transform
 // Il2CppName: UnityEngine.UI.ICanvasElement.get_transform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (Scrollbar::*)()>(&Scrollbar::UnityEngine_UI_ICanvasElement_get_transform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (UnityEngine::UI::Scrollbar::*)()>(&UnityEngine::UI::Scrollbar::UnityEngine_UI_ICanvasElement_get_transform)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "UnityEngine.UI.ICanvasElement.get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "UnityEngine.UI.ICanvasElement.get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::New_ctor
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scrollbar::*)()>(&Scrollbar::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Scrollbar::*)()>(&UnityEngine::UI::Scrollbar::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scrollbar::*)()>(&Scrollbar::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Scrollbar::*)()>(&UnityEngine::UI::Scrollbar::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::OnEnable
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scrollbar::*)()>(&Scrollbar::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Scrollbar::*)()>(&UnityEngine::UI::Scrollbar::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::OnDisable
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scrollbar::*)()>(&Scrollbar::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Scrollbar::*)()>(&UnityEngine::UI::Scrollbar::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::OnRectTransformDimensionsChange
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::OnRectTransformDimensionsChange
 // Il2CppName: OnRectTransformDimensionsChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scrollbar::*)()>(&Scrollbar::OnRectTransformDimensionsChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Scrollbar::*)()>(&UnityEngine::UI::Scrollbar::OnRectTransformDimensionsChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "OnRectTransformDimensionsChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "OnRectTransformDimensionsChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::OnPointerDown
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::OnPointerDown
 // Il2CppName: OnPointerDown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scrollbar::*)(UnityEngine::EventSystems::PointerEventData*)>(&Scrollbar::OnPointerDown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Scrollbar::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::UI::Scrollbar::OnPointerDown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "OnPointerDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "OnPointerDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::OnPointerUp
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::OnPointerUp
 // Il2CppName: OnPointerUp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scrollbar::*)(UnityEngine::EventSystems::PointerEventData*)>(&Scrollbar::OnPointerUp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Scrollbar::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::UI::Scrollbar::OnPointerUp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "OnPointerUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "OnPointerUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::OnMove
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::OnMove
 // Il2CppName: OnMove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Scrollbar::*)(UnityEngine::EventSystems::AxisEventData*)>(&Scrollbar::OnMove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Scrollbar::*)(UnityEngine::EventSystems::AxisEventData*)>(&UnityEngine::UI::Scrollbar::OnMove)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "OnMove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::AxisEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "OnMove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::AxisEventData*>()});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::FindSelectableOnLeft
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::FindSelectableOnLeft
 // Il2CppName: FindSelectableOnLeft
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Selectable* (Scrollbar::*)()>(&Scrollbar::FindSelectableOnLeft)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Selectable* (UnityEngine::UI::Scrollbar::*)()>(&UnityEngine::UI::Scrollbar::FindSelectableOnLeft)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "FindSelectableOnLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "FindSelectableOnLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::FindSelectableOnRight
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::FindSelectableOnRight
 // Il2CppName: FindSelectableOnRight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Selectable* (Scrollbar::*)()>(&Scrollbar::FindSelectableOnRight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Selectable* (UnityEngine::UI::Scrollbar::*)()>(&UnityEngine::UI::Scrollbar::FindSelectableOnRight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "FindSelectableOnRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "FindSelectableOnRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::FindSelectableOnUp
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::FindSelectableOnUp
 // Il2CppName: FindSelectableOnUp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Selectable* (Scrollbar::*)()>(&Scrollbar::FindSelectableOnUp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Selectable* (UnityEngine::UI::Scrollbar::*)()>(&UnityEngine::UI::Scrollbar::FindSelectableOnUp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "FindSelectableOnUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "FindSelectableOnUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Scrollbar::FindSelectableOnDown
+// Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::FindSelectableOnDown
 // Il2CppName: FindSelectableOnDown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Selectable* (Scrollbar::*)()>(&Scrollbar::FindSelectableOnDown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Selectable* (UnityEngine::UI::Scrollbar::*)()>(&UnityEngine::UI::Scrollbar::FindSelectableOnDown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Scrollbar*), "FindSelectableOnDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Scrollbar*), "FindSelectableOnDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

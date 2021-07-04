@@ -31,11 +31,11 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeConverter*, "", "ColorSchemeConverter");
-// Writing MetadataGetter for method: ColorSchemeConverter::FromNetSerializable
+// Writing MetadataGetter for method: GlobalNamespace::ColorSchemeConverter::FromNetSerializable
 // Il2CppName: FromNetSerializable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorScheme* (*)(GlobalNamespace::ColorSchemeNetSerializable)>(&ColorSchemeConverter::FromNetSerializable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorScheme* (*)(GlobalNamespace::ColorSchemeNetSerializable)>(&GlobalNamespace::ColorSchemeConverter::FromNetSerializable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorSchemeConverter*), "FromNetSerializable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorSchemeNetSerializable>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeConverter*), "FromNetSerializable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorSchemeNetSerializable>()});
   }
 };

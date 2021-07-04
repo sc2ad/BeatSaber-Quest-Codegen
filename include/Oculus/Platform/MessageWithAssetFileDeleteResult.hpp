@@ -47,33 +47,33 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithAssetFileDeleteResult
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithAssetFileDeleteResult*, "Oculus.Platform", "MessageWithAssetFileDeleteResult");
-// Writing MetadataGetter for method: MessageWithAssetFileDeleteResult::GetDataFromMessage
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithAssetFileDeleteResult::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AssetFileDeleteResult* (MessageWithAssetFileDeleteResult::*)(System::IntPtr)>(&MessageWithAssetFileDeleteResult::GetDataFromMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AssetFileDeleteResult* (Oculus::Platform::MessageWithAssetFileDeleteResult::*)(System::IntPtr)>(&Oculus::Platform::MessageWithAssetFileDeleteResult::GetDataFromMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithAssetFileDeleteResult*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithAssetFileDeleteResult*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithAssetFileDeleteResult::New_ctor
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithAssetFileDeleteResult::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithAssetFileDeleteResult::*)(System::IntPtr)>(&MessageWithAssetFileDeleteResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithAssetFileDeleteResult::*)(System::IntPtr)>(&Oculus::Platform::MessageWithAssetFileDeleteResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithAssetFileDeleteResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithAssetFileDeleteResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithAssetFileDeleteResult::*)(System::IntPtr)>(&MessageWithAssetFileDeleteResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithAssetFileDeleteResult::*)(System::IntPtr)>(&Oculus::Platform::MessageWithAssetFileDeleteResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithAssetFileDeleteResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithAssetFileDeleteResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithAssetFileDeleteResult::GetAssetFileDeleteResult
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithAssetFileDeleteResult::GetAssetFileDeleteResult
 // Il2CppName: GetAssetFileDeleteResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AssetFileDeleteResult* (MessageWithAssetFileDeleteResult::*)()>(&MessageWithAssetFileDeleteResult::GetAssetFileDeleteResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::AssetFileDeleteResult* (Oculus::Platform::MessageWithAssetFileDeleteResult::*)()>(&Oculus::Platform::MessageWithAssetFileDeleteResult::GetAssetFileDeleteResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithAssetFileDeleteResult*), "GetAssetFileDeleteResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithAssetFileDeleteResult*), "GetAssetFileDeleteResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

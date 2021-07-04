@@ -96,91 +96,91 @@ namespace Zenject::Internal {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ZenUtilInternal*, "Zenject.Internal", "ZenUtilInternal");
-// Writing MetadataGetter for method: ZenUtilInternal::IsNull
+// Writing MetadataGetter for method: Zenject::Internal::ZenUtilInternal::IsNull
 // Il2CppName: IsNull
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*)>(&ZenUtilInternal::IsNull)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*)>(&Zenject::Internal::ZenUtilInternal::IsNull)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenUtilInternal*), "IsNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenUtilInternal*), "IsNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: ZenUtilInternal::AreFunctionsEqual
+// Writing MetadataGetter for method: Zenject::Internal::ZenUtilInternal::AreFunctionsEqual
 // Il2CppName: AreFunctionsEqual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Delegate*, System::Delegate*)>(&ZenUtilInternal::AreFunctionsEqual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Delegate*, System::Delegate*)>(&Zenject::Internal::ZenUtilInternal::AreFunctionsEqual)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenUtilInternal*), "AreFunctionsEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Delegate*>(), ::il2cpp_utils::ExtractIndependentType<System::Delegate*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenUtilInternal*), "AreFunctionsEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Delegate*>(), ::il2cpp_utils::ExtractIndependentType<System::Delegate*>()});
   }
 };
-// Writing MetadataGetter for method: ZenUtilInternal::GetInheritanceDelta
+// Writing MetadataGetter for method: Zenject::Internal::ZenUtilInternal::GetInheritanceDelta
 // Il2CppName: GetInheritanceDelta
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Type*, System::Type*)>(&ZenUtilInternal::GetInheritanceDelta)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Type*, System::Type*)>(&Zenject::Internal::ZenUtilInternal::GetInheritanceDelta)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenUtilInternal*), "GetInheritanceDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenUtilInternal*), "GetInheritanceDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: ZenUtilInternal::GetAllSceneContexts
+// Writing MetadataGetter for method: Zenject::Internal::ZenUtilInternal::GetAllSceneContexts
 // Il2CppName: GetAllSceneContexts
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::SceneContext*>* (*)()>(&ZenUtilInternal::GetAllSceneContexts)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::SceneContext*>* (*)()>(&Zenject::Internal::ZenUtilInternal::GetAllSceneContexts)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenUtilInternal*), "GetAllSceneContexts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenUtilInternal*), "GetAllSceneContexts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ZenUtilInternal::AddStateMachineBehaviourAutoInjectersInScene
+// Writing MetadataGetter for method: Zenject::Internal::ZenUtilInternal::AddStateMachineBehaviourAutoInjectersInScene
 // Il2CppName: AddStateMachineBehaviourAutoInjectersInScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::SceneManagement::Scene)>(&ZenUtilInternal::AddStateMachineBehaviourAutoInjectersInScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::SceneManagement::Scene)>(&Zenject::Internal::ZenUtilInternal::AddStateMachineBehaviourAutoInjectersInScene)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenUtilInternal*), "AddStateMachineBehaviourAutoInjectersInScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::Scene>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenUtilInternal*), "AddStateMachineBehaviourAutoInjectersInScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::Scene>()});
   }
 };
-// Writing MetadataGetter for method: ZenUtilInternal::AddStateMachineBehaviourAutoInjectersUnderGameObject
+// Writing MetadataGetter for method: Zenject::Internal::ZenUtilInternal::AddStateMachineBehaviourAutoInjectersUnderGameObject
 // Il2CppName: AddStateMachineBehaviourAutoInjectersUnderGameObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*)>(&ZenUtilInternal::AddStateMachineBehaviourAutoInjectersUnderGameObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*)>(&Zenject::Internal::ZenUtilInternal::AddStateMachineBehaviourAutoInjectersUnderGameObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenUtilInternal*), "AddStateMachineBehaviourAutoInjectersUnderGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenUtilInternal*), "AddStateMachineBehaviourAutoInjectersUnderGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
   }
 };
-// Writing MetadataGetter for method: ZenUtilInternal::GetInjectableMonoBehavioursInScene
+// Writing MetadataGetter for method: Zenject::Internal::ZenUtilInternal::GetInjectableMonoBehavioursInScene
 // Il2CppName: GetInjectableMonoBehavioursInScene
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::SceneManagement::Scene, System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*)>(&ZenUtilInternal::GetInjectableMonoBehavioursInScene)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::SceneManagement::Scene, System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*)>(&Zenject::Internal::ZenUtilInternal::GetInjectableMonoBehavioursInScene)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenUtilInternal*), "GetInjectableMonoBehavioursInScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::Scene>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenUtilInternal*), "GetInjectableMonoBehavioursInScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::Scene>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>()});
   }
 };
-// Writing MetadataGetter for method: ZenUtilInternal::GetInjectableMonoBehavioursUnderGameObject
+// Writing MetadataGetter for method: Zenject::Internal::ZenUtilInternal::GetInjectableMonoBehavioursUnderGameObject
 // Il2CppName: GetInjectableMonoBehavioursUnderGameObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*)>(&ZenUtilInternal::GetInjectableMonoBehavioursUnderGameObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*)>(&Zenject::Internal::ZenUtilInternal::GetInjectableMonoBehavioursUnderGameObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenUtilInternal*), "GetInjectableMonoBehavioursUnderGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenUtilInternal*), "GetInjectableMonoBehavioursUnderGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>()});
   }
 };
-// Writing MetadataGetter for method: ZenUtilInternal::GetInjectableMonoBehavioursUnderGameObjectInternal
+// Writing MetadataGetter for method: Zenject::Internal::ZenUtilInternal::GetInjectableMonoBehavioursUnderGameObjectInternal
 // Il2CppName: GetInjectableMonoBehavioursUnderGameObjectInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*)>(&ZenUtilInternal::GetInjectableMonoBehavioursUnderGameObjectInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*)>(&Zenject::Internal::ZenUtilInternal::GetInjectableMonoBehavioursUnderGameObjectInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenUtilInternal*), "GetInjectableMonoBehavioursUnderGameObjectInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenUtilInternal*), "GetInjectableMonoBehavioursUnderGameObjectInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>()});
   }
 };
-// Writing MetadataGetter for method: ZenUtilInternal::IsInjectableMonoBehaviourType
+// Writing MetadataGetter for method: Zenject::Internal::ZenUtilInternal::IsInjectableMonoBehaviourType
 // Il2CppName: IsInjectableMonoBehaviourType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&ZenUtilInternal::IsInjectableMonoBehaviourType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&Zenject::Internal::ZenUtilInternal::IsInjectableMonoBehaviourType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenUtilInternal*), "IsInjectableMonoBehaviourType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenUtilInternal*), "IsInjectableMonoBehaviourType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: ZenUtilInternal::GetRootGameObjects
+// Writing MetadataGetter for method: Zenject::Internal::ZenUtilInternal::GetRootGameObjects
 // Il2CppName: GetRootGameObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* (*)(UnityEngine::SceneManagement::Scene)>(&ZenUtilInternal::GetRootGameObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* (*)(UnityEngine::SceneManagement::Scene)>(&Zenject::Internal::ZenUtilInternal::GetRootGameObjects)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenUtilInternal*), "GetRootGameObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::Scene>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenUtilInternal*), "GetRootGameObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::Scene>()});
   }
 };

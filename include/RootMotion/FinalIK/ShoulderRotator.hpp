@@ -93,57 +93,57 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(ShoulderRotator) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::ShoulderRotator*, "RootMotion.FinalIK", "ShoulderRotator");
-// Writing MetadataGetter for method: ShoulderRotator::Start
+// Writing MetadataGetter for method: RootMotion::FinalIK::ShoulderRotator::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShoulderRotator::*)()>(&ShoulderRotator::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::ShoulderRotator::*)()>(&RootMotion::FinalIK::ShoulderRotator::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ShoulderRotator*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::ShoulderRotator*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ShoulderRotator::RotateShoulders
+// Writing MetadataGetter for method: RootMotion::FinalIK::ShoulderRotator::RotateShoulders
 // Il2CppName: RotateShoulders
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShoulderRotator::*)()>(&ShoulderRotator::RotateShoulders)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::ShoulderRotator::*)()>(&RootMotion::FinalIK::ShoulderRotator::RotateShoulders)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ShoulderRotator*), "RotateShoulders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::ShoulderRotator*), "RotateShoulders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ShoulderRotator::RotateShoulder
+// Writing MetadataGetter for method: RootMotion::FinalIK::ShoulderRotator::RotateShoulder
 // Il2CppName: RotateShoulder
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShoulderRotator::*)(RootMotion::FinalIK::FullBodyBipedChain, float, float)>(&ShoulderRotator::RotateShoulder)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::ShoulderRotator::*)(RootMotion::FinalIK::FullBodyBipedChain, float, float)>(&RootMotion::FinalIK::ShoulderRotator::RotateShoulder)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ShoulderRotator*), "RotateShoulder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedChain>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::ShoulderRotator*), "RotateShoulder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedChain>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: ShoulderRotator::GetParentBoneMap
+// Writing MetadataGetter for method: RootMotion::FinalIK::ShoulderRotator::GetParentBoneMap
 // Il2CppName: GetParentBoneMap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKMapping::BoneMap* (ShoulderRotator::*)(RootMotion::FinalIK::FullBodyBipedChain)>(&ShoulderRotator::GetParentBoneMap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKMapping::BoneMap* (RootMotion::FinalIK::ShoulderRotator::*)(RootMotion::FinalIK::FullBodyBipedChain)>(&RootMotion::FinalIK::ShoulderRotator::GetParentBoneMap)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ShoulderRotator*), "GetParentBoneMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedChain>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::ShoulderRotator*), "GetParentBoneMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedChain>()});
   }
 };
-// Writing MetadataGetter for method: ShoulderRotator::OnDestroy
+// Writing MetadataGetter for method: RootMotion::FinalIK::ShoulderRotator::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShoulderRotator::*)()>(&ShoulderRotator::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::ShoulderRotator::*)()>(&RootMotion::FinalIK::ShoulderRotator::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ShoulderRotator*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::ShoulderRotator*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ShoulderRotator::New_ctor
+// Writing MetadataGetter for method: RootMotion::FinalIK::ShoulderRotator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShoulderRotator::*)()>(&ShoulderRotator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::ShoulderRotator::*)()>(&RootMotion::FinalIK::ShoulderRotator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ShoulderRotator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::ShoulderRotator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ShoulderRotator::*)()>(&ShoulderRotator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::ShoulderRotator::*)()>(&RootMotion::FinalIK::ShoulderRotator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ShoulderRotator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::ShoulderRotator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

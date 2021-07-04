@@ -199,195 +199,195 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(RSACryptoServiceProvider) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSACryptoServiceProvider*, "System.Security.Cryptography", "RSACryptoServiceProvider");
-// Writing MetadataGetter for method: RSACryptoServiceProvider::get_UseMachineKeyStore
+// Writing MetadataGetter for method: System::Security::Cryptography::RSACryptoServiceProvider::get_UseMachineKeyStore
 // Il2CppName: get_UseMachineKeyStore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&RSACryptoServiceProvider::get_UseMachineKeyStore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Security::Cryptography::RSACryptoServiceProvider::get_UseMachineKeyStore)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSACryptoServiceProvider*), "get_UseMachineKeyStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), "get_UseMachineKeyStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RSACryptoServiceProvider::GetAlgorithmId
+// Writing MetadataGetter for method: System::Security::Cryptography::RSACryptoServiceProvider::GetAlgorithmId
 // Il2CppName: GetAlgorithmId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Security::Cryptography::HashAlgorithmName)>(&RSACryptoServiceProvider::GetAlgorithmId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Security::Cryptography::HashAlgorithmName)>(&System::Security::Cryptography::RSACryptoServiceProvider::GetAlgorithmId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSACryptoServiceProvider*), "GetAlgorithmId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::HashAlgorithmName>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), "GetAlgorithmId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::HashAlgorithmName>()});
   }
 };
-// Writing MetadataGetter for method: RSACryptoServiceProvider::PaddingModeNotSupported
+// Writing MetadataGetter for method: System::Security::Cryptography::RSACryptoServiceProvider::PaddingModeNotSupported
 // Il2CppName: PaddingModeNotSupported
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&RSACryptoServiceProvider::PaddingModeNotSupported)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Security::Cryptography::RSACryptoServiceProvider::PaddingModeNotSupported)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSACryptoServiceProvider*), "PaddingModeNotSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), "PaddingModeNotSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RSACryptoServiceProvider::New_ctor
+// Writing MetadataGetter for method: System::Security::Cryptography::RSACryptoServiceProvider::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSACryptoServiceProvider::*)(System::Security::Cryptography::CspParameters*)>(&RSACryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RSACryptoServiceProvider::*)(System::Security::Cryptography::CspParameters*)>(&System::Security::Cryptography::RSACryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSACryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::CspParameters*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::CspParameters*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSACryptoServiceProvider::*)(System::Security::Cryptography::CspParameters*)>(&RSACryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RSACryptoServiceProvider::*)(System::Security::Cryptography::CspParameters*)>(&System::Security::Cryptography::RSACryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSACryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::CspParameters*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::CspParameters*>()});
   }
 };
-// Writing MetadataGetter for method: RSACryptoServiceProvider::New_ctor
+// Writing MetadataGetter for method: System::Security::Cryptography::RSACryptoServiceProvider::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSACryptoServiceProvider::*)(int)>(&RSACryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RSACryptoServiceProvider::*)(int)>(&System::Security::Cryptography::RSACryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSACryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSACryptoServiceProvider::*)(int)>(&RSACryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RSACryptoServiceProvider::*)(int)>(&System::Security::Cryptography::RSACryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSACryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: RSACryptoServiceProvider::New_ctor
+// Writing MetadataGetter for method: System::Security::Cryptography::RSACryptoServiceProvider::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSACryptoServiceProvider::*)(int, System::Security::Cryptography::CspParameters*)>(&RSACryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RSACryptoServiceProvider::*)(int, System::Security::Cryptography::CspParameters*)>(&System::Security::Cryptography::RSACryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSACryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::CspParameters*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::CspParameters*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSACryptoServiceProvider::*)(int, System::Security::Cryptography::CspParameters*)>(&RSACryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RSACryptoServiceProvider::*)(int, System::Security::Cryptography::CspParameters*)>(&System::Security::Cryptography::RSACryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSACryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::CspParameters*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::CspParameters*>()});
   }
 };
-// Writing MetadataGetter for method: RSACryptoServiceProvider::Common
+// Writing MetadataGetter for method: System::Security::Cryptography::RSACryptoServiceProvider::Common
 // Il2CppName: Common
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSACryptoServiceProvider::*)(int, bool)>(&RSACryptoServiceProvider::Common)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RSACryptoServiceProvider::*)(int, bool)>(&System::Security::Cryptography::RSACryptoServiceProvider::Common)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSACryptoServiceProvider*), "Common", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), "Common", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: RSACryptoServiceProvider::Common
+// Writing MetadataGetter for method: System::Security::Cryptography::RSACryptoServiceProvider::Common
 // Il2CppName: Common
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSACryptoServiceProvider::*)(System::Security::Cryptography::CspParameters*)>(&RSACryptoServiceProvider::Common)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RSACryptoServiceProvider::*)(System::Security::Cryptography::CspParameters*)>(&System::Security::Cryptography::RSACryptoServiceProvider::Common)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSACryptoServiceProvider*), "Common", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::CspParameters*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), "Common", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::CspParameters*>()});
   }
 };
-// Writing MetadataGetter for method: RSACryptoServiceProvider::get_PublicOnly
+// Writing MetadataGetter for method: System::Security::Cryptography::RSACryptoServiceProvider::get_PublicOnly
 // Il2CppName: get_PublicOnly
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RSACryptoServiceProvider::*)()>(&RSACryptoServiceProvider::get_PublicOnly)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::RSACryptoServiceProvider::*)()>(&System::Security::Cryptography::RSACryptoServiceProvider::get_PublicOnly)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSACryptoServiceProvider*), "get_PublicOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), "get_PublicOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RSACryptoServiceProvider::InternalHashToHashAlgorithm
+// Writing MetadataGetter for method: System::Security::Cryptography::RSACryptoServiceProvider::InternalHashToHashAlgorithm
 // Il2CppName: InternalHashToHashAlgorithm
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::HashAlgorithm* (*)(int)>(&RSACryptoServiceProvider::InternalHashToHashAlgorithm)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::HashAlgorithm* (*)(int)>(&System::Security::Cryptography::RSACryptoServiceProvider::InternalHashToHashAlgorithm)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSACryptoServiceProvider*), "InternalHashToHashAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), "InternalHashToHashAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: RSACryptoServiceProvider::VerifyHash
+// Writing MetadataGetter for method: System::Security::Cryptography::RSACryptoServiceProvider::VerifyHash
 // Il2CppName: VerifyHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RSACryptoServiceProvider::*)(::Array<uint8_t>*, int, ::Array<uint8_t>*)>(&RSACryptoServiceProvider::VerifyHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::RSACryptoServiceProvider::*)(::Array<uint8_t>*, int, ::Array<uint8_t>*)>(&System::Security::Cryptography::RSACryptoServiceProvider::VerifyHash)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSACryptoServiceProvider*), "VerifyHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), "VerifyHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: RSACryptoServiceProvider::OnKeyGenerated
+// Writing MetadataGetter for method: System::Security::Cryptography::RSACryptoServiceProvider::OnKeyGenerated
 // Il2CppName: OnKeyGenerated
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSACryptoServiceProvider::*)(::Il2CppObject*, System::EventArgs*)>(&RSACryptoServiceProvider::OnKeyGenerated)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RSACryptoServiceProvider::*)(::Il2CppObject*, System::EventArgs*)>(&System::Security::Cryptography::RSACryptoServiceProvider::OnKeyGenerated)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSACryptoServiceProvider*), "OnKeyGenerated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::EventArgs*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), "OnKeyGenerated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::EventArgs*>()});
   }
 };
-// Writing MetadataGetter for method: RSACryptoServiceProvider::HashData
+// Writing MetadataGetter for method: System::Security::Cryptography::RSACryptoServiceProvider::HashData
 // Il2CppName: HashData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (RSACryptoServiceProvider::*)(::Array<uint8_t>*, int, int, System::Security::Cryptography::HashAlgorithmName)>(&RSACryptoServiceProvider::HashData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Security::Cryptography::RSACryptoServiceProvider::*)(::Array<uint8_t>*, int, int, System::Security::Cryptography::HashAlgorithmName)>(&System::Security::Cryptography::RSACryptoServiceProvider::HashData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSACryptoServiceProvider*), "HashData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::HashAlgorithmName>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), "HashData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::HashAlgorithmName>()});
   }
 };
-// Writing MetadataGetter for method: RSACryptoServiceProvider::VerifyHash
+// Writing MetadataGetter for method: System::Security::Cryptography::RSACryptoServiceProvider::VerifyHash
 // Il2CppName: VerifyHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RSACryptoServiceProvider::*)(::Array<uint8_t>*, ::Array<uint8_t>*, System::Security::Cryptography::HashAlgorithmName, System::Security::Cryptography::RSASignaturePadding*)>(&RSACryptoServiceProvider::VerifyHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::RSACryptoServiceProvider::*)(::Array<uint8_t>*, ::Array<uint8_t>*, System::Security::Cryptography::HashAlgorithmName, System::Security::Cryptography::RSASignaturePadding*)>(&System::Security::Cryptography::RSACryptoServiceProvider::VerifyHash)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSACryptoServiceProvider*), "VerifyHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::HashAlgorithmName>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RSASignaturePadding*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), "VerifyHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::HashAlgorithmName>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RSASignaturePadding*>()});
   }
 };
-// Writing MetadataGetter for method: RSACryptoServiceProvider::New_ctor
+// Writing MetadataGetter for method: System::Security::Cryptography::RSACryptoServiceProvider::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSACryptoServiceProvider::*)()>(&RSACryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RSACryptoServiceProvider::*)()>(&System::Security::Cryptography::RSACryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSACryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSACryptoServiceProvider::*)()>(&RSACryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RSACryptoServiceProvider::*)()>(&System::Security::Cryptography::RSACryptoServiceProvider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSACryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RSACryptoServiceProvider::Finalize
+// Writing MetadataGetter for method: System::Security::Cryptography::RSACryptoServiceProvider::Finalize
 // Il2CppName: Finalize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSACryptoServiceProvider::*)()>(&RSACryptoServiceProvider::Finalize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RSACryptoServiceProvider::*)()>(&System::Security::Cryptography::RSACryptoServiceProvider::Finalize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSACryptoServiceProvider*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RSACryptoServiceProvider::get_KeySize
+// Writing MetadataGetter for method: System::Security::Cryptography::RSACryptoServiceProvider::get_KeySize
 // Il2CppName: get_KeySize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RSACryptoServiceProvider::*)()>(&RSACryptoServiceProvider::get_KeySize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Cryptography::RSACryptoServiceProvider::*)()>(&System::Security::Cryptography::RSACryptoServiceProvider::get_KeySize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSACryptoServiceProvider*), "get_KeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), "get_KeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: RSACryptoServiceProvider::EncryptValue
+// Writing MetadataGetter for method: System::Security::Cryptography::RSACryptoServiceProvider::EncryptValue
 // Il2CppName: EncryptValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (RSACryptoServiceProvider::*)(::Array<uint8_t>*)>(&RSACryptoServiceProvider::EncryptValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Security::Cryptography::RSACryptoServiceProvider::*)(::Array<uint8_t>*)>(&System::Security::Cryptography::RSACryptoServiceProvider::EncryptValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSACryptoServiceProvider*), "EncryptValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), "EncryptValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: RSACryptoServiceProvider::ExportParameters
+// Writing MetadataGetter for method: System::Security::Cryptography::RSACryptoServiceProvider::ExportParameters
 // Il2CppName: ExportParameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RSAParameters (RSACryptoServiceProvider::*)(bool)>(&RSACryptoServiceProvider::ExportParameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RSAParameters (System::Security::Cryptography::RSACryptoServiceProvider::*)(bool)>(&System::Security::Cryptography::RSACryptoServiceProvider::ExportParameters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSACryptoServiceProvider*), "ExportParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), "ExportParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: RSACryptoServiceProvider::ImportParameters
+// Writing MetadataGetter for method: System::Security::Cryptography::RSACryptoServiceProvider::ImportParameters
 // Il2CppName: ImportParameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSACryptoServiceProvider::*)(System::Security::Cryptography::RSAParameters)>(&RSACryptoServiceProvider::ImportParameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RSACryptoServiceProvider::*)(System::Security::Cryptography::RSAParameters)>(&System::Security::Cryptography::RSACryptoServiceProvider::ImportParameters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSACryptoServiceProvider*), "ImportParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RSAParameters>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), "ImportParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RSAParameters>()});
   }
 };
-// Writing MetadataGetter for method: RSACryptoServiceProvider::Dispose
+// Writing MetadataGetter for method: System::Security::Cryptography::RSACryptoServiceProvider::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RSACryptoServiceProvider::*)(bool)>(&RSACryptoServiceProvider::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RSACryptoServiceProvider::*)(bool)>(&System::Security::Cryptography::RSACryptoServiceProvider::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RSACryptoServiceProvider*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };

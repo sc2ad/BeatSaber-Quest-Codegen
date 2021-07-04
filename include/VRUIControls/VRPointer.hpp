@@ -195,129 +195,129 @@ namespace VRUIControls {
   static_assert(sizeof(VRPointer) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRPointer*, "VRUIControls", "VRPointer");
-// Writing MetadataGetter for method: VRPointer::get_vrController
+// Writing MetadataGetter for method: VRUIControls::VRPointer::get_vrController
 // Il2CppName: get_vrController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::VRController* (VRPointer::*)()>(&VRPointer::get_vrController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::VRController* (VRUIControls::VRPointer::*)()>(&VRUIControls::VRPointer::get_vrController)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRPointer*), "get_vrController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRPointer*), "get_vrController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRPointer::get_cursorPosition
+// Writing MetadataGetter for method: VRUIControls::VRPointer::get_cursorPosition
 // Il2CppName: get_cursorPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (VRPointer::*)()>(&VRPointer::get_cursorPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (VRUIControls::VRPointer::*)()>(&VRUIControls::VRPointer::get_cursorPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRPointer*), "get_cursorPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRPointer*), "get_cursorPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRPointer::get_eventSystem
+// Writing MetadataGetter for method: VRUIControls::VRPointer::get_eventSystem
 // Il2CppName: get_eventSystem
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::EventSystem* (VRPointer::*)()>(&VRPointer::get_eventSystem)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::EventSystem* (VRUIControls::VRPointer::*)()>(&VRUIControls::VRPointer::get_eventSystem)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRPointer*), "get_eventSystem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRPointer*), "get_eventSystem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRPointer::Awake
+// Writing MetadataGetter for method: VRUIControls::VRPointer::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRPointer::*)()>(&VRPointer::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRPointer::*)()>(&VRUIControls::VRPointer::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRPointer*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRPointer*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRPointer::OnEnable
+// Writing MetadataGetter for method: VRUIControls::VRPointer::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRPointer::*)()>(&VRPointer::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRPointer::*)()>(&VRUIControls::VRPointer::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRPointer*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRPointer*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRPointer::OnDisable
+// Writing MetadataGetter for method: VRUIControls::VRPointer::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRPointer::*)()>(&VRPointer::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRPointer::*)()>(&VRUIControls::VRPointer::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRPointer*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRPointer*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRPointer::LateUpdate
+// Writing MetadataGetter for method: VRUIControls::VRPointer::LateUpdate
 // Il2CppName: LateUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRPointer::*)()>(&VRPointer::LateUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRPointer::*)()>(&VRUIControls::VRPointer::LateUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRPointer*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRPointer*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRPointer::CreateLaserPointerAndLaserHit
+// Writing MetadataGetter for method: VRUIControls::VRPointer::CreateLaserPointerAndLaserHit
 // Il2CppName: CreateLaserPointerAndLaserHit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRPointer::*)()>(&VRPointer::CreateLaserPointerAndLaserHit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRPointer::*)()>(&VRUIControls::VRPointer::CreateLaserPointerAndLaserHit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRPointer*), "CreateLaserPointerAndLaserHit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRPointer*), "CreateLaserPointerAndLaserHit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRPointer::RefreshLaserPointerAndLaserHit
+// Writing MetadataGetter for method: VRUIControls::VRPointer::RefreshLaserPointerAndLaserHit
 // Il2CppName: RefreshLaserPointerAndLaserHit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRPointer::*)(UnityEngine::EventSystems::PointerEventData*)>(&VRPointer::RefreshLaserPointerAndLaserHit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRPointer::*)(UnityEngine::EventSystems::PointerEventData*)>(&VRUIControls::VRPointer::RefreshLaserPointerAndLaserHit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRPointer*), "RefreshLaserPointerAndLaserHit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRPointer*), "RefreshLaserPointerAndLaserHit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: VRPointer::OnApplicationFocus
+// Writing MetadataGetter for method: VRUIControls::VRPointer::OnApplicationFocus
 // Il2CppName: OnApplicationFocus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRPointer::*)(bool)>(&VRPointer::OnApplicationFocus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRPointer::*)(bool)>(&VRUIControls::VRPointer::OnApplicationFocus)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRPointer*), "OnApplicationFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRPointer*), "OnApplicationFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: VRPointer::DestroyLaserAndHit
+// Writing MetadataGetter for method: VRUIControls::VRPointer::DestroyLaserAndHit
 // Il2CppName: DestroyLaserAndHit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRPointer::*)()>(&VRPointer::DestroyLaserAndHit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRPointer::*)()>(&VRUIControls::VRPointer::DestroyLaserAndHit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRPointer*), "DestroyLaserAndHit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRPointer*), "DestroyLaserAndHit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRPointer::get_state
+// Writing MetadataGetter for method: VRUIControls::VRPointer::get_state
 // Il2CppName: get_state
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (VRPointer::*)()>(&VRPointer::get_state)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (VRUIControls::VRPointer::*)()>(&VRUIControls::VRPointer::get_state)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRPointer*), "get_state", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRPointer*), "get_state", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRPointer::Process
+// Writing MetadataGetter for method: VRUIControls::VRPointer::Process
 // Il2CppName: Process
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRPointer::*)(UnityEngine::EventSystems::PointerEventData*)>(&VRPointer::Process)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRPointer::*)(UnityEngine::EventSystems::PointerEventData*)>(&VRUIControls::VRPointer::Process)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRPointer*), "Process", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRPointer*), "Process", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: VRPointer::New_ctor
+// Writing MetadataGetter for method: VRUIControls::VRPointer::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRPointer::*)()>(&VRPointer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRPointer::*)()>(&VRUIControls::VRPointer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRPointer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRPointer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRPointer::*)()>(&VRPointer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRPointer::*)()>(&VRUIControls::VRPointer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRPointer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRPointer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRPointer::_cctor
+// Writing MetadataGetter for method: VRUIControls::VRPointer::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&VRPointer::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&VRUIControls::VRPointer::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRPointer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRPointer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -52,35 +52,35 @@ namespace System::Security::Cryptography {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable, "System.Security.Cryptography", "CryptoStream/HopToThreadPoolAwaitable");
-// Writing MetadataGetter for method: CryptoStream::HopToThreadPoolAwaitable::GetAwaiter
+// Writing MetadataGetter for method: System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable::GetAwaiter
 // Il2CppName: GetAwaiter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable (CryptoStream::HopToThreadPoolAwaitable::*)()>(&CryptoStream::HopToThreadPoolAwaitable::GetAwaiter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable (System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable::*)()>(&System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable::GetAwaiter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CryptoStream::HopToThreadPoolAwaitable), "GetAwaiter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable), "GetAwaiter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CryptoStream::HopToThreadPoolAwaitable::get_IsCompleted
+// Writing MetadataGetter for method: System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable::get_IsCompleted
 // Il2CppName: get_IsCompleted
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CryptoStream::HopToThreadPoolAwaitable::*)()>(&CryptoStream::HopToThreadPoolAwaitable::get_IsCompleted)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable::*)()>(&System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable::get_IsCompleted)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CryptoStream::HopToThreadPoolAwaitable), "get_IsCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable), "get_IsCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CryptoStream::HopToThreadPoolAwaitable::OnCompleted
+// Writing MetadataGetter for method: System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable::OnCompleted
 // Il2CppName: OnCompleted
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CryptoStream::HopToThreadPoolAwaitable::*)(System::Action*)>(&CryptoStream::HopToThreadPoolAwaitable::OnCompleted)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable::*)(System::Action*)>(&System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable::OnCompleted)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CryptoStream::HopToThreadPoolAwaitable), "OnCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable), "OnCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: CryptoStream::HopToThreadPoolAwaitable::GetResult
+// Writing MetadataGetter for method: System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable::GetResult
 // Il2CppName: GetResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CryptoStream::HopToThreadPoolAwaitable::*)()>(&CryptoStream::HopToThreadPoolAwaitable::GetResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable::*)()>(&System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable::GetResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CryptoStream::HopToThreadPoolAwaitable), "GetResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable), "GetResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

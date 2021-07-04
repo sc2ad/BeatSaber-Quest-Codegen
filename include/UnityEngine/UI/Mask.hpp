@@ -142,97 +142,97 @@ namespace UnityEngine::UI {
   static_assert(sizeof(Mask) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Mask*, "UnityEngine.UI", "Mask");
-// Writing MetadataGetter for method: Mask::get_rectTransform
+// Writing MetadataGetter for method: UnityEngine::UI::Mask::get_rectTransform
 // Il2CppName: get_rectTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (Mask::*)()>(&Mask::get_rectTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (UnityEngine::UI::Mask::*)()>(&UnityEngine::UI::Mask::get_rectTransform)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mask*), "get_rectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Mask*), "get_rectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Mask::get_showMaskGraphic
+// Writing MetadataGetter for method: UnityEngine::UI::Mask::get_showMaskGraphic
 // Il2CppName: get_showMaskGraphic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mask::*)()>(&Mask::get_showMaskGraphic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::Mask::*)()>(&UnityEngine::UI::Mask::get_showMaskGraphic)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mask*), "get_showMaskGraphic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Mask*), "get_showMaskGraphic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Mask::set_showMaskGraphic
+// Writing MetadataGetter for method: UnityEngine::UI::Mask::set_showMaskGraphic
 // Il2CppName: set_showMaskGraphic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mask::*)(bool)>(&Mask::set_showMaskGraphic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Mask::*)(bool)>(&UnityEngine::UI::Mask::set_showMaskGraphic)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mask*), "set_showMaskGraphic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Mask*), "set_showMaskGraphic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: Mask::get_graphic
+// Writing MetadataGetter for method: UnityEngine::UI::Mask::get_graphic
 // Il2CppName: get_graphic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Graphic* (Mask::*)()>(&Mask::get_graphic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Graphic* (UnityEngine::UI::Mask::*)()>(&UnityEngine::UI::Mask::get_graphic)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mask*), "get_graphic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Mask*), "get_graphic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Mask::MaskEnabled
+// Writing MetadataGetter for method: UnityEngine::UI::Mask::MaskEnabled
 // Il2CppName: MaskEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mask::*)()>(&Mask::MaskEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::Mask::*)()>(&UnityEngine::UI::Mask::MaskEnabled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mask*), "MaskEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Mask*), "MaskEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Mask::OnSiblingGraphicEnabledDisabled
+// Writing MetadataGetter for method: UnityEngine::UI::Mask::OnSiblingGraphicEnabledDisabled
 // Il2CppName: OnSiblingGraphicEnabledDisabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mask::*)()>(&Mask::OnSiblingGraphicEnabledDisabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Mask::*)()>(&UnityEngine::UI::Mask::OnSiblingGraphicEnabledDisabled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mask*), "OnSiblingGraphicEnabledDisabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Mask*), "OnSiblingGraphicEnabledDisabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Mask::IsRaycastLocationValid
+// Writing MetadataGetter for method: UnityEngine::UI::Mask::IsRaycastLocationValid
 // Il2CppName: IsRaycastLocationValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mask::*)(UnityEngine::Vector2, UnityEngine::Camera*)>(&Mask::IsRaycastLocationValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::Mask::*)(UnityEngine::Vector2, UnityEngine::Camera*)>(&UnityEngine::UI::Mask::IsRaycastLocationValid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mask*), "IsRaycastLocationValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Mask*), "IsRaycastLocationValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
   }
 };
-// Writing MetadataGetter for method: Mask::GetModifiedMaterial
+// Writing MetadataGetter for method: UnityEngine::UI::Mask::GetModifiedMaterial
 // Il2CppName: GetModifiedMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (Mask::*)(UnityEngine::Material*)>(&Mask::GetModifiedMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (UnityEngine::UI::Mask::*)(UnityEngine::Material*)>(&UnityEngine::UI::Mask::GetModifiedMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mask*), "GetModifiedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Mask*), "GetModifiedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
   }
 };
-// Writing MetadataGetter for method: Mask::New_ctor
+// Writing MetadataGetter for method: UnityEngine::UI::Mask::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mask::*)()>(&Mask::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Mask::*)()>(&UnityEngine::UI::Mask::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mask*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Mask*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mask::*)()>(&Mask::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Mask::*)()>(&UnityEngine::UI::Mask::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mask*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Mask*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Mask::OnEnable
+// Writing MetadataGetter for method: UnityEngine::UI::Mask::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mask::*)()>(&Mask::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Mask::*)()>(&UnityEngine::UI::Mask::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mask*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Mask*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Mask::OnDisable
+// Writing MetadataGetter for method: UnityEngine::UI::Mask::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mask::*)()>(&Mask::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Mask::*)()>(&UnityEngine::UI::Mask::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mask*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Mask*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

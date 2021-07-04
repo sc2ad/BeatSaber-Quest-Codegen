@@ -62,19 +62,19 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelSO::$GetBeatmapLevelDataAsync$d__68, "", "BeatmapLevelSO/<GetBeatmapLevelDataAsync>d__68");
-// Writing MetadataGetter for method: BeatmapLevelSO::$GetBeatmapLevelDataAsync$d__68::MoveNext
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSO::$GetBeatmapLevelDataAsync$d__68::MoveNext
 // Il2CppName: MoveNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapLevelSO::$GetBeatmapLevelDataAsync$d__68::*)()>(&BeatmapLevelSO::$GetBeatmapLevelDataAsync$d__68::MoveNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelSO::$GetBeatmapLevelDataAsync$d__68::*)()>(&GlobalNamespace::BeatmapLevelSO::$GetBeatmapLevelDataAsync$d__68::MoveNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapLevelSO::$GetBeatmapLevelDataAsync$d__68), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelSO::$GetBeatmapLevelDataAsync$d__68), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapLevelSO::$GetBeatmapLevelDataAsync$d__68::SetStateMachine
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSO::$GetBeatmapLevelDataAsync$d__68::SetStateMachine
 // Il2CppName: SetStateMachine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapLevelSO::$GetBeatmapLevelDataAsync$d__68::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&BeatmapLevelSO::$GetBeatmapLevelDataAsync$d__68::SetStateMachine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelSO::$GetBeatmapLevelDataAsync$d__68::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&GlobalNamespace::BeatmapLevelSO::$GetBeatmapLevelDataAsync$d__68::SetStateMachine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapLevelSO::$GetBeatmapLevelDataAsync$d__68), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelSO::$GetBeatmapLevelDataAsync$d__68), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
   }
 };

@@ -156,97 +156,97 @@ namespace HMUI {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ColorGradientSlider*, "HMUI", "ColorGradientSlider");
-// Writing MetadataGetter for method: ColorGradientSlider::add_colorDidChangeEvent
+// Writing MetadataGetter for method: HMUI::ColorGradientSlider::add_colorDidChangeEvent
 // Il2CppName: add_colorDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGradientSlider::*)(System::Action_3<HMUI::ColorGradientSlider*, UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>*)>(&ColorGradientSlider::add_colorDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ColorGradientSlider::*)(System::Action_3<HMUI::ColorGradientSlider*, UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>*)>(&HMUI::ColorGradientSlider::add_colorDidChangeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorGradientSlider*), "add_colorDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<HMUI::ColorGradientSlider*, UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ColorGradientSlider*), "add_colorDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<HMUI::ColorGradientSlider*, UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>*>()});
   }
 };
-// Writing MetadataGetter for method: ColorGradientSlider::remove_colorDidChangeEvent
+// Writing MetadataGetter for method: HMUI::ColorGradientSlider::remove_colorDidChangeEvent
 // Il2CppName: remove_colorDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGradientSlider::*)(System::Action_3<HMUI::ColorGradientSlider*, UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>*)>(&ColorGradientSlider::remove_colorDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ColorGradientSlider::*)(System::Action_3<HMUI::ColorGradientSlider*, UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>*)>(&HMUI::ColorGradientSlider::remove_colorDidChangeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorGradientSlider*), "remove_colorDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<HMUI::ColorGradientSlider*, UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ColorGradientSlider*), "remove_colorDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<HMUI::ColorGradientSlider*, UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>*>()});
   }
 };
-// Writing MetadataGetter for method: ColorGradientSlider::SetColors
+// Writing MetadataGetter for method: HMUI::ColorGradientSlider::SetColors
 // Il2CppName: SetColors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGradientSlider::*)(UnityEngine::Color, UnityEngine::Color)>(&ColorGradientSlider::SetColors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ColorGradientSlider::*)(UnityEngine::Color, UnityEngine::Color)>(&HMUI::ColorGradientSlider::SetColors)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorGradientSlider*), "SetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ColorGradientSlider*), "SetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: ColorGradientSlider::HandleNormalizedValueDidChange
+// Writing MetadataGetter for method: HMUI::ColorGradientSlider::HandleNormalizedValueDidChange
 // Il2CppName: HandleNormalizedValueDidChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGradientSlider::*)(HMUI::TextSlider*, float)>(&ColorGradientSlider::HandleNormalizedValueDidChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ColorGradientSlider::*)(HMUI::TextSlider*, float)>(&HMUI::ColorGradientSlider::HandleNormalizedValueDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorGradientSlider*), "HandleNormalizedValueDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TextSlider*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ColorGradientSlider*), "HandleNormalizedValueDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TextSlider*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: ColorGradientSlider::Awake
+// Writing MetadataGetter for method: HMUI::ColorGradientSlider::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGradientSlider::*)()>(&ColorGradientSlider::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ColorGradientSlider::*)()>(&HMUI::ColorGradientSlider::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorGradientSlider*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ColorGradientSlider*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ColorGradientSlider::OnDestroy
+// Writing MetadataGetter for method: HMUI::ColorGradientSlider::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGradientSlider::*)()>(&ColorGradientSlider::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ColorGradientSlider::*)()>(&HMUI::ColorGradientSlider::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorGradientSlider*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ColorGradientSlider*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ColorGradientSlider::UpdateVisuals
+// Writing MetadataGetter for method: HMUI::ColorGradientSlider::UpdateVisuals
 // Il2CppName: UpdateVisuals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGradientSlider::*)()>(&ColorGradientSlider::UpdateVisuals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ColorGradientSlider::*)()>(&HMUI::ColorGradientSlider::UpdateVisuals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorGradientSlider*), "UpdateVisuals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ColorGradientSlider*), "UpdateVisuals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ColorGradientSlider::TextForNormalizedValue
+// Writing MetadataGetter for method: HMUI::ColorGradientSlider::TextForNormalizedValue
 // Il2CppName: TextForNormalizedValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ColorGradientSlider::*)(float)>(&ColorGradientSlider::TextForNormalizedValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HMUI::ColorGradientSlider::*)(float)>(&HMUI::ColorGradientSlider::TextForNormalizedValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorGradientSlider*), "TextForNormalizedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ColorGradientSlider*), "TextForNormalizedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: ColorGradientSlider::OnPointerUp
+// Writing MetadataGetter for method: HMUI::ColorGradientSlider::OnPointerUp
 // Il2CppName: OnPointerUp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGradientSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&ColorGradientSlider::OnPointerUp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ColorGradientSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&HMUI::ColorGradientSlider::OnPointerUp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorGradientSlider*), "OnPointerUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ColorGradientSlider*), "OnPointerUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: ColorGradientSlider::New_ctor
+// Writing MetadataGetter for method: HMUI::ColorGradientSlider::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGradientSlider::*)()>(&ColorGradientSlider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ColorGradientSlider::*)()>(&HMUI::ColorGradientSlider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorGradientSlider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ColorGradientSlider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorGradientSlider::*)()>(&ColorGradientSlider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ColorGradientSlider::*)()>(&HMUI::ColorGradientSlider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorGradientSlider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ColorGradientSlider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ColorGradientSlider::_cctor
+// Writing MetadataGetter for method: HMUI::ColorGradientSlider::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ColorGradientSlider::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&HMUI::ColorGradientSlider::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorGradientSlider*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ColorGradientSlider*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -28,11 +28,11 @@ namespace System::Runtime::CompilerServices {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::INotifyCompletion*, "System.Runtime.CompilerServices", "INotifyCompletion");
-// Writing MetadataGetter for method: INotifyCompletion::OnCompleted
+// Writing MetadataGetter for method: System::Runtime::CompilerServices::INotifyCompletion::OnCompleted
 // Il2CppName: OnCompleted
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (INotifyCompletion::*)(System::Action*)>(&INotifyCompletion::OnCompleted)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::CompilerServices::INotifyCompletion::*)(System::Action*)>(&System::Runtime::CompilerServices::INotifyCompletion::OnCompleted)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INotifyCompletion*), "OnCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::INotifyCompletion*), "OnCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };

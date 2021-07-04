@@ -181,73 +181,73 @@ namespace GlobalNamespace {
   static_assert(sizeof(WaypointsTestMenuViewController) == 0x62);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::WaypointsTestMenuViewController*, "", "WaypointsTestMenuViewController");
-// Writing MetadataGetter for method: WaypointsTestMenuViewController::Start
+// Writing MetadataGetter for method: GlobalNamespace::WaypointsTestMenuViewController::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointsTestMenuViewController::*)()>(&WaypointsTestMenuViewController::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::WaypointsTestMenuViewController::*)()>(&GlobalNamespace::WaypointsTestMenuViewController::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WaypointsTestMenuViewController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointsTestMenuViewController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WaypointsTestMenuViewController::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::WaypointsTestMenuViewController::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointsTestMenuViewController::*)()>(&WaypointsTestMenuViewController::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::WaypointsTestMenuViewController::*)()>(&GlobalNamespace::WaypointsTestMenuViewController::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WaypointsTestMenuViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointsTestMenuViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WaypointsTestMenuViewController::CheckBeatmaps
+// Writing MetadataGetter for method: GlobalNamespace::WaypointsTestMenuViewController::CheckBeatmaps
 // Il2CppName: CheckBeatmaps
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (WaypointsTestMenuViewController::*)(System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelSO*>*)>(&WaypointsTestMenuViewController::CheckBeatmaps)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::WaypointsTestMenuViewController::*)(System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelSO*>*)>(&GlobalNamespace::WaypointsTestMenuViewController::CheckBeatmaps)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WaypointsTestMenuViewController*), "CheckBeatmaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelSO*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointsTestMenuViewController*), "CheckBeatmaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelSO*>*>()});
   }
 };
-// Writing MetadataGetter for method: WaypointsTestMenuViewController::HandleMainGameSceneDidFinish
+// Writing MetadataGetter for method: GlobalNamespace::WaypointsTestMenuViewController::HandleMainGameSceneDidFinish
 // Il2CppName: HandleMainGameSceneDidFinish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointsTestMenuViewController::*)(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*)>(&WaypointsTestMenuViewController::HandleMainGameSceneDidFinish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::WaypointsTestMenuViewController::*)(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*)>(&GlobalNamespace::WaypointsTestMenuViewController::HandleMainGameSceneDidFinish)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WaypointsTestMenuViewController*), "HandleMainGameSceneDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointsTestMenuViewController*), "HandleMainGameSceneDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>()});
   }
 };
-// Writing MetadataGetter for method: WaypointsTestMenuViewController::$Start$b__11_0
+// Writing MetadataGetter for method: GlobalNamespace::WaypointsTestMenuViewController::$Start$b__11_0
 // Il2CppName: <Start>b__11_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointsTestMenuViewController::*)()>(&WaypointsTestMenuViewController::$Start$b__11_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::WaypointsTestMenuViewController::*)()>(&GlobalNamespace::WaypointsTestMenuViewController::$Start$b__11_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WaypointsTestMenuViewController*), "<Start>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointsTestMenuViewController*), "<Start>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WaypointsTestMenuViewController::$Start$b__11_1
+// Writing MetadataGetter for method: GlobalNamespace::WaypointsTestMenuViewController::$Start$b__11_1
 // Il2CppName: <Start>b__11_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointsTestMenuViewController::*)()>(&WaypointsTestMenuViewController::$Start$b__11_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::WaypointsTestMenuViewController::*)()>(&GlobalNamespace::WaypointsTestMenuViewController::$Start$b__11_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WaypointsTestMenuViewController*), "<Start>b__11_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointsTestMenuViewController*), "<Start>b__11_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: WaypointsTestMenuViewController::$HandleMainGameSceneDidFinish$b__14_0
+// Writing MetadataGetter for method: GlobalNamespace::WaypointsTestMenuViewController::$HandleMainGameSceneDidFinish$b__14_0
 // Il2CppName: <HandleMainGameSceneDidFinish>b__14_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointsTestMenuViewController::*)(Zenject::DiContainer*)>(&WaypointsTestMenuViewController::$HandleMainGameSceneDidFinish$b__14_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::WaypointsTestMenuViewController::*)(Zenject::DiContainer*)>(&GlobalNamespace::WaypointsTestMenuViewController::$HandleMainGameSceneDidFinish$b__14_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WaypointsTestMenuViewController*), "<HandleMainGameSceneDidFinish>b__14_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointsTestMenuViewController*), "<HandleMainGameSceneDidFinish>b__14_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
   }
 };
-// Writing MetadataGetter for method: WaypointsTestMenuViewController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::WaypointsTestMenuViewController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointsTestMenuViewController::*)()>(&WaypointsTestMenuViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::WaypointsTestMenuViewController::*)()>(&GlobalNamespace::WaypointsTestMenuViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WaypointsTestMenuViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointsTestMenuViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WaypointsTestMenuViewController::*)()>(&WaypointsTestMenuViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::WaypointsTestMenuViewController::*)()>(&GlobalNamespace::WaypointsTestMenuViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WaypointsTestMenuViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointsTestMenuViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

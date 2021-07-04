@@ -39,27 +39,27 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UISystemProfilerApi*, "UnityEngine", "UISystemProfilerApi");
-// Writing MetadataGetter for method: UISystemProfilerApi::BeginSample
+// Writing MetadataGetter for method: UnityEngine::UISystemProfilerApi::BeginSample
 // Il2CppName: BeginSample
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UISystemProfilerApi::SampleType)>(&UISystemProfilerApi::BeginSample)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UISystemProfilerApi::SampleType)>(&UnityEngine::UISystemProfilerApi::BeginSample)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UISystemProfilerApi*), "BeginSample", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UISystemProfilerApi::SampleType>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UISystemProfilerApi*), "BeginSample", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UISystemProfilerApi::SampleType>()});
   }
 };
-// Writing MetadataGetter for method: UISystemProfilerApi::EndSample
+// Writing MetadataGetter for method: UnityEngine::UISystemProfilerApi::EndSample
 // Il2CppName: EndSample
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UISystemProfilerApi::SampleType)>(&UISystemProfilerApi::EndSample)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UISystemProfilerApi::SampleType)>(&UnityEngine::UISystemProfilerApi::EndSample)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UISystemProfilerApi*), "EndSample", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UISystemProfilerApi::SampleType>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UISystemProfilerApi*), "EndSample", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UISystemProfilerApi::SampleType>()});
   }
 };
-// Writing MetadataGetter for method: UISystemProfilerApi::AddMarker
+// Writing MetadataGetter for method: UnityEngine::UISystemProfilerApi::AddMarker
 // Il2CppName: AddMarker
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::Object*)>(&UISystemProfilerApi::AddMarker)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::Object*)>(&UnityEngine::UISystemProfilerApi::AddMarker)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UISystemProfilerApi*), "AddMarker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UISystemProfilerApi*), "AddMarker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
   }
 };

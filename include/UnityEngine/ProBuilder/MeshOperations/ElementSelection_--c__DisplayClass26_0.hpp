@@ -79,33 +79,33 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static_assert(sizeof(ElementSelection::$$c__DisplayClass26_0) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0*, "UnityEngine.ProBuilder.MeshOperations", "ElementSelection/<>c__DisplayClass26_0");
-// Writing MetadataGetter for method: ElementSelection::$$c__DisplayClass26_0::$FindHoles$b__1
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0::$FindHoles$b__1
 // Il2CppName: <FindHoles>b__1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ElementSelection::$$c__DisplayClass26_0::*)(UnityEngine::ProBuilder::WingedEdge*)>(&ElementSelection::$$c__DisplayClass26_0::$FindHoles$b__1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0::*)(UnityEngine::ProBuilder::WingedEdge*)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0::$FindHoles$b__1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ElementSelection::$$c__DisplayClass26_0*), "<FindHoles>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::WingedEdge*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0*), "<FindHoles>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::WingedEdge*>()});
   }
 };
-// Writing MetadataGetter for method: ElementSelection::$$c__DisplayClass26_0::$FindHoles$b__2
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0::$FindHoles$b__2
 // Il2CppName: <FindHoles>b__2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ElementSelection::$$c__DisplayClass26_0::*)(UnityEngine::ProBuilder::WingedEdge*)>(&ElementSelection::$$c__DisplayClass26_0::$FindHoles$b__2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0::*)(UnityEngine::ProBuilder::WingedEdge*)>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0::$FindHoles$b__2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ElementSelection::$$c__DisplayClass26_0*), "<FindHoles>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::WingedEdge*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0*), "<FindHoles>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::WingedEdge*>()});
   }
 };
-// Writing MetadataGetter for method: ElementSelection::$$c__DisplayClass26_0::New_ctor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ElementSelection::$$c__DisplayClass26_0::*)()>(&ElementSelection::$$c__DisplayClass26_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0::*)()>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ElementSelection::$$c__DisplayClass26_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ElementSelection::$$c__DisplayClass26_0::*)()>(&ElementSelection::$$c__DisplayClass26_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0::*)()>(&UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ElementSelection::$$c__DisplayClass26_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ElementSelection::$$c__DisplayClass26_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

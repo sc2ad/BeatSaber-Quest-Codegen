@@ -117,57 +117,57 @@ namespace Mono::Net::Security {
   static_assert(sizeof(MonoTlsStream) == 0x3D);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MonoTlsStream*, "Mono.Net.Security", "MonoTlsStream");
-// Writing MetadataGetter for method: MonoTlsStream::get_Request
+// Writing MetadataGetter for method: Mono::Net::Security::MonoTlsStream::get_Request
 // Il2CppName: get_Request
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpWebRequest* (MonoTlsStream::*)()>(&MonoTlsStream::get_Request)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpWebRequest* (Mono::Net::Security::MonoTlsStream::*)()>(&Mono::Net::Security::MonoTlsStream::get_Request)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsStream*), "get_Request", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MonoTlsStream*), "get_Request", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MonoTlsStream::get_ExceptionStatus
+// Writing MetadataGetter for method: Mono::Net::Security::MonoTlsStream::get_ExceptionStatus
 // Il2CppName: get_ExceptionStatus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebExceptionStatus (MonoTlsStream::*)()>(&MonoTlsStream::get_ExceptionStatus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebExceptionStatus (Mono::Net::Security::MonoTlsStream::*)()>(&Mono::Net::Security::MonoTlsStream::get_ExceptionStatus)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsStream*), "get_ExceptionStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MonoTlsStream*), "get_ExceptionStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MonoTlsStream::get_CertificateValidationFailed
+// Writing MetadataGetter for method: Mono::Net::Security::MonoTlsStream::get_CertificateValidationFailed
 // Il2CppName: get_CertificateValidationFailed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MonoTlsStream::*)()>(&MonoTlsStream::get_CertificateValidationFailed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Net::Security::MonoTlsStream::*)()>(&Mono::Net::Security::MonoTlsStream::get_CertificateValidationFailed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsStream*), "get_CertificateValidationFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MonoTlsStream*), "get_CertificateValidationFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MonoTlsStream::set_CertificateValidationFailed
+// Writing MetadataGetter for method: Mono::Net::Security::MonoTlsStream::set_CertificateValidationFailed
 // Il2CppName: set_CertificateValidationFailed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoTlsStream::*)(bool)>(&MonoTlsStream::set_CertificateValidationFailed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::MonoTlsStream::*)(bool)>(&Mono::Net::Security::MonoTlsStream::set_CertificateValidationFailed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsStream*), "set_CertificateValidationFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MonoTlsStream*), "set_CertificateValidationFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MonoTlsStream::New_ctor
+// Writing MetadataGetter for method: Mono::Net::Security::MonoTlsStream::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoTlsStream::*)(System::Net::HttpWebRequest*, System::Net::Sockets::NetworkStream*)>(&MonoTlsStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::MonoTlsStream::*)(System::Net::HttpWebRequest*, System::Net::Sockets::NetworkStream*)>(&Mono::Net::Security::MonoTlsStream::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::NetworkStream*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MonoTlsStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::NetworkStream*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MonoTlsStream::*)(System::Net::HttpWebRequest*, System::Net::Sockets::NetworkStream*)>(&MonoTlsStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::MonoTlsStream::*)(System::Net::HttpWebRequest*, System::Net::Sockets::NetworkStream*)>(&Mono::Net::Security::MonoTlsStream::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::NetworkStream*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MonoTlsStream*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::NetworkStream*>()});
   }
 };
-// Writing MetadataGetter for method: MonoTlsStream::CreateStream
+// Writing MetadataGetter for method: Mono::Net::Security::MonoTlsStream::CreateStream
 // Il2CppName: CreateStream
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (MonoTlsStream::*)(::Array<uint8_t>*)>(&MonoTlsStream::CreateStream)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (Mono::Net::Security::MonoTlsStream::*)(::Array<uint8_t>*)>(&Mono::Net::Security::MonoTlsStream::CreateStream)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MonoTlsStream*), "CreateStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MonoTlsStream*), "CreateStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };

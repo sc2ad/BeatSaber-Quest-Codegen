@@ -126,57 +126,57 @@ namespace GlobalNamespace {
   static_assert(sizeof(AudioPitchGainEffect) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioPitchGainEffect*, "", "AudioPitchGainEffect");
-// Writing MetadataGetter for method: AudioPitchGainEffect::Start
+// Writing MetadataGetter for method: GlobalNamespace::AudioPitchGainEffect::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioPitchGainEffect::*)()>(&AudioPitchGainEffect::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioPitchGainEffect::*)()>(&GlobalNamespace::AudioPitchGainEffect::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioPitchGainEffect*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioPitchGainEffect*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AudioPitchGainEffect::StartEffectCoroutine
+// Writing MetadataGetter for method: GlobalNamespace::AudioPitchGainEffect::StartEffectCoroutine
 // Il2CppName: StartEffectCoroutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (AudioPitchGainEffect::*)(float, System::Action*)>(&AudioPitchGainEffect::StartEffectCoroutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::AudioPitchGainEffect::*)(float, System::Action*)>(&GlobalNamespace::AudioPitchGainEffect::StartEffectCoroutine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioPitchGainEffect*), "StartEffectCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioPitchGainEffect*), "StartEffectCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: AudioPitchGainEffect::StartEffect
+// Writing MetadataGetter for method: GlobalNamespace::AudioPitchGainEffect::StartEffect
 // Il2CppName: StartEffect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioPitchGainEffect::*)(float, System::Action*)>(&AudioPitchGainEffect::StartEffect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioPitchGainEffect::*)(float, System::Action*)>(&GlobalNamespace::AudioPitchGainEffect::StartEffect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioPitchGainEffect*), "StartEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioPitchGainEffect*), "StartEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: AudioPitchGainEffect::InterruptEffect
+// Writing MetadataGetter for method: GlobalNamespace::AudioPitchGainEffect::InterruptEffect
 // Il2CppName: InterruptEffect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioPitchGainEffect::*)()>(&AudioPitchGainEffect::InterruptEffect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioPitchGainEffect::*)()>(&GlobalNamespace::AudioPitchGainEffect::InterruptEffect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioPitchGainEffect*), "InterruptEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioPitchGainEffect*), "InterruptEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AudioPitchGainEffect::SetAudioSource
+// Writing MetadataGetter for method: GlobalNamespace::AudioPitchGainEffect::SetAudioSource
 // Il2CppName: SetAudioSource
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioPitchGainEffect::*)(UnityEngine::AudioSource*)>(&AudioPitchGainEffect::SetAudioSource)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioPitchGainEffect::*)(UnityEngine::AudioSource*)>(&GlobalNamespace::AudioPitchGainEffect::SetAudioSource)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioPitchGainEffect*), "SetAudioSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioSource*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioPitchGainEffect*), "SetAudioSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioSource*>()});
   }
 };
-// Writing MetadataGetter for method: AudioPitchGainEffect::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::AudioPitchGainEffect::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioPitchGainEffect::*)()>(&AudioPitchGainEffect::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioPitchGainEffect::*)()>(&GlobalNamespace::AudioPitchGainEffect::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioPitchGainEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioPitchGainEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioPitchGainEffect::*)()>(&AudioPitchGainEffect::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioPitchGainEffect::*)()>(&GlobalNamespace::AudioPitchGainEffect::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioPitchGainEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioPitchGainEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

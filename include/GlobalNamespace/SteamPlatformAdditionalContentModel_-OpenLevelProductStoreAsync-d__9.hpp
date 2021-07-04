@@ -71,19 +71,19 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamPlatformAdditionalContentModel::$OpenLevelProductStoreAsync$d__9, "", "SteamPlatformAdditionalContentModel/<OpenLevelProductStoreAsync>d__9");
-// Writing MetadataGetter for method: SteamPlatformAdditionalContentModel::$OpenLevelProductStoreAsync$d__9::MoveNext
+// Writing MetadataGetter for method: GlobalNamespace::SteamPlatformAdditionalContentModel::$OpenLevelProductStoreAsync$d__9::MoveNext
 // Il2CppName: MoveNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamPlatformAdditionalContentModel::$OpenLevelProductStoreAsync$d__9::*)()>(&SteamPlatformAdditionalContentModel::$OpenLevelProductStoreAsync$d__9::MoveNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamPlatformAdditionalContentModel::$OpenLevelProductStoreAsync$d__9::*)()>(&GlobalNamespace::SteamPlatformAdditionalContentModel::$OpenLevelProductStoreAsync$d__9::MoveNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamPlatformAdditionalContentModel::$OpenLevelProductStoreAsync$d__9), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamPlatformAdditionalContentModel::$OpenLevelProductStoreAsync$d__9), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SteamPlatformAdditionalContentModel::$OpenLevelProductStoreAsync$d__9::SetStateMachine
+// Writing MetadataGetter for method: GlobalNamespace::SteamPlatformAdditionalContentModel::$OpenLevelProductStoreAsync$d__9::SetStateMachine
 // Il2CppName: SetStateMachine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SteamPlatformAdditionalContentModel::$OpenLevelProductStoreAsync$d__9::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&SteamPlatformAdditionalContentModel::$OpenLevelProductStoreAsync$d__9::SetStateMachine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamPlatformAdditionalContentModel::$OpenLevelProductStoreAsync$d__9::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&GlobalNamespace::SteamPlatformAdditionalContentModel::$OpenLevelProductStoreAsync$d__9::SetStateMachine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SteamPlatformAdditionalContentModel::$OpenLevelProductStoreAsync$d__9), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamPlatformAdditionalContentModel::$OpenLevelProductStoreAsync$d__9), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
   }
 };

@@ -53,33 +53,33 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::NullBindingFinalizer*, "Zenject", "NullBindingFinalizer");
-// Writing MetadataGetter for method: NullBindingFinalizer::get_BindingInheritanceMethod
+// Writing MetadataGetter for method: Zenject::NullBindingFinalizer::get_BindingInheritanceMethod
 // Il2CppName: get_BindingInheritanceMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindingInheritanceMethods (NullBindingFinalizer::*)()>(&NullBindingFinalizer::get_BindingInheritanceMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindingInheritanceMethods (Zenject::NullBindingFinalizer::*)()>(&Zenject::NullBindingFinalizer::get_BindingInheritanceMethod)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NullBindingFinalizer*), "get_BindingInheritanceMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::NullBindingFinalizer*), "get_BindingInheritanceMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NullBindingFinalizer::FinalizeBinding
+// Writing MetadataGetter for method: Zenject::NullBindingFinalizer::FinalizeBinding
 // Il2CppName: FinalizeBinding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NullBindingFinalizer::*)(Zenject::DiContainer*)>(&NullBindingFinalizer::FinalizeBinding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::NullBindingFinalizer::*)(Zenject::DiContainer*)>(&Zenject::NullBindingFinalizer::FinalizeBinding)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NullBindingFinalizer*), "FinalizeBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::NullBindingFinalizer*), "FinalizeBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
   }
 };
-// Writing MetadataGetter for method: NullBindingFinalizer::New_ctor
+// Writing MetadataGetter for method: Zenject::NullBindingFinalizer::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NullBindingFinalizer::*)()>(&NullBindingFinalizer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::NullBindingFinalizer::*)()>(&Zenject::NullBindingFinalizer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NullBindingFinalizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::NullBindingFinalizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NullBindingFinalizer::*)()>(&NullBindingFinalizer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::NullBindingFinalizer::*)()>(&Zenject::NullBindingFinalizer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NullBindingFinalizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::NullBindingFinalizer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

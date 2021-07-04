@@ -71,33 +71,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerActivePlayersTimeOffsetAverage) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage*, "", "MultiplayerActivePlayersTimeOffsetAverage");
-// Writing MetadataGetter for method: MultiplayerActivePlayersTimeOffsetAverage::get_offsetSyncTime
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage::get_offsetSyncTime
 // Il2CppName: get_offsetSyncTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (MultiplayerActivePlayersTimeOffsetAverage::*)()>(&MultiplayerActivePlayersTimeOffsetAverage::get_offsetSyncTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage::*)()>(&GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage::get_offsetSyncTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerActivePlayersTimeOffsetAverage*), "get_offsetSyncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage*), "get_offsetSyncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerActivePlayersTimeOffsetAverage::get_isFailed
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage::get_isFailed
 // Il2CppName: get_isFailed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MultiplayerActivePlayersTimeOffsetAverage::*)()>(&MultiplayerActivePlayersTimeOffsetAverage::get_isFailed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage::*)()>(&GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage::get_isFailed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerActivePlayersTimeOffsetAverage*), "get_isFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage*), "get_isFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerActivePlayersTimeOffsetAverage::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerActivePlayersTimeOffsetAverage::*)()>(&MultiplayerActivePlayersTimeOffsetAverage::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage::*)()>(&GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerActivePlayersTimeOffsetAverage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerActivePlayersTimeOffsetAverage::*)()>(&MultiplayerActivePlayersTimeOffsetAverage::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage::*)()>(&GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerActivePlayersTimeOffsetAverage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

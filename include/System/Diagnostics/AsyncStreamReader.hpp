@@ -99,27 +99,27 @@ namespace System::Diagnostics {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::AsyncStreamReader*, "System.Diagnostics", "AsyncStreamReader");
-// Writing MetadataGetter for method: AsyncStreamReader::Close
+// Writing MetadataGetter for method: System::Diagnostics::AsyncStreamReader::Close
 // Il2CppName: Close
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncStreamReader::*)()>(&AsyncStreamReader::Close)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::AsyncStreamReader::*)()>(&System::Diagnostics::AsyncStreamReader::Close)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncStreamReader*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::AsyncStreamReader*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AsyncStreamReader::Dispose
+// Writing MetadataGetter for method: System::Diagnostics::AsyncStreamReader::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncStreamReader::*)(bool)>(&AsyncStreamReader::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::AsyncStreamReader::*)(bool)>(&System::Diagnostics::AsyncStreamReader::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncStreamReader*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::AsyncStreamReader*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AsyncStreamReader::CancelOperation
+// Writing MetadataGetter for method: System::Diagnostics::AsyncStreamReader::CancelOperation
 // Il2CppName: CancelOperation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AsyncStreamReader::*)()>(&AsyncStreamReader::CancelOperation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::AsyncStreamReader::*)()>(&System::Diagnostics::AsyncStreamReader::CancelOperation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncStreamReader*), "CancelOperation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::AsyncStreamReader*), "CancelOperation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

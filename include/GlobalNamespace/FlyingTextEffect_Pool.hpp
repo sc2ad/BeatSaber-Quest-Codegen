@@ -36,17 +36,17 @@ namespace GlobalNamespace {
   }; // FlyingTextEffect/Pool
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingTextEffect::Pool*, "", "FlyingTextEffect/Pool");
-// Writing MetadataGetter for method: FlyingTextEffect::Pool::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::FlyingTextEffect::Pool::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingTextEffect::Pool::*)()>(&FlyingTextEffect::Pool::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingTextEffect::Pool::*)()>(&GlobalNamespace::FlyingTextEffect::Pool::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FlyingTextEffect::Pool*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingTextEffect::Pool*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FlyingTextEffect::Pool::*)()>(&FlyingTextEffect::Pool::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingTextEffect::Pool::*)()>(&GlobalNamespace::FlyingTextEffect::Pool::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FlyingTextEffect::Pool*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingTextEffect::Pool*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

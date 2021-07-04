@@ -45,6 +45,6 @@ namespace System::Diagnostics::Contracts {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Contracts::Contract*, "System.Diagnostics.Contracts", "Contract");
-// Writing MetadataGetter for method: Contract::ForAll
+// Writing MetadataGetter for method: System::Diagnostics::Contracts::Contract::ForAll
 // Il2CppName: ForAll
 // Cannot write MetadataGetter for generic methods!

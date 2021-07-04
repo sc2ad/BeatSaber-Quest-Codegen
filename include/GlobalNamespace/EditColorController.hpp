@@ -164,121 +164,121 @@ namespace GlobalNamespace {
   static_assert(sizeof(EditColorController) == 0xB9);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditColorController*, "", "EditColorController");
-// Writing MetadataGetter for method: EditColorController::add_didChangeColorEvent
+// Writing MetadataGetter for method: GlobalNamespace::EditColorController::add_didChangeColorEvent
 // Il2CppName: add_didChangeColorEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditColorController::*)(System::Action_1<UnityEngine::Color>*)>(&EditColorController::add_didChangeColorEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditColorController::*)(System::Action_1<UnityEngine::Color>*)>(&GlobalNamespace::EditColorController::add_didChangeColorEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditColorController*), "add_didChangeColorEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Color>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditColorController*), "add_didChangeColorEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Color>*>()});
   }
 };
-// Writing MetadataGetter for method: EditColorController::remove_didChangeColorEvent
+// Writing MetadataGetter for method: GlobalNamespace::EditColorController::remove_didChangeColorEvent
 // Il2CppName: remove_didChangeColorEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditColorController::*)(System::Action_1<UnityEngine::Color>*)>(&EditColorController::remove_didChangeColorEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditColorController::*)(System::Action_1<UnityEngine::Color>*)>(&GlobalNamespace::EditColorController::remove_didChangeColorEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditColorController*), "remove_didChangeColorEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Color>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditColorController*), "remove_didChangeColorEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Color>*>()});
   }
 };
-// Writing MetadataGetter for method: EditColorController::add_didFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::EditColorController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditColorController::*)(System::Action_1<bool>*)>(&EditColorController::add_didFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditColorController::*)(System::Action_1<bool>*)>(&GlobalNamespace::EditColorController::add_didFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditColorController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditColorController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
   }
 };
-// Writing MetadataGetter for method: EditColorController::remove_didFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::EditColorController::remove_didFinishEvent
 // Il2CppName: remove_didFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditColorController::*)(System::Action_1<bool>*)>(&EditColorController::remove_didFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditColorController::*)(System::Action_1<bool>*)>(&GlobalNamespace::EditColorController::remove_didFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditColorController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditColorController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<bool>*>()});
   }
 };
-// Writing MetadataGetter for method: EditColorController::SetColorCallback
+// Writing MetadataGetter for method: GlobalNamespace::EditColorController::SetColorCallback
 // Il2CppName: SetColorCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditColorController::*)(System::Action_1<UnityEngine::Color>*)>(&EditColorController::SetColorCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditColorController::*)(System::Action_1<UnityEngine::Color>*)>(&GlobalNamespace::EditColorController::SetColorCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditColorController*), "SetColorCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Color>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditColorController*), "SetColorCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Color>*>()});
   }
 };
-// Writing MetadataGetter for method: EditColorController::SetColor
+// Writing MetadataGetter for method: GlobalNamespace::EditColorController::SetColor
 // Il2CppName: SetColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditColorController::*)(UnityEngine::Color)>(&EditColorController::SetColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditColorController::*)(UnityEngine::Color)>(&GlobalNamespace::EditColorController::SetColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditColorController*), "SetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditColorController*), "SetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: EditColorController::HandleHSVPanelControllerColorDidChange
+// Writing MetadataGetter for method: GlobalNamespace::EditColorController::HandleHSVPanelControllerColorDidChange
 // Il2CppName: HandleHSVPanelControllerColorDidChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditColorController::*)(UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType)>(&EditColorController::HandleHSVPanelControllerColorDidChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditColorController::*)(UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType)>(&GlobalNamespace::EditColorController::HandleHSVPanelControllerColorDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditColorController*), "HandleHSVPanelControllerColorDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorChangeUIEventType>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditColorController*), "HandleHSVPanelControllerColorDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorChangeUIEventType>()});
   }
 };
-// Writing MetadataGetter for method: EditColorController::HandlePreviousColorPanelControllerColorWasSelected
+// Writing MetadataGetter for method: GlobalNamespace::EditColorController::HandlePreviousColorPanelControllerColorWasSelected
 // Il2CppName: HandlePreviousColorPanelControllerColorWasSelected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditColorController::*)(UnityEngine::Color)>(&EditColorController::HandlePreviousColorPanelControllerColorWasSelected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditColorController::*)(UnityEngine::Color)>(&GlobalNamespace::EditColorController::HandlePreviousColorPanelControllerColorWasSelected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditColorController*), "HandlePreviousColorPanelControllerColorWasSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditColorController*), "HandlePreviousColorPanelControllerColorWasSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: EditColorController::HandleCancelButtonWasPressed
+// Writing MetadataGetter for method: GlobalNamespace::EditColorController::HandleCancelButtonWasPressed
 // Il2CppName: HandleCancelButtonWasPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditColorController::*)()>(&EditColorController::HandleCancelButtonWasPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditColorController::*)()>(&GlobalNamespace::EditColorController::HandleCancelButtonWasPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditColorController*), "HandleCancelButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditColorController*), "HandleCancelButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EditColorController::HandleApplyButtonWasPressed
+// Writing MetadataGetter for method: GlobalNamespace::EditColorController::HandleApplyButtonWasPressed
 // Il2CppName: HandleApplyButtonWasPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditColorController::*)()>(&EditColorController::HandleApplyButtonWasPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditColorController::*)()>(&GlobalNamespace::EditColorController::HandleApplyButtonWasPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditColorController*), "HandleApplyButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditColorController*), "HandleApplyButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EditColorController::ChangeColor
+// Writing MetadataGetter for method: GlobalNamespace::EditColorController::ChangeColor
 // Il2CppName: ChangeColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditColorController::*)(UnityEngine::Color)>(&EditColorController::ChangeColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditColorController::*)(UnityEngine::Color)>(&GlobalNamespace::EditColorController::ChangeColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditColorController*), "ChangeColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditColorController*), "ChangeColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: EditColorController::DidActivate
+// Writing MetadataGetter for method: GlobalNamespace::EditColorController::DidActivate
 // Il2CppName: DidActivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditColorController::*)(bool, bool, bool)>(&EditColorController::DidActivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditColorController::*)(bool, bool, bool)>(&GlobalNamespace::EditColorController::DidActivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditColorController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditColorController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: EditColorController::DidDeactivate
+// Writing MetadataGetter for method: GlobalNamespace::EditColorController::DidDeactivate
 // Il2CppName: DidDeactivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditColorController::*)(bool, bool)>(&EditColorController::DidDeactivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditColorController::*)(bool, bool)>(&GlobalNamespace::EditColorController::DidDeactivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditColorController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditColorController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: EditColorController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::EditColorController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditColorController::*)()>(&EditColorController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditColorController::*)()>(&GlobalNamespace::EditColorController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditColorController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditColorController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EditColorController::*)()>(&EditColorController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditColorController::*)()>(&GlobalNamespace::EditColorController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EditColorController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditColorController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

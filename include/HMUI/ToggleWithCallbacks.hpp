@@ -135,49 +135,49 @@ namespace HMUI {
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ToggleWithCallbacks*, "HMUI", "ToggleWithCallbacks");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ToggleWithCallbacks::SelectionState, "HMUI", "ToggleWithCallbacks/SelectionState");
-// Writing MetadataGetter for method: ToggleWithCallbacks::add_stateDidChangeEvent
+// Writing MetadataGetter for method: HMUI::ToggleWithCallbacks::add_stateDidChangeEvent
 // Il2CppName: add_stateDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ToggleWithCallbacks::*)(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>*)>(&ToggleWithCallbacks::add_stateDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ToggleWithCallbacks::*)(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>*)>(&HMUI::ToggleWithCallbacks::add_stateDidChangeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ToggleWithCallbacks*), "add_stateDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ToggleWithCallbacks*), "add_stateDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>*>()});
   }
 };
-// Writing MetadataGetter for method: ToggleWithCallbacks::remove_stateDidChangeEvent
+// Writing MetadataGetter for method: HMUI::ToggleWithCallbacks::remove_stateDidChangeEvent
 // Il2CppName: remove_stateDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ToggleWithCallbacks::*)(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>*)>(&ToggleWithCallbacks::remove_stateDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ToggleWithCallbacks::*)(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>*)>(&HMUI::ToggleWithCallbacks::remove_stateDidChangeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ToggleWithCallbacks*), "remove_stateDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ToggleWithCallbacks*), "remove_stateDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>*>()});
   }
 };
-// Writing MetadataGetter for method: ToggleWithCallbacks::get_selectionState
+// Writing MetadataGetter for method: HMUI::ToggleWithCallbacks::get_selectionState
 // Il2CppName: get_selectionState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ToggleWithCallbacks::SelectionState (ToggleWithCallbacks::*)()>(&ToggleWithCallbacks::get_selectionState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ToggleWithCallbacks::SelectionState (HMUI::ToggleWithCallbacks::*)()>(&HMUI::ToggleWithCallbacks::get_selectionState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ToggleWithCallbacks*), "get_selectionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ToggleWithCallbacks*), "get_selectionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ToggleWithCallbacks::DoStateTransition
+// Writing MetadataGetter for method: HMUI::ToggleWithCallbacks::DoStateTransition
 // Il2CppName: DoStateTransition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ToggleWithCallbacks::*)(UnityEngine::UI::Selectable::SelectionState, bool)>(&ToggleWithCallbacks::DoStateTransition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ToggleWithCallbacks::*)(UnityEngine::UI::Selectable::SelectionState, bool)>(&HMUI::ToggleWithCallbacks::DoStateTransition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ToggleWithCallbacks*), "DoStateTransition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Selectable::SelectionState>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ToggleWithCallbacks*), "DoStateTransition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Selectable::SelectionState>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ToggleWithCallbacks::New_ctor
+// Writing MetadataGetter for method: HMUI::ToggleWithCallbacks::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ToggleWithCallbacks::*)()>(&ToggleWithCallbacks::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ToggleWithCallbacks::*)()>(&HMUI::ToggleWithCallbacks::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ToggleWithCallbacks*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ToggleWithCallbacks*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ToggleWithCallbacks::*)()>(&ToggleWithCallbacks::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ToggleWithCallbacks::*)()>(&HMUI::ToggleWithCallbacks::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ToggleWithCallbacks*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ToggleWithCallbacks*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

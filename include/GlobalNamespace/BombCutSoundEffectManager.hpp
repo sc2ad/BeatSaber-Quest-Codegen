@@ -117,49 +117,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(BombCutSoundEffectManager) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombCutSoundEffectManager*, "", "BombCutSoundEffectManager");
-// Writing MetadataGetter for method: BombCutSoundEffectManager::Start
+// Writing MetadataGetter for method: GlobalNamespace::BombCutSoundEffectManager::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BombCutSoundEffectManager::*)()>(&BombCutSoundEffectManager::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BombCutSoundEffectManager::*)()>(&GlobalNamespace::BombCutSoundEffectManager::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BombCutSoundEffectManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BombCutSoundEffectManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BombCutSoundEffectManager::HandleNoteWasCut
+// Writing MetadataGetter for method: GlobalNamespace::BombCutSoundEffectManager::HandleNoteWasCut
 // Il2CppName: HandleNoteWasCut
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BombCutSoundEffectManager::*)(GlobalNamespace::NoteController*, GlobalNamespace::NoteCutInfo&)>(&BombCutSoundEffectManager::HandleNoteWasCut)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BombCutSoundEffectManager::*)(GlobalNamespace::NoteController*, GlobalNamespace::NoteCutInfo&)>(&GlobalNamespace::BombCutSoundEffectManager::HandleNoteWasCut)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BombCutSoundEffectManager*), "HandleNoteWasCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BombCutSoundEffectManager*), "HandleNoteWasCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>()});
   }
 };
-// Writing MetadataGetter for method: BombCutSoundEffectManager::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::BombCutSoundEffectManager::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BombCutSoundEffectManager::*)()>(&BombCutSoundEffectManager::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BombCutSoundEffectManager::*)()>(&GlobalNamespace::BombCutSoundEffectManager::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BombCutSoundEffectManager*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BombCutSoundEffectManager*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BombCutSoundEffectManager::HandleBombCutSoundEffectDidFinish
+// Writing MetadataGetter for method: GlobalNamespace::BombCutSoundEffectManager::HandleBombCutSoundEffectDidFinish
 // Il2CppName: HandleBombCutSoundEffectDidFinish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BombCutSoundEffectManager::*)(GlobalNamespace::BombCutSoundEffect*)>(&BombCutSoundEffectManager::HandleBombCutSoundEffectDidFinish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BombCutSoundEffectManager::*)(GlobalNamespace::BombCutSoundEffect*)>(&GlobalNamespace::BombCutSoundEffectManager::HandleBombCutSoundEffectDidFinish)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BombCutSoundEffectManager*), "HandleBombCutSoundEffectDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BombCutSoundEffect*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BombCutSoundEffectManager*), "HandleBombCutSoundEffectDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BombCutSoundEffect*>()});
   }
 };
-// Writing MetadataGetter for method: BombCutSoundEffectManager::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BombCutSoundEffectManager::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BombCutSoundEffectManager::*)()>(&BombCutSoundEffectManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BombCutSoundEffectManager::*)()>(&GlobalNamespace::BombCutSoundEffectManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BombCutSoundEffectManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BombCutSoundEffectManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BombCutSoundEffectManager::*)()>(&BombCutSoundEffectManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BombCutSoundEffectManager::*)()>(&GlobalNamespace::BombCutSoundEffectManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BombCutSoundEffectManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BombCutSoundEffectManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

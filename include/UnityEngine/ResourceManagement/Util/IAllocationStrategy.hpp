@@ -34,19 +34,19 @@ namespace UnityEngine::ResourceManagement::Util {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::IAllocationStrategy*, "UnityEngine.ResourceManagement.Util", "IAllocationStrategy");
-// Writing MetadataGetter for method: IAllocationStrategy::New
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::IAllocationStrategy::New
 // Il2CppName: New
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (IAllocationStrategy::*)(System::Type*, int)>(&IAllocationStrategy::New)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (UnityEngine::ResourceManagement::Util::IAllocationStrategy::*)(System::Type*, int)>(&UnityEngine::ResourceManagement::Util::IAllocationStrategy::New)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IAllocationStrategy*), "New", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::IAllocationStrategy*), "New", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: IAllocationStrategy::Release
+// Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::IAllocationStrategy::Release
 // Il2CppName: Release
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IAllocationStrategy::*)(int, ::Il2CppObject*)>(&IAllocationStrategy::Release)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::Util::IAllocationStrategy::*)(int, ::Il2CppObject*)>(&UnityEngine::ResourceManagement::Util::IAllocationStrategy::Release)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IAllocationStrategy*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::IAllocationStrategy*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };

@@ -190,105 +190,105 @@ namespace GlobalNamespace {
   static_assert(sizeof(IntroTutorialController) == 0x6B);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IntroTutorialController*, "", "IntroTutorialController");
-// Writing MetadataGetter for method: IntroTutorialController::add_introTutorialDidFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::IntroTutorialController::add_introTutorialDidFinishEvent
 // Il2CppName: add_introTutorialDidFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialController::*)(System::Action*)>(&IntroTutorialController::add_introTutorialDidFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntroTutorialController::*)(System::Action*)>(&GlobalNamespace::IntroTutorialController::add_introTutorialDidFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntroTutorialController*), "add_introTutorialDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialController*), "add_introTutorialDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: IntroTutorialController::remove_introTutorialDidFinishEvent
+// Writing MetadataGetter for method: GlobalNamespace::IntroTutorialController::remove_introTutorialDidFinishEvent
 // Il2CppName: remove_introTutorialDidFinishEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialController::*)(System::Action*)>(&IntroTutorialController::remove_introTutorialDidFinishEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntroTutorialController::*)(System::Action*)>(&GlobalNamespace::IntroTutorialController::remove_introTutorialDidFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntroTutorialController*), "remove_introTutorialDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialController*), "remove_introTutorialDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: IntroTutorialController::Start
+// Writing MetadataGetter for method: GlobalNamespace::IntroTutorialController::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialController::*)()>(&IntroTutorialController::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntroTutorialController::*)()>(&GlobalNamespace::IntroTutorialController::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntroTutorialController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IntroTutorialController::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::IntroTutorialController::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialController::*)()>(&IntroTutorialController::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntroTutorialController::*)()>(&GlobalNamespace::IntroTutorialController::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntroTutorialController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IntroTutorialController::Update
+// Writing MetadataGetter for method: GlobalNamespace::IntroTutorialController::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialController::*)()>(&IntroTutorialController::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntroTutorialController::*)()>(&GlobalNamespace::IntroTutorialController::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntroTutorialController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IntroTutorialController::CleanUp
+// Writing MetadataGetter for method: GlobalNamespace::IntroTutorialController::CleanUp
 // Il2CppName: CleanUp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialController::*)()>(&IntroTutorialController::CleanUp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntroTutorialController::*)()>(&GlobalNamespace::IntroTutorialController::CleanUp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntroTutorialController*), "CleanUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialController*), "CleanUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IntroTutorialController::HandleGameDidPause
+// Writing MetadataGetter for method: GlobalNamespace::IntroTutorialController::HandleGameDidPause
 // Il2CppName: HandleGameDidPause
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialController::*)()>(&IntroTutorialController::HandleGameDidPause)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntroTutorialController::*)()>(&GlobalNamespace::IntroTutorialController::HandleGameDidPause)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntroTutorialController*), "HandleGameDidPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialController*), "HandleGameDidPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IntroTutorialController::HandlegameDidResume
+// Writing MetadataGetter for method: GlobalNamespace::IntroTutorialController::HandlegameDidResume
 // Il2CppName: HandlegameDidResume
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialController::*)()>(&IntroTutorialController::HandlegameDidResume)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntroTutorialController::*)()>(&GlobalNamespace::IntroTutorialController::HandlegameDidResume)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntroTutorialController*), "HandlegameDidResume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialController*), "HandlegameDidResume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IntroTutorialController::ShowFinishAnimation
+// Writing MetadataGetter for method: GlobalNamespace::IntroTutorialController::ShowFinishAnimation
 // Il2CppName: ShowFinishAnimation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialController::*)()>(&IntroTutorialController::ShowFinishAnimation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntroTutorialController::*)()>(&GlobalNamespace::IntroTutorialController::ShowFinishAnimation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntroTutorialController*), "ShowFinishAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialController*), "ShowFinishAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IntroTutorialController::ShowFinishAnimationCoroutine
+// Writing MetadataGetter for method: GlobalNamespace::IntroTutorialController::ShowFinishAnimationCoroutine
 // Il2CppName: ShowFinishAnimationCoroutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (IntroTutorialController::*)()>(&IntroTutorialController::ShowFinishAnimationCoroutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::IntroTutorialController::*)()>(&GlobalNamespace::IntroTutorialController::ShowFinishAnimationCoroutine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntroTutorialController*), "ShowFinishAnimationCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialController*), "ShowFinishAnimationCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IntroTutorialController::SetFinishAnimationParams
+// Writing MetadataGetter for method: GlobalNamespace::IntroTutorialController::SetFinishAnimationParams
 // Il2CppName: SetFinishAnimationParams
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialController::*)(float)>(&IntroTutorialController::SetFinishAnimationParams)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntroTutorialController::*)(float)>(&GlobalNamespace::IntroTutorialController::SetFinishAnimationParams)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntroTutorialController*), "SetFinishAnimationParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialController*), "SetFinishAnimationParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: IntroTutorialController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::IntroTutorialController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialController::*)()>(&IntroTutorialController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntroTutorialController::*)()>(&GlobalNamespace::IntroTutorialController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntroTutorialController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialController::*)()>(&IntroTutorialController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntroTutorialController::*)()>(&GlobalNamespace::IntroTutorialController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntroTutorialController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

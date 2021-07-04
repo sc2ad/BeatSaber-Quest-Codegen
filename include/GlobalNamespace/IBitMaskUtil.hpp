@@ -100,45 +100,45 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBitMaskUtil*, "", "IBitMaskUtil");
-// Writing MetadataGetter for method: IBitMaskUtil::NumberOfSetBits
+// Writing MetadataGetter for method: GlobalNamespace::IBitMaskUtil::NumberOfSetBits
 // Il2CppName: NumberOfSetBits
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: IBitMaskUtil::ToShortString
+// Writing MetadataGetter for method: GlobalNamespace::IBitMaskUtil::ToShortString
 // Il2CppName: ToShortString
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: IBitMaskUtil::ToBytes
+// Writing MetadataGetter for method: GlobalNamespace::IBitMaskUtil::ToBytes
 // Il2CppName: ToBytes
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: IBitMaskUtil::TryParse
+// Writing MetadataGetter for method: GlobalNamespace::IBitMaskUtil::TryParse
 // Il2CppName: TryParse
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: IBitMaskUtil::TryParse
+// Writing MetadataGetter for method: GlobalNamespace::IBitMaskUtil::TryParse
 // Il2CppName: TryParse
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: IBitMaskUtil::FromBytes
+// Writing MetadataGetter for method: GlobalNamespace::IBitMaskUtil::FromBytes
 // Il2CppName: FromBytes
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: IBitMaskUtil::GetHexDigit
+// Writing MetadataGetter for method: GlobalNamespace::IBitMaskUtil::GetHexDigit
 // Il2CppName: GetHexDigit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Il2CppChar)>(&IBitMaskUtil::GetHexDigit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Il2CppChar)>(&GlobalNamespace::IBitMaskUtil::GetHexDigit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IBitMaskUtil*), "GetHexDigit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBitMaskUtil*), "GetHexDigit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
   }
 };
-// Writing MetadataGetter for method: IBitMaskUtil::GetBase64Digit
+// Writing MetadataGetter for method: GlobalNamespace::IBitMaskUtil::GetBase64Digit
 // Il2CppName: GetBase64Digit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Il2CppChar)>(&IBitMaskUtil::GetBase64Digit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Il2CppChar)>(&GlobalNamespace::IBitMaskUtil::GetBase64Digit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IBitMaskUtil*), "GetBase64Digit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBitMaskUtil*), "GetBase64Digit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
   }
 };
-// Writing MetadataGetter for method: IBitMaskUtil::GetBase64Char
+// Writing MetadataGetter for method: GlobalNamespace::IBitMaskUtil::GetBase64Char
 // Il2CppName: GetBase64Char
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(uint64_t)>(&IBitMaskUtil::GetBase64Char)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(uint64_t)>(&GlobalNamespace::IBitMaskUtil::GetBase64Char)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IBitMaskUtil*), "GetBase64Char", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBitMaskUtil*), "GetBase64Char", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };

@@ -148,73 +148,73 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnvironmentOverrideSettingsPanelController) == 0x51);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentOverrideSettingsPanelController*, "", "EnvironmentOverrideSettingsPanelController");
-// Writing MetadataGetter for method: EnvironmentOverrideSettingsPanelController::get_overrideEnvironmentSettings
+// Writing MetadataGetter for method: GlobalNamespace::EnvironmentOverrideSettingsPanelController::get_overrideEnvironmentSettings
 // Il2CppName: get_overrideEnvironmentSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OverrideEnvironmentSettings* (EnvironmentOverrideSettingsPanelController::*)()>(&EnvironmentOverrideSettingsPanelController::get_overrideEnvironmentSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OverrideEnvironmentSettings* (GlobalNamespace::EnvironmentOverrideSettingsPanelController::*)()>(&GlobalNamespace::EnvironmentOverrideSettingsPanelController::get_overrideEnvironmentSettings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnvironmentOverrideSettingsPanelController*), "get_overrideEnvironmentSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentOverrideSettingsPanelController*), "get_overrideEnvironmentSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EnvironmentOverrideSettingsPanelController::SetData
+// Writing MetadataGetter for method: GlobalNamespace::EnvironmentOverrideSettingsPanelController::SetData
 // Il2CppName: SetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnvironmentOverrideSettingsPanelController::*)(GlobalNamespace::OverrideEnvironmentSettings*)>(&EnvironmentOverrideSettingsPanelController::SetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnvironmentOverrideSettingsPanelController::*)(GlobalNamespace::OverrideEnvironmentSettings*)>(&GlobalNamespace::EnvironmentOverrideSettingsPanelController::SetData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnvironmentOverrideSettingsPanelController*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OverrideEnvironmentSettings*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentOverrideSettingsPanelController*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OverrideEnvironmentSettings*>()});
   }
 };
-// Writing MetadataGetter for method: EnvironmentOverrideSettingsPanelController::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::EnvironmentOverrideSettingsPanelController::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnvironmentOverrideSettingsPanelController::*)()>(&EnvironmentOverrideSettingsPanelController::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnvironmentOverrideSettingsPanelController::*)()>(&GlobalNamespace::EnvironmentOverrideSettingsPanelController::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnvironmentOverrideSettingsPanelController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentOverrideSettingsPanelController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EnvironmentOverrideSettingsPanelController::Refresh
+// Writing MetadataGetter for method: GlobalNamespace::EnvironmentOverrideSettingsPanelController::Refresh
 // Il2CppName: Refresh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnvironmentOverrideSettingsPanelController::*)()>(&EnvironmentOverrideSettingsPanelController::Refresh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnvironmentOverrideSettingsPanelController::*)()>(&GlobalNamespace::EnvironmentOverrideSettingsPanelController::Refresh)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnvironmentOverrideSettingsPanelController*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentOverrideSettingsPanelController*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EnvironmentOverrideSettingsPanelController::HandleDropDownDidSelectCellWithIdx
+// Writing MetadataGetter for method: GlobalNamespace::EnvironmentOverrideSettingsPanelController::HandleDropDownDidSelectCellWithIdx
 // Il2CppName: HandleDropDownDidSelectCellWithIdx
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnvironmentOverrideSettingsPanelController::*)(HMUI::DropdownWithTableView*, int)>(&EnvironmentOverrideSettingsPanelController::HandleDropDownDidSelectCellWithIdx)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnvironmentOverrideSettingsPanelController::*)(HMUI::DropdownWithTableView*, int)>(&GlobalNamespace::EnvironmentOverrideSettingsPanelController::HandleDropDownDidSelectCellWithIdx)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnvironmentOverrideSettingsPanelController*), "HandleDropDownDidSelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::DropdownWithTableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentOverrideSettingsPanelController*), "HandleDropDownDidSelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::DropdownWithTableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: EnvironmentOverrideSettingsPanelController::HandleOverrideEnvironmentsToggleValueChanged
+// Writing MetadataGetter for method: GlobalNamespace::EnvironmentOverrideSettingsPanelController::HandleOverrideEnvironmentsToggleValueChanged
 // Il2CppName: HandleOverrideEnvironmentsToggleValueChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnvironmentOverrideSettingsPanelController::*)(bool)>(&EnvironmentOverrideSettingsPanelController::HandleOverrideEnvironmentsToggleValueChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnvironmentOverrideSettingsPanelController::*)(bool)>(&GlobalNamespace::EnvironmentOverrideSettingsPanelController::HandleOverrideEnvironmentsToggleValueChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnvironmentOverrideSettingsPanelController*), "HandleOverrideEnvironmentsToggleValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentOverrideSettingsPanelController*), "HandleOverrideEnvironmentsToggleValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: EnvironmentOverrideSettingsPanelController::$HandleOverrideEnvironmentsToggleValueChanged$b__15_0
+// Writing MetadataGetter for method: GlobalNamespace::EnvironmentOverrideSettingsPanelController::$HandleOverrideEnvironmentsToggleValueChanged$b__15_0
 // Il2CppName: <HandleOverrideEnvironmentsToggleValueChanged>b__15_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnvironmentOverrideSettingsPanelController::*)()>(&EnvironmentOverrideSettingsPanelController::$HandleOverrideEnvironmentsToggleValueChanged$b__15_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnvironmentOverrideSettingsPanelController::*)()>(&GlobalNamespace::EnvironmentOverrideSettingsPanelController::$HandleOverrideEnvironmentsToggleValueChanged$b__15_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnvironmentOverrideSettingsPanelController*), "<HandleOverrideEnvironmentsToggleValueChanged>b__15_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentOverrideSettingsPanelController*), "<HandleOverrideEnvironmentsToggleValueChanged>b__15_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: EnvironmentOverrideSettingsPanelController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::EnvironmentOverrideSettingsPanelController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnvironmentOverrideSettingsPanelController::*)()>(&EnvironmentOverrideSettingsPanelController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnvironmentOverrideSettingsPanelController::*)()>(&GlobalNamespace::EnvironmentOverrideSettingsPanelController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnvironmentOverrideSettingsPanelController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentOverrideSettingsPanelController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnvironmentOverrideSettingsPanelController::*)()>(&EnvironmentOverrideSettingsPanelController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnvironmentOverrideSettingsPanelController::*)()>(&GlobalNamespace::EnvironmentOverrideSettingsPanelController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnvironmentOverrideSettingsPanelController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentOverrideSettingsPanelController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

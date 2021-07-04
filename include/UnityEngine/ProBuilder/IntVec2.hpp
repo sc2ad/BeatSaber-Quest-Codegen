@@ -89,97 +89,97 @@ namespace UnityEngine::ProBuilder {
   bool operator !=(const UnityEngine::ProBuilder::IntVec2& a, const UnityEngine::ProBuilder::IntVec2& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::IntVec2, "UnityEngine.ProBuilder", "IntVec2");
-// Writing MetadataGetter for method: IntVec2::get_x
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::IntVec2::get_x
 // Il2CppName: get_x
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (IntVec2::*)()>(&IntVec2::get_x)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ProBuilder::IntVec2::*)()>(&UnityEngine::ProBuilder::IntVec2::get_x)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntVec2), "get_x", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::IntVec2), "get_x", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IntVec2::get_y
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::IntVec2::get_y
 // Il2CppName: get_y
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (IntVec2::*)()>(&IntVec2::get_y)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ProBuilder::IntVec2::*)()>(&UnityEngine::ProBuilder::IntVec2::get_y)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntVec2), "get_y", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::IntVec2), "get_y", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IntVec2::IntVec2
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::IntVec2::IntVec2
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntVec2::*)(UnityEngine::Vector2)>(&IntVec2::IntVec2<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::IntVec2::*)(UnityEngine::Vector2)>(&UnityEngine::ProBuilder::IntVec2::IntVec2<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntVec2), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::IntVec2), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntVec2::*)(UnityEngine::Vector2)>(&IntVec2::IntVec2<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::IntVec2::*)(UnityEngine::Vector2)>(&UnityEngine::ProBuilder::IntVec2::IntVec2<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntVec2), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::IntVec2), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
   }
 };
-// Writing MetadataGetter for method: IntVec2::Equals
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::IntVec2::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IntVec2::*)(UnityEngine::ProBuilder::IntVec2)>(&IntVec2::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::IntVec2::*)(UnityEngine::ProBuilder::IntVec2)>(&UnityEngine::ProBuilder::IntVec2::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntVec2), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::IntVec2>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::IntVec2), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::IntVec2>()});
   }
 };
-// Writing MetadataGetter for method: IntVec2::Equals
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::IntVec2::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IntVec2::*)(UnityEngine::Vector2)>(&IntVec2::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::IntVec2::*)(UnityEngine::Vector2)>(&UnityEngine::ProBuilder::IntVec2::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntVec2), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::IntVec2), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
   }
 };
-// Writing MetadataGetter for method: IntVec2::round
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::IntVec2::round
 // Il2CppName: round
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(float)>(&IntVec2::round)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(float)>(&UnityEngine::ProBuilder::IntVec2::round)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntVec2), "round", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::IntVec2), "round", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: IntVec2::ToString
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::IntVec2::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (IntVec2::*)()>(&IntVec2::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ProBuilder::IntVec2::*)()>(&UnityEngine::ProBuilder::IntVec2::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntVec2), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::IntVec2), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IntVec2::Equals
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::IntVec2::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IntVec2::*)(::Il2CppObject*)>(&IntVec2::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::IntVec2::*)(::Il2CppObject*)>(&UnityEngine::ProBuilder::IntVec2::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntVec2), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::IntVec2), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IntVec2::GetHashCode
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::IntVec2::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IntVec2::*)()>(&IntVec2::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::IntVec2::*)()>(&UnityEngine::ProBuilder::IntVec2::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntVec2), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::IntVec2), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IntVec2::operator ==
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::IntVec2::operator ==
 // Il2CppName: op_Equality
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const UnityEngine::ProBuilder::IntVec2&, const UnityEngine::ProBuilder::IntVec2&)>(&IntVec2::operator ==)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const UnityEngine::ProBuilder::IntVec2&, const UnityEngine::ProBuilder::IntVec2&)>(&UnityEngine::ProBuilder::IntVec2::operator ==)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntVec2), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::IntVec2&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::IntVec2&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::IntVec2), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::IntVec2&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::IntVec2&>()});
   }
 };
-// Writing MetadataGetter for method: IntVec2::operator !=
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::IntVec2::operator !=
 // Il2CppName: op_Inequality
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const UnityEngine::ProBuilder::IntVec2&, const UnityEngine::ProBuilder::IntVec2&)>(&IntVec2::operator !=)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const UnityEngine::ProBuilder::IntVec2&, const UnityEngine::ProBuilder::IntVec2&)>(&UnityEngine::ProBuilder::IntVec2::operator !=)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntVec2), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::IntVec2&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::IntVec2&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::IntVec2), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::IntVec2&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::IntVec2&>()});
   }
 };

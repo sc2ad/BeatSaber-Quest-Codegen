@@ -60,33 +60,33 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLocalActivePlayerIntroAnimator) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator*, "", "MultiplayerLocalActivePlayerIntroAnimator");
-// Writing MetadataGetter for method: MultiplayerLocalActivePlayerIntroAnimator::SetBeforeIntroValues
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator::SetBeforeIntroValues
 // Il2CppName: SetBeforeIntroValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerIntroAnimator::*)()>(&MultiplayerLocalActivePlayerIntroAnimator::SetBeforeIntroValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator::*)()>(&GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator::SetBeforeIntroValues)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerIntroAnimator*), "SetBeforeIntroValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator*), "SetBeforeIntroValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLocalActivePlayerIntroAnimator::SetAfterIntroValues
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator::SetAfterIntroValues
 // Il2CppName: SetAfterIntroValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerIntroAnimator::*)()>(&MultiplayerLocalActivePlayerIntroAnimator::SetAfterIntroValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator::*)()>(&GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator::SetAfterIntroValues)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerIntroAnimator*), "SetAfterIntroValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator*), "SetAfterIntroValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLocalActivePlayerIntroAnimator::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerIntroAnimator::*)()>(&MultiplayerLocalActivePlayerIntroAnimator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator::*)()>(&GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerIntroAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLocalActivePlayerIntroAnimator::*)()>(&MultiplayerLocalActivePlayerIntroAnimator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator::*)()>(&GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLocalActivePlayerIntroAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -35,19 +35,19 @@ namespace UnityEngine::Timeline {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackAssetExtensions*, "UnityEngine.Timeline", "TrackAssetExtensions");
-// Writing MetadataGetter for method: TrackAssetExtensions::GetGroup
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAssetExtensions::GetGroup
 // Il2CppName: GetGroup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::GroupTrack* (*)(UnityEngine::Timeline::TrackAsset*)>(&TrackAssetExtensions::GetGroup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::GroupTrack* (*)(UnityEngine::Timeline::TrackAsset*)>(&UnityEngine::Timeline::TrackAssetExtensions::GetGroup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAssetExtensions*), "GetGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAssetExtensions*), "GetGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAssetExtensions::SetGroup
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAssetExtensions::SetGroup
 // Il2CppName: SetGroup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::TrackAsset*, UnityEngine::Timeline::GroupTrack*)>(&TrackAssetExtensions::SetGroup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::TrackAsset*, UnityEngine::Timeline::GroupTrack*)>(&UnityEngine::Timeline::TrackAssetExtensions::SetGroup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAssetExtensions*), "SetGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::GroupTrack*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAssetExtensions*), "SetGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::GroupTrack*>()});
   }
 };

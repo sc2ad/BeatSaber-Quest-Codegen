@@ -207,57 +207,57 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(LookAtController) == 0x95);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::LookAtController*, "RootMotion.FinalIK", "LookAtController");
-// Writing MetadataGetter for method: LookAtController::Start
+// Writing MetadataGetter for method: RootMotion::FinalIK::LookAtController::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LookAtController::*)()>(&LookAtController::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::LookAtController::*)()>(&RootMotion::FinalIK::LookAtController::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LookAtController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::LookAtController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LookAtController::LateUpdate
+// Writing MetadataGetter for method: RootMotion::FinalIK::LookAtController::LateUpdate
 // Il2CppName: LateUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LookAtController::*)()>(&LookAtController::LateUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::LookAtController::*)()>(&RootMotion::FinalIK::LookAtController::LateUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LookAtController*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::LookAtController*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LookAtController::get_pivot
+// Writing MetadataGetter for method: RootMotion::FinalIK::LookAtController::get_pivot
 // Il2CppName: get_pivot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (LookAtController::*)()>(&LookAtController::get_pivot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::LookAtController::*)()>(&RootMotion::FinalIK::LookAtController::get_pivot)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LookAtController*), "get_pivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::LookAtController*), "get_pivot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LookAtController::ApplyMinDistance
+// Writing MetadataGetter for method: RootMotion::FinalIK::LookAtController::ApplyMinDistance
 // Il2CppName: ApplyMinDistance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LookAtController::*)()>(&LookAtController::ApplyMinDistance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::LookAtController::*)()>(&RootMotion::FinalIK::LookAtController::ApplyMinDistance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LookAtController*), "ApplyMinDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::LookAtController*), "ApplyMinDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LookAtController::RootRotation
+// Writing MetadataGetter for method: RootMotion::FinalIK::LookAtController::RootRotation
 // Il2CppName: RootRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LookAtController::*)()>(&LookAtController::RootRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::LookAtController::*)()>(&RootMotion::FinalIK::LookAtController::RootRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LookAtController*), "RootRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::LookAtController*), "RootRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LookAtController::New_ctor
+// Writing MetadataGetter for method: RootMotion::FinalIK::LookAtController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LookAtController::*)()>(&LookAtController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::LookAtController::*)()>(&RootMotion::FinalIK::LookAtController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LookAtController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::LookAtController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LookAtController::*)()>(&LookAtController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::LookAtController::*)()>(&RootMotion::FinalIK::LookAtController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LookAtController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::LookAtController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

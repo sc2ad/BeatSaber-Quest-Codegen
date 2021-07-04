@@ -73,41 +73,41 @@ namespace System::Reflection {
   static_assert(sizeof(CustomAttributeTypedArgument) == 0x10);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CustomAttributeTypedArgument, "System.Reflection", "CustomAttributeTypedArgument");
-// Writing MetadataGetter for method: CustomAttributeTypedArgument::CustomAttributeTypedArgument
+// Writing MetadataGetter for method: System::Reflection::CustomAttributeTypedArgument::CustomAttributeTypedArgument
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomAttributeTypedArgument::*)(System::Type*, ::Il2CppObject*)>(&CustomAttributeTypedArgument::CustomAttributeTypedArgument<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::CustomAttributeTypedArgument::*)(System::Type*, ::Il2CppObject*)>(&System::Reflection::CustomAttributeTypedArgument::CustomAttributeTypedArgument<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomAttributeTypedArgument), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::CustomAttributeTypedArgument), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomAttributeTypedArgument::*)(System::Type*, ::Il2CppObject*)>(&CustomAttributeTypedArgument::CustomAttributeTypedArgument<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::CustomAttributeTypedArgument::*)(System::Type*, ::Il2CppObject*)>(&System::Reflection::CustomAttributeTypedArgument::CustomAttributeTypedArgument<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomAttributeTypedArgument), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::CustomAttributeTypedArgument), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: CustomAttributeTypedArgument::ToString
+// Writing MetadataGetter for method: System::Reflection::CustomAttributeTypedArgument::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CustomAttributeTypedArgument::*)()>(&CustomAttributeTypedArgument::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Reflection::CustomAttributeTypedArgument::*)()>(&System::Reflection::CustomAttributeTypedArgument::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomAttributeTypedArgument), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::CustomAttributeTypedArgument), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CustomAttributeTypedArgument::Equals
+// Writing MetadataGetter for method: System::Reflection::CustomAttributeTypedArgument::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CustomAttributeTypedArgument::*)(::Il2CppObject*)>(&CustomAttributeTypedArgument::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Reflection::CustomAttributeTypedArgument::*)(::Il2CppObject*)>(&System::Reflection::CustomAttributeTypedArgument::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomAttributeTypedArgument), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::CustomAttributeTypedArgument), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: CustomAttributeTypedArgument::GetHashCode
+// Writing MetadataGetter for method: System::Reflection::CustomAttributeTypedArgument::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CustomAttributeTypedArgument::*)()>(&CustomAttributeTypedArgument::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Reflection::CustomAttributeTypedArgument::*)()>(&System::Reflection::CustomAttributeTypedArgument::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomAttributeTypedArgument), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::CustomAttributeTypedArgument), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

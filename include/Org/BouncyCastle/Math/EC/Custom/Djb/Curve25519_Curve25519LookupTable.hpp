@@ -78,49 +78,49 @@ namespace Org::BouncyCastle::Math::EC::Custom::Djb {
   static_assert(sizeof(Curve25519::Curve25519LookupTable) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable*, "Org.BouncyCastle.Math.EC.Custom.Djb", "Curve25519/Curve25519LookupTable");
-// Writing MetadataGetter for method: Curve25519::Curve25519LookupTable::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Curve25519::Curve25519LookupTable::*)(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519*, ::Array<uint>*, int)>(&Curve25519::Curve25519LookupTable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable::*)(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519*, ::Array<uint>*, int)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Curve25519::Curve25519LookupTable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Curve25519::Curve25519LookupTable::*)(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519*, ::Array<uint>*, int)>(&Curve25519::Curve25519LookupTable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable::*)(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519*, ::Array<uint>*, int)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Curve25519::Curve25519LookupTable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Curve25519::Curve25519LookupTable::CreatePoint
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable::CreatePoint
 // Il2CppName: CreatePoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Curve25519::Curve25519LookupTable::*)(::Array<uint>*, ::Array<uint>*)>(&Curve25519::Curve25519LookupTable::CreatePoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable::*)(::Array<uint>*, ::Array<uint>*)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable::CreatePoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Curve25519::Curve25519LookupTable*), "CreatePoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable*), "CreatePoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>()});
   }
 };
-// Writing MetadataGetter for method: Curve25519::Curve25519LookupTable::get_Size
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable::get_Size
 // Il2CppName: get_Size
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Curve25519::Curve25519LookupTable::*)()>(&Curve25519::Curve25519LookupTable::get_Size)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable::*)()>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable::get_Size)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Curve25519::Curve25519LookupTable*), "get_Size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable*), "get_Size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Curve25519::Curve25519LookupTable::Lookup
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable::Lookup
 // Il2CppName: Lookup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Curve25519::Curve25519LookupTable::*)(int)>(&Curve25519::Curve25519LookupTable::Lookup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable::*)(int)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable::Lookup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Curve25519::Curve25519LookupTable*), "Lookup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable*), "Lookup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Curve25519::Curve25519LookupTable::LookupVar
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable::LookupVar
 // Il2CppName: LookupVar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Curve25519::Curve25519LookupTable::*)(int)>(&Curve25519::Curve25519LookupTable::LookupVar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable::*)(int)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable::LookupVar)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Curve25519::Curve25519LookupTable*), "LookupVar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable*), "LookupVar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };

@@ -119,41 +119,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameplayModifierToggle) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifierToggle*, "", "GameplayModifierToggle");
-// Writing MetadataGetter for method: GameplayModifierToggle::get_toggle
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifierToggle::get_toggle
 // Il2CppName: get_toggle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Toggle* (GameplayModifierToggle::*)()>(&GameplayModifierToggle::get_toggle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Toggle* (GlobalNamespace::GameplayModifierToggle::*)()>(&GlobalNamespace::GameplayModifierToggle::get_toggle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplayModifierToggle*), "get_toggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifierToggle*), "get_toggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GameplayModifierToggle::get_gameplayModifier
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifierToggle::get_gameplayModifier
 // Il2CppName: get_gameplayModifier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifierParamsSO* (GameplayModifierToggle::*)()>(&GameplayModifierToggle::get_gameplayModifier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifierParamsSO* (GlobalNamespace::GameplayModifierToggle::*)()>(&GlobalNamespace::GameplayModifierToggle::get_gameplayModifier)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplayModifierToggle*), "get_gameplayModifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifierToggle*), "get_gameplayModifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GameplayModifierToggle::Start
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifierToggle::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayModifierToggle::*)()>(&GameplayModifierToggle::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayModifierToggle::*)()>(&GlobalNamespace::GameplayModifierToggle::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplayModifierToggle*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifierToggle*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GameplayModifierToggle::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::GameplayModifierToggle::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayModifierToggle::*)()>(&GameplayModifierToggle::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayModifierToggle::*)()>(&GlobalNamespace::GameplayModifierToggle::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplayModifierToggle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifierToggle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplayModifierToggle::*)()>(&GameplayModifierToggle::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayModifierToggle::*)()>(&GlobalNamespace::GameplayModifierToggle::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplayModifierToggle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifierToggle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

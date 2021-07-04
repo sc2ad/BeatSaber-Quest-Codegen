@@ -21,11 +21,11 @@ namespace UnityEngine::Timeline {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ITimelineEvaluateCallback*, "UnityEngine.Timeline", "ITimelineEvaluateCallback");
-// Writing MetadataGetter for method: ITimelineEvaluateCallback::Evaluate
+// Writing MetadataGetter for method: UnityEngine::Timeline::ITimelineEvaluateCallback::Evaluate
 // Il2CppName: Evaluate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ITimelineEvaluateCallback::*)()>(&ITimelineEvaluateCallback::Evaluate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ITimelineEvaluateCallback::*)()>(&UnityEngine::Timeline::ITimelineEvaluateCallback::Evaluate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ITimelineEvaluateCallback*), "Evaluate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ITimelineEvaluateCallback*), "Evaluate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -78,49 +78,49 @@ namespace HMUI {
   static_assert(sizeof(SegmentedControlCell) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SegmentedControlCell*, "HMUI", "SegmentedControlCell");
-// Writing MetadataGetter for method: SegmentedControlCell::get_cellNumber
+// Writing MetadataGetter for method: HMUI::SegmentedControlCell::get_cellNumber
 // Il2CppName: get_cellNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (SegmentedControlCell::*)()>(&SegmentedControlCell::get_cellNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HMUI::SegmentedControlCell::*)()>(&HMUI::SegmentedControlCell::get_cellNumber)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SegmentedControlCell*), "get_cellNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SegmentedControlCell*), "get_cellNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SegmentedControlCell::set_cellNumber
+// Writing MetadataGetter for method: HMUI::SegmentedControlCell::set_cellNumber
 // Il2CppName: set_cellNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SegmentedControlCell::*)(int)>(&SegmentedControlCell::set_cellNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SegmentedControlCell::*)(int)>(&HMUI::SegmentedControlCell::set_cellNumber)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SegmentedControlCell*), "set_cellNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SegmentedControlCell*), "set_cellNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SegmentedControlCell::SegmentedControlSetup
+// Writing MetadataGetter for method: HMUI::SegmentedControlCell::SegmentedControlSetup
 // Il2CppName: SegmentedControlSetup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SegmentedControlCell::*)(HMUI::SegmentedControl*, int)>(&SegmentedControlCell::SegmentedControlSetup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SegmentedControlCell::*)(HMUI::SegmentedControl*, int)>(&HMUI::SegmentedControlCell::SegmentedControlSetup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SegmentedControlCell*), "SegmentedControlSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SegmentedControl*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SegmentedControlCell*), "SegmentedControlSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SegmentedControl*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: SegmentedControlCell::InternalToggle
+// Writing MetadataGetter for method: HMUI::SegmentedControlCell::InternalToggle
 // Il2CppName: InternalToggle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SegmentedControlCell::*)()>(&SegmentedControlCell::InternalToggle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SegmentedControlCell::*)()>(&HMUI::SegmentedControlCell::InternalToggle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SegmentedControlCell*), "InternalToggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SegmentedControlCell*), "InternalToggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SegmentedControlCell::New_ctor
+// Writing MetadataGetter for method: HMUI::SegmentedControlCell::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SegmentedControlCell::*)()>(&SegmentedControlCell::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SegmentedControlCell::*)()>(&HMUI::SegmentedControlCell::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SegmentedControlCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SegmentedControlCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SegmentedControlCell::*)()>(&SegmentedControlCell::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::SegmentedControlCell::*)()>(&HMUI::SegmentedControlCell::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SegmentedControlCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::SegmentedControlCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

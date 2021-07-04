@@ -78,49 +78,49 @@ namespace System::Text {
   static_assert(sizeof(InternalEncoderBestFitFallback) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::InternalEncoderBestFitFallback*, "System.Text", "InternalEncoderBestFitFallback");
-// Writing MetadataGetter for method: InternalEncoderBestFitFallback::New_ctor
+// Writing MetadataGetter for method: System::Text::InternalEncoderBestFitFallback::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InternalEncoderBestFitFallback::*)(System::Text::Encoding*)>(&InternalEncoderBestFitFallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::InternalEncoderBestFitFallback::*)(System::Text::Encoding*)>(&System::Text::InternalEncoderBestFitFallback::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InternalEncoderBestFitFallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::InternalEncoderBestFitFallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (InternalEncoderBestFitFallback::*)(System::Text::Encoding*)>(&InternalEncoderBestFitFallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::InternalEncoderBestFitFallback::*)(System::Text::Encoding*)>(&System::Text::InternalEncoderBestFitFallback::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InternalEncoderBestFitFallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::InternalEncoderBestFitFallback*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
   }
 };
-// Writing MetadataGetter for method: InternalEncoderBestFitFallback::CreateFallbackBuffer
+// Writing MetadataGetter for method: System::Text::InternalEncoderBestFitFallback::CreateFallbackBuffer
 // Il2CppName: CreateFallbackBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::EncoderFallbackBuffer* (InternalEncoderBestFitFallback::*)()>(&InternalEncoderBestFitFallback::CreateFallbackBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::EncoderFallbackBuffer* (System::Text::InternalEncoderBestFitFallback::*)()>(&System::Text::InternalEncoderBestFitFallback::CreateFallbackBuffer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InternalEncoderBestFitFallback*), "CreateFallbackBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::InternalEncoderBestFitFallback*), "CreateFallbackBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InternalEncoderBestFitFallback::get_MaxCharCount
+// Writing MetadataGetter for method: System::Text::InternalEncoderBestFitFallback::get_MaxCharCount
 // Il2CppName: get_MaxCharCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InternalEncoderBestFitFallback::*)()>(&InternalEncoderBestFitFallback::get_MaxCharCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::InternalEncoderBestFitFallback::*)()>(&System::Text::InternalEncoderBestFitFallback::get_MaxCharCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InternalEncoderBestFitFallback*), "get_MaxCharCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::InternalEncoderBestFitFallback*), "get_MaxCharCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: InternalEncoderBestFitFallback::Equals
+// Writing MetadataGetter for method: System::Text::InternalEncoderBestFitFallback::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (InternalEncoderBestFitFallback::*)(::Il2CppObject*)>(&InternalEncoderBestFitFallback::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::InternalEncoderBestFitFallback::*)(::Il2CppObject*)>(&System::Text::InternalEncoderBestFitFallback::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InternalEncoderBestFitFallback*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::InternalEncoderBestFitFallback*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: InternalEncoderBestFitFallback::GetHashCode
+// Writing MetadataGetter for method: System::Text::InternalEncoderBestFitFallback::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (InternalEncoderBestFitFallback::*)()>(&InternalEncoderBestFitFallback::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::InternalEncoderBestFitFallback::*)()>(&System::Text::InternalEncoderBestFitFallback::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(InternalEncoderBestFitFallback*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::InternalEncoderBestFitFallback*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

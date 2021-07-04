@@ -46,43 +46,43 @@ namespace UnityEngine::Timeline {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineUndo*, "UnityEngine.Timeline", "TimelineUndo");
-// Writing MetadataGetter for method: TimelineUndo::PushDestroyUndo
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineUndo::PushDestroyUndo
 // Il2CppName: PushDestroyUndo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::TimelineAsset*, UnityEngine::Object*, UnityEngine::Object*)>(&TimelineUndo::PushDestroyUndo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::TimelineAsset*, UnityEngine::Object*, UnityEngine::Object*)>(&UnityEngine::Timeline::TimelineUndo::PushDestroyUndo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineUndo*), "PushDestroyUndo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineAsset*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineUndo*), "PushDestroyUndo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineAsset*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
   }
 };
-// Writing MetadataGetter for method: TimelineUndo::PushUndo
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineUndo::PushUndo
 // Il2CppName: PushUndo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<UnityEngine::Object*>*, ::Il2CppString*)>(&TimelineUndo::PushUndo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<UnityEngine::Object*>*, ::Il2CppString*)>(&UnityEngine::Timeline::TimelineUndo::PushUndo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineUndo*), "PushUndo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Object*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineUndo*), "PushUndo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Object*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TimelineUndo::PushUndo
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineUndo::PushUndo
 // Il2CppName: PushUndo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*, ::Il2CppString*)>(&TimelineUndo::PushUndo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*, ::Il2CppString*)>(&UnityEngine::Timeline::TimelineUndo::PushUndo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineUndo*), "PushUndo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineUndo*), "PushUndo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TimelineUndo::RegisterCreatedObjectUndo
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineUndo::RegisterCreatedObjectUndo
 // Il2CppName: RegisterCreatedObjectUndo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*, ::Il2CppString*)>(&TimelineUndo::RegisterCreatedObjectUndo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*, ::Il2CppString*)>(&UnityEngine::Timeline::TimelineUndo::RegisterCreatedObjectUndo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineUndo*), "RegisterCreatedObjectUndo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineUndo*), "RegisterCreatedObjectUndo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TimelineUndo::UndoName
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineUndo::UndoName
 // Il2CppName: UndoName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&TimelineUndo::UndoName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&UnityEngine::Timeline::TimelineUndo::UndoName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineUndo*), "UndoName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineUndo*), "UndoName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };

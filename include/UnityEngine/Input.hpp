@@ -131,259 +131,259 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Input*, "UnityEngine", "Input");
-// Writing MetadataGetter for method: Input::GetKeyInt
+// Writing MetadataGetter for method: UnityEngine::Input::GetKeyInt
 // Il2CppName: GetKeyInt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::KeyCode)>(&Input::GetKeyInt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::KeyCode)>(&UnityEngine::Input::GetKeyInt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Input*), "GetKeyInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "GetKeyInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>()});
   }
 };
-// Writing MetadataGetter for method: Input::GetKeyUpInt
+// Writing MetadataGetter for method: UnityEngine::Input::GetKeyUpInt
 // Il2CppName: GetKeyUpInt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::KeyCode)>(&Input::GetKeyUpInt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::KeyCode)>(&UnityEngine::Input::GetKeyUpInt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Input*), "GetKeyUpInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "GetKeyUpInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>()});
   }
 };
-// Writing MetadataGetter for method: Input::GetKeyDownInt
+// Writing MetadataGetter for method: UnityEngine::Input::GetKeyDownInt
 // Il2CppName: GetKeyDownInt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::KeyCode)>(&Input::GetKeyDownInt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::KeyCode)>(&UnityEngine::Input::GetKeyDownInt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Input*), "GetKeyDownInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "GetKeyDownInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>()});
   }
 };
-// Writing MetadataGetter for method: Input::GetKeyDownString
+// Writing MetadataGetter for method: UnityEngine::Input::GetKeyDownString
 // Il2CppName: GetKeyDownString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Input::GetKeyDownString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&UnityEngine::Input::GetKeyDownString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Input*), "GetKeyDownString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "GetKeyDownString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Input::GetAxis
+// Writing MetadataGetter for method: UnityEngine::Input::GetAxis
 // Il2CppName: GetAxis
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::Il2CppString*)>(&Input::GetAxis)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::Il2CppString*)>(&UnityEngine::Input::GetAxis)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Input*), "GetAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "GetAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Input::GetAxisRaw
+// Writing MetadataGetter for method: UnityEngine::Input::GetAxisRaw
 // Il2CppName: GetAxisRaw
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::Il2CppString*)>(&Input::GetAxisRaw)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::Il2CppString*)>(&UnityEngine::Input::GetAxisRaw)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Input*), "GetAxisRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "GetAxisRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Input::GetButton
+// Writing MetadataGetter for method: UnityEngine::Input::GetButton
 // Il2CppName: GetButton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Input::GetButton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&UnityEngine::Input::GetButton)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Input*), "GetButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "GetButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Input::GetButtonDown
+// Writing MetadataGetter for method: UnityEngine::Input::GetButtonDown
 // Il2CppName: GetButtonDown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Input::GetButtonDown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&UnityEngine::Input::GetButtonDown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Input*), "GetButtonDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "GetButtonDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Input::GetMouseButton
+// Writing MetadataGetter for method: UnityEngine::Input::GetMouseButton
 // Il2CppName: GetMouseButton
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&Input::GetMouseButton)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&UnityEngine::Input::GetMouseButton)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Input*), "GetMouseButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "GetMouseButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Input::GetMouseButtonDown
+// Writing MetadataGetter for method: UnityEngine::Input::GetMouseButtonDown
 // Il2CppName: GetMouseButtonDown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&Input::GetMouseButtonDown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&UnityEngine::Input::GetMouseButtonDown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Input*), "GetMouseButtonDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "GetMouseButtonDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Input::GetMouseButtonUp
+// Writing MetadataGetter for method: UnityEngine::Input::GetMouseButtonUp
 // Il2CppName: GetMouseButtonUp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&Input::GetMouseButtonUp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&UnityEngine::Input::GetMouseButtonUp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Input*), "GetMouseButtonUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "GetMouseButtonUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Input::GetTouch
+// Writing MetadataGetter for method: UnityEngine::Input::GetTouch
 // Il2CppName: GetTouch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Touch (*)(int)>(&Input::GetTouch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Touch (*)(int)>(&UnityEngine::Input::GetTouch)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Input*), "GetTouch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "GetTouch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Input::GetKey
+// Writing MetadataGetter for method: UnityEngine::Input::GetKey
 // Il2CppName: GetKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::KeyCode)>(&Input::GetKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::KeyCode)>(&UnityEngine::Input::GetKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Input*), "GetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "GetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>()});
   }
 };
-// Writing MetadataGetter for method: Input::GetKeyUp
+// Writing MetadataGetter for method: UnityEngine::Input::GetKeyUp
 // Il2CppName: GetKeyUp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::KeyCode)>(&Input::GetKeyUp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::KeyCode)>(&UnityEngine::Input::GetKeyUp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Input*), "GetKeyUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "GetKeyUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>()});
   }
 };
-// Writing MetadataGetter for method: Input::GetKeyDown
+// Writing MetadataGetter for method: UnityEngine::Input::GetKeyDown
 // Il2CppName: GetKeyDown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::KeyCode)>(&Input::GetKeyDown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::KeyCode)>(&UnityEngine::Input::GetKeyDown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Input*), "GetKeyDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "GetKeyDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::KeyCode>()});
   }
 };
-// Writing MetadataGetter for method: Input::GetKeyDown
+// Writing MetadataGetter for method: UnityEngine::Input::GetKeyDown
 // Il2CppName: GetKeyDown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Input::GetKeyDown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&UnityEngine::Input::GetKeyDown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Input*), "GetKeyDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "GetKeyDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: Input::get_anyKeyDown
+// Writing MetadataGetter for method: UnityEngine::Input::get_anyKeyDown
 // Il2CppName: get_anyKeyDown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Input::get_anyKeyDown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::Input::get_anyKeyDown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Input*), "get_anyKeyDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "get_anyKeyDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Input::get_mousePosition
+// Writing MetadataGetter for method: UnityEngine::Input::get_mousePosition
 // Il2CppName: get_mousePosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)()>(&Input::get_mousePosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)()>(&UnityEngine::Input::get_mousePosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Input*), "get_mousePosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "get_mousePosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Input::get_mouseScrollDelta
+// Writing MetadataGetter for method: UnityEngine::Input::get_mouseScrollDelta
 // Il2CppName: get_mouseScrollDelta
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)()>(&Input::get_mouseScrollDelta)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)()>(&UnityEngine::Input::get_mouseScrollDelta)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Input*), "get_mouseScrollDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "get_mouseScrollDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Input::get_imeCompositionMode
+// Writing MetadataGetter for method: UnityEngine::Input::get_imeCompositionMode
 // Il2CppName: get_imeCompositionMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::IMECompositionMode (*)()>(&Input::get_imeCompositionMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::IMECompositionMode (*)()>(&UnityEngine::Input::get_imeCompositionMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Input*), "get_imeCompositionMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "get_imeCompositionMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Input::set_imeCompositionMode
+// Writing MetadataGetter for method: UnityEngine::Input::set_imeCompositionMode
 // Il2CppName: set_imeCompositionMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::IMECompositionMode)>(&Input::set_imeCompositionMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::IMECompositionMode)>(&UnityEngine::Input::set_imeCompositionMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Input*), "set_imeCompositionMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::IMECompositionMode>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "set_imeCompositionMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::IMECompositionMode>()});
   }
 };
-// Writing MetadataGetter for method: Input::get_compositionString
+// Writing MetadataGetter for method: UnityEngine::Input::get_compositionString
 // Il2CppName: get_compositionString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Input::get_compositionString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::Input::get_compositionString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Input*), "get_compositionString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "get_compositionString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Input::get_compositionCursorPos
+// Writing MetadataGetter for method: UnityEngine::Input::get_compositionCursorPos
 // Il2CppName: get_compositionCursorPos
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)()>(&Input::get_compositionCursorPos)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)()>(&UnityEngine::Input::get_compositionCursorPos)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Input*), "get_compositionCursorPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "get_compositionCursorPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Input::set_compositionCursorPos
+// Writing MetadataGetter for method: UnityEngine::Input::set_compositionCursorPos
 // Il2CppName: set_compositionCursorPos
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector2)>(&Input::set_compositionCursorPos)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector2)>(&UnityEngine::Input::set_compositionCursorPos)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Input*), "set_compositionCursorPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "set_compositionCursorPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
   }
 };
-// Writing MetadataGetter for method: Input::get_mousePresent
+// Writing MetadataGetter for method: UnityEngine::Input::get_mousePresent
 // Il2CppName: get_mousePresent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Input::get_mousePresent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::Input::get_mousePresent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Input*), "get_mousePresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "get_mousePresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Input::get_touchCount
+// Writing MetadataGetter for method: UnityEngine::Input::get_touchCount
 // Il2CppName: get_touchCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&Input::get_touchCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&UnityEngine::Input::get_touchCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Input*), "get_touchCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "get_touchCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Input::get_touchSupported
+// Writing MetadataGetter for method: UnityEngine::Input::get_touchSupported
 // Il2CppName: get_touchSupported
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&Input::get_touchSupported)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::Input::get_touchSupported)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Input*), "get_touchSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "get_touchSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Input::GetTouch_Injected
+// Writing MetadataGetter for method: UnityEngine::Input::GetTouch_Injected
 // Il2CppName: GetTouch_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Touch&)>(&Input::GetTouch_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::Touch&)>(&UnityEngine::Input::GetTouch_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Input*), "GetTouch_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Touch&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "GetTouch_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Touch&>()});
   }
 };
-// Writing MetadataGetter for method: Input::get_mousePosition_Injected
+// Writing MetadataGetter for method: UnityEngine::Input::get_mousePosition_Injected
 // Il2CppName: get_mousePosition_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3&)>(&Input::get_mousePosition_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3&)>(&UnityEngine::Input::get_mousePosition_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Input*), "get_mousePosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "get_mousePosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: Input::get_mouseScrollDelta_Injected
+// Writing MetadataGetter for method: UnityEngine::Input::get_mouseScrollDelta_Injected
 // Il2CppName: get_mouseScrollDelta_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector2&)>(&Input::get_mouseScrollDelta_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector2&)>(&UnityEngine::Input::get_mouseScrollDelta_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Input*), "get_mouseScrollDelta_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "get_mouseScrollDelta_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
   }
 };
-// Writing MetadataGetter for method: Input::get_compositionCursorPos_Injected
+// Writing MetadataGetter for method: UnityEngine::Input::get_compositionCursorPos_Injected
 // Il2CppName: get_compositionCursorPos_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector2&)>(&Input::get_compositionCursorPos_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector2&)>(&UnityEngine::Input::get_compositionCursorPos_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Input*), "get_compositionCursorPos_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "get_compositionCursorPos_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
   }
 };
-// Writing MetadataGetter for method: Input::set_compositionCursorPos_Injected
+// Writing MetadataGetter for method: UnityEngine::Input::set_compositionCursorPos_Injected
 // Il2CppName: set_compositionCursorPos_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector2&)>(&Input::set_compositionCursorPos_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector2&)>(&UnityEngine::Input::set_compositionCursorPos_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Input*), "set_compositionCursorPos_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Input*), "set_compositionCursorPos_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
   }
 };

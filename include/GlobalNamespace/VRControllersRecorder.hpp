@@ -321,177 +321,177 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorder*, "", "VRControllersRecorder");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorder::Mode, "", "VRControllersRecorder/Mode");
-// Writing MetadataGetter for method: VRControllersRecorder::set_mode
+// Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::set_mode
 // Il2CppName: set_mode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRControllersRecorder::*)(GlobalNamespace::VRControllersRecorder::Mode)>(&VRControllersRecorder::set_mode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRControllersRecorder::*)(GlobalNamespace::VRControllersRecorder::Mode)>(&GlobalNamespace::VRControllersRecorder::set_mode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRControllersRecorder*), "set_mode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::VRControllersRecorder::Mode>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorder*), "set_mode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::VRControllersRecorder::Mode>()});
   }
 };
-// Writing MetadataGetter for method: VRControllersRecorder::get_mode
+// Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::get_mode
 // Il2CppName: get_mode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::VRControllersRecorder::Mode (VRControllersRecorder::*)()>(&VRControllersRecorder::get_mode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::VRControllersRecorder::Mode (GlobalNamespace::VRControllersRecorder::*)()>(&GlobalNamespace::VRControllersRecorder::get_mode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRControllersRecorder*), "get_mode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorder*), "get_mode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRControllersRecorder::set_recordingTextAsset
+// Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::set_recordingTextAsset
 // Il2CppName: set_recordingTextAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRControllersRecorder::*)(UnityEngine::TextAsset*)>(&VRControllersRecorder::set_recordingTextAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRControllersRecorder::*)(UnityEngine::TextAsset*)>(&GlobalNamespace::VRControllersRecorder::set_recordingTextAsset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRControllersRecorder*), "set_recordingTextAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextAsset*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorder*), "set_recordingTextAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextAsset*>()});
   }
 };
-// Writing MetadataGetter for method: VRControllersRecorder::get_recordingTextAsset
+// Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::get_recordingTextAsset
 // Il2CppName: get_recordingTextAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextAsset* (VRControllersRecorder::*)()>(&VRControllersRecorder::get_recordingTextAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextAsset* (GlobalNamespace::VRControllersRecorder::*)()>(&GlobalNamespace::VRControllersRecorder::get_recordingTextAsset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRControllersRecorder*), "get_recordingTextAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorder*), "get_recordingTextAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRControllersRecorder::set_recordingFileName
+// Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::set_recordingFileName
 // Il2CppName: set_recordingFileName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRControllersRecorder::*)(::Il2CppString*)>(&VRControllersRecorder::set_recordingFileName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRControllersRecorder::*)(::Il2CppString*)>(&GlobalNamespace::VRControllersRecorder::set_recordingFileName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRControllersRecorder*), "set_recordingFileName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorder*), "set_recordingFileName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: VRControllersRecorder::get_recordingFileName
+// Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::get_recordingFileName
 // Il2CppName: get_recordingFileName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (VRControllersRecorder::*)()>(&VRControllersRecorder::get_recordingFileName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::VRControllersRecorder::*)()>(&GlobalNamespace::VRControllersRecorder::get_recordingFileName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRControllersRecorder*), "get_recordingFileName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorder*), "get_recordingFileName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRControllersRecorder::set_changeToNonVRCamera
+// Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::set_changeToNonVRCamera
 // Il2CppName: set_changeToNonVRCamera
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRControllersRecorder::*)(bool)>(&VRControllersRecorder::set_changeToNonVRCamera)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRControllersRecorder::*)(bool)>(&GlobalNamespace::VRControllersRecorder::set_changeToNonVRCamera)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRControllersRecorder*), "set_changeToNonVRCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorder*), "set_changeToNonVRCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: VRControllersRecorder::get_changeToNonVRCamera
+// Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::get_changeToNonVRCamera
 // Il2CppName: get_changeToNonVRCamera
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRControllersRecorder::*)()>(&VRControllersRecorder::get_changeToNonVRCamera)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::VRControllersRecorder::*)()>(&GlobalNamespace::VRControllersRecorder::get_changeToNonVRCamera)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRControllersRecorder*), "get_changeToNonVRCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorder*), "get_changeToNonVRCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRControllersRecorder::Start
+// Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRControllersRecorder::*)()>(&VRControllersRecorder::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRControllersRecorder::*)()>(&GlobalNamespace::VRControllersRecorder::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRControllersRecorder*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorder*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRControllersRecorder::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRControllersRecorder::*)()>(&VRControllersRecorder::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRControllersRecorder::*)()>(&GlobalNamespace::VRControllersRecorder::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRControllersRecorder*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorder*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRControllersRecorder::SetDefaultSettings
+// Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::SetDefaultSettings
 // Il2CppName: SetDefaultSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRControllersRecorder::*)()>(&VRControllersRecorder::SetDefaultSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRControllersRecorder::*)()>(&GlobalNamespace::VRControllersRecorder::SetDefaultSettings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRControllersRecorder*), "SetDefaultSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorder*), "SetDefaultSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRControllersRecorder::SetInGamePlaybackDefaultSettings
+// Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::SetInGamePlaybackDefaultSettings
 // Il2CppName: SetInGamePlaybackDefaultSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRControllersRecorder::*)()>(&VRControllersRecorder::SetInGamePlaybackDefaultSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRControllersRecorder::*)()>(&GlobalNamespace::VRControllersRecorder::SetInGamePlaybackDefaultSettings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRControllersRecorder*), "SetInGamePlaybackDefaultSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorder*), "SetInGamePlaybackDefaultSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRControllersRecorder::PlaybackTick
+// Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::PlaybackTick
 // Il2CppName: PlaybackTick
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRControllersRecorder::*)()>(&VRControllersRecorder::PlaybackTick)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRControllersRecorder::*)()>(&GlobalNamespace::VRControllersRecorder::PlaybackTick)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRControllersRecorder*), "PlaybackTick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorder*), "PlaybackTick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRControllersRecorder::SetPositionAndRotation
+// Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::SetPositionAndRotation
 // Il2CppName: SetPositionAndRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRControllersRecorder::*)(UnityEngine::Transform*, UnityEngine::Vector3, UnityEngine::Quaternion, float)>(&VRControllersRecorder::SetPositionAndRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRControllersRecorder::*)(UnityEngine::Transform*, UnityEngine::Vector3, UnityEngine::Quaternion, float)>(&GlobalNamespace::VRControllersRecorder::SetPositionAndRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRControllersRecorder*), "SetPositionAndRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorder*), "SetPositionAndRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: VRControllersRecorder::RecordTick
+// Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::RecordTick
 // Il2CppName: RecordTick
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRControllersRecorder::*)()>(&VRControllersRecorder::RecordTick)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRControllersRecorder::*)()>(&GlobalNamespace::VRControllersRecorder::RecordTick)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRControllersRecorder*), "RecordTick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorder*), "RecordTick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRControllersRecorder::Update
+// Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRControllersRecorder::*)()>(&VRControllersRecorder::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRControllersRecorder::*)()>(&GlobalNamespace::VRControllersRecorder::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRControllersRecorder*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorder*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRControllersRecorder::LateUpdate
+// Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::LateUpdate
 // Il2CppName: LateUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRControllersRecorder::*)()>(&VRControllersRecorder::LateUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRControllersRecorder::*)()>(&GlobalNamespace::VRControllersRecorder::LateUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRControllersRecorder*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorder*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRControllersRecorder::Save
+// Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::Save
 // Il2CppName: Save
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRControllersRecorder::*)()>(&VRControllersRecorder::Save)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRControllersRecorder::*)()>(&GlobalNamespace::VRControllersRecorder::Save)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRControllersRecorder*), "Save", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorder*), "Save", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRControllersRecorder::Load
+// Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::Load
 // Il2CppName: Load
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRControllersRecorder::*)()>(&VRControllersRecorder::Load)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRControllersRecorder::*)()>(&GlobalNamespace::VRControllersRecorder::Load)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRControllersRecorder*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorder*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VRControllersRecorder::CreateAnimationClipFromRecording
+// Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::CreateAnimationClipFromRecording
 // Il2CppName: CreateAnimationClipFromRecording
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationClip* (*)(::Il2CppString*)>(&VRControllersRecorder::CreateAnimationClipFromRecording)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationClip* (*)(::Il2CppString*)>(&GlobalNamespace::VRControllersRecorder::CreateAnimationClipFromRecording)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRControllersRecorder*), "CreateAnimationClipFromRecording", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorder*), "CreateAnimationClipFromRecording", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: VRControllersRecorder::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRControllersRecorder::*)()>(&VRControllersRecorder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRControllersRecorder::*)()>(&GlobalNamespace::VRControllersRecorder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRControllersRecorder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRControllersRecorder::*)()>(&VRControllersRecorder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRControllersRecorder::*)()>(&GlobalNamespace::VRControllersRecorder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRControllersRecorder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

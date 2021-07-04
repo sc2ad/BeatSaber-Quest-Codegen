@@ -60,25 +60,25 @@ namespace System {
   static_assert(sizeof(UnSafeCharBuffer) == 0x10);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::UnSafeCharBuffer, "System", "UnSafeCharBuffer");
-// Writing MetadataGetter for method: UnSafeCharBuffer::UnSafeCharBuffer
+// Writing MetadataGetter for method: System::UnSafeCharBuffer::UnSafeCharBuffer
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnSafeCharBuffer::*)(::Il2CppChar*, int)>(&UnSafeCharBuffer::UnSafeCharBuffer<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UnSafeCharBuffer::*)(::Il2CppChar*, int)>(&System::UnSafeCharBuffer::UnSafeCharBuffer<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnSafeCharBuffer), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::UnSafeCharBuffer), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnSafeCharBuffer::*)(::Il2CppChar*, int)>(&UnSafeCharBuffer::UnSafeCharBuffer<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UnSafeCharBuffer::*)(::Il2CppChar*, int)>(&System::UnSafeCharBuffer::UnSafeCharBuffer<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnSafeCharBuffer), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::UnSafeCharBuffer), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: UnSafeCharBuffer::AppendString
+// Writing MetadataGetter for method: System::UnSafeCharBuffer::AppendString
 // Il2CppName: AppendString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnSafeCharBuffer::*)(::Il2CppString*)>(&UnSafeCharBuffer::AppendString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UnSafeCharBuffer::*)(::Il2CppString*)>(&System::UnSafeCharBuffer::AppendString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnSafeCharBuffer), "AppendString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::UnSafeCharBuffer), "AppendString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };

@@ -58,25 +58,25 @@ namespace GlobalNamespace {
   static_assert(sizeof(FadeOutInstantly) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FadeOutInstantly*, "", "FadeOutInstantly");
-// Writing MetadataGetter for method: FadeOutInstantly::Start
+// Writing MetadataGetter for method: GlobalNamespace::FadeOutInstantly::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeOutInstantly::*)()>(&FadeOutInstantly::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FadeOutInstantly::*)()>(&GlobalNamespace::FadeOutInstantly::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FadeOutInstantly*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FadeOutInstantly*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FadeOutInstantly::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::FadeOutInstantly::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeOutInstantly::*)()>(&FadeOutInstantly::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FadeOutInstantly::*)()>(&GlobalNamespace::FadeOutInstantly::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FadeOutInstantly*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FadeOutInstantly*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FadeOutInstantly::*)()>(&FadeOutInstantly::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FadeOutInstantly::*)()>(&GlobalNamespace::FadeOutInstantly::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FadeOutInstantly*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FadeOutInstantly*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

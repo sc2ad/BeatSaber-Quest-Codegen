@@ -66,83 +66,83 @@ namespace Mono::Security::Protocol::Ntlm {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::ChallengeResponse2*, "Mono.Security.Protocol.Ntlm", "ChallengeResponse2");
-// Writing MetadataGetter for method: ChallengeResponse2::Compute_LM
+// Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_LM
 // Il2CppName: Compute_LM
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppString*, ::Array<uint8_t>*)>(&ChallengeResponse2::Compute_LM)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppString*, ::Array<uint8_t>*)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_LM)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ChallengeResponse2*), "Compute_LM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::ChallengeResponse2*), "Compute_LM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: ChallengeResponse2::Compute_NTLM_Password
+// Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_NTLM_Password
 // Il2CppName: Compute_NTLM_Password
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppString*)>(&ChallengeResponse2::Compute_NTLM_Password)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppString*)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_NTLM_Password)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ChallengeResponse2*), "Compute_NTLM_Password", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::ChallengeResponse2*), "Compute_NTLM_Password", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: ChallengeResponse2::Compute_NTLM
+// Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_NTLM
 // Il2CppName: Compute_NTLM
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppString*, ::Array<uint8_t>*)>(&ChallengeResponse2::Compute_NTLM)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppString*, ::Array<uint8_t>*)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_NTLM)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ChallengeResponse2*), "Compute_NTLM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::ChallengeResponse2*), "Compute_NTLM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: ChallengeResponse2::Compute_NTLMv2_Session
+// Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_NTLMv2_Session
 // Il2CppName: Compute_NTLMv2_Session
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<uint8_t>*, ::Array<uint8_t>*&, ::Array<uint8_t>*&)>(&ChallengeResponse2::Compute_NTLMv2_Session)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<uint8_t>*, ::Array<uint8_t>*&, ::Array<uint8_t>*&)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_NTLMv2_Session)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ChallengeResponse2*), "Compute_NTLMv2_Session", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::ChallengeResponse2*), "Compute_NTLMv2_Session", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>()});
   }
 };
-// Writing MetadataGetter for method: ChallengeResponse2::Compute_NTLMv2
+// Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_NTLMv2
 // Il2CppName: Compute_NTLMv2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(Mono::Security::Protocol::Ntlm::Type2Message*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&ChallengeResponse2::Compute_NTLMv2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(Mono::Security::Protocol::Ntlm::Type2Message*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_NTLMv2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ChallengeResponse2*), "Compute_NTLMv2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Protocol::Ntlm::Type2Message*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::ChallengeResponse2*), "Compute_NTLMv2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Protocol::Ntlm::Type2Message*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: ChallengeResponse2::Compute
+// Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute
 // Il2CppName: Compute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Mono::Security::Protocol::Ntlm::Type2Message*, Mono::Security::Protocol::Ntlm::NtlmAuthLevel, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Array<uint8_t>*&, ::Array<uint8_t>*&)>(&ChallengeResponse2::Compute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Mono::Security::Protocol::Ntlm::Type2Message*, Mono::Security::Protocol::Ntlm::NtlmAuthLevel, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Array<uint8_t>*&, ::Array<uint8_t>*&)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ChallengeResponse2*), "Compute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Protocol::Ntlm::Type2Message*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Protocol::Ntlm::NtlmAuthLevel>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::ChallengeResponse2*), "Compute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Protocol::Ntlm::Type2Message*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Protocol::Ntlm::NtlmAuthLevel>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>()});
   }
 };
-// Writing MetadataGetter for method: ChallengeResponse2::GetResponse
+// Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::ChallengeResponse2::GetResponse
 // Il2CppName: GetResponse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&ChallengeResponse2::GetResponse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::GetResponse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ChallengeResponse2*), "GetResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::ChallengeResponse2*), "GetResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: ChallengeResponse2::PrepareDESKey
+// Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::ChallengeResponse2::PrepareDESKey
 // Il2CppName: PrepareDESKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*, int)>(&ChallengeResponse2::PrepareDESKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*, int)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::PrepareDESKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ChallengeResponse2*), "PrepareDESKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::ChallengeResponse2*), "PrepareDESKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ChallengeResponse2::PasswordToKey
+// Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::ChallengeResponse2::PasswordToKey
 // Il2CppName: PasswordToKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppString*, int)>(&ChallengeResponse2::PasswordToKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppString*, int)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::PasswordToKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ChallengeResponse2*), "PasswordToKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::ChallengeResponse2*), "PasswordToKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ChallengeResponse2::_cctor
+// Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::ChallengeResponse2::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ChallengeResponse2::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ChallengeResponse2*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::ChallengeResponse2*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -42,27 +42,27 @@ namespace Org::BouncyCastle::Security {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::PrivateKeyFactory*, "Org.BouncyCastle.Security", "PrivateKeyFactory");
-// Writing MetadataGetter for method: PrivateKeyFactory::CreateKey
+// Writing MetadataGetter for method: Org::BouncyCastle::Security::PrivateKeyFactory::CreateKey
 // Il2CppName: CreateKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (*)(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*)>(&PrivateKeyFactory::CreateKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (*)(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*)>(&Org::BouncyCastle::Security::PrivateKeyFactory::CreateKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrivateKeyFactory*), "CreateKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::PrivateKeyFactory*), "CreateKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*>()});
   }
 };
-// Writing MetadataGetter for method: PrivateKeyFactory::GetRawKey
+// Writing MetadataGetter for method: Org::BouncyCastle::Security::PrivateKeyFactory::GetRawKey
 // Il2CppName: GetRawKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*, int)>(&PrivateKeyFactory::GetRawKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*, int)>(&Org::BouncyCastle::Security::PrivateKeyFactory::GetRawKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrivateKeyFactory*), "GetRawKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::PrivateKeyFactory*), "GetRawKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: PrivateKeyFactory::DecryptKey
+// Writing MetadataGetter for method: Org::BouncyCastle::Security::PrivateKeyFactory::DecryptKey
 // Il2CppName: DecryptKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (*)(::Array<::Il2CppChar>*, Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo*)>(&PrivateKeyFactory::DecryptKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (*)(::Array<::Il2CppChar>*, Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo*)>(&Org::BouncyCastle::Security::PrivateKeyFactory::DecryptKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PrivateKeyFactory*), "DecryptKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::PrivateKeyFactory*), "DecryptKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo*>()});
   }
 };

@@ -98,41 +98,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissedNoteEffectSpawner) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissedNoteEffectSpawner*, "", "MissedNoteEffectSpawner");
-// Writing MetadataGetter for method: MissedNoteEffectSpawner::Start
+// Writing MetadataGetter for method: GlobalNamespace::MissedNoteEffectSpawner::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissedNoteEffectSpawner::*)()>(&MissedNoteEffectSpawner::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissedNoteEffectSpawner::*)()>(&GlobalNamespace::MissedNoteEffectSpawner::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissedNoteEffectSpawner*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissedNoteEffectSpawner*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissedNoteEffectSpawner::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::MissedNoteEffectSpawner::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissedNoteEffectSpawner::*)()>(&MissedNoteEffectSpawner::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissedNoteEffectSpawner::*)()>(&GlobalNamespace::MissedNoteEffectSpawner::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissedNoteEffectSpawner*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissedNoteEffectSpawner*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MissedNoteEffectSpawner::HandleNoteWasMissed
+// Writing MetadataGetter for method: GlobalNamespace::MissedNoteEffectSpawner::HandleNoteWasMissed
 // Il2CppName: HandleNoteWasMissed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissedNoteEffectSpawner::*)(GlobalNamespace::NoteController*)>(&MissedNoteEffectSpawner::HandleNoteWasMissed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissedNoteEffectSpawner::*)(GlobalNamespace::NoteController*)>(&GlobalNamespace::MissedNoteEffectSpawner::HandleNoteWasMissed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissedNoteEffectSpawner*), "HandleNoteWasMissed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissedNoteEffectSpawner*), "HandleNoteWasMissed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>()});
   }
 };
-// Writing MetadataGetter for method: MissedNoteEffectSpawner::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MissedNoteEffectSpawner::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissedNoteEffectSpawner::*)()>(&MissedNoteEffectSpawner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissedNoteEffectSpawner::*)()>(&GlobalNamespace::MissedNoteEffectSpawner::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissedNoteEffectSpawner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissedNoteEffectSpawner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MissedNoteEffectSpawner::*)()>(&MissedNoteEffectSpawner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissedNoteEffectSpawner::*)()>(&GlobalNamespace::MissedNoteEffectSpawner::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MissedNoteEffectSpawner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissedNoteEffectSpawner*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

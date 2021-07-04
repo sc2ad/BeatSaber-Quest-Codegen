@@ -71,57 +71,57 @@ namespace System::Security::Cryptography::X509Certificates {
   static_assert(sizeof(X509CertificateCollection::X509CertificateEnumerator) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator*, "System.Security.Cryptography.X509Certificates", "X509CertificateCollection/X509CertificateEnumerator");
-// Writing MetadataGetter for method: X509CertificateCollection::X509CertificateEnumerator::New_ctor
+// Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509CertificateCollection::X509CertificateEnumerator::*)(System::Security::Cryptography::X509Certificates::X509CertificateCollection*)>(&X509CertificateCollection::X509CertificateEnumerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator::*)(System::Security::Cryptography::X509Certificates::X509CertificateCollection*)>(&System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509CertificateCollection::X509CertificateEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509CertificateCollection::X509CertificateEnumerator::*)(System::Security::Cryptography::X509Certificates::X509CertificateCollection*)>(&X509CertificateCollection::X509CertificateEnumerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator::*)(System::Security::Cryptography::X509Certificates::X509CertificateCollection*)>(&System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509CertificateCollection::X509CertificateEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>()});
   }
 };
-// Writing MetadataGetter for method: X509CertificateCollection::X509CertificateEnumerator::get_Current
+// Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator::get_Current
 // Il2CppName: get_Current
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate* (X509CertificateCollection::X509CertificateEnumerator::*)()>(&X509CertificateCollection::X509CertificateEnumerator::get_Current)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate* (System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator::*)()>(&System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator::get_Current)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509CertificateCollection::X509CertificateEnumerator*), "get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator*), "get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: X509CertificateCollection::X509CertificateEnumerator::System_Collections_IEnumerator_get_Current
+// Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator::System_Collections_IEnumerator_get_Current
 // Il2CppName: System.Collections.IEnumerator.get_Current
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (X509CertificateCollection::X509CertificateEnumerator::*)()>(&X509CertificateCollection::X509CertificateEnumerator::System_Collections_IEnumerator_get_Current)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator::*)()>(&System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator::System_Collections_IEnumerator_get_Current)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509CertificateCollection::X509CertificateEnumerator*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: X509CertificateCollection::X509CertificateEnumerator::System_Collections_IEnumerator_MoveNext
+// Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator::System_Collections_IEnumerator_MoveNext
 // Il2CppName: System.Collections.IEnumerator.MoveNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (X509CertificateCollection::X509CertificateEnumerator::*)()>(&X509CertificateCollection::X509CertificateEnumerator::System_Collections_IEnumerator_MoveNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator::*)()>(&System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator::System_Collections_IEnumerator_MoveNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509CertificateCollection::X509CertificateEnumerator*), "System.Collections.IEnumerator.MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator*), "System.Collections.IEnumerator.MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: X509CertificateCollection::X509CertificateEnumerator::System_Collections_IEnumerator_Reset
+// Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator::System_Collections_IEnumerator_Reset
 // Il2CppName: System.Collections.IEnumerator.Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (X509CertificateCollection::X509CertificateEnumerator::*)()>(&X509CertificateCollection::X509CertificateEnumerator::System_Collections_IEnumerator_Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator::*)()>(&System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator::System_Collections_IEnumerator_Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509CertificateCollection::X509CertificateEnumerator*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: X509CertificateCollection::X509CertificateEnumerator::MoveNext
+// Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator::MoveNext
 // Il2CppName: MoveNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (X509CertificateCollection::X509CertificateEnumerator::*)()>(&X509CertificateCollection::X509CertificateEnumerator::MoveNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator::*)()>(&System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator::MoveNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509CertificateCollection::X509CertificateEnumerator*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509CertificateCollection::X509CertificateEnumerator*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

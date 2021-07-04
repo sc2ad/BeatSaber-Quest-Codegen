@@ -133,187 +133,187 @@ namespace TMPro {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextUtilities*, "TMPro", "TMP_TextUtilities");
-// Writing MetadataGetter for method: TMP_TextUtilities::GetCursorIndexFromPosition
+// Writing MetadataGetter for method: TMPro::TMP_TextUtilities::GetCursorIndexFromPosition
 // Il2CppName: GetCursorIndexFromPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(TMPro::TMP_Text*, UnityEngine::Vector3, UnityEngine::Camera*)>(&TMP_TextUtilities::GetCursorIndexFromPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(TMPro::TMP_Text*, UnityEngine::Vector3, UnityEngine::Camera*)>(&TMPro::TMP_TextUtilities::GetCursorIndexFromPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextUtilities*), "GetCursorIndexFromPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextUtilities*), "GetCursorIndexFromPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextUtilities::GetCursorIndexFromPosition
+// Writing MetadataGetter for method: TMPro::TMP_TextUtilities::GetCursorIndexFromPosition
 // Il2CppName: GetCursorIndexFromPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(TMPro::TMP_Text*, UnityEngine::Vector3, UnityEngine::Camera*, TMPro::CaretPosition&)>(&TMP_TextUtilities::GetCursorIndexFromPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(TMPro::TMP_Text*, UnityEngine::Vector3, UnityEngine::Camera*, TMPro::CaretPosition&)>(&TMPro::TMP_TextUtilities::GetCursorIndexFromPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextUtilities*), "GetCursorIndexFromPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<TMPro::CaretPosition&>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextUtilities*), "GetCursorIndexFromPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<TMPro::CaretPosition&>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextUtilities::FindNearestLine
+// Writing MetadataGetter for method: TMPro::TMP_TextUtilities::FindNearestLine
 // Il2CppName: FindNearestLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(TMPro::TMP_Text*, UnityEngine::Vector3, UnityEngine::Camera*)>(&TMP_TextUtilities::FindNearestLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(TMPro::TMP_Text*, UnityEngine::Vector3, UnityEngine::Camera*)>(&TMPro::TMP_TextUtilities::FindNearestLine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextUtilities*), "FindNearestLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextUtilities*), "FindNearestLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextUtilities::FindNearestCharacterOnLine
+// Writing MetadataGetter for method: TMPro::TMP_TextUtilities::FindNearestCharacterOnLine
 // Il2CppName: FindNearestCharacterOnLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(TMPro::TMP_Text*, UnityEngine::Vector3, int, UnityEngine::Camera*, bool)>(&TMP_TextUtilities::FindNearestCharacterOnLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(TMPro::TMP_Text*, UnityEngine::Vector3, int, UnityEngine::Camera*, bool)>(&TMPro::TMP_TextUtilities::FindNearestCharacterOnLine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextUtilities*), "FindNearestCharacterOnLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextUtilities*), "FindNearestCharacterOnLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextUtilities::IsIntersectingRectTransform
+// Writing MetadataGetter for method: TMPro::TMP_TextUtilities::IsIntersectingRectTransform
 // Il2CppName: IsIntersectingRectTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::RectTransform*, UnityEngine::Vector3, UnityEngine::Camera*)>(&TMP_TextUtilities::IsIntersectingRectTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::RectTransform*, UnityEngine::Vector3, UnityEngine::Camera*)>(&TMPro::TMP_TextUtilities::IsIntersectingRectTransform)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextUtilities*), "IsIntersectingRectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextUtilities*), "IsIntersectingRectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextUtilities::FindIntersectingCharacter
+// Writing MetadataGetter for method: TMPro::TMP_TextUtilities::FindIntersectingCharacter
 // Il2CppName: FindIntersectingCharacter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(TMPro::TMP_Text*, UnityEngine::Vector3, UnityEngine::Camera*, bool)>(&TMP_TextUtilities::FindIntersectingCharacter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(TMPro::TMP_Text*, UnityEngine::Vector3, UnityEngine::Camera*, bool)>(&TMPro::TMP_TextUtilities::FindIntersectingCharacter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextUtilities*), "FindIntersectingCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextUtilities*), "FindIntersectingCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextUtilities::FindNearestCharacter
+// Writing MetadataGetter for method: TMPro::TMP_TextUtilities::FindNearestCharacter
 // Il2CppName: FindNearestCharacter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(TMPro::TMP_Text*, UnityEngine::Vector3, UnityEngine::Camera*, bool)>(&TMP_TextUtilities::FindNearestCharacter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(TMPro::TMP_Text*, UnityEngine::Vector3, UnityEngine::Camera*, bool)>(&TMPro::TMP_TextUtilities::FindNearestCharacter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextUtilities*), "FindNearestCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextUtilities*), "FindNearestCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextUtilities::FindIntersectingWord
+// Writing MetadataGetter for method: TMPro::TMP_TextUtilities::FindIntersectingWord
 // Il2CppName: FindIntersectingWord
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(TMPro::TMP_Text*, UnityEngine::Vector3, UnityEngine::Camera*)>(&TMP_TextUtilities::FindIntersectingWord)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(TMPro::TMP_Text*, UnityEngine::Vector3, UnityEngine::Camera*)>(&TMPro::TMP_TextUtilities::FindIntersectingWord)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextUtilities*), "FindIntersectingWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextUtilities*), "FindIntersectingWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextUtilities::FindNearestWord
+// Writing MetadataGetter for method: TMPro::TMP_TextUtilities::FindNearestWord
 // Il2CppName: FindNearestWord
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(TMPro::TMP_Text*, UnityEngine::Vector3, UnityEngine::Camera*)>(&TMP_TextUtilities::FindNearestWord)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(TMPro::TMP_Text*, UnityEngine::Vector3, UnityEngine::Camera*)>(&TMPro::TMP_TextUtilities::FindNearestWord)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextUtilities*), "FindNearestWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextUtilities*), "FindNearestWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextUtilities::FindIntersectingLine
+// Writing MetadataGetter for method: TMPro::TMP_TextUtilities::FindIntersectingLine
 // Il2CppName: FindIntersectingLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(TMPro::TMP_Text*, UnityEngine::Vector3, UnityEngine::Camera*)>(&TMP_TextUtilities::FindIntersectingLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(TMPro::TMP_Text*, UnityEngine::Vector3, UnityEngine::Camera*)>(&TMPro::TMP_TextUtilities::FindIntersectingLine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextUtilities*), "FindIntersectingLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextUtilities*), "FindIntersectingLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextUtilities::FindIntersectingLink
+// Writing MetadataGetter for method: TMPro::TMP_TextUtilities::FindIntersectingLink
 // Il2CppName: FindIntersectingLink
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(TMPro::TMP_Text*, UnityEngine::Vector3, UnityEngine::Camera*)>(&TMP_TextUtilities::FindIntersectingLink)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(TMPro::TMP_Text*, UnityEngine::Vector3, UnityEngine::Camera*)>(&TMPro::TMP_TextUtilities::FindIntersectingLink)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextUtilities*), "FindIntersectingLink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextUtilities*), "FindIntersectingLink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextUtilities::FindNearestLink
+// Writing MetadataGetter for method: TMPro::TMP_TextUtilities::FindNearestLink
 // Il2CppName: FindNearestLink
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(TMPro::TMP_Text*, UnityEngine::Vector3, UnityEngine::Camera*)>(&TMP_TextUtilities::FindNearestLink)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(TMPro::TMP_Text*, UnityEngine::Vector3, UnityEngine::Camera*)>(&TMPro::TMP_TextUtilities::FindNearestLink)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextUtilities*), "FindNearestLink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextUtilities*), "FindNearestLink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextUtilities::PointIntersectRectangle
+// Writing MetadataGetter for method: TMPro::TMP_TextUtilities::PointIntersectRectangle
 // Il2CppName: PointIntersectRectangle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3)>(&TMP_TextUtilities::PointIntersectRectangle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3)>(&TMPro::TMP_TextUtilities::PointIntersectRectangle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextUtilities*), "PointIntersectRectangle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextUtilities*), "PointIntersectRectangle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextUtilities::ScreenPointToWorldPointInRectangle
+// Writing MetadataGetter for method: TMPro::TMP_TextUtilities::ScreenPointToWorldPointInRectangle
 // Il2CppName: ScreenPointToWorldPointInRectangle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, UnityEngine::Vector2, UnityEngine::Camera*, UnityEngine::Vector3&)>(&TMP_TextUtilities::ScreenPointToWorldPointInRectangle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, UnityEngine::Vector2, UnityEngine::Camera*, UnityEngine::Vector3&)>(&TMPro::TMP_TextUtilities::ScreenPointToWorldPointInRectangle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextUtilities*), "ScreenPointToWorldPointInRectangle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextUtilities*), "ScreenPointToWorldPointInRectangle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextUtilities::IntersectLinePlane
+// Writing MetadataGetter for method: TMPro::TMP_TextUtilities::IntersectLinePlane
 // Il2CppName: IntersectLinePlane
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(TMPro::TMP_TextUtilities::LineSegment, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3&)>(&TMP_TextUtilities::IntersectLinePlane)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(TMPro::TMP_TextUtilities::LineSegment, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3&)>(&TMPro::TMP_TextUtilities::IntersectLinePlane)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextUtilities*), "IntersectLinePlane", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_TextUtilities::LineSegment>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextUtilities*), "IntersectLinePlane", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_TextUtilities::LineSegment>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextUtilities::DistanceToLine
+// Writing MetadataGetter for method: TMPro::TMP_TextUtilities::DistanceToLine
 // Il2CppName: DistanceToLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3)>(&TMP_TextUtilities::DistanceToLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3)>(&TMPro::TMP_TextUtilities::DistanceToLine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextUtilities*), "DistanceToLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextUtilities*), "DistanceToLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextUtilities::ToLowerFast
+// Writing MetadataGetter for method: TMPro::TMP_TextUtilities::ToLowerFast
 // Il2CppName: ToLowerFast
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::Il2CppChar)>(&TMP_TextUtilities::ToLowerFast)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::Il2CppChar)>(&TMPro::TMP_TextUtilities::ToLowerFast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextUtilities*), "ToLowerFast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextUtilities*), "ToLowerFast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextUtilities::ToUpperFast
+// Writing MetadataGetter for method: TMPro::TMP_TextUtilities::ToUpperFast
 // Il2CppName: ToUpperFast
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::Il2CppChar)>(&TMP_TextUtilities::ToUpperFast)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::Il2CppChar)>(&TMPro::TMP_TextUtilities::ToUpperFast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextUtilities*), "ToUpperFast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextUtilities*), "ToUpperFast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextUtilities::GetSimpleHashCode
+// Writing MetadataGetter for method: TMPro::TMP_TextUtilities::GetSimpleHashCode
 // Il2CppName: GetSimpleHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&TMP_TextUtilities::GetSimpleHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&TMPro::TMP_TextUtilities::GetSimpleHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextUtilities*), "GetSimpleHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextUtilities*), "GetSimpleHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextUtilities::GetSimpleHashCodeLowercase
+// Writing MetadataGetter for method: TMPro::TMP_TextUtilities::GetSimpleHashCodeLowercase
 // Il2CppName: GetSimpleHashCodeLowercase
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Il2CppString*)>(&TMP_TextUtilities::GetSimpleHashCodeLowercase)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Il2CppString*)>(&TMPro::TMP_TextUtilities::GetSimpleHashCodeLowercase)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextUtilities*), "GetSimpleHashCodeLowercase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextUtilities*), "GetSimpleHashCodeLowercase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextUtilities::HexToInt
+// Writing MetadataGetter for method: TMPro::TMP_TextUtilities::HexToInt
 // Il2CppName: HexToInt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppChar)>(&TMP_TextUtilities::HexToInt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppChar)>(&TMPro::TMP_TextUtilities::HexToInt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextUtilities*), "HexToInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextUtilities*), "HexToInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextUtilities::StringHexToInt
+// Writing MetadataGetter for method: TMPro::TMP_TextUtilities::StringHexToInt
 // Il2CppName: StringHexToInt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&TMP_TextUtilities::StringHexToInt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&TMPro::TMP_TextUtilities::StringHexToInt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextUtilities*), "StringHexToInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextUtilities*), "StringHexToInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TMP_TextUtilities::_cctor
+// Writing MetadataGetter for method: TMPro::TMP_TextUtilities::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TMP_TextUtilities::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TMPro::TMP_TextUtilities::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMP_TextUtilities*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextUtilities*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

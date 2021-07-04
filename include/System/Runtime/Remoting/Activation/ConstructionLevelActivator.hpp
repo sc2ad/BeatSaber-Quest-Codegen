@@ -52,33 +52,33 @@ namespace System::Runtime::Remoting::Activation {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Activation::ConstructionLevelActivator*, "System.Runtime.Remoting.Activation", "ConstructionLevelActivator");
-// Writing MetadataGetter for method: ConstructionLevelActivator::get_NextActivator
+// Writing MetadataGetter for method: System::Runtime::Remoting::Activation::ConstructionLevelActivator::get_NextActivator
 // Il2CppName: get_NextActivator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Activation::IActivator* (ConstructionLevelActivator::*)()>(&ConstructionLevelActivator::get_NextActivator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Activation::IActivator* (System::Runtime::Remoting::Activation::ConstructionLevelActivator::*)()>(&System::Runtime::Remoting::Activation::ConstructionLevelActivator::get_NextActivator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConstructionLevelActivator*), "get_NextActivator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::ConstructionLevelActivator*), "get_NextActivator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ConstructionLevelActivator::Activate
+// Writing MetadataGetter for method: System::Runtime::Remoting::Activation::ConstructionLevelActivator::Activate
 // Il2CppName: Activate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Activation::IConstructionReturnMessage* (ConstructionLevelActivator::*)(System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&ConstructionLevelActivator::Activate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Activation::IConstructionReturnMessage* (System::Runtime::Remoting::Activation::ConstructionLevelActivator::*)(System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&System::Runtime::Remoting::Activation::ConstructionLevelActivator::Activate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConstructionLevelActivator*), "Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Activation::IConstructionCallMessage*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::ConstructionLevelActivator*), "Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Activation::IConstructionCallMessage*>()});
   }
 };
-// Writing MetadataGetter for method: ConstructionLevelActivator::New_ctor
+// Writing MetadataGetter for method: System::Runtime::Remoting::Activation::ConstructionLevelActivator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstructionLevelActivator::*)()>(&ConstructionLevelActivator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Activation::ConstructionLevelActivator::*)()>(&System::Runtime::Remoting::Activation::ConstructionLevelActivator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConstructionLevelActivator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::ConstructionLevelActivator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ConstructionLevelActivator::*)()>(&ConstructionLevelActivator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Activation::ConstructionLevelActivator::*)()>(&System::Runtime::Remoting::Activation::ConstructionLevelActivator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ConstructionLevelActivator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::ConstructionLevelActivator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

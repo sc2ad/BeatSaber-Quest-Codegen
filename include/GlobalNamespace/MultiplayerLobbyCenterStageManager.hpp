@@ -99,49 +99,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLobbyCenterStageManager) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyCenterStageManager*, "", "MultiplayerLobbyCenterStageManager");
-// Writing MetadataGetter for method: MultiplayerLobbyCenterStageManager::Init
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyCenterStageManager::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyCenterStageManager::*)(float, float)>(&MultiplayerLobbyCenterStageManager::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyCenterStageManager::*)(float, float)>(&GlobalNamespace::MultiplayerLobbyCenterStageManager::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyCenterStageManager*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyCenterStageManager*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyCenterStageManager::ActivateCenterStageManager
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyCenterStageManager::ActivateCenterStageManager
 // Il2CppName: ActivateCenterStageManager
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyCenterStageManager::*)()>(&MultiplayerLobbyCenterStageManager::ActivateCenterStageManager)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyCenterStageManager::*)()>(&GlobalNamespace::MultiplayerLobbyCenterStageManager::ActivateCenterStageManager)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyCenterStageManager*), "ActivateCenterStageManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyCenterStageManager*), "ActivateCenterStageManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyCenterStageManager::DeactivateCenterStageManager
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyCenterStageManager::DeactivateCenterStageManager
 // Il2CppName: DeactivateCenterStageManager
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyCenterStageManager::*)()>(&MultiplayerLobbyCenterStageManager::DeactivateCenterStageManager)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyCenterStageManager::*)()>(&GlobalNamespace::MultiplayerLobbyCenterStageManager::DeactivateCenterStageManager)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyCenterStageManager*), "DeactivateCenterStageManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyCenterStageManager*), "DeactivateCenterStageManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyCenterStageManager::RecalculateCenterPosition
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyCenterStageManager::RecalculateCenterPosition
 // Il2CppName: RecalculateCenterPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyCenterStageManager::*)()>(&MultiplayerLobbyCenterStageManager::RecalculateCenterPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyCenterStageManager::*)()>(&GlobalNamespace::MultiplayerLobbyCenterStageManager::RecalculateCenterPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyCenterStageManager*), "RecalculateCenterPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyCenterStageManager*), "RecalculateCenterPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyCenterStageManager::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyCenterStageManager::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyCenterStageManager::*)()>(&MultiplayerLobbyCenterStageManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyCenterStageManager::*)()>(&GlobalNamespace::MultiplayerLobbyCenterStageManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyCenterStageManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyCenterStageManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyCenterStageManager::*)()>(&MultiplayerLobbyCenterStageManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyCenterStageManager::*)()>(&GlobalNamespace::MultiplayerLobbyCenterStageManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyCenterStageManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyCenterStageManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

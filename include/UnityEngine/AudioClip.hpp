@@ -130,185 +130,185 @@ namespace UnityEngine {
   static_assert(sizeof(AudioClip) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioClip*, "UnityEngine", "AudioClip");
-// Writing MetadataGetter for method: AudioClip::GetData
+// Writing MetadataGetter for method: UnityEngine::AudioClip::GetData
 // Il2CppName: GetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::AudioClip*, ::Array<float>*&, int, int)>(&AudioClip::GetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::AudioClip*, ::Array<float>*&, int, int)>(&UnityEngine::AudioClip::GetData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip*>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioClip*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip*>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: AudioClip::SetData
+// Writing MetadataGetter for method: UnityEngine::AudioClip::SetData
 // Il2CppName: SetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::AudioClip*, ::Array<float>*, int, int)>(&AudioClip::SetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::AudioClip*, ::Array<float>*, int, int)>(&UnityEngine::AudioClip::SetData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip*>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioClip*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip*>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: AudioClip::Construct_Internal
+// Writing MetadataGetter for method: UnityEngine::AudioClip::Construct_Internal
 // Il2CppName: Construct_Internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioClip* (*)()>(&AudioClip::Construct_Internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioClip* (*)()>(&UnityEngine::AudioClip::Construct_Internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "Construct_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioClip*), "Construct_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AudioClip::GetName
+// Writing MetadataGetter for method: UnityEngine::AudioClip::GetName
 // Il2CppName: GetName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AudioClip::*)()>(&AudioClip::GetName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::AudioClip::*)()>(&UnityEngine::AudioClip::GetName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "GetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioClip*), "GetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AudioClip::CreateUserSound
+// Writing MetadataGetter for method: UnityEngine::AudioClip::CreateUserSound
 // Il2CppName: CreateUserSound
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClip::*)(::Il2CppString*, int, int, int, bool)>(&AudioClip::CreateUserSound)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AudioClip::*)(::Il2CppString*, int, int, int, bool)>(&UnityEngine::AudioClip::CreateUserSound)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "CreateUserSound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioClip*), "CreateUserSound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AudioClip::get_length
+// Writing MetadataGetter for method: UnityEngine::AudioClip::get_length
 // Il2CppName: get_length
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (AudioClip::*)()>(&AudioClip::get_length)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::AudioClip::*)()>(&UnityEngine::AudioClip::get_length)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "get_length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioClip*), "get_length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AudioClip::get_samples
+// Writing MetadataGetter for method: UnityEngine::AudioClip::get_samples
 // Il2CppName: get_samples
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AudioClip::*)()>(&AudioClip::get_samples)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::AudioClip::*)()>(&UnityEngine::AudioClip::get_samples)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "get_samples", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioClip*), "get_samples", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AudioClip::get_channels
+// Writing MetadataGetter for method: UnityEngine::AudioClip::get_channels
 // Il2CppName: get_channels
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AudioClip::*)()>(&AudioClip::get_channels)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::AudioClip::*)()>(&UnityEngine::AudioClip::get_channels)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "get_channels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioClip*), "get_channels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AudioClip::get_frequency
+// Writing MetadataGetter for method: UnityEngine::AudioClip::get_frequency
 // Il2CppName: get_frequency
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (AudioClip::*)()>(&AudioClip::get_frequency)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::AudioClip::*)()>(&UnityEngine::AudioClip::get_frequency)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "get_frequency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioClip*), "get_frequency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AudioClip::LoadAudioData
+// Writing MetadataGetter for method: UnityEngine::AudioClip::LoadAudioData
 // Il2CppName: LoadAudioData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AudioClip::*)()>(&AudioClip::LoadAudioData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AudioClip::*)()>(&UnityEngine::AudioClip::LoadAudioData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "LoadAudioData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioClip*), "LoadAudioData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AudioClip::get_loadState
+// Writing MetadataGetter for method: UnityEngine::AudioClip::get_loadState
 // Il2CppName: get_loadState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioDataLoadState (AudioClip::*)()>(&AudioClip::get_loadState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioDataLoadState (UnityEngine::AudioClip::*)()>(&UnityEngine::AudioClip::get_loadState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "get_loadState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioClip*), "get_loadState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AudioClip::GetData
+// Writing MetadataGetter for method: UnityEngine::AudioClip::GetData
 // Il2CppName: GetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AudioClip::*)(::Array<float>*, int)>(&AudioClip::GetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AudioClip::*)(::Array<float>*, int)>(&UnityEngine::AudioClip::GetData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioClip*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: AudioClip::SetData
+// Writing MetadataGetter for method: UnityEngine::AudioClip::SetData
 // Il2CppName: SetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AudioClip::*)(::Array<float>*, int)>(&AudioClip::SetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AudioClip::*)(::Array<float>*, int)>(&UnityEngine::AudioClip::SetData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioClip*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: AudioClip::Create
+// Writing MetadataGetter for method: UnityEngine::AudioClip::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioClip* (*)(::Il2CppString*, int, int, int, bool)>(&AudioClip::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioClip* (*)(::Il2CppString*, int, int, int, bool)>(&UnityEngine::AudioClip::Create)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioClip*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AudioClip::Create
+// Writing MetadataGetter for method: UnityEngine::AudioClip::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioClip* (*)(::Il2CppString*, int, int, int, bool, UnityEngine::AudioClip::PCMReaderCallback*, UnityEngine::AudioClip::PCMSetPositionCallback*)>(&AudioClip::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioClip* (*)(::Il2CppString*, int, int, int, bool, UnityEngine::AudioClip::PCMReaderCallback*, UnityEngine::AudioClip::PCMSetPositionCallback*)>(&UnityEngine::AudioClip::Create)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip::PCMReaderCallback*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip::PCMSetPositionCallback*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioClip*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip::PCMReaderCallback*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip::PCMSetPositionCallback*>()});
   }
 };
-// Writing MetadataGetter for method: AudioClip::add_m_PCMReaderCallback
+// Writing MetadataGetter for method: UnityEngine::AudioClip::add_m_PCMReaderCallback
 // Il2CppName: add_m_PCMReaderCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClip::*)(UnityEngine::AudioClip::PCMReaderCallback*)>(&AudioClip::add_m_PCMReaderCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AudioClip::*)(UnityEngine::AudioClip::PCMReaderCallback*)>(&UnityEngine::AudioClip::add_m_PCMReaderCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "add_m_PCMReaderCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip::PCMReaderCallback*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioClip*), "add_m_PCMReaderCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip::PCMReaderCallback*>()});
   }
 };
-// Writing MetadataGetter for method: AudioClip::remove_m_PCMReaderCallback
+// Writing MetadataGetter for method: UnityEngine::AudioClip::remove_m_PCMReaderCallback
 // Il2CppName: remove_m_PCMReaderCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClip::*)(UnityEngine::AudioClip::PCMReaderCallback*)>(&AudioClip::remove_m_PCMReaderCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AudioClip::*)(UnityEngine::AudioClip::PCMReaderCallback*)>(&UnityEngine::AudioClip::remove_m_PCMReaderCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "remove_m_PCMReaderCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip::PCMReaderCallback*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioClip*), "remove_m_PCMReaderCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip::PCMReaderCallback*>()});
   }
 };
-// Writing MetadataGetter for method: AudioClip::add_m_PCMSetPositionCallback
+// Writing MetadataGetter for method: UnityEngine::AudioClip::add_m_PCMSetPositionCallback
 // Il2CppName: add_m_PCMSetPositionCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClip::*)(UnityEngine::AudioClip::PCMSetPositionCallback*)>(&AudioClip::add_m_PCMSetPositionCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AudioClip::*)(UnityEngine::AudioClip::PCMSetPositionCallback*)>(&UnityEngine::AudioClip::add_m_PCMSetPositionCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "add_m_PCMSetPositionCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip::PCMSetPositionCallback*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioClip*), "add_m_PCMSetPositionCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip::PCMSetPositionCallback*>()});
   }
 };
-// Writing MetadataGetter for method: AudioClip::remove_m_PCMSetPositionCallback
+// Writing MetadataGetter for method: UnityEngine::AudioClip::remove_m_PCMSetPositionCallback
 // Il2CppName: remove_m_PCMSetPositionCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClip::*)(UnityEngine::AudioClip::PCMSetPositionCallback*)>(&AudioClip::remove_m_PCMSetPositionCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AudioClip::*)(UnityEngine::AudioClip::PCMSetPositionCallback*)>(&UnityEngine::AudioClip::remove_m_PCMSetPositionCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "remove_m_PCMSetPositionCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip::PCMSetPositionCallback*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioClip*), "remove_m_PCMSetPositionCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip::PCMSetPositionCallback*>()});
   }
 };
-// Writing MetadataGetter for method: AudioClip::InvokePCMReaderCallback_Internal
+// Writing MetadataGetter for method: UnityEngine::AudioClip::InvokePCMReaderCallback_Internal
 // Il2CppName: InvokePCMReaderCallback_Internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClip::*)(::Array<float>*)>(&AudioClip::InvokePCMReaderCallback_Internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AudioClip::*)(::Array<float>*)>(&UnityEngine::AudioClip::InvokePCMReaderCallback_Internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "InvokePCMReaderCallback_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioClip*), "InvokePCMReaderCallback_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>()});
   }
 };
-// Writing MetadataGetter for method: AudioClip::InvokePCMSetPositionCallback_Internal
+// Writing MetadataGetter for method: UnityEngine::AudioClip::InvokePCMSetPositionCallback_Internal
 // Il2CppName: InvokePCMSetPositionCallback_Internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClip::*)(int)>(&AudioClip::InvokePCMSetPositionCallback_Internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AudioClip::*)(int)>(&UnityEngine::AudioClip::InvokePCMSetPositionCallback_Internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), "InvokePCMSetPositionCallback_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioClip*), "InvokePCMSetPositionCallback_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: AudioClip::New_ctor
+// Writing MetadataGetter for method: UnityEngine::AudioClip::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClip::*)()>(&AudioClip::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AudioClip::*)()>(&UnityEngine::AudioClip::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioClip*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClip::*)()>(&AudioClip::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AudioClip::*)()>(&UnityEngine::AudioClip::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClip*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioClip*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

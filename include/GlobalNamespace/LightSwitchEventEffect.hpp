@@ -239,89 +239,89 @@ namespace GlobalNamespace {
   static_assert(sizeof(LightSwitchEventEffect) == 0xC0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightSwitchEventEffect*, "", "LightSwitchEventEffect");
-// Writing MetadataGetter for method: LightSwitchEventEffect::get_lightsId
+// Writing MetadataGetter for method: GlobalNamespace::LightSwitchEventEffect::get_lightsId
 // Il2CppName: get_lightsId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LightSwitchEventEffect::*)()>(&LightSwitchEventEffect::get_lightsId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::LightSwitchEventEffect::*)()>(&GlobalNamespace::LightSwitchEventEffect::get_lightsId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightSwitchEventEffect*), "get_lightsId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightSwitchEventEffect*), "get_lightsId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LightSwitchEventEffect::Start
+// Writing MetadataGetter for method: GlobalNamespace::LightSwitchEventEffect::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightSwitchEventEffect::*)()>(&LightSwitchEventEffect::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightSwitchEventEffect::*)()>(&GlobalNamespace::LightSwitchEventEffect::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightSwitchEventEffect*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightSwitchEventEffect*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LightSwitchEventEffect::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::LightSwitchEventEffect::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightSwitchEventEffect::*)()>(&LightSwitchEventEffect::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightSwitchEventEffect::*)()>(&GlobalNamespace::LightSwitchEventEffect::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightSwitchEventEffect*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightSwitchEventEffect*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LightSwitchEventEffect::Update
+// Writing MetadataGetter for method: GlobalNamespace::LightSwitchEventEffect::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightSwitchEventEffect::*)()>(&LightSwitchEventEffect::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightSwitchEventEffect::*)()>(&GlobalNamespace::LightSwitchEventEffect::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightSwitchEventEffect*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightSwitchEventEffect*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LightSwitchEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
+// Writing MetadataGetter for method: GlobalNamespace::LightSwitchEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
 // Il2CppName: HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightSwitchEventEffect::*)(GlobalNamespace::BeatmapEventData*)>(&LightSwitchEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightSwitchEventEffect::*)(GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::LightSwitchEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightSwitchEventEffect*), "HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightSwitchEventEffect*), "HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
   }
 };
-// Writing MetadataGetter for method: LightSwitchEventEffect::ProcessLightSwitchEvent
+// Writing MetadataGetter for method: GlobalNamespace::LightSwitchEventEffect::ProcessLightSwitchEvent
 // Il2CppName: ProcessLightSwitchEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightSwitchEventEffect::*)(int, bool)>(&LightSwitchEventEffect::ProcessLightSwitchEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightSwitchEventEffect::*)(int, bool)>(&GlobalNamespace::LightSwitchEventEffect::ProcessLightSwitchEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightSwitchEventEffect*), "ProcessLightSwitchEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightSwitchEventEffect*), "ProcessLightSwitchEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: LightSwitchEventEffect::GetNormalColor
+// Writing MetadataGetter for method: GlobalNamespace::LightSwitchEventEffect::GetNormalColor
 // Il2CppName: GetNormalColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (LightSwitchEventEffect::*)(int)>(&LightSwitchEventEffect::GetNormalColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::LightSwitchEventEffect::*)(int)>(&GlobalNamespace::LightSwitchEventEffect::GetNormalColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightSwitchEventEffect*), "GetNormalColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightSwitchEventEffect*), "GetNormalColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LightSwitchEventEffect::GetHighlightColor
+// Writing MetadataGetter for method: GlobalNamespace::LightSwitchEventEffect::GetHighlightColor
 // Il2CppName: GetHighlightColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (LightSwitchEventEffect::*)(int)>(&LightSwitchEventEffect::GetHighlightColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::LightSwitchEventEffect::*)(int)>(&GlobalNamespace::LightSwitchEventEffect::GetHighlightColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightSwitchEventEffect*), "GetHighlightColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightSwitchEventEffect*), "GetHighlightColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LightSwitchEventEffect::SetColor
+// Writing MetadataGetter for method: GlobalNamespace::LightSwitchEventEffect::SetColor
 // Il2CppName: SetColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightSwitchEventEffect::*)(UnityEngine::Color)>(&LightSwitchEventEffect::SetColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightSwitchEventEffect::*)(UnityEngine::Color)>(&GlobalNamespace::LightSwitchEventEffect::SetColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightSwitchEventEffect*), "SetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightSwitchEventEffect*), "SetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: LightSwitchEventEffect::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::LightSwitchEventEffect::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightSwitchEventEffect::*)()>(&LightSwitchEventEffect::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightSwitchEventEffect::*)()>(&GlobalNamespace::LightSwitchEventEffect::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightSwitchEventEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightSwitchEventEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LightSwitchEventEffect::*)()>(&LightSwitchEventEffect::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightSwitchEventEffect::*)()>(&GlobalNamespace::LightSwitchEventEffect::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LightSwitchEventEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightSwitchEventEffect*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

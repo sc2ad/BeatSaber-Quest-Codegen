@@ -75,17 +75,17 @@ namespace Assets::OVR::Scripts {
   static_assert(sizeof(FixRecord) == 0x3A);
 }
 DEFINE_IL2CPP_ARG_TYPE(Assets::OVR::Scripts::FixRecord*, "Assets.OVR.Scripts", "FixRecord");
-// Writing MetadataGetter for method: FixRecord::New_ctor
+// Writing MetadataGetter for method: Assets::OVR::Scripts::FixRecord::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FixRecord::*)(::Il2CppString*, ::Il2CppString*, Assets::OVR::Scripts::FixMethodDelegate*, UnityEngine::Object*, bool, ::Array<::Il2CppString*>*)>(&FixRecord::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Assets::OVR::Scripts::FixRecord::*)(::Il2CppString*, ::Il2CppString*, Assets::OVR::Scripts::FixMethodDelegate*, UnityEngine::Object*, bool, ::Array<::Il2CppString*>*)>(&Assets::OVR::Scripts::FixRecord::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FixRecord*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Assets::OVR::Scripts::FixMethodDelegate*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Assets::OVR::Scripts::FixRecord*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Assets::OVR::Scripts::FixMethodDelegate*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FixRecord::*)(::Il2CppString*, ::Il2CppString*, Assets::OVR::Scripts::FixMethodDelegate*, UnityEngine::Object*, bool, ::Array<::Il2CppString*>*)>(&FixRecord::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Assets::OVR::Scripts::FixRecord::*)(::Il2CppString*, ::Il2CppString*, Assets::OVR::Scripts::FixMethodDelegate*, UnityEngine::Object*, bool, ::Array<::Il2CppString*>*)>(&Assets::OVR::Scripts::FixRecord::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FixRecord*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Assets::OVR::Scripts::FixMethodDelegate*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Assets::OVR::Scripts::FixRecord*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Assets::OVR::Scripts::FixMethodDelegate*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
   }
 };

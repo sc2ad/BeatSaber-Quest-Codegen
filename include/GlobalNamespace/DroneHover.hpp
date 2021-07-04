@@ -141,57 +141,57 @@ namespace GlobalNamespace {
   static_assert(sizeof(DroneHover) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DroneHover*, "", "DroneHover");
-// Writing MetadataGetter for method: DroneHover::Start
+// Writing MetadataGetter for method: GlobalNamespace::DroneHover::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DroneHover::*)()>(&DroneHover::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DroneHover::*)()>(&GlobalNamespace::DroneHover::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DroneHover*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DroneHover*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DroneHover::Update
+// Writing MetadataGetter for method: GlobalNamespace::DroneHover::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DroneHover::*)()>(&DroneHover::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DroneHover::*)()>(&GlobalNamespace::DroneHover::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DroneHover*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DroneHover*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DroneHover::GetNoiseVec3
+// Writing MetadataGetter for method: GlobalNamespace::DroneHover::GetNoiseVec3
 // Il2CppName: GetNoiseVec3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (DroneHover::*)(float)>(&DroneHover::GetNoiseVec3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::DroneHover::*)(float)>(&GlobalNamespace::DroneHover::GetNoiseVec3)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DroneHover*), "GetNoiseVec3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DroneHover*), "GetNoiseVec3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: DroneHover::GetNoise
+// Writing MetadataGetter for method: GlobalNamespace::DroneHover::GetNoise
 // Il2CppName: GetNoise
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (DroneHover::*)(float, float)>(&DroneHover::GetNoise)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::DroneHover::*)(float, float)>(&GlobalNamespace::DroneHover::GetNoise)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DroneHover*), "GetNoise", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DroneHover*), "GetNoise", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: DroneHover::UpdateTiltTransform
+// Writing MetadataGetter for method: GlobalNamespace::DroneHover::UpdateTiltTransform
 // Il2CppName: UpdateTiltTransform
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DroneHover::*)()>(&DroneHover::UpdateTiltTransform)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DroneHover::*)()>(&GlobalNamespace::DroneHover::UpdateTiltTransform)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DroneHover*), "UpdateTiltTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DroneHover*), "UpdateTiltTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DroneHover::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::DroneHover::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DroneHover::*)()>(&DroneHover::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DroneHover::*)()>(&GlobalNamespace::DroneHover::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DroneHover*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DroneHover*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DroneHover::*)()>(&DroneHover::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DroneHover::*)()>(&GlobalNamespace::DroneHover::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DroneHover*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DroneHover*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

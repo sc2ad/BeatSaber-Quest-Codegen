@@ -104,81 +104,81 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockServer) == 0xE0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockServer*, "", "MockServer");
-// Writing MetadataGetter for method: MockServer::add_joinedEvent
+// Writing MetadataGetter for method: GlobalNamespace::MockServer::add_joinedEvent
 // Il2CppName: add_joinedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockServer::*)(System::Action*)>(&MockServer::add_joinedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockServer::*)(System::Action*)>(&GlobalNamespace::MockServer::add_joinedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockServer*), "add_joinedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockServer*), "add_joinedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: MockServer::remove_joinedEvent
+// Writing MetadataGetter for method: GlobalNamespace::MockServer::remove_joinedEvent
 // Il2CppName: remove_joinedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockServer::*)(System::Action*)>(&MockServer::remove_joinedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockServer::*)(System::Action*)>(&GlobalNamespace::MockServer::remove_joinedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockServer*), "remove_joinedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockServer*), "remove_joinedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: MockServer::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MockServer::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockServer::*)(GlobalNamespace::MockServerSettings*, bool)>(&MockServer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockServer::*)(GlobalNamespace::MockServerSettings*, bool)>(&GlobalNamespace::MockServer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockServer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockServerSettings*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockServer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockServerSettings*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockServer::*)(GlobalNamespace::MockServerSettings*, bool)>(&MockServer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockServer::*)(GlobalNamespace::MockServerSettings*, bool)>(&GlobalNamespace::MockServer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockServer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockServerSettings*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockServer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockServerSettings*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: MockServer::SetConfiguration
+// Writing MetadataGetter for method: GlobalNamespace::MockServer::SetConfiguration
 // Il2CppName: SetConfiguration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockServer::*)(GlobalNamespace::GameplayServerConfiguration)>(&MockServer::SetConfiguration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockServer::*)(GlobalNamespace::GameplayServerConfiguration)>(&GlobalNamespace::MockServer::SetConfiguration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockServer*), "SetConfiguration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockServer*), "SetConfiguration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>()});
   }
 };
-// Writing MetadataGetter for method: MockServer::get_canJoin
+// Writing MetadataGetter for method: GlobalNamespace::MockServer::get_canJoin
 // Il2CppName: get_canJoin
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MockServer::*)()>(&MockServer::get_canJoin)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockServer::*)()>(&GlobalNamespace::MockServer::get_canJoin)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockServer*), "get_canJoin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockServer*), "get_canJoin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockServer::Join
+// Writing MetadataGetter for method: GlobalNamespace::MockServer::Join
 // Il2CppName: Join
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockServer::*)()>(&MockServer::Join)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockServer::*)()>(&GlobalNamespace::MockServer::Join)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockServer*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockServer*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MockServer::Join
+// Writing MetadataGetter for method: GlobalNamespace::MockServer::Join
 // Il2CppName: Join
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockServer::*)(::Il2CppString*)>(&MockServer::Join)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockServer::*)(::Il2CppString*)>(&GlobalNamespace::MockServer::Join)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockServer*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockServer*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: MockServer::Connect
+// Writing MetadataGetter for method: GlobalNamespace::MockServer::Connect
 // Il2CppName: Connect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockServer::*)(GlobalNamespace::IMultiplayerSessionManager*, GlobalNamespace::AvatarPartsModel*, GlobalNamespace::BeatmapLevelsModel*, GlobalNamespace::NodePoseSyncStateManager*)>(&MockServer::Connect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockServer::*)(GlobalNamespace::IMultiplayerSessionManager*, GlobalNamespace::AvatarPartsModel*, GlobalNamespace::BeatmapLevelsModel*, GlobalNamespace::NodePoseSyncStateManager*)>(&GlobalNamespace::MockServer::Connect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockServer*), "Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AvatarPartsModel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapLevelsModel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NodePoseSyncStateManager*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockServer*), "Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AvatarPartsModel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapLevelsModel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NodePoseSyncStateManager*>()});
   }
 };
-// Writing MetadataGetter for method: MockServer::Disconnect
+// Writing MetadataGetter for method: GlobalNamespace::MockServer::Disconnect
 // Il2CppName: Disconnect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MockServer::*)()>(&MockServer::Disconnect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockServer::*)()>(&GlobalNamespace::MockServer::Disconnect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MockServer*), "Disconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockServer*), "Disconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

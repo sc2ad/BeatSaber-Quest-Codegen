@@ -48,33 +48,33 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithDataStoreUnderPrivateUserDataStore
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore*, "Oculus.Platform", "MessageWithDataStoreUnderPrivateUserDataStore");
-// Writing MetadataGetter for method: MessageWithDataStoreUnderPrivateUserDataStore::GetDataFromMessage
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* (MessageWithDataStoreUnderPrivateUserDataStore::*)(System::IntPtr)>(&MessageWithDataStoreUnderPrivateUserDataStore::GetDataFromMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* (Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore::*)(System::IntPtr)>(&Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore::GetDataFromMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithDataStoreUnderPrivateUserDataStore*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithDataStoreUnderPrivateUserDataStore::New_ctor
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithDataStoreUnderPrivateUserDataStore::*)(System::IntPtr)>(&MessageWithDataStoreUnderPrivateUserDataStore::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore::*)(System::IntPtr)>(&Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithDataStoreUnderPrivateUserDataStore*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithDataStoreUnderPrivateUserDataStore::*)(System::IntPtr)>(&MessageWithDataStoreUnderPrivateUserDataStore::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore::*)(System::IntPtr)>(&Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithDataStoreUnderPrivateUserDataStore*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithDataStoreUnderPrivateUserDataStore::GetDataStore
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore::GetDataStore
 // Il2CppName: GetDataStore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* (MessageWithDataStoreUnderPrivateUserDataStore::*)()>(&MessageWithDataStoreUnderPrivateUserDataStore::GetDataStore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* (Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore::*)()>(&Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore::GetDataStore)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithDataStoreUnderPrivateUserDataStore*), "GetDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore*), "GetDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

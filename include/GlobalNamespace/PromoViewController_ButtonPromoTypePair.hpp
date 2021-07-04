@@ -89,25 +89,25 @@ namespace GlobalNamespace {
   static_assert(sizeof(PromoViewController::ButtonPromoTypePair) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PromoViewController::ButtonPromoTypePair*, "", "PromoViewController/ButtonPromoTypePair");
-// Writing MetadataGetter for method: PromoViewController::ButtonPromoTypePair::get_annotatedBeatmapLevelCollection
+// Writing MetadataGetter for method: GlobalNamespace::PromoViewController::ButtonPromoTypePair::get_annotatedBeatmapLevelCollection
 // Il2CppName: get_annotatedBeatmapLevelCollection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IAnnotatedBeatmapLevelCollection* (PromoViewController::ButtonPromoTypePair::*)()>(&PromoViewController::ButtonPromoTypePair::get_annotatedBeatmapLevelCollection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IAnnotatedBeatmapLevelCollection* (GlobalNamespace::PromoViewController::ButtonPromoTypePair::*)()>(&GlobalNamespace::PromoViewController::ButtonPromoTypePair::get_annotatedBeatmapLevelCollection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PromoViewController::ButtonPromoTypePair*), "get_annotatedBeatmapLevelCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PromoViewController::ButtonPromoTypePair*), "get_annotatedBeatmapLevelCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PromoViewController::ButtonPromoTypePair::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::PromoViewController::ButtonPromoTypePair::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PromoViewController::ButtonPromoTypePair::*)()>(&PromoViewController::ButtonPromoTypePair::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PromoViewController::ButtonPromoTypePair::*)()>(&GlobalNamespace::PromoViewController::ButtonPromoTypePair::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PromoViewController::ButtonPromoTypePair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PromoViewController::ButtonPromoTypePair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PromoViewController::ButtonPromoTypePair::*)()>(&PromoViewController::ButtonPromoTypePair::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PromoViewController::ButtonPromoTypePair::*)()>(&GlobalNamespace::PromoViewController::ButtonPromoTypePair::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PromoViewController::ButtonPromoTypePair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PromoViewController::ButtonPromoTypePair*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

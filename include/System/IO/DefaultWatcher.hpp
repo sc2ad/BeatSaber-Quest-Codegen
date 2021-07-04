@@ -106,97 +106,97 @@ namespace System::IO {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::DefaultWatcher*, "System.IO", "DefaultWatcher");
-// Writing MetadataGetter for method: DefaultWatcher::GetInstance
+// Writing MetadataGetter for method: System::IO::DefaultWatcher::GetInstance
 // Il2CppName: GetInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IO::IFileWatcher*&)>(&DefaultWatcher::GetInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IO::IFileWatcher*&)>(&System::IO::DefaultWatcher::GetInstance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultWatcher*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::IFileWatcher*&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::DefaultWatcher*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::IFileWatcher*&>()});
   }
 };
-// Writing MetadataGetter for method: DefaultWatcher::StartDispatching
+// Writing MetadataGetter for method: System::IO::DefaultWatcher::StartDispatching
 // Il2CppName: StartDispatching
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultWatcher::*)(System::IO::FileSystemWatcher*)>(&DefaultWatcher::StartDispatching)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::DefaultWatcher::*)(System::IO::FileSystemWatcher*)>(&System::IO::DefaultWatcher::StartDispatching)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultWatcher*), "StartDispatching", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::FileSystemWatcher*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::DefaultWatcher*), "StartDispatching", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::FileSystemWatcher*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultWatcher::StopDispatching
+// Writing MetadataGetter for method: System::IO::DefaultWatcher::StopDispatching
 // Il2CppName: StopDispatching
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultWatcher::*)(System::IO::FileSystemWatcher*)>(&DefaultWatcher::StopDispatching)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::DefaultWatcher::*)(System::IO::FileSystemWatcher*)>(&System::IO::DefaultWatcher::StopDispatching)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultWatcher*), "StopDispatching", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::FileSystemWatcher*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::DefaultWatcher*), "StopDispatching", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::FileSystemWatcher*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultWatcher::Monitor
+// Writing MetadataGetter for method: System::IO::DefaultWatcher::Monitor
 // Il2CppName: Monitor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultWatcher::*)()>(&DefaultWatcher::Monitor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::DefaultWatcher::*)()>(&System::IO::DefaultWatcher::Monitor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultWatcher*), "Monitor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::DefaultWatcher*), "Monitor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DefaultWatcher::UpdateDataAndDispatch
+// Writing MetadataGetter for method: System::IO::DefaultWatcher::UpdateDataAndDispatch
 // Il2CppName: UpdateDataAndDispatch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DefaultWatcher::*)(System::IO::DefaultWatcherData*, bool)>(&DefaultWatcher::UpdateDataAndDispatch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::IO::DefaultWatcher::*)(System::IO::DefaultWatcherData*, bool)>(&System::IO::DefaultWatcher::UpdateDataAndDispatch)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultWatcher*), "UpdateDataAndDispatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::DefaultWatcherData*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::DefaultWatcher*), "UpdateDataAndDispatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::DefaultWatcherData*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: DefaultWatcher::DispatchEvents
+// Writing MetadataGetter for method: System::IO::DefaultWatcher::DispatchEvents
 // Il2CppName: DispatchEvents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IO::FileSystemWatcher*, System::IO::FileAction, ::Il2CppString*)>(&DefaultWatcher::DispatchEvents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IO::FileSystemWatcher*, System::IO::FileAction, ::Il2CppString*)>(&System::IO::DefaultWatcher::DispatchEvents)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultWatcher*), "DispatchEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::FileSystemWatcher*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileAction>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::DefaultWatcher*), "DispatchEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::FileSystemWatcher*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileAction>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultWatcher::DoFiles
+// Writing MetadataGetter for method: System::IO::DefaultWatcher::DoFiles
 // Il2CppName: DoFiles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultWatcher::*)(System::IO::DefaultWatcherData*, ::Il2CppString*, bool)>(&DefaultWatcher::DoFiles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::DefaultWatcher::*)(System::IO::DefaultWatcherData*, ::Il2CppString*, bool)>(&System::IO::DefaultWatcher::DoFiles)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultWatcher*), "DoFiles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::DefaultWatcherData*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::DefaultWatcher*), "DoFiles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::DefaultWatcherData*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: DefaultWatcher::IterateAndModifyFilesData
+// Writing MetadataGetter for method: System::IO::DefaultWatcher::IterateAndModifyFilesData
 // Il2CppName: IterateAndModifyFilesData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultWatcher::*)(System::IO::DefaultWatcherData*, ::Il2CppString*, bool, ::Array<::Il2CppString*>*)>(&DefaultWatcher::IterateAndModifyFilesData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::DefaultWatcher::*)(System::IO::DefaultWatcherData*, ::Il2CppString*, bool, ::Array<::Il2CppString*>*)>(&System::IO::DefaultWatcher::IterateAndModifyFilesData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultWatcher*), "IterateAndModifyFilesData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::DefaultWatcherData*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::DefaultWatcher*), "IterateAndModifyFilesData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::DefaultWatcherData*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultWatcher::CreateFileData
+// Writing MetadataGetter for method: System::IO::DefaultWatcher::CreateFileData
 // Il2CppName: CreateFileData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::FileData* (*)(::Il2CppString*, ::Il2CppString*)>(&DefaultWatcher::CreateFileData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::FileData* (*)(::Il2CppString*, ::Il2CppString*)>(&System::IO::DefaultWatcher::CreateFileData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultWatcher*), "CreateFileData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::DefaultWatcher*), "CreateFileData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: DefaultWatcher::_cctor
+// Writing MetadataGetter for method: System::IO::DefaultWatcher::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&DefaultWatcher::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::IO::DefaultWatcher::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultWatcher*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::DefaultWatcher*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DefaultWatcher::New_ctor
+// Writing MetadataGetter for method: System::IO::DefaultWatcher::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultWatcher::*)()>(&DefaultWatcher::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::DefaultWatcher::*)()>(&System::IO::DefaultWatcher::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultWatcher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::DefaultWatcher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DefaultWatcher::*)()>(&DefaultWatcher::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::DefaultWatcher::*)()>(&System::IO::DefaultWatcher::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DefaultWatcher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::DefaultWatcher*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -67,19 +67,19 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailViewController::$OpenLevelProductStoreAsync$d__59, "", "StandardLevelDetailViewController/<OpenLevelProductStoreAsync>d__59");
-// Writing MetadataGetter for method: StandardLevelDetailViewController::$OpenLevelProductStoreAsync$d__59::MoveNext
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailViewController::$OpenLevelProductStoreAsync$d__59::MoveNext
 // Il2CppName: MoveNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::$OpenLevelProductStoreAsync$d__59::*)()>(&StandardLevelDetailViewController::$OpenLevelProductStoreAsync$d__59::MoveNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelDetailViewController::$OpenLevelProductStoreAsync$d__59::*)()>(&GlobalNamespace::StandardLevelDetailViewController::$OpenLevelProductStoreAsync$d__59::MoveNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController::$OpenLevelProductStoreAsync$d__59), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailViewController::$OpenLevelProductStoreAsync$d__59), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StandardLevelDetailViewController::$OpenLevelProductStoreAsync$d__59::SetStateMachine
+// Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailViewController::$OpenLevelProductStoreAsync$d__59::SetStateMachine
 // Il2CppName: SetStateMachine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StandardLevelDetailViewController::$OpenLevelProductStoreAsync$d__59::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&StandardLevelDetailViewController::$OpenLevelProductStoreAsync$d__59::SetStateMachine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelDetailViewController::$OpenLevelProductStoreAsync$d__59::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&GlobalNamespace::StandardLevelDetailViewController::$OpenLevelProductStoreAsync$d__59::SetStateMachine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StandardLevelDetailViewController::$OpenLevelProductStoreAsync$d__59), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelDetailViewController::$OpenLevelProductStoreAsync$d__59), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
   }
 };

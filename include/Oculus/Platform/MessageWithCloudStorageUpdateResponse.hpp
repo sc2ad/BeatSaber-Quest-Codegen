@@ -47,33 +47,33 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithCloudStorageUpdateResponse
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithCloudStorageUpdateResponse*, "Oculus.Platform", "MessageWithCloudStorageUpdateResponse");
-// Writing MetadataGetter for method: MessageWithCloudStorageUpdateResponse::GetDataFromMessage
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithCloudStorageUpdateResponse::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CloudStorageUpdateResponse* (MessageWithCloudStorageUpdateResponse::*)(System::IntPtr)>(&MessageWithCloudStorageUpdateResponse::GetDataFromMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CloudStorageUpdateResponse* (Oculus::Platform::MessageWithCloudStorageUpdateResponse::*)(System::IntPtr)>(&Oculus::Platform::MessageWithCloudStorageUpdateResponse::GetDataFromMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithCloudStorageUpdateResponse*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithCloudStorageUpdateResponse*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithCloudStorageUpdateResponse::New_ctor
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithCloudStorageUpdateResponse::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithCloudStorageUpdateResponse::*)(System::IntPtr)>(&MessageWithCloudStorageUpdateResponse::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithCloudStorageUpdateResponse::*)(System::IntPtr)>(&Oculus::Platform::MessageWithCloudStorageUpdateResponse::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithCloudStorageUpdateResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithCloudStorageUpdateResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithCloudStorageUpdateResponse::*)(System::IntPtr)>(&MessageWithCloudStorageUpdateResponse::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithCloudStorageUpdateResponse::*)(System::IntPtr)>(&Oculus::Platform::MessageWithCloudStorageUpdateResponse::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithCloudStorageUpdateResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithCloudStorageUpdateResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithCloudStorageUpdateResponse::GetCloudStorageUpdateResponse
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithCloudStorageUpdateResponse::GetCloudStorageUpdateResponse
 // Il2CppName: GetCloudStorageUpdateResponse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CloudStorageUpdateResponse* (MessageWithCloudStorageUpdateResponse::*)()>(&MessageWithCloudStorageUpdateResponse::GetCloudStorageUpdateResponse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::CloudStorageUpdateResponse* (Oculus::Platform::MessageWithCloudStorageUpdateResponse::*)()>(&Oculus::Platform::MessageWithCloudStorageUpdateResponse::GetCloudStorageUpdateResponse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithCloudStorageUpdateResponse*), "GetCloudStorageUpdateResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithCloudStorageUpdateResponse*), "GetCloudStorageUpdateResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -54,35 +54,35 @@ namespace Mono::Security::X509 {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509StoreManager*, "Mono.Security.X509", "X509StoreManager");
-// Writing MetadataGetter for method: X509StoreManager::get_CurrentUserPath
+// Writing MetadataGetter for method: Mono::Security::X509::X509StoreManager::get_CurrentUserPath
 // Il2CppName: get_CurrentUserPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&X509StoreManager::get_CurrentUserPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Mono::Security::X509::X509StoreManager::get_CurrentUserPath)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509StoreManager*), "get_CurrentUserPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509StoreManager*), "get_CurrentUserPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: X509StoreManager::get_LocalMachinePath
+// Writing MetadataGetter for method: Mono::Security::X509::X509StoreManager::get_LocalMachinePath
 // Il2CppName: get_LocalMachinePath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&X509StoreManager::get_LocalMachinePath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Mono::Security::X509::X509StoreManager::get_LocalMachinePath)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509StoreManager*), "get_LocalMachinePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509StoreManager*), "get_LocalMachinePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: X509StoreManager::get_CurrentUser
+// Writing MetadataGetter for method: Mono::Security::X509::X509StoreManager::get_CurrentUser
 // Il2CppName: get_CurrentUser
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Stores* (*)()>(&X509StoreManager::get_CurrentUser)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Stores* (*)()>(&Mono::Security::X509::X509StoreManager::get_CurrentUser)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509StoreManager*), "get_CurrentUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509StoreManager*), "get_CurrentUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: X509StoreManager::get_LocalMachine
+// Writing MetadataGetter for method: Mono::Security::X509::X509StoreManager::get_LocalMachine
 // Il2CppName: get_LocalMachine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Stores* (*)()>(&X509StoreManager::get_LocalMachine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Stores* (*)()>(&Mono::Security::X509::X509StoreManager::get_LocalMachine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(X509StoreManager*), "get_LocalMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509StoreManager*), "get_LocalMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

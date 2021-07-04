@@ -182,89 +182,89 @@ namespace GlobalNamespace {
   static_assert(sizeof(VisualMetronome) == 0x75);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VisualMetronome*, "", "VisualMetronome");
-// Writing MetadataGetter for method: VisualMetronome::set_tickerColor
+// Writing MetadataGetter for method: GlobalNamespace::VisualMetronome::set_tickerColor
 // Il2CppName: set_tickerColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VisualMetronome::*)(UnityEngine::Color)>(&VisualMetronome::set_tickerColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VisualMetronome::*)(UnityEngine::Color)>(&GlobalNamespace::VisualMetronome::set_tickerColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VisualMetronome*), "set_tickerColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VisualMetronome*), "set_tickerColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: VisualMetronome::set_movingTickerColor
+// Writing MetadataGetter for method: GlobalNamespace::VisualMetronome::set_movingTickerColor
 // Il2CppName: set_movingTickerColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VisualMetronome::*)(UnityEngine::Color)>(&VisualMetronome::set_movingTickerColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VisualMetronome::*)(UnityEngine::Color)>(&GlobalNamespace::VisualMetronome::set_movingTickerColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VisualMetronome*), "set_movingTickerColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VisualMetronome*), "set_movingTickerColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: VisualMetronome::set_zeroOffset
+// Writing MetadataGetter for method: GlobalNamespace::VisualMetronome::set_zeroOffset
 // Il2CppName: set_zeroOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VisualMetronome::*)(float)>(&VisualMetronome::set_zeroOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VisualMetronome::*)(float)>(&GlobalNamespace::VisualMetronome::set_zeroOffset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VisualMetronome*), "set_zeroOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VisualMetronome*), "set_zeroOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: VisualMetronome::get_zeroOffset
+// Writing MetadataGetter for method: GlobalNamespace::VisualMetronome::get_zeroOffset
 // Il2CppName: get_zeroOffset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (VisualMetronome::*)()>(&VisualMetronome::get_zeroOffset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::VisualMetronome::*)()>(&GlobalNamespace::VisualMetronome::get_zeroOffset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VisualMetronome*), "get_zeroOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VisualMetronome*), "get_zeroOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VisualMetronome::Awake
+// Writing MetadataGetter for method: GlobalNamespace::VisualMetronome::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VisualMetronome::*)()>(&VisualMetronome::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VisualMetronome::*)()>(&GlobalNamespace::VisualMetronome::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VisualMetronome*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VisualMetronome*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VisualMetronome::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::VisualMetronome::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VisualMetronome::*)()>(&VisualMetronome::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VisualMetronome::*)()>(&GlobalNamespace::VisualMetronome::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VisualMetronome*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VisualMetronome*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VisualMetronome::OnDisable
+// Writing MetadataGetter for method: GlobalNamespace::VisualMetronome::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VisualMetronome::*)()>(&VisualMetronome::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VisualMetronome::*)()>(&GlobalNamespace::VisualMetronome::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VisualMetronome*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VisualMetronome*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VisualMetronome::Update
+// Writing MetadataGetter for method: GlobalNamespace::VisualMetronome::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VisualMetronome::*)()>(&VisualMetronome::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VisualMetronome::*)()>(&GlobalNamespace::VisualMetronome::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VisualMetronome*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VisualMetronome*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VisualMetronome::SetMovingTickerNormalizedPosition
+// Writing MetadataGetter for method: GlobalNamespace::VisualMetronome::SetMovingTickerNormalizedPosition
 // Il2CppName: SetMovingTickerNormalizedPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VisualMetronome::*)(float)>(&VisualMetronome::SetMovingTickerNormalizedPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VisualMetronome::*)(float)>(&GlobalNamespace::VisualMetronome::SetMovingTickerNormalizedPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VisualMetronome*), "SetMovingTickerNormalizedPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VisualMetronome*), "SetMovingTickerNormalizedPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: VisualMetronome::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::VisualMetronome::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VisualMetronome::*)()>(&VisualMetronome::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VisualMetronome::*)()>(&GlobalNamespace::VisualMetronome::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VisualMetronome*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VisualMetronome*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VisualMetronome::*)()>(&VisualMetronome::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VisualMetronome::*)()>(&GlobalNamespace::VisualMetronome::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VisualMetronome*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VisualMetronome*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

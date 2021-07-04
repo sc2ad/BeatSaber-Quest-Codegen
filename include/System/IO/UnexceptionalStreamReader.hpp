@@ -87,73 +87,73 @@ namespace System::IO {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::UnexceptionalStreamReader*, "System.IO", "UnexceptionalStreamReader");
-// Writing MetadataGetter for method: UnexceptionalStreamReader::CheckEOL
+// Writing MetadataGetter for method: System::IO::UnexceptionalStreamReader::CheckEOL
 // Il2CppName: CheckEOL
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnexceptionalStreamReader::*)(::Il2CppChar)>(&UnexceptionalStreamReader::CheckEOL)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::IO::UnexceptionalStreamReader::*)(::Il2CppChar)>(&System::IO::UnexceptionalStreamReader::CheckEOL)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnexceptionalStreamReader*), "CheckEOL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::UnexceptionalStreamReader*), "CheckEOL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
   }
 };
-// Writing MetadataGetter for method: UnexceptionalStreamReader::_cctor
+// Writing MetadataGetter for method: System::IO::UnexceptionalStreamReader::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnexceptionalStreamReader::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::IO::UnexceptionalStreamReader::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnexceptionalStreamReader*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::UnexceptionalStreamReader*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnexceptionalStreamReader::New_ctor
+// Writing MetadataGetter for method: System::IO::UnexceptionalStreamReader::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnexceptionalStreamReader::*)(System::IO::Stream*, System::Text::Encoding*)>(&UnexceptionalStreamReader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::UnexceptionalStreamReader::*)(System::IO::Stream*, System::Text::Encoding*)>(&System::IO::UnexceptionalStreamReader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnexceptionalStreamReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::UnexceptionalStreamReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnexceptionalStreamReader::*)(System::IO::Stream*, System::Text::Encoding*)>(&UnexceptionalStreamReader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::UnexceptionalStreamReader::*)(System::IO::Stream*, System::Text::Encoding*)>(&System::IO::UnexceptionalStreamReader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnexceptionalStreamReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::UnexceptionalStreamReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
   }
 };
-// Writing MetadataGetter for method: UnexceptionalStreamReader::Peek
+// Writing MetadataGetter for method: System::IO::UnexceptionalStreamReader::Peek
 // Il2CppName: Peek
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnexceptionalStreamReader::*)()>(&UnexceptionalStreamReader::Peek)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::UnexceptionalStreamReader::*)()>(&System::IO::UnexceptionalStreamReader::Peek)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnexceptionalStreamReader*), "Peek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::UnexceptionalStreamReader*), "Peek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnexceptionalStreamReader::Read
+// Writing MetadataGetter for method: System::IO::UnexceptionalStreamReader::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnexceptionalStreamReader::*)()>(&UnexceptionalStreamReader::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::UnexceptionalStreamReader::*)()>(&System::IO::UnexceptionalStreamReader::Read)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnexceptionalStreamReader*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::UnexceptionalStreamReader*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnexceptionalStreamReader::Read
+// Writing MetadataGetter for method: System::IO::UnexceptionalStreamReader::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnexceptionalStreamReader::*)(::Array<::Il2CppChar>*&, int, int)>(&UnexceptionalStreamReader::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::UnexceptionalStreamReader::*)(::Array<::Il2CppChar>*&, int, int)>(&System::IO::UnexceptionalStreamReader::Read)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnexceptionalStreamReader*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::UnexceptionalStreamReader*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: UnexceptionalStreamReader::ReadLine
+// Writing MetadataGetter for method: System::IO::UnexceptionalStreamReader::ReadLine
 // Il2CppName: ReadLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnexceptionalStreamReader::*)()>(&UnexceptionalStreamReader::ReadLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::UnexceptionalStreamReader::*)()>(&System::IO::UnexceptionalStreamReader::ReadLine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnexceptionalStreamReader*), "ReadLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::UnexceptionalStreamReader*), "ReadLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnexceptionalStreamReader::ReadToEnd
+// Writing MetadataGetter for method: System::IO::UnexceptionalStreamReader::ReadToEnd
 // Il2CppName: ReadToEnd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnexceptionalStreamReader::*)()>(&UnexceptionalStreamReader::ReadToEnd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::UnexceptionalStreamReader::*)()>(&System::IO::UnexceptionalStreamReader::ReadToEnd)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnexceptionalStreamReader*), "ReadToEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::UnexceptionalStreamReader*), "ReadToEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

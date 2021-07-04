@@ -22,11 +22,11 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::EnvironmentHelpers*, "System", "EnvironmentHelpers");
-// Writing MetadataGetter for method: EnvironmentHelpers::IsWindowsVistaOrAbove
+// Writing MetadataGetter for method: System::EnvironmentHelpers::IsWindowsVistaOrAbove
 // Il2CppName: IsWindowsVistaOrAbove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&EnvironmentHelpers::IsWindowsVistaOrAbove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::EnvironmentHelpers::IsWindowsVistaOrAbove)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnvironmentHelpers*), "IsWindowsVistaOrAbove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::EnvironmentHelpers*), "IsWindowsVistaOrAbove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

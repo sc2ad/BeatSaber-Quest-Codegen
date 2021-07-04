@@ -199,97 +199,97 @@ namespace GlobalNamespace {
   static_assert(sizeof(ObstacleSaberSparkleEffectManager) == 0x88);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleSaberSparkleEffectManager*, "", "ObstacleSaberSparkleEffectManager");
-// Writing MetadataGetter for method: ObstacleSaberSparkleEffectManager::add_sparkleEffectDidStartEvent
+// Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffectManager::add_sparkleEffectDidStartEvent
 // Il2CppName: add_sparkleEffectDidStartEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleSaberSparkleEffectManager::*)(System::Action_1<GlobalNamespace::SaberType>*)>(&ObstacleSaberSparkleEffectManager::add_sparkleEffectDidStartEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleSaberSparkleEffectManager::*)(System::Action_1<GlobalNamespace::SaberType>*)>(&GlobalNamespace::ObstacleSaberSparkleEffectManager::add_sparkleEffectDidStartEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ObstacleSaberSparkleEffectManager*), "add_sparkleEffectDidStartEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::SaberType>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSaberSparkleEffectManager*), "add_sparkleEffectDidStartEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::SaberType>*>()});
   }
 };
-// Writing MetadataGetter for method: ObstacleSaberSparkleEffectManager::remove_sparkleEffectDidStartEvent
+// Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffectManager::remove_sparkleEffectDidStartEvent
 // Il2CppName: remove_sparkleEffectDidStartEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleSaberSparkleEffectManager::*)(System::Action_1<GlobalNamespace::SaberType>*)>(&ObstacleSaberSparkleEffectManager::remove_sparkleEffectDidStartEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleSaberSparkleEffectManager::*)(System::Action_1<GlobalNamespace::SaberType>*)>(&GlobalNamespace::ObstacleSaberSparkleEffectManager::remove_sparkleEffectDidStartEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ObstacleSaberSparkleEffectManager*), "remove_sparkleEffectDidStartEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::SaberType>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSaberSparkleEffectManager*), "remove_sparkleEffectDidStartEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::SaberType>*>()});
   }
 };
-// Writing MetadataGetter for method: ObstacleSaberSparkleEffectManager::add_sparkleEffectDidEndEvent
+// Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffectManager::add_sparkleEffectDidEndEvent
 // Il2CppName: add_sparkleEffectDidEndEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleSaberSparkleEffectManager::*)(System::Action_1<GlobalNamespace::SaberType>*)>(&ObstacleSaberSparkleEffectManager::add_sparkleEffectDidEndEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleSaberSparkleEffectManager::*)(System::Action_1<GlobalNamespace::SaberType>*)>(&GlobalNamespace::ObstacleSaberSparkleEffectManager::add_sparkleEffectDidEndEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ObstacleSaberSparkleEffectManager*), "add_sparkleEffectDidEndEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::SaberType>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSaberSparkleEffectManager*), "add_sparkleEffectDidEndEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::SaberType>*>()});
   }
 };
-// Writing MetadataGetter for method: ObstacleSaberSparkleEffectManager::remove_sparkleEffectDidEndEvent
+// Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffectManager::remove_sparkleEffectDidEndEvent
 // Il2CppName: remove_sparkleEffectDidEndEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleSaberSparkleEffectManager::*)(System::Action_1<GlobalNamespace::SaberType>*)>(&ObstacleSaberSparkleEffectManager::remove_sparkleEffectDidEndEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleSaberSparkleEffectManager::*)(System::Action_1<GlobalNamespace::SaberType>*)>(&GlobalNamespace::ObstacleSaberSparkleEffectManager::remove_sparkleEffectDidEndEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ObstacleSaberSparkleEffectManager*), "remove_sparkleEffectDidEndEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::SaberType>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSaberSparkleEffectManager*), "remove_sparkleEffectDidEndEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::SaberType>*>()});
   }
 };
-// Writing MetadataGetter for method: ObstacleSaberSparkleEffectManager::Start
+// Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffectManager::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleSaberSparkleEffectManager::*)()>(&ObstacleSaberSparkleEffectManager::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleSaberSparkleEffectManager::*)()>(&GlobalNamespace::ObstacleSaberSparkleEffectManager::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ObstacleSaberSparkleEffectManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSaberSparkleEffectManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ObstacleSaberSparkleEffectManager::OnDisable
+// Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffectManager::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleSaberSparkleEffectManager::*)()>(&ObstacleSaberSparkleEffectManager::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleSaberSparkleEffectManager::*)()>(&GlobalNamespace::ObstacleSaberSparkleEffectManager::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ObstacleSaberSparkleEffectManager*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSaberSparkleEffectManager*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ObstacleSaberSparkleEffectManager::Update
+// Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffectManager::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleSaberSparkleEffectManager::*)()>(&ObstacleSaberSparkleEffectManager::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleSaberSparkleEffectManager::*)()>(&GlobalNamespace::ObstacleSaberSparkleEffectManager::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ObstacleSaberSparkleEffectManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSaberSparkleEffectManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ObstacleSaberSparkleEffectManager::GetEffectRotation
+// Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffectManager::GetEffectRotation
 // Il2CppName: GetEffectRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (ObstacleSaberSparkleEffectManager::*)(UnityEngine::Vector3, UnityEngine::Transform*, UnityEngine::Bounds)>(&ObstacleSaberSparkleEffectManager::GetEffectRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (GlobalNamespace::ObstacleSaberSparkleEffectManager::*)(UnityEngine::Vector3, UnityEngine::Transform*, UnityEngine::Bounds)>(&GlobalNamespace::ObstacleSaberSparkleEffectManager::GetEffectRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ObstacleSaberSparkleEffectManager*), "GetEffectRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Bounds>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSaberSparkleEffectManager*), "GetEffectRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Bounds>()});
   }
 };
-// Writing MetadataGetter for method: ObstacleSaberSparkleEffectManager::BurnMarkPosForSaberType
+// Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffectManager::BurnMarkPosForSaberType
 // Il2CppName: BurnMarkPosForSaberType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (ObstacleSaberSparkleEffectManager::*)(GlobalNamespace::SaberType)>(&ObstacleSaberSparkleEffectManager::BurnMarkPosForSaberType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::ObstacleSaberSparkleEffectManager::*)(GlobalNamespace::SaberType)>(&GlobalNamespace::ObstacleSaberSparkleEffectManager::BurnMarkPosForSaberType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ObstacleSaberSparkleEffectManager*), "BurnMarkPosForSaberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SaberType>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSaberSparkleEffectManager*), "BurnMarkPosForSaberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SaberType>()});
   }
 };
-// Writing MetadataGetter for method: ObstacleSaberSparkleEffectManager::GetBurnMarkPos
+// Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffectManager::GetBurnMarkPos
 // Il2CppName: GetBurnMarkPos
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ObstacleSaberSparkleEffectManager::*)(UnityEngine::Bounds, UnityEngine::Transform*, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3&)>(&ObstacleSaberSparkleEffectManager::GetBurnMarkPos)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ObstacleSaberSparkleEffectManager::*)(UnityEngine::Bounds, UnityEngine::Transform*, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3&)>(&GlobalNamespace::ObstacleSaberSparkleEffectManager::GetBurnMarkPos)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ObstacleSaberSparkleEffectManager*), "GetBurnMarkPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Bounds>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSaberSparkleEffectManager*), "GetBurnMarkPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Bounds>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: ObstacleSaberSparkleEffectManager::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffectManager::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleSaberSparkleEffectManager::*)()>(&ObstacleSaberSparkleEffectManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleSaberSparkleEffectManager::*)()>(&GlobalNamespace::ObstacleSaberSparkleEffectManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ObstacleSaberSparkleEffectManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSaberSparkleEffectManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ObstacleSaberSparkleEffectManager::*)()>(&ObstacleSaberSparkleEffectManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleSaberSparkleEffectManager::*)()>(&GlobalNamespace::ObstacleSaberSparkleEffectManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ObstacleSaberSparkleEffectManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSaberSparkleEffectManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

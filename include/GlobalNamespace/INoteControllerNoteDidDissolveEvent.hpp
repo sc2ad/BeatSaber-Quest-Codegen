@@ -28,11 +28,11 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoteControllerNoteDidDissolveEvent*, "", "INoteControllerNoteDidDissolveEvent");
-// Writing MetadataGetter for method: INoteControllerNoteDidDissolveEvent::HandleNoteControllerNoteDidDissolve
+// Writing MetadataGetter for method: GlobalNamespace::INoteControllerNoteDidDissolveEvent::HandleNoteControllerNoteDidDissolve
 // Il2CppName: HandleNoteControllerNoteDidDissolve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (INoteControllerNoteDidDissolveEvent::*)(GlobalNamespace::NoteController*)>(&INoteControllerNoteDidDissolveEvent::HandleNoteControllerNoteDidDissolve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::INoteControllerNoteDidDissolveEvent::*)(GlobalNamespace::NoteController*)>(&GlobalNamespace::INoteControllerNoteDidDissolveEvent::HandleNoteControllerNoteDidDissolve)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(INoteControllerNoteDidDissolveEvent*), "HandleNoteControllerNoteDidDissolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INoteControllerNoteDidDissolveEvent*), "HandleNoteControllerNoteDidDissolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>()});
   }
 };

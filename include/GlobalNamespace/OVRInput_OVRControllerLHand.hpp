@@ -66,65 +66,65 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerLHand*, "", "OVRInput/OVRControllerLHand");
-// Writing MetadataGetter for method: OVRInput::OVRControllerLHand::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerLHand::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerLHand::*)()>(&OVRInput::OVRControllerLHand::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRInput::OVRControllerLHand::*)()>(&GlobalNamespace::OVRInput::OVRControllerLHand::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerLHand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerLHand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerLHand::*)()>(&OVRInput::OVRControllerLHand::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRInput::OVRControllerLHand::*)()>(&GlobalNamespace::OVRInput::OVRControllerLHand::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerLHand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerLHand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRInput::OVRControllerLHand::ConfigureButtonMap
+// Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerLHand::ConfigureButtonMap
 // Il2CppName: ConfigureButtonMap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerLHand::*)()>(&OVRInput::OVRControllerLHand::ConfigureButtonMap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRInput::OVRControllerLHand::*)()>(&GlobalNamespace::OVRInput::OVRControllerLHand::ConfigureButtonMap)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerLHand*), "ConfigureButtonMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerLHand*), "ConfigureButtonMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRInput::OVRControllerLHand::ConfigureTouchMap
+// Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerLHand::ConfigureTouchMap
 // Il2CppName: ConfigureTouchMap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerLHand::*)()>(&OVRInput::OVRControllerLHand::ConfigureTouchMap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRInput::OVRControllerLHand::*)()>(&GlobalNamespace::OVRInput::OVRControllerLHand::ConfigureTouchMap)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerLHand*), "ConfigureTouchMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerLHand*), "ConfigureTouchMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRInput::OVRControllerLHand::ConfigureNearTouchMap
+// Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerLHand::ConfigureNearTouchMap
 // Il2CppName: ConfigureNearTouchMap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerLHand::*)()>(&OVRInput::OVRControllerLHand::ConfigureNearTouchMap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRInput::OVRControllerLHand::*)()>(&GlobalNamespace::OVRInput::OVRControllerLHand::ConfigureNearTouchMap)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerLHand*), "ConfigureNearTouchMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerLHand*), "ConfigureNearTouchMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRInput::OVRControllerLHand::ConfigureAxis1DMap
+// Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerLHand::ConfigureAxis1DMap
 // Il2CppName: ConfigureAxis1DMap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerLHand::*)()>(&OVRInput::OVRControllerLHand::ConfigureAxis1DMap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRInput::OVRControllerLHand::*)()>(&GlobalNamespace::OVRInput::OVRControllerLHand::ConfigureAxis1DMap)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerLHand*), "ConfigureAxis1DMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerLHand*), "ConfigureAxis1DMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRInput::OVRControllerLHand::ConfigureAxis2DMap
+// Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerLHand::ConfigureAxis2DMap
 // Il2CppName: ConfigureAxis2DMap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRInput::OVRControllerLHand::*)()>(&OVRInput::OVRControllerLHand::ConfigureAxis2DMap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRInput::OVRControllerLHand::*)()>(&GlobalNamespace::OVRInput::OVRControllerLHand::ConfigureAxis2DMap)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerLHand*), "ConfigureAxis2DMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerLHand*), "ConfigureAxis2DMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OVRInput::OVRControllerLHand::GetBatteryPercentRemaining
+// Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerLHand::GetBatteryPercentRemaining
 // Il2CppName: GetBatteryPercentRemaining
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (OVRInput::OVRControllerLHand::*)()>(&OVRInput::OVRControllerLHand::GetBatteryPercentRemaining)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (GlobalNamespace::OVRInput::OVRControllerLHand::*)()>(&GlobalNamespace::OVRInput::OVRControllerLHand::GetBatteryPercentRemaining)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVRInput::OVRControllerLHand*), "GetBatteryPercentRemaining", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerLHand*), "GetBatteryPercentRemaining", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

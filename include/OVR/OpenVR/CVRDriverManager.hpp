@@ -61,41 +61,41 @@ namespace OVR::OpenVR {
   static_assert(sizeof(CVRDriverManager) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRDriverManager*, "OVR.OpenVR", "CVRDriverManager");
-// Writing MetadataGetter for method: CVRDriverManager::New_ctor
+// Writing MetadataGetter for method: OVR::OpenVR::CVRDriverManager::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRDriverManager::*)(System::IntPtr)>(&CVRDriverManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRDriverManager::*)(System::IntPtr)>(&OVR::OpenVR::CVRDriverManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRDriverManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRDriverManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRDriverManager::*)(System::IntPtr)>(&CVRDriverManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRDriverManager::*)(System::IntPtr)>(&OVR::OpenVR::CVRDriverManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRDriverManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRDriverManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: CVRDriverManager::GetDriverCount
+// Writing MetadataGetter for method: OVR::OpenVR::CVRDriverManager::GetDriverCount
 // Il2CppName: GetDriverCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRDriverManager::*)()>(&CVRDriverManager::GetDriverCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRDriverManager::*)()>(&OVR::OpenVR::CVRDriverManager::GetDriverCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRDriverManager*), "GetDriverCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRDriverManager*), "GetDriverCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CVRDriverManager::GetDriverName
+// Writing MetadataGetter for method: OVR::OpenVR::CVRDriverManager::GetDriverName
 // Il2CppName: GetDriverName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRDriverManager::*)(uint, System::Text::StringBuilder*, uint)>(&CVRDriverManager::GetDriverName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRDriverManager::*)(uint, System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVRDriverManager::GetDriverName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRDriverManager*), "GetDriverName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRDriverManager*), "GetDriverName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: CVRDriverManager::GetDriverHandle
+// Writing MetadataGetter for method: OVR::OpenVR::CVRDriverManager::GetDriverHandle
 // Il2CppName: GetDriverHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (CVRDriverManager::*)(::Il2CppString*)>(&CVRDriverManager::GetDriverHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (OVR::OpenVR::CVRDriverManager::*)(::Il2CppString*)>(&OVR::OpenVR::CVRDriverManager::GetDriverHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRDriverManager*), "GetDriverHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRDriverManager*), "GetDriverHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };

@@ -33,19 +33,19 @@ namespace Mono::Net {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNumber*, "Mono.Net", "CFNumber");
-// Writing MetadataGetter for method: CFNumber::CFNumberGetValue
+// Writing MetadataGetter for method: Mono::Net::CFNumber::CFNumberGetValue
 // Il2CppName: CFNumberGetValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::IntPtr, int&)>(&CFNumber::CFNumberGetValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::IntPtr, int&)>(&Mono::Net::CFNumber::CFNumberGetValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CFNumber*), "CFNumberGetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNumber*), "CFNumberGetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: CFNumber::AsInt32
+// Writing MetadataGetter for method: Mono::Net::CFNumber::AsInt32
 // Il2CppName: AsInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&CFNumber::AsInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&Mono::Net::CFNumber::AsInt32)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CFNumber*), "AsInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNumber*), "AsInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };

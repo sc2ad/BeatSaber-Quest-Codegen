@@ -84,99 +84,99 @@ namespace NetEase::Docker {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::VivaDocker*, "NetEase.Docker", "VivaDocker");
-// Writing MetadataGetter for method: VivaDocker::SetInitializeCallback
+// Writing MetadataGetter for method: NetEase::Docker::VivaDocker::SetInitializeCallback
 // Il2CppName: SetInitializeCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<NetEase::Docker::InitializeData>*)>(&VivaDocker::SetInitializeCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<NetEase::Docker::InitializeData>*)>(&NetEase::Docker::VivaDocker::SetInitializeCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VivaDocker*), "SetInitializeCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::InitializeData>*>()});
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::VivaDocker*), "SetInitializeCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::InitializeData>*>()});
   }
 };
-// Writing MetadataGetter for method: VivaDocker::Initialize
+// Writing MetadataGetter for method: NetEase::Docker::VivaDocker::Initialize
 // Il2CppName: Initialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&VivaDocker::Initialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NetEase::Docker::VivaDocker::Initialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VivaDocker*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::VivaDocker*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VivaDocker::SetLoginCallback
+// Writing MetadataGetter for method: NetEase::Docker::VivaDocker::SetLoginCallback
 // Il2CppName: SetLoginCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<NetEase::Docker::LoginData>*)>(&VivaDocker::SetLoginCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<NetEase::Docker::LoginData>*)>(&NetEase::Docker::VivaDocker::SetLoginCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VivaDocker*), "SetLoginCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::LoginData>*>()});
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::VivaDocker*), "SetLoginCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::LoginData>*>()});
   }
 };
-// Writing MetadataGetter for method: VivaDocker::Login
+// Writing MetadataGetter for method: NetEase::Docker::VivaDocker::Login
 // Il2CppName: Login
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&VivaDocker::Login)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NetEase::Docker::VivaDocker::Login)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VivaDocker*), "Login", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::VivaDocker*), "Login", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VivaDocker::SetLogoutCallback
+// Writing MetadataGetter for method: NetEase::Docker::VivaDocker::SetLogoutCallback
 // Il2CppName: SetLogoutCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<NetEase::Docker::LogoutData>*)>(&VivaDocker::SetLogoutCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<NetEase::Docker::LogoutData>*)>(&NetEase::Docker::VivaDocker::SetLogoutCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VivaDocker*), "SetLogoutCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::LogoutData>*>()});
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::VivaDocker*), "SetLogoutCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::LogoutData>*>()});
   }
 };
-// Writing MetadataGetter for method: VivaDocker::Logout
+// Writing MetadataGetter for method: NetEase::Docker::VivaDocker::Logout
 // Il2CppName: Logout
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&VivaDocker::Logout)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NetEase::Docker::VivaDocker::Logout)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VivaDocker*), "Logout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::VivaDocker*), "Logout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VivaDocker::UploadScore
+// Writing MetadataGetter for method: NetEase::Docker::VivaDocker::UploadScore
 // Il2CppName: UploadScore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NetEase::Docker::UploadScoreData)>(&VivaDocker::UploadScore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NetEase::Docker::UploadScoreData)>(&NetEase::Docker::VivaDocker::UploadScore)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VivaDocker*), "UploadScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NetEase::Docker::UploadScoreData>()});
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::VivaDocker*), "UploadScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NetEase::Docker::UploadScoreData>()});
   }
 };
-// Writing MetadataGetter for method: VivaDocker::WillProvideHighscore
+// Writing MetadataGetter for method: NetEase::Docker::VivaDocker::WillProvideHighscore
 // Il2CppName: WillProvideHighscore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&VivaDocker::WillProvideHighscore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&NetEase::Docker::VivaDocker::WillProvideHighscore)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VivaDocker*), "WillProvideHighscore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::VivaDocker*), "WillProvideHighscore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VivaDocker::SetHighscoreReceivedCallback
+// Writing MetadataGetter for method: NetEase::Docker::VivaDocker::SetHighscoreReceivedCallback
 // Il2CppName: SetHighscoreReceivedCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<NetEase::Docker::ReceivedHighscoreData>*)>(&VivaDocker::SetHighscoreReceivedCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<NetEase::Docker::ReceivedHighscoreData>*)>(&NetEase::Docker::VivaDocker::SetHighscoreReceivedCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VivaDocker*), "SetHighscoreReceivedCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::ReceivedHighscoreData>*>()});
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::VivaDocker*), "SetHighscoreReceivedCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<NetEase::Docker::ReceivedHighscoreData>*>()});
   }
 };
-// Writing MetadataGetter for method: VivaDocker::RequestHighscoreList
+// Writing MetadataGetter for method: NetEase::Docker::VivaDocker::RequestHighscoreList
 // Il2CppName: RequestHighscoreList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NetEase::Docker::RequestHighscoreData)>(&VivaDocker::RequestHighscoreList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NetEase::Docker::RequestHighscoreData)>(&NetEase::Docker::VivaDocker::RequestHighscoreList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VivaDocker*), "RequestHighscoreList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NetEase::Docker::RequestHighscoreData>()});
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::VivaDocker*), "RequestHighscoreList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NetEase::Docker::RequestHighscoreData>()});
   }
 };
-// Writing MetadataGetter for method: VivaDocker::UpdateLoop
+// Writing MetadataGetter for method: NetEase::Docker::VivaDocker::UpdateLoop
 // Il2CppName: UpdateLoop
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&VivaDocker::UpdateLoop)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NetEase::Docker::VivaDocker::UpdateLoop)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VivaDocker*), "UpdateLoop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::VivaDocker*), "UpdateLoop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: VivaDocker::_cctor
+// Writing MetadataGetter for method: NetEase::Docker::VivaDocker::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&VivaDocker::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NetEase::Docker::VivaDocker::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VivaDocker*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::VivaDocker*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

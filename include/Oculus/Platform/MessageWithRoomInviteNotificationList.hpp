@@ -47,33 +47,33 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithRoomInviteNotificationList
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithRoomInviteNotificationList*, "Oculus.Platform", "MessageWithRoomInviteNotificationList");
-// Writing MetadataGetter for method: MessageWithRoomInviteNotificationList::GetDataFromMessage
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithRoomInviteNotificationList::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::RoomInviteNotificationList* (MessageWithRoomInviteNotificationList::*)(System::IntPtr)>(&MessageWithRoomInviteNotificationList::GetDataFromMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::RoomInviteNotificationList* (Oculus::Platform::MessageWithRoomInviteNotificationList::*)(System::IntPtr)>(&Oculus::Platform::MessageWithRoomInviteNotificationList::GetDataFromMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithRoomInviteNotificationList*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithRoomInviteNotificationList*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithRoomInviteNotificationList::New_ctor
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithRoomInviteNotificationList::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithRoomInviteNotificationList::*)(System::IntPtr)>(&MessageWithRoomInviteNotificationList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithRoomInviteNotificationList::*)(System::IntPtr)>(&Oculus::Platform::MessageWithRoomInviteNotificationList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithRoomInviteNotificationList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithRoomInviteNotificationList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithRoomInviteNotificationList::*)(System::IntPtr)>(&MessageWithRoomInviteNotificationList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithRoomInviteNotificationList::*)(System::IntPtr)>(&Oculus::Platform::MessageWithRoomInviteNotificationList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithRoomInviteNotificationList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithRoomInviteNotificationList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithRoomInviteNotificationList::GetRoomInviteNotificationList
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithRoomInviteNotificationList::GetRoomInviteNotificationList
 // Il2CppName: GetRoomInviteNotificationList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::RoomInviteNotificationList* (MessageWithRoomInviteNotificationList::*)()>(&MessageWithRoomInviteNotificationList::GetRoomInviteNotificationList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::RoomInviteNotificationList* (Oculus::Platform::MessageWithRoomInviteNotificationList::*)()>(&Oculus::Platform::MessageWithRoomInviteNotificationList::GetRoomInviteNotificationList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithRoomInviteNotificationList*), "GetRoomInviteNotificationList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithRoomInviteNotificationList*), "GetRoomInviteNotificationList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

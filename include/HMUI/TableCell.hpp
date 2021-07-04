@@ -102,97 +102,97 @@ namespace HMUI {
   static_assert(sizeof(TableCell) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableCell*, "HMUI", "TableCell");
-// Writing MetadataGetter for method: TableCell::get_reuseIdentifier
+// Writing MetadataGetter for method: HMUI::TableCell::get_reuseIdentifier
 // Il2CppName: get_reuseIdentifier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TableCell::*)()>(&TableCell::get_reuseIdentifier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HMUI::TableCell::*)()>(&HMUI::TableCell::get_reuseIdentifier)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TableCell*), "get_reuseIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableCell*), "get_reuseIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TableCell::set_reuseIdentifier
+// Writing MetadataGetter for method: HMUI::TableCell::set_reuseIdentifier
 // Il2CppName: set_reuseIdentifier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableCell::*)(::Il2CppString*)>(&TableCell::set_reuseIdentifier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableCell::*)(::Il2CppString*)>(&HMUI::TableCell::set_reuseIdentifier)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TableCell*), "set_reuseIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableCell*), "set_reuseIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TableCell::get_idx
+// Writing MetadataGetter for method: HMUI::TableCell::get_idx
 // Il2CppName: get_idx
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TableCell::*)()>(&TableCell::get_idx)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HMUI::TableCell::*)()>(&HMUI::TableCell::get_idx)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TableCell*), "get_idx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableCell*), "get_idx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TableCell::set_idx
+// Writing MetadataGetter for method: HMUI::TableCell::set_idx
 // Il2CppName: set_idx
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableCell::*)(int)>(&TableCell::set_idx)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableCell::*)(int)>(&HMUI::TableCell::set_idx)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TableCell*), "set_idx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableCell*), "set_idx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TableCell::get_tableCellOwner
+// Writing MetadataGetter for method: HMUI::TableCell::get_tableCellOwner
 // Il2CppName: get_tableCellOwner
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ITableCellOwner* (TableCell::*)()>(&TableCell::get_tableCellOwner)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ITableCellOwner* (HMUI::TableCell::*)()>(&HMUI::TableCell::get_tableCellOwner)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TableCell*), "get_tableCellOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableCell*), "get_tableCellOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TableCell::TableViewSetup
+// Writing MetadataGetter for method: HMUI::TableCell::TableViewSetup
 // Il2CppName: TableViewSetup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableCell::*)(HMUI::ITableCellOwner*, int)>(&TableCell::TableViewSetup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableCell::*)(HMUI::ITableCellOwner*, int)>(&HMUI::TableCell::TableViewSetup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TableCell*), "TableViewSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ITableCellOwner*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableCell*), "TableViewSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ITableCellOwner*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TableCell::MoveIdx
+// Writing MetadataGetter for method: HMUI::TableCell::MoveIdx
 // Il2CppName: MoveIdx
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableCell::*)(int)>(&TableCell::MoveIdx)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableCell::*)(int)>(&HMUI::TableCell::MoveIdx)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TableCell*), "MoveIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableCell*), "MoveIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TableCell::__WasPreparedForReuse
+// Writing MetadataGetter for method: HMUI::TableCell::__WasPreparedForReuse
 // Il2CppName: __WasPreparedForReuse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableCell::*)()>(&TableCell::__WasPreparedForReuse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableCell::*)()>(&HMUI::TableCell::__WasPreparedForReuse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TableCell*), "__WasPreparedForReuse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableCell*), "__WasPreparedForReuse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TableCell::WasPreparedForReuse
+// Writing MetadataGetter for method: HMUI::TableCell::WasPreparedForReuse
 // Il2CppName: WasPreparedForReuse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableCell::*)()>(&TableCell::WasPreparedForReuse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableCell::*)()>(&HMUI::TableCell::WasPreparedForReuse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TableCell*), "WasPreparedForReuse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableCell*), "WasPreparedForReuse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TableCell::InternalToggle
+// Writing MetadataGetter for method: HMUI::TableCell::InternalToggle
 // Il2CppName: InternalToggle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableCell::*)()>(&TableCell::InternalToggle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableCell::*)()>(&HMUI::TableCell::InternalToggle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TableCell*), "InternalToggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableCell*), "InternalToggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TableCell::New_ctor
+// Writing MetadataGetter for method: HMUI::TableCell::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableCell::*)()>(&TableCell::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableCell::*)()>(&HMUI::TableCell::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TableCell::*)()>(&TableCell::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableCell::*)()>(&HMUI::TableCell::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableCell*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

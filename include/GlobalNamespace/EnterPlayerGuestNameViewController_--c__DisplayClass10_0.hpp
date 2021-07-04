@@ -64,25 +64,25 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnterPlayerGuestNameViewController::$$c__DisplayClass10_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0*, "", "EnterPlayerGuestNameViewController/<>c__DisplayClass10_0");
-// Writing MetadataGetter for method: EnterPlayerGuestNameViewController::$$c__DisplayClass10_0::$DidActivate$b__0
+// Writing MetadataGetter for method: GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0::$DidActivate$b__0
 // Il2CppName: <DidActivate>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnterPlayerGuestNameViewController::$$c__DisplayClass10_0::*)(int, GlobalNamespace::GuestNameButtonsListItem*)>(&EnterPlayerGuestNameViewController::$$c__DisplayClass10_0::$DidActivate$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0::*)(int, GlobalNamespace::GuestNameButtonsListItem*)>(&GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0::$DidActivate$b__0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnterPlayerGuestNameViewController::$$c__DisplayClass10_0*), "<DidActivate>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GuestNameButtonsListItem*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0*), "<DidActivate>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GuestNameButtonsListItem*>()});
   }
 };
-// Writing MetadataGetter for method: EnterPlayerGuestNameViewController::$$c__DisplayClass10_0::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnterPlayerGuestNameViewController::$$c__DisplayClass10_0::*)()>(&EnterPlayerGuestNameViewController::$$c__DisplayClass10_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0::*)()>(&GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnterPlayerGuestNameViewController::$$c__DisplayClass10_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (EnterPlayerGuestNameViewController::$$c__DisplayClass10_0::*)()>(&EnterPlayerGuestNameViewController::$$c__DisplayClass10_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0::*)()>(&GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(EnterPlayerGuestNameViewController::$$c__DisplayClass10_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

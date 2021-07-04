@@ -129,119 +129,119 @@ namespace System::Net::Sockets {
   static_assert(sizeof(TcpClient) == 0x2D);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::TcpClient*, "System.Net.Sockets", "TcpClient");
-// Writing MetadataGetter for method: TcpClient::New_ctor
+// Writing MetadataGetter for method: System::Net::Sockets::TcpClient::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TcpClient::*)(System::Net::Sockets::AddressFamily)>(&TcpClient::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::TcpClient::*)(System::Net::Sockets::AddressFamily)>(&System::Net::Sockets::TcpClient::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TcpClient*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::AddressFamily>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::TcpClient*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::AddressFamily>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TcpClient::*)(System::Net::Sockets::AddressFamily)>(&TcpClient::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::TcpClient::*)(System::Net::Sockets::AddressFamily)>(&System::Net::Sockets::TcpClient::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TcpClient*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::AddressFamily>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::TcpClient*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::AddressFamily>()});
   }
 };
-// Writing MetadataGetter for method: TcpClient::New_ctor
+// Writing MetadataGetter for method: System::Net::Sockets::TcpClient::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TcpClient::*)(System::Net::Sockets::Socket*)>(&TcpClient::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::TcpClient::*)(System::Net::Sockets::Socket*)>(&System::Net::Sockets::TcpClient::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TcpClient*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::TcpClient*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TcpClient::*)(System::Net::Sockets::Socket*)>(&TcpClient::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::TcpClient::*)(System::Net::Sockets::Socket*)>(&System::Net::Sockets::TcpClient::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TcpClient*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::TcpClient*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>()});
   }
 };
-// Writing MetadataGetter for method: TcpClient::get_Client
+// Writing MetadataGetter for method: System::Net::Sockets::TcpClient::get_Client
 // Il2CppName: get_Client
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::Socket* (TcpClient::*)()>(&TcpClient::get_Client)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::Socket* (System::Net::Sockets::TcpClient::*)()>(&System::Net::Sockets::TcpClient::get_Client)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TcpClient*), "get_Client", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::TcpClient*), "get_Client", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TcpClient::set_Client
+// Writing MetadataGetter for method: System::Net::Sockets::TcpClient::set_Client
 // Il2CppName: set_Client
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TcpClient::*)(System::Net::Sockets::Socket*)>(&TcpClient::set_Client)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::TcpClient::*)(System::Net::Sockets::Socket*)>(&System::Net::Sockets::TcpClient::set_Client)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TcpClient*), "set_Client", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::TcpClient*), "set_Client", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::Socket*>()});
   }
 };
-// Writing MetadataGetter for method: TcpClient::get_Connected
+// Writing MetadataGetter for method: System::Net::Sockets::TcpClient::get_Connected
 // Il2CppName: get_Connected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TcpClient::*)()>(&TcpClient::get_Connected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Sockets::TcpClient::*)()>(&System::Net::Sockets::TcpClient::get_Connected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TcpClient*), "get_Connected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::TcpClient*), "get_Connected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TcpClient::BeginConnect
+// Writing MetadataGetter for method: System::Net::Sockets::TcpClient::BeginConnect
 // Il2CppName: BeginConnect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (TcpClient::*)(::Il2CppString*, int, System::AsyncCallback*, ::Il2CppObject*)>(&TcpClient::BeginConnect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::Sockets::TcpClient::*)(::Il2CppString*, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Sockets::TcpClient::BeginConnect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TcpClient*), "BeginConnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::TcpClient*), "BeginConnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: TcpClient::EndConnect
+// Writing MetadataGetter for method: System::Net::Sockets::TcpClient::EndConnect
 // Il2CppName: EndConnect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TcpClient::*)(System::IAsyncResult*)>(&TcpClient::EndConnect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::TcpClient::*)(System::IAsyncResult*)>(&System::Net::Sockets::TcpClient::EndConnect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TcpClient*), "EndConnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::TcpClient*), "EndConnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };
-// Writing MetadataGetter for method: TcpClient::GetStream
+// Writing MetadataGetter for method: System::Net::Sockets::TcpClient::GetStream
 // Il2CppName: GetStream
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::NetworkStream* (TcpClient::*)()>(&TcpClient::GetStream)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::NetworkStream* (System::Net::Sockets::TcpClient::*)()>(&System::Net::Sockets::TcpClient::GetStream)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TcpClient*), "GetStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::TcpClient*), "GetStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TcpClient::Close
+// Writing MetadataGetter for method: System::Net::Sockets::TcpClient::Close
 // Il2CppName: Close
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TcpClient::*)()>(&TcpClient::Close)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::TcpClient::*)()>(&System::Net::Sockets::TcpClient::Close)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TcpClient*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::TcpClient*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TcpClient::Dispose
+// Writing MetadataGetter for method: System::Net::Sockets::TcpClient::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TcpClient::*)(bool)>(&TcpClient::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::TcpClient::*)(bool)>(&System::Net::Sockets::TcpClient::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TcpClient*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::TcpClient*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: TcpClient::Dispose
+// Writing MetadataGetter for method: System::Net::Sockets::TcpClient::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TcpClient::*)()>(&TcpClient::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::TcpClient::*)()>(&System::Net::Sockets::TcpClient::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TcpClient*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::TcpClient*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TcpClient::initialize
+// Writing MetadataGetter for method: System::Net::Sockets::TcpClient::initialize
 // Il2CppName: initialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TcpClient::*)()>(&TcpClient::initialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::TcpClient::*)()>(&System::Net::Sockets::TcpClient::initialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TcpClient*), "initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::TcpClient*), "initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TcpClient::Finalize
+// Writing MetadataGetter for method: System::Net::Sockets::TcpClient::Finalize
 // Il2CppName: Finalize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TcpClient::*)()>(&TcpClient::Finalize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::TcpClient::*)()>(&System::Net::Sockets::TcpClient::Finalize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TcpClient*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::TcpClient*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

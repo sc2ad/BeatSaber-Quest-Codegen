@@ -102,97 +102,97 @@ namespace UnityEngine::AddressableAssets::Initialization {
   static_assert(sizeof(CacheInitializationData) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::CacheInitializationData*, "UnityEngine.AddressableAssets.Initialization", "CacheInitializationData");
-// Writing MetadataGetter for method: CacheInitializationData::get_CompressionEnabled
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::CacheInitializationData::get_CompressionEnabled
 // Il2CppName: get_CompressionEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CacheInitializationData::*)()>(&CacheInitializationData::get_CompressionEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)()>(&UnityEngine::AddressableAssets::Initialization::CacheInitializationData::get_CompressionEnabled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CacheInitializationData*), "get_CompressionEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::CacheInitializationData*), "get_CompressionEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CacheInitializationData::set_CompressionEnabled
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::CacheInitializationData::set_CompressionEnabled
 // Il2CppName: set_CompressionEnabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CacheInitializationData::*)(bool)>(&CacheInitializationData::set_CompressionEnabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)(bool)>(&UnityEngine::AddressableAssets::Initialization::CacheInitializationData::set_CompressionEnabled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CacheInitializationData*), "set_CompressionEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::CacheInitializationData*), "set_CompressionEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: CacheInitializationData::get_CacheDirectoryOverride
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::CacheInitializationData::get_CacheDirectoryOverride
 // Il2CppName: get_CacheDirectoryOverride
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CacheInitializationData::*)()>(&CacheInitializationData::get_CacheDirectoryOverride)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)()>(&UnityEngine::AddressableAssets::Initialization::CacheInitializationData::get_CacheDirectoryOverride)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CacheInitializationData*), "get_CacheDirectoryOverride", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::CacheInitializationData*), "get_CacheDirectoryOverride", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CacheInitializationData::set_CacheDirectoryOverride
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::CacheInitializationData::set_CacheDirectoryOverride
 // Il2CppName: set_CacheDirectoryOverride
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CacheInitializationData::*)(::Il2CppString*)>(&CacheInitializationData::set_CacheDirectoryOverride)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)(::Il2CppString*)>(&UnityEngine::AddressableAssets::Initialization::CacheInitializationData::set_CacheDirectoryOverride)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CacheInitializationData*), "set_CacheDirectoryOverride", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::CacheInitializationData*), "set_CacheDirectoryOverride", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CacheInitializationData::get_ExpirationDelay
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::CacheInitializationData::get_ExpirationDelay
 // Il2CppName: get_ExpirationDelay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CacheInitializationData::*)()>(&CacheInitializationData::get_ExpirationDelay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)()>(&UnityEngine::AddressableAssets::Initialization::CacheInitializationData::get_ExpirationDelay)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CacheInitializationData*), "get_ExpirationDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::CacheInitializationData*), "get_ExpirationDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CacheInitializationData::set_ExpirationDelay
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::CacheInitializationData::set_ExpirationDelay
 // Il2CppName: set_ExpirationDelay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CacheInitializationData::*)(int)>(&CacheInitializationData::set_ExpirationDelay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)(int)>(&UnityEngine::AddressableAssets::Initialization::CacheInitializationData::set_ExpirationDelay)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CacheInitializationData*), "set_ExpirationDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::CacheInitializationData*), "set_ExpirationDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: CacheInitializationData::get_LimitCacheSize
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::CacheInitializationData::get_LimitCacheSize
 // Il2CppName: get_LimitCacheSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CacheInitializationData::*)()>(&CacheInitializationData::get_LimitCacheSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)()>(&UnityEngine::AddressableAssets::Initialization::CacheInitializationData::get_LimitCacheSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CacheInitializationData*), "get_LimitCacheSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::CacheInitializationData*), "get_LimitCacheSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CacheInitializationData::set_LimitCacheSize
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::CacheInitializationData::set_LimitCacheSize
 // Il2CppName: set_LimitCacheSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CacheInitializationData::*)(bool)>(&CacheInitializationData::set_LimitCacheSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)(bool)>(&UnityEngine::AddressableAssets::Initialization::CacheInitializationData::set_LimitCacheSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CacheInitializationData*), "set_LimitCacheSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::CacheInitializationData*), "set_LimitCacheSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: CacheInitializationData::get_MaximumCacheSize
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::CacheInitializationData::get_MaximumCacheSize
 // Il2CppName: get_MaximumCacheSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (CacheInitializationData::*)()>(&CacheInitializationData::get_MaximumCacheSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)()>(&UnityEngine::AddressableAssets::Initialization::CacheInitializationData::get_MaximumCacheSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CacheInitializationData*), "get_MaximumCacheSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::CacheInitializationData*), "get_MaximumCacheSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CacheInitializationData::set_MaximumCacheSize
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::CacheInitializationData::set_MaximumCacheSize
 // Il2CppName: set_MaximumCacheSize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CacheInitializationData::*)(int64_t)>(&CacheInitializationData::set_MaximumCacheSize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)(int64_t)>(&UnityEngine::AddressableAssets::Initialization::CacheInitializationData::set_MaximumCacheSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CacheInitializationData*), "set_MaximumCacheSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::CacheInitializationData*), "set_MaximumCacheSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
   }
 };
-// Writing MetadataGetter for method: CacheInitializationData::New_ctor
+// Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::CacheInitializationData::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CacheInitializationData::*)()>(&CacheInitializationData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)()>(&UnityEngine::AddressableAssets::Initialization::CacheInitializationData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CacheInitializationData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::CacheInitializationData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CacheInitializationData::*)()>(&CacheInitializationData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)()>(&UnityEngine::AddressableAssets::Initialization::CacheInitializationData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CacheInitializationData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::CacheInitializationData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -75,55 +75,55 @@ namespace System::Runtime::Serialization {
   static_assert(sizeof(StreamingContext) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::StreamingContext, "System.Runtime.Serialization", "StreamingContext");
-// Writing MetadataGetter for method: StreamingContext::StreamingContext
+// Writing MetadataGetter for method: System::Runtime::Serialization::StreamingContext::StreamingContext
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StreamingContext::*)(System::Runtime::Serialization::StreamingContextStates)>(&StreamingContext::StreamingContext<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::StreamingContext::*)(System::Runtime::Serialization::StreamingContextStates)>(&System::Runtime::Serialization::StreamingContext::StreamingContext<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StreamingContext), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContextStates>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::StreamingContext), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContextStates>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StreamingContext::*)(System::Runtime::Serialization::StreamingContextStates)>(&StreamingContext::StreamingContext<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::StreamingContext::*)(System::Runtime::Serialization::StreamingContextStates)>(&System::Runtime::Serialization::StreamingContext::StreamingContext<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StreamingContext), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContextStates>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::StreamingContext), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContextStates>()});
   }
 };
-// Writing MetadataGetter for method: StreamingContext::StreamingContext
+// Writing MetadataGetter for method: System::Runtime::Serialization::StreamingContext::StreamingContext
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StreamingContext::*)(System::Runtime::Serialization::StreamingContextStates, ::Il2CppObject*)>(&StreamingContext::StreamingContext<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::StreamingContext::*)(System::Runtime::Serialization::StreamingContextStates, ::Il2CppObject*)>(&System::Runtime::Serialization::StreamingContext::StreamingContext<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StreamingContext), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContextStates>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::StreamingContext), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContextStates>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StreamingContext::*)(System::Runtime::Serialization::StreamingContextStates, ::Il2CppObject*)>(&StreamingContext::StreamingContext<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::StreamingContext::*)(System::Runtime::Serialization::StreamingContextStates, ::Il2CppObject*)>(&System::Runtime::Serialization::StreamingContext::StreamingContext<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StreamingContext), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContextStates>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::StreamingContext), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContextStates>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: StreamingContext::get_State
+// Writing MetadataGetter for method: System::Runtime::Serialization::StreamingContext::get_State
 // Il2CppName: get_State
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::StreamingContextStates (StreamingContext::*)()>(&StreamingContext::get_State)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::StreamingContextStates (System::Runtime::Serialization::StreamingContext::*)()>(&System::Runtime::Serialization::StreamingContext::get_State)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StreamingContext), "get_State", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::StreamingContext), "get_State", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StreamingContext::Equals
+// Writing MetadataGetter for method: System::Runtime::Serialization::StreamingContext::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (StreamingContext::*)(::Il2CppObject*)>(&StreamingContext::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Serialization::StreamingContext::*)(::Il2CppObject*)>(&System::Runtime::Serialization::StreamingContext::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StreamingContext), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::StreamingContext), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: StreamingContext::GetHashCode
+// Writing MetadataGetter for method: System::Runtime::Serialization::StreamingContext::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (StreamingContext::*)()>(&StreamingContext::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Runtime::Serialization::StreamingContext::*)()>(&System::Runtime::Serialization::StreamingContext::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StreamingContext), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::StreamingContext), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

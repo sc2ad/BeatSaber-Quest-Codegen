@@ -198,111 +198,111 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKConstraintBend) == 0x86);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKConstraintBend*, "RootMotion.FinalIK", "IKConstraintBend");
-// Writing MetadataGetter for method: IKConstraintBend::IsValid
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKConstraintBend::IsValid
 // Il2CppName: IsValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IKConstraintBend::*)(RootMotion::FinalIK::IKSolverFullBody*, RootMotion::Warning::Logger*)>(&IKConstraintBend::IsValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::IKConstraintBend::*)(RootMotion::FinalIK::IKSolverFullBody*, RootMotion::Warning::Logger*)>(&RootMotion::FinalIK::IKConstraintBend::IsValid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKConstraintBend*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::Warning::Logger*>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKConstraintBend*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::Warning::Logger*>()});
   }
 };
-// Writing MetadataGetter for method: IKConstraintBend::get_initiated
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKConstraintBend::get_initiated
 // Il2CppName: get_initiated
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IKConstraintBend::*)()>(&IKConstraintBend::get_initiated)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::IKConstraintBend::*)()>(&RootMotion::FinalIK::IKConstraintBend::get_initiated)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKConstraintBend*), "get_initiated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKConstraintBend*), "get_initiated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IKConstraintBend::set_initiated
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKConstraintBend::set_initiated
 // Il2CppName: set_initiated
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKConstraintBend::*)(bool)>(&IKConstraintBend::set_initiated)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKConstraintBend::*)(bool)>(&RootMotion::FinalIK::IKConstraintBend::set_initiated)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKConstraintBend*), "set_initiated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKConstraintBend*), "set_initiated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: IKConstraintBend::New_ctor
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKConstraintBend::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKConstraintBend::*)(UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*)>(&IKConstraintBend::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKConstraintBend::*)(UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*)>(&RootMotion::FinalIK::IKConstraintBend::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKConstraintBend*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKConstraintBend*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKConstraintBend::*)(UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*)>(&IKConstraintBend::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKConstraintBend::*)(UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*)>(&RootMotion::FinalIK::IKConstraintBend::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKConstraintBend*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKConstraintBend*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
   }
 };
-// Writing MetadataGetter for method: IKConstraintBend::SetBones
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKConstraintBend::SetBones
 // Il2CppName: SetBones
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKConstraintBend::*)(UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*)>(&IKConstraintBend::SetBones)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKConstraintBend::*)(UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*)>(&RootMotion::FinalIK::IKConstraintBend::SetBones)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKConstraintBend*), "SetBones", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKConstraintBend*), "SetBones", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
   }
 };
-// Writing MetadataGetter for method: IKConstraintBend::Initiate
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKConstraintBend::Initiate
 // Il2CppName: Initiate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKConstraintBend::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&IKConstraintBend::Initiate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKConstraintBend::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&RootMotion::FinalIK::IKConstraintBend::Initiate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKConstraintBend*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKConstraintBend*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>()});
   }
 };
-// Writing MetadataGetter for method: IKConstraintBend::SetLimbOrientation
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKConstraintBend::SetLimbOrientation
 // Il2CppName: SetLimbOrientation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKConstraintBend::*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3)>(&IKConstraintBend::SetLimbOrientation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKConstraintBend::*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3)>(&RootMotion::FinalIK::IKConstraintBend::SetLimbOrientation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKConstraintBend*), "SetLimbOrientation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKConstraintBend*), "SetLimbOrientation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: IKConstraintBend::LimitBend
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKConstraintBend::LimitBend
 // Il2CppName: LimitBend
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKConstraintBend::*)(float, float)>(&IKConstraintBend::LimitBend)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKConstraintBend::*)(float, float)>(&RootMotion::FinalIK::IKConstraintBend::LimitBend)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKConstraintBend*), "LimitBend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKConstraintBend*), "LimitBend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: IKConstraintBend::GetDir
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKConstraintBend::GetDir
 // Il2CppName: GetDir
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (IKConstraintBend::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&IKConstraintBend::GetDir)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::IKConstraintBend::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&RootMotion::FinalIK::IKConstraintBend::GetDir)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKConstraintBend*), "GetDir", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKConstraintBend*), "GetDir", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>()});
   }
 };
-// Writing MetadataGetter for method: IKConstraintBend::OrthoToLimb
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKConstraintBend::OrthoToLimb
 // Il2CppName: OrthoToLimb
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (IKConstraintBend::*)(RootMotion::FinalIK::IKSolverFullBody*, UnityEngine::Vector3)>(&IKConstraintBend::OrthoToLimb)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::IKConstraintBend::*)(RootMotion::FinalIK::IKSolverFullBody*, UnityEngine::Vector3)>(&RootMotion::FinalIK::IKConstraintBend::OrthoToLimb)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKConstraintBend*), "OrthoToLimb", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKConstraintBend*), "OrthoToLimb", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: IKConstraintBend::OrthoToBone1
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKConstraintBend::OrthoToBone1
 // Il2CppName: OrthoToBone1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (IKConstraintBend::*)(RootMotion::FinalIK::IKSolverFullBody*, UnityEngine::Vector3)>(&IKConstraintBend::OrthoToBone1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::IKConstraintBend::*)(RootMotion::FinalIK::IKSolverFullBody*, UnityEngine::Vector3)>(&RootMotion::FinalIK::IKConstraintBend::OrthoToBone1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKConstraintBend*), "OrthoToBone1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKConstraintBend*), "OrthoToBone1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBody*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: IKConstraintBend::New_ctor
+// Writing MetadataGetter for method: RootMotion::FinalIK::IKConstraintBend::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKConstraintBend::*)()>(&IKConstraintBend::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKConstraintBend::*)()>(&RootMotion::FinalIK::IKConstraintBend::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKConstraintBend*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKConstraintBend*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IKConstraintBend::*)()>(&IKConstraintBend::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKConstraintBend::*)()>(&RootMotion::FinalIK::IKConstraintBend::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IKConstraintBend*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKConstraintBend*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

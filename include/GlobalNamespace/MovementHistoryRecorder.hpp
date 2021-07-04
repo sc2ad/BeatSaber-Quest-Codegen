@@ -71,41 +71,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(MovementHistoryRecorder) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MovementHistoryRecorder*, "", "MovementHistoryRecorder");
-// Writing MetadataGetter for method: MovementHistoryRecorder::get_averagingValueRecorer
+// Writing MetadataGetter for method: GlobalNamespace::MovementHistoryRecorder::get_averagingValueRecorer
 // Il2CppName: get_averagingValueRecorer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AveragingValueRecorder* (MovementHistoryRecorder::*)()>(&MovementHistoryRecorder::get_averagingValueRecorer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AveragingValueRecorder* (GlobalNamespace::MovementHistoryRecorder::*)()>(&GlobalNamespace::MovementHistoryRecorder::get_averagingValueRecorer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MovementHistoryRecorder*), "get_averagingValueRecorer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MovementHistoryRecorder*), "get_averagingValueRecorer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MovementHistoryRecorder::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MovementHistoryRecorder::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MovementHistoryRecorder::*)(float, float, float, float)>(&MovementHistoryRecorder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MovementHistoryRecorder::*)(float, float, float, float)>(&GlobalNamespace::MovementHistoryRecorder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MovementHistoryRecorder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MovementHistoryRecorder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MovementHistoryRecorder::*)(float, float, float, float)>(&MovementHistoryRecorder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MovementHistoryRecorder::*)(float, float, float, float)>(&GlobalNamespace::MovementHistoryRecorder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MovementHistoryRecorder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MovementHistoryRecorder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: MovementHistoryRecorder::AddMovement
+// Writing MetadataGetter for method: GlobalNamespace::MovementHistoryRecorder::AddMovement
 // Il2CppName: AddMovement
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MovementHistoryRecorder::*)(float)>(&MovementHistoryRecorder::AddMovement)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MovementHistoryRecorder::*)(float)>(&GlobalNamespace::MovementHistoryRecorder::AddMovement)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MovementHistoryRecorder*), "AddMovement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MovementHistoryRecorder*), "AddMovement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: MovementHistoryRecorder::ManualUpdate
+// Writing MetadataGetter for method: GlobalNamespace::MovementHistoryRecorder::ManualUpdate
 // Il2CppName: ManualUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MovementHistoryRecorder::*)(float)>(&MovementHistoryRecorder::ManualUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MovementHistoryRecorder::*)(float)>(&GlobalNamespace::MovementHistoryRecorder::ManualUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MovementHistoryRecorder*), "ManualUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MovementHistoryRecorder*), "ManualUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };

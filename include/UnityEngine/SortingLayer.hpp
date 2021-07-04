@@ -41,11 +41,11 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SortingLayer, "UnityEngine", "SortingLayer");
-// Writing MetadataGetter for method: SortingLayer::GetLayerValueFromID
+// Writing MetadataGetter for method: UnityEngine::SortingLayer::GetLayerValueFromID
 // Il2CppName: GetLayerValueFromID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&SortingLayer::GetLayerValueFromID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&UnityEngine::SortingLayer::GetLayerValueFromID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SortingLayer), "GetLayerValueFromID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SortingLayer), "GetLayerValueFromID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };

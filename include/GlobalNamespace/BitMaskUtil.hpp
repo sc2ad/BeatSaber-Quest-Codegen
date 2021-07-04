@@ -32,35 +32,35 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BitMaskUtil*, "", "BitMaskUtil");
-// Writing MetadataGetter for method: BitMaskUtil::NumberOfSetBits
+// Writing MetadataGetter for method: GlobalNamespace::BitMaskUtil::NumberOfSetBits
 // Il2CppName: NumberOfSetBits
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint64_t)>(&BitMaskUtil::NumberOfSetBits)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint64_t)>(&GlobalNamespace::BitMaskUtil::NumberOfSetBits)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BitMaskUtil*), "NumberOfSetBits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BitMaskUtil*), "NumberOfSetBits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
   }
 };
-// Writing MetadataGetter for method: BitMaskUtil::NumberOfSetBits
+// Writing MetadataGetter for method: GlobalNamespace::BitMaskUtil::NumberOfSetBits
 // Il2CppName: NumberOfSetBits
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint)>(&BitMaskUtil::NumberOfSetBits)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint)>(&GlobalNamespace::BitMaskUtil::NumberOfSetBits)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BitMaskUtil*), "NumberOfSetBits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BitMaskUtil*), "NumberOfSetBits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: BitMaskUtil::ShiftLeft
+// Writing MetadataGetter for method: GlobalNamespace::BitMaskUtil::ShiftLeft
 // Il2CppName: ShiftLeft
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t&, int&)>(&BitMaskUtil::ShiftLeft)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t&, int&)>(&GlobalNamespace::BitMaskUtil::ShiftLeft)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BitMaskUtil*), "ShiftLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BitMaskUtil*), "ShiftLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: BitMaskUtil::ShiftRight
+// Writing MetadataGetter for method: GlobalNamespace::BitMaskUtil::ShiftRight
 // Il2CppName: ShiftRight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t&, int&)>(&BitMaskUtil::ShiftRight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t&, int&)>(&GlobalNamespace::BitMaskUtil::ShiftRight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BitMaskUtil*), "ShiftRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BitMaskUtil*), "ShiftRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };

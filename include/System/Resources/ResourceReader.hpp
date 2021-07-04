@@ -242,217 +242,217 @@ namespace System::Resources {
   static_assert(sizeof(ResourceReader) == 0x7C);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceReader*, "System.Resources", "ResourceReader");
-// Writing MetadataGetter for method: ResourceReader::New_ctor
+// Writing MetadataGetter for method: System::Resources::ResourceReader::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceReader::*)(System::IO::Stream*, System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>*)>(&ResourceReader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Resources::ResourceReader::*)(System::IO::Stream*, System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>*)>(&System::Resources::ResourceReader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResourceReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceReader::*)(System::IO::Stream*, System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>*)>(&ResourceReader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Resources::ResourceReader::*)(System::IO::Stream*, System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>*)>(&System::Resources::ResourceReader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResourceReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>*>()});
   }
 };
-// Writing MetadataGetter for method: ResourceReader::Close
+// Writing MetadataGetter for method: System::Resources::ResourceReader::Close
 // Il2CppName: Close
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceReader::*)()>(&ResourceReader::Close)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Resources::ResourceReader::*)()>(&System::Resources::ResourceReader::Close)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResourceReader*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ResourceReader::Dispose
+// Writing MetadataGetter for method: System::Resources::ResourceReader::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceReader::*)()>(&ResourceReader::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Resources::ResourceReader::*)()>(&System::Resources::ResourceReader::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResourceReader*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ResourceReader::Dispose
+// Writing MetadataGetter for method: System::Resources::ResourceReader::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceReader::*)(bool)>(&ResourceReader::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Resources::ResourceReader::*)(bool)>(&System::Resources::ResourceReader::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResourceReader*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ResourceReader::ReadUnalignedI4
+// Writing MetadataGetter for method: System::Resources::ResourceReader::ReadUnalignedI4
 // Il2CppName: ReadUnalignedI4
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int*)>(&ResourceReader::ReadUnalignedI4)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int*)>(&System::Resources::ResourceReader::ReadUnalignedI4)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResourceReader*), "ReadUnalignedI4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "ReadUnalignedI4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int*>()});
   }
 };
-// Writing MetadataGetter for method: ResourceReader::SkipString
+// Writing MetadataGetter for method: System::Resources::ResourceReader::SkipString
 // Il2CppName: SkipString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceReader::*)()>(&ResourceReader::SkipString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Resources::ResourceReader::*)()>(&System::Resources::ResourceReader::SkipString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResourceReader*), "SkipString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "SkipString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ResourceReader::GetNameHash
+// Writing MetadataGetter for method: System::Resources::ResourceReader::GetNameHash
 // Il2CppName: GetNameHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ResourceReader::*)(int)>(&ResourceReader::GetNameHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Resources::ResourceReader::*)(int)>(&System::Resources::ResourceReader::GetNameHash)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResourceReader*), "GetNameHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "GetNameHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ResourceReader::GetNamePosition
+// Writing MetadataGetter for method: System::Resources::ResourceReader::GetNamePosition
 // Il2CppName: GetNamePosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ResourceReader::*)(int)>(&ResourceReader::GetNamePosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Resources::ResourceReader::*)(int)>(&System::Resources::ResourceReader::GetNamePosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResourceReader*), "GetNamePosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "GetNamePosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ResourceReader::System_Collections_IEnumerable_GetEnumerator
+// Writing MetadataGetter for method: System::Resources::ResourceReader::System_Collections_IEnumerable_GetEnumerator
 // Il2CppName: System.Collections.IEnumerable.GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (ResourceReader::*)()>(&ResourceReader::System_Collections_IEnumerable_GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::Resources::ResourceReader::*)()>(&System::Resources::ResourceReader::System_Collections_IEnumerable_GetEnumerator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResourceReader*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ResourceReader::GetEnumerator
+// Writing MetadataGetter for method: System::Resources::ResourceReader::GetEnumerator
 // Il2CppName: GetEnumerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionaryEnumerator* (ResourceReader::*)()>(&ResourceReader::GetEnumerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionaryEnumerator* (System::Resources::ResourceReader::*)()>(&System::Resources::ResourceReader::GetEnumerator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResourceReader*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ResourceReader::GetEnumeratorInternal
+// Writing MetadataGetter for method: System::Resources::ResourceReader::GetEnumeratorInternal
 // Il2CppName: GetEnumeratorInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Resources::ResourceReader::ResourceEnumerator* (ResourceReader::*)()>(&ResourceReader::GetEnumeratorInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Resources::ResourceReader::ResourceEnumerator* (System::Resources::ResourceReader::*)()>(&System::Resources::ResourceReader::GetEnumeratorInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResourceReader*), "GetEnumeratorInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "GetEnumeratorInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ResourceReader::FindPosForResource
+// Writing MetadataGetter for method: System::Resources::ResourceReader::FindPosForResource
 // Il2CppName: FindPosForResource
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ResourceReader::*)(::Il2CppString*)>(&ResourceReader::FindPosForResource)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Resources::ResourceReader::*)(::Il2CppString*)>(&System::Resources::ResourceReader::FindPosForResource)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResourceReader*), "FindPosForResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "FindPosForResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: ResourceReader::CompareStringEqualsName
+// Writing MetadataGetter for method: System::Resources::ResourceReader::CompareStringEqualsName
 // Il2CppName: CompareStringEqualsName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ResourceReader::*)(::Il2CppString*)>(&ResourceReader::CompareStringEqualsName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Resources::ResourceReader::*)(::Il2CppString*)>(&System::Resources::ResourceReader::CompareStringEqualsName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResourceReader*), "CompareStringEqualsName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "CompareStringEqualsName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: ResourceReader::AllocateStringForNameIndex
+// Writing MetadataGetter for method: System::Resources::ResourceReader::AllocateStringForNameIndex
 // Il2CppName: AllocateStringForNameIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ResourceReader::*)(int, int&)>(&ResourceReader::AllocateStringForNameIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Resources::ResourceReader::*)(int, int&)>(&System::Resources::ResourceReader::AllocateStringForNameIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResourceReader*), "AllocateStringForNameIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "AllocateStringForNameIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: ResourceReader::GetValueForNameIndex
+// Writing MetadataGetter for method: System::Resources::ResourceReader::GetValueForNameIndex
 // Il2CppName: GetValueForNameIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ResourceReader::*)(int)>(&ResourceReader::GetValueForNameIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::ResourceReader::*)(int)>(&System::Resources::ResourceReader::GetValueForNameIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResourceReader*), "GetValueForNameIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "GetValueForNameIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ResourceReader::LoadString
+// Writing MetadataGetter for method: System::Resources::ResourceReader::LoadString
 // Il2CppName: LoadString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ResourceReader::*)(int)>(&ResourceReader::LoadString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Resources::ResourceReader::*)(int)>(&System::Resources::ResourceReader::LoadString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResourceReader*), "LoadString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "LoadString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ResourceReader::LoadObject
+// Writing MetadataGetter for method: System::Resources::ResourceReader::LoadObject
 // Il2CppName: LoadObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ResourceReader::*)(int)>(&ResourceReader::LoadObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::ResourceReader::*)(int)>(&System::Resources::ResourceReader::LoadObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResourceReader*), "LoadObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "LoadObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ResourceReader::LoadObject
+// Writing MetadataGetter for method: System::Resources::ResourceReader::LoadObject
 // Il2CppName: LoadObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ResourceReader::*)(int, System::Resources::ResourceTypeCode&)>(&ResourceReader::LoadObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::ResourceReader::*)(int, System::Resources::ResourceTypeCode&)>(&System::Resources::ResourceReader::LoadObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResourceReader*), "LoadObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Resources::ResourceTypeCode&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "LoadObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Resources::ResourceTypeCode&>()});
   }
 };
-// Writing MetadataGetter for method: ResourceReader::LoadObjectV1
+// Writing MetadataGetter for method: System::Resources::ResourceReader::LoadObjectV1
 // Il2CppName: LoadObjectV1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ResourceReader::*)(int)>(&ResourceReader::LoadObjectV1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::ResourceReader::*)(int)>(&System::Resources::ResourceReader::LoadObjectV1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResourceReader*), "LoadObjectV1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "LoadObjectV1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ResourceReader::_LoadObjectV1
+// Writing MetadataGetter for method: System::Resources::ResourceReader::_LoadObjectV1
 // Il2CppName: _LoadObjectV1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ResourceReader::*)(int)>(&ResourceReader::_LoadObjectV1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::ResourceReader::*)(int)>(&System::Resources::ResourceReader::_LoadObjectV1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResourceReader*), "_LoadObjectV1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "_LoadObjectV1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ResourceReader::LoadObjectV2
+// Writing MetadataGetter for method: System::Resources::ResourceReader::LoadObjectV2
 // Il2CppName: LoadObjectV2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ResourceReader::*)(int, System::Resources::ResourceTypeCode&)>(&ResourceReader::LoadObjectV2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::ResourceReader::*)(int, System::Resources::ResourceTypeCode&)>(&System::Resources::ResourceReader::LoadObjectV2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResourceReader*), "LoadObjectV2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Resources::ResourceTypeCode&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "LoadObjectV2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Resources::ResourceTypeCode&>()});
   }
 };
-// Writing MetadataGetter for method: ResourceReader::_LoadObjectV2
+// Writing MetadataGetter for method: System::Resources::ResourceReader::_LoadObjectV2
 // Il2CppName: _LoadObjectV2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ResourceReader::*)(int, System::Resources::ResourceTypeCode&)>(&ResourceReader::_LoadObjectV2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::ResourceReader::*)(int, System::Resources::ResourceTypeCode&)>(&System::Resources::ResourceReader::_LoadObjectV2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResourceReader*), "_LoadObjectV2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Resources::ResourceTypeCode&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "_LoadObjectV2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Resources::ResourceTypeCode&>()});
   }
 };
-// Writing MetadataGetter for method: ResourceReader::DeserializeObject
+// Writing MetadataGetter for method: System::Resources::ResourceReader::DeserializeObject
 // Il2CppName: DeserializeObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (ResourceReader::*)(int)>(&ResourceReader::DeserializeObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::ResourceReader::*)(int)>(&System::Resources::ResourceReader::DeserializeObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResourceReader*), "DeserializeObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "DeserializeObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ResourceReader::ReadResources
+// Writing MetadataGetter for method: System::Resources::ResourceReader::ReadResources
 // Il2CppName: ReadResources
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceReader::*)()>(&ResourceReader::ReadResources)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Resources::ResourceReader::*)()>(&System::Resources::ResourceReader::ReadResources)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResourceReader*), "ReadResources", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "ReadResources", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ResourceReader::_ReadResources
+// Writing MetadataGetter for method: System::Resources::ResourceReader::_ReadResources
 // Il2CppName: _ReadResources
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ResourceReader::*)()>(&ResourceReader::_ReadResources)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Resources::ResourceReader::*)()>(&System::Resources::ResourceReader::_ReadResources)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResourceReader*), "_ReadResources", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "_ReadResources", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ResourceReader::FindType
+// Writing MetadataGetter for method: System::Resources::ResourceReader::FindType
 // Il2CppName: FindType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType* (ResourceReader::*)(int)>(&ResourceReader::FindType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType* (System::Resources::ResourceReader::*)(int)>(&System::Resources::ResourceReader::FindType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ResourceReader*), "FindType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceReader*), "FindType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };

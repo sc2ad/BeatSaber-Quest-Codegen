@@ -28,27 +28,27 @@ namespace UnityEngine::Assertions {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Assertions::AssertionMessageUtil*, "UnityEngine.Assertions", "AssertionMessageUtil");
-// Writing MetadataGetter for method: AssertionMessageUtil::GetMessage
+// Writing MetadataGetter for method: UnityEngine::Assertions::AssertionMessageUtil::GetMessage
 // Il2CppName: GetMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&AssertionMessageUtil::GetMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&UnityEngine::Assertions::AssertionMessageUtil::GetMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssertionMessageUtil*), "GetMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Assertions::AssertionMessageUtil*), "GetMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: AssertionMessageUtil::GetMessage
+// Writing MetadataGetter for method: UnityEngine::Assertions::AssertionMessageUtil::GetMessage
 // Il2CppName: GetMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&AssertionMessageUtil::GetMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&UnityEngine::Assertions::AssertionMessageUtil::GetMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssertionMessageUtil*), "GetMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Assertions::AssertionMessageUtil*), "GetMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: AssertionMessageUtil::GetEqualityMessage
+// Writing MetadataGetter for method: UnityEngine::Assertions::AssertionMessageUtil::GetEqualityMessage
 // Il2CppName: GetEqualityMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppObject*, ::Il2CppObject*, bool)>(&AssertionMessageUtil::GetEqualityMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppObject*, ::Il2CppObject*, bool)>(&UnityEngine::Assertions::AssertionMessageUtil::GetEqualityMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AssertionMessageUtil*), "GetEqualityMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Assertions::AssertionMessageUtil*), "GetEqualityMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };

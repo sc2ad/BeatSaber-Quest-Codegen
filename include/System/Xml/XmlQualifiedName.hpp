@@ -122,141 +122,141 @@ namespace System::Xml {
   bool operator !=(System::Xml::XmlQualifiedName* a, System::Xml::XmlQualifiedName& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlQualifiedName*, "System.Xml", "XmlQualifiedName");
-// Writing MetadataGetter for method: XmlQualifiedName::New_ctor
+// Writing MetadataGetter for method: System::Xml::XmlQualifiedName::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlQualifiedName::*)(::Il2CppString*)>(&XmlQualifiedName::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlQualifiedName::*)(::Il2CppString*)>(&System::Xml::XmlQualifiedName::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlQualifiedName*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlQualifiedName*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlQualifiedName::*)(::Il2CppString*)>(&XmlQualifiedName::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlQualifiedName::*)(::Il2CppString*)>(&System::Xml::XmlQualifiedName::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlQualifiedName*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlQualifiedName*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlQualifiedName::New_ctor
+// Writing MetadataGetter for method: System::Xml::XmlQualifiedName::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlQualifiedName::*)(::Il2CppString*, ::Il2CppString*)>(&XmlQualifiedName::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlQualifiedName::*)(::Il2CppString*, ::Il2CppString*)>(&System::Xml::XmlQualifiedName::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlQualifiedName*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlQualifiedName*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlQualifiedName::*)(::Il2CppString*, ::Il2CppString*)>(&XmlQualifiedName::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlQualifiedName::*)(::Il2CppString*, ::Il2CppString*)>(&System::Xml::XmlQualifiedName::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlQualifiedName*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlQualifiedName*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlQualifiedName::get_Namespace
+// Writing MetadataGetter for method: System::Xml::XmlQualifiedName::get_Namespace
 // Il2CppName: get_Namespace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (XmlQualifiedName::*)()>(&XmlQualifiedName::get_Namespace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::XmlQualifiedName::*)()>(&System::Xml::XmlQualifiedName::get_Namespace)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlQualifiedName*), "get_Namespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlQualifiedName*), "get_Namespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: XmlQualifiedName::get_Name
+// Writing MetadataGetter for method: System::Xml::XmlQualifiedName::get_Name
 // Il2CppName: get_Name
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (XmlQualifiedName::*)()>(&XmlQualifiedName::get_Name)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::XmlQualifiedName::*)()>(&System::Xml::XmlQualifiedName::get_Name)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlQualifiedName*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlQualifiedName*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: XmlQualifiedName::GetHashCodeDelegate
+// Writing MetadataGetter for method: System::Xml::XmlQualifiedName::GetHashCodeDelegate
 // Il2CppName: GetHashCodeDelegate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlQualifiedName::HashCodeOfStringDelegate* (*)()>(&XmlQualifiedName::GetHashCodeDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlQualifiedName::HashCodeOfStringDelegate* (*)()>(&System::Xml::XmlQualifiedName::GetHashCodeDelegate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlQualifiedName*), "GetHashCodeDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlQualifiedName*), "GetHashCodeDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: XmlQualifiedName::IsRandomizedHashingDisabled
+// Writing MetadataGetter for method: System::Xml::XmlQualifiedName::IsRandomizedHashingDisabled
 // Il2CppName: IsRandomizedHashingDisabled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&XmlQualifiedName::IsRandomizedHashingDisabled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Xml::XmlQualifiedName::IsRandomizedHashingDisabled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlQualifiedName*), "IsRandomizedHashingDisabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlQualifiedName*), "IsRandomizedHashingDisabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: XmlQualifiedName::GetHashCodeOfString
+// Writing MetadataGetter for method: System::Xml::XmlQualifiedName::GetHashCodeOfString
 // Il2CppName: GetHashCodeOfString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, int, int64_t)>(&XmlQualifiedName::GetHashCodeOfString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, int, int64_t)>(&System::Xml::XmlQualifiedName::GetHashCodeOfString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlQualifiedName*), "GetHashCodeOfString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlQualifiedName*), "GetHashCodeOfString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
   }
 };
-// Writing MetadataGetter for method: XmlQualifiedName::Init
+// Writing MetadataGetter for method: System::Xml::XmlQualifiedName::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlQualifiedName::*)(::Il2CppString*, ::Il2CppString*)>(&XmlQualifiedName::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlQualifiedName::*)(::Il2CppString*, ::Il2CppString*)>(&System::Xml::XmlQualifiedName::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlQualifiedName*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlQualifiedName*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: XmlQualifiedName::_cctor
+// Writing MetadataGetter for method: System::Xml::XmlQualifiedName::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&XmlQualifiedName::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Xml::XmlQualifiedName::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlQualifiedName*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlQualifiedName*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: XmlQualifiedName::New_ctor
+// Writing MetadataGetter for method: System::Xml::XmlQualifiedName::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlQualifiedName::*)()>(&XmlQualifiedName::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlQualifiedName::*)()>(&System::Xml::XmlQualifiedName::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlQualifiedName*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlQualifiedName*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (XmlQualifiedName::*)()>(&XmlQualifiedName::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlQualifiedName::*)()>(&System::Xml::XmlQualifiedName::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlQualifiedName*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlQualifiedName*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: XmlQualifiedName::GetHashCode
+// Writing MetadataGetter for method: System::Xml::XmlQualifiedName::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (XmlQualifiedName::*)()>(&XmlQualifiedName::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::XmlQualifiedName::*)()>(&System::Xml::XmlQualifiedName::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlQualifiedName*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlQualifiedName*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: XmlQualifiedName::ToString
+// Writing MetadataGetter for method: System::Xml::XmlQualifiedName::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (XmlQualifiedName::*)()>(&XmlQualifiedName::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::XmlQualifiedName::*)()>(&System::Xml::XmlQualifiedName::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlQualifiedName*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlQualifiedName*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: XmlQualifiedName::Equals
+// Writing MetadataGetter for method: System::Xml::XmlQualifiedName::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (XmlQualifiedName::*)(::Il2CppObject*)>(&XmlQualifiedName::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlQualifiedName::*)(::Il2CppObject*)>(&System::Xml::XmlQualifiedName::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlQualifiedName*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlQualifiedName*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: XmlQualifiedName::operator ==
+// Writing MetadataGetter for method: System::Xml::XmlQualifiedName::operator ==
 // Il2CppName: op_Equality
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Xml::XmlQualifiedName*, System::Xml::XmlQualifiedName&)>(&XmlQualifiedName::operator ==)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Xml::XmlQualifiedName*, System::Xml::XmlQualifiedName&)>(&System::Xml::XmlQualifiedName::operator ==)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlQualifiedName*), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlQualifiedName*>(), ::il2cpp_utils::ExtractIndependentType<System::Xml::XmlQualifiedName&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlQualifiedName*), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlQualifiedName*>(), ::il2cpp_utils::ExtractIndependentType<System::Xml::XmlQualifiedName&>()});
   }
 };
-// Writing MetadataGetter for method: XmlQualifiedName::operator !=
+// Writing MetadataGetter for method: System::Xml::XmlQualifiedName::operator !=
 // Il2CppName: op_Inequality
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Xml::XmlQualifiedName*, System::Xml::XmlQualifiedName&)>(&XmlQualifiedName::operator !=)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Xml::XmlQualifiedName*, System::Xml::XmlQualifiedName&)>(&System::Xml::XmlQualifiedName::operator !=)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(XmlQualifiedName*), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlQualifiedName*>(), ::il2cpp_utils::ExtractIndependentType<System::Xml::XmlQualifiedName&>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlQualifiedName*), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Xml::XmlQualifiedName*>(), ::il2cpp_utils::ExtractIndependentType<System::Xml::XmlQualifiedName&>()});
   }
 };

@@ -696,634 +696,634 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager*, "", "LiteNetLibConnectionManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::NetworkMode, "", "LiteNetLibConnectionManager/NetworkMode");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::ConnectionState, "", "LiteNetLibConnectionManager/ConnectionState");
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::add_onConnectedEvent
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::add_onConnectedEvent
 // Il2CppName: add_onConnectedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(System::Action*)>(&LiteNetLibConnectionManager::add_onConnectedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(System::Action*)>(&GlobalNamespace::LiteNetLibConnectionManager::add_onConnectedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "add_onConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "add_onConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::remove_onConnectedEvent
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::remove_onConnectedEvent
 // Il2CppName: remove_onConnectedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(System::Action*)>(&LiteNetLibConnectionManager::remove_onConnectedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(System::Action*)>(&GlobalNamespace::LiteNetLibConnectionManager::remove_onConnectedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "remove_onConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "remove_onConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::add_onDisconnectedEvent
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::add_onDisconnectedEvent
 // Il2CppName: add_onDisconnectedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(System::Action_1<GlobalNamespace::DisconnectedReason>*)>(&LiteNetLibConnectionManager::add_onDisconnectedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(System::Action_1<GlobalNamespace::DisconnectedReason>*)>(&GlobalNamespace::LiteNetLibConnectionManager::add_onDisconnectedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "add_onDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::DisconnectedReason>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "add_onDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::DisconnectedReason>*>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::remove_onDisconnectedEvent
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::remove_onDisconnectedEvent
 // Il2CppName: remove_onDisconnectedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(System::Action_1<GlobalNamespace::DisconnectedReason>*)>(&LiteNetLibConnectionManager::remove_onDisconnectedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(System::Action_1<GlobalNamespace::DisconnectedReason>*)>(&GlobalNamespace::LiteNetLibConnectionManager::remove_onDisconnectedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "remove_onDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::DisconnectedReason>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "remove_onDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::DisconnectedReason>*>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::add_onConnectionFailedEvent
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::add_onConnectionFailedEvent
 // Il2CppName: add_onConnectionFailedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(System::Action_1<GlobalNamespace::ConnectionFailedReason>*)>(&LiteNetLibConnectionManager::add_onConnectionFailedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(System::Action_1<GlobalNamespace::ConnectionFailedReason>*)>(&GlobalNamespace::LiteNetLibConnectionManager::add_onConnectionFailedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "add_onConnectionFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::ConnectionFailedReason>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "add_onConnectionFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::ConnectionFailedReason>*>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::remove_onConnectionFailedEvent
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::remove_onConnectionFailedEvent
 // Il2CppName: remove_onConnectionFailedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(System::Action_1<GlobalNamespace::ConnectionFailedReason>*)>(&LiteNetLibConnectionManager::remove_onConnectionFailedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(System::Action_1<GlobalNamespace::ConnectionFailedReason>*)>(&GlobalNamespace::LiteNetLibConnectionManager::remove_onConnectionFailedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "remove_onConnectionFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::ConnectionFailedReason>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "remove_onConnectionFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::ConnectionFailedReason>*>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::add_onConnectionConnectedEvent
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::add_onConnectionConnectedEvent
 // Il2CppName: add_onConnectionConnectedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(System::Action_1<GlobalNamespace::IConnection*>*)>(&LiteNetLibConnectionManager::add_onConnectionConnectedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(System::Action_1<GlobalNamespace::IConnection*>*)>(&GlobalNamespace::LiteNetLibConnectionManager::add_onConnectionConnectedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "add_onConnectionConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IConnection*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "add_onConnectionConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IConnection*>*>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::remove_onConnectionConnectedEvent
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::remove_onConnectionConnectedEvent
 // Il2CppName: remove_onConnectionConnectedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(System::Action_1<GlobalNamespace::IConnection*>*)>(&LiteNetLibConnectionManager::remove_onConnectionConnectedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(System::Action_1<GlobalNamespace::IConnection*>*)>(&GlobalNamespace::LiteNetLibConnectionManager::remove_onConnectionConnectedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "remove_onConnectionConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IConnection*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "remove_onConnectionConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::IConnection*>*>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::add_onConnectionDisconnectedEvent
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::add_onConnectionDisconnectedEvent
 // Il2CppName: add_onConnectionDisconnectedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>*)>(&LiteNetLibConnectionManager::add_onConnectionDisconnectedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>*)>(&GlobalNamespace::LiteNetLibConnectionManager::add_onConnectionDisconnectedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "add_onConnectionDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "add_onConnectionDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>*>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::remove_onConnectionDisconnectedEvent
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::remove_onConnectionDisconnectedEvent
 // Il2CppName: remove_onConnectionDisconnectedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>*)>(&LiteNetLibConnectionManager::remove_onConnectionDisconnectedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>*)>(&GlobalNamespace::LiteNetLibConnectionManager::remove_onConnectionDisconnectedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "remove_onConnectionDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "remove_onConnectionDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>*>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::add_onLatencyUpdatedEvent
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::add_onLatencyUpdatedEvent
 // Il2CppName: add_onLatencyUpdatedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(System::Action_2<GlobalNamespace::IConnection*, float>*)>(&LiteNetLibConnectionManager::add_onLatencyUpdatedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(System::Action_2<GlobalNamespace::IConnection*, float>*)>(&GlobalNamespace::LiteNetLibConnectionManager::add_onLatencyUpdatedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "add_onLatencyUpdatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::IConnection*, float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "add_onLatencyUpdatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::IConnection*, float>*>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::remove_onLatencyUpdatedEvent
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::remove_onLatencyUpdatedEvent
 // Il2CppName: remove_onLatencyUpdatedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(System::Action_2<GlobalNamespace::IConnection*, float>*)>(&LiteNetLibConnectionManager::remove_onLatencyUpdatedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(System::Action_2<GlobalNamespace::IConnection*, float>*)>(&GlobalNamespace::LiteNetLibConnectionManager::remove_onLatencyUpdatedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "remove_onLatencyUpdatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::IConnection*, float>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "remove_onLatencyUpdatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::IConnection*, float>*>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::add_onReceivedDataEvent
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::add_onReceivedDataEvent
 // Il2CppName: add_onReceivedDataEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>*)>(&LiteNetLibConnectionManager::add_onReceivedDataEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>*)>(&GlobalNamespace::LiteNetLibConnectionManager::add_onReceivedDataEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "add_onReceivedDataEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "add_onReceivedDataEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>*>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::remove_onReceivedDataEvent
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::remove_onReceivedDataEvent
 // Il2CppName: remove_onReceivedDataEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>*)>(&LiteNetLibConnectionManager::remove_onReceivedDataEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>*)>(&GlobalNamespace::LiteNetLibConnectionManager::remove_onReceivedDataEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "remove_onReceivedDataEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "remove_onReceivedDataEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>*>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::add_onReceiveUnconnectedDataEvent
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::add_onReceiveUnconnectedDataEvent
 // Il2CppName: add_onReceiveUnconnectedDataEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(System::Action_2<System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataReader*>*)>(&LiteNetLibConnectionManager::add_onReceiveUnconnectedDataEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(System::Action_2<System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataReader*>*)>(&GlobalNamespace::LiteNetLibConnectionManager::add_onReceiveUnconnectedDataEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "add_onReceiveUnconnectedDataEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataReader*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "add_onReceiveUnconnectedDataEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataReader*>*>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::remove_onReceiveUnconnectedDataEvent
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::remove_onReceiveUnconnectedDataEvent
 // Il2CppName: remove_onReceiveUnconnectedDataEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(System::Action_2<System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataReader*>*)>(&LiteNetLibConnectionManager::remove_onReceiveUnconnectedDataEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(System::Action_2<System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataReader*>*)>(&GlobalNamespace::LiteNetLibConnectionManager::remove_onReceiveUnconnectedDataEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "remove_onReceiveUnconnectedDataEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataReader*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "remove_onReceiveUnconnectedDataEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataReader*>*>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::add_onStatisticsUpdatedEvent
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::add_onStatisticsUpdatedEvent
 // Il2CppName: add_onStatisticsUpdatedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(GlobalNamespace::LiteNetLibConnectionManager::StatisticsUpdated*)>(&LiteNetLibConnectionManager::add_onStatisticsUpdatedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(GlobalNamespace::LiteNetLibConnectionManager::StatisticsUpdated*)>(&GlobalNamespace::LiteNetLibConnectionManager::add_onStatisticsUpdatedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "add_onStatisticsUpdatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LiteNetLibConnectionManager::StatisticsUpdated*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "add_onStatisticsUpdatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LiteNetLibConnectionManager::StatisticsUpdated*>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::remove_onStatisticsUpdatedEvent
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::remove_onStatisticsUpdatedEvent
 // Il2CppName: remove_onStatisticsUpdatedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(GlobalNamespace::LiteNetLibConnectionManager::StatisticsUpdated*)>(&LiteNetLibConnectionManager::remove_onStatisticsUpdatedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(GlobalNamespace::LiteNetLibConnectionManager::StatisticsUpdated*)>(&GlobalNamespace::LiteNetLibConnectionManager::remove_onStatisticsUpdatedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "remove_onStatisticsUpdatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LiteNetLibConnectionManager::StatisticsUpdated*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "remove_onStatisticsUpdatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LiteNetLibConnectionManager::StatisticsUpdated*>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::get_userId
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::get_userId
 // Il2CppName: get_userId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LiteNetLibConnectionManager::*)()>(&LiteNetLibConnectionManager::get_userId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::get_userId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::get_userName
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::get_userName
 // Il2CppName: get_userName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LiteNetLibConnectionManager::*)()>(&LiteNetLibConnectionManager::get_userName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::get_userName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::get_isConnected
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::get_isConnected
 // Il2CppName: get_isConnected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLibConnectionManager::*)()>(&LiteNetLibConnectionManager::get_isConnected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::get_isConnected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "get_isConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "get_isConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::get_isConnecting
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::get_isConnecting
 // Il2CppName: get_isConnecting
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLibConnectionManager::*)()>(&LiteNetLibConnectionManager::get_isConnecting)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::get_isConnecting)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "get_isConnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "get_isConnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::get_isDisconnecting
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::get_isDisconnecting
 // Il2CppName: get_isDisconnecting
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLibConnectionManager::*)()>(&LiteNetLibConnectionManager::get_isDisconnecting)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::get_isDisconnecting)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "get_isDisconnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "get_isDisconnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::get_isConnectionOwner
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::get_isConnectionOwner
 // Il2CppName: get_isConnectionOwner
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLibConnectionManager::*)()>(&LiteNetLibConnectionManager::get_isConnectionOwner)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::get_isConnectionOwner)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "get_isConnectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "get_isConnectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::get_hasConnectionOwner
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::get_hasConnectionOwner
 // Il2CppName: get_hasConnectionOwner
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLibConnectionManager::*)()>(&LiteNetLibConnectionManager::get_hasConnectionOwner)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::get_hasConnectionOwner)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "get_hasConnectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "get_hasConnectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::get_isRelay
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::get_isRelay
 // Il2CppName: get_isRelay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLibConnectionManager::*)()>(&LiteNetLibConnectionManager::get_isRelay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::get_isRelay)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "get_isRelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "get_isRelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::get_isServer
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::get_isServer
 // Il2CppName: get_isServer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLibConnectionManager::*)()>(&LiteNetLibConnectionManager::get_isServer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::get_isServer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "get_isServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "get_isServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::get_isClient
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::get_isClient
 // Il2CppName: get_isClient
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLibConnectionManager::*)()>(&LiteNetLibConnectionManager::get_isClient)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::get_isClient)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "get_isClient", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "get_isClient", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::get_isDisposed
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::get_isDisposed
 // Il2CppName: get_isDisposed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLibConnectionManager::*)()>(&LiteNetLibConnectionManager::get_isDisposed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::get_isDisposed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "get_isDisposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "get_isDisposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::get_connectionCount
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::get_connectionCount
 // Il2CppName: get_connectionCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNetLibConnectionManager::*)()>(&LiteNetLibConnectionManager::get_connectionCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::get_connectionCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "get_connectionCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "get_connectionCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::get_secret
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::get_secret
 // Il2CppName: get_secret
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LiteNetLibConnectionManager::*)()>(&LiteNetLibConnectionManager::get_secret)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::get_secret)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "get_secret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "get_secret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::get_port
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::get_port
 // Il2CppName: get_port
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNetLibConnectionManager::*)()>(&LiteNetLibConnectionManager::get_port)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::get_port)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "get_port", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "get_port", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::get_unconnectedPacketHeader
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::get_unconnectedPacketHeader
 // Il2CppName: get_unconnectedPacketHeader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (LiteNetLibConnectionManager::*)()>(&LiteNetLibConnectionManager::get_unconnectedPacketHeader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::get_unconnectedPacketHeader)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "get_unconnectedPacketHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "get_unconnectedPacketHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::get_encryptionLayer
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::get_encryptionLayer
 // Il2CppName: get_encryptionLayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketEncryptionLayer* (LiteNetLibConnectionManager::*)()>(&LiteNetLibConnectionManager::get_encryptionLayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketEncryptionLayer* (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::get_encryptionLayer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "get_encryptionLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "get_encryptionLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(MasterServer::ITimeProvider*)>(&LiteNetLibConnectionManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(MasterServer::ITimeProvider*)>(&GlobalNamespace::LiteNetLibConnectionManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::ITimeProvider*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::ITimeProvider*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(MasterServer::ITimeProvider*)>(&LiteNetLibConnectionManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(MasterServer::ITimeProvider*)>(&GlobalNamespace::LiteNetLibConnectionManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::ITimeProvider*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::ITimeProvider*>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::SendToAll
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::SendToAll
 // Il2CppName: SendToAll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(LiteNetLib::Utils::NetDataWriter*, LiteNetLib::DeliveryMethod)>(&LiteNetLibConnectionManager::SendToAll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(LiteNetLib::Utils::NetDataWriter*, LiteNetLib::DeliveryMethod)>(&GlobalNamespace::LiteNetLibConnectionManager::SendToAll)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::SendToAll
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::SendToAll
 // Il2CppName: SendToAll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(LiteNetLib::Utils::NetDataWriter*, LiteNetLib::DeliveryMethod, GlobalNamespace::IConnection*)>(&LiteNetLibConnectionManager::SendToAll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(LiteNetLib::Utils::NetDataWriter*, LiteNetLib::DeliveryMethod, GlobalNamespace::IConnection*)>(&GlobalNamespace::LiteNetLibConnectionManager::SendToAll)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnection*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnection*>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::SendUnconnected
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::SendUnconnected
 // Il2CppName: SendUnconnected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataWriter*)>(&LiteNetLibConnectionManager::SendUnconnected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(System::Net::IPEndPoint*, LiteNetLib::Utils::NetDataWriter*)>(&GlobalNamespace::LiteNetLibConnectionManager::SendUnconnected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "SendUnconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "SendUnconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::PollUpdate
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::PollUpdate
 // Il2CppName: PollUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)()>(&LiteNetLibConnectionManager::PollUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::PollUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "PollUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "PollUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::Init
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::Init
 // Il2CppName: Init
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::SetSecret
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::SetSecret
 // Il2CppName: SetSecret
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(::Il2CppString*)>(&LiteNetLibConnectionManager::SetSecret)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(::Il2CppString*)>(&GlobalNamespace::LiteNetLibConnectionManager::SetSecret)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "SetSecret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "SetSecret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::ConnectToEndPoint
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::ConnectToEndPoint
 // Il2CppName: ConnectToEndPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(System::Net::IPEndPoint*, ::Il2CppString*, ::Il2CppString*, bool)>(&LiteNetLibConnectionManager::ConnectToEndPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(System::Net::IPEndPoint*, ::Il2CppString*, ::Il2CppString*, bool)>(&GlobalNamespace::LiteNetLibConnectionManager::ConnectToEndPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "ConnectToEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "ConnectToEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::Dispose
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)()>(&LiteNetLibConnectionManager::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::DisposeAsync
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::DisposeAsync
 // Il2CppName: DisposeAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (LiteNetLibConnectionManager::*)()>(&LiteNetLibConnectionManager::DisposeAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::DisposeAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "DisposeAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "DisposeAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::DisposeInternal
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::DisposeInternal
 // Il2CppName: DisposeInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)()>(&LiteNetLibConnectionManager::DisposeInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::DisposeInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "DisposeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "DisposeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::Disconnect
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::Disconnect
 // Il2CppName: Disconnect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(GlobalNamespace::DisconnectedReason)>(&LiteNetLibConnectionManager::Disconnect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(GlobalNamespace::DisconnectedReason)>(&GlobalNamespace::LiteNetLibConnectionManager::Disconnect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "Disconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DisconnectedReason>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "Disconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DisconnectedReason>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::DisconnectInternal
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::DisconnectInternal
 // Il2CppName: DisconnectInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(GlobalNamespace::DisconnectedReason, GlobalNamespace::ConnectionFailedReason)>(&LiteNetLibConnectionManager::DisconnectInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(GlobalNamespace::DisconnectedReason, GlobalNamespace::ConnectionFailedReason)>(&GlobalNamespace::LiteNetLibConnectionManager::DisconnectInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "DisconnectInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DisconnectedReason>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectionFailedReason>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "DisconnectInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DisconnectedReason>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectionFailedReason>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::TryStartNetManager
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::TryStartNetManager
 // Il2CppName: TryStartNetManager
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLibConnectionManager::*)(int, bool)>(&LiteNetLibConnectionManager::TryStartNetManager)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LiteNetLibConnectionManager::*)(int, bool)>(&GlobalNamespace::LiteNetLibConnectionManager::TryStartNetManager)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "TryStartNetManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "TryStartNetManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::StartBackgroundSentry
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::StartBackgroundSentry
 // Il2CppName: StartBackgroundSentry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)()>(&LiteNetLibConnectionManager::StartBackgroundSentry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::StartBackgroundSentry)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "StartBackgroundSentry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "StartBackgroundSentry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::CheckSentryState
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::CheckSentryState
 // Il2CppName: CheckSentryState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)()>(&LiteNetLibConnectionManager::CheckSentryState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::CheckSentryState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "CheckSentryState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "CheckSentryState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::UpdateStatistics
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::UpdateStatistics
 // Il2CppName: UpdateStatistics
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)()>(&LiteNetLibConnectionManager::UpdateStatistics)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::UpdateStatistics)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "UpdateStatistics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "UpdateStatistics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::GetConnection
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::GetConnection
 // Il2CppName: GetConnection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnection* (LiteNetLibConnectionManager::*)(int)>(&LiteNetLibConnectionManager::GetConnection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnection* (GlobalNamespace::LiteNetLibConnectionManager::*)(int)>(&GlobalNamespace::LiteNetLibConnectionManager::GetConnection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "GetConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "GetConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::IsConnectedToUser
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::IsConnectedToUser
 // Il2CppName: IsConnectedToUser
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLibConnectionManager::*)(::Il2CppString*)>(&LiteNetLibConnectionManager::IsConnectedToUser)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LiteNetLibConnectionManager::*)(::Il2CppString*)>(&GlobalNamespace::LiteNetLibConnectionManager::IsConnectedToUser)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "IsConnectedToUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "IsConnectedToUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::HasConnectionToEndPoint
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::HasConnectionToEndPoint
 // Il2CppName: HasConnectionToEndPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLibConnectionManager::*)(System::Net::IPEndPoint*)>(&LiteNetLibConnectionManager::HasConnectionToEndPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LiteNetLibConnectionManager::*)(System::Net::IPEndPoint*)>(&GlobalNamespace::LiteNetLibConnectionManager::HasConnectionToEndPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "HasConnectionToEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "HasConnectionToEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::HasPendingConnectionToEndPoint
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::HasPendingConnectionToEndPoint
 // Il2CppName: HasPendingConnectionToEndPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLibConnectionManager::*)(System::Net::IPEndPoint*)>(&LiteNetLibConnectionManager::HasPendingConnectionToEndPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LiteNetLibConnectionManager::*)(System::Net::IPEndPoint*)>(&GlobalNamespace::LiteNetLibConnectionManager::HasPendingConnectionToEndPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "HasPendingConnectionToEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "HasPendingConnectionToEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnPeerConnected
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnPeerConnected
 // Il2CppName: LiteNetLib.INetEventListener.OnPeerConnected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(LiteNetLib::NetPeer*)>(&LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnPeerConnected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(LiteNetLib::NetPeer*)>(&GlobalNamespace::LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnPeerConnected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "LiteNetLib.INetEventListener.OnPeerConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "LiteNetLib.INetEventListener.OnPeerConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnNetworkError
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnNetworkError
 // Il2CppName: LiteNetLib.INetEventListener.OnNetworkError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(System::Net::IPEndPoint*, System::Net::Sockets::SocketError)>(&LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnNetworkError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(System::Net::IPEndPoint*, System::Net::Sockets::SocketError)>(&GlobalNamespace::LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnNetworkError)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "LiteNetLib.INetEventListener.OnNetworkError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "LiteNetLib.INetEventListener.OnNetworkError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnNetworkLatencyUpdate
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnNetworkLatencyUpdate
 // Il2CppName: LiteNetLib.INetEventListener.OnNetworkLatencyUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(LiteNetLib::NetPeer*, int)>(&LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnNetworkLatencyUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(LiteNetLib::NetPeer*, int)>(&GlobalNamespace::LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnNetworkLatencyUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "LiteNetLib.INetEventListener.OnNetworkLatencyUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "LiteNetLib.INetEventListener.OnNetworkLatencyUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnConnectionRequest
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnConnectionRequest
 // Il2CppName: LiteNetLib.INetEventListener.OnConnectionRequest
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(LiteNetLib::ConnectionRequest*)>(&LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnConnectionRequest)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(LiteNetLib::ConnectionRequest*)>(&GlobalNamespace::LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnConnectionRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "LiteNetLib.INetEventListener.OnConnectionRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::ConnectionRequest*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "LiteNetLib.INetEventListener.OnConnectionRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::ConnectionRequest*>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnPeerDisconnected
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnPeerDisconnected
 // Il2CppName: LiteNetLib.INetEventListener.OnPeerDisconnected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(LiteNetLib::NetPeer*, LiteNetLib::DisconnectInfo)>(&LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnPeerDisconnected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(LiteNetLib::NetPeer*, LiteNetLib::DisconnectInfo)>(&GlobalNamespace::LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnPeerDisconnected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "LiteNetLib.INetEventListener.OnPeerDisconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DisconnectInfo>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "LiteNetLib.INetEventListener.OnPeerDisconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DisconnectInfo>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnNetworkReceive
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnNetworkReceive
 // Il2CppName: LiteNetLib.INetEventListener.OnNetworkReceive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(LiteNetLib::NetPeer*, LiteNetLib::NetPacketReader*, LiteNetLib::DeliveryMethod)>(&LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnNetworkReceive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(LiteNetLib::NetPeer*, LiteNetLib::NetPacketReader*, LiteNetLib::DeliveryMethod)>(&GlobalNamespace::LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnNetworkReceive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "LiteNetLib.INetEventListener.OnNetworkReceive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacketReader*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "LiteNetLib.INetEventListener.OnNetworkReceive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacketReader*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DeliveryMethod>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnNetworkReceiveUnconnected
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnNetworkReceiveUnconnected
 // Il2CppName: LiteNetLib.INetEventListener.OnNetworkReceiveUnconnected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(System::Net::IPEndPoint*, LiteNetLib::NetPacketReader*, LiteNetLib::UnconnectedMessageType)>(&LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnNetworkReceiveUnconnected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(System::Net::IPEndPoint*, LiteNetLib::NetPacketReader*, LiteNetLib::UnconnectedMessageType)>(&GlobalNamespace::LiteNetLibConnectionManager::LiteNetLib_INetEventListener_OnNetworkReceiveUnconnected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "LiteNetLib.INetEventListener.OnNetworkReceiveUnconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacketReader*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::UnconnectedMessageType>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "LiteNetLib.INetEventListener.OnNetworkReceiveUnconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacketReader*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::UnconnectedMessageType>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::GetConnection
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::GetConnection
 // Il2CppName: GetConnection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection* (LiteNetLibConnectionManager::*)(LiteNetLib::NetPeer*)>(&LiteNetLibConnectionManager::GetConnection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection* (GlobalNamespace::LiteNetLibConnectionManager::*)(LiteNetLib::NetPeer*)>(&GlobalNamespace::LiteNetLibConnectionManager::GetConnection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "GetConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "GetConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::AcceptAllPendingRequests
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::AcceptAllPendingRequests
 // Il2CppName: AcceptAllPendingRequests
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)()>(&LiteNetLibConnectionManager::AcceptAllPendingRequests)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::AcceptAllPendingRequests)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "AcceptAllPendingRequests", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "AcceptAllPendingRequests", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::TryAccept
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::TryAccept
 // Il2CppName: TryAccept
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(LiteNetLib::ConnectionRequest*, ::Il2CppString*, ::Il2CppString*, bool)>(&LiteNetLibConnectionManager::TryAccept)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(LiteNetLib::ConnectionRequest*, ::Il2CppString*, ::Il2CppString*, bool)>(&GlobalNamespace::LiteNetLibConnectionManager::TryAccept)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "TryAccept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::ConnectionRequest*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "TryAccept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::ConnectionRequest*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::CreatePendingConnection
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::CreatePendingConnection
 // Il2CppName: CreatePendingConnection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(LiteNetLib::NetPeer*, ::Il2CppString*, ::Il2CppString*, bool)>(&LiteNetLibConnectionManager::CreatePendingConnection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(LiteNetLib::NetPeer*, ::Il2CppString*, ::Il2CppString*, bool)>(&GlobalNamespace::LiteNetLibConnectionManager::CreatePendingConnection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "CreatePendingConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "CreatePendingConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::RemoveConnection
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::RemoveConnection
 // Il2CppName: RemoveConnection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(LiteNetLib::NetPeer*, LiteNetLib::DisconnectReason)>(&LiteNetLibConnectionManager::RemoveConnection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(LiteNetLib::NetPeer*, LiteNetLib::DisconnectReason)>(&GlobalNamespace::LiteNetLibConnectionManager::RemoveConnection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "RemoveConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DisconnectReason>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "RemoveConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPeer*>(), ::il2cpp_utils::ExtractIndependentType<LiteNetLib::DisconnectReason>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::TryDisconnect
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::TryDisconnect
 // Il2CppName: TryDisconnect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(LiteNetLib::DisconnectReason)>(&LiteNetLibConnectionManager::TryDisconnect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(LiteNetLib::DisconnectReason)>(&GlobalNamespace::LiteNetLibConnectionManager::TryDisconnect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "TryDisconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::DisconnectReason>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "TryDisconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::DisconnectReason>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::ToDisconnectedReason
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::ToDisconnectedReason
 // Il2CppName: ToDisconnectedReason
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::DisconnectedReason (LiteNetLibConnectionManager::*)(LiteNetLib::DisconnectReason)>(&LiteNetLibConnectionManager::ToDisconnectedReason)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::DisconnectedReason (GlobalNamespace::LiteNetLibConnectionManager::*)(LiteNetLib::DisconnectReason)>(&GlobalNamespace::LiteNetLibConnectionManager::ToDisconnectedReason)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "ToDisconnectedReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::DisconnectReason>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "ToDisconnectedReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::DisconnectReason>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::ToConnectionFailedReason
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::ToConnectionFailedReason
 // Il2CppName: ToConnectionFailedReason
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectionFailedReason (LiteNetLibConnectionManager::*)(LiteNetLib::DisconnectReason)>(&LiteNetLibConnectionManager::ToConnectionFailedReason)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectionFailedReason (GlobalNamespace::LiteNetLibConnectionManager::*)(LiteNetLib::DisconnectReason)>(&GlobalNamespace::LiteNetLibConnectionManager::ToConnectionFailedReason)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "ToConnectionFailedReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::DisconnectReason>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "ToConnectionFailedReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::DisconnectReason>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::GetConnectionMessage
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::GetConnectionMessage
 // Il2CppName: GetConnectionMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::Utils::NetDataWriter* (LiteNetLibConnectionManager::*)()>(&LiteNetLibConnectionManager::GetConnectionMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::Utils::NetDataWriter* (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::GetConnectionMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "GetConnectionMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "GetConnectionMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::ParseConnectionMessage
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::ParseConnectionMessage
 // Il2CppName: ParseConnectionMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLibConnectionManager::*)(LiteNetLib::Utils::NetDataReader*, ::Il2CppString*&, ::Il2CppString*&, ::Il2CppString*&, bool&)>(&LiteNetLibConnectionManager::ParseConnectionMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LiteNetLibConnectionManager::*)(LiteNetLib::Utils::NetDataReader*, ::Il2CppString*&, ::Il2CppString*&, ::Il2CppString*&, bool&)>(&GlobalNamespace::LiteNetLibConnectionManager::ParseConnectionMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "ParseConnectionMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "ParseConnectionMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::BackgroundDisconnectSentry
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::BackgroundDisconnectSentry
 // Il2CppName: BackgroundDisconnectSentry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (LiteNetLibConnectionManager::*)()>(&LiteNetLibConnectionManager::BackgroundDisconnectSentry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::BackgroundDisconnectSentry)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "BackgroundDisconnectSentry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "BackgroundDisconnectSentry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::BackgroundShutdownSentry
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::BackgroundShutdownSentry
 // Il2CppName: BackgroundShutdownSentry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (LiteNetLibConnectionManager::*)()>(&LiteNetLibConnectionManager::BackgroundShutdownSentry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::BackgroundShutdownSentry)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "BackgroundShutdownSentry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "BackgroundShutdownSentry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::Log
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::Log
 // Il2CppName: Log
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(::Il2CppString*)>(&LiteNetLibConnectionManager::Log)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(::Il2CppString*)>(&GlobalNamespace::LiteNetLibConnectionManager::Log)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::LogError
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::LogError
 // Il2CppName: LogError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)(::Il2CppString*)>(&LiteNetLibConnectionManager::LogError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)(::Il2CppString*)>(&GlobalNamespace::LiteNetLibConnectionManager::LogError)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "LogError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "LogError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::$DisposeAsync$b__100_0
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::$DisposeAsync$b__100_0
 // Il2CppName: <DisposeAsync>b__100_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)()>(&LiteNetLibConnectionManager::$DisposeAsync$b__100_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::$DisposeAsync$b__100_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), "<DisposeAsync>b__100_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "<DisposeAsync>b__100_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LiteNetLibConnectionManager::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)()>(&LiteNetLibConnectionManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLibConnectionManager::*)()>(&LiteNetLibConnectionManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLibConnectionManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

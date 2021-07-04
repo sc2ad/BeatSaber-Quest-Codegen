@@ -153,97 +153,97 @@ namespace GlobalNamespace {
   static_assert(sizeof(BTSCharacterSpawnController) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterSpawnController*, "", "BTSCharacterSpawnController");
-// Writing MetadataGetter for method: BTSCharacterSpawnController::get_isCharacterVisible
+// Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnController::get_isCharacterVisible
 // Il2CppName: get_isCharacterVisible
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BTSCharacterSpawnController::*)()>(&BTSCharacterSpawnController::get_isCharacterVisible)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BTSCharacterSpawnController::*)()>(&GlobalNamespace::BTSCharacterSpawnController::get_isCharacterVisible)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnController*), "get_isCharacterVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnController*), "get_isCharacterVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BTSCharacterSpawnController::get_isSpawned
+// Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnController::get_isSpawned
 // Il2CppName: get_isSpawned
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BTSCharacterSpawnController::*)()>(&BTSCharacterSpawnController::get_isSpawned)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BTSCharacterSpawnController::*)()>(&GlobalNamespace::BTSCharacterSpawnController::get_isSpawned)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnController*), "get_isSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnController*), "get_isSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BTSCharacterSpawnController::Start
+// Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnController::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnController::*)()>(&BTSCharacterSpawnController::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterSpawnController::*)()>(&GlobalNamespace::BTSCharacterSpawnController::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BTSCharacterSpawnController::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnController::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnController::*)()>(&BTSCharacterSpawnController::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterSpawnController::*)()>(&GlobalNamespace::BTSCharacterSpawnController::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BTSCharacterSpawnController::HandleStartCharacterAnimation
+// Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnController::HandleStartCharacterAnimation
 // Il2CppName: HandleStartCharacterAnimation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnController::*)(GlobalNamespace::BTSCharacter*)>(&BTSCharacterSpawnController::HandleStartCharacterAnimation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterSpawnController::*)(GlobalNamespace::BTSCharacter*)>(&GlobalNamespace::BTSCharacterSpawnController::HandleStartCharacterAnimation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnController*), "HandleStartCharacterAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BTSCharacter*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnController*), "HandleStartCharacterAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BTSCharacter*>()});
   }
 };
-// Writing MetadataGetter for method: BTSCharacterSpawnController::HandleGamePauseDidPause
+// Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnController::HandleGamePauseDidPause
 // Il2CppName: HandleGamePauseDidPause
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnController::*)()>(&BTSCharacterSpawnController::HandleGamePauseDidPause)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterSpawnController::*)()>(&GlobalNamespace::BTSCharacterSpawnController::HandleGamePauseDidPause)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnController*), "HandleGamePauseDidPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnController*), "HandleGamePauseDidPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BTSCharacterSpawnController::HandleGamePauseWillResume
+// Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnController::HandleGamePauseWillResume
 // Il2CppName: HandleGamePauseWillResume
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnController::*)()>(&BTSCharacterSpawnController::HandleGamePauseWillResume)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterSpawnController::*)()>(&GlobalNamespace::BTSCharacterSpawnController::HandleGamePauseWillResume)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnController*), "HandleGamePauseWillResume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnController*), "HandleGamePauseWillResume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BTSCharacterSpawnController::HandleGamePauseDidResume
+// Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnController::HandleGamePauseDidResume
 // Il2CppName: HandleGamePauseDidResume
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnController::*)()>(&BTSCharacterSpawnController::HandleGamePauseDidResume)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterSpawnController::*)()>(&GlobalNamespace::BTSCharacterSpawnController::HandleGamePauseDidResume)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnController*), "HandleGamePauseDidResume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnController*), "HandleGamePauseDidResume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BTSCharacterSpawnController::HandleLevelEndActionsLevelFailed
+// Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnController::HandleLevelEndActionsLevelFailed
 // Il2CppName: HandleLevelEndActionsLevelFailed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnController::*)()>(&BTSCharacterSpawnController::HandleLevelEndActionsLevelFailed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterSpawnController::*)()>(&GlobalNamespace::BTSCharacterSpawnController::HandleLevelEndActionsLevelFailed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnController*), "HandleLevelEndActionsLevelFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnController*), "HandleLevelEndActionsLevelFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BTSCharacterSpawnController::TimelineStoppedDelayed
+// Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnController::TimelineStoppedDelayed
 // Il2CppName: TimelineStoppedDelayed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (BTSCharacterSpawnController::*)()>(&BTSCharacterSpawnController::TimelineStoppedDelayed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::BTSCharacterSpawnController::*)()>(&GlobalNamespace::BTSCharacterSpawnController::TimelineStoppedDelayed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnController*), "TimelineStoppedDelayed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnController*), "TimelineStoppedDelayed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BTSCharacterSpawnController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnController::*)()>(&BTSCharacterSpawnController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterSpawnController::*)()>(&GlobalNamespace::BTSCharacterSpawnController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BTSCharacterSpawnController::*)()>(&BTSCharacterSpawnController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterSpawnController::*)()>(&GlobalNamespace::BTSCharacterSpawnController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BTSCharacterSpawnController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -124,169 +124,169 @@ namespace OVR::OpenVR {
   static_assert(sizeof(CVRRenderModels) == 0xA8);
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRRenderModels*, "OVR.OpenVR", "CVRRenderModels");
-// Writing MetadataGetter for method: CVRRenderModels::New_ctor
+// Writing MetadataGetter for method: OVR::OpenVR::CVRRenderModels::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRRenderModels::*)(System::IntPtr)>(&CVRRenderModels::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRRenderModels::*)(System::IntPtr)>(&OVR::OpenVR::CVRRenderModels::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRRenderModels*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRRenderModels::*)(System::IntPtr)>(&CVRRenderModels::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRRenderModels::*)(System::IntPtr)>(&OVR::OpenVR::CVRRenderModels::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRRenderModels*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: CVRRenderModels::LoadRenderModel_Async
+// Writing MetadataGetter for method: OVR::OpenVR::CVRRenderModels::LoadRenderModel_Async
 // Il2CppName: LoadRenderModel_Async
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRRenderModelError (CVRRenderModels::*)(::Il2CppString*, System::IntPtr&)>(&CVRRenderModels::LoadRenderModel_Async)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRRenderModelError (OVR::OpenVR::CVRRenderModels::*)(::Il2CppString*, System::IntPtr&)>(&OVR::OpenVR::CVRRenderModels::LoadRenderModel_Async)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "LoadRenderModel_Async", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRRenderModels*), "LoadRenderModel_Async", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>()});
   }
 };
-// Writing MetadataGetter for method: CVRRenderModels::FreeRenderModel
+// Writing MetadataGetter for method: OVR::OpenVR::CVRRenderModels::FreeRenderModel
 // Il2CppName: FreeRenderModel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRRenderModels::*)(System::IntPtr)>(&CVRRenderModels::FreeRenderModel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRRenderModels::*)(System::IntPtr)>(&OVR::OpenVR::CVRRenderModels::FreeRenderModel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "FreeRenderModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRRenderModels*), "FreeRenderModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: CVRRenderModels::LoadTexture_Async
+// Writing MetadataGetter for method: OVR::OpenVR::CVRRenderModels::LoadTexture_Async
 // Il2CppName: LoadTexture_Async
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRRenderModelError (CVRRenderModels::*)(int, System::IntPtr&)>(&CVRRenderModels::LoadTexture_Async)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRRenderModelError (OVR::OpenVR::CVRRenderModels::*)(int, System::IntPtr&)>(&OVR::OpenVR::CVRRenderModels::LoadTexture_Async)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "LoadTexture_Async", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRRenderModels*), "LoadTexture_Async", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>()});
   }
 };
-// Writing MetadataGetter for method: CVRRenderModels::FreeTexture
+// Writing MetadataGetter for method: OVR::OpenVR::CVRRenderModels::FreeTexture
 // Il2CppName: FreeTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRRenderModels::*)(System::IntPtr)>(&CVRRenderModels::FreeTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRRenderModels::*)(System::IntPtr)>(&OVR::OpenVR::CVRRenderModels::FreeTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "FreeTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRRenderModels*), "FreeTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: CVRRenderModels::LoadTextureD3D11_Async
+// Writing MetadataGetter for method: OVR::OpenVR::CVRRenderModels::LoadTextureD3D11_Async
 // Il2CppName: LoadTextureD3D11_Async
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRRenderModelError (CVRRenderModels::*)(int, System::IntPtr, System::IntPtr&)>(&CVRRenderModels::LoadTextureD3D11_Async)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRRenderModelError (OVR::OpenVR::CVRRenderModels::*)(int, System::IntPtr, System::IntPtr&)>(&OVR::OpenVR::CVRRenderModels::LoadTextureD3D11_Async)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "LoadTextureD3D11_Async", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRRenderModels*), "LoadTextureD3D11_Async", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>()});
   }
 };
-// Writing MetadataGetter for method: CVRRenderModels::LoadIntoTextureD3D11_Async
+// Writing MetadataGetter for method: OVR::OpenVR::CVRRenderModels::LoadIntoTextureD3D11_Async
 // Il2CppName: LoadIntoTextureD3D11_Async
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRRenderModelError (CVRRenderModels::*)(int, System::IntPtr)>(&CVRRenderModels::LoadIntoTextureD3D11_Async)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRRenderModelError (OVR::OpenVR::CVRRenderModels::*)(int, System::IntPtr)>(&OVR::OpenVR::CVRRenderModels::LoadIntoTextureD3D11_Async)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "LoadIntoTextureD3D11_Async", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRRenderModels*), "LoadIntoTextureD3D11_Async", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: CVRRenderModels::FreeTextureD3D11
+// Writing MetadataGetter for method: OVR::OpenVR::CVRRenderModels::FreeTextureD3D11
 // Il2CppName: FreeTextureD3D11
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CVRRenderModels::*)(System::IntPtr)>(&CVRRenderModels::FreeTextureD3D11)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRRenderModels::*)(System::IntPtr)>(&OVR::OpenVR::CVRRenderModels::FreeTextureD3D11)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "FreeTextureD3D11", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRRenderModels*), "FreeTextureD3D11", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: CVRRenderModels::GetRenderModelName
+// Writing MetadataGetter for method: OVR::OpenVR::CVRRenderModels::GetRenderModelName
 // Il2CppName: GetRenderModelName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRRenderModels::*)(uint, System::Text::StringBuilder*, uint)>(&CVRRenderModels::GetRenderModelName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRRenderModels::*)(uint, System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVRRenderModels::GetRenderModelName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "GetRenderModelName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRRenderModels*), "GetRenderModelName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: CVRRenderModels::GetRenderModelCount
+// Writing MetadataGetter for method: OVR::OpenVR::CVRRenderModels::GetRenderModelCount
 // Il2CppName: GetRenderModelCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRRenderModels::*)()>(&CVRRenderModels::GetRenderModelCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRRenderModels::*)()>(&OVR::OpenVR::CVRRenderModels::GetRenderModelCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "GetRenderModelCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRRenderModels*), "GetRenderModelCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CVRRenderModels::GetComponentCount
+// Writing MetadataGetter for method: OVR::OpenVR::CVRRenderModels::GetComponentCount
 // Il2CppName: GetComponentCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRRenderModels::*)(::Il2CppString*)>(&CVRRenderModels::GetComponentCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRRenderModels::*)(::Il2CppString*)>(&OVR::OpenVR::CVRRenderModels::GetComponentCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "GetComponentCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRRenderModels*), "GetComponentCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CVRRenderModels::GetComponentName
+// Writing MetadataGetter for method: OVR::OpenVR::CVRRenderModels::GetComponentName
 // Il2CppName: GetComponentName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRRenderModels::*)(::Il2CppString*, uint, System::Text::StringBuilder*, uint)>(&CVRRenderModels::GetComponentName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRRenderModels::*)(::Il2CppString*, uint, System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVRRenderModels::GetComponentName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "GetComponentName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRRenderModels*), "GetComponentName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: CVRRenderModels::GetComponentButtonMask
+// Writing MetadataGetter for method: OVR::OpenVR::CVRRenderModels::GetComponentButtonMask
 // Il2CppName: GetComponentButtonMask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (CVRRenderModels::*)(::Il2CppString*, ::Il2CppString*)>(&CVRRenderModels::GetComponentButtonMask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (OVR::OpenVR::CVRRenderModels::*)(::Il2CppString*, ::Il2CppString*)>(&OVR::OpenVR::CVRRenderModels::GetComponentButtonMask)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "GetComponentButtonMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRRenderModels*), "GetComponentButtonMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CVRRenderModels::GetComponentRenderModelName
+// Writing MetadataGetter for method: OVR::OpenVR::CVRRenderModels::GetComponentRenderModelName
 // Il2CppName: GetComponentRenderModelName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRRenderModels::*)(::Il2CppString*, ::Il2CppString*, System::Text::StringBuilder*, uint)>(&CVRRenderModels::GetComponentRenderModelName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRRenderModels::*)(::Il2CppString*, ::Il2CppString*, System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVRRenderModels::GetComponentRenderModelName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "GetComponentRenderModelName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRRenderModels*), "GetComponentRenderModelName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: CVRRenderModels::GetComponentStateForDevicePath
+// Writing MetadataGetter for method: OVR::OpenVR::CVRRenderModels::GetComponentStateForDevicePath
 // Il2CppName: GetComponentStateForDevicePath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRRenderModels::*)(::Il2CppString*, ::Il2CppString*, uint64_t, OVR::OpenVR::RenderModel_ControllerMode_State_t&, OVR::OpenVR::RenderModel_ComponentState_t&)>(&CVRRenderModels::GetComponentStateForDevicePath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRRenderModels::*)(::Il2CppString*, ::Il2CppString*, uint64_t, OVR::OpenVR::RenderModel_ControllerMode_State_t&, OVR::OpenVR::RenderModel_ComponentState_t&)>(&OVR::OpenVR::CVRRenderModels::GetComponentStateForDevicePath)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "GetComponentStateForDevicePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::RenderModel_ControllerMode_State_t&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::RenderModel_ComponentState_t&>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRRenderModels*), "GetComponentStateForDevicePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::RenderModel_ControllerMode_State_t&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::RenderModel_ComponentState_t&>()});
   }
 };
-// Writing MetadataGetter for method: CVRRenderModels::GetComponentState
+// Writing MetadataGetter for method: OVR::OpenVR::CVRRenderModels::GetComponentState
 // Il2CppName: GetComponentState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRRenderModels::*)(::Il2CppString*, ::Il2CppString*, OVR::OpenVR::VRControllerState_t&, OVR::OpenVR::RenderModel_ControllerMode_State_t&, OVR::OpenVR::RenderModel_ComponentState_t&)>(&CVRRenderModels::GetComponentState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRRenderModels::*)(::Il2CppString*, ::Il2CppString*, OVR::OpenVR::VRControllerState_t&, OVR::OpenVR::RenderModel_ControllerMode_State_t&, OVR::OpenVR::RenderModel_ComponentState_t&)>(&OVR::OpenVR::CVRRenderModels::GetComponentState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "GetComponentState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VRControllerState_t&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::RenderModel_ControllerMode_State_t&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::RenderModel_ComponentState_t&>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRRenderModels*), "GetComponentState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::VRControllerState_t&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::RenderModel_ControllerMode_State_t&>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::RenderModel_ComponentState_t&>()});
   }
 };
-// Writing MetadataGetter for method: CVRRenderModels::RenderModelHasComponent
+// Writing MetadataGetter for method: OVR::OpenVR::CVRRenderModels::RenderModelHasComponent
 // Il2CppName: RenderModelHasComponent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (CVRRenderModels::*)(::Il2CppString*, ::Il2CppString*)>(&CVRRenderModels::RenderModelHasComponent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRRenderModels::*)(::Il2CppString*, ::Il2CppString*)>(&OVR::OpenVR::CVRRenderModels::RenderModelHasComponent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "RenderModelHasComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRRenderModels*), "RenderModelHasComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CVRRenderModels::GetRenderModelThumbnailURL
+// Writing MetadataGetter for method: OVR::OpenVR::CVRRenderModels::GetRenderModelThumbnailURL
 // Il2CppName: GetRenderModelThumbnailURL
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRRenderModels::*)(::Il2CppString*, System::Text::StringBuilder*, uint, OVR::OpenVR::EVRRenderModelError&)>(&CVRRenderModels::GetRenderModelThumbnailURL)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRRenderModels::*)(::Il2CppString*, System::Text::StringBuilder*, uint, OVR::OpenVR::EVRRenderModelError&)>(&OVR::OpenVR::CVRRenderModels::GetRenderModelThumbnailURL)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "GetRenderModelThumbnailURL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRRenderModelError&>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRRenderModels*), "GetRenderModelThumbnailURL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRRenderModelError&>()});
   }
 };
-// Writing MetadataGetter for method: CVRRenderModels::GetRenderModelOriginalPath
+// Writing MetadataGetter for method: OVR::OpenVR::CVRRenderModels::GetRenderModelOriginalPath
 // Il2CppName: GetRenderModelOriginalPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (CVRRenderModels::*)(::Il2CppString*, System::Text::StringBuilder*, uint, OVR::OpenVR::EVRRenderModelError&)>(&CVRRenderModels::GetRenderModelOriginalPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRRenderModels::*)(::Il2CppString*, System::Text::StringBuilder*, uint, OVR::OpenVR::EVRRenderModelError&)>(&OVR::OpenVR::CVRRenderModels::GetRenderModelOriginalPath)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "GetRenderModelOriginalPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRRenderModelError&>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRRenderModels*), "GetRenderModelOriginalPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRRenderModelError&>()});
   }
 };
-// Writing MetadataGetter for method: CVRRenderModels::GetRenderModelErrorNameFromEnum
+// Writing MetadataGetter for method: OVR::OpenVR::CVRRenderModels::GetRenderModelErrorNameFromEnum
 // Il2CppName: GetRenderModelErrorNameFromEnum
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CVRRenderModels::*)(OVR::OpenVR::EVRRenderModelError)>(&CVRRenderModels::GetRenderModelErrorNameFromEnum)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OVR::OpenVR::CVRRenderModels::*)(OVR::OpenVR::EVRRenderModelError)>(&OVR::OpenVR::CVRRenderModels::GetRenderModelErrorNameFromEnum)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CVRRenderModels*), "GetRenderModelErrorNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRRenderModelError>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRRenderModels*), "GetRenderModelErrorNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRRenderModelError>()});
   }
 };

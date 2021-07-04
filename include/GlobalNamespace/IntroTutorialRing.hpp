@@ -184,105 +184,105 @@ namespace GlobalNamespace {
   static_assert(sizeof(IntroTutorialRing) == 0x69);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IntroTutorialRing*, "", "IntroTutorialRing");
-// Writing MetadataGetter for method: IntroTutorialRing::set_alpha
+// Writing MetadataGetter for method: GlobalNamespace::IntroTutorialRing::set_alpha
 // Il2CppName: set_alpha
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialRing::*)(float)>(&IntroTutorialRing::set_alpha)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntroTutorialRing::*)(float)>(&GlobalNamespace::IntroTutorialRing::set_alpha)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntroTutorialRing*), "set_alpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialRing*), "set_alpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: IntroTutorialRing::get_fullyActivated
+// Writing MetadataGetter for method: GlobalNamespace::IntroTutorialRing::get_fullyActivated
 // Il2CppName: get_fullyActivated
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (IntroTutorialRing::*)()>(&IntroTutorialRing::get_fullyActivated)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::IntroTutorialRing::*)()>(&GlobalNamespace::IntroTutorialRing::get_fullyActivated)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntroTutorialRing*), "get_fullyActivated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialRing*), "get_fullyActivated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IntroTutorialRing::get_saberType
+// Writing MetadataGetter for method: GlobalNamespace::IntroTutorialRing::get_saberType
 // Il2CppName: get_saberType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SaberType (IntroTutorialRing::*)()>(&IntroTutorialRing::get_saberType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SaberType (GlobalNamespace::IntroTutorialRing::*)()>(&GlobalNamespace::IntroTutorialRing::get_saberType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntroTutorialRing*), "get_saberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialRing*), "get_saberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IntroTutorialRing::set_saberType
+// Writing MetadataGetter for method: GlobalNamespace::IntroTutorialRing::set_saberType
 // Il2CppName: set_saberType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialRing::*)(GlobalNamespace::SaberType)>(&IntroTutorialRing::set_saberType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntroTutorialRing::*)(GlobalNamespace::SaberType)>(&GlobalNamespace::IntroTutorialRing::set_saberType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntroTutorialRing*), "set_saberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SaberType>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialRing*), "set_saberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SaberType>()});
   }
 };
-// Writing MetadataGetter for method: IntroTutorialRing::Start
+// Writing MetadataGetter for method: GlobalNamespace::IntroTutorialRing::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialRing::*)()>(&IntroTutorialRing::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntroTutorialRing::*)()>(&GlobalNamespace::IntroTutorialRing::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntroTutorialRing*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialRing*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IntroTutorialRing::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::IntroTutorialRing::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialRing::*)()>(&IntroTutorialRing::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntroTutorialRing::*)()>(&GlobalNamespace::IntroTutorialRing::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntroTutorialRing*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialRing*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IntroTutorialRing::Update
+// Writing MetadataGetter for method: GlobalNamespace::IntroTutorialRing::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialRing::*)()>(&IntroTutorialRing::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntroTutorialRing::*)()>(&GlobalNamespace::IntroTutorialRing::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntroTutorialRing*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialRing*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: IntroTutorialRing::SetProgressImagesfillAmount
+// Writing MetadataGetter for method: GlobalNamespace::IntroTutorialRing::SetProgressImagesfillAmount
 // Il2CppName: SetProgressImagesfillAmount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialRing::*)(float)>(&IntroTutorialRing::SetProgressImagesfillAmount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntroTutorialRing::*)(float)>(&GlobalNamespace::IntroTutorialRing::SetProgressImagesfillAmount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntroTutorialRing*), "SetProgressImagesfillAmount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialRing*), "SetProgressImagesfillAmount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: IntroTutorialRing::OnTriggerEnter
+// Writing MetadataGetter for method: GlobalNamespace::IntroTutorialRing::OnTriggerEnter
 // Il2CppName: OnTriggerEnter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialRing::*)(UnityEngine::Collider*)>(&IntroTutorialRing::OnTriggerEnter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntroTutorialRing::*)(UnityEngine::Collider*)>(&GlobalNamespace::IntroTutorialRing::OnTriggerEnter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntroTutorialRing*), "OnTriggerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Collider*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialRing*), "OnTriggerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Collider*>()});
   }
 };
-// Writing MetadataGetter for method: IntroTutorialRing::OnTriggerExit
+// Writing MetadataGetter for method: GlobalNamespace::IntroTutorialRing::OnTriggerExit
 // Il2CppName: OnTriggerExit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialRing::*)(UnityEngine::Collider*)>(&IntroTutorialRing::OnTriggerExit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntroTutorialRing::*)(UnityEngine::Collider*)>(&GlobalNamespace::IntroTutorialRing::OnTriggerExit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntroTutorialRing*), "OnTriggerExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Collider*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialRing*), "OnTriggerExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Collider*>()});
   }
 };
-// Writing MetadataGetter for method: IntroTutorialRing::OnTriggerStay
+// Writing MetadataGetter for method: GlobalNamespace::IntroTutorialRing::OnTriggerStay
 // Il2CppName: OnTriggerStay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialRing::*)(UnityEngine::Collider*)>(&IntroTutorialRing::OnTriggerStay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntroTutorialRing::*)(UnityEngine::Collider*)>(&GlobalNamespace::IntroTutorialRing::OnTriggerStay)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntroTutorialRing*), "OnTriggerStay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Collider*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialRing*), "OnTriggerStay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Collider*>()});
   }
 };
-// Writing MetadataGetter for method: IntroTutorialRing::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::IntroTutorialRing::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialRing::*)()>(&IntroTutorialRing::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntroTutorialRing::*)()>(&GlobalNamespace::IntroTutorialRing::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntroTutorialRing*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialRing*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IntroTutorialRing::*)()>(&IntroTutorialRing::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntroTutorialRing::*)()>(&GlobalNamespace::IntroTutorialRing::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IntroTutorialRing*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialRing*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

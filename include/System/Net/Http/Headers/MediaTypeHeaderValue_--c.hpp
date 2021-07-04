@@ -61,33 +61,33 @@ namespace System::Net::Http::Headers {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::MediaTypeHeaderValue::$$c*, "System.Net.Http.Headers", "MediaTypeHeaderValue/<>c");
-// Writing MetadataGetter for method: MediaTypeHeaderValue::$$c::_cctor
+// Writing MetadataGetter for method: System::Net::Http::Headers::MediaTypeHeaderValue::$$c::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&MediaTypeHeaderValue::$$c::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Net::Http::Headers::MediaTypeHeaderValue::$$c::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MediaTypeHeaderValue::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::MediaTypeHeaderValue::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MediaTypeHeaderValue::$$c::$get_CharSet$b__6_0
+// Writing MetadataGetter for method: System::Net::Http::Headers::MediaTypeHeaderValue::$$c::$get_CharSet$b__6_0
 // Il2CppName: <get_CharSet>b__6_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MediaTypeHeaderValue::$$c::*)(System::Net::Http::Headers::NameValueHeaderValue*)>(&MediaTypeHeaderValue::$$c::$get_CharSet$b__6_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::MediaTypeHeaderValue::$$c::*)(System::Net::Http::Headers::NameValueHeaderValue*)>(&System::Net::Http::Headers::MediaTypeHeaderValue::$$c::$get_CharSet$b__6_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MediaTypeHeaderValue::$$c*), "<get_CharSet>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::NameValueHeaderValue*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::MediaTypeHeaderValue::$$c*), "<get_CharSet>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::NameValueHeaderValue*>()});
   }
 };
-// Writing MetadataGetter for method: MediaTypeHeaderValue::$$c::New_ctor
+// Writing MetadataGetter for method: System::Net::Http::Headers::MediaTypeHeaderValue::$$c::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MediaTypeHeaderValue::$$c::*)()>(&MediaTypeHeaderValue::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::MediaTypeHeaderValue::$$c::*)()>(&System::Net::Http::Headers::MediaTypeHeaderValue::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MediaTypeHeaderValue::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::MediaTypeHeaderValue::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MediaTypeHeaderValue::$$c::*)()>(&MediaTypeHeaderValue::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::MediaTypeHeaderValue::$$c::*)()>(&System::Net::Http::Headers::MediaTypeHeaderValue::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MediaTypeHeaderValue::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::MediaTypeHeaderValue::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

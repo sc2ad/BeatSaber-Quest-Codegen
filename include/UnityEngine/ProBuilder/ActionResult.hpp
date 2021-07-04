@@ -134,89 +134,89 @@ namespace UnityEngine::ProBuilder {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ActionResult*, "UnityEngine.ProBuilder", "ActionResult");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ActionResult::Status, "UnityEngine.ProBuilder", "ActionResult/Status");
-// Writing MetadataGetter for method: ActionResult::get_status
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ActionResult::get_status
 // Il2CppName: get_status
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ActionResult::Status (ActionResult::*)()>(&ActionResult::get_status)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ActionResult::Status (UnityEngine::ProBuilder::ActionResult::*)()>(&UnityEngine::ProBuilder::ActionResult::get_status)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ActionResult*), "get_status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ActionResult*), "get_status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ActionResult::set_status
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ActionResult::set_status
 // Il2CppName: set_status
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActionResult::*)(UnityEngine::ProBuilder::ActionResult::Status)>(&ActionResult::set_status)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::ActionResult::*)(UnityEngine::ProBuilder::ActionResult::Status)>(&UnityEngine::ProBuilder::ActionResult::set_status)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ActionResult*), "set_status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ActionResult::Status>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ActionResult*), "set_status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ActionResult::Status>()});
   }
 };
-// Writing MetadataGetter for method: ActionResult::get_notification
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ActionResult::get_notification
 // Il2CppName: get_notification
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ActionResult::*)()>(&ActionResult::get_notification)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ProBuilder::ActionResult::*)()>(&UnityEngine::ProBuilder::ActionResult::get_notification)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ActionResult*), "get_notification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ActionResult*), "get_notification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ActionResult::set_notification
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ActionResult::set_notification
 // Il2CppName: set_notification
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActionResult::*)(::Il2CppString*)>(&ActionResult::set_notification)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::ActionResult::*)(::Il2CppString*)>(&UnityEngine::ProBuilder::ActionResult::set_notification)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ActionResult*), "set_notification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ActionResult*), "set_notification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: ActionResult::New_ctor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ActionResult::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActionResult::*)(UnityEngine::ProBuilder::ActionResult::Status, ::Il2CppString*)>(&ActionResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::ActionResult::*)(UnityEngine::ProBuilder::ActionResult::Status, ::Il2CppString*)>(&UnityEngine::ProBuilder::ActionResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ActionResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ActionResult::Status>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ActionResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ActionResult::Status>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ActionResult::*)(UnityEngine::ProBuilder::ActionResult::Status, ::Il2CppString*)>(&ActionResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::ActionResult::*)(UnityEngine::ProBuilder::ActionResult::Status, ::Il2CppString*)>(&UnityEngine::ProBuilder::ActionResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ActionResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ActionResult::Status>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ActionResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ActionResult::Status>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: ActionResult::ToBool
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ActionResult::ToBool
 // Il2CppName: ToBool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ActionResult::*)()>(&ActionResult::ToBool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::ActionResult::*)()>(&UnityEngine::ProBuilder::ActionResult::ToBool)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ActionResult*), "ToBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ActionResult*), "ToBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ActionResult::FromBool
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ActionResult::FromBool
 // Il2CppName: FromBool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool)>(&ActionResult::FromBool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool)>(&UnityEngine::ProBuilder::ActionResult::FromBool)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ActionResult*), "FromBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ActionResult*), "FromBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ActionResult::get_Success
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ActionResult::get_Success
 // Il2CppName: get_Success
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ActionResult* (*)()>(&ActionResult::get_Success)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ActionResult* (*)()>(&UnityEngine::ProBuilder::ActionResult::get_Success)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ActionResult*), "get_Success", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ActionResult*), "get_Success", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ActionResult::get_NoSelection
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ActionResult::get_NoSelection
 // Il2CppName: get_NoSelection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ActionResult* (*)()>(&ActionResult::get_NoSelection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ActionResult* (*)()>(&UnityEngine::ProBuilder::ActionResult::get_NoSelection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ActionResult*), "get_NoSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ActionResult*), "get_NoSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ActionResult::get_UserCanceled
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::ActionResult::get_UserCanceled
 // Il2CppName: get_UserCanceled
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ActionResult* (*)()>(&ActionResult::get_UserCanceled)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ActionResult* (*)()>(&UnityEngine::ProBuilder::ActionResult::get_UserCanceled)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ActionResult*), "get_UserCanceled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ActionResult*), "get_UserCanceled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -62,41 +62,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(OculusLevelProductsModelSO::LevelProductData) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*, "", "OculusLevelProductsModelSO/LevelProductData");
-// Writing MetadataGetter for method: OculusLevelProductsModelSO::LevelProductData::get_sku
+// Writing MetadataGetter for method: GlobalNamespace::OculusLevelProductsModelSO::LevelProductData::get_sku
 // Il2CppName: get_sku
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OculusLevelProductsModelSO::LevelProductData::*)()>(&OculusLevelProductsModelSO::LevelProductData::get_sku)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::OculusLevelProductsModelSO::LevelProductData::*)()>(&GlobalNamespace::OculusLevelProductsModelSO::LevelProductData::get_sku)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusLevelProductsModelSO::LevelProductData*), "get_sku", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*), "get_sku", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OculusLevelProductsModelSO::LevelProductData::get_levelId
+// Writing MetadataGetter for method: GlobalNamespace::OculusLevelProductsModelSO::LevelProductData::get_levelId
 // Il2CppName: get_levelId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OculusLevelProductsModelSO::LevelProductData::*)()>(&OculusLevelProductsModelSO::LevelProductData::get_levelId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::OculusLevelProductsModelSO::LevelProductData::*)()>(&GlobalNamespace::OculusLevelProductsModelSO::LevelProductData::get_levelId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusLevelProductsModelSO::LevelProductData*), "get_levelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*), "get_levelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OculusLevelProductsModelSO::LevelProductData::get_assetFile
+// Writing MetadataGetter for method: GlobalNamespace::OculusLevelProductsModelSO::LevelProductData::get_assetFile
 // Il2CppName: get_assetFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OculusLevelProductsModelSO::LevelProductData::*)()>(&OculusLevelProductsModelSO::LevelProductData::get_assetFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::OculusLevelProductsModelSO::LevelProductData::*)()>(&GlobalNamespace::OculusLevelProductsModelSO::LevelProductData::get_assetFile)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusLevelProductsModelSO::LevelProductData*), "get_assetFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*), "get_assetFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: OculusLevelProductsModelSO::LevelProductData::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::OculusLevelProductsModelSO::LevelProductData::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusLevelProductsModelSO::LevelProductData::*)()>(&OculusLevelProductsModelSO::LevelProductData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusLevelProductsModelSO::LevelProductData::*)()>(&GlobalNamespace::OculusLevelProductsModelSO::LevelProductData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusLevelProductsModelSO::LevelProductData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OculusLevelProductsModelSO::LevelProductData::*)()>(&OculusLevelProductsModelSO::LevelProductData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusLevelProductsModelSO::LevelProductData::*)()>(&GlobalNamespace::OculusLevelProductsModelSO::LevelProductData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OculusLevelProductsModelSO::LevelProductData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusLevelProductsModelSO::LevelProductData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

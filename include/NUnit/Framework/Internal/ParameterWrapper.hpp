@@ -103,63 +103,63 @@ namespace NUnit::Framework::Internal {
   static_assert(sizeof(ParameterWrapper) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::ParameterWrapper*, "NUnit.Framework.Internal", "ParameterWrapper");
-// Writing MetadataGetter for method: ParameterWrapper::New_ctor
+// Writing MetadataGetter for method: NUnit::Framework::Internal::ParameterWrapper::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParameterWrapper::*)(NUnit::Framework::Interfaces::IMethodInfo*, System::Reflection::ParameterInfo*)>(&ParameterWrapper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::ParameterWrapper::*)(NUnit::Framework::Interfaces::IMethodInfo*, System::Reflection::ParameterInfo*)>(&NUnit::Framework::Internal::ParameterWrapper::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParameterWrapper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::IMethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::ParameterInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ParameterWrapper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::IMethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::ParameterInfo*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParameterWrapper::*)(NUnit::Framework::Interfaces::IMethodInfo*, System::Reflection::ParameterInfo*)>(&ParameterWrapper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::ParameterWrapper::*)(NUnit::Framework::Interfaces::IMethodInfo*, System::Reflection::ParameterInfo*)>(&NUnit::Framework::Internal::ParameterWrapper::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParameterWrapper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::IMethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::ParameterInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ParameterWrapper*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::IMethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::ParameterInfo*>()});
   }
 };
-// Writing MetadataGetter for method: ParameterWrapper::get_IsOptional
+// Writing MetadataGetter for method: NUnit::Framework::Internal::ParameterWrapper::get_IsOptional
 // Il2CppName: get_IsOptional
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ParameterWrapper::*)()>(&ParameterWrapper::get_IsOptional)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Internal::ParameterWrapper::*)()>(&NUnit::Framework::Internal::ParameterWrapper::get_IsOptional)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParameterWrapper*), "get_IsOptional", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ParameterWrapper*), "get_IsOptional", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ParameterWrapper::set_Method
+// Writing MetadataGetter for method: NUnit::Framework::Internal::ParameterWrapper::set_Method
 // Il2CppName: set_Method
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParameterWrapper::*)(NUnit::Framework::Interfaces::IMethodInfo*)>(&ParameterWrapper::set_Method)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::ParameterWrapper::*)(NUnit::Framework::Interfaces::IMethodInfo*)>(&NUnit::Framework::Internal::ParameterWrapper::set_Method)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParameterWrapper*), "set_Method", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::IMethodInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ParameterWrapper*), "set_Method", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::IMethodInfo*>()});
   }
 };
-// Writing MetadataGetter for method: ParameterWrapper::get_ParameterInfo
+// Writing MetadataGetter for method: NUnit::Framework::Internal::ParameterWrapper::get_ParameterInfo
 // Il2CppName: get_ParameterInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::ParameterInfo* (ParameterWrapper::*)()>(&ParameterWrapper::get_ParameterInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::ParameterInfo* (NUnit::Framework::Internal::ParameterWrapper::*)()>(&NUnit::Framework::Internal::ParameterWrapper::get_ParameterInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParameterWrapper*), "get_ParameterInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ParameterWrapper*), "get_ParameterInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ParameterWrapper::set_ParameterInfo
+// Writing MetadataGetter for method: NUnit::Framework::Internal::ParameterWrapper::set_ParameterInfo
 // Il2CppName: set_ParameterInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParameterWrapper::*)(System::Reflection::ParameterInfo*)>(&ParameterWrapper::set_ParameterInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::ParameterWrapper::*)(System::Reflection::ParameterInfo*)>(&NUnit::Framework::Internal::ParameterWrapper::set_ParameterInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParameterWrapper*), "set_ParameterInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ParameterInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ParameterWrapper*), "set_ParameterInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ParameterInfo*>()});
   }
 };
-// Writing MetadataGetter for method: ParameterWrapper::get_ParameterType
+// Writing MetadataGetter for method: NUnit::Framework::Internal::ParameterWrapper::get_ParameterType
 // Il2CppName: get_ParameterType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (ParameterWrapper::*)()>(&ParameterWrapper::get_ParameterType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (NUnit::Framework::Internal::ParameterWrapper::*)()>(&NUnit::Framework::Internal::ParameterWrapper::get_ParameterType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParameterWrapper*), "get_ParameterType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ParameterWrapper*), "get_ParameterType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ParameterWrapper::GetCustomAttributes
+// Writing MetadataGetter for method: NUnit::Framework::Internal::ParameterWrapper::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ParameterWrapper::IsDefined
+// Writing MetadataGetter for method: NUnit::Framework::Internal::ParameterWrapper::IsDefined
 // Il2CppName: IsDefined
 // Cannot write MetadataGetter for generic methods!

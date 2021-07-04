@@ -72,49 +72,49 @@ namespace UnityEngine::UI {
   static_assert(sizeof(ClipperRegistry) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ClipperRegistry*, "UnityEngine.UI", "ClipperRegistry");
-// Writing MetadataGetter for method: ClipperRegistry::get_instance
+// Writing MetadataGetter for method: UnityEngine::UI::ClipperRegistry::get_instance
 // Il2CppName: get_instance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::ClipperRegistry* (*)()>(&ClipperRegistry::get_instance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::ClipperRegistry* (*)()>(&UnityEngine::UI::ClipperRegistry::get_instance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ClipperRegistry*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ClipperRegistry*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ClipperRegistry::Cull
+// Writing MetadataGetter for method: UnityEngine::UI::ClipperRegistry::Cull
 // Il2CppName: Cull
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClipperRegistry::*)()>(&ClipperRegistry::Cull)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ClipperRegistry::*)()>(&UnityEngine::UI::ClipperRegistry::Cull)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ClipperRegistry*), "Cull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ClipperRegistry*), "Cull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ClipperRegistry::Register
+// Writing MetadataGetter for method: UnityEngine::UI::ClipperRegistry::Register
 // Il2CppName: Register
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::IClipper*)>(&ClipperRegistry::Register)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::IClipper*)>(&UnityEngine::UI::ClipperRegistry::Register)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ClipperRegistry*), "Register", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::IClipper*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ClipperRegistry*), "Register", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::IClipper*>()});
   }
 };
-// Writing MetadataGetter for method: ClipperRegistry::Unregister
+// Writing MetadataGetter for method: UnityEngine::UI::ClipperRegistry::Unregister
 // Il2CppName: Unregister
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::IClipper*)>(&ClipperRegistry::Unregister)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::IClipper*)>(&UnityEngine::UI::ClipperRegistry::Unregister)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ClipperRegistry*), "Unregister", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::IClipper*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ClipperRegistry*), "Unregister", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::IClipper*>()});
   }
 };
-// Writing MetadataGetter for method: ClipperRegistry::New_ctor
+// Writing MetadataGetter for method: UnityEngine::UI::ClipperRegistry::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClipperRegistry::*)()>(&ClipperRegistry::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ClipperRegistry::*)()>(&UnityEngine::UI::ClipperRegistry::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ClipperRegistry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ClipperRegistry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ClipperRegistry::*)()>(&ClipperRegistry::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ClipperRegistry::*)()>(&UnityEngine::UI::ClipperRegistry::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ClipperRegistry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ClipperRegistry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

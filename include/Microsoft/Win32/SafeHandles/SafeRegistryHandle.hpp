@@ -38,25 +38,25 @@ namespace Microsoft::Win32::SafeHandles {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::SafeHandles::SafeRegistryHandle*, "Microsoft.Win32.SafeHandles", "SafeRegistryHandle");
-// Writing MetadataGetter for method: SafeRegistryHandle::New_ctor
+// Writing MetadataGetter for method: Microsoft::Win32::SafeHandles::SafeRegistryHandle::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeRegistryHandle::*)(System::IntPtr, bool)>(&SafeRegistryHandle::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Microsoft::Win32::SafeHandles::SafeRegistryHandle::*)(System::IntPtr, bool)>(&Microsoft::Win32::SafeHandles::SafeRegistryHandle::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SafeRegistryHandle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::SafeHandles::SafeRegistryHandle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SafeRegistryHandle::*)(System::IntPtr, bool)>(&SafeRegistryHandle::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Microsoft::Win32::SafeHandles::SafeRegistryHandle::*)(System::IntPtr, bool)>(&Microsoft::Win32::SafeHandles::SafeRegistryHandle::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SafeRegistryHandle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::SafeHandles::SafeRegistryHandle*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: SafeRegistryHandle::ReleaseHandle
+// Writing MetadataGetter for method: Microsoft::Win32::SafeHandles::SafeRegistryHandle::ReleaseHandle
 // Il2CppName: ReleaseHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (SafeRegistryHandle::*)()>(&SafeRegistryHandle::ReleaseHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Microsoft::Win32::SafeHandles::SafeRegistryHandle::*)()>(&Microsoft::Win32::SafeHandles::SafeRegistryHandle::ReleaseHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SafeRegistryHandle*), "ReleaseHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::SafeHandles::SafeRegistryHandle*), "ReleaseHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

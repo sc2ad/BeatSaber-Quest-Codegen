@@ -74,63 +74,63 @@ namespace Zenject {
   static_assert(sizeof(ValidationMarker) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ValidationMarker*, "Zenject", "ValidationMarker");
-// Writing MetadataGetter for method: ValidationMarker::New_ctor
+// Writing MetadataGetter for method: Zenject::ValidationMarker::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ValidationMarker::*)(System::Type*, bool)>(&ValidationMarker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ValidationMarker::*)(System::Type*, bool)>(&Zenject::ValidationMarker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ValidationMarker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ValidationMarker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ValidationMarker::*)(System::Type*, bool)>(&ValidationMarker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ValidationMarker::*)(System::Type*, bool)>(&Zenject::ValidationMarker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ValidationMarker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ValidationMarker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ValidationMarker::New_ctor
+// Writing MetadataGetter for method: Zenject::ValidationMarker::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ValidationMarker::*)(System::Type*)>(&ValidationMarker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ValidationMarker::*)(System::Type*)>(&Zenject::ValidationMarker::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ValidationMarker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ValidationMarker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ValidationMarker::*)(System::Type*)>(&ValidationMarker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ValidationMarker::*)(System::Type*)>(&Zenject::ValidationMarker::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ValidationMarker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ValidationMarker*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: ValidationMarker::get_InstantiateFailed
+// Writing MetadataGetter for method: Zenject::ValidationMarker::get_InstantiateFailed
 // Il2CppName: get_InstantiateFailed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ValidationMarker::*)()>(&ValidationMarker::get_InstantiateFailed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::ValidationMarker::*)()>(&Zenject::ValidationMarker::get_InstantiateFailed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ValidationMarker*), "get_InstantiateFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ValidationMarker*), "get_InstantiateFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ValidationMarker::set_InstantiateFailed
+// Writing MetadataGetter for method: Zenject::ValidationMarker::set_InstantiateFailed
 // Il2CppName: set_InstantiateFailed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ValidationMarker::*)(bool)>(&ValidationMarker::set_InstantiateFailed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ValidationMarker::*)(bool)>(&Zenject::ValidationMarker::set_InstantiateFailed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ValidationMarker*), "set_InstantiateFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ValidationMarker*), "set_InstantiateFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ValidationMarker::get_MarkedType
+// Writing MetadataGetter for method: Zenject::ValidationMarker::get_MarkedType
 // Il2CppName: get_MarkedType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (ValidationMarker::*)()>(&ValidationMarker::get_MarkedType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Zenject::ValidationMarker::*)()>(&Zenject::ValidationMarker::get_MarkedType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ValidationMarker*), "get_MarkedType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ValidationMarker*), "get_MarkedType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ValidationMarker::set_MarkedType
+// Writing MetadataGetter for method: Zenject::ValidationMarker::set_MarkedType
 // Il2CppName: set_MarkedType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ValidationMarker::*)(System::Type*)>(&ValidationMarker::set_MarkedType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ValidationMarker::*)(System::Type*)>(&Zenject::ValidationMarker::set_MarkedType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ValidationMarker*), "set_MarkedType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ValidationMarker*), "set_MarkedType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };

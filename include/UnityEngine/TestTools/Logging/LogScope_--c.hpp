@@ -61,33 +61,33 @@ namespace UnityEngine::TestTools::Logging {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Logging::LogScope::$$c*, "UnityEngine.TestTools.Logging", "LogScope/<>c");
-// Writing MetadataGetter for method: LogScope::$$c::_cctor
+// Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::$$c::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&LogScope::$$c::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::TestTools::Logging::LogScope::$$c::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LogScope::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LogScope::$$c::$NoUnexpectedReceived$b__53_0
+// Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::$$c::$NoUnexpectedReceived$b__53_0
 // Il2CppName: <NoUnexpectedReceived>b__53_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LogScope::$$c::*)(UnityEngine::TestTools::Logging::LogEvent*)>(&LogScope::$$c::$NoUnexpectedReceived$b__53_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::Logging::LogScope::$$c::*)(UnityEngine::TestTools::Logging::LogEvent*)>(&UnityEngine::TestTools::Logging::LogScope::$$c::$NoUnexpectedReceived$b__53_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LogScope::$$c*), "<NoUnexpectedReceived>b__53_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::Logging::LogEvent*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope::$$c*), "<NoUnexpectedReceived>b__53_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::Logging::LogEvent*>()});
   }
 };
-// Writing MetadataGetter for method: LogScope::$$c::New_ctor
+// Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::$$c::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LogScope::$$c::*)()>(&LogScope::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::$$c::*)()>(&UnityEngine::TestTools::Logging::LogScope::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LogScope::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LogScope::$$c::*)()>(&LogScope::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::$$c::*)()>(&UnityEngine::TestTools::Logging::LogScope::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LogScope::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

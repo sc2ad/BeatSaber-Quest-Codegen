@@ -159,81 +159,81 @@ namespace MasterServer {
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::AuthenticateUserResponse*, "MasterServer", "AuthenticateUserResponse");
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::AuthenticateUserResponse::Result, "MasterServer", "AuthenticateUserResponse/Result");
-// Writing MetadataGetter for method: AuthenticateUserResponse::get_pool
+// Writing MetadataGetter for method: MasterServer::AuthenticateUserResponse::get_pool
 // Il2CppName: get_pool
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::AuthenticateUserResponse*>* (*)()>(&AuthenticateUserResponse::get_pool)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::AuthenticateUserResponse*>* (*)()>(&MasterServer::AuthenticateUserResponse::get_pool)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticateUserResponse*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::AuthenticateUserResponse*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AuthenticateUserResponse::get_isAuthenticated
+// Writing MetadataGetter for method: MasterServer::AuthenticateUserResponse::get_isAuthenticated
 // Il2CppName: get_isAuthenticated
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (AuthenticateUserResponse::*)()>(&AuthenticateUserResponse::get_isAuthenticated)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::AuthenticateUserResponse::*)()>(&MasterServer::AuthenticateUserResponse::get_isAuthenticated)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticateUserResponse*), "get_isAuthenticated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::AuthenticateUserResponse*), "get_isAuthenticated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AuthenticateUserResponse::Init
+// Writing MetadataGetter for method: MasterServer::AuthenticateUserResponse::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::AuthenticateUserResponse* (AuthenticateUserResponse::*)(MasterServer::AuthenticateUserResponse::Result)>(&AuthenticateUserResponse::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::AuthenticateUserResponse* (MasterServer::AuthenticateUserResponse::*)(MasterServer::AuthenticateUserResponse::Result)>(&MasterServer::AuthenticateUserResponse::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticateUserResponse*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::AuthenticateUserResponse::Result>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::AuthenticateUserResponse*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::AuthenticateUserResponse::Result>()});
   }
 };
-// Writing MetadataGetter for method: AuthenticateUserResponse::get_resultCode
+// Writing MetadataGetter for method: MasterServer::AuthenticateUserResponse::get_resultCode
 // Il2CppName: get_resultCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (AuthenticateUserResponse::*)()>(&AuthenticateUserResponse::get_resultCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (MasterServer::AuthenticateUserResponse::*)()>(&MasterServer::AuthenticateUserResponse::get_resultCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticateUserResponse*), "get_resultCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::AuthenticateUserResponse*), "get_resultCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AuthenticateUserResponse::get_resultCodeString
+// Writing MetadataGetter for method: MasterServer::AuthenticateUserResponse::get_resultCodeString
 // Il2CppName: get_resultCodeString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (AuthenticateUserResponse::*)()>(&AuthenticateUserResponse::get_resultCodeString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MasterServer::AuthenticateUserResponse::*)()>(&MasterServer::AuthenticateUserResponse::get_resultCodeString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticateUserResponse*), "get_resultCodeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::AuthenticateUserResponse*), "get_resultCodeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AuthenticateUserResponse::Serialize
+// Writing MetadataGetter for method: MasterServer::AuthenticateUserResponse::Serialize
 // Il2CppName: Serialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AuthenticateUserResponse::*)(LiteNetLib::Utils::NetDataWriter*)>(&AuthenticateUserResponse::Serialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::AuthenticateUserResponse::*)(LiteNetLib::Utils::NetDataWriter*)>(&MasterServer::AuthenticateUserResponse::Serialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticateUserResponse*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::AuthenticateUserResponse*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
   }
 };
-// Writing MetadataGetter for method: AuthenticateUserResponse::Deserialize
+// Writing MetadataGetter for method: MasterServer::AuthenticateUserResponse::Deserialize
 // Il2CppName: Deserialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AuthenticateUserResponse::*)(LiteNetLib::Utils::NetDataReader*)>(&AuthenticateUserResponse::Deserialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::AuthenticateUserResponse::*)(LiteNetLib::Utils::NetDataReader*)>(&MasterServer::AuthenticateUserResponse::Deserialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticateUserResponse*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::AuthenticateUserResponse*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
   }
 };
-// Writing MetadataGetter for method: AuthenticateUserResponse::Release
+// Writing MetadataGetter for method: MasterServer::AuthenticateUserResponse::Release
 // Il2CppName: Release
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AuthenticateUserResponse::*)()>(&AuthenticateUserResponse::Release)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::AuthenticateUserResponse::*)()>(&MasterServer::AuthenticateUserResponse::Release)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticateUserResponse*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::AuthenticateUserResponse*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AuthenticateUserResponse::New_ctor
+// Writing MetadataGetter for method: MasterServer::AuthenticateUserResponse::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AuthenticateUserResponse::*)()>(&AuthenticateUserResponse::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::AuthenticateUserResponse::*)()>(&MasterServer::AuthenticateUserResponse::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticateUserResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::AuthenticateUserResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AuthenticateUserResponse::*)()>(&AuthenticateUserResponse::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::AuthenticateUserResponse::*)()>(&MasterServer::AuthenticateUserResponse::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AuthenticateUserResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::AuthenticateUserResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

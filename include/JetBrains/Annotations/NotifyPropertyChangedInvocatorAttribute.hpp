@@ -61,47 +61,47 @@ namespace JetBrains::Annotations {
   static_assert(sizeof(NotifyPropertyChangedInvocatorAttribute) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute*, "JetBrains.Annotations", "NotifyPropertyChangedInvocatorAttribute");
-// Writing MetadataGetter for method: NotifyPropertyChangedInvocatorAttribute::New_ctor
+// Writing MetadataGetter for method: JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NotifyPropertyChangedInvocatorAttribute::*)(::Il2CppString*)>(&NotifyPropertyChangedInvocatorAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NotifyPropertyChangedInvocatorAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NotifyPropertyChangedInvocatorAttribute::*)(::Il2CppString*)>(&NotifyPropertyChangedInvocatorAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NotifyPropertyChangedInvocatorAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: NotifyPropertyChangedInvocatorAttribute::get_ParameterName
+// Writing MetadataGetter for method: JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::get_ParameterName
 // Il2CppName: get_ParameterName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NotifyPropertyChangedInvocatorAttribute::*)()>(&NotifyPropertyChangedInvocatorAttribute::get_ParameterName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::*)()>(&JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::get_ParameterName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NotifyPropertyChangedInvocatorAttribute*), "get_ParameterName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute*), "get_ParameterName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NotifyPropertyChangedInvocatorAttribute::set_ParameterName
+// Writing MetadataGetter for method: JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::set_ParameterName
 // Il2CppName: set_ParameterName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NotifyPropertyChangedInvocatorAttribute::*)(::Il2CppString*)>(&NotifyPropertyChangedInvocatorAttribute::set_ParameterName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::set_ParameterName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NotifyPropertyChangedInvocatorAttribute*), "set_ParameterName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute*), "set_ParameterName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: NotifyPropertyChangedInvocatorAttribute::New_ctor
+// Writing MetadataGetter for method: JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NotifyPropertyChangedInvocatorAttribute::*)()>(&NotifyPropertyChangedInvocatorAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::*)()>(&JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NotifyPropertyChangedInvocatorAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NotifyPropertyChangedInvocatorAttribute::*)()>(&NotifyPropertyChangedInvocatorAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::*)()>(&JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NotifyPropertyChangedInvocatorAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

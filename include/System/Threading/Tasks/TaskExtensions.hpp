@@ -40,6 +40,6 @@ namespace System::Threading::Tasks {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskExtensions*, "System.Threading.Tasks", "TaskExtensions");
-// Writing MetadataGetter for method: TaskExtensions::Unwrap
+// Writing MetadataGetter for method: System::Threading::Tasks::TaskExtensions::Unwrap
 // Il2CppName: Unwrap
 // Cannot write MetadataGetter for generic methods!

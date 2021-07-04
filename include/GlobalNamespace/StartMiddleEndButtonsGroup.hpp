@@ -49,33 +49,33 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StartMiddleEndButtonsGroup*, "", "StartMiddleEndButtonsGroup");
-// Writing MetadataGetter for method: StartMiddleEndButtonsGroup::SetLayoutHorizontal
+// Writing MetadataGetter for method: GlobalNamespace::StartMiddleEndButtonsGroup::SetLayoutHorizontal
 // Il2CppName: SetLayoutHorizontal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StartMiddleEndButtonsGroup::*)()>(&StartMiddleEndButtonsGroup::SetLayoutHorizontal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StartMiddleEndButtonsGroup::*)()>(&GlobalNamespace::StartMiddleEndButtonsGroup::SetLayoutHorizontal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StartMiddleEndButtonsGroup*), "SetLayoutHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StartMiddleEndButtonsGroup*), "SetLayoutHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StartMiddleEndButtonsGroup::SetLayoutVertical
+// Writing MetadataGetter for method: GlobalNamespace::StartMiddleEndButtonsGroup::SetLayoutVertical
 // Il2CppName: SetLayoutVertical
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StartMiddleEndButtonsGroup::*)()>(&StartMiddleEndButtonsGroup::SetLayoutVertical)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StartMiddleEndButtonsGroup::*)()>(&GlobalNamespace::StartMiddleEndButtonsGroup::SetLayoutVertical)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StartMiddleEndButtonsGroup*), "SetLayoutVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StartMiddleEndButtonsGroup*), "SetLayoutVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: StartMiddleEndButtonsGroup::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::StartMiddleEndButtonsGroup::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StartMiddleEndButtonsGroup::*)()>(&StartMiddleEndButtonsGroup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StartMiddleEndButtonsGroup::*)()>(&GlobalNamespace::StartMiddleEndButtonsGroup::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StartMiddleEndButtonsGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StartMiddleEndButtonsGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (StartMiddleEndButtonsGroup::*)()>(&StartMiddleEndButtonsGroup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StartMiddleEndButtonsGroup::*)()>(&GlobalNamespace::StartMiddleEndButtonsGroup::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(StartMiddleEndButtonsGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StartMiddleEndButtonsGroup*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

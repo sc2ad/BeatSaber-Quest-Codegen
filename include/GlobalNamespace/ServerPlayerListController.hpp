@@ -158,137 +158,137 @@ namespace GlobalNamespace {
   static_assert(sizeof(ServerPlayerListController) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ServerPlayerListController*, "", "ServerPlayerListController");
-// Writing MetadataGetter for method: ServerPlayerListController::add_selectSuggestedBeatmapEvent
+// Writing MetadataGetter for method: GlobalNamespace::ServerPlayerListController::add_selectSuggestedBeatmapEvent
 // Il2CppName: add_selectSuggestedBeatmapEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerPlayerListController::*)(System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>*)>(&ServerPlayerListController::add_selectSuggestedBeatmapEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPlayerListController::*)(System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>*)>(&GlobalNamespace::ServerPlayerListController::add_selectSuggestedBeatmapEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerPlayerListController*), "add_selectSuggestedBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPlayerListController*), "add_selectSuggestedBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>*>()});
   }
 };
-// Writing MetadataGetter for method: ServerPlayerListController::remove_selectSuggestedBeatmapEvent
+// Writing MetadataGetter for method: GlobalNamespace::ServerPlayerListController::remove_selectSuggestedBeatmapEvent
 // Il2CppName: remove_selectSuggestedBeatmapEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerPlayerListController::*)(System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>*)>(&ServerPlayerListController::remove_selectSuggestedBeatmapEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPlayerListController::*)(System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>*)>(&GlobalNamespace::ServerPlayerListController::remove_selectSuggestedBeatmapEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerPlayerListController*), "remove_selectSuggestedBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPlayerListController*), "remove_selectSuggestedBeatmapEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty>*>()});
   }
 };
-// Writing MetadataGetter for method: ServerPlayerListController::add_selectSuggestedGameplayModifiersEvent
+// Writing MetadataGetter for method: GlobalNamespace::ServerPlayerListController::add_selectSuggestedGameplayModifiersEvent
 // Il2CppName: add_selectSuggestedGameplayModifiersEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerPlayerListController::*)(System::Action_1<GlobalNamespace::GameplayModifiers*>*)>(&ServerPlayerListController::add_selectSuggestedGameplayModifiersEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPlayerListController::*)(System::Action_1<GlobalNamespace::GameplayModifiers*>*)>(&GlobalNamespace::ServerPlayerListController::add_selectSuggestedGameplayModifiersEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerPlayerListController*), "add_selectSuggestedGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::GameplayModifiers*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPlayerListController*), "add_selectSuggestedGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::GameplayModifiers*>*>()});
   }
 };
-// Writing MetadataGetter for method: ServerPlayerListController::remove_selectSuggestedGameplayModifiersEvent
+// Writing MetadataGetter for method: GlobalNamespace::ServerPlayerListController::remove_selectSuggestedGameplayModifiersEvent
 // Il2CppName: remove_selectSuggestedGameplayModifiersEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerPlayerListController::*)(System::Action_1<GlobalNamespace::GameplayModifiers*>*)>(&ServerPlayerListController::remove_selectSuggestedGameplayModifiersEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPlayerListController::*)(System::Action_1<GlobalNamespace::GameplayModifiers*>*)>(&GlobalNamespace::ServerPlayerListController::remove_selectSuggestedGameplayModifiersEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerPlayerListController*), "remove_selectSuggestedGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::GameplayModifiers*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPlayerListController*), "remove_selectSuggestedGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::GameplayModifiers*>*>()});
   }
 };
-// Writing MetadataGetter for method: ServerPlayerListController::add_kickPlayerEvent
+// Writing MetadataGetter for method: GlobalNamespace::ServerPlayerListController::add_kickPlayerEvent
 // Il2CppName: add_kickPlayerEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerPlayerListController::*)(System::Action_1<::Il2CppString*>*)>(&ServerPlayerListController::add_kickPlayerEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPlayerListController::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::ServerPlayerListController::add_kickPlayerEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerPlayerListController*), "add_kickPlayerEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPlayerListController*), "add_kickPlayerEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: ServerPlayerListController::remove_kickPlayerEvent
+// Writing MetadataGetter for method: GlobalNamespace::ServerPlayerListController::remove_kickPlayerEvent
 // Il2CppName: remove_kickPlayerEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerPlayerListController::*)(System::Action_1<::Il2CppString*>*)>(&ServerPlayerListController::remove_kickPlayerEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPlayerListController::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::ServerPlayerListController::remove_kickPlayerEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerPlayerListController*), "remove_kickPlayerEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPlayerListController*), "remove_kickPlayerEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: ServerPlayerListController::HandleLobbyPlayersDataDidChange
+// Writing MetadataGetter for method: GlobalNamespace::ServerPlayerListController::HandleLobbyPlayersDataDidChange
 // Il2CppName: HandleLobbyPlayersDataDidChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerPlayerListController::*)(::Il2CppString*)>(&ServerPlayerListController::HandleLobbyPlayersDataDidChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPlayerListController::*)(::Il2CppString*)>(&GlobalNamespace::ServerPlayerListController::HandleLobbyPlayersDataDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerPlayerListController*), "HandleLobbyPlayersDataDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPlayerListController*), "HandleLobbyPlayersDataDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: ServerPlayerListController::HandleLobbyStateDataPlayerConnected
+// Writing MetadataGetter for method: GlobalNamespace::ServerPlayerListController::HandleLobbyStateDataPlayerConnected
 // Il2CppName: HandleLobbyStateDataPlayerConnected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerPlayerListController::*)(GlobalNamespace::IConnectedPlayer*)>(&ServerPlayerListController::HandleLobbyStateDataPlayerConnected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPlayerListController::*)(GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::ServerPlayerListController::HandleLobbyStateDataPlayerConnected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerPlayerListController*), "HandleLobbyStateDataPlayerConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPlayerListController*), "HandleLobbyStateDataPlayerConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
   }
 };
-// Writing MetadataGetter for method: ServerPlayerListController::HandleLobbyStateDataPlayerDisconnected
+// Writing MetadataGetter for method: GlobalNamespace::ServerPlayerListController::HandleLobbyStateDataPlayerDisconnected
 // Il2CppName: HandleLobbyStateDataPlayerDisconnected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerPlayerListController::*)(GlobalNamespace::IConnectedPlayer*)>(&ServerPlayerListController::HandleLobbyStateDataPlayerDisconnected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPlayerListController::*)(GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::ServerPlayerListController::HandleLobbyStateDataPlayerDisconnected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerPlayerListController*), "HandleLobbyStateDataPlayerDisconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPlayerListController*), "HandleLobbyStateDataPlayerDisconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
   }
 };
-// Writing MetadataGetter for method: ServerPlayerListController::SetDataToTable
+// Writing MetadataGetter for method: GlobalNamespace::ServerPlayerListController::SetDataToTable
 // Il2CppName: SetDataToTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerPlayerListController::*)()>(&ServerPlayerListController::SetDataToTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPlayerListController::*)()>(&GlobalNamespace::ServerPlayerListController::SetDataToTable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerPlayerListController*), "SetDataToTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPlayerListController*), "SetDataToTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ServerPlayerListController::HandleSelectSuggestedLevel
+// Writing MetadataGetter for method: GlobalNamespace::ServerPlayerListController::HandleSelectSuggestedLevel
 // Il2CppName: HandleSelectSuggestedLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerPlayerListController::*)(::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty)>(&ServerPlayerListController::HandleSelectSuggestedLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPlayerListController::*)(::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty)>(&GlobalNamespace::ServerPlayerListController::HandleSelectSuggestedLevel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerPlayerListController*), "HandleSelectSuggestedLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPlayerListController*), "HandleSelectSuggestedLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>()});
   }
 };
-// Writing MetadataGetter for method: ServerPlayerListController::HandleSelectSuggestedGameplayModifiers
+// Writing MetadataGetter for method: GlobalNamespace::ServerPlayerListController::HandleSelectSuggestedGameplayModifiers
 // Il2CppName: HandleSelectSuggestedGameplayModifiers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerPlayerListController::*)(GlobalNamespace::GameplayModifiers*)>(&ServerPlayerListController::HandleSelectSuggestedGameplayModifiers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPlayerListController::*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::ServerPlayerListController::HandleSelectSuggestedGameplayModifiers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerPlayerListController*), "HandleSelectSuggestedGameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPlayerListController*), "HandleSelectSuggestedGameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>()});
   }
 };
-// Writing MetadataGetter for method: ServerPlayerListController::HandleKickPlayer
+// Writing MetadataGetter for method: GlobalNamespace::ServerPlayerListController::HandleKickPlayer
 // Il2CppName: HandleKickPlayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerPlayerListController::*)(::Il2CppString*)>(&ServerPlayerListController::HandleKickPlayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPlayerListController::*)(::Il2CppString*)>(&GlobalNamespace::ServerPlayerListController::HandleKickPlayer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerPlayerListController*), "HandleKickPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPlayerListController*), "HandleKickPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: ServerPlayerListController::DidActivate
+// Writing MetadataGetter for method: GlobalNamespace::ServerPlayerListController::DidActivate
 // Il2CppName: DidActivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerPlayerListController::*)(bool, bool, bool)>(&ServerPlayerListController::DidActivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPlayerListController::*)(bool, bool, bool)>(&GlobalNamespace::ServerPlayerListController::DidActivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerPlayerListController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPlayerListController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ServerPlayerListController::DidDeactivate
+// Writing MetadataGetter for method: GlobalNamespace::ServerPlayerListController::DidDeactivate
 // Il2CppName: DidDeactivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerPlayerListController::*)(bool, bool)>(&ServerPlayerListController::DidDeactivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPlayerListController::*)(bool, bool)>(&GlobalNamespace::ServerPlayerListController::DidDeactivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerPlayerListController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPlayerListController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: ServerPlayerListController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::ServerPlayerListController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerPlayerListController::*)()>(&ServerPlayerListController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPlayerListController::*)()>(&GlobalNamespace::ServerPlayerListController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerPlayerListController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPlayerListController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ServerPlayerListController::*)()>(&ServerPlayerListController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerPlayerListController::*)()>(&GlobalNamespace::ServerPlayerListController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ServerPlayerListController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerPlayerListController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

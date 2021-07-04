@@ -109,79 +109,79 @@ namespace Zenject {
   static_assert(sizeof(ZenjectSettings) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectSettings*, "Zenject", "ZenjectSettings");
-// Writing MetadataGetter for method: ZenjectSettings::New_ctor
+// Writing MetadataGetter for method: Zenject::ZenjectSettings::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectSettings::*)(Zenject::ValidationErrorResponses, Zenject::RootResolveMethods, bool, bool, Zenject::ZenjectSettings::SignalSettings*)>(&ZenjectSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSettings::*)(Zenject::ValidationErrorResponses, Zenject::RootResolveMethods, bool, bool, Zenject::ZenjectSettings::SignalSettings*)>(&Zenject::ZenjectSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ValidationErrorResponses>(), ::il2cpp_utils::ExtractIndependentType<Zenject::RootResolveMethods>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Zenject::ZenjectSettings::SignalSettings*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ValidationErrorResponses>(), ::il2cpp_utils::ExtractIndependentType<Zenject::RootResolveMethods>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Zenject::ZenjectSettings::SignalSettings*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectSettings::*)(Zenject::ValidationErrorResponses, Zenject::RootResolveMethods, bool, bool, Zenject::ZenjectSettings::SignalSettings*)>(&ZenjectSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSettings::*)(Zenject::ValidationErrorResponses, Zenject::RootResolveMethods, bool, bool, Zenject::ZenjectSettings::SignalSettings*)>(&Zenject::ZenjectSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ValidationErrorResponses>(), ::il2cpp_utils::ExtractIndependentType<Zenject::RootResolveMethods>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Zenject::ZenjectSettings::SignalSettings*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ValidationErrorResponses>(), ::il2cpp_utils::ExtractIndependentType<Zenject::RootResolveMethods>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Zenject::ZenjectSettings::SignalSettings*>()});
   }
 };
-// Writing MetadataGetter for method: ZenjectSettings::get_Signals
+// Writing MetadataGetter for method: Zenject::ZenjectSettings::get_Signals
 // Il2CppName: get_Signals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenjectSettings::SignalSettings* (ZenjectSettings::*)()>(&ZenjectSettings::get_Signals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenjectSettings::SignalSettings* (Zenject::ZenjectSettings::*)()>(&Zenject::ZenjectSettings::get_Signals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSettings*), "get_Signals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSettings*), "get_Signals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ZenjectSettings::get_ValidationErrorResponse
+// Writing MetadataGetter for method: Zenject::ZenjectSettings::get_ValidationErrorResponse
 // Il2CppName: get_ValidationErrorResponse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ValidationErrorResponses (ZenjectSettings::*)()>(&ZenjectSettings::get_ValidationErrorResponse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ValidationErrorResponses (Zenject::ZenjectSettings::*)()>(&Zenject::ZenjectSettings::get_ValidationErrorResponse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSettings*), "get_ValidationErrorResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSettings*), "get_ValidationErrorResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ZenjectSettings::get_ValidationRootResolveMethod
+// Writing MetadataGetter for method: Zenject::ZenjectSettings::get_ValidationRootResolveMethod
 // Il2CppName: get_ValidationRootResolveMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::RootResolveMethods (ZenjectSettings::*)()>(&ZenjectSettings::get_ValidationRootResolveMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::RootResolveMethods (Zenject::ZenjectSettings::*)()>(&Zenject::ZenjectSettings::get_ValidationRootResolveMethod)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSettings*), "get_ValidationRootResolveMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSettings*), "get_ValidationRootResolveMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ZenjectSettings::get_DisplayWarningWhenResolvingDuringInstall
+// Writing MetadataGetter for method: Zenject::ZenjectSettings::get_DisplayWarningWhenResolvingDuringInstall
 // Il2CppName: get_DisplayWarningWhenResolvingDuringInstall
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ZenjectSettings::*)()>(&ZenjectSettings::get_DisplayWarningWhenResolvingDuringInstall)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::ZenjectSettings::*)()>(&Zenject::ZenjectSettings::get_DisplayWarningWhenResolvingDuringInstall)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSettings*), "get_DisplayWarningWhenResolvingDuringInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSettings*), "get_DisplayWarningWhenResolvingDuringInstall", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ZenjectSettings::get_EnsureDeterministicDestructionOrderOnApplicationQuit
+// Writing MetadataGetter for method: Zenject::ZenjectSettings::get_EnsureDeterministicDestructionOrderOnApplicationQuit
 // Il2CppName: get_EnsureDeterministicDestructionOrderOnApplicationQuit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ZenjectSettings::*)()>(&ZenjectSettings::get_EnsureDeterministicDestructionOrderOnApplicationQuit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::ZenjectSettings::*)()>(&Zenject::ZenjectSettings::get_EnsureDeterministicDestructionOrderOnApplicationQuit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSettings*), "get_EnsureDeterministicDestructionOrderOnApplicationQuit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSettings*), "get_EnsureDeterministicDestructionOrderOnApplicationQuit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ZenjectSettings::_cctor
+// Writing MetadataGetter for method: Zenject::ZenjectSettings::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&ZenjectSettings::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Zenject::ZenjectSettings::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSettings*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSettings*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ZenjectSettings::New_ctor
+// Writing MetadataGetter for method: Zenject::ZenjectSettings::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectSettings::*)()>(&ZenjectSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSettings::*)()>(&Zenject::ZenjectSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ZenjectSettings::*)()>(&ZenjectSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSettings::*)()>(&Zenject::ZenjectSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ZenjectSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

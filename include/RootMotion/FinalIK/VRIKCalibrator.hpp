@@ -52,43 +52,43 @@ namespace RootMotion::FinalIK {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIKCalibrator*, "RootMotion.FinalIK", "VRIKCalibrator");
-// Writing MetadataGetter for method: VRIKCalibrator::RecalibrateScale
+// Writing MetadataGetter for method: RootMotion::FinalIK::VRIKCalibrator::RecalibrateScale
 // Il2CppName: RecalibrateScale
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(RootMotion::FinalIK::VRIK*, RootMotion::FinalIK::VRIKCalibrator::Settings*)>(&VRIKCalibrator::RecalibrateScale)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(RootMotion::FinalIK::VRIK*, RootMotion::FinalIK::VRIKCalibrator::Settings*)>(&RootMotion::FinalIK::VRIKCalibrator::RecalibrateScale)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRIKCalibrator*), "RecalibrateScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIK*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIKCalibrator::Settings*>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIKCalibrator*), "RecalibrateScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIK*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIKCalibrator::Settings*>()});
   }
 };
-// Writing MetadataGetter for method: VRIKCalibrator::Calibrate
+// Writing MetadataGetter for method: RootMotion::FinalIK::VRIKCalibrator::Calibrate
 // Il2CppName: Calibrate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::VRIKCalibrator::CalibrationData* (*)(RootMotion::FinalIK::VRIK*, RootMotion::FinalIK::VRIKCalibrator::Settings*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*)>(&VRIKCalibrator::Calibrate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::VRIKCalibrator::CalibrationData* (*)(RootMotion::FinalIK::VRIK*, RootMotion::FinalIK::VRIKCalibrator::Settings*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*)>(&RootMotion::FinalIK::VRIKCalibrator::Calibrate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRIKCalibrator*), "Calibrate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIK*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIKCalibrator::Settings*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIKCalibrator*), "Calibrate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIK*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIKCalibrator::Settings*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
   }
 };
-// Writing MetadataGetter for method: VRIKCalibrator::CalibrateLeg
+// Writing MetadataGetter for method: RootMotion::FinalIK::VRIKCalibrator::CalibrateLeg
 // Il2CppName: CalibrateLeg
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(RootMotion::FinalIK::VRIKCalibrator::Settings*, UnityEngine::Transform*, RootMotion::FinalIK::IKSolverVR::Leg*, UnityEngine::Transform*, UnityEngine::Vector3, bool)>(&VRIKCalibrator::CalibrateLeg)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(RootMotion::FinalIK::VRIKCalibrator::Settings*, UnityEngine::Transform*, RootMotion::FinalIK::IKSolverVR::Leg*, UnityEngine::Transform*, UnityEngine::Vector3, bool)>(&RootMotion::FinalIK::VRIKCalibrator::CalibrateLeg)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRIKCalibrator*), "CalibrateLeg", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIKCalibrator::Settings*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverVR::Leg*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIKCalibrator*), "CalibrateLeg", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIKCalibrator::Settings*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverVR::Leg*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: VRIKCalibrator::Calibrate
+// Writing MetadataGetter for method: RootMotion::FinalIK::VRIKCalibrator::Calibrate
 // Il2CppName: Calibrate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(RootMotion::FinalIK::VRIK*, RootMotion::FinalIK::VRIKCalibrator::CalibrationData*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*)>(&VRIKCalibrator::Calibrate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(RootMotion::FinalIK::VRIK*, RootMotion::FinalIK::VRIKCalibrator::CalibrationData*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*)>(&RootMotion::FinalIK::VRIKCalibrator::Calibrate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRIKCalibrator*), "Calibrate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIK*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIKCalibrator::CalibrationData*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIKCalibrator*), "Calibrate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIK*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIKCalibrator::CalibrationData*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
   }
 };
-// Writing MetadataGetter for method: VRIKCalibrator::CalibrateLeg
+// Writing MetadataGetter for method: RootMotion::FinalIK::VRIKCalibrator::CalibrateLeg
 // Il2CppName: CalibrateLeg
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(RootMotion::FinalIK::VRIKCalibrator::CalibrationData*, UnityEngine::Transform*, RootMotion::FinalIK::IKSolverVR::Leg*, UnityEngine::Transform*, UnityEngine::Vector3, bool)>(&VRIKCalibrator::CalibrateLeg)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(RootMotion::FinalIK::VRIKCalibrator::CalibrationData*, UnityEngine::Transform*, RootMotion::FinalIK::IKSolverVR::Leg*, UnityEngine::Transform*, UnityEngine::Vector3, bool)>(&RootMotion::FinalIK::VRIKCalibrator::CalibrateLeg)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRIKCalibrator*), "CalibrateLeg", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIKCalibrator::CalibrationData*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverVR::Leg*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIKCalibrator*), "CalibrateLeg", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIKCalibrator::CalibrationData*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverVR::Leg*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };

@@ -298,185 +298,185 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyConnectionController*, "", "MultiplayerLobbyConnectionController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionState, "", "MultiplayerLobbyConnectionController/LobbyConnectionState");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType, "", "MultiplayerLobbyConnectionController/LobbyConnectionType");
-// Writing MetadataGetter for method: MultiplayerLobbyConnectionController::add_connectionSuccessEvent
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::add_connectionSuccessEvent
 // Il2CppName: add_connectionSuccessEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyConnectionController::*)(System::Action*)>(&MultiplayerLobbyConnectionController::add_connectionSuccessEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyConnectionController::*)(System::Action*)>(&GlobalNamespace::MultiplayerLobbyConnectionController::add_connectionSuccessEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyConnectionController*), "add_connectionSuccessEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyConnectionController*), "add_connectionSuccessEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyConnectionController::remove_connectionSuccessEvent
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::remove_connectionSuccessEvent
 // Il2CppName: remove_connectionSuccessEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyConnectionController::*)(System::Action*)>(&MultiplayerLobbyConnectionController::remove_connectionSuccessEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyConnectionController::*)(System::Action*)>(&GlobalNamespace::MultiplayerLobbyConnectionController::remove_connectionSuccessEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyConnectionController*), "remove_connectionSuccessEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyConnectionController*), "remove_connectionSuccessEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyConnectionController::add_connectionFailedEvent
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::add_connectionFailedEvent
 // Il2CppName: add_connectionFailedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyConnectionController::*)(System::Action_2<GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType, GlobalNamespace::ConnectionFailedReason>*)>(&MultiplayerLobbyConnectionController::add_connectionFailedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyConnectionController::*)(System::Action_2<GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType, GlobalNamespace::ConnectionFailedReason>*)>(&GlobalNamespace::MultiplayerLobbyConnectionController::add_connectionFailedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyConnectionController*), "add_connectionFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType, GlobalNamespace::ConnectionFailedReason>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyConnectionController*), "add_connectionFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType, GlobalNamespace::ConnectionFailedReason>*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyConnectionController::remove_connectionFailedEvent
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::remove_connectionFailedEvent
 // Il2CppName: remove_connectionFailedEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyConnectionController::*)(System::Action_2<GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType, GlobalNamespace::ConnectionFailedReason>*)>(&MultiplayerLobbyConnectionController::remove_connectionFailedEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyConnectionController::*)(System::Action_2<GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType, GlobalNamespace::ConnectionFailedReason>*)>(&GlobalNamespace::MultiplayerLobbyConnectionController::remove_connectionFailedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyConnectionController*), "remove_connectionFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType, GlobalNamespace::ConnectionFailedReason>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyConnectionController*), "remove_connectionFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType, GlobalNamespace::ConnectionFailedReason>*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyConnectionController::get_connectionState
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::get_connectionState
 // Il2CppName: get_connectionState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionState (MultiplayerLobbyConnectionController::*)()>(&MultiplayerLobbyConnectionController::get_connectionState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionState (GlobalNamespace::MultiplayerLobbyConnectionController::*)()>(&GlobalNamespace::MultiplayerLobbyConnectionController::get_connectionState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyConnectionController*), "get_connectionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyConnectionController*), "get_connectionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyConnectionController::set_connectionState
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::set_connectionState
 // Il2CppName: set_connectionState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyConnectionController::*)(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionState)>(&MultiplayerLobbyConnectionController::set_connectionState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyConnectionController::*)(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionState)>(&GlobalNamespace::MultiplayerLobbyConnectionController::set_connectionState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyConnectionController*), "set_connectionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionState>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyConnectionController*), "set_connectionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionState>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyConnectionController::get_connectionType
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::get_connectionType
 // Il2CppName: get_connectionType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType (MultiplayerLobbyConnectionController::*)()>(&MultiplayerLobbyConnectionController::get_connectionType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType (GlobalNamespace::MultiplayerLobbyConnectionController::*)()>(&GlobalNamespace::MultiplayerLobbyConnectionController::get_connectionType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyConnectionController*), "get_connectionType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyConnectionController*), "get_connectionType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyConnectionController::set_connectionType
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::set_connectionType
 // Il2CppName: set_connectionType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyConnectionController::*)(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType)>(&MultiplayerLobbyConnectionController::set_connectionType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyConnectionController::*)(GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType)>(&GlobalNamespace::MultiplayerLobbyConnectionController::set_connectionType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyConnectionController*), "set_connectionType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyConnectionController*), "set_connectionType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerLobbyConnectionController::LobbyConnectionType>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyConnectionController::get_connectionFailedReason
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::get_connectionFailedReason
 // Il2CppName: get_connectionFailedReason
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectionFailedReason (MultiplayerLobbyConnectionController::*)()>(&MultiplayerLobbyConnectionController::get_connectionFailedReason)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectionFailedReason (GlobalNamespace::MultiplayerLobbyConnectionController::*)()>(&GlobalNamespace::MultiplayerLobbyConnectionController::get_connectionFailedReason)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyConnectionController*), "get_connectionFailedReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyConnectionController*), "get_connectionFailedReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyConnectionController::set_connectionFailedReason
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::set_connectionFailedReason
 // Il2CppName: set_connectionFailedReason
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyConnectionController::*)(GlobalNamespace::ConnectionFailedReason)>(&MultiplayerLobbyConnectionController::set_connectionFailedReason)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyConnectionController::*)(GlobalNamespace::ConnectionFailedReason)>(&GlobalNamespace::MultiplayerLobbyConnectionController::set_connectionFailedReason)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyConnectionController*), "set_connectionFailedReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectionFailedReason>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyConnectionController*), "set_connectionFailedReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectionFailedReason>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyConnectionController::CreateParty
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::CreateParty
 // Il2CppName: CreateParty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyConnectionController::*)(GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*)>(&MultiplayerLobbyConnectionController::CreateParty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyConnectionController::*)(GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*)>(&GlobalNamespace::MultiplayerLobbyConnectionController::CreateParty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyConnectionController*), "CreateParty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyConnectionController*), "CreateParty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyConnectionController::ConnectToParty
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::ConnectToParty
 // Il2CppName: ConnectToParty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyConnectionController::*)(::Il2CppString*)>(&MultiplayerLobbyConnectionController::ConnectToParty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyConnectionController::*)(::Il2CppString*)>(&GlobalNamespace::MultiplayerLobbyConnectionController::ConnectToParty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyConnectionController*), "ConnectToParty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyConnectionController*), "ConnectToParty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyConnectionController::CreateOrConnectToParty
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::CreateOrConnectToParty
 // Il2CppName: CreateOrConnectToParty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyConnectionController::*)(GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*)>(&MultiplayerLobbyConnectionController::CreateOrConnectToParty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyConnectionController::*)(GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*)>(&GlobalNamespace::MultiplayerLobbyConnectionController::CreateOrConnectToParty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyConnectionController*), "CreateOrConnectToParty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyConnectionController*), "CreateOrConnectToParty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyConnectionController::ConnectToServer
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::ConnectToServer
 // Il2CppName: ConnectToServer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyConnectionController::*)(GlobalNamespace::INetworkPlayer*, ::Il2CppString*)>(&MultiplayerLobbyConnectionController::ConnectToServer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyConnectionController::*)(GlobalNamespace::INetworkPlayer*, ::Il2CppString*)>(&GlobalNamespace::MultiplayerLobbyConnectionController::ConnectToServer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyConnectionController*), "ConnectToServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::INetworkPlayer*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyConnectionController*), "ConnectToServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::INetworkPlayer*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyConnectionController::ConnectToMatchmaking
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::ConnectToMatchmaking
 // Il2CppName: ConnectToMatchmaking
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyConnectionController::*)(GlobalNamespace::BeatmapDifficultyMask, GlobalNamespace::SongPackMask)>(&MultiplayerLobbyConnectionController::ConnectToMatchmaking)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyConnectionController::*)(GlobalNamespace::BeatmapDifficultyMask, GlobalNamespace::SongPackMask)>(&GlobalNamespace::MultiplayerLobbyConnectionController::ConnectToMatchmaking)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyConnectionController*), "ConnectToMatchmaking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficultyMask>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyConnectionController*), "ConnectToMatchmaking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficultyMask>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyConnectionController::DestroyParty
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::DestroyParty
 // Il2CppName: DestroyParty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyConnectionController::*)()>(&MultiplayerLobbyConnectionController::DestroyParty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyConnectionController::*)()>(&GlobalNamespace::MultiplayerLobbyConnectionController::DestroyParty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyConnectionController*), "DestroyParty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyConnectionController*), "DestroyParty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyConnectionController::LeaveLobby
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::LeaveLobby
 // Il2CppName: LeaveLobby
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyConnectionController::*)()>(&MultiplayerLobbyConnectionController::LeaveLobby)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyConnectionController::*)()>(&GlobalNamespace::MultiplayerLobbyConnectionController::LeaveLobby)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyConnectionController*), "LeaveLobby", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyConnectionController*), "LeaveLobby", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyConnectionController::ClearCurrentConnection
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::ClearCurrentConnection
 // Il2CppName: ClearCurrentConnection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyConnectionController::*)()>(&MultiplayerLobbyConnectionController::ClearCurrentConnection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyConnectionController::*)()>(&GlobalNamespace::MultiplayerLobbyConnectionController::ClearCurrentConnection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyConnectionController*), "ClearCurrentConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyConnectionController*), "ClearCurrentConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyConnectionController::HandleMultiplayerSessionManagerConnected
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::HandleMultiplayerSessionManagerConnected
 // Il2CppName: HandleMultiplayerSessionManagerConnected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyConnectionController::*)()>(&MultiplayerLobbyConnectionController::HandleMultiplayerSessionManagerConnected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyConnectionController::*)()>(&GlobalNamespace::MultiplayerLobbyConnectionController::HandleMultiplayerSessionManagerConnected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyConnectionController*), "HandleMultiplayerSessionManagerConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyConnectionController*), "HandleMultiplayerSessionManagerConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyConnectionController::HandleMultiplayerSessionManagerConnectionFailed
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::HandleMultiplayerSessionManagerConnectionFailed
 // Il2CppName: HandleMultiplayerSessionManagerConnectionFailed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyConnectionController::*)(GlobalNamespace::ConnectionFailedReason)>(&MultiplayerLobbyConnectionController::HandleMultiplayerSessionManagerConnectionFailed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyConnectionController::*)(GlobalNamespace::ConnectionFailedReason)>(&GlobalNamespace::MultiplayerLobbyConnectionController::HandleMultiplayerSessionManagerConnectionFailed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyConnectionController*), "HandleMultiplayerSessionManagerConnectionFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectionFailedReason>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyConnectionController*), "HandleMultiplayerSessionManagerConnectionFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectionFailedReason>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyConnectionController::HandleMultiplayerSessionManagerConnectionFailedWithRetries
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::HandleMultiplayerSessionManagerConnectionFailedWithRetries
 // Il2CppName: HandleMultiplayerSessionManagerConnectionFailedWithRetries
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyConnectionController::*)(GlobalNamespace::ConnectionFailedReason)>(&MultiplayerLobbyConnectionController::HandleMultiplayerSessionManagerConnectionFailedWithRetries)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyConnectionController::*)(GlobalNamespace::ConnectionFailedReason)>(&GlobalNamespace::MultiplayerLobbyConnectionController::HandleMultiplayerSessionManagerConnectionFailedWithRetries)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyConnectionController*), "HandleMultiplayerSessionManagerConnectionFailedWithRetries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectionFailedReason>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyConnectionController*), "HandleMultiplayerSessionManagerConnectionFailedWithRetries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ConnectionFailedReason>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerLobbyConnectionController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyConnectionController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyConnectionController::*)()>(&MultiplayerLobbyConnectionController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyConnectionController::*)()>(&GlobalNamespace::MultiplayerLobbyConnectionController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyConnectionController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyConnectionController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerLobbyConnectionController::*)()>(&MultiplayerLobbyConnectionController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyConnectionController::*)()>(&GlobalNamespace::MultiplayerLobbyConnectionController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerLobbyConnectionController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyConnectionController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

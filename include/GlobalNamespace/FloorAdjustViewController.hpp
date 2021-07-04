@@ -129,49 +129,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(FloorAdjustViewController) == 0x9C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FloorAdjustViewController*, "", "FloorAdjustViewController");
-// Writing MetadataGetter for method: FloorAdjustViewController::Update
+// Writing MetadataGetter for method: GlobalNamespace::FloorAdjustViewController::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FloorAdjustViewController::*)()>(&FloorAdjustViewController::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FloorAdjustViewController::*)()>(&GlobalNamespace::FloorAdjustViewController::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FloorAdjustViewController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FloorAdjustViewController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FloorAdjustViewController::$DidActivate$b__9_0
+// Writing MetadataGetter for method: GlobalNamespace::FloorAdjustViewController::$DidActivate$b__9_0
 // Il2CppName: <DidActivate>b__9_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FloorAdjustViewController::*)()>(&FloorAdjustViewController::$DidActivate$b__9_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FloorAdjustViewController::*)()>(&GlobalNamespace::FloorAdjustViewController::$DidActivate$b__9_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FloorAdjustViewController*), "<DidActivate>b__9_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FloorAdjustViewController*), "<DidActivate>b__9_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FloorAdjustViewController::$DidActivate$b__9_1
+// Writing MetadataGetter for method: GlobalNamespace::FloorAdjustViewController::$DidActivate$b__9_1
 // Il2CppName: <DidActivate>b__9_1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FloorAdjustViewController::*)()>(&FloorAdjustViewController::$DidActivate$b__9_1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FloorAdjustViewController::*)()>(&GlobalNamespace::FloorAdjustViewController::$DidActivate$b__9_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FloorAdjustViewController*), "<DidActivate>b__9_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FloorAdjustViewController*), "<DidActivate>b__9_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: FloorAdjustViewController::DidActivate
+// Writing MetadataGetter for method: GlobalNamespace::FloorAdjustViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FloorAdjustViewController::*)(bool, bool, bool)>(&FloorAdjustViewController::DidActivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FloorAdjustViewController::*)(bool, bool, bool)>(&GlobalNamespace::FloorAdjustViewController::DidActivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FloorAdjustViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FloorAdjustViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: FloorAdjustViewController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::FloorAdjustViewController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FloorAdjustViewController::*)()>(&FloorAdjustViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FloorAdjustViewController::*)()>(&GlobalNamespace::FloorAdjustViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FloorAdjustViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FloorAdjustViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (FloorAdjustViewController::*)()>(&FloorAdjustViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FloorAdjustViewController::*)()>(&GlobalNamespace::FloorAdjustViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FloorAdjustViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FloorAdjustViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

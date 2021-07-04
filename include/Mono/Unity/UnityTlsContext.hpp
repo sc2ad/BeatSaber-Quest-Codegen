@@ -245,161 +245,161 @@ namespace Mono::Unity {
   static_assert(sizeof(UnityTlsContext) == 0xD0);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTlsContext*, "Mono.Unity", "UnityTlsContext");
-// Writing MetadataGetter for method: UnityTlsContext::ExtractNativeKeyAndChainFromManagedCertificate
+// Writing MetadataGetter for method: Mono::Unity::UnityTlsContext::ExtractNativeKeyAndChainFromManagedCertificate
 // Il2CppName: ExtractNativeKeyAndChainFromManagedCertificate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Security::Cryptography::X509Certificates::X509Certificate*, Mono::Unity::UnityTls::unitytls_errorstate*, Mono::Unity::UnityTls::unitytls_x509list*&, Mono::Unity::UnityTls::unitytls_key*&)>(&UnityTlsContext::ExtractNativeKeyAndChainFromManagedCertificate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Security::Cryptography::X509Certificates::X509Certificate*, Mono::Unity::UnityTls::unitytls_errorstate*, Mono::Unity::UnityTls::unitytls_x509list*&, Mono::Unity::UnityTls::unitytls_key*&)>(&Mono::Unity::UnityTlsContext::ExtractNativeKeyAndChainFromManagedCertificate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTlsContext*), "ExtractNativeKeyAndChainFromManagedCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_errorstate*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509list*&>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_key*&>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsContext*), "ExtractNativeKeyAndChainFromManagedCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_errorstate*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509list*&>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_key*&>()});
   }
 };
-// Writing MetadataGetter for method: UnityTlsContext::WriteCallback
+// Writing MetadataGetter for method: Mono::Unity::UnityTlsContext::WriteCallback
 // Il2CppName: WriteCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(void*, uint8_t*, System::IntPtr, Mono::Unity::UnityTls::unitytls_errorstate*)>(&UnityTlsContext::WriteCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(void*, uint8_t*, System::IntPtr, Mono::Unity::UnityTls::unitytls_errorstate*)>(&Mono::Unity::UnityTlsContext::WriteCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTlsContext*), "WriteCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<void*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_errorstate*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsContext*), "WriteCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<void*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_errorstate*>()});
   }
 };
-// Writing MetadataGetter for method: UnityTlsContext::WriteCallback
+// Writing MetadataGetter for method: Mono::Unity::UnityTlsContext::WriteCallback
 // Il2CppName: WriteCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (UnityTlsContext::*)(uint8_t*, System::IntPtr, Mono::Unity::UnityTls::unitytls_errorstate*)>(&UnityTlsContext::WriteCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Mono::Unity::UnityTlsContext::*)(uint8_t*, System::IntPtr, Mono::Unity::UnityTls::unitytls_errorstate*)>(&Mono::Unity::UnityTlsContext::WriteCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTlsContext*), "WriteCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_errorstate*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsContext*), "WriteCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_errorstate*>()});
   }
 };
-// Writing MetadataGetter for method: UnityTlsContext::ReadCallback
+// Writing MetadataGetter for method: Mono::Unity::UnityTlsContext::ReadCallback
 // Il2CppName: ReadCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(void*, uint8_t*, System::IntPtr, Mono::Unity::UnityTls::unitytls_errorstate*)>(&UnityTlsContext::ReadCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(void*, uint8_t*, System::IntPtr, Mono::Unity::UnityTls::unitytls_errorstate*)>(&Mono::Unity::UnityTlsContext::ReadCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTlsContext*), "ReadCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<void*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_errorstate*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsContext*), "ReadCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<void*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_errorstate*>()});
   }
 };
-// Writing MetadataGetter for method: UnityTlsContext::ReadCallback
+// Writing MetadataGetter for method: Mono::Unity::UnityTlsContext::ReadCallback
 // Il2CppName: ReadCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (UnityTlsContext::*)(uint8_t*, System::IntPtr, Mono::Unity::UnityTls::unitytls_errorstate*)>(&UnityTlsContext::ReadCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Mono::Unity::UnityTlsContext::*)(uint8_t*, System::IntPtr, Mono::Unity::UnityTls::unitytls_errorstate*)>(&Mono::Unity::UnityTlsContext::ReadCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTlsContext*), "ReadCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_errorstate*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsContext*), "ReadCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_errorstate*>()});
   }
 };
-// Writing MetadataGetter for method: UnityTlsContext::VerifyCallback
+// Writing MetadataGetter for method: Mono::Unity::UnityTlsContext::VerifyCallback
 // Il2CppName: VerifyCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Unity::UnityTls::unitytls_x509verify_result (*)(void*, Mono::Unity::UnityTls::unitytls_x509list_ref, Mono::Unity::UnityTls::unitytls_errorstate*)>(&UnityTlsContext::VerifyCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Unity::UnityTls::unitytls_x509verify_result (*)(void*, Mono::Unity::UnityTls::unitytls_x509list_ref, Mono::Unity::UnityTls::unitytls_errorstate*)>(&Mono::Unity::UnityTlsContext::VerifyCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTlsContext*), "VerifyCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<void*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509list_ref>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_errorstate*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsContext*), "VerifyCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<void*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509list_ref>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_errorstate*>()});
   }
 };
-// Writing MetadataGetter for method: UnityTlsContext::VerifyCallback
+// Writing MetadataGetter for method: Mono::Unity::UnityTlsContext::VerifyCallback
 // Il2CppName: VerifyCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Unity::UnityTls::unitytls_x509verify_result (UnityTlsContext::*)(Mono::Unity::UnityTls::unitytls_x509list_ref, Mono::Unity::UnityTls::unitytls_errorstate*)>(&UnityTlsContext::VerifyCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Unity::UnityTls::unitytls_x509verify_result (Mono::Unity::UnityTlsContext::*)(Mono::Unity::UnityTls::unitytls_x509list_ref, Mono::Unity::UnityTls::unitytls_errorstate*)>(&Mono::Unity::UnityTlsContext::VerifyCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTlsContext*), "VerifyCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509list_ref>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_errorstate*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsContext*), "VerifyCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509list_ref>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_errorstate*>()});
   }
 };
-// Writing MetadataGetter for method: UnityTlsContext::CertificateCallback
+// Writing MetadataGetter for method: Mono::Unity::UnityTlsContext::CertificateCallback
 // Il2CppName: CertificateCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, Mono::Unity::UnityTls::unitytls_tlsctx*, uint8_t*, System::IntPtr, Mono::Unity::UnityTls::unitytls_x509name*, System::IntPtr, Mono::Unity::UnityTls::unitytls_x509list_ref*, Mono::Unity::UnityTls::unitytls_key_ref*, Mono::Unity::UnityTls::unitytls_errorstate*)>(&UnityTlsContext::CertificateCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, Mono::Unity::UnityTls::unitytls_tlsctx*, uint8_t*, System::IntPtr, Mono::Unity::UnityTls::unitytls_x509name*, System::IntPtr, Mono::Unity::UnityTls::unitytls_x509list_ref*, Mono::Unity::UnityTls::unitytls_key_ref*, Mono::Unity::UnityTls::unitytls_errorstate*)>(&Mono::Unity::UnityTlsContext::CertificateCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTlsContext*), "CertificateCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<void*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_tlsctx*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509name*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509list_ref*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_key_ref*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_errorstate*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsContext*), "CertificateCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<void*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_tlsctx*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509name*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509list_ref*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_key_ref*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_errorstate*>()});
   }
 };
-// Writing MetadataGetter for method: UnityTlsContext::CertificateCallback
+// Writing MetadataGetter for method: Mono::Unity::UnityTlsContext::CertificateCallback
 // Il2CppName: CertificateCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTlsContext::*)(Mono::Unity::UnityTls::unitytls_tlsctx*, uint8_t*, System::IntPtr, Mono::Unity::UnityTls::unitytls_x509name*, System::IntPtr, Mono::Unity::UnityTls::unitytls_x509list_ref*, Mono::Unity::UnityTls::unitytls_key_ref*, Mono::Unity::UnityTls::unitytls_errorstate*)>(&UnityTlsContext::CertificateCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Unity::UnityTlsContext::*)(Mono::Unity::UnityTls::unitytls_tlsctx*, uint8_t*, System::IntPtr, Mono::Unity::UnityTls::unitytls_x509name*, System::IntPtr, Mono::Unity::UnityTls::unitytls_x509list_ref*, Mono::Unity::UnityTls::unitytls_key_ref*, Mono::Unity::UnityTls::unitytls_errorstate*)>(&Mono::Unity::UnityTlsContext::CertificateCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTlsContext*), "CertificateCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_tlsctx*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509name*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509list_ref*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_key_ref*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_errorstate*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsContext*), "CertificateCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_tlsctx*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509name*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509list_ref*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_key_ref*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_errorstate*>()});
   }
 };
-// Writing MetadataGetter for method: UnityTlsContext::New_ctor
+// Writing MetadataGetter for method: Mono::Unity::UnityTlsContext::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTlsContext::*)(Mono::Net::Security::MobileAuthenticatedStream*, bool, ::Il2CppString*, System::Security::Authentication::SslProtocols, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, bool)>(&UnityTlsContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Unity::UnityTlsContext::*)(Mono::Net::Security::MobileAuthenticatedStream*, bool, ::Il2CppString*, System::Security::Authentication::SslProtocols, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, bool)>(&Mono::Unity::UnityTlsContext::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTlsContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::MobileAuthenticatedStream*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Authentication::SslProtocols>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::MobileAuthenticatedStream*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Authentication::SslProtocols>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTlsContext::*)(Mono::Net::Security::MobileAuthenticatedStream*, bool, ::Il2CppString*, System::Security::Authentication::SslProtocols, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, bool)>(&UnityTlsContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Unity::UnityTlsContext::*)(Mono::Net::Security::MobileAuthenticatedStream*, bool, ::Il2CppString*, System::Security::Authentication::SslProtocols, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, bool)>(&Mono::Unity::UnityTlsContext::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTlsContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::MobileAuthenticatedStream*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Authentication::SslProtocols>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsContext*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Net::Security::MobileAuthenticatedStream*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Authentication::SslProtocols>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: UnityTlsContext::get_IsAuthenticated
+// Writing MetadataGetter for method: Mono::Unity::UnityTlsContext::get_IsAuthenticated
 // Il2CppName: get_IsAuthenticated
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityTlsContext::*)()>(&UnityTlsContext::get_IsAuthenticated)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Unity::UnityTlsContext::*)()>(&Mono::Unity::UnityTlsContext::get_IsAuthenticated)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTlsContext*), "get_IsAuthenticated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsContext*), "get_IsAuthenticated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityTlsContext::get_LocalClientCertificate
+// Writing MetadataGetter for method: Mono::Unity::UnityTlsContext::get_LocalClientCertificate
 // Il2CppName: get_LocalClientCertificate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate* (UnityTlsContext::*)()>(&UnityTlsContext::get_LocalClientCertificate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate* (Mono::Unity::UnityTlsContext::*)()>(&Mono::Unity::UnityTlsContext::get_LocalClientCertificate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTlsContext*), "get_LocalClientCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsContext*), "get_LocalClientCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityTlsContext::Read
+// Writing MetadataGetter for method: Mono::Unity::UnityTlsContext::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ValueTuple_2<int, bool> (UnityTlsContext::*)(::Array<uint8_t>*, int, int)>(&UnityTlsContext::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ValueTuple_2<int, bool> (Mono::Unity::UnityTlsContext::*)(::Array<uint8_t>*, int, int)>(&Mono::Unity::UnityTlsContext::Read)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTlsContext*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsContext*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: UnityTlsContext::Write
+// Writing MetadataGetter for method: Mono::Unity::UnityTlsContext::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ValueTuple_2<int, bool> (UnityTlsContext::*)(::Array<uint8_t>*, int, int)>(&UnityTlsContext::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ValueTuple_2<int, bool> (Mono::Unity::UnityTlsContext::*)(::Array<uint8_t>*, int, int)>(&Mono::Unity::UnityTlsContext::Write)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTlsContext*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsContext*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: UnityTlsContext::Shutdown
+// Writing MetadataGetter for method: Mono::Unity::UnityTlsContext::Shutdown
 // Il2CppName: Shutdown
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTlsContext::*)()>(&UnityTlsContext::Shutdown)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Unity::UnityTlsContext::*)()>(&Mono::Unity::UnityTlsContext::Shutdown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTlsContext*), "Shutdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsContext*), "Shutdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityTlsContext::Dispose
+// Writing MetadataGetter for method: Mono::Unity::UnityTlsContext::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTlsContext::*)(bool)>(&UnityTlsContext::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Unity::UnityTlsContext::*)(bool)>(&Mono::Unity::UnityTlsContext::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTlsContext*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsContext*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: UnityTlsContext::StartHandshake
+// Writing MetadataGetter for method: Mono::Unity::UnityTlsContext::StartHandshake
 // Il2CppName: StartHandshake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTlsContext::*)()>(&UnityTlsContext::StartHandshake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Unity::UnityTlsContext::*)()>(&Mono::Unity::UnityTlsContext::StartHandshake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTlsContext*), "StartHandshake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsContext*), "StartHandshake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityTlsContext::ProcessHandshake
+// Writing MetadataGetter for method: Mono::Unity::UnityTlsContext::ProcessHandshake
 // Il2CppName: ProcessHandshake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityTlsContext::*)()>(&UnityTlsContext::ProcessHandshake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Unity::UnityTlsContext::*)()>(&Mono::Unity::UnityTlsContext::ProcessHandshake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTlsContext*), "ProcessHandshake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsContext*), "ProcessHandshake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UnityTlsContext::FinishHandshake
+// Writing MetadataGetter for method: Mono::Unity::UnityTlsContext::FinishHandshake
 // Il2CppName: FinishHandshake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityTlsContext::*)()>(&UnityTlsContext::FinishHandshake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Unity::UnityTlsContext::*)()>(&Mono::Unity::UnityTlsContext::FinishHandshake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityTlsContext*), "FinishHandshake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsContext*), "FinishHandshake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

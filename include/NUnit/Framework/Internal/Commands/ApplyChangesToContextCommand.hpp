@@ -71,33 +71,33 @@ namespace NUnit::Framework::Internal::Commands {
   static_assert(sizeof(ApplyChangesToContextCommand) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::ApplyChangesToContextCommand*, "NUnit.Framework.Internal.Commands", "ApplyChangesToContextCommand");
-// Writing MetadataGetter for method: ApplyChangesToContextCommand::New_ctor
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::ApplyChangesToContextCommand::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ApplyChangesToContextCommand::*)(NUnit::Framework::Internal::Commands::TestCommand*, System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::IApplyToContext*>*)>(&ApplyChangesToContextCommand::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Commands::ApplyChangesToContextCommand::*)(NUnit::Framework::Internal::Commands::TestCommand*, System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::IApplyToContext*>*)>(&NUnit::Framework::Internal::Commands::ApplyChangesToContextCommand::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ApplyChangesToContextCommand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Commands::TestCommand*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::IApplyToContext*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::ApplyChangesToContextCommand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Commands::TestCommand*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::IApplyToContext*>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ApplyChangesToContextCommand::*)(NUnit::Framework::Internal::Commands::TestCommand*, System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::IApplyToContext*>*)>(&ApplyChangesToContextCommand::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Commands::ApplyChangesToContextCommand::*)(NUnit::Framework::Internal::Commands::TestCommand*, System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::IApplyToContext*>*)>(&NUnit::Framework::Internal::Commands::ApplyChangesToContextCommand::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ApplyChangesToContextCommand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Commands::TestCommand*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::IApplyToContext*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::ApplyChangesToContextCommand*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::Commands::TestCommand*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::IApplyToContext*>*>()});
   }
 };
-// Writing MetadataGetter for method: ApplyChangesToContextCommand::ApplyChanges
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::ApplyChangesToContextCommand::ApplyChanges
 // Il2CppName: ApplyChanges
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ApplyChangesToContextCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&ApplyChangesToContextCommand::ApplyChanges)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Commands::ApplyChangesToContextCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&NUnit::Framework::Internal::Commands::ApplyChangesToContextCommand::ApplyChanges)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ApplyChangesToContextCommand*), "ApplyChanges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::ApplyChangesToContextCommand*), "ApplyChanges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
   }
 };
-// Writing MetadataGetter for method: ApplyChangesToContextCommand::Execute
+// Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::ApplyChangesToContextCommand::Execute
 // Il2CppName: Execute
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (ApplyChangesToContextCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&ApplyChangesToContextCommand::Execute)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (NUnit::Framework::Internal::Commands::ApplyChangesToContextCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&NUnit::Framework::Internal::Commands::ApplyChangesToContextCommand::Execute)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ApplyChangesToContextCommand*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::ApplyChangesToContextCommand*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Internal::ITestExecutionContext*>()});
   }
 };

@@ -147,43 +147,43 @@ namespace System::Globalization {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TimeSpanFormat*, "System.Globalization", "TimeSpanFormat");
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TimeSpanFormat::FormatLiterals, "System.Globalization", "TimeSpanFormat/FormatLiterals");
-// Writing MetadataGetter for method: TimeSpanFormat::IntToString
+// Writing MetadataGetter for method: System::Globalization::TimeSpanFormat::IntToString
 // Il2CppName: IntToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int, int)>(&TimeSpanFormat::IntToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int, int)>(&System::Globalization::TimeSpanFormat::IntToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpanFormat*), "IntToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TimeSpanFormat*), "IntToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TimeSpanFormat::Format
+// Writing MetadataGetter for method: System::Globalization::TimeSpanFormat::Format
 // Il2CppName: Format
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::TimeSpan, ::Il2CppString*, System::IFormatProvider*)>(&TimeSpanFormat::Format)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::TimeSpan, ::Il2CppString*, System::IFormatProvider*)>(&System::Globalization::TimeSpanFormat::Format)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpanFormat*), "Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TimeSpanFormat*), "Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
   }
 };
-// Writing MetadataGetter for method: TimeSpanFormat::FormatStandard
+// Writing MetadataGetter for method: System::Globalization::TimeSpanFormat::FormatStandard
 // Il2CppName: FormatStandard
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::TimeSpan, bool, ::Il2CppString*, System::Globalization::TimeSpanFormat::Pattern)>(&TimeSpanFormat::FormatStandard)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::TimeSpan, bool, ::Il2CppString*, System::Globalization::TimeSpanFormat::Pattern)>(&System::Globalization::TimeSpanFormat::FormatStandard)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpanFormat*), "FormatStandard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::TimeSpanFormat::Pattern>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TimeSpanFormat*), "FormatStandard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::TimeSpanFormat::Pattern>()});
   }
 };
-// Writing MetadataGetter for method: TimeSpanFormat::FormatCustomized
+// Writing MetadataGetter for method: System::Globalization::TimeSpanFormat::FormatCustomized
 // Il2CppName: FormatCustomized
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::TimeSpan, ::Il2CppString*, System::Globalization::DateTimeFormatInfo*)>(&TimeSpanFormat::FormatCustomized)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::TimeSpan, ::Il2CppString*, System::Globalization::DateTimeFormatInfo*)>(&System::Globalization::TimeSpanFormat::FormatCustomized)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpanFormat*), "FormatCustomized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::DateTimeFormatInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TimeSpanFormat*), "FormatCustomized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::DateTimeFormatInfo*>()});
   }
 };
-// Writing MetadataGetter for method: TimeSpanFormat::_cctor
+// Writing MetadataGetter for method: System::Globalization::TimeSpanFormat::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TimeSpanFormat::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Globalization::TimeSpanFormat::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeSpanFormat*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::TimeSpanFormat*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -76,57 +76,57 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(TimelineAsset::EditorSettings) == 0x15);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineAsset::EditorSettings*, "UnityEngine.Timeline", "TimelineAsset/EditorSettings");
-// Writing MetadataGetter for method: TimelineAsset::EditorSettings::get_fps
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::EditorSettings::get_fps
 // Il2CppName: get_fps
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TimelineAsset::EditorSettings::*)()>(&TimelineAsset::EditorSettings::get_fps)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Timeline::TimelineAsset::EditorSettings::*)()>(&UnityEngine::Timeline::TimelineAsset::EditorSettings::get_fps)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineAsset::EditorSettings*), "get_fps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset::EditorSettings*), "get_fps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineAsset::EditorSettings::set_fps
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::EditorSettings::set_fps
 // Il2CppName: set_fps
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::EditorSettings::*)(float)>(&TimelineAsset::EditorSettings::set_fps)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineAsset::EditorSettings::*)(float)>(&UnityEngine::Timeline::TimelineAsset::EditorSettings::set_fps)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineAsset::EditorSettings*), "set_fps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset::EditorSettings*), "set_fps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: TimelineAsset::EditorSettings::get_scenePreview
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::EditorSettings::get_scenePreview
 // Il2CppName: get_scenePreview
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimelineAsset::EditorSettings::*)()>(&TimelineAsset::EditorSettings::get_scenePreview)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TimelineAsset::EditorSettings::*)()>(&UnityEngine::Timeline::TimelineAsset::EditorSettings::get_scenePreview)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineAsset::EditorSettings*), "get_scenePreview", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset::EditorSettings*), "get_scenePreview", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineAsset::EditorSettings::set_scenePreview
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::EditorSettings::set_scenePreview
 // Il2CppName: set_scenePreview
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::EditorSettings::*)(bool)>(&TimelineAsset::EditorSettings::set_scenePreview)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineAsset::EditorSettings::*)(bool)>(&UnityEngine::Timeline::TimelineAsset::EditorSettings::set_scenePreview)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineAsset::EditorSettings*), "set_scenePreview", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset::EditorSettings*), "set_scenePreview", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: TimelineAsset::EditorSettings::_cctor
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::EditorSettings::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TimelineAsset::EditorSettings::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Timeline::TimelineAsset::EditorSettings::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineAsset::EditorSettings*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset::EditorSettings*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimelineAsset::EditorSettings::New_ctor
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::EditorSettings::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::EditorSettings::*)()>(&TimelineAsset::EditorSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineAsset::EditorSettings::*)()>(&UnityEngine::Timeline::TimelineAsset::EditorSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineAsset::EditorSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset::EditorSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimelineAsset::EditorSettings::*)()>(&TimelineAsset::EditorSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TimelineAsset::EditorSettings::*)()>(&UnityEngine::Timeline::TimelineAsset::EditorSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimelineAsset::EditorSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineAsset::EditorSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -147,24 +147,24 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FactoryFromBinder2Extensions*, "Zenject", "FactoryFromBinder2Extensions");
-// Writing MetadataGetter for method: FactoryFromBinder2Extensions::FromIFactory
+// Writing MetadataGetter for method: Zenject::FactoryFromBinder2Extensions::FromIFactory
 // Il2CppName: FromIFactory
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: FactoryFromBinder2Extensions::FromPoolableMemoryPool
+// Writing MetadataGetter for method: Zenject::FactoryFromBinder2Extensions::FromPoolableMemoryPool
 // Il2CppName: FromPoolableMemoryPool
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: FactoryFromBinder2Extensions::FromPoolableMemoryPool
+// Writing MetadataGetter for method: Zenject::FactoryFromBinder2Extensions::FromPoolableMemoryPool
 // Il2CppName: FromPoolableMemoryPool
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: FactoryFromBinder2Extensions::FromMonoPoolableMemoryPool
+// Writing MetadataGetter for method: Zenject::FactoryFromBinder2Extensions::FromMonoPoolableMemoryPool
 // Il2CppName: FromMonoPoolableMemoryPool
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: FactoryFromBinder2Extensions::FromMonoPoolableMemoryPool
+// Writing MetadataGetter for method: Zenject::FactoryFromBinder2Extensions::FromMonoPoolableMemoryPool
 // Il2CppName: FromMonoPoolableMemoryPool
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: FactoryFromBinder2Extensions::FromPoolableMemoryPool
+// Writing MetadataGetter for method: Zenject::FactoryFromBinder2Extensions::FromPoolableMemoryPool
 // Il2CppName: FromPoolableMemoryPool
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: FactoryFromBinder2Extensions::FromPoolableMemoryPool
+// Writing MetadataGetter for method: Zenject::FactoryFromBinder2Extensions::FromPoolableMemoryPool
 // Il2CppName: FromPoolableMemoryPool
 // Cannot write MetadataGetter for generic methods!

@@ -83,81 +83,81 @@ namespace GlobalNamespace {
   static_assert(sizeof(BaseMasterServerResponse) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseMasterServerResponse*, "", "BaseMasterServerResponse");
-// Writing MetadataGetter for method: BaseMasterServerResponse::get_responseId
+// Writing MetadataGetter for method: GlobalNamespace::BaseMasterServerResponse::get_responseId
 // Il2CppName: get_responseId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (BaseMasterServerResponse::*)()>(&BaseMasterServerResponse::get_responseId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (GlobalNamespace::BaseMasterServerResponse::*)()>(&GlobalNamespace::BaseMasterServerResponse::get_responseId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseMasterServerResponse*), "get_responseId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMasterServerResponse*), "get_responseId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BaseMasterServerResponse::set_responseId
+// Writing MetadataGetter for method: GlobalNamespace::BaseMasterServerResponse::set_responseId
 // Il2CppName: set_responseId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMasterServerResponse::*)(uint)>(&BaseMasterServerResponse::set_responseId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseMasterServerResponse::*)(uint)>(&GlobalNamespace::BaseMasterServerResponse::set_responseId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseMasterServerResponse*), "set_responseId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMasterServerResponse*), "set_responseId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: BaseMasterServerResponse::get_resultCode
+// Writing MetadataGetter for method: GlobalNamespace::BaseMasterServerResponse::get_resultCode
 // Il2CppName: get_resultCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (BaseMasterServerResponse::*)()>(&BaseMasterServerResponse::get_resultCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (GlobalNamespace::BaseMasterServerResponse::*)()>(&GlobalNamespace::BaseMasterServerResponse::get_resultCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseMasterServerResponse*), "get_resultCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMasterServerResponse*), "get_resultCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BaseMasterServerResponse::get_resultCodeString
+// Writing MetadataGetter for method: GlobalNamespace::BaseMasterServerResponse::get_resultCodeString
 // Il2CppName: get_resultCodeString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BaseMasterServerResponse::*)()>(&BaseMasterServerResponse::get_resultCodeString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BaseMasterServerResponse::*)()>(&GlobalNamespace::BaseMasterServerResponse::get_resultCodeString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseMasterServerResponse*), "get_resultCodeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMasterServerResponse*), "get_resultCodeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BaseMasterServerResponse::Serialize
+// Writing MetadataGetter for method: GlobalNamespace::BaseMasterServerResponse::Serialize
 // Il2CppName: Serialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMasterServerResponse::*)(LiteNetLib::Utils::NetDataWriter*)>(&BaseMasterServerResponse::Serialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseMasterServerResponse::*)(LiteNetLib::Utils::NetDataWriter*)>(&GlobalNamespace::BaseMasterServerResponse::Serialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseMasterServerResponse*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMasterServerResponse*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
   }
 };
-// Writing MetadataGetter for method: BaseMasterServerResponse::Deserialize
+// Writing MetadataGetter for method: GlobalNamespace::BaseMasterServerResponse::Deserialize
 // Il2CppName: Deserialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMasterServerResponse::*)(LiteNetLib::Utils::NetDataReader*)>(&BaseMasterServerResponse::Deserialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseMasterServerResponse::*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::BaseMasterServerResponse::Deserialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseMasterServerResponse*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMasterServerResponse*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
   }
 };
-// Writing MetadataGetter for method: BaseMasterServerResponse::Release
+// Writing MetadataGetter for method: GlobalNamespace::BaseMasterServerResponse::Release
 // Il2CppName: Release
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMasterServerResponse::*)()>(&BaseMasterServerResponse::Release)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseMasterServerResponse::*)()>(&GlobalNamespace::BaseMasterServerResponse::Release)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseMasterServerResponse*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMasterServerResponse*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BaseMasterServerResponse::MasterServer_IMasterServerResponse_WithResponseId
+// Writing MetadataGetter for method: GlobalNamespace::BaseMasterServerResponse::MasterServer_IMasterServerResponse_WithResponseId
 // Il2CppName: MasterServer.IMasterServerResponse.WithResponseId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::IMasterServerResponse* (BaseMasterServerResponse::*)(uint)>(&BaseMasterServerResponse::MasterServer_IMasterServerResponse_WithResponseId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::IMasterServerResponse* (GlobalNamespace::BaseMasterServerResponse::*)(uint)>(&GlobalNamespace::BaseMasterServerResponse::MasterServer_IMasterServerResponse_WithResponseId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseMasterServerResponse*), "MasterServer.IMasterServerResponse.WithResponseId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMasterServerResponse*), "MasterServer.IMasterServerResponse.WithResponseId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
   }
 };
-// Writing MetadataGetter for method: BaseMasterServerResponse::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BaseMasterServerResponse::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMasterServerResponse::*)()>(&BaseMasterServerResponse::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseMasterServerResponse::*)()>(&GlobalNamespace::BaseMasterServerResponse::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseMasterServerResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMasterServerResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseMasterServerResponse::*)()>(&BaseMasterServerResponse::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseMasterServerResponse::*)()>(&GlobalNamespace::BaseMasterServerResponse::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseMasterServerResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMasterServerResponse*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

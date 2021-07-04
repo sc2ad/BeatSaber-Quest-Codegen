@@ -44,51 +44,51 @@ namespace Mono::Security::Cryptography {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::CryptoConvert*, "Mono.Security.Cryptography", "CryptoConvert");
-// Writing MetadataGetter for method: CryptoConvert::ToInt32LE
+// Writing MetadataGetter for method: Mono::Security::Cryptography::CryptoConvert::ToInt32LE
 // Il2CppName: ToInt32LE
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint8_t>*, int)>(&CryptoConvert::ToInt32LE)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint8_t>*, int)>(&Mono::Security::Cryptography::CryptoConvert::ToInt32LE)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CryptoConvert*), "ToInt32LE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::CryptoConvert*), "ToInt32LE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: CryptoConvert::ToUInt32LE
+// Writing MetadataGetter for method: Mono::Security::Cryptography::CryptoConvert::ToUInt32LE
 // Il2CppName: ToUInt32LE
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Array<uint8_t>*, int)>(&CryptoConvert::ToUInt32LE)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Array<uint8_t>*, int)>(&Mono::Security::Cryptography::CryptoConvert::ToUInt32LE)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CryptoConvert*), "ToUInt32LE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::CryptoConvert*), "ToUInt32LE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: CryptoConvert::Trim
+// Writing MetadataGetter for method: Mono::Security::Cryptography::CryptoConvert::Trim
 // Il2CppName: Trim
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*)>(&CryptoConvert::Trim)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*)>(&Mono::Security::Cryptography::CryptoConvert::Trim)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CryptoConvert*), "Trim", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::CryptoConvert*), "Trim", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: CryptoConvert::FromCapiPrivateKeyBlob
+// Writing MetadataGetter for method: Mono::Security::Cryptography::CryptoConvert::FromCapiPrivateKeyBlob
 // Il2CppName: FromCapiPrivateKeyBlob
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RSA* (*)(::Array<uint8_t>*)>(&CryptoConvert::FromCapiPrivateKeyBlob)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RSA* (*)(::Array<uint8_t>*)>(&Mono::Security::Cryptography::CryptoConvert::FromCapiPrivateKeyBlob)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CryptoConvert*), "FromCapiPrivateKeyBlob", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::CryptoConvert*), "FromCapiPrivateKeyBlob", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };
-// Writing MetadataGetter for method: CryptoConvert::FromCapiPrivateKeyBlob
+// Writing MetadataGetter for method: Mono::Security::Cryptography::CryptoConvert::FromCapiPrivateKeyBlob
 // Il2CppName: FromCapiPrivateKeyBlob
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RSA* (*)(::Array<uint8_t>*, int)>(&CryptoConvert::FromCapiPrivateKeyBlob)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RSA* (*)(::Array<uint8_t>*, int)>(&Mono::Security::Cryptography::CryptoConvert::FromCapiPrivateKeyBlob)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CryptoConvert*), "FromCapiPrivateKeyBlob", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::CryptoConvert*), "FromCapiPrivateKeyBlob", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: CryptoConvert::ToHex
+// Writing MetadataGetter for method: Mono::Security::Cryptography::CryptoConvert::ToHex
 // Il2CppName: ToHex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<uint8_t>*)>(&CryptoConvert::ToHex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<uint8_t>*)>(&Mono::Security::Cryptography::CryptoConvert::ToHex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CryptoConvert*), "ToHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::CryptoConvert*), "ToHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
   }
 };

@@ -97,109 +97,109 @@ namespace GlobalNamespace {
   static_assert(sizeof(PracticeSettings) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PracticeSettings*, "", "PracticeSettings");
-// Writing MetadataGetter for method: PracticeSettings::get_startSongTime
+// Writing MetadataGetter for method: GlobalNamespace::PracticeSettings::get_startSongTime
 // Il2CppName: get_startSongTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (PracticeSettings::*)()>(&PracticeSettings::get_startSongTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::PracticeSettings::*)()>(&GlobalNamespace::PracticeSettings::get_startSongTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PracticeSettings*), "get_startSongTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PracticeSettings*), "get_startSongTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PracticeSettings::set_startSongTime
+// Writing MetadataGetter for method: GlobalNamespace::PracticeSettings::set_startSongTime
 // Il2CppName: set_startSongTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PracticeSettings::*)(float)>(&PracticeSettings::set_startSongTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PracticeSettings::*)(float)>(&GlobalNamespace::PracticeSettings::set_startSongTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PracticeSettings*), "set_startSongTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PracticeSettings*), "set_startSongTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: PracticeSettings::get_songSpeedMul
+// Writing MetadataGetter for method: GlobalNamespace::PracticeSettings::get_songSpeedMul
 // Il2CppName: get_songSpeedMul
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (PracticeSettings::*)()>(&PracticeSettings::get_songSpeedMul)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::PracticeSettings::*)()>(&GlobalNamespace::PracticeSettings::get_songSpeedMul)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PracticeSettings*), "get_songSpeedMul", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PracticeSettings*), "get_songSpeedMul", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PracticeSettings::set_songSpeedMul
+// Writing MetadataGetter for method: GlobalNamespace::PracticeSettings::set_songSpeedMul
 // Il2CppName: set_songSpeedMul
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PracticeSettings::*)(float)>(&PracticeSettings::set_songSpeedMul)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PracticeSettings::*)(float)>(&GlobalNamespace::PracticeSettings::set_songSpeedMul)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PracticeSettings*), "set_songSpeedMul", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PracticeSettings*), "set_songSpeedMul", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: PracticeSettings::get_startInAdvanceAndClearNotes
+// Writing MetadataGetter for method: GlobalNamespace::PracticeSettings::get_startInAdvanceAndClearNotes
 // Il2CppName: get_startInAdvanceAndClearNotes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PracticeSettings::*)()>(&PracticeSettings::get_startInAdvanceAndClearNotes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PracticeSettings::*)()>(&GlobalNamespace::PracticeSettings::get_startInAdvanceAndClearNotes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PracticeSettings*), "get_startInAdvanceAndClearNotes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PracticeSettings*), "get_startInAdvanceAndClearNotes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PracticeSettings::set_startInAdvanceAndClearNotes
+// Writing MetadataGetter for method: GlobalNamespace::PracticeSettings::set_startInAdvanceAndClearNotes
 // Il2CppName: set_startInAdvanceAndClearNotes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PracticeSettings::*)(bool)>(&PracticeSettings::set_startInAdvanceAndClearNotes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PracticeSettings::*)(bool)>(&GlobalNamespace::PracticeSettings::set_startInAdvanceAndClearNotes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PracticeSettings*), "set_startInAdvanceAndClearNotes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PracticeSettings*), "set_startInAdvanceAndClearNotes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: PracticeSettings::get_defaultPracticeSettings
+// Writing MetadataGetter for method: GlobalNamespace::PracticeSettings::get_defaultPracticeSettings
 // Il2CppName: get_defaultPracticeSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PracticeSettings* (*)()>(&PracticeSettings::get_defaultPracticeSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PracticeSettings* (*)()>(&GlobalNamespace::PracticeSettings::get_defaultPracticeSettings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PracticeSettings*), "get_defaultPracticeSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PracticeSettings*), "get_defaultPracticeSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PracticeSettings::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::PracticeSettings::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PracticeSettings::*)(GlobalNamespace::PracticeSettings*)>(&PracticeSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PracticeSettings::*)(GlobalNamespace::PracticeSettings*)>(&GlobalNamespace::PracticeSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PracticeSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PracticeSettings*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PracticeSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PracticeSettings*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PracticeSettings::*)(GlobalNamespace::PracticeSettings*)>(&PracticeSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PracticeSettings::*)(GlobalNamespace::PracticeSettings*)>(&GlobalNamespace::PracticeSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PracticeSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PracticeSettings*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PracticeSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PracticeSettings*>()});
   }
 };
-// Writing MetadataGetter for method: PracticeSettings::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::PracticeSettings::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PracticeSettings::*)(float, float)>(&PracticeSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PracticeSettings::*)(float, float)>(&GlobalNamespace::PracticeSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PracticeSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PracticeSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PracticeSettings::*)(float, float)>(&PracticeSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PracticeSettings::*)(float, float)>(&GlobalNamespace::PracticeSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PracticeSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PracticeSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: PracticeSettings::ResetToDefault
+// Writing MetadataGetter for method: GlobalNamespace::PracticeSettings::ResetToDefault
 // Il2CppName: ResetToDefault
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PracticeSettings::*)()>(&PracticeSettings::ResetToDefault)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PracticeSettings::*)()>(&GlobalNamespace::PracticeSettings::ResetToDefault)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PracticeSettings*), "ResetToDefault", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PracticeSettings*), "ResetToDefault", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PracticeSettings::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::PracticeSettings::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PracticeSettings::*)()>(&PracticeSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PracticeSettings::*)()>(&GlobalNamespace::PracticeSettings::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PracticeSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PracticeSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PracticeSettings::*)()>(&PracticeSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PracticeSettings::*)()>(&GlobalNamespace::PracticeSettings::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PracticeSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PracticeSettings*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

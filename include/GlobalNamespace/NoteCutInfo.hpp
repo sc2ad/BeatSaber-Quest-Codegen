@@ -142,41 +142,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteCutInfo) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutInfo, "", "NoteCutInfo");
-// Writing MetadataGetter for method: NoteCutInfo::get_allIsOK
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutInfo::get_allIsOK
 // Il2CppName: get_allIsOK
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NoteCutInfo::*)()>(&NoteCutInfo::get_allIsOK)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::NoteCutInfo::*)()>(&GlobalNamespace::NoteCutInfo::get_allIsOK)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteCutInfo), "get_allIsOK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutInfo), "get_allIsOK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NoteCutInfo::get_allExceptSaberTypeIsOK
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutInfo::get_allExceptSaberTypeIsOK
 // Il2CppName: get_allExceptSaberTypeIsOK
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NoteCutInfo::*)()>(&NoteCutInfo::get_allExceptSaberTypeIsOK)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::NoteCutInfo::*)()>(&GlobalNamespace::NoteCutInfo::get_allExceptSaberTypeIsOK)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteCutInfo), "get_allExceptSaberTypeIsOK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutInfo), "get_allExceptSaberTypeIsOK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NoteCutInfo::get_failReason
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutInfo::get_failReason
 // Il2CppName: get_failReason
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteCutInfo::FailReason (NoteCutInfo::*)()>(&NoteCutInfo::get_failReason)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteCutInfo::FailReason (GlobalNamespace::NoteCutInfo::*)()>(&GlobalNamespace::NoteCutInfo::get_failReason)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteCutInfo), "get_failReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutInfo), "get_failReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NoteCutInfo::NoteCutInfo
+// Writing MetadataGetter for method: GlobalNamespace::NoteCutInfo::NoteCutInfo
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteCutInfo::*)(bool, bool, bool, bool, float, UnityEngine::Vector3, GlobalNamespace::SaberType, float, float, UnityEngine::Vector3, UnityEngine::Vector3, float, float, GlobalNamespace::ISaberSwingRatingCounter*)>(&NoteCutInfo::NoteCutInfo<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteCutInfo::*)(bool, bool, bool, bool, float, UnityEngine::Vector3, GlobalNamespace::SaberType, float, float, UnityEngine::Vector3, UnityEngine::Vector3, float, float, GlobalNamespace::ISaberSwingRatingCounter*)>(&GlobalNamespace::NoteCutInfo::NoteCutInfo<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteCutInfo), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SaberType>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ISaberSwingRatingCounter*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutInfo), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SaberType>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ISaberSwingRatingCounter*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NoteCutInfo::*)(bool, bool, bool, bool, float, UnityEngine::Vector3, GlobalNamespace::SaberType, float, float, UnityEngine::Vector3, UnityEngine::Vector3, float, float, GlobalNamespace::ISaberSwingRatingCounter*)>(&NoteCutInfo::NoteCutInfo<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteCutInfo::*)(bool, bool, bool, bool, float, UnityEngine::Vector3, GlobalNamespace::SaberType, float, float, UnityEngine::Vector3, UnityEngine::Vector3, float, float, GlobalNamespace::ISaberSwingRatingCounter*)>(&GlobalNamespace::NoteCutInfo::NoteCutInfo<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NoteCutInfo), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SaberType>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ISaberSwingRatingCounter*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutInfo), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SaberType>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ISaberSwingRatingCounter*>()});
   }
 };

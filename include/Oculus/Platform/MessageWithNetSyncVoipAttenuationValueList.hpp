@@ -47,33 +47,33 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithNetSyncVoipAttenuationValueList
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList*, "Oculus.Platform", "MessageWithNetSyncVoipAttenuationValueList");
-// Writing MetadataGetter for method: MessageWithNetSyncVoipAttenuationValueList::GetDataFromMessage
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::NetSyncVoipAttenuationValueList* (MessageWithNetSyncVoipAttenuationValueList::*)(System::IntPtr)>(&MessageWithNetSyncVoipAttenuationValueList::GetDataFromMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::NetSyncVoipAttenuationValueList* (Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList::*)(System::IntPtr)>(&Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList::GetDataFromMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithNetSyncVoipAttenuationValueList*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithNetSyncVoipAttenuationValueList::New_ctor
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithNetSyncVoipAttenuationValueList::*)(System::IntPtr)>(&MessageWithNetSyncVoipAttenuationValueList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList::*)(System::IntPtr)>(&Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithNetSyncVoipAttenuationValueList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MessageWithNetSyncVoipAttenuationValueList::*)(System::IntPtr)>(&MessageWithNetSyncVoipAttenuationValueList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList::*)(System::IntPtr)>(&Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithNetSyncVoipAttenuationValueList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MessageWithNetSyncVoipAttenuationValueList::GetNetSyncVoipAttenuationValueList
+// Writing MetadataGetter for method: Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList::GetNetSyncVoipAttenuationValueList
 // Il2CppName: GetNetSyncVoipAttenuationValueList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::NetSyncVoipAttenuationValueList* (MessageWithNetSyncVoipAttenuationValueList::*)()>(&MessageWithNetSyncVoipAttenuationValueList::GetNetSyncVoipAttenuationValueList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::NetSyncVoipAttenuationValueList* (Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList::*)()>(&Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList::GetNetSyncVoipAttenuationValueList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MessageWithNetSyncVoipAttenuationValueList*), "GetNetSyncVoipAttenuationValueList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList*), "GetNetSyncVoipAttenuationValueList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

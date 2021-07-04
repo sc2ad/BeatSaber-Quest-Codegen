@@ -67,33 +67,33 @@ namespace UnityEngine::ProBuilder {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SelectionPickerRenderer::$$c*, "UnityEngine.ProBuilder", "SelectionPickerRenderer/<>c");
-// Writing MetadataGetter for method: SelectionPickerRenderer::$$c::_cctor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPickerRenderer::$$c::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SelectionPickerRenderer::$$c::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::ProBuilder::SelectionPickerRenderer::$$c::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectionPickerRenderer::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SelectionPickerRenderer::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SelectionPickerRenderer::$$c::$GenerateFacePickingObjects$b__24_0
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPickerRenderer::$$c::$GenerateFacePickingObjects$b__24_0
 // Il2CppName: <GenerateFacePickingObjects>b__24_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<int>* (SelectionPickerRenderer::$$c::*)(UnityEngine::ProBuilder::Face*)>(&SelectionPickerRenderer::$$c::$GenerateFacePickingObjects$b__24_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<int>* (UnityEngine::ProBuilder::SelectionPickerRenderer::$$c::*)(UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::SelectionPickerRenderer::$$c::$GenerateFacePickingObjects$b__24_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectionPickerRenderer::$$c*), "<GenerateFacePickingObjects>b__24_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SelectionPickerRenderer::$$c*), "<GenerateFacePickingObjects>b__24_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
   }
 };
-// Writing MetadataGetter for method: SelectionPickerRenderer::$$c::New_ctor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPickerRenderer::$$c::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectionPickerRenderer::$$c::*)()>(&SelectionPickerRenderer::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::SelectionPickerRenderer::$$c::*)()>(&UnityEngine::ProBuilder::SelectionPickerRenderer::$$c::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectionPickerRenderer::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SelectionPickerRenderer::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectionPickerRenderer::$$c::*)()>(&SelectionPickerRenderer::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::SelectionPickerRenderer::$$c::*)()>(&UnityEngine::ProBuilder::SelectionPickerRenderer::$$c::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectionPickerRenderer::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SelectionPickerRenderer::$$c*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

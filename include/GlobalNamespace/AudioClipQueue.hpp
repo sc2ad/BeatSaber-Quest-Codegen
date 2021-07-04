@@ -83,41 +83,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(AudioClipQueue) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioClipQueue*, "", "AudioClipQueue");
-// Writing MetadataGetter for method: AudioClipQueue::Awake
+// Writing MetadataGetter for method: GlobalNamespace::AudioClipQueue::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClipQueue::*)()>(&AudioClipQueue::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioClipQueue::*)()>(&GlobalNamespace::AudioClipQueue::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClipQueue*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipQueue*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AudioClipQueue::Update
+// Writing MetadataGetter for method: GlobalNamespace::AudioClipQueue::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClipQueue::*)()>(&AudioClipQueue::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioClipQueue::*)()>(&GlobalNamespace::AudioClipQueue::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClipQueue*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipQueue*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AudioClipQueue::PlayAudioClipWithDelay
+// Writing MetadataGetter for method: GlobalNamespace::AudioClipQueue::PlayAudioClipWithDelay
 // Il2CppName: PlayAudioClipWithDelay
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClipQueue::*)(UnityEngine::AudioClip*, float)>(&AudioClipQueue::PlayAudioClipWithDelay)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioClipQueue::*)(UnityEngine::AudioClip*, float)>(&GlobalNamespace::AudioClipQueue::PlayAudioClipWithDelay)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClipQueue*), "PlayAudioClipWithDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipQueue*), "PlayAudioClipWithDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: AudioClipQueue::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::AudioClipQueue::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClipQueue::*)()>(&AudioClipQueue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioClipQueue::*)()>(&GlobalNamespace::AudioClipQueue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClipQueue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipQueue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (AudioClipQueue::*)()>(&AudioClipQueue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioClipQueue::*)()>(&GlobalNamespace::AudioClipQueue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioClipQueue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipQueue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -94,123 +94,123 @@ namespace UnityEngine::Timeline {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeUtility*, "UnityEngine.Timeline", "TimeUtility");
-// Writing MetadataGetter for method: TimeUtility::ValidateFrameRate
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimeUtility::ValidateFrameRate
 // Il2CppName: ValidateFrameRate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(double)>(&TimeUtility::ValidateFrameRate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(double)>(&UnityEngine::Timeline::TimeUtility::ValidateFrameRate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeUtility*), "ValidateFrameRate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeUtility*), "ValidateFrameRate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimeUtility::ToFrames
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimeUtility::ToFrames
 // Il2CppName: ToFrames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(double, double)>(&TimeUtility::ToFrames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(double, double)>(&UnityEngine::Timeline::TimeUtility::ToFrames)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeUtility*), "ToFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeUtility*), "ToFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimeUtility::ToExactFrames
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimeUtility::ToExactFrames
 // Il2CppName: ToExactFrames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, double)>(&TimeUtility::ToExactFrames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, double)>(&UnityEngine::Timeline::TimeUtility::ToExactFrames)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeUtility*), "ToExactFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeUtility*), "ToExactFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimeUtility::FromFrames
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimeUtility::FromFrames
 // Il2CppName: FromFrames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(int, double)>(&TimeUtility::FromFrames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(int, double)>(&UnityEngine::Timeline::TimeUtility::FromFrames)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeUtility*), "FromFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeUtility*), "FromFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimeUtility::FromFrames
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimeUtility::FromFrames
 // Il2CppName: FromFrames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, double)>(&TimeUtility::FromFrames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, double)>(&UnityEngine::Timeline::TimeUtility::FromFrames)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeUtility*), "FromFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeUtility*), "FromFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimeUtility::OnFrameBoundary
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimeUtility::OnFrameBoundary
 // Il2CppName: OnFrameBoundary
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(double, double)>(&TimeUtility::OnFrameBoundary)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(double, double)>(&UnityEngine::Timeline::TimeUtility::OnFrameBoundary)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeUtility*), "OnFrameBoundary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeUtility*), "OnFrameBoundary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimeUtility::GetEpsilon
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimeUtility::GetEpsilon
 // Il2CppName: GetEpsilon
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, double)>(&TimeUtility::GetEpsilon)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, double)>(&UnityEngine::Timeline::TimeUtility::GetEpsilon)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeUtility*), "GetEpsilon", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeUtility*), "GetEpsilon", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimeUtility::OnFrameBoundary
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimeUtility::OnFrameBoundary
 // Il2CppName: OnFrameBoundary
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(double, double, double)>(&TimeUtility::OnFrameBoundary)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(double, double, double)>(&UnityEngine::Timeline::TimeUtility::OnFrameBoundary)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeUtility*), "OnFrameBoundary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeUtility*), "OnFrameBoundary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimeUtility::RoundToFrame
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimeUtility::RoundToFrame
 // Il2CppName: RoundToFrame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, double)>(&TimeUtility::RoundToFrame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, double)>(&UnityEngine::Timeline::TimeUtility::RoundToFrame)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeUtility*), "RoundToFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeUtility*), "RoundToFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimeUtility::TimeAsFrames
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimeUtility::TimeAsFrames
 // Il2CppName: TimeAsFrames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(double, double, ::Il2CppString*)>(&TimeUtility::TimeAsFrames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(double, double, ::Il2CppString*)>(&UnityEngine::Timeline::TimeUtility::TimeAsFrames)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeUtility*), "TimeAsFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeUtility*), "TimeAsFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TimeUtility::TimeAsTimeCode
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimeUtility::TimeAsTimeCode
 // Il2CppName: TimeAsTimeCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(double, double, ::Il2CppString*)>(&TimeUtility::TimeAsTimeCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(double, double, ::Il2CppString*)>(&UnityEngine::Timeline::TimeUtility::TimeAsTimeCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeUtility*), "TimeAsTimeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeUtility*), "TimeAsTimeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TimeUtility::ParseTimeCode
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimeUtility::ParseTimeCode
 // Il2CppName: ParseTimeCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(::Il2CppString*, double, double)>(&TimeUtility::ParseTimeCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(::Il2CppString*, double, double)>(&UnityEngine::Timeline::TimeUtility::ParseTimeCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeUtility*), "ParseTimeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeUtility*), "ParseTimeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TimeUtility::GetAnimationClipLength
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimeUtility::GetAnimationClipLength
 // Il2CppName: GetAnimationClipLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(UnityEngine::AnimationClip*)>(&TimeUtility::GetAnimationClipLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(UnityEngine::AnimationClip*)>(&UnityEngine::Timeline::TimeUtility::GetAnimationClipLength)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeUtility*), "GetAnimationClipLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeUtility*), "GetAnimationClipLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>()});
   }
 };
-// Writing MetadataGetter for method: TimeUtility::RemoveChar
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimeUtility::RemoveChar
 // Il2CppName: RemoveChar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, System::Func_2<::Il2CppChar, bool>*)>(&TimeUtility::RemoveChar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, System::Func_2<::Il2CppChar, bool>*)>(&UnityEngine::Timeline::TimeUtility::RemoveChar)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeUtility*), "RemoveChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_2<::Il2CppChar, bool>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeUtility*), "RemoveChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_2<::Il2CppChar, bool>*>()});
   }
 };
-// Writing MetadataGetter for method: TimeUtility::_cctor
+// Writing MetadataGetter for method: UnityEngine::Timeline::TimeUtility::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TimeUtility::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Timeline::TimeUtility::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimeUtility*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeUtility*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

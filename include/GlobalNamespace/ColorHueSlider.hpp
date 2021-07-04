@@ -102,73 +102,73 @@ namespace GlobalNamespace {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorHueSlider*, "", "ColorHueSlider");
-// Writing MetadataGetter for method: ColorHueSlider::add_colorHueDidChangeEvent
+// Writing MetadataGetter for method: GlobalNamespace::ColorHueSlider::add_colorHueDidChangeEvent
 // Il2CppName: add_colorHueDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorHueSlider::*)(System::Action_3<GlobalNamespace::ColorHueSlider*, float, GlobalNamespace::ColorChangeUIEventType>*)>(&ColorHueSlider::add_colorHueDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorHueSlider::*)(System::Action_3<GlobalNamespace::ColorHueSlider*, float, GlobalNamespace::ColorChangeUIEventType>*)>(&GlobalNamespace::ColorHueSlider::add_colorHueDidChangeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorHueSlider*), "add_colorHueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<GlobalNamespace::ColorHueSlider*, float, GlobalNamespace::ColorChangeUIEventType>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorHueSlider*), "add_colorHueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<GlobalNamespace::ColorHueSlider*, float, GlobalNamespace::ColorChangeUIEventType>*>()});
   }
 };
-// Writing MetadataGetter for method: ColorHueSlider::remove_colorHueDidChangeEvent
+// Writing MetadataGetter for method: GlobalNamespace::ColorHueSlider::remove_colorHueDidChangeEvent
 // Il2CppName: remove_colorHueDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorHueSlider::*)(System::Action_3<GlobalNamespace::ColorHueSlider*, float, GlobalNamespace::ColorChangeUIEventType>*)>(&ColorHueSlider::remove_colorHueDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorHueSlider::*)(System::Action_3<GlobalNamespace::ColorHueSlider*, float, GlobalNamespace::ColorChangeUIEventType>*)>(&GlobalNamespace::ColorHueSlider::remove_colorHueDidChangeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorHueSlider*), "remove_colorHueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<GlobalNamespace::ColorHueSlider*, float, GlobalNamespace::ColorChangeUIEventType>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorHueSlider*), "remove_colorHueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<GlobalNamespace::ColorHueSlider*, float, GlobalNamespace::ColorChangeUIEventType>*>()});
   }
 };
-// Writing MetadataGetter for method: ColorHueSlider::HandleNormalizedValueDidChange
+// Writing MetadataGetter for method: GlobalNamespace::ColorHueSlider::HandleNormalizedValueDidChange
 // Il2CppName: HandleNormalizedValueDidChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorHueSlider::*)(HMUI::CircleSlider*, float)>(&ColorHueSlider::HandleNormalizedValueDidChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorHueSlider::*)(HMUI::CircleSlider*, float)>(&GlobalNamespace::ColorHueSlider::HandleNormalizedValueDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorHueSlider*), "HandleNormalizedValueDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::CircleSlider*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorHueSlider*), "HandleNormalizedValueDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::CircleSlider*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: ColorHueSlider::Awake
+// Writing MetadataGetter for method: GlobalNamespace::ColorHueSlider::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorHueSlider::*)()>(&ColorHueSlider::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorHueSlider::*)()>(&GlobalNamespace::ColorHueSlider::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorHueSlider*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorHueSlider*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ColorHueSlider::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::ColorHueSlider::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorHueSlider::*)()>(&ColorHueSlider::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorHueSlider::*)()>(&GlobalNamespace::ColorHueSlider::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorHueSlider*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorHueSlider*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ColorHueSlider::UpdateVisuals
+// Writing MetadataGetter for method: GlobalNamespace::ColorHueSlider::UpdateVisuals
 // Il2CppName: UpdateVisuals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorHueSlider::*)()>(&ColorHueSlider::UpdateVisuals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorHueSlider::*)()>(&GlobalNamespace::ColorHueSlider::UpdateVisuals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorHueSlider*), "UpdateVisuals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorHueSlider*), "UpdateVisuals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ColorHueSlider::OnPointerUp
+// Writing MetadataGetter for method: GlobalNamespace::ColorHueSlider::OnPointerUp
 // Il2CppName: OnPointerUp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorHueSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&ColorHueSlider::OnPointerUp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorHueSlider::*)(UnityEngine::EventSystems::PointerEventData*)>(&GlobalNamespace::ColorHueSlider::OnPointerUp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorHueSlider*), "OnPointerUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorHueSlider*), "OnPointerUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
   }
 };
-// Writing MetadataGetter for method: ColorHueSlider::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::ColorHueSlider::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorHueSlider::*)()>(&ColorHueSlider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorHueSlider::*)()>(&GlobalNamespace::ColorHueSlider::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorHueSlider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorHueSlider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ColorHueSlider::*)()>(&ColorHueSlider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorHueSlider::*)()>(&GlobalNamespace::ColorHueSlider::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ColorHueSlider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorHueSlider*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -65,41 +65,41 @@ namespace System::Runtime::Serialization {
   static_assert(sizeof(ValueTypeFixupInfo) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ValueTypeFixupInfo*, "System.Runtime.Serialization", "ValueTypeFixupInfo");
-// Writing MetadataGetter for method: ValueTypeFixupInfo::New_ctor
+// Writing MetadataGetter for method: System::Runtime::Serialization::ValueTypeFixupInfo::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ValueTypeFixupInfo::*)(int64_t, System::Reflection::FieldInfo*, ::Array<int>*)>(&ValueTypeFixupInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ValueTypeFixupInfo::*)(int64_t, System::Reflection::FieldInfo*, ::Array<int>*)>(&System::Runtime::Serialization::ValueTypeFixupInfo::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ValueTypeFixupInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::FieldInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ValueTypeFixupInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::FieldInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ValueTypeFixupInfo::*)(int64_t, System::Reflection::FieldInfo*, ::Array<int>*)>(&ValueTypeFixupInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ValueTypeFixupInfo::*)(int64_t, System::Reflection::FieldInfo*, ::Array<int>*)>(&System::Runtime::Serialization::ValueTypeFixupInfo::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ValueTypeFixupInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::FieldInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ValueTypeFixupInfo*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::FieldInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
   }
 };
-// Writing MetadataGetter for method: ValueTypeFixupInfo::get_ContainerID
+// Writing MetadataGetter for method: System::Runtime::Serialization::ValueTypeFixupInfo::get_ContainerID
 // Il2CppName: get_ContainerID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (ValueTypeFixupInfo::*)()>(&ValueTypeFixupInfo::get_ContainerID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Runtime::Serialization::ValueTypeFixupInfo::*)()>(&System::Runtime::Serialization::ValueTypeFixupInfo::get_ContainerID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ValueTypeFixupInfo*), "get_ContainerID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ValueTypeFixupInfo*), "get_ContainerID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ValueTypeFixupInfo::get_ParentField
+// Writing MetadataGetter for method: System::Runtime::Serialization::ValueTypeFixupInfo::get_ParentField
 // Il2CppName: get_ParentField
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::FieldInfo* (ValueTypeFixupInfo::*)()>(&ValueTypeFixupInfo::get_ParentField)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::FieldInfo* (System::Runtime::Serialization::ValueTypeFixupInfo::*)()>(&System::Runtime::Serialization::ValueTypeFixupInfo::get_ParentField)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ValueTypeFixupInfo*), "get_ParentField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ValueTypeFixupInfo*), "get_ParentField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ValueTypeFixupInfo::get_ParentIndex
+// Writing MetadataGetter for method: System::Runtime::Serialization::ValueTypeFixupInfo::get_ParentIndex
 // Il2CppName: get_ParentIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (ValueTypeFixupInfo::*)()>(&ValueTypeFixupInfo::get_ParentIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (System::Runtime::Serialization::ValueTypeFixupInfo::*)()>(&System::Runtime::Serialization::ValueTypeFixupInfo::get_ParentIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ValueTypeFixupInfo*), "get_ParentIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ValueTypeFixupInfo*), "get_ParentIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

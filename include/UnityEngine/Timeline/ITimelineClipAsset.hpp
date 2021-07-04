@@ -28,11 +28,11 @@ namespace UnityEngine::Timeline {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ITimelineClipAsset*, "UnityEngine.Timeline", "ITimelineClipAsset");
-// Writing MetadataGetter for method: ITimelineClipAsset::get_clipCaps
+// Writing MetadataGetter for method: UnityEngine::Timeline::ITimelineClipAsset::get_clipCaps
 // Il2CppName: get_clipCaps
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::ClipCaps (ITimelineClipAsset::*)()>(&ITimelineClipAsset::get_clipCaps)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::ClipCaps (UnityEngine::Timeline::ITimelineClipAsset::*)()>(&UnityEngine::Timeline::ITimelineClipAsset::get_clipCaps)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ITimelineClipAsset*), "get_clipCaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ITimelineClipAsset*), "get_clipCaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

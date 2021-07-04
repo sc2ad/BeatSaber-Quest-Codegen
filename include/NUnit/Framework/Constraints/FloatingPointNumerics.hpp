@@ -34,19 +34,19 @@ namespace NUnit::Framework::Constraints {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::FloatingPointNumerics*, "NUnit.Framework.Constraints", "FloatingPointNumerics");
-// Writing MetadataGetter for method: FloatingPointNumerics::AreAlmostEqualUlps
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::FloatingPointNumerics::AreAlmostEqualUlps
 // Il2CppName: AreAlmostEqualUlps
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(float, float, int)>(&FloatingPointNumerics::AreAlmostEqualUlps)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(float, float, int)>(&NUnit::Framework::Constraints::FloatingPointNumerics::AreAlmostEqualUlps)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FloatingPointNumerics*), "AreAlmostEqualUlps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::FloatingPointNumerics*), "AreAlmostEqualUlps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: FloatingPointNumerics::AreAlmostEqualUlps
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::FloatingPointNumerics::AreAlmostEqualUlps
 // Il2CppName: AreAlmostEqualUlps
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(double, double, int64_t)>(&FloatingPointNumerics::AreAlmostEqualUlps)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(double, double, int64_t)>(&NUnit::Framework::Constraints::FloatingPointNumerics::AreAlmostEqualUlps)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(FloatingPointNumerics*), "AreAlmostEqualUlps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::FloatingPointNumerics*), "AreAlmostEqualUlps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
   }
 };

@@ -28,11 +28,11 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMockPlayerScoreCalculator*, "", "IMockPlayerScoreCalculator");
-// Writing MetadataGetter for method: IMockPlayerScoreCalculator::GetScoreForNote
+// Writing MetadataGetter for method: GlobalNamespace::IMockPlayerScoreCalculator::GetScoreForNote
 // Il2CppName: GetScoreForNote
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (IMockPlayerScoreCalculator::*)(GlobalNamespace::MockNoteData*)>(&IMockPlayerScoreCalculator::GetScoreForNote)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::IMockPlayerScoreCalculator::*)(GlobalNamespace::MockNoteData*)>(&GlobalNamespace::IMockPlayerScoreCalculator::GetScoreForNote)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IMockPlayerScoreCalculator*), "GetScoreForNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockNoteData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMockPlayerScoreCalculator*), "GetScoreForNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockNoteData*>()});
   }
 };

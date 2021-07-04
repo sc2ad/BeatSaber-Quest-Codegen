@@ -79,41 +79,41 @@ namespace HMUI {
   static_assert(sizeof(UIKeyboardKey) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::UIKeyboardKey*, "HMUI", "UIKeyboardKey");
-// Writing MetadataGetter for method: UIKeyboardKey::get_keyCode
+// Writing MetadataGetter for method: HMUI::UIKeyboardKey::get_keyCode
 // Il2CppName: get_keyCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::KeyCode (UIKeyboardKey::*)()>(&UIKeyboardKey::get_keyCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::KeyCode (HMUI::UIKeyboardKey::*)()>(&HMUI::UIKeyboardKey::get_keyCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UIKeyboardKey*), "get_keyCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::UIKeyboardKey*), "get_keyCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UIKeyboardKey::Awake
+// Writing MetadataGetter for method: HMUI::UIKeyboardKey::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboardKey::*)()>(&UIKeyboardKey::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::UIKeyboardKey::*)()>(&HMUI::UIKeyboardKey::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UIKeyboardKey*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::UIKeyboardKey*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UIKeyboardKey::OnValidate
+// Writing MetadataGetter for method: HMUI::UIKeyboardKey::OnValidate
 // Il2CppName: OnValidate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboardKey::*)()>(&UIKeyboardKey::OnValidate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::UIKeyboardKey::*)()>(&HMUI::UIKeyboardKey::OnValidate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UIKeyboardKey*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::UIKeyboardKey*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: UIKeyboardKey::New_ctor
+// Writing MetadataGetter for method: HMUI::UIKeyboardKey::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboardKey::*)()>(&UIKeyboardKey::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::UIKeyboardKey::*)()>(&HMUI::UIKeyboardKey::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UIKeyboardKey*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::UIKeyboardKey*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UIKeyboardKey::*)()>(&UIKeyboardKey::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::UIKeyboardKey::*)()>(&HMUI::UIKeyboardKey::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UIKeyboardKey*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(HMUI::UIKeyboardKey*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

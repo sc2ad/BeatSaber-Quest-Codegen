@@ -111,81 +111,81 @@ namespace GlobalNamespace {
   static_assert(sizeof(SelectLanguageViewController) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLanguageViewController*, "", "SelectLanguageViewController");
-// Writing MetadataGetter for method: SelectLanguageViewController::add_didChangeLanguageEvent
+// Writing MetadataGetter for method: GlobalNamespace::SelectLanguageViewController::add_didChangeLanguageEvent
 // Il2CppName: add_didChangeLanguageEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectLanguageViewController::*)(System::Action*)>(&SelectLanguageViewController::add_didChangeLanguageEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SelectLanguageViewController::*)(System::Action*)>(&GlobalNamespace::SelectLanguageViewController::add_didChangeLanguageEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectLanguageViewController*), "add_didChangeLanguageEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectLanguageViewController*), "add_didChangeLanguageEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: SelectLanguageViewController::remove_didChangeLanguageEvent
+// Writing MetadataGetter for method: GlobalNamespace::SelectLanguageViewController::remove_didChangeLanguageEvent
 // Il2CppName: remove_didChangeLanguageEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectLanguageViewController::*)(System::Action*)>(&SelectLanguageViewController::remove_didChangeLanguageEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SelectLanguageViewController::*)(System::Action*)>(&GlobalNamespace::SelectLanguageViewController::remove_didChangeLanguageEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectLanguageViewController*), "remove_didChangeLanguageEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectLanguageViewController*), "remove_didChangeLanguageEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: SelectLanguageViewController::add_didPressContinueButtonEvent
+// Writing MetadataGetter for method: GlobalNamespace::SelectLanguageViewController::add_didPressContinueButtonEvent
 // Il2CppName: add_didPressContinueButtonEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectLanguageViewController::*)(System::Action*)>(&SelectLanguageViewController::add_didPressContinueButtonEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SelectLanguageViewController::*)(System::Action*)>(&GlobalNamespace::SelectLanguageViewController::add_didPressContinueButtonEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectLanguageViewController*), "add_didPressContinueButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectLanguageViewController*), "add_didPressContinueButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: SelectLanguageViewController::remove_didPressContinueButtonEvent
+// Writing MetadataGetter for method: GlobalNamespace::SelectLanguageViewController::remove_didPressContinueButtonEvent
 // Il2CppName: remove_didPressContinueButtonEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectLanguageViewController::*)(System::Action*)>(&SelectLanguageViewController::remove_didPressContinueButtonEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SelectLanguageViewController::*)(System::Action*)>(&GlobalNamespace::SelectLanguageViewController::remove_didPressContinueButtonEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectLanguageViewController*), "remove_didPressContinueButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectLanguageViewController*), "remove_didPressContinueButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: SelectLanguageViewController::HandleLanguageSettingsControllerOndropDownValueDidChange
+// Writing MetadataGetter for method: GlobalNamespace::SelectLanguageViewController::HandleLanguageSettingsControllerOndropDownValueDidChange
 // Il2CppName: HandleLanguageSettingsControllerOndropDownValueDidChange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectLanguageViewController::*)()>(&SelectLanguageViewController::HandleLanguageSettingsControllerOndropDownValueDidChange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SelectLanguageViewController::*)()>(&GlobalNamespace::SelectLanguageViewController::HandleLanguageSettingsControllerOndropDownValueDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectLanguageViewController*), "HandleLanguageSettingsControllerOndropDownValueDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectLanguageViewController*), "HandleLanguageSettingsControllerOndropDownValueDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SelectLanguageViewController::$DidActivate$b__8_0
+// Writing MetadataGetter for method: GlobalNamespace::SelectLanguageViewController::$DidActivate$b__8_0
 // Il2CppName: <DidActivate>b__8_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectLanguageViewController::*)()>(&SelectLanguageViewController::$DidActivate$b__8_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SelectLanguageViewController::*)()>(&GlobalNamespace::SelectLanguageViewController::$DidActivate$b__8_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectLanguageViewController*), "<DidActivate>b__8_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectLanguageViewController*), "<DidActivate>b__8_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SelectLanguageViewController::DidActivate
+// Writing MetadataGetter for method: GlobalNamespace::SelectLanguageViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectLanguageViewController::*)(bool, bool, bool)>(&SelectLanguageViewController::DidActivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SelectLanguageViewController::*)(bool, bool, bool)>(&GlobalNamespace::SelectLanguageViewController::DidActivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectLanguageViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectLanguageViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: SelectLanguageViewController::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::SelectLanguageViewController::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectLanguageViewController::*)()>(&SelectLanguageViewController::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SelectLanguageViewController::*)()>(&GlobalNamespace::SelectLanguageViewController::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectLanguageViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectLanguageViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SelectLanguageViewController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::SelectLanguageViewController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectLanguageViewController::*)()>(&SelectLanguageViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SelectLanguageViewController::*)()>(&GlobalNamespace::SelectLanguageViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectLanguageViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectLanguageViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SelectLanguageViewController::*)()>(&SelectLanguageViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SelectLanguageViewController::*)()>(&GlobalNamespace::SelectLanguageViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SelectLanguageViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectLanguageViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -209,253 +209,253 @@ namespace System::IO {
   static_assert(sizeof(BinaryReader) == 0x47);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::BinaryReader*, "System.IO", "BinaryReader");
-// Writing MetadataGetter for method: BinaryReader::New_ctor
+// Writing MetadataGetter for method: System::IO::BinaryReader::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BinaryReader::*)(System::IO::Stream*)>(&BinaryReader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::BinaryReader::*)(System::IO::Stream*)>(&System::IO::BinaryReader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BinaryReader::*)(System::IO::Stream*)>(&BinaryReader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::BinaryReader::*)(System::IO::Stream*)>(&System::IO::BinaryReader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
   }
 };
-// Writing MetadataGetter for method: BinaryReader::New_ctor
+// Writing MetadataGetter for method: System::IO::BinaryReader::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BinaryReader::*)(System::IO::Stream*, System::Text::Encoding*)>(&BinaryReader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::BinaryReader::*)(System::IO::Stream*, System::Text::Encoding*)>(&System::IO::BinaryReader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BinaryReader::*)(System::IO::Stream*, System::Text::Encoding*)>(&BinaryReader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::BinaryReader::*)(System::IO::Stream*, System::Text::Encoding*)>(&System::IO::BinaryReader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
   }
 };
-// Writing MetadataGetter for method: BinaryReader::New_ctor
+// Writing MetadataGetter for method: System::IO::BinaryReader::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BinaryReader::*)(System::IO::Stream*, System::Text::Encoding*, bool)>(&BinaryReader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::BinaryReader::*)(System::IO::Stream*, System::Text::Encoding*, bool)>(&System::IO::BinaryReader::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BinaryReader::*)(System::IO::Stream*, System::Text::Encoding*, bool)>(&BinaryReader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::BinaryReader::*)(System::IO::Stream*, System::Text::Encoding*, bool)>(&System::IO::BinaryReader::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: BinaryReader::get_BaseStream
+// Writing MetadataGetter for method: System::IO::BinaryReader::get_BaseStream
 // Il2CppName: get_BaseStream
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (BinaryReader::*)()>(&BinaryReader::get_BaseStream)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (System::IO::BinaryReader::*)()>(&System::IO::BinaryReader::get_BaseStream)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryReader*), "get_BaseStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), "get_BaseStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BinaryReader::Close
+// Writing MetadataGetter for method: System::IO::BinaryReader::Close
 // Il2CppName: Close
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BinaryReader::*)()>(&BinaryReader::Close)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::BinaryReader::*)()>(&System::IO::BinaryReader::Close)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryReader*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BinaryReader::Dispose
+// Writing MetadataGetter for method: System::IO::BinaryReader::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BinaryReader::*)(bool)>(&BinaryReader::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::BinaryReader::*)(bool)>(&System::IO::BinaryReader::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryReader*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: BinaryReader::Dispose
+// Writing MetadataGetter for method: System::IO::BinaryReader::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BinaryReader::*)()>(&BinaryReader::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::BinaryReader::*)()>(&System::IO::BinaryReader::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryReader*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BinaryReader::Read
+// Writing MetadataGetter for method: System::IO::BinaryReader::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BinaryReader::*)()>(&BinaryReader::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::BinaryReader::*)()>(&System::IO::BinaryReader::Read)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryReader*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BinaryReader::ReadBoolean
+// Writing MetadataGetter for method: System::IO::BinaryReader::ReadBoolean
 // Il2CppName: ReadBoolean
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (BinaryReader::*)()>(&BinaryReader::ReadBoolean)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::IO::BinaryReader::*)()>(&System::IO::BinaryReader::ReadBoolean)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryReader*), "ReadBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), "ReadBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BinaryReader::ReadByte
+// Writing MetadataGetter for method: System::IO::BinaryReader::ReadByte
 // Il2CppName: ReadByte
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (BinaryReader::*)()>(&BinaryReader::ReadByte)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (System::IO::BinaryReader::*)()>(&System::IO::BinaryReader::ReadByte)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryReader*), "ReadByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), "ReadByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BinaryReader::ReadSByte
+// Writing MetadataGetter for method: System::IO::BinaryReader::ReadSByte
 // Il2CppName: ReadSByte
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (BinaryReader::*)()>(&BinaryReader::ReadSByte)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (System::IO::BinaryReader::*)()>(&System::IO::BinaryReader::ReadSByte)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryReader*), "ReadSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), "ReadSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BinaryReader::ReadChar
+// Writing MetadataGetter for method: System::IO::BinaryReader::ReadChar
 // Il2CppName: ReadChar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (BinaryReader::*)()>(&BinaryReader::ReadChar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (System::IO::BinaryReader::*)()>(&System::IO::BinaryReader::ReadChar)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryReader*), "ReadChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), "ReadChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BinaryReader::ReadInt16
+// Writing MetadataGetter for method: System::IO::BinaryReader::ReadInt16
 // Il2CppName: ReadInt16
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (BinaryReader::*)()>(&BinaryReader::ReadInt16)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (System::IO::BinaryReader::*)()>(&System::IO::BinaryReader::ReadInt16)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryReader*), "ReadInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), "ReadInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BinaryReader::ReadUInt16
+// Writing MetadataGetter for method: System::IO::BinaryReader::ReadUInt16
 // Il2CppName: ReadUInt16
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (BinaryReader::*)()>(&BinaryReader::ReadUInt16)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (System::IO::BinaryReader::*)()>(&System::IO::BinaryReader::ReadUInt16)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryReader*), "ReadUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), "ReadUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BinaryReader::ReadInt32
+// Writing MetadataGetter for method: System::IO::BinaryReader::ReadInt32
 // Il2CppName: ReadInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BinaryReader::*)()>(&BinaryReader::ReadInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::BinaryReader::*)()>(&System::IO::BinaryReader::ReadInt32)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryReader*), "ReadInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), "ReadInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BinaryReader::ReadUInt32
+// Writing MetadataGetter for method: System::IO::BinaryReader::ReadUInt32
 // Il2CppName: ReadUInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (BinaryReader::*)()>(&BinaryReader::ReadUInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (System::IO::BinaryReader::*)()>(&System::IO::BinaryReader::ReadUInt32)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryReader*), "ReadUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), "ReadUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BinaryReader::ReadInt64
+// Writing MetadataGetter for method: System::IO::BinaryReader::ReadInt64
 // Il2CppName: ReadInt64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (BinaryReader::*)()>(&BinaryReader::ReadInt64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::IO::BinaryReader::*)()>(&System::IO::BinaryReader::ReadInt64)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryReader*), "ReadInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), "ReadInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BinaryReader::ReadUInt64
+// Writing MetadataGetter for method: System::IO::BinaryReader::ReadUInt64
 // Il2CppName: ReadUInt64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (BinaryReader::*)()>(&BinaryReader::ReadUInt64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (System::IO::BinaryReader::*)()>(&System::IO::BinaryReader::ReadUInt64)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryReader*), "ReadUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), "ReadUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BinaryReader::ReadSingle
+// Writing MetadataGetter for method: System::IO::BinaryReader::ReadSingle
 // Il2CppName: ReadSingle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (BinaryReader::*)()>(&BinaryReader::ReadSingle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (System::IO::BinaryReader::*)()>(&System::IO::BinaryReader::ReadSingle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryReader*), "ReadSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), "ReadSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BinaryReader::ReadDouble
+// Writing MetadataGetter for method: System::IO::BinaryReader::ReadDouble
 // Il2CppName: ReadDouble
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (BinaryReader::*)()>(&BinaryReader::ReadDouble)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (System::IO::BinaryReader::*)()>(&System::IO::BinaryReader::ReadDouble)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryReader*), "ReadDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), "ReadDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BinaryReader::ReadDecimal
+// Writing MetadataGetter for method: System::IO::BinaryReader::ReadDecimal
 // Il2CppName: ReadDecimal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (BinaryReader::*)()>(&BinaryReader::ReadDecimal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (System::IO::BinaryReader::*)()>(&System::IO::BinaryReader::ReadDecimal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryReader*), "ReadDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), "ReadDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BinaryReader::ReadString
+// Writing MetadataGetter for method: System::IO::BinaryReader::ReadString
 // Il2CppName: ReadString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BinaryReader::*)()>(&BinaryReader::ReadString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::BinaryReader::*)()>(&System::IO::BinaryReader::ReadString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryReader*), "ReadString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), "ReadString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BinaryReader::InternalReadChars
+// Writing MetadataGetter for method: System::IO::BinaryReader::InternalReadChars
 // Il2CppName: InternalReadChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BinaryReader::*)(::Array<::Il2CppChar>*, int, int)>(&BinaryReader::InternalReadChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::BinaryReader::*)(::Array<::Il2CppChar>*, int, int)>(&System::IO::BinaryReader::InternalReadChars)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryReader*), "InternalReadChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), "InternalReadChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: BinaryReader::InternalReadOneChar
+// Writing MetadataGetter for method: System::IO::BinaryReader::InternalReadOneChar
 // Il2CppName: InternalReadOneChar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BinaryReader::*)()>(&BinaryReader::InternalReadOneChar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::BinaryReader::*)()>(&System::IO::BinaryReader::InternalReadOneChar)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryReader*), "InternalReadOneChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), "InternalReadOneChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BinaryReader::ReadChars
+// Writing MetadataGetter for method: System::IO::BinaryReader::ReadChars
 // Il2CppName: ReadChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (BinaryReader::*)(int)>(&BinaryReader::ReadChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (System::IO::BinaryReader::*)(int)>(&System::IO::BinaryReader::ReadChars)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryReader*), "ReadChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), "ReadChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: BinaryReader::Read
+// Writing MetadataGetter for method: System::IO::BinaryReader::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BinaryReader::*)(::Array<uint8_t>*, int, int)>(&BinaryReader::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::BinaryReader::*)(::Array<uint8_t>*, int, int)>(&System::IO::BinaryReader::Read)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryReader*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: BinaryReader::ReadBytes
+// Writing MetadataGetter for method: System::IO::BinaryReader::ReadBytes
 // Il2CppName: ReadBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (BinaryReader::*)(int)>(&BinaryReader::ReadBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::IO::BinaryReader::*)(int)>(&System::IO::BinaryReader::ReadBytes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryReader*), "ReadBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), "ReadBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: BinaryReader::FillBuffer
+// Writing MetadataGetter for method: System::IO::BinaryReader::FillBuffer
 // Il2CppName: FillBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BinaryReader::*)(int)>(&BinaryReader::FillBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::BinaryReader::*)(int)>(&System::IO::BinaryReader::FillBuffer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryReader*), "FillBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), "FillBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: BinaryReader::Read7BitEncodedInt
+// Writing MetadataGetter for method: System::IO::BinaryReader::Read7BitEncodedInt
 // Il2CppName: Read7BitEncodedInt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BinaryReader::*)()>(&BinaryReader::Read7BitEncodedInt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::BinaryReader::*)()>(&System::IO::BinaryReader::Read7BitEncodedInt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BinaryReader*), "Read7BitEncodedInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), "Read7BitEncodedInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

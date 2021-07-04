@@ -107,129 +107,129 @@ namespace LiteNetLib {
   static_assert(sizeof(NetStatistics) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetStatistics*, "LiteNetLib", "NetStatistics");
-// Writing MetadataGetter for method: NetStatistics::get_PacketsSent
+// Writing MetadataGetter for method: LiteNetLib::NetStatistics::get_PacketsSent
 // Il2CppName: get_PacketsSent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (NetStatistics::*)()>(&NetStatistics::get_PacketsSent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (LiteNetLib::NetStatistics::*)()>(&LiteNetLib::NetStatistics::get_PacketsSent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetStatistics*), "get_PacketsSent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetStatistics*), "get_PacketsSent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetStatistics::get_PacketsReceived
+// Writing MetadataGetter for method: LiteNetLib::NetStatistics::get_PacketsReceived
 // Il2CppName: get_PacketsReceived
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (NetStatistics::*)()>(&NetStatistics::get_PacketsReceived)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (LiteNetLib::NetStatistics::*)()>(&LiteNetLib::NetStatistics::get_PacketsReceived)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetStatistics*), "get_PacketsReceived", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetStatistics*), "get_PacketsReceived", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetStatistics::get_BytesSent
+// Writing MetadataGetter for method: LiteNetLib::NetStatistics::get_BytesSent
 // Il2CppName: get_BytesSent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (NetStatistics::*)()>(&NetStatistics::get_BytesSent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (LiteNetLib::NetStatistics::*)()>(&LiteNetLib::NetStatistics::get_BytesSent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetStatistics*), "get_BytesSent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetStatistics*), "get_BytesSent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetStatistics::get_BytesReceived
+// Writing MetadataGetter for method: LiteNetLib::NetStatistics::get_BytesReceived
 // Il2CppName: get_BytesReceived
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (NetStatistics::*)()>(&NetStatistics::get_BytesReceived)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (LiteNetLib::NetStatistics::*)()>(&LiteNetLib::NetStatistics::get_BytesReceived)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetStatistics*), "get_BytesReceived", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetStatistics*), "get_BytesReceived", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetStatistics::get_PacketLoss
+// Writing MetadataGetter for method: LiteNetLib::NetStatistics::get_PacketLoss
 // Il2CppName: get_PacketLoss
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (NetStatistics::*)()>(&NetStatistics::get_PacketLoss)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (LiteNetLib::NetStatistics::*)()>(&LiteNetLib::NetStatistics::get_PacketLoss)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetStatistics*), "get_PacketLoss", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetStatistics*), "get_PacketLoss", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetStatistics::get_PacketLossPercent
+// Writing MetadataGetter for method: LiteNetLib::NetStatistics::get_PacketLossPercent
 // Il2CppName: get_PacketLossPercent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (NetStatistics::*)()>(&NetStatistics::get_PacketLossPercent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (LiteNetLib::NetStatistics::*)()>(&LiteNetLib::NetStatistics::get_PacketLossPercent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetStatistics*), "get_PacketLossPercent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetStatistics*), "get_PacketLossPercent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetStatistics::Reset
+// Writing MetadataGetter for method: LiteNetLib::NetStatistics::Reset
 // Il2CppName: Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetStatistics::*)()>(&NetStatistics::Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetStatistics::*)()>(&LiteNetLib::NetStatistics::Reset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetStatistics*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetStatistics*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetStatistics::IncrementPacketsSent
+// Writing MetadataGetter for method: LiteNetLib::NetStatistics::IncrementPacketsSent
 // Il2CppName: IncrementPacketsSent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetStatistics::*)()>(&NetStatistics::IncrementPacketsSent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetStatistics::*)()>(&LiteNetLib::NetStatistics::IncrementPacketsSent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetStatistics*), "IncrementPacketsSent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetStatistics*), "IncrementPacketsSent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetStatistics::IncrementPacketsReceived
+// Writing MetadataGetter for method: LiteNetLib::NetStatistics::IncrementPacketsReceived
 // Il2CppName: IncrementPacketsReceived
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetStatistics::*)()>(&NetStatistics::IncrementPacketsReceived)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetStatistics::*)()>(&LiteNetLib::NetStatistics::IncrementPacketsReceived)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetStatistics*), "IncrementPacketsReceived", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetStatistics*), "IncrementPacketsReceived", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetStatistics::AddBytesSent
+// Writing MetadataGetter for method: LiteNetLib::NetStatistics::AddBytesSent
 // Il2CppName: AddBytesSent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetStatistics::*)(int64_t)>(&NetStatistics::AddBytesSent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetStatistics::*)(int64_t)>(&LiteNetLib::NetStatistics::AddBytesSent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetStatistics*), "AddBytesSent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetStatistics*), "AddBytesSent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
   }
 };
-// Writing MetadataGetter for method: NetStatistics::AddBytesReceived
+// Writing MetadataGetter for method: LiteNetLib::NetStatistics::AddBytesReceived
 // Il2CppName: AddBytesReceived
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetStatistics::*)(int64_t)>(&NetStatistics::AddBytesReceived)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetStatistics::*)(int64_t)>(&LiteNetLib::NetStatistics::AddBytesReceived)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetStatistics*), "AddBytesReceived", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetStatistics*), "AddBytesReceived", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
   }
 };
-// Writing MetadataGetter for method: NetStatistics::IncrementPacketLoss
+// Writing MetadataGetter for method: LiteNetLib::NetStatistics::IncrementPacketLoss
 // Il2CppName: IncrementPacketLoss
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetStatistics::*)()>(&NetStatistics::IncrementPacketLoss)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetStatistics::*)()>(&LiteNetLib::NetStatistics::IncrementPacketLoss)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetStatistics*), "IncrementPacketLoss", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetStatistics*), "IncrementPacketLoss", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetStatistics::AddPacketLoss
+// Writing MetadataGetter for method: LiteNetLib::NetStatistics::AddPacketLoss
 // Il2CppName: AddPacketLoss
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetStatistics::*)(int64_t)>(&NetStatistics::AddPacketLoss)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetStatistics::*)(int64_t)>(&LiteNetLib::NetStatistics::AddPacketLoss)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetStatistics*), "AddPacketLoss", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetStatistics*), "AddPacketLoss", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
   }
 };
-// Writing MetadataGetter for method: NetStatistics::ToString
+// Writing MetadataGetter for method: LiteNetLib::NetStatistics::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NetStatistics::*)()>(&NetStatistics::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (LiteNetLib::NetStatistics::*)()>(&LiteNetLib::NetStatistics::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetStatistics*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetStatistics*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: NetStatistics::New_ctor
+// Writing MetadataGetter for method: LiteNetLib::NetStatistics::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetStatistics::*)()>(&NetStatistics::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetStatistics::*)()>(&LiteNetLib::NetStatistics::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetStatistics*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetStatistics*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetStatistics::*)()>(&NetStatistics::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetStatistics::*)()>(&LiteNetLib::NetStatistics::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetStatistics*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetStatistics*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

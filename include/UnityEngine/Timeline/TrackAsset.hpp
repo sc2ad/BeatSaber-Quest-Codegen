@@ -653,823 +653,823 @@ namespace UnityEngine::Timeline {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackAsset*, "UnityEngine.Timeline", "TrackAsset");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackAsset::TransientBuildData, "UnityEngine.Timeline", "TrackAsset/TransientBuildData");
-// Writing MetadataGetter for method: TrackAsset::OnBeforeTrackSerialize
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::OnBeforeTrackSerialize
 // Il2CppName: OnBeforeTrackSerialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)()>(&TrackAsset::OnBeforeTrackSerialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::OnBeforeTrackSerialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "OnBeforeTrackSerialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "OnBeforeTrackSerialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::OnAfterTrackDeserialize
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::OnAfterTrackDeserialize
 // Il2CppName: OnAfterTrackDeserialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)()>(&TrackAsset::OnAfterTrackDeserialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::OnAfterTrackDeserialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "OnAfterTrackDeserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "OnAfterTrackDeserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::OnUpgradeFromVersion
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::OnUpgradeFromVersion
 // Il2CppName: OnUpgradeFromVersion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)(int)>(&TrackAsset::OnUpgradeFromVersion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)(int)>(&UnityEngine::Timeline::TrackAsset::OnUpgradeFromVersion)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "OnUpgradeFromVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "OnUpgradeFromVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize
 // Il2CppName: UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)()>(&TrackAsset::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize
 // Il2CppName: UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)()>(&TrackAsset::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::UpgradeToLatestVersion
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::UpgradeToLatestVersion
 // Il2CppName: UpgradeToLatestVersion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)()>(&TrackAsset::UpgradeToLatestVersion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::UpgradeToLatestVersion)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "UpgradeToLatestVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "UpgradeToLatestVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::add_OnClipPlayableCreate
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::add_OnClipPlayableCreate
 // Il2CppName: add_OnClipPlayableCreate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_3<UnityEngine::Timeline::TimelineClip*, UnityEngine::GameObject*, UnityEngine::Playables::Playable>*)>(&TrackAsset::add_OnClipPlayableCreate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_3<UnityEngine::Timeline::TimelineClip*, UnityEngine::GameObject*, UnityEngine::Playables::Playable>*)>(&UnityEngine::Timeline::TrackAsset::add_OnClipPlayableCreate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "add_OnClipPlayableCreate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<UnityEngine::Timeline::TimelineClip*, UnityEngine::GameObject*, UnityEngine::Playables::Playable>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "add_OnClipPlayableCreate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<UnityEngine::Timeline::TimelineClip*, UnityEngine::GameObject*, UnityEngine::Playables::Playable>*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::remove_OnClipPlayableCreate
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::remove_OnClipPlayableCreate
 // Il2CppName: remove_OnClipPlayableCreate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_3<UnityEngine::Timeline::TimelineClip*, UnityEngine::GameObject*, UnityEngine::Playables::Playable>*)>(&TrackAsset::remove_OnClipPlayableCreate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_3<UnityEngine::Timeline::TimelineClip*, UnityEngine::GameObject*, UnityEngine::Playables::Playable>*)>(&UnityEngine::Timeline::TrackAsset::remove_OnClipPlayableCreate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "remove_OnClipPlayableCreate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<UnityEngine::Timeline::TimelineClip*, UnityEngine::GameObject*, UnityEngine::Playables::Playable>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "remove_OnClipPlayableCreate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<UnityEngine::Timeline::TimelineClip*, UnityEngine::GameObject*, UnityEngine::Playables::Playable>*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::add_OnTrackAnimationPlayableCreate
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::add_OnTrackAnimationPlayableCreate
 // Il2CppName: add_OnTrackAnimationPlayableCreate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_3<UnityEngine::Timeline::TrackAsset*, UnityEngine::GameObject*, UnityEngine::Playables::Playable>*)>(&TrackAsset::add_OnTrackAnimationPlayableCreate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_3<UnityEngine::Timeline::TrackAsset*, UnityEngine::GameObject*, UnityEngine::Playables::Playable>*)>(&UnityEngine::Timeline::TrackAsset::add_OnTrackAnimationPlayableCreate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "add_OnTrackAnimationPlayableCreate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<UnityEngine::Timeline::TrackAsset*, UnityEngine::GameObject*, UnityEngine::Playables::Playable>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "add_OnTrackAnimationPlayableCreate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<UnityEngine::Timeline::TrackAsset*, UnityEngine::GameObject*, UnityEngine::Playables::Playable>*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::remove_OnTrackAnimationPlayableCreate
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::remove_OnTrackAnimationPlayableCreate
 // Il2CppName: remove_OnTrackAnimationPlayableCreate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_3<UnityEngine::Timeline::TrackAsset*, UnityEngine::GameObject*, UnityEngine::Playables::Playable>*)>(&TrackAsset::remove_OnTrackAnimationPlayableCreate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_3<UnityEngine::Timeline::TrackAsset*, UnityEngine::GameObject*, UnityEngine::Playables::Playable>*)>(&UnityEngine::Timeline::TrackAsset::remove_OnTrackAnimationPlayableCreate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "remove_OnTrackAnimationPlayableCreate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<UnityEngine::Timeline::TrackAsset*, UnityEngine::GameObject*, UnityEngine::Playables::Playable>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "remove_OnTrackAnimationPlayableCreate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_3<UnityEngine::Timeline::TrackAsset*, UnityEngine::GameObject*, UnityEngine::Playables::Playable>*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::get_start
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::get_start
 // Il2CppName: get_start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TrackAsset::*)()>(&TrackAsset::get_start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::get_start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "get_start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "get_start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::get_end
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::get_end
 // Il2CppName: get_end
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TrackAsset::*)()>(&TrackAsset::get_end)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::get_end)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "get_end", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "get_end", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::get_muted
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::get_muted
 // Il2CppName: get_muted
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TrackAsset::*)()>(&TrackAsset::get_muted)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::get_muted)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "get_muted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "get_muted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::set_muted
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::set_muted
 // Il2CppName: set_muted
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)(bool)>(&TrackAsset::set_muted)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)(bool)>(&UnityEngine::Timeline::TrackAsset::set_muted)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "set_muted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "set_muted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::get_mutedInHierarchy
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::get_mutedInHierarchy
 // Il2CppName: get_mutedInHierarchy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TrackAsset::*)()>(&TrackAsset::get_mutedInHierarchy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::get_mutedInHierarchy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "get_mutedInHierarchy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "get_mutedInHierarchy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::get_timelineAsset
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::get_timelineAsset
 // Il2CppName: get_timelineAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineAsset* (TrackAsset::*)()>(&TrackAsset::get_timelineAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineAsset* (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::get_timelineAsset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "get_timelineAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "get_timelineAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::get_parent
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::get_parent
 // Il2CppName: get_parent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableAsset* (TrackAsset::*)()>(&TrackAsset::get_parent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableAsset* (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::get_parent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "get_parent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "get_parent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::set_parent
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::set_parent
 // Il2CppName: set_parent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)(UnityEngine::Playables::PlayableAsset*)>(&TrackAsset::set_parent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)(UnityEngine::Playables::PlayableAsset*)>(&UnityEngine::Timeline::TrackAsset::set_parent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "set_parent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableAsset*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "set_parent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableAsset*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::GetClips
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::GetClips
 // Il2CppName: GetClips
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::TimelineClip*>* (TrackAsset::*)()>(&TrackAsset::GetClips)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::TimelineClip*>* (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::GetClips)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "GetClips", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "GetClips", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::get_clips
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::get_clips
 // Il2CppName: get_clips
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Timeline::TimelineClip*>* (TrackAsset::*)()>(&TrackAsset::get_clips)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Timeline::TimelineClip*>* (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::get_clips)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "get_clips", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "get_clips", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::get_isEmpty
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::get_isEmpty
 // Il2CppName: get_isEmpty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TrackAsset::*)()>(&TrackAsset::get_isEmpty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::get_isEmpty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "get_isEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "get_isEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::get_hasClips
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::get_hasClips
 // Il2CppName: get_hasClips
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TrackAsset::*)()>(&TrackAsset::get_hasClips)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::get_hasClips)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "get_hasClips", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "get_hasClips", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::get_hasCurves
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::get_hasCurves
 // Il2CppName: get_hasCurves
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TrackAsset::*)()>(&TrackAsset::get_hasCurves)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::get_hasCurves)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "get_hasCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "get_hasCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::get_isSubTrack
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::get_isSubTrack
 // Il2CppName: get_isSubTrack
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TrackAsset::*)()>(&TrackAsset::get_isSubTrack)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::get_isSubTrack)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "get_isSubTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "get_isSubTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::GetChildTracks
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::GetChildTracks
 // Il2CppName: GetChildTracks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::TrackAsset*>* (TrackAsset::*)()>(&TrackAsset::GetChildTracks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::TrackAsset*>* (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::GetChildTracks)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "GetChildTracks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "GetChildTracks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::get_customPlayableTypename
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::get_customPlayableTypename
 // Il2CppName: get_customPlayableTypename
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TrackAsset::*)()>(&TrackAsset::get_customPlayableTypename)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::get_customPlayableTypename)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "get_customPlayableTypename", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "get_customPlayableTypename", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::set_customPlayableTypename
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::set_customPlayableTypename
 // Il2CppName: set_customPlayableTypename
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)(::Il2CppString*)>(&TrackAsset::set_customPlayableTypename)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)(::Il2CppString*)>(&UnityEngine::Timeline::TrackAsset::set_customPlayableTypename)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "set_customPlayableTypename", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "set_customPlayableTypename", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::get_curves
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::get_curves
 // Il2CppName: get_curves
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationClip* (TrackAsset::*)()>(&TrackAsset::get_curves)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationClip* (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::get_curves)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "get_curves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "get_curves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::set_curves
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::set_curves
 // Il2CppName: set_curves
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)(UnityEngine::AnimationClip*)>(&TrackAsset::set_curves)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)(UnityEngine::AnimationClip*)>(&UnityEngine::Timeline::TrackAsset::set_curves)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "set_curves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "set_curves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName
 // Il2CppName: UnityEngine.Timeline.ICurvesOwner.get_defaultCurvesName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TrackAsset::*)()>(&TrackAsset::UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "UnityEngine.Timeline.ICurvesOwner.get_defaultCurvesName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "UnityEngine.Timeline.ICurvesOwner.get_defaultCurvesName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::UnityEngine_Timeline_ICurvesOwner_get_asset
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::UnityEngine_Timeline_ICurvesOwner_get_asset
 // Il2CppName: UnityEngine.Timeline.ICurvesOwner.get_asset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (TrackAsset::*)()>(&TrackAsset::UnityEngine_Timeline_ICurvesOwner_get_asset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::UnityEngine_Timeline_ICurvesOwner_get_asset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "UnityEngine.Timeline.ICurvesOwner.get_asset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "UnityEngine.Timeline.ICurvesOwner.get_asset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::UnityEngine_Timeline_ICurvesOwner_get_assetOwner
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::UnityEngine_Timeline_ICurvesOwner_get_assetOwner
 // Il2CppName: UnityEngine.Timeline.ICurvesOwner.get_assetOwner
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (TrackAsset::*)()>(&TrackAsset::UnityEngine_Timeline_ICurvesOwner_get_assetOwner)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::UnityEngine_Timeline_ICurvesOwner_get_assetOwner)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "UnityEngine.Timeline.ICurvesOwner.get_assetOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "UnityEngine.Timeline.ICurvesOwner.get_assetOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::UnityEngine_Timeline_ICurvesOwner_get_targetTrack
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::UnityEngine_Timeline_ICurvesOwner_get_targetTrack
 // Il2CppName: UnityEngine.Timeline.ICurvesOwner.get_targetTrack
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackAsset* (TrackAsset::*)()>(&TrackAsset::UnityEngine_Timeline_ICurvesOwner_get_targetTrack)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TrackAsset* (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::UnityEngine_Timeline_ICurvesOwner_get_targetTrack)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "UnityEngine.Timeline.ICurvesOwner.get_targetTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "UnityEngine.Timeline.ICurvesOwner.get_targetTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::get_subTracksObjects
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::get_subTracksObjects
 // Il2CppName: get_subTracksObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ScriptableObject*>* (TrackAsset::*)()>(&TrackAsset::get_subTracksObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::ScriptableObject*>* (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::get_subTracksObjects)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "get_subTracksObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "get_subTracksObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::get_locked
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::get_locked
 // Il2CppName: get_locked
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TrackAsset::*)()>(&TrackAsset::get_locked)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::get_locked)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "get_locked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "get_locked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::set_locked
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::set_locked
 // Il2CppName: set_locked
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)(bool)>(&TrackAsset::set_locked)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)(bool)>(&UnityEngine::Timeline::TrackAsset::set_locked)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "set_locked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "set_locked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::get_lockedInHierarchy
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::get_lockedInHierarchy
 // Il2CppName: get_lockedInHierarchy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TrackAsset::*)()>(&TrackAsset::get_lockedInHierarchy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::get_lockedInHierarchy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "get_lockedInHierarchy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "get_lockedInHierarchy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::get_supportsNotifications
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::get_supportsNotifications
 // Il2CppName: get_supportsNotifications
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TrackAsset::*)()>(&TrackAsset::get_supportsNotifications)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::get_supportsNotifications)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "get_supportsNotifications", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "get_supportsNotifications", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::__internalAwake
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::__internalAwake
 // Il2CppName: __internalAwake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)()>(&TrackAsset::__internalAwake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::__internalAwake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "__internalAwake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "__internalAwake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::CreateCurves
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::CreateCurves
 // Il2CppName: CreateCurves
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)(::Il2CppString*)>(&TrackAsset::CreateCurves)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)(::Il2CppString*)>(&UnityEngine::Timeline::TrackAsset::CreateCurves)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "CreateCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "CreateCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::CreateTrackMixer
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::CreateTrackMixer
 // Il2CppName: CreateTrackMixer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (TrackAsset::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, int)>(&TrackAsset::CreateTrackMixer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (UnityEngine::Timeline::TrackAsset::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, int)>(&UnityEngine::Timeline::TrackAsset::CreateTrackMixer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "CreateTrackMixer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "CreateTrackMixer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::CreateDefaultClip
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::CreateDefaultClip
 // Il2CppName: CreateDefaultClip
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip* (TrackAsset::*)()>(&TrackAsset::CreateDefaultClip)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip* (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::CreateDefaultClip)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "CreateDefaultClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "CreateDefaultClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::CreateClip
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::CreateClip
 // Il2CppName: CreateClip
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: TrackAsset::DeleteClip
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::DeleteClip
 // Il2CppName: DeleteClip
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TrackAsset::*)(UnityEngine::Timeline::TimelineClip*)>(&TrackAsset::DeleteClip)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TrackAsset::*)(UnityEngine::Timeline::TimelineClip*)>(&UnityEngine::Timeline::TrackAsset::DeleteClip)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "DeleteClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "DeleteClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::CreateMarker
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::CreateMarker
 // Il2CppName: CreateMarker
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::IMarker* (TrackAsset::*)(System::Type*, double)>(&TrackAsset::CreateMarker)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::IMarker* (UnityEngine::Timeline::TrackAsset::*)(System::Type*, double)>(&UnityEngine::Timeline::TrackAsset::CreateMarker)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "CreateMarker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "CreateMarker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::CreateMarker
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::CreateMarker
 // Il2CppName: CreateMarker
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: TrackAsset::DeleteMarker
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::DeleteMarker
 // Il2CppName: DeleteMarker
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TrackAsset::*)(UnityEngine::Timeline::IMarker*)>(&TrackAsset::DeleteMarker)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TrackAsset::*)(UnityEngine::Timeline::IMarker*)>(&UnityEngine::Timeline::TrackAsset::DeleteMarker)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "DeleteMarker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IMarker*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "DeleteMarker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IMarker*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::GetMarkers
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::GetMarkers
 // Il2CppName: GetMarkers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::IMarker*>* (TrackAsset::*)()>(&TrackAsset::GetMarkers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Timeline::IMarker*>* (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::GetMarkers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "GetMarkers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "GetMarkers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::GetMarkerCount
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::GetMarkerCount
 // Il2CppName: GetMarkerCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TrackAsset::*)()>(&TrackAsset::GetMarkerCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::GetMarkerCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "GetMarkerCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "GetMarkerCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::GetMarker
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::GetMarker
 // Il2CppName: GetMarker
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::IMarker* (TrackAsset::*)(int)>(&TrackAsset::GetMarker)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::IMarker* (UnityEngine::Timeline::TrackAsset::*)(int)>(&UnityEngine::Timeline::TrackAsset::GetMarker)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "GetMarker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "GetMarker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::CreateClip
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::CreateClip
 // Il2CppName: CreateClip
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip* (TrackAsset::*)(System::Type*)>(&TrackAsset::CreateClip)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip* (UnityEngine::Timeline::TrackAsset::*)(System::Type*)>(&UnityEngine::Timeline::TrackAsset::CreateClip)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "CreateClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "CreateClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::CreateAndAddNewClipOfType
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::CreateAndAddNewClipOfType
 // Il2CppName: CreateAndAddNewClipOfType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip* (TrackAsset::*)(System::Type*)>(&TrackAsset::CreateAndAddNewClipOfType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip* (UnityEngine::Timeline::TrackAsset::*)(System::Type*)>(&UnityEngine::Timeline::TrackAsset::CreateAndAddNewClipOfType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "CreateAndAddNewClipOfType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "CreateAndAddNewClipOfType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::CreateClipOfType
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::CreateClipOfType
 // Il2CppName: CreateClipOfType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip* (TrackAsset::*)(System::Type*)>(&TrackAsset::CreateClipOfType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip* (UnityEngine::Timeline::TrackAsset::*)(System::Type*)>(&UnityEngine::Timeline::TrackAsset::CreateClipOfType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "CreateClipOfType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "CreateClipOfType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::CreateClipFromPlayableAsset
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::CreateClipFromPlayableAsset
 // Il2CppName: CreateClipFromPlayableAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip* (TrackAsset::*)(UnityEngine::Playables::IPlayableAsset*)>(&TrackAsset::CreateClipFromPlayableAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip* (UnityEngine::Timeline::TrackAsset::*)(UnityEngine::Playables::IPlayableAsset*)>(&UnityEngine::Timeline::TrackAsset::CreateClipFromPlayableAsset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "CreateClipFromPlayableAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::IPlayableAsset*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "CreateClipFromPlayableAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::IPlayableAsset*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::CreateClipFromAsset
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::CreateClipFromAsset
 // Il2CppName: CreateClipFromAsset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip* (TrackAsset::*)(UnityEngine::ScriptableObject*)>(&TrackAsset::CreateClipFromAsset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip* (UnityEngine::Timeline::TrackAsset::*)(UnityEngine::ScriptableObject*)>(&UnityEngine::Timeline::TrackAsset::CreateClipFromAsset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "CreateClipFromAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ScriptableObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "CreateClipFromAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ScriptableObject*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::GetMarkersRaw
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::GetMarkersRaw
 // Il2CppName: GetMarkersRaw
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::ScriptableObject*>* (TrackAsset::*)()>(&TrackAsset::GetMarkersRaw)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::ScriptableObject*>* (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::GetMarkersRaw)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "GetMarkersRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "GetMarkersRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::ClearMarkers
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::ClearMarkers
 // Il2CppName: ClearMarkers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)()>(&TrackAsset::ClearMarkers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::ClearMarkers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "ClearMarkers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "ClearMarkers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::AddMarker
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::AddMarker
 // Il2CppName: AddMarker
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)(UnityEngine::ScriptableObject*)>(&TrackAsset::AddMarker)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)(UnityEngine::ScriptableObject*)>(&UnityEngine::Timeline::TrackAsset::AddMarker)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "AddMarker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ScriptableObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "AddMarker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ScriptableObject*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::DeleteMarkerRaw
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::DeleteMarkerRaw
 // Il2CppName: DeleteMarkerRaw
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TrackAsset::*)(UnityEngine::ScriptableObject*)>(&TrackAsset::DeleteMarkerRaw)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TrackAsset::*)(UnityEngine::ScriptableObject*)>(&UnityEngine::Timeline::TrackAsset::DeleteMarkerRaw)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "DeleteMarkerRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ScriptableObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "DeleteMarkerRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ScriptableObject*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::GetTimeRangeHash
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::GetTimeRangeHash
 // Il2CppName: GetTimeRangeHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TrackAsset::*)()>(&TrackAsset::GetTimeRangeHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::GetTimeRangeHash)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "GetTimeRangeHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "GetTimeRangeHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::AddClip
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::AddClip
 // Il2CppName: AddClip
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)(UnityEngine::Timeline::TimelineClip*)>(&TrackAsset::AddClip)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)(UnityEngine::Timeline::TimelineClip*)>(&UnityEngine::Timeline::TrackAsset::AddClip)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "AddClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "AddClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::CreateNotificationsPlayable
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::CreateNotificationsPlayable
 // Il2CppName: CreateNotificationsPlayable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (TrackAsset::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Playables::Playable, UnityEngine::GameObject*, UnityEngine::Playables::Playable)>(&TrackAsset::CreateNotificationsPlayable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (UnityEngine::Timeline::TrackAsset::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Playables::Playable, UnityEngine::GameObject*, UnityEngine::Playables::Playable)>(&UnityEngine::Timeline::TrackAsset::CreateNotificationsPlayable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "CreateNotificationsPlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "CreateNotificationsPlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::CreatePlayableGraph
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::CreatePlayableGraph
 // Il2CppName: CreatePlayableGraph
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (TrackAsset::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*, UnityEngine::Playables::Playable)>(&TrackAsset::CreatePlayableGraph)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (UnityEngine::Timeline::TrackAsset::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*, UnityEngine::Playables::Playable)>(&UnityEngine::Timeline::TrackAsset::CreatePlayableGraph)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "CreatePlayableGraph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "CreatePlayableGraph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::CompileClips
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::CompileClips
 // Il2CppName: CompileClips
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (TrackAsset::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, System::Collections::Generic::IList_1<UnityEngine::Timeline::TimelineClip*>*, UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*)>(&TrackAsset::CompileClips)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (UnityEngine::Timeline::TrackAsset::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, System::Collections::Generic::IList_1<UnityEngine::Timeline::TimelineClip*>*, UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*)>(&UnityEngine::Timeline::TrackAsset::CompileClips)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "CompileClips", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::Timeline::TimelineClip*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "CompileClips", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::Timeline::TimelineClip*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::GatherCompilableTracks
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::GatherCompilableTracks
 // Il2CppName: GatherCompilableTracks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)(System::Collections::Generic::IList_1<UnityEngine::Timeline::TrackAsset*>*)>(&TrackAsset::GatherCompilableTracks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)(System::Collections::Generic::IList_1<UnityEngine::Timeline::TrackAsset*>*)>(&UnityEngine::Timeline::TrackAsset::GatherCompilableTracks)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "GatherCompilableTracks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::Timeline::TrackAsset*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "GatherCompilableTracks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::Timeline::TrackAsset*>*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::GatherNotifications
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::GatherNotifications
 // Il2CppName: GatherNotifications
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)(System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker*>*)>(&TrackAsset::GatherNotifications)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)(System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker*>*)>(&UnityEngine::Timeline::TrackAsset::GatherNotifications)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "GatherNotifications", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "GatherNotifications", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker*>*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::CreateMixerPlayableGraph
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::CreateMixerPlayableGraph
 // Il2CppName: CreateMixerPlayableGraph
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (TrackAsset::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*)>(&TrackAsset::CreateMixerPlayableGraph)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (UnityEngine::Timeline::TrackAsset::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*)>(&UnityEngine::Timeline::TrackAsset::CreateMixerPlayableGraph)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "CreateMixerPlayableGraph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "CreateMixerPlayableGraph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::ConfigureTrackAnimation
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::ConfigureTrackAnimation
 // Il2CppName: ConfigureTrackAnimation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)(UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*, UnityEngine::GameObject*, UnityEngine::Playables::Playable)>(&TrackAsset::ConfigureTrackAnimation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)(UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*, UnityEngine::GameObject*, UnityEngine::Playables::Playable)>(&UnityEngine::Timeline::TrackAsset::ConfigureTrackAnimation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "ConfigureTrackAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "ConfigureTrackAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::SortClips
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::SortClips
 // Il2CppName: SortClips
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)()>(&TrackAsset::SortClips)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::SortClips)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "SortClips", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "SortClips", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::ClearClipsInternal
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::ClearClipsInternal
 // Il2CppName: ClearClipsInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)()>(&TrackAsset::ClearClipsInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::ClearClipsInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "ClearClipsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "ClearClipsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::ClearSubTracksInternal
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::ClearSubTracksInternal
 // Il2CppName: ClearSubTracksInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)()>(&TrackAsset::ClearSubTracksInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::ClearSubTracksInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "ClearSubTracksInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "ClearSubTracksInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::OnClipMove
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::OnClipMove
 // Il2CppName: OnClipMove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)()>(&TrackAsset::OnClipMove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::OnClipMove)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "OnClipMove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "OnClipMove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::CreateNewClipContainerInternal
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::CreateNewClipContainerInternal
 // Il2CppName: CreateNewClipContainerInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip* (TrackAsset::*)()>(&TrackAsset::CreateNewClipContainerInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip* (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::CreateNewClipContainerInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "CreateNewClipContainerInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "CreateNewClipContainerInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::AddChild
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::AddChild
 // Il2CppName: AddChild
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)(UnityEngine::Timeline::TrackAsset*)>(&TrackAsset::AddChild)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)(UnityEngine::Timeline::TrackAsset*)>(&UnityEngine::Timeline::TrackAsset::AddChild)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "AddChild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "AddChild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::MoveLastTrackBefore
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::MoveLastTrackBefore
 // Il2CppName: MoveLastTrackBefore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)(UnityEngine::Timeline::TrackAsset*)>(&TrackAsset::MoveLastTrackBefore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)(UnityEngine::Timeline::TrackAsset*)>(&UnityEngine::Timeline::TrackAsset::MoveLastTrackBefore)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "MoveLastTrackBefore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "MoveLastTrackBefore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::RemoveSubTrack
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::RemoveSubTrack
 // Il2CppName: RemoveSubTrack
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TrackAsset::*)(UnityEngine::Timeline::TrackAsset*)>(&TrackAsset::RemoveSubTrack)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TrackAsset::*)(UnityEngine::Timeline::TrackAsset*)>(&UnityEngine::Timeline::TrackAsset::RemoveSubTrack)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "RemoveSubTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "RemoveSubTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::RemoveClip
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::RemoveClip
 // Il2CppName: RemoveClip
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)(UnityEngine::Timeline::TimelineClip*)>(&TrackAsset::RemoveClip)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)(UnityEngine::Timeline::TimelineClip*)>(&UnityEngine::Timeline::TrackAsset::RemoveClip)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "RemoveClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "RemoveClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::GetEvaluationTime
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::GetEvaluationTime
 // Il2CppName: GetEvaluationTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)(double&, double&)>(&TrackAsset::GetEvaluationTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)(double&, double&)>(&UnityEngine::Timeline::TrackAsset::GetEvaluationTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "GetEvaluationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double&>(), ::il2cpp_utils::ExtractIndependentType<double&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "GetEvaluationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double&>(), ::il2cpp_utils::ExtractIndependentType<double&>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::GetSequenceTime
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::GetSequenceTime
 // Il2CppName: GetSequenceTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)(double&, double&)>(&TrackAsset::GetSequenceTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)(double&, double&)>(&UnityEngine::Timeline::TrackAsset::GetSequenceTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "GetSequenceTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double&>(), ::il2cpp_utils::ExtractIndependentType<double&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "GetSequenceTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double&>(), ::il2cpp_utils::ExtractIndependentType<double&>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::GatherProperties
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::GatherProperties
 // Il2CppName: GatherProperties
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)(UnityEngine::Playables::PlayableDirector*, UnityEngine::Timeline::IPropertyCollector*)>(&TrackAsset::GatherProperties)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)(UnityEngine::Playables::PlayableDirector*, UnityEngine::Timeline::IPropertyCollector*)>(&UnityEngine::Timeline::TrackAsset::GatherProperties)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "GatherProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableDirector*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IPropertyCollector*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "GatherProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableDirector*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::IPropertyCollector*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::GetGameObjectBinding
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::GetGameObjectBinding
 // Il2CppName: GetGameObjectBinding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (TrackAsset::*)(UnityEngine::Playables::PlayableDirector*)>(&TrackAsset::GetGameObjectBinding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (UnityEngine::Timeline::TrackAsset::*)(UnityEngine::Playables::PlayableDirector*)>(&UnityEngine::Timeline::TrackAsset::GetGameObjectBinding)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "GetGameObjectBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableDirector*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "GetGameObjectBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableDirector*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::ValidateClipType
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::ValidateClipType
 // Il2CppName: ValidateClipType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TrackAsset::*)(System::Type*)>(&TrackAsset::ValidateClipType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TrackAsset::*)(System::Type*)>(&UnityEngine::Timeline::TrackAsset::ValidateClipType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "ValidateClipType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "ValidateClipType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::OnCreateClip
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::OnCreateClip
 // Il2CppName: OnCreateClip
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)(UnityEngine::Timeline::TimelineClip*)>(&TrackAsset::OnCreateClip)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)(UnityEngine::Timeline::TimelineClip*)>(&UnityEngine::Timeline::TrackAsset::OnCreateClip)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "OnCreateClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "OnCreateClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::UpdateDuration
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::UpdateDuration
 // Il2CppName: UpdateDuration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)()>(&TrackAsset::UpdateDuration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::UpdateDuration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "UpdateDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "UpdateDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::CalculateItemsHash
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::CalculateItemsHash
 // Il2CppName: CalculateItemsHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TrackAsset::*)()>(&TrackAsset::CalculateItemsHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::CalculateItemsHash)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "CalculateItemsHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "CalculateItemsHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::CreatePlayable
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::CreatePlayable
 // Il2CppName: CreatePlayable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (TrackAsset::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, UnityEngine::Timeline::TimelineClip*)>(&TrackAsset::CreatePlayable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (UnityEngine::Timeline::TrackAsset::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, UnityEngine::Timeline::TimelineClip*)>(&UnityEngine::Timeline::TrackAsset::CreatePlayable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "CreatePlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "CreatePlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::Invalidate
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::Invalidate
 // Il2CppName: Invalidate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)()>(&TrackAsset::Invalidate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::Invalidate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "Invalidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "Invalidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::GetNotificationDuration
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::GetNotificationDuration
 // Il2CppName: GetNotificationDuration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TrackAsset::*)()>(&TrackAsset::GetNotificationDuration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::GetNotificationDuration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "GetNotificationDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "GetNotificationDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::CanCompileClips
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::CanCompileClips
 // Il2CppName: CanCompileClips
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TrackAsset::*)()>(&TrackAsset::CanCompileClips)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::CanCompileClips)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "CanCompileClips", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "CanCompileClips", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::CanCreateTrackMixer
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::CanCreateTrackMixer
 // Il2CppName: CanCreateTrackMixer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TrackAsset::*)()>(&TrackAsset::CanCreateTrackMixer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::CanCreateTrackMixer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "CanCreateTrackMixer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "CanCreateTrackMixer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::IsCompilable
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::IsCompilable
 // Il2CppName: IsCompilable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TrackAsset::*)()>(&TrackAsset::IsCompilable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::IsCompilable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "IsCompilable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "IsCompilable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::UpdateChildTrackCache
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::UpdateChildTrackCache
 // Il2CppName: UpdateChildTrackCache
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)()>(&TrackAsset::UpdateChildTrackCache)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::UpdateChildTrackCache)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "UpdateChildTrackCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "UpdateChildTrackCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::Hash
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::Hash
 // Il2CppName: Hash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TrackAsset::*)()>(&TrackAsset::Hash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::Hash)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "Hash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "Hash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::GetClipsHash
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::GetClipsHash
 // Il2CppName: GetClipsHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TrackAsset::*)()>(&TrackAsset::GetClipsHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::GetClipsHash)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "GetClipsHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "GetClipsHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::GetAnimationClipHash
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::GetAnimationClipHash
 // Il2CppName: GetAnimationClipHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::AnimationClip*)>(&TrackAsset::GetAnimationClipHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::AnimationClip*)>(&UnityEngine::Timeline::TrackAsset::GetAnimationClipHash)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "GetAnimationClipHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "GetAnimationClipHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::HasNotifications
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::HasNotifications
 // Il2CppName: HasNotifications
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TrackAsset::*)()>(&TrackAsset::HasNotifications)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::HasNotifications)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "HasNotifications", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "HasNotifications", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::CanCompileNotifications
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::CanCompileNotifications
 // Il2CppName: CanCompileNotifications
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TrackAsset::*)()>(&TrackAsset::CanCompileNotifications)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::CanCompileNotifications)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "CanCompileNotifications", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "CanCompileNotifications", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::CanCreateMixerRecursive
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::CanCreateMixerRecursive
 // Il2CppName: CanCreateMixerRecursive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TrackAsset::*)()>(&TrackAsset::CanCreateMixerRecursive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::CanCreateMixerRecursive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "CanCreateMixerRecursive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "CanCreateMixerRecursive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::get_duration
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::get_duration
 // Il2CppName: get_duration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (TrackAsset::*)()>(&TrackAsset::get_duration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::get_duration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::get_outputs
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::get_outputs
 // Il2CppName: get_outputs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* (TrackAsset::*)()>(&TrackAsset::get_outputs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::get_outputs)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "get_outputs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "get_outputs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::CreatePlayable
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::CreatePlayable
 // Il2CppName: CreatePlayable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (TrackAsset::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*)>(&TrackAsset::CreatePlayable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (UnityEngine::Timeline::TrackAsset::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*)>(&UnityEngine::Timeline::TrackAsset::CreatePlayable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), "CreatePlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "CreatePlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::New_ctor
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)()>(&TrackAsset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TrackAsset::*)()>(&TrackAsset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TrackAsset::_cctor
+// Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TrackAsset::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Timeline::TrackAsset::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TrackAsset*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

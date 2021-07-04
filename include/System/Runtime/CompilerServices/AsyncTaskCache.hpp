@@ -57,22 +57,22 @@ namespace System::Runtime::CompilerServices {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncTaskCache*, "System.Runtime.CompilerServices", "AsyncTaskCache");
-// Writing MetadataGetter for method: AsyncTaskCache::CreateInt32Tasks
+// Writing MetadataGetter for method: System::Runtime::CompilerServices::AsyncTaskCache::CreateInt32Tasks
 // Il2CppName: CreateInt32Tasks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Threading::Tasks::Task_1<int>*>* (*)()>(&AsyncTaskCache::CreateInt32Tasks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Threading::Tasks::Task_1<int>*>* (*)()>(&System::Runtime::CompilerServices::AsyncTaskCache::CreateInt32Tasks)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncTaskCache*), "CreateInt32Tasks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::AsyncTaskCache*), "CreateInt32Tasks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AsyncTaskCache::CreateCacheableTask
+// Writing MetadataGetter for method: System::Runtime::CompilerServices::AsyncTaskCache::CreateCacheableTask
 // Il2CppName: CreateCacheableTask
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: AsyncTaskCache::_cctor
+// Writing MetadataGetter for method: System::Runtime::CompilerServices::AsyncTaskCache::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&AsyncTaskCache::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Runtime::CompilerServices::AsyncTaskCache::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AsyncTaskCache*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::AsyncTaskCache*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

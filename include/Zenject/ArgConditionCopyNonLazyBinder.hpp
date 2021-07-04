@@ -113,51 +113,51 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ArgConditionCopyNonLazyBinder*, "Zenject", "ArgConditionCopyNonLazyBinder");
-// Writing MetadataGetter for method: ArgConditionCopyNonLazyBinder::WithArguments
+// Writing MetadataGetter for method: Zenject::ArgConditionCopyNonLazyBinder::WithArguments
 // Il2CppName: WithArguments
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ArgConditionCopyNonLazyBinder::WithArguments
+// Writing MetadataGetter for method: Zenject::ArgConditionCopyNonLazyBinder::WithArguments
 // Il2CppName: WithArguments
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ArgConditionCopyNonLazyBinder::WithArguments
+// Writing MetadataGetter for method: Zenject::ArgConditionCopyNonLazyBinder::WithArguments
 // Il2CppName: WithArguments
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ArgConditionCopyNonLazyBinder::WithArguments
+// Writing MetadataGetter for method: Zenject::ArgConditionCopyNonLazyBinder::WithArguments
 // Il2CppName: WithArguments
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ArgConditionCopyNonLazyBinder::WithArguments
+// Writing MetadataGetter for method: Zenject::ArgConditionCopyNonLazyBinder::WithArguments
 // Il2CppName: WithArguments
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ArgConditionCopyNonLazyBinder::WithArguments
+// Writing MetadataGetter for method: Zenject::ArgConditionCopyNonLazyBinder::WithArguments
 // Il2CppName: WithArguments
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ArgConditionCopyNonLazyBinder::WithArguments
+// Writing MetadataGetter for method: Zenject::ArgConditionCopyNonLazyBinder::WithArguments
 // Il2CppName: WithArguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InstantiateCallbackConditionCopyNonLazyBinder* (ArgConditionCopyNonLazyBinder::*)(::Array<::Il2CppObject*>*)>(&ArgConditionCopyNonLazyBinder::WithArguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InstantiateCallbackConditionCopyNonLazyBinder* (Zenject::ArgConditionCopyNonLazyBinder::*)(::Array<::Il2CppObject*>*)>(&Zenject::ArgConditionCopyNonLazyBinder::WithArguments)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArgConditionCopyNonLazyBinder*), "WithArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ArgConditionCopyNonLazyBinder*), "WithArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
   }
 };
-// Writing MetadataGetter for method: ArgConditionCopyNonLazyBinder::WithArgumentsExplicit
+// Writing MetadataGetter for method: Zenject::ArgConditionCopyNonLazyBinder::WithArgumentsExplicit
 // Il2CppName: WithArgumentsExplicit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InstantiateCallbackConditionCopyNonLazyBinder* (ArgConditionCopyNonLazyBinder::*)(System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>*)>(&ArgConditionCopyNonLazyBinder::WithArgumentsExplicit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InstantiateCallbackConditionCopyNonLazyBinder* (Zenject::ArgConditionCopyNonLazyBinder::*)(System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>*)>(&Zenject::ArgConditionCopyNonLazyBinder::WithArgumentsExplicit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArgConditionCopyNonLazyBinder*), "WithArgumentsExplicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ArgConditionCopyNonLazyBinder*), "WithArgumentsExplicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<Zenject::TypeValuePair>*>()});
   }
 };
-// Writing MetadataGetter for method: ArgConditionCopyNonLazyBinder::New_ctor
+// Writing MetadataGetter for method: Zenject::ArgConditionCopyNonLazyBinder::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArgConditionCopyNonLazyBinder::*)(Zenject::BindInfo*)>(&ArgConditionCopyNonLazyBinder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ArgConditionCopyNonLazyBinder::*)(Zenject::BindInfo*)>(&Zenject::ArgConditionCopyNonLazyBinder::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArgConditionCopyNonLazyBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ArgConditionCopyNonLazyBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ArgConditionCopyNonLazyBinder::*)(Zenject::BindInfo*)>(&ArgConditionCopyNonLazyBinder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ArgConditionCopyNonLazyBinder::*)(Zenject::BindInfo*)>(&Zenject::ArgConditionCopyNonLazyBinder::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ArgConditionCopyNonLazyBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ArgConditionCopyNonLazyBinder*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::BindInfo*>()});
   }
 };

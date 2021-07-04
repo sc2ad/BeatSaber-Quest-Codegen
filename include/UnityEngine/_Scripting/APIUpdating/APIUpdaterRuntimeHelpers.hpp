@@ -32,19 +32,19 @@ namespace UnityEngine::_Scripting::APIUpdating {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers*, "UnityEngine._Scripting.APIUpdating", "APIUpdaterRuntimeHelpers");
-// Writing MetadataGetter for method: APIUpdaterRuntimeHelpers::GetMovedFromAttributeDataForType
+// Writing MetadataGetter for method: UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers::GetMovedFromAttributeDataForType
 // Il2CppName: GetMovedFromAttributeDataForType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ::Il2CppString*&, ::Il2CppString*&, ::Il2CppString*&)>(&APIUpdaterRuntimeHelpers::GetMovedFromAttributeDataForType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ::Il2CppString*&, ::Il2CppString*&, ::Il2CppString*&)>(&UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers::GetMovedFromAttributeDataForType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(APIUpdaterRuntimeHelpers*), "GetMovedFromAttributeDataForType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers*), "GetMovedFromAttributeDataForType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
   }
 };
-// Writing MetadataGetter for method: APIUpdaterRuntimeHelpers::GetObsoleteTypeRedirection
+// Writing MetadataGetter for method: UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers::GetObsoleteTypeRedirection
 // Il2CppName: GetObsoleteTypeRedirection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ::Il2CppString*&, ::Il2CppString*&, ::Il2CppString*&)>(&APIUpdaterRuntimeHelpers::GetObsoleteTypeRedirection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ::Il2CppString*&, ::Il2CppString*&, ::Il2CppString*&)>(&UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers::GetObsoleteTypeRedirection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(APIUpdaterRuntimeHelpers*), "GetObsoleteTypeRedirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers*), "GetObsoleteTypeRedirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
   }
 };

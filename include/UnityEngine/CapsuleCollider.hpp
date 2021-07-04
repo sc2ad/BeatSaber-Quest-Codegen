@@ -56,75 +56,75 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CapsuleCollider*, "UnityEngine", "CapsuleCollider");
-// Writing MetadataGetter for method: CapsuleCollider::get_center
+// Writing MetadataGetter for method: UnityEngine::CapsuleCollider::get_center
 // Il2CppName: get_center
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (CapsuleCollider::*)()>(&CapsuleCollider::get_center)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::CapsuleCollider::*)()>(&UnityEngine::CapsuleCollider::get_center)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CapsuleCollider*), "get_center", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CapsuleCollider*), "get_center", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CapsuleCollider::set_center
+// Writing MetadataGetter for method: UnityEngine::CapsuleCollider::set_center
 // Il2CppName: set_center
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CapsuleCollider::*)(UnityEngine::Vector3)>(&CapsuleCollider::set_center)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CapsuleCollider::*)(UnityEngine::Vector3)>(&UnityEngine::CapsuleCollider::set_center)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CapsuleCollider*), "set_center", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CapsuleCollider*), "set_center", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: CapsuleCollider::get_radius
+// Writing MetadataGetter for method: UnityEngine::CapsuleCollider::get_radius
 // Il2CppName: get_radius
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (CapsuleCollider::*)()>(&CapsuleCollider::get_radius)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::CapsuleCollider::*)()>(&UnityEngine::CapsuleCollider::get_radius)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CapsuleCollider*), "get_radius", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CapsuleCollider*), "get_radius", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CapsuleCollider::set_radius
+// Writing MetadataGetter for method: UnityEngine::CapsuleCollider::set_radius
 // Il2CppName: set_radius
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CapsuleCollider::*)(float)>(&CapsuleCollider::set_radius)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CapsuleCollider::*)(float)>(&UnityEngine::CapsuleCollider::set_radius)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CapsuleCollider*), "set_radius", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CapsuleCollider*), "set_radius", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: CapsuleCollider::get_height
+// Writing MetadataGetter for method: UnityEngine::CapsuleCollider::get_height
 // Il2CppName: get_height
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (CapsuleCollider::*)()>(&CapsuleCollider::get_height)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::CapsuleCollider::*)()>(&UnityEngine::CapsuleCollider::get_height)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CapsuleCollider*), "get_height", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CapsuleCollider*), "get_height", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CapsuleCollider::set_height
+// Writing MetadataGetter for method: UnityEngine::CapsuleCollider::set_height
 // Il2CppName: set_height
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CapsuleCollider::*)(float)>(&CapsuleCollider::set_height)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CapsuleCollider::*)(float)>(&UnityEngine::CapsuleCollider::set_height)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CapsuleCollider*), "set_height", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CapsuleCollider*), "set_height", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: CapsuleCollider::set_direction
+// Writing MetadataGetter for method: UnityEngine::CapsuleCollider::set_direction
 // Il2CppName: set_direction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CapsuleCollider::*)(int)>(&CapsuleCollider::set_direction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CapsuleCollider::*)(int)>(&UnityEngine::CapsuleCollider::set_direction)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CapsuleCollider*), "set_direction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CapsuleCollider*), "set_direction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: CapsuleCollider::get_center_Injected
+// Writing MetadataGetter for method: UnityEngine::CapsuleCollider::get_center_Injected
 // Il2CppName: get_center_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CapsuleCollider::*)(UnityEngine::Vector3&)>(&CapsuleCollider::get_center_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CapsuleCollider::*)(UnityEngine::Vector3&)>(&UnityEngine::CapsuleCollider::get_center_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CapsuleCollider*), "get_center_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CapsuleCollider*), "get_center_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: CapsuleCollider::set_center_Injected
+// Writing MetadataGetter for method: UnityEngine::CapsuleCollider::set_center_Injected
 // Il2CppName: set_center_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CapsuleCollider::*)(UnityEngine::Vector3&)>(&CapsuleCollider::set_center_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CapsuleCollider::*)(UnityEngine::Vector3&)>(&UnityEngine::CapsuleCollider::set_center_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CapsuleCollider*), "set_center_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CapsuleCollider*), "set_center_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };

@@ -67,99 +67,99 @@ namespace NUnit::Framework::Constraints {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::Numerics*, "NUnit.Framework.Constraints", "Numerics");
-// Writing MetadataGetter for method: Numerics::IsNumericType
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::Numerics::IsNumericType
 // Il2CppName: IsNumericType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*)>(&Numerics::IsNumericType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*)>(&NUnit::Framework::Constraints::Numerics::IsNumericType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Numerics*), "IsNumericType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Numerics*), "IsNumericType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Numerics::IsFloatingPointNumeric
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::Numerics::IsFloatingPointNumeric
 // Il2CppName: IsFloatingPointNumeric
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*)>(&Numerics::IsFloatingPointNumeric)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*)>(&NUnit::Framework::Constraints::Numerics::IsFloatingPointNumeric)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Numerics*), "IsFloatingPointNumeric", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Numerics*), "IsFloatingPointNumeric", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Numerics::IsFixedPointNumeric
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::Numerics::IsFixedPointNumeric
 // Il2CppName: IsFixedPointNumeric
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*)>(&Numerics::IsFixedPointNumeric)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*)>(&NUnit::Framework::Constraints::Numerics::IsFixedPointNumeric)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Numerics*), "IsFixedPointNumeric", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Numerics*), "IsFixedPointNumeric", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Numerics::AreEqual
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::Numerics::AreEqual
 // Il2CppName: AreEqual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*, ::Il2CppObject*, NUnit::Framework::Constraints::Tolerance*&)>(&Numerics::AreEqual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*, ::Il2CppObject*, NUnit::Framework::Constraints::Tolerance*&)>(&NUnit::Framework::Constraints::Numerics::AreEqual)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Numerics*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::Tolerance*&>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Numerics*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::Tolerance*&>()});
   }
 };
-// Writing MetadataGetter for method: Numerics::AreEqual
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::Numerics::AreEqual
 // Il2CppName: AreEqual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(double, double, NUnit::Framework::Constraints::Tolerance*&)>(&Numerics::AreEqual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(double, double, NUnit::Framework::Constraints::Tolerance*&)>(&NUnit::Framework::Constraints::Numerics::AreEqual)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Numerics*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::Tolerance*&>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Numerics*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::Tolerance*&>()});
   }
 };
-// Writing MetadataGetter for method: Numerics::AreEqual
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::Numerics::AreEqual
 // Il2CppName: AreEqual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(float, float, NUnit::Framework::Constraints::Tolerance*&)>(&Numerics::AreEqual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(float, float, NUnit::Framework::Constraints::Tolerance*&)>(&NUnit::Framework::Constraints::Numerics::AreEqual)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Numerics*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::Tolerance*&>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Numerics*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::Tolerance*&>()});
   }
 };
-// Writing MetadataGetter for method: Numerics::AreEqual
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::Numerics::AreEqual
 // Il2CppName: AreEqual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Decimal, System::Decimal, NUnit::Framework::Constraints::Tolerance*)>(&Numerics::AreEqual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Decimal, System::Decimal, NUnit::Framework::Constraints::Tolerance*)>(&NUnit::Framework::Constraints::Numerics::AreEqual)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Numerics*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>(), ::il2cpp_utils::ExtractIndependentType<System::Decimal>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::Tolerance*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Numerics*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>(), ::il2cpp_utils::ExtractIndependentType<System::Decimal>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::Tolerance*>()});
   }
 };
-// Writing MetadataGetter for method: Numerics::AreEqual
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::Numerics::AreEqual
 // Il2CppName: AreEqual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, uint64_t, NUnit::Framework::Constraints::Tolerance*)>(&Numerics::AreEqual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, uint64_t, NUnit::Framework::Constraints::Tolerance*)>(&NUnit::Framework::Constraints::Numerics::AreEqual)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Numerics*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::Tolerance*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Numerics*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::Tolerance*>()});
   }
 };
-// Writing MetadataGetter for method: Numerics::AreEqual
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::Numerics::AreEqual
 // Il2CppName: AreEqual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int64_t, int64_t, NUnit::Framework::Constraints::Tolerance*)>(&Numerics::AreEqual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int64_t, int64_t, NUnit::Framework::Constraints::Tolerance*)>(&NUnit::Framework::Constraints::Numerics::AreEqual)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Numerics*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::Tolerance*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Numerics*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::Tolerance*>()});
   }
 };
-// Writing MetadataGetter for method: Numerics::AreEqual
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::Numerics::AreEqual
 // Il2CppName: AreEqual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint, uint, NUnit::Framework::Constraints::Tolerance*)>(&Numerics::AreEqual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint, uint, NUnit::Framework::Constraints::Tolerance*)>(&NUnit::Framework::Constraints::Numerics::AreEqual)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Numerics*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::Tolerance*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Numerics*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::Tolerance*>()});
   }
 };
-// Writing MetadataGetter for method: Numerics::AreEqual
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::Numerics::AreEqual
 // Il2CppName: AreEqual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, int, NUnit::Framework::Constraints::Tolerance*)>(&Numerics::AreEqual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, int, NUnit::Framework::Constraints::Tolerance*)>(&NUnit::Framework::Constraints::Numerics::AreEqual)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Numerics*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::Tolerance*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Numerics*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::Tolerance*>()});
   }
 };
-// Writing MetadataGetter for method: Numerics::Compare
+// Writing MetadataGetter for method: NUnit::Framework::Constraints::Numerics::Compare
 // Il2CppName: Compare
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppObject*, ::Il2CppObject*)>(&Numerics::Compare)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppObject*, ::Il2CppObject*)>(&NUnit::Framework::Constraints::Numerics::Compare)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Numerics*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Numerics*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };

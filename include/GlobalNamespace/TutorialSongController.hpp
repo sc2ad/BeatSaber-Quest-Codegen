@@ -304,137 +304,137 @@ namespace GlobalNamespace {
   static_assert(sizeof(TutorialSongController) == 0xD0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialSongController*, "", "TutorialSongController");
-// Writing MetadataGetter for method: TutorialSongController::Awake
+// Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialSongController::*)()>(&TutorialSongController::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialSongController::*)()>(&GlobalNamespace::TutorialSongController::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialSongController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialSongController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TutorialSongController::Start
+// Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialSongController::*)()>(&TutorialSongController::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialSongController::*)()>(&GlobalNamespace::TutorialSongController::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialSongController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialSongController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TutorialSongController::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialSongController::*)()>(&TutorialSongController::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialSongController::*)()>(&GlobalNamespace::TutorialSongController::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialSongController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialSongController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TutorialSongController::StartSong
+// Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::StartSong
 // Il2CppName: StartSong
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialSongController::*)(float)>(&TutorialSongController::StartSong)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialSongController::*)(float)>(&GlobalNamespace::TutorialSongController::StartSong)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialSongController*), "StartSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialSongController*), "StartSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: TutorialSongController::HandleNoteWasCut
+// Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::HandleNoteWasCut
 // Il2CppName: HandleNoteWasCut
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialSongController::*)(GlobalNamespace::NoteController*, GlobalNamespace::NoteCutInfo&)>(&TutorialSongController::HandleNoteWasCut)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialSongController::*)(GlobalNamespace::NoteController*, GlobalNamespace::NoteCutInfo&)>(&GlobalNamespace::TutorialSongController::HandleNoteWasCut)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialSongController*), "HandleNoteWasCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialSongController*), "HandleNoteWasCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>()});
   }
 };
-// Writing MetadataGetter for method: TutorialSongController::HandleNoteWasMissed
+// Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::HandleNoteWasMissed
 // Il2CppName: HandleNoteWasMissed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialSongController::*)(GlobalNamespace::NoteController*)>(&TutorialSongController::HandleNoteWasMissed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialSongController::*)(GlobalNamespace::NoteController*)>(&GlobalNamespace::TutorialSongController::HandleNoteWasMissed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialSongController*), "HandleNoteWasMissed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialSongController*), "HandleNoteWasMissed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>()});
   }
 };
-// Writing MetadataGetter for method: TutorialSongController::HandleObstacleDidPassThreeQuartersOfMove2
+// Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::HandleObstacleDidPassThreeQuartersOfMove2
 // Il2CppName: HandleObstacleDidPassThreeQuartersOfMove2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialSongController::*)(GlobalNamespace::ObstacleController*)>(&TutorialSongController::HandleObstacleDidPassThreeQuartersOfMove2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialSongController::*)(GlobalNamespace::ObstacleController*)>(&GlobalNamespace::TutorialSongController::HandleObstacleDidPassThreeQuartersOfMove2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialSongController*), "HandleObstacleDidPassThreeQuartersOfMove2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleController*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialSongController*), "HandleObstacleDidPassThreeQuartersOfMove2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleController*>()});
   }
 };
-// Writing MetadataGetter for method: TutorialSongController::UpdateBeatmapData
+// Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::UpdateBeatmapData
 // Il2CppName: UpdateBeatmapData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialSongController::*)(float)>(&TutorialSongController::UpdateBeatmapData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialSongController::*)(float)>(&GlobalNamespace::TutorialSongController::UpdateBeatmapData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialSongController*), "UpdateBeatmapData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialSongController*), "UpdateBeatmapData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: TutorialSongController::GetNextBeatmapObjectTime
+// Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::GetNextBeatmapObjectTime
 // Il2CppName: GetNextBeatmapObjectTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TutorialSongController::*)(int)>(&TutorialSongController::GetNextBeatmapObjectTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::TutorialSongController::*)(int)>(&GlobalNamespace::TutorialSongController::GetNextBeatmapObjectTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialSongController*), "GetNextBeatmapObjectTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialSongController*), "GetNextBeatmapObjectTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: TutorialSongController::CreateObstacleData
+// Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::CreateObstacleData
 // Il2CppName: CreateObstacleData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ObstacleData* (TutorialSongController::*)(float, GlobalNamespace::TutorialSongController::TutorialObstacleSpawnData*)>(&TutorialSongController::CreateObstacleData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ObstacleData* (GlobalNamespace::TutorialSongController::*)(float, GlobalNamespace::TutorialSongController::TutorialObstacleSpawnData*)>(&GlobalNamespace::TutorialSongController::CreateObstacleData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialSongController*), "CreateObstacleData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::TutorialSongController::TutorialObstacleSpawnData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialSongController*), "CreateObstacleData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::TutorialSongController::TutorialObstacleSpawnData*>()});
   }
 };
-// Writing MetadataGetter for method: TutorialSongController::CreateBasicNoteData
+// Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::CreateBasicNoteData
 // Il2CppName: CreateBasicNoteData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteData* (TutorialSongController::*)(float, GlobalNamespace::TutorialSongController::TutorialBasicNoteSpawnData*)>(&TutorialSongController::CreateBasicNoteData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteData* (GlobalNamespace::TutorialSongController::*)(float, GlobalNamespace::TutorialSongController::TutorialBasicNoteSpawnData*)>(&GlobalNamespace::TutorialSongController::CreateBasicNoteData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialSongController*), "CreateBasicNoteData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::TutorialSongController::TutorialBasicNoteSpawnData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialSongController*), "CreateBasicNoteData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::TutorialSongController::TutorialBasicNoteSpawnData*>()});
   }
 };
-// Writing MetadataGetter for method: TutorialSongController::CreateBombNoteData
+// Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::CreateBombNoteData
 // Il2CppName: CreateBombNoteData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteData* (TutorialSongController::*)(float, GlobalNamespace::TutorialSongController::TutorialBombNoteSpawnData*)>(&TutorialSongController::CreateBombNoteData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteData* (GlobalNamespace::TutorialSongController::*)(float, GlobalNamespace::TutorialSongController::TutorialBombNoteSpawnData*)>(&GlobalNamespace::TutorialSongController::CreateBombNoteData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialSongController*), "CreateBombNoteData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::TutorialSongController::TutorialBombNoteSpawnData*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialSongController*), "CreateBombNoteData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::TutorialSongController::TutorialBombNoteSpawnData*>()});
   }
 };
-// Writing MetadataGetter for method: TutorialSongController::StopSong
+// Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::StopSong
 // Il2CppName: StopSong
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialSongController::*)()>(&TutorialSongController::StopSong)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialSongController::*)()>(&GlobalNamespace::TutorialSongController::StopSong)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialSongController*), "StopSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialSongController*), "StopSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TutorialSongController::PauseSong
+// Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::PauseSong
 // Il2CppName: PauseSong
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialSongController::*)()>(&TutorialSongController::PauseSong)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialSongController::*)()>(&GlobalNamespace::TutorialSongController::PauseSong)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialSongController*), "PauseSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialSongController*), "PauseSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TutorialSongController::ResumeSong
+// Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::ResumeSong
 // Il2CppName: ResumeSong
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialSongController::*)()>(&TutorialSongController::ResumeSong)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialSongController::*)()>(&GlobalNamespace::TutorialSongController::ResumeSong)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialSongController*), "ResumeSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialSongController*), "ResumeSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TutorialSongController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialSongController::*)()>(&TutorialSongController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialSongController::*)()>(&GlobalNamespace::TutorialSongController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialSongController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialSongController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TutorialSongController::*)()>(&TutorialSongController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialSongController::*)()>(&GlobalNamespace::TutorialSongController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TutorialSongController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialSongController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

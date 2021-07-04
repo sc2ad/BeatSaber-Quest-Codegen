@@ -65,49 +65,49 @@ namespace UnityEngine {
   static_assert(sizeof(ParticleSystem::ShapeModule) == 0x8);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::ShapeModule, "UnityEngine", "ParticleSystem/ShapeModule");
-// Writing MetadataGetter for method: ParticleSystem::ShapeModule::ShapeModule
+// Writing MetadataGetter for method: UnityEngine::ParticleSystem::ShapeModule::ShapeModule
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystem::ShapeModule::*)(UnityEngine::ParticleSystem*)>(&ParticleSystem::ShapeModule::ShapeModule<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::ShapeModule::*)(UnityEngine::ParticleSystem*)>(&UnityEngine::ParticleSystem::ShapeModule::ShapeModule<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParticleSystem::ShapeModule), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::ShapeModule), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystem::ShapeModule::*)(UnityEngine::ParticleSystem*)>(&ParticleSystem::ShapeModule::ShapeModule<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::ShapeModule::*)(UnityEngine::ParticleSystem*)>(&UnityEngine::ParticleSystem::ShapeModule::ShapeModule<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParticleSystem::ShapeModule), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::ShapeModule), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem*>()});
   }
 };
-// Writing MetadataGetter for method: ParticleSystem::ShapeModule::set_position
+// Writing MetadataGetter for method: UnityEngine::ParticleSystem::ShapeModule::set_position
 // Il2CppName: set_position
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystem::ShapeModule::*)(UnityEngine::Vector3)>(&ParticleSystem::ShapeModule::set_position)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::ShapeModule::*)(UnityEngine::Vector3)>(&UnityEngine::ParticleSystem::ShapeModule::set_position)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParticleSystem::ShapeModule), "set_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::ShapeModule), "set_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: ParticleSystem::ShapeModule::set_rotation
+// Writing MetadataGetter for method: UnityEngine::ParticleSystem::ShapeModule::set_rotation
 // Il2CppName: set_rotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ParticleSystem::ShapeModule::*)(UnityEngine::Vector3)>(&ParticleSystem::ShapeModule::set_rotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::ShapeModule::*)(UnityEngine::Vector3)>(&UnityEngine::ParticleSystem::ShapeModule::set_rotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParticleSystem::ShapeModule), "set_rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::ShapeModule), "set_rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: ParticleSystem::ShapeModule::set_position_Injected
+// Writing MetadataGetter for method: UnityEngine::ParticleSystem::ShapeModule::set_position_Injected
 // Il2CppName: set_position_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ParticleSystem::ShapeModule&, UnityEngine::Vector3&)>(&ParticleSystem::ShapeModule::set_position_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ParticleSystem::ShapeModule&, UnityEngine::Vector3&)>(&UnityEngine::ParticleSystem::ShapeModule::set_position_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParticleSystem::ShapeModule), "set_position_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::ShapeModule&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::ShapeModule), "set_position_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::ShapeModule&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };
-// Writing MetadataGetter for method: ParticleSystem::ShapeModule::set_rotation_Injected
+// Writing MetadataGetter for method: UnityEngine::ParticleSystem::ShapeModule::set_rotation_Injected
 // Il2CppName: set_rotation_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ParticleSystem::ShapeModule&, UnityEngine::Vector3&)>(&ParticleSystem::ShapeModule::set_rotation_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ParticleSystem::ShapeModule&, UnityEngine::Vector3&)>(&UnityEngine::ParticleSystem::ShapeModule::set_rotation_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ParticleSystem::ShapeModule), "set_rotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::ShapeModule&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::ShapeModule), "set_rotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::ShapeModule&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
   }
 };

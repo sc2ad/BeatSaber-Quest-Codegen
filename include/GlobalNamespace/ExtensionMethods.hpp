@@ -102,73 +102,73 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ExtensionMethods*, "", "ExtensionMethods");
-// Writing MetadataGetter for method: ExtensionMethods::ContainsLayer
+// Writing MetadataGetter for method: GlobalNamespace::ExtensionMethods::ContainsLayer
 // Il2CppName: ContainsLayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::LayerMask, int)>(&ExtensionMethods::ContainsLayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::LayerMask, int)>(&GlobalNamespace::ExtensionMethods::ContainsLayer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ExtensionMethods*), "ContainsLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LayerMask>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExtensionMethods*), "ContainsLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LayerMask>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: ExtensionMethods::StartUniqueCoroutine
+// Writing MetadataGetter for method: GlobalNamespace::ExtensionMethods::StartUniqueCoroutine
 // Il2CppName: StartUniqueCoroutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Coroutine* (*)(UnityEngine::MonoBehaviour*, System::Func_1<System::Collections::IEnumerator*>*)>(&ExtensionMethods::StartUniqueCoroutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Coroutine* (*)(UnityEngine::MonoBehaviour*, System::Func_1<System::Collections::IEnumerator*>*)>(&GlobalNamespace::ExtensionMethods::StartUniqueCoroutine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ExtensionMethods*), "StartUniqueCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MonoBehaviour*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_1<System::Collections::IEnumerator*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExtensionMethods*), "StartUniqueCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MonoBehaviour*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_1<System::Collections::IEnumerator*>*>()});
   }
 };
-// Writing MetadataGetter for method: ExtensionMethods::StartUniqueCoroutine
+// Writing MetadataGetter for method: GlobalNamespace::ExtensionMethods::StartUniqueCoroutine
 // Il2CppName: StartUniqueCoroutine
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ExtensionMethods::StopUniqueCoroutine
+// Writing MetadataGetter for method: GlobalNamespace::ExtensionMethods::StopUniqueCoroutine
 // Il2CppName: StopUniqueCoroutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::MonoBehaviour*, System::Func_1<System::Collections::IEnumerator*>*)>(&ExtensionMethods::StopUniqueCoroutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::MonoBehaviour*, System::Func_1<System::Collections::IEnumerator*>*)>(&GlobalNamespace::ExtensionMethods::StopUniqueCoroutine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ExtensionMethods*), "StopUniqueCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MonoBehaviour*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_1<System::Collections::IEnumerator*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExtensionMethods*), "StopUniqueCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MonoBehaviour*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_1<System::Collections::IEnumerator*>*>()});
   }
 };
-// Writing MetadataGetter for method: ExtensionMethods::StopUniqueCoroutine
+// Writing MetadataGetter for method: GlobalNamespace::ExtensionMethods::StopUniqueCoroutine
 // Il2CppName: StopUniqueCoroutine
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: ExtensionMethods::IsDescendantOf
+// Writing MetadataGetter for method: GlobalNamespace::ExtensionMethods::IsDescendantOf
 // Il2CppName: IsDescendantOf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, UnityEngine::Transform*)>(&ExtensionMethods::IsDescendantOf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, UnityEngine::Transform*)>(&GlobalNamespace::ExtensionMethods::IsDescendantOf)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ExtensionMethods*), "IsDescendantOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExtensionMethods*), "IsDescendantOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
   }
 };
-// Writing MetadataGetter for method: ExtensionMethods::SetLocalPositionAndRotation
+// Writing MetadataGetter for method: GlobalNamespace::ExtensionMethods::SetLocalPositionAndRotation
 // Il2CppName: SetLocalPositionAndRotation
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Transform*, UnityEngine::Vector3, UnityEngine::Quaternion)>(&ExtensionMethods::SetLocalPositionAndRotation)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Transform*, UnityEngine::Vector3, UnityEngine::Quaternion)>(&GlobalNamespace::ExtensionMethods::SetLocalPositionAndRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ExtensionMethods*), "SetLocalPositionAndRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExtensionMethods*), "SetLocalPositionAndRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
   }
 };
-// Writing MetadataGetter for method: ExtensionMethods::GetPath
+// Writing MetadataGetter for method: GlobalNamespace::ExtensionMethods::GetPath
 // Il2CppName: GetPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::Transform*)>(&ExtensionMethods::GetPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::Transform*)>(&GlobalNamespace::ExtensionMethods::GetPath)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ExtensionMethods*), "GetPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExtensionMethods*), "GetPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
   }
 };
-// Writing MetadataGetter for method: ExtensionMethods::Reflect
+// Writing MetadataGetter for method: GlobalNamespace::ExtensionMethods::Reflect
 // Il2CppName: Reflect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Quaternion, UnityEngine::Vector3)>(&ExtensionMethods::Reflect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Quaternion, UnityEngine::Vector3)>(&GlobalNamespace::ExtensionMethods::Reflect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ExtensionMethods*), "Reflect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExtensionMethods*), "Reflect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: ExtensionMethods::CreateTexture2D
+// Writing MetadataGetter for method: GlobalNamespace::ExtensionMethods::CreateTexture2D
 // Il2CppName: CreateTexture2D
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (*)(UnityEngine::RenderTexture*, UnityEngine::TextureFormat)>(&ExtensionMethods::CreateTexture2D)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (*)(UnityEngine::RenderTexture*, UnityEngine::TextureFormat)>(&GlobalNamespace::ExtensionMethods::CreateTexture2D)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ExtensionMethods*), "CreateTexture2D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextureFormat>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExtensionMethods*), "CreateTexture2D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextureFormat>()});
   }
 };

@@ -184,97 +184,97 @@ namespace GlobalNamespace {
   static_assert(sizeof(SaberTrailRenderer) == 0x64);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberTrailRenderer*, "", "SaberTrailRenderer");
-// Writing MetadataGetter for method: SaberTrailRenderer::Init
+// Writing MetadataGetter for method: GlobalNamespace::SaberTrailRenderer::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberTrailRenderer::*)(float, float, int, float)>(&SaberTrailRenderer::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberTrailRenderer::*)(float, float, int, float)>(&GlobalNamespace::SaberTrailRenderer::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberTrailRenderer*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTrailRenderer*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: SaberTrailRenderer::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::SaberTrailRenderer::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberTrailRenderer::*)()>(&SaberTrailRenderer::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberTrailRenderer::*)()>(&GlobalNamespace::SaberTrailRenderer::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberTrailRenderer*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTrailRenderer*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SaberTrailRenderer::OnValidate
+// Writing MetadataGetter for method: GlobalNamespace::SaberTrailRenderer::OnValidate
 // Il2CppName: OnValidate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberTrailRenderer::*)()>(&SaberTrailRenderer::OnValidate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberTrailRenderer::*)()>(&GlobalNamespace::SaberTrailRenderer::OnValidate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberTrailRenderer*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTrailRenderer*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SaberTrailRenderer::OnEnable
+// Writing MetadataGetter for method: GlobalNamespace::SaberTrailRenderer::OnEnable
 // Il2CppName: OnEnable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberTrailRenderer::*)()>(&SaberTrailRenderer::OnEnable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberTrailRenderer::*)()>(&GlobalNamespace::SaberTrailRenderer::OnEnable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberTrailRenderer*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTrailRenderer*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SaberTrailRenderer::OnDisable
+// Writing MetadataGetter for method: GlobalNamespace::SaberTrailRenderer::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberTrailRenderer::*)()>(&SaberTrailRenderer::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberTrailRenderer::*)()>(&GlobalNamespace::SaberTrailRenderer::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberTrailRenderer*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTrailRenderer*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SaberTrailRenderer::SetTrailWidth
+// Writing MetadataGetter for method: GlobalNamespace::SaberTrailRenderer::SetTrailWidth
 // Il2CppName: SetTrailWidth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberTrailRenderer::*)(float)>(&SaberTrailRenderer::SetTrailWidth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberTrailRenderer::*)(float)>(&GlobalNamespace::SaberTrailRenderer::SetTrailWidth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberTrailRenderer*), "SetTrailWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTrailRenderer*), "SetTrailWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: SaberTrailRenderer::UpdateMesh
+// Writing MetadataGetter for method: GlobalNamespace::SaberTrailRenderer::UpdateMesh
 // Il2CppName: UpdateMesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberTrailRenderer::*)(GlobalNamespace::TrailElementCollection*, UnityEngine::Color)>(&SaberTrailRenderer::UpdateMesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberTrailRenderer::*)(GlobalNamespace::TrailElementCollection*, UnityEngine::Color)>(&GlobalNamespace::SaberTrailRenderer::UpdateMesh)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberTrailRenderer*), "UpdateMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::TrailElementCollection*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTrailRenderer*), "UpdateMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::TrailElementCollection*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: SaberTrailRenderer::UpdateVertices
+// Writing MetadataGetter for method: GlobalNamespace::SaberTrailRenderer::UpdateVertices
 // Il2CppName: UpdateVertices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberTrailRenderer::*)(GlobalNamespace::TrailElementCollection*, UnityEngine::Color)>(&SaberTrailRenderer::UpdateVertices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberTrailRenderer::*)(GlobalNamespace::TrailElementCollection*, UnityEngine::Color)>(&GlobalNamespace::SaberTrailRenderer::UpdateVertices)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberTrailRenderer*), "UpdateVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::TrailElementCollection*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTrailRenderer*), "UpdateVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::TrailElementCollection*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
   }
 };
-// Writing MetadataGetter for method: SaberTrailRenderer::UpdateIndices
+// Writing MetadataGetter for method: GlobalNamespace::SaberTrailRenderer::UpdateIndices
 // Il2CppName: UpdateIndices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberTrailRenderer::*)()>(&SaberTrailRenderer::UpdateIndices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberTrailRenderer::*)()>(&GlobalNamespace::SaberTrailRenderer::UpdateIndices)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberTrailRenderer*), "UpdateIndices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTrailRenderer*), "UpdateIndices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SaberTrailRenderer::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::SaberTrailRenderer::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberTrailRenderer::*)()>(&SaberTrailRenderer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberTrailRenderer::*)()>(&GlobalNamespace::SaberTrailRenderer::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberTrailRenderer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTrailRenderer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SaberTrailRenderer::*)()>(&SaberTrailRenderer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberTrailRenderer::*)()>(&GlobalNamespace::SaberTrailRenderer::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberTrailRenderer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTrailRenderer*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SaberTrailRenderer::_cctor
+// Writing MetadataGetter for method: GlobalNamespace::SaberTrailRenderer::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&SaberTrailRenderer::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::SaberTrailRenderer::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SaberTrailRenderer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTrailRenderer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

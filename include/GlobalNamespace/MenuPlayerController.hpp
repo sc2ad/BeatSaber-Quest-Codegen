@@ -85,49 +85,49 @@ namespace GlobalNamespace {
   static_assert(sizeof(MenuPlayerController) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuPlayerController*, "", "MenuPlayerController");
-// Writing MetadataGetter for method: MenuPlayerController::get_leftController
+// Writing MetadataGetter for method: GlobalNamespace::MenuPlayerController::get_leftController
 // Il2CppName: get_leftController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::VRController* (MenuPlayerController::*)()>(&MenuPlayerController::get_leftController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::VRController* (GlobalNamespace::MenuPlayerController::*)()>(&GlobalNamespace::MenuPlayerController::get_leftController)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MenuPlayerController*), "get_leftController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuPlayerController*), "get_leftController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MenuPlayerController::get_rightController
+// Writing MetadataGetter for method: GlobalNamespace::MenuPlayerController::get_rightController
 // Il2CppName: get_rightController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::VRController* (MenuPlayerController::*)()>(&MenuPlayerController::get_rightController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::VRController* (GlobalNamespace::MenuPlayerController::*)()>(&GlobalNamespace::MenuPlayerController::get_rightController)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MenuPlayerController*), "get_rightController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuPlayerController*), "get_rightController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MenuPlayerController::get_headPos
+// Writing MetadataGetter for method: GlobalNamespace::MenuPlayerController::get_headPos
 // Il2CppName: get_headPos
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (MenuPlayerController::*)()>(&MenuPlayerController::get_headPos)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::MenuPlayerController::*)()>(&GlobalNamespace::MenuPlayerController::get_headPos)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MenuPlayerController*), "get_headPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuPlayerController*), "get_headPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MenuPlayerController::get_headRot
+// Writing MetadataGetter for method: GlobalNamespace::MenuPlayerController::get_headRot
 // Il2CppName: get_headRot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (MenuPlayerController::*)()>(&MenuPlayerController::get_headRot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (GlobalNamespace::MenuPlayerController::*)()>(&GlobalNamespace::MenuPlayerController::get_headRot)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MenuPlayerController*), "get_headRot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuPlayerController*), "get_headRot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MenuPlayerController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MenuPlayerController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuPlayerController::*)()>(&MenuPlayerController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuPlayerController::*)()>(&GlobalNamespace::MenuPlayerController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MenuPlayerController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuPlayerController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MenuPlayerController::*)()>(&MenuPlayerController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuPlayerController::*)()>(&GlobalNamespace::MenuPlayerController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MenuPlayerController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuPlayerController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

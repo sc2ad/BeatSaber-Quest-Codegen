@@ -59,33 +59,33 @@ namespace JetBrains::Annotations {
   static_assert(sizeof(BaseTypeRequiredAttribute) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::BaseTypeRequiredAttribute*, "JetBrains.Annotations", "BaseTypeRequiredAttribute");
-// Writing MetadataGetter for method: BaseTypeRequiredAttribute::New_ctor
+// Writing MetadataGetter for method: JetBrains::Annotations::BaseTypeRequiredAttribute::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseTypeRequiredAttribute::*)(System::Type*)>(&BaseTypeRequiredAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::BaseTypeRequiredAttribute::*)(System::Type*)>(&JetBrains::Annotations::BaseTypeRequiredAttribute::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseTypeRequiredAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::BaseTypeRequiredAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseTypeRequiredAttribute::*)(System::Type*)>(&BaseTypeRequiredAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::BaseTypeRequiredAttribute::*)(System::Type*)>(&JetBrains::Annotations::BaseTypeRequiredAttribute::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseTypeRequiredAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::BaseTypeRequiredAttribute*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };
-// Writing MetadataGetter for method: BaseTypeRequiredAttribute::get_BaseType
+// Writing MetadataGetter for method: JetBrains::Annotations::BaseTypeRequiredAttribute::get_BaseType
 // Il2CppName: get_BaseType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (BaseTypeRequiredAttribute::*)()>(&BaseTypeRequiredAttribute::get_BaseType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (JetBrains::Annotations::BaseTypeRequiredAttribute::*)()>(&JetBrains::Annotations::BaseTypeRequiredAttribute::get_BaseType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseTypeRequiredAttribute*), "get_BaseType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::BaseTypeRequiredAttribute*), "get_BaseType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BaseTypeRequiredAttribute::set_BaseType
+// Writing MetadataGetter for method: JetBrains::Annotations::BaseTypeRequiredAttribute::set_BaseType
 // Il2CppName: set_BaseType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BaseTypeRequiredAttribute::*)(System::Type*)>(&BaseTypeRequiredAttribute::set_BaseType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::BaseTypeRequiredAttribute::*)(System::Type*)>(&JetBrains::Annotations::BaseTypeRequiredAttribute::set_BaseType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BaseTypeRequiredAttribute*), "set_BaseType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::BaseTypeRequiredAttribute*), "set_BaseType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
   }
 };

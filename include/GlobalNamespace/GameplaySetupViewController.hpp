@@ -282,145 +282,145 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplaySetupViewController*, "", "GameplaySetupViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplaySetupViewController::GameplayMode, "", "GameplaySetupViewController/GameplayMode");
-// Writing MetadataGetter for method: GameplaySetupViewController::add_didChangeGameplayModifiersEvent
+// Writing MetadataGetter for method: GlobalNamespace::GameplaySetupViewController::add_didChangeGameplayModifiersEvent
 // Il2CppName: add_didChangeGameplayModifiersEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplaySetupViewController::*)(System::Action*)>(&GameplaySetupViewController::add_didChangeGameplayModifiersEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplaySetupViewController::*)(System::Action*)>(&GlobalNamespace::GameplaySetupViewController::add_didChangeGameplayModifiersEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), "add_didChangeGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplaySetupViewController*), "add_didChangeGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: GameplaySetupViewController::remove_didChangeGameplayModifiersEvent
+// Writing MetadataGetter for method: GlobalNamespace::GameplaySetupViewController::remove_didChangeGameplayModifiersEvent
 // Il2CppName: remove_didChangeGameplayModifiersEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplaySetupViewController::*)(System::Action*)>(&GameplaySetupViewController::remove_didChangeGameplayModifiersEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplaySetupViewController::*)(System::Action*)>(&GlobalNamespace::GameplaySetupViewController::remove_didChangeGameplayModifiersEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), "remove_didChangeGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplaySetupViewController*), "remove_didChangeGameplayModifiersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: GameplaySetupViewController::get_playerSettings
+// Writing MetadataGetter for method: GlobalNamespace::GameplaySetupViewController::get_playerSettings
 // Il2CppName: get_playerSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerSpecificSettings* (GameplaySetupViewController::*)()>(&GameplaySetupViewController::get_playerSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerSpecificSettings* (GlobalNamespace::GameplaySetupViewController::*)()>(&GlobalNamespace::GameplaySetupViewController::get_playerSettings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), "get_playerSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplaySetupViewController*), "get_playerSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GameplaySetupViewController::get_gameplayModifiers
+// Writing MetadataGetter for method: GlobalNamespace::GameplaySetupViewController::get_gameplayModifiers
 // Il2CppName: get_gameplayModifiers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers* (GameplaySetupViewController::*)()>(&GameplaySetupViewController::get_gameplayModifiers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers* (GlobalNamespace::GameplaySetupViewController::*)()>(&GlobalNamespace::GameplaySetupViewController::get_gameplayModifiers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), "get_gameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplaySetupViewController*), "get_gameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GameplaySetupViewController::get_environmentOverrideSettings
+// Writing MetadataGetter for method: GlobalNamespace::GameplaySetupViewController::get_environmentOverrideSettings
 // Il2CppName: get_environmentOverrideSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OverrideEnvironmentSettings* (GameplaySetupViewController::*)()>(&GameplaySetupViewController::get_environmentOverrideSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OverrideEnvironmentSettings* (GlobalNamespace::GameplaySetupViewController::*)()>(&GlobalNamespace::GameplaySetupViewController::get_environmentOverrideSettings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), "get_environmentOverrideSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplaySetupViewController*), "get_environmentOverrideSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GameplaySetupViewController::get_colorSchemesSettings
+// Writing MetadataGetter for method: GlobalNamespace::GameplaySetupViewController::get_colorSchemesSettings
 // Il2CppName: get_colorSchemesSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorSchemesSettings* (GameplaySetupViewController::*)()>(&GameplaySetupViewController::get_colorSchemesSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorSchemesSettings* (GlobalNamespace::GameplaySetupViewController::*)()>(&GlobalNamespace::GameplaySetupViewController::get_colorSchemesSettings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), "get_colorSchemesSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplaySetupViewController*), "get_colorSchemesSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GameplaySetupViewController::Setup
+// Writing MetadataGetter for method: GlobalNamespace::GameplaySetupViewController::Setup
 // Il2CppName: Setup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplaySetupViewController::*)(bool, bool, bool, GlobalNamespace::GameplaySetupViewController::GameplayMode)>(&GameplaySetupViewController::Setup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplaySetupViewController::*)(bool, bool, bool, GlobalNamespace::GameplaySetupViewController::GameplayMode)>(&GlobalNamespace::GameplaySetupViewController::Setup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplaySetupViewController::GameplayMode>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplaySetupViewController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplaySetupViewController::GameplayMode>()});
   }
 };
-// Writing MetadataGetter for method: GameplaySetupViewController::Init
+// Writing MetadataGetter for method: GlobalNamespace::GameplaySetupViewController::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplaySetupViewController::*)()>(&GameplaySetupViewController::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplaySetupViewController::*)()>(&GlobalNamespace::GameplaySetupViewController::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplaySetupViewController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GameplaySetupViewController::OnDisable
+// Writing MetadataGetter for method: GlobalNamespace::GameplaySetupViewController::OnDisable
 // Il2CppName: OnDisable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplaySetupViewController::*)()>(&GameplaySetupViewController::OnDisable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplaySetupViewController::*)()>(&GlobalNamespace::GameplaySetupViewController::OnDisable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplaySetupViewController*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GameplaySetupViewController::HandleSelectionSegmentedControlDidSelectCell
+// Writing MetadataGetter for method: GlobalNamespace::GameplaySetupViewController::HandleSelectionSegmentedControlDidSelectCell
 // Il2CppName: HandleSelectionSegmentedControlDidSelectCell
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplaySetupViewController::*)(HMUI::SegmentedControl*, int)>(&GameplaySetupViewController::HandleSelectionSegmentedControlDidSelectCell)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplaySetupViewController::*)(HMUI::SegmentedControl*, int)>(&GlobalNamespace::GameplaySetupViewController::HandleSelectionSegmentedControlDidSelectCell)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), "HandleSelectionSegmentedControlDidSelectCell", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SegmentedControl*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplaySetupViewController*), "HandleSelectionSegmentedControlDidSelectCell", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SegmentedControl*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: GameplaySetupViewController::HandlePlayerSettingsPanelControllerDidChangePlayerSettings
+// Writing MetadataGetter for method: GlobalNamespace::GameplaySetupViewController::HandlePlayerSettingsPanelControllerDidChangePlayerSettings
 // Il2CppName: HandlePlayerSettingsPanelControllerDidChangePlayerSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplaySetupViewController::*)()>(&GameplaySetupViewController::HandlePlayerSettingsPanelControllerDidChangePlayerSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplaySetupViewController::*)()>(&GlobalNamespace::GameplaySetupViewController::HandlePlayerSettingsPanelControllerDidChangePlayerSettings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), "HandlePlayerSettingsPanelControllerDidChangePlayerSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplaySetupViewController*), "HandlePlayerSettingsPanelControllerDidChangePlayerSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GameplaySetupViewController::HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers
+// Writing MetadataGetter for method: GlobalNamespace::GameplaySetupViewController::HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers
 // Il2CppName: HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplaySetupViewController::*)()>(&GameplaySetupViewController::HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplaySetupViewController::*)()>(&GlobalNamespace::GameplaySetupViewController::HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), "HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplaySetupViewController*), "HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GameplaySetupViewController::SetActivePanel
+// Writing MetadataGetter for method: GlobalNamespace::GameplaySetupViewController::SetActivePanel
 // Il2CppName: SetActivePanel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplaySetupViewController::*)(int)>(&GameplaySetupViewController::SetActivePanel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplaySetupViewController::*)(int)>(&GlobalNamespace::GameplaySetupViewController::SetActivePanel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), "SetActivePanel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplaySetupViewController*), "SetActivePanel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: GameplaySetupViewController::RefreshContent
+// Writing MetadataGetter for method: GlobalNamespace::GameplaySetupViewController::RefreshContent
 // Il2CppName: RefreshContent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplaySetupViewController::*)()>(&GameplaySetupViewController::RefreshContent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplaySetupViewController::*)()>(&GlobalNamespace::GameplaySetupViewController::RefreshContent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), "RefreshContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplaySetupViewController*), "RefreshContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GameplaySetupViewController::RefreshActivePanel
+// Writing MetadataGetter for method: GlobalNamespace::GameplaySetupViewController::RefreshActivePanel
 // Il2CppName: RefreshActivePanel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplaySetupViewController::*)()>(&GameplaySetupViewController::RefreshActivePanel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplaySetupViewController::*)()>(&GlobalNamespace::GameplaySetupViewController::RefreshActivePanel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), "RefreshActivePanel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplaySetupViewController*), "RefreshActivePanel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GameplaySetupViewController::DidActivate
+// Writing MetadataGetter for method: GlobalNamespace::GameplaySetupViewController::DidActivate
 // Il2CppName: DidActivate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplaySetupViewController::*)(bool, bool, bool)>(&GameplaySetupViewController::DidActivate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplaySetupViewController::*)(bool, bool, bool)>(&GlobalNamespace::GameplaySetupViewController::DidActivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplaySetupViewController*), "DidActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: GameplaySetupViewController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::GameplaySetupViewController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplaySetupViewController::*)()>(&GameplaySetupViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplaySetupViewController::*)()>(&GlobalNamespace::GameplaySetupViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplaySetupViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GameplaySetupViewController::*)()>(&GameplaySetupViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplaySetupViewController::*)()>(&GlobalNamespace::GameplaySetupViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GameplaySetupViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplaySetupViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

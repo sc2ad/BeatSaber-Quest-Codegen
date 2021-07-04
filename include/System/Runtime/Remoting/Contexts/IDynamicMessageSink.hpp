@@ -32,19 +32,19 @@ namespace System::Runtime::Remoting::Contexts {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IDynamicMessageSink*, "System.Runtime.Remoting.Contexts", "IDynamicMessageSink");
-// Writing MetadataGetter for method: IDynamicMessageSink::ProcessMessageFinish
+// Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::IDynamicMessageSink::ProcessMessageFinish
 // Il2CppName: ProcessMessageFinish
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IDynamicMessageSink::*)(System::Runtime::Remoting::Messaging::IMessage*, bool, bool)>(&IDynamicMessageSink::ProcessMessageFinish)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Contexts::IDynamicMessageSink::*)(System::Runtime::Remoting::Messaging::IMessage*, bool, bool)>(&System::Runtime::Remoting::Contexts::IDynamicMessageSink::ProcessMessageFinish)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IDynamicMessageSink*), "ProcessMessageFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::IDynamicMessageSink*), "ProcessMessageFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: IDynamicMessageSink::ProcessMessageStart
+// Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::IDynamicMessageSink::ProcessMessageStart
 // Il2CppName: ProcessMessageStart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IDynamicMessageSink::*)(System::Runtime::Remoting::Messaging::IMessage*, bool, bool)>(&IDynamicMessageSink::ProcessMessageStart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Contexts::IDynamicMessageSink::*)(System::Runtime::Remoting::Messaging::IMessage*, bool, bool)>(&System::Runtime::Remoting::Contexts::IDynamicMessageSink::ProcessMessageStart)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IDynamicMessageSink*), "ProcessMessageStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::IDynamicMessageSink*), "ProcessMessageStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };

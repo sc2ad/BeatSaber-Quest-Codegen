@@ -37,11 +37,11 @@ namespace UnityEngine::Animations {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationPlayableGraphExtensions*, "UnityEngine.Animations", "AnimationPlayableGraphExtensions");
-// Writing MetadataGetter for method: AnimationPlayableGraphExtensions::InternalCreateAnimationOutput
+// Writing MetadataGetter for method: UnityEngine::Animations::AnimationPlayableGraphExtensions::InternalCreateAnimationOutput
 // Il2CppName: InternalCreateAnimationOutput
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&, ::Il2CppString*, UnityEngine::Playables::PlayableOutputHandle&)>(&AnimationPlayableGraphExtensions::InternalCreateAnimationOutput)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&, ::Il2CppString*, UnityEngine::Playables::PlayableOutputHandle&)>(&UnityEngine::Animations::AnimationPlayableGraphExtensions::InternalCreateAnimationOutput)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AnimationPlayableGraphExtensions*), "InternalCreateAnimationOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationPlayableGraphExtensions*), "InternalCreateAnimationOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutputHandle&>()});
   }
 };

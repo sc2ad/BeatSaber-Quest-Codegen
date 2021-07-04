@@ -137,169 +137,169 @@ namespace UnityEngine::ProBuilder {
   bool operator !=(const UnityEngine::ProBuilder::Edge& a, const UnityEngine::ProBuilder::Edge& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Edge, "UnityEngine.ProBuilder", "Edge");
-// Writing MetadataGetter for method: Edge::Edge
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Edge::Edge
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Edge::*)(int, int)>(&Edge::Edge<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Edge::*)(int, int)>(&UnityEngine::ProBuilder::Edge::Edge<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Edge), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Edge), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Edge::*)(int, int)>(&Edge::Edge<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Edge::*)(int, int)>(&UnityEngine::ProBuilder::Edge::Edge<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Edge), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Edge), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Edge::IsValid
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Edge::IsValid
 // Il2CppName: IsValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Edge::*)()>(&Edge::IsValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::Edge::*)()>(&UnityEngine::ProBuilder::Edge::IsValid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Edge), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Edge), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Edge::Equals
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Edge::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Edge::*)(UnityEngine::ProBuilder::Edge)>(&Edge::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::Edge::*)(UnityEngine::ProBuilder::Edge)>(&UnityEngine::ProBuilder::Edge::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Edge), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Edge), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>()});
   }
 };
-// Writing MetadataGetter for method: Edge::Add
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Edge::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (*)(UnityEngine::ProBuilder::Edge, UnityEngine::ProBuilder::Edge)>(&Edge::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (*)(UnityEngine::ProBuilder::Edge, UnityEngine::ProBuilder::Edge)>(&UnityEngine::ProBuilder::Edge::Add)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Edge), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Edge), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>()});
   }
 };
-// Writing MetadataGetter for method: Edge::Subtract
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Edge::Subtract
 // Il2CppName: Subtract
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (*)(UnityEngine::ProBuilder::Edge, UnityEngine::ProBuilder::Edge)>(&Edge::Subtract)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (*)(UnityEngine::ProBuilder::Edge, UnityEngine::ProBuilder::Edge)>(&UnityEngine::ProBuilder::Edge::Subtract)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Edge), "Subtract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Edge), "Subtract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>()});
   }
 };
-// Writing MetadataGetter for method: Edge::Equals
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Edge::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Edge::*)(UnityEngine::ProBuilder::Edge, System::Collections::Generic::Dictionary_2<int, int>*)>(&Edge::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::Edge::*)(UnityEngine::ProBuilder::Edge, System::Collections::Generic::Dictionary_2<int, int>*)>(&UnityEngine::ProBuilder::Edge::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Edge), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<int, int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Edge), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<int, int>*>()});
   }
 };
-// Writing MetadataGetter for method: Edge::Contains
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Edge::Contains
 // Il2CppName: Contains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Edge::*)(int)>(&Edge::Contains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::Edge::*)(int)>(&UnityEngine::ProBuilder::Edge::Contains)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Edge), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Edge), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: Edge::Contains
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Edge::Contains
 // Il2CppName: Contains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Edge::*)(UnityEngine::ProBuilder::Edge)>(&Edge::Contains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::Edge::*)(UnityEngine::ProBuilder::Edge)>(&UnityEngine::ProBuilder::Edge::Contains)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Edge), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Edge), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Edge>()});
   }
 };
-// Writing MetadataGetter for method: Edge::Contains
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Edge::Contains
 // Il2CppName: Contains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Edge::*)(int, System::Collections::Generic::Dictionary_2<int, int>*)>(&Edge::Contains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::Edge::*)(int, System::Collections::Generic::Dictionary_2<int, int>*)>(&UnityEngine::ProBuilder::Edge::Contains)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Edge), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<int, int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Edge), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<int, int>*>()});
   }
 };
-// Writing MetadataGetter for method: Edge::GetIndices
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Edge::GetIndices
 // Il2CppName: GetIndices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>*, System::Collections::Generic::List_1<int>*)>(&Edge::GetIndices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>*, System::Collections::Generic::List_1<int>*)>(&UnityEngine::ProBuilder::Edge::GetIndices)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Edge), "GetIndices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<int>*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Edge), "GetIndices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<int>*>()});
   }
 };
-// Writing MetadataGetter for method: Edge::_cctor
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Edge::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Edge::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::ProBuilder::Edge::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Edge), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Edge), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Edge::ToString
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Edge::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Edge::*)()>(&Edge::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ProBuilder::Edge::*)()>(&UnityEngine::ProBuilder::Edge::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Edge), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Edge), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Edge::Equals
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Edge::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Edge::*)(::Il2CppObject*)>(&Edge::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::Edge::*)(::Il2CppObject*)>(&UnityEngine::ProBuilder::Edge::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Edge), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Edge), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Edge::GetHashCode
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Edge::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Edge::*)()>(&Edge::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::Edge::*)()>(&UnityEngine::ProBuilder::Edge::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Edge), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Edge), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Edge::operator+
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Edge::operator+
 // Il2CppName: op_Addition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (*)(const UnityEngine::ProBuilder::Edge&, const UnityEngine::ProBuilder::Edge&)>(&Edge::operator+)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (*)(const UnityEngine::ProBuilder::Edge&, const UnityEngine::ProBuilder::Edge&)>(&UnityEngine::ProBuilder::Edge::operator+)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Edge), "op_Addition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Edge&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Edge&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Edge), "op_Addition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Edge&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Edge&>()});
   }
 };
-// Writing MetadataGetter for method: Edge::operator-
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Edge::operator-
 // Il2CppName: op_Subtraction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (*)(const UnityEngine::ProBuilder::Edge&, const UnityEngine::ProBuilder::Edge&)>(&Edge::operator-)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (*)(const UnityEngine::ProBuilder::Edge&, const UnityEngine::ProBuilder::Edge&)>(&UnityEngine::ProBuilder::Edge::operator-)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Edge), "op_Subtraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Edge&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Edge&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Edge), "op_Subtraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Edge&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Edge&>()});
   }
 };
-// Writing MetadataGetter for method: Edge::operator+
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Edge::operator+
 // Il2CppName: op_Addition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (*)(const UnityEngine::ProBuilder::Edge&, const int&)>(&Edge::operator+)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (*)(const UnityEngine::ProBuilder::Edge&, const int&)>(&UnityEngine::ProBuilder::Edge::operator+)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Edge), "op_Addition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Edge&>(), ::il2cpp_utils::ExtractIndependentType<const int&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Edge), "op_Addition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Edge&>(), ::il2cpp_utils::ExtractIndependentType<const int&>()});
   }
 };
-// Writing MetadataGetter for method: Edge::operator-
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Edge::operator-
 // Il2CppName: op_Subtraction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (*)(const UnityEngine::ProBuilder::Edge&, const int&)>(&Edge::operator-)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (*)(const UnityEngine::ProBuilder::Edge&, const int&)>(&UnityEngine::ProBuilder::Edge::operator-)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Edge), "op_Subtraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Edge&>(), ::il2cpp_utils::ExtractIndependentType<const int&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Edge), "op_Subtraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Edge&>(), ::il2cpp_utils::ExtractIndependentType<const int&>()});
   }
 };
-// Writing MetadataGetter for method: Edge::operator ==
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Edge::operator ==
 // Il2CppName: op_Equality
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const UnityEngine::ProBuilder::Edge&, const UnityEngine::ProBuilder::Edge&)>(&Edge::operator ==)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const UnityEngine::ProBuilder::Edge&, const UnityEngine::ProBuilder::Edge&)>(&UnityEngine::ProBuilder::Edge::operator ==)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Edge), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Edge&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Edge&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Edge), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Edge&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Edge&>()});
   }
 };
-// Writing MetadataGetter for method: Edge::operator !=
+// Writing MetadataGetter for method: UnityEngine::ProBuilder::Edge::operator !=
 // Il2CppName: op_Inequality
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const UnityEngine::ProBuilder::Edge&, const UnityEngine::ProBuilder::Edge&)>(&Edge::operator !=)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const UnityEngine::ProBuilder::Edge&, const UnityEngine::ProBuilder::Edge&)>(&UnityEngine::ProBuilder::Edge::operator !=)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Edge), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Edge&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Edge&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Edge), "op_Inequality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Edge&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::ProBuilder::Edge&>()});
   }
 };

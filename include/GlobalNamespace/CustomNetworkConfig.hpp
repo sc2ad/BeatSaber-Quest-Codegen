@@ -122,113 +122,113 @@ namespace GlobalNamespace {
   static_assert(sizeof(CustomNetworkConfig) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomNetworkConfig*, "", "CustomNetworkConfig");
-// Writing MetadataGetter for method: CustomNetworkConfig::get_maxPartySize
+// Writing MetadataGetter for method: GlobalNamespace::CustomNetworkConfig::get_maxPartySize
 // Il2CppName: get_maxPartySize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CustomNetworkConfig::*)()>(&CustomNetworkConfig::get_maxPartySize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::CustomNetworkConfig::*)()>(&GlobalNamespace::CustomNetworkConfig::get_maxPartySize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomNetworkConfig*), "get_maxPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomNetworkConfig*), "get_maxPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CustomNetworkConfig::set_maxPartySize
+// Writing MetadataGetter for method: GlobalNamespace::CustomNetworkConfig::set_maxPartySize
 // Il2CppName: set_maxPartySize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomNetworkConfig::*)(int)>(&CustomNetworkConfig::set_maxPartySize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CustomNetworkConfig::*)(int)>(&GlobalNamespace::CustomNetworkConfig::set_maxPartySize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomNetworkConfig*), "set_maxPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomNetworkConfig*), "set_maxPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: CustomNetworkConfig::get_discoveryPort
+// Writing MetadataGetter for method: GlobalNamespace::CustomNetworkConfig::get_discoveryPort
 // Il2CppName: get_discoveryPort
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CustomNetworkConfig::*)()>(&CustomNetworkConfig::get_discoveryPort)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::CustomNetworkConfig::*)()>(&GlobalNamespace::CustomNetworkConfig::get_discoveryPort)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomNetworkConfig*), "get_discoveryPort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomNetworkConfig*), "get_discoveryPort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CustomNetworkConfig::set_discoveryPort
+// Writing MetadataGetter for method: GlobalNamespace::CustomNetworkConfig::set_discoveryPort
 // Il2CppName: set_discoveryPort
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomNetworkConfig::*)(int)>(&CustomNetworkConfig::set_discoveryPort)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CustomNetworkConfig::*)(int)>(&GlobalNamespace::CustomNetworkConfig::set_discoveryPort)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomNetworkConfig*), "set_discoveryPort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomNetworkConfig*), "set_discoveryPort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: CustomNetworkConfig::get_partyPort
+// Writing MetadataGetter for method: GlobalNamespace::CustomNetworkConfig::get_partyPort
 // Il2CppName: get_partyPort
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CustomNetworkConfig::*)()>(&CustomNetworkConfig::get_partyPort)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::CustomNetworkConfig::*)()>(&GlobalNamespace::CustomNetworkConfig::get_partyPort)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomNetworkConfig*), "get_partyPort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomNetworkConfig*), "get_partyPort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CustomNetworkConfig::set_partyPort
+// Writing MetadataGetter for method: GlobalNamespace::CustomNetworkConfig::set_partyPort
 // Il2CppName: set_partyPort
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomNetworkConfig::*)(int)>(&CustomNetworkConfig::set_partyPort)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CustomNetworkConfig::*)(int)>(&GlobalNamespace::CustomNetworkConfig::set_partyPort)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomNetworkConfig*), "set_partyPort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomNetworkConfig*), "set_partyPort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: CustomNetworkConfig::get_multiplayerPort
+// Writing MetadataGetter for method: GlobalNamespace::CustomNetworkConfig::get_multiplayerPort
 // Il2CppName: get_multiplayerPort
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (CustomNetworkConfig::*)()>(&CustomNetworkConfig::get_multiplayerPort)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::CustomNetworkConfig::*)()>(&GlobalNamespace::CustomNetworkConfig::get_multiplayerPort)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomNetworkConfig*), "get_multiplayerPort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomNetworkConfig*), "get_multiplayerPort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CustomNetworkConfig::set_multiplayerPort
+// Writing MetadataGetter for method: GlobalNamespace::CustomNetworkConfig::set_multiplayerPort
 // Il2CppName: set_multiplayerPort
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomNetworkConfig::*)(int)>(&CustomNetworkConfig::set_multiplayerPort)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CustomNetworkConfig::*)(int)>(&GlobalNamespace::CustomNetworkConfig::set_multiplayerPort)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomNetworkConfig*), "set_multiplayerPort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomNetworkConfig*), "set_multiplayerPort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: CustomNetworkConfig::get_masterServerEndPoint
+// Writing MetadataGetter for method: GlobalNamespace::CustomNetworkConfig::get_masterServerEndPoint
 // Il2CppName: get_masterServerEndPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MasterServerEndPoint* (CustomNetworkConfig::*)()>(&CustomNetworkConfig::get_masterServerEndPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MasterServerEndPoint* (GlobalNamespace::CustomNetworkConfig::*)()>(&GlobalNamespace::CustomNetworkConfig::get_masterServerEndPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomNetworkConfig*), "get_masterServerEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomNetworkConfig*), "get_masterServerEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CustomNetworkConfig::set_masterServerEndPoint
+// Writing MetadataGetter for method: GlobalNamespace::CustomNetworkConfig::set_masterServerEndPoint
 // Il2CppName: set_masterServerEndPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomNetworkConfig::*)(GlobalNamespace::MasterServerEndPoint*)>(&CustomNetworkConfig::set_masterServerEndPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CustomNetworkConfig::*)(GlobalNamespace::MasterServerEndPoint*)>(&GlobalNamespace::CustomNetworkConfig::set_masterServerEndPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomNetworkConfig*), "set_masterServerEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MasterServerEndPoint*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomNetworkConfig*), "set_masterServerEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MasterServerEndPoint*>()});
   }
 };
-// Writing MetadataGetter for method: CustomNetworkConfig::get_masterServerStatusUrl
+// Writing MetadataGetter for method: GlobalNamespace::CustomNetworkConfig::get_masterServerStatusUrl
 // Il2CppName: get_masterServerStatusUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (CustomNetworkConfig::*)()>(&CustomNetworkConfig::get_masterServerStatusUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::CustomNetworkConfig::*)()>(&GlobalNamespace::CustomNetworkConfig::get_masterServerStatusUrl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomNetworkConfig*), "get_masterServerStatusUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomNetworkConfig*), "get_masterServerStatusUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: CustomNetworkConfig::set_masterServerStatusUrl
+// Writing MetadataGetter for method: GlobalNamespace::CustomNetworkConfig::set_masterServerStatusUrl
 // Il2CppName: set_masterServerStatusUrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomNetworkConfig::*)(::Il2CppString*)>(&CustomNetworkConfig::set_masterServerStatusUrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CustomNetworkConfig::*)(::Il2CppString*)>(&GlobalNamespace::CustomNetworkConfig::set_masterServerStatusUrl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomNetworkConfig*), "set_masterServerStatusUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomNetworkConfig*), "set_masterServerStatusUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: CustomNetworkConfig::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::CustomNetworkConfig::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomNetworkConfig::*)(GlobalNamespace::INetworkConfig*, ::Il2CppString*, int)>(&CustomNetworkConfig::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CustomNetworkConfig::*)(GlobalNamespace::INetworkConfig*, ::Il2CppString*, int)>(&GlobalNamespace::CustomNetworkConfig::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomNetworkConfig*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::INetworkConfig*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomNetworkConfig*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::INetworkConfig*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (CustomNetworkConfig::*)(GlobalNamespace::INetworkConfig*, ::Il2CppString*, int)>(&CustomNetworkConfig::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CustomNetworkConfig::*)(GlobalNamespace::INetworkConfig*, ::Il2CppString*, int)>(&GlobalNamespace::CustomNetworkConfig::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(CustomNetworkConfig*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::INetworkConfig*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomNetworkConfig*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::INetworkConfig*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };

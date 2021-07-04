@@ -108,49 +108,49 @@ namespace System::Text::RegularExpressions {
   static_assert(sizeof(RegexBoyerMoore) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexBoyerMoore*, "System.Text.RegularExpressions", "RegexBoyerMoore");
-// Writing MetadataGetter for method: RegexBoyerMoore::New_ctor
+// Writing MetadataGetter for method: System::Text::RegularExpressions::RegexBoyerMoore::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexBoyerMoore::*)(::Il2CppString*, bool, bool, System::Globalization::CultureInfo*)>(&RegexBoyerMoore::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexBoyerMoore::*)(::Il2CppString*, bool, bool, System::Globalization::CultureInfo*)>(&System::Text::RegularExpressions::RegexBoyerMoore::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RegexBoyerMoore*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexBoyerMoore*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RegexBoyerMoore::*)(::Il2CppString*, bool, bool, System::Globalization::CultureInfo*)>(&RegexBoyerMoore::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexBoyerMoore::*)(::Il2CppString*, bool, bool, System::Globalization::CultureInfo*)>(&System::Text::RegularExpressions::RegexBoyerMoore::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RegexBoyerMoore*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexBoyerMoore*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
   }
 };
-// Writing MetadataGetter for method: RegexBoyerMoore::MatchPattern
+// Writing MetadataGetter for method: System::Text::RegularExpressions::RegexBoyerMoore::MatchPattern
 // Il2CppName: MatchPattern
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RegexBoyerMoore::*)(::Il2CppString*, int)>(&RegexBoyerMoore::MatchPattern)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::RegularExpressions::RegexBoyerMoore::*)(::Il2CppString*, int)>(&System::Text::RegularExpressions::RegexBoyerMoore::MatchPattern)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RegexBoyerMoore*), "MatchPattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexBoyerMoore*), "MatchPattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: RegexBoyerMoore::IsMatch
+// Writing MetadataGetter for method: System::Text::RegularExpressions::RegexBoyerMoore::IsMatch
 // Il2CppName: IsMatch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RegexBoyerMoore::*)(::Il2CppString*, int, int, int)>(&RegexBoyerMoore::IsMatch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::RegularExpressions::RegexBoyerMoore::*)(::Il2CppString*, int, int, int)>(&System::Text::RegularExpressions::RegexBoyerMoore::IsMatch)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RegexBoyerMoore*), "IsMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexBoyerMoore*), "IsMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: RegexBoyerMoore::Scan
+// Writing MetadataGetter for method: System::Text::RegularExpressions::RegexBoyerMoore::Scan
 // Il2CppName: Scan
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RegexBoyerMoore::*)(::Il2CppString*, int, int, int)>(&RegexBoyerMoore::Scan)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::RegularExpressions::RegexBoyerMoore::*)(::Il2CppString*, int, int, int)>(&System::Text::RegularExpressions::RegexBoyerMoore::Scan)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RegexBoyerMoore*), "Scan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexBoyerMoore*), "Scan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: RegexBoyerMoore::ToString
+// Writing MetadataGetter for method: System::Text::RegularExpressions::RegexBoyerMoore::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (RegexBoyerMoore::*)()>(&RegexBoyerMoore::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Text::RegularExpressions::RegexBoyerMoore::*)()>(&System::Text::RegularExpressions::RegexBoyerMoore::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RegexBoyerMoore*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexBoyerMoore*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

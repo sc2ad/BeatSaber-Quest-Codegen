@@ -77,41 +77,41 @@ namespace GlobalNamespace {
   static_assert(sizeof(WindowResolutionSettingsController) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::WindowResolutionSettingsController*, "", "WindowResolutionSettingsController");
-// Writing MetadataGetter for method: WindowResolutionSettingsController::GetInitValues
+// Writing MetadataGetter for method: GlobalNamespace::WindowResolutionSettingsController::GetInitValues
 // Il2CppName: GetInitValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (WindowResolutionSettingsController::*)(int&, int&)>(&WindowResolutionSettingsController::GetInitValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::WindowResolutionSettingsController::*)(int&, int&)>(&GlobalNamespace::WindowResolutionSettingsController::GetInitValues)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WindowResolutionSettingsController*), "GetInitValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WindowResolutionSettingsController*), "GetInitValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
   }
 };
-// Writing MetadataGetter for method: WindowResolutionSettingsController::ApplyValue
+// Writing MetadataGetter for method: GlobalNamespace::WindowResolutionSettingsController::ApplyValue
 // Il2CppName: ApplyValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WindowResolutionSettingsController::*)(int)>(&WindowResolutionSettingsController::ApplyValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::WindowResolutionSettingsController::*)(int)>(&GlobalNamespace::WindowResolutionSettingsController::ApplyValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WindowResolutionSettingsController*), "ApplyValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WindowResolutionSettingsController*), "ApplyValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: WindowResolutionSettingsController::TextForValue
+// Writing MetadataGetter for method: GlobalNamespace::WindowResolutionSettingsController::TextForValue
 // Il2CppName: TextForValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (WindowResolutionSettingsController::*)(int)>(&WindowResolutionSettingsController::TextForValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::WindowResolutionSettingsController::*)(int)>(&GlobalNamespace::WindowResolutionSettingsController::TextForValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WindowResolutionSettingsController*), "TextForValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WindowResolutionSettingsController*), "TextForValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: WindowResolutionSettingsController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::WindowResolutionSettingsController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WindowResolutionSettingsController::*)()>(&WindowResolutionSettingsController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::WindowResolutionSettingsController::*)()>(&GlobalNamespace::WindowResolutionSettingsController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WindowResolutionSettingsController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WindowResolutionSettingsController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (WindowResolutionSettingsController::*)()>(&WindowResolutionSettingsController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::WindowResolutionSettingsController::*)()>(&GlobalNamespace::WindowResolutionSettingsController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(WindowResolutionSettingsController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WindowResolutionSettingsController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

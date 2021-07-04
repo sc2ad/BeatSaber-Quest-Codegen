@@ -90,25 +90,25 @@ namespace System {
   static_assert(sizeof(DelegateSerializationHolder::DelegateEntry) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::DelegateSerializationHolder::DelegateEntry*, "System", "DelegateSerializationHolder/DelegateEntry");
-// Writing MetadataGetter for method: DelegateSerializationHolder::DelegateEntry::New_ctor
+// Writing MetadataGetter for method: System::DelegateSerializationHolder::DelegateEntry::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelegateSerializationHolder::DelegateEntry::*)(System::Delegate*, ::Il2CppString*)>(&DelegateSerializationHolder::DelegateEntry::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::DelegateSerializationHolder::DelegateEntry::*)(System::Delegate*, ::Il2CppString*)>(&System::DelegateSerializationHolder::DelegateEntry::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DelegateSerializationHolder::DelegateEntry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Delegate*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::DelegateSerializationHolder::DelegateEntry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Delegate*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DelegateSerializationHolder::DelegateEntry::*)(System::Delegate*, ::Il2CppString*)>(&DelegateSerializationHolder::DelegateEntry::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::DelegateSerializationHolder::DelegateEntry::*)(System::Delegate*, ::Il2CppString*)>(&System::DelegateSerializationHolder::DelegateEntry::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DelegateSerializationHolder::DelegateEntry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Delegate*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::DelegateSerializationHolder::DelegateEntry*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Delegate*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: DelegateSerializationHolder::DelegateEntry::DeserializeDelegate
+// Writing MetadataGetter for method: System::DelegateSerializationHolder::DelegateEntry::DeserializeDelegate
 // Il2CppName: DeserializeDelegate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (DelegateSerializationHolder::DelegateEntry::*)(System::Runtime::Serialization::SerializationInfo*, int)>(&DelegateSerializationHolder::DelegateEntry::DeserializeDelegate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (System::DelegateSerializationHolder::DelegateEntry::*)(System::Runtime::Serialization::SerializationInfo*, int)>(&System::DelegateSerializationHolder::DelegateEntry::DeserializeDelegate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DelegateSerializationHolder::DelegateEntry*), "DeserializeDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(System::DelegateSerializationHolder::DelegateEntry*), "DeserializeDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };

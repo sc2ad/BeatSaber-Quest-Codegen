@@ -65,75 +65,75 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioSettings*, "UnityEngine", "AudioSettings");
-// Writing MetadataGetter for method: AudioSettings::GetSampleRate
+// Writing MetadataGetter for method: UnityEngine::AudioSettings::GetSampleRate
 // Il2CppName: GetSampleRate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&AudioSettings::GetSampleRate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&UnityEngine::AudioSettings::GetSampleRate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings*), "GetSampleRate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioSettings*), "GetSampleRate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AudioSettings::get_dspTime
+// Writing MetadataGetter for method: UnityEngine::AudioSettings::get_dspTime
 // Il2CppName: get_dspTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)()>(&AudioSettings::get_dspTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)()>(&UnityEngine::AudioSettings::get_dspTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings*), "get_dspTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioSettings*), "get_dspTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AudioSettings::get_outputSampleRate
+// Writing MetadataGetter for method: UnityEngine::AudioSettings::get_outputSampleRate
 // Il2CppName: get_outputSampleRate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&AudioSettings::get_outputSampleRate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&UnityEngine::AudioSettings::get_outputSampleRate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings*), "get_outputSampleRate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioSettings*), "get_outputSampleRate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AudioSettings::GetSpatializerPluginName
+// Writing MetadataGetter for method: UnityEngine::AudioSettings::GetSpatializerPluginName
 // Il2CppName: GetSpatializerPluginName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&AudioSettings::GetSpatializerPluginName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::AudioSettings::GetSpatializerPluginName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings*), "GetSpatializerPluginName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioSettings*), "GetSpatializerPluginName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AudioSettings::GetConfiguration
+// Writing MetadataGetter for method: UnityEngine::AudioSettings::GetConfiguration
 // Il2CppName: GetConfiguration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioConfiguration (*)()>(&AudioSettings::GetConfiguration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioConfiguration (*)()>(&UnityEngine::AudioSettings::GetConfiguration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings*), "GetConfiguration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioSettings*), "GetConfiguration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AudioSettings::InvokeOnAudioConfigurationChanged
+// Writing MetadataGetter for method: UnityEngine::AudioSettings::InvokeOnAudioConfigurationChanged
 // Il2CppName: InvokeOnAudioConfigurationChanged
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&AudioSettings::InvokeOnAudioConfigurationChanged)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&UnityEngine::AudioSettings::InvokeOnAudioConfigurationChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings*), "InvokeOnAudioConfigurationChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioSettings*), "InvokeOnAudioConfigurationChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: AudioSettings::StartAudioOutput
+// Writing MetadataGetter for method: UnityEngine::AudioSettings::StartAudioOutput
 // Il2CppName: StartAudioOutput
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&AudioSettings::StartAudioOutput)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::AudioSettings::StartAudioOutput)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings*), "StartAudioOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioSettings*), "StartAudioOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AudioSettings::StopAudioOutput
+// Writing MetadataGetter for method: UnityEngine::AudioSettings::StopAudioOutput
 // Il2CppName: StopAudioOutput
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&AudioSettings::StopAudioOutput)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::AudioSettings::StopAudioOutput)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings*), "StopAudioOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioSettings*), "StopAudioOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AudioSettings::GetConfiguration_Injected
+// Writing MetadataGetter for method: UnityEngine::AudioSettings::GetConfiguration_Injected
 // Il2CppName: GetConfiguration_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AudioConfiguration&)>(&AudioSettings::GetConfiguration_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AudioConfiguration&)>(&UnityEngine::AudioSettings::GetConfiguration_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioSettings*), "GetConfiguration_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioConfiguration&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioSettings*), "GetConfiguration_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioConfiguration&>()});
   }
 };

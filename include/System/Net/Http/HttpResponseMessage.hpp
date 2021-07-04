@@ -150,129 +150,129 @@ namespace System::Net::Http {
   static_assert(sizeof(HttpResponseMessage) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpResponseMessage*, "System.Net.Http", "HttpResponseMessage");
-// Writing MetadataGetter for method: HttpResponseMessage::New_ctor
+// Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpResponseMessage::*)(System::Net::HttpStatusCode)>(&HttpResponseMessage::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpResponseMessage::*)(System::Net::HttpStatusCode)>(&System::Net::Http::HttpResponseMessage::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpResponseMessage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpStatusCode>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpStatusCode>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpResponseMessage::*)(System::Net::HttpStatusCode)>(&HttpResponseMessage::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpResponseMessage::*)(System::Net::HttpStatusCode)>(&System::Net::Http::HttpResponseMessage::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpResponseMessage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpStatusCode>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpStatusCode>()});
   }
 };
-// Writing MetadataGetter for method: HttpResponseMessage::get_Content
+// Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::get_Content
 // Il2CppName: get_Content
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Http::HttpContent* (HttpResponseMessage::*)()>(&HttpResponseMessage::get_Content)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Http::HttpContent* (System::Net::Http::HttpResponseMessage::*)()>(&System::Net::Http::HttpResponseMessage::get_Content)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpResponseMessage*), "get_Content", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), "get_Content", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HttpResponseMessage::set_Content
+// Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::set_Content
 // Il2CppName: set_Content
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpResponseMessage::*)(System::Net::Http::HttpContent*)>(&HttpResponseMessage::set_Content)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpResponseMessage::*)(System::Net::Http::HttpContent*)>(&System::Net::Http::HttpResponseMessage::set_Content)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpResponseMessage*), "set_Content", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::HttpContent*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), "set_Content", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::HttpContent*>()});
   }
 };
-// Writing MetadataGetter for method: HttpResponseMessage::get_Headers
+// Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::get_Headers
 // Il2CppName: get_Headers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Http::Headers::HttpResponseHeaders* (HttpResponseMessage::*)()>(&HttpResponseMessage::get_Headers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Http::Headers::HttpResponseHeaders* (System::Net::Http::HttpResponseMessage::*)()>(&System::Net::Http::HttpResponseMessage::get_Headers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpResponseMessage*), "get_Headers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), "get_Headers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HttpResponseMessage::get_IsSuccessStatusCode
+// Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::get_IsSuccessStatusCode
 // Il2CppName: get_IsSuccessStatusCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HttpResponseMessage::*)()>(&HttpResponseMessage::get_IsSuccessStatusCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::HttpResponseMessage::*)()>(&System::Net::Http::HttpResponseMessage::get_IsSuccessStatusCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpResponseMessage*), "get_IsSuccessStatusCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), "get_IsSuccessStatusCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HttpResponseMessage::get_ReasonPhrase
+// Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::get_ReasonPhrase
 // Il2CppName: get_ReasonPhrase
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HttpResponseMessage::*)()>(&HttpResponseMessage::get_ReasonPhrase)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::HttpResponseMessage::*)()>(&System::Net::Http::HttpResponseMessage::get_ReasonPhrase)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpResponseMessage*), "get_ReasonPhrase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), "get_ReasonPhrase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HttpResponseMessage::set_ReasonPhrase
+// Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::set_ReasonPhrase
 // Il2CppName: set_ReasonPhrase
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpResponseMessage::*)(::Il2CppString*)>(&HttpResponseMessage::set_ReasonPhrase)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpResponseMessage::*)(::Il2CppString*)>(&System::Net::Http::HttpResponseMessage::set_ReasonPhrase)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpResponseMessage*), "set_ReasonPhrase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), "set_ReasonPhrase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: HttpResponseMessage::set_RequestMessage
+// Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::set_RequestMessage
 // Il2CppName: set_RequestMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpResponseMessage::*)(System::Net::Http::HttpRequestMessage*)>(&HttpResponseMessage::set_RequestMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpResponseMessage::*)(System::Net::Http::HttpRequestMessage*)>(&System::Net::Http::HttpResponseMessage::set_RequestMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpResponseMessage*), "set_RequestMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::HttpRequestMessage*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), "set_RequestMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::HttpRequestMessage*>()});
   }
 };
-// Writing MetadataGetter for method: HttpResponseMessage::get_StatusCode
+// Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::get_StatusCode
 // Il2CppName: get_StatusCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpStatusCode (HttpResponseMessage::*)()>(&HttpResponseMessage::get_StatusCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpStatusCode (System::Net::Http::HttpResponseMessage::*)()>(&System::Net::Http::HttpResponseMessage::get_StatusCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpResponseMessage*), "get_StatusCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), "get_StatusCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HttpResponseMessage::set_StatusCode
+// Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::set_StatusCode
 // Il2CppName: set_StatusCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpResponseMessage::*)(System::Net::HttpStatusCode)>(&HttpResponseMessage::set_StatusCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpResponseMessage::*)(System::Net::HttpStatusCode)>(&System::Net::Http::HttpResponseMessage::set_StatusCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpResponseMessage*), "set_StatusCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpStatusCode>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), "set_StatusCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpStatusCode>()});
   }
 };
-// Writing MetadataGetter for method: HttpResponseMessage::get_Version
+// Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::get_Version
 // Il2CppName: get_Version
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Version* (HttpResponseMessage::*)()>(&HttpResponseMessage::get_Version)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Version* (System::Net::Http::HttpResponseMessage::*)()>(&System::Net::Http::HttpResponseMessage::get_Version)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpResponseMessage*), "get_Version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), "get_Version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HttpResponseMessage::Dispose
+// Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpResponseMessage::*)()>(&HttpResponseMessage::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpResponseMessage::*)()>(&System::Net::Http::HttpResponseMessage::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpResponseMessage*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HttpResponseMessage::Dispose
+// Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HttpResponseMessage::*)(bool)>(&HttpResponseMessage::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpResponseMessage::*)(bool)>(&System::Net::Http::HttpResponseMessage::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpResponseMessage*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: HttpResponseMessage::EnsureSuccessStatusCode
+// Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::EnsureSuccessStatusCode
 // Il2CppName: EnsureSuccessStatusCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Http::HttpResponseMessage* (HttpResponseMessage::*)()>(&HttpResponseMessage::EnsureSuccessStatusCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Http::HttpResponseMessage* (System::Net::Http::HttpResponseMessage::*)()>(&System::Net::Http::HttpResponseMessage::EnsureSuccessStatusCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpResponseMessage*), "EnsureSuccessStatusCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), "EnsureSuccessStatusCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: HttpResponseMessage::ToString
+// Writing MetadataGetter for method: System::Net::Http::HttpResponseMessage::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HttpResponseMessage::*)()>(&HttpResponseMessage::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::HttpResponseMessage::*)()>(&System::Net::Http::HttpResponseMessage::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HttpResponseMessage*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpResponseMessage*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

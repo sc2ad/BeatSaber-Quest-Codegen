@@ -54,41 +54,41 @@ namespace System::Text::RegularExpressions {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::MatchEvaluator*, "System.Text.RegularExpressions", "MatchEvaluator");
-// Writing MetadataGetter for method: MatchEvaluator::New_ctor
+// Writing MetadataGetter for method: System::Text::RegularExpressions::MatchEvaluator::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchEvaluator::*)(::Il2CppObject*, System::IntPtr)>(&MatchEvaluator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::MatchEvaluator::*)(::Il2CppObject*, System::IntPtr)>(&System::Text::RegularExpressions::MatchEvaluator::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MatchEvaluator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::MatchEvaluator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MatchEvaluator::*)(::Il2CppObject*, System::IntPtr)>(&MatchEvaluator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::MatchEvaluator::*)(::Il2CppObject*, System::IntPtr)>(&System::Text::RegularExpressions::MatchEvaluator::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MatchEvaluator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::MatchEvaluator*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: MatchEvaluator::Invoke
+// Writing MetadataGetter for method: System::Text::RegularExpressions::MatchEvaluator::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MatchEvaluator::*)(System::Text::RegularExpressions::Match*)>(&MatchEvaluator::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Text::RegularExpressions::MatchEvaluator::*)(System::Text::RegularExpressions::Match*)>(&System::Text::RegularExpressions::MatchEvaluator::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MatchEvaluator*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::Match*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::MatchEvaluator*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::Match*>()});
   }
 };
-// Writing MetadataGetter for method: MatchEvaluator::BeginInvoke
+// Writing MetadataGetter for method: System::Text::RegularExpressions::MatchEvaluator::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (MatchEvaluator::*)(System::Text::RegularExpressions::Match*, System::AsyncCallback*, ::Il2CppObject*)>(&MatchEvaluator::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Text::RegularExpressions::MatchEvaluator::*)(System::Text::RegularExpressions::Match*, System::AsyncCallback*, ::Il2CppObject*)>(&System::Text::RegularExpressions::MatchEvaluator::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MatchEvaluator*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::Match*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::MatchEvaluator*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::Match*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: MatchEvaluator::EndInvoke
+// Writing MetadataGetter for method: System::Text::RegularExpressions::MatchEvaluator::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MatchEvaluator::*)(System::IAsyncResult*)>(&MatchEvaluator::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Text::RegularExpressions::MatchEvaluator::*)(System::IAsyncResult*)>(&System::Text::RegularExpressions::MatchEvaluator::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MatchEvaluator*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::MatchEvaluator*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

@@ -105,41 +105,41 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SynchronizedActionQueue*, "", "SynchronizedActionQueue");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SynchronizedActionQueue::SynchronizedAction, "", "SynchronizedActionQueue/SynchronizedAction");
-// Writing MetadataGetter for method: SynchronizedActionQueue::Clear
+// Writing MetadataGetter for method: GlobalNamespace::SynchronizedActionQueue::Clear
 // Il2CppName: Clear
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SynchronizedActionQueue::*)()>(&SynchronizedActionQueue::Clear)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SynchronizedActionQueue::*)()>(&GlobalNamespace::SynchronizedActionQueue::Clear)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SynchronizedActionQueue*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SynchronizedActionQueue*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: SynchronizedActionQueue::EnqueueAction
+// Writing MetadataGetter for method: GlobalNamespace::SynchronizedActionQueue::EnqueueAction
 // Il2CppName: EnqueueAction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SynchronizedActionQueue::*)(float, System::Action*)>(&SynchronizedActionQueue::EnqueueAction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SynchronizedActionQueue::*)(float, System::Action*)>(&GlobalNamespace::SynchronizedActionQueue::EnqueueAction)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SynchronizedActionQueue*), "EnqueueAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SynchronizedActionQueue*), "EnqueueAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
   }
 };
-// Writing MetadataGetter for method: SynchronizedActionQueue::Update
+// Writing MetadataGetter for method: GlobalNamespace::SynchronizedActionQueue::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SynchronizedActionQueue::*)(float)>(&SynchronizedActionQueue::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SynchronizedActionQueue::*)(float)>(&GlobalNamespace::SynchronizedActionQueue::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SynchronizedActionQueue*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SynchronizedActionQueue*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: SynchronizedActionQueue::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::SynchronizedActionQueue::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SynchronizedActionQueue::*)()>(&SynchronizedActionQueue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SynchronizedActionQueue::*)()>(&GlobalNamespace::SynchronizedActionQueue::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SynchronizedActionQueue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SynchronizedActionQueue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SynchronizedActionQueue::*)()>(&SynchronizedActionQueue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SynchronizedActionQueue::*)()>(&GlobalNamespace::SynchronizedActionQueue::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(SynchronizedActionQueue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SynchronizedActionQueue*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -39,27 +39,27 @@ namespace TMPro {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::ITextElement*, "TMPro", "ITextElement");
-// Writing MetadataGetter for method: ITextElement::get_sharedMaterial
+// Writing MetadataGetter for method: TMPro::ITextElement::get_sharedMaterial
 // Il2CppName: get_sharedMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (ITextElement::*)()>(&ITextElement::get_sharedMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::ITextElement::*)()>(&TMPro::ITextElement::get_sharedMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ITextElement*), "get_sharedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::ITextElement*), "get_sharedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: ITextElement::Rebuild
+// Writing MetadataGetter for method: TMPro::ITextElement::Rebuild
 // Il2CppName: Rebuild
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (ITextElement::*)(UnityEngine::UI::CanvasUpdate)>(&ITextElement::Rebuild)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::ITextElement::*)(UnityEngine::UI::CanvasUpdate)>(&TMPro::ITextElement::Rebuild)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ITextElement*), "Rebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::CanvasUpdate>()});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::ITextElement*), "Rebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::CanvasUpdate>()});
   }
 };
-// Writing MetadataGetter for method: ITextElement::GetInstanceID
+// Writing MetadataGetter for method: TMPro::ITextElement::GetInstanceID
 // Il2CppName: GetInstanceID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (ITextElement::*)()>(&ITextElement::GetInstanceID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::ITextElement::*)()>(&TMPro::ITextElement::GetInstanceID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ITextElement*), "GetInstanceID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(TMPro::ITextElement*), "GetInstanceID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

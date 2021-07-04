@@ -33,11 +33,11 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PlatformInternal::HTTP*, "Oculus.Platform", "PlatformInternal/HTTP");
-// Writing MetadataGetter for method: PlatformInternal::HTTP::SetHttpTransferUpdateCallback
+// Writing MetadataGetter for method: Oculus::Platform::PlatformInternal::HTTP::SetHttpTransferUpdateCallback
 // Il2CppName: SetHttpTransferUpdateCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<Oculus::Platform::Models::HttpTransferUpdate*>::Callback*)>(&PlatformInternal::HTTP::SetHttpTransferUpdateCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<Oculus::Platform::Models::HttpTransferUpdate*>::Callback*)>(&Oculus::Platform::PlatformInternal::HTTP::SetHttpTransferUpdateCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlatformInternal::HTTP*), "SetHttpTransferUpdateCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<Oculus::Platform::Models::HttpTransferUpdate*>::Callback*>()});
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::PlatformInternal::HTTP*), "SetHttpTransferUpdateCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<Oculus::Platform::Models::HttpTransferUpdate*>::Callback*>()});
   }
 };

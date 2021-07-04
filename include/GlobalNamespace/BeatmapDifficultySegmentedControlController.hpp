@@ -118,81 +118,81 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapDifficultySegmentedControlController) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDifficultySegmentedControlController*, "", "BeatmapDifficultySegmentedControlController");
-// Writing MetadataGetter for method: BeatmapDifficultySegmentedControlController::add_didSelectDifficultyEvent
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapDifficultySegmentedControlController::add_didSelectDifficultyEvent
 // Il2CppName: add_didSelectDifficultyEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapDifficultySegmentedControlController::*)(System::Action_2<GlobalNamespace::BeatmapDifficultySegmentedControlController*, GlobalNamespace::BeatmapDifficulty>*)>(&BeatmapDifficultySegmentedControlController::add_didSelectDifficultyEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapDifficultySegmentedControlController::*)(System::Action_2<GlobalNamespace::BeatmapDifficultySegmentedControlController*, GlobalNamespace::BeatmapDifficulty>*)>(&GlobalNamespace::BeatmapDifficultySegmentedControlController::add_didSelectDifficultyEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapDifficultySegmentedControlController*), "add_didSelectDifficultyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::BeatmapDifficultySegmentedControlController*, GlobalNamespace::BeatmapDifficulty>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDifficultySegmentedControlController*), "add_didSelectDifficultyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::BeatmapDifficultySegmentedControlController*, GlobalNamespace::BeatmapDifficulty>*>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapDifficultySegmentedControlController::remove_didSelectDifficultyEvent
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapDifficultySegmentedControlController::remove_didSelectDifficultyEvent
 // Il2CppName: remove_didSelectDifficultyEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapDifficultySegmentedControlController::*)(System::Action_2<GlobalNamespace::BeatmapDifficultySegmentedControlController*, GlobalNamespace::BeatmapDifficulty>*)>(&BeatmapDifficultySegmentedControlController::remove_didSelectDifficultyEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapDifficultySegmentedControlController::*)(System::Action_2<GlobalNamespace::BeatmapDifficultySegmentedControlController*, GlobalNamespace::BeatmapDifficulty>*)>(&GlobalNamespace::BeatmapDifficultySegmentedControlController::remove_didSelectDifficultyEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapDifficultySegmentedControlController*), "remove_didSelectDifficultyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::BeatmapDifficultySegmentedControlController*, GlobalNamespace::BeatmapDifficulty>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDifficultySegmentedControlController*), "remove_didSelectDifficultyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_2<GlobalNamespace::BeatmapDifficultySegmentedControlController*, GlobalNamespace::BeatmapDifficulty>*>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapDifficultySegmentedControlController::get_selectedDifficulty
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapDifficultySegmentedControlController::get_selectedDifficulty
 // Il2CppName: get_selectedDifficulty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapDifficulty (BeatmapDifficultySegmentedControlController::*)()>(&BeatmapDifficultySegmentedControlController::get_selectedDifficulty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapDifficulty (GlobalNamespace::BeatmapDifficultySegmentedControlController::*)()>(&GlobalNamespace::BeatmapDifficultySegmentedControlController::get_selectedDifficulty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapDifficultySegmentedControlController*), "get_selectedDifficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDifficultySegmentedControlController*), "get_selectedDifficulty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapDifficultySegmentedControlController::Awake
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapDifficultySegmentedControlController::Awake
 // Il2CppName: Awake
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapDifficultySegmentedControlController::*)()>(&BeatmapDifficultySegmentedControlController::Awake)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapDifficultySegmentedControlController::*)()>(&GlobalNamespace::BeatmapDifficultySegmentedControlController::Awake)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapDifficultySegmentedControlController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDifficultySegmentedControlController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapDifficultySegmentedControlController::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapDifficultySegmentedControlController::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapDifficultySegmentedControlController::*)()>(&BeatmapDifficultySegmentedControlController::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapDifficultySegmentedControlController::*)()>(&GlobalNamespace::BeatmapDifficultySegmentedControlController::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapDifficultySegmentedControlController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDifficultySegmentedControlController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: BeatmapDifficultySegmentedControlController::GetClosestDifficultyIndex
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapDifficultySegmentedControlController::GetClosestDifficultyIndex
 // Il2CppName: GetClosestDifficultyIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (BeatmapDifficultySegmentedControlController::*)(GlobalNamespace::BeatmapDifficulty)>(&BeatmapDifficultySegmentedControlController::GetClosestDifficultyIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::BeatmapDifficultySegmentedControlController::*)(GlobalNamespace::BeatmapDifficulty)>(&GlobalNamespace::BeatmapDifficultySegmentedControlController::GetClosestDifficultyIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapDifficultySegmentedControlController*), "GetClosestDifficultyIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDifficultySegmentedControlController*), "GetClosestDifficultyIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapDifficultySegmentedControlController::HandleDifficultySegmentedControlDidSelectCell
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapDifficultySegmentedControlController::HandleDifficultySegmentedControlDidSelectCell
 // Il2CppName: HandleDifficultySegmentedControlDidSelectCell
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapDifficultySegmentedControlController::*)(HMUI::SegmentedControl*, int)>(&BeatmapDifficultySegmentedControlController::HandleDifficultySegmentedControlDidSelectCell)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapDifficultySegmentedControlController::*)(HMUI::SegmentedControl*, int)>(&GlobalNamespace::BeatmapDifficultySegmentedControlController::HandleDifficultySegmentedControlDidSelectCell)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapDifficultySegmentedControlController*), "HandleDifficultySegmentedControlDidSelectCell", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SegmentedControl*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDifficultySegmentedControlController*), "HandleDifficultySegmentedControlDidSelectCell", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SegmentedControl*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapDifficultySegmentedControlController::SetData
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapDifficultySegmentedControlController::SetData
 // Il2CppName: SetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapDifficultySegmentedControlController::*)(::Array<GlobalNamespace::IDifficultyBeatmap*>*, GlobalNamespace::BeatmapDifficulty)>(&BeatmapDifficultySegmentedControlController::SetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapDifficultySegmentedControlController::*)(::Array<GlobalNamespace::IDifficultyBeatmap*>*, GlobalNamespace::BeatmapDifficulty)>(&GlobalNamespace::BeatmapDifficultySegmentedControlController::SetData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapDifficultySegmentedControlController*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::IDifficultyBeatmap*>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDifficultySegmentedControlController*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::IDifficultyBeatmap*>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>()});
   }
 };
-// Writing MetadataGetter for method: BeatmapDifficultySegmentedControlController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::BeatmapDifficultySegmentedControlController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapDifficultySegmentedControlController::*)()>(&BeatmapDifficultySegmentedControlController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapDifficultySegmentedControlController::*)()>(&GlobalNamespace::BeatmapDifficultySegmentedControlController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapDifficultySegmentedControlController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDifficultySegmentedControlController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatmapDifficultySegmentedControlController::*)()>(&BeatmapDifficultySegmentedControlController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapDifficultySegmentedControlController::*)()>(&GlobalNamespace::BeatmapDifficultySegmentedControlController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatmapDifficultySegmentedControlController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDifficultySegmentedControlController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

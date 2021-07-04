@@ -110,81 +110,81 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   static_assert(sizeof(Pbkdf2Params) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*, "Org.BouncyCastle.Asn1.Pkcs", "Pbkdf2Params");
-// Writing MetadataGetter for method: Pbkdf2Params::GetInstance
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::GetInstance
 // Il2CppName: GetInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* (*)(::Il2CppObject*)>(&Pbkdf2Params::GetInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* (*)(::Il2CppObject*)>(&Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::GetInstance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Pbkdf2Params*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: Pbkdf2Params::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Pbkdf2Params::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&Pbkdf2Params::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Pbkdf2Params*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Pbkdf2Params::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&Pbkdf2Params::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)(Org::BouncyCastle::Asn1::Asn1Sequence*)>(&Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Pbkdf2Params*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Sequence*>()});
   }
 };
-// Writing MetadataGetter for method: Pbkdf2Params::GetSalt
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::GetSalt
 // Il2CppName: GetSalt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Pbkdf2Params::*)()>(&Pbkdf2Params::GetSalt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)()>(&Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::GetSalt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Pbkdf2Params*), "GetSalt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*), "GetSalt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Pbkdf2Params::get_IterationCount
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::get_IterationCount
 // Il2CppName: get_IterationCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Pbkdf2Params::*)()>(&Pbkdf2Params::get_IterationCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)()>(&Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::get_IterationCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Pbkdf2Params*), "get_IterationCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*), "get_IterationCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Pbkdf2Params::get_KeyLength
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::get_KeyLength
 // Il2CppName: get_KeyLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Pbkdf2Params::*)()>(&Pbkdf2Params::get_KeyLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)()>(&Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::get_KeyLength)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Pbkdf2Params*), "get_KeyLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*), "get_KeyLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Pbkdf2Params::get_IsDefaultPrf
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::get_IsDefaultPrf
 // Il2CppName: get_IsDefaultPrf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Pbkdf2Params::*)()>(&Pbkdf2Params::get_IsDefaultPrf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)()>(&Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::get_IsDefaultPrf)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Pbkdf2Params*), "get_IsDefaultPrf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*), "get_IsDefaultPrf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Pbkdf2Params::get_Prf
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::get_Prf
 // Il2CppName: get_Prf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (Pbkdf2Params::*)()>(&Pbkdf2Params::get_Prf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)()>(&Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::get_Prf)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Pbkdf2Params*), "get_Prf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*), "get_Prf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Pbkdf2Params::_cctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Pbkdf2Params::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Pbkdf2Params*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: Pbkdf2Params::ToAsn1Object
+// Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::ToAsn1Object
 // Il2CppName: ToAsn1Object
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Pbkdf2Params::*)()>(&Pbkdf2Params::ToAsn1Object)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)()>(&Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::ToAsn1Object)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Pbkdf2Params*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

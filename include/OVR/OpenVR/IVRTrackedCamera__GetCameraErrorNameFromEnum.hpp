@@ -57,41 +57,41 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRTrackedCamera::_GetCameraErrorNameFromEnum*, "OVR.OpenVR", "IVRTrackedCamera/_GetCameraErrorNameFromEnum");
-// Writing MetadataGetter for method: IVRTrackedCamera::_GetCameraErrorNameFromEnum::New_ctor
+// Writing MetadataGetter for method: OVR::OpenVR::IVRTrackedCamera::_GetCameraErrorNameFromEnum::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRTrackedCamera::_GetCameraErrorNameFromEnum::*)(::Il2CppObject*, System::IntPtr)>(&IVRTrackedCamera::_GetCameraErrorNameFromEnum::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRTrackedCamera::_GetCameraErrorNameFromEnum::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVRTrackedCamera::_GetCameraErrorNameFromEnum::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRTrackedCamera::_GetCameraErrorNameFromEnum*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRTrackedCamera::_GetCameraErrorNameFromEnum*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (IVRTrackedCamera::_GetCameraErrorNameFromEnum::*)(::Il2CppObject*, System::IntPtr)>(&IVRTrackedCamera::_GetCameraErrorNameFromEnum::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRTrackedCamera::_GetCameraErrorNameFromEnum::*)(::Il2CppObject*, System::IntPtr)>(&OVR::OpenVR::IVRTrackedCamera::_GetCameraErrorNameFromEnum::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRTrackedCamera::_GetCameraErrorNameFromEnum*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRTrackedCamera::_GetCameraErrorNameFromEnum*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
   }
 };
-// Writing MetadataGetter for method: IVRTrackedCamera::_GetCameraErrorNameFromEnum::Invoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRTrackedCamera::_GetCameraErrorNameFromEnum::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (IVRTrackedCamera::_GetCameraErrorNameFromEnum::*)(OVR::OpenVR::EVRTrackedCameraError)>(&IVRTrackedCamera::_GetCameraErrorNameFromEnum::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (OVR::OpenVR::IVRTrackedCamera::_GetCameraErrorNameFromEnum::*)(OVR::OpenVR::EVRTrackedCameraError)>(&OVR::OpenVR::IVRTrackedCamera::_GetCameraErrorNameFromEnum::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRTrackedCamera::_GetCameraErrorNameFromEnum*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRTrackedCameraError>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRTrackedCamera::_GetCameraErrorNameFromEnum*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRTrackedCameraError>()});
   }
 };
-// Writing MetadataGetter for method: IVRTrackedCamera::_GetCameraErrorNameFromEnum::BeginInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRTrackedCamera::_GetCameraErrorNameFromEnum::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (IVRTrackedCamera::_GetCameraErrorNameFromEnum::*)(OVR::OpenVR::EVRTrackedCameraError, System::AsyncCallback*, ::Il2CppObject*)>(&IVRTrackedCamera::_GetCameraErrorNameFromEnum::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRTrackedCamera::_GetCameraErrorNameFromEnum::*)(OVR::OpenVR::EVRTrackedCameraError, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRTrackedCamera::_GetCameraErrorNameFromEnum::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRTrackedCamera::_GetCameraErrorNameFromEnum*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRTrackedCameraError>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRTrackedCamera::_GetCameraErrorNameFromEnum*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVRTrackedCameraError>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: IVRTrackedCamera::_GetCameraErrorNameFromEnum::EndInvoke
+// Writing MetadataGetter for method: OVR::OpenVR::IVRTrackedCamera::_GetCameraErrorNameFromEnum::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (IVRTrackedCamera::_GetCameraErrorNameFromEnum::*)(System::IAsyncResult*)>(&IVRTrackedCamera::_GetCameraErrorNameFromEnum::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (OVR::OpenVR::IVRTrackedCamera::_GetCameraErrorNameFromEnum::*)(System::IAsyncResult*)>(&OVR::OpenVR::IVRTrackedCamera::_GetCameraErrorNameFromEnum::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(IVRTrackedCamera::_GetCameraErrorNameFromEnum*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRTrackedCamera::_GetCameraErrorNameFromEnum*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
   }
 };

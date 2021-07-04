@@ -100,19 +100,19 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyPlayersDataModel::$SetOwnedSongPacks$d__42, "", "LobbyPlayersDataModel/<SetOwnedSongPacks>d__42");
-// Writing MetadataGetter for method: LobbyPlayersDataModel::$SetOwnedSongPacks$d__42::MoveNext
+// Writing MetadataGetter for method: GlobalNamespace::LobbyPlayersDataModel::$SetOwnedSongPacks$d__42::MoveNext
 // Il2CppName: MoveNext
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LobbyPlayersDataModel::$SetOwnedSongPacks$d__42::*)()>(&LobbyPlayersDataModel::$SetOwnedSongPacks$d__42::MoveNext)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyPlayersDataModel::$SetOwnedSongPacks$d__42::*)()>(&GlobalNamespace::LobbyPlayersDataModel::$SetOwnedSongPacks$d__42::MoveNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LobbyPlayersDataModel::$SetOwnedSongPacks$d__42), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyPlayersDataModel::$SetOwnedSongPacks$d__42), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LobbyPlayersDataModel::$SetOwnedSongPacks$d__42::SetStateMachine
+// Writing MetadataGetter for method: GlobalNamespace::LobbyPlayersDataModel::$SetOwnedSongPacks$d__42::SetStateMachine
 // Il2CppName: SetStateMachine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LobbyPlayersDataModel::$SetOwnedSongPacks$d__42::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&LobbyPlayersDataModel::$SetOwnedSongPacks$d__42::SetStateMachine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyPlayersDataModel::$SetOwnedSongPacks$d__42::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&GlobalNamespace::LobbyPlayersDataModel::$SetOwnedSongPacks$d__42::SetStateMachine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LobbyPlayersDataModel::$SetOwnedSongPacks$d__42), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyPlayersDataModel::$SetOwnedSongPacks$d__42), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
   }
 };

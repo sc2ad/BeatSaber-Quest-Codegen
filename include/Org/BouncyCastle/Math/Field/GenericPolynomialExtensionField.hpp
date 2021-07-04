@@ -81,57 +81,57 @@ namespace Org::BouncyCastle::Math::Field {
   static_assert(sizeof(GenericPolynomialExtensionField) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField*, "Org.BouncyCastle.Math.Field", "GenericPolynomialExtensionField");
-// Writing MetadataGetter for method: GenericPolynomialExtensionField::New_ctor
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericPolynomialExtensionField::*)(Org::BouncyCastle::Math::Field::IFiniteField*, Org::BouncyCastle::Math::Field::IPolynomial*)>(&GenericPolynomialExtensionField::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::*)(Org::BouncyCastle::Math::Field::IFiniteField*, Org::BouncyCastle::Math::Field::IPolynomial*)>(&Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GenericPolynomialExtensionField*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::Field::IFiniteField*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::Field::IPolynomial*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::Field::IFiniteField*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::Field::IPolynomial*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GenericPolynomialExtensionField::*)(Org::BouncyCastle::Math::Field::IFiniteField*, Org::BouncyCastle::Math::Field::IPolynomial*)>(&GenericPolynomialExtensionField::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::*)(Org::BouncyCastle::Math::Field::IFiniteField*, Org::BouncyCastle::Math::Field::IPolynomial*)>(&Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GenericPolynomialExtensionField*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::Field::IFiniteField*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::Field::IPolynomial*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::Field::IFiniteField*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::Field::IPolynomial*>()});
   }
 };
-// Writing MetadataGetter for method: GenericPolynomialExtensionField::get_Characteristic
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::get_Characteristic
 // Il2CppName: get_Characteristic
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (GenericPolynomialExtensionField::*)()>(&GenericPolynomialExtensionField::get_Characteristic)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::*)()>(&Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::get_Characteristic)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GenericPolynomialExtensionField*), "get_Characteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField*), "get_Characteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GenericPolynomialExtensionField::get_Dimension
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::get_Dimension
 // Il2CppName: get_Dimension
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GenericPolynomialExtensionField::*)()>(&GenericPolynomialExtensionField::get_Dimension)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::*)()>(&Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::get_Dimension)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GenericPolynomialExtensionField*), "get_Dimension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField*), "get_Dimension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GenericPolynomialExtensionField::get_MinimalPolynomial
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::get_MinimalPolynomial
 // Il2CppName: get_MinimalPolynomial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::Field::IPolynomial* (GenericPolynomialExtensionField::*)()>(&GenericPolynomialExtensionField::get_MinimalPolynomial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::Field::IPolynomial* (Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::*)()>(&Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::get_MinimalPolynomial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GenericPolynomialExtensionField*), "get_MinimalPolynomial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField*), "get_MinimalPolynomial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: GenericPolynomialExtensionField::Equals
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GenericPolynomialExtensionField::*)(::Il2CppObject*)>(&GenericPolynomialExtensionField::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::*)(::Il2CppObject*)>(&Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GenericPolynomialExtensionField*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: GenericPolynomialExtensionField::GetHashCode
+// Writing MetadataGetter for method: Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GenericPolynomialExtensionField::*)()>(&GenericPolynomialExtensionField::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::*)()>(&Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GenericPolynomialExtensionField*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

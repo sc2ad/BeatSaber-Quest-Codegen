@@ -153,73 +153,73 @@ namespace Zenject {
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposableManager*, "Zenject", "DisposableManager");
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposableManager::DisposableInfo, "Zenject", "DisposableManager/DisposableInfo");
-// Writing MetadataGetter for method: DisposableManager::New_ctor
+// Writing MetadataGetter for method: Zenject::DisposableManager::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisposableManager::*)(System::Collections::Generic::List_1<System::IDisposable*>*, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*, System::Collections::Generic::List_1<Zenject::ILateDisposable*>*, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*)>(&DisposableManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DisposableManager::*)(System::Collections::Generic::List_1<System::IDisposable*>*, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*, System::Collections::Generic::List_1<Zenject::ILateDisposable*>*, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*)>(&Zenject::DisposableManager::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DisposableManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::IDisposable*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::ILateDisposable*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DisposableManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::IDisposable*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::ILateDisposable*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisposableManager::*)(System::Collections::Generic::List_1<System::IDisposable*>*, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*, System::Collections::Generic::List_1<Zenject::ILateDisposable*>*, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*)>(&DisposableManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DisposableManager::*)(System::Collections::Generic::List_1<System::IDisposable*>*, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*, System::Collections::Generic::List_1<Zenject::ILateDisposable*>*, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*)>(&Zenject::DisposableManager::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DisposableManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::IDisposable*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::ILateDisposable*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DisposableManager*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::IDisposable*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::ILateDisposable*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*>()});
   }
 };
-// Writing MetadataGetter for method: DisposableManager::Add
+// Writing MetadataGetter for method: Zenject::DisposableManager::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisposableManager::*)(System::IDisposable*)>(&DisposableManager::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DisposableManager::*)(System::IDisposable*)>(&Zenject::DisposableManager::Add)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DisposableManager*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IDisposable*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DisposableManager*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IDisposable*>()});
   }
 };
-// Writing MetadataGetter for method: DisposableManager::Add
+// Writing MetadataGetter for method: Zenject::DisposableManager::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisposableManager::*)(System::IDisposable*, int)>(&DisposableManager::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DisposableManager::*)(System::IDisposable*, int)>(&Zenject::DisposableManager::Add)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DisposableManager*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IDisposable*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DisposableManager*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IDisposable*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: DisposableManager::AddLate
+// Writing MetadataGetter for method: Zenject::DisposableManager::AddLate
 // Il2CppName: AddLate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisposableManager::*)(Zenject::ILateDisposable*)>(&DisposableManager::AddLate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DisposableManager::*)(Zenject::ILateDisposable*)>(&Zenject::DisposableManager::AddLate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DisposableManager*), "AddLate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ILateDisposable*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DisposableManager*), "AddLate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ILateDisposable*>()});
   }
 };
-// Writing MetadataGetter for method: DisposableManager::AddLate
+// Writing MetadataGetter for method: Zenject::DisposableManager::AddLate
 // Il2CppName: AddLate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisposableManager::*)(Zenject::ILateDisposable*, int)>(&DisposableManager::AddLate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DisposableManager::*)(Zenject::ILateDisposable*, int)>(&Zenject::DisposableManager::AddLate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DisposableManager*), "AddLate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ILateDisposable*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DisposableManager*), "AddLate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ILateDisposable*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: DisposableManager::Remove
+// Writing MetadataGetter for method: Zenject::DisposableManager::Remove
 // Il2CppName: Remove
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisposableManager::*)(System::IDisposable*)>(&DisposableManager::Remove)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DisposableManager::*)(System::IDisposable*)>(&Zenject::DisposableManager::Remove)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DisposableManager*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IDisposable*>()});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DisposableManager*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IDisposable*>()});
   }
 };
-// Writing MetadataGetter for method: DisposableManager::LateDispose
+// Writing MetadataGetter for method: Zenject::DisposableManager::LateDispose
 // Il2CppName: LateDispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisposableManager::*)()>(&DisposableManager::LateDispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DisposableManager::*)()>(&Zenject::DisposableManager::LateDispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DisposableManager*), "LateDispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DisposableManager*), "LateDispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DisposableManager::Dispose
+// Writing MetadataGetter for method: Zenject::DisposableManager::Dispose
 // Il2CppName: Dispose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (DisposableManager::*)()>(&DisposableManager::Dispose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DisposableManager::*)()>(&Zenject::DisposableManager::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DisposableManager*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DisposableManager*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

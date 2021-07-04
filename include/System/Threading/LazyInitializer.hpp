@@ -48,9 +48,9 @@ namespace System::Threading {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::LazyInitializer*, "System.Threading", "LazyInitializer");
-// Writing MetadataGetter for method: LazyInitializer::EnsureInitialized
+// Writing MetadataGetter for method: System::Threading::LazyInitializer::EnsureInitialized
 // Il2CppName: EnsureInitialized
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: LazyInitializer::EnsureInitializedCore
+// Writing MetadataGetter for method: System::Threading::LazyInitializer::EnsureInitializedCore
 // Il2CppName: EnsureInitializedCore
 // Cannot write MetadataGetter for generic methods!

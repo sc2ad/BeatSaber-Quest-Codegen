@@ -43,19 +43,19 @@ namespace System::Collections::Generic {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::DictionaryHashHelpers*, "System.Collections.Generic", "DictionaryHashHelpers");
-// Writing MetadataGetter for method: DictionaryHashHelpers::get_SerializationInfoTable
+// Writing MetadataGetter for method: System::Collections::Generic::DictionaryHashHelpers::get_SerializationInfoTable
 // Il2CppName: get_SerializationInfoTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, System::Runtime::Serialization::SerializationInfo*>* (*)()>(&DictionaryHashHelpers::get_SerializationInfoTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, System::Runtime::Serialization::SerializationInfo*>* (*)()>(&System::Collections::Generic::DictionaryHashHelpers::get_SerializationInfoTable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DictionaryHashHelpers*), "get_SerializationInfoTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Generic::DictionaryHashHelpers*), "get_SerializationInfoTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: DictionaryHashHelpers::_cctor
+// Writing MetadataGetter for method: System::Collections::Generic::DictionaryHashHelpers::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&DictionaryHashHelpers::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Collections::Generic::DictionaryHashHelpers::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(DictionaryHashHelpers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Generic::DictionaryHashHelpers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

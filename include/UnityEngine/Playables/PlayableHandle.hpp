@@ -290,505 +290,505 @@ namespace UnityEngine::Playables {
   bool operator ==(const UnityEngine::Playables::PlayableHandle& x, const UnityEngine::Playables::PlayableHandle& y);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableHandle, "UnityEngine.Playables", "PlayableHandle");
-// Writing MetadataGetter for method: PlayableHandle::GetObject
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::GetObject
 // Il2CppName: GetObject
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: PlayableHandle::IsPlayableOfType
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::IsPlayableOfType
 // Il2CppName: IsPlayableOfType
 // Cannot write MetadataGetter for generic methods!
-// Writing MetadataGetter for method: PlayableHandle::get_Null
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::get_Null
 // Il2CppName: get_Null
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (*)()>(&PlayableHandle::get_Null)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (*)()>(&UnityEngine::Playables::PlayableHandle::get_Null)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "get_Null", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "get_Null", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::GetInput
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::GetInput
 // Il2CppName: GetInput
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (PlayableHandle::*)(int)>(&PlayableHandle::GetInput)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (UnityEngine::Playables::PlayableHandle::*)(int)>(&UnityEngine::Playables::PlayableHandle::GetInput)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "GetInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "GetInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::SetInputWeight
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::SetInputWeight
 // Il2CppName: SetInputWeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayableHandle::*)(int, float)>(&PlayableHandle::SetInputWeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Playables::PlayableHandle::*)(int, float)>(&UnityEngine::Playables::PlayableHandle::SetInputWeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "SetInputWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "SetInputWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::GetInputWeight
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::GetInputWeight
 // Il2CppName: GetInputWeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (PlayableHandle::*)(int)>(&PlayableHandle::GetInputWeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Playables::PlayableHandle::*)(int)>(&UnityEngine::Playables::PlayableHandle::GetInputWeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "GetInputWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "GetInputWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::Equals
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayableHandle::*)(UnityEngine::Playables::PlayableHandle)>(&PlayableHandle::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Playables::PlayableHandle::*)(UnityEngine::Playables::PlayableHandle)>(&UnityEngine::Playables::PlayableHandle::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::CompareVersion
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::CompareVersion
 // Il2CppName: CompareVersion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableHandle, UnityEngine::Playables::PlayableHandle)>(&PlayableHandle::CompareVersion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableHandle, UnityEngine::Playables::PlayableHandle)>(&UnityEngine::Playables::PlayableHandle::CompareVersion)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "CompareVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "CompareVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::CheckInputBounds
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::CheckInputBounds
 // Il2CppName: CheckInputBounds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayableHandle::*)(int)>(&PlayableHandle::CheckInputBounds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Playables::PlayableHandle::*)(int)>(&UnityEngine::Playables::PlayableHandle::CheckInputBounds)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "CheckInputBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "CheckInputBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::CheckInputBounds
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::CheckInputBounds
 // Il2CppName: CheckInputBounds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayableHandle::*)(int, bool)>(&PlayableHandle::CheckInputBounds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Playables::PlayableHandle::*)(int, bool)>(&UnityEngine::Playables::PlayableHandle::CheckInputBounds)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "CheckInputBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "CheckInputBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::IsValid
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::IsValid
 // Il2CppName: IsValid
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayableHandle::*)()>(&PlayableHandle::IsValid)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Playables::PlayableHandle::*)()>(&UnityEngine::Playables::PlayableHandle::IsValid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::GetPlayableType
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::GetPlayableType
 // Il2CppName: GetPlayableType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (PlayableHandle::*)()>(&PlayableHandle::GetPlayableType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (UnityEngine::Playables::PlayableHandle::*)()>(&UnityEngine::Playables::PlayableHandle::GetPlayableType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "GetPlayableType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "GetPlayableType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::SetScriptInstance
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::SetScriptInstance
 // Il2CppName: SetScriptInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableHandle::*)(::Il2CppObject*)>(&PlayableHandle::SetScriptInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableHandle::*)(::Il2CppObject*)>(&UnityEngine::Playables::PlayableHandle::SetScriptInstance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "SetScriptInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "SetScriptInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::GetPlayState
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::GetPlayState
 // Il2CppName: GetPlayState
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayState (PlayableHandle::*)()>(&PlayableHandle::GetPlayState)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayState (UnityEngine::Playables::PlayableHandle::*)()>(&UnityEngine::Playables::PlayableHandle::GetPlayState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "GetPlayState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "GetPlayState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::Play
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::Play
 // Il2CppName: Play
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableHandle::*)()>(&PlayableHandle::Play)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableHandle::*)()>(&UnityEngine::Playables::PlayableHandle::Play)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "Play", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "Play", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::Pause
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::Pause
 // Il2CppName: Pause
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableHandle::*)()>(&PlayableHandle::Pause)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableHandle::*)()>(&UnityEngine::Playables::PlayableHandle::Pause)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "Pause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "Pause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::SetSpeed
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::SetSpeed
 // Il2CppName: SetSpeed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableHandle::*)(double)>(&PlayableHandle::SetSpeed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableHandle::*)(double)>(&UnityEngine::Playables::PlayableHandle::SetSpeed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "SetSpeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "SetSpeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::GetTime
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::GetTime
 // Il2CppName: GetTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (PlayableHandle::*)()>(&PlayableHandle::GetTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Playables::PlayableHandle::*)()>(&UnityEngine::Playables::PlayableHandle::GetTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "GetTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "GetTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::SetTime
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::SetTime
 // Il2CppName: SetTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableHandle::*)(double)>(&PlayableHandle::SetTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableHandle::*)(double)>(&UnityEngine::Playables::PlayableHandle::SetTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "SetTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "SetTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::IsDone
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::IsDone
 // Il2CppName: IsDone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayableHandle::*)()>(&PlayableHandle::IsDone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Playables::PlayableHandle::*)()>(&UnityEngine::Playables::PlayableHandle::IsDone)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "IsDone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "IsDone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::GetDuration
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::GetDuration
 // Il2CppName: GetDuration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (PlayableHandle::*)()>(&PlayableHandle::GetDuration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Playables::PlayableHandle::*)()>(&UnityEngine::Playables::PlayableHandle::GetDuration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "GetDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "GetDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::SetDuration
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::SetDuration
 // Il2CppName: SetDuration
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableHandle::*)(double)>(&PlayableHandle::SetDuration)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableHandle::*)(double)>(&UnityEngine::Playables::PlayableHandle::SetDuration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "SetDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "SetDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::SetPropagateSetTime
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::SetPropagateSetTime
 // Il2CppName: SetPropagateSetTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableHandle::*)(bool)>(&PlayableHandle::SetPropagateSetTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableHandle::*)(bool)>(&UnityEngine::Playables::PlayableHandle::SetPropagateSetTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "SetPropagateSetTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "SetPropagateSetTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::GetGraph
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::GetGraph
 // Il2CppName: GetGraph
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableGraph (PlayableHandle::*)()>(&PlayableHandle::GetGraph)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableGraph (UnityEngine::Playables::PlayableHandle::*)()>(&UnityEngine::Playables::PlayableHandle::GetGraph)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "GetGraph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "GetGraph", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::GetInputCount
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::GetInputCount
 // Il2CppName: GetInputCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PlayableHandle::*)()>(&PlayableHandle::GetInputCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Playables::PlayableHandle::*)()>(&UnityEngine::Playables::PlayableHandle::GetInputCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "GetInputCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "GetInputCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::SetInputCount
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::SetInputCount
 // Il2CppName: SetInputCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableHandle::*)(int)>(&PlayableHandle::SetInputCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableHandle::*)(int)>(&UnityEngine::Playables::PlayableHandle::SetInputCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "SetInputCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "SetInputCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::SetInputWeight
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::SetInputWeight
 // Il2CppName: SetInputWeight
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableHandle::*)(UnityEngine::Playables::PlayableHandle, float)>(&PlayableHandle::SetInputWeight)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableHandle::*)(UnityEngine::Playables::PlayableHandle, float)>(&UnityEngine::Playables::PlayableHandle::SetInputWeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "SetInputWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "SetInputWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::GetPreviousTime
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::GetPreviousTime
 // Il2CppName: GetPreviousTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (PlayableHandle::*)()>(&PlayableHandle::GetPreviousTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Playables::PlayableHandle::*)()>(&UnityEngine::Playables::PlayableHandle::GetPreviousTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "GetPreviousTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "GetPreviousTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::SetTraversalMode
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::SetTraversalMode
 // Il2CppName: SetTraversalMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableHandle::*)(UnityEngine::Playables::PlayableTraversalMode)>(&PlayableHandle::SetTraversalMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableHandle::*)(UnityEngine::Playables::PlayableTraversalMode)>(&UnityEngine::Playables::PlayableHandle::SetTraversalMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "SetTraversalMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableTraversalMode>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "SetTraversalMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableTraversalMode>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::GetTimeWrapMode
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::GetTimeWrapMode
 // Il2CppName: GetTimeWrapMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::DirectorWrapMode (PlayableHandle::*)()>(&PlayableHandle::GetTimeWrapMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::DirectorWrapMode (UnityEngine::Playables::PlayableHandle::*)()>(&UnityEngine::Playables::PlayableHandle::GetTimeWrapMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "GetTimeWrapMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "GetTimeWrapMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::SetTimeWrapMode
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::SetTimeWrapMode
 // Il2CppName: SetTimeWrapMode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableHandle::*)(UnityEngine::Playables::DirectorWrapMode)>(&PlayableHandle::SetTimeWrapMode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableHandle::*)(UnityEngine::Playables::DirectorWrapMode)>(&UnityEngine::Playables::PlayableHandle::SetTimeWrapMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "SetTimeWrapMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::DirectorWrapMode>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "SetTimeWrapMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::DirectorWrapMode>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::GetScriptInstance
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::GetScriptInstance
 // Il2CppName: GetScriptInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (PlayableHandle::*)()>(&PlayableHandle::GetScriptInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (UnityEngine::Playables::PlayableHandle::*)()>(&UnityEngine::Playables::PlayableHandle::GetScriptInstance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "GetScriptInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "GetScriptInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::GetInputHandle
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::GetInputHandle
 // Il2CppName: GetInputHandle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (PlayableHandle::*)(int)>(&PlayableHandle::GetInputHandle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (UnityEngine::Playables::PlayableHandle::*)(int)>(&UnityEngine::Playables::PlayableHandle::GetInputHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "GetInputHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "GetInputHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::SetInputWeightFromIndex
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::SetInputWeightFromIndex
 // Il2CppName: SetInputWeightFromIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PlayableHandle::*)(int, float)>(&PlayableHandle::SetInputWeightFromIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableHandle::*)(int, float)>(&UnityEngine::Playables::PlayableHandle::SetInputWeightFromIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "SetInputWeightFromIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "SetInputWeightFromIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::GetInputWeightFromIndex
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::GetInputWeightFromIndex
 // Il2CppName: GetInputWeightFromIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (PlayableHandle::*)(int)>(&PlayableHandle::GetInputWeightFromIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Playables::PlayableHandle::*)(int)>(&UnityEngine::Playables::PlayableHandle::GetInputWeightFromIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "GetInputWeightFromIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "GetInputWeightFromIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::_cctor
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::_cctor
 // Il2CppName: .cctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&PlayableHandle::_cctor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Playables::PlayableHandle::_cctor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::IsValid_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::IsValid_Injected
 // Il2CppName: IsValid_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableHandle&)>(&PlayableHandle::IsValid_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableHandle&)>(&UnityEngine::Playables::PlayableHandle::IsValid_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "IsValid_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "IsValid_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::GetPlayableType_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::GetPlayableType_Injected
 // Il2CppName: GetPlayableType_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(UnityEngine::Playables::PlayableHandle&)>(&PlayableHandle::GetPlayableType_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(UnityEngine::Playables::PlayableHandle&)>(&UnityEngine::Playables::PlayableHandle::GetPlayableType_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "GetPlayableType_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "GetPlayableType_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::SetScriptInstance_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::SetScriptInstance_Injected
 // Il2CppName: SetScriptInstance_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, ::Il2CppObject*)>(&PlayableHandle::SetScriptInstance_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, ::Il2CppObject*)>(&UnityEngine::Playables::PlayableHandle::SetScriptInstance_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "SetScriptInstance_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "SetScriptInstance_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::GetPlayState_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::GetPlayState_Injected
 // Il2CppName: GetPlayState_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayState (*)(UnityEngine::Playables::PlayableHandle&)>(&PlayableHandle::GetPlayState_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayState (*)(UnityEngine::Playables::PlayableHandle&)>(&UnityEngine::Playables::PlayableHandle::GetPlayState_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "GetPlayState_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "GetPlayState_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::Play_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::Play_Injected
 // Il2CppName: Play_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&)>(&PlayableHandle::Play_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&)>(&UnityEngine::Playables::PlayableHandle::Play_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "Play_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "Play_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::Pause_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::Pause_Injected
 // Il2CppName: Pause_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&)>(&PlayableHandle::Pause_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&)>(&UnityEngine::Playables::PlayableHandle::Pause_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "Pause_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "Pause_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::SetSpeed_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::SetSpeed_Injected
 // Il2CppName: SetSpeed_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, double)>(&PlayableHandle::SetSpeed_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, double)>(&UnityEngine::Playables::PlayableHandle::SetSpeed_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "SetSpeed_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "SetSpeed_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::GetTime_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::GetTime_Injected
 // Il2CppName: GetTime_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(UnityEngine::Playables::PlayableHandle&)>(&PlayableHandle::GetTime_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(UnityEngine::Playables::PlayableHandle&)>(&UnityEngine::Playables::PlayableHandle::GetTime_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "GetTime_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "GetTime_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::SetTime_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::SetTime_Injected
 // Il2CppName: SetTime_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, double)>(&PlayableHandle::SetTime_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, double)>(&UnityEngine::Playables::PlayableHandle::SetTime_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "SetTime_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "SetTime_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::IsDone_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::IsDone_Injected
 // Il2CppName: IsDone_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableHandle&)>(&PlayableHandle::IsDone_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableHandle&)>(&UnityEngine::Playables::PlayableHandle::IsDone_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "IsDone_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "IsDone_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::GetDuration_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::GetDuration_Injected
 // Il2CppName: GetDuration_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(UnityEngine::Playables::PlayableHandle&)>(&PlayableHandle::GetDuration_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(UnityEngine::Playables::PlayableHandle&)>(&UnityEngine::Playables::PlayableHandle::GetDuration_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "GetDuration_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "GetDuration_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::SetDuration_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::SetDuration_Injected
 // Il2CppName: SetDuration_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, double)>(&PlayableHandle::SetDuration_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, double)>(&UnityEngine::Playables::PlayableHandle::SetDuration_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "SetDuration_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<double>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "SetDuration_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<double>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::SetPropagateSetTime_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::SetPropagateSetTime_Injected
 // Il2CppName: SetPropagateSetTime_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, bool)>(&PlayableHandle::SetPropagateSetTime_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, bool)>(&UnityEngine::Playables::PlayableHandle::SetPropagateSetTime_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "SetPropagateSetTime_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "SetPropagateSetTime_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::GetGraph_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::GetGraph_Injected
 // Il2CppName: GetGraph_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, UnityEngine::Playables::PlayableGraph&)>(&PlayableHandle::GetGraph_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, UnityEngine::Playables::PlayableGraph&)>(&UnityEngine::Playables::PlayableHandle::GetGraph_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "GetGraph_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "GetGraph_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableGraph&>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::GetInputCount_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::GetInputCount_Injected
 // Il2CppName: GetInputCount_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Playables::PlayableHandle&)>(&PlayableHandle::GetInputCount_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Playables::PlayableHandle&)>(&UnityEngine::Playables::PlayableHandle::GetInputCount_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "GetInputCount_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "GetInputCount_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::SetInputCount_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::SetInputCount_Injected
 // Il2CppName: SetInputCount_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, int)>(&PlayableHandle::SetInputCount_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, int)>(&UnityEngine::Playables::PlayableHandle::SetInputCount_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "SetInputCount_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "SetInputCount_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::SetInputWeight_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::SetInputWeight_Injected
 // Il2CppName: SetInputWeight_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, UnityEngine::Playables::PlayableHandle&, float)>(&PlayableHandle::SetInputWeight_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, UnityEngine::Playables::PlayableHandle&, float)>(&UnityEngine::Playables::PlayableHandle::SetInputWeight_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "SetInputWeight_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "SetInputWeight_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::GetPreviousTime_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::GetPreviousTime_Injected
 // Il2CppName: GetPreviousTime_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(UnityEngine::Playables::PlayableHandle&)>(&PlayableHandle::GetPreviousTime_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(UnityEngine::Playables::PlayableHandle&)>(&UnityEngine::Playables::PlayableHandle::GetPreviousTime_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "GetPreviousTime_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "GetPreviousTime_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::SetTraversalMode_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::SetTraversalMode_Injected
 // Il2CppName: SetTraversalMode_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, UnityEngine::Playables::PlayableTraversalMode)>(&PlayableHandle::SetTraversalMode_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, UnityEngine::Playables::PlayableTraversalMode)>(&UnityEngine::Playables::PlayableHandle::SetTraversalMode_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "SetTraversalMode_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableTraversalMode>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "SetTraversalMode_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableTraversalMode>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::GetTimeWrapMode_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::GetTimeWrapMode_Injected
 // Il2CppName: GetTimeWrapMode_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::DirectorWrapMode (*)(UnityEngine::Playables::PlayableHandle&)>(&PlayableHandle::GetTimeWrapMode_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::DirectorWrapMode (*)(UnityEngine::Playables::PlayableHandle&)>(&UnityEngine::Playables::PlayableHandle::GetTimeWrapMode_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "GetTimeWrapMode_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "GetTimeWrapMode_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::SetTimeWrapMode_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::SetTimeWrapMode_Injected
 // Il2CppName: SetTimeWrapMode_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, UnityEngine::Playables::DirectorWrapMode)>(&PlayableHandle::SetTimeWrapMode_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, UnityEngine::Playables::DirectorWrapMode)>(&UnityEngine::Playables::PlayableHandle::SetTimeWrapMode_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "SetTimeWrapMode_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::DirectorWrapMode>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "SetTimeWrapMode_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::DirectorWrapMode>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::GetScriptInstance_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::GetScriptInstance_Injected
 // Il2CppName: GetScriptInstance_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(UnityEngine::Playables::PlayableHandle&)>(&PlayableHandle::GetScriptInstance_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(UnityEngine::Playables::PlayableHandle&)>(&UnityEngine::Playables::PlayableHandle::GetScriptInstance_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "GetScriptInstance_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "GetScriptInstance_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::GetInputHandle_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::GetInputHandle_Injected
 // Il2CppName: GetInputHandle_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, int, UnityEngine::Playables::PlayableHandle&)>(&PlayableHandle::GetInputHandle_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, int, UnityEngine::Playables::PlayableHandle&)>(&UnityEngine::Playables::PlayableHandle::GetInputHandle_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "GetInputHandle_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "GetInputHandle_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::SetInputWeightFromIndex_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::SetInputWeightFromIndex_Injected
 // Il2CppName: SetInputWeightFromIndex_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, int, float)>(&PlayableHandle::SetInputWeightFromIndex_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, int, float)>(&UnityEngine::Playables::PlayableHandle::SetInputWeightFromIndex_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "SetInputWeightFromIndex_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "SetInputWeightFromIndex_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::GetInputWeightFromIndex_Injected
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::GetInputWeightFromIndex_Injected
 // Il2CppName: GetInputWeightFromIndex_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Playables::PlayableHandle&, int)>(&PlayableHandle::GetInputWeightFromIndex_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Playables::PlayableHandle&, int)>(&UnityEngine::Playables::PlayableHandle::GetInputWeightFromIndex_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "GetInputWeightFromIndex_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "GetInputWeightFromIndex_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::Equals
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::Equals
 // Il2CppName: Equals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PlayableHandle::*)(::Il2CppObject*)>(&PlayableHandle::Equals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Playables::PlayableHandle::*)(::Il2CppObject*)>(&UnityEngine::Playables::PlayableHandle::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::GetHashCode
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PlayableHandle::*)()>(&PlayableHandle::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Playables::PlayableHandle::*)()>(&UnityEngine::Playables::PlayableHandle::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PlayableHandle::operator ==
+// Writing MetadataGetter for method: UnityEngine::Playables::PlayableHandle::operator ==
 // Il2CppName: op_Equality
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const UnityEngine::Playables::PlayableHandle&, const UnityEngine::Playables::PlayableHandle&)>(&PlayableHandle::operator ==)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(const UnityEngine::Playables::PlayableHandle&, const UnityEngine::Playables::PlayableHandle&)>(&UnityEngine::Playables::PlayableHandle::operator ==)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PlayableHandle), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::Playables::PlayableHandle&>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableHandle), "op_Equality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<const UnityEngine::Playables::PlayableHandle&>(), ::il2cpp_utils::ExtractIndependentType<const UnityEngine::Playables::PlayableHandle&>()});
   }
 };

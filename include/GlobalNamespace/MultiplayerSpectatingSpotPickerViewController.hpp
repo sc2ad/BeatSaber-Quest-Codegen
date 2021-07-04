@@ -83,65 +83,65 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerSpectatingSpotPickerViewController) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSpectatingSpotPickerViewController*, "", "MultiplayerSpectatingSpotPickerViewController");
-// Writing MetadataGetter for method: MultiplayerSpectatingSpotPickerViewController::Start
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::Start
 // Il2CppName: Start
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSpectatingSpotPickerViewController::*)()>(&MultiplayerSpectatingSpotPickerViewController::Start)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::*)()>(&GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerSpectatingSpotPickerViewController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSpectatingSpotPickerViewController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerSpectatingSpotPickerViewController::OnDestroy
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::OnDestroy
 // Il2CppName: OnDestroy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSpectatingSpotPickerViewController::*)()>(&MultiplayerSpectatingSpotPickerViewController::OnDestroy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::*)()>(&GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::OnDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerSpectatingSpotPickerViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSpectatingSpotPickerViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerSpectatingSpotPickerViewController::HandleSpectatingSpotDidChangeEvent
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::HandleSpectatingSpotDidChangeEvent
 // Il2CppName: HandleSpectatingSpotDidChangeEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSpectatingSpotPickerViewController::*)(GlobalNamespace::IMultiplayerSpectatingSpot*)>(&MultiplayerSpectatingSpotPickerViewController::HandleSpectatingSpotDidChangeEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::*)(GlobalNamespace::IMultiplayerSpectatingSpot*)>(&GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::HandleSpectatingSpotDidChangeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerSpectatingSpotPickerViewController*), "HandleSpectatingSpotDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSpectatingSpot*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSpectatingSpotPickerViewController*), "HandleSpectatingSpotDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSpectatingSpot*>()});
   }
 };
-// Writing MetadataGetter for method: MultiplayerSpectatingSpotPickerViewController::RefreshSpectatingSpotName
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::RefreshSpectatingSpotName
 // Il2CppName: RefreshSpectatingSpotName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSpectatingSpotPickerViewController::*)()>(&MultiplayerSpectatingSpotPickerViewController::RefreshSpectatingSpotName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::*)()>(&GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::RefreshSpectatingSpotName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerSpectatingSpotPickerViewController*), "RefreshSpectatingSpotName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSpectatingSpotPickerViewController*), "RefreshSpectatingSpotName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerSpectatingSpotPickerViewController::HandleIncButtonWasPressed
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::HandleIncButtonWasPressed
 // Il2CppName: HandleIncButtonWasPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSpectatingSpotPickerViewController::*)()>(&MultiplayerSpectatingSpotPickerViewController::HandleIncButtonWasPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::*)()>(&GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::HandleIncButtonWasPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerSpectatingSpotPickerViewController*), "HandleIncButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSpectatingSpotPickerViewController*), "HandleIncButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerSpectatingSpotPickerViewController::HandleDecButtonWasPressed
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::HandleDecButtonWasPressed
 // Il2CppName: HandleDecButtonWasPressed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSpectatingSpotPickerViewController::*)()>(&MultiplayerSpectatingSpotPickerViewController::HandleDecButtonWasPressed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::*)()>(&GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::HandleDecButtonWasPressed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerSpectatingSpotPickerViewController*), "HandleDecButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSpectatingSpotPickerViewController*), "HandleDecButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: MultiplayerSpectatingSpotPickerViewController::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSpectatingSpotPickerViewController::*)()>(&MultiplayerSpectatingSpotPickerViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::*)()>(&GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerSpectatingSpotPickerViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSpectatingSpotPickerViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MultiplayerSpectatingSpotPickerViewController::*)()>(&MultiplayerSpectatingSpotPickerViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::*)()>(&GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MultiplayerSpectatingSpotPickerViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSpectatingSpotPickerViewController*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

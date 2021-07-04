@@ -394,377 +394,377 @@ namespace UnityEngine::EventSystems {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerEventData*, "UnityEngine.EventSystems", "PointerEventData");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerEventData::InputButton, "UnityEngine.EventSystems", "PointerEventData/InputButton");
-// Writing MetadataGetter for method: PointerEventData::get_pointerEnter
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::get_pointerEnter
 // Il2CppName: get_pointerEnter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (PointerEventData::*)()>(&PointerEventData::get_pointerEnter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (UnityEngine::EventSystems::PointerEventData::*)()>(&UnityEngine::EventSystems::PointerEventData::get_pointerEnter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_pointerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "get_pointerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::set_pointerEnter
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::set_pointerEnter
 // Il2CppName: set_pointerEnter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(UnityEngine::GameObject*)>(&PointerEventData::set_pointerEnter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::PointerEventData::*)(UnityEngine::GameObject*)>(&UnityEngine::EventSystems::PointerEventData::set_pointerEnter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_pointerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "set_pointerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::get_lastPress
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::get_lastPress
 // Il2CppName: get_lastPress
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (PointerEventData::*)()>(&PointerEventData::get_lastPress)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (UnityEngine::EventSystems::PointerEventData::*)()>(&UnityEngine::EventSystems::PointerEventData::get_lastPress)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_lastPress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "get_lastPress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::set_lastPress
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::set_lastPress
 // Il2CppName: set_lastPress
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(UnityEngine::GameObject*)>(&PointerEventData::set_lastPress)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::PointerEventData::*)(UnityEngine::GameObject*)>(&UnityEngine::EventSystems::PointerEventData::set_lastPress)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_lastPress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "set_lastPress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::get_rawPointerPress
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::get_rawPointerPress
 // Il2CppName: get_rawPointerPress
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (PointerEventData::*)()>(&PointerEventData::get_rawPointerPress)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (UnityEngine::EventSystems::PointerEventData::*)()>(&UnityEngine::EventSystems::PointerEventData::get_rawPointerPress)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_rawPointerPress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "get_rawPointerPress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::set_rawPointerPress
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::set_rawPointerPress
 // Il2CppName: set_rawPointerPress
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(UnityEngine::GameObject*)>(&PointerEventData::set_rawPointerPress)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::PointerEventData::*)(UnityEngine::GameObject*)>(&UnityEngine::EventSystems::PointerEventData::set_rawPointerPress)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_rawPointerPress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "set_rawPointerPress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::get_pointerDrag
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::get_pointerDrag
 // Il2CppName: get_pointerDrag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (PointerEventData::*)()>(&PointerEventData::get_pointerDrag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (UnityEngine::EventSystems::PointerEventData::*)()>(&UnityEngine::EventSystems::PointerEventData::get_pointerDrag)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_pointerDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "get_pointerDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::set_pointerDrag
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::set_pointerDrag
 // Il2CppName: set_pointerDrag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(UnityEngine::GameObject*)>(&PointerEventData::set_pointerDrag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::PointerEventData::*)(UnityEngine::GameObject*)>(&UnityEngine::EventSystems::PointerEventData::set_pointerDrag)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_pointerDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "set_pointerDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::get_pointerCurrentRaycast
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::get_pointerCurrentRaycast
 // Il2CppName: get_pointerCurrentRaycast
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::RaycastResult (PointerEventData::*)()>(&PointerEventData::get_pointerCurrentRaycast)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::RaycastResult (UnityEngine::EventSystems::PointerEventData::*)()>(&UnityEngine::EventSystems::PointerEventData::get_pointerCurrentRaycast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_pointerCurrentRaycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "get_pointerCurrentRaycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::set_pointerCurrentRaycast
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::set_pointerCurrentRaycast
 // Il2CppName: set_pointerCurrentRaycast
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(UnityEngine::EventSystems::RaycastResult)>(&PointerEventData::set_pointerCurrentRaycast)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::PointerEventData::*)(UnityEngine::EventSystems::RaycastResult)>(&UnityEngine::EventSystems::PointerEventData::set_pointerCurrentRaycast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_pointerCurrentRaycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::RaycastResult>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "set_pointerCurrentRaycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::RaycastResult>()});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::get_pointerPressRaycast
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::get_pointerPressRaycast
 // Il2CppName: get_pointerPressRaycast
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::RaycastResult (PointerEventData::*)()>(&PointerEventData::get_pointerPressRaycast)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::RaycastResult (UnityEngine::EventSystems::PointerEventData::*)()>(&UnityEngine::EventSystems::PointerEventData::get_pointerPressRaycast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_pointerPressRaycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "get_pointerPressRaycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::set_pointerPressRaycast
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::set_pointerPressRaycast
 // Il2CppName: set_pointerPressRaycast
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(UnityEngine::EventSystems::RaycastResult)>(&PointerEventData::set_pointerPressRaycast)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::PointerEventData::*)(UnityEngine::EventSystems::RaycastResult)>(&UnityEngine::EventSystems::PointerEventData::set_pointerPressRaycast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_pointerPressRaycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::RaycastResult>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "set_pointerPressRaycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::RaycastResult>()});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::get_eligibleForClick
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::get_eligibleForClick
 // Il2CppName: get_eligibleForClick
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PointerEventData::*)()>(&PointerEventData::get_eligibleForClick)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::EventSystems::PointerEventData::*)()>(&UnityEngine::EventSystems::PointerEventData::get_eligibleForClick)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_eligibleForClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "get_eligibleForClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::set_eligibleForClick
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::set_eligibleForClick
 // Il2CppName: set_eligibleForClick
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(bool)>(&PointerEventData::set_eligibleForClick)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::PointerEventData::*)(bool)>(&UnityEngine::EventSystems::PointerEventData::set_eligibleForClick)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_eligibleForClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "set_eligibleForClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::get_pointerId
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::get_pointerId
 // Il2CppName: get_pointerId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PointerEventData::*)()>(&PointerEventData::get_pointerId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::EventSystems::PointerEventData::*)()>(&UnityEngine::EventSystems::PointerEventData::get_pointerId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_pointerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "get_pointerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::set_pointerId
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::set_pointerId
 // Il2CppName: set_pointerId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(int)>(&PointerEventData::set_pointerId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::PointerEventData::*)(int)>(&UnityEngine::EventSystems::PointerEventData::set_pointerId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_pointerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "set_pointerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::get_position
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::get_position
 // Il2CppName: get_position
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (PointerEventData::*)()>(&PointerEventData::get_position)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::EventSystems::PointerEventData::*)()>(&UnityEngine::EventSystems::PointerEventData::get_position)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::set_position
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::set_position
 // Il2CppName: set_position
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(UnityEngine::Vector2)>(&PointerEventData::set_position)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::PointerEventData::*)(UnityEngine::Vector2)>(&UnityEngine::EventSystems::PointerEventData::set_position)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "set_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::get_delta
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::get_delta
 // Il2CppName: get_delta
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (PointerEventData::*)()>(&PointerEventData::get_delta)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::EventSystems::PointerEventData::*)()>(&UnityEngine::EventSystems::PointerEventData::get_delta)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_delta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "get_delta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::set_delta
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::set_delta
 // Il2CppName: set_delta
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(UnityEngine::Vector2)>(&PointerEventData::set_delta)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::PointerEventData::*)(UnityEngine::Vector2)>(&UnityEngine::EventSystems::PointerEventData::set_delta)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_delta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "set_delta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::get_pressPosition
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::get_pressPosition
 // Il2CppName: get_pressPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (PointerEventData::*)()>(&PointerEventData::get_pressPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::EventSystems::PointerEventData::*)()>(&UnityEngine::EventSystems::PointerEventData::get_pressPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_pressPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "get_pressPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::set_pressPosition
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::set_pressPosition
 // Il2CppName: set_pressPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(UnityEngine::Vector2)>(&PointerEventData::set_pressPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::PointerEventData::*)(UnityEngine::Vector2)>(&UnityEngine::EventSystems::PointerEventData::set_pressPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_pressPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "set_pressPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::get_worldPosition
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::get_worldPosition
 // Il2CppName: get_worldPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (PointerEventData::*)()>(&PointerEventData::get_worldPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::EventSystems::PointerEventData::*)()>(&UnityEngine::EventSystems::PointerEventData::get_worldPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_worldPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "get_worldPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::set_worldPosition
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::set_worldPosition
 // Il2CppName: set_worldPosition
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(UnityEngine::Vector3)>(&PointerEventData::set_worldPosition)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::PointerEventData::*)(UnityEngine::Vector3)>(&UnityEngine::EventSystems::PointerEventData::set_worldPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_worldPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "set_worldPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::get_worldNormal
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::get_worldNormal
 // Il2CppName: get_worldNormal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (PointerEventData::*)()>(&PointerEventData::get_worldNormal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::EventSystems::PointerEventData::*)()>(&UnityEngine::EventSystems::PointerEventData::get_worldNormal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_worldNormal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "get_worldNormal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::set_worldNormal
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::set_worldNormal
 // Il2CppName: set_worldNormal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(UnityEngine::Vector3)>(&PointerEventData::set_worldNormal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::PointerEventData::*)(UnityEngine::Vector3)>(&UnityEngine::EventSystems::PointerEventData::set_worldNormal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_worldNormal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "set_worldNormal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::get_clickTime
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::get_clickTime
 // Il2CppName: get_clickTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (PointerEventData::*)()>(&PointerEventData::get_clickTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::EventSystems::PointerEventData::*)()>(&UnityEngine::EventSystems::PointerEventData::get_clickTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_clickTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "get_clickTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::set_clickTime
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::set_clickTime
 // Il2CppName: set_clickTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(float)>(&PointerEventData::set_clickTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::PointerEventData::*)(float)>(&UnityEngine::EventSystems::PointerEventData::set_clickTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_clickTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "set_clickTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::get_clickCount
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::get_clickCount
 // Il2CppName: get_clickCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (PointerEventData::*)()>(&PointerEventData::get_clickCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::EventSystems::PointerEventData::*)()>(&UnityEngine::EventSystems::PointerEventData::get_clickCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_clickCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "get_clickCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::set_clickCount
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::set_clickCount
 // Il2CppName: set_clickCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(int)>(&PointerEventData::set_clickCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::PointerEventData::*)(int)>(&UnityEngine::EventSystems::PointerEventData::set_clickCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_clickCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "set_clickCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::get_scrollDelta
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::get_scrollDelta
 // Il2CppName: get_scrollDelta
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (PointerEventData::*)()>(&PointerEventData::get_scrollDelta)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::EventSystems::PointerEventData::*)()>(&UnityEngine::EventSystems::PointerEventData::get_scrollDelta)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_scrollDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "get_scrollDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::set_scrollDelta
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::set_scrollDelta
 // Il2CppName: set_scrollDelta
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(UnityEngine::Vector2)>(&PointerEventData::set_scrollDelta)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::PointerEventData::*)(UnityEngine::Vector2)>(&UnityEngine::EventSystems::PointerEventData::set_scrollDelta)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_scrollDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "set_scrollDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::get_useDragThreshold
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::get_useDragThreshold
 // Il2CppName: get_useDragThreshold
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PointerEventData::*)()>(&PointerEventData::get_useDragThreshold)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::EventSystems::PointerEventData::*)()>(&UnityEngine::EventSystems::PointerEventData::get_useDragThreshold)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_useDragThreshold", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "get_useDragThreshold", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::set_useDragThreshold
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::set_useDragThreshold
 // Il2CppName: set_useDragThreshold
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(bool)>(&PointerEventData::set_useDragThreshold)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::PointerEventData::*)(bool)>(&UnityEngine::EventSystems::PointerEventData::set_useDragThreshold)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_useDragThreshold", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "set_useDragThreshold", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::get_dragging
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::get_dragging
 // Il2CppName: get_dragging
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PointerEventData::*)()>(&PointerEventData::get_dragging)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::EventSystems::PointerEventData::*)()>(&UnityEngine::EventSystems::PointerEventData::get_dragging)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_dragging", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "get_dragging", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::set_dragging
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::set_dragging
 // Il2CppName: set_dragging
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(bool)>(&PointerEventData::set_dragging)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::PointerEventData::*)(bool)>(&UnityEngine::EventSystems::PointerEventData::set_dragging)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_dragging", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "set_dragging", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::get_button
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::get_button
 // Il2CppName: get_button
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::PointerEventData::InputButton (PointerEventData::*)()>(&PointerEventData::get_button)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::PointerEventData::InputButton (UnityEngine::EventSystems::PointerEventData::*)()>(&UnityEngine::EventSystems::PointerEventData::get_button)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "get_button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::set_button
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::set_button
 // Il2CppName: set_button
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(UnityEngine::EventSystems::PointerEventData::InputButton)>(&PointerEventData::set_button)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::PointerEventData::*)(UnityEngine::EventSystems::PointerEventData::InputButton)>(&UnityEngine::EventSystems::PointerEventData::set_button)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData::InputButton>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "set_button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData::InputButton>()});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::IsPointerMoving
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::IsPointerMoving
 // Il2CppName: IsPointerMoving
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PointerEventData::*)()>(&PointerEventData::IsPointerMoving)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::EventSystems::PointerEventData::*)()>(&UnityEngine::EventSystems::PointerEventData::IsPointerMoving)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "IsPointerMoving", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "IsPointerMoving", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::IsScrolling
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::IsScrolling
 // Il2CppName: IsScrolling
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (PointerEventData::*)()>(&PointerEventData::IsScrolling)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::EventSystems::PointerEventData::*)()>(&UnityEngine::EventSystems::PointerEventData::IsScrolling)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "IsScrolling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "IsScrolling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::get_enterEventCamera
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::get_enterEventCamera
 // Il2CppName: get_enterEventCamera
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (PointerEventData::*)()>(&PointerEventData::get_enterEventCamera)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (UnityEngine::EventSystems::PointerEventData::*)()>(&UnityEngine::EventSystems::PointerEventData::get_enterEventCamera)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_enterEventCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "get_enterEventCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::get_pressEventCamera
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::get_pressEventCamera
 // Il2CppName: get_pressEventCamera
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (PointerEventData::*)()>(&PointerEventData::get_pressEventCamera)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (UnityEngine::EventSystems::PointerEventData::*)()>(&UnityEngine::EventSystems::PointerEventData::get_pressEventCamera)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_pressEventCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "get_pressEventCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::get_pointerPress
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::get_pointerPress
 // Il2CppName: get_pointerPress
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (PointerEventData::*)()>(&PointerEventData::get_pointerPress)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (UnityEngine::EventSystems::PointerEventData::*)()>(&UnityEngine::EventSystems::PointerEventData::get_pointerPress)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "get_pointerPress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "get_pointerPress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::set_pointerPress
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::set_pointerPress
 // Il2CppName: set_pointerPress
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(UnityEngine::GameObject*)>(&PointerEventData::set_pointerPress)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::PointerEventData::*)(UnityEngine::GameObject*)>(&UnityEngine::EventSystems::PointerEventData::set_pointerPress)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "set_pointerPress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "set_pointerPress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::New_ctor
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(UnityEngine::EventSystems::EventSystem*)>(&PointerEventData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::PointerEventData::*)(UnityEngine::EventSystems::EventSystem*)>(&UnityEngine::EventSystems::PointerEventData::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::EventSystem*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::EventSystem*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (PointerEventData::*)(UnityEngine::EventSystems::EventSystem*)>(&PointerEventData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::PointerEventData::*)(UnityEngine::EventSystems::EventSystem*)>(&UnityEngine::EventSystems::PointerEventData::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::EventSystem*>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::EventSystem*>()});
   }
 };
-// Writing MetadataGetter for method: PointerEventData::ToString
+// Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (PointerEventData::*)()>(&PointerEventData::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::EventSystems::PointerEventData::*)()>(&UnityEngine::EventSystems::PointerEventData::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(PointerEventData*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventData*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

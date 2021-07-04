@@ -29,19 +29,19 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioListener*, "UnityEngine", "AudioListener");
-// Writing MetadataGetter for method: AudioListener::get_pause
+// Writing MetadataGetter for method: UnityEngine::AudioListener::get_pause
 // Il2CppName: get_pause
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&AudioListener::get_pause)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::AudioListener::get_pause)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioListener*), "get_pause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioListener*), "get_pause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: AudioListener::set_pause
+// Writing MetadataGetter for method: UnityEngine::AudioListener::set_pause
 // Il2CppName: set_pause
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&AudioListener::set_pause)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&UnityEngine::AudioListener::set_pause)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(AudioListener*), "set_pause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioListener*), "set_pause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
   }
 };

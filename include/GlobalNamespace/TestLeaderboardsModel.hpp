@@ -100,57 +100,57 @@ namespace GlobalNamespace {
   static_assert(sizeof(TestLeaderboardsModel) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestLeaderboardsModel*, "", "TestLeaderboardsModel");
-// Writing MetadataGetter for method: TestLeaderboardsModel::add_scoreForLeaderboardDidUploadEvent
+// Writing MetadataGetter for method: GlobalNamespace::TestLeaderboardsModel::add_scoreForLeaderboardDidUploadEvent
 // Il2CppName: add_scoreForLeaderboardDidUploadEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestLeaderboardsModel::*)(System::Action_1<::Il2CppString*>*)>(&TestLeaderboardsModel::add_scoreForLeaderboardDidUploadEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TestLeaderboardsModel::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::TestLeaderboardsModel::add_scoreForLeaderboardDidUploadEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestLeaderboardsModel*), "add_scoreForLeaderboardDidUploadEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TestLeaderboardsModel*), "add_scoreForLeaderboardDidUploadEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: TestLeaderboardsModel::remove_scoreForLeaderboardDidUploadEvent
+// Writing MetadataGetter for method: GlobalNamespace::TestLeaderboardsModel::remove_scoreForLeaderboardDidUploadEvent
 // Il2CppName: remove_scoreForLeaderboardDidUploadEvent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestLeaderboardsModel::*)(System::Action_1<::Il2CppString*>*)>(&TestLeaderboardsModel::remove_scoreForLeaderboardDidUploadEvent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TestLeaderboardsModel::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::TestLeaderboardsModel::remove_scoreForLeaderboardDidUploadEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestLeaderboardsModel*), "remove_scoreForLeaderboardDidUploadEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TestLeaderboardsModel*), "remove_scoreForLeaderboardDidUploadEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>()});
   }
 };
-// Writing MetadataGetter for method: TestLeaderboardsModel::GetLeaderboardId
+// Writing MetadataGetter for method: GlobalNamespace::TestLeaderboardsModel::GetLeaderboardId
 // Il2CppName: GetLeaderboardId
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TestLeaderboardsModel::*)(GlobalNamespace::IDifficultyBeatmap*)>(&TestLeaderboardsModel::GetLeaderboardId)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::TestLeaderboardsModel::*)(GlobalNamespace::IDifficultyBeatmap*)>(&GlobalNamespace::TestLeaderboardsModel::GetLeaderboardId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestLeaderboardsModel*), "GetLeaderboardId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TestLeaderboardsModel*), "GetLeaderboardId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>()});
   }
 };
-// Writing MetadataGetter for method: TestLeaderboardsModel::GetLeaderboardEntriesAsync
+// Writing MetadataGetter for method: GlobalNamespace::TestLeaderboardsModel::GetLeaderboardEntriesAsync
 // Il2CppName: GetLeaderboardEntriesAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<OnlineServices::GetLeaderboardEntriesResult>* (TestLeaderboardsModel::*)(OnlineServices::GetLeaderboardFilterData, System::Threading::CancellationToken)>(&TestLeaderboardsModel::GetLeaderboardEntriesAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<OnlineServices::GetLeaderboardEntriesResult>* (GlobalNamespace::TestLeaderboardsModel::*)(OnlineServices::GetLeaderboardFilterData, System::Threading::CancellationToken)>(&GlobalNamespace::TestLeaderboardsModel::GetLeaderboardEntriesAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestLeaderboardsModel*), "GetLeaderboardEntriesAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OnlineServices::GetLeaderboardFilterData>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TestLeaderboardsModel*), "GetLeaderboardEntriesAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OnlineServices::GetLeaderboardFilterData>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: TestLeaderboardsModel::SendLevelScoreResultAsync
+// Writing MetadataGetter for method: GlobalNamespace::TestLeaderboardsModel::SendLevelScoreResultAsync
 // Il2CppName: SendLevelScoreResultAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<OnlineServices::SendLeaderboardEntryResult>* (TestLeaderboardsModel::*)(OnlineServices::LevelScoreResultsData, System::Threading::CancellationToken)>(&TestLeaderboardsModel::SendLevelScoreResultAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<OnlineServices::SendLeaderboardEntryResult>* (GlobalNamespace::TestLeaderboardsModel::*)(OnlineServices::LevelScoreResultsData, System::Threading::CancellationToken)>(&GlobalNamespace::TestLeaderboardsModel::SendLevelScoreResultAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestLeaderboardsModel*), "SendLevelScoreResultAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OnlineServices::LevelScoreResultsData>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TestLeaderboardsModel*), "SendLevelScoreResultAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OnlineServices::LevelScoreResultsData>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
   }
 };
-// Writing MetadataGetter for method: TestLeaderboardsModel::New_ctor
+// Writing MetadataGetter for method: GlobalNamespace::TestLeaderboardsModel::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestLeaderboardsModel::*)()>(&TestLeaderboardsModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TestLeaderboardsModel::*)()>(&GlobalNamespace::TestLeaderboardsModel::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestLeaderboardsModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TestLeaderboardsModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TestLeaderboardsModel::*)()>(&TestLeaderboardsModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TestLeaderboardsModel::*)()>(&GlobalNamespace::TestLeaderboardsModel::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TestLeaderboardsModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TestLeaderboardsModel*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

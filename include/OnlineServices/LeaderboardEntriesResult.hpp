@@ -81,57 +81,57 @@ namespace OnlineServices {
   static_assert(sizeof(LeaderboardEntriesResult) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LeaderboardEntriesResult*, "OnlineServices", "LeaderboardEntriesResult");
-// Writing MetadataGetter for method: LeaderboardEntriesResult::New_ctor
+// Writing MetadataGetter for method: OnlineServices::LeaderboardEntriesResult::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardEntriesResult::*)(::Array<OnlineServices::LeaderboardEntryData*>*, int, bool, ::Il2CppString*)>(&LeaderboardEntriesResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::LeaderboardEntriesResult::*)(::Array<OnlineServices::LeaderboardEntryData*>*, int, bool, ::Il2CppString*)>(&OnlineServices::LeaderboardEntriesResult::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardEntriesResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OnlineServices::LeaderboardEntryData*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::LeaderboardEntriesResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OnlineServices::LeaderboardEntryData*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LeaderboardEntriesResult::*)(::Array<OnlineServices::LeaderboardEntryData*>*, int, bool, ::Il2CppString*)>(&LeaderboardEntriesResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::LeaderboardEntriesResult::*)(::Array<OnlineServices::LeaderboardEntryData*>*, int, bool, ::Il2CppString*)>(&OnlineServices::LeaderboardEntriesResult::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardEntriesResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OnlineServices::LeaderboardEntryData*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::LeaderboardEntriesResult*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<OnlineServices::LeaderboardEntryData*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: LeaderboardEntriesResult::ErrorResult
+// Writing MetadataGetter for method: OnlineServices::LeaderboardEntriesResult::ErrorResult
 // Il2CppName: ErrorResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::LeaderboardEntriesResult* (*)(::Il2CppString*)>(&LeaderboardEntriesResult::ErrorResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::LeaderboardEntriesResult* (*)(::Il2CppString*)>(&OnlineServices::LeaderboardEntriesResult::ErrorResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardEntriesResult*), "ErrorResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::LeaderboardEntriesResult*), "ErrorResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
   }
 };
-// Writing MetadataGetter for method: LeaderboardEntriesResult::get_notInicializedError
+// Writing MetadataGetter for method: OnlineServices::LeaderboardEntriesResult::get_notInicializedError
 // Il2CppName: get_notInicializedError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::LeaderboardEntriesResult* (*)()>(&LeaderboardEntriesResult::get_notInicializedError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::LeaderboardEntriesResult* (*)()>(&OnlineServices::LeaderboardEntriesResult::get_notInicializedError)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardEntriesResult*), "get_notInicializedError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::LeaderboardEntriesResult*), "get_notInicializedError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LeaderboardEntriesResult::get_somethingWentWrongError
+// Writing MetadataGetter for method: OnlineServices::LeaderboardEntriesResult::get_somethingWentWrongError
 // Il2CppName: get_somethingWentWrongError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::LeaderboardEntriesResult* (*)()>(&LeaderboardEntriesResult::get_somethingWentWrongError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::LeaderboardEntriesResult* (*)()>(&OnlineServices::LeaderboardEntriesResult::get_somethingWentWrongError)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardEntriesResult*), "get_somethingWentWrongError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::LeaderboardEntriesResult*), "get_somethingWentWrongError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LeaderboardEntriesResult::get_onlineServicesUnavailableError
+// Writing MetadataGetter for method: OnlineServices::LeaderboardEntriesResult::get_onlineServicesUnavailableError
 // Il2CppName: get_onlineServicesUnavailableError
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::LeaderboardEntriesResult* (*)()>(&LeaderboardEntriesResult::get_onlineServicesUnavailableError)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::LeaderboardEntriesResult* (*)()>(&OnlineServices::LeaderboardEntriesResult::get_onlineServicesUnavailableError)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardEntriesResult*), "get_onlineServicesUnavailableError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::LeaderboardEntriesResult*), "get_onlineServicesUnavailableError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: LeaderboardEntriesResult::FromGetLeaderboardEntriesResult
+// Writing MetadataGetter for method: OnlineServices::LeaderboardEntriesResult::FromGetLeaderboardEntriesResult
 // Il2CppName: FromGetLeaderboardEntriesResult
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::LeaderboardEntriesResult* (*)(OnlineServices::GetLeaderboardEntriesResult)>(&LeaderboardEntriesResult::FromGetLeaderboardEntriesResult)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::LeaderboardEntriesResult* (*)(OnlineServices::GetLeaderboardEntriesResult)>(&OnlineServices::LeaderboardEntriesResult::FromGetLeaderboardEntriesResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LeaderboardEntriesResult*), "FromGetLeaderboardEntriesResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OnlineServices::GetLeaderboardEntriesResult>()});
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::LeaderboardEntriesResult*), "FromGetLeaderboardEntriesResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OnlineServices::GetLeaderboardEntriesResult>()});
   }
 };

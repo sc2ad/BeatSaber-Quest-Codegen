@@ -146,57 +146,57 @@ namespace System::Net {
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::TimerThread::TimerNode*, "System.Net", "TimerThread/TimerNode");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::TimerThread::TimerNode::TimerState, "System.Net", "TimerThread/TimerNode/TimerState");
-// Writing MetadataGetter for method: TimerThread::TimerNode::get_Next
+// Writing MetadataGetter for method: System::Net::TimerThread::TimerNode::get_Next
 // Il2CppName: get_Next
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::TimerThread::TimerNode* (TimerThread::TimerNode::*)()>(&TimerThread::TimerNode::get_Next)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::TimerThread::TimerNode* (System::Net::TimerThread::TimerNode::*)()>(&System::Net::TimerThread::TimerNode::get_Next)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimerThread::TimerNode*), "get_Next", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::TimerThread::TimerNode*), "get_Next", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimerThread::TimerNode::set_Next
+// Writing MetadataGetter for method: System::Net::TimerThread::TimerNode::set_Next
 // Il2CppName: set_Next
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimerThread::TimerNode::*)(System::Net::TimerThread::TimerNode*)>(&TimerThread::TimerNode::set_Next)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::TimerThread::TimerNode::*)(System::Net::TimerThread::TimerNode*)>(&System::Net::TimerThread::TimerNode::set_Next)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimerThread::TimerNode*), "set_Next", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::TimerThread::TimerNode*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::TimerThread::TimerNode*), "set_Next", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::TimerThread::TimerNode*>()});
   }
 };
-// Writing MetadataGetter for method: TimerThread::TimerNode::get_Prev
+// Writing MetadataGetter for method: System::Net::TimerThread::TimerNode::get_Prev
 // Il2CppName: get_Prev
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::TimerThread::TimerNode* (TimerThread::TimerNode::*)()>(&TimerThread::TimerNode::get_Prev)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::TimerThread::TimerNode* (System::Net::TimerThread::TimerNode::*)()>(&System::Net::TimerThread::TimerNode::get_Prev)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimerThread::TimerNode*), "get_Prev", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::TimerThread::TimerNode*), "get_Prev", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimerThread::TimerNode::set_Prev
+// Writing MetadataGetter for method: System::Net::TimerThread::TimerNode::set_Prev
 // Il2CppName: set_Prev
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimerThread::TimerNode::*)(System::Net::TimerThread::TimerNode*)>(&TimerThread::TimerNode::set_Prev)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::TimerThread::TimerNode::*)(System::Net::TimerThread::TimerNode*)>(&System::Net::TimerThread::TimerNode::set_Prev)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimerThread::TimerNode*), "set_Prev", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::TimerThread::TimerNode*>()});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::TimerThread::TimerNode*), "set_Prev", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::TimerThread::TimerNode*>()});
   }
 };
-// Writing MetadataGetter for method: TimerThread::TimerNode::New_ctor
+// Writing MetadataGetter for method: System::Net::TimerThread::TimerNode::New_ctor
 // Il2CppName: .ctor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimerThread::TimerNode::*)()>(&TimerThread::TimerNode::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::TimerThread::TimerNode::*)()>(&System::Net::TimerThread::TimerNode::New_ctor<::il2cpp_utils::CreationType::Temporary>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimerThread::TimerNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::TimerThread::TimerNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TimerThread::TimerNode::*)()>(&TimerThread::TimerNode::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::TimerThread::TimerNode::*)()>(&System::Net::TimerThread::TimerNode::New_ctor<::il2cpp_utils::CreationType::Manual>)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimerThread::TimerNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::TimerThread::TimerNode*), ".ctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
-// Writing MetadataGetter for method: TimerThread::TimerNode::Cancel
+// Writing MetadataGetter for method: System::Net::TimerThread::TimerNode::Cancel
 // Il2CppName: Cancel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TimerThread::TimerNode::*)()>(&TimerThread::TimerNode::Cancel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::TimerThread::TimerNode::*)()>(&System::Net::TimerThread::TimerNode::Cancel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TimerThread::TimerNode*), "Cancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
+    return ::il2cpp_utils::FindMethod(classof(System::Net::TimerThread::TimerNode*), "Cancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
